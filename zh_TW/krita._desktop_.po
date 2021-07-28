@@ -1,0 +1,594 @@
+# translation of desktop_koffice.po to Chinese Traditional
+# traditional Chinese translation for KDE desktop.
+# Copyright (C) 2001-2002, 2006, 2007, 2008 Free Software Foundation, Inc.
+#
+# AceLan <acelan@kde.linux.org.tw>, 2001.
+# Kenduest Lee <kenduest@i18n.linux.org.tw>, 2001.
+# Calvin Lin <armin.lin@msa.hinet.net>, 2002.
+# Yuan-Chen Cheng <ycheng@slat.org>, 2002.
+# Zhu Dingjie <alastor@alastor.ath.cx>, 2002.
+# Abel Cheung <maddog@linux.org.hk>, 2002.
+# Anthony Fok <anthony@thizlinux.com>, 2002.
+# ChaoHsiung Liao <pesder@seed.net.tw>, 2002.
+# Ben Wu <hpwu@redhat.com>, 2002.
+# Frank Weng (a.k.a. Franklin) <franklin@goodhorse.idv.tw>, 2009, 2010.
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2010, 2011, 2012.
+# pan93412 <pan93412@gmail.com>, 2018, 2019, 2020.
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2006, 2007, 2008, 2009, 2010.
+# Alvin <alvin@alvinhc.com>, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: desktop_koffice\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-07-20 00:26+0000\n"
+"PO-Revision-Date: 2021-06-27 18:11+0800\n"
+"Last-Translator: Alvin <alvin@alvinhc.com>\n"
+"Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 21.04.1\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: krita/data/paintoppresets/Digital.tag:3
+msgctxt "Name"
+msgid "Digital"
+msgstr "數位"
+
+#: krita/data/paintoppresets/Digital.tag:37
+msgctxt "Comment"
+msgid "Brush presets with a digital look and feel."
+msgstr "有數位化感覺的筆刷預設。"
+
+#: krita/data/paintoppresets/Erasers.tag:4
+msgctxt "Name"
+msgid "Erasers"
+msgstr "橡皮擦"
+
+#: krita/data/paintoppresets/Erasers.tag:27
+msgctxt "Comment"
+msgid "Eraser Brush Presets"
+msgstr "擦除用筆刷預設"
+
+#: krita/data/paintoppresets/Favorites.tag:4
+msgctxt "Name"
+msgid "★ My Favorites"
+msgstr "★ 我的最愛"
+
+#: krita/data/paintoppresets/Favorites.tag:26
+msgctxt "Comment"
+msgid "Your favorite brush presets"
+msgstr "你最常用的筆刷預設"
+
+#: krita/data/paintoppresets/FX.tag:4
+msgctxt "Name"
+msgid "FX"
+msgstr "特效"
+
+#: krita/data/paintoppresets/FX.tag:26
+msgctxt "Comment"
+msgid "Special Effects.kpp"
+msgstr "Special Effects.kpp"
+
+#: krita/data/paintoppresets/Ink.tag:4
+msgctxt "Name"
+msgid "Ink"
+msgstr "上墨"
+
+#: krita/data/paintoppresets/Ink.tag:26
+msgctxt "Comment"
+msgid "Inking Brush Presets"
+msgstr "上墨用筆刷預設"
+
+#: krita/data/paintoppresets/Paint.tag:4
+msgctxt "Name"
+msgid "Paint"
+msgstr "塗油"
+
+#: krita/data/paintoppresets/Paint.tag:26
+msgctxt "Comment"
+msgid "Paint Brushes"
+msgstr "顏料塗油筆刷"
+
+#: krita/data/paintoppresets/Pixel_Art.tag:4
+msgctxt "Name"
+msgid "Pixel Art"
+msgstr "像素畫"
+
+#: krita/data/paintoppresets/Pixel_Art.tag:24
+msgctxt "Comment"
+msgid "Presets for working with individual pixels"
+msgstr "對個別像素操作的筆刷預設"
+
+#: krita/data/paintoppresets/Sketch.tag:4
+msgctxt "Name"
+msgid "Sketch"
+msgstr "草圖"
+
+#: krita/data/paintoppresets/Sketch.tag:26
+msgctxt "Comment"
+msgid "Sketching brush presets"
+msgstr "草圖用筆刷預設"
+
+#: krita/data/paintoppresets/Textures.tag:4
+msgctxt "Name"
+msgid "Textures"
+msgstr "紋理"
+
+#: krita/data/paintoppresets/Textures.tag:26
+msgctxt "Comment"
+msgid "Textured Brush Presets"
+msgstr "帶紋理的筆刷預設"
+
+#: krita/data/templates/animation/Anim-Jp-EN.desktop:5
+msgctxt "Name"
+msgid "Animation-Japanese-En"
+msgstr "日本動畫 (En)"
+
+#: krita/data/templates/animation/Anim-Jp-JP.desktop:5
+msgctxt "Name"
+msgid "Animation-Japanese-JP"
+msgstr "日本動畫 (JP)"
+
+#: krita/data/templates/animation/.directory:2
+msgctxt "Name"
+msgid "Animation Templates"
+msgstr "動畫範本"
+
+#: krita/data/templates/comics/a4_waffle_grid.desktop:5
+msgctxt "Name"
+msgid "waffle-iron grid"
+msgstr "格仔餅機格線"
+
+#: krita/data/templates/comics/a4_waffle_grid.desktop:41
+msgctxt "Comment"
+msgid "300 dpi, A4 waffle-iron grid comic page with ink and color layers"
+msgstr "300 dpi，A4 大小的烘餅 / 格仔餅鐵模狀的格線，有墨水與顏色圖層"
+
+#: krita/data/templates/comics/BD-EuroTemplate.desktop:5
+msgctxt "Name"
+msgid "European BD template"
+msgstr "歐洲風漫畫範本"
+
+#: krita/data/templates/comics/BD-EuroTemplate.desktop:45
+msgctxt "Comment"
+msgid "template for European BD-style comics"
+msgstr "歐洲 BD (bande dessinée) 風格的連環漫畫範本"
+
+#: krita/data/templates/comics/Comics-USTemplate.desktop:5
+msgctxt "Name"
+msgid "US-style comics template"
+msgstr "美式漫畫範本"
+
+#: krita/data/templates/comics/Comics-USTemplate.desktop:46
+msgctxt "Comment"
+msgid "template for US-style comics"
+msgstr "美式風格的連環漫畫範本"
+
+#: krita/data/templates/comics/.directory:2
+msgctxt "Name"
+msgid "Comic Templates"
+msgstr "漫畫範本"
+
+#: krita/data/templates/comics/Manga-JpTemplate.desktop:5
+msgctxt "Name"
+msgid "Manga template"
+msgstr "日本漫畫範本"
+
+#: krita/data/templates/comics/Manga-JpTemplate.desktop:47
+msgctxt "Comment"
+msgid "template for Japanese Manga-style comics"
+msgstr "日本漫畫 (manga) 風格的連環漫畫範本"
+
+#: krita/data/templates/design/Designcinema16_10_2484x1200_96dpiRGB_8bit_.desktop:3
+msgctxt "Name"
+msgid "Design cinema 16:10 [ 2484x1200 , 96dpi RGB , 8bit ]"
+msgstr "設計電影院 16:10 [ 2484x1200 , 96dpi RGB , 8bit ]"
+
+#: krita/data/templates/design/Designcinema2.39_1_2484x1040_96dpiRGB_8bit_.desktop:3
+msgctxt "Name"
+msgid "Design cinema 2.39:1 [ 2484x1040 , 96dpi RGB , 8bit ]"
+msgstr "設計電影院 2.39:1 [ 2484x1040 , 96dpi RGB , 8bit ]"
+
+#: krita/data/templates/design/DesignpresentationA3Landscape_4960x3508_300dpiRGB_8bit_.desktop:3
+msgctxt "Name"
+msgid "Design presentation A3 Landscape [ 4960x3508 , 300dpi RGB , 8bit ]"
+msgstr "設計圖像 A3 風景畫 [ 4960x3508 , 300dpi RGB , 8bit ]"
+
+#: krita/data/templates/design/DesignpresentationA4portrait_2480x3508,300dpiRGB_8bit_.desktop:3
+#: krita/data/templates/design/DesignpresentationA4portrait_2480x3508_300dpiRGB_8bit_.desktop:3
+msgctxt "Name"
+msgid "Design presentation A4 portrait [ 2480x3508 , 300dpi RGB , 8bit ]"
+msgstr "設計圖像 A4 肖像 [ 2480x3508 , 300dpi RGB , 8bit ]"
+
+#: krita/data/templates/design/Designscreen4_3_2250x1680_96dpiRGB_8bit_.desktop:3
+msgctxt "Name"
+msgid "Design screen 4:3 [ 2250x1680 , 96dpi RGB , 8bit ]"
+msgstr "設計螢幕 4:3 [ 2250x1680 , 96dpi RGB , 8bit ]"
+
+#: krita/data/templates/design/.directory:2
+msgctxt "Name"
+msgid "Design Templates"
+msgstr "設計範本"
+
+#: krita/data/templates/design/web_design.desktop:3
+msgctxt "Name"
+msgid "Web Design [ 2160x1440 , 72ppi RGB , 8bit ]"
+msgstr "網頁設計 [ 2160x1440 , 72ppi RGB , 8bit ]"
+
+#: krita/data/templates/dslr/Canon_550D_5184x3456.desktop:3
+msgctxt "Name"
+msgid "Canon_550D_5184x3456"
+msgstr "Canon_550D_5184x3456"
+
+#: krita/data/templates/dslr/Canon_5Dmk3_5760x3840.desktop:3
+msgctxt "Name"
+msgid "Canon_5Dmk3_5760x3840"
+msgstr "Canon_5Dmk3_5760x3840"
+
+#: krita/data/templates/dslr/.directory:2
+msgctxt "Name"
+msgid "DSLR Templates"
+msgstr "數位單眼 / 單鏡反光相機範本"
+
+#: krita/data/templates/dslr/Nikon_D3000_3872x2592.desktop:3
+msgctxt "Name"
+msgid "Nikon_D3000_3872x2592"
+msgstr "Nikon_D3000_3872x2592"
+
+#: krita/data/templates/dslr/Nikon_D5000_4288x2848.desktop:3
+msgctxt "Name"
+msgid "Nikon_D5000_4288x2848"
+msgstr "Nikon_D5000_4288x2848"
+
+#: krita/data/templates/dslr/Nikon_D7000_4928x3264.desktop:3
+msgctxt "Name"
+msgid "Nikon_D7000_4928x3264"
+msgstr "Nikon_D7000_4928x3264"
+
+#: krita/data/templates/texture/.directory:2
+msgctxt "Name"
+msgid "Texture Templates"
+msgstr "紋理範本"
+
+#: krita/data/templates/texture/Texture1024x10248bitsrgb.desktop:3
+msgctxt "Name"
+msgid "Texture 1024x1024 8bit srgb"
+msgstr "紋理 1024x1024 8位元 srgb"
+
+#: krita/data/templates/texture/Texture1k32bitscalar.desktop:3
+msgctxt "Name"
+msgid "Texture 1k 32bit scalar"
+msgstr "紋理 1k 32位元 scalar"
+
+#: krita/data/templates/texture/Texture1k8bitsrgb.desktop:3
+msgctxt "Name"
+msgid "Texture 1k 8bit srgb"
+msgstr "紋理 1k 8位元 srgb"
+
+#: krita/data/templates/texture/Texture2048x20488bitsrgb.desktop:3
+msgctxt "Name"
+msgid "Texture 2048x2048 8bit srgb"
+msgstr "紋理 2048x2048 8位元 srgb"
+
+#: krita/data/templates/texture/Texture256x2568bitsrgb.desktop:3
+msgctxt "Name"
+msgid "Texture 256x256 8bit srgb"
+msgstr "紋理 256x256 8位元 srgb"
+
+#: krita/data/templates/texture/Texture2k32bitscalar.desktop:3
+msgctxt "Name"
+msgid "Texture 2k 32bit scalar"
+msgstr "紋理 2k 32位元 scalar"
+
+#: krita/data/templates/texture/Texture2k8bitsrgb.desktop:3
+msgctxt "Name"
+msgid "Texture 2k 8bit srgb"
+msgstr "紋理 2k 8位元 srgb"
+
+#: krita/data/templates/texture/Texture4096x40968bitsrgb.desktop:3
+msgctxt "Name"
+msgid "Texture 4096x4096 8bit srgb"
+msgstr "紋理 4096x4096 8位元 srgb"
+
+#: krita/data/templates/texture/Texture4k32bitscalar.desktop:3
+msgctxt "Name"
+msgid "Texture 4k 32bit scalar"
+msgstr "紋理 4k 32位元 scalar"
+
+#: krita/data/templates/texture/Texture4k8bitsrgb.desktop:3
+msgctxt "Name"
+msgid "Texture 4k 8bit srgb"
+msgstr "紋理 4k 8位元 srgb"
+
+#: krita/data/templates/texture/Texture512x5128bitsrgb.desktop:3
+msgctxt "Name"
+msgid "Texture 512x512 8bit srgb"
+msgstr "紋理 512x512 8位元 srgb"
+
+#: krita/data/templates/texture/Texture8k32bitscalar.desktop:3
+msgctxt "Name"
+msgid "Texture 8k 32bit scalar"
+msgstr "紋理 8k 32位元 scalar"
+
+#: krita/data/templates/texture/Texture8k8bitsrgb.desktop:3
+msgctxt "Name"
+msgid "Texture 8k 8bit srgb"
+msgstr "紋理 8k 8位元 srgb"
+
+#: krita/org.kde.krita.desktop:2 plugins/impex/brush/krita_brush.desktop:2
+#: plugins/impex/csv/krita_csv.desktop:2 plugins/impex/exr/krita_exr.desktop:57
+#: plugins/impex/gif/krita_gif.desktop:2
+#: plugins/impex/heif/krita_heif.desktop:57
+#: plugins/impex/heightmap/krita_heightmap.desktop:7
+#: plugins/impex/jp2/krita_jp2.desktop:54
+#: plugins/impex/jpeg/krita_jpeg.desktop:6
+#: plugins/impex/kra/krita_kra.desktop:7 plugins/impex/krz/krita_krz.desktop:7
+#: plugins/impex/ora/krita_ora.desktop:7 plugins/impex/pdf/krita_pdf.desktop:6
+#: plugins/impex/png/krita_png.desktop:2 plugins/impex/psd/krita_psd.desktop:6
+#: plugins/impex/qimageio/krita_qimageio.desktop:2
+#: plugins/impex/raw/krita_raw.desktop:2
+#: plugins/impex/spriter/krita_spriter.desktop:2
+#: plugins/impex/svg/krita_svg.desktop:2 plugins/impex/tga/krita_tga.desktop:2
+#: plugins/impex/tiff/krita_tiff.desktop:6
+#: plugins/impex/webp/krita_webp.desktop:2
+#: plugins/impex/xcf/krita_xcf.desktop:6
+msgctxt "Name"
+msgid "Krita"
+msgstr "Krita"
+
+#: krita/org.kde.krita.desktop:67
+msgctxt "GenericName"
+msgid "Digital Painting"
+msgstr "數位繪畫"
+
+#: krita/org.kde.krita.desktop:110
+msgctxt "Comment"
+msgid "Digital Painting"
+msgstr "數位繪畫"
+
+#: plugins/impex/exr/krita_exr.desktop:4
+#: plugins/impex/heif/krita_heif.desktop:4
+#: plugins/impex/jp2/krita_jp2.desktop:3
+msgctxt "GenericName"
+msgid "Application for Drawing and Handling of Images"
+msgstr "繪圖與影像處理的應用程式"
+
+#: plugins/python/assignprofiledialog/kritapykrita_assignprofiledialog.desktop:7
+msgctxt "Name"
+msgid "Assign Profile to Image"
+msgstr "為影像指定色彩特性檔案"
+
+#: plugins/python/assignprofiledialog/kritapykrita_assignprofiledialog.desktop:38
+msgctxt "Comment"
+msgid "Assign a profile to an image without converting it."
+msgstr "將色彩特性檔案指定給圖像，而不進行轉換。"
+
+#: plugins/python/batch_exporter/kritapykrita_batch_exporter.desktop:7
+msgctxt "Name"
+msgid "Batch Exporter"
+msgstr "批次匯出工具"
+
+#: plugins/python/batch_exporter/kritapykrita_batch_exporter.desktop:32
+msgctxt "Comment"
+msgid ""
+"Smart export tool that uses layer names to scale and (re-)export art assets "
+"in batches fast"
+msgstr "根據圖層名稱進行批次縮放及 (重新) 匯出藝術素材的智慧匯出工具"
+
+#: plugins/python/channels2layers/kritapykrita_channels2layers.desktop:7
+msgctxt "Name"
+msgid "Channels to layers"
+msgstr "色彩通道轉換為圖層"
+
+#: plugins/python/channels2layers/kritapykrita_channels2layers.desktop:33
+msgctxt "Comment"
+msgid "Extract channels as color layers"
+msgstr "將色彩通道擷取為色彩圖層"
+
+#: plugins/python/colorspace/kritapykrita_colorspace.desktop:7
+msgctxt "Name"
+msgid "Color Space"
+msgstr "色彩空間"
+
+#: plugins/python/colorspace/kritapykrita_colorspace.desktop:38
+msgctxt "Comment"
+msgid "Plugin to change color space to selected documents"
+msgstr "用於變更色彩空間為選定檔案的外掛程式"
+
+#: plugins/python/comics_project_management_tools/kritapykrita_comics_project_management_tools.desktop:7
+msgctxt "Name"
+msgid "Comics Project Management Tools"
+msgstr "漫畫專案管理工具"
+
+#: plugins/python/comics_project_management_tools/kritapykrita_comics_project_management_tools.desktop:39
+msgctxt "Comment"
+msgid "Tools for managing comics."
+msgstr "管理漫畫的工具。"
+
+#: plugins/python/documenttools/kritapykrita_documenttools.desktop:7
+msgctxt "Name"
+msgid "Document Tools"
+msgstr "檔案工具"
+
+#: plugins/python/documenttools/kritapykrita_documenttools.desktop:38
+msgctxt "Comment"
+msgid "Plugin to manipulate properties of selected documents"
+msgstr "用於修改所選檔案屬性的外掛程式"
+
+#: plugins/python/exportlayers/kritapykrita_exportlayers.desktop:7
+msgctxt "Name"
+msgid "Export Layers"
+msgstr "匯出圖層"
+
+#: plugins/python/exportlayers/kritapykrita_exportlayers.desktop:38
+msgctxt "Comment"
+msgid "Plugin to export layers from a document"
+msgstr "用於從檔案匯出圖層的外掛程式"
+
+#: plugins/python/filtermanager/kritapykrita_filtermanager.desktop:7
+msgctxt "Name"
+msgid "Filter Manager"
+msgstr "濾鏡管理器"
+
+#: plugins/python/filtermanager/kritapykrita_filtermanager.desktop:38
+msgctxt "Comment"
+msgid "Plugin to filters management"
+msgstr "用於管理濾鏡的外掛程式"
+
+#: plugins/python/highpass/kritapykrita_highpass.desktop:6
+msgctxt "Name"
+msgid "Highpass Filter"
+msgstr "高通濾鏡"
+
+#: plugins/python/highpass/kritapykrita_highpass.desktop:34
+msgctxt "Comment"
+msgid "Highpass Filter, based on http://registry.gimp.org/node/7385"
+msgstr "高通濾鏡，基於 http://registry.gimp.org/node/7385"
+
+#: plugins/python/krita_script_starter/kritapykrita_krita_script_starter.desktop:7
+msgctxt "Name"
+msgid "Krita Script Starter"
+msgstr "Krita 指令稿起步助手"
+
+#: plugins/python/krita_script_starter/kritapykrita_krita_script_starter.desktop:35
+msgctxt "Comment"
+msgid "Create the metadata and file structure for a new Krita script"
+msgstr "為新的 Krita 指令稿建立中繼資料和檔案建構體"
+
+#: plugins/python/lastdocumentsdocker/kritapykrita_lastdocumentsdocker.desktop:7
+msgctxt "Name"
+msgid "Last Documents Docker"
+msgstr "「最近使用檔案」面板"
+
+#: plugins/python/lastdocumentsdocker/kritapykrita_lastdocumentsdocker.desktop:36
+msgctxt "Comment"
+msgid "A Python-based docker for show thumbnails to last ten documents"
+msgstr "基於 Python 的面板，用於顯示最近 10 個檔案的縮圖"
+
+#: plugins/python/mixer_slider_docker/kritapykrita_mixer_slider_docker.desktop:7
+msgctxt "Name"
+msgid "Mixer Slider docker"
+msgstr "混色滑動條工具面板"
+
+#: plugins/python/mixer_slider_docker/kritapykrita_mixer_slider_docker.desktop:30
+msgctxt "Comment"
+msgid "A color slider."
+msgstr "色彩滑動條。"
+
+#: plugins/python/palette_docker/kritapykrita_palette_docker.desktop:7
+msgctxt "Name"
+msgid "Palette docker"
+msgstr "「調色板」面板"
+
+#: plugins/python/palette_docker/kritapykrita_palette_docker.desktop:37
+msgctxt "Comment"
+msgid "A Python-based docker to edit color palettes."
+msgstr "基於 Python 的面板，用於編輯調色板。"
+
+#: plugins/python/photobash_images/kritapykrita_photobash_images.desktop:6
+msgctxt "Name"
+msgid "Krita Photobash Images"
+msgstr "Krita Photobash 影像"
+
+#: plugins/python/photobash_images/kritapykrita_photobash_images.desktop:27
+msgctxt "Comment"
+msgid ""
+"A plugin to fetch images from a specified folder. Very useful for "
+"photobashing!"
+msgstr ""
+"可從特定資料夾取得影像的外掛程式，非常適合用作多幅照片接合 (Photobashing)！"
+
+#: plugins/python/plugin_importer/kritapykrita_plugin_importer.desktop:7
+msgctxt "Name"
+msgid "Python Plugin Importer"
+msgstr "Python 外掛程式匯入工具"
+
+#: plugins/python/plugin_importer/kritapykrita_plugin_importer.desktop:35
+msgctxt "Comment"
+msgid "Imports Python plugins from zip files."
+msgstr "從 ZIP 檔案匯入 Python 外掛程式。"
+
+#: plugins/python/quick_settings_docker/kritapykrita_quick_settings_docker.desktop:7
+msgctxt "Name"
+msgid "Quick Settings Docker"
+msgstr "「快速設定」面板"
+
+#: plugins/python/quick_settings_docker/kritapykrita_quick_settings_docker.desktop:37
+msgctxt "Comment"
+msgid "A Python-based docker for quickly changing brush size and opacity."
+msgstr "基於 Python 的面板，用於快速變更筆刷尺寸和不透明度。"
+
+#: plugins/python/scriptdocker/kritapykrita_scriptdocker.desktop:6
+msgctxt "Name"
+msgid "Script Docker"
+msgstr "「指令稿」面板"
+
+#: plugins/python/scriptdocker/kritapykrita_scriptdocker.desktop:36
+msgctxt "Comment"
+msgid "A Python-based docker for create actions and point to Python scripts"
+msgstr "基於 Python 的面板，用於建立動作並指向 Python 指令稿"
+
+#: plugins/python/scripter/kritapykrita_scripter.desktop:7
+msgctxt "Name"
+msgid "Scripter"
+msgstr "指令稿執行器"
+
+#: plugins/python/scripter/kritapykrita_scripter.desktop:35
+msgctxt "Comment"
+msgid "Plugin to execute ad-hoc Python code"
+msgstr "可直接執行 Python 指令的外掛程式"
+
+#: plugins/python/selectionsbagdocker/kritapykrita_selectionsbagdocker.desktop:6
+msgctxt "Name"
+msgid "Selections Bag Docker"
+msgstr "「選取區域收藏」面板"
+
+#: plugins/python/selectionsbagdocker/kritapykrita_selectionsbagdocker.desktop:32
+msgctxt "Comment"
+msgid "A docker that allow to store a list of selections"
+msgstr "允許儲存多個選取區域的面板"
+
+#: plugins/python/tenbrushes/kritapykrita_tenbrushes.desktop:7
+msgctxt "Name"
+msgid "Ten Brushes"
+msgstr "十大筆刷"
+
+#: plugins/python/tenbrushes/kritapykrita_tenbrushes.desktop:38
+msgctxt "Comment"
+msgid "Assign a brush preset to any of ten configurable shortcuts."
+msgstr "為十個快捷鍵指定可切換的筆刷預設。"
+
+#: plugins/python/tenscripts/kritapykrita_tenscripts.desktop:7
+msgctxt "Name"
+msgid "Ten Scripts"
+msgstr "十大指令稿"
+
+#: plugins/python/tenscripts/kritapykrita_tenscripts.desktop:37
+msgctxt "Comment"
+msgid "Assign a Python script to any of ten configurable shortcuts."
+msgstr "為十個快捷鍵指定可執行的 Python 指令稿。"
+
+#~ msgctxt "Name"
+#~ msgid "Hello World"
+#~ msgstr "你好，世界"
+
+#~ msgctxt "Comment"
+#~ msgid "Basic plugin to test PyKrita"
+#~ msgstr "測試 PyKrita 的基本外掛程式"
+
+#~ msgctxt "Comment"
+#~ msgid "Assign a preset to ctrl-1 to ctrl-0"
+#~ msgstr "將預設指定給 ctrl-1 至 ctrl-0"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "A Python-based plugin for creating ten actions and assign them to Python "
+#~ "scripts"
+#~ msgstr ""
+#~ "基於 Python 的外掛程式，用於建立 10 個動作並且將它們指定給 Python 指令稿"
+
+#~ msgctxt "Comment"
+#~ msgid "Pixel-based image manipulation program for the Calligra Suite"
+#~ msgstr "Calligra 套件中基於像素的影像處理程式"

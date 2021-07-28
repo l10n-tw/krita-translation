@@ -1,0 +1,550 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: desktop files\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-07-20 00:26+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: krita/data/paintoppresets/Digital.tag:3
+msgctxt "Name"
+msgid "Digital"
+msgstr ""
+
+#: krita/data/paintoppresets/Digital.tag:37
+msgctxt "Comment"
+msgid "Brush presets with a digital look and feel."
+msgstr ""
+
+#: krita/data/paintoppresets/Erasers.tag:4
+msgctxt "Name"
+msgid "Erasers"
+msgstr ""
+
+#: krita/data/paintoppresets/Erasers.tag:27
+msgctxt "Comment"
+msgid "Eraser Brush Presets"
+msgstr ""
+
+#: krita/data/paintoppresets/Favorites.tag:4
+msgctxt "Name"
+msgid "★ My Favorites"
+msgstr ""
+
+#: krita/data/paintoppresets/Favorites.tag:26
+msgctxt "Comment"
+msgid "Your favorite brush presets"
+msgstr ""
+
+#: krita/data/paintoppresets/FX.tag:4
+msgctxt "Name"
+msgid "FX"
+msgstr ""
+
+#: krita/data/paintoppresets/FX.tag:26
+msgctxt "Comment"
+msgid "Special Effects.kpp"
+msgstr ""
+
+#: krita/data/paintoppresets/Ink.tag:4
+msgctxt "Name"
+msgid "Ink"
+msgstr ""
+
+#: krita/data/paintoppresets/Ink.tag:26
+msgctxt "Comment"
+msgid "Inking Brush Presets"
+msgstr ""
+
+#: krita/data/paintoppresets/Paint.tag:4
+msgctxt "Name"
+msgid "Paint"
+msgstr ""
+
+#: krita/data/paintoppresets/Paint.tag:26
+msgctxt "Comment"
+msgid "Paint Brushes"
+msgstr ""
+
+#: krita/data/paintoppresets/Pixel_Art.tag:4
+msgctxt "Name"
+msgid "Pixel Art"
+msgstr ""
+
+#: krita/data/paintoppresets/Pixel_Art.tag:24
+msgctxt "Comment"
+msgid "Presets for working with individual pixels"
+msgstr ""
+
+#: krita/data/paintoppresets/Sketch.tag:4
+msgctxt "Name"
+msgid "Sketch"
+msgstr ""
+
+#: krita/data/paintoppresets/Sketch.tag:26
+msgctxt "Comment"
+msgid "Sketching brush presets"
+msgstr ""
+
+#: krita/data/paintoppresets/Textures.tag:4
+msgctxt "Name"
+msgid "Textures"
+msgstr ""
+
+#: krita/data/paintoppresets/Textures.tag:26
+msgctxt "Comment"
+msgid "Textured Brush Presets"
+msgstr ""
+
+#: krita/data/templates/animation/Anim-Jp-EN.desktop:5
+msgctxt "Name"
+msgid "Animation-Japanese-En"
+msgstr ""
+
+#: krita/data/templates/animation/Anim-Jp-JP.desktop:5
+msgctxt "Name"
+msgid "Animation-Japanese-JP"
+msgstr ""
+
+#: krita/data/templates/animation/.directory:2
+msgctxt "Name"
+msgid "Animation Templates"
+msgstr ""
+
+#: krita/data/templates/comics/a4_waffle_grid.desktop:5
+msgctxt "Name"
+msgid "waffle-iron grid"
+msgstr ""
+
+#: krita/data/templates/comics/a4_waffle_grid.desktop:41
+msgctxt "Comment"
+msgid "300 dpi, A4 waffle-iron grid comic page with ink and color layers"
+msgstr ""
+
+#: krita/data/templates/comics/BD-EuroTemplate.desktop:5
+msgctxt "Name"
+msgid "European BD template"
+msgstr ""
+
+#: krita/data/templates/comics/BD-EuroTemplate.desktop:45
+msgctxt "Comment"
+msgid "template for European BD-style comics"
+msgstr ""
+
+#: krita/data/templates/comics/Comics-USTemplate.desktop:5
+msgctxt "Name"
+msgid "US-style comics template"
+msgstr ""
+
+#: krita/data/templates/comics/Comics-USTemplate.desktop:46
+msgctxt "Comment"
+msgid "template for US-style comics"
+msgstr ""
+
+#: krita/data/templates/comics/.directory:2
+msgctxt "Name"
+msgid "Comic Templates"
+msgstr ""
+
+#: krita/data/templates/comics/Manga-JpTemplate.desktop:5
+msgctxt "Name"
+msgid "Manga template"
+msgstr ""
+
+#: krita/data/templates/comics/Manga-JpTemplate.desktop:47
+msgctxt "Comment"
+msgid "template for Japanese Manga-style comics"
+msgstr ""
+
+#: krita/data/templates/design/Designcinema16_10_2484x1200_96dpiRGB_8bit_.desktop:3
+msgctxt "Name"
+msgid "Design cinema 16:10 [ 2484x1200 , 96dpi RGB , 8bit ]"
+msgstr ""
+
+#: krita/data/templates/design/Designcinema2.39_1_2484x1040_96dpiRGB_8bit_.desktop:3
+msgctxt "Name"
+msgid "Design cinema 2.39:1 [ 2484x1040 , 96dpi RGB , 8bit ]"
+msgstr ""
+
+#: krita/data/templates/design/DesignpresentationA3Landscape_4960x3508_300dpiRGB_8bit_.desktop:3
+msgctxt "Name"
+msgid "Design presentation A3 Landscape [ 4960x3508 , 300dpi RGB , 8bit ]"
+msgstr ""
+
+#: krita/data/templates/design/DesignpresentationA4portrait_2480x3508,300dpiRGB_8bit_.desktop:3
+#: krita/data/templates/design/DesignpresentationA4portrait_2480x3508_300dpiRGB_8bit_.desktop:3
+msgctxt "Name"
+msgid "Design presentation A4 portrait [ 2480x3508 , 300dpi RGB , 8bit ]"
+msgstr ""
+
+#: krita/data/templates/design/Designscreen4_3_2250x1680_96dpiRGB_8bit_.desktop:3
+msgctxt "Name"
+msgid "Design screen 4:3 [ 2250x1680 , 96dpi RGB , 8bit ]"
+msgstr ""
+
+#: krita/data/templates/design/.directory:2
+msgctxt "Name"
+msgid "Design Templates"
+msgstr ""
+
+#: krita/data/templates/design/web_design.desktop:3
+msgctxt "Name"
+msgid "Web Design [ 2160x1440 , 72ppi RGB , 8bit ]"
+msgstr ""
+
+#: krita/data/templates/dslr/Canon_550D_5184x3456.desktop:3
+msgctxt "Name"
+msgid "Canon_550D_5184x3456"
+msgstr ""
+
+#: krita/data/templates/dslr/Canon_5Dmk3_5760x3840.desktop:3
+msgctxt "Name"
+msgid "Canon_5Dmk3_5760x3840"
+msgstr ""
+
+#: krita/data/templates/dslr/.directory:2
+msgctxt "Name"
+msgid "DSLR Templates"
+msgstr ""
+
+#: krita/data/templates/dslr/Nikon_D3000_3872x2592.desktop:3
+msgctxt "Name"
+msgid "Nikon_D3000_3872x2592"
+msgstr ""
+
+#: krita/data/templates/dslr/Nikon_D5000_4288x2848.desktop:3
+msgctxt "Name"
+msgid "Nikon_D5000_4288x2848"
+msgstr ""
+
+#: krita/data/templates/dslr/Nikon_D7000_4928x3264.desktop:3
+msgctxt "Name"
+msgid "Nikon_D7000_4928x3264"
+msgstr ""
+
+#: krita/data/templates/texture/.directory:2
+msgctxt "Name"
+msgid "Texture Templates"
+msgstr ""
+
+#: krita/data/templates/texture/Texture1024x10248bitsrgb.desktop:3
+msgctxt "Name"
+msgid "Texture 1024x1024 8bit srgb"
+msgstr ""
+
+#: krita/data/templates/texture/Texture1k32bitscalar.desktop:3
+msgctxt "Name"
+msgid "Texture 1k 32bit scalar"
+msgstr ""
+
+#: krita/data/templates/texture/Texture1k8bitsrgb.desktop:3
+msgctxt "Name"
+msgid "Texture 1k 8bit srgb"
+msgstr ""
+
+#: krita/data/templates/texture/Texture2048x20488bitsrgb.desktop:3
+msgctxt "Name"
+msgid "Texture 2048x2048 8bit srgb"
+msgstr ""
+
+#: krita/data/templates/texture/Texture256x2568bitsrgb.desktop:3
+msgctxt "Name"
+msgid "Texture 256x256 8bit srgb"
+msgstr ""
+
+#: krita/data/templates/texture/Texture2k32bitscalar.desktop:3
+msgctxt "Name"
+msgid "Texture 2k 32bit scalar"
+msgstr ""
+
+#: krita/data/templates/texture/Texture2k8bitsrgb.desktop:3
+msgctxt "Name"
+msgid "Texture 2k 8bit srgb"
+msgstr ""
+
+#: krita/data/templates/texture/Texture4096x40968bitsrgb.desktop:3
+msgctxt "Name"
+msgid "Texture 4096x4096 8bit srgb"
+msgstr ""
+
+#: krita/data/templates/texture/Texture4k32bitscalar.desktop:3
+msgctxt "Name"
+msgid "Texture 4k 32bit scalar"
+msgstr ""
+
+#: krita/data/templates/texture/Texture4k8bitsrgb.desktop:3
+msgctxt "Name"
+msgid "Texture 4k 8bit srgb"
+msgstr ""
+
+#: krita/data/templates/texture/Texture512x5128bitsrgb.desktop:3
+msgctxt "Name"
+msgid "Texture 512x512 8bit srgb"
+msgstr ""
+
+#: krita/data/templates/texture/Texture8k32bitscalar.desktop:3
+msgctxt "Name"
+msgid "Texture 8k 32bit scalar"
+msgstr ""
+
+#: krita/data/templates/texture/Texture8k8bitsrgb.desktop:3
+msgctxt "Name"
+msgid "Texture 8k 8bit srgb"
+msgstr ""
+
+#: krita/org.kde.krita.desktop:2 plugins/impex/brush/krita_brush.desktop:2
+#: plugins/impex/csv/krita_csv.desktop:2 plugins/impex/exr/krita_exr.desktop:57
+#: plugins/impex/gif/krita_gif.desktop:2
+#: plugins/impex/heif/krita_heif.desktop:57
+#: plugins/impex/heightmap/krita_heightmap.desktop:7
+#: plugins/impex/jp2/krita_jp2.desktop:54
+#: plugins/impex/jpeg/krita_jpeg.desktop:6
+#: plugins/impex/kra/krita_kra.desktop:7 plugins/impex/krz/krita_krz.desktop:7
+#: plugins/impex/ora/krita_ora.desktop:7 plugins/impex/pdf/krita_pdf.desktop:6
+#: plugins/impex/png/krita_png.desktop:2 plugins/impex/psd/krita_psd.desktop:6
+#: plugins/impex/qimageio/krita_qimageio.desktop:2
+#: plugins/impex/raw/krita_raw.desktop:2
+#: plugins/impex/spriter/krita_spriter.desktop:2
+#: plugins/impex/svg/krita_svg.desktop:2 plugins/impex/tga/krita_tga.desktop:2
+#: plugins/impex/tiff/krita_tiff.desktop:6
+#: plugins/impex/webp/krita_webp.desktop:2
+#: plugins/impex/xcf/krita_xcf.desktop:6
+msgctxt "Name"
+msgid "Krita"
+msgstr ""
+
+#: krita/org.kde.krita.desktop:67
+msgctxt "GenericName"
+msgid "Digital Painting"
+msgstr ""
+
+#: krita/org.kde.krita.desktop:110
+msgctxt "Comment"
+msgid "Digital Painting"
+msgstr ""
+
+#: plugins/impex/exr/krita_exr.desktop:4
+#: plugins/impex/heif/krita_heif.desktop:4
+#: plugins/impex/jp2/krita_jp2.desktop:3
+msgctxt "GenericName"
+msgid "Application for Drawing and Handling of Images"
+msgstr ""
+
+#: plugins/python/assignprofiledialog/kritapykrita_assignprofiledialog.desktop:7
+msgctxt "Name"
+msgid "Assign Profile to Image"
+msgstr ""
+
+#: plugins/python/assignprofiledialog/kritapykrita_assignprofiledialog.desktop:38
+msgctxt "Comment"
+msgid "Assign a profile to an image without converting it."
+msgstr ""
+
+#: plugins/python/batch_exporter/kritapykrita_batch_exporter.desktop:7
+msgctxt "Name"
+msgid "Batch Exporter"
+msgstr ""
+
+#: plugins/python/batch_exporter/kritapykrita_batch_exporter.desktop:32
+msgctxt "Comment"
+msgid ""
+"Smart export tool that uses layer names to scale and (re-)export art assets "
+"in batches fast"
+msgstr ""
+
+#: plugins/python/channels2layers/kritapykrita_channels2layers.desktop:7
+msgctxt "Name"
+msgid "Channels to layers"
+msgstr ""
+
+#: plugins/python/channels2layers/kritapykrita_channels2layers.desktop:33
+msgctxt "Comment"
+msgid "Extract channels as color layers"
+msgstr ""
+
+#: plugins/python/colorspace/kritapykrita_colorspace.desktop:7
+msgctxt "Name"
+msgid "Color Space"
+msgstr ""
+
+#: plugins/python/colorspace/kritapykrita_colorspace.desktop:38
+msgctxt "Comment"
+msgid "Plugin to change color space to selected documents"
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/kritapykrita_comics_project_management_tools.desktop:7
+msgctxt "Name"
+msgid "Comics Project Management Tools"
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/kritapykrita_comics_project_management_tools.desktop:39
+msgctxt "Comment"
+msgid "Tools for managing comics."
+msgstr ""
+
+#: plugins/python/documenttools/kritapykrita_documenttools.desktop:7
+msgctxt "Name"
+msgid "Document Tools"
+msgstr ""
+
+#: plugins/python/documenttools/kritapykrita_documenttools.desktop:38
+msgctxt "Comment"
+msgid "Plugin to manipulate properties of selected documents"
+msgstr ""
+
+#: plugins/python/exportlayers/kritapykrita_exportlayers.desktop:7
+msgctxt "Name"
+msgid "Export Layers"
+msgstr ""
+
+#: plugins/python/exportlayers/kritapykrita_exportlayers.desktop:38
+msgctxt "Comment"
+msgid "Plugin to export layers from a document"
+msgstr ""
+
+#: plugins/python/filtermanager/kritapykrita_filtermanager.desktop:7
+msgctxt "Name"
+msgid "Filter Manager"
+msgstr ""
+
+#: plugins/python/filtermanager/kritapykrita_filtermanager.desktop:38
+msgctxt "Comment"
+msgid "Plugin to filters management"
+msgstr ""
+
+#: plugins/python/highpass/kritapykrita_highpass.desktop:6
+msgctxt "Name"
+msgid "Highpass Filter"
+msgstr ""
+
+#: plugins/python/highpass/kritapykrita_highpass.desktop:34
+msgctxt "Comment"
+msgid "Highpass Filter, based on http://registry.gimp.org/node/7385"
+msgstr ""
+
+#: plugins/python/krita_script_starter/kritapykrita_krita_script_starter.desktop:7
+msgctxt "Name"
+msgid "Krita Script Starter"
+msgstr ""
+
+#: plugins/python/krita_script_starter/kritapykrita_krita_script_starter.desktop:35
+msgctxt "Comment"
+msgid "Create the metadata and file structure for a new Krita script"
+msgstr ""
+
+#: plugins/python/lastdocumentsdocker/kritapykrita_lastdocumentsdocker.desktop:7
+msgctxt "Name"
+msgid "Last Documents Docker"
+msgstr ""
+
+#: plugins/python/lastdocumentsdocker/kritapykrita_lastdocumentsdocker.desktop:36
+msgctxt "Comment"
+msgid "A Python-based docker for show thumbnails to last ten documents"
+msgstr ""
+
+#: plugins/python/mixer_slider_docker/kritapykrita_mixer_slider_docker.desktop:7
+msgctxt "Name"
+msgid "Mixer Slider docker"
+msgstr ""
+
+#: plugins/python/mixer_slider_docker/kritapykrita_mixer_slider_docker.desktop:30
+msgctxt "Comment"
+msgid "A color slider."
+msgstr ""
+
+#: plugins/python/palette_docker/kritapykrita_palette_docker.desktop:7
+msgctxt "Name"
+msgid "Palette docker"
+msgstr ""
+
+#: plugins/python/palette_docker/kritapykrita_palette_docker.desktop:37
+msgctxt "Comment"
+msgid "A Python-based docker to edit color palettes."
+msgstr ""
+
+#: plugins/python/photobash_images/kritapykrita_photobash_images.desktop:6
+msgctxt "Name"
+msgid "Krita Photobash Images"
+msgstr ""
+
+#: plugins/python/photobash_images/kritapykrita_photobash_images.desktop:27
+msgctxt "Comment"
+msgid ""
+"A plugin to fetch images from a specified folder. Very useful for "
+"photobashing!"
+msgstr ""
+
+#: plugins/python/plugin_importer/kritapykrita_plugin_importer.desktop:7
+msgctxt "Name"
+msgid "Python Plugin Importer"
+msgstr ""
+
+#: plugins/python/plugin_importer/kritapykrita_plugin_importer.desktop:35
+msgctxt "Comment"
+msgid "Imports Python plugins from zip files."
+msgstr ""
+
+#: plugins/python/quick_settings_docker/kritapykrita_quick_settings_docker.desktop:7
+msgctxt "Name"
+msgid "Quick Settings Docker"
+msgstr ""
+
+#: plugins/python/quick_settings_docker/kritapykrita_quick_settings_docker.desktop:37
+msgctxt "Comment"
+msgid "A Python-based docker for quickly changing brush size and opacity."
+msgstr ""
+
+#: plugins/python/scriptdocker/kritapykrita_scriptdocker.desktop:6
+msgctxt "Name"
+msgid "Script Docker"
+msgstr ""
+
+#: plugins/python/scriptdocker/kritapykrita_scriptdocker.desktop:36
+msgctxt "Comment"
+msgid "A Python-based docker for create actions and point to Python scripts"
+msgstr ""
+
+#: plugins/python/scripter/kritapykrita_scripter.desktop:7
+msgctxt "Name"
+msgid "Scripter"
+msgstr ""
+
+#: plugins/python/scripter/kritapykrita_scripter.desktop:35
+msgctxt "Comment"
+msgid "Plugin to execute ad-hoc Python code"
+msgstr ""
+
+#: plugins/python/selectionsbagdocker/kritapykrita_selectionsbagdocker.desktop:6
+msgctxt "Name"
+msgid "Selections Bag Docker"
+msgstr ""
+
+#: plugins/python/selectionsbagdocker/kritapykrita_selectionsbagdocker.desktop:32
+msgctxt "Comment"
+msgid "A docker that allow to store a list of selections"
+msgstr ""
+
+#: plugins/python/tenbrushes/kritapykrita_tenbrushes.desktop:7
+msgctxt "Name"
+msgid "Ten Brushes"
+msgstr ""
+
+#: plugins/python/tenbrushes/kritapykrita_tenbrushes.desktop:38
+msgctxt "Comment"
+msgid "Assign a brush preset to any of ten configurable shortcuts."
+msgstr ""
+
+#: plugins/python/tenscripts/kritapykrita_tenscripts.desktop:7
+msgctxt "Name"
+msgid "Ten Scripts"
+msgstr ""
+
+#: plugins/python/tenscripts/kritapykrita_tenscripts.desktop:37
+msgctxt "Comment"
+msgid "Assign a Python script to any of ten configurable shortcuts."
+msgstr ""

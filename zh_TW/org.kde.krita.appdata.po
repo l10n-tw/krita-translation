@@ -1,0 +1,99 @@
+# pan93412 <pan93412@gmail.com>, 2018, 2019, 2020.
+# Alvin <alvin@alvinhc.com>, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: org.kde.krita.appdata\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-15 02:43+0100\n"
+"PO-Revision-Date: 2021-06-05 17:42+0800\n"
+"Last-Translator: Alvin <alvin@alvinhc.com>\n"
+"Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 21.04.1\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. (itstool) path: component/developer_name
+#: org.kde.krita.appdata.xml:7
+msgid "Krita Foundation"
+msgstr "Krita 基金會"
+
+#. (itstool) path: component/name
+#: org.kde.krita.appdata.xml:9
+msgid "Krita"
+msgstr "Krita"
+
+#. (itstool) path: component/summary
+#: org.kde.krita.appdata.xml:10
+msgid "Digital Painting, Creative Freedom"
+msgstr "數位繪圖，自由創作"
+
+#. (itstool) path: description/p
+#: org.kde.krita.appdata.xml:12
+msgid "Krita is the full-featured digital art studio."
+msgstr "Krita 是全功能的數位藝術工作室。"
+
+#. (itstool) path: description/p
+#: org.kde.krita.appdata.xml:13
+msgid ""
+"It is perfect for sketching and painting, and presents an end–to–end "
+"solution for creating digital painting files from scratch by masters."
+msgstr ""
+"它是素描和繪畫的完美選擇，並提供了一個從零開始建立數位繪畫檔的端到端解決方"
+"案。"
+
+#. (itstool) path: description/p
+#: org.kde.krita.appdata.xml:14
+msgid ""
+"Krita is a great choice for creating concept art, comics, textures for "
+"rendering and matte paintings. Krita supports many colorspaces like RGB and "
+"CMYK at 8 and 16 bits integer channels, as well as 16 and 32 bits floating "
+"point channels."
+msgstr ""
+"Krita 是創造概念藝術、漫畫、彩現紋理和場景繪畫的絕佳選擇。Krita 在 8 位元和 "
+"16 位元整數色版，以及 16 位元和 32 位元浮點色板中支援 RGB 和 CMYK 等多種色彩"
+"空間。"
+
+#. (itstool) path: description/p
+#: org.kde.krita.appdata.xml:18
+msgid ""
+"Have fun painting with the advanced brush engines, amazing filters and many "
+"handy features that make Krita enormously productive."
+msgstr ""
+"使用先進的筆刷引擎、驚人的濾鏡和許多方便的功能來開心地繪畫，讓 Krita 擁有巨大"
+"的生產力。"
+
+#. (itstool) path: screenshot/caption
+#: org.kde.krita.appdata.xml:27
+msgid "Krita is a full-featured digital painting studio"
+msgstr "Krita 是全功能的數位繪圖工作室"
+
+#. (itstool) path: screenshot/caption
+#: org.kde.krita.appdata.xml:31
+msgid "The startup window now also gives you the latest news about Krita"
+msgstr "開始視窗也提供給您關於 Krita 的最新消息"
+
+#. (itstool) path: screenshot/caption
+#: org.kde.krita.appdata.xml:35
+msgid "There are over ten immensely powerful brush engines"
+msgstr "有超過十款功能非常強大的筆刷引擎"
+
+#. (itstool) path: screenshot/caption
+#: org.kde.krita.appdata.xml:39
+msgid "Create and use gamut masks to give your images a coherent feel"
+msgstr "建立和使用色域遮罩，使得您的影像看上去感覺有條有紊"
+
+#. (itstool) path: screenshot/caption
+#: org.kde.krita.appdata.xml:43
+msgid ""
+"Into animation? Krita provides everything you need for traditional, hand-"
+"drawn animation"
+msgstr "想做動畫？Krita 提供您在傳統、手繪動畫所需的任何東西"
+
+#. (itstool) path: screenshot/caption
+#: org.kde.krita.appdata.xml:47
+msgid ""
+"If you're new to digital painting, there's an extensive, up-to-date manual"
+msgstr "如果你是數位繪圖的新手，我們提供廣範而且不斷更新的說明手冊"
