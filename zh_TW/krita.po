@@ -6,13 +6,14 @@
 # pan93412 <pan93412@gmail.com>, 2019, 2020.
 # Alvin <alvin@alvinhc.com>, 2020, 2021.
 # tryadmin <service@slat.org>, 2021.
+# Alvin Wong <alvin@alvinhc.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-28 00:16+0000\n"
-"PO-Revision-Date: 2021-07-28 11:39+0000\n"
-"Last-Translator: tryadmin <service@slat.org>\n"
+"PO-Revision-Date: 2021-07-28 13:44+0000\n"
+"Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -13287,7 +13288,7 @@ msgstr "邊框化選取區域(&B)⋯"
 #, kde-format
 msgctxt "action"
 msgid "Border Selection"
-msgstr "邊框選取區域"
+msgstr "邊框化選取區域"
 
 #. i18n: context: Action (smoothselection), Actions (Select), ActionCollection (Menu)
 #: krita/kritamenu.action:1444
@@ -19152,13 +19153,13 @@ msgstr "最大光度："
 #: libs/ui/animation/VideoHDRMetadataOptionsDialog.ui:293
 #, kde-format
 msgid "MaxCLL:"
-msgstr "MaxCLL:"
+msgstr "最大內容亮度 (MaxCLL)："
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: libs/ui/animation/VideoHDRMetadataOptionsDialog.ui:310
 #, kde-format
 msgid "MaxFALL:"
-msgstr "MaxFALL:"
+msgstr "最大影格平均亮度 (MaxFALL)："
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, VideoImportDialog)
 #: libs/ui/animation/VideoImportDialog.ui:24
@@ -32237,7 +32238,7 @@ msgstr ""
 "<qt><p>回報問題前，請先閱讀<b><a href=\"https://docs.krita.org/en/untranslatable_pages/"
 "reporting_bugs.html\">這篇指南</a></b>！</p><p>要回報錯誤報告，請按下方的按鈕。這會開啟一個網址是 <a href="
 "\"https://bugs.kde.org\">https://bugs.kde.org</a> "
-"的瀏覽器視窗，這裡你能看到能讓你填寫的表單。</p><p><b>請把下面的資訊貼到錯誤報告中！</p></qt>"
+"的瀏覽器視窗，這裡你能看到能讓你填寫的表單。</p><p><b>請把下面的資訊貼到錯誤報告中！</b></p></qt>"
 
 #: libs/widgetutils/xmlgui/kbugreport.cpp:207
 #, kde-format
@@ -48571,7 +48572,9 @@ msgstr "正在匯出漫畫⋯"
 msgid ""
 "Saving out ACBF and\n"
 "ACBF standalone"
-msgstr "正在儲存 ACBF 和 ACBF 獨立檔案"
+msgstr ""
+"正在儲存 ACBF 和\n"
+"ACBF 獨立檔案"
 
 #: plugins/python/comics_project_management_tools/comics_exporter.py:168
 msgid "Saving out EPUB"
