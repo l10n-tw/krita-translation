@@ -30,7 +30,7 @@ remove_tmp_dir() {
 }
 
 checkout() {
-    svn_repo="$1"
+    local svn_repo="$1"
     safe_rm "./$svn_repo"
 
     if svn_checkout "${svn_repositories[$svn_repo]}"; then
@@ -38,7 +38,7 @@ checkout() {
         cp -v "$svn_checkout_result/"*.{po,pot} "./$svn_repo"
         safe_rm "$svn_checkout_result"
     else
-        echo "Execution failed:  failed to svn_checkout"
+        echo "Execution failed: failed to svn_checkout"
         exit 1
     fi
 }
