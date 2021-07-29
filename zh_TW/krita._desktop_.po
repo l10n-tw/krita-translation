@@ -15,7 +15,7 @@
 # Franklin Weng <franklin@goodhorse.idv.tw>, 2010, 2011, 2012.
 # pan93412 <pan93412@gmail.com>, 2018, 2019, 2020.
 # Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2006, 2007, 2008, 2009, 2010.
-# Alvin <alvin@alvinhc.com>, 2021.
+# Alvin Wong <alvin@alvinhc.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: desktop_koffice\n"
