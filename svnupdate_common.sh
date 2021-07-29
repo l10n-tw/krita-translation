@@ -26,7 +26,7 @@ safe_rm() {
 }
 
 remove_tmp_dir() {
-    trap "saferm ""$tmpdir" EXIT
+    safe_rm "$tmpdir"
 }
 
 checkout() {
