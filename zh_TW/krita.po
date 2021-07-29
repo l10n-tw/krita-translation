@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-29 00:15+0000\n"
-"PO-Revision-Date: 2021-07-28 13:44+0000\n"
+"PO-Revision-Date: 2021-07-29 04:50+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -22714,19 +22714,7 @@ msgstr "將重播範圍調整至關鍵影格"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_17)
 #: libs/ui/forms/wdggeneralsettings.ui:925
-#, fuzzy, kde-format
-#| msgid ""
-#| "In some Krita versions before 5.0 text size could be dependent on the "
-#| "current display DPI (which was a bug). In Krita 5.0 this bug has been "
-#| "fixed, which may cause files created in previous versions look "
-#| "different. \n"
-#| "\n"
-#| "When loading old files Krita will try to adjust font size to the DPI of "
-#| "the current screen. If the file has been created on a different display, "
-#| "try adjusting this value manually.\n"
-#| "\n"
-#| "After saving the file in Krita 5.0 at least once, no conversions will be "
-#| "needed anymore."
+#, kde-format
 msgid ""
 "In some Krita versions before 5.0 text size could be dependent on the "
 "current display DPI (which was a bug).\n"
@@ -22741,13 +22729,10 @@ msgid ""
 "After saving the file in Krita 5.0 at least once, no conversions will be "
 "needed anymore."
 msgstr ""
-"在 Krita 5.0 以前的某些版本，文字大小可能會受使用中顯示器的 DPI 解析度影響 "
-"(這是一個程式錯誤)。\n"
-"此程式錯誤已於 Krita 5.0 中修正。這可能會導致由先前版本建立的檔案看上去不一"
-"樣。\n"
+"在 Krita 5.0 以前的某些版本，文字大小可能會受使用中顯示器的 DPI 解析度影響 (這是一個程式錯誤)。\n"
+"此程式錯誤已於 Krita 5.0 中修正。這可能會導致由先前版本建立的檔案看上去不一樣。\n"
 "\n"
-"當載入由先前版本建立的檔案時，Krita 會嘗試將字型大小按照使用中顯示器的 DPI 解"
-"析度作轉換調整。\n"
+"當載入由先前版本建立的檔案時，Krita 會嘗試將字型大小按照使用中顯示器的 DPI 解析度作轉換調整。\n"
 "如檔案於使用其他顯示器時建立，請自行調校這個設定值。\n"
 "\n"
 "檔案以 Krita 5.0 儲存後，將無需再次作出轉換。"
@@ -22762,13 +22747,7 @@ msgstr "字型 DPI 應急修正方法"
 #. i18n: ectx: property (toolTip), widget (QSpinBox, intForcedFontDPI)
 #: libs/ui/forms/wdggeneralsettings.ui:939
 #: libs/ui/forms/wdggeneralsettings.ui:951
-#, fuzzy, kde-format
-#| msgid ""
-#| "In some versions of Krita before 4.4.3 text size could be dependent on "
-#| "the current display DPI (which was a bug). In Krita 4.4.3 this bug has "
-#| "been fixed, which may cause files created in previous versions look "
-#| "different. To restore the old behavior you can force Krita to use Display "
-#| "DPI for fonts by entering it in this field."
+#, kde-format
 msgid ""
 "In some versions of Krita before 4.4.3 text size could be dependent on the "
 "current display DPI (which was a bug).\n"
@@ -22777,12 +22756,9 @@ msgid ""
 "To restore the old behavior you can force Krita to use Display DPI for fonts "
 "by entering it in this field."
 msgstr ""
-"在 Krita 4.4.3 以前的某些版本，文字大小可能會受使用中顯示器的 DPI 解析度影響 "
-"(這是一個程式錯誤)。\n"
-"此程式錯誤已於 Krita 4.4.3 中修正。這可能會導致由先前版本建立的檔案看上去不一"
-"樣。\n"
-"如希望還原先前版本的方式，你可以在此輸入顯示器的 DPI 解析度，以強制 Krita 使"
-"用此 DPI 解析度作文字顯示。"
+"在 Krita 4.4.3 以前的某些版本，文字大小可能會受使用中顯示器的 DPI 解析度影響 (這是一個程式錯誤)。\n"
+"此程式錯誤已於 Krita 4.4.3 中修正。這可能會導致由先前版本建立的檔案看上去不一樣。\n"
+"如希望還原先前版本的方式，你可以在此輸入顯示器的 DPI 解析度，以強制 Krita 使用此 DPI 解析度作文字顯示。"
 
 #. i18n: ectx: property (text), widget (QLabel, label_14)
 #: libs/ui/forms/wdggeneralsettings.ui:985
@@ -44440,17 +44416,14 @@ msgstr "啟用"
 #. i18n: ectx: property (toolTip), widget (KisDoubleSliderSpinBox, quality)
 #: plugins/impex/webp/dlg_webp_export.ui:65
 #: plugins/impex/webp/dlg_webp_export.ui:76
-#, fuzzy, kde-format
-#| msgid ""
-#| "If Lossless is enabled: 0 = fastest but larger files, 100 = slower but "
-#| "better. If Lossless is disabled: 0 = smallest size, 100 = largest size."
+#, kde-format
 msgid ""
 "If Lossless is enabled: 0 = fastest but larger files, 100 = slower but "
 "better.\n"
 "If Lossless is disabled: 0 = smallest size, 100 = largest size."
 msgstr ""
-"如啟用無損壓縮：0 = 最快但檔案較大，100 = 較慢但壓縮較佳。不啟用無損壓縮：0 "
-"= 檔案最小，100 = 檔案最大。"
+"如啟用無損壓縮：0 = 最快但檔案較大，100 = 較慢但壓縮較佳。\n"
+"不啟用無損壓縮：0 = 檔案最小，100 = 檔案最大。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblTradeoff)
 #: plugins/impex/webp/dlg_webp_export.ui:92
