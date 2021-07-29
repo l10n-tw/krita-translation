@@ -4,4 +4,4 @@
 . "./svnupdate_common.sh"
 
 # Checkout the SVN repository
-checkout "templates"
+checkout "templates" "templates.SVN_REVISION"

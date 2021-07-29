@@ -26,14 +26,19 @@ safe_rm() {
 }
 
 remove_tmp_dir() {
-    trap "saferm ""$tmpdir" EXIT
+    safe_rm "$tmpdir"
 }
 
 checkout() {
     local svn_repo="$1"
+    local revision_file="$2"
     safe_rm "./$svn_repo"
 
     if svn_checkout "${svn_repositories[$svn_repo]}"; then
+        local SVN_REVISION
+        if [[ -n $revision_file ]] && SVN_REVISION=$(svn info --show-item revision "$svn_checkout_result"); then
+            echo -n "$SVN_REVISION" > "$revision_file"
+        fi
         mkdir "./$svn_repo"
         cp -v "$svn_checkout_result/"*.{po,pot} "./$svn_repo"
         safe_rm "$svn_checkout_result"
