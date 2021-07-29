@@ -21,15 +21,16 @@ msgstr ""
 "Project-Id-Version: desktop_koffice\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-20 00:26+0000\n"
-"PO-Revision-Date: 2021-06-27 18:11+0800\n"
-"Last-Translator: Alvin <alvin@alvinhc.com>\n"
-"Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
+"PO-Revision-Date: 2021-07-29 04:50+0000\n"
+"Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
+"Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
+"krita-desktop/zh_Hant/>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 21.04.1\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.7.2\n"
 
 #: krita/data/paintoppresets/Digital.tag:3
 msgctxt "Name"
@@ -220,12 +221,12 @@ msgstr "網頁設計 [ 2160x1440 , 72ppi RGB , 8bit ]"
 #: krita/data/templates/dslr/Canon_550D_5184x3456.desktop:3
 msgctxt "Name"
 msgid "Canon_550D_5184x3456"
-msgstr "Canon_550D_5184x3456"
+msgstr "Canon 550D 5184x3456"
 
 #: krita/data/templates/dslr/Canon_5Dmk3_5760x3840.desktop:3
 msgctxt "Name"
 msgid "Canon_5Dmk3_5760x3840"
-msgstr "Canon_5Dmk3_5760x3840"
+msgstr "Canon 5Dmk3 5760x3840"
 
 #: krita/data/templates/dslr/.directory:2
 msgctxt "Name"
@@ -235,17 +236,17 @@ msgstr "數位單眼 / 單鏡反光相機範本"
 #: krita/data/templates/dslr/Nikon_D3000_3872x2592.desktop:3
 msgctxt "Name"
 msgid "Nikon_D3000_3872x2592"
-msgstr "Nikon_D3000_3872x2592"
+msgstr "Nikon D3000 3872x2592"
 
 #: krita/data/templates/dslr/Nikon_D5000_4288x2848.desktop:3
 msgctxt "Name"
 msgid "Nikon_D5000_4288x2848"
-msgstr "Nikon_D5000_4288x2848"
+msgstr "Nikon D5000 4288x2848"
 
 #: krita/data/templates/dslr/Nikon_D7000_4928x3264.desktop:3
 msgctxt "Name"
 msgid "Nikon_D7000_4928x3264"
-msgstr "Nikon_D7000_4928x3264"
+msgstr "Nikon D7000 4928x3264"
 
 #: krita/data/templates/texture/.directory:2
 msgctxt "Name"
