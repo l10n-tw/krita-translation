@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-30 00:14+0000\n"
-"PO-Revision-Date: 2021-07-29 10:49+0000\n"
+"PO-Revision-Date: 2021-07-31 03:13+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -13854,9 +13854,7 @@ msgstr "嚴重錯誤"
 msgid ""
 "Krita does not support the Wayland platform. Use XWayland to run Krita on "
 "Wayland. Krita will close now."
-msgstr ""
-"Krita 不支援 Wayland 平台。如你希望在 Wayland 上執行 Krita，請使用 XWayland。"
-"Krita 現在會退出。"
+msgstr "Krita 不支援 Wayland 平台。如您希望在 Wayland 上執行 Krita，請使用 XWayland。Krita 現在會退出。"
 
 #: krita/main.cc:589 libs/ui/KisApplication.cpp:374
 #: libs/ui/KisApplication.cpp:642
@@ -13872,7 +13870,7 @@ msgid ""
 "This is not recommended. Do not report any bugs.\n"
 "Please update to a supported version of Windows: Windows 7, 8, 8.1 or 10."
 msgstr ""
-"你正在執行不受支援的 Windows 版本：%1。\n"
+"您正在執行不受支援的 Windows 版本：%1。\n"
 "我們不建議這樣做，請勿為此報告問題。\n"
 "請升級到下列支援的 Windows 版本之一：Windows 7、8、8.1、10。"
 
@@ -13887,17 +13885,14 @@ msgid ""
 "Cannot load WinTab driver and no Windows Ink pen devices are found. If you "
 "have a drawing tablet, please make sure the tablet driver is properly "
 "installed."
-msgstr ""
-"無法載入 WinTab 驅動，且未發現 Windows Ink 裝置。如果數位板已連結，請確保其驅"
-"動程式已正確安裝。"
+msgstr "無法載入 WinTab 驅動程式，且未發現 Windows Ink 手寫筆裝置。如果數位板已連接，請確保其驅動程式已正確安裝。"
 
 #: krita/main.cc:618
 #, kde-format
 msgid ""
 "Cannot load WinTab driver. If you have a drawing tablet, please make sure "
 "the tablet driver is properly installed."
-msgstr ""
-"無法載入 WinTab 驅動。如果你的數位板已連結，請確保其驅動程式已正確安裝。"
+msgstr "無法載入 WinTab 驅動程式。如果您的數位板已連接，請確保其驅動程式已正確安裝。"
 
 #: libs/basicflakes/tools/KoCreatePathTool.cpp:537
 #, kde-format
@@ -18222,7 +18217,7 @@ msgstr ""
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:170
 #, kde-format
 msgid "Failed to create a work directory, make sure you have write permission"
-msgstr "無法建立工作目錄，請確認你有寫入的權限"
+msgstr "無法建立工作目錄，請確認您有寫入的權限"
 
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:182
 #, kde-format
@@ -18239,11 +18234,10 @@ msgid ""
 "If you want to edit a clip larger than 100 frames, consider using a real "
 "video editor, like Kdenlive (https://kdenlive.org)."
 msgstr ""
-"警告：你正嘗試匯入多於 100 個影格到 Krita。\n"
+"警告：您正嘗試匯入多於 100 個影格到 Krita。\n"
 "\n"
-"這表示你可能會令系統超出負荷。\n"
-"如果你希望修改一段多於 100 個影格的影片，請考慮使用一個影片編輯軟體，例如 "
-"Kdenlive (https://kdenlive.org)。"
+"這表示您可能會令系統超出負荷。\n"
+"如果您希望修改一段多於 100 個影格的影片，請考慮使用一個影片編輯軟體，例如 Kdenlive (https://kdenlive.org)。"
 
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:226
 #, kde-format
@@ -18321,7 +18315,7 @@ msgctxt "part of warning in video importer."
 msgid ""
 "WARNING, you are trying to import %1 frames, the maximum amount you can "
 "import is %2."
-msgstr "警告：你正嘗試匯入 %1 個影格。你最多能夠匯入 %2 個影格。"
+msgstr "警告：您正嘗試匯入 %1 個影格。您最多能夠匯入 %2 個影格。"
 
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:475
 #, kde-format
@@ -18335,7 +18329,7 @@ msgctxt "part of warning in video importer."
 msgid ""
 "You do not have enough memory to load this many frames, the computer will be "
 "overloaded."
-msgstr "你的系統沒有足夠的記憶體以載入這個數量的影格，系統將會超出負荷。"
+msgstr "您的系統沒有足夠的記憶體以載入這個數量的影格，系統將會超出負荷。"
 
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:488
 #, kde-format
@@ -18392,7 +18386,7 @@ msgstr "無法載入影片資訊"
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:753
 #, kde-format
 msgid "Your FFMpeg version does not support this format"
-msgstr "你的 FFmpeg 版本不支援此格式"
+msgstr "您的 FFmpeg 版本不支援此格式"
 
 #: libs/ui/animation/KisFFMpegWrapper.cpp:303
 #, kde-format
@@ -18567,16 +18561,14 @@ msgid ""
 "you need partial transparency, consider APNG or WEBP.</span><br/></p></"
 "body></html>"
 msgstr ""
-"<html><head/><body><p>GIF 影像格式支援最多每影格或影像含 256 種色彩。啟用此選"
-"項時將以透明度取代一種色彩，這表示只有餘下的 255 種色彩可供 GIF 影像使用。停"
-"用此選項時，GIF 影像將可用 256 種色彩以提供較高畫質。</p><p><span style=\" "
-"font-style:italic;\">提示一：如希望正常使用透明度，你需要確定影像輸出透明度已"
-"啟用，並且 FFmpeg 版本為 4.2 或以上。如果你的 GIF 輸出有畫面撕裂的跡象，強烈"
-"建議使用 FFmpeg 版本 4.4 或以上。</span></p><p><span style=\" font-style:"
-"italic;\">提示二：GIF 影像格式只支援 100% 或 0% 的透明度值，並</span><span "
-"style=\" font-style:italic; text-decoration: underline;\">不</span><span "
-"style=\" font-style:italic;\">支援半透明效果。如果你需要半透明效果，請考慮使"
-"用 APNG 或 WEBP 圖像格式。</span><br/></p></body></html>"
+"<html><head/><body><p>GIF 影像格式支援最多每影格或影像含 256 種色彩。啟用此選項時將以透明度取代一種色彩，這表示只有餘下的 "
+"255 種色彩可供 GIF 影像使用。停用此選項時，GIF 影像將可用 256 種色彩以提供較高畫質。</p><p><span style=\" "
+"font-style:italic;\">提示一：如希望正常使用透明度，您需要確定影像輸出透明度已啟用，並且 FFmpeg 版本為 4.2 或以上。"
+"如果您的 GIF 輸出有畫面撕裂的跡象，強烈建議使用 FFmpeg 版本 4.4 或以上。</span></p><p><span style=\" "
+"font-style:italic;\">提示二：GIF 影像格式只支援 100% 或 0% 的透明度值，並</span><span style=\" "
+"font-style:italic; text-decoration: underline;\">不</span><span style=\" font-"
+"style:italic;\">支援半透明效果。如果您需要半透明效果，請考慮使用 APNG 或 WEBP 圖像格式。</span><br/"
+"></p></body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, lblPredAPNG)
 #: libs/ui/animation/video_export_options_dialog.ui:275
@@ -19698,7 +19690,7 @@ msgid ""
 "You are activating wrap-around mode, but have not enabled OpenGL.\n"
 "To visualize wrap-around mode, enable OpenGL."
 msgstr ""
-"你已進入四方連續環繞模式，但 OpenGL 未被啟用。\n"
+"您已進入四方連續環繞模式，但 OpenGL 未被啟用。\n"
 "啟用 OpenGL 後影像環繞模式的效果才能顯示。"
 
 #: libs/ui/canvas/kis_canvas_controller.cpp:269
@@ -19881,8 +19873,7 @@ msgstr "<html><head/><body><h1 align=\"center\">眾籌支援者</h1><p>"
 #: libs/ui/dialogs/kis_about_application.cpp:97
 #, kde-format
 msgid ".</p><p><i>Thanks! You were all <b>awesome</b>!</i></p></body></html>"
-msgstr ""
-"</p><p>感謝上述諸位的支援，你們簡直就是<b>小天使</b>！</p></body></html>"
+msgstr "</p><p>感謝上述諸位的支援，您們簡直就是<b>小天使</b>！</p></body></html>"
 
 #: libs/ui/dialogs/kis_about_application.cpp:99
 #, kde-format
@@ -19926,17 +19917,14 @@ msgid ""
 "away, in contrast to trial or educational versions of commercial software "
 "that will forbid your work in commercial situations.</p><br/><hr/><pre>"
 msgstr ""
-"<html><head/><body><h1 align=\"center\"><b>使用者的權利</b></h1><p>Krita 是"
-"在 GNU 通用公共許可協議 (第三版或其後續版本) 下發布的。</p><p>此協議賦予人們"
-"以下自由的權利：</p><ul><li>任何人都可以為任何目的自由使用 Krita</li><li>任何"
-"人都可以自由地分發 Krita</li><li>任何人都可以自由地研究 Krita 的作業原理並對"
-"其進行修改</li><li>任何人都可以自由地分發修改過的 Krita 版本</li></"
-"ul><p>Krita 基金會及其他 krita.org 運營的項目將<b>全力確保</b> Krita 始終是自"
-"由軟體。</p><h1 align=\"center\">使用者作品的權利</h1><p>使用者使用 Krita 創"
-"作的所有產物都是該使用者獨享的私有財產，該使用者享有自由支配這些作品的權利。"
-"</p><p>Krita 可被自由用作包括商業用途在內的任意場景，不作任何限制。</"
-"p><p>Krita 通過 GPL 協議賦予使用者上述自由，任何人無權剝奪。Krita 不會像一些"
-"商業軟體那樣對試用版或教育版軟體的商用場景進行限制。</p><br/><hr/><pre>"
+"<html><head/><body><h1 align=\"center\"><b>使用者的權利</b></h1><p>Krita 是在 GNU "
+"通用公共許可協議 (第三版或其後續版本) 下發布的。</p><p>此協議賦予人們以下自由的權利：</p><ul><li>任何人都可以為任何目的自由使用 "
+"Krita</li><li>任何人都可以自由地分發 Krita</li><li>任何人都可以自由地研究 Krita 的作業原理並對其進行修改</"
+"li><li>任何人都可以自由地分發修改過的 Krita 版本</li></ul><p>Krita 基金會及其他 krita.org "
+"運營的專案將<b>全力確保</b> Krita 始終是自由軟體。</p><h1 align=\"center\">使用者作品的權利</"
+"h1><p>使用者使用 Krita 創作的所有產物都是該使用者獨享的私有財產，該使用者享有自由支配這些作品的權利。</p><p>Krita "
+"可被自由用作包括商業用途在內的任意場景，不作任何限制。</p><p>Krita 通過 GPL 協議賦予使用者上述自由，任何人無權剝奪。Krita "
+"不會像一些商業軟體那樣對試用版或教育版軟體的商用場景進行限制。</p><br/><hr/><pre>"
 
 #: libs/ui/dialogs/kis_about_application.cpp:159
 #, kde-format
@@ -20476,7 +20464,7 @@ msgstr ""
 #: libs/ui/dialogs/kis_dlg_preferences.cc:932
 #, kde-format
 msgid "Use tablet driver timestamps for brush speed"
-msgstr "以數位板驅動程式提供的時間來計算筆刷速度"
+msgstr "以數位板驅動程式提供的筆跡時間戳記來計算筆刷速度"
 
 #. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, intSwapSize)
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1028
@@ -20961,8 +20949,8 @@ msgid ""
 "An autosave for this file exists. How do you want to proceed?\n"
 "Warning: if you discard the autosave now, it will be removed."
 msgstr ""
-"發現有對應此檔案的自動儲存備份。你希望如何處理？\n"
-"警告：如果你選擇丟棄自動儲存備份，它將會被永久刪除。"
+"發現有對應此檔案的自動儲存備份。您希望如何處理？\n"
+"警告：如果您選擇丟棄自動儲存備份，它將會被永久刪除。"
 
 #. i18n: ectx: property (text), widget (QRadioButton, rbOpenAutosave)
 #: libs/ui/dialogs/KisRecoverNamedAutosaveDialog.ui:37
@@ -21908,9 +21896,8 @@ msgid ""
 "Driver combinations (like Intel) or broken on some others (like AMD/Radeon)."
 "</p></body></html>"
 msgstr ""
-"<html><head/><body><p>啟用紋理緩衝區。在某些 GPU/驅動程式組合下面速度更快 "
-"(如 Intel 核芯顯示卡); 但在別的情況下 (如 AMD/Radeon 顯示卡) 可能會造成問題。"
-"</p></body></html>"
+"<html><head/><body><p>啟用紋理緩衝區。在某些 GPU/驅動程式組合下面速度更快 (如 Intel 核芯顯示卡)，但在別的情況下 ("
+"如 AMD/Radeon 顯示卡) 可能會造成問題。</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkUseTextureBuffer)
 #: libs/ui/forms/wdgdisplaysettings.ui:126
@@ -22108,9 +22095,8 @@ msgid ""
 "location of the file in the .kra. If you move the .kra but not the file, the "
 "file layer may be broken.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>警告：Krita 在 .kra 檔案中使用相對路徑記錄目標檔案的位"
-"置。如果你移動檔案圖層的目標檔案而沒有同時移動 .kra 檔案，相關檔案圖層可能會"
-"失效。</p></body></html>"
+"<html><head/><body><p>警告：Krita 在 .kra 檔案中使用相對路徑記錄目標檔案的位置。"
+"如果您移動檔案圖層的目標檔案而沒有同時移動 .kra 檔案，相關檔案圖層可能會失效。</p></body></html>"
 
 #. i18n: ectx: property (title), widget (QGroupBox, grpScalingOptions)
 #: libs/ui/forms/wdgdlgfilelayer.ui:112
@@ -22757,12 +22743,9 @@ msgid ""
 "To restore the old behavior you can force Krita to use Display DPI for fonts "
 "by entering it in this field."
 msgstr ""
-"在 Krita 4.4.3 以前的某些版本，文字大小可能會受使用中顯示器的 DPI 解析度影響 "
-"(這是一個程式錯誤)。\n"
-"此程式錯誤已於 Krita 4.4.3 中修正。這可能會導致由先前版本建立的檔案看上去不一"
-"樣。\n"
-"如希望還原先前版本的方式，你可以在此輸入顯示器的 DPI 解析度，以強制 Krita 使"
-"用此 DPI 解析度作文字顯示。"
+"在 Krita 4.4.3 以前的某些版本，文字大小可能會受使用中顯示器的 DPI 解析度影響 (這是一個程式錯誤)。\n"
+"此程式錯誤已於 Krita 4.4.3 中修正。這可能會導致由先前版本建立的檔案看上去不一樣。\n"
+"如希望還原先前版本的方式，您可以在此輸入顯示器的 DPI 解析度，以強制 Krita 使用此 DPI 解析度作文字顯示。"
 
 #. i18n: ectx: property (text), widget (QLabel, label_14)
 #: libs/ui/forms/wdggeneralsettings.ui:985
@@ -23759,9 +23742,9 @@ msgid ""
 "p><p><br/></p><p><span style=\" font-weight:600;\">Recommended value:</span> "
 "30...60 seconds</p></body></html>"
 msgstr ""
-"<html><head/><body><p>繪𧚲一個動畫影格的逾時時限。如果你在繪製動畫時經常發生"
-"逾時錯誤，請嘗試提高這個數值</p><p><br/></p><p><span style=\" font-"
-"weight:600;\">建議值：</span> 30 至 60 秒</p></body></html>"
+"<html><head/><body><p>繪𧚲一個動畫影格的逾時時限。如果您在繪製動畫時經常發生逾時錯誤，請嘗試提高這個數值</p><p><br/></"
+"p><p><span style=\" font-weight:600;\">建議值：</span> 30 至 60 "
+"秒</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, label_fps)
 #: libs/ui/forms/wdgperformancesettings.ui:346
@@ -23856,12 +23839,10 @@ msgid ""
 "FullHD@25fps video you need extra 200 MiB of memory</p><p>* for 1 second of "
 "4K UltraHD@25fps video you need extra 800 MiB of memory</p></body></html>"
 msgstr ""
-"<html><head/><body><p>動畫影格快取將完全存儲到記憶體中，不設任何限制。</"
-"p><p><span style=\" font-weight:600;\">警告：</span>請確保電腦的記憶體<span "
-"style=\" text-decoration: underline;\">大於</span>你在一般頁面中要求的數量，"
-"否則系統可能會鎖死。</p><p>＊ 每 1 秒鐘的 25FPS Full HD影片需要 200 MiB 記憶"
-"體。</p><p>＊ 每 1 秒鐘的 25FPS 4K 超清影片需要 800 MiB 記憶體。</p></body></"
-"html>"
+"<html><head/><body><p>動畫影格快取將完全存儲到記憶體中，不設任何限制。</p><p><span style=\" font-"
+"weight:600;\">警告：</span>請確保電腦的記憶體<span style=\" text-decoration: underline;\""
+">大於</span>您在一般頁面中要求的數量，否則系統可能會鎖死。</p><p>＊ 每 1 秒鐘的 25FPS Full HD影片需要 200 MiB "
+"記憶體。</p><p>＊ 每 1 秒鐘的 25FPS 4K 超清影片需要 800 MiB 記憶體。</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QRadioButton, optInMemory)
 #: libs/ui/forms/wdgperformancesettings.ui:452
@@ -24629,10 +24610,9 @@ msgid ""
 "tablet driver implementation).</p><p><br/></p><p>After changing this option "
 "Krita should be restarted.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>某些數位板不支援在數位板 API 中傳遞筆身按鍵。如果你的裝"
-"置符合上述情況，請啟用此選項。Krita 會嘗試從滑鼠事件隊列中讀取右鍵和中間鍵，"
-"但不能保證一定有效 (由數位板驅動程式的實現方式決定)。</p><p><br/></p><p>變更"
-"此選項後必須重啟 Krita。</p></body></html>"
+"<html><head/><body><p>某些數位板不支援在數位板 API 中傳遞筆身按鍵。如果您的裝置符合上述情況，請啟用此選項。Krita "
+"會嘗試根據滑鼠輸入事件識別右鍵和中間鍵點按，但不能保證一定有效 (取決於數位板驅動程式的實現方式)。</p><p><br/></"
+"p><p>變更此選項後必須重啟 Krita。</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkUseRightMiddleClickWorkaround)
 #: libs/ui/forms/wdgtabletsettings.ui:232
@@ -25616,8 +25596,8 @@ msgid ""
 "agree on the size of the screen your tablet is connected to. Please select "
 "the right option.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>數位板驅動程式所關聯的螢幕大小和Windows 系統檢測到的螢"
-"幕大小不一致，請手動選擇一個正確的解析度。</p></body></html>"
+"<html><head/><body><p>數位板驅動程式所關聯的螢幕大小和經由 Windows "
+"系統檢測到的螢幕大小不一致，請手動選擇一個正確的解析度。</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioManual)
 #: libs/ui/input/wintab/kis_screen_size_choice_dialog.ui:56
@@ -26641,8 +26621,7 @@ msgstr ""
 "\n"
 "您可使用 --new-image 選項建立新文件，或是開啟現有檔案。\n"
 "\n"
-"如果你想改新增檔案圖層至執行中 Krita 實體中的文件，請核取設定中的「只允許一"
-"個 Krita 實體」(設定 -> 一般 -> 視窗)。"
+"如果您想改新增檔案圖層至執行中 Krita 實體中的文件，請核取設定中的「只允許一個 Krita 實體」(設定 -> 一般 -> 視窗)。"
 
 #: libs/ui/KisApplication.cpp:643
 #, kde-format
@@ -27425,7 +27404,7 @@ msgstr "圖層/遮罩"
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:261
 #, kde-format
 msgid "You don't have any resource bundles enabled."
-msgstr "你沒有啟用任何資源包"
+msgstr "您沒有啟用任何資源包"
 
 #: libs/ui/KisMainWindow.cpp:1920
 #, kde-format
@@ -27446,7 +27425,7 @@ msgid ""
 "Only your local resources are available."
 msgstr ""
 "\n"
-"只有你在本機的資源可用。"
+"只有您在本機的資源可用。"
 
 #: libs/ui/KisMainWindow.cpp:2069 libs/ui/KisMainWindow.cpp:2152
 #, kde-format
@@ -28883,7 +28862,7 @@ msgstr "與圖層連結(&N)"
 #: libs/ui/opengl/kis_opengl.cpp:487
 #, kde-format
 msgid "The Intel graphics driver in use is known to have issues with OpenGL."
-msgstr "目前使用的 Intel 核芯顯示卡驅動程式對 OpenGL 的支援存在問題。"
+msgstr "目前使用的 Intel 核芯顯示卡驅動程式對 OpenGL 的支援存有已知的問題。"
 
 #: libs/ui/opengl/kis_opengl.cpp:489
 #, kde-format
@@ -28892,8 +28871,8 @@ msgid ""
 "by default. You may manually switch to OpenGL but it is not guaranteed to "
 "work properly."
 msgstr ""
-"Intel 核芯顯示卡的驅動程式在 OpenGL 支援方面常常存在各種問題，因此預設將使用 "
-"ANGLE 繪製器。你可以手動切換成 OpenGL 模式，但是無法保證正常作業。"
+"Intel 核芯顯示卡的驅動程式在 OpenGL 支援方面常常存在各種問題，因此預設將使用 ANGLE 繪製器。您可以手動切換成 OpenGL "
+"模式，但是無法保證正常作業。"
 
 #: libs/ui/opengl/kis_opengl.cpp:881
 #, kde-format
@@ -29653,11 +29632,10 @@ msgid ""
 "convert to other spaces. RGB is also the recommended colorspace for HDR "
 "editing."
 msgstr ""
-"<b><a href=\"https://zh.wikipedia.org/wiki/三原色光模式\">RGB (紅、綠、藍)</"
-"a></b>是一種用於顯示器及其他自發光媒體的色彩模型。<br/>RGB 是一種加色模型：色"
-"彩在相互疊加時結果變亮。它的色域在目前所有色彩模型中最為寬廣，我們建議將其用"
-"於繪畫。你可以在繪畫後將 RGB 影像轉換到其他色彩空間。RGB 也是 HDR 編輯的推薦"
-"色彩空間。"
+"<b><a href=\"https://zh.wikipedia.org/wiki/三原色光模式\">RGB "
+"(紅、綠、藍)</a></b>是一種用於顯示器及其他自發光媒體的色彩模型。<br/>RGB "
+"是一種加色模型：色彩在相互疊加時結果變亮。它的色域在目前所有色彩模型中最為寬廣，我們建議將其用於繪畫。您可以在繪畫後將 RGB 影像轉換到其他色彩空間。"
+"RGB 也是 HDR 編輯的推薦色彩空間。"
 
 #: libs/ui/widgets/kis_advanced_color_space_selector.cc:374
 #, kde-format
@@ -30001,17 +29979,13 @@ msgid ""
 "space a little odd, at least at first, and so you have to weight the pros "
 "and cons of changing your workflow.</p>"
 msgstr ""
-"<p>為避免潛在的侵權風險，此特性檔案庫參考 RawTherapee 的做法用 LargeRGB 來命"
-"名本色彩空間。<p>RIMM/ROMM (ProPhotoRGB) 色域由柯達研發，用於涵蓋一切可列印的"
-"真實色彩。它涵蓋了一部分概念色，卻又排除了部分數位相機能夠捕捉到的真實存在的"
-"藍和藍紫色。它還排除了為數不少的某些數位相機的輸入階調矩陣設定檔解析出來的極"
-"飽和的黃色。<p>ProPhotoRGB 色彩空間所用的基色數值也被用在諸如 Lightroom 等 "
-"Adobe 產品和 Dng-DCP 數位相機使用的特性檔案中。然而除了可以涵蓋大量色彩外，"
-"ProPhotoRGB 作為一個 RGB 作業空間並無特別的優點。對大多數影像編輯作業而言，建"
-"議使用 BetaRGB、Rec2020 或 ACEScg 而不是 ProPhotoRGB 色彩空間。不過，如果你已"
-"經在使用一套公認的 ProPhotoRGB 色彩管理流程，你或許會覺得轉移到另一個 RGB 作"
-"業空間有點奇怪，至少開頭會有這個感覺，因此你應該自行衡量轉移流程的好處與壞"
-"處。</p>"
+"<p>為避免潛在的侵權風險，此特性檔案庫參考 RawTherapee 的做法用 LargeRGB 來命名本色彩空間。<p>RIMM/ROMM "
+"(ProPhotoRGB) 色域由柯達研發，用於涵蓋一切可列印的真實色彩。它涵蓋了一部分概念色，卻又排除了部分數位相機能夠捕捉到的真實存在的藍和藍紫色。它"
+"還排除了為數不少的某些數位相機的輸入階調矩陣設定檔解析出來的極飽和的黃色。<p>ProPhotoRGB 色彩空間所用的基色數值也被用在諸如 "
+"Lightroom 等 Adobe 產品和 Dng-DCP 數位相機使用的特性檔案中。然而除了可以涵蓋大量色彩外，ProPhotoRGB 作為一個 "
+"RGB 作業空間並無特別的優點。對大多數影像編輯作業而言，建議使用 BetaRGB、Rec2020 或 ACEScg 而不是 ProPhotoRGB "
+"色彩空間。不過，如果您已經在使用一套公認的 ProPhotoRGB 色彩管理流程，您或許會覺得轉移到另一個 RGB "
+"作業空間有點奇怪，至少開頭會有這個感覺，因此您應該自行衡量轉移流程的好處與壞處。</p>"
 
 #: libs/ui/widgets/kis_advanced_color_space_selector.cc:572
 #, kde-format
@@ -32122,10 +32096,9 @@ msgid ""
 "documentation, then a visit to <a href=\"%2\">%2</a> will provide you with "
 "what you need.</html>"
 msgstr ""
-"<html>您不必是軟體開發者也可以成為 KDE 團隊的一員。您可以參加翻譯程式介面的小"
-"組。您可以提供圖片、主題、音效或改進文件。您可以自由決定！<br /><br />請到訪 "
-"<a href=\"%1\">%1</a> 了解可參與項目的資訊。<br /><br />如果您需要更多的資訊"
-"或文件，請到訪 <a href=\"%2\">%2</a>。</html>"
+"<html>您不必是軟體開發者也可以成為 KDE 團隊的一員。您可以參加翻譯程式介面的小組。您可以提供圖片、主題、音效或改進文件。您可以自由決定！<br "
+"/><br />請到訪 <a href=\"%1\">%1</a> 了解可參與專案的資訊。<br /><br />如果您需要更多的資訊或文件，請到訪 "
+"<a href=\"%2\">%2</a>。</html>"
 
 #: libs/widgetutils/xmlgui/kaboutkdedialog_p.cpp:109
 #, kde-format
@@ -32224,11 +32197,10 @@ msgid ""
 "bugs.kde.org</a> where you will find a form to fill in. </p><p><b>Please "
 "paste the following information into the bug report!</b></p></qt>"
 msgstr ""
-"<qt><p>回報問題前，請先閱讀<b><a href=\"https://docs.krita.org/en/"
-"untranslatable_pages/reporting_bugs.html\">這篇指南</a></b>！</p><p>要回報錯"
-"誤報告，請按下方的按鈕。這會開啟一個網址是 <a href=\"https://bugs.kde.org"
-"\">https://bugs.kde.org</a> 的瀏覽器視窗，這裡你能看到能讓你填寫的表單。</"
-"p><p><b>請把下面的資訊貼到錯誤報告中！</b></p></qt>"
+"<qt><p>回報問題前，請先閱讀<b><a href=\"https://docs.krita.org/en/untranslatable_pages/"
+"reporting_bugs.html\">這篇指南</a></b>！</p><p>要回報錯誤報告，請按下方的按鈕。這會開啟一個網址是 <a href="
+"\"https://bugs.kde.org\">https://bugs.kde.org</a> "
+"的瀏覽器視窗，這裡您能看到能讓您填寫的表單。</p><p><b>請把下面的資訊貼到錯誤報告中！</b></p></qt>"
 
 #: libs/widgetutils/xmlgui/kbugreport.cpp:207
 #, kde-format
@@ -36244,7 +36216,7 @@ msgstr "凍結關鍵影格資料"
 msgid ""
 "Please enter correct range. There are no panels in the range of frames "
 "provided."
-msgstr "請輸入正確的範圍。你提供的影格範圍內沒有任何面板。"
+msgstr "請輸入正確的範圍。您提供的影格範圍內沒有任何面板。"
 
 #: plugins/dockers/storyboarddocker/StoryboardModel.cpp:1290
 #, kde-format
@@ -38572,7 +38544,7 @@ msgctxt ""
 "Question in a dialog so the user can choose which resource type the PNG "
 "files belong to: brush tips or patterns"
 msgid "What resource do you want to import these PNG files as?"
-msgstr "你希望要以甚麽類型的資源匯入這些 PNG 檔案？"
+msgstr "您希望要以甚麽類型的資源匯入這些 PNG 檔案？"
 
 #: plugins/extensions/resourcemanager/DlgResourceTypeForFile.cpp:37
 #, kde-format
@@ -38580,7 +38552,7 @@ msgctxt ""
 "Question in a dialog so the user can choose which resource type the SVG "
 "files belong to: brush tips or patterns or symbols"
 msgid "What resource do you want to import these SVG files as?"
-msgstr "你希望要以甚麽類型的資源匯入這些 SVG 檔案？"
+msgstr "您希望要以甚麽類型的資源匯入這些 SVG 檔案？"
 
 #: plugins/extensions/resourcemanager/DlgResourceTypeForFile.cpp:40
 #, kde-format
@@ -38588,7 +38560,7 @@ msgctxt ""
 "Question in a dialog so the user can choose which resource type the files of "
 "type %1 belongs to; % will be rather untranslatable noun (a mimetype)"
 msgid "What resource do you want to import these %1 files as?"
-msgstr "你希望要以甚麽類型的資源匯入這些 %1 檔案？"
+msgstr "您希望要以甚麽類型的資源匯入這些 %1 檔案？"
 
 #: plugins/extensions/resourcemanager/ResourceImporter.cpp:38
 #, kde-format
@@ -39961,7 +39933,7 @@ msgstr "以弧度表示的方向"
 #: plugins/filters/edgedetection/wdg_edge_detection.ui:21
 #, kde-format
 msgid "Output decides what type of information you want from the lines."
-msgstr "「輸出﹞指定你希望從線條獲取甚縻類型的資訊。"
+msgstr "「輸出﹞指定您希望從線條獲取甚縻類型的資訊。"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, cmbType)
 #: plugins/filters/edgedetection/wdg_edge_detection.ui:28
@@ -43035,8 +43007,7 @@ msgid ""
 "recommended.</p>"
 msgstr ""
 "<p>便攜網路圖形 (PNG) 檔案格式可以將影像的透明度存儲到一個透明度通道中。\n"
-"如果你不需要保留透明度，可取消勾選此選項以減小檔案體積。<br>建議始終儲存透明"
-"度通道。</p>"
+"如果您不需要保留透明度，可取消勾選此選項以減小檔案體積。<br>建議始終儲存透明度通道。</p>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, alpha)
 #: plugins/impex/png/kis_wdg_options_png.ui:80
@@ -43319,7 +43290,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Visit LibRaw project website"
-msgstr "到訪 LibRaw 項目網站"
+msgstr "到訪 LibRaw 專案網站"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:269
 #, kde-format
@@ -43452,31 +43423,26 @@ msgid ""
 "RawTherapee project.</li></ul></p><p>Note: some methods can be unavailable "
 "if RAW decoder have been built without extension packs.</p>"
 msgstr ""
-"<title>插值演算法品質</title><p>此選項控制 RAW 影像解碼使用的去馬賽克演算法的"
-"模式。去馬賽克演算法是一種數位影像處理技術，用於將大多數數位相機感測器中不同"
-"色彩的濾光片背後的感光元件所產生的多組不同光色的不完整影像資料組成陣列併合成"
-"為一張完整影像。它也被稱作濾色片陣列 (CFA) 插值法或色彩重建法，俗稱去馬賽克。"
-"有下列幾種模式可供選擇：</p><p><ul><li><emphasis strong='true'>雙線性</"
-"emphasis>：使用快速但低品質的雙線性插值演算法 (預設值 - 用於較慢的電腦)。在此"
-"種方式下，非紅色像素的紅色值會以相鄰紅色像素的平均值進行計算，藍色和綠色的處"
-"理方式相同。</li><li><emphasis strong='true'>VNG</emphasis>：使用梯度化漸變變"
-"數數插值演算法。這種方式會計算某個像素周邊像素的漸變性，並使用較小的漸變數 "
-"(表現更平滑以及在影像中與之更相似的部分) 來估算數值。</li><li><emphasis "
-"strong='true'>PPG</emphasis>：使用圖案化像素分組插值演算法。像素分組演算法透"
-"過對自然景物的假設來估算數值，與梯度化漸變變數數插值演算法相比色彩假象較少。"
-"</li><li><emphasis strong='true'>AHD</emphasis>：使用自適應均勻指向插值演算"
-"法。這種方式會選擇均勻度最大的方向進行插值，使假象得到有效抑制。</"
-"li><li><emphasis strong='true'>DCB</emphasis>：linuxphoto.org 項目的 DCB 插值"
-"演算法。</li><li><emphasis strong='true'>AHD v2</emphasis>：使用色差法的 AHD "
-"插值演算法變種。</li><li><emphasis strong='true'>AFD</emphasis>：PerfectRaw "
-"項目自適應過濾演算法，用中位數過濾器處理 5 遍後得到估值。</li><li><emphasis "
-"strong='true'>VCD</emphasis>：色差插值演算法的變種。</li><li><emphasis "
-"strong='true'>VCD 和 AHD</emphasis>：混合 VCD 和 AHD 的去馬賽克方式。</"
-"li><li><emphasis strong='true'>LMMSE</emphasis>：PerfectRaw 的插值演算法，透"
-"過有向線性最小均方錯誤來估算數值。</li><li><emphasis strong='true'>AMaZE</"
-"emphasis>：RawTherapee 項目的插值演算法，透過最小化鋸齒和去拉鏈效應來消除色散"
-"現象。</li></ul></p><p>提示：如果 RAW 解碼器編譯時沒有擴展支援，某些插值演算"
-"法將無法使用。</p>"
+"<title>插值演算法品質</title><p>此選項控制 RAW 影像解碼使用的去馬賽克演算法的模式。去馬賽克演算法是一種數位影像處理技術，用於將大多"
+"數數位相機感測器中不同色彩的濾光片背後的感光元件所產生的多組不同光色的不完整影像資料組成陣列併合成為一張完整影像。它也被稱作濾色片陣列 (CFA) "
+"插值法或色彩重建法，俗稱去馬賽克。有下列幾種模式可供選擇：</p><p><ul><li><emphasis "
+"strong='true'>雙線性</emphasis>：使用快速但低品質的雙線性插值演算法 (預設值 - "
+"用於較慢的電腦)。在此種方式下，非紅色像素的紅色值會以相鄰紅色像素的平均值進行計算，藍色和綠色的處理方式相同。</li><li><emphasis "
+"strong='true'>VNG</emphasis>：使用梯度化漸變變數數插值演算法。這種方式會計算某個像素周邊像素的漸變性，並使用較小的漸變數 "
+"(表現更平滑以及在影像中與之更相似的部分) 來估算數值。</li><li><emphasis strong='true'>PPG</emphasis>：使"
+"用圖案化像素分組插值演算法。像素分組演算法透過對自然景物的假設來估算數值，與梯度化漸變變數數插值演算法相比色彩假象較少。</"
+"li><li><emphasis "
+"strong='true'>AHD</emphasis>：使用自適應均勻指向插值演算法。這種方式會選擇均勻度最大的方向進行插值，使假象得到有效抑制。</"
+"li><li><emphasis strong='true'>DCB</emphasis>：linuxphoto.org 專案的 DCB 插值演算法。</"
+"li><li><emphasis strong='true'>AHD v2</emphasis>：使用色差法的 AHD 插值演算法變種。</"
+"li><li><emphasis strong='true'>AFD</emphasis>：PerfectRaw 專案自適應過濾演算法，"
+"用中位數過濾器處理 5 遍後得到估值。</li><li><emphasis "
+"strong='true'>VCD</emphasis>：色差插值演算法的變種。</li><li><emphasis strong='true'>VCD "
+"和 AHD</emphasis>：混合 VCD 和 AHD 的去馬賽克方式。</li><li><emphasis "
+"strong='true'>LMMSE</emphasis>：PerfectRaw 的插值演算法，透過有向線性最小均方錯誤來估算數值。</"
+"li><li><emphasis strong='true'>AMaZE</emphasis>：RawTherapee "
+"專案的插值演算法，透過最小化鋸齒和去拉鏈效應來消除色散現象。</li></ul></p><p>提示：如果 RAW "
+"解碼器編譯時沒有擴展支援，某些插值演算法將無法使用。</p>"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:382
 #, kde-format
@@ -48810,16 +48776,14 @@ msgstr "漫畫的正式標題。"
 
 #: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:260
 msgid "What will you tell others to entice them to read your comic?"
-msgstr "你將如何介紹該作品以吸引讀者興趣？"
+msgstr "您將如何介紹該作品以吸引讀者興趣？"
 
 #: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:267
 msgid ""
 "The genre of the work. Prefilled values are from the ACBF, but you can fill "
 "in your own. Separate genres with commas. Try to limit the amount to about "
 "two or three."
-msgstr ""
-"作品的類型。預設值來自 ACBF，你也可以填寫自訂類別。用半形逗號分隔不同類別。請"
-"儘量將類別數量控制在兩三個以內。"
+msgstr "作品的類型。預設值來自 ACBF，您也可以填寫自訂類別。用半形逗號分隔不同類別。請儘量將類別數量控制在兩三個以內。"
 
 #: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:275
 msgid ""
@@ -48906,9 +48870,7 @@ msgid ""
 "The following is a table of the authors that contributed to this comic. You "
 "can set their nickname, proper names (first, middle, last), role (penciller, "
 "inker, etc), email and homepage."
-msgstr ""
-"下面是為本漫畫做過貢獻的作者表格。你可以設定他們的暱稱、真實姓名、職責、電"
-"郵、網站等。"
+msgstr "下面是為本漫畫做過貢獻的作者表格。您可以設定他們的暱稱、真實姓名、職責、電郵、網站等。"
 
 #: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:343
 msgid "Role"
@@ -48995,15 +48957,15 @@ msgstr "漫畫管理器"
 
 #: plugins/python/comics_project_management_tools/comics_project_manager_docker.py:247
 msgid "New Project"
-msgstr "建立項目"
+msgstr "建立專案"
 
 #: plugins/python/comics_project_management_tools/comics_project_manager_docker.py:249
 msgid "Open Project"
-msgstr "開啟項目"
+msgstr "開啟專案"
 
 #: plugins/python/comics_project_management_tools/comics_project_manager_docker.py:261
 msgid "Project Settings"
-msgstr "項目設定"
+msgstr "專案設定"
 
 #: plugins/python/comics_project_management_tools/comics_project_manager_docker.py:263
 #: plugins/python/comics_project_management_tools/comics_project_setup_wizard.py:122
@@ -49060,7 +49022,7 @@ msgstr "複製地址"
 msgid ""
 "Copies the path of the project to the clipboard. Useful for quickly copying "
 "to a file manager or the like."
-msgstr "將項目的路徑複製到剪貼簿。在需要快速複製到檔案管理器等時候有用。"
+msgstr "將專案的路徑複製到剪貼簿。在需要快速複製到檔案管理器等時候有用。"
 
 #: plugins/python/comics_project_management_tools/comics_project_manager_docker.py:341
 msgid "Please select the JSON comic config file."
@@ -49079,9 +49041,7 @@ msgid ""
 "Krita doesn't have write access to this folder, so new files cannot be made. "
 "Please configure the folder access or move the project to a folder that can "
 "be written to."
-msgstr ""
-"Krita 沒有寫入此資料夾的權限，因此無法建立新檔案。請設定資料夾的存取權限或者"
-"把漫畫項目移動到一個可以寫入的資料夾。"
+msgstr "Krita 沒有寫入此資料夾的權限，因此無法建立新檔案。請設定資料夾的存取權限或者把漫畫專案移動到一個可以寫入的資料夾。"
 
 #: plugins/python/comics_project_management_tools/comics_project_manager_docker.py:378
 msgid "Loading Pages..."
@@ -49161,7 +49121,7 @@ msgstr "變更資料夾"
 
 #: plugins/python/comics_project_management_tools/comics_project_settings_dialog.py:104
 msgid "Comic Project Settings"
-msgstr "漫畫項目設定"
+msgstr "漫畫專案設定"
 
 #: plugins/python/comics_project_management_tools/comics_project_settings_dialog.py:114
 msgid "Where should the export go?"
@@ -49188,18 +49148,17 @@ msgid ""
 "the Krita configuration, and not the project configuration."
 msgstr ""
 "中繼資料編輯器中使用的附加自動填充關鍵字的位置。將此位置指向一個含有 "
-"key_characters、key_format、key_genre、key_rating、key_author_roles、"
-"key_other 等項的文字檔案 (csv 用於評分)，每行一個附加自動完成關鍵字。此路徑存"
-"儲在 Krita 設定中，而不是項目設定中。"
+"key_characters、key_format、key_genre、key_rating、key_author_roles、key_other "
+"等項的文字檔案 (csv 用於評分)，每行一個附加自動完成關鍵字。此路徑存儲在 Krita 設定中，而不是專案設定中。"
 
 #: plugins/python/comics_project_management_tools/comics_project_settings_dialog.py:121
 #: plugins/python/comics_project_management_tools/comics_project_setup_wizard.py:118
 msgid "Project name:"
-msgstr "項目名稱："
+msgstr "專案名稱："
 
 #: plugins/python/comics_project_management_tools/comics_project_settings_dialog.py:122
 msgid "Project concept:"
-msgstr "項目概念："
+msgstr "專案概念："
 
 #: plugins/python/comics_project_management_tools/comics_project_settings_dialog.py:123
 msgid "Pages folder:"
@@ -49227,7 +49186,7 @@ msgstr "附加關鍵字資料夾："
 
 #: plugins/python/comics_project_management_tools/comics_project_setup_wizard.py:54
 msgid "Where should the comic project go?"
-msgstr "漫畫項目應該儲存在哪裡？"
+msgstr "漫畫專案應該儲存在哪裡？"
 
 #: plugins/python/comics_project_management_tools/comics_project_setup_wizard.py:58
 msgid "Folder cannot be used"
@@ -49241,15 +49200,15 @@ msgstr "Krita 沒有此資料夾的寫入權限，因此無法建立檔案。請
 
 #: plugins/python/comics_project_management_tools/comics_project_setup_wizard.py:64
 msgid "Comic Project Setup"
-msgstr "漫畫項目設定"
+msgstr "漫畫專案設定"
 
 #: plugins/python/comics_project_management_tools/comics_project_setup_wizard.py:69
 msgid "Basic Comic Project Settings"
-msgstr "基本漫畫項目設定"
+msgstr "基本漫畫專案設定"
 
 #: plugins/python/comics_project_management_tools/comics_project_setup_wizard.py:75
 msgid "A Project name. This can be different from the eventual title"
-msgstr "項目名稱。這可能與正式標題不同"
+msgstr "專案名稱。這可能與正式標題不同"
 
 #: plugins/python/comics_project_management_tools/comics_project_setup_wizard.py:77
 msgid "Generate"
@@ -49259,9 +49218,7 @@ msgstr "產生"
 msgid ""
 "If you cannot come up with a project name, our highly sophisticated project "
 "name generator will serve to give a classy yet down to earth name."
-msgstr ""
-"如果你實在想不出一個項目名稱，我們進階的項目名稱產生器將提供一個優雅而又貼近"
-"人民的名字。"
+msgstr "如果您實在想不出一個專案名稱，我們進階的專案名稱產生器將提供一個優雅而又貼近人民的名字。"
 
 #: plugins/python/comics_project_management_tools/comics_project_setup_wizard.py:83
 msgid ""
@@ -49275,13 +49232,13 @@ msgstr "漫畫使用的主要語言"
 
 #: plugins/python/comics_project_management_tools/comics_project_setup_wizard.py:98
 msgid "Make a new directory with the project name."
-msgstr "使用項目名稱建立一個新目錄。"
+msgstr "使用專案名稱建立一個新目錄。"
 
 #: plugins/python/comics_project_management_tools/comics_project_setup_wizard.py:100
 msgid ""
 "This allows you to select a generic comics project directory, in which a new "
 "folder will be made for the project using the given project name."
-msgstr "可選擇一個通用的項目目錄，以項目名稱命名的新資料夾將建立到該處。"
+msgstr "可選擇一個通用的專案目錄，以專案名稱命名的新資料夾將建立到該處。"
 
 #: plugins/python/comics_project_management_tools/comics_project_setup_wizard.py:105
 msgid "pages"
@@ -49329,7 +49286,7 @@ msgstr "資料夾名稱和其他。"
 
 #: plugins/python/comics_project_management_tools/comics_project_setup_wizard.py:131
 msgid "Project directory:"
-msgstr "項目目錄："
+msgstr "專案目錄："
 
 #: plugins/python/comics_project_management_tools/comics_project_setup_wizard.py:133
 msgid "Pages directory"
@@ -49823,8 +49780,8 @@ msgid ""
 "menu. If you leave this blank a default entry will be created based on the "
 "name of the script. </p></body></html>"
 msgstr ""
-"<html><head/><body><p>選擇你想要顯示在「工具」→「指令稿」選單中的項目。留空則"
-"自動根據指令稿名稱建立一個預設項目。</p></body></html>"
+"<html><head/"
+"><body><p>選擇您想要顯示在「工具」→「指令稿」選單中的項目。留空則自動根據指令稿名稱建立一個預設項目。</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: plugins/python/krita_script_starter/bbdkss.ui:92
@@ -49870,9 +49827,9 @@ msgid ""
 "list. If not, you will need to manually enable the script through the Krita-"
 "&gt;Settings menu entry. </p></body></html>"
 msgstr ""
-"<html><head/><body><p>若勾選此項，這個指令稿將會自動在 Krita 中啟用——這表示此"
-"指令稿的功能將會顯示在指令稿選單或指令稿工具面板清單上。否則，你將需要到 "
-"Krita 的設定中手動啟用這個指令稿。</p></body></html>"
+"<html><head/><body><p>若勾選此項，這個指令稿將會自動在 Krita "
+"中啟用——這表示此指令稿的功能將會顯示在指令稿選單或指令稿工具面板清單上。否則，您將需要到 Krita "
+"的設定中手動啟用這個指令稿。</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cb_enable_script)
 #: plugins/python/krita_script_starter/bbdkss.ui:155
