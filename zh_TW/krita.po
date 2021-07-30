@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-07-29 00:15+0000\n"
+"POT-Creation-Date: 2021-07-30 00:14+0000\n"
 "PO-Revision-Date: 2021-07-29 10:49+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
@@ -17351,13 +17351,13 @@ msgstr "本機資源"
 #: libs/resourcewidgets/KisStorageChooserWidget.cpp:140
 #: libs/ui/animation/KisAnimationRender.cpp:49
 #: libs/ui/animation/KisAnimationRender.cpp:101
-#: libs/ui/animation/KisDlgAnimationRenderer.cpp:527
-#: libs/ui/animation/KisDlgAnimationRenderer.cpp:531
-#: libs/ui/animation/KisDlgAnimationRenderer.cpp:539
-#: libs/ui/animation/KisDlgAnimationRenderer.cpp:543
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:524
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:528
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:536
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:540
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:546
 #: libs/ui/animation/KisDlgAnimationRenderer.cpp:549
-#: libs/ui/animation/KisDlgAnimationRenderer.cpp:552
-#: libs/ui/animation/KisDlgAnimationRenderer.cpp:559
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:556
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:65
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:170
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:237
@@ -18147,12 +18147,12 @@ msgstr "動畫影格繪製失敗！輸出檔案不完整。"
 msgid "Render Animation"
 msgstr "繪製動畫"
 
-#: libs/ui/animation/KisDlgAnimationRenderer.cpp:527
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:524
 #, kde-format
 msgid "Please enter a file name to render to."
 msgstr "請輸入繪製目標檔案的名稱。"
 
-#: libs/ui/animation/KisDlgAnimationRenderer.cpp:531
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:528
 #, kde-format
 msgid ""
 "<b>Krita can't find FFmpeg!</b><br>                <i>Krita depends on "
@@ -18169,20 +18169,20 @@ msgstr ""
 "\"https://docs.krita.org/en/reference_manual/render_animation.html#setting-"
 "up-krita-for-exporting-animations\">請造訪使用者手冊。</a>"
 
-#: libs/ui/animation/KisDlgAnimationRenderer.cpp:539
-#: libs/ui/animation/KisDlgAnimationRenderer.cpp:559
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:536
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:556
 #, kde-format
 msgid ""
 "The location of FFmpeg is invalid. Please select the correct location of the "
 "FFmpeg executable on your system."
 msgstr "指定的 FFmpeg 的位置無效。請在系統中選擇 FFmpeg 可執行檔案的正確位置。"
 
-#: libs/ui/animation/KisDlgAnimationRenderer.cpp:543
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:540
 #, kde-format
 msgid "Please extract ffmpeg from the archive first."
 msgstr "請先從壓縮檔中解壓縮 FFmpeg。"
 
-#: libs/ui/animation/KisDlgAnimationRenderer.cpp:550
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:547
 #, kde-format
 msgid ""
 "This is a source code archive. Please download the application archive "
@@ -18192,7 +18192,7 @@ msgstr ""
 "此為原始碼封裝。請下載應用程式壓縮檔 ('Windows 組建')，將其壓縮檔後提供已解壓"
 "縮的 FFmpeg 檔案的路徑。"
 
-#: libs/ui/animation/KisDlgAnimationRenderer.cpp:553
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:550
 #, kde-format
 msgid "This is a source code archive. Please install ffmpeg instead."
 msgstr "此為原始碼封裝。請改為安裝 FFmpeg。"
@@ -27214,29 +27214,29 @@ msgid ""
 "different location."
 msgstr "%1 不存在於 %2 且損壞。請試試在其他位置重新儲存。"
 
-#: libs/ui/KisImportExportManager.cpp:270
+#: libs/ui/KisImportExportManager.cpp:271
 #, kde-format
 msgctxt "@title:window"
 msgid "Open Audio"
 msgstr "開啟音訊"
 
-#: libs/ui/KisImportExportManager.cpp:369
+#: libs/ui/KisImportExportManager.cpp:370
 #, kde-format
 msgid "Opening document..."
 msgstr "正在開啟檔案⋯"
 
-#: libs/ui/KisImportExportManager.cpp:434
+#: libs/ui/KisImportExportManager.cpp:435
 #, kde-format
 msgid "Saving document..."
 msgstr "正在儲存檔案⋯"
 
-#: libs/ui/KisImportExportManager.cpp:523
+#: libs/ui/KisImportExportManager.cpp:524
 #, kde-format
 msgctxt "image conversion warning"
 msgid "The image contains <b>assistants</b>. The assistants will not be saved."
 msgstr "此影像包含<b>輔助尺</b>。輔助尺將不被儲存。"
 
-#: libs/ui/KisImportExportManager.cpp:526
+#: libs/ui/KisImportExportManager.cpp:527
 #, kde-format
 msgctxt "image conversion warning"
 msgid ""
@@ -27244,13 +27244,13 @@ msgid ""
 "saved."
 msgstr "此影像包含<b>參考圖</b>。參考圖將不被儲存。"
 
-#: libs/ui/KisImportExportManager.cpp:529
+#: libs/ui/KisImportExportManager.cpp:530
 #, kde-format
 msgctxt "image conversion warning"
 msgid "The image contains <b>guides</b>. The guides will not be saved."
 msgstr "此影像包含<b> 參考線 </b>。參考線將不被儲存。"
 
-#: libs/ui/KisImportExportManager.cpp:532
+#: libs/ui/KisImportExportManager.cpp:533
 #, kde-format
 msgctxt "image conversion warning"
 msgid ""
@@ -27258,54 +27258,54 @@ msgid ""
 "will not be saved."
 msgstr "此影像包含<b>自訂網格設定</b>。自訂網格設定將不被儲存。"
 
-#: libs/ui/KisImportExportManager.cpp:537
+#: libs/ui/KisImportExportManager.cpp:538
 #, kde-format
 msgid "Error: cannot save this image as a %1."
 msgstr "錯誤：無法將此影像儲存為 %1。"
 
-#: libs/ui/KisImportExportManager.cpp:538
-#: libs/ui/KisImportExportManager.cpp:587
+#: libs/ui/KisImportExportManager.cpp:539
+#: libs/ui/KisImportExportManager.cpp:588
 #, kde-format
 msgid "Reasons:"
 msgstr "原因："
 
-#: libs/ui/KisImportExportManager.cpp:546
+#: libs/ui/KisImportExportManager.cpp:547
 #, kde-format
 msgctxt "@title:window"
 msgid "Krita: Export Error"
 msgstr "Krita：匯出錯誤"
 
-#: libs/ui/KisImportExportManager.cpp:569
+#: libs/ui/KisImportExportManager.cpp:570
 #, kde-format
 msgctxt "Keep the extra space at the end of the sentence, please"
 msgid "Warning: saving as a %1 will lose information from your image.    "
 msgstr "警告：儲存為 %1 將遺失影像中的資訊。    "
 
-#: libs/ui/KisImportExportManager.cpp:581
+#: libs/ui/KisImportExportManager.cpp:582
 #, kde-format
 msgid "You will lose information when saving this image as a %1."
 msgstr "將此影像儲存為 %1 時將遺失資訊。"
 
-#: libs/ui/KisImportExportManager.cpp:584
+#: libs/ui/KisImportExportManager.cpp:585
 #, kde-format
 msgid "Reason:"
 msgstr "原因："
 
 #. i18n: ectx: attribute (title), widget (QWidget, textureOptionsTab)
-#: libs/ui/KisImportExportManager.cpp:602
+#: libs/ui/KisImportExportManager.cpp:603
 #: plugins/paintops/libpaintop/forms/wdgtexturechooser.ui:57
 #, kde-format
 msgid "Options"
 msgstr "選項"
 
 #. i18n: ectx: property (title), widget (QGroupBox, scale)
-#: libs/ui/KisImportExportManager.cpp:610
+#: libs/ui/KisImportExportManager.cpp:611
 #: plugins/impex/webp/dlg_webp_import.ui:173
 #, kde-format
 msgid "Resize"
 msgstr "調整大小"
 
-#: libs/ui/KisImportExportManager.cpp:616
+#: libs/ui/KisImportExportManager.cpp:617
 #, kde-format
 msgid "Also save your image as a Krita file."
 msgstr "請將影像另存為 Krita 格式檔案。"
