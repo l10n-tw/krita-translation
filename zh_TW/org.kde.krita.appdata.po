@@ -1,19 +1,20 @@
 # pan93412 <pan93412@gmail.com>, 2018, 2019, 2020.
-# Alvin <alvin@alvinhc.com>, 2021.
+# Alvin Wong <alvin@alvinhc.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: org.kde.krita.appdata\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-15 02:43+0100\n"
-"PO-Revision-Date: 2021-06-05 17:42+0800\n"
-"Last-Translator: Alvin <alvin@alvinhc.com>\n"
-"Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
+"PO-Revision-Date: 2021-07-31 03:13+0000\n"
+"Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
+"Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
+"krita-appdata/zh_Hant/>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 21.04.1\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.7.2\n"
 
 #. (itstool) path: component/developer_name
 #: org.kde.krita.appdata.xml:7
@@ -96,4 +97,4 @@ msgstr "想做動畫？Krita 提供您在傳統、手繪動畫所需的任何東
 #: org.kde.krita.appdata.xml:47
 msgid ""
 "If you're new to digital painting, there's an extensive, up-to-date manual"
-msgstr "如果你是數位繪圖的新手，我們提供廣範而且不斷更新的說明手冊"
+msgstr "如果您是數位繪圖的新手，我們提供廣範而且不斷更新的說明手冊"
