@@ -1,5 +1,4 @@
 # pan93412 <pan93412@gmail.com>, 2018, 2019, 2020.
-# Alvin <alvin@alvinhc.com>, 2021.
 # Alvin Wong <alvin@alvinhc.com>, 2021.
 msgid ""
 msgstr ""
