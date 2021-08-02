@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-07-31 00:15+0000\n"
-"PO-Revision-Date: 2021-07-31 03:13+0000\n"
+"POT-Creation-Date: 2021-08-01 00:19+0000\n"
+"PO-Revision-Date: 2021-08-02 14:34+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -80,217 +80,217 @@ msgstr "畫布 04"
 #, kde-format
 msgctxt "./krita/data/patterns/DITH_0202_CLUS.pat"
 msgid "DITH 0202 CLUS"
-msgstr "抖動 2x2 群集"
+msgstr "抖色 2x2 群集"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #. i18n: DITH probably means 'dithering'
 #, kde-format
 msgctxt "./krita/data/patterns/DITH_0202_GEN_.pat"
 msgid "DITH 0202 GEN "
-msgstr "抖動 2x2 一般"
+msgstr "抖色 2x2 一般 "
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #. i18n: DITH probably means 'dithering'
 #, kde-format
 msgctxt "./krita/data/patterns/DITH_0202_HORZ.pat"
 msgid "DITH 0202 HORZ"
-msgstr "抖動 2x2 水平"
+msgstr "抖色 2x2 水平"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #. i18n: DITH probably means 'dithering'
 #, kde-format
 msgctxt "./krita/data/patterns/DITH_0202_VERT.pat"
 msgid "DITH 0202 VERT"
-msgstr "抖動 2x2 垂直"
+msgstr "抖色 2x2 垂直"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #. i18n: DITH probably means 'dithering'
 #, kde-format
 msgctxt "./krita/data/patterns/DITH_0404_ALT_.pat"
 msgid "DITH 0404 ALT "
-msgstr "抖動 4x4 交錯 "
+msgstr "抖色 4x4 交錯 "
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #. i18n: DITH probably means 'dithering'
 #, kde-format
 msgctxt "./krita/data/patterns/DITH_0404_BL22.pat"
 msgid "DITH 0404 BL22"
-msgstr "抖動 4x4 黑線22"
+msgstr "抖色 4x4 黑線22"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #. i18n: DITH probably means 'dithering'
 #, kde-format
 msgctxt "./krita/data/patterns/DITH_0404_CLUS.pat"
 msgid "DITH 0404 CLUS"
-msgstr "抖動 4x4 群集"
+msgstr "抖色 4x4 群集"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #. i18n: DITH probably means 'dithering'
 #, kde-format
 msgctxt "./krita/data/patterns/DITH_0404_CURL.pat"
 msgid "DITH 0404 CURL"
-msgstr "抖動 4x4 捲曲"
+msgstr "抖色 4x4 捲曲"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #. i18n: DITH probably means 'dithering'
 #, kde-format
 msgctxt "./krita/data/patterns/DITH_0404_DIAG.pat"
 msgid "DITH 0404 DIAG"
-msgstr "抖動 4x4 對角"
+msgstr "抖色 4x4 對角"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #. i18n: DITH probably means 'dithering'
 #, kde-format
 msgctxt "./krita/data/patterns/DITH_0404_ELL2.pat"
 msgid "DITH 0404 ELL2"
-msgstr "抖動 4x4 ELL2"
+msgstr "抖色 4x4 ELL2"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #. i18n: DITH probably means 'dithering'
 #, kde-format
 msgctxt "./krita/data/patterns/DITH_0404_ELL3.pat"
 msgid "DITH 0404 ELL3"
-msgstr "抖動 4x4 ELL3"
+msgstr "抖色 4x4 ELL3"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #. i18n: DITH probably means 'dithering'
 #, kde-format
 msgctxt "./krita/data/patterns/DITH_0404_ELLS.pat"
 msgid "DITH 0404 ELLS"
-msgstr "抖動 4x4 ELLS"
+msgstr "抖色 4x4 ELLS"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #. i18n: DITH probably means 'dithering'
 #, kde-format
 msgctxt "./krita/data/patterns/DITH_0404_GEN_.pat"
 msgid "DITH 0404 GEN "
-msgstr "抖動 4x4 一般"
+msgstr "抖色 4x4 一般 "
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #. i18n: DITH probably means 'dithering'
 #, kde-format
 msgctxt "./krita/data/patterns/DITH_0404_HORZ.pat"
 msgid "DITH 0404 HORZ"
-msgstr "抖動 4x4 水平"
+msgstr "抖色 4x4 水平"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #. i18n: DITH probably means 'dithering'
 #, kde-format
 msgctxt "./krita/data/patterns/DITH_0404_SHUR.pat"
 msgid "DITH 0404 SHUR"
-msgstr "抖動 4x4 SHUR"
+msgstr "抖色 4x4 SHUR"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #. i18n: DITH probably means 'dithering'
 #, kde-format
 msgctxt "./krita/data/patterns/DITH_0404_SLIC.pat"
 msgid "DITH 0404 SLIC"
-msgstr "抖動 4x4 SLIC"
+msgstr "抖色 4x4 SLIC"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #. i18n: DITH probably means 'dithering'
 #, kde-format
 msgctxt "./krita/data/patterns/DITH_0404_VERT.pat"
 msgid "DITH 0404 VERT"
-msgstr "抖動 4x4 垂直"
+msgstr "抖色 4x4 垂直"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #. i18n: DITH probably means 'dithering'
 #, kde-format
 msgctxt "./krita/data/patterns/DITH_0404_WAV2.pat"
 msgid "DITH 0404 WAV2"
-msgstr "抖動 4x4 波紋 2"
+msgstr "抖色 4x4 波紋 2"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #. i18n: DITH probably means 'dithering'
 #, kde-format
 msgctxt "./krita/data/patterns/DITH_0404_WAVE.pat"
 msgid "DITH 0404 WAVE"
-msgstr "抖動 4x4 波紋"
+msgstr "抖色 4x4 波紋"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #. i18n: DITH probably means 'dithering'
 #, kde-format
 msgctxt "./krita/data/patterns/DITH_0404_ZORO.pat"
 msgid "DITH 0404 ZORO"
-msgstr "抖動 4x4 ZORO"
+msgstr "抖色 4x4 ZORO"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #. i18n: DITH probably means 'dithering'
 #, kde-format
 msgctxt "./krita/data/patterns/DITH_0808_BL22.pat"
 msgid "DITH 0808 BL22"
-msgstr "抖動 8x8 BL22"
+msgstr "抖色 8x8 BL22"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #. i18n: DITH probably means 'dithering'
 #, kde-format
 msgctxt "./krita/data/patterns/DITH_0808_BL22_v.pat"
 msgid "DITH 0808 BL22 V"
-msgstr "抖動 8x8 BL22 V"
+msgstr "抖色 8x8 BL22 V"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #. i18n: DITH probably means 'dithering'
 #, kde-format
 msgctxt "./krita/data/patterns/DITH_0808_BUBL.pat"
 msgid "DITH 0808 BUBL"
-msgstr "抖動 8x8 泡泡"
+msgstr "抖色 8x8 泡泡"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #. i18n: DITH probably means 'dithering'
 #, kde-format
 msgctxt "./krita/data/patterns/DITH_0808_CIRC.pat"
 msgid "DITH 0808 CIRC"
-msgstr "抖動 8x8 圈圈"
+msgstr "抖色 8x8 圈圈"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #. i18n: DITH probably means 'dithering'
 #, kde-format
 msgctxt "./krita/data/patterns/DITH_0808_CLUS.pat"
 msgid "DITH 0808 CLUS"
-msgstr "抖動 8x8 群集"
+msgstr "抖色 8x8 群集"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #. i18n: DITH probably means 'dithering'
 #, kde-format
 msgctxt "./krita/data/patterns/DITH_0808_DIAM.pat"
 msgid "DITH 0808 DIAM"
-msgstr "抖動 8x8 DIAM"
+msgstr "抖色 8x8 DIAM"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #. i18n: DITH probably means 'dithering'
 #, kde-format
 msgctxt "./krita/data/patterns/DITH_0808_PANL.pat"
 msgid "DITH 0808 PANL"
-msgstr "抖動 8x8 面板"
+msgstr "抖色 8x8 面板"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #. i18n: DITH probably means 'dithering'
 #, kde-format
 msgctxt "./krita/data/patterns/DITH_0808_SPOT.pat"
 msgid "DITH 0808 SPOT"
-msgstr "抖動 8x8 SPOT"
+msgstr "抖色 8x8 SPOT"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #. i18n: DITH probably means 'dithering'
 #, kde-format
 msgctxt "./krita/data/patterns/DITH_0808_SWRL.pat"
 msgid "DITH 0808 SWRL"
-msgstr "抖動 8x8 漩渦捲曲"
+msgstr "抖色 8x8 漩渦捲曲"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #. i18n: DITH probably means 'dithering'
 #, kde-format
 msgctxt "./krita/data/patterns/DITH_0808_WAVE.pat"
 msgid "DITH 0808 WAVE"
-msgstr "抖動 8x8 波紋"
+msgstr "抖色 8x8 波紋"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #. i18n: DITH probably means 'dithering'
 #, kde-format
 msgctxt "./krita/data/patterns/DITH_3232_CSTR.pat"
 msgid "DITH 3232 CURVED STRIPES"
-msgstr "抖動 32x32 彎曲線條"
+msgstr "抖色 32x32 彎曲線條"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
@@ -2397,7 +2397,7 @@ msgctxt ""
 "./krita/data/bundles/Krita_3_Default_Resources.bundle:paintoppresets/"
 "Pixelart_dither.kpp"
 msgid "Pixelart dither"
-msgstr "像素畫 - 抖動網點"
+msgstr "像素畫 - 抖色網點"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
@@ -4496,7 +4496,7 @@ msgctxt ""
 "./krita/data/bundles/Krita_4_Default_Resources.bundle:paintoppresets/"
 "u)_Pixel_Art_Dithering.kpp"
 msgid "u) Pixel Art Dithering"
-msgstr "像素畫 - 抖動半色調"
+msgstr "像素畫 - 抖色半色調"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #. i18n: 'a)', 'b)' etc. in resource names are used to keep resources in a specific order when Krita sorts them alphabetically. The order will be kept only using the original/untranslated names
@@ -7900,7 +7900,7 @@ msgstr "平鋪"
 #, kde-format
 msgctxt "action"
 msgid "Create Resource Bundle..."
-msgstr "建立資源包⋯"
+msgstr "建立資源包…"
 
 #. i18n: context: Action (create_bundle), Actions (General), ActionCollection (Krita)
 #: krita/krita.action:45
@@ -8048,7 +8048,7 @@ msgstr "彈出命令列以搜尋動作"
 #, kde-format
 msgctxt "action"
 msgid "Rename Composition..."
-msgstr "重新命名方案⋯"
+msgstr "重新命名方案…"
 
 #. i18n: context: Action (rename_composition), Actions (General), ActionCollection (Krita)
 #: krita/krita.action:189
@@ -8670,7 +8670,7 @@ msgstr "濾鏡"
 #, kde-format
 msgctxt "action"
 msgid "&Color to Alpha..."
-msgstr "色彩轉為透明度(&C)⋯"
+msgstr "色彩轉為透明度(&C)…"
 
 #. i18n: context: Action (krita_filter_colortoalpha), Actions (Filters), ActionCollection (Krita)
 #: krita/krita.action:796
@@ -8698,7 +8698,7 @@ msgstr "上邊緣檢測"
 #, kde-format
 msgctxt "action"
 msgid "&Index Colors..."
-msgstr "索引色彩(&I)⋯"
+msgstr "索引色彩(&I)…"
 
 #. i18n: context: Action (krita_filter_indexcolors), Actions (Filters), ActionCollection (Krita)
 #: krita/krita.action:820
@@ -8782,7 +8782,7 @@ msgstr "均值移除"
 #, kde-format
 msgctxt "action"
 msgid "&Gaussian Blur..."
-msgstr "高斯模糊(&G)⋯"
+msgstr "高斯模糊(&G)…"
 
 #. i18n: context: Action (krita_filter_gaussian blur), Actions (Filters), ActionCollection (Krita)
 #: krita/krita.action:892
@@ -8810,7 +8810,7 @@ msgstr "全方向浮雕"
 #, kde-format
 msgctxt "action"
 msgid "&Small Tiles..."
-msgstr "拼貼(&S)⋯"
+msgstr "拼貼(&S)…"
 
 #. i18n: context: Action (krita_filter_smalltiles), Actions (Filters), ActionCollection (Krita)
 #: krita/krita.action:916
@@ -8824,7 +8824,7 @@ msgstr "拼貼"
 #, kde-format
 msgctxt "action"
 msgid "&Levels..."
-msgstr "色階(&L)⋯"
+msgstr "色階(&L)…"
 
 #. i18n: context: Action (krita_filter_levels), Actions (Filters), ActionCollection (Krita)
 #: krita/krita.action:928
@@ -8838,7 +8838,7 @@ msgstr "色階"
 #, kde-format
 msgctxt "action"
 msgid "&Sobel..."
-msgstr "Sobel 邊緣檢測(&S)⋯"
+msgstr "Sobel 邊緣檢測(&S)…"
 
 #. i18n: context: Action (krita_filter_sobel), Actions (Filters), ActionCollection (Krita)
 #: krita/krita.action:940
@@ -8852,7 +8852,7 @@ msgstr "Sobel 邊緣檢測"
 #, kde-format
 msgctxt "action"
 msgid "&Wave..."
-msgstr "波浪(&W)⋯"
+msgstr "波浪(&W)…"
 
 #. i18n: context: Action (krita_filter_wave), Actions (Filters), ActionCollection (Krita)
 #: krita/krita.action:952
@@ -8866,7 +8866,7 @@ msgstr "波浪"
 #, kde-format
 msgctxt "action"
 msgid "&Motion Blur..."
-msgstr "動態模糊(&M)⋯"
+msgstr "動態模糊(&M)…"
 
 #. i18n: context: Action (krita_filter_motion blur), Actions (Filters), ActionCollection (Krita)
 #: krita/krita.action:964
@@ -8894,7 +8894,7 @@ msgstr "反轉"
 #, kde-format
 msgctxt "action"
 msgid "&Color Adjustment curves..."
-msgstr "色彩調整曲線(&C)⋯"
+msgstr "色彩調整曲線(&C)…"
 
 #. i18n: context: Action (krita_filter_perchannel), Actions (Filters), ActionCollection (Krita)
 #: krita/krita.action:988
@@ -8908,7 +8908,7 @@ msgstr "色彩調整曲線"
 #, kde-format
 msgctxt "action"
 msgid "Pi&xelize..."
-msgstr "像素化(&X)⋯"
+msgstr "像素化(&X)…"
 
 #. i18n: context: Action (krita_filter_pixelize), Actions (Filters), ActionCollection (Krita)
 #: krita/krita.action:1000
@@ -8950,7 +8950,7 @@ msgstr "左邊緣檢測"
 #, kde-format
 msgctxt "action"
 msgid "&Blur..."
-msgstr "模糊(&B)⋯"
+msgstr "模糊(&B)…"
 
 #. i18n: context: Action (blur_filters), Actions (Filter), ActionCollection (Menu)
 #. i18n: context: Action (blur_filters), Actions (Filter), ActionCollection (Menu)
@@ -8970,7 +8970,7 @@ msgstr "模糊"
 #, kde-format
 msgctxt "action"
 msgid "&Raindrops..."
-msgstr "雨滴(&R)⋯"
+msgstr "雨滴(&R)…"
 
 #. i18n: context: Action (krita_filter_raindrops), Actions (Filters), ActionCollection (Krita)
 #: krita/krita.action:1048
@@ -8998,7 +8998,7 @@ msgstr "下邊緣檢測"
 #, kde-format
 msgctxt "action"
 msgid "&Random Noise..."
-msgstr "隨機噪點(&R)⋯"
+msgstr "隨機噪點(&R)…"
 
 #. i18n: context: Action (krita_filter_noise), Actions (Filters), ActionCollection (Krita)
 #: krita/krita.action:1072
@@ -9012,7 +9012,7 @@ msgstr "隨機噪點"
 #, kde-format
 msgctxt "action"
 msgid "&Brightness/Contrast curve..."
-msgstr "亮度/對比度曲線(&B)⋯"
+msgstr "亮度/對比度曲線(&B)…"
 
 #. i18n: context: Action (krita_filter_brightnesscontrast), Actions (Filters), ActionCollection (Krita)
 #: krita/krita.action:1084
@@ -9026,7 +9026,7 @@ msgstr "亮度/對比度曲線"
 #, kde-format
 msgctxt "action"
 msgid "Colo&r Balance..."
-msgstr "色彩平衡(&R)⋯"
+msgstr "色彩平衡(&R)…"
 
 #. i18n: context: Action (krita_filter_colorbalance), Actions (Filters), ActionCollection (Krita)
 #: krita/krita.action:1096
@@ -9040,7 +9040,7 @@ msgstr "色彩平衡"
 #, kde-format
 msgctxt "action"
 msgid "&Phong Bumpmap..."
-msgstr "凹凸貼圖和法線貼圖(&P)⋯"
+msgstr "凹凸貼圖和法線貼圖(&P)…"
 
 #. i18n: context: Action (krita_filter_phongbumpmap), Actions (Filters), ActionCollection (Krita)
 #: krita/krita.action:1108
@@ -9068,7 +9068,7 @@ msgstr "去色"
 #, kde-format
 msgctxt "action"
 msgid "Color &Transfer..."
-msgstr "色彩轉移(&T)⋯"
+msgstr "色彩轉移(&T)…"
 
 #. i18n: context: Action (krita_filter_colortransfer), Actions (Filters), ActionCollection (Krita)
 #: krita/krita.action:1132
@@ -9096,7 +9096,7 @@ msgstr "僅垂直浮雕"
 #, kde-format
 msgctxt "action"
 msgid "&Lens Blur..."
-msgstr "鏡頭模糊(&L)⋯"
+msgstr "鏡頭模糊(&L)…"
 
 #. i18n: context: Action (krita_filter_lens blur), Actions (Filters), ActionCollection (Krita)
 #: krita/krita.action:1156
@@ -9138,7 +9138,7 @@ msgstr "最大化通道"
 #, kde-format
 msgctxt "action"
 msgid "&Oilpaint..."
-msgstr "油畫(&O)⋯"
+msgstr "油畫(&O)…"
 
 #. i18n: context: Action (krita_filter_oilpaint), Actions (Filters), ActionCollection (Krita)
 #: krita/krita.action:1192
@@ -9180,7 +9180,7 @@ msgstr "自動對比度"
 #, kde-format
 msgctxt "action"
 msgid "&Round Corners..."
-msgstr "圓角(&R)⋯"
+msgstr "圓角(&R)…"
 
 #. i18n: context: Action (krita_filter_roundcorners), Actions (Filters), ActionCollection (Krita)
 #: krita/krita.action:1228
@@ -9194,7 +9194,7 @@ msgstr "圓角"
 #, kde-format
 msgctxt "action"
 msgid "&Unsharp Mask..."
-msgstr "USM 銳化(&U)⋯"
+msgstr "USM 銳化(&U)…"
 
 #. i18n: context: Action (krita_filter_unsharp), Actions (Filters), ActionCollection (Krita)
 #: krita/krita.action:1240
@@ -9208,7 +9208,7 @@ msgstr "USM 銳化"
 #, kde-format
 msgctxt "action"
 msgid "&Emboss with Variable Depth..."
-msgstr "可變深度浮雕(&E)⋯"
+msgstr "可變深度浮雕(&E)…"
 
 #. i18n: context: Action (krita_filter_emboss), Actions (Filters), ActionCollection (Krita)
 #: krita/krita.action:1252
@@ -9236,7 +9236,7 @@ msgstr "水平和垂直浮雕"
 #, kde-format
 msgctxt "action"
 msgid "Random &Pick..."
-msgstr "隨機選取(&P)⋯"
+msgstr "隨機選取(&P)…"
 
 #. i18n: context: Action (krita_filter_randompick), Actions (Filters), ActionCollection (Krita)
 #: krita/krita.action:1276
@@ -9250,7 +9250,7 @@ msgstr "隨機選取"
 #, kde-format
 msgctxt "action"
 msgid "&Gaussian Noise Reduction..."
-msgstr "高斯降噪(&G)⋯"
+msgstr "高斯降噪(&G)…"
 
 #. i18n: context: Action (krita_filter_gaussiannoisereducer), Actions (Filters), ActionCollection (Krita)
 #: krita/krita.action:1288
@@ -9264,7 +9264,7 @@ msgstr "高斯降噪"
 #, kde-format
 msgctxt "action"
 msgid "&Posterize..."
-msgstr "色調分離(&P)⋯"
+msgstr "色調分離(&P)…"
 
 #. i18n: context: Action (krita_filter_posterize), Actions (Filters), ActionCollection (Krita)
 #: krita/krita.action:1300
@@ -9278,7 +9278,7 @@ msgstr "色調分離"
 #, kde-format
 msgctxt "action"
 msgid "&Wavelet Noise Reducer..."
-msgstr "子波降噪(&W)⋯"
+msgstr "子波降噪(&W)…"
 
 #. i18n: context: Action (krita_filter_waveletnoisereducer), Actions (Filters), ActionCollection (Krita)
 #: krita/krita.action:1312
@@ -9292,7 +9292,7 @@ msgstr "子波降噪"
 #, kde-format
 msgctxt "action"
 msgid "&HSV Adjustment..."
-msgstr "HSV 調整(&H)⋯"
+msgstr "HSV 調整(&H)…"
 
 #. i18n: context: Action (krita_filter_hsvadjustment), Actions (Filters), ActionCollection (Krita)
 #: krita/krita.action:1324
@@ -10388,7 +10388,7 @@ msgstr "向量圖層"
 #, kde-format
 msgctxt "action"
 msgid "&Filter Layer..."
-msgstr "濾鏡圖層(&F)⋯"
+msgstr "濾鏡圖層(&F)…"
 
 #. i18n: context: Action (add_new_adjustment_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2388
@@ -10402,7 +10402,7 @@ msgstr "濾鏡圖層"
 #, kde-format
 msgctxt "action"
 msgid "&Fill Layer..."
-msgstr "填充圖層(&F)⋯"
+msgstr "填充圖層(&F)…"
 
 #. i18n: context: Action (add_new_fill_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2400
@@ -10416,7 +10416,7 @@ msgstr "填充圖層"
 #, kde-format
 msgctxt "action"
 msgid "&File Layer..."
-msgstr "檔案圖層(&F)⋯"
+msgstr "檔案圖層(&F)…"
 
 #. i18n: context: Action (add_new_file_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2412
@@ -10444,7 +10444,7 @@ msgstr "透明度遮罩"
 #, kde-format
 msgctxt "action"
 msgid "&Filter Mask..."
-msgstr "濾鏡遮罩(&F)⋯"
+msgstr "濾鏡遮罩(&F)…"
 
 #. i18n: context: Action (add_new_filter_mask), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2436
@@ -10824,7 +10824,7 @@ msgstr "選擇所有未鎖定圖層"
 #, kde-format
 msgctxt "action"
 msgid "&Save Layer/Mask..."
-msgstr "儲存圖層/遮罩(&S)⋯"
+msgstr "儲存圖層/遮罩(&S)…"
 
 #. i18n: context: Action (save_node_as_image), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2760
@@ -10838,7 +10838,7 @@ msgstr "儲存圖層/遮罩"
 #, kde-format
 msgctxt "action"
 msgid "Save Vector Layer as SVG..."
-msgstr "將向量圖層另存為 SVG⋯"
+msgstr "將向量圖層另存為 SVG…"
 
 #. i18n: context: Action (save_vector_node_to_svg), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2772
@@ -10852,7 +10852,7 @@ msgstr "將向量圖層另存為 SVG"
 #, kde-format
 msgctxt "action"
 msgid "Save &Group Layers..."
-msgstr "儲存分組圖層(&G)⋯"
+msgstr "儲存分組圖層(&G)…"
 
 #. i18n: context: Action (save_groups_as_images), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2784
@@ -10894,7 +10894,7 @@ msgstr "將圖層轉成動畫影格"
 #, kde-format
 msgctxt "action"
 msgid "to &File Layer..."
-msgstr "為檔案圖層(&F)⋯"
+msgstr "為檔案圖層(&F)…"
 
 #. i18n: context: Action (convert_to_file_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2820
@@ -10908,7 +10908,7 @@ msgstr "將圖層儲存為新影像並引用該影像。"
 #, kde-format
 msgctxt "action"
 msgid "I&mport Layer..."
-msgstr "匯入圖層(&M)⋯"
+msgstr "匯入圖層(&M)…"
 
 #. i18n: context: Action (import_layer_from_file), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2832
@@ -10922,7 +10922,7 @@ msgstr "匯入圖層"
 #, kde-format
 msgctxt "action"
 msgid "&as Paint Layer..."
-msgstr "作為顏料圖層(&A)⋯"
+msgstr "作為顏料圖層(&A)…"
 
 #. i18n: context: Action (import_layer_as_paint_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2844
@@ -10936,7 +10936,7 @@ msgstr "作為顏料圖層"
 #, kde-format
 msgctxt "action"
 msgid "as &Transparency Mask..."
-msgstr "作為透明度遮罩(&T)⋯"
+msgstr "作為透明度遮罩(&T)…"
 
 #. i18n: context: Action (import_layer_as_transparency_mask), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2856
@@ -10950,7 +10950,7 @@ msgstr "作為透明度遮罩"
 #, kde-format
 msgctxt "action"
 msgid "as &Filter Mask..."
-msgstr "作為濾鏡遮罩(&F)⋯"
+msgstr "作為濾鏡遮罩(&F)…"
 
 #. i18n: context: Action (import_layer_as_filter_mask), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2868
@@ -10964,7 +10964,7 @@ msgstr "作為濾鏡遮罩"
 #, kde-format
 msgctxt "action"
 msgid "as &Selection Mask..."
-msgstr "作為選取區域遮罩(&S)⋯"
+msgstr "作為選取區域遮罩(&S)…"
 
 #. i18n: context: Action (import_layer_as_selection_mask), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2880
@@ -11006,7 +11006,7 @@ msgstr "為透明度遮罩"
 #, kde-format
 msgctxt "action"
 msgid "to &Filter Mask..."
-msgstr "為濾鏡遮罩(&F)⋯"
+msgstr "為濾鏡遮罩(&F)…"
 
 #. i18n: context: Action (convert_to_filter_mask), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2916
@@ -11062,7 +11062,7 @@ msgstr "作為透明度寫入"
 #, kde-format
 msgctxt "action"
 msgid "&Save Merged..."
-msgstr "合併儲存(&S)⋯"
+msgstr "合併儲存(&S)…"
 
 #. i18n: context: Action (split_alpha_save_merged), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2964
@@ -11076,7 +11076,7 @@ msgstr "合併儲存"
 #, kde-format
 msgctxt "action"
 msgid "Split Layer..."
-msgstr "分割圖層⋯"
+msgstr "分割圖層…"
 
 #. i18n: context: Action (layersplit), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2976
@@ -11090,7 +11090,7 @@ msgstr "分割圖層"
 #, kde-format
 msgctxt "action"
 msgid "Wavelet Decompose ..."
-msgstr "子波分解⋯"
+msgstr "子波分解…"
 
 #. i18n: context: Action (waveletdecompose), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2988
@@ -11132,7 +11132,7 @@ msgstr "垂直翻轉圖層"
 #, kde-format
 msgctxt "action"
 msgid "&Rotate Layer..."
-msgstr "旋轉圖層(&R)⋯"
+msgstr "旋轉圖層(&R)…"
 
 #. i18n: context: Action (rotatelayer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:3024
@@ -11188,7 +11188,7 @@ msgstr "旋轉圖層 180°"
 #, kde-format
 msgctxt "action"
 msgid "Scale &Layer to new Size..."
-msgstr "縮放圖層至新尺寸(&L)⋯"
+msgstr "縮放圖層至新尺寸(&L)…"
 
 #. i18n: context: Action (layersize), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:3072
@@ -11202,7 +11202,7 @@ msgstr "縮放圖層至新尺寸"
 #, kde-format
 msgctxt "action"
 msgid "&Shear Layer..."
-msgstr "切變圖層(&S)⋯"
+msgstr "切變圖層(&S)…"
 
 #. i18n: context: Action (shearlayer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:3084
@@ -11244,7 +11244,7 @@ msgstr "垂直鏡像所有圖層"
 #, kde-format
 msgctxt "action"
 msgid "&Rotate All Layers..."
-msgstr "旋轉所有圖層(&R)⋯"
+msgstr "旋轉所有圖層(&R)…"
 
 #. i18n: context: Action (rotateAllLayers), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:3120
@@ -11300,7 +11300,7 @@ msgstr "旋轉所有圖層 180°"
 #, kde-format
 msgctxt "action"
 msgid "Scale All &Layers to new Size..."
-msgstr "縮放所有圖層至新尺寸(&L)⋯"
+msgstr "縮放所有圖層至新尺寸(&L)…"
 
 #. i18n: context: Action (scaleAllLayers), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:3168
@@ -11314,7 +11314,7 @@ msgstr "縮放所有圖層至新尺寸"
 #, kde-format
 msgctxt "action"
 msgid "&Shear All Layers..."
-msgstr "切變所有圖層(&S)⋯"
+msgstr "切變所有圖層(&S)…"
 
 #. i18n: context: Action (shearAllLayers), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:3180
@@ -11328,7 +11328,7 @@ msgstr "切變所有圖層"
 #, kde-format
 msgctxt "action"
 msgid "&Offset Layer..."
-msgstr "平移圖層(&O)⋯"
+msgstr "平移圖層(&O)…"
 
 #. i18n: context: Action (offsetlayer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:3192
@@ -11342,7 +11342,7 @@ msgstr "平移圖層"
 #, kde-format
 msgctxt "action"
 msgid "Clones &Array..."
-msgstr "再製陣列(&A)⋯"
+msgstr "再製陣列(&A)…"
 
 #. i18n: context: Action (clones_array), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:3204
@@ -11356,7 +11356,7 @@ msgstr "再製陣列"
 #, kde-format
 msgctxt "action"
 msgid "&Edit metadata..."
-msgstr "編輯中繼資料(&E)⋯"
+msgstr "編輯中繼資料(&E)…"
 
 #. i18n: context: Action (EditLayerMetaData), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:3216
@@ -11370,7 +11370,7 @@ msgstr "編輯中繼資料"
 #, kde-format
 msgctxt "action"
 msgid "&Histogram..."
-msgstr "直方圖(&H)⋯"
+msgstr "直方圖(&H)…"
 
 #. i18n: context: Action (histogram), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:3228
@@ -11384,7 +11384,7 @@ msgstr "直方圖"
 #, kde-format
 msgctxt "action"
 msgid "&Convert Layer Color Space..."
-msgstr "轉換圖層色彩空間(&C)⋯"
+msgstr "轉換圖層色彩空間(&C)…"
 
 #. i18n: context: Action (layercolorspaceconversion), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:3240
@@ -11440,7 +11440,7 @@ msgstr "平整影像"
 #, kde-format
 msgctxt "action"
 msgid "La&yer Style..."
-msgstr "圖層樣式(&Y)⋯"
+msgstr "圖層樣式(&Y)…"
 
 #. i18n: context: Action (layer_style), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:3288
@@ -11518,7 +11518,7 @@ msgstr "下移圖層或遮罩"
 #, kde-format
 msgctxt "action"
 msgid "&Properties..."
-msgstr "屬性(&P)⋯"
+msgstr "屬性(&P)…"
 
 #. i18n: context: Action (layer_properties), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:3368
@@ -11532,7 +11532,7 @@ msgstr "屬性"
 #, kde-format
 msgctxt "action"
 msgid "Set Copy F&rom..."
-msgstr "設定複製來源(&R)⋯"
+msgstr "設定複製來源(&R)…"
 
 #. i18n: context: Action (set-copy-from), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:3380
@@ -11712,7 +11712,7 @@ msgstr "檔案"
 #, kde-format
 msgctxt "New document"
 msgid "&New..."
-msgstr "建立(&N)⋯"
+msgstr "建立(&N)…"
 
 #. i18n: context: Action (file_new), Actions (File), ActionCollection (Menu)
 #: krita/kritamenu.action:9
@@ -11726,7 +11726,7 @@ msgstr "建立檔案"
 #, kde-format
 msgctxt "action"
 msgid "&Open..."
-msgstr "開啟(&O)⋯"
+msgstr "開啟(&O)…"
 
 #. i18n: context: Action (file_open), Actions (File), ActionCollection (Menu)
 #: krita/kritamenu.action:21
@@ -11768,7 +11768,7 @@ msgstr "儲存檔案"
 #, kde-format
 msgctxt "action"
 msgid "Save &As..."
-msgstr "另存為(&A)⋯"
+msgstr "另存為(&A)…"
 
 #. i18n: context: Action (file_save_as), Actions (File), ActionCollection (Menu)
 #: krita/kritamenu.action:57
@@ -11782,7 +11782,7 @@ msgstr "以新名稱儲存檔案"
 #, kde-format
 msgctxt "action"
 msgid "Sessions..."
-msgstr "工作階段⋯"
+msgstr "工作階段…"
 
 #. i18n: context: Action (file_sessions), Actions (File), ActionCollection (Menu)
 #: krita/kritamenu.action:69
@@ -11796,7 +11796,7 @@ msgstr "開啟工作階段管理器"
 #, kde-format
 msgctxt "action"
 msgid "Open ex&isting Document as Untitled Document..."
-msgstr "將現存檔案作為無標題檔案開啟(&I)⋯"
+msgstr "將現存檔案作為無標題檔案開啟(&I)…"
 
 #. i18n: context: Action (file_import_file), Actions (File), ActionCollection (Menu)
 #: krita/kritamenu.action:82
@@ -11810,7 +11810,7 @@ msgstr "將現存檔案作為無標題檔案開啟"
 #, kde-format
 msgctxt "action"
 msgid "E&xport..."
-msgstr "匯出(&X)⋯"
+msgstr "匯出(&X)…"
 
 #. i18n: context: Action (file_export_file), Actions (File), ActionCollection (Menu)
 #: krita/kritamenu.action:94
@@ -11824,7 +11824,7 @@ msgstr "匯出檔案"
 #, kde-format
 msgctxt "action"
 msgid "E&xport Advanced..."
-msgstr "進階匯出⋯"
+msgstr "進階匯出…"
 
 #. i18n: context: Action (file_export_advanced), Actions (File), ActionCollection (Menu)
 #: krita/kritamenu.action:106
@@ -11838,7 +11838,7 @@ msgstr "進階匯出"
 #, kde-format
 msgctxt "action"
 msgid "Import animation frames..."
-msgstr "匯入動畫影格⋯"
+msgstr "匯入動畫影格…"
 
 #. i18n: context: Action (file_import_animation), Actions (File), ActionCollection (Menu)
 #: krita/kritamenu.action:119
@@ -11852,7 +11852,7 @@ msgstr "匯入動畫影格"
 #, kde-format
 msgctxt "action"
 msgid "Import video animation..."
-msgstr "匯入影片動畫⋯"
+msgstr "匯入影片動畫…"
 
 #. i18n: context: Action (file_import_video_animation), Actions (File), ActionCollection (Menu)
 #: krita/kritamenu.action:131
@@ -11866,7 +11866,7 @@ msgstr "匯入影片動畫"
 #, kde-format
 msgctxt "action"
 msgid "&Render Animation..."
-msgstr "繪製動畫(&R)⋯"
+msgstr "繪製動畫(&R)…"
 
 #. i18n: context: Action (render_animation), Actions (File), ActionCollection (Menu)
 #: krita/kritamenu.action:143
@@ -11922,7 +11922,7 @@ msgstr "儲存增量備份"
 #, kde-format
 msgctxt "action"
 msgid "&Create Template From Image..."
-msgstr "從影像建立範本(&C)⋯"
+msgstr "從影像建立範本(&C)…"
 
 #. i18n: context: Action (create_template), Actions (File), ActionCollection (Menu)
 #: krita/kritamenu.action:191
@@ -12264,7 +12264,7 @@ msgstr "對選取形狀描邊"
 #, kde-format
 msgctxt "action"
 msgid "Stroke Selec&tion..."
-msgstr "對選取區域描邊(&T)⋯"
+msgstr "對選取區域描邊(&T)…"
 
 #. i18n: context: Action (stroke_selection), Actions (EditFill), ActionCollection (Menu)
 #: krita/kritamenu.action:524
@@ -12786,7 +12786,7 @@ msgstr "影像"
 #, kde-format
 msgctxt "Image Properties"
 msgid "&Properties..."
-msgstr "屬性(&P)⋯"
+msgstr "屬性(&P)…"
 
 #. i18n: context: Action (image_properties), Actions (Image), ActionCollection (Menu)
 #: krita/kritamenu.action:1010
@@ -12800,7 +12800,7 @@ msgstr "屬性"
 #, kde-format
 msgctxt "action"
 msgid "&Image Background Color and Transparency..."
-msgstr "影像背景色與透明度(&I)⋯"
+msgstr "影像背景色與透明度(&I)…"
 
 #. i18n: context: Action (image_color), Actions (Image), ActionCollection (Menu)
 #: krita/kritamenu.action:1022
@@ -12814,7 +12814,7 @@ msgstr "變更影像的背景色"
 #, kde-format
 msgctxt "action"
 msgid "&Convert Image Color Space..."
-msgstr "轉換影像色彩空間(&C)⋯"
+msgstr "轉換影像色彩空間(&C)…"
 
 #. i18n: context: Action (imagecolorspaceconversion), Actions (Image), ActionCollection (Menu)
 #: krita/kritamenu.action:1034
@@ -12870,7 +12870,7 @@ msgstr "修剪至選取區域"
 #, kde-format
 msgctxt "action"
 msgid "&Rotate Image..."
-msgstr "旋轉影像(&R)⋯"
+msgstr "旋轉影像(&R)…"
 
 #. i18n: context: Action (rotateimage), Actions (Image), ActionCollection (Menu)
 #: krita/kritamenu.action:1082
@@ -12926,7 +12926,7 @@ msgstr "旋轉影像 180°"
 #, kde-format
 msgctxt "action"
 msgid "&Shear Image..."
-msgstr "切變影像(&S)⋯"
+msgstr "切變影像(&S)…"
 
 #. i18n: context: Action (shearimage), Actions (Image), ActionCollection (Menu)
 #: krita/kritamenu.action:1130
@@ -12968,7 +12968,7 @@ msgstr "垂直鏡像影像"
 #, kde-format
 msgctxt "action"
 msgid "Scale Image To &New Size..."
-msgstr "縮放影像至新尺寸(&N)⋯"
+msgstr "縮放影像至新尺寸(&N)…"
 
 #. i18n: context: Action (imagesize), Actions (Image), ActionCollection (Menu)
 #: krita/kritamenu.action:1166
@@ -12982,7 +12982,7 @@ msgstr "縮放影像至新尺寸"
 #, kde-format
 msgctxt "action"
 msgid "&Offset Image..."
-msgstr "平移影像(&O)⋯"
+msgstr "平移影像(&O)…"
 
 #. i18n: context: Action (offsetimage), Actions (Image), ActionCollection (Menu)
 #: krita/kritamenu.action:1178
@@ -12996,7 +12996,7 @@ msgstr "平移影像"
 #, kde-format
 msgctxt "action"
 msgid "R&esize Canvas..."
-msgstr "調整畫布大小(&E)⋯"
+msgstr "調整畫布大小(&E)…"
 
 #. i18n: context: Action (canvassize), Actions (Image), ActionCollection (Menu)
 #: krita/kritamenu.action:1190
@@ -13024,7 +13024,7 @@ msgstr "分割影像"
 #, kde-format
 msgctxt "action"
 msgid "Separate Ima&ge..."
-msgstr "分離影像(&G)⋯"
+msgstr "分離影像(&G)…"
 
 #. i18n: context: Action (separate), Actions (Image), ActionCollection (Menu)
 #: krita/kritamenu.action:1214
@@ -13139,7 +13139,7 @@ msgstr "轉換形狀為向量選取區域"
 #, kde-format
 msgctxt "action"
 msgid "&Feather Selection..."
-msgstr "羽化選取區域(&F)⋯"
+msgstr "羽化選取區域(&F)…"
 
 #. i18n: context: Action (featherselection), Actions (Select), ActionCollection (Menu)
 #: krita/kritamenu.action:1314
@@ -13167,7 +13167,7 @@ msgstr "顯示選取區域"
 #, kde-format
 msgctxt "action"
 msgid "Sca&le..."
-msgstr "縮放(&L)⋯"
+msgstr "縮放(&L)…"
 
 #. i18n: context: Action (selectionscale), Actions (Select), ActionCollection (Menu)
 #: krita/kritamenu.action:1338
@@ -13181,7 +13181,7 @@ msgstr "縮放"
 #, kde-format
 msgctxt "action"
 msgid "S&elect from Color Range..."
-msgstr "從色彩範圍選擇(&E)⋯"
+msgstr "從色彩範圍選擇(&E)…"
 
 #. i18n: context: Action (colorrange), Actions (Select), ActionCollection (Menu)
 #: krita/kritamenu.action:1350
@@ -13251,7 +13251,7 @@ msgstr "選擇不透明區域 (相交)"
 #, kde-format
 msgctxt "action"
 msgid "&Grow Selection..."
-msgstr "擴大選取區域(&G)⋯"
+msgstr "擴大選取區域(&G)…"
 
 #. i18n: context: Action (growselection), Actions (Select), ActionCollection (Menu)
 #: krita/kritamenu.action:1410
@@ -13265,7 +13265,7 @@ msgstr "擴大選取區域"
 #, kde-format
 msgctxt "action"
 msgid "S&hrink Selection..."
-msgstr "縮小選取區域(&H)⋯"
+msgstr "縮小選取區域(&H)…"
 
 #. i18n: context: Action (shrinkselection), Actions (Select), ActionCollection (Menu)
 #: krita/kritamenu.action:1422
@@ -13279,7 +13279,7 @@ msgstr "縮小選取區域"
 #, kde-format
 msgctxt "action"
 msgid "&Border Selection..."
-msgstr "邊框化選取區域(&B)⋯"
+msgstr "邊框化選取區域(&B)…"
 
 #. i18n: context: Action (borderselection), Actions (Select), ActionCollection (Menu)
 #: krita/kritamenu.action:1434
@@ -13457,7 +13457,7 @@ msgstr "設定"
 #, kde-format
 msgctxt "action"
 msgid "&Configure Krita..."
-msgstr "設定 Krita (&C)⋯"
+msgstr "設定 Krita (&C)…"
 
 #. i18n: context: Action (options_configure), Actions (Settings), ActionCollection (Menu)
 #: krita/kritamenu.action:1600
@@ -13471,7 +13471,7 @@ msgstr "設定 Krita"
 #, kde-format
 msgctxt "action"
 msgid "&Manage Resource Libraries..."
-msgstr "管理資源庫(&M)⋯"
+msgstr "管理資源庫(&M)…"
 
 #. i18n: context: Action (manage_bundles), Actions (Settings), ActionCollection (Menu)
 #: krita/kritamenu.action:1612
@@ -13485,7 +13485,7 @@ msgstr "管理資源庫"
 #, kde-format
 msgctxt "action"
 msgid "Manage Resources..."
-msgstr "管理資源⋯"
+msgstr "管理資源…"
 
 #. i18n: context: Action (manage_resources), Actions (Settings), ActionCollection (Menu)
 #: krita/kritamenu.action:1624
@@ -13499,7 +13499,7 @@ msgstr "管理資源"
 #, kde-format
 msgctxt "action"
 msgid "Switch Application &Language..."
-msgstr "切換應用程式語言(&L)⋯"
+msgstr "切換應用程式語言(&L)…"
 
 #. i18n: context: Action (switch_application_language), Actions (Settings), ActionCollection (Menu)
 #: krita/kritamenu.action:1636
@@ -13541,7 +13541,7 @@ msgstr "顯示工具面板的標題列"
 #, kde-format
 msgctxt "action"
 msgid "Configure Tool&bars..."
-msgstr "設定工具列(&B)⋯"
+msgstr "設定工具列(&B)…"
 
 #. i18n: context: Action (options_configure_toolbars), Actions (Settings), ActionCollection (Menu)
 #: krita/kritamenu.action:1670
@@ -13617,7 +13617,7 @@ msgstr "將所有設定重設為預設值"
 #, kde-format
 msgctxt "action"
 msgid "Configure S&hortcuts..."
-msgstr "設定快捷鍵(&H)⋯"
+msgstr "設定快捷鍵(&H)…"
 
 #. i18n: context: Action (options_configure_keybinding), Actions (Settings), ActionCollection (Menu)
 #: krita/kritamenu.action:1732
@@ -13659,7 +13659,7 @@ msgstr "Krita 使用手冊"
 #, kde-format
 msgctxt "action"
 msgid "&Report Bug..."
-msgstr "回報錯誤(&R)⋯"
+msgstr "回報錯誤(&R)…"
 
 #. i18n: context: Action (help_report_bug), Actions (Help), ActionCollection (Menu)
 #: krita/kritamenu.action:1768
@@ -14562,7 +14562,7 @@ msgstr "縮小(&M)"
 #: plugins/python/tenscripts/uitenscripts.py:59
 #, kde-format
 msgid "..."
-msgstr "⋯"
+msgstr "…"
 
 #. i18n: ectx: property (text), widget (QPushButton, convertToPath)
 #: libs/flake/tools/PathToolOptionWidgetBase.ui:235
@@ -15488,7 +15488,7 @@ msgstr "即時預覽"
 #: libs/image/kis_update_scheduler.cpp:126
 #, kde-format
 msgid "Updating..."
-msgstr "正在更新⋯"
+msgstr "正在更新…"
 
 #: libs/image/kis_update_time_monitor.cpp:190
 #, kde-format
@@ -16111,7 +16111,7 @@ msgstr "匿名化"
 #: libs/metadata/kis_meta_data_filter_p.cc:44
 #, kde-format
 msgid "Remove personal information: author, location..."
-msgstr "移除個人資料：如作者、地點⋯"
+msgstr "移除個人資料：如作者、地點…"
 
 #: libs/metadata/kis_meta_data_filter_p.cc:84
 #, kde-format
@@ -17769,7 +17769,7 @@ msgstr "資料庫瀏覽器"
 #, kde-format
 msgctxt "action"
 msgid "&Explore Resources Cache Database..."
-msgstr "瀏覽資源快取資料庫(&E)⋯"
+msgstr "瀏覽資源快取資料庫(&E)…"
 
 #. i18n: context: Action (dbexplorer), Actions (DbExplorer), ActionCollection (DbExplorer)
 #: libs/resourcewidgets/dbexplorer/dbexplorer.action:9
@@ -18403,7 +18403,7 @@ msgstr "FFmpeg 當掉了"
 #, kde-format
 msgctxt "Video information probing dialog. arg1: frame number."
 msgid "Loading video data... %1 frames examined."
-msgstr "正在載入影片資料⋯⋯已檢查 %1 個影格。"
+msgstr "正在載入影片資料……已檢查 %1 個影格。"
 
 #: libs/ui/animation/KisVideoSaver.cpp:52
 #, kde-format
@@ -18476,7 +18476,7 @@ msgstr "HDR 模式"
 #: libs/ui/animation/video_export_options_dialog.ui:136
 #, kde-format
 msgid "HDR Metadata..."
-msgstr "HDR 中繼資料⋯"
+msgstr "HDR 中繼資料…"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: libs/ui/animation/video_export_options_dialog.ui:147
@@ -18528,7 +18528,7 @@ msgstr "自動產生 8 位元調色板"
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.ui:129
 #, kde-format
 msgid "Dithering:"
-msgstr "抖動 (dithering)："
+msgstr "抖色 (dithering)："
 
 #. i18n: ectx: property (text), widget (QLabel, lblPaletteuseBayerScaleGIF)
 #: libs/ui/animation/video_export_options_dialog.ui:227
@@ -19220,7 +19220,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, thumbnailImageHolder)
 #: libs/ui/animation/VideoImportDialog.ui:130
-#: libs/widgetutils/KisPreviewFileDialog.cpp:91
+#: libs/widgetutils/KisPreviewFileDialog.cpp:92
 #, kde-format
 msgid "No Preview"
 msgstr "無預覽"
@@ -20022,7 +20022,7 @@ msgstr "Krita"
 #: libs/ui/dialogs/kis_delayed_save_dialog.ui:30
 #, kde-format
 msgid "Waiting for image operation to complete..."
-msgstr "正在等待影像操作完成⋯⋯"
+msgstr "正在等待影像操作完成……"
 
 #. i18n: ectx: property (text), widget (QPushButton, bnDontWait)
 #: libs/ui/dialogs/kis_delayed_save_dialog.ui:65
@@ -20691,12 +20691,12 @@ msgstr "選取區域描邊屬性"
 #: libs/ui/dialogs/KisAsyncAnimationCacheRenderDialog.cpp:102
 #, kde-format
 msgid "Regenerating cache..."
-msgstr "正在重新產生快取⋯"
+msgstr "正在重新產生快取…"
 
 #: libs/ui/dialogs/KisAsyncAnimationFramesSaveDialog.cpp:64
 #, kde-format
 msgid "Saving frames..."
-msgstr "正在儲存動畫影格⋯"
+msgstr "正在儲存動畫影格…"
 
 #: libs/ui/dialogs/KisAsyncAnimationFramesSaveDialog.cpp:119
 #, kde-format
@@ -22294,7 +22294,7 @@ msgstr "輪廓形狀："
 #: libs/ui/forms/wdggeneralsettings.ui:101
 #, kde-format
 msgid "While painting..."
-msgstr "在繪畫時⋯"
+msgstr "在繪畫時…"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_showOutlinePainting)
 #: libs/ui/forms/wdggeneralsettings.ui:131
@@ -23008,7 +23008,7 @@ msgstr "注釋"
 #: libs/ui/forms/wdgimportimagesequence.ui:37
 #, kde-format
 msgid "Add images..."
-msgstr "新增影像⋯"
+msgstr "新增影像…"
 
 #. i18n: ectx: property (text), widget (QPushButton, removeButton)
 #. i18n: ectx: property (text), widget (QPushButton, btnRemove)
@@ -23419,7 +23419,7 @@ msgstr "無標題-1"
 #: libs/ui/forms/wdgnewimage.ui:694
 #, kde-format
 msgid "This document..."
-msgstr "此檔案⋯"
+msgstr "此檔案…"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, DlgNewWindowLayout)
 #: libs/ui/forms/wdgnewwindowlayout.ui:24
@@ -23506,7 +23506,7 @@ msgstr "目前筆刷引擎"
 #: libs/ui/forms/wdgpaintopsettings.ui:344
 #, kde-format
 msgid "Save New Brush Preset..."
-msgstr "儲存為新筆刷⋯"
+msgstr "儲存為新筆刷…"
 
 #. i18n: ectx: property (text), widget (QPushButton, saveBrushPresetButton)
 #: libs/ui/forms/wdgpaintopsettings.ui:363
@@ -23560,7 +23560,7 @@ msgstr "暫時儲存選項修改"
 #: libs/ui/forms/wdgpaintopsettings.ui:805
 #, kde-format
 msgid "Scratchpad"
-msgstr "繪圖區"
+msgstr "試畫區"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, paintPresetIcon)
 #: libs/ui/forms/wdgpaintopsettings.ui:862
@@ -24219,7 +24219,7 @@ msgstr "載入目前縮圖"
 #: libs/ui/forms/wdgsavebrushpreset.ui:150
 #, kde-format
 msgid "Load Scratchpad Thumbnail"
-msgstr "載入繪圖區縮圖"
+msgstr "載入試畫區縮圖"
 
 #. i18n: ectx: property (text), widget (QPushButton, loadImageIntoThumbnailButton)
 #: libs/ui/forms/wdgsavebrushpreset.ui:157
@@ -24406,13 +24406,13 @@ msgstr "工作階段"
 #, kde-format
 msgctxt "New session"
 msgid "New..."
-msgstr "新工作階段⋯"
+msgstr "新工作階段…"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnRename)
 #: libs/ui/forms/wdgsessionmanager.ui:41
 #, kde-format
 msgid "Rename..."
-msgstr "重新命名⋯"
+msgstr "重新命名…"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnSwitchTo)
 #: libs/ui/forms/wdgsessionmanager.ui:48
@@ -24424,7 +24424,7 @@ msgstr "切換到"
 #: libs/ui/forms/wdgsessionmanager.ui:55
 #, kde-format
 msgid "Delete..."
-msgstr "刪除⋯"
+msgstr "刪除…"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
 #: libs/ui/forms/wdgstrokeselectionproperties.ui:34
@@ -24580,7 +24580,7 @@ msgstr "0.0"
 #: libs/ui/forms/wdgtabletsettings.ui:168
 #, kde-format
 msgid "Open Tablet Tester..."
-msgstr "開啟數位板測試器⋯"
+msgstr "開啟數位板測試器…"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: libs/ui/forms/wdgtabletsettings.ui:175
@@ -24604,7 +24604,7 @@ msgstr "WinTab"
 #: libs/ui/forms/wdgtabletsettings.ui:210
 #, kde-format
 msgid "Advanced..."
-msgstr "進階⋯"
+msgstr "進階…"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioWin8PointerInput)
 #: libs/ui/forms/wdgtabletsettings.ui:219
@@ -24806,7 +24806,7 @@ msgstr "單獨調整列印尺寸"
 #: libs/ui/input/config/kis_action_shortcuts_model.cpp:55
 #, kde-format
 msgid "Add shortcut..."
-msgstr "新增快捷鍵⋯"
+msgstr "新增快捷鍵…"
 
 #: libs/ui/input/config/kis_action_shortcuts_model.cpp:67
 #, kde-format
@@ -24908,7 +24908,7 @@ msgstr "無"
 #, kde-format
 msgctxt "Waiting for user input"
 msgid "Input..."
-msgstr "輸入⋯"
+msgstr "輸入…"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: libs/ui/input/config/kis_input_configuration_page.ui:29
@@ -25835,7 +25835,7 @@ msgstr "轉成動畫圖層"
 #: libs/ui/kis_layer_manager.cc:429
 #, kde-format
 msgid "Save layers to..."
-msgstr "將圖層儲存至⋯"
+msgstr "將圖層儲存至…"
 
 #: libs/ui/kis_layer_manager.cc:430
 #, kde-format
@@ -26065,7 +26065,7 @@ msgid ""
 "Cannot write alpha channel of the parent layer \"%1\".\n"
 "The operation will be cancelled."
 msgstr ""
-"無法寫入父圖層的透明度通道 \"%1\"。\n"
+"無法寫入父圖層「%1」的透明度通道。\n"
 "操作將被取消。"
 
 #: libs/ui/kis_node_manager.cpp:1335
@@ -26563,7 +26563,7 @@ msgstr ""
 #: libs/ui/KisApplication.cpp:359
 #, kde-format
 msgid "Loading Plugins Exiv/IO..."
-msgstr "正在載入 Exiv 和輸入輸出外掛程式⋯"
+msgstr "正在載入 Exiv 和輸入輸出外掛程式…"
 
 #: libs/ui/KisApplication.cpp:375
 #, kde-format
@@ -26579,17 +26579,17 @@ msgstr ""
 #: libs/ui/KisApplication.cpp:392
 #, kde-format
 msgid "Initializing Globals..."
-msgstr "正在初始化全域參數⋯"
+msgstr "正在初始化全域參數…"
 
 #: libs/ui/KisApplication.cpp:423
 #, kde-format
 msgid "Adding resource types..."
-msgstr "正在新增資源類型⋯"
+msgstr "正在新增資源類型…"
 
 #: libs/ui/KisApplication.cpp:441
 #, kde-format
 msgid "Loading Main Window..."
-msgstr "正在載入主視窗⋯"
+msgstr "正在載入主視窗…"
 
 #: libs/ui/KisApplication.cpp:540
 #, kde-format
@@ -26844,12 +26844,12 @@ msgstr "無法寫入 %1 。請以不同的名稱儲存。"
 #: libs/ui/KisDocument.cpp:742
 #, kde-format
 msgid "Exporting Document..."
-msgstr "正在匯出檔案⋯"
+msgstr "正在匯出檔案…"
 
 #: libs/ui/KisDocument.cpp:743
 #, kde-format
 msgid "Saving Document..."
-msgstr "正在儲存檔案⋯"
+msgstr "正在儲存檔案…"
 
 #: libs/ui/KisDocument.cpp:847
 #, kde-format
@@ -26874,17 +26874,17 @@ msgstr "完成儲存 %1"
 #: libs/ui/KisDocument.cpp:1225
 #, kde-format
 msgid "Autosaving... %1"
-msgstr "正在自動儲存⋯ %1"
+msgstr "正在自動儲存… %1"
 
 #: libs/ui/KisDocument.cpp:1233
 #, kde-format
 msgid "Autosaving..."
-msgstr "正在自動儲存⋯"
+msgstr "正在自動儲存…"
 
 #: libs/ui/KisDocument.cpp:1239
 #, kde-format
 msgid "Autosaving postponed: document is busy..."
-msgstr "自動儲存已推遲：檔案正在被佔用⋯"
+msgstr "自動儲存已推遲：檔案正在被佔用…"
 
 #: libs/ui/KisDocument.cpp:1344
 #, kde-format
@@ -26946,7 +26946,7 @@ msgstr "背景色填充"
 msgctxt ""
 "progress dialog message when the user closes the document that is being saved"
 msgid "Waiting for saving to complete..."
-msgstr "正在等待儲存完成⋯"
+msgstr "正在等待儲存完成…"
 
 #. i18n: ectx: property (text), widget (QCheckBox, exif)
 #: libs/ui/kisexiv2/kis_exif_io.h:24
@@ -27217,12 +27217,12 @@ msgstr "開啟音訊"
 #: libs/ui/KisImportExportManager.cpp:370
 #, kde-format
 msgid "Opening document..."
-msgstr "正在開啟檔案⋯"
+msgstr "正在開啟檔案…"
 
 #: libs/ui/KisImportExportManager.cpp:435
 #, kde-format
 msgid "Saving document..."
-msgstr "正在儲存檔案⋯"
+msgstr "正在儲存檔案…"
 
 #: libs/ui/KisImportExportManager.cpp:524
 #, kde-format
@@ -27460,19 +27460,19 @@ msgstr "無法建立新文件。已終止匯入動畫。"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Import Workspace..."
-msgstr "匯入作業空間(&I)⋯"
+msgstr "匯入作業空間(&I)…"
 
 #: libs/ui/KisMainWindow.cpp:2567
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&New Workspace..."
-msgstr "新作業空間(&N)⋯"
+msgstr "新作業空間(&N)…"
 
 #: libs/ui/KisMainWindow.cpp:2583
 #, kde-format
 msgctxt "@title:window"
 msgid "New Workspace..."
-msgstr "新作業空間⋯"
+msgstr "新作業空間…"
 
 #: libs/ui/KisMainWindow.cpp:2627
 #, kde-format
@@ -27672,7 +27672,7 @@ msgstr "分組："
 #: libs/ui/KisTemplateCreateDia.cpp:120
 #, kde-format
 msgid "&Add Group..."
-msgstr "新增分組(&A)⋯"
+msgstr "新增分組(&A)…"
 
 #: libs/ui/KisTemplateCreateDia.cpp:123
 #, kde-format
@@ -27698,7 +27698,7 @@ msgstr "自訂："
 #: libs/ui/KisTemplateCreateDia.cpp:141
 #, kde-format
 msgid "&Select..."
-msgstr "選擇(&S)⋯"
+msgstr "選擇(&S)…"
 
 #: libs/ui/KisTemplateCreateDia.cpp:150
 #, kde-format
@@ -28611,7 +28611,7 @@ msgstr "設定單元大小"
 #: libs/ui/layerstyles/WdgGradientOverlay.ui:235
 #, kde-format
 msgid "&Dither:"
-msgstr "抖動(&D)："
+msgstr "抖色(&D)："
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #. i18n: ectx: property (text), item, widget (QListWidget, lstStyleSelector)
@@ -28738,19 +28738,19 @@ msgstr "描邊"
 #, kde-format
 msgctxt "New layer style"
 msgid "&New..."
-msgstr "建立(&N)⋯"
+msgstr "建立(&N)…"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnLoadStyle)
 #: libs/ui/layerstyles/wdglayerstyles.ui:163
 #, kde-format
 msgid "&Import..."
-msgstr "匯入(&I)⋯"
+msgstr "匯入(&I)…"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnSaveStyle)
 #: libs/ui/layerstyles/wdglayerstyles.ui:170
 #, kde-format
 msgid "&Export..."
-msgstr "匯出(&E)⋯"
+msgstr "匯出(&E)…"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkPreview)
 #: libs/ui/layerstyles/wdglayerstyles.ui:177
@@ -29248,7 +29248,7 @@ msgstr "自訂項目大小"
 #: libs/ui/widgets/gradient/KisGradientChooser.cpp:234
 #, kde-format
 msgid "Add..."
-msgstr "新增⋯"
+msgstr "新增…"
 
 #: libs/ui/widgets/gradient/KisGradientChooser.cpp:239
 #, kde-format
@@ -29263,7 +29263,7 @@ msgstr "分段漸變"
 #: libs/ui/widgets/gradient/KisGradientChooser.cpp:248
 #, kde-format
 msgid "Edit..."
-msgstr "編輯⋯"
+msgstr "編輯…"
 
 #: libs/ui/widgets/gradient/KisGradientChooser.cpp:486
 #: libs/ui/widgets/gradient/KisGradientChooser.cpp:495
@@ -30195,7 +30195,7 @@ msgstr "未經校準的色彩空間"
 #: libs/ui/widgets/kis_cie_tongue_widget.cpp:691
 #, kde-format
 msgid "No profile available..."
-msgstr "無可用特性檔案⋯"
+msgstr "無可用特性檔案…"
 
 #: libs/ui/widgets/kis_cmb_idlist.cc:28
 #, kde-format
@@ -30266,12 +30266,12 @@ msgstr "無設定選項"
 #: libs/ui/widgets/kis_layer_filter_widget.cpp:42
 #, kde-format
 msgid "Filter by name..."
-msgstr "依名稱過濾⋯"
+msgstr "依名稱過濾…"
 
 #: libs/ui/widgets/kis_layer_filter_widget.cpp:59
 #, kde-format
 msgid "Filter by color label..."
-msgstr "依色彩標籤過濾⋯"
+msgstr "依色彩標籤過濾…"
 
 #: libs/ui/widgets/kis_layer_filter_widget.cpp:81
 #, kde-format
@@ -30413,7 +30413,7 @@ msgstr "切換顯示預設"
 #: libs/ui/widgets/kis_paintop_presets_editor.cpp:103
 #, kde-format
 msgid "Toggle showing scratchpad"
-msgstr "切換顯示繪圖區"
+msgstr "切換顯示試畫區"
 
 #: libs/ui/widgets/kis_paintop_presets_editor.cpp:105
 #, kde-format
@@ -30529,7 +30529,7 @@ msgstr "符合色彩標籤的圖層"
 #: libs/ui/widgets/kis_tone_curve_widget.cpp:330
 #, kde-format
 msgid "No tone curve available..."
-msgstr "無可用色調曲線⋯"
+msgstr "無可用色調曲線…"
 
 #: libs/ui/widgets/kis_transport_controls.cpp:27
 #, kde-format
@@ -30959,12 +30959,12 @@ msgstr "色彩名稱："
 #: libs/widgets/kis_file_name_requester.cpp:76
 #, kde-format
 msgid "Select a file to load..."
-msgstr "選擇要載入的檔案⋯"
+msgstr "選擇要載入的檔案…"
 
 #: libs/widgets/kis_file_name_requester.cpp:80
 #, kde-format
 msgid "Select a directory to load..."
-msgstr "選擇要載入的目錄⋯"
+msgstr "選擇要載入的目錄…"
 
 #: libs/widgets/kis_palette_view.cpp:106
 #, kde-format
@@ -31275,7 +31275,7 @@ msgstr "詳細資料(&D)"
 #: libs/widgets/KoDialog.cpp:911
 #, kde-format
 msgid "Get help..."
-msgstr "尋求協助⋯"
+msgstr "尋求協助…"
 
 #: libs/widgets/KoDockWidgetTitleBar.cpp:39
 #, kde-format
@@ -31435,7 +31435,7 @@ msgstr "已選擇的檔案名"
 #: libs/widgets/wdg_file_name_requester.ui:36
 #, kde-format
 msgid "Select file name..."
-msgstr "選擇檔案名⋯"
+msgstr "選擇檔案名…"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_channel)
 #: libs/widgets/WdgDlgInternalColorSelector.ui:57
@@ -31517,7 +31517,7 @@ msgstr "建立(&N)"
 #: libs/widgetutils/config/kstandardaction_p.h:30
 #, kde-format
 msgid "&Open..."
-msgstr "開啟(&O)⋯"
+msgstr "開啟(&O)…"
 
 #: libs/widgetutils/config/kstandardaction_p.h:30
 #, kde-format
@@ -31542,7 +31542,7 @@ msgstr "儲存檔案"
 #: libs/widgetutils/config/kstandardaction_p.h:33
 #, kde-format
 msgid "Save &As..."
-msgstr "另存為(&A)⋯"
+msgstr "另存為(&A)…"
 
 #: libs/widgetutils/config/kstandardaction_p.h:33
 #, kde-format
@@ -31567,7 +31567,7 @@ msgstr "關閉檔案"
 #: libs/widgetutils/config/kstandardaction_p.h:36
 #, kde-format
 msgid "&Print..."
-msgstr "列印(&P)⋯"
+msgstr "列印(&P)…"
 
 #: libs/widgetutils/config/kstandardaction_p.h:36
 #, kde-format
@@ -31674,7 +31674,7 @@ msgstr "取消選擇(&L)"
 #: libs/widgetutils/config/kstandardaction_p.h:50
 #, kde-format
 msgid "&Find..."
-msgstr "尋找(&F)⋯"
+msgstr "尋找(&F)…"
 
 #: libs/widgetutils/config/kstandardaction_p.h:51
 #, kde-format
@@ -31689,7 +31689,7 @@ msgstr "尋找上一個(&V)"
 #: libs/widgetutils/config/kstandardaction_p.h:53
 #, kde-format
 msgid "&Replace..."
-msgstr "取代(&R)⋯"
+msgstr "取代(&R)…"
 
 #: libs/widgetutils/config/kstandardaction_p.h:55
 #, kde-format
@@ -31904,17 +31904,17 @@ msgstr "設定快捷鍵(&H)..."
 #: libs/widgetutils/config/kstandardaction_p.h:90
 #, kde-format
 msgid "&Configure %1..."
-msgstr "設定 %1(&C)⋯"
+msgstr "設定 %1(&C)…"
 
 #: libs/widgetutils/config/kstandardaction_p.h:91
 #, kde-format
 msgid "Configure Tool&bars..."
-msgstr "設定工具列(&B)⋯"
+msgstr "設定工具列(&B)…"
 
 #: libs/widgetutils/config/kstandardaction_p.h:92
 #, kde-format
 msgid "Configure &Notifications..."
-msgstr "設定通知(&N)⋯"
+msgstr "設定通知(&N)…"
 
 #: libs/widgetutils/config/kstandardaction_p.h:93
 #, kde-format
@@ -31939,12 +31939,12 @@ msgstr "每日提示(&D)"
 #: libs/widgetutils/config/kstandardaction_p.h:102
 #, kde-format
 msgid "&Report Bug..."
-msgstr "回報錯誤(&R)⋯"
+msgstr "回報錯誤(&R)…"
 
 #: libs/widgetutils/config/kstandardaction_p.h:103
 #, kde-format
 msgid "Switch Application &Language..."
-msgstr "切換應用程式語言(&L)⋯"
+msgstr "切換應用程式語言(&L)…"
 
 #: libs/widgetutils/config/kstandardaction_p.h:104
 #, kde-format
@@ -32595,7 +32595,7 @@ msgstr "快捷鍵方案："
 #, kde-format
 msgctxt "New shortcut scheme"
 msgid "New..."
-msgstr "建立⋯"
+msgstr "建立…"
 
 #: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:65
 #, kde-format
@@ -32617,12 +32617,12 @@ msgstr "載入自訂快捷鍵"
 #: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:76
 #, kde-format
 msgid "Export Scheme..."
-msgstr "匯出方案⋯"
+msgstr "匯出方案…"
 
 #: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:78
 #, kde-format
 msgid "Import Scheme..."
-msgstr "匯入方案⋯"
+msgstr "匯入方案…"
 
 #: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:94
 #, kde-format
@@ -34181,13 +34181,13 @@ msgstr "縮放時間軸：按住並左右拖曳。"
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Open audio..."
-msgstr "開啟音訊⋯"
+msgstr "開啟音訊…"
 
 #: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:817
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Change audio (%1)..."
-msgstr "變更音訊 (%1)⋯"
+msgstr "變更音訊 (%1)…"
 
 #: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1576
 #, kde-format
@@ -34684,7 +34684,7 @@ msgstr "找不到該編輯器範本。"
 #: plugins/dockers/gamutmask/gamutmask_dock.cpp:269
 #, kde-format
 msgid "Saving of gamut mask '%1' was aborted."
-msgstr "已中止儲存色域遮罩\"%1\"。"
+msgstr "已中止儲存色域遮罩「%1」。"
 
 #: plugins/dockers/gamutmask/gamutmask_dock.cpp:270
 #, kde-format
@@ -34711,7 +34711,7 @@ msgstr "要進行儲存嗎？"
 #, kde-format
 msgctxt "@title:window"
 msgid "New Gamut Mask..."
-msgstr "新色域遮罩⋯"
+msgstr "新色域遮罩…"
 
 #: plugins/dockers/gamutmask/gamutmask_dock.cpp:375
 #, kde-format
@@ -35450,7 +35450,7 @@ msgstr "錄下縮時影片"
 #, kde-format
 msgctxt "action"
 msgid "Export Timelapse..."
-msgstr "匯出縮時影片⋯"
+msgstr "匯出縮時影片…"
 
 #: plugins/dockers/recorder/recorder_export.cpp:99
 #, kde-format
@@ -35477,7 +35477,7 @@ msgstr "是否中止縮時影片的編碼程序？"
 #, kde-format
 msgctxt "Status for the export of the video record"
 msgid "Starting FFMpeg..."
-msgstr "正在啟動 FFmpeg⋯⋯"
+msgstr "正在啟動 FFmpeg……"
 
 #: plugins/dockers/recorder/recorder_export.cpp:340
 #, kde-format
@@ -35521,7 +35521,7 @@ msgstr "影片檔已經存在。是否覆寫？"
 #: plugins/dockers/recorder/recorder_export.cpp:540
 #, kde-format
 msgid "The timelapse video is being encoded..."
-msgstr "正在編碼縮時影片⋯⋯"
+msgstr "正在編碼縮時影片……"
 
 #: plugins/dockers/recorder/recorder_export.cpp:553
 #, kde-format
@@ -35545,7 +35545,7 @@ msgstr ""
 #, kde-format
 msgctxt "Label title, Snapshot directory deleting is in progress"
 msgid "Cleaning up..."
-msgstr "正在清理⋯⋯"
+msgstr "正在清理……"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, RecorderExport)
 #: plugins/dockers/recorder/recorder_export.ui:18
@@ -35759,7 +35759,7 @@ msgstr "上次修改時間"
 #, kde-format
 msgctxt "Label title, Scanning for directory, files, etc.."
 msgid "Scanning..."
-msgstr "掃描中⋯⋯"
+msgstr "掃描中……"
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonSelectAll)
 #: plugins/dockers/recorder/recorder_snapshots_manager.cpp:219
@@ -35795,7 +35795,7 @@ msgstr "清理錄影檔"
 #: plugins/dockers/recorder/recorder_snapshots_manager.ui:95
 #, kde-format
 msgid "Scanning..."
-msgstr "掃描中⋯⋯"
+msgstr "掃描中……"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: plugins/dockers/recorder/recorder_snapshots_manager.ui:198
@@ -35832,13 +35832,13 @@ msgstr "錄影檔目錄："
 #: plugins/dockers/recorder/recorderdocker.ui:105
 #, kde-format
 msgid "Manage recordings..."
-msgstr "管理錄影檔⋯"
+msgstr "管理錄影檔…"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, buttonBrowse)
 #: plugins/dockers/recorder/recorderdocker.ui:130
 #, kde-format
 msgid "Select the recordings directory..."
-msgstr "選擇錄影檔目錄⋯"
+msgstr "選擇錄影檔目錄…"
 
 #. i18n: ectx: property (text), widget (QLabel, labelCaptureRate)
 #: plugins/dockers/recorder/recorderdocker.ui:155
@@ -35932,7 +35932,7 @@ msgstr "錄影"
 #: plugins/dockers/recorder/recorderdocker.ui:354
 #, kde-format
 msgid "Export..."
-msgstr "匯出⋯"
+msgstr "匯出…"
 
 #. i18n: ectx: property (text), widget (QLabel, labelUnsupportedColorSpace)
 #: plugins/dockers/recorder/recorderdocker.ui:364
@@ -38632,42 +38632,42 @@ msgstr "匯入資源及資源庫"
 #: plugins/extensions/resourcemanager/resourcemanager.cpp:82
 #, kde-format
 msgid "Import Bundles..."
-msgstr "匯入資源包⋯"
+msgstr "匯入資源包…"
 
 #: plugins/extensions/resourcemanager/resourcemanager.cpp:86
 #, kde-format
 msgid "Import Brushes..."
-msgstr "匯入筆刷⋯"
+msgstr "匯入筆刷…"
 
 #: plugins/extensions/resourcemanager/resourcemanager.cpp:90
 #, kde-format
 msgid "Import Gradients..."
-msgstr "匯入漸變⋯"
+msgstr "匯入漸變…"
 
 #: plugins/extensions/resourcemanager/resourcemanager.cpp:94
 #, kde-format
 msgid "Import Palettes..."
-msgstr "匯入調色板⋯"
+msgstr "匯入調色板…"
 
 #: plugins/extensions/resourcemanager/resourcemanager.cpp:98
 #, kde-format
 msgid "Import Patterns..."
-msgstr "匯入圖案⋯"
+msgstr "匯入圖案…"
 
 #: plugins/extensions/resourcemanager/resourcemanager.cpp:102
 #, kde-format
 msgid "Import Presets..."
-msgstr "匯入預設⋯"
+msgstr "匯入預設…"
 
 #: plugins/extensions/resourcemanager/resourcemanager.cpp:106
 #, kde-format
 msgid "Import Workspaces..."
-msgstr "匯入作業空間⋯"
+msgstr "匯入作業空間…"
 
 #: plugins/extensions/resourcemanager/resourcemanager.cpp:110
 #, kde-format
 msgid "Create Resource Bundle..."
-msgstr "建立資源包⋯"
+msgstr "建立資源包…"
 
 #: plugins/extensions/resourcemanager/resourcemanager.cpp:114
 #, kde-format
@@ -38677,7 +38677,7 @@ msgstr "管理資源庫"
 #: plugins/extensions/resourcemanager/resourcemanager.cpp:118
 #, kde-format
 msgid "Manage Resources..."
-msgstr "管理資源⋯"
+msgstr "管理資源…"
 
 #: plugins/extensions/resourcemanager/resourcemanager.cpp:221
 #, kde-format
@@ -38782,7 +38782,7 @@ msgstr "更新日期："
 #: plugins/extensions/resourcemanager/wdgdlgembedtags.ui:24
 #, kde-format
 msgid "New Bundle..."
-msgstr "建立資源包⋯"
+msgstr "建立資源包…"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: plugins/extensions/resourcemanager/wdgdlgcreatebundle.ui:106
@@ -38826,7 +38826,7 @@ msgstr "儲存到："
 #: plugins/extensions/resourcemanager/wdgdlgcreatebundle.ui:481
 #, kde-format
 msgid "Embed tags..."
-msgstr "嵌入標籤⋯"
+msgstr "嵌入標籤…"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkShowDeleted)
 #: plugins/extensions/resourcemanager/WdgDlgResourceManager.ui:42
@@ -39254,7 +39254,7 @@ msgstr "子波比例："
 #: plugins/filters/asccdl/kis_asccdl_filter.cpp:31
 #, kde-format
 msgid "&Slope, Offset, Power..."
-msgstr "斜率、偏移、指數(&S)⋯"
+msgstr "斜率、偏移、指數(&S)…"
 
 #: plugins/filters/asccdl/kis_asccdl_filter.h:28
 #, kde-format
@@ -39292,7 +39292,7 @@ msgstr "斜率："
 #: plugins/filters/blur/kis_blur_filter.cpp:28
 #, kde-format
 msgid "&Blur..."
-msgstr "模糊(&B)⋯"
+msgstr "模糊(&B)…"
 
 #: plugins/filters/blur/kis_blur_filter.h:26
 #, kde-format
@@ -39302,7 +39302,7 @@ msgstr "模糊"
 #: plugins/filters/blur/kis_gaussian_blur_filter.cpp:32
 #, kde-format
 msgid "&Gaussian Blur..."
-msgstr "高斯模糊(&G)⋯"
+msgstr "高斯模糊(&G)…"
 
 #: plugins/filters/blur/kis_gaussian_blur_filter.h:28
 #, kde-format
@@ -39312,7 +39312,7 @@ msgstr "高斯模糊"
 #: plugins/filters/blur/kis_lens_blur_filter.cpp:33
 #, kde-format
 msgid "&Lens Blur..."
-msgstr "鏡頭模糊(&L)⋯"
+msgstr "鏡頭模糊(&L)…"
 
 #: plugins/filters/blur/kis_lens_blur_filter.h:30
 #, kde-format
@@ -39322,7 +39322,7 @@ msgstr "鏡頭模糊"
 #: plugins/filters/blur/kis_motion_blur_filter.cpp:33
 #, kde-format
 msgid "&Motion Blur..."
-msgstr "動態模糊(&M)⋯"
+msgstr "動態模糊(&M)…"
 
 #: plugins/filters/blur/kis_motion_blur_filter.h:30
 #, kde-format
@@ -39492,7 +39492,7 @@ msgstr "效果強度："
 #: plugins/filters/colors/kis_color_to_alpha.cpp:30
 #, kde-format
 msgid "&Color to Alpha..."
-msgstr "色彩轉為透明度(&C)⋯"
+msgstr "色彩轉為透明度(&C)…"
 
 #: plugins/filters/colors/kis_color_to_alpha.h:28
 #, kde-format
@@ -39548,7 +39548,7 @@ msgstr "自動對比度"
 #: plugins/filters/colorsfilters/kis_color_balance_filter.cpp:16
 #, kde-format
 msgid "&Color Balance..."
-msgstr "色彩平衡(&C)⋯"
+msgstr "色彩平衡(&C)…"
 
 #: plugins/filters/colorsfilters/kis_color_balance_filter.h:40
 #, kde-format
@@ -39558,7 +39558,7 @@ msgstr "色彩平衡"
 #: plugins/filters/colorsfilters/kis_cross_channel_filter.cpp:227
 #, kde-format
 msgid "&Cross-channel adjustment curves..."
-msgstr "跨通道色彩調整曲線(&C)⋯"
+msgstr "跨通道色彩調整曲線(&C)…"
 
 #: plugins/filters/colorsfilters/kis_cross_channel_filter.h:42
 #, kde-format
@@ -39568,7 +39568,7 @@ msgstr "跨通道色彩調整"
 #: plugins/filters/colorsfilters/kis_desaturate_filter.cpp:48
 #, kde-format
 msgid "&Desaturate..."
-msgstr "去色(&D)⋯"
+msgstr "去色(&D)…"
 
 #: plugins/filters/colorsfilters/kis_desaturate_filter.h:34
 #, kde-format
@@ -39590,7 +39590,7 @@ msgstr "黃-藍："
 #: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:82
 #, kde-format
 msgid "&HSV Adjustment..."
-msgstr "&HSV 調整⋯"
+msgstr "&HSV 調整…"
 
 #: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.h:38
 #, kde-format
@@ -39608,7 +39608,7 @@ msgstr ""
 #: plugins/filters/colorsfilters/kis_perchannel_filter.cpp:159
 #, kde-format
 msgid "&Color Adjustment curves..."
-msgstr "色彩調整曲線(&C)⋯"
+msgstr "色彩調整曲線(&C)…"
 
 #: plugins/filters/colorsfilters/kis_perchannel_filter.h:52
 #, kde-format
@@ -39806,7 +39806,7 @@ msgstr "驅動通道"
 #: plugins/filters/convertheightnormalmap/kis_convert_height_to_normal_map_filter.cpp:29
 #, kde-format
 msgid "&Height to Normal Map..."
-msgstr "高度貼圖轉法線貼圖(&H)⋯"
+msgstr "高度貼圖轉法線貼圖(&H)…"
 
 #: plugins/filters/convertheightnormalmap/kis_convert_height_to_normal_map_filter.h:29
 #, kde-format
@@ -39904,17 +39904,17 @@ msgstr "對角線浮雕"
 #: plugins/filters/dodgeburn/DodgeBurnPlugin.cpp:19
 #, kde-format
 msgid "Dodge..."
-msgstr "加亮⋯"
+msgstr "加亮…"
 
 #: plugins/filters/dodgeburn/DodgeBurnPlugin.cpp:20
 #, kde-format
 msgid "Burn..."
-msgstr "加深⋯"
+msgstr "加深…"
 
 #: plugins/filters/edgedetection/kis_edge_detection_filter.cpp:39
 #, kde-format
 msgid "&Edge Detection..."
-msgstr "邊緣檢測(&E)⋯"
+msgstr "邊緣檢測(&E)…"
 
 #: plugins/filters/edgedetection/kis_edge_detection_filter.h:31
 #, kde-format
@@ -39996,7 +39996,7 @@ msgstr "輸出："
 #: plugins/filters/embossfilter/kis_emboss_filter.cpp:43
 #, kde-format
 msgid "&Emboss with Variable Depth..."
-msgstr "可變深度浮雕(&E)⋯"
+msgstr "可變深度浮雕(&E)…"
 
 #: plugins/filters/embossfilter/kis_emboss_filter.cpp:144
 #, kde-format
@@ -40017,7 +40017,7 @@ msgstr "反轉"
 #: plugins/filters/fastcolortransfer/fastcolortransfer.cpp:48
 #, kde-format
 msgid "&Color Transfer..."
-msgstr "色彩轉移(&C)⋯"
+msgstr "色彩轉移(&C)…"
 
 #: plugins/filters/fastcolortransfer/fastcolortransfer.h:35
 #, kde-format
@@ -40033,7 +40033,7 @@ msgstr "參考圖："
 #: plugins/filters/gaussianhighpass/gaussianhighpass_filter.cpp:38
 #, kde-format
 msgid "&Gaussian High Pass..."
-msgstr "高斯高通濾波(&G)⋯"
+msgstr "高斯高通濾波(&G)…"
 
 #: plugins/filters/gaussianhighpass/gaussianhighpass_filter.h:29
 #, kde-format
@@ -40043,7 +40043,7 @@ msgstr "高斯高通濾波"
 #: plugins/filters/gradientmap/KisGradientMapFilter.cpp:32
 #, kde-format
 msgid "&Gradient Map..."
-msgstr "漸變映射(&G)⋯"
+msgstr "漸變映射(&G)…"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, GradientMapFilterConfigWidget)
 #: plugins/filters/gradientmap/KisGradientMapFilter.h:27
@@ -40095,7 +40095,7 @@ msgstr "最接近"
 #: plugins/filters/palettize/palettize.ui:191
 #, kde-format
 msgid "Dither"
-msgstr "抖動 (dither)"
+msgstr "抖色 (dither)"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tabScreenGenerator)
 #: plugins/filters/halftone/KisHalftoneConfigPageWidget.ui:49
@@ -40140,7 +40140,7 @@ msgstr "獨立通道"
 #: plugins/filters/halftone/KisHalftoneFilter.cpp:43
 #, kde-format
 msgid "&Halftone..."
-msgstr "半色調(&H)⋯"
+msgstr "半色調(&H)…"
 
 #: plugins/filters/halftone/KisHalftoneFilter.h:37
 #, kde-format
@@ -40150,7 +40150,7 @@ msgstr "半色調"
 #: plugins/filters/imageenhancement/kis_simple_noise_reducer.cpp:31
 #, kde-format
 msgid "&Gaussian Noise Reduction..."
-msgstr "高斯降噪(&G)⋯"
+msgstr "高斯降噪(&G)…"
 
 #: plugins/filters/imageenhancement/kis_simple_noise_reducer.cpp:45
 #: plugins/filters/imageenhancement/kis_wavelet_noise_reduction.cpp:40
@@ -40172,7 +40172,7 @@ msgstr "高斯降噪"
 #: plugins/filters/imageenhancement/kis_wavelet_noise_reduction.cpp:26
 #, kde-format
 msgid "&Wavelet Noise Reducer..."
-msgstr "子波降噪(&W)⋯"
+msgstr "子波降噪(&W)…"
 
 #: plugins/filters/imageenhancement/kis_wavelet_noise_reduction.h:37
 #, kde-format
@@ -40182,7 +40182,7 @@ msgstr "子波降噪"
 #: plugins/filters/indexcolors/indexcolors.cpp:33
 #, kde-format
 msgid "&Index Colors..."
-msgstr "索引色彩(&I)⋯"
+msgstr "索引色彩(&I)…"
 
 #: plugins/filters/indexcolors/indexcolors.cpp:66
 #, kde-format
@@ -40280,7 +40280,7 @@ msgstr "透明度級數"
 #: plugins/filters/levelfilter/kis_level_filter.cpp:37
 #, kde-format
 msgid "&Levels..."
-msgstr "色階(&L)⋯"
+msgstr "色階(&L)…"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgThreshold)
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgLevel)
@@ -40312,7 +40312,7 @@ msgstr "自動色階(&A)"
 #: plugins/filters/noisefilter/noisefilter.cpp:53
 #, kde-format
 msgid "&Random Noise..."
-msgstr "隨機噪點(&R)⋯"
+msgstr "隨機噪點(&R)…"
 
 #: plugins/filters/noisefilter/noisefilter.h:38
 #, kde-format
@@ -40339,7 +40339,7 @@ msgstr "標準化(&N)"
 #: plugins/filters/oilpaintfilter/kis_oilpaint_filter.cpp:44
 #, kde-format
 msgid "&Oilpaint..."
-msgstr "油畫(&O)⋯"
+msgstr "油畫(&O)…"
 
 #: plugins/filters/oilpaintfilter/kis_oilpaint_filter.cpp:205
 #: plugins/paintops/deform/kis_deform_paintop_settings_widget.cpp:28
@@ -40380,7 +40380,7 @@ msgstr "索引："
 #: plugins/filters/palettize/palettize.cpp:189
 #, kde-format
 msgid "&Palettize..."
-msgstr "調色板配色(&P)⋯"
+msgstr "調色板配色(&P)…"
 
 #: plugins/filters/palettize/palettize.h:67
 #, kde-format
@@ -40437,7 +40437,7 @@ msgstr "凹凸貼圖和法線貼圖"
 #: plugins/filters/phongbumpmap/kis_phong_bumpmap_filter.cpp:26
 #, kde-format
 msgid "&Phong Bumpmap..."
-msgstr "凹凸貼圖和法線貼圖(&P)⋯"
+msgstr "凹凸貼圖和法線貼圖(&P)…"
 
 #. i18n: ectx: attribute (title), widget (QWidget, generalSettings)
 #: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:64
@@ -40582,7 +40582,7 @@ msgstr "光源 &3"
 #: plugins/filters/pixelizefilter/kis_pixelize_filter.cpp:46
 #, kde-format
 msgid "&Pixelize..."
-msgstr "像素化(&P)⋯"
+msgstr "像素化(&P)…"
 
 #: plugins/filters/pixelizefilter/kis_pixelize_filter.cpp:139
 #, kde-format
@@ -40602,7 +40602,7 @@ msgstr "像素化"
 #: plugins/filters/posterize/posterize.cpp:43
 #, kde-format
 msgid "&Posterize..."
-msgstr "色調分離(&P)⋯"
+msgstr "色調分離(&P)…"
 
 #: plugins/filters/posterize/posterize.cpp:81
 #, kde-format
@@ -40617,7 +40617,7 @@ msgstr "色調分離"
 #: plugins/filters/raindropsfilter/kis_raindrops_filter.cpp:46
 #, kde-format
 msgid "&Raindrops..."
-msgstr "雨滴(&R)⋯"
+msgstr "雨滴(&R)…"
 
 #: plugins/filters/raindropsfilter/kis_raindrops_filter.cpp:375
 #, kde-format
@@ -40642,7 +40642,7 @@ msgstr "雨滴"
 #: plugins/filters/randompickfilter/randompickfilter.cpp:54
 #, kde-format
 msgid "&Random Pick..."
-msgstr "隨機選取(&R)⋯"
+msgstr "隨機選取(&R)…"
 
 #: plugins/filters/randompickfilter/randompickfilter.h:37
 #, kde-format
@@ -40658,7 +40658,7 @@ msgstr "視窗大小："
 #: plugins/filters/roundcorners/kis_round_corners_filter.cpp:42
 #, kde-format
 msgid "&Round Corners..."
-msgstr "圓角(&R)⋯"
+msgstr "圓角(&R)…"
 
 #: plugins/filters/roundcorners/kis_round_corners_filter.cpp:133
 #, kde-format
@@ -40673,7 +40673,7 @@ msgstr "圓角"
 #: plugins/filters/smalltilesfilter/kis_small_tiles_filter.cpp:44
 #, kde-format
 msgid "&Small Tiles..."
-msgstr "拼貼(&S)⋯"
+msgstr "拼貼(&S)…"
 
 #: plugins/filters/smalltilesfilter/kis_small_tiles_filter.cpp:91
 #, kde-format
@@ -40699,7 +40699,7 @@ msgstr "閾值濾鏡"
 #: plugins/filters/threshold/threshold.cpp:54
 #, kde-format
 msgid "&Threshold..."
-msgstr "閾值(&T)⋯"
+msgstr "閾值(&T)…"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: plugins/filters/threshold/wdg_threshold.ui:127
@@ -40710,7 +40710,7 @@ msgstr "閾值級別(&L)："
 #: plugins/filters/unsharp/kis_unsharp_filter.cpp:32
 #, kde-format
 msgid "&Unsharp Mask..."
-msgstr "USM 銳化(&U)⋯"
+msgstr "USM 銳化(&U)…"
 
 #: plugins/filters/unsharp/kis_unsharp_filter.cpp:77
 #: plugins/filters/unsharp/kis_unsharp_filter.h:27
@@ -40734,7 +40734,7 @@ msgstr "僅亮度："
 #: plugins/filters/wavefilter/wavefilter.cpp:97
 #, kde-format
 msgid "&Wave..."
-msgstr "波浪(&W)⋯"
+msgstr "波浪(&W)…"
 
 #: plugins/filters/wavefilter/wavefilter.h:39
 #, kde-format
@@ -41063,7 +41063,7 @@ msgstr "六邊形"
 #: plugins/generators/gradient/KisGradientGenerator.cpp:20
 #, kde-format
 msgid "&Gradient..."
-msgstr "漸變(&G)⋯"
+msgstr "漸變(&G)…"
 
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.cpp:28
 #: plugins/tools/basictools/kis_tool_gradient.cc:239
@@ -41304,7 +41304,7 @@ msgstr "邊角點"
 #: plugins/generators/multigridpattern/multigridpatterngenerator.cpp:52
 #, kde-format
 msgid "&Multigrid Pattern..."
-msgstr "多網格圖案(&M)⋯"
+msgstr "多網格圖案(&M)…"
 
 #: plugins/generators/multigridpattern/multigridpatterngenerator.h:69
 #, kde-format
@@ -41369,7 +41369,7 @@ msgstr "色彩比例"
 #: plugins/generators/pattern/patterngenerator.cpp:118
 #, kde-format
 msgid "&Pattern..."
-msgstr "圖案(&P)⋯"
+msgstr "圖案(&P)…"
 
 #. i18n: ectx: property (text), widget (QLabel, lblPattern)
 #: plugins/generators/pattern/wdgpatternoptions.ui:27
@@ -41474,7 +41474,7 @@ msgstr "對比度："
 #: plugins/generators/screentone/KisScreentoneGenerator.cpp:42
 #, kde-format
 msgid "&Screentone..."
-msgstr "網點(&S)⋯"
+msgstr "網點(&S)…"
 
 #: plugins/generators/screentone/KisScreentoneGenerator.h:53
 #, kde-format
@@ -41564,7 +41564,7 @@ msgstr "正弦曲線"
 #: plugins/generators/seexpr/generator.cpp:72
 #, kde-format
 msgid "&SeExpr..."
-msgstr "&SeExpr⋯"
+msgstr "&SeExpr…"
 
 #: plugins/generators/seexpr/generator.h:52
 #, kde-format
@@ -41635,7 +41635,7 @@ msgstr "選項"
 #: plugins/generators/seexpr/wdgseexpr.ui:237
 #, kde-format
 msgid "Save New SeExpr Preset..."
-msgstr "儲存為新 SeExpr 預設⋯"
+msgstr "儲存為新 SeExpr 預設…"
 
 #. i18n: ectx: property (text), widget (QPushButton, saveBrushPresetButton)
 #: plugins/generators/seexpr/wdgseexpr.ui:244
@@ -41658,7 +41658,7 @@ msgstr "將指令稿繪製到縮圖"
 #: plugins/generators/simplexnoise/simplexnoisegenerator.cpp:38
 #, kde-format
 msgid "&Simplex Noise..."
-msgstr "單純形法噪音(&S)⋯"
+msgstr "單純形法噪音(&S)…"
 
 #: plugins/generators/simplexnoise/simplexnoisegenerator.h:40
 #, kde-format
@@ -41686,7 +41686,7 @@ msgstr "使用自訂種子"
 #: plugins/generators/solid/colorgenerator.cpp:44
 #, kde-format
 msgid "&Solid Color..."
-msgstr "純色(&S)⋯"
+msgstr "純色(&S)…"
 
 #. i18n: ectx: property (text), widget (QLabel, lblColor)
 #: plugins/generators/solid/wdgcoloroptions.ui:21
@@ -44129,7 +44129,7 @@ msgstr "重設為預設值"
 #: plugins/impex/raw/3rdparty/libkdcraw/src/rwidgetutils.cpp:377
 #, kde-format
 msgid "Browse..."
-msgstr "瀏覽⋯"
+msgstr "瀏覽…"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnUpdate)
 #. i18n: ectx: property (text), widget (QPushButton, pushButtonUpdate)
@@ -44153,7 +44153,7 @@ msgstr "匯入 SVG"
 #: plugins/impex/svg/kis_svg_import.cc:49
 #, kde-format
 msgid "Enter preferred resolution (PPI) for \"%1\""
-msgstr "輸入 \"%1\" 的首選解析度 (PPI)"
+msgstr "輸入「%1」的首選解析度 (PPI)"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, KisWdgOptionsTIFF)
 #. i18n: ectx: property (title), widget (QGroupBox, tiffOptions)
@@ -44374,7 +44374,7 @@ msgstr "平滑分段 (Segment-smooth)"
 #, kde-format
 msgctxt "WebP preprocessing filters"
 msgid "Pseudo-random dithering"
-msgstr "隨機抖動 (Pseudo-random dithering)"
+msgstr "隨機抖色 (Pseudo-random dithering)"
 
 #. i18n: ectx: property (text), widget (QLabel, lblPreset)
 #: plugins/impex/webp/dlg_webp_export.ui:40
@@ -44447,7 +44447,7 @@ msgstr "較慢/較佳"
 #: plugins/impex/webp/dlg_webp_import.ui:341
 #, kde-format
 msgid "Dithering"
-msgstr "抖動 (Dithering)"
+msgstr "抖色 (Dithering)"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblTargetSize)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, targetSize)
@@ -44625,16 +44625,15 @@ msgstr "熵值分析次數"
 #. i18n: ectx: property (toolTip), widget (QCheckBox, showCompressed)
 #: plugins/impex/webp/dlg_webp_export.ui:526
 #: plugins/impex/webp/dlg_webp_export.ui:536
-#, fuzzy, kde-format
+#, kde-format
 msgid ""
 "If enabled, export the compressed picture back. In-loop filtering is not "
 "applied."
-msgstr "如啟用，則匯出已壓縮的影像。不套用迴路過濾。"
+msgstr "如啟用，則匯出已壓縮的影像，不套用迴路過濾。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblShowCompressed)
 #: plugins/impex/webp/dlg_webp_export.ui:529
-#, fuzzy, kde-format
-#| msgid "Compress:"
+#, kde-format
 msgid "Show Compressed"
 msgstr "顯示已壓縮"
 
@@ -48522,7 +48521,7 @@ msgstr "TIFF"
 #: plugins/python/comics_project_management_tools/comics_export_dialog.py:423
 #, python-brace-format
 msgid "v{version}-in this version..."
-msgstr "v{version}-在此版本中⋯"
+msgstr "v{version}-在此版本中…"
 
 #: plugins/python/comics_project_management_tools/comics_export_dialog.py:446
 #: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:525
@@ -48545,7 +48544,7 @@ msgstr "正在準備匯出。"
 
 #: plugins/python/comics_project_management_tools/comics_exporter.py:139
 msgid "Exporting Comic..."
-msgstr "正在匯出漫畫⋯"
+msgstr "正在匯出漫畫…"
 
 #: plugins/python/comics_project_management_tools/comics_exporter.py:157
 msgid ""
@@ -49079,7 +49078,7 @@ msgstr ""
 
 #: plugins/python/comics_project_management_tools/comics_project_manager_docker.py:378
 msgid "Loading Pages..."
-msgstr "正在載入頁面⋯"
+msgstr "正在載入頁面…"
 
 #: plugins/python/comics_project_management_tools/comics_project_manager_docker.py:531
 #: plugins/python/comics_project_management_tools/comics_project_manager_docker.py:651
@@ -49119,7 +49118,7 @@ msgstr "調整所有頁面的大小"
 
 #: plugins/python/comics_project_management_tools/comics_project_manager_docker.py:894
 msgid "Resizing pages..."
-msgstr "正在調整頁面大小⋯"
+msgstr "正在調整頁面大小…"
 
 #: plugins/python/comics_project_management_tools/comics_project_manager_docker.py:895
 msgid "Resizing Pages"
@@ -50717,7 +50716,7 @@ msgstr "反轉"
 #, kde-format
 msgctxt "the gradient will be dithered"
 msgid "Dither"
-msgstr "抖動 (dither)"
+msgstr "抖色 (dither)"
 
 #: plugins/tools/basictools/kis_tool_gradient.h:106
 #, kde-format
@@ -51544,7 +51543,7 @@ msgstr "西文書法形狀"
 #: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:59
 #, kde-format
 msgid "Save profile as..."
-msgstr "設定檔另存為⋯"
+msgstr "設定檔另存為…"
 
 #: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:64
 #, kde-format
@@ -52103,7 +52102,7 @@ msgstr "文字工具"
 #, kde-format
 msgctxt "action"
 msgid "Text Color..."
-msgstr "文字色彩⋯"
+msgstr "文字色彩…"
 
 #. i18n: context: Action (svg_format_textcolor), Actions (Text Tool), ActionCollection (SVG Tools)
 #: plugins/tools/svgtexttool/SvgTextTool.action:23
@@ -52117,7 +52116,7 @@ msgstr "文字色彩"
 #, kde-format
 msgctxt "action"
 msgid "Background Color..."
-msgstr "背景色⋯"
+msgstr "背景色…"
 
 #. i18n: context: Action (svg_background_color), Actions (Text Tool), ActionCollection (SVG Tools)
 #: plugins/tools/svgtexttool/SvgTextTool.action:33
@@ -52149,7 +52148,7 @@ msgstr "變更字元大小、字型、粗體、斜體等。"
 #, kde-format
 msgctxt "action"
 msgid "Font..."
-msgstr "字型⋯"
+msgstr "字型…"
 
 #. i18n: context: Action (svg_insert_special_character), Actions (Text Tool), ActionCollection (SVG Tools)
 #: plugins/tools/svgtexttool/SvgTextTool.action:58
@@ -52163,7 +52162,7 @@ msgstr "插入鍵盤上沒有的符號或字元"
 #, kde-format
 msgctxt "action"
 msgid "Special Character..."
-msgstr "特殊字元⋯"
+msgstr "特殊字元…"
 
 #. i18n: context: Action (svg_align_justified), Actions (Text Tool), ActionCollection (SVG Tools)
 #. i18n: context: Action (svg_align_justified), Actions (Text Tool), ActionCollection (SVG Tools)
@@ -52345,7 +52344,7 @@ msgstr "文字編輯器設定"
 #, kde-format
 msgctxt "action"
 msgid "Settings..."
-msgstr "設定⋯"
+msgstr "設定…"
 
 #. i18n: context: Action (svg_sample_color), Actions (Text Tool), ActionCollection (SVG Tools)
 #: plugins/tools/svgtexttool/SvgTextTool.action:248
@@ -52379,7 +52378,7 @@ msgstr "字距調整 (Kerning)"
 #: plugins/tools/svgtexttool/SvgTextTool.cpp:126
 #, kde-format
 msgid "Create new texts with..."
-msgstr "建立新文字自⋯"
+msgstr "建立新文字自…"
 
 #: plugins/tools/svgtexttool/SvgTextTool.cpp:162
 #, kde-format
