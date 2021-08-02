@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-07-31 00:15+0000\n"
+"POT-Creation-Date: 2021-08-01 00:19+0000\n"
 "PO-Revision-Date: 2021-07-31 03:13+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
@@ -19220,7 +19220,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, thumbnailImageHolder)
 #: libs/ui/animation/VideoImportDialog.ui:130
-#: libs/widgetutils/KisPreviewFileDialog.cpp:91
+#: libs/widgetutils/KisPreviewFileDialog.cpp:92
 #, kde-format
 msgid "No Preview"
 msgstr "無預覽"
