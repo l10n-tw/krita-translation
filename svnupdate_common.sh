@@ -36,7 +36,7 @@ checkout() {
 
     if svn_checkout "${svn_repositories[$svn_repo]}"; then
         local SVN_REVISION
-        if [[ -n $revision_file ]] && SVN_REVISION=$(svn info --show-item revision "$svn_checkout_result"); then
+        if [[ -n $revision_file ]] && SVN_REVISION=$(svn info --show-item last-changed-revision "$svn_checkout_result"); then
             echo -n "$SVN_REVISION" > "$revision_file"
         fi
         mkdir "./$svn_repo"
