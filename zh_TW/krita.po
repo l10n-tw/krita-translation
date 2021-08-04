@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-01 00:19+0000\n"
-"PO-Revision-Date: 2021-08-02 14:34+0000\n"
+"POT-Creation-Date: 2021-08-04 00:16+0000\n"
+"PO-Revision-Date: 2021-08-04 07:36+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -5950,7 +5950,7 @@ msgctxt ""
 "./krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/A_eroded-"
 "dirtybrush-anim.gih"
 msgid "A - 2 Dirty Brush"
-msgstr "污漬筆刷 "
+msgstr "污漬筆刷"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #: krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/A_eroded-knife-anim.gih:1
@@ -11894,28 +11894,28 @@ msgstr "重新繪製動畫"
 #, kde-format
 msgctxt "action"
 msgid "Save Incremental &Version"
-msgstr "儲存增量版本(&V)"
+msgstr "儲存遞增版本(&V)"
 
 #. i18n: context: Action (save_incremental_version), Actions (File), ActionCollection (Menu)
 #: krita/kritamenu.action:167
 #, kde-format
 msgctxt "action"
 msgid "Save Incremental Version"
-msgstr "儲存增量版本"
+msgstr "儲存遞增版本"
 
 #. i18n: context: Action (save_incremental_backup), Actions (File), ActionCollection (Menu)
 #: krita/kritamenu.action:177
 #, kde-format
 msgctxt "action"
 msgid "Save Incremental &Backup"
-msgstr "儲存增量備份(&B)"
+msgstr "儲存遞增備份(&B)"
 
 #. i18n: context: Action (save_incremental_backup), Actions (File), ActionCollection (Menu)
 #: krita/kritamenu.action:179
 #, kde-format
 msgctxt "action"
 msgid "Save Incremental Backup"
-msgstr "儲存增量備份"
+msgstr "儲存遞增備份"
 
 #. i18n: context: Action (create_template), Actions (File), ActionCollection (Menu)
 #: krita/kritamenu.action:189
@@ -14646,7 +14646,7 @@ msgstr "預設"
 #: libs/image/brushengine/kis_standard_uniform_properties_factory.cpp:39
 #: libs/image/brushengine/kis_standard_uniform_properties_factory.h:18
 #: libs/ui/forms/wdgrectangleconstraints.ui:24
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:46
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:47
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:53
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:101
 #: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:36
@@ -14690,14 +14690,14 @@ msgstr "大小"
 #: libs/image/brushengine/kis_standard_uniform_properties_factory.cpp:48
 #: libs/ui/animation/wdg_animationrenderer.ui:157
 #: libs/ui/animation/wdg_animationrenderer.ui:196
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:733
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:737
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:945
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:952
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1162
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1330
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1333
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1399
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:738
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:742
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:950
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:957
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1167
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1335
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1338
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1404
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1058
 #: libs/ui/forms/wdgdisplaysettings.ui:318
 #: libs/ui/forms/wdgrectangleconstraints.ui:86
@@ -14777,7 +14777,7 @@ msgstr " px"
 #: libs/image/kis_keyframe_channel.cpp:26 libs/image/kis_layer.cc:278
 #: libs/widgets/KoColorPopupAction.cpp:85
 #: plugins/dockers/layerdocker/LayerBox.cpp:196
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:45
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:46
 #: plugins/paintops/curvebrush/kis_curve_paintop_settings_widget.cpp:23
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:51
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:107
@@ -14820,7 +14820,7 @@ msgstr "角度"
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: libs/image/brushengine/kis_standard_uniform_properties_factory.h:22
 #: plugins/dockers/arrangedocker/arrange_docker_widget.ui:322
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:48
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:49
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:55
 #: plugins/paintops/libpaintop/kis_brush_based_paintop_settings.cpp:268
 #: plugins/paintops/roundmarker/kis_roundmarkerop_settings_widget.cpp:31
@@ -15268,7 +15268,7 @@ msgstr "%1%"
 #. i18n: ectx: property (toolTip), widget (KisCompositeOpComboBox, cmbComposite)
 #: libs/image/kis_layer.cc:283 libs/ui/widgets/kis_cmb_composite.cc:66
 #: plugins/dockers/layerdocker/WdgLayerBox.ui:62
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:44
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:45
 #: plugins/paintops/curvebrush/kis_curve_paintop_settings_widget.cpp:26
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:50
 #: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:34
@@ -16097,7 +16097,7 @@ msgctxt "description of a file type"
 msgid "Animated PNG Image"
 msgstr "動態 PNG 影像"
 
-#: libs/libkis/Document.cpp:918 libs/ui/KisMainWindow.cpp:2061
+#: libs/libkis/Document.cpp:927 libs/ui/KisMainWindow.cpp:2061
 #: libs/ui/KisMainWindow.cpp:2143
 #, kde-format
 msgid "Import frames"
@@ -17412,9 +17412,9 @@ msgstr "本機資源"
 #: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:326
 #: plugins/extensions/resourcemanager/resourcemanager.cpp:221
 #: plugins/filters/colorsfilters/kis_multichannel_filter_base.cpp:393
-#: plugins/tools/basictools/kis_tool_colorsampler.cc:145
-#: plugins/tools/basictools/kis_tool_colorsampler.cc:150
-#: plugins/tools/basictools/kis_tool_colorsampler.cc:197
+#: plugins/tools/basictools/kis_tool_colorsampler.cc:147
+#: plugins/tools/basictools/kis_tool_colorsampler.cc:152
+#: plugins/tools/basictools/kis_tool_colorsampler.cc:199
 #: plugins/tools/defaulttool/referenceimagestool/KisReferenceImageCollection.cpp:95
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:125
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:160
@@ -17537,7 +17537,7 @@ msgstr "工具提示"
 #: libs/resources/KisResourceModel.cpp:119 libs/ui/imagesize/imagesize.xmlgui:4
 #: plugins/extensions/imagesplit/imagesplit.xmlgui:4
 #: plugins/extensions/separate_channels/imageseparate.xmlgui:4
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:357
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:355
 #: plugins/paintops/spray/wdgsprayshapeoptions.ui:90
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:400
 #, kde-format
@@ -17575,8 +17575,8 @@ msgstr "MD5 雜湊值"
 #. i18n: ectx: attribute (title), widget (QWidget, tab_hsx)
 #. i18n: ectx: property (text), widget (QLabel, lblCurrentRenderer)
 #: libs/resources/KisResourceStorage.h:128
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1409
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1413
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1411
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1415
 #: libs/ui/forms/wdgdisplaysettings.ui:172 libs/ui/KoDocumentInfo.cpp:39
 #: libs/widgets/KisDlgInternalColorSelector.cpp:322
 #: libs/widgets/WdgDlgInternalColorSelector.ui:89
@@ -17612,7 +17612,7 @@ msgstr "記憶體"
 
 #: libs/resources/KisResourceStorage.h:140
 #: plugins/extensions/metadataeditor/kis_meta_data_model.cpp:47
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:353
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:351
 #, kde-format
 msgid "Invalid"
 msgstr "無效"
@@ -17901,7 +17901,7 @@ msgstr "資源收藏"
 
 #: libs/resourcewidgets/KisResourceItemChooser.cpp:227
 #: libs/ui/KisMainWindow.cpp:2561
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:564
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:562
 #, kde-format
 msgctxt "@title:window"
 msgid "Choose File to Add"
@@ -17967,7 +17967,7 @@ msgctxt "@info:tooltip"
 msgid ""
 "<p>Pressing <b>Enter</b> or clicking the <b>Save</b> button will save the "
 "changes.</p>"
-msgstr "<p>按 <b>Enter</b> 或按「儲存」按鈕儲存變更。</p>"
+msgstr "<p>按 <b>Enter</b> 或按「<b>儲存</b>」按鈕儲存變更。</p>"
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, lneFilterText)
 #: libs/resourcewidgets/KisTagFilterWidget.cpp:65
@@ -19067,8 +19067,8 @@ msgstr "主顯示器："
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgDisplaySettings)
 #: libs/ui/animation/VideoHDRMetadataOptionsDialog.ui:38
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1694
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1696
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1698
 #: libs/ui/forms/wdgcolorsettings.ui:154 libs/ui/forms/wdgdisplaysettings.ui:24
 #, kde-format
 msgid "Display"
@@ -19163,8 +19163,8 @@ msgstr "匯入影片動畫"
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
 #. i18n: ectx: attribute (title), widget (QWidget, general)
 #: libs/ui/animation/VideoImportDialog.ui:34
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1664
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1666
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1668
 #: libs/ui/forms/wdgcolorsettings.ui:28
 #: libs/ui/forms/wdgperformancesettings.ui:38 libs/ui/KoDocumentInfoDlg.cpp:92
 #: libs/ui/KoDocumentInfoDlg.cpp:93
@@ -20194,7 +20194,7 @@ msgstr "圖層屬性"
 #: plugins/paintops/spray/kis_sprayop_option.cpp:51
 #: plugins/paintops/tangentnormal/kis_tangent_tilt_option.cpp:39
 #: plugins/paintops/tangentnormal/kis_tangent_tilt_option.cpp:43
-#: plugins/tools/basictools/kis_tool_colorsampler.cc:269
+#: plugins/tools/basictools/kis_tool_colorsampler.cc:271
 #: plugins/tools/svgtexttool/SvgTextEditor.cpp:1432
 #, no-c-format, kde-format
 msgid "%"
@@ -20243,17 +20243,17 @@ msgid "New Style"
 msgstr "建立樣式"
 
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:314
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:353
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:358
 #, kde-format
 msgid "Select ASL file"
 msgstr "選擇 ASL 檔案"
 
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:332
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:335
 #, kde-format
 msgid "New name for ASL storage"
 msgstr "ASL 儲存空間的新名稱"
 
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:332
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:335
 #, kde-format
 msgid ""
 "The old filename is taken.\n"
@@ -20266,29 +20266,29 @@ msgstr ""
 #. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, scaleYBox)
 #. i18n: ectx: property (suffix), widget (KisSliderSpinBox, ditheringStrength)
 #. i18n: ectx: property (suffix), widget (KisSliderSpinBox, alphaDitheringStrength)
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:730
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:748
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:751
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:769
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:777
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:780
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:907
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:942
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:949
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:956
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1087
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1090
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1153
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1156
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1159
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1166
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1169
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1285
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1288
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1327
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1403
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1406
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1409
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:735
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:753
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:756
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:774
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:782
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:785
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:912
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:947
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:954
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:961
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1092
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1095
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1158
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1161
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1164
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1171
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1174
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1290
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1293
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1332
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1408
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1411
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1414
 #: libs/ui/dialogs/kis_dlg_preferences.cc:976
 #: libs/ui/dialogs/kis_dlg_preferences.cc:980
 #: libs/ui/dialogs/kis_dlg_preferences.cc:984
@@ -20304,25 +20304,25 @@ msgstr ""
 msgid " %"
 msgstr " %"
 
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:890
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:895
 #: libs/ui/widgets/kis_cmb_contour.cpp:13
 #, kde-format
 msgid "Not Implemented Yet"
 msgstr "尚未實現"
 
 #. i18n: ectx: property (text), item, widget (QListWidget, lstStyleSelector)
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:979
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:984
 #: libs/ui/layerstyles/wdglayerstyles.ui:52
 #, kde-format
 msgid "Inner Shadow"
 msgstr "內部陰影"
 
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:980
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:985
 #, kde-format
 msgid "Choke:"
 msgstr "阻塞："
 
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1195
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1200
 #, kde-format
 msgctxt "layer styles parameter"
 msgid "Spread:"
@@ -20496,187 +20496,187 @@ msgstr " 秒"
 msgid " fps"
 msgstr " fps"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1209
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1211
 #, kde-format
 msgctxt "@title:window"
 msgid "Select a swap directory"
 msgstr "選擇交換檔案目錄"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1271
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1273
 #, kde-format
 msgctxt "canvas renderer"
 msgid "OpenGL"
 msgstr "OpenGL"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1272
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1274
 #, kde-format
 msgctxt "canvas renderer"
 msgid "Software Renderer (very slow)"
 msgstr "軟體繪製器 (非常慢)"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1274
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1276
 #, kde-format
 msgctxt "canvas renderer"
 msgid "Direct3D 11 via ANGLE"
 msgstr "通過 ANGLE 實現的 Direct3D 11"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1276
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1278
 #, kde-format
 msgctxt "canvas renderer"
 msgid "OpenGL ES"
 msgstr "OpenGL ES"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1283
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1285
 #, kde-format
 msgctxt "canvas renderer"
 msgid "Unknown"
 msgstr "未知"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1303
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1305
 #, kde-format
 msgctxt "canvas renderer"
 msgid "Auto (%1)"
 msgstr "自動 (%1)"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1395
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1397
 #, kde-format
 msgid "Display Id: %1"
 msgstr "顯示器 ID：%1"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1396
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1398
 #, kde-format
 msgid "Display Name: %1 %2"
 msgstr "顯示器名稱：%1 %2"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1397
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1399
 #, kde-format
 msgid "Min Luminance: %1"
 msgstr "最小光度：%1"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1398
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1400
 #, kde-format
 msgid "Max Luminance: %1"
 msgstr "最大光度：%1"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1399
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1401
 #, kde-format
 msgid "Max Full Frame Luminance: %1"
 msgstr "最大全影格光度：%1"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1400
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1402
 #, kde-format
 msgid "Red Primary: %1, %2"
 msgstr "紅基色：%1, %2"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1401
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1403
 #, kde-format
 msgid "Green Primary: %1, %2"
 msgstr "綠基色：%1, %2"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1402
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1404
 #, kde-format
 msgid "Blue Primary: %1, %2"
 msgstr "藍基色：%1, %2"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1403
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1405
 #, kde-format
 msgid "White Point: %1, %2"
 msgstr "白點：%1, %2"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1439
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1441
 #, kde-format
 msgid "Warning(s):"
 msgstr "警告："
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1572
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1574
 #, kde-format
 msgid "WARNING: current display doesn't support HDR rendering"
 msgstr "警告：目前顯示器不支援 HDR 繪製"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1657
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1659
 #, kde-format
 msgid "Configure Krita"
 msgstr "設定 Krita"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1674
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1676
 #, kde-format
 msgid "Keyboard Shortcuts"
 msgstr "鍵盤快捷鍵"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1676
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1678
 #: libs/widgetutils/xmlgui/KisShortcutsEditor_p.cpp:282
 #, kde-format
 msgid "Shortcuts"
 msgstr "快捷鍵"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1686
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1688
 #, kde-format
 msgid "Canvas Input Settings"
 msgstr "畫布輸入設定"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1687
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1689
 #, kde-format
 msgid "Canvas Input"
 msgstr "畫布輸入"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1704
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1706
 #: plugins/dockers/logdocker/LogDockerDock.cpp:190
 #, kde-format
 msgid "Color Management"
 msgstr "色彩管理"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1706
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1708
 #, kde-format
 msgctxt "Label of color as in Color Management"
 msgid "Color"
 msgstr "色彩"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1714
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1716
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1718
 #, kde-format
 msgid "Performance"
 msgstr "效能"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1724
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1726
 #, kde-format
 msgid "Tablet settings"
 msgstr "數位板設定"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1726
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1728
 #, kde-format
 msgid "Tablet"
 msgstr "數位板"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1734
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1736
 #, kde-format
 msgid "Canvas-only settings"
 msgstr "畫布獨佔模式設定"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1736
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1738
 #, kde-format
 msgid "Canvas-only"
 msgstr "畫布獨佔模式"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1744
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1746
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1748
 #, kde-format
 msgid "Pop-up Palette"
 msgstr "浮動畫具板"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1754
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1756
 #, kde-format
 msgctxt "@title:tab Author page"
 msgid "Author"
 msgstr "作者檔案"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1756
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1758
 #: libs/ui/KoDocumentInfoDlg.cpp:115
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
 #, kde-format
 msgid "Author"
 msgstr "作者"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1763
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1765
 #, kde-format
 msgctxt "@action:button"
 msgid "Restore Defaults"
@@ -22821,7 +22821,7 @@ msgstr "背景色"
 #: libs/ui/widgets/KoFillConfigWidget.ui:110
 #: plugins/generators/pattern/patterngenerator.h:41
 #: plugins/generators/pattern/wdgpatternoptions.ui:21
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:73
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:74
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:80
 #: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:40
 #: plugins/paintops/hatching/kis_hatching_paintop_settings_widget.cpp:53
@@ -23297,7 +23297,7 @@ msgstr "縱向"
 #. i18n: ectx: property (text), widget (QPushButton, clipboardButton)
 #: libs/ui/forms/wdgnewimage.ui:284
 #: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:94
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:325
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:323
 #, kde-format
 msgid "Clipboard"
 msgstr "剪貼簿"
@@ -23489,7 +23489,7 @@ msgstr "目前筆刷預設"
 #: libs/ui/widgets/kis_workspace_chooser.cpp:183
 #: plugins/dockers/gamutmask/forms/wdgGamutMaskChooser.ui:232
 #: plugins/generators/seexpr/wdgseexpr.ui:172
-#: plugins/paintops/libpaintop/kis_clipboard_brush_widget.cpp:161
+#: plugins/paintops/libpaintop/kis_clipboard_brush_widget.cpp:162
 #: plugins/paintops/libpaintop/kis_custom_brush_widget.cpp:139
 #: plugins/python/scripter/ui_scripter/actions/saveaction/saveaction.py:21
 #, kde-format
@@ -23800,20 +23800,26 @@ msgstr "啟用供除錯用的筆刷繪製速度紀錄"
 msgid "Disable AVX vector optimizations"
 msgstr "停用 AVX 向量最佳化"
 
-#. i18n: ectx: property (text), widget (QCheckBox, chkProgressReporting)
+#. i18n: ectx: property (text), widget (QCheckBox, chkDisableVectorOptimizations)
 #: libs/ui/forms/wdgperformancesettings.ui:389
+#, kde-format
+msgid "Disable all vector optimizations"
+msgstr "停用所有向量最佳化"
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkProgressReporting)
+#: libs/ui/forms/wdgperformancesettings.ui:396
 #, kde-format
 msgid "Progress reporting (might affect performance)"
 msgstr "程式進度報告 (可能會影響效能)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkPerformanceLogging)
-#: libs/ui/forms/wdgperformancesettings.ui:396
+#: libs/ui/forms/wdgperformancesettings.ui:403
 #, kde-format
 msgid "Performance logging"
 msgstr "程式效能記錄"
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
-#: libs/ui/forms/wdgperformancesettings.ui:406
+#: libs/ui/forms/wdgperformancesettings.ui:413
 #, kde-format
 msgid ""
 "<html><head/><body><p>When performance logging is enabled Krita saves timing "
@@ -23827,19 +23833,19 @@ msgstr ""
 "html>"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_3)
-#: libs/ui/forms/wdgperformancesettings.ui:430
+#: libs/ui/forms/wdgperformancesettings.ui:437
 #, kde-format
 msgid "Animation Cache"
 msgstr "動畫快取"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
-#: libs/ui/forms/wdgperformancesettings.ui:436
+#: libs/ui/forms/wdgperformancesettings.ui:443
 #, kde-format
 msgid "Cache Storage Backend"
 msgstr "快取存放空間後端"
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, optInMemory)
-#: libs/ui/forms/wdgperformancesettings.ui:442
+#: libs/ui/forms/wdgperformancesettings.ui:449
 #, kde-format
 msgid ""
 "<html><head/><body><p>Animation frame cache will be stored in RAM completely "
@@ -23858,13 +23864,13 @@ msgstr ""
 "html>"
 
 #. i18n: ectx: property (text), widget (QRadioButton, optInMemory)
-#: libs/ui/forms/wdgperformancesettings.ui:445
+#: libs/ui/forms/wdgperformancesettings.ui:452
 #, kde-format
 msgid "In-memory"
 msgstr "使用記憶體"
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, optOnDisk)
-#: libs/ui/forms/wdgperformancesettings.ui:452
+#: libs/ui/forms/wdgperformancesettings.ui:459
 #, kde-format
 msgid ""
 "<html><head/><body><p>Animation frames are stored on hard disk in the same "
@@ -23879,19 +23885,19 @@ msgstr ""
 "來說是較佳選擇。</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QRadioButton, optOnDisk)
-#: libs/ui/forms/wdgperformancesettings.ui:455
+#: libs/ui/forms/wdgperformancesettings.ui:462
 #, kde-format
 msgid "On-disk"
 msgstr "使用硬碟"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_5)
-#: libs/ui/forms/wdgperformancesettings.ui:465
+#: libs/ui/forms/wdgperformancesettings.ui:472
 #, kde-format
 msgid "Cache Generation Options"
 msgstr "快取產生選項"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkCachedFramesSizeLimit)
-#: libs/ui/forms/wdgperformancesettings.ui:471
+#: libs/ui/forms/wdgperformancesettings.ui:478
 #, kde-format
 msgid ""
 "<html><head/><body><p>Render scaled down version of the frame if the image "
@@ -23902,13 +23908,13 @@ msgstr ""
 "後端時應啟用此選項。</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkCachedFramesSizeLimit)
-#: libs/ui/forms/wdgperformancesettings.ui:474
+#: libs/ui/forms/wdgperformancesettings.ui:481
 #, kde-format
 msgid "Limit cached frame size:"
 msgstr "限制快取影格大小："
 
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, intCachedFramesSizeLimit)
-#: libs/ui/forms/wdgperformancesettings.ui:487
+#: libs/ui/forms/wdgperformancesettings.ui:494
 #, kde-format
 msgid ""
 "<html><head/><body><p>Size limit after which the frames will be scaled down</"
@@ -23919,7 +23925,7 @@ msgstr ""
 "weight:600;\">建議值：</span>2500&nbsp;px</p></body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkUseRegionOfInterest)
-#: libs/ui/forms/wdgperformancesettings.ui:494
+#: libs/ui/forms/wdgperformancesettings.ui:501
 #, kde-format
 msgid ""
 "<html><head/><body><p>When the image is too big, render only currently "
@@ -23928,13 +23934,13 @@ msgstr ""
 "<html><head/><body><p>當影像太大時, 僅繪製目前可見的部分</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkUseRegionOfInterest)
-#: libs/ui/forms/wdgperformancesettings.ui:497
+#: libs/ui/forms/wdgperformancesettings.ui:504
 #, kde-format
 msgid "Use region of interest"
 msgstr "使用重點區域"
 
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, intRegionOfInterestMargin)
-#: libs/ui/forms/wdgperformancesettings.ui:510
+#: libs/ui/forms/wdgperformancesettings.ui:517
 #, no-c-format, kde-format
 msgid ""
 "<html><head/><body><p>Add extra area to the region of interest to each side "
@@ -23947,7 +23953,7 @@ msgstr ""
 "html>"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkBackgroundCacheGeneration)
-#: libs/ui/forms/wdgperformancesettings.ui:517
+#: libs/ui/forms/wdgperformancesettings.ui:524
 #, kde-format
 msgid ""
 "<html><head/><body><p>Automatically prerender animation cache in background "
@@ -23957,26 +23963,26 @@ msgstr ""
 "html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkBackgroundCacheGeneration)
-#: libs/ui/forms/wdgperformancesettings.ui:520
+#: libs/ui/forms/wdgperformancesettings.ui:527
 #, kde-format
 msgid "Enable background cache generation"
 msgstr "啟用在背景產生快取"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_4)
-#: libs/ui/forms/wdgperformancesettings.ui:531
+#: libs/ui/forms/wdgperformancesettings.ui:538
 #: libs/ui/widgets/kis_lod_availability_widget.cpp:140
 #, kde-format
 msgid "Instant Preview"
 msgstr "即時預覽"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkTransformToolUseInStackPreview)
-#: libs/ui/forms/wdgperformancesettings.ui:540
+#: libs/ui/forms/wdgperformancesettings.ui:547
 #, kde-format
 msgid "Use in-stack preview in Transform Tool"
 msgstr "變形工具顯示圖層堆疊中的預覽"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkTransformToolForceLodMode)
-#: libs/ui/forms/wdgperformancesettings.ui:565
+#: libs/ui/forms/wdgperformancesettings.ui:572
 #, kde-format
 msgid ""
 "<html><head/><body><p>The transform tool preview will always use instant "
@@ -23987,13 +23993,13 @@ msgstr ""
 "覽的設定</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkTransformToolForceLodMode)
-#: libs/ui/forms/wdgperformancesettings.ui:568
+#: libs/ui/forms/wdgperformancesettings.ui:575
 #, kde-format
 msgid "Force Instant Preview in Transform Tool"
 msgstr "強制變形工具使用即時預覽"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkMoveToolForceLodMode)
-#: libs/ui/forms/wdgperformancesettings.ui:577
+#: libs/ui/forms/wdgperformancesettings.ui:584
 #, kde-format
 msgid ""
 "<html><head/><body><p>The move tool preview will always use instant preview, "
@@ -24004,13 +24010,13 @@ msgstr ""
 "覽的設定</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkMoveToolForceLodMode)
-#: libs/ui/forms/wdgperformancesettings.ui:580
+#: libs/ui/forms/wdgperformancesettings.ui:587
 #, kde-format
 msgid "Force Instant Preview in Move Tool"
 msgstr "強制移動工具使用即時預覽"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkFiltersForceLodMode)
-#: libs/ui/forms/wdgperformancesettings.ui:587
+#: libs/ui/forms/wdgperformancesettings.ui:594
 #, kde-format
 msgid ""
 "<html><head/><body><p>The filter dialog will always use instant preview, "
@@ -24021,7 +24027,7 @@ msgstr ""
 "覽的設定</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkFiltersForceLodMode)
-#: libs/ui/forms/wdgperformancesettings.ui:590
+#: libs/ui/forms/wdgperformancesettings.ui:597
 #, kde-format
 msgid "Force Instant Preview in Filters"
 msgstr "強制濾鏡使用即時預覽"
@@ -24542,8 +24548,8 @@ msgstr "高壓力"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: libs/ui/forms/wdgtabletsettings.ui:137
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:55
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:58
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:56
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:59
 #: plugins/paintops/colorsmudge/kis_smudge_option_widget.cpp:22
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:68
 #: plugins/paintops/hatching/kis_hatching_paintop_settings_widget.cpp:43
@@ -24560,8 +24566,8 @@ msgstr "1.0"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: libs/ui/forms/wdgtabletsettings.ui:157
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:55
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:58
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:56
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:59
 #: plugins/paintops/colorsmudge/kis_smudge_option_widget.cpp:22
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:68
 #: plugins/paintops/hatching/kis_hatching_paintop_settings_widget.cpp:43
@@ -25089,7 +25095,7 @@ msgid ""
 "The <i>Change Primary Setting</i> action changes a tool's \"Primary Setting"
 "\", for example the brush size for the brush tool."
 msgstr ""
-"<b>修改工具主要選項</b>操作用於改變某個工具的主要選項，例如筆刷工具的筆刷大"
+"<b>修改工具主要設定</b>操作用於改變某個工具的主要選項，例如筆刷工具的筆刷大"
 "小。"
 
 #: libs/ui/input/kis_change_primary_setting_action.cpp:25
@@ -25492,7 +25498,7 @@ msgstr "縮放畫布"
 #: libs/ui/input/kis_zoom_action.cpp:106
 #, kde-format
 msgid "The <i>Zoom Canvas</i> action zooms the canvas."
-msgstr "<b>縮放畫布</b>操作用於對畫布檢視進行縮放。"
+msgstr "<b>縮放畫布</b>操作用作縮放畫布的檢視。"
 
 #: libs/ui/input/kis_zoom_action.cpp:109
 #, kde-format
@@ -26226,10 +26232,10 @@ msgid "Canvas Only"
 msgstr "僅顯示畫布"
 
 #: libs/ui/kis_popup_palette.cpp:180
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:46
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:47
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:66
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:71
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:48
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:67
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:72
 #: plugins/paintops/curvebrush/kis_curve_paintop_settings_widget.cpp:24
 #: plugins/paintops/curvebrush/kis_curve_paintop_settings_widget.cpp:25
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:52
@@ -26442,7 +26448,7 @@ msgid "Ants"
 msgstr "螞蟻線"
 
 #: libs/ui/kis_statusbar.cc:398
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:355
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:353
 #, kde-format
 msgid "Mask"
 msgstr "遮罩"
@@ -27834,13 +27840,13 @@ msgstr "備用名稱數字已用盡，請手動輸入更大的數字儲存檔案
 #, kde-format
 msgctxt "@title:window"
 msgid "Couldn't save incremental version"
-msgstr "無法儲存增量版本"
+msgstr "無法儲存遞增版本"
 
 #: libs/ui/KisViewManager.cpp:1072
 #, kde-format
 msgctxt "@title:window"
 msgid "Couldn't save incremental backup"
-msgstr "無法儲存增量備份"
+msgstr "無法儲存遞增備份"
 
 #: libs/ui/KisViewManager.cpp:1255
 #, kde-format
@@ -28521,7 +28527,7 @@ msgstr "漸變覆蓋"
 #: libs/ui/layerstyles/WdgStroke.ui:143
 #: libs/ui/widgets/KoFillConfigWidget.ui:88
 #: plugins/generators/gradient/KisGradientGenerator.h:33
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:66
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:67
 #: plugins/paintops/libpaintop/kis_color_source_option.cpp:43
 #, kde-format
 msgid "Gradient"
@@ -29292,7 +29298,7 @@ msgstr "自訂色彩"
 #. i18n: ectx: property (text), widget (QCheckBox, hasTransparency)
 #: libs/ui/widgets/gradient/KisGradientColorEditor.cpp:82
 #: plugins/impex/webp/dlg_webp_import.ui:90
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:45
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:46
 #: plugins/paintops/curvebrush/kis_curve_paintop_settings_widget.cpp:23
 #: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:35
 #: plugins/paintops/deform/kis_deform_paintop_settings_widget.cpp:31
@@ -30589,7 +30595,7 @@ msgstr "檔名已在使用。儲存將會覆蓋原本的工作空間。"
 
 #: libs/ui/widgets/kis_workspace_chooser.cpp:179
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings.cpp:156
-#: plugins/paintops/libpaintop/kis_clipboard_brush_widget.cpp:159
+#: plugins/paintops/libpaintop/kis_clipboard_brush_widget.cpp:160
 #: plugins/paintops/libpaintop/kis_custom_brush_widget.cpp:137
 #, kde-format
 msgid "Overwrite"
@@ -33472,7 +33478,7 @@ msgstr "增量 色相=%1 飽和=%2 明度=%3 偏移 色相=%4 飽和=%5 明度=%
 #: plugins/dockers/advancedcolorselector/kis_shade_selector_line_editor.cpp:22
 #, kde-format
 msgid "Delta: "
-msgstr "增量： "
+msgstr "增量："
 
 #: plugins/dockers/advancedcolorselector/kis_shade_selector_line_editor.cpp:33
 #, kde-format
@@ -33817,7 +33823,7 @@ msgstr "要顯示的 HSV 滑動條"
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1346
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1376
 #: plugins/filters/colorsfilters/virtual_channel_info.cpp:29
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:67
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:68
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:70
 #, kde-format
 msgid "Hue"
@@ -33833,7 +33839,7 @@ msgstr "色相"
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1353
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1383
 #: plugins/filters/colorsfilters/virtual_channel_info.cpp:33
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:68
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:69
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:71
 #: plugins/paintops/hairy/wdghairyeoptions.ui:314
 #: plugins/paintops/hairy/wdgInkOptions.ui:75
@@ -38447,9 +38453,7 @@ msgstr "請選擇資源包"
 msgid ""
 "There is already a bundle with this name installed. Do you want to overwrite "
 "it?"
-msgstr ""
-"已存在此名稱的資源包。\n"
-"要覆蓋它嗎？"
+msgstr "已存在此名稱的資源包。要覆蓋它嗎？"
 
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:217
 #, kde-format
@@ -40048,7 +40052,7 @@ msgstr "漸變映射(&G)…"
 #. i18n: ectx: property (windowTitle), widget (QWidget, GradientMapFilterConfigWidget)
 #: plugins/filters/gradientmap/KisGradientMapFilter.h:27
 #: plugins/filters/gradientmap/KisGradientMapFilterConfigWidget.ui:14
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:189
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:187
 #, kde-format
 msgid "Gradient Map"
 msgstr "漸變映射"
@@ -41719,7 +41723,7 @@ msgstr "隨機"
 #: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:219
 #, kde-format
 msgid "Incremental"
-msgstr "增量"
+msgstr "遞增"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox2)
 #. i18n: ectx: property (text), widget (QToolButton, liquifySizePressureBox)
@@ -44923,7 +44927,7 @@ msgstr "顏料厚度模式"
 msgid "Paint over"
 msgstr "塗上蓋過"
 
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:45
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:46
 #: plugins/paintops/curvebrush/kis_curve_paintop_settings_widget.cpp:23
 #: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:35
 #: plugins/paintops/deform/kis_deform_paintop_settings_widget.cpp:31
@@ -44939,10 +44943,10 @@ msgstr "塗上蓋過"
 msgid "Opaque"
 msgstr "不透明"
 
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:46
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:47
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:66
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:71
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:48
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:67
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:72
 #: plugins/paintops/curvebrush/kis_curve_paintop_settings_widget.cpp:24
 #: plugins/paintops/curvebrush/kis_curve_paintop_settings_widget.cpp:25
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:52
@@ -44977,14 +44981,14 @@ msgstr "不透明"
 msgid "0%"
 msgstr "0%"
 
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:47
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:48
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:54
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:126
 #, kde-format
 msgid "Ratio"
 msgstr "寬高比"
 
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:49
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:50
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:56
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:131
 #: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:38
@@ -44995,28 +44999,28 @@ msgstr "寬高比"
 msgid "Mirror"
 msgstr "鏡像"
 
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:53
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:54
 #: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:64
 #, kde-format
 msgid "Smudge Length"
 msgstr "塗抹長度"
 
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:56
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:57
 #, kde-format
 msgid "Smudge Radius"
 msgstr "塗抹半徑"
 
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:58
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:59
 #, kde-format
 msgid "Color Rate"
 msgstr "色彩量"
 
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:60
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:61
 #, kde-format
 msgid "Paint Thickness"
 msgstr "顏料厚度"
 
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:62
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:63
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:61
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:136
 #: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:37
@@ -45032,7 +45036,7 @@ msgstr "顏料厚度"
 msgid "-180°"
 msgstr "-180°"
 
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:62
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:63
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:61
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:136
 #: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:37
@@ -45048,7 +45052,7 @@ msgstr "180°"
 
 #. i18n: ectx: property (text), widget (QRadioButton, optionRotation)
 #. i18n: ectx: property (title), widget (QGroupBox, rotationGroup)
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:62
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:63
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:61
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:137
 #: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:37
@@ -45064,7 +45068,7 @@ msgstr "180°"
 msgid "Rotation"
 msgstr "旋轉"
 
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:63
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:64
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:64
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:142
 #: plugins/paintops/tangentnormal/kis_tangent_normal_paintop_settings_widget.cpp:51
@@ -45072,18 +45076,18 @@ msgstr "旋轉"
 msgid "Scatter"
 msgstr "分散"
 
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:65
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:66
 #, kde-format
 msgid "Overlay Mode"
 msgstr "覆蓋模式"
 
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:69
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:70
 #, kde-format
 msgctxt "Label of Brightness value in Color Smudge brush engine options"
 msgid "Value"
 msgstr "明度"
 
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:70
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:71
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:73
 #: plugins/paintops/deform/kis_deform_paintop_settings_widget.cpp:34
 #: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:71
@@ -45095,7 +45099,7 @@ msgstr "明度"
 msgid "Airbrush"
 msgstr "噴槍"
 
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:71
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:72
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:74
 #: plugins/paintops/deform/kis_deform_paintop_settings_widget.cpp:35
 #: plugins/paintops/particle/kis_particle_paintop_settings_widget.cpp:29
@@ -45106,7 +45110,7 @@ msgstr "噴槍"
 msgid "Rate"
 msgstr "頻率"
 
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:74
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:75
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:81
 #: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:41
 #: plugins/paintops/hatching/kis_hatching_paintop_settings_widget.cpp:54
@@ -45115,7 +45119,7 @@ msgstr "頻率"
 msgid "Strength"
 msgstr "效果強度"
 
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:74
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:75
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:81
 #: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:41
 #: plugins/paintops/hatching/kis_hatching_paintop_settings_widget.cpp:54
@@ -45124,7 +45128,7 @@ msgstr "效果強度"
 msgid "Strong"
 msgstr "強"
 
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:74
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:75
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:81
 #: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:41
 #: plugins/paintops/hatching/kis_hatching_paintop_settings_widget.cpp:54
@@ -46443,7 +46447,8 @@ msgid ""
 "Krita 1.6 freehand tool options.</p></html>"
 msgstr ""
 "<html>\n"
-"<p><b>提示</b>：此選項相當於 Krita 1.6 筆刷工具選項中的增量選項。</p></html>"
+"<p><b>提示</b>：此選項相當於 Krita 1.6 筆刷工具選項中的「增量」選項。</p></"
+"html>"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: plugins/paintops/libpaintop/forms/wdgincremental.ui:58
@@ -46457,18 +46462,18 @@ msgid ""
 msgstr ""
 "<html>\n"
 "<p><b>繪畫模式</b>：Krita 有兩種繪畫模式：<b>堆疊</b>和<b>沖刷</b>。堆疊模式"
-"下，同一條筆畫中的筆尖印跡會在互相重疊處加深 ，一條筆畫內部的色彩不均勻 (筆刷"
+"下，同一條筆畫中的筆尖印跡會在互相重疊處加深 ，一條筆跡內部的色彩不均勻 (筆刷"
 "透明度較低時明顯)；沖刷模式下，同一條筆畫中的筆尖印跡不會在互相重疊處加深，一"
 "條筆畫內部的色彩總是均勻的。</p></html>"
 
 #. i18n: ectx: property (text), widget (QPushButton, stampButton)
 #: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:81
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:308
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:306
 #, kde-format
 msgid "Stamp"
 msgstr "印章"
 
-#. i18n: ectx: property (text), widget (QLabel, brushTipNameLabel)
+#. i18n: ectx: property (text), widget (KSqueezedTextLabel, brushTipNameLabel)
 #: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:132
 #, kde-format
 msgid "Current Brush Tip"
@@ -46682,7 +46687,7 @@ msgstr ""
 "\n"
 "效能最慢。品質最好。"
 
-#: plugins/paintops/libpaintop/kis_clipboard_brush_widget.cpp:100
+#: plugins/paintops/libpaintop/kis_clipboard_brush_widget.cpp:101
 #, kde-format
 msgid ""
 "Nothing copied\n"
@@ -46946,7 +46951,7 @@ msgctxt "@info:tooltip"
 msgid "Only wash mode is possible when using a masked brush."
 msgstr "使用遮罩筆刷時，只可使用沖刷模式。"
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:151
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:149
 #, kde-format
 msgid ""
 "Creates a brush tip from the current image selection.\n"
@@ -46955,12 +46960,12 @@ msgstr ""
 "從目前影像選取區域中建立筆尖。\n"
 "如果沒有選取區域，將使用整個影像建立筆尖。"
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:155
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:153
 #, kde-format
 msgid "Creates a brush tip from the image in the clipboard."
 msgstr "從剪貼簿中的影像建立筆尖。"
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:163
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:161
 #, kde-format
 msgid ""
 "Reloads Spacing from file\n"
@@ -46971,25 +46976,25 @@ msgstr ""
 "設定縮放為 1.0\n"
 "設定旋轉為 0.0"
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:169
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:167
 #, kde-format
 msgctxt "@label:slider"
 msgid "Neutral point: "
 msgstr "中性點："
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:175
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:173
 #, kde-format
 msgctxt "@label:slider"
 msgid "Brightness: "
 msgstr "亮度："
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:181
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:179
 #, kde-format
 msgctxt "@label:slider"
 msgid "Contrast: "
 msgstr "對比度："
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:183
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:181
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -47003,35 +47008,35 @@ msgstr ""
 " 亮度：0%\n"
 " 對比度：0%"
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:186
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:184
 #, kde-format
 msgid "Alpha Mask"
 msgstr "透明度遮罩"
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:187
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:185
 #, kde-format
 msgid "Color Image"
 msgstr "為影像上色"
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:188
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:186
 #, kde-format
 msgid "Lightness Map"
 msgstr "亮度映射"
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:190
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:188
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
 "Luminosity of the brush tip image is used as alpha channel for the stroke"
 msgstr "筆尖光度將用作筆跡的透明度通道"
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:191
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:189
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The brush tip image is painted as it is"
 msgstr "筆尖影像將會照原樣繪出"
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:192
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:190
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -47041,7 +47046,7 @@ msgid ""
 msgstr ""
 "筆尖光度將用作調整筆刷色彩的亮度。筆尖影像的透明度通道將用作筆跡的透明度。"
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:193
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:191
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -47050,17 +47055,17 @@ msgid ""
 msgstr ""
 "筆尖亮度將映射到使用中的漸變色階。筆尖影像的透明度通道將用作筆跡的透明度。"
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:359
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:357
 #, kde-format
 msgid "Animated Mask"
 msgstr "動畫遮罩"
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:368
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:366
 #, kde-format
 msgid "Animated Image"
 msgstr "動畫影像"
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:421
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:419
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -47071,19 +47076,19 @@ msgstr ""
 "不影刷色彩的筆尖光度數值。所有比中性點暗的像素將繪出較暗的色彩，而比中性點亮"
 "的像素則將繪出較亮的色彩。"
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:422
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:420
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Brightness correction for the brush"
 msgstr "校正筆刷亮度"
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:423
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:421
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Contrast correction for the brush"
 msgstr "校正比刷的對比度"
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:440
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:438
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -47091,7 +47096,7 @@ msgid ""
 "\"Mask\" mode."
 msgstr "選取的筆尖沒有色彩通道。筆刷將以「遮罩」模式運作。"
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:443
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:441
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -47100,7 +47105,7 @@ msgid ""
 msgstr ""
 "選擇的筆刷引擎不支援「色彩」或「亮度」模式。筆刷將會以「遮罩」模式運作。"
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:479
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:477
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -50542,17 +50547,17 @@ msgstr "只吸附至單一輔助尺，可避免在使用無限延伸輔助尺時
 msgid "Freehand Brush Tool"
 msgstr "手繪筆刷工具"
 
-#: plugins/tools/basictools/kis_tool_colorsampler.cc:145
+#: plugins/tools/basictools/kis_tool_colorsampler.cc:147
 #, kde-format
 msgid "Cannot sample a color as no layer is active."
 msgstr "無法採樣色彩，因為沒有使用中的圖層。"
 
-#: plugins/tools/basictools/kis_tool_colorsampler.cc:150
+#: plugins/tools/basictools/kis_tool_colorsampler.cc:152
 #, kde-format
 msgid "Cannot sample a color as the active layer is not visible."
 msgstr "無法採樣色彩，因為使用中圖層不可見。"
 
-#: plugins/tools/basictools/kis_tool_colorsampler.cc:197
+#: plugins/tools/basictools/kis_tool_colorsampler.cc:199
 #, kde-format
 msgid "Cannot write to palette file %1. Maybe it is read-only."
 msgstr "無法寫入調色板檔案 %1。它可能是唯讀檔案。"
@@ -51866,17 +51871,17 @@ msgstr "磁性曲線選取區域工具"
 msgid "Magnetic Selection"
 msgstr "磁性選取區域"
 
-#: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:457
+#: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:471
 msgctxt "(qtundo-format)"
 msgid "Magnetic Selection"
 msgstr "以磁性選取工具建立選取區域"
 
-#: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:645
+#: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:659
 #, kde-format
 msgid "Filter Radius: "
 msgstr "過濾半徑："
 
-#: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:653
+#: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:667
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -51884,59 +51889,59 @@ msgid ""
 "calculate"
 msgstr "邊緣偵測濾鏡的半徑，需要一段時間運算"
 
-#: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:658
+#: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:672
 #, kde-format
 msgctxt "Threshold label in Magnetic Selection's Tool options"
 msgid "Threshold: "
 msgstr "閾值："
 
-#: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:665
+#: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:679
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Threshold for determining the minimum intensity of the edges"
 msgstr "決定邊緣最低強度的閾值"
 
-#: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:670
+#: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:684
 #, kde-format
 msgid "Search Radius: "
 msgstr "搜尋半徑："
 
-#: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:677
+#: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:691
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Extra area to be searched"
 msgstr "要搜尋的額外區域"
 
-#: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:683
+#: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:697
 #, kde-format
 msgid "Anchor Gap: "
 msgstr "錨點間距："
 
-#: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:690
+#: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:704
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Gap between 2 anchors in interactive mode"
 msgstr "互動模式中兩個錨點的間距"
 
-#: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:697
+#: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:711
 #, kde-format
 msgctxt "Complete the selection"
 msgid "Complete"
 msgstr "完成"
 
-#: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:698
+#: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:712
 #, kde-format
 msgctxt "Discard the selection"
 msgid "Discard"
 msgstr "取消"
 
-#: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:704
+#: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:718
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Complete Selection"
 msgstr "完成選取區域"
 
-#: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:709
+#: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:723
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Discard Selection"
@@ -52727,7 +52732,7 @@ msgstr "寬度範圍："
 msgid "Dynamic Brush Tool"
 msgstr "力學筆刷工具"
 
-#: plugins/tools/tool_lazybrush/kis_tool_lazy_brush.cpp:48
+#: plugins/tools/tool_lazybrush/kis_tool_lazy_brush.cpp:49
 msgctxt "(qtundo-format)"
 msgid "Colorize Mask Key Stroke"
 msgstr "著色遮罩關鍵筆畫"
