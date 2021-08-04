@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-08-03 00:15+0000\n"
-"PO-Revision-Date: 2021-08-02 14:34+0000\n"
+"PO-Revision-Date: 2021-08-04 07:36+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -5950,7 +5950,7 @@ msgctxt ""
 "./krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/A_eroded-"
 "dirtybrush-anim.gih"
 msgid "A - 2 Dirty Brush"
-msgstr "污漬筆刷 "
+msgstr "污漬筆刷"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #: krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/A_eroded-knife-anim.gih:1
@@ -11894,28 +11894,28 @@ msgstr "重新繪製動畫"
 #, kde-format
 msgctxt "action"
 msgid "Save Incremental &Version"
-msgstr "儲存增量版本(&V)"
+msgstr "儲存遞增版本(&V)"
 
 #. i18n: context: Action (save_incremental_version), Actions (File), ActionCollection (Menu)
 #: krita/kritamenu.action:167
 #, kde-format
 msgctxt "action"
 msgid "Save Incremental Version"
-msgstr "儲存增量版本"
+msgstr "儲存遞增版本"
 
 #. i18n: context: Action (save_incremental_backup), Actions (File), ActionCollection (Menu)
 #: krita/kritamenu.action:177
 #, kde-format
 msgctxt "action"
 msgid "Save Incremental &Backup"
-msgstr "儲存增量備份(&B)"
+msgstr "儲存遞增備份(&B)"
 
 #. i18n: context: Action (save_incremental_backup), Actions (File), ActionCollection (Menu)
 #: krita/kritamenu.action:179
 #, kde-format
 msgctxt "action"
 msgid "Save Incremental Backup"
-msgstr "儲存增量備份"
+msgstr "儲存遞增備份"
 
 #. i18n: context: Action (create_template), Actions (File), ActionCollection (Menu)
 #: krita/kritamenu.action:189
@@ -17967,7 +17967,7 @@ msgctxt "@info:tooltip"
 msgid ""
 "<p>Pressing <b>Enter</b> or clicking the <b>Save</b> button will save the "
 "changes.</p>"
-msgstr "<p>按 <b>Enter</b> 或按「儲存」按鈕儲存變更。</p>"
+msgstr "<p>按 <b>Enter</b> 或按「<b>儲存</b>」按鈕儲存變更。</p>"
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, lneFilterText)
 #: libs/resourcewidgets/KisTagFilterWidget.cpp:65
@@ -23802,10 +23802,9 @@ msgstr "停用 AVX 向量最佳化"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkDisableVectorOptimizations)
 #: libs/ui/forms/wdgperformancesettings.ui:389
-#, fuzzy, kde-format
-#| msgid "Disable AVX vector optimizations"
+#, kde-format
 msgid "Disable all vector optimizations"
-msgstr "停用 AVX 向量最佳化"
+msgstr "停用所有向量最佳化"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkProgressReporting)
 #: libs/ui/forms/wdgperformancesettings.ui:396
@@ -25095,9 +25094,7 @@ msgstr "修改工具主要設定"
 msgid ""
 "The <i>Change Primary Setting</i> action changes a tool's \"Primary Setting"
 "\", for example the brush size for the brush tool."
-msgstr ""
-"<b>修改工具主要選項</b>操作用於改變某個工具的主要選項，例如筆刷工具的筆刷大"
-"小。"
+msgstr "<b>修改工具主要設定</b>操作用於改變某個工具的主要選項，例如筆刷工具的筆刷大小。"
 
 #: libs/ui/input/kis_change_primary_setting_action.cpp:25
 #, kde-format
@@ -25427,9 +25424,7 @@ msgstr "切換工具"
 msgid ""
 "The <i>Tool Invocation</i> action invokes the current tool, for example, "
 "using the brush tool, it will start painting."
-msgstr ""
-"<b>切換工具</b>操作透過修飾鍵暫時呼叫另一個工具。例如在使用筆刷工具時按住 V "
-"即可暫時呼叫直線工具，放開 V 即可以繼續使用筆刷繪畫。"
+msgstr "<b>切換工具</b>操作透過修飾鍵暫時呼叫另一個工具。例如在使用筆刷工具時按住 V 即可暫時呼叫直線工具，放開 V 即可以繼續使用筆刷繪畫。"
 
 #: libs/ui/input/kis_tool_invocation_action.cpp:42
 #, kde-format
@@ -25499,7 +25494,7 @@ msgstr "縮放畫布"
 #: libs/ui/input/kis_zoom_action.cpp:106
 #, kde-format
 msgid "The <i>Zoom Canvas</i> action zooms the canvas."
-msgstr "<b>縮放畫布</b>操作用於對畫布檢視進行縮放。"
+msgstr "<b>縮放畫布</b>操作用作縮放畫布的檢視。"
 
 #: libs/ui/input/kis_zoom_action.cpp:109
 #, kde-format
@@ -27841,13 +27836,13 @@ msgstr "備用名稱數字已用盡，請手動輸入更大的數字儲存檔案
 #, kde-format
 msgctxt "@title:window"
 msgid "Couldn't save incremental version"
-msgstr "無法儲存增量版本"
+msgstr "無法儲存遞增版本"
 
 #: libs/ui/KisViewManager.cpp:1072
 #, kde-format
 msgctxt "@title:window"
 msgid "Couldn't save incremental backup"
-msgstr "無法儲存增量備份"
+msgstr "無法儲存遞增備份"
 
 #: libs/ui/KisViewManager.cpp:1255
 #, kde-format
@@ -33479,7 +33474,7 @@ msgstr "增量 色相=%1 飽和=%2 明度=%3 偏移 色相=%4 飽和=%5 明度=%
 #: plugins/dockers/advancedcolorselector/kis_shade_selector_line_editor.cpp:22
 #, kde-format
 msgid "Delta: "
-msgstr "增量： "
+msgstr "增量："
 
 #: plugins/dockers/advancedcolorselector/kis_shade_selector_line_editor.cpp:33
 #, kde-format
@@ -38454,9 +38449,7 @@ msgstr "請選擇資源包"
 msgid ""
 "There is already a bundle with this name installed. Do you want to overwrite "
 "it?"
-msgstr ""
-"已存在此名稱的資源包。\n"
-"要覆蓋它嗎？"
+msgstr "已存在此名稱的資源包。要覆蓋它嗎？"
 
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:217
 #, kde-format
@@ -41726,7 +41719,7 @@ msgstr "隨機"
 #: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:219
 #, kde-format
 msgid "Incremental"
-msgstr "增量"
+msgstr "遞增"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox2)
 #. i18n: ectx: property (text), widget (QToolButton, liquifySizePressureBox)
@@ -46450,7 +46443,7 @@ msgid ""
 "Krita 1.6 freehand tool options.</p></html>"
 msgstr ""
 "<html>\n"
-"<p><b>提示</b>：此選項相當於 Krita 1.6 筆刷工具選項中的增量選項。</p></html>"
+"<p><b>提示</b>：此選項相當於 Krita 1.6 筆刷工具選項中的「增量」選項。</p></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: plugins/paintops/libpaintop/forms/wdgincremental.ui:58
@@ -46463,10 +46456,9 @@ msgid ""
 "stroke even if you go over the same place again and again.</p></html>"
 msgstr ""
 "<html>\n"
-"<p><b>繪畫模式</b>：Krita 有兩種繪畫模式：<b>堆疊</b>和<b>沖刷</b>。堆疊模式"
-"下，同一條筆畫中的筆尖印跡會在互相重疊處加深 ，一條筆畫內部的色彩不均勻 (筆刷"
-"透明度較低時明顯)；沖刷模式下，同一條筆畫中的筆尖印跡不會在互相重疊處加深，一"
-"條筆畫內部的色彩總是均勻的。</p></html>"
+"<p><b>繪畫模式</b>：Krita 有兩種繪畫模式：<b>堆疊</b>和<b>沖刷</b>。堆疊模式下，同一條筆畫中的筆尖印跡會在互相重疊處加深 ，"
+"一條筆跡內部的色彩不均勻 "
+"(筆刷透明度較低時明顯)；沖刷模式下，同一條筆畫中的筆尖印跡不會在互相重疊處加深，一條筆畫內部的色彩總是均勻的。</p></html>"
 
 #. i18n: ectx: property (text), widget (QPushButton, stampButton)
 #: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:81
