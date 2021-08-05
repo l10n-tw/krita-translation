@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-08-04 00:16+0000\n"
-"PO-Revision-Date: 2021-08-04 07:36+0000\n"
+"PO-Revision-Date: 2021-08-05 06:36+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -560,7 +560,7 @@ msgstr "04 紙張 C 粗粒"
 #, kde-format
 msgctxt "./krita/data/patterns/05_paper-torchon.png"
 msgid "05 paper-torchon"
-msgstr "05 紙張 - 碗布"
+msgstr "05 紙張 - 粗縐布"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
@@ -2914,7 +2914,7 @@ msgctxt ""
 "./krita/data/bundles/Krita_3_Default_Resources.bundle:patterns/05_paper-"
 "torchon.png"
 msgid "05 paper-torchon"
-msgstr "05 紙張 - 碗布"
+msgstr "05 紙張 - 粗縐布"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
@@ -4930,7 +4930,7 @@ msgctxt ""
 "./krita/data/bundles/Krita_4_Default_Resources.bundle:patterns/05_paper-"
 "torchon.png"
 msgid "05 paper-torchon"
-msgstr "05 紙張 - 碗布"
+msgstr "05 紙張 - 粗縐布"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
@@ -5640,7 +5640,7 @@ msgctxt ""
 "./krita/data/bundles/Krita_Artists_SeExpr_examples.bundle:seexpr_scripts/"
 "Wolthera's_Linear_Gradient.kse"
 msgid "Wolthera's Linear Gradient"
-msgstr "Wolthera 的線性漸變"
+msgstr "Wolthera 的線性漸層"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
@@ -5664,7 +5664,7 @@ msgctxt ""
 "./krita/data/bundles/Krita_Artists_SeExpr_examples.bundle:seexpr_scripts/"
 "Wolthera's_Mercurial.kse"
 msgid "Wolthera's Mercurial"
-msgstr "Wolthera 液體波紋"
+msgstr "Wolthera 的液體波紋"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
@@ -16558,7 +16558,7 @@ msgstr "減去"
 #, kde-format
 msgctxt "Blending mode - Multiply"
 msgid "Multiply"
-msgstr "色彩增值"
+msgstr "色彩增值 (相乘)"
 
 #: libs/pigment/KoCompositeOpRegistry.cpp:48
 #, kde-format
