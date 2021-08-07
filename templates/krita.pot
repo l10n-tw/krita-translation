@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-06 00:15+0000\n"
+"POT-Creation-Date: 2021-08-07 00:14+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -17697,7 +17697,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, bnDelete)
 #. i18n: ectx: property (text), widget (QPushButton, deleteAllAssistantsButton)
 #. i18n: ectx: property (text), widget (QRadioButton, btnAllView)
-#: libs/resources/KisTagModel.cpp:100 libs/resources/KisTagModel.cpp:262
+#: libs/resources/KisTagModel.cpp:117 libs/resources/KisTagModel.cpp:279
 #: libs/ui/widgets/kis_paintop_presets_editor.cpp:593
 #: plugins/assistants/Assistants/AssistantsToolOptions.ui:262
 #: plugins/dockers/storyboarddocker/wdgarrangemenu.ui:70
@@ -17706,17 +17706,17 @@ msgstr ""
 msgid "All"
 msgstr ""
 
-#: libs/resources/KisTagModel.cpp:127 libs/resources/KisTagModel.cpp:272
+#: libs/resources/KisTagModel.cpp:144 libs/resources/KisTagModel.cpp:289
 #, kde-format
 msgid "All Untagged"
 msgstr ""
 
-#: libs/resources/KisTagModel.cpp:265
+#: libs/resources/KisTagModel.cpp:282
 #, kde-format
 msgid "All Resources"
 msgstr ""
 
-#: libs/resources/KisTagModel.cpp:275
+#: libs/resources/KisTagModel.cpp:292
 #, kde-format
 msgid "All Untagged Resources"
 msgstr ""
@@ -17748,7 +17748,7 @@ msgid "Resources Cache Database Explorer"
 msgstr ""
 
 #: libs/resourcewidgets/dbexplorer/DlgDbExplorer.cpp:69
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:46
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:50
 #: libs/resourcewidgets/KisTagToolButton.cpp:54
 #, kde-format
 msgid "Tag"
@@ -17898,9 +17898,111 @@ msgid ""
 "provides brush presets."
 msgstr ""
 
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:59
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:63
 #, kde-format
 msgid "Tag options"
+msgstr ""
+
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:129
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:244
+#, kde-format
+msgctxt "Dialog title"
+msgid "Can't rename the tag"
+msgstr ""
+
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:129
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:218
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:244
+#, kde-format
+msgctxt "Dialog message"
+msgid "You can't use this name for your custom tags."
+msgstr ""
+
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:138
+#, kde-format
+msgctxt "Dialog title"
+msgid "Remove existing tag with that name?"
+msgstr ""
+
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:140
+#, kde-format
+msgctxt ""
+"Dialog message (the arguments are both somewhat user readable nouns or "
+"adjectives (names of the tags), can be treated as nouns since they represent "
+"the tags)"
+msgid ""
+"A tag with this unique name already exists. In order to continue renaming, "
+"the existing tag needs to be removed. Do you want to continue?\n"
+"Tag to be removed: %1\n"
+"Tag's unique name: %2"
+msgstr ""
+
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:206
+#: plugins/extensions/resourcemanager/wdgtagselection.cpp:116
+#, kde-format
+msgctxt ""
+"Option in a dialog to undelete (reactivate) existing tag with its old "
+"assigned resources"
+msgid "Restore previous tag"
+msgstr ""
+
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:207
+#, kde-format
+msgctxt ""
+"Option in a dialog to use existing tag with its old assigned resources"
+msgid "Use existing tag"
+msgstr ""
+
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:209
+#: plugins/extensions/resourcemanager/wdgtagselection.cpp:113
+#, kde-format
+msgctxt "Dialog title"
+msgid "Overwrite tag?"
+msgstr ""
+
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:210
+#: plugins/extensions/resourcemanager/wdgtagselection.cpp:114
+#, kde-format
+msgctxt "Question to the user in a dialog about creating a tag"
+msgid "A tag with this unique name already exists. Do you want to replace it?"
+msgstr ""
+
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:211
+#: plugins/extensions/resourcemanager/wdgtagselection.cpp:115
+#, kde-format
+msgctxt ""
+"Option in a dialog to discard the previously existing tag and creating a new "
+"one in its place"
+msgid "Replace (overwrite) tag"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, btCancel)
+#. i18n: ectx: property (text), widget (QPushButton, cancelBrushNameUpdateButton)
+#. i18n: ectx: property (text), widget (QPushButton, cancel_button)
+#. i18n: ectx: property (toolTip), widget (QPushButton, bnCancelMaskEdit)
+#. i18n: ectx: property (text), widget (QPushButton, buttonCancel)
+#. i18n: ectx: property (text), widget (QPushButton, buttonCancelExport)
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:212
+#: libs/ui/dialogs/kis_delayed_save_dialog.cpp:50
+#: libs/ui/dialogs/KisAsyncAnimationRenderDialogBase.cpp:154
+#: libs/ui/dialogs/KisRecoverNamedAutosaveDialog.ui:60
+#: libs/ui/forms/wdgpaintopsettings.ui:201
+#: libs/ui/input/kis_tool_invocation_action.cpp:43
+#: libs/ui/kis_clipboard.cc:302 libs/ui/utils/KisClipboardUtil.cpp:67
+#: plugins/dockers/gamutmask/forms/wdgGamutMaskChooser.ui:190
+#: plugins/dockers/recorder/recorder_export.ui:703
+#: plugins/dockers/recorder/recorder_snapshots_manager.ui:130
+#: plugins/extensions/resourcemanager/wdgtagselection.cpp:116
+#: plugins/generators/seexpr/wdgseexpr.ui:179
+#: plugins/python/krita_script_starter/bbdkss.ui:203
+#, kde-format
+msgid "Cancel"
+msgstr ""
+
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:218
+#, kde-format
+msgctxt "Dialog title"
+msgid "Can't create the tag"
 msgstr ""
 
 #: libs/resourcewidgets/KisTagFilterWidget.cpp:48
@@ -19863,27 +19965,6 @@ msgid ""
 "translation teams all over the world.</p><p>For more information on KDE "
 "internationalization visit <a href=\"http://l10n.kde.org\">http://l10n.kde."
 "org</a></p>"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, btCancel)
-#. i18n: ectx: property (text), widget (QPushButton, cancelBrushNameUpdateButton)
-#. i18n: ectx: property (text), widget (QPushButton, cancel_button)
-#. i18n: ectx: property (toolTip), widget (QPushButton, bnCancelMaskEdit)
-#. i18n: ectx: property (text), widget (QPushButton, buttonCancel)
-#. i18n: ectx: property (text), widget (QPushButton, buttonCancelExport)
-#: libs/ui/dialogs/kis_delayed_save_dialog.cpp:50
-#: libs/ui/dialogs/KisAsyncAnimationRenderDialogBase.cpp:154
-#: libs/ui/dialogs/KisRecoverNamedAutosaveDialog.ui:60
-#: libs/ui/forms/wdgpaintopsettings.ui:201
-#: libs/ui/input/kis_tool_invocation_action.cpp:43
-#: libs/ui/kis_clipboard.cc:302 libs/ui/utils/KisClipboardUtil.cpp:67
-#: plugins/dockers/gamutmask/forms/wdgGamutMaskChooser.ui:190
-#: plugins/dockers/recorder/recorder_export.ui:703
-#: plugins/dockers/recorder/recorder_snapshots_manager.ui:130
-#: plugins/generators/seexpr/wdgseexpr.ui:179
-#: plugins/python/krita_script_starter/bbdkss.ui:203
-#, kde-format
-msgid "Cancel"
 msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgSplash)
@@ -25423,7 +25504,7 @@ msgstr ""
 #: libs/ui/kis_control_frame.cpp:176 libs/ui/KisApplication.cpp:311
 #: plugins/dockers/patterndocker/patterndocker_dock.cpp:20
 #: plugins/extensions/resourcemanager/dlg_embed_tags.cpp:65
-#: plugins/extensions/resourcemanager/wdgtagselection.cpp:228
+#: plugins/extensions/resourcemanager/wdgtagselection.cpp:241
 #, kde-format
 msgid "Patterns"
 msgstr ""
@@ -25435,7 +25516,7 @@ msgstr ""
 
 #: libs/ui/kis_control_frame.cpp:226 libs/ui/KisApplication.cpp:296
 #: libs/ui/KisApplication.cpp:297 plugins/extensions/resourcemanager/dlg_embed_tags.cpp:63
-#: plugins/extensions/resourcemanager/wdgtagselection.cpp:231
+#: plugins/extensions/resourcemanager/wdgtagselection.cpp:244
 #, kde-format
 msgid "Gradients"
 msgstr ""
@@ -26010,20 +26091,20 @@ msgctxt "(qtundo-format)"
 msgid "Select Opaque"
 msgstr ""
 
-#: libs/ui/kis_splash_screen.cpp:154
+#: libs/ui/kis_splash_screen.cpp:155
 #, kde-format
 msgctxt "splash image credit"
 msgid "Artwork by: %1"
 msgstr ""
 
-#: libs/ui/kis_splash_screen.cpp:178
+#: libs/ui/kis_splash_screen.cpp:179
 #, kde-format
 msgid ""
 "<html><head/><body><p><b><span style=\" color:%1;\">Recent Files</span></b></"
 "p>"
 msgstr ""
 
-#: libs/ui/kis_splash_screen.cpp:218
+#: libs/ui/kis_splash_screen.cpp:219
 #, kde-format
 msgid ""
 "<html><head/><body><p><span style=\" color:%1;\"><b>Links</b></span></"
@@ -26134,27 +26215,27 @@ msgctxt "floating message about zoom"
 msgid "Zoom: %1 %"
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:288 plugins/extensions/resourcemanager/wdgtagselection.cpp:225
+#: libs/ui/KisApplication.cpp:288 plugins/extensions/resourcemanager/wdgtagselection.cpp:238
 #, kde-format
 msgid "Brush presets"
 msgstr ""
 
 #: libs/ui/KisApplication.cpp:291 libs/ui/KisApplication.cpp:292
 #: libs/ui/KisApplication.cpp:293 libs/ui/KisApplication.cpp:294
-#: plugins/extensions/resourcemanager/wdgtagselection.cpp:226
+#: plugins/extensions/resourcemanager/wdgtagselection.cpp:239
 #, kde-format
 msgid "Brush tips"
 msgstr ""
 
 #: libs/ui/KisApplication.cpp:299 plugins/extensions/resourcemanager/dlg_embed_tags.cpp:66
-#: plugins/extensions/resourcemanager/wdgtagselection.cpp:229
+#: plugins/extensions/resourcemanager/wdgtagselection.cpp:242
 #, kde-format
 msgid "Palettes"
 msgstr ""
 
 #: libs/ui/KisApplication.cpp:312 libs/ui/widgets/kis_workspace_chooser.cpp:78
 #: plugins/extensions/resourcemanager/dlg_embed_tags.cpp:67
-#: plugins/extensions/resourcemanager/wdgtagselection.cpp:227
+#: plugins/extensions/resourcemanager/wdgtagselection.cpp:240
 #, kde-format
 msgid "Workspaces"
 msgstr ""
@@ -26169,7 +26250,7 @@ msgstr ""
 msgid "Window layouts"
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:316 plugins/extensions/resourcemanager/wdgtagselection.cpp:232
+#: libs/ui/KisApplication.cpp:316 plugins/extensions/resourcemanager/wdgtagselection.cpp:245
 #, kde-format
 msgid "Gamut masks"
 msgstr ""
@@ -38164,12 +38245,12 @@ msgstr ""
 msgid "Save Tags to Folder"
 msgstr ""
 
-#: plugins/extensions/resourcemanager/wdgtagselection.cpp:230
+#: plugins/extensions/resourcemanager/wdgtagselection.cpp:243
 #, kde-format
 msgid "Layer styles"
 msgstr ""
 
-#: plugins/extensions/resourcemanager/wdgtagselection.cpp:233
+#: plugins/extensions/resourcemanager/wdgtagselection.cpp:246
 #, kde-format
 msgid "SeExpr scripts"
 msgstr ""
