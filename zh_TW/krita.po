@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-08-07 00:14+0000\n"
-"PO-Revision-Date: 2021-08-05 06:36+0000\n"
+"PO-Revision-Date: 2021-08-07 07:36+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -17944,11 +17944,10 @@ msgstr "標籤選項"
 
 #: libs/resourcewidgets/KisTagChooserWidget.cpp:129
 #: libs/resourcewidgets/KisTagChooserWidget.cpp:244
-#, fuzzy, kde-format
-#| msgid "Rename tag"
+#, kde-format
 msgctxt "Dialog title"
 msgid "Can't rename the tag"
-msgstr "重新命名標籤"
+msgstr "不能重新命名標籤"
 
 #: libs/resourcewidgets/KisTagChooserWidget.cpp:129
 #: libs/resourcewidgets/KisTagChooserWidget.cpp:218
@@ -17956,13 +17955,13 @@ msgstr "重新命名標籤"
 #, kde-format
 msgctxt "Dialog message"
 msgid "You can't use this name for your custom tags."
-msgstr ""
+msgstr "您不能為自訂標籤選用這個名稱。"
 
 #: libs/resourcewidgets/KisTagChooserWidget.cpp:138
 #, kde-format
 msgctxt "Dialog title"
 msgid "Remove existing tag with that name?"
-msgstr ""
+msgstr "要移除目前在使用該名稱的標籤嗎？"
 
 #: libs/resourcewidgets/KisTagChooserWidget.cpp:140
 #, kde-format
@@ -17976,44 +17975,39 @@ msgid ""
 "Tag to be removed: %1\n"
 "Tag's unique name: %2"
 msgstr ""
+"已存在一個使用相同辨識名稱的標籤。若要完成重新命名動作，必須先移除現有的同名標籤。你要繼續嗎？\n"
+"將會移除的標籤：%1\n"
+"標籤的辨識名稱：%2"
 
 #: libs/resourcewidgets/KisTagChooserWidget.cpp:206
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:116
-#, fuzzy, kde-format
-#| msgid "Go to previous page"
+#, kde-format
 msgctxt ""
 "Option in a dialog to undelete (reactivate) existing tag with its old "
 "assigned resources"
 msgid "Restore previous tag"
-msgstr "轉到上一頁"
+msgstr "還原先前標籤"
 
 #: libs/resourcewidgets/KisTagChooserWidget.cpp:207
-#, fuzzy, kde-format
-#| msgid "Add Existing Pages"
+#, kde-format
 msgctxt ""
 "Option in a dialog to use existing tag with its old assigned resources"
 msgid "Use existing tag"
-msgstr "新增現存頁面"
+msgstr "使用現存標籤"
 
 #: libs/resourcewidgets/KisTagChooserWidget.cpp:209
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:113
-#, fuzzy, kde-format
-#| msgid "Overwrite"
+#, kde-format
 msgctxt "Dialog title"
 msgid "Overwrite tag?"
-msgstr "覆蓋"
+msgstr "覆蓋標籤嗎？"
 
 #: libs/resourcewidgets/KisTagChooserWidget.cpp:210
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:114
-#, fuzzy, kde-format
-#| msgid ""
-#| "A profile with that name already exists.\n"
-#| "Do you want to overwrite it?"
+#, kde-format
 msgctxt "Question to the user in a dialog about creating a tag"
 msgid "A tag with this unique name already exists. Do you want to replace it?"
-msgstr ""
-"已存在此名稱的設定檔。\n"
-"要覆蓋它嗎？"
+msgstr "已存在使用此辨識名稱的標籤。要取代它嗎？"
 
 #: libs/resourcewidgets/KisTagChooserWidget.cpp:211
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:115
@@ -18022,7 +18016,7 @@ msgctxt ""
 "Option in a dialog to discard the previously existing tag and creating a new "
 "one in its place"
 msgid "Replace (overwrite) tag"
-msgstr ""
+msgstr "取代 (覆蓋) 標籤"
 
 #. i18n: ectx: property (text), widget (QPushButton, btCancel)
 #. i18n: ectx: property (text), widget (QPushButton, cancelBrushNameUpdateButton)
@@ -18048,11 +18042,10 @@ msgid "Cancel"
 msgstr "取消"
 
 #: libs/resourcewidgets/KisTagChooserWidget.cpp:218
-#, fuzzy, kde-format
-#| msgid "Cannot create storage"
+#, kde-format
 msgctxt "Dialog title"
 msgid "Can't create the tag"
-msgstr "無法建立存儲"
+msgstr "無法建立標籤"
 
 #: libs/resourcewidgets/KisTagFilterWidget.cpp:48
 #, kde-format
@@ -48470,9 +48463,8 @@ msgid ""
 "whether it has been rated. Of course, the UUID can be changed into something "
 "else by manually changing the JSON, but this is advanced usage."
 msgstr ""
-"預設情況下這將用一個系統產生的通用唯一標識符 (UUID) 填充。該 ID 本身只是方便"
-"漫畫管理程式判斷該漫畫是否已在其資料庫中和是否已被評分。該 UUID 也可以透過手"
-"動變更 JSON 來進行變動，但這屬於進階操作。"
+"預設情況下這將被填入一個隨機產生的通用唯一識別碼 (UUID)。該 ID 本身只是方便漫畫管理程式判斷該漫畫是否已在其資料庫中和是否已被評分。該 "
+"UUID 也可以透過手動修改 JSON 來變更，但這屬於進階操作。"
 
 #: plugins/python/comics_project_management_tools/comics_export_dialog.py:292
 msgid "Add History Entry"
