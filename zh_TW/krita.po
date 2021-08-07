@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-05 00:15+0000\n"
+"POT-Creation-Date: 2021-08-07 00:14+0000\n"
 "PO-Revision-Date: 2021-08-05 06:36+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
@@ -17733,7 +17733,7 @@ msgstr "縮圖"
 #. i18n: ectx: property (text), widget (QPushButton, bnDelete)
 #. i18n: ectx: property (text), widget (QPushButton, deleteAllAssistantsButton)
 #. i18n: ectx: property (text), widget (QRadioButton, btnAllView)
-#: libs/resources/KisTagModel.cpp:100 libs/resources/KisTagModel.cpp:262
+#: libs/resources/KisTagModel.cpp:117 libs/resources/KisTagModel.cpp:279
 #: libs/ui/widgets/kis_paintop_presets_editor.cpp:593
 #: plugins/assistants/Assistants/AssistantsToolOptions.ui:262
 #: plugins/dockers/storyboarddocker/wdgarrangemenu.ui:70
@@ -17742,17 +17742,17 @@ msgstr "縮圖"
 msgid "All"
 msgstr "全部"
 
-#: libs/resources/KisTagModel.cpp:127 libs/resources/KisTagModel.cpp:272
+#: libs/resources/KisTagModel.cpp:144 libs/resources/KisTagModel.cpp:289
 #, kde-format
 msgid "All Untagged"
 msgstr "所有無標籤項目"
 
-#: libs/resources/KisTagModel.cpp:265
+#: libs/resources/KisTagModel.cpp:282
 #, kde-format
 msgid "All Resources"
 msgstr "所有資源"
 
-#: libs/resources/KisTagModel.cpp:275
+#: libs/resources/KisTagModel.cpp:292
 #, kde-format
 msgid "All Untagged Resources"
 msgstr "所有無標籤資源"
@@ -17784,7 +17784,7 @@ msgid "Resources Cache Database Explorer"
 msgstr "資源快取資料庫瀏覽器"
 
 #: libs/resourcewidgets/dbexplorer/DlgDbExplorer.cpp:69
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:46
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:50
 #: libs/resourcewidgets/KisTagToolButton.cpp:54
 #, kde-format
 msgid "Tag"
@@ -17937,10 +17937,122 @@ msgstr ""
 "\n"
 "無可用的筆刷預設。請啟用一個含有筆刷預設的資源包。"
 
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:59
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:63
 #, kde-format
 msgid "Tag options"
 msgstr "標籤選項"
+
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:129
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:244
+#, fuzzy, kde-format
+#| msgid "Rename tag"
+msgctxt "Dialog title"
+msgid "Can't rename the tag"
+msgstr "重新命名標籤"
+
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:129
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:218
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:244
+#, kde-format
+msgctxt "Dialog message"
+msgid "You can't use this name for your custom tags."
+msgstr ""
+
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:138
+#, kde-format
+msgctxt "Dialog title"
+msgid "Remove existing tag with that name?"
+msgstr ""
+
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:140
+#, kde-format
+msgctxt ""
+"Dialog message (the arguments are both somewhat user readable nouns or "
+"adjectives (names of the tags), can be treated as nouns since they represent "
+"the tags)"
+msgid ""
+"A tag with this unique name already exists. In order to continue renaming, "
+"the existing tag needs to be removed. Do you want to continue?\n"
+"Tag to be removed: %1\n"
+"Tag's unique name: %2"
+msgstr ""
+
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:206
+#: plugins/extensions/resourcemanager/wdgtagselection.cpp:116
+#, fuzzy, kde-format
+#| msgid "Go to previous page"
+msgctxt ""
+"Option in a dialog to undelete (reactivate) existing tag with its old "
+"assigned resources"
+msgid "Restore previous tag"
+msgstr "轉到上一頁"
+
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:207
+#, fuzzy, kde-format
+#| msgid "Add Existing Pages"
+msgctxt ""
+"Option in a dialog to use existing tag with its old assigned resources"
+msgid "Use existing tag"
+msgstr "新增現存頁面"
+
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:209
+#: plugins/extensions/resourcemanager/wdgtagselection.cpp:113
+#, fuzzy, kde-format
+#| msgid "Overwrite"
+msgctxt "Dialog title"
+msgid "Overwrite tag?"
+msgstr "覆蓋"
+
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:210
+#: plugins/extensions/resourcemanager/wdgtagselection.cpp:114
+#, fuzzy, kde-format
+#| msgid ""
+#| "A profile with that name already exists.\n"
+#| "Do you want to overwrite it?"
+msgctxt "Question to the user in a dialog about creating a tag"
+msgid "A tag with this unique name already exists. Do you want to replace it?"
+msgstr ""
+"已存在此名稱的設定檔。\n"
+"要覆蓋它嗎？"
+
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:211
+#: plugins/extensions/resourcemanager/wdgtagselection.cpp:115
+#, kde-format
+msgctxt ""
+"Option in a dialog to discard the previously existing tag and creating a new "
+"one in its place"
+msgid "Replace (overwrite) tag"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, btCancel)
+#. i18n: ectx: property (text), widget (QPushButton, cancelBrushNameUpdateButton)
+#. i18n: ectx: property (text), widget (QPushButton, cancel_button)
+#. i18n: ectx: property (toolTip), widget (QPushButton, bnCancelMaskEdit)
+#. i18n: ectx: property (text), widget (QPushButton, buttonCancel)
+#. i18n: ectx: property (text), widget (QPushButton, buttonCancelExport)
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:212
+#: libs/ui/dialogs/kis_delayed_save_dialog.cpp:50
+#: libs/ui/dialogs/KisAsyncAnimationRenderDialogBase.cpp:154
+#: libs/ui/dialogs/KisRecoverNamedAutosaveDialog.ui:60
+#: libs/ui/forms/wdgpaintopsettings.ui:201
+#: libs/ui/input/kis_tool_invocation_action.cpp:43 libs/ui/kis_clipboard.cc:302
+#: libs/ui/utils/KisClipboardUtil.cpp:67
+#: plugins/dockers/gamutmask/forms/wdgGamutMaskChooser.ui:190
+#: plugins/dockers/recorder/recorder_export.ui:703
+#: plugins/dockers/recorder/recorder_snapshots_manager.ui:130
+#: plugins/extensions/resourcemanager/wdgtagselection.cpp:116
+#: plugins/generators/seexpr/wdgseexpr.ui:179
+#: plugins/python/krita_script_starter/bbdkss.ui:203
+#, kde-format
+msgid "Cancel"
+msgstr "取消"
+
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:218
+#, fuzzy, kde-format
+#| msgid "Cannot create storage"
+msgctxt "Dialog title"
+msgid "Can't create the tag"
+msgstr "無法建立存儲"
 
 #: libs/resourcewidgets/KisTagFilterWidget.cpp:48
 #, kde-format
@@ -17991,8 +18103,8 @@ msgid "<qt>Show the tag box options.</qt>"
 msgstr "<qt>顯示標籤盒選項。</qt>"
 
 #: libs/resourcewidgets/KisTagToolButton.cpp:63
-#: libs/resourcewidgets/TagActions.cpp:140
-#: libs/resourcewidgets/TagActions.cpp:159
+#: libs/resourcewidgets/TagActions.cpp:139
+#: libs/resourcewidgets/TagActions.cpp:158
 #, kde-format
 msgid "New tag"
 msgstr "建立標籤"
@@ -19987,27 +20099,6 @@ msgstr ""
 "<p>KDE 能被翻譯為多種語言，全靠來自世界各地的翻譯團隊協助。</p><p>如希望了解"
 "更多有關 KDE 國際化的資訊，可以瀏覽 <a href=\"http://l10n.kde.org\">http://"
 "l10n.kde.org</a></p>"
-
-#. i18n: ectx: property (text), widget (QPushButton, btCancel)
-#. i18n: ectx: property (text), widget (QPushButton, cancelBrushNameUpdateButton)
-#. i18n: ectx: property (text), widget (QPushButton, cancel_button)
-#. i18n: ectx: property (toolTip), widget (QPushButton, bnCancelMaskEdit)
-#. i18n: ectx: property (text), widget (QPushButton, buttonCancel)
-#. i18n: ectx: property (text), widget (QPushButton, buttonCancelExport)
-#: libs/ui/dialogs/kis_delayed_save_dialog.cpp:50
-#: libs/ui/dialogs/KisAsyncAnimationRenderDialogBase.cpp:154
-#: libs/ui/dialogs/KisRecoverNamedAutosaveDialog.ui:60
-#: libs/ui/forms/wdgpaintopsettings.ui:201
-#: libs/ui/input/kis_tool_invocation_action.cpp:43 libs/ui/kis_clipboard.cc:302
-#: libs/ui/utils/KisClipboardUtil.cpp:67
-#: plugins/dockers/gamutmask/forms/wdgGamutMaskChooser.ui:190
-#: plugins/dockers/recorder/recorder_export.ui:703
-#: plugins/dockers/recorder/recorder_snapshots_manager.ui:130
-#: plugins/generators/seexpr/wdgseexpr.ui:179
-#: plugins/python/krita_script_starter/bbdkss.ui:203
-#, kde-format
-msgid "Cancel"
-msgstr "取消"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgSplash)
 #. i18n: ectx: property (windowTitle), widget (QDialog, KisDelayedSaveDialog)
@@ -25731,7 +25822,7 @@ msgstr "繪畫工具(&P)"
 #: libs/ui/kis_control_frame.cpp:176 libs/ui/KisApplication.cpp:311
 #: plugins/dockers/patterndocker/patterndocker_dock.cpp:20
 #: plugins/extensions/resourcemanager/dlg_embed_tags.cpp:65
-#: plugins/extensions/resourcemanager/wdgtagselection.cpp:224
+#: plugins/extensions/resourcemanager/wdgtagselection.cpp:241
 #, kde-format
 msgid "Patterns"
 msgstr "圖案"
@@ -25744,7 +25835,7 @@ msgstr "自訂圖案"
 #: libs/ui/kis_control_frame.cpp:226 libs/ui/KisApplication.cpp:296
 #: libs/ui/KisApplication.cpp:297
 #: plugins/extensions/resourcemanager/dlg_embed_tags.cpp:63
-#: plugins/extensions/resourcemanager/wdgtagselection.cpp:227
+#: plugins/extensions/resourcemanager/wdgtagselection.cpp:244
 #, kde-format
 msgid "Gradients"
 msgstr "漸變"
@@ -26328,13 +26419,13 @@ msgctxt "(qtundo-format)"
 msgid "Select Opaque"
 msgstr "選擇不透明區域"
 
-#: libs/ui/kis_splash_screen.cpp:154
+#: libs/ui/kis_splash_screen.cpp:155
 #, kde-format
 msgctxt "splash image credit"
 msgid "Artwork by: %1"
 msgstr "作畫：%1"
 
-#: libs/ui/kis_splash_screen.cpp:178
+#: libs/ui/kis_splash_screen.cpp:179
 #, kde-format
 msgid ""
 "<html><head/><body><p><b><span style=\" color:%1;\">Recent Files</span></b></"
@@ -26343,7 +26434,7 @@ msgstr ""
 "<html><head/><body><p align=\"center\"><b><span style=\" color:%1;\">最近檔案"
 "</span></b></p>"
 
-#: libs/ui/kis_splash_screen.cpp:218
+#: libs/ui/kis_splash_screen.cpp:219
 #, kde-format
 msgid ""
 "<html><head/><body><p><span style=\" color:%1;\"><b>Links</b></span></"
@@ -26485,28 +26576,28 @@ msgid "Zoom: %1 %"
 msgstr "縮放：%1 %"
 
 #: libs/ui/KisApplication.cpp:288
-#: plugins/extensions/resourcemanager/wdgtagselection.cpp:221
+#: plugins/extensions/resourcemanager/wdgtagselection.cpp:238
 #, kde-format
 msgid "Brush presets"
 msgstr "筆刷預設"
 
 #: libs/ui/KisApplication.cpp:291 libs/ui/KisApplication.cpp:292
 #: libs/ui/KisApplication.cpp:293 libs/ui/KisApplication.cpp:294
-#: plugins/extensions/resourcemanager/wdgtagselection.cpp:222
+#: plugins/extensions/resourcemanager/wdgtagselection.cpp:239
 #, kde-format
 msgid "Brush tips"
 msgstr "筆刷提示"
 
 #: libs/ui/KisApplication.cpp:299
 #: plugins/extensions/resourcemanager/dlg_embed_tags.cpp:66
-#: plugins/extensions/resourcemanager/wdgtagselection.cpp:225
+#: plugins/extensions/resourcemanager/wdgtagselection.cpp:242
 #, kde-format
 msgid "Palettes"
 msgstr "調色板"
 
 #: libs/ui/KisApplication.cpp:312 libs/ui/widgets/kis_workspace_chooser.cpp:78
 #: plugins/extensions/resourcemanager/dlg_embed_tags.cpp:67
-#: plugins/extensions/resourcemanager/wdgtagselection.cpp:223
+#: plugins/extensions/resourcemanager/wdgtagselection.cpp:240
 #, kde-format
 msgid "Workspaces"
 msgstr "作業空間"
@@ -26522,7 +26613,7 @@ msgid "Window layouts"
 msgstr "視窗版面配置"
 
 #: libs/ui/KisApplication.cpp:316
-#: plugins/extensions/resourcemanager/wdgtagselection.cpp:228
+#: plugins/extensions/resourcemanager/wdgtagselection.cpp:245
 #, kde-format
 msgid "Gamut masks"
 msgstr "色域遮罩"
@@ -38894,12 +38985,12 @@ msgstr "將標籤備份到資源資料夾，以避免於更新 Krita 時流失�
 msgid "Save Tags to Folder"
 msgstr "儲存標籤至資料夾"
 
-#: plugins/extensions/resourcemanager/wdgtagselection.cpp:226
+#: plugins/extensions/resourcemanager/wdgtagselection.cpp:243
 #, kde-format
 msgid "Layer styles"
 msgstr "圖層樣式"
 
-#: plugins/extensions/resourcemanager/wdgtagselection.cpp:229
+#: plugins/extensions/resourcemanager/wdgtagselection.cpp:246
 #, kde-format
 msgid "SeExpr scripts"
 msgstr "SeExpr 指令稿"
@@ -56338,9 +56429,6 @@ msgstr "參考圖工具"
 
 #~ msgid "File not found"
 #~ msgstr "無法找到檔案"
-
-#~ msgid "Cannot create storage"
-#~ msgstr "無法建立存儲"
 
 #~ msgid "Bad MIME type"
 #~ msgstr "無效的 MIME 類型"
