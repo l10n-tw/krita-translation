@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-08-08 00:15+0000\n"
-"PO-Revision-Date: 2021-08-07 07:36+0000\n"
+"PO-Revision-Date: 2021-08-10 06:48+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -6672,7 +6672,7 @@ msgctxt ""
 "./krita/data/bundles/Krita_3_Default_Resources.bundle:palettes/swatch-cmyk."
 "gpl"
 msgid "Swatch CMYK"
-msgstr "CMYK 採樣色彩"
+msgstr "CMYK 樣本色"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #: krita/data/bundles/Krita_3_Default_Resources.bundle:palettes/swatch-colored-grey.gpl:2
@@ -6681,7 +6681,7 @@ msgctxt ""
 "./krita/data/bundles/Krita_3_Default_Resources.bundle:palettes/swatch-"
 "colored-grey.gpl"
 msgid "Swatch colored grey"
-msgstr "帶色調灰階採樣色彩"
+msgstr "帶色調灰階樣本色"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #: krita/data/bundles/Krita_3_Default_Resources.bundle:palettes/swatch-rgb.gpl:2
@@ -6689,7 +6689,7 @@ msgstr "帶色調灰階採樣色彩"
 msgctxt ""
 "./krita/data/bundles/Krita_3_Default_Resources.bundle:palettes/swatch-rgb.gpl"
 msgid "Swatch RGB"
-msgstr "RGB 採樣色彩"
+msgstr "RGB 樣本色"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #: krita/data/bundles/Krita_3_Default_Resources.bundle:palettes/swatche.gpl:2
@@ -6697,7 +6697,7 @@ msgstr "RGB 採樣色彩"
 msgctxt ""
 "./krita/data/bundles/Krita_3_Default_Resources.bundle:palettes/swatche.gpl"
 msgid "Swatches"
-msgstr "一般採樣色彩"
+msgstr "一般色彩樣本"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #: krita/data/bundles/Krita_3_Default_Resources.bundle:palettes/web.gpl:2
@@ -7154,28 +7154,28 @@ msgstr "Photoshop"
 #, kde-format
 msgctxt "./krita/data/palettes/swatch-cmyk.gpl"
 msgid "Swatch CMYK"
-msgstr "CMYK 採樣色彩"
+msgstr "CMYK 樣本色"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #: krita/data/palettes/swatch-colored-grey.gpl:2
 #, kde-format
 msgctxt "./krita/data/palettes/swatch-colored-grey.gpl"
 msgid "Swatch colored grey"
-msgstr "帶色調灰階採樣色彩"
+msgstr "帶色調灰階樣本色"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #: krita/data/palettes/swatch-rgb.gpl:2
 #, kde-format
 msgctxt "./krita/data/palettes/swatch-rgb.gpl"
 msgid "Swatch RGB"
-msgstr "RGB 採樣色彩"
+msgstr "RGB 樣本色"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #: krita/data/palettes/swatche.gpl:2
 #, kde-format
 msgctxt "./krita/data/palettes/swatche.gpl"
 msgid "Swatches"
-msgstr "一般採樣色彩"
+msgstr "一般色彩樣本"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #: krita/data/palettes/web.gpl:2
@@ -17923,22 +17923,21 @@ msgid "Remove from other tag"
 msgstr "移除出其他標籤"
 
 #: libs/resourcewidgets/KisResourceOverwriteDialog.cpp:19
-#, fuzzy, kde-format
-#| msgctxt "Dialog title"
-#| msgid "Overwrite tag?"
+#, kde-format
 msgctxt "Dialog title"
 msgid "Overwrite the file?"
-msgstr "覆蓋標籤嗎？"
+msgstr "覆寫檔案嗎？"
 
 #: libs/resourcewidgets/KisResourceOverwriteDialog.cpp:20
-#, fuzzy, kde-format
-#| msgid "This pattern already exists. Do you want to overwrite it?"
+#, kde-format
 msgctxt "Question in a dialog/messagebox"
 msgid ""
 "This resource file already exists in the resource folder. Do you want to "
 "overwrite it?\n"
 "Resource filename: %1"
-msgstr "已有這個圖案。您確定要覆寫它嗎？"
+msgstr ""
+"這個資源檔案已存在於資源資料夾內，您確定要覆寫它嗎？\n"
+"資源檔案名稱：%1"
 
 #: libs/resourcewidgets/KisStorageChooserWidget.cpp:133
 #, kde-format
@@ -25127,9 +25126,8 @@ msgid ""
 "current tool. For example, using the brush tool it samples a color from the "
 "canvas."
 msgstr ""
-"<b>切換備選功能</b>操作透過修飾鍵來切換某些工具內建的多種可供呼叫的功能。例"
-"如，在使用筆刷工具時點擊滑鼠左鍵的第一功能是繪畫，而按住 Ctrl 點擊滑鼠左鍵即"
-"可暫時切換成呼叫其備選功能——採樣畫布上的色彩。"
+"<b>切換備選功能</b>操作透過修飾鍵來切換某些工具內建的多種可供呼叫的功能。例如，在使用筆刷工具時點擊滑鼠左鍵的第一功能是繪畫，而按住 Ctrl "
+"點擊滑鼠左鍵即可暫時切換成呼叫其備選功能——取樣畫布上的色彩。"
 
 #: libs/ui/input/kis_alternate_invocation_action.cpp:30
 #, kde-format
@@ -25149,22 +25147,22 @@ msgstr "第三模式"
 #: libs/ui/input/kis_alternate_invocation_action.cpp:35
 #, kde-format
 msgid "Sample Foreground Color from Current Layer"
-msgstr "從目前圖層採樣前景色"
+msgstr "從目前圖層取樣前景色"
 
 #: libs/ui/input/kis_alternate_invocation_action.cpp:36
 #, kde-format
 msgid "Sample Background Color from Current Layer"
-msgstr "從目前圖層採樣背景色"
+msgstr "從目前圖層取樣背景色"
 
 #: libs/ui/input/kis_alternate_invocation_action.cpp:38
 #, kde-format
 msgid "Sample Foreground Color from Merged Image"
-msgstr "從合併影像採樣前景色"
+msgstr "從合併影像取樣前景色"
 
 #: libs/ui/input/kis_alternate_invocation_action.cpp:39
 #, kde-format
 msgid "Sample Background Color from Merged Image"
-msgstr "從合併影像採樣背景色"
+msgstr "從合併影像取樣背景色"
 
 #: libs/ui/input/kis_change_frame_action.cpp:26
 #, kde-format
@@ -29107,7 +29105,7 @@ msgstr "MyPaint 筆刷引擎不支援這個色彩空間"
 #: libs/ui/tool/kis_tool_paint.cc:380
 #, kde-format
 msgid "Color sampler does not work on this layer."
-msgstr "色彩採樣器不能在此圖層上使用。"
+msgstr "色彩取樣器不能在此圖層上使用。"
 
 #: libs/ui/tool/kis_tool_paint.cc:668
 #, kde-format
@@ -39640,7 +39638,7 @@ msgstr "閾值："
 #: plugins/filters/colors/wdgcolortoalphabase.ui:164
 #, kde-format
 msgid "Color Sampler:"
-msgstr "色彩採樣器："
+msgstr "色彩取樣器："
 
 #: plugins/filters/colorsfilters/colorsfilters.cpp:77
 #, kde-format
@@ -42536,7 +42534,7 @@ msgstr "1x1,1x1,1x1 (畫質最好)"
 #: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:228
 #, kde-format
 msgid "Force baseline JPEG"
-msgstr "強制使用基線 JPEG"
+msgstr "強制使用 baseline JPEG"
 
 #. i18n: ectx: property (text), widget (QCheckBox, optimize)
 #: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:238
@@ -45479,7 +45477,7 @@ msgstr "校正透視"
 msgid ""
 "Move the clone origin with the brush. Uncheck to keep cloning from the "
 "selected point."
-msgstr "用筆刷移動再製來源點。取消勾選以保持選取的採樣點不變。"
+msgstr "用筆刷移動再製來源點。取消勾選以保持選取的取樣點不變。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbSourcePoint)
 #: plugins/paintops/defaultpaintops/duplicate/wdgduplicateop.ui:45
@@ -45523,8 +45521,7 @@ msgid ""
 "html>"
 msgstr ""
 "<html><head/><body><p><span style=\" font-weight:600;\">再製筆刷：</span></"
-"p><p>Ctrl + 點擊可在目前選定的圖層上採樣。Ctrl + Alt + 點擊則會從上一次選定的"
-"圖層中採樣。</p></body></html>"
+"p><p>Ctrl + 點擊可在目前選定的圖層上取樣。Ctrl + Alt + 點擊則會從上一次選定的圖層中取樣。</p></body></html>"
 
 #: plugins/paintops/deform/deform_paintop_plugin.cpp:29
 #, kde-format
@@ -45651,7 +45648,7 @@ msgstr "使用計數器"
 #: plugins/paintops/deform/wdgdeformoptions.ui:187
 #, kde-format
 msgid "Use undeformed image"
-msgstr "採樣扭曲前影像"
+msgstr "取樣扭曲前影像"
 
 #. i18n: ectx: property (title), widget (QGroupBox, shapeGroup)
 #: plugins/paintops/experiment/experiment_paintop_plugin.cpp:31
@@ -46358,7 +46355,7 @@ msgstr "填充背景"
 #: plugins/paintops/libpaintop/forms/wdgcoloroptions.ui:167
 #, kde-format
 msgid "Sample Input layer"
-msgstr "採樣輸入圖層"
+msgstr "取樣輸入圖層"
 
 #. i18n: ectx: property (text), widget (QCheckBox, mixBgColorCHBox)
 #: plugins/paintops/libpaintop/forms/wdgcoloroptions.ui:180
@@ -50526,7 +50523,7 @@ msgstr "手繪筆刷筆畫"
 #: plugins/tools/basictools/kis_tool_brush.cc:180
 #, kde-format
 msgid "Sample count:"
-msgstr "採樣數："
+msgstr "取樣數："
 
 #: plugins/tools/basictools/kis_tool_brush.cc:191
 #, kde-format
@@ -50653,12 +50650,12 @@ msgstr "手繪筆刷工具"
 #: plugins/tools/basictools/kis_tool_colorsampler.cc:147
 #, kde-format
 msgid "Cannot sample a color as no layer is active."
-msgstr "無法採樣色彩，因為沒有使用中的圖層。"
+msgstr "無法取樣色彩，因為沒有使用中的圖層。"
 
 #: plugins/tools/basictools/kis_tool_colorsampler.cc:152
 #, kde-format
 msgid "Cannot sample a color as the active layer is not visible."
-msgstr "無法採樣色彩，因為使用中圖層不可見。"
+msgstr "無法取樣色彩，因為使用中圖層不可見。"
 
 #: plugins/tools/basictools/kis_tool_colorsampler.cc:199
 #, kde-format
@@ -50668,7 +50665,7 @@ msgstr "無法寫入調色板檔案 %1。它可能是唯讀檔案。"
 #: plugins/tools/basictools/kis_tool_colorsampler.h:115
 #, kde-format
 msgid "Color Sampler Tool"
-msgstr "色彩採樣器工具"
+msgstr "色彩取樣器工具"
 
 #: plugins/tools/basictools/kis_tool_ellipse.cc:52
 msgctxt "(qtundo-format)"
@@ -50742,7 +50739,7 @@ msgctxt ""
 "layers/ /Sample color labeled layers/. Sample is a verb here and means "
 "something akin to 'take into account'."
 msgid "Sample:"
-msgstr "採樣："
+msgstr "取樣："
 
 #: plugins/tools/basictools/kis_tool_fill.cc:279
 #, kde-format
@@ -51011,7 +51008,7 @@ msgstr "移動選取區域"
 #: plugins/tools/basictools/wdgcolorsampler.ui:18
 #, kde-format
 msgid "Color Sampler"
-msgstr "色彩採樣器"
+msgstr "色彩取樣器"
 
 #. i18n: ectx: property (text), widget (QLabel, blendLabel)
 #: plugins/tools/basictools/wdgcolorsampler.ui:29
@@ -51026,9 +51023,7 @@ msgid ""
 "<nobr>Blending controls the percentage of color that is sampled</nobr> and "
 "mixed with your current brush color. A full blending value samples colors "
 "completely, ignoring brush color."
-msgstr ""
-"<nobr>混色數值控制採樣色彩的比例，</nobr>按此比例與目前筆刷色彩進行混合。混色"
-"數值最大時，採樣的色彩將完全取代目前筆刷色彩。"
+msgstr "<nobr>混色數值控制取樣色彩的比例，</nobr>按此比例與目前筆刷色彩進行混合。混色數值最大時，取樣的色彩將完全取代目前筆刷色彩。"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, cmbSources)
 #: plugins/tools/basictools/wdgcolorsampler.ui:75
@@ -51036,21 +51031,19 @@ msgstr ""
 msgid ""
 "<nobr>Determines whether the color sampler will sample</nobr> colors from "
 "all visible layers or only the currently selected layer."
-msgstr ""
-"<nobr>控制色彩採樣器將</nobr>採樣全部可見圖層的色彩還是只採樣目前選取圖層的色"
-"彩。"
+msgstr "<nobr>控制色彩取樣器將</nobr>取樣全部可見圖層的色彩還是只取樣目前選取圖層的色彩。"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbSources)
 #: plugins/tools/basictools/wdgcolorsampler.ui:82
 #, kde-format
 msgid "Sample All Visible Layers"
-msgstr "從全部可見圖層採樣"
+msgstr "從全部可見圖層取樣"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbSources)
 #: plugins/tools/basictools/wdgcolorsampler.ui:87
 #, kde-format
 msgid "Sample Current Layer"
-msgstr "僅從目前圖層採樣"
+msgstr "僅從目前圖層取樣"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, cbNormaliseValues)
 #: plugins/tools/basictools/wdgcolorsampler.ui:95
@@ -51090,9 +51083,7 @@ msgstr "半徑："
 msgid ""
 "<nobr>Radius controls the color sampler's sampling area.</nobr> Pixel colors "
 "within this radius are mixed together."
-msgstr ""
-"<nobr>半徑控制色彩採樣器的採樣面積大小。</nobr>在此區域內的像素色彩將混合為一"
-"種色彩之後被採樣。"
+msgstr "<nobr>半徑控制色彩取樣器的取樣面積大小。</nobr>在此區域內的像素色彩將混合為一種色彩之後被取樣。"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, cbPalette)
 #: plugins/tools/basictools/wdgcolorsampler.ui:218
@@ -51100,8 +51091,7 @@ msgstr ""
 msgid ""
 "<nobr>Checking this box will add a new color swatch</nobr> to a palette each "
 "time you sample a color."
-msgstr ""
-"<nobr>勾選後，每次採樣色彩時將其作為一個新的色塊</nobr>新增到調色板中。"
+msgstr "<nobr>勾選後，每次取樣色彩時將其作為一個新的色塊</nobr>新增到調色板中。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbPalette)
 #: plugins/tools/basictools/wdgcolorsampler.ui:221
@@ -51115,7 +51105,7 @@ msgstr "加入到調色板："
 msgid ""
 "<nobr>Controls whether the color sampler updates the</nobr> current "
 "foreground or not."
-msgstr "<nobr>控制色彩採樣器是否更新</nobr>目前的前景色。"
+msgstr "<nobr>控制色彩取樣器是否更新</nobr>目前的前景色。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbUpdateCurrentColor)
 #: plugins/tools/basictools/wdgcolorsampler.ui:238
@@ -52174,7 +52164,7 @@ msgstr "文字色彩"
 #: plugins/tools/svgtexttool/SvgTextEditor.cpp:1418
 #, kde-format
 msgid "Sample a Color"
-msgstr "採樣一種色彩"
+msgstr "取樣一種色彩"
 
 #: plugins/tools/svgtexttool/SvgTextEditor.cpp:1429
 #, kde-format
@@ -52459,7 +52449,7 @@ msgstr "設定…"
 #, kde-format
 msgctxt "action"
 msgid "Sample a color from the screen"
-msgstr "從螢幕上採樣色彩"
+msgstr "從螢幕上取樣色彩"
 
 #. i18n: context: Action (svg_sample_color), Actions (Text Tool), ActionCollection (SVG Tools)
 #. i18n: context: Action (KritaSelected/KisToolColorSampler), Actions (tool-shortcuts), ActionCollection (Tools)
@@ -52470,7 +52460,7 @@ msgstr "從螢幕上採樣色彩"
 #, kde-format
 msgctxt "action"
 msgid "Color Sampler"
-msgstr "色彩採樣器"
+msgstr "色彩取樣器"
 
 #. i18n: context: Action (svg_font_kerning), Actions (Text Tool), ActionCollection (SVG Tools)
 #. i18n: context: Action (svg_font_kerning), Actions (Text Tool), ActionCollection (SVG Tools)
@@ -53680,7 +53670,7 @@ msgstr "形狀選取工具"
 #, kde-format
 msgctxt "action"
 msgid "Sample a color from the image or current layer"
-msgstr "從影像或目前圖層採樣色彩"
+msgstr "從影像或目前圖層取樣色彩"
 
 #. i18n: context: Action (KritaFill/KisToolFill), Actions (tool-shortcuts), ActionCollection (Tools)
 #: plugins/tools/tools.action:84
