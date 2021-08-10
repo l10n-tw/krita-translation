@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-08 00:15+0000\n"
+"POT-Creation-Date: 2021-08-10 00:15+0000\n"
 "PO-Revision-Date: 2021-08-10 06:48+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
@@ -14320,6 +14320,15 @@ msgstr "%1的選項"
 msgid "Active tool: %1"
 msgstr "使用中工具：%1"
 
+#: libs/flake/svg/SvgParser.cpp:1773
+#, kde-format
+msgctxt "warning while loading SVG text"
+msgid ""
+"The document has vector text created in Krita 4.x. When you save the "
+"document, the text object will be converted into Krita 5 format that will no "
+"longer be compatible with Krita 4.x"
+msgstr ""
+
 #: libs/flake/text/KoSvgTextShape.cpp:572
 #: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:51
 #: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:53
@@ -15836,7 +15845,7 @@ msgstr "變形遮罩"
 
 #: libs/impex/KisExportCheckRegistry.cpp:111 libs/ui/kis_mask_manager.cc:210
 #: libs/ui/kis_node_manager.cpp:1290
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:211
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:214
 #: plugins/impex/psd/psd_loader.cpp:288
 #: plugins/impex/xcf/kis_xcf_import.cpp:273
 #, kde-format
@@ -17387,6 +17396,7 @@ msgstr "本機資源"
 #: libs/ui/KisTemplateCreateDia.cpp:390 libs/ui/KisView.cpp:670
 #: libs/ui/KisWelcomePageWidget.cpp:691
 #: libs/ui/opengl/kis_opengl_canvas2.cpp:410
+#: libs/ui/utils/KisClipboardUtil.cpp:130
 #: libs/ui/widgets/gradient/KisGradientChooser.cpp:534
 #: libs/ui/widgets/kis_custom_image_widget.cc:299
 #: plugins/assistants/Assistants/kis_assistant_tool.cc:1080
@@ -18048,7 +18058,7 @@ msgstr "取代 (覆蓋) 標籤"
 #: libs/ui/dialogs/KisRecoverNamedAutosaveDialog.ui:60
 #: libs/ui/forms/wdgpaintopsettings.ui:201
 #: libs/ui/input/kis_tool_invocation_action.cpp:43 libs/ui/kis_clipboard.cc:302
-#: libs/ui/utils/KisClipboardUtil.cpp:67
+#: libs/ui/utils/KisClipboardUtil.cpp:70
 #: plugins/dockers/gamutmask/forms/wdgGamutMaskChooser.ui:190
 #: plugins/dockers/recorder/recorder_export.ui:703
 #: plugins/dockers/recorder/recorder_snapshots_manager.ui:130
@@ -19880,13 +19890,13 @@ msgid "Edit Guides"
 msgstr "編輯參考線"
 
 #: libs/ui/canvas/kis_guides_manager.cpp:543
-#: libs/ui/canvas/kis_mirror_axis.cpp:281
+#: libs/ui/canvas/kis_mirror_axis.cpp:290
 #, kde-format
 msgid "Y: %1 px"
 msgstr "Y：%1 px"
 
 #: libs/ui/canvas/kis_guides_manager.cpp:548
-#: libs/ui/canvas/kis_mirror_axis.cpp:269
+#: libs/ui/canvas/kis_mirror_axis.cpp:274
 #, kde-format
 msgid "X: %1 px"
 msgstr "X：%1 px"
@@ -21128,7 +21138,7 @@ msgstr "新名稱："
 msgid "Vector Layer %1"
 msgstr "向量圖層 %1"
 
-#: libs/ui/flake/kis_shape_layer.cc:610
+#: libs/ui/flake/kis_shape_layer.cc:617
 #, kde-format
 msgid "No store backend"
 msgstr "無資料存儲後端程式"
@@ -25126,8 +25136,9 @@ msgid ""
 "current tool. For example, using the brush tool it samples a color from the "
 "canvas."
 msgstr ""
-"<b>切換備選功能</b>操作透過修飾鍵來切換某些工具內建的多種可供呼叫的功能。例如，在使用筆刷工具時點擊滑鼠左鍵的第一功能是繪畫，而按住 Ctrl "
-"點擊滑鼠左鍵即可暫時切換成呼叫其備選功能——取樣畫布上的色彩。"
+"<b>切換備選功能</b>操作透過修飾鍵來切換某些工具內建的多種可供呼叫的功能。例"
+"如，在使用筆刷工具時點擊滑鼠左鍵的第一功能是繪畫，而按住 Ctrl 點擊滑鼠左鍵即"
+"可暫時切換成呼叫其備選功能——取樣畫布上的色彩。"
 
 #: libs/ui/input/kis_alternate_invocation_action.cpp:30
 #, kde-format
@@ -27023,7 +27034,7 @@ msgstr "檔案 %1 不存在。"
 msgid "Opening document"
 msgstr "正在開啟檔案"
 
-#: libs/ui/KisDocument.cpp:1735
+#: libs/ui/KisDocument.cpp:1735 libs/ui/utils/KisClipboardUtil.cpp:131
 #, kde-format
 msgid ""
 "Could not open %2.\n"
@@ -29170,42 +29181,42 @@ msgid ""
 msgstr ""
 "新的 AppImage 已下載至 %1。如要完成更新，請關閉 Krita 並執行新的 AppImage。"
 
-#: libs/ui/utils/KisClipboardUtil.cpp:55
+#: libs/ui/utils/KisClipboardUtil.cpp:58
 #, kde-format
 msgid "Insert as New Layer"
 msgstr "插入為新圖層"
 
-#: libs/ui/utils/KisClipboardUtil.cpp:56
+#: libs/ui/utils/KisClipboardUtil.cpp:59
 #, kde-format
 msgid "Insert Many Layers"
 msgstr "插入多個圖層"
 
-#: libs/ui/utils/KisClipboardUtil.cpp:58
+#: libs/ui/utils/KisClipboardUtil.cpp:61
 #, kde-format
 msgid "Insert as New File Layer"
 msgstr "插入為新檔案圖層"
 
-#: libs/ui/utils/KisClipboardUtil.cpp:59
+#: libs/ui/utils/KisClipboardUtil.cpp:62
 #, kde-format
 msgid "Insert Many File Layers"
 msgstr "插入多個檔案圖層"
 
-#: libs/ui/utils/KisClipboardUtil.cpp:61
+#: libs/ui/utils/KisClipboardUtil.cpp:64
 #, kde-format
 msgid "Open in New Document"
 msgstr "開啟文件"
 
-#: libs/ui/utils/KisClipboardUtil.cpp:62
+#: libs/ui/utils/KisClipboardUtil.cpp:65
 #, kde-format
 msgid "Open Many Documents"
 msgstr "開啟多個文件"
 
-#: libs/ui/utils/KisClipboardUtil.cpp:64
+#: libs/ui/utils/KisClipboardUtil.cpp:67
 #, kde-format
 msgid "Insert as Reference Image"
 msgstr "插入為參考圖"
 
-#: libs/ui/utils/KisClipboardUtil.cpp:65
+#: libs/ui/utils/KisClipboardUtil.cpp:68
 #, kde-format
 msgid "Insert as Reference Images"
 msgstr "插入多幅參考圖"
@@ -42623,7 +42634,7 @@ msgctxt "@title:window"
 msgid "File not found"
 msgstr "無法找到檔案"
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:259
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:262
 #, kde-format
 msgctxt "Warning during loading a kra file with a filter layer"
 msgid ""
@@ -42631,7 +42642,7 @@ msgid ""
 "selection."
 msgstr "無法載入圖層 %s 的選取區域，將以空白選取區域取代。"
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:322
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:325
 #, kde-format
 msgctxt "Loading a .kra file"
 msgid ""
@@ -42639,67 +42650,67 @@ msgid ""
 "layer will be converted into a paint layer."
 msgstr "此檔案包含有著錯誤來源節點 ID 的再製圖層。此圖層將轉成顏料圖層。"
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:390
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:393
 #, kde-format
 msgid "Could not load \"id\" of the transform mask"
 msgstr "無法載入變形遮罩的「id」資料"
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:404
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:407
 #, kde-format
 msgid "Could not create transform mask params"
 msgstr "無法建立變形遮罩參數"
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:557
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:560
 #, kde-format
 msgid "Could not find keyframe pixel data for frame %1 in %2."
 msgstr "無法為影格 %1 在 %2 中找到關鍵影格像質資料。"
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:565
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:568
 #, kde-format
 msgid "Could not load keyframe pixel data for frame %1 in %2."
 msgstr "無法為影格 %1 在 %2 中載入關鍵影格像質資料。"
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:594
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:597
 #, kde-format
 msgid "Could not read pixel data: %1."
 msgstr "無法讀取像質資料：%1。"
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:601
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:604
 #, kde-format
 msgid "Could not load pixel data: %1."
 msgstr "無法載入像質資料：%1。"
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:617
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:620
 #, kde-format
 msgid "Could not load profile: %1."
 msgstr "無法載入設定檔：%1 。"
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:672
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:675
 #, kde-format
 msgid "Could not filter configuration %1."
 msgstr "無法過濾設定 %1。"
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:713
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:716
 #, kde-format
 msgid "Could not load metadata for layer %1."
 msgstr "無法為圖層 %1 載入中繼資料。"
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:756
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:759
 #, kde-format
 msgid "Could not load vector selection %1."
 msgstr "無法載入向量選取區域 %1。"
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:772
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:775
 #, kde-format
 msgid "Could not load raster selection %1."
 msgstr "無法載入點陣選取區域 %1。"
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:802
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:805
 #, kde-format
 msgid "Could not load keyframes from %1."
 msgstr "無法從 %1 載入關鍵影格。"
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:816
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:819
 #, kde-format
 msgid ""
 "parsing error in the keyframe file %1 at line %2, column %3\n"
@@ -42708,7 +42719,7 @@ msgstr ""
 "在關鍵影格檔案 %1 的第 %2 行第 %3 列發生解析錯誤\n"
 "錯誤消息：%4"
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:829
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:832
 #, kde-format
 msgid "unknown keyframe channel type: %1 in %2"
 msgstr "未知的關鍵影格通道類型：%1 在 %2 中"
@@ -45521,7 +45532,8 @@ msgid ""
 "html>"
 msgstr ""
 "<html><head/><body><p><span style=\" font-weight:600;\">再製筆刷：</span></"
-"p><p>Ctrl + 點擊可在目前選定的圖層上取樣。Ctrl + Alt + 點擊則會從上一次選定的圖層中取樣。</p></body></html>"
+"p><p>Ctrl + 點擊可在目前選定的圖層上取樣。Ctrl + Alt + 點擊則會從上一次選定的"
+"圖層中取樣。</p></body></html>"
 
 #: plugins/paintops/deform/deform_paintop_plugin.cpp:29
 #, kde-format
@@ -51023,7 +51035,9 @@ msgid ""
 "<nobr>Blending controls the percentage of color that is sampled</nobr> and "
 "mixed with your current brush color. A full blending value samples colors "
 "completely, ignoring brush color."
-msgstr "<nobr>混色數值控制取樣色彩的比例，</nobr>按此比例與目前筆刷色彩進行混合。混色數值最大時，取樣的色彩將完全取代目前筆刷色彩。"
+msgstr ""
+"<nobr>混色數值控制取樣色彩的比例，</nobr>按此比例與目前筆刷色彩進行混合。混色"
+"數值最大時，取樣的色彩將完全取代目前筆刷色彩。"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, cmbSources)
 #: plugins/tools/basictools/wdgcolorsampler.ui:75
@@ -51031,7 +51045,9 @@ msgstr "<nobr>混色數值控制取樣色彩的比例，</nobr>按此比例與�
 msgid ""
 "<nobr>Determines whether the color sampler will sample</nobr> colors from "
 "all visible layers or only the currently selected layer."
-msgstr "<nobr>控制色彩取樣器將</nobr>取樣全部可見圖層的色彩還是只取樣目前選取圖層的色彩。"
+msgstr ""
+"<nobr>控制色彩取樣器將</nobr>取樣全部可見圖層的色彩還是只取樣目前選取圖層的色"
+"彩。"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbSources)
 #: plugins/tools/basictools/wdgcolorsampler.ui:82
@@ -51083,7 +51099,9 @@ msgstr "半徑："
 msgid ""
 "<nobr>Radius controls the color sampler's sampling area.</nobr> Pixel colors "
 "within this radius are mixed together."
-msgstr "<nobr>半徑控制色彩取樣器的取樣面積大小。</nobr>在此區域內的像素色彩將混合為一種色彩之後被取樣。"
+msgstr ""
+"<nobr>半徑控制色彩取樣器的取樣面積大小。</nobr>在此區域內的像素色彩將混合為一"
+"種色彩之後被取樣。"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, cbPalette)
 #: plugins/tools/basictools/wdgcolorsampler.ui:218
@@ -51091,7 +51109,8 @@ msgstr "<nobr>半徑控制色彩取樣器的取樣面積大小。</nobr>在此�
 msgid ""
 "<nobr>Checking this box will add a new color swatch</nobr> to a palette each "
 "time you sample a color."
-msgstr "<nobr>勾選後，每次取樣色彩時將其作為一個新的色塊</nobr>新增到調色板中。"
+msgstr ""
+"<nobr>勾選後，每次取樣色彩時將其作為一個新的色塊</nobr>新增到調色板中。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbPalette)
 #: plugins/tools/basictools/wdgcolorsampler.ui:221
