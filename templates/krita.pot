@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-08 00:15+0000\n"
+"POT-Creation-Date: 2021-08-10 00:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -14298,6 +14298,15 @@ msgstr ""
 msgid "Active tool: %1"
 msgstr ""
 
+#: libs/flake/svg/SvgParser.cpp:1773
+#, kde-format
+msgctxt "warning while loading SVG text"
+msgid ""
+"The document has vector text created in Krita 4.x. When you save the "
+"document, the text object will be converted into Krita 5 format that will no "
+"longer be compatible with Krita 4.x"
+msgstr ""
+
 #: libs/flake/text/KoSvgTextShape.cpp:572
 #: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:51
 #: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:53
@@ -15808,7 +15817,7 @@ msgstr ""
 
 #: libs/impex/KisExportCheckRegistry.cpp:111
 #: libs/ui/kis_mask_manager.cc:210 libs/ui/kis_node_manager.cpp:1290
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:211
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:214
 #: plugins/impex/psd/psd_loader.cpp:288 plugins/impex/xcf/kis_xcf_import.cpp:273
 #, kde-format
 msgid "Transparency Mask"
@@ -17353,6 +17362,7 @@ msgstr ""
 #: libs/ui/KisRemoteFileFetcher.cpp:42 libs/ui/KisTemplateCreateDia.cpp:284
 #: libs/ui/KisTemplateCreateDia.cpp:390 libs/ui/KisView.cpp:670
 #: libs/ui/KisWelcomePageWidget.cpp:691 libs/ui/opengl/kis_opengl_canvas2.cpp:410
+#: libs/ui/utils/KisClipboardUtil.cpp:130
 #: libs/ui/widgets/gradient/KisGradientChooser.cpp:534
 #: libs/ui/widgets/kis_custom_image_widget.cc:299
 #: plugins/assistants/Assistants/kis_assistant_tool.cc:1080
@@ -18003,7 +18013,7 @@ msgstr ""
 #: libs/ui/dialogs/KisRecoverNamedAutosaveDialog.ui:60
 #: libs/ui/forms/wdgpaintopsettings.ui:201
 #: libs/ui/input/kis_tool_invocation_action.cpp:43
-#: libs/ui/kis_clipboard.cc:302 libs/ui/utils/KisClipboardUtil.cpp:67
+#: libs/ui/kis_clipboard.cc:302 libs/ui/utils/KisClipboardUtil.cpp:70
 #: plugins/dockers/gamutmask/forms/wdgGamutMaskChooser.ui:190
 #: plugins/dockers/recorder/recorder_export.ui:703
 #: plugins/dockers/recorder/recorder_snapshots_manager.ui:130
@@ -19772,13 +19782,13 @@ msgid "Edit Guides"
 msgstr ""
 
 #: libs/ui/canvas/kis_guides_manager.cpp:543
-#: libs/ui/canvas/kis_mirror_axis.cpp:281
+#: libs/ui/canvas/kis_mirror_axis.cpp:290
 #, kde-format
 msgid "Y: %1 px"
 msgstr ""
 
 #: libs/ui/canvas/kis_guides_manager.cpp:548
-#: libs/ui/canvas/kis_mirror_axis.cpp:269
+#: libs/ui/canvas/kis_mirror_axis.cpp:274
 #, kde-format
 msgid "X: %1 px"
 msgstr ""
@@ -20973,7 +20983,7 @@ msgstr ""
 msgid "Vector Layer %1"
 msgstr ""
 
-#: libs/ui/flake/kis_shape_layer.cc:610
+#: libs/ui/flake/kis_shape_layer.cc:617
 #, kde-format
 msgid "No store backend"
 msgstr ""
@@ -26621,7 +26631,7 @@ msgstr ""
 msgid "Opening document"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1735
+#: libs/ui/KisDocument.cpp:1735 libs/ui/utils/KisClipboardUtil.cpp:131
 #, kde-format
 msgid ""
 "Could not open %2.\n"
@@ -28717,42 +28727,42 @@ msgid ""
 "run the new AppImage."
 msgstr ""
 
-#: libs/ui/utils/KisClipboardUtil.cpp:55
+#: libs/ui/utils/KisClipboardUtil.cpp:58
 #, kde-format
 msgid "Insert as New Layer"
 msgstr ""
 
-#: libs/ui/utils/KisClipboardUtil.cpp:56
+#: libs/ui/utils/KisClipboardUtil.cpp:59
 #, kde-format
 msgid "Insert Many Layers"
 msgstr ""
 
-#: libs/ui/utils/KisClipboardUtil.cpp:58
+#: libs/ui/utils/KisClipboardUtil.cpp:61
 #, kde-format
 msgid "Insert as New File Layer"
 msgstr ""
 
-#: libs/ui/utils/KisClipboardUtil.cpp:59
+#: libs/ui/utils/KisClipboardUtil.cpp:62
 #, kde-format
 msgid "Insert Many File Layers"
 msgstr ""
 
-#: libs/ui/utils/KisClipboardUtil.cpp:61
+#: libs/ui/utils/KisClipboardUtil.cpp:64
 #, kde-format
 msgid "Open in New Document"
 msgstr ""
 
-#: libs/ui/utils/KisClipboardUtil.cpp:62
+#: libs/ui/utils/KisClipboardUtil.cpp:65
 #, kde-format
 msgid "Open Many Documents"
 msgstr ""
 
-#: libs/ui/utils/KisClipboardUtil.cpp:64
+#: libs/ui/utils/KisClipboardUtil.cpp:67
 #, kde-format
 msgid "Insert as Reference Image"
 msgstr ""
 
-#: libs/ui/utils/KisClipboardUtil.cpp:65
+#: libs/ui/utils/KisClipboardUtil.cpp:68
 #, kde-format
 msgid "Insert as Reference Images"
 msgstr ""
@@ -41832,7 +41842,7 @@ msgctxt "@title:window"
 msgid "File not found"
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:259
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:262
 #, kde-format
 msgctxt "Warning during loading a kra file with a filter layer"
 msgid ""
@@ -41840,7 +41850,7 @@ msgid ""
 "selection."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:322
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:325
 #, kde-format
 msgctxt "Loading a .kra file"
 msgid ""
@@ -41848,74 +41858,74 @@ msgid ""
 "layer will be converted into a paint layer."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:390
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:393
 #, kde-format
 msgid "Could not load \"id\" of the transform mask"
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:404
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:407
 #, kde-format
 msgid "Could not create transform mask params"
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:557
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:560
 #, kde-format
 msgid "Could not find keyframe pixel data for frame %1 in %2."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:565
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:568
 #, kde-format
 msgid "Could not load keyframe pixel data for frame %1 in %2."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:594
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:597
 #, kde-format
 msgid "Could not read pixel data: %1."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:601
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:604
 #, kde-format
 msgid "Could not load pixel data: %1."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:617
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:620
 #, kde-format
 msgid "Could not load profile: %1."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:672
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:675
 #, kde-format
 msgid "Could not filter configuration %1."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:713
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:716
 #, kde-format
 msgid "Could not load metadata for layer %1."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:756
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:759
 #, kde-format
 msgid "Could not load vector selection %1."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:772
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:775
 #, kde-format
 msgid "Could not load raster selection %1."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:802
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:805
 #, kde-format
 msgid "Could not load keyframes from %1."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:816
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:819
 #, kde-format
 msgid ""
 "parsing error in the keyframe file %1 at line %2, column %3\n"
 "Error message: %4"
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:829
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:832
 #, kde-format
 msgid "unknown keyframe channel type: %1 in %2"
 msgstr ""
