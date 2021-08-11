@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-10 00:15+0000\n"
+"POT-Creation-Date: 2021-08-11 00:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -17758,7 +17758,7 @@ msgid "Resources Cache Database Explorer"
 msgstr ""
 
 #: libs/resourcewidgets/dbexplorer/DlgDbExplorer.cpp:69
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:50
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:53
 #: libs/resourcewidgets/KisTagToolButton.cpp:54
 #, kde-format
 msgid "Tag"
@@ -17923,33 +17923,33 @@ msgid ""
 "provides brush presets."
 msgstr ""
 
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:63
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:66
 #, kde-format
 msgid "Tag options"
 msgstr ""
 
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:129
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:244
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:134
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:249
 #, kde-format
 msgctxt "Dialog title"
 msgid "Can't rename the tag"
 msgstr ""
 
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:129
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:218
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:244
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:134
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:223
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:249
 #, kde-format
 msgctxt "Dialog message"
 msgid "You can't use this name for your custom tags."
 msgstr ""
 
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:138
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:143
 #, kde-format
 msgctxt "Dialog title"
 msgid "Remove existing tag with that name?"
 msgstr ""
 
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:140
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:145
 #, kde-format
 msgctxt ""
 "Dialog message (the arguments are both somewhat user readable nouns or "
@@ -17962,7 +17962,7 @@ msgid ""
 "Tag's unique name: %2"
 msgstr ""
 
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:206
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:211
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:116
 #, kde-format
 msgctxt ""
@@ -17971,28 +17971,28 @@ msgctxt ""
 msgid "Restore previous tag"
 msgstr ""
 
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:207
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:212
 #, kde-format
 msgctxt ""
 "Option in a dialog to use existing tag with its old assigned resources"
 msgid "Use existing tag"
 msgstr ""
 
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:209
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:214
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:113
 #, kde-format
 msgctxt "Dialog title"
 msgid "Overwrite tag?"
 msgstr ""
 
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:210
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:215
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:114
 #, kde-format
 msgctxt "Question to the user in a dialog about creating a tag"
 msgid "A tag with this unique name already exists. Do you want to replace it?"
 msgstr ""
 
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:211
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:216
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:115
 #, kde-format
 msgctxt ""
@@ -18007,7 +18007,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QPushButton, bnCancelMaskEdit)
 #. i18n: ectx: property (text), widget (QPushButton, buttonCancel)
 #. i18n: ectx: property (text), widget (QPushButton, buttonCancelExport)
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:212
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:217
 #: libs/ui/dialogs/kis_delayed_save_dialog.cpp:50
 #: libs/ui/dialogs/KisAsyncAnimationRenderDialogBase.cpp:154
 #: libs/ui/dialogs/KisRecoverNamedAutosaveDialog.ui:60
@@ -18024,7 +18024,7 @@ msgstr ""
 msgid "Cancel"
 msgstr ""
 
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:218
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:223
 #, kde-format
 msgctxt "Dialog title"
 msgid "Can't create the tag"
