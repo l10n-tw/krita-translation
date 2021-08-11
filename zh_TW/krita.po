@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-08-10 00:15+0000\n"
-"PO-Revision-Date: 2021-08-10 06:48+0000\n"
+"PO-Revision-Date: 2021-08-11 08:09+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -14321,13 +14321,14 @@ msgid "Active tool: %1"
 msgstr "使用中工具：%1"
 
 #: libs/flake/svg/SvgParser.cpp:1773
-#, kde-format
+#, fuzzy, kde-format
 msgctxt "warning while loading SVG text"
 msgid ""
 "The document has vector text created in Krita 4.x. When you save the "
 "document, the text object will be converted into Krita 5 format that will no "
 "longer be compatible with Krita 4.x"
 msgstr ""
+"文件內含有由 Krita 4.x 建立的向量文字。當您儲存文件時，這些文字物件將會被轉換為 Krita 5 格式而不再兼容 Krita 4.x 版本。"
 
 #: libs/flake/text/KoSvgTextShape.cpp:572
 #: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:51
