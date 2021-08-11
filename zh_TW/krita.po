@@ -14328,7 +14328,8 @@ msgid ""
 "document, the text object will be converted into Krita 5 format that will no "
 "longer be compatible with Krita 4.x"
 msgstr ""
-"文件內含有由 Krita 4.x 建立的向量文字。當您儲存文件時，這些文字物件將會被轉換為 Krita 5 格式而不再兼容 Krita 4.x 版本"
+"文件內含有由 Krita 4.x 建立的向量文字。當您儲存文件時，這些文字物件將會被轉換"
+"為 Krita 5 格式而不再兼容 Krita 4.x 版本"
 
 #: libs/flake/text/KoSvgTextShape.cpp:572
 #: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:51
