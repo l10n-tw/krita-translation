@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-11 00:16+0000\n"
+"POT-Creation-Date: 2021-08-12 00:15+0000\n"
 "PO-Revision-Date: 2021-08-12 07:05+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
@@ -24743,9 +24743,10 @@ msgid ""
 "tablet driver implementation).</p><p><br/></p><p>After changing this option "
 "Krita should be restarted.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>某些數位板不支援在數位板 API 中傳遞筆身按鍵。如果您的裝置符合上述情況，請啟用此選項。Krita "
-"會嘗試根據滑鼠輸入事件識別右鍵和中間鍵點擊，但不能保證一定有效 (取決於數位板驅動程式的實現方式)。</p><p><br/></"
-"p><p>變更此選項後必須重啟 Krita。</p></body></html>"
+"<html><head/><body><p>某些數位板不支援在數位板 API 中傳遞筆身按鍵。如果您的裝"
+"置符合上述情況，請啟用此選項。Krita 會嘗試根據滑鼠輸入事件識別右鍵和中間鍵點"
+"擊，但不能保證一定有效 (取決於數位板驅動程式的實現方式)。</p><p><br/></p><p>"
+"變更此選項後必須重啟 Krita。</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkUseRightMiddleClickWorkaround)
 #: libs/ui/forms/wdgtabletsettings.ui:232
@@ -24753,7 +24754,8 @@ msgstr ""
 msgid ""
 "Use mouse events for right- and middle-clicks (workaround for convertible "
 "devices, needs restart)"
-msgstr "透過滑鼠事件讀取右鍵和中間鍵點擊 (針對某些二合一平板電腦，需要重啟程式)"
+msgstr ""
+"透過滑鼠事件讀取右鍵和中間鍵點擊 (針對某些二合一平板電腦，需要重啟程式)"
 
 #: libs/ui/imagesize/dlg_canvassize.cc:41
 #, kde-format
@@ -26457,21 +26459,41 @@ msgstr ""
 "</span></b></p>"
 
 #: libs/ui/kis_splash_screen.cpp:219
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "<html><head/><body><p><span style=\" color:%1;\"><b>Links</b></span></"
+#| "p><p><a href=\"https://krita.org/support-us/\"><span style=\" text-"
+#| "decoration: underline; color:%1;\">Support Krita</span></a></p><p><a href="
+#| "\"https://docs.krita.org/en/user_manual/getting_started.html\"><span "
+#| "style=\" text-decoration: underline; color:%1;\">Getting Started</span></"
+#| "a></p><p><a href=\"https://docs.krita.org/\"><span style=\" text-"
+#| "decoration: underline; color:%1;\">Manual</span></a></p><p><a href="
+#| "\"https://krita.org/\"><span style=\" text-decoration: underline; color:"
+#| "%1;\">Krita Website</span></a></p><p><a href=\"https://forum.kde.org/"
+#| "viewforum.php?f=136\"><span style=\" text-decoration: underline; color:%1;"
+#| "\">User Community</span></a></p><p><a href=\"https://phabricator.kde.org/"
+#| "source/krita/\"><span style=\" text-decoration: underline; color:%1;"
+#| "\">Source Code</span></a></p></body></html>"
 msgid ""
-"<html><head/><body><p><span style=\" color:%1;\"><b>Links</b></span></"
-"p><p><a href=\"https://krita.org/support-us/\"><span style=\" text-"
-"decoration: underline; color:%1;\">Support Krita</span></a></p><p><a href="
-"\"https://docs.krita.org/en/user_manual/getting_started.html\"><span style="
-"\" text-decoration: underline; color:%1;\">Getting Started</span></a></"
-"p><p><a href=\"https://docs.krita.org/\"><span style=\" text-decoration: "
-"underline; color:%1;\">Manual</span></a></p><p><a href=\"https://krita.org/"
-"\"><span style=\" text-decoration: underline; color:%1;\">Krita Website</"
-"span></a></p><p><a href=\"https://forum.kde.org/viewforum.php?f=136\"><span "
-"style=\" text-decoration: underline; color:%1;\">User Community</span></a></"
-"p><p><a href=\"https://phabricator.kde.org/source/krita/\"><span style=\" "
-"text-decoration: underline; color:%1;\">Source Code</span></a></p></body></"
-"html>"
+"<html><head/><body><table width=\"100%\" cellpadding=\"30\"><tr><td><p><span "
+"style=\" color:%1;\"><b>Using Krita</b></span></p><p><a href=\"https://krita."
+"org/support-us/\"><span style=\" text-decoration: underline; color:%1;"
+"\">Support Krita's Development!</span></a></p><p><a href=\"https://docs."
+"krita.org/en/user_manual/getting_started.html\"><span style=\" text-"
+"decoration: underline; color:%1;\">Getting Started</span></a></p><p><a href="
+"\"https://docs.krita.org/\"><span style=\" text-decoration: underline; color:"
+"%1;\">Manual</span></a></p><p><a href=\"https://krita.org/\"><span style=\" "
+"text-decoration: underline; color:%1;\">Krita Website</span></a></p></"
+"td><td><p><span style=\" color:%1;\"><b>Coding Krita</b></span></p><p><a "
+"href=\"https://krita-artists.org\"><span style=\" text-decoration: "
+"underline; color:%1;\">User Community</span></a></p><p><a href=\"https://"
+"invent.kde.org/graphics/krita\"><span style=\" text-decoration: underline; "
+"color:%1;\">Source Code</span></a></p><p><a href=\"https://api.kde.org/"
+"appscomplete-api/krita-apidocs/libs/libkis/html/index.html\"><span style=\" "
+"text-decoration: underline; color:%1;\">Scripting API</span></a></p><p><a "
+"href=\"https://scripting.krita.org/lessons/introduction\"><span style=\" "
+"text-decoration: underline; color:%1;\">Scripting School</span></a></p></"
+"td></table></body></html>"
 msgstr ""
 "<html><head/><body><p><span style=\" color:%1;\"><b>網站連結</b></span></"
 "p><p><a href=\"https://krita.org/support-us/\"><span style=\" text-"
@@ -38637,7 +38659,7 @@ msgstr "筆刷"
 msgid "Manage Resources"
 msgstr "管理資源"
 
-#: plugins/extensions/resourcemanager/DlgResourceManager.cpp:216
+#: plugins/extensions/resourcemanager/DlgResourceManager.cpp:220
 #, kde-format
 msgctxt ""
 "In Resource manager, this is text shown instead of filename, name or "
@@ -38646,7 +38668,7 @@ msgctxt ""
 msgid "(Multiple selected)"
 msgstr "(已選擇多項)"
 
-#: plugins/extensions/resourcemanager/DlgResourceManager.cpp:232
+#: plugins/extensions/resourcemanager/DlgResourceManager.cpp:236
 #, kde-format
 msgctxt ""
 "In Resource manager, this is text shown instead of filename, name or "
@@ -38654,19 +38676,19 @@ msgctxt ""
 msgid "(None selected)"
 msgstr "(未選擇)"
 
-#: plugins/extensions/resourcemanager/DlgResourceManager.cpp:374
+#: plugins/extensions/resourcemanager/DlgResourceManager.cpp:378
 #, kde-format
 msgid "Undelete Resources"
 msgstr "還原刪除資源"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnDeleteResource)
-#: plugins/extensions/resourcemanager/DlgResourceManager.cpp:376
+#: plugins/extensions/resourcemanager/DlgResourceManager.cpp:380
 #: plugins/extensions/resourcemanager/WdgDlgResourceManager.ui:201
 #, kde-format
 msgid "Delete Resources"
 msgstr "刪除資源"
 
-#: plugins/extensions/resourcemanager/DlgResourceManager.cpp:394
+#: plugins/extensions/resourcemanager/DlgResourceManager.cpp:398
 #, kde-format
 msgctxt "Brush engine type, in resource manager"
 msgid "Engine: "
