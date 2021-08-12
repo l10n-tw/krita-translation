@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-08-11 00:16+0000\n"
-"PO-Revision-Date: 2021-08-11 08:10+0000\n"
+"PO-Revision-Date: 2021-08-12 07:05+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -644,7 +644,7 @@ msgstr "18 紋理 - 樹皮石"
 #, kde-format
 msgctxt "./krita/data/patterns/18b_WaveFlex.png"
 msgid "18b WaveFlex"
-msgstr "18b WaveFlex"
+msgstr "波紋"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
@@ -1142,7 +1142,7 @@ msgstr "抽象紋理 2"
 msgctxt ""
 "./krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/A_bokey.gbr"
 msgid "A -52 Bokey"
-msgstr "A -52 Bokey"
+msgstr "焦外散景糊點"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
@@ -1216,7 +1216,7 @@ msgstr "高山紋理"
 msgctxt ""
 "./krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/A_provencal.gbr"
 msgid "A_provencal"
-msgstr "A_provencal"
+msgstr "普羅旺斯"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
@@ -3034,7 +3034,7 @@ msgctxt ""
 "./krita/data/bundles/Krita_3_Default_Resources.bundle:patterns/18b_WaveFlex."
 "png"
 msgid "18b WaveFlex"
-msgstr "18b WaveFlex"
+msgstr "波紋"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
@@ -5042,7 +5042,7 @@ msgctxt ""
 "./krita/data/bundles/Krita_4_Default_Resources.bundle:patterns/18b_WaveFlex."
 "png"
 msgid "18b WaveFlex"
-msgstr "18b WaveFlex"
+msgstr "波紋"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
@@ -5528,7 +5528,7 @@ msgctxt ""
 "./krita/data/bundles/Krita_Artists_SeExpr_examples.bundle:seexpr_scripts/"
 "Wolthera's_Circles_with_Voronoi.kse"
 msgid "Wolthera's Circles with Voronoi"
-msgstr "Wolthera 的 Voronoi 雜訊圓形"
+msgstr "Wolthera 的沃羅諾伊產生圓圈"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
@@ -5568,7 +5568,7 @@ msgctxt ""
 "./krita/data/bundles/Krita_Artists_SeExpr_examples.bundle:seexpr_scripts/"
 "Wolthera's_Color_Voronoi.kse"
 msgid "Wolthera's Color Voronoi"
-msgstr "Wolthera 的彩色 Voronoi"
+msgstr "Wolthera 的彩色沃羅諾伊圖"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
@@ -5648,7 +5648,7 @@ msgctxt ""
 "./krita/data/bundles/Krita_Artists_SeExpr_examples.bundle:seexpr_scripts/"
 "Wolthera's_Malachite.kse"
 msgid "Wolthera's Malachite"
-msgstr "Wolthera 的 孔雀石"
+msgstr "Wolthera 的孔雀石"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
@@ -5744,7 +5744,7 @@ msgctxt ""
 "./krita/data/bundles/Krita_Artists_SeExpr_examples.bundle:seexpr_scripts/"
 "Wolthera's_Voronoi_cells.kse"
 msgid "Wolthera's Voronoi cells"
-msgstr "Wolthera 的 Voronoi 細胞球"
+msgstr "Wolthera 的沃羅諾伊細胞球"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
@@ -6399,7 +6399,7 @@ msgstr "高科技風 1"
 msgctxt ""
 "./krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/V_Vyle_Rock.gih"
 msgid "Vyle Rock"
-msgstr "Vyle Rock"
+msgstr "討厭的石頭"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #: krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/z_study_pencil_2H.gih:1
@@ -14298,7 +14298,7 @@ msgid ""
 "Error message: %3"
 msgstr ""
 "在主檔案的第 %1 行第 %2 列發生解析錯誤\n"
-"錯誤消息：%3"
+"錯誤訊息：%3"
 
 #: libs/flake/KoPathShapeFactory.cpp:25
 #, kde-format
@@ -18102,7 +18102,7 @@ msgctxt "@info:tooltip"
 msgid ""
 "<p>Pressing <b>Enter</b> or clicking the <b>Save</b> button will save the "
 "changes.</p>"
-msgstr "<p>按 <b>Enter</b> 或按「<b>儲存</b>」按鈕儲存變更。</p>"
+msgstr "<p>按下 <b>Enter</b> 或點選「<b>儲存</b>」按鈕儲存變更。</p>"
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, lneFilterText)
 #: libs/resourcewidgets/KisTagFilterWidget.cpp:65
@@ -20517,7 +20517,7 @@ msgstr "傾斜度輪廓"
 #: libs/ui/dialogs/kis_dlg_preferences.cc:258
 #, kde-format
 msgid "On Touch Drag"
-msgstr "以觸控螢幕拖曳捲動 "
+msgstr "以觸控螢幕拖曳捲動"
 
 #: libs/ui/dialogs/kis_dlg_preferences.cc:259
 #, kde-format
@@ -20527,7 +20527,7 @@ msgstr "點擊並拖曳捲動"
 #: libs/ui/dialogs/kis_dlg_preferences.cc:260
 #, kde-format
 msgid "On Middle-Click Drag"
-msgstr "按住中間鍵拖曳捲動 "
+msgstr "按住中間鍵拖曳捲動"
 
 #: libs/ui/dialogs/kis_dlg_preferences.cc:291
 #, kde-format
@@ -22499,7 +22499,7 @@ msgstr "移動子視窗時不顯示內容"
 #: libs/ui/forms/wdggeneralsettings.ui:359
 #, kde-format
 msgid "Show on-canvas popup messages"
-msgstr "在畫布上顯示浮動消息"
+msgstr "在畫布上顯示浮動訊息"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkHiDPI)
 #: libs/ui/forms/wdggeneralsettings.ui:366
@@ -24743,10 +24743,9 @@ msgid ""
 "tablet driver implementation).</p><p><br/></p><p>After changing this option "
 "Krita should be restarted.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>某些數位板不支援在數位板 API 中傳遞筆身按鍵。如果您的裝"
-"置符合上述情況，請啟用此選項。Krita 會嘗試根據滑鼠輸入事件識別右鍵和中間鍵點"
-"按，但不能保證一定有效 (取決於數位板驅動程式的實現方式)。</p><p><br/></p><p>"
-"變更此選項後必須重啟 Krita。</p></body></html>"
+"<html><head/><body><p>某些數位板不支援在數位板 API 中傳遞筆身按鍵。如果您的裝置符合上述情況，請啟用此選項。Krita "
+"會嘗試根據滑鼠輸入事件識別右鍵和中間鍵點擊，但不能保證一定有效 (取決於數位板驅動程式的實現方式)。</p><p><br/></"
+"p><p>變更此選項後必須重啟 Krita。</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkUseRightMiddleClickWorkaround)
 #: libs/ui/forms/wdgtabletsettings.ui:232
@@ -24754,7 +24753,7 @@ msgstr ""
 msgid ""
 "Use mouse events for right- and middle-clicks (workaround for convertible "
 "devices, needs restart)"
-msgstr "透過滑鼠事件讀取右鍵和中間鍵點擊 (針對二合一筆記本，需要重啟程式)"
+msgstr "透過滑鼠事件讀取右鍵和中間鍵點擊 (針對某些二合一平板電腦，需要重啟程式)"
 
 #: libs/ui/imagesize/dlg_canvassize.cc:41
 #, kde-format
@@ -42719,7 +42718,7 @@ msgid ""
 "Error message: %4"
 msgstr ""
 "在關鍵影格檔案 %1 的第 %2 行第 %3 列發生解析錯誤\n"
-"錯誤消息：%4"
+"錯誤訊息：%4"
 
 #: plugins/impex/libkra/kis_kra_load_visitor.cpp:832
 #, kde-format
@@ -43016,7 +43015,7 @@ msgid ""
 "Error message: %4"
 msgstr ""
 "在 %1 的第 %2 行第 %3 列發生解析錯誤\n"
-"錯誤消息：%4"
+"錯誤訊息：%4"
 
 #: plugins/impex/libkra/kra_converter.cpp:343
 #, kde-format
