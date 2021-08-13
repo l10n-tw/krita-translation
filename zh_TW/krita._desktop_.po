@@ -17,13 +17,14 @@
 # Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2006, 2007, 2008, 2009, 2010.
 # Alvin Wong <alvin@alvinhc.com>, 2021.
 # BiseChen <bise.chen@gmail.com>, 2021.
+# 楊景貴 <issacsopp@gmail.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: desktop_koffice\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-20 00:26+0000\n"
-"PO-Revision-Date: 2021-08-13 07:40+0000\n"
-"Last-Translator: BiseChen <bise.chen@gmail.com>\n"
+"PO-Revision-Date: 2021-08-13 08:00+0000\n"
+"Last-Translator: 楊景貴 <issacsopp@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita-desktop/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -86,12 +87,12 @@ msgstr "上墨用筆刷預設"
 #: krita/data/paintoppresets/Paint.tag:4
 msgctxt "Name"
 msgid "Paint"
-msgstr "塗油"
+msgstr "塗繪"
 
 #: krita/data/paintoppresets/Paint.tag:26
 msgctxt "Comment"
 msgid "Paint Brushes"
-msgstr "顏料塗油筆刷"
+msgstr "塗繪筆刷"
 
 #: krita/data/paintoppresets/Pixel_Art.tag:4
 msgctxt "Name"
