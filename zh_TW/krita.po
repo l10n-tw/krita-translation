@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-12 00:15+0000\n"
-"PO-Revision-Date: 2021-08-12 07:05+0000\n"
+"POT-Creation-Date: 2021-08-13 00:17+0000\n"
+"PO-Revision-Date: 2021-08-13 07:41+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -26459,21 +26459,7 @@ msgstr ""
 "</span></b></p>"
 
 #: libs/ui/kis_splash_screen.cpp:219
-#, fuzzy, kde-format
-#| msgid ""
-#| "<html><head/><body><p><span style=\" color:%1;\"><b>Links</b></span></"
-#| "p><p><a href=\"https://krita.org/support-us/\"><span style=\" text-"
-#| "decoration: underline; color:%1;\">Support Krita</span></a></p><p><a href="
-#| "\"https://docs.krita.org/en/user_manual/getting_started.html\"><span "
-#| "style=\" text-decoration: underline; color:%1;\">Getting Started</span></"
-#| "a></p><p><a href=\"https://docs.krita.org/\"><span style=\" text-"
-#| "decoration: underline; color:%1;\">Manual</span></a></p><p><a href="
-#| "\"https://krita.org/\"><span style=\" text-decoration: underline; color:"
-#| "%1;\">Krita Website</span></a></p><p><a href=\"https://forum.kde.org/"
-#| "viewforum.php?f=136\"><span style=\" text-decoration: underline; color:%1;"
-#| "\">User Community</span></a></p><p><a href=\"https://phabricator.kde.org/"
-#| "source/krita/\"><span style=\" text-decoration: underline; color:%1;"
-#| "\">Source Code</span></a></p></body></html>"
+#, kde-format
 msgid ""
 "<html><head/><body><table width=\"100%\" cellpadding=\"30\"><tr><td><p><span "
 "style=\" color:%1;\"><b>Using Krita</b></span></p><p><a href=\"https://krita."
@@ -26495,18 +26481,24 @@ msgid ""
 "text-decoration: underline; color:%1;\">Scripting School</span></a></p></"
 "td></table></body></html>"
 msgstr ""
-"<html><head/><body><p><span style=\" color:%1;\"><b>網站連結</b></span></"
-"p><p><a href=\"https://krita.org/support-us/\"><span style=\" text-"
-"decoration: underline; color:%1;\">資助 Krita</span></a></p><p><a href="
-"\"https://docs.krita.org/en/user_manual/getting_started.html\"><span style="
-"\" text-decoration: underline; color:%1;\">新手入門</span></a></p><p><a href="
-"\"https://docs.krita.org/\"><span style=\" text-decoration: underline; color:"
-"%1;\">使用者手冊</span></a></p><p><a href=\"https://krita.org/\"><span style="
-"\" text-decoration: underline; color:%1;\">Krita 網站</span></a></p><p><a "
-"href=\"https://forum.kde.org/viewforum.php?f=136\"><span style=\" text-"
-"decoration: underline; color:%1;\">使用者社群</span></a></p><p><a href="
-"\"https://phabricator.kde.org/source/krita/\"><span style=\" text-"
-"decoration: underline; color:%1;\">原始碼</span></a></p></body></html>"
+"<html><head/><body><table width=\"100%\" cellpadding=\"30\"><tr><td><p><span "
+"style=\" color:%1;\"><b>使用 Krita</b></span></p><p><a href=\"https://krita."
+"org/support-us/\"><span style=\" text-decoration: underline; color:%1;\">資"
+"助 Krita 發展！</span></a></p><p><a href=\"https://docs.krita.org/en/"
+"user_manual/getting_started.html\"><span style=\" text-decoration: "
+"underline; color:%1;\">新手入門</span></a></p><p><a href=\"https://docs."
+"krita.org/\"><span style=\" text-decoration: underline; color:%1;\">使用者手"
+"冊</span></a></p><p><a href=\"https://krita.org/\"><span style=\" text-"
+"decoration: underline; color:%1;\">Krita 網站</span></a></p></"
+"td><td><p><span style=\" color:%1;\"><b>Krita Coding</b></span></p><p><a "
+"href=\"https://krita-artists.org\"><span style=\" text-decoration: "
+"underline; color:%1;\">使用者社群</span></a></p><p><a href=\"https://invent."
+"kde.org/graphics/krita\"><span style=\" text-decoration: underline; color:%1;"
+"\">原始碼</span></a></p><p><a href=\"https://api.kde.org/appscomplete-api/"
+"krita-apidocs/libs/libkis/html/index.html\"><span style=\" text-decoration: "
+"underline; color:%1;\">指令稿 API</span></a></p><p><a href=\"https://"
+"scripting.krita.org/lessons/introduction\"><span style=\" text-decoration: "
+"underline; color:%1;\">指令稿學園</span></a></p></td></table></body></html>"
 
 #: libs/ui/kis_statusbar.cc:88
 #, kde-format
@@ -42931,75 +42923,85 @@ msgstr "中繼資料後端為 %1 儲存中繼資料失敗"
 msgid "Could not write for %1 metadata to the file."
 msgstr "無法為 %1 中繼資料寫入檔案。"
 
-#: plugins/impex/libkra/kis_kra_saver.cpp:200
+#: plugins/impex/libkra/kis_kra_saver.cpp:203
 #, kde-format
 msgctxt "Error message when saving a .kra file"
 msgid "Could not open resource for writing."
 msgstr "無法開啟資源以供寫入。"
 
-#: plugins/impex/libkra/kis_kra_saver.cpp:221
-#, kde-format
+#: plugins/impex/libkra/kis_kra_saver.cpp:213
+#, fuzzy, kde-format
+#| msgctxt "Error message when saving a .kra file"
+#| msgid "Could not save resources."
 msgctxt "Error message when saving a .kra file"
-msgid "Could not save resources."
+msgid "Could not save resource %1 to the kra file."
 msgstr "無法儲存資源。"
 
-#: plugins/impex/libkra/kis_kra_saver.cpp:237
-#: plugins/impex/libkra/kis_kra_saver.cpp:259
+#: plugins/impex/libkra/kis_kra_saver.cpp:231
+#, fuzzy, kde-format
+#| msgctxt "Error message when saving a .kra file"
+#| msgid "Could not save resources."
+msgctxt "Error message when saving a .kra file"
+msgid "Could not save resources: %1."
+msgstr "無法儲存資源。"
+
+#: plugins/impex/libkra/kis_kra_saver.cpp:247
+#: plugins/impex/libkra/kis_kra_saver.cpp:269
 #, kde-format
 msgctxt "Error message when saving a .kra file"
 msgid "Could not save storyboards."
 msgstr "無法儲存分鏡。"
 
-#: plugins/impex/libkra/kis_kra_saver.cpp:271
-#: plugins/impex/libkra/kis_kra_saver.cpp:295
+#: plugins/impex/libkra/kis_kra_saver.cpp:281
+#: plugins/impex/libkra/kis_kra_saver.cpp:305
 #, kde-format
 msgctxt "Error message when saving a .kra file"
 msgid "Could not save animation meta data."
 msgstr "無法儲存動畫中繼資料。"
 
-#: plugins/impex/libkra/kis_kra_saver.cpp:403
+#: plugins/impex/libkra/kis_kra_saver.cpp:425
 #, kde-format
 msgctxt "Error message on saving a .kra file"
 msgid "Could not save keyframes."
 msgstr "無法儲存關鍵影格。"
 
-#: plugins/impex/libkra/kis_kra_saver.cpp:447
+#: plugins/impex/libkra/kis_kra_saver.cpp:469
 #, kde-format
 msgctxt "Saving .kra file error message"
 msgid "Could not save annotations."
 msgstr "無法儲存注釋。"
 
-#: plugins/impex/libkra/kis_kra_saver.cpp:481
+#: plugins/impex/libkra/kis_kra_saver.cpp:503
 #, kde-format
 msgctxt "Saving .kra file error message"
 msgid "Could not save image profile."
 msgstr "無法儲存影像特性檔案。"
 
-#: plugins/impex/libkra/kis_kra_saver.cpp:511
+#: plugins/impex/libkra/kis_kra_saver.cpp:533
 #, kde-format
 msgctxt "Saving .kra file error message"
 msgid "Could not save softproofing color profile."
 msgstr "無法儲存螢幕校樣色彩特性檔案。"
 
-#: plugins/impex/libkra/kis_kra_saver.cpp:546
+#: plugins/impex/libkra/kis_kra_saver.cpp:568
 #, kde-format
 msgctxt "Saving .kra file error message"
 msgid "Could not save additional annotations."
 msgstr "無法儲存附加注釋。"
 
-#: plugins/impex/libkra/kis_kra_saver.cpp:579
+#: plugins/impex/libkra/kis_kra_saver.cpp:601
 #, kde-format
 msgctxt "Saving .kra file error message"
 msgid "Could not save layer styles."
 msgstr "無法儲存圖層樣式。"
 
-#: plugins/impex/libkra/kis_kra_saver.cpp:594
+#: plugins/impex/libkra/kis_kra_saver.cpp:616
 #, kde-format
 msgctxt "Saving .kra file error message"
 msgid "Could not save merged image."
 msgstr "無法儲存合併影像。"
 
-#: plugins/impex/libkra/kis_kra_saver.cpp:684
+#: plugins/impex/libkra/kis_kra_saver.cpp:706
 #, kde-format
 msgctxt "Saving .kra file error message"
 msgid "Could not save assistants."

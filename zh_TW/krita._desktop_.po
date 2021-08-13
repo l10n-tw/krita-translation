@@ -16,13 +16,14 @@
 # pan93412 <pan93412@gmail.com>, 2018, 2019, 2020.
 # Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2006, 2007, 2008, 2009, 2010.
 # Alvin Wong <alvin@alvinhc.com>, 2021.
+# BiseChen <bise.chen@gmail.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: desktop_koffice\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-20 00:26+0000\n"
-"PO-Revision-Date: 2021-07-31 03:13+0000\n"
-"Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
+"PO-Revision-Date: 2021-08-13 07:40+0000\n"
+"Last-Translator: BiseChen <bise.chen@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita-desktop/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -40,7 +41,7 @@ msgstr "數位"
 #: krita/data/paintoppresets/Digital.tag:37
 msgctxt "Comment"
 msgid "Brush presets with a digital look and feel."
-msgstr "有數位化感覺的筆刷預設。"
+msgstr "數位化質感的筆刷預設。"
 
 #: krita/data/paintoppresets/Erasers.tag:4
 msgctxt "Name"
@@ -140,12 +141,12 @@ msgstr "動畫範本"
 #: krita/data/templates/comics/a4_waffle_grid.desktop:5
 msgctxt "Name"
 msgid "waffle-iron grid"
-msgstr "格仔餅機格線"
+msgstr "華夫餅/窩夫烤盤格線"
 
 #: krita/data/templates/comics/a4_waffle_grid.desktop:41
 msgctxt "Comment"
 msgid "300 dpi, A4 waffle-iron grid comic page with ink and color layers"
-msgstr "300 dpi，A4 大小的烘餅 / 格仔餅鐵模狀的格線，有墨水與顏色圖層"
+msgstr "300 dpi，A4 大小的華夫餅/窩夫烤盤鐵模狀的格線，有墨水線稿與顏色圖層"
 
 #: krita/data/templates/comics/BD-EuroTemplate.desktop:5
 msgctxt "Name"
