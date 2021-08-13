@@ -5,13 +5,14 @@
 # [Crowdin] Guo Yunhe (guoyunhe), 2019.
 # pan93412 <pan93412@gmail.com>, 2019, 2020, 2021.
 # Alvin Wong <alvin@alvinhc.com>, 2020, 2021.
+# BiseChen <bise.chen@gmail.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-08-13 00:17+0000\n"
-"PO-Revision-Date: 2021-08-13 07:41+0000\n"
-"Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
+"PO-Revision-Date: 2021-08-13 08:00+0000\n"
+"Last-Translator: BiseChen <bise.chen@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -542,7 +543,7 @@ msgstr "02 粗糙畫布"
 #, kde-format
 msgctxt "./krita/data/patterns/02b_WoofTissue.png"
 msgid "02b WoofTissue"
-msgstr "02b WoofTissue"
+msgstr "平紋梭織"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
