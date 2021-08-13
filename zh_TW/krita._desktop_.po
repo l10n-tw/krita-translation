@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: desktop_koffice\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-20 00:26+0000\n"
-"PO-Revision-Date: 2021-07-31 03:13+0000\n"
+"PO-Revision-Date: 2021-08-12 16:06+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita-desktop/zh_Hant/>\n"
@@ -140,12 +140,12 @@ msgstr "動畫範本"
 #: krita/data/templates/comics/a4_waffle_grid.desktop:5
 msgctxt "Name"
 msgid "waffle-iron grid"
-msgstr "格仔餅機格線"
+msgstr "華夫餅/窩夫烤盤格線"
 
 #: krita/data/templates/comics/a4_waffle_grid.desktop:41
 msgctxt "Comment"
 msgid "300 dpi, A4 waffle-iron grid comic page with ink and color layers"
-msgstr "300 dpi，A4 大小的烘餅 / 格仔餅鐵模狀的格線，有墨水與顏色圖層"
+msgstr "300 dpi，A4 大小的華夫餅/窩夫烤盤鐵模狀的格線，有墨水線稿與顏色圖層"
 
 #: krita/data/templates/comics/BD-EuroTemplate.desktop:5
 msgctxt "Name"
