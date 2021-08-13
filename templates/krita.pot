@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-12 00:15+0000\n"
+"POT-Creation-Date: 2021-08-13 00:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -42108,75 +42108,81 @@ msgstr ""
 msgid "Could not write for %1 metadata to the file."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_saver.cpp:200
+#: plugins/impex/libkra/kis_kra_saver.cpp:203
 #, kde-format
 msgctxt "Error message when saving a .kra file"
 msgid "Could not open resource for writing."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_saver.cpp:221
+#: plugins/impex/libkra/kis_kra_saver.cpp:213
 #, kde-format
 msgctxt "Error message when saving a .kra file"
-msgid "Could not save resources."
+msgid "Could not save resource %1 to the kra file."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_saver.cpp:237
-#: plugins/impex/libkra/kis_kra_saver.cpp:259
+#: plugins/impex/libkra/kis_kra_saver.cpp:231
+#, kde-format
+msgctxt "Error message when saving a .kra file"
+msgid "Could not save resources: %1."
+msgstr ""
+
+#: plugins/impex/libkra/kis_kra_saver.cpp:247
+#: plugins/impex/libkra/kis_kra_saver.cpp:269
 #, kde-format
 msgctxt "Error message when saving a .kra file"
 msgid "Could not save storyboards."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_saver.cpp:271
-#: plugins/impex/libkra/kis_kra_saver.cpp:295
+#: plugins/impex/libkra/kis_kra_saver.cpp:281
+#: plugins/impex/libkra/kis_kra_saver.cpp:305
 #, kde-format
 msgctxt "Error message when saving a .kra file"
 msgid "Could not save animation meta data."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_saver.cpp:403
+#: plugins/impex/libkra/kis_kra_saver.cpp:425
 #, kde-format
 msgctxt "Error message on saving a .kra file"
 msgid "Could not save keyframes."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_saver.cpp:447
+#: plugins/impex/libkra/kis_kra_saver.cpp:469
 #, kde-format
 msgctxt "Saving .kra file error message"
 msgid "Could not save annotations."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_saver.cpp:481
+#: plugins/impex/libkra/kis_kra_saver.cpp:503
 #, kde-format
 msgctxt "Saving .kra file error message"
 msgid "Could not save image profile."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_saver.cpp:511
+#: plugins/impex/libkra/kis_kra_saver.cpp:533
 #, kde-format
 msgctxt "Saving .kra file error message"
 msgid "Could not save softproofing color profile."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_saver.cpp:546
+#: plugins/impex/libkra/kis_kra_saver.cpp:568
 #, kde-format
 msgctxt "Saving .kra file error message"
 msgid "Could not save additional annotations."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_saver.cpp:579
+#: plugins/impex/libkra/kis_kra_saver.cpp:601
 #, kde-format
 msgctxt "Saving .kra file error message"
 msgid "Could not save layer styles."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_saver.cpp:594
+#: plugins/impex/libkra/kis_kra_saver.cpp:616
 #, kde-format
 msgctxt "Saving .kra file error message"
 msgid "Could not save merged image."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_saver.cpp:684
+#: plugins/impex/libkra/kis_kra_saver.cpp:706
 #, kde-format
 msgctxt "Saving .kra file error message"
 msgid "Could not save assistants."
