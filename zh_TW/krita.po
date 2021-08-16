@@ -42198,7 +42198,9 @@ msgctxt "@tooltip"
 msgid ""
 "The image will be converted plainly to 12bit integer, and values that are "
 "out of bounds are clipped, the icc profile will be embedded."
-msgstr "影像會簡單直接轉換成 12 位元整數，而範圍以外的值會被削減至上限值，ICC 特性檔案會被嵌入。"
+msgstr ""
+"影像會簡單直接轉換成 12 位元整數，而範圍以外的值會被削減至上限值，ICC 特性檔"
+"案會被嵌入。"
 
 #. i18n: ectx: property (title), widget (QGroupBox, lossySettings)
 #: plugins/impex/heif/WdgHeifExport.ui:21
@@ -43781,10 +43783,11 @@ msgid ""
 "emphasis>: reconstruct highlights using a level value</li></ul></p>"
 msgstr ""
 "<title>高亮色</title><p>選擇高亮色剪貼方式：</p><p><ul><li><emphasis "
-"strong='true'>純白</emphasis>：將所有突出顯示的部分削減至純白色</li><li><emphasis "
-"strong='true'>不削值</emphasis>：保留高亮色為一系列粉色色調，不削減亮度</li><li><emphasis "
-"strong='true'>混色</emphasis>：對削值部分和非削值部分進行混色以營造從色調到白色的漸變</li><li><emphasis "
-"strong='true'>重建</emphasis>：用一個亮度值來重建高亮色</li></ul></p>"
+"strong='true'>純白</emphasis>：將所有突出顯示的部分削減至純白色</"
+"li><li><emphasis strong='true'>不削值</emphasis>：保留高亮色為一系列粉色色"
+"調，不削減亮度</li><li><emphasis strong='true'>混色</emphasis>：對削值部分和"
+"非削值部分進行混色以營造從色調到白色的漸變</li><li><emphasis strong='true'>重"
+"建</emphasis>：用一個亮度值來重建高亮色</li></ul></p>"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:473
 #, kde-format
@@ -51192,7 +51195,9 @@ msgstr "移動有內容的圖層(&V)"
 msgid ""
 "Move the group containing the first layer that contains visible content. "
 "Shortcut: ctrl-shift-click."
-msgstr "移動在點擊位置有可見內容的第一個圖層所在的群組圖層。快捷鍵：Ctrl + Shift + 點擊。"
+msgstr ""
+"移動在點擊位置有可見內容的第一個圖層所在的群組圖層。快捷鍵：Ctrl + Shift + 點"
+"擊。"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioGroup)
 #: plugins/tools/basictools/wdgmovetool.ui:62
@@ -51471,8 +51476,9 @@ msgid ""
 "fields show the shape's &quot;local&quot; size, before application of any "
 "transformations.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>在「全域座標」模式下，形狀的寬度和高度將顯示為與影像對齊的水準和垂直長度，變形時也不例外。</p><p>不使用"
-"「全域座標」模式時，形狀的寬度和高度將顯示為與自身對齊的「本地」大小。</p></body></html>"
+"<html><head/><body><p>在「全域座標」模式下，形狀的寬度和高度將顯示為與影像對"
+"齊的水準和垂直長度，變形時也不例外。</p><p>不使用「全域座標」模式時，形狀的寬"
+"度和高度將顯示為與自身對齊的「本地」大小。</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkGlobalCoordinates)
 #: plugins/tools/defaulttool/defaulttool/DefaultToolGeometryWidget.ui:221
