@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-13 00:17+0000\n"
-"PO-Revision-Date: 2021-08-13 08:00+0000\n"
+"POT-Creation-Date: 2021-08-14 00:15+0000\n"
+"PO-Revision-Date: 2021-08-16 18:29+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -7635,14 +7635,14 @@ msgstr "下移"
 #, kde-format
 msgctxt "action"
 msgid "Show absolute coordinates and offset while move action"
-msgstr "在移動操作時顯示絕對坐標和偏移量"
+msgstr "在移動操作時顯示絕對座標和偏移量"
 
 #. i18n: context: Action (movetool-show-coordinates), Actions (Path Tool), ActionCollection (Tools)
 #: krita/data/actions/MoveTool.action:33
 #, kde-format
 msgctxt "action"
 msgid "Show Coordinates"
-msgstr "顯示坐標"
+msgstr "顯示座標"
 
 #. i18n: context: Action (movetool-move-left), Actions (Path Tool), ActionCollection (Tools)
 #. i18n: context: Action (movetool-move-left), Actions (Path Tool), ActionCollection (Tools)
@@ -8281,7 +8281,7 @@ msgstr "重新載入原始預設"
 #, kde-format
 msgctxt "action"
 msgid "Preserve Alpha"
-msgstr "保持透明度"
+msgstr "保持透明度不變"
 
 #. i18n: context: Action (disable_pressure), Actions (Painting), ActionCollection (Krita)
 #. i18n: context: Action (disable_pressure), Actions (Painting), ActionCollection (Krita)
@@ -10299,7 +10299,7 @@ msgstr "切換至上方圖層"
 #, kde-format
 msgctxt "action"
 msgid "Activate next sibling layer, skipping over groups."
-msgstr "切換至上方相鄰的圖層，並跳過分組內部。"
+msgstr "切換至上方相鄰的圖層，並跳過群組內部。"
 
 #. i18n: context: Action (activateNextSiblingLayer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2304
@@ -10323,7 +10323,7 @@ msgstr "切換至下方圖層"
 #, kde-format
 msgctxt "action"
 msgid "Activate previous sibling layer, skipping over groups."
-msgstr "切換至下方相鄰的圖層，並跳過分組內部。"
+msgstr "切換至下方相鄰的圖層，並跳過群組內部。"
 
 #. i18n: context: Action (activatePreviousSiblingLayer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2328
@@ -10347,14 +10347,14 @@ msgstr "切換至先前選取的圖層"
 #, kde-format
 msgctxt "action"
 msgid "&Group Layer"
-msgstr "分組圖層(&G)"
+msgstr "群組圖層(&G)"
 
 #. i18n: context: Action (add_new_group_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2352
 #, kde-format
 msgctxt "action"
 msgid "Group Layer"
-msgstr "分組圖層"
+msgstr "群組圖層"
 
 #. i18n: context: Action (add_new_clone_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2362
@@ -10713,42 +10713,42 @@ msgstr "從剪貼簿貼上圖層"
 #, kde-format
 msgctxt "action"
 msgid "Quick Group"
-msgstr "快速分組"
+msgstr "快速建立群組"
 
 #. i18n: context: Action (create_quick_group), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2664
 #, kde-format
 msgctxt "action"
 msgid "Create a group layer containing selected layers"
-msgstr "建立一個包含所選圖層的分組圖層"
+msgstr "建立一個包含所選圖層的群組圖層"
 
 #. i18n: context: Action (quick_ungroup), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2674
 #, kde-format
 msgctxt "action"
 msgid "Quick Ungroup"
-msgstr "快速拆散分組"
+msgstr "快速拆散群組"
 
 #. i18n: context: Action (quick_ungroup), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2676
 #, kde-format
 msgctxt "action"
 msgid "Remove grouping of the layers or remove one layer out of the group"
-msgstr "拆散圖層分組或將一個圖層移出該分組"
+msgstr "拆散群組圖層或將一個圖層移出其所在的群組圖層"
 
 #. i18n: context: Action (create_quick_clipping_group), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2686
 #, kde-format
 msgctxt "action"
 msgid "Quick Clipping Group"
-msgstr "快速剪貼分組"
+msgstr "快速建立裁剪群組"
 
 #. i18n: context: Action (create_quick_clipping_group), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2688
 #, kde-format
 msgctxt "action"
 msgid "Group selected layers and add a layer with clipped alpha channel"
-msgstr "將所選圖層分組並新增一個啟用了繼承透明度通道的圖層"
+msgstr "為所選圖層建立群組並加入一個啟用了「繼承透明度」的圖層"
 
 #. i18n: context: Action (select_all_layers), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2698
@@ -10853,21 +10853,21 @@ msgstr "將向量圖層另存為 SVG"
 #, kde-format
 msgctxt "action"
 msgid "Save &Group Layers..."
-msgstr "儲存分組圖層(&G)…"
+msgstr "儲存群組圖層(&G)…"
 
 #. i18n: context: Action (save_groups_as_images), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2784
 #, kde-format
 msgctxt "action"
 msgid "Save Group Layers"
-msgstr "儲存分組圖層"
+msgstr "儲存群組圖層"
 
 #. i18n: context: Action (convert_group_to_animated), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2794
 #, kde-format
 msgctxt "action"
 msgid "Convert group to &animated layer"
-msgstr "將圖層分組轉成動畫圖層(&A)"
+msgstr "將群組圖層轉換成動畫圖層(&A)"
 
 #. i18n: context: Action (convert_group_to_animated), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2796
@@ -11636,7 +11636,7 @@ msgstr "選擇(&S)"
 #: krita/krita5.xmlgui:230 plugins/dockers/layerdocker/LayerBox.cpp:718
 #, kde-format
 msgid "&Group"
-msgstr "分組(&G)"
+msgstr "群組(&G)"
 
 #: krita/krita5.xmlgui:236
 #, kde-format
@@ -12617,21 +12617,21 @@ msgstr "顯示或隱藏狀態列"
 #, kde-format
 msgctxt "action"
 msgid "Show Pixel Grid"
-msgstr "顯示像素網格"
+msgstr "顯示像素格線"
 
 #. i18n: context: Action (view_grid), Actions (View), ActionCollection (Menu)
 #: krita/kritamenu.action:837
 #, kde-format
 msgctxt "action"
 msgid "Show &Grid"
-msgstr "顯示網格(&G)"
+msgstr "顯示格線(&G)"
 
 #. i18n: context: Action (view_grid), Actions (View), ActionCollection (Menu)
 #: krita/kritamenu.action:839
 #, kde-format
 msgctxt "action"
 msgid "Show Grid"
-msgstr "顯示網格"
+msgstr "顯示格線"
 
 #. i18n: context: Action (view_snap_to_grid), Actions (View), ActionCollection (Menu)
 #. i18n: context: Action (view_snap_to_grid), Actions (View), ActionCollection (Menu)
@@ -12641,7 +12641,7 @@ msgstr "顯示網格"
 #, kde-format
 msgctxt "action"
 msgid "Snap To Grid"
-msgstr "吸附到網格"
+msgstr "吸附到格線"
 
 #. i18n: context: Action (show_snap_options_popup), Actions (View), ActionCollection (Menu)
 #. i18n: context: Action (show_snap_options_popup), Actions (View), ActionCollection (Menu)
@@ -14139,7 +14139,7 @@ msgstr "設定背景"
 #: libs/flake/commands/KoShapeClipCommand.cpp:72
 msgctxt "(qtundo-format)"
 msgid "Clip Shape"
-msgstr "剪貼形狀"
+msgstr "裁剪形狀"
 
 #: libs/flake/commands/KoShapeCreateCommand.cpp:50
 #, kde-format
@@ -14247,12 +14247,12 @@ msgstr "設定不透明度"
 #: libs/flake/commands/KoShapeUnclipCommand.cpp:83
 msgctxt "(qtundo-format)"
 msgid "Unclip Shape"
-msgstr "取消剪貼形狀"
+msgstr "取消裁剪形狀"
 
 #: libs/flake/commands/KoShapeUnclipCommand.cpp:92
 msgctxt "(qtundo-format)"
 msgid "Unclip Shapes"
-msgstr "取消剪貼形狀"
+msgstr "取消裁剪形狀"
 
 #: libs/flake/commands/KoShapeUngroupCommand.cpp:42
 #: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1266
@@ -15550,7 +15550,7 @@ msgstr "背景"
 #, kde-format
 msgctxt "Layer name for translation of template"
 msgid "Group"
-msgstr "分組"
+msgstr "群組"
 
 #: libs/image/KisTranslateLayerNamesVisitor.cpp:58
 #, kde-format
@@ -15807,7 +15807,7 @@ msgstr "再製圖層"
 #: plugins/dockers/arrangedocker/arrange_docker_widget.ui:338
 #, kde-format
 msgid "Group"
-msgstr "分組"
+msgstr "群組"
 
 #: libs/impex/KisExportCheckRegistry.cpp:97 libs/ui/kis_layer_manager.cc:884
 #, kde-format
@@ -17459,55 +17459,55 @@ msgstr "1. 無法建立位於 %1 的資源位置。"
 msgid "2. The resource location at %1 is not writable."
 msgstr "2. 位於 %1 的資源位置無法寫入。"
 
-#: libs/resources/KisResourceLocator.cpp:550
+#: libs/resources/KisResourceLocator.cpp:554
 #, kde-format
 msgid "Could not add %1 to the database"
 msgstr "無法新增 %1 至資料庫"
 
-#: libs/resources/KisResourceLocator.cpp:571
-#: libs/resources/KisResourceLocator.cpp:896
+#: libs/resources/KisResourceLocator.cpp:575
+#: libs/resources/KisResourceLocator.cpp:900
 #, kde-format
 msgid "Could not remove storage %1 from the database"
 msgstr "無法從資料庫移除 %1 儲存空間"
 
-#: libs/resources/KisResourceLocator.cpp:685
+#: libs/resources/KisResourceLocator.cpp:689
 #, kde-format
 msgid ""
 "Krita is running for the first time. Initialization will take some time."
 msgstr "Krita 為第一次執行。需要一點時間初始化。"
 
-#: libs/resources/KisResourceLocator.cpp:692
+#: libs/resources/KisResourceLocator.cpp:696
 #, kde-format
 msgid "3. Could not create the resource location at %1."
 msgstr "3. 無法建立位於 %1 的資源位置"
 
-#: libs/resources/KisResourceLocator.cpp:705
-#: libs/resources/KisResourceLocator.cpp:721
+#: libs/resources/KisResourceLocator.cpp:709
+#: libs/resources/KisResourceLocator.cpp:725
 #, kde-format
 msgid "Could not copy resource %1 to %2"
 msgstr "無法複製 %1 資源至 %2"
 
-#: libs/resources/KisResourceLocator.cpp:717
+#: libs/resources/KisResourceLocator.cpp:721
 #, kde-format
 msgid "Installing the resources from bundle %1."
 msgstr "正在從 %1 資源包安裝資源。"
 
-#: libs/resources/KisResourceLocator.cpp:739
+#: libs/resources/KisResourceLocator.cpp:743
 #, kde-format
 msgid "Initializing the resources."
 msgstr "正在初始化資源。"
 
-#: libs/resources/KisResourceLocator.cpp:753
+#: libs/resources/KisResourceLocator.cpp:757
 #, kde-format
 msgid "Could not add storage %1 to the cache database"
 msgstr "無法新增 %1 儲存空間至快取資料庫"
 
-#: libs/resources/KisResourceLocator.cpp:774
+#: libs/resources/KisResourceLocator.cpp:778
 #, kde-format
 msgid "Temporary Resources"
 msgstr "暫存資源"
 
-#: libs/resources/KisResourceLocator.cpp:886
+#: libs/resources/KisResourceLocator.cpp:890
 #, kde-format
 msgid "Could not synchronize %1 with the database"
 msgstr "無法與資料庫同步 %1"
@@ -19916,7 +19916,7 @@ msgstr "吸附到："
 #: plugins/dockers/storyboarddocker/wdgarrangemenu.ui:49
 #, kde-format
 msgid "Grid"
-msgstr "網格"
+msgstr "格線"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
 #: libs/ui/canvas/kis_guides_manager.cpp:777
@@ -20988,21 +20988,21 @@ msgstr "Y 位移："
 #: libs/ui/forms/WdgDlgPaletteEditor.ui:82
 #, kde-format
 msgid "Add a group"
-msgstr "新增分組"
+msgstr "新增群組"
 
 #. i18n: ectx: property (text), widget (QToolButton, bnDelGroup)
 #: libs/ui/dialogs/KisDlgPaletteEditor.cpp:40
 #: libs/ui/forms/WdgDlgPaletteEditor.ui:143
 #, kde-format
 msgid "Delete this group"
-msgstr "刪除此分組"
+msgstr "刪除此群組"
 
 #. i18n: ectx: property (text), widget (QToolButton, bnRenGroup)
 #: libs/ui/dialogs/KisDlgPaletteEditor.cpp:41
 #: libs/ui/forms/WdgDlgPaletteEditor.ui:130
 #, kde-format
 msgid "Rename this group"
-msgstr "重新命名此分組"
+msgstr "重新命名此群組"
 
 #: libs/ui/dialogs/KisDlgPaletteEditor.cpp:45
 #, kde-format
@@ -21028,7 +21028,7 @@ msgstr "調色板名稱"
 #: libs/ui/forms/WdgDlgPaletteEditor.ui:92
 #, kde-format
 msgid "Group settings"
-msgstr "分組設定"
+msgstr "群組設定"
 
 #. i18n: ectx: property (text), widget (QLabel, labelColCount)
 #: libs/ui/dialogs/KisDlgPaletteEditor.cpp:53
@@ -22092,7 +22092,7 @@ msgstr "顯示格式："
 #: libs/ui/forms/wdgdisplaysettings.ui:289
 #, kde-format
 msgid "Grid Settings"
-msgstr "網格設定"
+msgstr "格線設定"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #. i18n: ectx: property (text), widget (QLabel, lblCheckSize)
@@ -22126,7 +22126,7 @@ msgstr "不透明度："
 #: libs/ui/forms/wdgdisplaysettings.ui:423
 #, kde-format
 msgid "Pixel Grid:"
-msgstr "像素網格："
+msgstr "像素格線："
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: libs/ui/forms/wdgdisplaysettings.ui:439
@@ -22562,7 +22562,7 @@ msgstr "堅硬 (Krita 4.1 以及之前版本)"
 #: libs/ui/forms/wdggeneralsettings.ui:451
 #, kde-format
 msgid "Switch Control/Alt Selection Modifiers"
-msgstr "交換 Ctrl/Alt 在選取區域工具中的修飾鍵功能"
+msgstr "交換 Ctrl/Alt 在選取區域工具中的修飾功能"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkEnableTouch)
 #: libs/ui/forms/wdggeneralsettings.ui:458
@@ -23601,8 +23601,8 @@ msgstr "目前筆刷預設"
 #. i18n: ectx: property (text), widget (QPushButton, updateBrushNameButton)
 #. i18n: ectx: property (toolTip), widget (QPushButton, bnSaveMask)
 #: libs/ui/forms/wdgpaintopsettings.ui:188 libs/ui/KisMainWindow.cpp:1069
-#: libs/ui/widgets/kis_workspace_chooser.cpp:111
-#: libs/ui/widgets/kis_workspace_chooser.cpp:183
+#: libs/ui/widgets/kis_workspace_chooser.cpp:108
+#: libs/ui/widgets/kis_workspace_chooser.cpp:170
 #: plugins/dockers/gamutmask/forms/wdgGamutMaskChooser.ui:232
 #: plugins/generators/seexpr/wdgseexpr.ui:172
 #: plugins/paintops/libpaintop/kis_clipboard_brush_widget.cpp:162
@@ -25109,7 +25109,7 @@ msgstr "按鍵"
 #: libs/ui/input/config/kis_wheel_input_editor.ui:79
 #, kde-format
 msgid "Modifiers"
-msgstr "修飾鍵"
+msgstr "組合鍵"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: libs/ui/input/config/kis_mouse_input_editor.ui:79
@@ -25911,7 +25911,7 @@ msgstr "選擇一種色彩"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Merge Group"
-msgstr "合併圖層分組"
+msgstr "合併群組圖層"
 
 #: libs/ui/kis_layer_manager.cc:181
 #, kde-format
@@ -26012,12 +26012,12 @@ msgstr "圖層已鎖定"
 #: libs/ui/kis_layer_manager.cc:842
 #, kde-format
 msgid "Convert Invisible Groups"
-msgstr "轉換不可見分組"
+msgstr "轉換不可見群組"
 
 #: libs/ui/kis_layer_manager.cc:845
 #, kde-format
 msgid "Export Only Toplevel Groups"
-msgstr "僅匯出最頂層圖層分組"
+msgstr "僅匯出最頂層群組圖層"
 
 #: libs/ui/kis_mask_manager.cc:197
 msgctxt "(qtundo-format)"
@@ -26204,18 +26204,18 @@ msgstr "剪下節點"
 #: libs/ui/kis_node_manager.cpp:1529
 msgctxt "(qtundo-format)"
 msgid "Quick Group"
-msgstr "快速分組"
+msgstr "快速建立群組"
 
 #: libs/ui/kis_node_manager.cpp:1540
 msgctxt "(qtundo-format)"
 msgid "Quick Clipping Group"
-msgstr "快速剪貼分組"
+msgstr "快速建立裁剪群組"
 
 #: libs/ui/kis_node_manager.cpp:1547
 #, kde-format
 msgctxt "default name for a clipping group layer"
 msgid "Clipping Group"
-msgstr "剪貼分組"
+msgstr "裁剪群組"
 
 #: libs/ui/kis_node_manager.cpp:1548
 #, kde-format
@@ -26226,7 +26226,7 @@ msgstr "遮罩圖層"
 #: libs/ui/kis_node_manager.cpp:1565
 msgctxt "(qtundo-format)"
 msgid "Quick Ungroup"
-msgstr "快速拆散分組"
+msgstr "快速拆散群組"
 
 #: libs/ui/kis_node_model.cpp:499
 #, kde-format
@@ -27385,7 +27385,7 @@ msgctxt "image conversion warning"
 msgid ""
 "The image contains a <b>custom grid configuration</b>. The configuration "
 "will not be saved."
-msgstr "此影像包含<b>自訂網格設定</b>。自訂網格設定將不被儲存。"
+msgstr "此影像包含<b>自訂格線設定</b>。自訂格線設定將不被儲存。"
 
 #: libs/ui/KisImportExportManager.cpp:538
 #, kde-format
@@ -27685,7 +27685,7 @@ msgstr "確定儲存目前影像中的這個調色板？"
 #, kde-format
 msgctxt "@title:dialog"
 msgid "Removing Group"
-msgstr "移除分組"
+msgstr "移除群組"
 
 #: libs/ui/KisPaletteEditor.cpp:246 libs/widgets/kis_palette_view.cpp:170
 #, kde-format
@@ -27755,7 +27755,7 @@ msgstr "印刷專色"
 #, kde-format
 msgctxt "Default new group name"
 msgid "New Group %1"
-msgstr "建立分組 %1"
+msgstr "建立群組 %1"
 
 #: libs/ui/KisPart.cpp:555
 #, kde-format
@@ -27802,12 +27802,12 @@ msgstr "名稱："
 #: libs/ui/KisTemplateCreateDia.cpp:106
 #, kde-format
 msgid "Group:"
-msgstr "分組："
+msgstr "群組："
 
 #: libs/ui/KisTemplateCreateDia.cpp:120
 #, kde-format
 msgid "&Add Group..."
-msgstr "新增分組(&A)…"
+msgstr "新增群組(&A)…"
 
 #: libs/ui/KisTemplateCreateDia.cpp:123
 #, kde-format
@@ -27859,12 +27859,12 @@ msgstr "選擇影像"
 #: plugins/python/palette_docker/palette_docker.py:72
 #, kde-format
 msgid "Add Group"
-msgstr "新增分組"
+msgstr "新增群組"
 
 #: libs/ui/KisTemplateCreateDia.cpp:407
 #, kde-format
 msgid "Enter group name:"
-msgstr "輸入分組名稱："
+msgstr "輸入群組名稱："
 
 #: libs/ui/KisTemplateCreateDia.cpp:410
 #, kde-format
@@ -27874,13 +27874,13 @@ msgstr "此名稱已經被使用。"
 #: libs/ui/KisTemplateCreateDia.cpp:434
 #, kde-format
 msgid "Do you really want to remove that group?"
-msgstr "確定要移除該分組嗎？"
+msgstr "確定要移除該群組嗎？"
 
 #: libs/ui/KisTemplateCreateDia.cpp:435
 #, kde-format
 msgctxt "@title:window"
 msgid "Remove Group"
-msgstr "移除分組"
+msgstr "移除群組"
 
 #: libs/ui/KisTemplateCreateDia.cpp:437
 #, kde-format
@@ -28398,7 +28398,7 @@ msgstr "挖空(&N)："
 #: libs/ui/layerstyles/wdgblendingoptions.ui:216
 #, kde-format
 msgid "Set the interior transparency. Shallow = Group, Deep = Background"
-msgstr "設定內部透明度。淺 = 分組，深 = 背景"
+msgstr "設定內部透明度。淺 = 群組，深 = 背景"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbKnockout)
 #: libs/ui/layerstyles/wdgblendingoptions.ui:220
@@ -28431,19 +28431,19 @@ msgstr "先把圖層的內發光、光澤和覆蓋效果進行混色，然後與
 #: libs/ui/layerstyles/wdgblendingoptions.ui:241
 #, kde-format
 msgid "Blend &Interior Effects as Group"
-msgstr "作為分組對內部效果混色(&I)"
+msgstr "作為群組對內部效果混色(&I)"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, checkBox_8)
 #: libs/ui/layerstyles/wdgblendingoptions.ui:248
 #, kde-format
 msgid "Blend clipping group before blending with document"
-msgstr "先把剪貼圖層分組進行混色，然後再與檔案影像進行混色"
+msgstr "先把裁剪群組圖層進行混色，然後再與檔案影像進行混色"
 
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_8)
 #: libs/ui/layerstyles/wdgblendingoptions.ui:251
 #, kde-format
 msgid "Blend Cl&ipped Layers as Group"
-msgstr "作為分組對剪貼圖層混色(&I)"
+msgstr "作為群組對裁剪圖層混色(&I)"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, checkBox_9)
 #: libs/ui/layerstyles/wdgblendingoptions.ui:258
@@ -29106,7 +29106,7 @@ msgstr "此圖層只能在沖刷模式下進行繪製。"
 #: libs/ui/tool/kis_tool.cc:674
 #, kde-format
 msgid "Group not editable."
-msgstr "圖層分組不可編輯。"
+msgstr "群組圖層不可編輯。"
 
 #: libs/ui/tool/kis_tool.cc:689
 #, kde-format
@@ -30712,17 +30712,17 @@ msgstr "標題"
 msgid "No configuration options."
 msgstr "無設定選項。"
 
-#: libs/ui/widgets/kis_workspace_chooser.cpp:114
+#: libs/ui/widgets/kis_workspace_chooser.cpp:111
 #, kde-format
 msgid "Insert name"
 msgstr "新作業空間名稱"
 
-#: libs/ui/widgets/kis_workspace_chooser.cpp:178
+#: libs/ui/widgets/kis_workspace_chooser.cpp:164
 #, kde-format
 msgid "File name already in use. Saving will overwrite the original Workspace."
 msgstr "檔名已在使用。儲存將會覆蓋原本的工作空間。"
 
-#: libs/ui/widgets/kis_workspace_chooser.cpp:179
+#: libs/ui/widgets/kis_workspace_chooser.cpp:165
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings.cpp:156
 #: plugins/paintops/libpaintop/kis_clipboard_brush_widget.cpp:160
 #: plugins/paintops/libpaintop/kis_custom_brush_widget.cpp:136
@@ -30730,23 +30730,23 @@ msgstr "檔名已在使用。儲存將會覆蓋原本的工作空間。"
 msgid "Overwrite"
 msgstr "覆蓋"
 
-#: libs/ui/widgets/kis_workspace_chooser.cpp:182
+#: libs/ui/widgets/kis_workspace_chooser.cpp:169
 #, kde-format
 msgid "Save current workspace."
 msgstr "儲存目前工作空間。"
 
-#: libs/ui/widgets/kis_workspace_chooser.cpp:221
+#: libs/ui/widgets/kis_workspace_chooser.cpp:208
 #, kde-format
 msgid "Window Layout"
 msgstr "視窗版面配置"
 
-#: libs/ui/widgets/kis_workspace_chooser.cpp:233
+#: libs/ui/widgets/kis_workspace_chooser.cpp:222
 #, kde-format
 msgid ""
 "File name already in use. Saving will overwrite the original window layout."
 msgstr "檔名已在使用。儲存將會覆蓋原本的視窗佈局。"
 
-#: libs/ui/widgets/kis_workspace_chooser.cpp:236
+#: libs/ui/widgets/kis_workspace_chooser.cpp:225
 #, kde-format
 msgid "Save current window layout."
 msgstr "儲存目前的視窗佈局。"
@@ -31117,13 +31117,13 @@ msgstr "色彩"
 #, kde-format
 msgctxt "@title:dialog"
 msgid "Add a new group"
-msgstr "新增色彩分組"
+msgstr "新增色彩群組"
 
 #: libs/widgets/kis_palette_view.cpp:149
 #, kde-format
 msgctxt "Part of default name for a new group"
 msgid "Color Group"
-msgstr "色彩分組"
+msgstr "色彩群組"
 
 #: libs/widgets/kis_palette_view.cpp:150
 #, kde-format
@@ -34881,30 +34881,30 @@ msgstr "矩形"
 #: plugins/dockers/griddocker/grid_config_widget.cpp:341
 #, kde-format
 msgid "Isometric"
-msgstr "等角網格"
+msgstr "等角格線"
 
 #: plugins/dockers/griddocker/grid_config_widget.cpp:343
 #, kde-format
 msgid "Isometric (requires OpenGL)"
-msgstr "等角網格 (需要 OpenGL)"
+msgstr "等角格線 (需要 OpenGL)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkShowGrid)
 #: plugins/dockers/griddocker/grid_config_widget.ui:60
 #, kde-format
 msgid "Show grid"
-msgstr "顯示網格"
+msgstr "顯示格線"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkSnapToGrid)
 #: plugins/dockers/griddocker/grid_config_widget.ui:73
 #, kde-format
 msgid "Snap to grid"
-msgstr "吸附到網格"
+msgstr "吸附到格線"
 
 #. i18n: ectx: property (text), widget (QLabel, cellSpacingLabel)
 #: plugins/dockers/griddocker/grid_config_widget.ui:142
 #, kde-format
 msgid "Cell Spacing:"
-msgstr "網格間距："
+msgstr "格線間距："
 
 #. i18n: ectx: property (text), widget (QLabel, rightAngleLabel)
 #: plugins/dockers/griddocker/grid_config_widget.ui:155
@@ -34983,7 +34983,7 @@ msgstr "主線樣式："
 #: plugins/dockers/griddocker/grid_config_widget.ui:424
 #, kde-format
 msgid "Grid Offset"
-msgstr "網格偏移"
+msgstr "格線偏移"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkShowGuides)
 #: plugins/dockers/griddocker/grid_config_widget.ui:546
@@ -35018,7 +35018,7 @@ msgstr "參考線："
 #: plugins/dockers/griddocker/griddocker_dock.cpp:32
 #, kde-format
 msgid "Grid and Guides"
-msgstr "網格與參考線"
+msgstr "格線與參考線"
 
 #: plugins/dockers/histogram/histogramdocker_dock.cpp:22
 #, kde-format
@@ -35044,7 +35044,7 @@ msgstr "每一組筆畫被合併為一組前必須經過的最小時間"
 #: plugins/dockers/historydocker/DlgConfigureHistoryDock.cpp:40
 #, kde-format
 msgid "Group time"
-msgstr "分組間隔時間"
+msgstr "合併間隔時間"
 
 #: plugins/dockers/historydocker/DlgConfigureHistoryDock.cpp:42
 #, kde-format
@@ -35052,7 +35052,7 @@ msgctxt "@info:tooltip"
 msgid ""
 "The amount of time every stroke should be apart from its previous stroke to "
 "be classified in one group"
-msgstr "前後兩筆被視作同一組的最大間隔時間"
+msgstr "前後兩筆被合併為同一組的最大間隔時間"
 
 #: plugins/dockers/historydocker/DlgConfigureHistoryDock.cpp:50
 #, kde-format
@@ -35063,7 +35063,7 @@ msgstr "每組筆畫數目"
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The number of last strokes which Krita should store separately"
-msgstr "每一組筆畫達到此數值後，Krita 會把後來的筆畫視作另一組"
+msgstr "每一組筆畫達到此數值後，Krita 會把後來的筆畫拆開為另一組"
 
 #: plugins/dockers/historydocker/HistoryDock.cpp:38
 #, kde-format
@@ -37071,13 +37071,13 @@ msgstr "分割圖層"
 #: plugins/extensions/layersplit/wdg_layersplit.ui:29
 #, kde-format
 msgid "Put all new layers in a group layer"
-msgstr "將所有新圖層放進一個圖層分組"
+msgstr "將所有新圖層放進一個群組圖層"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkSeparateGroupLayers)
 #: plugins/extensions/layersplit/wdg_layersplit.ui:39
 #, kde-format
 msgid "Put every layer in its own, separate group layer"
-msgstr "將每個圖層放進各自獨立的圖層分組"
+msgstr "將每個圖層放進各自獨立的群組圖層"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkAlphaLock)
 #: plugins/extensions/layersplit/wdg_layersplit.ui:46
@@ -37095,7 +37095,7 @@ msgstr "隱藏原始圖層"
 #: plugins/extensions/layersplit/wdg_layersplit.ui:66
 #, kde-format
 msgid "Sort layers by amount of non-transparent pixels"
-msgstr "按不透明像質數量排列圖層"
+msgstr "按不透明像素數量排序圖層"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkDisregardOpacity)
 #: plugins/extensions/layersplit/wdg_layersplit.ui:76
@@ -41366,13 +41366,13 @@ msgstr "結束："
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.ui:285
 #, kde-format
 msgid "Cartesian Coordinates"
-msgstr "笛卡兒 (XY) 坐標"
+msgstr "笛卡兒 (XY) 座標"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioButtonEndPositionPolarCoordinates)
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.ui:298
 #, kde-format
 msgid "Polar Coordinates"
-msgstr "極坐標"
+msgstr "極座標"
 
 #: plugins/generators/multigridpattern/kis_wdg_multigrid_pattern.cpp:36
 #, kde-format
@@ -41437,12 +41437,12 @@ msgstr "邊角點"
 #: plugins/generators/multigridpattern/multigridpatterngenerator.cpp:52
 #, kde-format
 msgid "&Multigrid Pattern..."
-msgstr "多網格圖案(&M)…"
+msgstr "多重網格圖案(&M)…"
 
 #: plugins/generators/multigridpattern/multigridpatterngenerator.h:69
 #, kde-format
 msgid "Multigrid"
-msgstr "多網格"
+msgstr "多重網格"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tabShapes)
 #: plugins/generators/multigridpattern/wdgmultigridpatternoptions.ui:25
@@ -42190,7 +42190,7 @@ msgstr ""
 #, kde-format
 msgctxt "Colorspace option"
 msgid "No changes, clip"
-msgstr "不轉換，裁剪亮度"
+msgstr "不轉換，削值"
 
 #: plugins/impex/heif/HeifExport.cpp:596
 #, kde-format
@@ -42199,8 +42199,8 @@ msgid ""
 "The image will be converted plainly to 12bit integer, and values that are "
 "out of bounds are clipped, the icc profile will be embedded."
 msgstr ""
-"影像會簡單直接轉換成 12 位元整數，而範圍以外的值會被裁剪，ICC 特性檔案會被嵌"
-"入。"
+"影像會簡單直接轉換成 12 位元整數，而範圍以外的值會被削減至上限值，ICC 特性檔"
+"案會被嵌入。"
 
 #. i18n: ectx: property (title), widget (QGroupBox, lossySettings)
 #: plugins/impex/heif/WdgHeifExport.ui:21
@@ -42359,7 +42359,7 @@ msgstr "寬度超過可用像素。"
 msgid ""
 "Unable to calculate an appropriate height. File does not contain enough "
 "pixels to form a rectangle."
-msgstr "無法計算適合的高度。檔案的像質數量不足以構成長方形。"
+msgstr "無法計算適合的高度。檔案的像素數量不足以構成長方形。"
 
 #: plugins/impex/heightmap/kis_wdg_options_heightmap.cpp:207
 #, kde-format
@@ -42371,7 +42371,7 @@ msgstr "高度超過可用像素。"
 msgid ""
 "Unable to calculate an appropriate width. File does not contain enough "
 "pixels to form a rectangle."
-msgstr "無法計算適合的寬度。檔案的像質數量不足以構成長方形。"
+msgstr "無法計算適合的寬度。檔案的像素數量不足以構成長方形。"
 
 #. i18n: ectx: property (text), widget (QLabel, fileSizeDescLabel)
 #: plugins/impex/heightmap/kis_wdg_options_heightmap.ui:33
@@ -42680,22 +42680,22 @@ msgstr "無法建立變形遮罩參數"
 #: plugins/impex/libkra/kis_kra_load_visitor.cpp:560
 #, kde-format
 msgid "Could not find keyframe pixel data for frame %1 in %2."
-msgstr "無法為影格 %1 在 %2 中找到關鍵影格像質資料。"
+msgstr "無法為影格 %1 在 %2 中找到關鍵影格像素資料。"
 
 #: plugins/impex/libkra/kis_kra_load_visitor.cpp:568
 #, kde-format
 msgid "Could not load keyframe pixel data for frame %1 in %2."
-msgstr "無法為影格 %1 在 %2 中載入關鍵影格像質資料。"
+msgstr "無法為影格 %1 在 %2 中載入關鍵影格像素資料。"
 
 #: plugins/impex/libkra/kis_kra_load_visitor.cpp:597
 #, kde-format
 msgid "Could not read pixel data: %1."
-msgstr "無法讀取像質資料：%1。"
+msgstr "無法讀取像素資料：%1。"
 
 #: plugins/impex/libkra/kis_kra_load_visitor.cpp:604
 #, kde-format
 msgid "Could not load pixel data: %1."
-msgstr "無法載入像質資料：%1。"
+msgstr "無法載入像素資料：%1。"
 
 #: plugins/impex/libkra/kis_kra_load_visitor.cpp:620
 #, kde-format
@@ -42848,7 +42848,7 @@ msgstr "開啟 %1 失敗。"
 #: plugins/impex/libkra/kis_kra_save_visitor.cpp:124
 #, kde-format
 msgid "Failed to save the pixel data for layer %1."
-msgstr "為圖層 %1 儲存像質資料失敗。"
+msgstr "為圖層 %1 儲存像素資料失敗。"
 
 #: plugins/impex/libkra/kis_kra_save_visitor.cpp:128
 #, kde-format
@@ -43756,7 +43756,7 @@ msgstr "純白"
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Unclip"
-msgstr "不剪貼"
+msgstr "不削值"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:459
 #, kde-format
@@ -43783,11 +43783,11 @@ msgid ""
 "emphasis>: reconstruct highlights using a level value</li></ul></p>"
 msgstr ""
 "<title>高亮色</title><p>選擇高亮色剪貼方式：</p><p><ul><li><emphasis "
-"strong='true'>純白</emphasis>：將所有突出顯示的部分剪貼為純白色</"
-"li><li><emphasis strong='true'>不剪貼</emphasis>：保留高亮色為一系列粉色色"
-"調，不剪貼</li><li><emphasis strong='true'>混色</emphasis>：對剪貼部分和非剪"
-"貼部分進行混色以營造從色調到白色的漸變</li><li><emphasis strong='true'>重建</"
-"emphasis>：用一個亮度值來重建高亮色</li></ul></p>"
+"strong='true'>純白</emphasis>：將所有突出顯示的部分削減至純白色</"
+"li><li><emphasis strong='true'>不削值</emphasis>：保留高亮色為一系列粉色色"
+"調，不削減亮度</li><li><emphasis strong='true'>混色</emphasis>：對削值部分和"
+"非削值部分進行混色以營造從色調到白色的漸變</li><li><emphasis strong='true'>重"
+"建</emphasis>：用一個亮度值來重建高亮色</li></ul></p>"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:473
 #, kde-format
@@ -45497,7 +45497,7 @@ msgstr "再製筆刷 (暫時停用)"
 #: plugins/paintops/defaultpaintops/duplicate/wdgduplicateop.ui:32
 #, kde-format
 msgid "To correct perspective, first create a perspective grid."
-msgstr "要校正透視，應首先建立透視網格。"
+msgstr "要校正透視，應首先建立透視格線。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbPerspective)
 #: plugins/paintops/defaultpaintops/duplicate/wdgduplicateop.ui:35
@@ -48304,13 +48304,13 @@ msgctxt ""
 "The name for a new group layer; the generated layers will be placed in this "
 "group."
 msgid "New layer group name"
-msgstr "新增分組圖層名稱"
+msgstr "新增群組圖層的名稱"
 
 #: plugins/python/channels2layers/channels2layers.py:1047
 msgctxt ""
 "Defines how the name for each layer created from the channel is generated."
 msgid "New layers color name"
-msgstr "新增圖層色彩名稱"
+msgstr "新增色彩圖層的名稱"
 
 #: plugins/python/channels2layers/channels2layers.py:1058
 msgid "Original layer"
@@ -49827,7 +49827,7 @@ msgstr "批次匯出"
 
 #: plugins/python/exportlayers/uiexportlayers.py:33
 msgid "Group as layer"
-msgstr "將分組圖層視為單一圖層"
+msgstr "將群組圖層視為單一圖層"
 
 #: plugins/python/exportlayers/uiexportlayers.py:35
 msgid "Ignore invisible layers"
@@ -51196,14 +51196,14 @@ msgid ""
 "Move the group containing the first layer that contains visible content. "
 "Shortcut: ctrl-shift-click."
 msgstr ""
-"移動在點擊位置有可見內容的第一個圖層所在的分組圖層。快捷鍵：Ctrl + Shift + 點"
+"移動在點擊位置有可見內容的第一個圖層所在的群組圖層。快捷鍵：Ctrl + Shift + 點"
 "擊。"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioGroup)
 #: plugins/tools/basictools/wdgmovetool.ui:62
 #, kde-format
 msgid "Move &the whole group"
-msgstr "移動整個圖層分組(&T)"
+msgstr "移動整個群組圖層(&T)"
 
 #. i18n: ectx: property (title), widget (QGroupBox, grpMoveStep)
 #: plugins/tools/basictools/wdgmovetool.ui:78
@@ -51284,7 +51284,7 @@ msgstr "&y："
 #: plugins/tools/basictools/wdgmovetool.ui:307
 #, kde-format
 msgid "Show coordinates on canvas"
-msgstr "在畫布上顯示坐標"
+msgstr "在畫布上顯示座標"
 
 #. i18n: ectx: property (text), widget (QLabel, brushesLabel)
 #: plugins/tools/basictools/wdgmultihandtool.ui:61
@@ -51476,15 +51476,15 @@ msgid ""
 "fields show the shape's &quot;local&quot; size, before application of any "
 "transformations.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>在「全域坐標」模式下，形狀的寬度和高度將顯示為與影像對"
-"齊的水準和垂直長度，變形時也不例外。</p><p>不使用「全域坐標」模式時，形狀的寬"
+"<html><head/><body><p>在「全域座標」模式下，形狀的寬度和高度將顯示為與影像對"
+"齊的水準和垂直長度，變形時也不例外。</p><p>不使用「全域座標」模式時，形狀的寬"
 "度和高度將顯示為與自身對齊的「本地」大小。</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkGlobalCoordinates)
 #: plugins/tools/defaulttool/defaulttool/DefaultToolGeometryWidget.ui:221
 #, kde-format
 msgid "Global Coordinates"
-msgstr "全域坐標"
+msgstr "全域座標"
 
 #: plugins/tools/defaulttool/defaulttool/DefaultToolTabbedWidget.cpp:25
 #, kde-format
@@ -52822,13 +52822,13 @@ msgstr "套用到："
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:446
 #, kde-format
 msgid "Thirds"
-msgstr "三分法網格"
+msgstr "三分法格線"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbDecor)
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:451
 #, kde-format
 msgid "Fifths"
-msgstr "五分法網格"
+msgstr "五分法格線"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbDecor)
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:456
