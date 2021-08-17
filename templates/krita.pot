@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-14 00:15+0000\n"
+"POT-Creation-Date: 2021-08-17 00:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -17706,11 +17706,9 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, bnDelete)
 #. i18n: ectx: property (text), widget (QPushButton, deleteAllAssistantsButton)
-#. i18n: ectx: property (text), widget (QRadioButton, btnAllView)
 #: libs/resources/KisTagModel.cpp:117 libs/resources/KisTagModel.cpp:279
 #: libs/ui/widgets/kis_paintop_presets_editor.cpp:593
 #: plugins/assistants/Assistants/AssistantsToolOptions.ui:262
-#: plugins/dockers/storyboarddocker/wdgarrangemenu.ui:70
 #: plugins/tools/defaulttool/referenceimagestool/WdgToolOptions.ui:207
 #, kde-format
 msgid "All"
@@ -19799,10 +19797,8 @@ msgid "Snap to:"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#. i18n: ectx: property (text), widget (QRadioButton, btnGridMode)
 #: libs/ui/canvas/kis_guides_manager.cpp:776
 #: plugins/dockers/griddocker/grid_config_widget.ui:43
-#: plugins/dockers/storyboarddocker/wdgarrangemenu.ui:49
 #, kde-format
 msgid "Grid"
 msgstr ""
@@ -20981,11 +20977,6 @@ msgstr ""
 #: libs/ui/flake/kis_shape_controller.cpp:197
 #, kde-format
 msgid "Vector Layer %1"
-msgstr ""
-
-#: libs/ui/flake/kis_shape_layer.cc:617
-#, kde-format
-msgid "No store backend"
 msgstr ""
 
 #: libs/ui/flake/kis_take_all_shapes_command.cpp:15
@@ -35698,44 +35689,59 @@ msgctxt "Remove current scene from storyboards"
 msgid "Remove Scene"
 msgstr ""
 
-#. i18n: ectx: property (title), widget (QGroupBox, buttonGroup1)
 #. i18n: ectx: property (text), widget (QLabel, label)
-#. i18n: ectx: property (text), widget (QToolButton, btnArrange)
 #: plugins/dockers/storyboarddocker/wdgarrangemenu.ui:28
-#: plugins/dockers/storyboarddocker/wdgstoryboarddock.ui:76
-#: plugins/filters/dodgeburn/DodgeBurnConfigurationBaseWidget.ui:21
-#: plugins/python/channels2layers/channels2layers.py:1076
 #, kde-format
+msgctxt "list view layout mode"
 msgid "Mode"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, btnColumnMode)
 #: plugins/dockers/storyboarddocker/wdgarrangemenu.ui:35
 #, kde-format
+msgctxt "list view layout mode"
 msgid "Column"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, btnRowMode)
 #: plugins/dockers/storyboarddocker/wdgarrangemenu.ui:42
 #, kde-format
+msgctxt "list view layout mode"
 msgid "Row"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, btnGridMode)
+#: plugins/dockers/storyboarddocker/wdgarrangemenu.ui:49
+#, kde-format
+msgctxt "list view layout mode"
+msgid "Grid"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: plugins/dockers/storyboarddocker/wdgarrangemenu.ui:63
 #, kde-format
+msgctxt "list view fields visibility"
 msgid "View"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, btnAllView)
+#: plugins/dockers/storyboarddocker/wdgarrangemenu.ui:70
+#, kde-format
+msgctxt "list view fields visibility"
+msgid "All"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, btnThumbnailsView)
 #: plugins/dockers/storyboarddocker/wdgarrangemenu.ui:77
 #, kde-format
+msgctxt "list view fields visibility"
 msgid "Thumbnails Only"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, btnCommentsView)
 #: plugins/dockers/storyboarddocker/wdgarrangemenu.ui:84
 #, kde-format
+msgctxt "list view fields visibility"
 msgid "Comments Only"
 msgstr ""
 
@@ -35851,6 +35857,15 @@ msgstr ""
 #: plugins/dockers/storyboarddocker/wdgstoryboarddock.ui:31
 #, kde-format
 msgid "Comments"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, buttonGroup1)
+#. i18n: ectx: property (text), widget (QToolButton, btnArrange)
+#: plugins/dockers/storyboarddocker/wdgstoryboarddock.ui:76
+#: plugins/filters/dodgeburn/DodgeBurnConfigurationBaseWidget.ui:21
+#: plugins/python/channels2layers/channels2layers.py:1076
+#, kde-format
+msgid "Mode"
 msgstr ""
 
 #: plugins/dockers/svgcollectiondocker/SvgSymbolCollectionDocker.cpp:156
