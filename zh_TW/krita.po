@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-08-17 00:15+0000\n"
-"PO-Revision-Date: 2021-08-17 06:50+0000\n"
+"PO-Revision-Date: 2021-08-17 10:00+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -8281,7 +8281,7 @@ msgstr "重新載入原始預設"
 #, kde-format
 msgctxt "action"
 msgid "Preserve Alpha"
-msgstr "保持透明度不變"
+msgstr "保持 Alpha (透明度) 不變"
 
 #. i18n: context: Action (disable_pressure), Actions (Painting), ActionCollection (Krita)
 #. i18n: context: Action (disable_pressure), Actions (Painting), ActionCollection (Krita)
@@ -8671,14 +8671,14 @@ msgstr "濾鏡"
 #, kde-format
 msgctxt "action"
 msgid "&Color to Alpha..."
-msgstr "色彩轉為透明度(&C)…"
+msgstr "色彩轉為 Alpha (透明度) (&C)…"
 
 #. i18n: context: Action (krita_filter_colortoalpha), Actions (Filters), ActionCollection (Krita)
 #: krita/krita.action:796
 #, kde-format
 msgctxt "action"
 msgid "Color to Alpha"
-msgstr "色彩轉為透明度"
+msgstr "色彩轉為 Alpha (透明度)"
 
 #. i18n: context: Action (krita_filter_top edge detections), Actions (Filters), ActionCollection (Krita)
 #: krita/krita.action:806
@@ -10573,28 +10573,28 @@ msgstr "切換單一圖層顯示，以暫時隱藏目前圖層及子圖層以外
 #, kde-format
 msgctxt "action"
 msgid "Toggle layer &alpha"
-msgstr "切換圖層透明度(&A)"
+msgstr "切換圖層 &Alpha (透明度)"
 
 #. i18n: context: Action (toggle_layer_alpha_lock), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2544
 #, kde-format
 msgctxt "action"
 msgid "Toggle layer alpha"
-msgstr "切換圖層透明度"
+msgstr "切換圖層 Alpha (透明度)"
 
 #. i18n: context: Action (toggle_layer_inherit_alpha), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2554
 #, kde-format
 msgctxt "action"
 msgid "Toggle layer alpha &inheritance"
-msgstr "切換圖層透明度繼承(&I)"
+msgstr "切換圖層 Alpha (透明度) 繼承(&I)"
 
 #. i18n: context: Action (toggle_layer_inherit_alpha), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2556
 #, kde-format
 msgctxt "action"
 msgid "Toggle layer alpha inheritance"
-msgstr "切換圖層透明度繼承"
+msgstr "切換圖層 Alpha (透明度) 繼承"
 
 #. i18n: context: Action (add_new_paint_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2566
@@ -10748,7 +10748,7 @@ msgstr "快速建立裁剪群組"
 #, kde-format
 msgctxt "action"
 msgid "Group selected layers and add a layer with clipped alpha channel"
-msgstr "為所選圖層建立群組並加入一個啟用了「繼承透明度」的圖層"
+msgstr "為所選圖層建立群組並加入一個啟用了「繼承 Alpha (透明度)」的圖層"
 
 #. i18n: context: Action (select_all_layers), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2698
@@ -11035,28 +11035,28 @@ msgstr "為選取區域遮罩"
 #, kde-format
 msgctxt "action"
 msgid "&Alpha into Mask"
-msgstr "透明度到遮罩(&A)"
+msgstr "&Alpha (透明度) 轉為遮罩"
 
 #. i18n: context: Action (split_alpha_into_mask), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2940
 #, kde-format
 msgctxt "action"
 msgid "Alpha into Mask"
-msgstr "透明度到遮罩"
+msgstr "Alpha (透明度) 轉為遮罩"
 
 #. i18n: context: Action (split_alpha_write), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2950
 #, kde-format
 msgctxt "action"
 msgid "&Write as Alpha"
-msgstr "作為透明度寫入(&W)"
+msgstr "作為 Alpha (透明度) 寫入(&W)"
 
 #. i18n: context: Action (split_alpha_write), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2952
 #, kde-format
 msgctxt "action"
 msgid "Write as Alpha"
-msgstr "作為透明度寫入"
+msgstr "作為 Alpha (透明度) 寫入"
 
 #. i18n: context: Action (split_alpha_save_merged), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2962
@@ -11656,7 +11656,7 @@ msgstr "分割(&P)"
 #: krita/krita5.xmlgui:270 plugins/dockers/layerdocker/LayerBox.cpp:746
 #, kde-format
 msgid "S&plit Alpha"
-msgstr "分割透明度通道(&P)"
+msgstr "分割 Alpha (透明度) (&P)"
 
 #: krita/krita5.xmlgui:315
 #, kde-format
@@ -15318,13 +15318,13 @@ msgstr "圖層樣式"
 #: libs/image/kis_layer_properties_icons.cpp:23
 #, kde-format
 msgid "Inherit Alpha"
-msgstr "繼承透明度"
+msgstr "繼承 Alpha"
 
 #: libs/image/kis_layer_properties_icons.cpp:24
 #: libs/image/kis_paint_layer.cc:200
 #, kde-format
 msgid "Alpha Locked"
-msgstr "鎖定透明度"
+msgstr "鎖定 Alpha"
 
 #: libs/image/kis_layer_properties_icons.cpp:25
 #: libs/image/kis_paint_layer.cc:203
@@ -15422,7 +15422,7 @@ msgstr "平整影像"
 #: libs/image/kis_layer_utils.cpp:2142
 msgctxt "(qtundo-format)"
 msgid "Split Alpha into a Mask"
-msgstr "分割透明度為遮罩"
+msgstr "分割 Alpha (透明度) 為遮罩"
 
 #: libs/image/kis_layer_utils.cpp:2168
 msgctxt "(qtundo-format)"
@@ -16218,27 +16218,27 @@ msgstr "無效值。"
 #: plugins/filters/palettize/palettize.ui:155
 #, kde-format
 msgid "Alpha"
-msgstr "透明度"
+msgstr "Alpha"
 
 #: libs/pigment/colorspaces/KoAlphaColorSpace.h:35
 #, kde-format
 msgid "Alpha (8-bit integer)"
-msgstr "透明度 (8 位元整數)"
+msgstr "Alpha (8 位元整數)"
 
 #: libs/pigment/colorspaces/KoAlphaColorSpace.h:36
 #, kde-format
 msgid "Alpha (16-bit integer)"
-msgstr "透明度 (16 位元整數)"
+msgstr "Alpha (16 位元整數)"
 
 #: libs/pigment/colorspaces/KoAlphaColorSpace.h:37
 #, kde-format
 msgid "Alpha (32-bit floating point)"
-msgstr "透明度 (32 位元浮點)"
+msgstr "Alpha (32 位元浮點)"
 
 #: libs/pigment/colorspaces/KoAlphaColorSpace.h:41
 #, kde-format
 msgid "Alpha (16-bit floating point)"
-msgstr "透明度 (16 位元浮點)"
+msgstr "Alpha (16 位元浮點)"
 
 #: libs/pigment/colorspaces/KoAlphaColorSpace.h:130
 #: libs/pigment/colorspaces/KoAlphaColorSpace.h:135
@@ -16252,7 +16252,7 @@ msgstr "透明度 (16 位元浮點)"
 #: libs/pigment/colorspaces/KoAlphaColorSpace.h:172
 #, kde-format
 msgid "Undefined operation in the alpha color space"
-msgstr "在透明度色彩空間中發生未定義操作"
+msgstr "在 Alpha (透明度) 色彩空間中發生未定義操作"
 
 #: libs/pigment/colorspaces/KoLabColorSpace.cpp:29
 #: libs/pigment/colorspaces/KoLabColorSpace.h:66
@@ -16408,32 +16408,32 @@ msgstr "一般 L*a*b* 直方圖"
 #: libs/pigment/KoColorModelStandardIds.cpp:12
 #, kde-format
 msgid "Alpha mask"
-msgstr "透明度遮罩"
+msgstr "Alpha 遮罩"
 
 #: libs/pigment/KoColorModelStandardIds.cpp:13
 #, kde-format
 msgid "RGB/Alpha"
-msgstr "RGB/透明度"
+msgstr "RGB/Alpha"
 
 #: libs/pigment/KoColorModelStandardIds.cpp:14
 #, kde-format
 msgid "XYZ/Alpha"
-msgstr "XYZ/透明度"
+msgstr "XYZ/Alpha"
 
 #: libs/pigment/KoColorModelStandardIds.cpp:15
 #, kde-format
 msgid "L*a*b*/Alpha"
-msgstr "L*a*b*/透明度"
+msgstr "L*a*b*/Alpha"
 
 #: libs/pigment/KoColorModelStandardIds.cpp:16
 #, kde-format
 msgid "CMYK/Alpha"
-msgstr "CMYK/透明度"
+msgstr "CMYK/Alpha"
 
 #: libs/pigment/KoColorModelStandardIds.cpp:17
 #, kde-format
 msgid "Grayscale/Alpha"
-msgstr "灰階/透明度"
+msgstr "灰階/Alpha"
 
 #: libs/pigment/KoColorModelStandardIds.cpp:18
 #, kde-format
@@ -16443,7 +16443,7 @@ msgstr "灰階 (不帶透明度)"
 #: libs/pigment/KoColorModelStandardIds.cpp:19
 #, kde-format
 msgid "YCbCr/Alpha"
-msgstr "YCbCr/透明度"
+msgstr "YCbCr/Alpha"
 
 #: libs/pigment/KoColorModelStandardIds.cpp:21
 #, kde-format
@@ -16930,7 +16930,7 @@ msgstr "擦除"
 #, kde-format
 msgctxt "Blending mode - Alpha Darken"
 msgid "Alpha Darken"
-msgstr "透明度變暗"
+msgstr "Alpha 變暗"
 
 #: libs/pigment/KoCompositeOpRegistry.cpp:115
 #, kde-format
@@ -23963,12 +23963,10 @@ msgid ""
 "FullHD@25fps video you need extra 200 MiB of memory</p><p>* for 1 second of "
 "4K UltraHD@25fps video you need extra 800 MiB of memory</p></body></html>"
 msgstr ""
-"<html><head/><body><p>動畫影格快取將完全存儲到記憶體中，不設任何限制。</"
-"p><p><span style=\" font-weight:600;\">警告：</span>請確保電腦的記憶體<span "
-"style=\" text-decoration: underline;\">大於</span>您在一般頁面中要求的數量，"
-"否則系統可能會鎖死。</p><p>＊ 每 1 秒鐘的 25FPS Full HD影片需要 200 MiB 記憶"
-"體。</p><p>＊ 每 1 秒鐘的 25FPS 4K 超清影片需要 800 MiB 記憶體。</p></body></"
-"html>"
+"<html><head/><body><p>動畫影格快取將完全存放到記憶體中，不設任何限制。</p><p><span style=\" font-"
+"weight:600;\">警告：</span>請確保電腦的記憶體<span style=\" text-decoration: underline;\""
+">大於</span>您在一般頁面中要求的數量，否則系統可能會鎖死。</p><p>＊ 每 1 秒鐘的 25FPS Full HD影片需要 200 MiB "
+"記憶體。</p><p>＊ 每 1 秒鐘的 25FPS 4K 超清影片需要 800 MiB 記憶體。</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QRadioButton, optInMemory)
 #: libs/ui/forms/wdgperformancesettings.ui:452
@@ -23986,10 +23984,9 @@ msgid ""
 "low, you might want to limit cached frame size to be able to play your video "
 "at 25 fps. The limit of 2500 px is usually a good choice.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>動畫影格快取將存儲到磁碟交換檔案使用的目錄中。快取檔案"
-"會被壓縮。需要少量額外的記憶體。</p><p>由於硬碟的資料傳輸速率較低，為了能夠以"
-"每秒 25 影格的速度播放影片，可能需要對影格的尺寸進行限制。2500 px 的限制通常"
-"來說是較佳選擇。</p></body></html>"
+"<html><head/"
+"><body><p>動畫影格快取將存放到磁碟交換檔案使用的目錄中。快取檔案會被壓縮。需要少量額外的記憶體。</p><p>由於硬碟的資料傳輸速率較低，"
+"為了能夠以每秒 25 影格的速度播放影片，可能需要對影格的尺寸進行限制。2500 px 的限制通常來說是較佳選擇。</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QRadioButton, optOnDisk)
 #: libs/ui/forms/wdgperformancesettings.ui:462
@@ -26179,13 +26176,13 @@ msgid ""
 "Cannot write alpha channel of the parent layer \"%1\".\n"
 "The operation will be cancelled."
 msgstr ""
-"無法寫入父圖層「%1」的透明度通道。\n"
+"無法寫入父圖層「%1」的 Alpha (透明度) 通道。\n"
 "操作將被取消。"
 
 #: libs/ui/kis_node_manager.cpp:1335
 msgctxt "(qtundo-format)"
 msgid "Write Alpha into a Layer"
-msgstr "寫入透明度到圖層"
+msgstr "寫入 Alpha (透明度) 到圖層"
 
 #: libs/ui/kis_node_manager.cpp:1449
 msgctxt "(qtundo-format)"
@@ -30797,7 +30794,7 @@ msgstr "亮度"
 #, kde-format
 msgctxt "Name of Dither pattern value mode - Alpha"
 msgid "Alpha"
-msgstr "透明度"
+msgstr "Alpha (透明度)"
 
 #. i18n: ectx: property (text), widget (QLabel, noiseSeedLabel)
 #: libs/ui/widgets/KisDitherWidget.ui:141
@@ -36067,7 +36064,7 @@ msgid ""
 "⚠ Unsupported color space.\n"
 "\"RGB/Alpha 8-bit\" is only supported."
 msgstr ""
-"⚠ 色彩空間不支援。\n"
+"⚠ 不支援的色彩空間。\n"
 "只支援 \"RGB/Alpha 8 位元\"。"
 
 #: plugins/dockers/recorder/recorderdocker_dock.cpp:102
@@ -37098,7 +37095,7 @@ msgstr "將每個圖層放進各自獨立的群組圖層"
 #: plugins/extensions/layersplit/wdg_layersplit.ui:46
 #, kde-format
 msgid "Alpha-lock every new layer"
-msgstr "鎖定每個新圖層的透明度"
+msgstr "鎖定每個新圖層的 Alpha (透明度)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkHideOriginal)
 #: plugins/extensions/layersplit/wdg_layersplit.ui:56
@@ -39146,25 +39143,25 @@ msgstr "分離前平整全部圖層"
 #: plugins/extensions/separate_channels/wdg_separations.ui:90
 #, kde-format
 msgid "Alpha Options"
-msgstr "透明度選項"
+msgstr "Alpha (透明度) 選項"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioCopyAlpha)
 #: plugins/extensions/separate_channels/wdg_separations.ui:96
 #, kde-format
 msgid "Copy alpha channel to each separated channel as an alpha channel"
-msgstr "將透明度通道複製為每個色彩通道各自的透明度通道"
+msgstr "將 Alpha 通道複製為每個色彩通道各自的 Alpha 通道"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioDiscardAlpha)
 #: plugins/extensions/separate_channels/wdg_separations.ui:103
 #, kde-format
 msgid "Discard alpha channel"
-msgstr "拋棄透明度通道"
+msgstr "拋棄 Alpha 通道"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioSeparateAlpha)
 #: plugins/extensions/separate_channels/wdg_separations.ui:113
 #, kde-format
 msgid "Create separate separation from alpha channel"
-msgstr "建立各色彩通道獨立於透明度通道的分離"
+msgstr "將各色彩通道獨立於 Alpha 通道分離"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkDownscale)
 #: plugins/extensions/separate_channels/wdg_separations.ui:123
@@ -39640,12 +39637,12 @@ msgstr "效果強度："
 #: plugins/filters/colors/kis_color_to_alpha.cpp:30
 #, kde-format
 msgid "&Color to Alpha..."
-msgstr "色彩轉為透明度(&C)…"
+msgstr "色彩轉為 Alpha (透明度) (&C)…"
 
 #: plugins/filters/colors/kis_color_to_alpha.h:28
 #, kde-format
 msgid "Color to Alpha"
-msgstr "色彩轉為透明度"
+msgstr "色彩轉為 Alpha (透明度)"
 
 #: plugins/filters/colors/kis_minmax_filters.cpp:58
 #, kde-format
@@ -40127,7 +40124,7 @@ msgstr "這將產生去色後的結果並以其確定透明度。對於建立邊
 #: plugins/filters/edgedetection/wdg_edge_detection.ui:57
 #, kde-format
 msgid "Apply result to alpha channel"
-msgstr "將結果套用到透明度通道"
+msgstr "將結果套用到 Alpha (透明度) 通道"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: plugins/filters/edgedetection/wdg_edge_detection.ui:64
@@ -40423,7 +40420,7 @@ msgstr "其他"
 #: plugins/filters/indexcolors/kiswdgindexcolors.ui:306
 #, kde-format
 msgid "Alpha Steps"
-msgstr "透明度級數"
+msgstr "Alpha (透明度) 級數"
 
 #: plugins/filters/levelfilter/kis_level_filter.cpp:37
 #, kde-format
@@ -40563,7 +40560,7 @@ msgstr "最接近色彩"
 #: plugins/filters/palettize/palettize.ui:170
 #, kde-format
 msgid "Alpha Mode"
-msgstr "透明度模式"
+msgstr "Alpha (透明度) 模式"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, alphaModeComboBox)
 #: plugins/filters/palettize/palettize.ui:181
@@ -41981,9 +41978,8 @@ msgid ""
 "initial values will <i>not</i> be reverted on saving the image back.<br/><br/"
 ">This will hardly make any visual difference just keep it in mind."
 msgstr ""
-"此影像同時包含透明度通道數值為零及不為零的像素。Krita 已經將那些像素調整為含"
-"有透明度。原始數值在儲存影像時將<b>不會</b>被還原。<br/><br/>這並不會造成視覺"
-"上的明顯區別。"
+"此影像包含 Alpha (透明度) 通道數值為零而色彩通道不為零的像素。Krita 已經將那些像素調整為含有 "
+"Alpha。原始數值在儲存影像時將<b>不會</b>被還原。<br/><br/>這並不會構成視覺上的明顯區別，只是提醒一下。"
 
 #: plugins/impex/exr/exr_converter.cc:892
 #, kde-format
@@ -42605,14 +42601,13 @@ msgid ""
 "<html><head/><body><p>Store document metadata that is in the document "
 "information. This will override any layer metadata.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>將檔案資訊內含的中繼資料存儲到檔案內。此操作將覆蓋所有"
-"圖層的中繼資料。</p></body></html>"
+"<html><head/><body><p>將檔案資訊內含的中繼資料存放到檔案內。此操作將覆蓋所有圖層的中繼資料。</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkMetaData)
 #: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:336
 #, kde-format
 msgid "Store Document Metadata"
-msgstr "存儲檔案中繼資料"
+msgstr "儲存檔案中繼資料"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:343
@@ -43182,15 +43177,14 @@ msgid ""
 "make the resulting file smaller .<br>Always saving the alpha channel is "
 "recommended.</p>"
 msgstr ""
-"<p>便攜網路圖形 (PNG) 檔案格式可以將影像的透明度存儲到一個透明度通道中。\n"
-"如果您不需要保留透明度，可取消勾選此選項以減小檔案體積。<br>建議始終儲存透明"
-"度通道。</p>"
+"<p>便攜網路圖形 (PNG) 檔案格式可以將影像的透明度存放到一個 Alpha 通道之內。\n"
+"如果您不需要保留透明度，可取消勾選此選項以減小檔案體積。<br>建議始終儲存 Alpha 通道。</p>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, alpha)
 #: plugins/impex/png/kis_wdg_options_png.ui:80
 #, kde-format
 msgid "Store alpha channel (transparency)"
-msgstr "儲存透明度通道"
+msgstr "儲存 Alpha 通道 (透明度)"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkAuthor)
 #: plugins/impex/png/kis_wdg_options_png.ui:90
@@ -43257,9 +43251,7 @@ msgstr "較小檔案體積"
 msgid ""
 "<html><head/><body><p>Store information like keywords, title and subject and "
 "license, if possible.</p></body></html>"
-msgstr ""
-"<html><head/><body><p>可以的話，存儲例如是關鍵字、標題、主題和許可協議等的資"
-"訊。</p></body></html>"
+msgstr "<html><head/><body><p>可以的話，儲存例如是關鍵字、標題、主題和許可協議等的資訊。</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkMetaData)
 #: plugins/impex/png/kis_wdg_options_png.ui:124
@@ -44376,7 +44368,7 @@ msgstr "浮點水平差分法"
 #: plugins/impex/tiff/kis_wdg_options_tiff.ui:135
 #, kde-format
 msgid "Store alpha &channel (transparency)"
-msgstr "儲存透明度通道(&C)"
+msgstr "儲存 Alpha 通道 (透明度) (&C)"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBoxJPEG)
 #: plugins/impex/tiff/kis_wdg_options_tiff.ui:231
@@ -44726,19 +44718,19 @@ msgstr "自動調整過濾強度"
 msgid ""
 "Algorithm for encoding the alpha plane (0 = None, 1 = compressed with WebP "
 "lossless). Default is 1."
-msgstr "透明度通度平面壓縮方法 (0 = 無，1 = WebP 無損壓縮)"
+msgstr "Alpha (透明度) 通度平面壓縮方法 (0 = 無，1 = WebP 無損壓縮)"
 
 #. i18n: ectx: property (text), widget (QLabel, lblAlphaCompression)
 #: plugins/impex/webp/dlg_webp_export.ui:407
 #, kde-format
 msgid "Alpha Plane Compression"
-msgstr "透明度通度平面壓縮"
+msgstr "Alpha 通度平面壓縮"
 
 #. i18n: ectx: property (text), widget (QLabel, lblAlphaFiltering)
 #: plugins/impex/webp/dlg_webp_export.ui:417
 #, kde-format
 msgid "Predictive Filtering for Alpha Plane"
-msgstr "透明度通度平面的預測性過濾"
+msgstr "Alpha (透明度) 通度平面的預測性過濾"
 
 #. i18n: ectx: property (text), widget (QLabel, lblFast)
 #: plugins/impex/webp/dlg_webp_export.ui:426
@@ -44759,7 +44751,7 @@ msgstr "0 = 檔案最小，100 = 無損。預設值為 100。"
 #: plugins/impex/webp/dlg_webp_export.ui:468
 #, kde-format
 msgid "Alpha Plane Quality"
-msgstr "透明度通道平面品質"
+msgstr "Alpha 通道平面品質"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblPass)
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, pass)
@@ -45029,7 +45021,7 @@ msgstr "色彩通道平面："
 #: plugins/impex/webp/dlg_webp_import.ui:372
 #, kde-format
 msgid "Alpha plane: "
-msgstr "透明度通道平面："
+msgstr "Alpha 通道平面："
 
 #: plugins/impex/xcf/kis_xcf_import.cpp:156
 #, kde-format
@@ -45065,7 +45057,7 @@ msgstr "鈍化"
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings.cpp:113
 #, kde-format
 msgid "Smear Alpha"
-msgstr "塗抺透明度"
+msgstr "塗抺透明度 (Alpha)"
 
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings.cpp:152
 #, kde-format
@@ -45317,7 +45309,7 @@ msgstr "塗抹模式："
 #: plugins/paintops/colorsmudge/kis_smudge_option_widget.cpp:37
 #, kde-format
 msgid "Smear alpha:"
-msgstr "塗抺透明度："
+msgstr "塗抺透明度 (Alpha)："
 
 #: plugins/paintops/colorsmudge/kis_smudge_option_widget.cpp:38
 #, kde-format
@@ -46362,7 +46354,7 @@ msgstr "寬高比："
 #: plugins/paintops/libpaintop/forms/wdgclipboardbrush.ui:133
 #, kde-format
 msgid "Preserve alpha"
-msgstr "保持透明度"
+msgstr "保持 Alpha (透明度) 不變"
 
 #. i18n: ectx: property (text), widget (QCheckBox, randomHSVCHBox)
 #: plugins/paintops/libpaintop/forms/wdgcoloroptions.ui:33
@@ -46560,7 +46552,7 @@ msgstr "X 範圍："
 #: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:115
 #, kde-format
 msgid "Preserve alpha channel"
-msgstr "保留透明度通道"
+msgstr "保留 Alpha (透明度) 通道"
 
 #. i18n: ectx: property (title), widget (QGroupBox, grpFilterOptions)
 #: plugins/paintops/libpaintop/forms/wdgfilteroption.ui:62
@@ -47178,7 +47170,7 @@ msgstr "亮度映射"
 msgctxt "@info:tooltip"
 msgid ""
 "Luminosity of the brush tip image is used as alpha channel for the stroke"
-msgstr "筆尖光度將用作筆跡的透明度通道"
+msgstr "筆尖光度將用作筆跡的 Alpha (透明度) 通道"
 
 #: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:190
 #, kde-format
@@ -47193,8 +47185,7 @@ msgid ""
 "Luminosity of the brush tip image is used as lightness correction for the "
 "painting color. Alpha channel of the brush tip image is used as alpha for "
 "the final stroke"
-msgstr ""
-"筆尖光度將用作調整筆刷色彩的亮度。筆尖影像的透明度通道將用作筆跡的透明度。"
+msgstr "筆尖光度將用作調整筆刷色彩的亮度。筆尖影像的 Alpha (透明度) 通道將用作筆跡的 Alpha。"
 
 #: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:192
 #, kde-format
@@ -47202,8 +47193,7 @@ msgctxt "@info:tooltip"
 msgid ""
 "The brush tip maps its value to the currently selected gradient. Alpha "
 "channel of the brush tip image is used as alpha for the final stroke"
-msgstr ""
-"筆尖亮度將映射到使用中的漸變色階。筆尖影像的透明度通道將用作筆跡的透明度。"
+msgstr "筆尖亮度將映射到使用中的漸變色階。筆尖影像的 Alpha (透明度) 通道將用作筆跡的 Alpha。"
 
 #: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:358
 #, kde-format
@@ -49336,9 +49326,8 @@ msgid ""
 "the Krita configuration, and not the project configuration."
 msgstr ""
 "中繼資料編輯器中使用的附加自動填充關鍵字的位置。將此位置指向一個含有 "
-"key_characters、key_format、key_genre、key_rating、key_author_roles、"
-"key_other 等項的文字檔案 (csv 用於評分)，每行一個附加自動完成關鍵字。此路徑存"
-"儲在 Krita 設定中，而不是專案設定中。"
+"key_characters、key_format、key_genre、key_rating、key_author_roles、key_other "
+"等項的文字檔案 (csv 用於評分)，每行一個附加自動完成關鍵字。此路徑存放在 Krita 設定中，而不是專案設定中。"
 
 #: plugins/python/comics_project_management_tools/comics_project_settings_dialog.py:121
 #: plugins/python/comics_project_management_tools/comics_project_setup_wizard.py:118
