@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-14 00:15+0000\n"
-"PO-Revision-Date: 2021-08-16 18:29+0000\n"
+"POT-Creation-Date: 2021-08-17 00:15+0000\n"
+"PO-Revision-Date: 2021-08-17 06:50+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -17745,11 +17745,9 @@ msgstr "縮圖"
 
 #. i18n: ectx: property (text), widget (QPushButton, bnDelete)
 #. i18n: ectx: property (text), widget (QPushButton, deleteAllAssistantsButton)
-#. i18n: ectx: property (text), widget (QRadioButton, btnAllView)
 #: libs/resources/KisTagModel.cpp:117 libs/resources/KisTagModel.cpp:279
 #: libs/ui/widgets/kis_paintop_presets_editor.cpp:593
 #: plugins/assistants/Assistants/AssistantsToolOptions.ui:262
-#: plugins/dockers/storyboarddocker/wdgarrangemenu.ui:70
 #: plugins/tools/defaulttool/referenceimagestool/WdgToolOptions.ui:207
 #, kde-format
 msgid "All"
@@ -19910,10 +19908,8 @@ msgid "Snap to:"
 msgstr "吸附到："
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#. i18n: ectx: property (text), widget (QRadioButton, btnGridMode)
 #: libs/ui/canvas/kis_guides_manager.cpp:776
 #: plugins/dockers/griddocker/grid_config_widget.ui:43
-#: plugins/dockers/storyboarddocker/wdgarrangemenu.ui:49
 #, kde-format
 msgid "Grid"
 msgstr "格線"
@@ -21141,11 +21137,6 @@ msgstr "新名稱："
 #, kde-format
 msgid "Vector Layer %1"
 msgstr "向量圖層 %1"
-
-#: libs/ui/flake/kis_shape_layer.cc:617
-#, kde-format
-msgid "No store backend"
-msgstr "無資料存儲後端程式"
 
 #: libs/ui/flake/kis_take_all_shapes_command.cpp:15
 msgctxt "(qtundo-format)"
@@ -36405,44 +36396,59 @@ msgctxt "Remove current scene from storyboards"
 msgid "Remove Scene"
 msgstr "移除場景"
 
-#. i18n: ectx: property (title), widget (QGroupBox, buttonGroup1)
 #. i18n: ectx: property (text), widget (QLabel, label)
-#. i18n: ectx: property (text), widget (QToolButton, btnArrange)
 #: plugins/dockers/storyboarddocker/wdgarrangemenu.ui:28
-#: plugins/dockers/storyboarddocker/wdgstoryboarddock.ui:76
-#: plugins/filters/dodgeburn/DodgeBurnConfigurationBaseWidget.ui:21
-#: plugins/python/channels2layers/channels2layers.py:1076
 #, kde-format
+msgctxt "list view layout mode"
 msgid "Mode"
 msgstr "模式"
 
 #. i18n: ectx: property (text), widget (QRadioButton, btnColumnMode)
 #: plugins/dockers/storyboarddocker/wdgarrangemenu.ui:35
 #, kde-format
+msgctxt "list view layout mode"
 msgid "Column"
-msgstr "行"
+msgstr "行 (左至右)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, btnRowMode)
 #: plugins/dockers/storyboarddocker/wdgarrangemenu.ui:42
 #, kde-format
+msgctxt "list view layout mode"
 msgid "Row"
-msgstr "列"
+msgstr "列 (上至下)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, btnGridMode)
+#: plugins/dockers/storyboarddocker/wdgarrangemenu.ui:49
+#, kde-format
+msgctxt "list view layout mode"
+msgid "Grid"
+msgstr "表格"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: plugins/dockers/storyboarddocker/wdgarrangemenu.ui:63
 #, kde-format
+msgctxt "list view fields visibility"
 msgid "View"
 msgstr "檢視"
+
+#. i18n: ectx: property (text), widget (QRadioButton, btnAllView)
+#: plugins/dockers/storyboarddocker/wdgarrangemenu.ui:70
+#, kde-format
+msgctxt "list view fields visibility"
+msgid "All"
+msgstr "全部"
 
 #. i18n: ectx: property (text), widget (QRadioButton, btnThumbnailsView)
 #: plugins/dockers/storyboarddocker/wdgarrangemenu.ui:77
 #, kde-format
+msgctxt "list view fields visibility"
 msgid "Thumbnails Only"
 msgstr "只顯示縮圖"
 
 #. i18n: ectx: property (text), widget (QRadioButton, btnCommentsView)
 #: plugins/dockers/storyboarddocker/wdgarrangemenu.ui:84
 #, kde-format
+msgctxt "list view fields visibility"
 msgid "Comments Only"
 msgstr "只顯示注釋"
 
@@ -36559,6 +36565,15 @@ msgstr "SVG 檔案名根據："
 #, kde-format
 msgid "Comments"
 msgstr "注釋"
+
+#. i18n: ectx: property (title), widget (QGroupBox, buttonGroup1)
+#. i18n: ectx: property (text), widget (QToolButton, btnArrange)
+#: plugins/dockers/storyboarddocker/wdgstoryboarddock.ui:76
+#: plugins/filters/dodgeburn/DodgeBurnConfigurationBaseWidget.ui:21
+#: plugins/python/channels2layers/channels2layers.py:1076
+#, kde-format
+msgid "Mode"
+msgstr "模式"
 
 #: plugins/dockers/svgcollectiondocker/SvgSymbolCollectionDocker.cpp:156
 #, kde-format
@@ -53839,6 +53854,9 @@ msgstr "縮放工具"
 msgctxt "action"
 msgid "Reference Images Tool"
 msgstr "參考圖工具"
+
+#~ msgid "No store backend"
+#~ msgstr "無資料存儲後端程式"
 
 #~ msgid "Disable all vector optimizations (for AMD CPUs)"
 #~ msgstr "停用所有 CPU 向量最佳化 (針對 AMD CPU)"
