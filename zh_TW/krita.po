@@ -23963,10 +23963,12 @@ msgid ""
 "FullHD@25fps video you need extra 200 MiB of memory</p><p>* for 1 second of "
 "4K UltraHD@25fps video you need extra 800 MiB of memory</p></body></html>"
 msgstr ""
-"<html><head/><body><p>動畫影格快取將完全存放到記憶體中，不設任何限制。</p><p><span style=\" font-"
-"weight:600;\">警告：</span>請確保電腦的記憶體<span style=\" text-decoration: underline;\""
-">大於</span>您在一般頁面中要求的數量，否則系統可能會鎖死。</p><p>＊ 每 1 秒鐘的 25FPS Full HD影片需要 200 MiB "
-"記憶體。</p><p>＊ 每 1 秒鐘的 25FPS 4K 超清影片需要 800 MiB 記憶體。</p></body></html>"
+"<html><head/><body><p>動畫影格快取將完全存放到記憶體中，不設任何限制。</"
+"p><p><span style=\" font-weight:600;\">警告：</span>請確保電腦的記憶體<span "
+"style=\" text-decoration: underline;\">大於</span>您在一般頁面中要求的數量，"
+"否則系統可能會鎖死。</p><p>＊ 每 1 秒鐘的 25FPS Full HD影片需要 200 MiB 記憶"
+"體。</p><p>＊ 每 1 秒鐘的 25FPS 4K 超清影片需要 800 MiB 記憶體。</p></body></"
+"html>"
 
 #. i18n: ectx: property (text), widget (QRadioButton, optInMemory)
 #: libs/ui/forms/wdgperformancesettings.ui:452
@@ -23984,9 +23986,10 @@ msgid ""
 "low, you might want to limit cached frame size to be able to play your video "
 "at 25 fps. The limit of 2500 px is usually a good choice.</p></body></html>"
 msgstr ""
-"<html><head/"
-"><body><p>動畫影格快取將存放到磁碟交換檔案使用的目錄中。快取檔案會被壓縮。需要少量額外的記憶體。</p><p>由於硬碟的資料傳輸速率較低，"
-"為了能夠以每秒 25 影格的速度播放影片，可能需要對影格的尺寸進行限制。2500 px 的限制通常來說是較佳選擇。</p></body></html>"
+"<html><head/><body><p>動畫影格快取將存放到磁碟交換檔案使用的目錄中。快取檔案"
+"會被壓縮。需要少量額外的記憶體。</p><p>由於硬碟的資料傳輸速率較低，為了能夠以"
+"每秒 25 影格的速度播放影片，可能需要對影格的尺寸進行限制。2500 px 的限制通常"
+"來說是較佳選擇。</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QRadioButton, optOnDisk)
 #: libs/ui/forms/wdgperformancesettings.ui:462
@@ -41978,8 +41981,9 @@ msgid ""
 "initial values will <i>not</i> be reverted on saving the image back.<br/><br/"
 ">This will hardly make any visual difference just keep it in mind."
 msgstr ""
-"此影像包含 Alpha (透明度) 通道數值為零而色彩通道不為零的像素。Krita 已經將那些像素調整為含有 "
-"Alpha。原始數值在儲存影像時將<b>不會</b>被還原。<br/><br/>這並不會構成視覺上的明顯區別，只是提醒一下。"
+"此影像包含 Alpha (透明度) 通道數值為零而色彩通道不為零的像素。Krita 已經將那"
+"些像素調整為含有 Alpha。原始數值在儲存影像時將<b>不會</b>被還原。<br/><br/>這"
+"並不會構成視覺上的明顯區別，只是提醒一下。"
 
 #: plugins/impex/exr/exr_converter.cc:892
 #, kde-format
@@ -42601,7 +42605,8 @@ msgid ""
 "<html><head/><body><p>Store document metadata that is in the document "
 "information. This will override any layer metadata.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>將檔案資訊內含的中繼資料存放到檔案內。此操作將覆蓋所有圖層的中繼資料。</p></body></html>"
+"<html><head/><body><p>將檔案資訊內含的中繼資料存放到檔案內。此操作將覆蓋所有"
+"圖層的中繼資料。</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkMetaData)
 #: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:336
@@ -43178,7 +43183,8 @@ msgid ""
 "recommended.</p>"
 msgstr ""
 "<p>便攜網路圖形 (PNG) 檔案格式可以將影像的透明度存放到一個 Alpha 通道之內。\n"
-"如果您不需要保留透明度，可取消勾選此選項以減小檔案體積。<br>建議始終儲存 Alpha 通道。</p>"
+"如果您不需要保留透明度，可取消勾選此選項以減小檔案體積。<br>建議始終儲存 "
+"Alpha 通道。</p>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, alpha)
 #: plugins/impex/png/kis_wdg_options_png.ui:80
@@ -43251,7 +43257,9 @@ msgstr "較小檔案體積"
 msgid ""
 "<html><head/><body><p>Store information like keywords, title and subject and "
 "license, if possible.</p></body></html>"
-msgstr "<html><head/><body><p>可以的話，儲存例如是關鍵字、標題、主題和許可協議等的資訊。</p></body></html>"
+msgstr ""
+"<html><head/><body><p>可以的話，儲存例如是關鍵字、標題、主題和許可協議等的資"
+"訊。</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkMetaData)
 #: plugins/impex/png/kis_wdg_options_png.ui:124
@@ -47185,7 +47193,9 @@ msgid ""
 "Luminosity of the brush tip image is used as lightness correction for the "
 "painting color. Alpha channel of the brush tip image is used as alpha for "
 "the final stroke"
-msgstr "筆尖光度將用作調整筆刷色彩的亮度。筆尖影像的 Alpha (透明度) 通道將用作筆跡的 Alpha。"
+msgstr ""
+"筆尖光度將用作調整筆刷色彩的亮度。筆尖影像的 Alpha (透明度) 通道將用作筆跡的 "
+"Alpha。"
 
 #: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:192
 #, kde-format
@@ -47193,7 +47203,9 @@ msgctxt "@info:tooltip"
 msgid ""
 "The brush tip maps its value to the currently selected gradient. Alpha "
 "channel of the brush tip image is used as alpha for the final stroke"
-msgstr "筆尖亮度將映射到使用中的漸變色階。筆尖影像的 Alpha (透明度) 通道將用作筆跡的 Alpha。"
+msgstr ""
+"筆尖亮度將映射到使用中的漸變色階。筆尖影像的 Alpha (透明度) 通道將用作筆跡的 "
+"Alpha。"
 
 #: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:358
 #, kde-format
@@ -49326,8 +49338,9 @@ msgid ""
 "the Krita configuration, and not the project configuration."
 msgstr ""
 "中繼資料編輯器中使用的附加自動填充關鍵字的位置。將此位置指向一個含有 "
-"key_characters、key_format、key_genre、key_rating、key_author_roles、key_other "
-"等項的文字檔案 (csv 用於評分)，每行一個附加自動完成關鍵字。此路徑存放在 Krita 設定中，而不是專案設定中。"
+"key_characters、key_format、key_genre、key_rating、key_author_roles、"
+"key_other 等項的文字檔案 (csv 用於評分)，每行一個附加自動完成關鍵字。此路徑存"
+"放在 Krita 設定中，而不是專案設定中。"
 
 #: plugins/python/comics_project_management_tools/comics_project_settings_dialog.py:121
 #: plugins/python/comics_project_management_tools/comics_project_setup_wizard.py:118
