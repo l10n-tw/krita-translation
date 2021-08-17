@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-08-17 00:15+0000\n"
-"PO-Revision-Date: 2021-08-16 18:29+0000\n"
+"PO-Revision-Date: 2021-08-17 06:50+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -36398,64 +36398,56 @@ msgstr "移除場景"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: plugins/dockers/storyboarddocker/wdgarrangemenu.ui:28
-#, fuzzy, kde-format
-#| msgid "Mode"
+#, kde-format
 msgctxt "list view layout mode"
 msgid "Mode"
 msgstr "模式"
 
 #. i18n: ectx: property (text), widget (QRadioButton, btnColumnMode)
 #: plugins/dockers/storyboarddocker/wdgarrangemenu.ui:35
-#, fuzzy, kde-format
-#| msgid "Column"
+#, kde-format
 msgctxt "list view layout mode"
 msgid "Column"
-msgstr "行"
+msgstr "行 (左至右)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, btnRowMode)
 #: plugins/dockers/storyboarddocker/wdgarrangemenu.ui:42
-#, fuzzy, kde-format
-#| msgid "Row"
+#, kde-format
 msgctxt "list view layout mode"
 msgid "Row"
-msgstr "列"
+msgstr "列 (上至下)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, btnGridMode)
 #: plugins/dockers/storyboarddocker/wdgarrangemenu.ui:49
-#, fuzzy, kde-format
-#| msgid "Grid"
+#, kde-format
 msgctxt "list view layout mode"
 msgid "Grid"
-msgstr "格線"
+msgstr "表格"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: plugins/dockers/storyboarddocker/wdgarrangemenu.ui:63
-#, fuzzy, kde-format
-#| msgid "View"
+#, kde-format
 msgctxt "list view fields visibility"
 msgid "View"
 msgstr "檢視"
 
 #. i18n: ectx: property (text), widget (QRadioButton, btnAllView)
 #: plugins/dockers/storyboarddocker/wdgarrangemenu.ui:70
-#, fuzzy, kde-format
-#| msgid "All"
+#, kde-format
 msgctxt "list view fields visibility"
 msgid "All"
 msgstr "全部"
 
 #. i18n: ectx: property (text), widget (QRadioButton, btnThumbnailsView)
 #: plugins/dockers/storyboarddocker/wdgarrangemenu.ui:77
-#, fuzzy, kde-format
-#| msgid "Thumbnails Only"
+#, kde-format
 msgctxt "list view fields visibility"
 msgid "Thumbnails Only"
 msgstr "只顯示縮圖"
 
 #. i18n: ectx: property (text), widget (QRadioButton, btnCommentsView)
 #: plugins/dockers/storyboarddocker/wdgarrangemenu.ui:84
-#, fuzzy, kde-format
-#| msgid "Comments Only"
+#, kde-format
 msgctxt "list view fields visibility"
 msgid "Comments Only"
 msgstr "只顯示注釋"
