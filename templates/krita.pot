@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-17 00:15+0000\n"
+"POT-Creation-Date: 2021-08-18 00:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -21242,7 +21242,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: libs/ui/forms/koDocumentInfoAboutWidget.ui:151
 #: libs/ui/forms/wdgmetadatamergestrategychooser.ui:53
-#: plugins/extensions/metadataeditor/editors/dublincore.ui:103
+#: plugins/extensions/metadataeditor/editors/dublincore.ui:93
 #: plugins/extensions/pykrita/plugin/info.ui:48
 #: plugins/extensions/resourcemanager/wdgdlgcreatebundle.ui:243
 #, kde-format
@@ -21304,7 +21304,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #: libs/ui/forms/koDocumentInfoAuthorWidget.ui:89
-#: plugins/extensions/metadataeditor/editors/dublincore.ui:87
+#: plugins/extensions/metadataeditor/editors/dublincore.ui:80
 #: plugins/extensions/pykrita/plugin/info.ui:178
 #: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:322
 #, kde-format
@@ -26659,7 +26659,8 @@ msgid "Waiting for saving to complete..."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, exif)
-#: libs/ui/kisexiv2/kis_exif_io.h:24 plugins/impex/jpeg/kis_wdg_options_jpeg.ui:274
+#: libs/ui/kisexiv2/kis_exif_io.h:24 plugins/extensions/metadataeditor/kis_meta_data_editor.cc:160
+#: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:274
 #, kde-format
 msgid "Exif"
 msgstr ""
@@ -34428,12 +34429,12 @@ msgstr ""
 msgid "%1 %"
 msgstr ""
 
-#: plugins/dockers/layerdocker/NodeToolTip.cpp:41
+#: plugins/dockers/layerdocker/NodeToolTip.cpp:43
 #, kde-format
 msgid "No"
 msgstr ""
 
-#: plugins/dockers/layerdocker/NodeToolTip.cpp:41
+#: plugins/dockers/layerdocker/NodeToolTip.cpp:43
 #, kde-format
 msgid "Yes"
 msgstr ""
@@ -36433,855 +36434,852 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: plugins/extensions/metadataeditor/editors/dublincore.ui:23
+#: plugins/extensions/metadataeditor/editors/dublincore.ui:21
 #, kde-format
 msgid "Creator name:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: plugins/extensions/metadataeditor/editors/dublincore.ui:39
+#: plugins/extensions/metadataeditor/editors/dublincore.ui:34
 #, kde-format
 msgid "Publisher:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: plugins/extensions/metadataeditor/editors/dublincore.ui:55
+#: plugins/extensions/metadataeditor/editors/dublincore.ui:47
 #, kde-format
 msgid "Rights:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: plugins/extensions/metadataeditor/editors/dublincore.ui:71
+#: plugins/extensions/metadataeditor/editors/dublincore.ui:60
 #: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:406
 #, kde-format
 msgid "Date:"
 msgstr ""
 
-#. i18n: tag MetaDataEditor attribute name
-#: plugins/extensions/metadataeditor/editors/dublincore.xmlgui:2
+#. i18n: ectx: property (displayFormat), widget (QDateTimeEdit, date)
+#: plugins/extensions/metadataeditor/editors/dublincore.ui:70
 #, kde-format
-msgctxt "metadata editor page"
-msgid "Dublin Core"
+msgid "dd/MM/yyyy"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: plugins/extensions/metadataeditor/editors/exif.ui:25
+#: plugins/extensions/metadataeditor/editors/exif.ui:31
 #, kde-format
 msgctxt "EXIF"
 msgid "Exposure"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: plugins/extensions/metadataeditor/editors/exif.ui:33
+#: plugins/extensions/metadataeditor/editors/exif.ui:37
 #, kde-format
 msgctxt "EXIF: exposure"
 msgid "Brightness &value:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: plugins/extensions/metadataeditor/editors/exif.ui:49
+#: plugins/extensions/metadataeditor/editors/exif.ui:50
 #, kde-format
 msgctxt "EXIF: exposure"
 msgid "&ISO:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_16)
-#: plugins/extensions/metadataeditor/editors/exif.ui:75
+#: plugins/extensions/metadataeditor/editors/exif.ui:73
 #, kde-format
 msgctxt "EXIF: exposure"
 msgid "Exposure &time:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: plugins/extensions/metadataeditor/editors/exif.ui:91
+#: plugins/extensions/metadataeditor/editors/exif.ui:86
 #, kde-format
 msgctxt "EXIF: exposure"
 msgid "E&xposure mode:"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editExposureMode)
-#: plugins/extensions/metadataeditor/editors/exif.ui:105
+#: plugins/extensions/metadataeditor/editors/exif.ui:97
 #, kde-format
 msgctxt "EXIF: exposure - exposure mode"
 msgid "Auto"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editExposureMode)
-#: plugins/extensions/metadataeditor/editors/exif.ui:110
+#: plugins/extensions/metadataeditor/editors/exif.ui:102
 #, kde-format
 msgctxt "EXIF: exposure - exposure mode"
 msgid "Manual"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editExposureMode)
-#: plugins/extensions/metadataeditor/editors/exif.ui:115
+#: plugins/extensions/metadataeditor/editors/exif.ui:107
 #, kde-format
 msgctxt "EXIF: exposure - exposure mode"
 msgid "Auto bracket"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_14)
-#: plugins/extensions/metadataeditor/editors/exif.ui:123
+#: plugins/extensions/metadataeditor/editors/exif.ui:115
 #, kde-format
 msgctxt "EXIF: exposure"
 msgid "Exposure pro&gram:"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editExposureProgram)
-#: plugins/extensions/metadataeditor/editors/exif.ui:137
+#: plugins/extensions/metadataeditor/editors/exif.ui:126
 #, kde-format
 msgctxt "EXIF: exposure - exposure program"
 msgid "Not defined"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editExposureProgram)
-#: plugins/extensions/metadataeditor/editors/exif.ui:142
+#: plugins/extensions/metadataeditor/editors/exif.ui:131
 #, kde-format
 msgctxt "EXIF: exposure - exposure program"
 msgid "Manual"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editExposureProgram)
-#: plugins/extensions/metadataeditor/editors/exif.ui:147
+#: plugins/extensions/metadataeditor/editors/exif.ui:136
 #, kde-format
 msgctxt "EXIF: exposure - exposure program"
 msgid "Normal program"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editExposureProgram)
-#: plugins/extensions/metadataeditor/editors/exif.ui:152
+#: plugins/extensions/metadataeditor/editors/exif.ui:141
 #, kde-format
 msgctxt "EXIF: exposure - exposure program"
 msgid "Aperture priority"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editExposureProgram)
-#: plugins/extensions/metadataeditor/editors/exif.ui:157
+#: plugins/extensions/metadataeditor/editors/exif.ui:146
 #, kde-format
 msgctxt "EXIF: exposure - exposure program"
 msgid "Shutter priority"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editExposureProgram)
-#: plugins/extensions/metadataeditor/editors/exif.ui:162
+#: plugins/extensions/metadataeditor/editors/exif.ui:151
 #, kde-format
 msgctxt "EXIF: exposure - exposure program"
 msgid "Creative program"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editExposureProgram)
-#: plugins/extensions/metadataeditor/editors/exif.ui:167
+#: plugins/extensions/metadataeditor/editors/exif.ui:156
 #, kde-format
 msgctxt "EXIF: exposure - exposure program"
 msgid "Action program"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editExposureProgram)
-#: plugins/extensions/metadataeditor/editors/exif.ui:172
+#: plugins/extensions/metadataeditor/editors/exif.ui:161
 #, kde-format
 msgctxt "EXIF: exposure - exposure program"
 msgid "Portrait mode"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editExposureProgram)
-#: plugins/extensions/metadataeditor/editors/exif.ui:177
+#: plugins/extensions/metadataeditor/editors/exif.ui:166
 #, kde-format
 msgctxt "EXIF: exposure - exposure program"
 msgid "Landscape mode"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
-#: plugins/extensions/metadataeditor/editors/exif.ui:185
+#: plugins/extensions/metadataeditor/editors/exif.ui:174
 #, kde-format
 msgctxt "EXIF: exposure"
 msgid "Exposure index:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_10)
-#: plugins/extensions/metadataeditor/editors/exif.ui:201
+#: plugins/extensions/metadataeditor/editors/exif.ui:187
 #, kde-format
 msgctxt "EXIF: exposure"
 msgid "Exposure bias:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_9)
-#: plugins/extensions/metadataeditor/editors/exif.ui:217
+#: plugins/extensions/metadataeditor/editors/exif.ui:200
 #, kde-format
 msgctxt "EXIF: exposure"
 msgid "Ape&rture:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
-#: plugins/extensions/metadataeditor/editors/exif.ui:233
+#: plugins/extensions/metadataeditor/editors/exif.ui:213
 #, kde-format
 msgctxt "EXIF: exposure"
 msgid "Shutter speed:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_25)
-#: plugins/extensions/metadataeditor/editors/exif.ui:249
+#: plugins/extensions/metadataeditor/editors/exif.ui:226
 #, kde-format
 msgctxt "EXIF: exposure"
 msgid "&F Number:"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
-#: plugins/extensions/metadataeditor/editors/exif.ui:281
+#: plugins/extensions/metadataeditor/editors/exif.ui:240
 #, kde-format
 msgctxt "EXIF"
 msgid "Lens"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
-#: plugins/extensions/metadataeditor/editors/exif.ui:289
+#: plugins/extensions/metadataeditor/editors/exif.ui:246
 #, kde-format
 msgctxt "EXIF: lens"
 msgid "&Focal length:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: plugins/extensions/metadataeditor/editors/exif.ui:315
+#: plugins/extensions/metadataeditor/editors/exif.ui:269
 #, kde-format
 msgctxt "EXIF: lens"
 msgid "Focal length (&35mm equivalent):"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_12)
-#: plugins/extensions/metadataeditor/editors/exif.ui:341
+#: plugins/extensions/metadataeditor/editors/exif.ui:292
 #, kde-format
 msgctxt "EXIF: lens"
 msgid "Max aperture:"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_3)
-#: plugins/extensions/metadataeditor/editors/exif.ui:373
+#: plugins/extensions/metadataeditor/editors/exif.ui:306
 #, kde-format
 msgctxt "EXIF"
 msgid "Autofocus"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_17)
-#: plugins/extensions/metadataeditor/editors/exif.ui:381
+#: plugins/extensions/metadataeditor/editors/exif.ui:312
 #, kde-format
 msgctxt "EXIF: autofocus"
 msgid "Sub&ject distance:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_11)
-#: plugins/extensions/metadataeditor/editors/exif.ui:397
+#: plugins/extensions/metadataeditor/editors/exif.ui:325
 #, kde-format
 msgctxt "EXIF: autofocus"
 msgid "Meterin&g mode:"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editMeteringMode)
-#: plugins/extensions/metadataeditor/editors/exif.ui:411
+#: plugins/extensions/metadataeditor/editors/exif.ui:336
 #, kde-format
 msgctxt "EXIF: autofocus - metering mode"
 msgid "Unknown"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editMeteringMode)
-#: plugins/extensions/metadataeditor/editors/exif.ui:416
+#: plugins/extensions/metadataeditor/editors/exif.ui:341
 #, kde-format
 msgctxt "EXIF: autofocus - metering mode"
 msgid "Average"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editMeteringMode)
-#: plugins/extensions/metadataeditor/editors/exif.ui:421
+#: plugins/extensions/metadataeditor/editors/exif.ui:346
 #, kde-format
 msgctxt "EXIF: autofocus - metering mode"
 msgid "Center weighted average"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editMeteringMode)
-#: plugins/extensions/metadataeditor/editors/exif.ui:426
+#: plugins/extensions/metadataeditor/editors/exif.ui:351
 #, kde-format
 msgctxt "EXIF: autofocus - metering mode"
 msgid "Spot"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editMeteringMode)
-#: plugins/extensions/metadataeditor/editors/exif.ui:431
+#: plugins/extensions/metadataeditor/editors/exif.ui:356
 #, kde-format
 msgctxt "EXIF: autofocus - metering mode"
 msgid "Multi spot"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editMeteringMode)
-#: plugins/extensions/metadataeditor/editors/exif.ui:436
+#: plugins/extensions/metadataeditor/editors/exif.ui:361
 #, kde-format
 msgctxt "EXIF: autofocus - metering mode"
 msgid "Pattern"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editMeteringMode)
-#: plugins/extensions/metadataeditor/editors/exif.ui:441
+#: plugins/extensions/metadataeditor/editors/exif.ui:366
 #, kde-format
 msgctxt "EXIF: autofocus - metering mode"
 msgid "Partial"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editMeteringMode)
-#: plugins/extensions/metadataeditor/editors/exif.ui:446
+#: plugins/extensions/metadataeditor/editors/exif.ui:371
 #, kde-format
 msgctxt "EXIF: autofocus - metering mode"
 msgid "Other"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_24)
-#: plugins/extensions/metadataeditor/editors/exif.ui:454
+#: plugins/extensions/metadataeditor/editors/exif.ui:379
 #, kde-format
 msgctxt "EXIF: autofocus"
 msgid "D&istance range:"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editSubjectDistanceRange)
-#: plugins/extensions/metadataeditor/editors/exif.ui:468
+#: plugins/extensions/metadataeditor/editors/exif.ui:390
 #, kde-format
 msgctxt "EXIF: autofocus - distance range"
 msgid "Unknown"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editSubjectDistanceRange)
-#: plugins/extensions/metadataeditor/editors/exif.ui:473
+#: plugins/extensions/metadataeditor/editors/exif.ui:395
 #, kde-format
 msgctxt "EXIF: autofocus - distance range"
 msgid "Macro"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editSubjectDistanceRange)
-#: plugins/extensions/metadataeditor/editors/exif.ui:478
+#: plugins/extensions/metadataeditor/editors/exif.ui:400
 #, kde-format
 msgctxt "EXIF: autofocus - distance range"
 msgid "Close view"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editSubjectDistanceRange)
-#: plugins/extensions/metadataeditor/editors/exif.ui:483
+#: plugins/extensions/metadataeditor/editors/exif.ui:405
 #, kde-format
 msgctxt "EXIF: autofocus - distance range"
 msgid "Distant view"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_6)
-#: plugins/extensions/metadataeditor/editors/exif.ui:507
+#: plugins/extensions/metadataeditor/editors/exif.ui:414
 #, kde-format
 msgctxt "EXIF"
 msgid "Flash"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, editFlashFired)
-#: plugins/extensions/metadataeditor/editors/exif.ui:515
+#: plugins/extensions/metadataeditor/editors/exif.ui:420
 #, kde-format
 msgctxt "EXIF: flash"
 msgid "Fired"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_22)
-#: plugins/extensions/metadataeditor/editors/exif.ui:522
+#: plugins/extensions/metadataeditor/editors/exif.ui:427
 #, kde-format
 msgctxt "EXIF: flash"
 msgid "Stro&be return:"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (QComboBox, editStrobeReturn)
-#: plugins/extensions/metadataeditor/editors/exif.ui:536
+#. i18n: ectx: property (text), item, widget (QComboBox, editFlashStrobeReturn)
+#: plugins/extensions/metadataeditor/editors/exif.ui:438
 #, kde-format
 msgctxt "EXIF: flash - strobe return"
 msgid "No strobe return detection"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (QComboBox, editStrobeReturn)
-#: plugins/extensions/metadataeditor/editors/exif.ui:541
+#. i18n: ectx: property (text), item, widget (QComboBox, editFlashStrobeReturn)
+#: plugins/extensions/metadataeditor/editors/exif.ui:443
 #, kde-format
 msgctxt "EXIF: flash - strobe return"
 msgid "Undefined"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (QComboBox, editStrobeReturn)
-#: plugins/extensions/metadataeditor/editors/exif.ui:546
+#. i18n: ectx: property (text), item, widget (QComboBox, editFlashStrobeReturn)
+#: plugins/extensions/metadataeditor/editors/exif.ui:448
 #, kde-format
 msgctxt "EXIF: flash - strobe return"
 msgid "No strobe return light detected"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (QComboBox, editStrobeReturn)
-#: plugins/extensions/metadataeditor/editors/exif.ui:551
+#. i18n: ectx: property (text), item, widget (QComboBox, editFlashStrobeReturn)
+#: plugins/extensions/metadataeditor/editors/exif.ui:453
 #, kde-format
 msgctxt "EXIF: flash - strobe return"
 msgid "Strobe return light detected"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_21)
-#: plugins/extensions/metadataeditor/editors/exif.ui:559
+#: plugins/extensions/metadataeditor/editors/exif.ui:461
 #, kde-format
 msgctxt "EXIF: flash"
 msgid "Mode:"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editFlashMode)
-#: plugins/extensions/metadataeditor/editors/exif.ui:573
+#: plugins/extensions/metadataeditor/editors/exif.ui:472
 #, kde-format
 msgctxt "EXIF: flash - mode"
 msgid "Unknown"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editFlashMode)
-#: plugins/extensions/metadataeditor/editors/exif.ui:578
+#: plugins/extensions/metadataeditor/editors/exif.ui:477
 #, kde-format
 msgctxt "EXIF: flash - mode"
 msgid "Compulsory flash fired"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editFlashMode)
-#: plugins/extensions/metadataeditor/editors/exif.ui:583
+#: plugins/extensions/metadataeditor/editors/exif.ui:482
 #, kde-format
 msgctxt "EXIF: flash - mode"
 msgid "Compulsory flash suppression"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editFlashMode)
-#: plugins/extensions/metadataeditor/editors/exif.ui:588
+#: plugins/extensions/metadataeditor/editors/exif.ui:487
 #, kde-format
 msgctxt "EXIF: flash - mode"
 msgid "Auto mode"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, editFlashFunction)
-#: plugins/extensions/metadataeditor/editors/exif.ui:596
+#: plugins/extensions/metadataeditor/editors/exif.ui:495
 #, kde-format
 msgctxt "EXIF: flash"
 msgid "Function"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, editFlashRedEyeMode)
-#: plugins/extensions/metadataeditor/editors/exif.ui:603
+#: plugins/extensions/metadataeditor/editors/exif.ui:502
 #, kde-format
 msgctxt "EXIF: flash"
 msgid "Red-eye removal"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_23)
-#: plugins/extensions/metadataeditor/editors/exif.ui:610
+#: plugins/extensions/metadataeditor/editors/exif.ui:509
 #, kde-format
 msgctxt "EXIF: flash"
 msgid "Flash ener&gy:"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_5)
-#: plugins/extensions/metadataeditor/editors/exif.ui:642
+#: plugins/extensions/metadataeditor/editors/exif.ui:523
 #, kde-format
 msgctxt "EXIF"
 msgid "Postprocessing"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_13)
-#: plugins/extensions/metadataeditor/editors/exif.ui:650
+#: plugins/extensions/metadataeditor/editors/exif.ui:529
 #, kde-format
 msgctxt "EXIF: postprocessing"
 msgid "&Gain control:"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editGainControl)
-#: plugins/extensions/metadataeditor/editors/exif.ui:670
+#: plugins/extensions/metadataeditor/editors/exif.ui:546
 #, kde-format
 msgctxt "EXIF: postprocessing - gain control"
 msgid "None"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editGainControl)
-#: plugins/extensions/metadataeditor/editors/exif.ui:675
+#: plugins/extensions/metadataeditor/editors/exif.ui:551
 #, kde-format
 msgctxt "EXIF: postprocessing - gain control"
 msgid "Low gain up"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editGainControl)
-#: plugins/extensions/metadataeditor/editors/exif.ui:680
+#: plugins/extensions/metadataeditor/editors/exif.ui:556
 #, kde-format
 msgctxt "EXIF: postprocessing - gain control"
 msgid "High gain up"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editGainControl)
-#: plugins/extensions/metadataeditor/editors/exif.ui:685
+#: plugins/extensions/metadataeditor/editors/exif.ui:561
 #, kde-format
 msgctxt "EXIF: postprocessing - gain control"
 msgid "Low gain down"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editGainControl)
-#: plugins/extensions/metadataeditor/editors/exif.ui:690
+#: plugins/extensions/metadataeditor/editors/exif.ui:566
 #, kde-format
 msgctxt "EXIF: postprocessing - gain control"
 msgid "High gain down"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_15)
-#: plugins/extensions/metadataeditor/editors/exif.ui:698
+#: plugins/extensions/metadataeditor/editors/exif.ui:574
 #, kde-format
 msgctxt "EXIF: postprocessing"
 msgid "L&ight source:"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editLightSource)
-#: plugins/extensions/metadataeditor/editors/exif.ui:712
+#: plugins/extensions/metadataeditor/editors/exif.ui:585
 #, kde-format
 msgctxt "EXIF: postprocessing - light source"
 msgid "Unknown"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editLightSource)
-#: plugins/extensions/metadataeditor/editors/exif.ui:717
+#: plugins/extensions/metadataeditor/editors/exif.ui:590
 #, kde-format
 msgctxt "EXIF: postprocessing - light source"
 msgid "Daylight"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editLightSource)
-#: plugins/extensions/metadataeditor/editors/exif.ui:722
+#: plugins/extensions/metadataeditor/editors/exif.ui:595
 #, kde-format
 msgctxt "EXIF: postprocessing - light source"
 msgid "Fluorescent"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editLightSource)
-#: plugins/extensions/metadataeditor/editors/exif.ui:727
+#: plugins/extensions/metadataeditor/editors/exif.ui:600
 #, kde-format
 msgctxt "EXIF: postprocessing - light source"
 msgid "Tungsten"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editLightSource)
-#: plugins/extensions/metadataeditor/editors/exif.ui:732
+#: plugins/extensions/metadataeditor/editors/exif.ui:605
 #, kde-format
 msgctxt "EXIF: postprocessing - light source"
 msgid "Flash"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editLightSource)
-#: plugins/extensions/metadataeditor/editors/exif.ui:737
-#: plugins/extensions/metadataeditor/editors/exif.ui:742
-#: plugins/extensions/metadataeditor/editors/exif.ui:747
-#: plugins/extensions/metadataeditor/editors/exif.ui:752
-#: plugins/extensions/metadataeditor/editors/exif.ui:792
+#: plugins/extensions/metadataeditor/editors/exif.ui:610
+#: plugins/extensions/metadataeditor/editors/exif.ui:615
+#: plugins/extensions/metadataeditor/editors/exif.ui:620
+#: plugins/extensions/metadataeditor/editors/exif.ui:625
+#: plugins/extensions/metadataeditor/editors/exif.ui:665
 #, kde-format
 msgctxt "EXIF: postprocessing - light source"
 msgid "Undefined"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editLightSource)
-#: plugins/extensions/metadataeditor/editors/exif.ui:757
+#: plugins/extensions/metadataeditor/editors/exif.ui:630
 #, kde-format
 msgctxt "EXIF: postprocessing - light source"
 msgid "Fine weather"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editLightSource)
-#: plugins/extensions/metadataeditor/editors/exif.ui:762
+#: plugins/extensions/metadataeditor/editors/exif.ui:635
 #, kde-format
 msgctxt "EXIF: postprocessing - light source"
 msgid "Cloudy weather"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editLightSource)
-#: plugins/extensions/metadataeditor/editors/exif.ui:767
+#: plugins/extensions/metadataeditor/editors/exif.ui:640
 #, kde-format
 msgctxt "EXIF: postprocessing - light source"
 msgid "Shade"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editLightSource)
-#: plugins/extensions/metadataeditor/editors/exif.ui:772
+#: plugins/extensions/metadataeditor/editors/exif.ui:645
 #, kde-format
 msgctxt "EXIF: postprocessing - light source"
 msgid "Daylight fluorescent (D5700 - 7100K)"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editLightSource)
-#: plugins/extensions/metadataeditor/editors/exif.ui:777
+#: plugins/extensions/metadataeditor/editors/exif.ui:650
 #, kde-format
 msgctxt "EXIF: postprocessing - light source"
 msgid "Day white fluorescent (N4600 - 5400K)"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editLightSource)
-#: plugins/extensions/metadataeditor/editors/exif.ui:782
+#: plugins/extensions/metadataeditor/editors/exif.ui:655
 #, kde-format
 msgctxt "EXIF: postprocessing - light source"
 msgid "Cool white fluorescent (W3900 - 4500K)"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editLightSource)
-#: plugins/extensions/metadataeditor/editors/exif.ui:787
+#: plugins/extensions/metadataeditor/editors/exif.ui:660
 #, kde-format
 msgctxt "EXIF: postprocessing - light source"
 msgid "White fluorescent (WW 3200 - 3700K)"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editLightSource)
-#: plugins/extensions/metadataeditor/editors/exif.ui:797
+#: plugins/extensions/metadataeditor/editors/exif.ui:670
 #, kde-format
 msgctxt "EXIF: postprocessing - light source"
 msgid "Standard light A"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editLightSource)
-#: plugins/extensions/metadataeditor/editors/exif.ui:802
+#: plugins/extensions/metadataeditor/editors/exif.ui:675
 #, kde-format
 msgctxt "EXIF: postprocessing - light source"
 msgid "Standard light B"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editLightSource)
-#: plugins/extensions/metadataeditor/editors/exif.ui:807
+#: plugins/extensions/metadataeditor/editors/exif.ui:680
 #, kde-format
 msgctxt "EXIF: postprocessing - light source"
 msgid "Standard light C"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editLightSource)
-#: plugins/extensions/metadataeditor/editors/exif.ui:812
+#: plugins/extensions/metadataeditor/editors/exif.ui:685
 #, kde-format
 msgctxt "EXIF: postprocessing - light source"
 msgid "D55"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editLightSource)
-#: plugins/extensions/metadataeditor/editors/exif.ui:817
+#: plugins/extensions/metadataeditor/editors/exif.ui:690
 #, kde-format
 msgctxt "EXIF: postprocessing - light source"
 msgid "D65"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editLightSource)
-#: plugins/extensions/metadataeditor/editors/exif.ui:822
+#: plugins/extensions/metadataeditor/editors/exif.ui:695
 #, kde-format
 msgctxt "EXIF: postprocessing - light source"
 msgid "D75"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editLightSource)
-#: plugins/extensions/metadataeditor/editors/exif.ui:827
+#: plugins/extensions/metadataeditor/editors/exif.ui:700
 #, kde-format
 msgctxt "EXIF: postprocessing - light source"
 msgid "D50"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editLightSource)
-#: plugins/extensions/metadataeditor/editors/exif.ui:832
+#: plugins/extensions/metadataeditor/editors/exif.ui:705
 #, kde-format
 msgctxt "EXIF: postprocessing - light source"
 msgid "ISO studio tungsten"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editLightSource)
-#: plugins/extensions/metadataeditor/editors/exif.ui:837
+#: plugins/extensions/metadataeditor/editors/exif.ui:710
 #, kde-format
 msgctxt "EXIF: postprocessing - light source"
 msgid "other"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_18)
-#: plugins/extensions/metadataeditor/editors/exif.ui:845
+#: plugins/extensions/metadataeditor/editors/exif.ui:718
 #, kde-format
 msgctxt "EXIF: postprocessing"
 msgid "Sharpness:"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editSharpness)
-#: plugins/extensions/metadataeditor/editors/exif.ui:859
+#: plugins/extensions/metadataeditor/editors/exif.ui:729
 #, kde-format
 msgctxt "EXIF: postprocessing - sharpness"
 msgid "Normal"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editSharpness)
-#: plugins/extensions/metadataeditor/editors/exif.ui:864
+#: plugins/extensions/metadataeditor/editors/exif.ui:734
 #, kde-format
 msgctxt "EXIF: postprocessing - sharpness"
 msgid "Soft"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editSharpness)
-#: plugins/extensions/metadataeditor/editors/exif.ui:869
+#: plugins/extensions/metadataeditor/editors/exif.ui:739
 #, kde-format
 msgctxt "EXIF: postprocessing - sharpness"
 msgid "Hard"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_20)
-#: plugins/extensions/metadataeditor/editors/exif.ui:877
+#: plugins/extensions/metadataeditor/editors/exif.ui:747
 #, kde-format
 msgctxt "EXIF: postprocessing"
 msgid "Contrast:"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editContrast)
-#: plugins/extensions/metadataeditor/editors/exif.ui:891
+#: plugins/extensions/metadataeditor/editors/exif.ui:758
 #, kde-format
 msgctxt "EXIF: postprocessing - contrast"
 msgid "Normal"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editContrast)
-#: plugins/extensions/metadataeditor/editors/exif.ui:896
+#: plugins/extensions/metadataeditor/editors/exif.ui:763
 #, kde-format
 msgctxt "EXIF: postprocessing - contrast"
 msgid "Soft"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editContrast)
-#: plugins/extensions/metadataeditor/editors/exif.ui:901
+#: plugins/extensions/metadataeditor/editors/exif.ui:768
 #, kde-format
 msgctxt "EXIF: postprocessing - contrast"
 msgid "Hard"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_28)
-#: plugins/extensions/metadataeditor/editors/exif.ui:909
+#: plugins/extensions/metadataeditor/editors/exif.ui:776
 #, kde-format
 msgctxt "EXIF: postprocessing"
 msgid "White &balance:"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editWhiteBalance)
-#: plugins/extensions/metadataeditor/editors/exif.ui:923
+#: plugins/extensions/metadataeditor/editors/exif.ui:787
 #, kde-format
 msgctxt "EXIF: postprocessing - whitebalance"
 msgid "Auto"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editWhiteBalance)
-#: plugins/extensions/metadataeditor/editors/exif.ui:928
+#: plugins/extensions/metadataeditor/editors/exif.ui:792
 #, kde-format
 msgctxt "EXIF: postprocessing - whitebalance"
 msgid "Custom"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_4)
-#: plugins/extensions/metadataeditor/editors/exif.ui:952
+#: plugins/extensions/metadataeditor/editors/exif.ui:801
 #, kde-format
 msgctxt "EXIF"
 msgid "Misc"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: plugins/extensions/metadataeditor/editors/exif.ui:960
+#: plugins/extensions/metadataeditor/editors/exif.ui:807
 #, kde-format
 msgctxt "EXIF: misc"
 msgid "Scene capture t&ype:"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editSceneCaptureType)
-#: plugins/extensions/metadataeditor/editors/exif.ui:974
+#: plugins/extensions/metadataeditor/editors/exif.ui:818
 #, kde-format
 msgctxt "EXIF: misc - scene capture type"
 msgid "Standard"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editSceneCaptureType)
-#: plugins/extensions/metadataeditor/editors/exif.ui:979
+#: plugins/extensions/metadataeditor/editors/exif.ui:823
 #, kde-format
 msgctxt "EXIF: misc - scene capture type (Photos of landscapes)"
 msgid "Landscape"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editSceneCaptureType)
-#: plugins/extensions/metadataeditor/editors/exif.ui:984
+#: plugins/extensions/metadataeditor/editors/exif.ui:828
 #, kde-format
 msgctxt "EXIF: misc - scene capture type (Photos of people)"
 msgid "Portrait"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editSceneCaptureType)
-#: plugins/extensions/metadataeditor/editors/exif.ui:989
+#: plugins/extensions/metadataeditor/editors/exif.ui:833
 #, kde-format
 msgctxt "EXIF: misc - scene capture type"
 msgid "Night scene"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_19)
-#: plugins/extensions/metadataeditor/editors/exif.ui:997
+#: plugins/extensions/metadataeditor/editors/exif.ui:841
 #, kde-format
 msgctxt "EXIF: misc"
 msgid "Ma&ker:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_26)
-#: plugins/extensions/metadataeditor/editors/exif.ui:1013
+#: plugins/extensions/metadataeditor/editors/exif.ui:854
 #, kde-format
 msgctxt "EXIF: misc (model name or model number)"
 msgid "Model:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_27)
-#: plugins/extensions/metadataeditor/editors/exif.ui:1029
+#: plugins/extensions/metadataeditor/editors/exif.ui:867
 #, kde-format
 msgctxt "EXIF: misc"
 msgid "Sens&ing method type:"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editSensingMethod)
-#: plugins/extensions/metadataeditor/editors/exif.ui:1043
-#: plugins/extensions/metadataeditor/editors/exif.ui:1048
+#: plugins/extensions/metadataeditor/editors/exif.ui:878
+#: plugins/extensions/metadataeditor/editors/exif.ui:883
 #, kde-format
 msgctxt "EXIF: misc - sensing method type"
 msgid "Not Defined"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editSensingMethod)
-#: plugins/extensions/metadataeditor/editors/exif.ui:1053
+#: plugins/extensions/metadataeditor/editors/exif.ui:888
 #, kde-format
 msgctxt "EXIF: misc - sensing method type"
 msgid "One-chip color area sensor"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editSensingMethod)
-#: plugins/extensions/metadataeditor/editors/exif.ui:1058
+#: plugins/extensions/metadataeditor/editors/exif.ui:893
 #, kde-format
 msgctxt "EXIF: misc - sensing method type"
 msgid "Two-chip color area sensor"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editSensingMethod)
-#: plugins/extensions/metadataeditor/editors/exif.ui:1063
+#: plugins/extensions/metadataeditor/editors/exif.ui:898
 #, kde-format
 msgctxt "EXIF: misc - sensing method type"
 msgid "Three-chip color area sensor"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editSensingMethod)
-#: plugins/extensions/metadataeditor/editors/exif.ui:1068
+#: plugins/extensions/metadataeditor/editors/exif.ui:903
 #, kde-format
 msgctxt "EXIF: misc - sensing method type"
 msgid "Color sequential area sensor"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editSensingMethod)
-#: plugins/extensions/metadataeditor/editors/exif.ui:1073
+#: plugins/extensions/metadataeditor/editors/exif.ui:908
 #, kde-format
 msgctxt "EXIF: misc - sensing method type"
 msgid "Trilinear sensor"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editSensingMethod)
-#: plugins/extensions/metadataeditor/editors/exif.ui:1078
+#: plugins/extensions/metadataeditor/editors/exif.ui:913
 #, kde-format
 msgctxt "EXIF: misc - sensing method type"
 msgid "Color sequential linear sensor"
 msgstr ""
 
-#. i18n: tag MetaDataEditor attribute name
-#: plugins/extensions/metadataeditor/editors/exif.xmlgui:2
+#: plugins/extensions/metadataeditor/kis_meta_data_editor.cc:95
 #, kde-format
-msgctxt "metadata editor page"
-msgid "Exif"
+msgid "Dublin Core"
 msgstr ""
 
-#: plugins/extensions/metadataeditor/kis_meta_data_editor.cc:128
+#: plugins/extensions/metadataeditor/kis_meta_data_editor.cc:172
 #, kde-format
 msgid "List"
 msgstr ""
@@ -37701,13 +37699,13 @@ msgstr ""
 msgid "Python Plugin Manager"
 msgstr ""
 
-#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:119
+#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:129
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Unable to find the module specified <application>%1</application>"
 msgstr ""
 
-#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:142
+#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:152
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -37715,13 +37713,13 @@ msgid ""
 "application>: <icode>%2</icode>. Skipped</p>"
 msgstr ""
 
-#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:169
+#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:179
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "<title>Dependency check</title>"
 msgstr ""
 
-#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:200
+#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:210
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -37730,13 +37728,13 @@ msgid ""
 "disabled, but behaviour is unpredictable...</p>"
 msgstr ""
 
-#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:214
+#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:224
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "<p><application>%1</application>: Unexpected module's version format"
 msgstr ""
 
-#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:227
+#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:237
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -37744,20 +37742,20 @@ msgid ""
 "version %2 %3, but found %4</p>"
 msgstr ""
 
-#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:242
+#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:252
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
 "<p>Failure on module load <application>%1</application>:</p><pre>%2</pre>"
 msgstr ""
 
-#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:349
+#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:360
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Internal engine failure"
 msgstr ""
 
-#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:353
+#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:364
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Module not loaded:<br/>%1"
