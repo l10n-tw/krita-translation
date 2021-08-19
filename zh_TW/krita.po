@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-19 00:15+0000\n"
-"PO-Revision-Date: 2021-08-17 10:00+0000\n"
+"POT-Creation-Date: 2021-08-18 00:16+0000\n"
+"PO-Revision-Date: 2021-08-19 07:29+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -9789,24 +9789,17 @@ msgstr "自動影格模式"
 
 #. i18n: context: Action (drop_frames), Actions (Animation), ActionCollection (Krita)
 #: krita/krita.action:1858
-#, fuzzy, kde-format
-#| msgid "Drop Frames"
+#, kde-format
 msgctxt "action"
 msgid "Drop Frames"
-msgstr "減影格數量"
+msgstr "省略影格"
 
 #. i18n: context: Action (drop_frames), Actions (Animation), ActionCollection (Krita)
 #: krita/krita.action:1860
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid ""
-#| "Drop Frames\n"
-#| "Enable to preserve playback timing."
+#, kde-format
 msgctxt "action"
 msgid "Drop Frames, enable to preserve playback timing."
-msgstr ""
-"丟棄影格\n"
-"啟用以保持播放時間"
+msgstr "播放時允許省略影格，以保持播放時間同步。"
 
 #. i18n: context: Action (pin_to_timeline), Actions (Animation), ActionCollection (Krita)
 #: krita/krita.action:1868
@@ -34096,17 +34089,16 @@ msgstr "影格註冊"
 
 #: plugins/dockers/animation/KisAnimCurvesDocker.cpp:79
 #: plugins/dockers/animation/KisAnimTimelineDocker.cpp:81
-#, fuzzy, kde-format
-#| msgid "Speed"
+#, kde-format
 msgctxt "preview playback speed percentage prefix"
 msgid "Speed: "
-msgstr "速度"
+msgstr "速率："
 
 #: plugins/dockers/animation/KisAnimCurvesDocker.cpp:81
 #: plugins/dockers/animation/KisAnimTimelineDocker.cpp:83
 #, kde-format
 msgid "Preview playback speed"
-msgstr "預覽播放速度"
+msgstr "預覽播放速率"
 
 #: plugins/dockers/animation/KisAnimCurvesDocker.cpp:159
 #: plugins/dockers/animation/KisAnimTimelineDocker.cpp:121
@@ -34388,7 +34380,7 @@ msgstr "自動影格模式"
 #: plugins/dockers/animation/KisAnimUtils.cpp:27
 #, kde-format
 msgid "Drop Frames"
-msgstr "減影格數量"
+msgstr "省略影格"
 
 #: plugins/dockers/animation/KisAnimUtils.cpp:29
 #, kde-format
@@ -36045,7 +36037,7 @@ msgid ""
 "Depending on timelapse speed this may cause flickering in resulting video."
 msgstr ""
 "於啟用「單獨顯示使用中圖層」或「單獨顯示使用中群組」時錄影。\n"
-"在特定縮時影片速度設定下，有可能會導致輸出的影片出現閃爍現象。"
+"在特定縮時影片速率設定下，有可能會導致輸出的影片出現閃爍現象。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, checkBoxRecordIsolateMode)
 #: plugins/dockers/recorder/recorderdocker.ui:302
@@ -37207,7 +37199,7 @@ msgstr "日期："
 #: plugins/extensions/metadataeditor/editors/dublincore.ui:70
 #, kde-format
 msgid "dd/MM/yyyy"
-msgstr ""
+msgstr "yyyy 年 MM 月 dd 日"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
 #: plugins/extensions/metadataeditor/editors/exif.ui:31
@@ -38020,9 +38012,7 @@ msgid "Color sequential linear sensor"
 msgstr "色序線性感測器"
 
 #: plugins/extensions/metadataeditor/kis_meta_data_editor.cc:95
-#, fuzzy, kde-format
-#| msgctxt "metadata editor page"
-#| msgid "Dublin Core"
+#, kde-format
 msgid "Dublin Core"
 msgstr "都柏林核心"
 
