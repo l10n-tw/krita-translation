@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-17 00:15+0000\n"
+"POT-Creation-Date: 2021-08-19 00:15+0000\n"
 "PO-Revision-Date: 2021-08-17 10:00+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
@@ -9788,25 +9788,35 @@ msgid "Auto Frame Mode"
 msgstr "自動影格模式"
 
 #. i18n: context: Action (drop_frames), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:1859
-#, kde-format
+#: krita/krita.action:1858
+#, fuzzy, kde-format
+#| msgid "Drop Frames"
 msgctxt "action"
-msgid ""
-"Drop Frames\n"
-"Enable to preserve playback timing."
+msgid "Drop Frames"
+msgstr "減影格數量"
+
+#. i18n: context: Action (drop_frames), Actions (Animation), ActionCollection (Krita)
+#: krita/krita.action:1860
+#, fuzzy, kde-format
+#| msgctxt "action"
+#| msgid ""
+#| "Drop Frames\n"
+#| "Enable to preserve playback timing."
+msgctxt "action"
+msgid "Drop Frames, enable to preserve playback timing."
 msgstr ""
 "丟棄影格\n"
 "啟用以保持播放時間"
 
 #. i18n: context: Action (pin_to_timeline), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:1869
+#: krita/krita.action:1868
 #, kde-format
 msgctxt "action"
 msgid "Pin to Timeline"
 msgstr "釘選至時間軸"
 
 #. i18n: context: Action (pin_to_timeline), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:1871
+#: krita/krita.action:1870
 #, kde-format
 msgctxt "action"
 msgid ""
@@ -9815,14 +9825,14 @@ msgid ""
 msgstr "如核取，則圖層會釘選至時間軸，就算未處於使用狀態也會顯示出來。"
 
 #. i18n: context: Action (insert_keyframe_left), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:1879
+#: krita/krita.action:1878
 #, kde-format
 msgctxt "action"
 msgid "Insert Keyframe Left"
 msgstr "在左側插入關鍵影格"
 
 #. i18n: context: Action (insert_keyframe_left), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:1881
+#: krita/krita.action:1880
 #, kde-format
 msgctxt "action"
 msgid ""
@@ -9831,14 +9841,14 @@ msgid ""
 msgstr "在已選影格左側插入關鍵影格，並把後續動畫右移。"
 
 #. i18n: context: Action (insert_keyframe_right), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:1891
+#: krita/krita.action:1890
 #, kde-format
 msgctxt "action"
 msgid "Insert Keyframe Right"
 msgstr "在右側插入關鍵影格"
 
 #. i18n: context: Action (insert_keyframe_right), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:1893
+#: krita/krita.action:1892
 #, kde-format
 msgctxt "action"
 msgid ""
@@ -9847,56 +9857,56 @@ msgid ""
 msgstr "在已選影格右側插入關鍵影格，並把後續動畫右移。"
 
 #. i18n: context: Action (insert_multiple_keyframes), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:1903
+#: krita/krita.action:1902
 #, kde-format
 msgctxt "action"
 msgid "Insert Multiple Keyframes"
 msgstr "插入多個關鍵影格"
 
 #. i18n: context: Action (insert_multiple_keyframes), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:1905
+#: krita/krita.action:1904
 #, kde-format
 msgctxt "action"
 msgid "Insert several keyframes based on user parameters."
 msgstr "按照使用者所選參數插入多個關鍵影格。"
 
 #. i18n: context: Action (remove_frames_and_pull), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:1915
+#: krita/krita.action:1914
 #, kde-format
 msgctxt "action"
 msgid "Remove Frame and Pull"
 msgstr "移除關鍵影格並前拉"
 
 #. i18n: context: Action (remove_frames_and_pull), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:1917
+#: krita/krita.action:1916
 #, kde-format
 msgctxt "action"
 msgid "Remove keyframes moving the tail of animation to the left"
 msgstr "移除關鍵影格並把後續動畫左移"
 
 #. i18n: context: Action (remove_frames), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:1927
+#: krita/krita.action:1926
 #, kde-format
 msgctxt "action"
 msgid "Remove Keyframe"
 msgstr "移除關鍵影格"
 
 #. i18n: context: Action (remove_frames), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:1929
+#: krita/krita.action:1928
 #, kde-format
 msgctxt "action"
 msgid "Remove keyframes without moving anything around"
 msgstr "移除關鍵影格並維持其他物件位置"
 
 #. i18n: context: Action (insert_column_left), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:1939
+#: krita/krita.action:1938
 #, kde-format
 msgctxt "action"
 msgid "Insert Column Left"
 msgstr "向左插入列"
 
 #. i18n: context: Action (insert_column_left), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:1941
+#: krita/krita.action:1940
 #, kde-format
 msgctxt "action"
 msgid ""
@@ -9905,14 +9915,14 @@ msgid ""
 msgstr "在已選影格左側插入列，並把後續動畫右移"
 
 #. i18n: context: Action (insert_column_right), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:1951
+#: krita/krita.action:1950
 #, kde-format
 msgctxt "action"
 msgid "Insert Column Right"
 msgstr "向右插入列"
 
 #. i18n: context: Action (insert_column_right), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:1953
+#: krita/krita.action:1952
 #, kde-format
 msgctxt "action"
 msgid ""
@@ -9921,364 +9931,364 @@ msgid ""
 msgstr "在已選影格右側插入列，並把後續動畫右移"
 
 #. i18n: context: Action (insert_multiple_columns), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:1963
+#: krita/krita.action:1962
 #, kde-format
 msgctxt "action"
 msgid "Insert Multiple Columns"
 msgstr "插入多個列"
 
 #. i18n: context: Action (insert_multiple_columns), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:1965
+#: krita/krita.action:1964
 #, kde-format
 msgctxt "action"
 msgid "Insert several columns based on user parameters."
 msgstr "按照使用者所選參數插入多個列。"
 
 #. i18n: context: Action (remove_columns_and_pull), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:1975
+#: krita/krita.action:1974
 #, kde-format
 msgctxt "action"
 msgid "Remove Column and Pull"
 msgstr "移除列並前拉"
 
 #. i18n: context: Action (remove_columns_and_pull), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:1977
+#: krita/krita.action:1976
 #, kde-format
 msgctxt "action"
 msgid "Remove columns moving the tail of animation to the left"
 msgstr "移除列並把後續動畫左移"
 
 #. i18n: context: Action (remove_columns), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:1987
+#: krita/krita.action:1986
 #, kde-format
 msgctxt "action"
 msgid "Remove Column"
 msgstr "刪除列"
 
 #. i18n: context: Action (remove_columns), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:1989
+#: krita/krita.action:1988
 #, kde-format
 msgctxt "action"
 msgid "Remove columns without moving anything around"
 msgstr "移除列並維持其他物件位置"
 
 #. i18n: context: Action (insert_hold_frame), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:1999
+#: krita/krita.action:1998
 #, kde-format
 msgctxt "action"
 msgid "Insert Hold Frame"
 msgstr "插入保持影格"
 
 #. i18n: context: Action (insert_hold_frame), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:2001
+#: krita/krita.action:2000
 #, kde-format
 msgctxt "action"
 msgid "Insert a hold frame after every keyframe"
 msgstr "在每個關鍵影格後插入一個保持影格"
 
 #. i18n: context: Action (insert_multiple_hold_frames), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:2011
+#: krita/krita.action:2010
 #, kde-format
 msgctxt "action"
 msgid "Insert Multiple Hold Frames"
 msgstr "插入多個保持影格"
 
 #. i18n: context: Action (insert_multiple_hold_frames), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:2013
+#: krita/krita.action:2012
 #, kde-format
 msgctxt "action"
 msgid "Insert N hold frames after every keyframe"
 msgstr "在每個關鍵影格後插入 N 個保持影格"
 
 #. i18n: context: Action (remove_hold_frame), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:2023
+#: krita/krita.action:2022
 #, kde-format
 msgctxt "action"
 msgid "Remove Hold Frame"
 msgstr "刪除保持影格"
 
 #. i18n: context: Action (remove_hold_frame), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:2025
+#: krita/krita.action:2024
 #, kde-format
 msgctxt "action"
 msgid "Remove a hold frame after every keyframe"
 msgstr "在每個關鍵影格後移除保持影格"
 
 #. i18n: context: Action (remove_multiple_hold_frames), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:2035
+#: krita/krita.action:2034
 #, kde-format
 msgctxt "action"
 msgid "Remove Multiple Hold Frames"
 msgstr "移除多個保持影格"
 
 #. i18n: context: Action (remove_multiple_hold_frames), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:2037
+#: krita/krita.action:2036
 #, kde-format
 msgctxt "action"
 msgid "Remove N hold frames after every keyframe"
 msgstr "在每個關鍵影格後移除 N 個保持影格"
 
 #. i18n: context: Action (insert_hold_column), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:2047
+#: krita/krita.action:2046
 #, kde-format
 msgctxt "action"
 msgid "Insert Hold Column"
 msgstr "插入保持列"
 
 #. i18n: context: Action (insert_hold_column), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:2049
+#: krita/krita.action:2048
 #, kde-format
 msgctxt "action"
 msgid "Insert a hold column into the frame at the current position"
 msgstr "在目前位置的影格上插入保持列"
 
 #. i18n: context: Action (insert_multiple_hold_columns), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:2059
+#: krita/krita.action:2058
 #, kde-format
 msgctxt "action"
 msgid "Insert Multiple Hold Columns"
 msgstr "插入多個保持列"
 
 #. i18n: context: Action (insert_multiple_hold_columns), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:2061
+#: krita/krita.action:2060
 #, kde-format
 msgctxt "action"
 msgid "Insert N hold columns into the frame at the current position"
 msgstr "在目前位置的影格上插入 N 個保持列"
 
 #. i18n: context: Action (remove_hold_column), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:2071
+#: krita/krita.action:2070
 #, kde-format
 msgctxt "action"
 msgid "Remove Hold Column"
 msgstr "移除保持列"
 
 #. i18n: context: Action (remove_hold_column), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:2073
+#: krita/krita.action:2072
 #, kde-format
 msgctxt "action"
 msgid "Remove a hold column from the frame at the current position"
 msgstr "在目前位置的影格上移除保持列"
 
 #. i18n: context: Action (remove_multiple_hold_columns), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:2083
+#: krita/krita.action:2082
 #, kde-format
 msgctxt "action"
 msgid "Remove Multiple Hold Columns"
 msgstr "移除多個保持列"
 
 #. i18n: context: Action (remove_multiple_hold_columns), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:2085
+#: krita/krita.action:2084
 #, kde-format
 msgctxt "action"
 msgid "Remove N hold columns from the frame at the current position"
 msgstr "在目前位置的影格上移除 N 個保持列"
 
 #. i18n: context: Action (add_scalar_keyframes), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:2095
+#: krita/krita.action:2094
 #, kde-format
 msgctxt "action"
 msgid "Add scalar keyframes"
 msgstr "新增數值關鍵影格"
 
 #. i18n: context: Action (add_scalar_keyframes), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:2097
+#: krita/krita.action:2096
 #, kde-format
 msgctxt "action"
 msgid "Adds keyframe to control scalar property"
 msgstr "加入關鍵影格來數值屬性"
 
 #. i18n: context: Action (remove_scalar_keyframe), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:2107
+#: krita/krita.action:2106
 #, kde-format
 msgctxt "action"
 msgid "Remove scalar keyframe"
 msgstr "移除數值關鍵影格"
 
 #. i18n: context: Action (remove_scalar_keyframe), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:2109
+#: krita/krita.action:2108
 #, kde-format
 msgctxt "action"
 msgid "Removes the selected scalar keyframe"
 msgstr "移除所選數值關鍵影格"
 
 #. i18n: context: Action (mirror_frames), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:2119
+#: krita/krita.action:2118
 #, kde-format
 msgctxt "action"
 msgid "Mirror Frames"
 msgstr "鏡像影格"
 
 #. i18n: context: Action (mirror_frames), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:2121
+#: krita/krita.action:2120
 #, kde-format
 msgctxt "action"
 msgid "Mirror frames' position"
 msgstr "翻轉影格位置"
 
 #. i18n: context: Action (mirror_columns), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:2131
+#: krita/krita.action:2130
 #, kde-format
 msgctxt "action"
 msgid "Mirror Columns"
 msgstr "翻轉整列"
 
 #. i18n: context: Action (mirror_columns), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:2133
+#: krita/krita.action:2132
 #, kde-format
 msgctxt "action"
 msgid "Mirror columns' position"
 msgstr "翻轉整列位置"
 
 #. i18n: context: Action (clear_animation_cache), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:2143
+#: krita/krita.action:2142
 #, kde-format
 msgctxt "action"
 msgid "Clear Cache"
 msgstr "清空快取"
 
 #. i18n: context: Action (clear_animation_cache), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:2145
+#: krita/krita.action:2144
 #, kde-format
 msgctxt "action"
 msgid "Clear entire animation cache. Useful for debugging."
 msgstr "清空整個動畫快取，可用作除錯。"
 
 #. i18n: context: Action (copy_frames), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:2155
+#: krita/krita.action:2154
 #, kde-format
 msgctxt "action"
 msgid "Copy Keyframes"
 msgstr "複製關鍵影格"
 
 #. i18n: context: Action (copy_frames), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:2157
+#: krita/krita.action:2156
 #, kde-format
 msgctxt "action"
 msgid "Copy frames to clipboard"
 msgstr "將影格複製到剪貼簿"
 
 #. i18n: context: Action (copy_frames_as_clones), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:2167
+#: krita/krita.action:2166
 #, kde-format
 msgctxt "action"
 msgid "Clone Keyframes"
 msgstr "再製關鍵影格"
 
 #. i18n: context: Action (copy_frames_as_clones), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:2169
+#: krita/krita.action:2168
 #, kde-format
 msgctxt "action"
 msgid "Clone frames to clipboard"
 msgstr "再製影格至剪貼簿"
 
 #. i18n: context: Action (make_clones_unique), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:2179
+#: krita/krita.action:2178
 #, kde-format
 msgctxt "action"
 msgid "Make Unique"
 msgstr "使其唯一"
 
 #. i18n: context: Action (make_clones_unique), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:2181
+#: krita/krita.action:2180
 #, kde-format
 msgctxt "action"
 msgid "Convert clones to unique keyframe instances."
 msgstr "將再製轉換成唯一的關鍵影格實體。"
 
 #. i18n: context: Action (cut_frames), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:2191
+#: krita/krita.action:2190
 #, kde-format
 msgctxt "action"
 msgid "Cut Keyframes"
 msgstr "剪下關鍵影格"
 
 #. i18n: context: Action (cut_frames), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:2193
+#: krita/krita.action:2192
 #, kde-format
 msgctxt "action"
 msgid "Cut frames to clipboard"
 msgstr "將影格剪下到剪貼簿"
 
 #. i18n: context: Action (paste_frames), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:2203
+#: krita/krita.action:2202
 #, kde-format
 msgctxt "action"
 msgid "Paste Keyframes"
 msgstr "貼上關鍵影格"
 
 #. i18n: context: Action (paste_frames), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:2205
+#: krita/krita.action:2204
 #, kde-format
 msgctxt "action"
 msgid "Paste frames from clipboard"
 msgstr "從剪貼簿貼上影格"
 
 #. i18n: context: Action (copy_columns_to_clipboard), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:2215
+#: krita/krita.action:2214
 #, kde-format
 msgctxt "action"
 msgid "Copy Columns"
 msgstr "複製列"
 
 #. i18n: context: Action (copy_columns_to_clipboard), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:2217
+#: krita/krita.action:2216
 #, kde-format
 msgctxt "action"
 msgid "Copy columns to clipboard"
 msgstr "將列複製到剪貼簿"
 
 #. i18n: context: Action (cut_columns_to_clipboard), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:2227
+#: krita/krita.action:2226
 #, kde-format
 msgctxt "action"
 msgid "Cut Columns"
 msgstr "剪下欄"
 
 #. i18n: context: Action (cut_columns_to_clipboard), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:2229
+#: krita/krita.action:2228
 #, kde-format
 msgctxt "action"
 msgid "Cut columns to clipboard"
 msgstr "將列剪下到剪貼簿"
 
 #. i18n: context: Action (paste_columns_from_clipboard), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:2239
+#: krita/krita.action:2238
 #, kde-format
 msgctxt "action"
 msgid "Paste Columns"
 msgstr "貼上欄"
 
 #. i18n: context: Action (paste_columns_from_clipboard), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:2241
+#: krita/krita.action:2240
 #, kde-format
 msgctxt "action"
 msgid "Paste columns from clipboard"
 msgstr "從剪貼簿貼上列"
 
 #. i18n: context: Action (set_start_time), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:2251
+#: krita/krita.action:2250
 #, kde-format
 msgctxt "action"
 msgid "Set Start Time"
 msgstr "設定開始時間"
 
 #. i18n: context: Action (set_end_time), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:2263
+#: krita/krita.action:2262
 #, kde-format
 msgctxt "action"
 msgid "Set End Time"
 msgstr "設定結束時間"
 
 #. i18n: context: Action (update_playback_range), Actions (Animation), ActionCollection (Krita)
-#: krita/krita.action:2275
+#: krita/krita.action:2274
 #, kde-format
 msgctxt "action"
 msgid "Update Playback Range"
 msgstr "更新重播範圍"
 
 #. i18n: context: Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2287
+#: krita/krita.action:2286
 #, kde-format
 msgctxt "action"
 msgid "Layers"
@@ -10288,21 +10298,21 @@ msgstr "圖層"
 #. i18n: context: Action (activateNextLayer), Actions (Layers), ActionCollection (Krita)
 #. i18n: context: Action (activateNextLayer), Actions (Layers), ActionCollection (Krita)
 #. i18n: context: Action (activateNextLayer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2290 krita/krita.action:2292
+#: krita/krita.action:2289 krita/krita.action:2291
 #, kde-format
 msgctxt "action"
 msgid "Activate next layer"
 msgstr "切換至上方圖層"
 
 #. i18n: context: Action (activateNextSiblingLayer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2302
+#: krita/krita.action:2301
 #, kde-format
 msgctxt "action"
 msgid "Activate next sibling layer, skipping over groups."
 msgstr "切換至上方相鄰的圖層，並跳過群組內部。"
 
 #. i18n: context: Action (activateNextSiblingLayer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2304
+#: krita/krita.action:2303
 #, kde-format
 msgctxt "action"
 msgid "Activate next sibling layer"
@@ -10312,21 +10322,21 @@ msgstr "切換至上方相鄰圖層"
 #. i18n: context: Action (activatePreviousLayer), Actions (Layers), ActionCollection (Krita)
 #. i18n: context: Action (activatePreviousLayer), Actions (Layers), ActionCollection (Krita)
 #. i18n: context: Action (activatePreviousLayer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2314 krita/krita.action:2316
+#: krita/krita.action:2313 krita/krita.action:2315
 #, kde-format
 msgctxt "action"
 msgid "Activate previous layer"
 msgstr "切換至下方圖層"
 
 #. i18n: context: Action (activatePreviousSiblingLayer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2326
+#: krita/krita.action:2325
 #, kde-format
 msgctxt "action"
 msgid "Activate previous sibling layer, skipping over groups."
 msgstr "切換至下方相鄰的圖層，並跳過群組內部。"
 
 #. i18n: context: Action (activatePreviousSiblingLayer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2328
+#: krita/krita.action:2327
 #, kde-format
 msgctxt "action"
 msgid "Activate previous sibling layer"
@@ -10336,231 +10346,231 @@ msgstr "切換至下方相鄰圖層"
 #. i18n: context: Action (switchToPreviouslyActiveNode), Actions (Layers), ActionCollection (Krita)
 #. i18n: context: Action (switchToPreviouslyActiveNode), Actions (Layers), ActionCollection (Krita)
 #. i18n: context: Action (switchToPreviouslyActiveNode), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2338 krita/krita.action:2340
+#: krita/krita.action:2337 krita/krita.action:2339
 #, kde-format
 msgctxt "action"
 msgid "Activate previously selected layer"
 msgstr "切換至先前選取的圖層"
 
 #. i18n: context: Action (add_new_group_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2350
+#: krita/krita.action:2349
 #, kde-format
 msgctxt "action"
 msgid "&Group Layer"
 msgstr "群組圖層(&G)"
 
 #. i18n: context: Action (add_new_group_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2352
+#: krita/krita.action:2351
 #, kde-format
 msgctxt "action"
 msgid "Group Layer"
 msgstr "群組圖層"
 
 #. i18n: context: Action (add_new_clone_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2362
+#: krita/krita.action:2361
 #, kde-format
 msgctxt "action"
 msgid "&Clone Layer"
 msgstr "再製圖層(&C)"
 
 #. i18n: context: Action (add_new_clone_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2364
+#: krita/krita.action:2363
 #, kde-format
 msgctxt "action"
 msgid "Clone Layer"
 msgstr "再製圖層"
 
 #. i18n: context: Action (add_new_shape_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2374
+#: krita/krita.action:2373
 #, kde-format
 msgctxt "action"
 msgid "&Vector Layer"
 msgstr "向量圖層(&V)"
 
 #. i18n: context: Action (add_new_shape_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2376
+#: krita/krita.action:2375
 #, kde-format
 msgctxt "action"
 msgid "Vector Layer"
 msgstr "向量圖層"
 
 #. i18n: context: Action (add_new_adjustment_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2386
+#: krita/krita.action:2385
 #, kde-format
 msgctxt "action"
 msgid "&Filter Layer..."
 msgstr "濾鏡圖層(&F)…"
 
 #. i18n: context: Action (add_new_adjustment_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2388
+#: krita/krita.action:2387
 #, kde-format
 msgctxt "action"
 msgid "Filter Layer"
 msgstr "濾鏡圖層"
 
 #. i18n: context: Action (add_new_fill_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2398
+#: krita/krita.action:2397
 #, kde-format
 msgctxt "action"
 msgid "&Fill Layer..."
 msgstr "填充圖層(&F)…"
 
 #. i18n: context: Action (add_new_fill_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2400
+#: krita/krita.action:2399
 #, kde-format
 msgctxt "action"
 msgid "Fill Layer"
 msgstr "填充圖層"
 
 #. i18n: context: Action (add_new_file_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2410
+#: krita/krita.action:2409
 #, kde-format
 msgctxt "action"
 msgid "&File Layer..."
 msgstr "檔案圖層(&F)…"
 
 #. i18n: context: Action (add_new_file_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2412
+#: krita/krita.action:2411
 #, kde-format
 msgctxt "action"
 msgid "File Layer"
 msgstr "檔案圖層"
 
 #. i18n: context: Action (add_new_transparency_mask), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2422
+#: krita/krita.action:2421
 #, kde-format
 msgctxt "action"
 msgid "&Transparency Mask"
 msgstr "透明度遮罩(&T)"
 
 #. i18n: context: Action (add_new_transparency_mask), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2424
+#: krita/krita.action:2423
 #, kde-format
 msgctxt "action"
 msgid "Transparency Mask"
 msgstr "透明度遮罩"
 
 #. i18n: context: Action (add_new_filter_mask), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2434
+#: krita/krita.action:2433
 #, kde-format
 msgctxt "action"
 msgid "&Filter Mask..."
 msgstr "濾鏡遮罩(&F)…"
 
 #. i18n: context: Action (add_new_filter_mask), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2436
+#: krita/krita.action:2435
 #, kde-format
 msgctxt "action"
 msgid "Filter Mask"
 msgstr "濾鏡遮罩"
 
 #. i18n: context: Action (add_new_colorize_mask), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2446
+#: krita/krita.action:2445
 #, kde-format
 msgctxt "action"
 msgid "&Colorize Mask"
 msgstr "著色遮罩(&C)"
 
 #. i18n: context: Action (add_new_colorize_mask), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2448
+#: krita/krita.action:2447
 #, kde-format
 msgctxt "action"
 msgid "Colorize Mask"
 msgstr "著色遮罩"
 
 #. i18n: context: Action (add_new_transform_mask), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2458
+#: krita/krita.action:2457
 #, kde-format
 msgctxt "action"
 msgid "&Transform Mask"
 msgstr "變形遮罩(&T)"
 
 #. i18n: context: Action (add_new_transform_mask), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2460
+#: krita/krita.action:2459
 #, kde-format
 msgctxt "action"
 msgid "Transform Mask"
 msgstr "變形遮罩"
 
 #. i18n: context: Action (add_new_selection_mask), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2470
+#: krita/krita.action:2469
 #, kde-format
 msgctxt "action"
 msgid "&Local Selection"
 msgstr "局部選取區域(&L)"
 
 #. i18n: context: Action (add_new_selection_mask), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2472
+#: krita/krita.action:2471
 #, kde-format
 msgctxt "action"
 msgid "Local Selection"
 msgstr "局部選取區域"
 
 #. i18n: context: Action (isolate_active_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2482
+#: krita/krita.action:2481
 #, kde-format
 msgctxt "action"
 msgid "&Isolate Active Layer"
 msgstr "單獨顯示使用中圖層(&I)"
 
 #. i18n: context: Action (isolate_active_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2484
+#: krita/krita.action:2483
 #, kde-format
 msgctxt "action"
 msgid "Isolate Active Layer"
 msgstr "單獨顯示使用中圖層"
 
 #. i18n: context: Action (isolate_active_group), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2494
+#: krita/krita.action:2493
 #, kde-format
 msgctxt "action"
 msgid "&Isolate Active Group"
 msgstr "單獨顯示使用中群組(&I)"
 
 #. i18n: context: Action (isolate_active_group), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2496
+#: krita/krita.action:2495
 #, kde-format
 msgctxt "action"
 msgid "Isolate Active Group"
 msgstr "單獨顯示使用中群組"
 
 #. i18n: context: Action (toggle_layer_lock), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2506
+#: krita/krita.action:2505
 #, kde-format
 msgctxt "action"
 msgid "&Toggle layer lock"
 msgstr "切換圖層鎖定(&T)"
 
 #. i18n: context: Action (toggle_layer_lock), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2508
+#: krita/krita.action:2507
 #, kde-format
 msgctxt "action"
 msgid "Toggle layer lock"
 msgstr "切換圖層鎖定"
 
 #. i18n: context: Action (toggle_layer_visibility), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2518
+#: krita/krita.action:2517
 #, kde-format
 msgctxt "action"
 msgid "Toggle layer &visibility"
 msgstr "切換圖層可見性(&V)"
 
 #. i18n: context: Action (toggle_layer_visibility), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2520
+#: krita/krita.action:2519
 #, kde-format
 msgctxt "action"
 msgid "Toggle layer visibility"
 msgstr "切換圖層可見性"
 
 #. i18n: context: Action (toggle_layer_soloing), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2530
+#: krita/krita.action:2529
 #, kde-format
 msgctxt "action"
 msgid "Toggle Layer Soloing"
 msgstr "切換單一圖層顯示"
 
 #. i18n: context: Action (toggle_layer_soloing), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2532
+#: krita/krita.action:2531
 #, kde-format
 msgctxt "action"
 msgid ""
@@ -10569,882 +10579,882 @@ msgid ""
 msgstr "切換單一圖層顯示，以暫時隱藏目前圖層及子圖層以外的其他圖層。"
 
 #. i18n: context: Action (toggle_layer_alpha_lock), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2542
+#: krita/krita.action:2541
 #, kde-format
 msgctxt "action"
 msgid "Toggle layer &alpha"
 msgstr "切換圖層 &Alpha (透明度)"
 
 #. i18n: context: Action (toggle_layer_alpha_lock), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2544
+#: krita/krita.action:2543
 #, kde-format
 msgctxt "action"
 msgid "Toggle layer alpha"
 msgstr "切換圖層 Alpha (透明度)"
 
 #. i18n: context: Action (toggle_layer_inherit_alpha), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2554
+#: krita/krita.action:2553
 #, kde-format
 msgctxt "action"
 msgid "Toggle layer alpha &inheritance"
 msgstr "切換圖層 Alpha (透明度) 繼承(&I)"
 
 #. i18n: context: Action (toggle_layer_inherit_alpha), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2556
+#: krita/krita.action:2555
 #, kde-format
 msgctxt "action"
 msgid "Toggle layer alpha inheritance"
 msgstr "切換圖層 Alpha (透明度) 繼承"
 
 #. i18n: context: Action (add_new_paint_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2566
+#: krita/krita.action:2565
 #, kde-format
 msgctxt "action"
 msgid "&Paint Layer"
 msgstr "顏料圖層(&P)"
 
 #. i18n: context: Action (add_new_paint_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2568
+#: krita/krita.action:2567
 #, kde-format
 msgctxt "action"
 msgid "Paint Layer"
 msgstr "顏料圖層"
 
 #. i18n: context: Action (new_from_visible), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2578
+#: krita/krita.action:2577
 #, kde-format
 msgctxt "action"
 msgid "&New Layer From Visible"
 msgstr "按可見內容建立圖層(&N)"
 
 #. i18n: context: Action (new_from_visible), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2580
+#: krita/krita.action:2579
 #, kde-format
 msgctxt "action"
 msgid "New layer from visible"
 msgstr "按可見內容建立圖層"
 
 #. i18n: context: Action (duplicatelayer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2590
+#: krita/krita.action:2589
 #, kde-format
 msgctxt "action"
 msgid "&Duplicate Layer or Mask"
 msgstr "複製圖層或遮罩(&D)"
 
 #. i18n: context: Action (duplicatelayer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2592
+#: krita/krita.action:2591
 #, kde-format
 msgctxt "action"
 msgid "Duplicate Layer or Mask"
 msgstr "複製圖層或遮罩"
 
 #. i18n: context: Action (cut_selection_to_new_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2602
+#: krita/krita.action:2601
 #, kde-format
 msgctxt "action"
 msgid "&Cut Selection to New Layer"
 msgstr "剪下選取區域至新圖層(&C)"
 
 #. i18n: context: Action (cut_selection_to_new_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2604
+#: krita/krita.action:2603
 #, kde-format
 msgctxt "action"
 msgid "Cut Selection to New Layer"
 msgstr "剪下選取區域至新圖層"
 
 #. i18n: context: Action (copy_selection_to_new_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2614
+#: krita/krita.action:2613
 #, kde-format
 msgctxt "action"
 msgid "Copy &Selection to New Layer"
 msgstr "複製選取區域至新圖層(&S)"
 
 #. i18n: context: Action (copy_selection_to_new_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2616
+#: krita/krita.action:2615
 #, kde-format
 msgctxt "action"
 msgid "Copy Selection to New Layer"
 msgstr "複製選取區域至新圖層"
 
 #. i18n: context: Action (copy_layer_clipboard), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2626
+#: krita/krita.action:2625
 #, kde-format
 msgctxt "action"
 msgid "Copy Layer"
 msgstr "複製圖層"
 
 #. i18n: context: Action (copy_layer_clipboard), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2628
+#: krita/krita.action:2627
 #, kde-format
 msgctxt "action"
 msgid "Copy layer to clipboard"
 msgstr "複製圖層到剪貼簿"
 
 #. i18n: context: Action (cut_layer_clipboard), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2638
+#: krita/krita.action:2637
 #, kde-format
 msgctxt "action"
 msgid "Cut Layer"
 msgstr "剪下圖層"
 
 #. i18n: context: Action (cut_layer_clipboard), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2640
+#: krita/krita.action:2639
 #, kde-format
 msgctxt "action"
 msgid "Cut layer to clipboard"
 msgstr "剪下圖層到剪貼簿"
 
 #. i18n: context: Action (paste_layer_from_clipboard), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2650
+#: krita/krita.action:2649
 #, kde-format
 msgctxt "action"
 msgid "Paste Layer"
 msgstr "貼上圖層"
 
 #. i18n: context: Action (paste_layer_from_clipboard), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2652
+#: krita/krita.action:2651
 #, kde-format
 msgctxt "action"
 msgid "Paste layer from clipboard"
 msgstr "從剪貼簿貼上圖層"
 
 #. i18n: context: Action (create_quick_group), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2662
+#: krita/krita.action:2661
 #, kde-format
 msgctxt "action"
 msgid "Quick Group"
 msgstr "快速建立群組"
 
 #. i18n: context: Action (create_quick_group), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2664
+#: krita/krita.action:2663
 #, kde-format
 msgctxt "action"
 msgid "Create a group layer containing selected layers"
 msgstr "建立一個包含所選圖層的群組圖層"
 
 #. i18n: context: Action (quick_ungroup), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2674
+#: krita/krita.action:2673
 #, kde-format
 msgctxt "action"
 msgid "Quick Ungroup"
 msgstr "快速拆散群組"
 
 #. i18n: context: Action (quick_ungroup), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2676
+#: krita/krita.action:2675
 #, kde-format
 msgctxt "action"
 msgid "Remove grouping of the layers or remove one layer out of the group"
 msgstr "拆散群組圖層或將一個圖層移出其所在的群組圖層"
 
 #. i18n: context: Action (create_quick_clipping_group), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2686
+#: krita/krita.action:2685
 #, kde-format
 msgctxt "action"
 msgid "Quick Clipping Group"
 msgstr "快速建立裁剪群組"
 
 #. i18n: context: Action (create_quick_clipping_group), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2688
+#: krita/krita.action:2687
 #, kde-format
 msgctxt "action"
 msgid "Group selected layers and add a layer with clipped alpha channel"
 msgstr "為所選圖層建立群組並加入一個啟用了「繼承 Alpha (透明度)」的圖層"
 
 #. i18n: context: Action (select_all_layers), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2698
+#: krita/krita.action:2697
 #, kde-format
 msgctxt "action"
 msgid "All Layers"
 msgstr "所有圖層"
 
 #. i18n: context: Action (select_all_layers), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2700
+#: krita/krita.action:2699
 #, kde-format
 msgctxt "action"
 msgid "Select all layers"
 msgstr "選擇所有圖層"
 
 #. i18n: context: Action (select_visible_layers), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2710
+#: krita/krita.action:2709
 #, kde-format
 msgctxt "action"
 msgid "Visible Layers"
 msgstr "可見圖層"
 
 #. i18n: context: Action (select_visible_layers), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2712
+#: krita/krita.action:2711
 #, kde-format
 msgctxt "action"
 msgid "Select all visible layers"
 msgstr "選擇所有可見圖層"
 
 #. i18n: context: Action (select_locked_layers), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2722
+#: krita/krita.action:2721
 #, kde-format
 msgctxt "action"
 msgid "Locked Layers"
 msgstr "已鎖定圖層"
 
 #. i18n: context: Action (select_locked_layers), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2724
+#: krita/krita.action:2723
 #, kde-format
 msgctxt "action"
 msgid "Select all locked layers"
 msgstr "選擇所有已鎖定圖層"
 
 #. i18n: context: Action (select_invisible_layers), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2734
+#: krita/krita.action:2733
 #, kde-format
 msgctxt "action"
 msgid "Invisible Layers"
 msgstr "不可見圖層"
 
 #. i18n: context: Action (select_invisible_layers), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2736
+#: krita/krita.action:2735
 #, kde-format
 msgctxt "action"
 msgid "Select all invisible layers"
 msgstr "選擇所有不可見圖層"
 
 #. i18n: context: Action (select_unlocked_layers), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2746
+#: krita/krita.action:2745
 #, kde-format
 msgctxt "action"
 msgid "Unlocked Layers"
 msgstr "未鎖定圖層"
 
 #. i18n: context: Action (select_unlocked_layers), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2748
+#: krita/krita.action:2747
 #, kde-format
 msgctxt "action"
 msgid "Select all unlocked layers"
 msgstr "選擇所有未鎖定圖層"
 
 #. i18n: context: Action (save_node_as_image), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2758
+#: krita/krita.action:2757
 #, kde-format
 msgctxt "action"
 msgid "&Save Layer/Mask..."
 msgstr "儲存圖層/遮罩(&S)…"
 
 #. i18n: context: Action (save_node_as_image), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2760
+#: krita/krita.action:2759
 #, kde-format
 msgctxt "action"
 msgid "Save Layer/Mask"
 msgstr "儲存圖層/遮罩"
 
 #. i18n: context: Action (save_vector_node_to_svg), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2770
+#: krita/krita.action:2769
 #, kde-format
 msgctxt "action"
 msgid "Save Vector Layer as SVG..."
 msgstr "將向量圖層另存為 SVG…"
 
 #. i18n: context: Action (save_vector_node_to_svg), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2772
+#: krita/krita.action:2771
 #, kde-format
 msgctxt "action"
 msgid "Save Vector Layer as SVG"
 msgstr "將向量圖層另存為 SVG"
 
 #. i18n: context: Action (save_groups_as_images), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2782
+#: krita/krita.action:2781
 #, kde-format
 msgctxt "action"
 msgid "Save &Group Layers..."
 msgstr "儲存群組圖層(&G)…"
 
 #. i18n: context: Action (save_groups_as_images), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2784
+#: krita/krita.action:2783
 #, kde-format
 msgctxt "action"
 msgid "Save Group Layers"
 msgstr "儲存群組圖層"
 
 #. i18n: context: Action (convert_group_to_animated), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2794
+#: krita/krita.action:2793
 #, kde-format
 msgctxt "action"
 msgid "Convert group to &animated layer"
 msgstr "將群組圖層轉換成動畫圖層(&A)"
 
 #. i18n: context: Action (convert_group_to_animated), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2796
+#: krita/krita.action:2795
 #, kde-format
 msgctxt "action"
 msgid "Convert child layers into animation frames"
 msgstr "將子圖層轉成動畫影格"
 
 #. i18n: context: Action (convert_to_animated), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2806
+#: krita/krita.action:2805
 #, kde-format
 msgctxt "action"
 msgid "Convert to &animated layer"
 msgstr "轉成動畫圖層(&A)"
 
 #. i18n: context: Action (convert_to_animated), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2808
+#: krita/krita.action:2807
 #, kde-format
 msgctxt "action"
 msgid "Convert layer into animation frames"
 msgstr "將圖層轉成動畫影格"
 
 #. i18n: context: Action (convert_to_file_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2818
+#: krita/krita.action:2817
 #, kde-format
 msgctxt "action"
 msgid "to &File Layer..."
 msgstr "為檔案圖層(&F)…"
 
 #. i18n: context: Action (convert_to_file_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2820
+#: krita/krita.action:2819
 #, kde-format
 msgctxt "action"
 msgid "Saves out the layers into a new image and then references that image."
 msgstr "將圖層儲存為新影像並引用該影像。"
 
 #. i18n: context: Action (import_layer_from_file), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2830
+#: krita/krita.action:2829
 #, kde-format
 msgctxt "action"
 msgid "I&mport Layer..."
 msgstr "匯入圖層(&M)…"
 
 #. i18n: context: Action (import_layer_from_file), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2832
+#: krita/krita.action:2831
 #, kde-format
 msgctxt "action"
 msgid "Import Layer"
 msgstr "匯入圖層"
 
 #. i18n: context: Action (import_layer_as_paint_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2842
+#: krita/krita.action:2841
 #, kde-format
 msgctxt "action"
 msgid "&as Paint Layer..."
 msgstr "作為顏料圖層(&A)…"
 
 #. i18n: context: Action (import_layer_as_paint_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2844
+#: krita/krita.action:2843
 #, kde-format
 msgctxt "action"
 msgid "as Paint Layer"
 msgstr "作為顏料圖層"
 
 #. i18n: context: Action (import_layer_as_transparency_mask), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2854
+#: krita/krita.action:2853
 #, kde-format
 msgctxt "action"
 msgid "as &Transparency Mask..."
 msgstr "作為透明度遮罩(&T)…"
 
 #. i18n: context: Action (import_layer_as_transparency_mask), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2856
+#: krita/krita.action:2855
 #, kde-format
 msgctxt "action"
 msgid "as Transparency Mask"
 msgstr "作為透明度遮罩"
 
 #. i18n: context: Action (import_layer_as_filter_mask), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2866
+#: krita/krita.action:2865
 #, kde-format
 msgctxt "action"
 msgid "as &Filter Mask..."
 msgstr "作為濾鏡遮罩(&F)…"
 
 #. i18n: context: Action (import_layer_as_filter_mask), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2868
+#: krita/krita.action:2867
 #, kde-format
 msgctxt "action"
 msgid "as Filter Mask"
 msgstr "作為濾鏡遮罩"
 
 #. i18n: context: Action (import_layer_as_selection_mask), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2878
+#: krita/krita.action:2877
 #, kde-format
 msgctxt "action"
 msgid "as &Selection Mask..."
 msgstr "作為選取區域遮罩(&S)…"
 
 #. i18n: context: Action (import_layer_as_selection_mask), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2880
+#: krita/krita.action:2879
 #, kde-format
 msgctxt "action"
 msgid "as Selection Mask"
 msgstr "作為選取區域遮罩"
 
 #. i18n: context: Action (convert_to_paint_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2890
+#: krita/krita.action:2889
 #, kde-format
 msgctxt "action"
 msgid "to &Paint Layer"
 msgstr "為顏料圖層(&P)"
 
 #. i18n: context: Action (convert_to_paint_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2892
+#: krita/krita.action:2891
 #, kde-format
 msgctxt "action"
 msgid "to Paint Layer"
 msgstr "為顏料圖層"
 
 #. i18n: context: Action (convert_to_transparency_mask), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2902
+#: krita/krita.action:2901
 #, kde-format
 msgctxt "action"
 msgid "to &Transparency Mask"
 msgstr "為透明度遮罩(&T)"
 
 #. i18n: context: Action (convert_to_transparency_mask), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2904
+#: krita/krita.action:2903
 #, kde-format
 msgctxt "action"
 msgid "to Transparency Mask"
 msgstr "為透明度遮罩"
 
 #. i18n: context: Action (convert_to_filter_mask), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2914
+#: krita/krita.action:2913
 #, kde-format
 msgctxt "action"
 msgid "to &Filter Mask..."
 msgstr "為濾鏡遮罩(&F)…"
 
 #. i18n: context: Action (convert_to_filter_mask), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2916
+#: krita/krita.action:2915
 #, kde-format
 msgctxt "action"
 msgid "to Filter Mask"
 msgstr "為濾鏡遮罩"
 
 #. i18n: context: Action (convert_to_selection_mask), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2926
+#: krita/krita.action:2925
 #, kde-format
 msgctxt "action"
 msgid "to &Selection Mask"
 msgstr "為選取區域遮罩(&S)"
 
 #. i18n: context: Action (convert_to_selection_mask), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2928
+#: krita/krita.action:2927
 #, kde-format
 msgctxt "action"
 msgid "to Selection Mask"
 msgstr "為選取區域遮罩"
 
 #. i18n: context: Action (split_alpha_into_mask), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2938
+#: krita/krita.action:2937
 #, kde-format
 msgctxt "action"
 msgid "&Alpha into Mask"
 msgstr "&Alpha (透明度) 轉為遮罩"
 
 #. i18n: context: Action (split_alpha_into_mask), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2940
+#: krita/krita.action:2939
 #, kde-format
 msgctxt "action"
 msgid "Alpha into Mask"
 msgstr "Alpha (透明度) 轉為遮罩"
 
 #. i18n: context: Action (split_alpha_write), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2950
+#: krita/krita.action:2949
 #, kde-format
 msgctxt "action"
 msgid "&Write as Alpha"
 msgstr "作為 Alpha (透明度) 寫入(&W)"
 
 #. i18n: context: Action (split_alpha_write), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2952
+#: krita/krita.action:2951
 #, kde-format
 msgctxt "action"
 msgid "Write as Alpha"
 msgstr "作為 Alpha (透明度) 寫入"
 
 #. i18n: context: Action (split_alpha_save_merged), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2962
+#: krita/krita.action:2961
 #, kde-format
 msgctxt "action"
 msgid "&Save Merged..."
 msgstr "合併儲存(&S)…"
 
 #. i18n: context: Action (split_alpha_save_merged), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2964
+#: krita/krita.action:2963
 #, kde-format
 msgctxt "action"
 msgid "Save Merged"
 msgstr "合併儲存"
 
 #. i18n: context: Action (layersplit), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2974
+#: krita/krita.action:2973
 #, kde-format
 msgctxt "action"
 msgid "Split Layer..."
 msgstr "分割圖層…"
 
 #. i18n: context: Action (layersplit), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2976
+#: krita/krita.action:2975
 #, kde-format
 msgctxt "action"
 msgid "Split Layer"
 msgstr "分割圖層"
 
 #. i18n: context: Action (waveletdecompose), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2986
+#: krita/krita.action:2985
 #, kde-format
 msgctxt "action"
 msgid "Wavelet Decompose ..."
 msgstr "子波分解…"
 
 #. i18n: context: Action (waveletdecompose), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2988
+#: krita/krita.action:2987
 #, kde-format
 msgctxt "action"
 msgid "Wavelet Decompose"
 msgstr "子波分解"
 
 #. i18n: context: Action (mirrorNodeX), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2998
+#: krita/krita.action:2997
 #, kde-format
 msgctxt "action"
 msgid "Mirror Layer Hori&zontally"
 msgstr "水平翻轉圖層(&Z)"
 
 #. i18n: context: Action (mirrorNodeX), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3000
+#: krita/krita.action:2999
 #, kde-format
 msgctxt "action"
 msgid "Mirror Layer Horizontally"
 msgstr "水平翻轉圖層"
 
 #. i18n: context: Action (mirrorNodeY), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3010
+#: krita/krita.action:3009
 #, kde-format
 msgctxt "action"
 msgid "Mirror Layer &Vertically"
 msgstr "垂直翻轉圖層(&V)"
 
 #. i18n: context: Action (mirrorNodeY), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3012
+#: krita/krita.action:3011
 #, kde-format
 msgctxt "action"
 msgid "Mirror Layer Vertically"
 msgstr "垂直翻轉圖層"
 
 #. i18n: context: Action (rotatelayer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3022
+#: krita/krita.action:3021
 #, kde-format
 msgctxt "action"
 msgid "&Rotate Layer..."
 msgstr "旋轉圖層(&R)…"
 
 #. i18n: context: Action (rotatelayer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3024
+#: krita/krita.action:3023
 #, kde-format
 msgctxt "action"
 msgid "Rotate Layer"
 msgstr "旋轉圖層"
 
 #. i18n: context: Action (rotateLayerCW90), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3034
+#: krita/krita.action:3033
 #, kde-format
 msgctxt "action"
 msgid "Rotate &Layer 90° to the Right"
 msgstr "向右旋轉圖層 90°(&L)"
 
 #. i18n: context: Action (rotateLayerCW90), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3036
+#: krita/krita.action:3035
 #, kde-format
 msgctxt "action"
 msgid "Rotate Layer 90° to the Right"
 msgstr "向右旋轉圖層 90°"
 
 #. i18n: context: Action (rotateLayerCCW90), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3046
+#: krita/krita.action:3045
 #, kde-format
 msgctxt "action"
 msgid "Rotate Layer &90° to the Left"
 msgstr "向左旋轉圖層 &90°"
 
 #. i18n: context: Action (rotateLayerCCW90), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3048
+#: krita/krita.action:3047
 #, kde-format
 msgctxt "action"
 msgid "Rotate Layer 90° to the Left"
 msgstr "向左旋轉圖層 90°"
 
 #. i18n: context: Action (rotateLayer180), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3058
+#: krita/krita.action:3057
 #, kde-format
 msgctxt "action"
 msgid "Rotate Layer &180°"
 msgstr "旋轉圖層 &180°"
 
 #. i18n: context: Action (rotateLayer180), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3060
+#: krita/krita.action:3059
 #, kde-format
 msgctxt "action"
 msgid "Rotate Layer 180°"
 msgstr "旋轉圖層 180°"
 
 #. i18n: context: Action (layersize), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3070
+#: krita/krita.action:3069
 #, kde-format
 msgctxt "action"
 msgid "Scale &Layer to new Size..."
 msgstr "縮放圖層至新尺寸(&L)…"
 
 #. i18n: context: Action (layersize), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3072
+#: krita/krita.action:3071
 #, kde-format
 msgctxt "action"
 msgid "Scale Layer to new Size"
 msgstr "縮放圖層至新尺寸"
 
 #. i18n: context: Action (shearlayer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3082
+#: krita/krita.action:3081
 #, kde-format
 msgctxt "action"
 msgid "&Shear Layer..."
 msgstr "切變圖層(&S)…"
 
 #. i18n: context: Action (shearlayer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3084
+#: krita/krita.action:3083
 #, kde-format
 msgctxt "action"
 msgid "Shear Layer"
 msgstr "切變圖層"
 
 #. i18n: context: Action (mirrorAllNodesX), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3094
+#: krita/krita.action:3093
 #, kde-format
 msgctxt "action"
 msgid "Mirror All Layers Hori&zontally"
 msgstr "水平鏡像所有圖層(&Z)"
 
 #. i18n: context: Action (mirrorAllNodesX), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3096
+#: krita/krita.action:3095
 #, kde-format
 msgctxt "action"
 msgid "Mirror All Layers Horizontally"
 msgstr "水平鏡像所有圖層"
 
 #. i18n: context: Action (mirrorAllNodesY), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3106
+#: krita/krita.action:3105
 #, kde-format
 msgctxt "action"
 msgid "Mirror All Layers &Vertically"
 msgstr "垂直鏡像所有圖層(&V)"
 
 #. i18n: context: Action (mirrorAllNodesY), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3108
+#: krita/krita.action:3107
 #, kde-format
 msgctxt "action"
 msgid "Mirror All Layers Vertically"
 msgstr "垂直鏡像所有圖層"
 
 #. i18n: context: Action (rotateAllLayers), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3118
+#: krita/krita.action:3117
 #, kde-format
 msgctxt "action"
 msgid "&Rotate All Layers..."
 msgstr "旋轉所有圖層(&R)…"
 
 #. i18n: context: Action (rotateAllLayers), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3120
+#: krita/krita.action:3119
 #, kde-format
 msgctxt "action"
 msgid "Rotate All Layers"
 msgstr "旋轉所有圖層"
 
 #. i18n: context: Action (rotateAllLayersCW90), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3130
+#: krita/krita.action:3129
 #, kde-format
 msgctxt "action"
 msgid "Rotate All &Layers 90° to the Right"
 msgstr "向右旋轉所有圖層 90°(&L)"
 
 #. i18n: context: Action (rotateAllLayersCW90), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3132
+#: krita/krita.action:3131
 #, kde-format
 msgctxt "action"
 msgid "Rotate All Layers 90° to the Right"
 msgstr "向右旋轉所有圖層 90°"
 
 #. i18n: context: Action (rotateAllLayersCCW90), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3142
+#: krita/krita.action:3141
 #, kde-format
 msgctxt "action"
 msgid "Rotate All Layers &90° to the Left"
 msgstr "向左旋轉所有圖層 &90°"
 
 #. i18n: context: Action (rotateAllLayersCCW90), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3144
+#: krita/krita.action:3143
 #, kde-format
 msgctxt "action"
 msgid "Rotate All Layers 90° to the Left"
 msgstr "向左旋轉所有圖層 90°"
 
 #. i18n: context: Action (rotateAllLayers180), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3154
+#: krita/krita.action:3153
 #, kde-format
 msgctxt "action"
 msgid "Rotate All Layers &180°"
 msgstr "旋轉所有圖層 &180°"
 
 #. i18n: context: Action (rotateAllLayers180), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3156
+#: krita/krita.action:3155
 #, kde-format
 msgctxt "action"
 msgid "Rotate All Layers 180°"
 msgstr "旋轉所有圖層 180°"
 
 #. i18n: context: Action (scaleAllLayers), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3166
+#: krita/krita.action:3165
 #, kde-format
 msgctxt "action"
 msgid "Scale All &Layers to new Size..."
 msgstr "縮放所有圖層至新尺寸(&L)…"
 
 #. i18n: context: Action (scaleAllLayers), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3168
+#: krita/krita.action:3167
 #, kde-format
 msgctxt "action"
 msgid "Scale All Layers to new Size"
 msgstr "縮放所有圖層至新尺寸"
 
 #. i18n: context: Action (shearAllLayers), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3178
+#: krita/krita.action:3177
 #, kde-format
 msgctxt "action"
 msgid "&Shear All Layers..."
 msgstr "切變所有圖層(&S)…"
 
 #. i18n: context: Action (shearAllLayers), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3180
+#: krita/krita.action:3179
 #, kde-format
 msgctxt "action"
 msgid "Shear All Layers"
 msgstr "切變所有圖層"
 
 #. i18n: context: Action (offsetlayer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3190
+#: krita/krita.action:3189
 #, kde-format
 msgctxt "action"
 msgid "&Offset Layer..."
 msgstr "平移圖層(&O)…"
 
 #. i18n: context: Action (offsetlayer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3192
+#: krita/krita.action:3191
 #, kde-format
 msgctxt "action"
 msgid "Offset Layer"
 msgstr "平移圖層"
 
 #. i18n: context: Action (clones_array), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3202
+#: krita/krita.action:3201
 #, kde-format
 msgctxt "action"
 msgid "Clones &Array..."
 msgstr "再製陣列(&A)…"
 
 #. i18n: context: Action (clones_array), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3204
+#: krita/krita.action:3203
 #, kde-format
 msgctxt "action"
 msgid "Clones Array"
 msgstr "再製陣列"
 
 #. i18n: context: Action (EditLayerMetaData), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3214
+#: krita/krita.action:3213
 #, kde-format
 msgctxt "action"
 msgid "&Edit metadata..."
 msgstr "編輯中繼資料(&E)…"
 
 #. i18n: context: Action (EditLayerMetaData), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3216
+#: krita/krita.action:3215
 #, kde-format
 msgctxt "action"
 msgid "Edit metadata"
 msgstr "編輯中繼資料"
 
 #. i18n: context: Action (histogram), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3226
+#: krita/krita.action:3225
 #, kde-format
 msgctxt "action"
 msgid "&Histogram..."
 msgstr "直方圖(&H)…"
 
 #. i18n: context: Action (histogram), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3228
+#: krita/krita.action:3227
 #, kde-format
 msgctxt "action"
 msgid "Histogram"
 msgstr "直方圖"
 
 #. i18n: context: Action (layercolorspaceconversion), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3238
+#: krita/krita.action:3237
 #, kde-format
 msgctxt "action"
 msgid "&Convert Layer Color Space..."
 msgstr "轉換圖層色彩空間(&C)…"
 
 #. i18n: context: Action (layercolorspaceconversion), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3240
+#: krita/krita.action:3239
 #, kde-format
 msgctxt "action"
 msgid "Convert Layer Color Space"
 msgstr "轉換圖層色彩空間"
 
 #. i18n: context: Action (merge_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3250
+#: krita/krita.action:3249
 #, kde-format
 msgctxt "action"
 msgid "&Merge with Layer Below"
 msgstr "向下合併圖層(&M)"
 
 #. i18n: context: Action (merge_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3252
+#: krita/krita.action:3251
 #, kde-format
 msgctxt "action"
 msgid "Merge with Layer Below"
 msgstr "向下合併圖層"
 
 #. i18n: context: Action (flatten_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3262
+#: krita/krita.action:3261
 #, kde-format
 msgctxt "action"
 msgid "&Flatten Layer"
 msgstr "平整圖層(&F)"
 
 #. i18n: context: Action (flatten_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3264
+#: krita/krita.action:3263
 #, kde-format
 msgctxt "action"
 msgid "Flatten Layer"
 msgstr "平整圖層"
 
 #. i18n: context: Action (flatten_image), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3274
+#: krita/krita.action:3273
 #, kde-format
 msgctxt "action"
 msgid "Flatten ima&ge"
 msgstr "平整影像(&G)"
 
 #. i18n: context: Action (flatten_image), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3276
+#: krita/krita.action:3275
 #, kde-format
 msgctxt "action"
 msgid "Flatten image"
 msgstr "平整影像"
 
 #. i18n: context: Action (layer_style), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3286
+#: krita/krita.action:3285
 #, kde-format
 msgctxt "action"
 msgid "La&yer Style..."
 msgstr "圖層樣式(&Y)…"
 
 #. i18n: context: Action (layer_style), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3288
+#: krita/krita.action:3287
 #, kde-format
 msgctxt "action"
 msgid "Layer Style"
@@ -11454,7 +11464,7 @@ msgstr "圖層樣式"
 #. i18n: context: Action (LayerGroupSwitcher/previous), Actions (Layers), ActionCollection (Krita)
 #. i18n: context: Action (LayerGroupSwitcher/previous), Actions (Layers), ActionCollection (Krita)
 #. i18n: context: Action (LayerGroupSwitcher/previous), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3298 krita/krita.action:3300
+#: krita/krita.action:3297 krita/krita.action:3299
 #, kde-format
 msgctxt "action"
 msgid "Move into previous group"
@@ -11464,7 +11474,7 @@ msgstr "移進上一組"
 #. i18n: context: Action (LayerGroupSwitcher/next), Actions (Layers), ActionCollection (Krita)
 #. i18n: context: Action (LayerGroupSwitcher/next), Actions (Layers), ActionCollection (Krita)
 #. i18n: context: Action (LayerGroupSwitcher/next), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3310 krita/krita.action:3312
+#: krita/krita.action:3309 krita/krita.action:3311
 #, kde-format
 msgctxt "action"
 msgid "Move into next group"
@@ -11474,21 +11484,21 @@ msgstr "移進下一組"
 #. i18n: context: Action (RenameCurrentLayer), Actions (Layers), ActionCollection (Krita)
 #. i18n: context: Action (RenameCurrentLayer), Actions (Layers), ActionCollection (Krita)
 #. i18n: context: Action (RenameCurrentLayer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3322 krita/krita.action:3324
+#: krita/krita.action:3321 krita/krita.action:3323
 #, kde-format
 msgctxt "action"
 msgid "Rename current layer"
 msgstr "重新命名目前圖層"
 
 #. i18n: context: Action (remove_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3334
+#: krita/krita.action:3333
 #, kde-format
 msgctxt "action"
 msgid "&Remove Layer"
 msgstr "移除圖層(&R)"
 
 #. i18n: context: Action (remove_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3336
+#: krita/krita.action:3335
 #, kde-format
 msgctxt "action"
 msgid "Remove Layer"
@@ -11498,7 +11508,7 @@ msgstr "移除圖層"
 #. i18n: context: Action (move_layer_up), Actions (Layers), ActionCollection (Krita)
 #. i18n: context: Action (move_layer_up), Actions (Layers), ActionCollection (Krita)
 #. i18n: context: Action (move_layer_up), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3346 krita/krita.action:3348
+#: krita/krita.action:3345 krita/krita.action:3347
 #, kde-format
 msgctxt "action"
 msgid "Move Layer or Mask Up"
@@ -11508,35 +11518,35 @@ msgstr "上移圖層或遮罩"
 #. i18n: context: Action (move_layer_down), Actions (Layers), ActionCollection (Krita)
 #. i18n: context: Action (move_layer_down), Actions (Layers), ActionCollection (Krita)
 #. i18n: context: Action (move_layer_down), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3356 krita/krita.action:3358
+#: krita/krita.action:3355 krita/krita.action:3357
 #, kde-format
 msgctxt "action"
 msgid "Move Layer or Mask Down"
 msgstr "下移圖層或遮罩"
 
 #. i18n: context: Action (layer_properties), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3366
+#: krita/krita.action:3365
 #, kde-format
 msgctxt "action"
 msgid "&Properties..."
 msgstr "屬性(&P)…"
 
 #. i18n: context: Action (layer_properties), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3368
+#: krita/krita.action:3367
 #, kde-format
 msgctxt "Layer Properties"
 msgid "Properties"
 msgstr "屬性"
 
 #. i18n: context: Action (set-copy-from), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3378
+#: krita/krita.action:3377
 #, kde-format
 msgctxt "action"
 msgid "Set Copy F&rom..."
 msgstr "設定複製來源(&R)…"
 
 #. i18n: context: Action (set-copy-from), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3380
+#: krita/krita.action:3379
 #, kde-format
 msgctxt "action"
 msgid "Set the source for the selected clone layer(s)."
@@ -21418,7 +21428,7 @@ msgstr "總計編輯時長(&M)："
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: libs/ui/forms/koDocumentInfoAboutWidget.ui:151
 #: libs/ui/forms/wdgmetadatamergestrategychooser.ui:53
-#: plugins/extensions/metadataeditor/editors/dublincore.ui:103
+#: plugins/extensions/metadataeditor/editors/dublincore.ui:93
 #: plugins/extensions/pykrita/plugin/info.ui:48
 #: plugins/extensions/resourcemanager/wdgdlgcreatebundle.ui:243
 #, kde-format
@@ -21480,7 +21490,7 @@ msgstr "縮寫："
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #: libs/ui/forms/koDocumentInfoAuthorWidget.ui:89
-#: plugins/extensions/metadataeditor/editors/dublincore.ui:87
+#: plugins/extensions/metadataeditor/editors/dublincore.ui:80
 #: plugins/extensions/pykrita/plugin/info.ui:178
 #: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:322
 #, kde-format
@@ -27076,6 +27086,7 @@ msgstr "正在等待儲存完成…"
 
 #. i18n: ectx: property (text), widget (QCheckBox, exif)
 #: libs/ui/kisexiv2/kis_exif_io.h:24
+#: plugins/extensions/metadataeditor/kis_meta_data_editor.cc:160
 #: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:274
 #, kde-format
 msgid "Exif"
@@ -34083,6 +34094,14 @@ msgstr "動畫曲線"
 msgid "Frame register"
 msgstr "影格註冊"
 
+#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:79
+#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:81
+#, fuzzy, kde-format
+#| msgid "Speed"
+msgctxt "preview playback speed percentage prefix"
+msgid "Speed: "
+msgstr "速度"
+
 #: plugins/dockers/animation/KisAnimCurvesDocker.cpp:81
 #: plugins/dockers/animation/KisAnimTimelineDocker.cpp:83
 #, kde-format
@@ -35110,12 +35129,12 @@ msgstr "取消快速選取區域遮罩"
 msgid "%1 %"
 msgstr "%1 %"
 
-#: plugins/dockers/layerdocker/NodeToolTip.cpp:41
+#: plugins/dockers/layerdocker/NodeToolTip.cpp:43
 #, kde-format
 msgid "No"
 msgstr "否"
 
-#: plugins/dockers/layerdocker/NodeToolTip.cpp:41
+#: plugins/dockers/layerdocker/NodeToolTip.cpp:43
 #, kde-format
 msgid "Yes"
 msgstr "是"
@@ -37160,855 +37179,854 @@ msgstr ""
 "span></p><p>為使用中圖層的每種色彩建立一個新圖層。</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: plugins/extensions/metadataeditor/editors/dublincore.ui:23
+#: plugins/extensions/metadataeditor/editors/dublincore.ui:21
 #, kde-format
 msgid "Creator name:"
 msgstr "作者名字："
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: plugins/extensions/metadataeditor/editors/dublincore.ui:39
+#: plugins/extensions/metadataeditor/editors/dublincore.ui:34
 #, kde-format
 msgid "Publisher:"
 msgstr "出版社："
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: plugins/extensions/metadataeditor/editors/dublincore.ui:55
+#: plugins/extensions/metadataeditor/editors/dublincore.ui:47
 #, kde-format
 msgid "Rights:"
 msgstr "版權："
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: plugins/extensions/metadataeditor/editors/dublincore.ui:71
+#: plugins/extensions/metadataeditor/editors/dublincore.ui:60
 #: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:406
 #, kde-format
 msgid "Date:"
 msgstr "日期："
 
-#. i18n: tag MetaDataEditor attribute name
-#: plugins/extensions/metadataeditor/editors/dublincore.xmlgui:2
+#. i18n: ectx: property (displayFormat), widget (QDateTimeEdit, date)
+#: plugins/extensions/metadataeditor/editors/dublincore.ui:70
 #, kde-format
-msgctxt "metadata editor page"
-msgid "Dublin Core"
-msgstr "都柏林核心"
+msgid "dd/MM/yyyy"
+msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: plugins/extensions/metadataeditor/editors/exif.ui:25
+#: plugins/extensions/metadataeditor/editors/exif.ui:31
 #, kde-format
 msgctxt "EXIF"
 msgid "Exposure"
 msgstr "曝光"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: plugins/extensions/metadataeditor/editors/exif.ui:33
+#: plugins/extensions/metadataeditor/editors/exif.ui:37
 #, kde-format
 msgctxt "EXIF: exposure"
 msgid "Brightness &value:"
 msgstr "亮度值(&V)："
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: plugins/extensions/metadataeditor/editors/exif.ui:49
+#: plugins/extensions/metadataeditor/editors/exif.ui:50
 #, kde-format
 msgctxt "EXIF: exposure"
 msgid "&ISO:"
 msgstr "&ISO："
 
 #. i18n: ectx: property (text), widget (QLabel, label_16)
-#: plugins/extensions/metadataeditor/editors/exif.ui:75
+#: plugins/extensions/metadataeditor/editors/exif.ui:73
 #, kde-format
 msgctxt "EXIF: exposure"
 msgid "Exposure &time:"
 msgstr "曝光時間(&T)："
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: plugins/extensions/metadataeditor/editors/exif.ui:91
+#: plugins/extensions/metadataeditor/editors/exif.ui:86
 #, kde-format
 msgctxt "EXIF: exposure"
 msgid "E&xposure mode:"
 msgstr "曝光模式(&X)："
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editExposureMode)
-#: plugins/extensions/metadataeditor/editors/exif.ui:105
+#: plugins/extensions/metadataeditor/editors/exif.ui:97
 #, kde-format
 msgctxt "EXIF: exposure - exposure mode"
 msgid "Auto"
 msgstr "自動"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editExposureMode)
-#: plugins/extensions/metadataeditor/editors/exif.ui:110
+#: plugins/extensions/metadataeditor/editors/exif.ui:102
 #, kde-format
 msgctxt "EXIF: exposure - exposure mode"
 msgid "Manual"
 msgstr "手動"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editExposureMode)
-#: plugins/extensions/metadataeditor/editors/exif.ui:115
+#: plugins/extensions/metadataeditor/editors/exif.ui:107
 #, kde-format
 msgctxt "EXIF: exposure - exposure mode"
 msgid "Auto bracket"
 msgstr "自動包圍"
 
 #. i18n: ectx: property (text), widget (QLabel, label_14)
-#: plugins/extensions/metadataeditor/editors/exif.ui:123
+#: plugins/extensions/metadataeditor/editors/exif.ui:115
 #, kde-format
 msgctxt "EXIF: exposure"
 msgid "Exposure pro&gram:"
 msgstr "曝光程式(&G)："
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editExposureProgram)
-#: plugins/extensions/metadataeditor/editors/exif.ui:137
+#: plugins/extensions/metadataeditor/editors/exif.ui:126
 #, kde-format
 msgctxt "EXIF: exposure - exposure program"
 msgid "Not defined"
 msgstr "未定義"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editExposureProgram)
-#: plugins/extensions/metadataeditor/editors/exif.ui:142
+#: plugins/extensions/metadataeditor/editors/exif.ui:131
 #, kde-format
 msgctxt "EXIF: exposure - exposure program"
 msgid "Manual"
 msgstr "手動"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editExposureProgram)
-#: plugins/extensions/metadataeditor/editors/exif.ui:147
+#: plugins/extensions/metadataeditor/editors/exif.ui:136
 #, kde-format
 msgctxt "EXIF: exposure - exposure program"
 msgid "Normal program"
 msgstr "一般程式"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editExposureProgram)
-#: plugins/extensions/metadataeditor/editors/exif.ui:152
+#: plugins/extensions/metadataeditor/editors/exif.ui:141
 #, kde-format
 msgctxt "EXIF: exposure - exposure program"
 msgid "Aperture priority"
 msgstr "光圈優先"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editExposureProgram)
-#: plugins/extensions/metadataeditor/editors/exif.ui:157
+#: plugins/extensions/metadataeditor/editors/exif.ui:146
 #, kde-format
 msgctxt "EXIF: exposure - exposure program"
 msgid "Shutter priority"
 msgstr "快門優先"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editExposureProgram)
-#: plugins/extensions/metadataeditor/editors/exif.ui:162
+#: plugins/extensions/metadataeditor/editors/exif.ui:151
 #, kde-format
 msgctxt "EXIF: exposure - exposure program"
 msgid "Creative program"
 msgstr "創意程式"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editExposureProgram)
-#: plugins/extensions/metadataeditor/editors/exif.ui:167
+#: plugins/extensions/metadataeditor/editors/exif.ui:156
 #, kde-format
 msgctxt "EXIF: exposure - exposure program"
 msgid "Action program"
 msgstr "動作程式"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editExposureProgram)
-#: plugins/extensions/metadataeditor/editors/exif.ui:172
+#: plugins/extensions/metadataeditor/editors/exif.ui:161
 #, kde-format
 msgctxt "EXIF: exposure - exposure program"
 msgid "Portrait mode"
 msgstr "人像模式"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editExposureProgram)
-#: plugins/extensions/metadataeditor/editors/exif.ui:177
+#: plugins/extensions/metadataeditor/editors/exif.ui:166
 #, kde-format
 msgctxt "EXIF: exposure - exposure program"
 msgid "Landscape mode"
 msgstr "風景模式"
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
-#: plugins/extensions/metadataeditor/editors/exif.ui:185
+#: plugins/extensions/metadataeditor/editors/exif.ui:174
 #, kde-format
 msgctxt "EXIF: exposure"
 msgid "Exposure index:"
 msgstr "曝光索引："
 
 #. i18n: ectx: property (text), widget (QLabel, label_10)
-#: plugins/extensions/metadataeditor/editors/exif.ui:201
+#: plugins/extensions/metadataeditor/editors/exif.ui:187
 #, kde-format
 msgctxt "EXIF: exposure"
 msgid "Exposure bias:"
 msgstr "曝光偏差："
 
 #. i18n: ectx: property (text), widget (QLabel, label_9)
-#: plugins/extensions/metadataeditor/editors/exif.ui:217
+#: plugins/extensions/metadataeditor/editors/exif.ui:200
 #, kde-format
 msgctxt "EXIF: exposure"
 msgid "Ape&rture:"
 msgstr "光圈(&R)："
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
-#: plugins/extensions/metadataeditor/editors/exif.ui:233
+#: plugins/extensions/metadataeditor/editors/exif.ui:213
 #, kde-format
 msgctxt "EXIF: exposure"
 msgid "Shutter speed:"
 msgstr "快門速度："
 
 #. i18n: ectx: property (text), widget (QLabel, label_25)
-#: plugins/extensions/metadataeditor/editors/exif.ui:249
+#: plugins/extensions/metadataeditor/editors/exif.ui:226
 #, kde-format
 msgctxt "EXIF: exposure"
 msgid "&F Number:"
 msgstr "&F 值："
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
-#: plugins/extensions/metadataeditor/editors/exif.ui:281
+#: plugins/extensions/metadataeditor/editors/exif.ui:240
 #, kde-format
 msgctxt "EXIF"
 msgid "Lens"
 msgstr "鏡頭"
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
-#: plugins/extensions/metadataeditor/editors/exif.ui:289
+#: plugins/extensions/metadataeditor/editors/exif.ui:246
 #, kde-format
 msgctxt "EXIF: lens"
 msgid "&Focal length:"
 msgstr "焦距(&F)："
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: plugins/extensions/metadataeditor/editors/exif.ui:315
+#: plugins/extensions/metadataeditor/editors/exif.ui:269
 #, kde-format
 msgctxt "EXIF: lens"
 msgid "Focal length (&35mm equivalent):"
 msgstr "焦距 (&35mm 等效)："
 
 #. i18n: ectx: property (text), widget (QLabel, label_12)
-#: plugins/extensions/metadataeditor/editors/exif.ui:341
+#: plugins/extensions/metadataeditor/editors/exif.ui:292
 #, kde-format
 msgctxt "EXIF: lens"
 msgid "Max aperture:"
 msgstr "最大光圈："
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_3)
-#: plugins/extensions/metadataeditor/editors/exif.ui:373
+#: plugins/extensions/metadataeditor/editors/exif.ui:306
 #, kde-format
 msgctxt "EXIF"
 msgid "Autofocus"
 msgstr "自動對焦"
 
 #. i18n: ectx: property (text), widget (QLabel, label_17)
-#: plugins/extensions/metadataeditor/editors/exif.ui:381
+#: plugins/extensions/metadataeditor/editors/exif.ui:312
 #, kde-format
 msgctxt "EXIF: autofocus"
 msgid "Sub&ject distance:"
 msgstr "物件距離(&J)："
 
 #. i18n: ectx: property (text), widget (QLabel, label_11)
-#: plugins/extensions/metadataeditor/editors/exif.ui:397
+#: plugins/extensions/metadataeditor/editors/exif.ui:325
 #, kde-format
 msgctxt "EXIF: autofocus"
 msgid "Meterin&g mode:"
 msgstr "測光模式(&G)："
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editMeteringMode)
-#: plugins/extensions/metadataeditor/editors/exif.ui:411
+#: plugins/extensions/metadataeditor/editors/exif.ui:336
 #, kde-format
 msgctxt "EXIF: autofocus - metering mode"
 msgid "Unknown"
 msgstr "未知"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editMeteringMode)
-#: plugins/extensions/metadataeditor/editors/exif.ui:416
+#: plugins/extensions/metadataeditor/editors/exif.ui:341
 #, kde-format
 msgctxt "EXIF: autofocus - metering mode"
 msgid "Average"
 msgstr "平均測光"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editMeteringMode)
-#: plugins/extensions/metadataeditor/editors/exif.ui:421
+#: plugins/extensions/metadataeditor/editors/exif.ui:346
 #, kde-format
 msgctxt "EXIF: autofocus - metering mode"
 msgid "Center weighted average"
 msgstr "中央權衡平均"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editMeteringMode)
-#: plugins/extensions/metadataeditor/editors/exif.ui:426
+#: plugins/extensions/metadataeditor/editors/exif.ui:351
 #, kde-format
 msgctxt "EXIF: autofocus - metering mode"
 msgid "Spot"
 msgstr "單點"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editMeteringMode)
-#: plugins/extensions/metadataeditor/editors/exif.ui:431
+#: plugins/extensions/metadataeditor/editors/exif.ui:356
 #, kde-format
 msgctxt "EXIF: autofocus - metering mode"
 msgid "Multi spot"
 msgstr "多焦點"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editMeteringMode)
-#: plugins/extensions/metadataeditor/editors/exif.ui:436
+#: plugins/extensions/metadataeditor/editors/exif.ui:361
 #, kde-format
 msgctxt "EXIF: autofocus - metering mode"
 msgid "Pattern"
 msgstr "圖案"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editMeteringMode)
-#: plugins/extensions/metadataeditor/editors/exif.ui:441
+#: plugins/extensions/metadataeditor/editors/exif.ui:366
 #, kde-format
 msgctxt "EXIF: autofocus - metering mode"
 msgid "Partial"
 msgstr "部分"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editMeteringMode)
-#: plugins/extensions/metadataeditor/editors/exif.ui:446
+#: plugins/extensions/metadataeditor/editors/exif.ui:371
 #, kde-format
 msgctxt "EXIF: autofocus - metering mode"
 msgid "Other"
 msgstr "其他"
 
 #. i18n: ectx: property (text), widget (QLabel, label_24)
-#: plugins/extensions/metadataeditor/editors/exif.ui:454
+#: plugins/extensions/metadataeditor/editors/exif.ui:379
 #, kde-format
 msgctxt "EXIF: autofocus"
 msgid "D&istance range:"
 msgstr "距離範圍(&I)："
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editSubjectDistanceRange)
-#: plugins/extensions/metadataeditor/editors/exif.ui:468
+#: plugins/extensions/metadataeditor/editors/exif.ui:390
 #, kde-format
 msgctxt "EXIF: autofocus - distance range"
 msgid "Unknown"
 msgstr "未知"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editSubjectDistanceRange)
-#: plugins/extensions/metadataeditor/editors/exif.ui:473
+#: plugins/extensions/metadataeditor/editors/exif.ui:395
 #, kde-format
 msgctxt "EXIF: autofocus - distance range"
 msgid "Macro"
 msgstr "微距"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editSubjectDistanceRange)
-#: plugins/extensions/metadataeditor/editors/exif.ui:478
+#: plugins/extensions/metadataeditor/editors/exif.ui:400
 #, kde-format
 msgctxt "EXIF: autofocus - distance range"
 msgid "Close view"
 msgstr "近景"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editSubjectDistanceRange)
-#: plugins/extensions/metadataeditor/editors/exif.ui:483
+#: plugins/extensions/metadataeditor/editors/exif.ui:405
 #, kde-format
 msgctxt "EXIF: autofocus - distance range"
 msgid "Distant view"
 msgstr "遠景"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_6)
-#: plugins/extensions/metadataeditor/editors/exif.ui:507
+#: plugins/extensions/metadataeditor/editors/exif.ui:414
 #, kde-format
 msgctxt "EXIF"
 msgid "Flash"
 msgstr "閃光燈"
 
 #. i18n: ectx: property (text), widget (QCheckBox, editFlashFired)
-#: plugins/extensions/metadataeditor/editors/exif.ui:515
+#: plugins/extensions/metadataeditor/editors/exif.ui:420
 #, kde-format
 msgctxt "EXIF: flash"
 msgid "Fired"
 msgstr "激發數"
 
 #. i18n: ectx: property (text), widget (QLabel, label_22)
-#: plugins/extensions/metadataeditor/editors/exif.ui:522
+#: plugins/extensions/metadataeditor/editors/exif.ui:427
 #, kde-format
 msgctxt "EXIF: flash"
 msgid "Stro&be return:"
 msgstr "頻閃回報(&B)："
 
-#. i18n: ectx: property (text), item, widget (QComboBox, editStrobeReturn)
-#: plugins/extensions/metadataeditor/editors/exif.ui:536
+#. i18n: ectx: property (text), item, widget (QComboBox, editFlashStrobeReturn)
+#: plugins/extensions/metadataeditor/editors/exif.ui:438
 #, kde-format
 msgctxt "EXIF: flash - strobe return"
 msgid "No strobe return detection"
 msgstr "無頻閃回報檢測"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, editStrobeReturn)
-#: plugins/extensions/metadataeditor/editors/exif.ui:541
+#. i18n: ectx: property (text), item, widget (QComboBox, editFlashStrobeReturn)
+#: plugins/extensions/metadataeditor/editors/exif.ui:443
 #, kde-format
 msgctxt "EXIF: flash - strobe return"
 msgid "Undefined"
 msgstr "未定義"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, editStrobeReturn)
-#: plugins/extensions/metadataeditor/editors/exif.ui:546
+#. i18n: ectx: property (text), item, widget (QComboBox, editFlashStrobeReturn)
+#: plugins/extensions/metadataeditor/editors/exif.ui:448
 #, kde-format
 msgctxt "EXIF: flash - strobe return"
 msgid "No strobe return light detected"
 msgstr "沒有檢測到無頻閃回報光"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, editStrobeReturn)
-#: plugins/extensions/metadataeditor/editors/exif.ui:551
+#. i18n: ectx: property (text), item, widget (QComboBox, editFlashStrobeReturn)
+#: plugins/extensions/metadataeditor/editors/exif.ui:453
 #, kde-format
 msgctxt "EXIF: flash - strobe return"
 msgid "Strobe return light detected"
 msgstr "已檢測到頻閃回報光"
 
 #. i18n: ectx: property (text), widget (QLabel, label_21)
-#: plugins/extensions/metadataeditor/editors/exif.ui:559
+#: plugins/extensions/metadataeditor/editors/exif.ui:461
 #, kde-format
 msgctxt "EXIF: flash"
 msgid "Mode:"
 msgstr "模式："
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editFlashMode)
-#: plugins/extensions/metadataeditor/editors/exif.ui:573
+#: plugins/extensions/metadataeditor/editors/exif.ui:472
 #, kde-format
 msgctxt "EXIF: flash - mode"
 msgid "Unknown"
 msgstr "未知"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editFlashMode)
-#: plugins/extensions/metadataeditor/editors/exif.ui:578
+#: plugins/extensions/metadataeditor/editors/exif.ui:477
 #, kde-format
 msgctxt "EXIF: flash - mode"
 msgid "Compulsory flash fired"
 msgstr "強制閃光燈"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editFlashMode)
-#: plugins/extensions/metadataeditor/editors/exif.ui:583
+#: plugins/extensions/metadataeditor/editors/exif.ui:482
 #, kde-format
 msgctxt "EXIF: flash - mode"
 msgid "Compulsory flash suppression"
 msgstr "強制閃光抑制"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editFlashMode)
-#: plugins/extensions/metadataeditor/editors/exif.ui:588
+#: plugins/extensions/metadataeditor/editors/exif.ui:487
 #, kde-format
 msgctxt "EXIF: flash - mode"
 msgid "Auto mode"
 msgstr "自動模式"
 
 #. i18n: ectx: property (text), widget (QCheckBox, editFlashFunction)
-#: plugins/extensions/metadataeditor/editors/exif.ui:596
+#: plugins/extensions/metadataeditor/editors/exif.ui:495
 #, kde-format
 msgctxt "EXIF: flash"
 msgid "Function"
 msgstr "功能"
 
 #. i18n: ectx: property (text), widget (QCheckBox, editFlashRedEyeMode)
-#: plugins/extensions/metadataeditor/editors/exif.ui:603
+#: plugins/extensions/metadataeditor/editors/exif.ui:502
 #, kde-format
 msgctxt "EXIF: flash"
 msgid "Red-eye removal"
 msgstr "去除紅眼"
 
 #. i18n: ectx: property (text), widget (QLabel, label_23)
-#: plugins/extensions/metadataeditor/editors/exif.ui:610
+#: plugins/extensions/metadataeditor/editors/exif.ui:509
 #, kde-format
 msgctxt "EXIF: flash"
 msgid "Flash ener&gy:"
 msgstr "閃光能量(&G)："
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_5)
-#: plugins/extensions/metadataeditor/editors/exif.ui:642
+#: plugins/extensions/metadataeditor/editors/exif.ui:523
 #, kde-format
 msgctxt "EXIF"
 msgid "Postprocessing"
 msgstr "後期處理"
 
 #. i18n: ectx: property (text), widget (QLabel, label_13)
-#: plugins/extensions/metadataeditor/editors/exif.ui:650
+#: plugins/extensions/metadataeditor/editors/exif.ui:529
 #, kde-format
 msgctxt "EXIF: postprocessing"
 msgid "&Gain control:"
 msgstr "增益控制(&G)："
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editGainControl)
-#: plugins/extensions/metadataeditor/editors/exif.ui:670
+#: plugins/extensions/metadataeditor/editors/exif.ui:546
 #, kde-format
 msgctxt "EXIF: postprocessing - gain control"
 msgid "None"
 msgstr "無"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editGainControl)
-#: plugins/extensions/metadataeditor/editors/exif.ui:675
+#: plugins/extensions/metadataeditor/editors/exif.ui:551
 #, kde-format
 msgctxt "EXIF: postprocessing - gain control"
 msgid "Low gain up"
 msgstr "低增益上調"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editGainControl)
-#: plugins/extensions/metadataeditor/editors/exif.ui:680
+#: plugins/extensions/metadataeditor/editors/exif.ui:556
 #, kde-format
 msgctxt "EXIF: postprocessing - gain control"
 msgid "High gain up"
 msgstr "高增益上調"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editGainControl)
-#: plugins/extensions/metadataeditor/editors/exif.ui:685
+#: plugins/extensions/metadataeditor/editors/exif.ui:561
 #, kde-format
 msgctxt "EXIF: postprocessing - gain control"
 msgid "Low gain down"
 msgstr "低增益下調"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editGainControl)
-#: plugins/extensions/metadataeditor/editors/exif.ui:690
+#: plugins/extensions/metadataeditor/editors/exif.ui:566
 #, kde-format
 msgctxt "EXIF: postprocessing - gain control"
 msgid "High gain down"
 msgstr "高增益下調"
 
 #. i18n: ectx: property (text), widget (QLabel, label_15)
-#: plugins/extensions/metadataeditor/editors/exif.ui:698
+#: plugins/extensions/metadataeditor/editors/exif.ui:574
 #, kde-format
 msgctxt "EXIF: postprocessing"
 msgid "L&ight source:"
 msgstr "光源(&I)："
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editLightSource)
-#: plugins/extensions/metadataeditor/editors/exif.ui:712
+#: plugins/extensions/metadataeditor/editors/exif.ui:585
 #, kde-format
 msgctxt "EXIF: postprocessing - light source"
 msgid "Unknown"
 msgstr "未知"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editLightSource)
-#: plugins/extensions/metadataeditor/editors/exif.ui:717
+#: plugins/extensions/metadataeditor/editors/exif.ui:590
 #, kde-format
 msgctxt "EXIF: postprocessing - light source"
 msgid "Daylight"
 msgstr "日光"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editLightSource)
-#: plugins/extensions/metadataeditor/editors/exif.ui:722
+#: plugins/extensions/metadataeditor/editors/exif.ui:595
 #, kde-format
 msgctxt "EXIF: postprocessing - light source"
 msgid "Fluorescent"
 msgstr "螢光燈"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editLightSource)
-#: plugins/extensions/metadataeditor/editors/exif.ui:727
+#: plugins/extensions/metadataeditor/editors/exif.ui:600
 #, kde-format
 msgctxt "EXIF: postprocessing - light source"
 msgid "Tungsten"
 msgstr "鎢絲燈"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editLightSource)
-#: plugins/extensions/metadataeditor/editors/exif.ui:732
+#: plugins/extensions/metadataeditor/editors/exif.ui:605
 #, kde-format
 msgctxt "EXIF: postprocessing - light source"
 msgid "Flash"
 msgstr "閃光燈"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editLightSource)
-#: plugins/extensions/metadataeditor/editors/exif.ui:737
-#: plugins/extensions/metadataeditor/editors/exif.ui:742
-#: plugins/extensions/metadataeditor/editors/exif.ui:747
-#: plugins/extensions/metadataeditor/editors/exif.ui:752
-#: plugins/extensions/metadataeditor/editors/exif.ui:792
+#: plugins/extensions/metadataeditor/editors/exif.ui:610
+#: plugins/extensions/metadataeditor/editors/exif.ui:615
+#: plugins/extensions/metadataeditor/editors/exif.ui:620
+#: plugins/extensions/metadataeditor/editors/exif.ui:625
+#: plugins/extensions/metadataeditor/editors/exif.ui:665
 #, kde-format
 msgctxt "EXIF: postprocessing - light source"
 msgid "Undefined"
 msgstr "未定義"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editLightSource)
-#: plugins/extensions/metadataeditor/editors/exif.ui:757
+#: plugins/extensions/metadataeditor/editors/exif.ui:630
 #, kde-format
 msgctxt "EXIF: postprocessing - light source"
 msgid "Fine weather"
 msgstr "晴天"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editLightSource)
-#: plugins/extensions/metadataeditor/editors/exif.ui:762
+#: plugins/extensions/metadataeditor/editors/exif.ui:635
 #, kde-format
 msgctxt "EXIF: postprocessing - light source"
 msgid "Cloudy weather"
 msgstr "陰天"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editLightSource)
-#: plugins/extensions/metadataeditor/editors/exif.ui:767
+#: plugins/extensions/metadataeditor/editors/exif.ui:640
 #, kde-format
 msgctxt "EXIF: postprocessing - light source"
 msgid "Shade"
 msgstr "陰影"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editLightSource)
-#: plugins/extensions/metadataeditor/editors/exif.ui:772
+#: plugins/extensions/metadataeditor/editors/exif.ui:645
 #, kde-format
 msgctxt "EXIF: postprocessing - light source"
 msgid "Daylight fluorescent (D5700 - 7100K)"
 msgstr "日光螢光 (D5700 - 7100K)"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editLightSource)
-#: plugins/extensions/metadataeditor/editors/exif.ui:777
+#: plugins/extensions/metadataeditor/editors/exif.ui:650
 #, kde-format
 msgctxt "EXIF: postprocessing - light source"
 msgid "Day white fluorescent (N4600 - 5400K)"
 msgstr "白晝螢光 (N4600 - 5400K)"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editLightSource)
-#: plugins/extensions/metadataeditor/editors/exif.ui:782
+#: plugins/extensions/metadataeditor/editors/exif.ui:655
 #, kde-format
 msgctxt "EXIF: postprocessing - light source"
 msgid "Cool white fluorescent (W3900 - 4500K)"
 msgstr "冷白色螢光 (W3900 - 4500K)"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editLightSource)
-#: plugins/extensions/metadataeditor/editors/exif.ui:787
+#: plugins/extensions/metadataeditor/editors/exif.ui:660
 #, kde-format
 msgctxt "EXIF: postprocessing - light source"
 msgid "White fluorescent (WW 3200 - 3700K)"
 msgstr "白色螢光 (WW 3200 - 3700K)"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editLightSource)
-#: plugins/extensions/metadataeditor/editors/exif.ui:797
+#: plugins/extensions/metadataeditor/editors/exif.ui:670
 #, kde-format
 msgctxt "EXIF: postprocessing - light source"
 msgid "Standard light A"
 msgstr "標準光 A"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editLightSource)
-#: plugins/extensions/metadataeditor/editors/exif.ui:802
+#: plugins/extensions/metadataeditor/editors/exif.ui:675
 #, kde-format
 msgctxt "EXIF: postprocessing - light source"
 msgid "Standard light B"
 msgstr "標準光 B"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editLightSource)
-#: plugins/extensions/metadataeditor/editors/exif.ui:807
+#: plugins/extensions/metadataeditor/editors/exif.ui:680
 #, kde-format
 msgctxt "EXIF: postprocessing - light source"
 msgid "Standard light C"
 msgstr "標準光 C"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editLightSource)
-#: plugins/extensions/metadataeditor/editors/exif.ui:812
+#: plugins/extensions/metadataeditor/editors/exif.ui:685
 #, kde-format
 msgctxt "EXIF: postprocessing - light source"
 msgid "D55"
 msgstr "D55"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editLightSource)
-#: plugins/extensions/metadataeditor/editors/exif.ui:817
+#: plugins/extensions/metadataeditor/editors/exif.ui:690
 #, kde-format
 msgctxt "EXIF: postprocessing - light source"
 msgid "D65"
 msgstr "D65"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editLightSource)
-#: plugins/extensions/metadataeditor/editors/exif.ui:822
+#: plugins/extensions/metadataeditor/editors/exif.ui:695
 #, kde-format
 msgctxt "EXIF: postprocessing - light source"
 msgid "D75"
 msgstr "D75"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editLightSource)
-#: plugins/extensions/metadataeditor/editors/exif.ui:827
+#: plugins/extensions/metadataeditor/editors/exif.ui:700
 #, kde-format
 msgctxt "EXIF: postprocessing - light source"
 msgid "D50"
 msgstr "D50"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editLightSource)
-#: plugins/extensions/metadataeditor/editors/exif.ui:832
+#: plugins/extensions/metadataeditor/editors/exif.ui:705
 #, kde-format
 msgctxt "EXIF: postprocessing - light source"
 msgid "ISO studio tungsten"
 msgstr "ISO 標準作業室鎢絲燈"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editLightSource)
-#: plugins/extensions/metadataeditor/editors/exif.ui:837
+#: plugins/extensions/metadataeditor/editors/exif.ui:710
 #, kde-format
 msgctxt "EXIF: postprocessing - light source"
 msgid "other"
 msgstr "其他"
 
 #. i18n: ectx: property (text), widget (QLabel, label_18)
-#: plugins/extensions/metadataeditor/editors/exif.ui:845
+#: plugins/extensions/metadataeditor/editors/exif.ui:718
 #, kde-format
 msgctxt "EXIF: postprocessing"
 msgid "Sharpness:"
 msgstr "銳度："
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editSharpness)
-#: plugins/extensions/metadataeditor/editors/exif.ui:859
+#: plugins/extensions/metadataeditor/editors/exif.ui:729
 #, kde-format
 msgctxt "EXIF: postprocessing - sharpness"
 msgid "Normal"
 msgstr "正常"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editSharpness)
-#: plugins/extensions/metadataeditor/editors/exif.ui:864
+#: plugins/extensions/metadataeditor/editors/exif.ui:734
 #, kde-format
 msgctxt "EXIF: postprocessing - sharpness"
 msgid "Soft"
 msgstr "柔和"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editSharpness)
-#: plugins/extensions/metadataeditor/editors/exif.ui:869
+#: plugins/extensions/metadataeditor/editors/exif.ui:739
 #, kde-format
 msgctxt "EXIF: postprocessing - sharpness"
 msgid "Hard"
 msgstr "硬邊"
 
 #. i18n: ectx: property (text), widget (QLabel, label_20)
-#: plugins/extensions/metadataeditor/editors/exif.ui:877
+#: plugins/extensions/metadataeditor/editors/exif.ui:747
 #, kde-format
 msgctxt "EXIF: postprocessing"
 msgid "Contrast:"
 msgstr "對比度："
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editContrast)
-#: plugins/extensions/metadataeditor/editors/exif.ui:891
+#: plugins/extensions/metadataeditor/editors/exif.ui:758
 #, kde-format
 msgctxt "EXIF: postprocessing - contrast"
 msgid "Normal"
 msgstr "正常"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editContrast)
-#: plugins/extensions/metadataeditor/editors/exif.ui:896
+#: plugins/extensions/metadataeditor/editors/exif.ui:763
 #, kde-format
 msgctxt "EXIF: postprocessing - contrast"
 msgid "Soft"
 msgstr "柔和"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editContrast)
-#: plugins/extensions/metadataeditor/editors/exif.ui:901
+#: plugins/extensions/metadataeditor/editors/exif.ui:768
 #, kde-format
 msgctxt "EXIF: postprocessing - contrast"
 msgid "Hard"
 msgstr "硬邊"
 
 #. i18n: ectx: property (text), widget (QLabel, label_28)
-#: plugins/extensions/metadataeditor/editors/exif.ui:909
+#: plugins/extensions/metadataeditor/editors/exif.ui:776
 #, kde-format
 msgctxt "EXIF: postprocessing"
 msgid "White &balance:"
 msgstr "白平衡(&B)："
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editWhiteBalance)
-#: plugins/extensions/metadataeditor/editors/exif.ui:923
+#: plugins/extensions/metadataeditor/editors/exif.ui:787
 #, kde-format
 msgctxt "EXIF: postprocessing - whitebalance"
 msgid "Auto"
 msgstr "自動"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editWhiteBalance)
-#: plugins/extensions/metadataeditor/editors/exif.ui:928
+#: plugins/extensions/metadataeditor/editors/exif.ui:792
 #, kde-format
 msgctxt "EXIF: postprocessing - whitebalance"
 msgid "Custom"
 msgstr "自訂"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_4)
-#: plugins/extensions/metadataeditor/editors/exif.ui:952
+#: plugins/extensions/metadataeditor/editors/exif.ui:801
 #, kde-format
 msgctxt "EXIF"
 msgid "Misc"
 msgstr "其他"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: plugins/extensions/metadataeditor/editors/exif.ui:960
+#: plugins/extensions/metadataeditor/editors/exif.ui:807
 #, kde-format
 msgctxt "EXIF: misc"
 msgid "Scene capture t&ype:"
 msgstr "取景類型(&Y)："
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editSceneCaptureType)
-#: plugins/extensions/metadataeditor/editors/exif.ui:974
+#: plugins/extensions/metadataeditor/editors/exif.ui:818
 #, kde-format
 msgctxt "EXIF: misc - scene capture type"
 msgid "Standard"
 msgstr "標準"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editSceneCaptureType)
-#: plugins/extensions/metadataeditor/editors/exif.ui:979
+#: plugins/extensions/metadataeditor/editors/exif.ui:823
 #, kde-format
 msgctxt "EXIF: misc - scene capture type (Photos of landscapes)"
 msgid "Landscape"
 msgstr "風景"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editSceneCaptureType)
-#: plugins/extensions/metadataeditor/editors/exif.ui:984
+#: plugins/extensions/metadataeditor/editors/exif.ui:828
 #, kde-format
 msgctxt "EXIF: misc - scene capture type (Photos of people)"
 msgid "Portrait"
 msgstr "人像"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editSceneCaptureType)
-#: plugins/extensions/metadataeditor/editors/exif.ui:989
+#: plugins/extensions/metadataeditor/editors/exif.ui:833
 #, kde-format
 msgctxt "EXIF: misc - scene capture type"
 msgid "Night scene"
 msgstr "夜景"
 
 #. i18n: ectx: property (text), widget (QLabel, label_19)
-#: plugins/extensions/metadataeditor/editors/exif.ui:997
+#: plugins/extensions/metadataeditor/editors/exif.ui:841
 #, kde-format
 msgctxt "EXIF: misc"
 msgid "Ma&ker:"
 msgstr "製造商(&K)："
 
 #. i18n: ectx: property (text), widget (QLabel, label_26)
-#: plugins/extensions/metadataeditor/editors/exif.ui:1013
+#: plugins/extensions/metadataeditor/editors/exif.ui:854
 #, kde-format
 msgctxt "EXIF: misc (model name or model number)"
 msgid "Model:"
 msgstr "型號："
 
 #. i18n: ectx: property (text), widget (QLabel, label_27)
-#: plugins/extensions/metadataeditor/editors/exif.ui:1029
+#: plugins/extensions/metadataeditor/editors/exif.ui:867
 #, kde-format
 msgctxt "EXIF: misc"
 msgid "Sens&ing method type:"
 msgstr "感光方式類型(&I)："
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editSensingMethod)
-#: plugins/extensions/metadataeditor/editors/exif.ui:1043
-#: plugins/extensions/metadataeditor/editors/exif.ui:1048
+#: plugins/extensions/metadataeditor/editors/exif.ui:878
+#: plugins/extensions/metadataeditor/editors/exif.ui:883
 #, kde-format
 msgctxt "EXIF: misc - sensing method type"
 msgid "Not Defined"
 msgstr "未定義"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editSensingMethod)
-#: plugins/extensions/metadataeditor/editors/exif.ui:1053
+#: plugins/extensions/metadataeditor/editors/exif.ui:888
 #, kde-format
 msgctxt "EXIF: misc - sensing method type"
 msgid "One-chip color area sensor"
 msgstr "單晶片色彩區域感測器"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editSensingMethod)
-#: plugins/extensions/metadataeditor/editors/exif.ui:1058
+#: plugins/extensions/metadataeditor/editors/exif.ui:893
 #, kde-format
 msgctxt "EXIF: misc - sensing method type"
 msgid "Two-chip color area sensor"
 msgstr "雙晶片色彩區域感測器"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editSensingMethod)
-#: plugins/extensions/metadataeditor/editors/exif.ui:1063
+#: plugins/extensions/metadataeditor/editors/exif.ui:898
 #, kde-format
 msgctxt "EXIF: misc - sensing method type"
 msgid "Three-chip color area sensor"
 msgstr "三晶片色彩區域感測器"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editSensingMethod)
-#: plugins/extensions/metadataeditor/editors/exif.ui:1068
+#: plugins/extensions/metadataeditor/editors/exif.ui:903
 #, kde-format
 msgctxt "EXIF: misc - sensing method type"
 msgid "Color sequential area sensor"
 msgstr "色序區域感測器"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editSensingMethod)
-#: plugins/extensions/metadataeditor/editors/exif.ui:1073
+#: plugins/extensions/metadataeditor/editors/exif.ui:908
 #, kde-format
 msgctxt "EXIF: misc - sensing method type"
 msgid "Trilinear sensor"
 msgstr "三線性感測器"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editSensingMethod)
-#: plugins/extensions/metadataeditor/editors/exif.ui:1078
+#: plugins/extensions/metadataeditor/editors/exif.ui:913
 #, kde-format
 msgctxt "EXIF: misc - sensing method type"
 msgid "Color sequential linear sensor"
 msgstr "色序線性感測器"
 
-#. i18n: tag MetaDataEditor attribute name
-#: plugins/extensions/metadataeditor/editors/exif.xmlgui:2
-#, kde-format
-msgctxt "metadata editor page"
-msgid "Exif"
-msgstr "Exif"
+#: plugins/extensions/metadataeditor/kis_meta_data_editor.cc:95
+#, fuzzy, kde-format
+#| msgctxt "metadata editor page"
+#| msgid "Dublin Core"
+msgid "Dublin Core"
+msgstr "都柏林核心"
 
-#: plugins/extensions/metadataeditor/kis_meta_data_editor.cc:128
+#: plugins/extensions/metadataeditor/kis_meta_data_editor.cc:172
 #, kde-format
 msgid "List"
 msgstr "列表"
@@ -38438,13 +38456,13 @@ msgstr ""
 msgid "Python Plugin Manager"
 msgstr "Python 外掛程式管理器"
 
-#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:119
+#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:129
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Unable to find the module specified <application>%1</application>"
 msgstr "無法找到指定的 <application>%1</application> 模組"
 
-#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:142
+#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:152
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -38454,13 +38472,13 @@ msgstr ""
 "<p>指定版本的外掛程式包含對於下述依賴程式無效的格式 <application>%1</"
 "application>：<icode>%2</icode>。已跳過</p>"
 
-#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:169
+#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:179
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "<title>Dependency check</title>"
 msgstr "<title>依賴程式檢查</title>"
 
-#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:200
+#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:210
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -38472,13 +38490,13 @@ msgstr ""
 "PEP396 <code>__version__</code> 屬性。此模組未停用，但無法保證能按照預期運"
 "作。</p>"
 
-#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:214
+#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:224
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "<p><application>%1</application>: Unexpected module's version format"
 msgstr "<p><application>%1</application>：未知的模組版本格式"
 
-#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:227
+#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:237
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -38488,20 +38506,20 @@ msgstr ""
 "<p><application>%1</application>：未找到合適的版本。需要的版本是 %2 %3，但只"
 "找到了 %4</p>"
 
-#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:242
+#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:252
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
 "<p>Failure on module load <application>%1</application>:</p><pre>%2</pre>"
 msgstr "<p>載入模組 <application>%1</application> 失敗：</p><pre>%2</pre>"
 
-#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:349
+#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:360
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Internal engine failure"
 msgstr "內部引擎錯誤"
 
-#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:353
+#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:364
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Module not loaded:<br/>%1"
@@ -53856,6 +53874,10 @@ msgstr "縮放工具"
 msgctxt "action"
 msgid "Reference Images Tool"
 msgstr "參考圖工具"
+
+#~ msgctxt "metadata editor page"
+#~ msgid "Exif"
+#~ msgstr "Exif"
 
 #~ msgid "No store backend"
 #~ msgstr "無資料存儲後端程式"
