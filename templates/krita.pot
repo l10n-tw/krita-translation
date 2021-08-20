@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-19 00:15+0000\n"
+"POT-Creation-Date: 2021-08-20 00:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -17366,7 +17366,7 @@ msgstr ""
 #: libs/ui/KisPart.cpp:555 libs/ui/KisPart.cpp:558 libs/ui/KisReferenceImage.cpp:178
 #: libs/ui/KisRemoteFileFetcher.cpp:42 libs/ui/KisTemplateCreateDia.cpp:284
 #: libs/ui/KisTemplateCreateDia.cpp:390 libs/ui/KisView.cpp:670
-#: libs/ui/KisWelcomePageWidget.cpp:691 libs/ui/opengl/kis_opengl_canvas2.cpp:410
+#: libs/ui/KisWelcomePageWidget.cpp:692 libs/ui/opengl/kis_opengl_canvas2.cpp:410
 #: libs/ui/utils/KisClipboardUtil.cpp:130
 #: libs/ui/widgets/gradient/KisGradientChooser.cpp:534
 #: libs/ui/widgets/kis_custom_image_widget.cc:299
@@ -17385,7 +17385,7 @@ msgstr ""
 #: plugins/extensions/imagesplit/imagesplit.cpp:76
 #: plugins/extensions/qmic/kis_qmic_interface.cpp:137
 #: plugins/extensions/qmic/kis_qmic_interface.cpp:208
-#: plugins/extensions/qmic/QMic.cpp:52 plugins/extensions/qmic/QMic.cpp:78
+#: plugins/extensions/qmic/QMic.cpp:54 plugins/extensions/qmic/QMic.cpp:80
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:184
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:189
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:268
@@ -21117,7 +21117,7 @@ msgid "Start"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, devBuildLabel)
-#: libs/ui/forms/KisWelcomePage.ui:1340 libs/ui/KisWelcomePageWidget.cpp:605
+#: libs/ui/forms/KisWelcomePage.ui:1340 libs/ui/KisWelcomePageWidget.cpp:606
 #, kde-format
 msgid "DEV BUILD"
 msgstr ""
@@ -27562,17 +27562,17 @@ msgstr ""
 msgid "Get your Krita Supporter Badge here!"
 msgstr ""
 
-#: libs/ui/KisWelcomePageWidget.cpp:710
+#: libs/ui/KisWelcomePageWidget.cpp:711
 #, kde-format
 msgid "New version of Krita is available."
 msgstr ""
 
-#: libs/ui/KisWelcomePageWidget.cpp:740
+#: libs/ui/KisWelcomePageWidget.cpp:741
 #, kde-format
 msgid "An error occurred during the update"
 msgstr ""
 
-#: libs/ui/KisWelcomePageWidget.cpp:749
+#: libs/ui/KisWelcomePageWidget.cpp:750
 #, kde-format
 msgid "Restart is required."
 msgstr ""
@@ -37800,12 +37800,12 @@ msgstr ""
 msgid "G'Mic failed, reason:"
 msgstr ""
 
-#: plugins/extensions/qmic/QMic.cpp:52
+#: plugins/extensions/qmic/QMic.cpp:54
 #, kde-format
 msgid "The GMic plugin is not installed or could not be loaded."
 msgstr ""
 
-#: plugins/extensions/qmic/QMic.cpp:78
+#: plugins/extensions/qmic/QMic.cpp:80
 #, kde-format
 msgid "Krita cannot launch the gmic-qt plugin. No bundled library found."
 msgstr ""
