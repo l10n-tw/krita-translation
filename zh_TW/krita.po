@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-20 00:18+0000\n"
+"POT-Creation-Date: 2021-08-23 00:16+0000\n"
 "PO-Revision-Date: 2021-08-23 06:54+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
@@ -18448,7 +18448,9 @@ msgctxt "video importer: video file statistics"
 msgid ""
 "*<font size='0.5em'><em>*FPS not right in file. Modified to see full "
 "duration</em></font>"
-msgstr "*<font size='0.5em'><em>*檔案中的每秒影格數不正確。已修改以符合完整時長</em></font>"
+msgstr ""
+"*<font size='0.5em'><em>*檔案中的每秒影格數不正確。已修改以符合完整時長</"
+"em></font>"
 
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:468
 #, kde-format
@@ -19666,8 +19668,9 @@ msgid ""
 "animated gif images cannot have a framerate higher than 50. The framerate "
 "will be reduced to 50 frames per second.</p></body></html>"
 msgstr ""
-"<html><head/><body><p><span style=\" font-weight:600;\">警告：</span>GIF "
-"動畫影像的影格速率不能超過 50，因此影格速率將被降低到每秒 50 影格。</p></body></html>"
+"<html><head/><body><p><span style=\" font-weight:600;\">警告：</span>GIF 動畫"
+"影像的影格速率不能超過 50，因此影格速率將被降低到每秒 50 影格。</p></body></"
+"html>"
 
 #. i18n: ectx: property (text), widget (QLabel, lblGifWarningFFMpeg)
 #: libs/ui/animation/wdg_animationrenderer.ui:335
@@ -21418,7 +21421,7 @@ msgstr "總計編輯時長(&M)："
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: libs/ui/forms/koDocumentInfoAboutWidget.ui:151
 #: libs/ui/forms/wdgmetadatamergestrategychooser.ui:53
-#: plugins/extensions/metadataeditor/editors/dublincore.ui:93
+#: plugins/extensions/metadataeditor/editors/dublincore.ui:90
 #: plugins/extensions/pykrita/plugin/info.ui:48
 #: plugins/extensions/resourcemanager/wdgdlgcreatebundle.ui:243
 #, kde-format
@@ -21480,7 +21483,7 @@ msgstr "縮寫："
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #: libs/ui/forms/koDocumentInfoAuthorWidget.ui:89
-#: plugins/extensions/metadataeditor/editors/dublincore.ui:80
+#: plugins/extensions/metadataeditor/editors/dublincore.ui:77
 #: plugins/extensions/pykrita/plugin/info.ui:178
 #: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:322
 #, kde-format
@@ -27076,7 +27079,7 @@ msgstr "正在等待儲存完成…"
 
 #. i18n: ectx: property (text), widget (QCheckBox, exif)
 #: libs/ui/kisexiv2/kis_exif_io.h:24
-#: plugins/extensions/metadataeditor/kis_meta_data_editor.cc:160
+#: plugins/extensions/metadataeditor/kis_meta_data_editor.cc:162
 #: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:274
 #, kde-format
 msgid "Exif"
@@ -37192,12 +37195,6 @@ msgstr "版權："
 msgid "Date:"
 msgstr "日期："
 
-#. i18n: ectx: property (displayFormat), widget (QDateTimeEdit, date)
-#: plugins/extensions/metadataeditor/editors/dublincore.ui:70
-#, kde-format
-msgid "dd/MM/yyyy"
-msgstr "yyyy 年 MM 月 dd 日"
-
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
 #: plugins/extensions/metadataeditor/editors/exif.ui:31
 #, kde-format
@@ -38008,12 +38005,12 @@ msgctxt "EXIF: misc - sensing method type"
 msgid "Color sequential linear sensor"
 msgstr "色序線性感測器"
 
-#: plugins/extensions/metadataeditor/kis_meta_data_editor.cc:95
+#: plugins/extensions/metadataeditor/kis_meta_data_editor.cc:97
 #, kde-format
 msgid "Dublin Core"
 msgstr "都柏林核心"
 
-#: plugins/extensions/metadataeditor/kis_meta_data_editor.cc:172
+#: plugins/extensions/metadataeditor/kis_meta_data_editor.cc:174
 #, kde-format
 msgid "List"
 msgstr "列表"
@@ -53861,6 +53858,9 @@ msgstr "縮放工具"
 msgctxt "action"
 msgid "Reference Images Tool"
 msgstr "參考圖工具"
+
+#~ msgid "dd/MM/yyyy"
+#~ msgstr "yyyy 年 MM 月 dd 日"
 
 #~ msgctxt "metadata editor page"
 #~ msgid "Exif"
