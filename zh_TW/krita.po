@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-08-20 00:18+0000\n"
-"PO-Revision-Date: 2021-08-19 07:29+0000\n"
+"PO-Revision-Date: 2021-08-23 06:54+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -18440,7 +18440,7 @@ msgstr "影格數：%1"
 #, kde-format
 msgctxt "video importer: video file statistics"
 msgid "FPS: %1"
-msgstr "影格速率：%1"
+msgstr "每秒影格數：%1"
 
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:369
 #, kde-format
@@ -18448,9 +18448,7 @@ msgctxt "video importer: video file statistics"
 msgid ""
 "*<font size='0.5em'><em>*FPS not right in file. Modified to see full "
 "duration</em></font>"
-msgstr ""
-"*<font size='0.5em'><em>*檔案中的影格速率不正確。請修改以查看完整時長</em></"
-"font>"
+msgstr "*<font size='0.5em'><em>*檔案中的每秒影格數不正確。已修改以符合完整時長</em></font>"
 
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:468
 #, kde-format
@@ -18567,7 +18565,7 @@ msgstr "正在建立目標 %1 檔案：%2 個影格 (共 %3 個)。"
 #: libs/ui/animation/video_export_options_dialog.ui:82
 #, kde-format
 msgid "Constant Rate Factor:"
-msgstr "恆定速率因子："
+msgstr "恆定速率因子 (CRF)："
 
 #. i18n: ectx: property (text), widget (QLabel, lblPresetH264)
 #. i18n: ectx: property (text), widget (QLabel, lblPresetH265)
@@ -19405,7 +19403,7 @@ msgstr "匯入選項"
 #: libs/ui/animation/wdg_animationrenderer.ui:108
 #, kde-format
 msgid "FPS:"
-msgstr "影格速率："
+msgstr "FPS："
 
 #. i18n: ectx: property (text), widget (QLabel, startExportingAtLabel)
 #: libs/ui/animation/VideoImportDialog.ui:379
@@ -19668,9 +19666,8 @@ msgid ""
 "animated gif images cannot have a framerate higher than 50. The framerate "
 "will be reduced to 50 frames per second.</p></body></html>"
 msgstr ""
-"<html><head/><body><p><span style=\" font-weight:600;\">警告：</span>GIF 動畫"
-"影像的影格速率不能超過 50，因此影格速率將被降低到每秒 50 影格。</p></body></"
-"html>"
+"<html><head/><body><p><span style=\" font-weight:600;\">警告：</span>GIF "
+"動畫影像的影格速率不能超過 50，因此影格速率將被降低到每秒 50 影格。</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, lblGifWarningFFMpeg)
 #: libs/ui/animation/wdg_animationrenderer.ui:335
@@ -20227,7 +20224,7 @@ msgstr "匯入影像"
 #: libs/ui/dialogs/kis_dlg_import_image_sequence.cpp:160
 #, kde-format
 msgid "Source fps: %1"
-msgstr "源影格速率：%1"
+msgstr "源 FPS：%1"
 
 #: libs/ui/dialogs/kis_dlg_layer_properties.cc:78
 #, kde-format
@@ -23205,7 +23202,7 @@ msgstr "影像之間的影格數"
 #: libs/ui/forms/wdgimportimagesequence.ui:135
 #, kde-format
 msgid "Source FPS:"
-msgstr "源影格速率："
+msgstr "源 FPS："
 
 #. i18n: ectx: property (text), widget (QLabel, lblName)
 #: libs/ui/forms/wdglayerproperties.ui:28 libs/ui/forms/wdgnewimage.ui:634
@@ -23877,7 +23874,7 @@ msgstr ""
 #: libs/ui/forms/wdgperformancesettings.ui:346
 #, kde-format
 msgid "Limit frames per second while painting:"
-msgstr "繪畫模式影格速率限制："
+msgstr "繪畫模式每秒影格數限制："
 
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, sliderFpsLimit)
 #: libs/ui/forms/wdgperformancesettings.ui:359
@@ -34249,12 +34246,12 @@ msgstr "啟用以保持播放時間"
 #: plugins/dockers/animation/KisAnimTimelineDocker.cpp:446
 #, kde-format
 msgid "Effective FPS:\t%1"
-msgstr "有效影格速率：%1"
+msgstr "有效 FPS：%1"
 
 #: plugins/dockers/animation/KisAnimTimelineDocker.cpp:447
 #, kde-format
 msgid "Real FPS:\t%1"
-msgstr "真實影格速率：%1"
+msgstr "真實 FPS：%1"
 
 #: plugins/dockers/animation/KisAnimTimelineDocker.cpp:448
 #, kde-format
@@ -36037,7 +36034,7 @@ msgid ""
 "Depending on timelapse speed this may cause flickering in resulting video."
 msgstr ""
 "於啟用「單獨顯示使用中圖層」或「單獨顯示使用中群組」時錄影。\n"
-"在特定縮時影片速率設定下，有可能會導致輸出的影片出現閃爍現象。"
+"視乎縮時影片的速率設定，有可能會導致輸出的影片出現閃爍現象。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, checkBoxRecordIsolateMode)
 #: plugins/dockers/recorder/recorderdocker.ui:302
