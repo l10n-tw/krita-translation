@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-08-24 00:16+0000\n"
-"PO-Revision-Date: 2021-08-23 07:00+0000\n"
+"PO-Revision-Date: 2021-08-24 13:47+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.7.2\n"
+"X-Generator: Weblate 4.8\n"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
@@ -44352,31 +44352,27 @@ msgstr "浮點水平差分法"
 
 #. i18n: ectx: property (title), widget (QGroupBox, chkPhotoshop)
 #: plugins/impex/tiff/kis_wdg_options_tiff.ui:116
-#, fuzzy, kde-format
-#| msgid "Save layers to..."
+#, kde-format
 msgid "Save layers as Photoshop"
-msgstr "將圖層儲存至…"
+msgstr "將圖層儲存為 Photoshop 格式"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: plugins/impex/tiff/kis_wdg_options_tiff.ui:125
-#, fuzzy, kde-format
-#| msgid "Lossless compression"
+#, kde-format
 msgid "Layer compression"
-msgstr "無損壓縮"
+msgstr "圖層壓縮"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kComboBoxPSDCompressionType)
 #: plugins/impex/tiff/kis_wdg_options_tiff.ui:136
-#, fuzzy, kde-format
-#| msgctxt "Recording symbol"
-#| msgid "REC"
+#, kde-format
 msgid "RLE"
-msgstr "REC"
+msgstr "RLE"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kComboBoxPSDCompressionType)
 #: plugins/impex/tiff/kis_wdg_options_tiff.ui:141
 #, kde-format
 msgid "ZIP"
-msgstr ""
+msgstr "ZIP"
 
 #. i18n: ectx: property (text), widget (QCheckBox, alpha)
 #: plugins/impex/tiff/kis_wdg_options_tiff.ui:171
