@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-08-26 00:15+0000\n"
-"PO-Revision-Date: 2021-08-24 13:47+0000\n"
+"PO-Revision-Date: 2021-08-26 08:01+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -2038,7 +2038,7 @@ msgctxt ""
 "./krita/data/bundles/Krita_3_Default_Resources.bundle:paintoppresets/"
 "Clone_tool.kpp"
 msgid "Clone tool"
-msgstr "再製工具"
+msgstr "仿製工具"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
@@ -4515,7 +4515,7 @@ msgctxt ""
 "./krita/data/bundles/Krita_4_Default_Resources.bundle:paintoppresets/"
 "v)_Clone_Tool.kpp"
 msgid "v) Clone Tool"
-msgstr "再製工具"
+msgstr "仿製工具"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #. i18n: 'a)', 'b)' etc. in resource names are used to keep resources in a specific order when Krita sorts them alphabetically. The order will be kept only using the original/untranslated names
@@ -12460,12 +12460,10 @@ msgstr "鏡像顯示"
 #. i18n: context: Action (mirror_canvas_around_cursor), Actions (View), ActionCollection (Menu)
 #. i18n: context: Action (mirror_canvas_around_cursor), Actions (View), ActionCollection (Menu)
 #: krita/kritamenu.action:681 krita/kritamenu.action:683
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Mirror View"
+#, kde-format
 msgctxt "action"
 msgid "Mirror View Around Cursor"
-msgstr "鏡像顯示"
+msgstr "以游標為中心鏡像顯示"
 
 #. i18n: context: Action (zoom_to_100pct), Actions (View), ActionCollection (Menu)
 #: krita/kritamenu.action:691
@@ -19831,7 +19829,7 @@ msgstr "開啟"
 #, kde-format
 msgid ""
 "\"Mirror View Around Cursor\" only works while hovering over the viewport."
-msgstr ""
+msgstr "「以游標為中心鏡像顯示」需要游標位於畫布上才能運作。"
 
 #: libs/ui/canvas/kis_canvas_controller.cpp:211
 #, kde-format
@@ -26069,10 +26067,9 @@ msgid "Mirror View"
 msgstr "鏡像顯示"
 
 #: libs/ui/kis_mirror_manager.cpp:43
-#, fuzzy, kde-format
-#| msgid "Mirror View"
+#, kde-format
 msgid "Mirror View Around Cursor"
-msgstr "鏡像顯示"
+msgstr "以游標為中心鏡像顯示"
 
 #: libs/ui/kis_node_manager.cpp:449
 #, kde-format
@@ -27003,14 +27000,9 @@ msgid "Error during saving %1: %2"
 msgstr "儲存%1 時出錯： %2"
 
 #: libs/ui/KisDocument.cpp:861
-#, fuzzy, kde-format
-#| msgid ""
-#| "Could not save\n"
-#| "%1"
+#, kde-format
 msgid "Could not save %1"
-msgstr ""
-"無法儲存\n"
-"%1"
+msgstr "無法儲存 %1"
 
 #: libs/ui/KisDocument.cpp:864 plugins/extensions/imagesplit/imagesplit.cpp:76
 #, kde-format
@@ -45524,7 +45516,7 @@ msgstr "像素"
 #, kde-format
 msgctxt "clone paintbrush (previously \"Duplicate\")"
 msgid "Clone"
-msgstr "再製"
+msgstr "仿製"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbHealing)
 #: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings.cpp:197
@@ -45542,7 +45534,7 @@ msgstr "移動來源點"
 #, kde-format
 msgctxt "PaintOp instant preview limitation"
 msgid "Clone Brush (temporarily disabled)"
-msgstr "再製筆刷 (暫時停用)"
+msgstr "仿製筆刷 (暫時停用)"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, cbPerspective)
 #: plugins/paintops/defaultpaintops/duplicate/wdgduplicateop.ui:32
@@ -45562,7 +45554,7 @@ msgstr "校正透視"
 msgid ""
 "Move the clone origin with the brush. Uncheck to keep cloning from the "
 "selected point."
-msgstr "用筆刷移動再製來源點。取消勾選以保持選取的取樣點不變。"
+msgstr "用筆刷移動仿製來源點。取消勾選以保持選取的取樣點不變。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbSourcePoint)
 #: plugins/paintops/defaultpaintops/duplicate/wdgduplicateop.ui:45
@@ -45588,13 +45580,13 @@ msgstr "繪製新筆畫前重設來源點"
 msgid ""
 "When checked, clone from all visible layers. Otherwise, clone from the "
 "active layer."
-msgstr "勾選此項將再製全部可見圖層。否則只再製使用中圖層。"
+msgstr "勾選此項將仿製全部可見圖層。否則只仿製使用中圖層。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkCloneProjection)
 #: plugins/paintops/defaultpaintops/duplicate/wdgduplicateop.ui:71
 #, kde-format
 msgid "Clone From All Visible Layers"
-msgstr "再製全部可見圖層"
+msgstr "仿製全部可見圖層"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: plugins/paintops/defaultpaintops/duplicate/wdgduplicateop.ui:99
@@ -45605,9 +45597,8 @@ msgid ""
 "+Alt-click to select a source from the previously picked layer.</p></body></"
 "html>"
 msgstr ""
-"<html><head/><body><p><span style=\" font-weight:600;\">再製筆刷：</span></"
-"p><p>Ctrl + 點擊可在目前選定的圖層上取樣。Ctrl + Alt + 點擊則會從上一次選定的"
-"圖層中取樣。</p></body></html>"
+"<html><head/><body><p><span style=\" font-weight:600;\">仿製筆刷：</span></"
+"p><p>Ctrl + 點擊可在目前選定的圖層上取樣。Ctrl + Alt + 點擊則會從上一次選定的圖層中取樣。</p></body></html>"
 
 #: plugins/paintops/deform/deform_paintop_plugin.cpp:29
 #, kde-format
