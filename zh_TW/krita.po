@@ -45598,7 +45598,8 @@ msgid ""
 "html>"
 msgstr ""
 "<html><head/><body><p><span style=\" font-weight:600;\">仿製筆刷：</span></"
-"p><p>Ctrl + 點擊可在目前選定的圖層上取樣。Ctrl + Alt + 點擊則會從上一次選定的圖層中取樣。</p></body></html>"
+"p><p>Ctrl + 點擊可在目前選定的圖層上取樣。Ctrl + Alt + 點擊則會從上一次選定的"
+"圖層中取樣。</p></body></html>"
 
 #: plugins/paintops/deform/deform_paintop_plugin.cpp:29
 #, kde-format
