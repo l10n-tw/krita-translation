@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-26 00:15+0000\n"
+"POT-Creation-Date: 2021-08-27 00:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -15106,7 +15106,7 @@ msgstr ""
 msgid "Selection Mask"
 msgstr ""
 
-#: libs/image/kis_image.cc:686 libs/ui/KisDocument.cpp:2326
+#: libs/image/kis_image.cc:686 libs/ui/KisDocument.cpp:2328
 #: plugins/impex/psd/psd_loader.cpp:162 plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:69
 #: plugins/python/comics_project_management_tools/comics_template_dialog.py:302
 #, kde-format
@@ -15322,7 +15322,7 @@ msgid "Onion Skins"
 msgstr ""
 
 #: libs/image/kis_layer_properties_icons.cpp:27
-#: libs/resources/KisResourceModel.cpp:127
+#: libs/resources/KisResourceModel.cpp:128
 #: libs/resources/KisStorageModel.cpp:421
 #: libs/resourcewidgets/dbexplorer/DlgDbExplorer.cpp:72
 #, kde-format
@@ -17387,8 +17387,8 @@ msgstr ""
 #: libs/ui/KisApplication.cpp:891 libs/ui/KisApplication.cpp:907
 #: libs/ui/KisApplication.cpp:939 libs/ui/KisApplication.cpp:953
 #: libs/ui/KisApplication.cpp:981 libs/ui/KisDocument.cpp:861
-#: libs/ui/KisDocument.cpp:864 libs/ui/KisDocument.cpp:1708
-#: libs/ui/KisDocument.cpp:1749 libs/ui/KisDocument.cpp:1757
+#: libs/ui/KisDocument.cpp:864 libs/ui/KisDocument.cpp:1710
+#: libs/ui/KisDocument.cpp:1751 libs/ui/KisDocument.cpp:1759
 #: libs/ui/KisMainWindow.cpp:1090 libs/ui/KisMainWindow.cpp:1208
 #: libs/ui/KisMainWindow.cpp:1221 libs/ui/KisMainWindow.cpp:1319
 #: libs/ui/KisMainWindow.cpp:1922 libs/ui/KisMainWindow.cpp:1931
@@ -17457,72 +17457,72 @@ msgstr ""
 msgid "2. The resource location at %1 is not writable."
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:554
+#: libs/resources/KisResourceLocator.cpp:553
 #, kde-format
 msgid "Could not add %1 to the database"
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:575
-#: libs/resources/KisResourceLocator.cpp:900
+#: libs/resources/KisResourceLocator.cpp:574
+#: libs/resources/KisResourceLocator.cpp:899
 #, kde-format
 msgid "Could not remove storage %1 from the database"
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:689
+#: libs/resources/KisResourceLocator.cpp:688
 #, kde-format
 msgid ""
 "Krita is running for the first time. Initialization will take some time."
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:696
+#: libs/resources/KisResourceLocator.cpp:695
 #, kde-format
 msgid "3. Could not create the resource location at %1."
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:709
-#: libs/resources/KisResourceLocator.cpp:725
+#: libs/resources/KisResourceLocator.cpp:708
+#: libs/resources/KisResourceLocator.cpp:724
 #, kde-format
 msgid "Could not copy resource %1 to %2"
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:721
+#: libs/resources/KisResourceLocator.cpp:720
 #, kde-format
 msgid "Installing the resources from bundle %1."
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:743
+#: libs/resources/KisResourceLocator.cpp:742
 #, kde-format
 msgid "Initializing the resources."
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:757
+#: libs/resources/KisResourceLocator.cpp:756
 #, kde-format
 msgid "Could not add storage %1 to the cache database"
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:778
+#: libs/resources/KisResourceLocator.cpp:777
 #, kde-format
 msgid "Temporary Resources"
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:890
+#: libs/resources/KisResourceLocator.cpp:889
 #, kde-format
 msgid "Could not synchronize %1 with the database"
 msgstr ""
 
-#: libs/resources/KisResourceModel.cpp:109
+#: libs/resources/KisResourceModel.cpp:110
 #: libs/resources/KisStorageModel.cpp:411
 #: libs/resourcewidgets/dbexplorer/DlgDbExplorer.cpp:66
 #, kde-format
 msgid "Id"
 msgstr ""
 
-#: libs/resources/KisResourceModel.cpp:111
+#: libs/resources/KisResourceModel.cpp:112
 #, kde-format
 msgid "Storage ID"
 msgstr ""
 
-#: libs/resources/KisResourceModel.cpp:113
+#: libs/resources/KisResourceModel.cpp:114
 #: libs/resources/KisStorageModel.cpp:425
 #: libs/resourcewidgets/dbexplorer/DlgDbExplorer.cpp:70
 #: libs/ui/KisPaletteEditor.cpp:214 libs/ui/KisPaletteEditor.cpp:419
@@ -17532,19 +17532,19 @@ msgstr ""
 msgid "Name"
 msgstr ""
 
-#: libs/resources/KisResourceModel.cpp:115
+#: libs/resources/KisResourceModel.cpp:116
 #, kde-format
 msgid "File Name"
 msgstr ""
 
-#: libs/resources/KisResourceModel.cpp:117
+#: libs/resources/KisResourceModel.cpp:118
 #, kde-format
 msgid "Tooltip"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, shapeBox)
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbType)
-#: libs/resources/KisResourceModel.cpp:119
+#: libs/resources/KisResourceModel.cpp:120
 #: libs/ui/imagesize/imagesize.xmlgui:4 plugins/extensions/imagesplit/imagesplit.xmlgui:4
 #: plugins/extensions/separate_channels/imageseparate.xmlgui:4
 #: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:356
@@ -17554,30 +17554,30 @@ msgstr ""
 msgid "Image"
 msgstr ""
 
-#: libs/resources/KisResourceModel.cpp:121
+#: libs/resources/KisResourceModel.cpp:122
 #, kde-format
 msgid "Status"
 msgstr ""
 
-#: libs/resources/KisResourceModel.cpp:123
+#: libs/resources/KisResourceModel.cpp:124
 #: libs/resources/KisStorageModel.cpp:415
 #, kde-format
 msgid "Location"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: libs/resources/KisResourceModel.cpp:125
+#: libs/resources/KisResourceModel.cpp:126
 #: libs/resourcewidgets/dbexplorer/WdgDbExplorer.ui:49
 #, kde-format
 msgid "Resource Type"
 msgstr ""
 
-#: libs/resources/KisResourceModel.cpp:129
+#: libs/resources/KisResourceModel.cpp:130
 #, kde-format
 msgid "Storage Active"
 msgstr ""
 
-#: libs/resources/KisResourceModel.cpp:131
+#: libs/resources/KisResourceModel.cpp:132
 #, kde-format
 msgid "md5sum"
 msgstr ""
@@ -18475,7 +18475,7 @@ msgstr ""
 msgid "FFMpeg Crashed"
 msgstr ""
 
-#: libs/ui/animation/KisFFMpegWrapper.cpp:515
+#: libs/ui/animation/KisFFMpegWrapper.cpp:516
 #, kde-format
 msgctxt "Video information probing dialog. arg1: frame number."
 msgid "Loading video data... %1 frames examined."
@@ -26612,73 +26612,73 @@ msgstr ""
 msgid "Finished saving %1"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1241
+#: libs/ui/KisDocument.cpp:1243
 #, kde-format
 msgid "Autosaving... %1"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1249
+#: libs/ui/KisDocument.cpp:1251
 #, kde-format
 msgid "Autosaving..."
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1255
+#: libs/ui/KisDocument.cpp:1257
 #, kde-format
 msgid "Autosaving postponed: document is busy..."
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1360
+#: libs/ui/KisDocument.cpp:1362
 #, kde-format
 msgctxt "%1 --- failing file name, %2 --- error message"
 msgid "Error during autosaving %1: %2"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1374
+#: libs/ui/KisDocument.cpp:1376
 #, kde-format
 msgid "Finished autosaving %1"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1605
+#: libs/ui/KisDocument.cpp:1607
 #, kde-format
 msgid ""
 "Malformed Path\n"
 "%1"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1708
+#: libs/ui/KisDocument.cpp:1710
 #, kde-format
 msgid "File %1 does not exist."
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1737
+#: libs/ui/KisDocument.cpp:1739
 #, kde-format
 msgid "Opening document"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1750 libs/ui/utils/KisClipboardUtil.cpp:131
+#: libs/ui/KisDocument.cpp:1752 libs/ui/utils/KisClipboardUtil.cpp:131
 #, kde-format
 msgid ""
 "Could not open %2.\n"
 "Reason: %1."
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1758
+#: libs/ui/KisDocument.cpp:1760
 #, kde-format
 msgid "There were problems opening %1."
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1892
+#: libs/ui/KisDocument.cpp:1894
 #, kde-format
 msgid "Not Saved"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:2333
+#: libs/ui/KisDocument.cpp:2335
 #, kde-format
 msgctxt "Name of automatically created background color fill layer"
 msgid "Background Fill"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:2387
+#: libs/ui/KisDocument.cpp:2389
 #, kde-format
 msgctxt ""
 "progress dialog message when the user closes the document that is being saved"
