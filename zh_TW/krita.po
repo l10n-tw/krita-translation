@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-26 00:15+0000\n"
-"PO-Revision-Date: 2021-08-26 08:01+0000\n"
+"POT-Creation-Date: 2021-08-27 00:16+0000\n"
+"PO-Revision-Date: 2021-08-27 08:08+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -12567,7 +12567,7 @@ msgstr "顯示尺標"
 #, kde-format
 msgctxt "action"
 msgid "Rulers Track Pointer"
-msgstr "尺標指標游標"
+msgstr "尺標追蹤游標位置"
 
 #. i18n: context: Action (view_show_guides), Actions (View), ActionCollection (Menu)
 #: krita/kritamenu.action:787
@@ -15133,7 +15133,7 @@ msgstr "匯入的影像"
 msgid "Selection Mask"
 msgstr "選取區域遮罩"
 
-#: libs/image/kis_image.cc:686 libs/ui/KisDocument.cpp:2326
+#: libs/image/kis_image.cc:686 libs/ui/KisDocument.cpp:2328
 #: plugins/impex/psd/psd_loader.cpp:162
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:69
 #: plugins/python/comics_project_management_tools/comics_template_dialog.py:302
@@ -15350,7 +15350,7 @@ msgid "Onion Skins"
 msgstr "洋蔥皮檢視"
 
 #: libs/image/kis_layer_properties_icons.cpp:27
-#: libs/resources/KisResourceModel.cpp:127
+#: libs/resources/KisResourceModel.cpp:128
 #: libs/resources/KisStorageModel.cpp:421
 #: libs/resourcewidgets/dbexplorer/DlgDbExplorer.cpp:72
 #, kde-format
@@ -17421,8 +17421,8 @@ msgstr "本機資源"
 #: libs/ui/KisApplication.cpp:907 libs/ui/KisApplication.cpp:939
 #: libs/ui/KisApplication.cpp:953 libs/ui/KisApplication.cpp:981
 #: libs/ui/KisDocument.cpp:861 libs/ui/KisDocument.cpp:864
-#: libs/ui/KisDocument.cpp:1708 libs/ui/KisDocument.cpp:1749
-#: libs/ui/KisDocument.cpp:1757 libs/ui/KisMainWindow.cpp:1090
+#: libs/ui/KisDocument.cpp:1710 libs/ui/KisDocument.cpp:1751
+#: libs/ui/KisDocument.cpp:1759 libs/ui/KisMainWindow.cpp:1090
 #: libs/ui/KisMainWindow.cpp:1208 libs/ui/KisMainWindow.cpp:1221
 #: libs/ui/KisMainWindow.cpp:1319 libs/ui/KisMainWindow.cpp:1922
 #: libs/ui/KisMainWindow.cpp:1931 libs/ui/KisMainWindow.cpp:2070
@@ -17492,72 +17492,72 @@ msgstr "1. 無法建立位於 %1 的資源位置。"
 msgid "2. The resource location at %1 is not writable."
 msgstr "2. 位於 %1 的資源位置無法寫入。"
 
-#: libs/resources/KisResourceLocator.cpp:554
+#: libs/resources/KisResourceLocator.cpp:553
 #, kde-format
 msgid "Could not add %1 to the database"
 msgstr "無法新增 %1 至資料庫"
 
-#: libs/resources/KisResourceLocator.cpp:575
-#: libs/resources/KisResourceLocator.cpp:900
+#: libs/resources/KisResourceLocator.cpp:574
+#: libs/resources/KisResourceLocator.cpp:899
 #, kde-format
 msgid "Could not remove storage %1 from the database"
 msgstr "無法從資料庫移除 %1 儲存空間"
 
-#: libs/resources/KisResourceLocator.cpp:689
+#: libs/resources/KisResourceLocator.cpp:688
 #, kde-format
 msgid ""
 "Krita is running for the first time. Initialization will take some time."
 msgstr "Krita 為第一次執行。需要一點時間初始化。"
 
-#: libs/resources/KisResourceLocator.cpp:696
+#: libs/resources/KisResourceLocator.cpp:695
 #, kde-format
 msgid "3. Could not create the resource location at %1."
 msgstr "3. 無法建立位於 %1 的資源位置"
 
-#: libs/resources/KisResourceLocator.cpp:709
-#: libs/resources/KisResourceLocator.cpp:725
+#: libs/resources/KisResourceLocator.cpp:708
+#: libs/resources/KisResourceLocator.cpp:724
 #, kde-format
 msgid "Could not copy resource %1 to %2"
 msgstr "無法複製 %1 資源至 %2"
 
-#: libs/resources/KisResourceLocator.cpp:721
+#: libs/resources/KisResourceLocator.cpp:720
 #, kde-format
 msgid "Installing the resources from bundle %1."
 msgstr "正在從 %1 資源包安裝資源。"
 
-#: libs/resources/KisResourceLocator.cpp:743
+#: libs/resources/KisResourceLocator.cpp:742
 #, kde-format
 msgid "Initializing the resources."
 msgstr "正在初始化資源。"
 
-#: libs/resources/KisResourceLocator.cpp:757
+#: libs/resources/KisResourceLocator.cpp:756
 #, kde-format
 msgid "Could not add storage %1 to the cache database"
 msgstr "無法新增 %1 儲存空間至快取資料庫"
 
-#: libs/resources/KisResourceLocator.cpp:778
+#: libs/resources/KisResourceLocator.cpp:777
 #, kde-format
 msgid "Temporary Resources"
 msgstr "暫存資源"
 
-#: libs/resources/KisResourceLocator.cpp:890
+#: libs/resources/KisResourceLocator.cpp:889
 #, kde-format
 msgid "Could not synchronize %1 with the database"
 msgstr "無法與資料庫同步 %1"
 
-#: libs/resources/KisResourceModel.cpp:109
+#: libs/resources/KisResourceModel.cpp:110
 #: libs/resources/KisStorageModel.cpp:411
 #: libs/resourcewidgets/dbexplorer/DlgDbExplorer.cpp:66
 #, kde-format
 msgid "Id"
 msgstr "Id"
 
-#: libs/resources/KisResourceModel.cpp:111
+#: libs/resources/KisResourceModel.cpp:112
 #, kde-format
 msgid "Storage ID"
 msgstr "儲存空間 ID"
 
-#: libs/resources/KisResourceModel.cpp:113
+#: libs/resources/KisResourceModel.cpp:114
 #: libs/resources/KisStorageModel.cpp:425
 #: libs/resourcewidgets/dbexplorer/DlgDbExplorer.cpp:70
 #: libs/ui/KisPaletteEditor.cpp:214 libs/ui/KisPaletteEditor.cpp:419
@@ -17568,19 +17568,19 @@ msgstr "儲存空間 ID"
 msgid "Name"
 msgstr "名稱"
 
-#: libs/resources/KisResourceModel.cpp:115
+#: libs/resources/KisResourceModel.cpp:116
 #, kde-format
 msgid "File Name"
 msgstr "檔案名稱"
 
-#: libs/resources/KisResourceModel.cpp:117
+#: libs/resources/KisResourceModel.cpp:118
 #, kde-format
 msgid "Tooltip"
 msgstr "工具提示"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, shapeBox)
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbType)
-#: libs/resources/KisResourceModel.cpp:119 libs/ui/imagesize/imagesize.xmlgui:4
+#: libs/resources/KisResourceModel.cpp:120 libs/ui/imagesize/imagesize.xmlgui:4
 #: plugins/extensions/imagesplit/imagesplit.xmlgui:4
 #: plugins/extensions/separate_channels/imageseparate.xmlgui:4
 #: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:356
@@ -17590,30 +17590,30 @@ msgstr "工具提示"
 msgid "Image"
 msgstr "影像"
 
-#: libs/resources/KisResourceModel.cpp:121
+#: libs/resources/KisResourceModel.cpp:122
 #, kde-format
 msgid "Status"
 msgstr "狀態"
 
-#: libs/resources/KisResourceModel.cpp:123
+#: libs/resources/KisResourceModel.cpp:124
 #: libs/resources/KisStorageModel.cpp:415
 #, kde-format
 msgid "Location"
 msgstr "位置"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: libs/resources/KisResourceModel.cpp:125
+#: libs/resources/KisResourceModel.cpp:126
 #: libs/resourcewidgets/dbexplorer/WdgDbExplorer.ui:49
 #, kde-format
 msgid "Resource Type"
 msgstr "資源類型"
 
-#: libs/resources/KisResourceModel.cpp:129
+#: libs/resources/KisResourceModel.cpp:130
 #, kde-format
 msgid "Storage Active"
 msgstr "儲存空間使用中"
 
-#: libs/resources/KisResourceModel.cpp:131
+#: libs/resources/KisResourceModel.cpp:132
 #, kde-format
 msgid "md5sum"
 msgstr "MD5 雜湊值"
@@ -18538,7 +18538,7 @@ msgstr "您的 FFmpeg 版本不支援此格式"
 msgid "FFMpeg Crashed"
 msgstr "FFmpeg 當掉了"
 
-#: libs/ui/animation/KisFFMpegWrapper.cpp:515
+#: libs/ui/animation/KisFFMpegWrapper.cpp:516
 #, kde-format
 msgctxt "Video information probing dialog. arg1: frame number."
 msgid "Loading video data... %1 frames examined."
@@ -27018,33 +27018,33 @@ msgstr ""
 msgid "Finished saving %1"
 msgstr "完成儲存 %1"
 
-#: libs/ui/KisDocument.cpp:1241
+#: libs/ui/KisDocument.cpp:1243
 #, kde-format
 msgid "Autosaving... %1"
 msgstr "正在自動儲存… %1"
 
-#: libs/ui/KisDocument.cpp:1249
+#: libs/ui/KisDocument.cpp:1251
 #, kde-format
 msgid "Autosaving..."
 msgstr "正在自動儲存…"
 
-#: libs/ui/KisDocument.cpp:1255
+#: libs/ui/KisDocument.cpp:1257
 #, kde-format
 msgid "Autosaving postponed: document is busy..."
 msgstr "自動儲存已推遲：檔案正在被佔用…"
 
-#: libs/ui/KisDocument.cpp:1360
+#: libs/ui/KisDocument.cpp:1362
 #, kde-format
 msgctxt "%1 --- failing file name, %2 --- error message"
 msgid "Error during autosaving %1: %2"
 msgstr "自動儲存%1 時出錯：%2"
 
-#: libs/ui/KisDocument.cpp:1374
+#: libs/ui/KisDocument.cpp:1376
 #, kde-format
 msgid "Finished autosaving %1"
 msgstr "完成自動儲存 %1"
 
-#: libs/ui/KisDocument.cpp:1605
+#: libs/ui/KisDocument.cpp:1607
 #, kde-format
 msgid ""
 "Malformed Path\n"
@@ -27053,17 +27053,17 @@ msgstr ""
 "路徑格式錯誤\n"
 "%1"
 
-#: libs/ui/KisDocument.cpp:1708
+#: libs/ui/KisDocument.cpp:1710
 #, kde-format
 msgid "File %1 does not exist."
 msgstr "檔案 %1 不存在。"
 
-#: libs/ui/KisDocument.cpp:1737
+#: libs/ui/KisDocument.cpp:1739
 #, kde-format
 msgid "Opening document"
 msgstr "正在開啟檔案"
 
-#: libs/ui/KisDocument.cpp:1750 libs/ui/utils/KisClipboardUtil.cpp:131
+#: libs/ui/KisDocument.cpp:1752 libs/ui/utils/KisClipboardUtil.cpp:131
 #, kde-format
 msgid ""
 "Could not open %2.\n"
@@ -27072,23 +27072,23 @@ msgstr ""
 "無法開啟 %2。\n"
 "原因：%1。"
 
-#: libs/ui/KisDocument.cpp:1758
+#: libs/ui/KisDocument.cpp:1760
 #, kde-format
 msgid "There were problems opening %1."
 msgstr "開啟 %1 時遇到了一些問題。"
 
-#: libs/ui/KisDocument.cpp:1892
+#: libs/ui/KisDocument.cpp:1894
 #, kde-format
 msgid "Not Saved"
 msgstr "未儲存"
 
-#: libs/ui/KisDocument.cpp:2333
+#: libs/ui/KisDocument.cpp:2335
 #, kde-format
 msgctxt "Name of automatically created background color fill layer"
 msgid "Background Fill"
 msgstr "背景色填充"
 
-#: libs/ui/KisDocument.cpp:2387
+#: libs/ui/KisDocument.cpp:2389
 #, kde-format
 msgctxt ""
 "progress dialog message when the user closes the document that is being saved"
@@ -31571,7 +31571,7 @@ msgstr "適合頁面高度"
 #: libs/widgets/KoZoomWidget.cpp:67
 #, kde-format
 msgid "Use same aspect as pixels"
-msgstr "使用與像素相同的寬高比"
+msgstr "使用相對於螢幕像素的縮放比例"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, txtFileName)
 #: libs/widgets/wdg_file_name_requester.ui:29
