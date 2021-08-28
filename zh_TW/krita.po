@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-08-27 00:16+0000\n"
-"PO-Revision-Date: 2021-08-27 08:08+0000\n"
+"PO-Revision-Date: 2021-08-28 12:58+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -51718,12 +51718,12 @@ msgstr "新增/選擇影像後會顯示選項"
 #: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphicShapeFactory.cpp:15
 #, kde-format
 msgid "A calligraphic shape"
-msgstr "西文書法形狀"
+msgstr "西方書法形狀"
 
 #: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphicShapeFactory.cpp:17
 #, kde-format
 msgid "Calligraphic Shape"
-msgstr "西文書法形狀"
+msgstr "西方書法形狀"
 
 #: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:59
 #, kde-format
@@ -51835,7 +51835,7 @@ msgstr "壓感筆"
 #, kde-format
 msgctxt "action"
 msgid "Calligraphy: increase width"
-msgstr "西文書法：增大寬度"
+msgstr "西方書法：增大寬度"
 
 #. i18n: context: Action (calligraphy_increase_angle), Actions (tool-shortcuts), ActionCollection (Tools)
 #. i18n: context: Action (calligraphy_increase_angle), Actions (tool-shortcuts), ActionCollection (Tools)
@@ -51846,7 +51846,7 @@ msgstr "西文書法：增大寬度"
 #, kde-format
 msgctxt "action"
 msgid "Calligraphy: increase angle"
-msgstr "西文書法：增大角度"
+msgstr "西方書法：增大角度"
 
 #. i18n: context: Action (calligraphy_decrease_width), Actions (tool-shortcuts), ActionCollection (Tools)
 #. i18n: context: Action (calligraphy_decrease_width), Actions (tool-shortcuts), ActionCollection (Tools)
@@ -51857,7 +51857,7 @@ msgstr "西文書法：增大角度"
 #, kde-format
 msgctxt "action"
 msgid "Calligraphy: decrease width"
-msgstr "西文書法：減小寬度"
+msgstr "西方書法：減小寬度"
 
 #. i18n: context: Action (calligraphy_decrease_angle), Actions (tool-shortcuts), ActionCollection (Tools)
 #. i18n: context: Action (calligraphy_decrease_angle), Actions (tool-shortcuts), ActionCollection (Tools)
@@ -51868,24 +51868,24 @@ msgstr "西文書法：減小寬度"
 #, kde-format
 msgctxt "action"
 msgid "Calligraphy: decrease angle"
-msgstr "西文書法：減小角度"
+msgstr "西方書法：減小角度"
 
 #: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyTool.cpp:426
 #, kde-format
 msgctxt "Object name of Calligraphy"
 msgid "Calligraphy"
-msgstr "西文書法工具"
+msgstr "西方書法工具"
 
 #: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyTool.cpp:427
 #, kde-format
 msgctxt "Tool Option title of Calligraphy"
 msgid "Calligraphy"
-msgstr "西文書法選項"
+msgstr "西方書法選項"
 
 #: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyToolFactory.cpp:20
 #, kde-format
 msgid "Calligraphy"
-msgstr "西文書法"
+msgstr "西方書法"
 
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:53
 #, kde-format
@@ -53853,7 +53853,7 @@ msgstr "移動圖層"
 #, kde-format
 msgctxt "action"
 msgid "Calligraphy"
-msgstr "西文書法"
+msgstr "西方書法"
 
 #. i18n: context: Action (PathTool), Actions (tool-shortcuts), ActionCollection (Tools)
 #. i18n: context: Action (PathTool), Actions (tool-shortcuts), ActionCollection (Tools)
