@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-08-28 00:15+0000\n"
-"PO-Revision-Date: 2021-08-28 12:58+0000\n"
+"PO-Revision-Date: 2021-08-30 07:02+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -15108,8 +15108,7 @@ msgstr "Lanczos3 演算法"
 msgid ""
 "Offers similar results than Bicubic, but maybe a little bit sharper. Can "
 "produce light and dark halos along strong edges."
-msgstr ""
-"與雙立方演算法效果類似，但或許銳度稍好。可能會在高反差邊緣處產生明暗光暈。"
+msgstr "與雙立方演算法效果類似，但或許稍微更銳利。可能會在高反差邊緣處產生明暗光暈。"
 
 #: libs/image/kis_filter_strategy.h:163
 #, kde-format
@@ -37838,7 +37837,7 @@ msgstr "其他"
 #, kde-format
 msgctxt "EXIF: postprocessing"
 msgid "Sharpness:"
-msgstr "銳度："
+msgstr "銳利度："
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editSharpness)
 #: plugins/extensions/metadataeditor/editors/exif.ui:729
@@ -43671,10 +43670,9 @@ msgid ""
 "strong='true'>VCD & AHD</emphasis>: turn on the enhanced effective color "
 "interpolation (EECI) refine to improve sharpness.</li></ul></p>"
 msgstr ""
-"<title>插值演算法微調</title><p>這個選項僅對少數插值品質有效：</"
-"p><p><ul><li><emphasis strong='true'>DCB</emphasis>：啟用插值色彩增強過濾器。"
-"</li><li><emphasis strong='true'>VCD & AHD</emphasis>：啟用增強有效色彩插值 "
-"(EECI) 微調以改善銳度。</li></ul></p>"
+"<title>插值演算法微調</title><p>這個選項僅對少數插值品質有效：</p><p><ul><li><emphasis "
+"strong='true'>DCB</emphasis>：啟用插值色彩增強過濾器。</li><li><emphasis "
+"strong='true'>VCD & AHD</emphasis>：啟用增強有效色彩插值 (EECI) 微調以改善銳利度。</li></ul></p>"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:413
 #, kde-format
@@ -44717,13 +44715,13 @@ msgstr "過濾強度"
 #: plugins/impex/webp/dlg_webp_export.ui:360
 #, kde-format
 msgid "Filter sharpness: 0 = off, 7 = least sharp."
-msgstr "過濾銳度：0 = 停用，7 = 最不銳利。"
+msgstr "過濾銳利度：0 = 停用，7 = 最不銳利。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblFilterSharpness)
 #: plugins/impex/webp/dlg_webp_export.ui:353
 #, kde-format
 msgid "Filter Sharpness"
-msgstr "過濾銳度"
+msgstr "過濾銳利度"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblFilterType)
 #. i18n: ectx: property (toolTip), widget (QComboBox, filterType)
@@ -45471,7 +45469,7 @@ msgstr "柔和度"
 #: plugins/paintops/tangentnormal/kis_tangent_normal_paintop_settings_widget.cpp:50
 #, kde-format
 msgid "Sharpness"
-msgstr "銳度"
+msgstr "銳利度"
 
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:63
 #, kde-format
