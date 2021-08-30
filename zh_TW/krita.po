@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-08-30 00:15+0000\n"
-"PO-Revision-Date: 2021-08-30 07:02+0000\n"
+"PO-Revision-Date: 2021-08-30 07:03+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -27058,22 +27058,18 @@ msgid "Opening document"
 msgstr "正在開啟檔案"
 
 #: libs/ui/KisDocument.cpp:1747
-#, fuzzy, kde-format
-#| msgid ""
-#| "Could not open %2.\n"
-#| "Reason: %1."
+#, kde-format
 msgid ""
 "Could not open %2.\n"
 "Reason: %1"
 msgstr ""
 "無法開啟 %2。\n"
-"原因：%1。"
+"原因：%1"
 
 #: libs/ui/KisDocument.cpp:1755
-#, fuzzy, kde-format
-#| msgid "There were problems opening %1."
+#, kde-format
 msgid "There were problems opening %1"
-msgstr "開啟 %1 時遇到了一些問題。"
+msgstr "開啟 %1 時遇到了一些問題"
 
 #: libs/ui/KisDocument.cpp:1889
 #, kde-format
