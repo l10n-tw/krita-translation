@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-28 00:15+0000\n"
+"POT-Creation-Date: 2021-08-30 00:15+0000\n"
 "PO-Revision-Date: 2021-08-30 07:02+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
@@ -15108,7 +15108,8 @@ msgstr "Lanczos3 演算法"
 msgid ""
 "Offers similar results than Bicubic, but maybe a little bit sharper. Can "
 "produce light and dark halos along strong edges."
-msgstr "與雙立方演算法效果類似，但或許稍微更銳利。可能會在高反差邊緣處產生明暗光暈。"
+msgstr ""
+"與雙立方演算法效果類似，但或許稍微更銳利。可能會在高反差邊緣處產生明暗光暈。"
 
 #: libs/image/kis_filter_strategy.h:163
 #, kde-format
@@ -15132,7 +15133,7 @@ msgstr "匯入的影像"
 msgid "Selection Mask"
 msgstr "選取區域遮罩"
 
-#: libs/image/kis_image.cc:686 libs/ui/KisDocument.cpp:2327
+#: libs/image/kis_image.cc:686 libs/ui/KisDocument.cpp:2324
 #: plugins/impex/psd/psd_loader.cpp:162
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:69
 #: plugins/python/comics_project_management_tools/comics_template_dialog.py:302
@@ -15450,8 +15451,8 @@ msgid "Processing"
 msgstr "正在處理"
 
 #: libs/image/kis_psd_layer_style.cpp:102
-#: libs/ui/KisApplicationArguments.cpp:393 libs/ui/KisMainWindow.cpp:1421
-#: libs/ui/KisMainWindow.cpp:1692 libs/ui/KisMainWindow.cpp:1711
+#: libs/ui/KisApplicationArguments.cpp:393 libs/ui/KisMainWindow.cpp:1417
+#: libs/ui/KisMainWindow.cpp:1688 libs/ui/KisMainWindow.cpp:1707
 #: plugins/impex/libkra/kis_kra_saver.cpp:86
 #, kde-format
 msgid "Unnamed"
@@ -16101,12 +16102,6 @@ msgctxt "description of a file type"
 msgid "AVIF Image"
 msgstr "AVIF 影像"
 
-#: libs/koplugin/KisMimeDatabase.cpp:324
-#, kde-format
-msgctxt "description of a file type"
-msgid "JP2 Image"
-msgstr "JP2 影像"
-
 #: libs/koplugin/KisMimeDatabase.cpp:329
 #, kde-format
 msgctxt "description of a file type"
@@ -16125,8 +16120,8 @@ msgctxt "description of a file type"
 msgid "Animated PNG Image"
 msgstr "動態 PNG 影像"
 
-#: libs/libkis/Document.cpp:927 libs/ui/KisMainWindow.cpp:2062
-#: libs/ui/KisMainWindow.cpp:2144
+#: libs/libkis/Document.cpp:927 libs/ui/KisMainWindow.cpp:2058
+#: libs/ui/KisMainWindow.cpp:2140
 #, kde-format
 msgid "Import frames"
 msgstr "匯入影格"
@@ -17420,16 +17415,16 @@ msgstr "本機資源"
 #: libs/ui/KisApplication.cpp:907 libs/ui/KisApplication.cpp:939
 #: libs/ui/KisApplication.cpp:953 libs/ui/KisApplication.cpp:981
 #: libs/ui/KisDocument.cpp:860 libs/ui/KisDocument.cpp:863
-#: libs/ui/KisDocument.cpp:1709 libs/ui/KisDocument.cpp:1750
-#: libs/ui/KisDocument.cpp:1758 libs/ui/KisMainWindow.cpp:1090
-#: libs/ui/KisMainWindow.cpp:1208 libs/ui/KisMainWindow.cpp:1221
-#: libs/ui/KisMainWindow.cpp:1319 libs/ui/KisMainWindow.cpp:1922
-#: libs/ui/KisMainWindow.cpp:1931 libs/ui/KisMainWindow.cpp:2070
-#: libs/ui/KisMainWindow.cpp:2129 libs/ui/KisMainWindow.cpp:2153
-#: libs/ui/KisPart.cpp:555 libs/ui/KisPart.cpp:558
-#: libs/ui/KisReferenceImage.cpp:178 libs/ui/KisRemoteFileFetcher.cpp:42
-#: libs/ui/KisTemplateCreateDia.cpp:284 libs/ui/KisTemplateCreateDia.cpp:390
-#: libs/ui/KisView.cpp:670 libs/ui/KisWelcomePageWidget.cpp:692
+#: libs/ui/KisDocument.cpp:1703 libs/ui/KisDocument.cpp:1746
+#: libs/ui/KisDocument.cpp:1754 libs/ui/KisMainWindow.cpp:1090
+#: libs/ui/KisMainWindow.cpp:1217 libs/ui/KisMainWindow.cpp:1315
+#: libs/ui/KisMainWindow.cpp:1918 libs/ui/KisMainWindow.cpp:1927
+#: libs/ui/KisMainWindow.cpp:2066 libs/ui/KisMainWindow.cpp:2125
+#: libs/ui/KisMainWindow.cpp:2149 libs/ui/KisPart.cpp:555
+#: libs/ui/KisPart.cpp:558 libs/ui/KisReferenceImage.cpp:178
+#: libs/ui/KisRemoteFileFetcher.cpp:42 libs/ui/KisTemplateCreateDia.cpp:284
+#: libs/ui/KisTemplateCreateDia.cpp:390 libs/ui/KisView.cpp:670
+#: libs/ui/KisWelcomePageWidget.cpp:692
 #: libs/ui/opengl/kis_opengl_canvas2.cpp:410
 #: libs/ui/utils/KisClipboardUtil.cpp:130
 #: libs/ui/widgets/gradient/KisGradientChooser.cpp:534
@@ -17936,7 +17931,7 @@ msgid "Storage Resources"
 msgstr "資源收藏"
 
 #: libs/resourcewidgets/KisResourceItemChooser.cpp:227
-#: libs/ui/KisMainWindow.cpp:2562
+#: libs/ui/KisMainWindow.cpp:2558
 #: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:563
 #, kde-format
 msgctxt "@title:window"
@@ -18280,7 +18275,7 @@ msgid "Failed to render animation frames! Output files are incomplete."
 msgstr "動畫影格繪製失敗！輸出檔案不完整。"
 
 #: libs/ui/animation/KisDlgAnimationRenderer.cpp:52
-#: libs/ui/KisMainWindow.cpp:2173
+#: libs/ui/KisMainWindow.cpp:2169
 #, kde-format
 msgid "Render Animation"
 msgstr "繪製動畫"
@@ -20351,7 +20346,7 @@ msgctxt "@title:window"
 msgid "Enter new style name"
 msgstr "輸入新樣式名稱"
 
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:269 libs/ui/KisMainWindow.cpp:2591
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:269 libs/ui/KisMainWindow.cpp:2587
 #: plugins/dockers/gamutmask/gamutmask_dock.cpp:373
 #, kde-format
 msgctxt "@label:textbox"
@@ -21115,7 +21110,7 @@ msgid "Session name:"
 msgstr "工作階段名稱："
 
 #: libs/ui/dialogs/KisSessionManagerDialog.cpp:85
-#: libs/ui/KisMainWindow.cpp:2597 libs/ui/widgets/KoFillConfigWidget.cpp:671
+#: libs/ui/KisMainWindow.cpp:2593 libs/ui/widgets/KoFillConfigWidget.cpp:671
 #: plugins/dockers/gamutmask/gamutmask_dock.cpp:379
 #: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:202
 #, kde-format
@@ -21124,7 +21119,7 @@ msgid "Name Already Exists"
 msgstr "名稱已存在"
 
 #: libs/ui/dialogs/KisSessionManagerDialog.cpp:86
-#: libs/ui/KisMainWindow.cpp:2598
+#: libs/ui/KisMainWindow.cpp:2594
 #: libs/ui/widgets/gradient/KisGradientChooser.cpp:535
 #: libs/ui/widgets/KoFillConfigWidget.cpp:672
 #: plugins/dockers/gamutmask/gamutmask_dock.cpp:380
@@ -27052,42 +27047,46 @@ msgstr ""
 "路徑格式錯誤\n"
 "%1"
 
-#: libs/ui/KisDocument.cpp:1709
+#: libs/ui/KisDocument.cpp:1703
 #, kde-format
 msgid "File %1 does not exist."
 msgstr "檔案 %1 不存在。"
 
-#: libs/ui/KisDocument.cpp:1738
+#: libs/ui/KisDocument.cpp:1732
 #, kde-format
 msgid "Opening document"
 msgstr "正在開啟檔案"
 
-#: libs/ui/KisDocument.cpp:1751 libs/ui/utils/KisClipboardUtil.cpp:131
-#, kde-format
+#: libs/ui/KisDocument.cpp:1747
+#, fuzzy, kde-format
+#| msgid ""
+#| "Could not open %2.\n"
+#| "Reason: %1."
 msgid ""
 "Could not open %2.\n"
-"Reason: %1."
+"Reason: %1"
 msgstr ""
 "無法開啟 %2。\n"
 "原因：%1。"
 
-#: libs/ui/KisDocument.cpp:1759
-#, kde-format
-msgid "There were problems opening %1."
+#: libs/ui/KisDocument.cpp:1755
+#, fuzzy, kde-format
+#| msgid "There were problems opening %1."
+msgid "There were problems opening %1"
 msgstr "開啟 %1 時遇到了一些問題。"
 
-#: libs/ui/KisDocument.cpp:1893
+#: libs/ui/KisDocument.cpp:1889
 #, kde-format
 msgid "Not Saved"
 msgstr "未儲存"
 
-#: libs/ui/KisDocument.cpp:2334
+#: libs/ui/KisDocument.cpp:2331
 #, kde-format
 msgctxt "Name of automatically created background color fill layer"
 msgid "Background Fill"
 msgstr "背景色填充"
 
-#: libs/ui/KisDocument.cpp:2388
+#: libs/ui/KisDocument.cpp:2385
 #, kde-format
 msgctxt ""
 "progress dialog message when the user closes the document that is being saved"
@@ -27518,7 +27517,7 @@ msgstr "檔案 %1 不存在。"
 msgid "Open Images"
 msgstr "開啟影像"
 
-#: libs/ui/KisMainWindow.cpp:1320
+#: libs/ui/KisMainWindow.cpp:1316
 #, kde-format
 msgid ""
 "You are saving a file while the image is still rendering. The saved file may "
@@ -27530,45 +27529,45 @@ msgstr ""
 "\n"
 "請選擇一個原始檔案不會被覆蓋掉的位置！"
 
-#: libs/ui/KisMainWindow.cpp:1376
+#: libs/ui/KisMainWindow.cpp:1372
 #, kde-format
 msgid "Exporting"
 msgstr "正在匯出"
 
-#: libs/ui/KisMainWindow.cpp:1376
+#: libs/ui/KisMainWindow.cpp:1372
 #, kde-format
 msgid "Saving As"
 msgstr "正在儲存為"
 
-#: libs/ui/KisMainWindow.cpp:1671
+#: libs/ui/KisMainWindow.cpp:1667
 #: libs/widgetutils/config/kstandardaction_p.h:29
 #, kde-format
 msgid "Create new document"
 msgstr "建立檔案"
 
-#: libs/ui/KisMainWindow.cpp:1695
+#: libs/ui/KisMainWindow.cpp:1691
 #, kde-format
 msgid "Custom Document"
 msgstr "自訂檔案"
 
-#: libs/ui/KisMainWindow.cpp:1713
+#: libs/ui/KisMainWindow.cpp:1709
 #, kde-format
 msgid "Create from Clipboard"
 msgstr "從剪貼簿建立"
 
-#: libs/ui/KisMainWindow.cpp:1891
+#: libs/ui/KisMainWindow.cpp:1887
 #, kde-format
 msgid "Layers/Masks"
 msgstr "圖層/遮罩"
 
-#: libs/ui/KisMainWindow.cpp:1917
+#: libs/ui/KisMainWindow.cpp:1913
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:179
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:261
 #, kde-format
 msgid "You don't have any resource bundles enabled."
 msgstr "您沒有啟用任何資源包"
 
-#: libs/ui/KisMainWindow.cpp:1921
+#: libs/ui/KisMainWindow.cpp:1917
 #, kde-format
 msgid ""
 "\n"
@@ -27578,7 +27577,7 @@ msgstr ""
 "\n"
 "無可用的筆刷預設。在繼續之前請先啟用一個含有筆刷預設的資源包。\n"
 
-#: libs/ui/KisMainWindow.cpp:1931
+#: libs/ui/KisMainWindow.cpp:1927
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:189
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:273
 #, kde-format
@@ -27589,7 +27588,7 @@ msgstr ""
 "\n"
 "只有您在本機的資源可用。"
 
-#: libs/ui/KisMainWindow.cpp:2070 libs/ui/KisMainWindow.cpp:2153
+#: libs/ui/KisMainWindow.cpp:2066 libs/ui/KisMainWindow.cpp:2149
 #, kde-format
 msgid ""
 "Could not finish import animation:\n"
@@ -27598,59 +27597,59 @@ msgstr ""
 "無法完成匯入動畫：\n"
 "%1"
 
-#: libs/ui/KisMainWindow.cpp:2129
+#: libs/ui/KisMainWindow.cpp:2125
 #, kde-format
 msgid "Failed to create new document. Animation import aborted."
 msgstr "無法建立新文件。已終止匯入動畫。"
 
-#: libs/ui/KisMainWindow.cpp:2554
+#: libs/ui/KisMainWindow.cpp:2550
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Import Workspace..."
 msgstr "匯入作業空間(&I)…"
 
-#: libs/ui/KisMainWindow.cpp:2574
+#: libs/ui/KisMainWindow.cpp:2570
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&New Workspace..."
 msgstr "新作業空間(&N)…"
 
-#: libs/ui/KisMainWindow.cpp:2590
+#: libs/ui/KisMainWindow.cpp:2586
 #, kde-format
 msgctxt "@title:window"
 msgid "New Workspace..."
 msgstr "新作業空間…"
 
-#: libs/ui/KisMainWindow.cpp:2634
+#: libs/ui/KisMainWindow.cpp:2630
 #, kde-format
 msgid "&%1 %2"
 msgstr "%1 %2"
 
-#: libs/ui/KisMainWindow.cpp:2637
+#: libs/ui/KisMainWindow.cpp:2633
 #, kde-format
 msgid "%1 %2"
 msgstr "%1 %2"
 
-#: libs/ui/KisMainWindow.cpp:2795
+#: libs/ui/KisMainWindow.cpp:2791
 #, kde-format
 msgid ""
 "The Krita LittleCMS color management plugin is not installed. Krita will "
 "quit now."
 msgstr "未安裝 Krita 的 LittleCMS 色彩管理外掛程式。Krita 將立即退出。"
 
-#: libs/ui/KisMainWindow.cpp:2811
+#: libs/ui/KisMainWindow.cpp:2807
 #, kde-format
 msgctxt "@title:window"
 msgid "Installation error"
 msgstr "安裝錯誤"
 
-#: libs/ui/KisMainWindow.cpp:2923
+#: libs/ui/KisMainWindow.cpp:2919
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Themes"
 msgstr "主題(&T)"
 
-#: libs/ui/KisMainWindow.cpp:2977
+#: libs/ui/KisMainWindow.cpp:2973
 #, kde-format
 msgid "Expanding Spacer"
 msgstr "擴張空白佔位符"
@@ -29249,6 +29248,15 @@ msgstr "插入為參考圖"
 #, kde-format
 msgid "Insert as Reference Images"
 msgstr "插入多幅參考圖"
+
+#: libs/ui/utils/KisClipboardUtil.cpp:131
+#, kde-format
+msgid ""
+"Could not open %2.\n"
+"Reason: %1."
+msgstr ""
+"無法開啟 %2。\n"
+"原因：%1。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblLinks)
 #: libs/ui/wdgsplash.ui:439
@@ -36195,13 +36203,13 @@ msgstr "錄影工具"
 msgid "Select a Directory for Recordings"
 msgstr "請選擇錄影檔的存放目錄"
 
-#: plugins/dockers/recorder/recorderdocker_dock.cpp:455
+#: plugins/dockers/recorder/recorderdocker_dock.cpp:463
 #, kde-format
 msgctxt "@title:window"
 msgid "Recorder"
 msgstr "錄影工具"
 
-#: plugins/dockers/recorder/recorderdocker_dock.cpp:456
+#: plugins/dockers/recorder/recorderdocker_dock.cpp:464
 #, kde-format
 msgid ""
 "The recorder have been stopped due to failure while writing a frame. Please "
@@ -43670,9 +43678,10 @@ msgid ""
 "strong='true'>VCD & AHD</emphasis>: turn on the enhanced effective color "
 "interpolation (EECI) refine to improve sharpness.</li></ul></p>"
 msgstr ""
-"<title>插值演算法微調</title><p>這個選項僅對少數插值品質有效：</p><p><ul><li><emphasis "
-"strong='true'>DCB</emphasis>：啟用插值色彩增強過濾器。</li><li><emphasis "
-"strong='true'>VCD & AHD</emphasis>：啟用增強有效色彩插值 (EECI) 微調以改善銳利度。</li></ul></p>"
+"<title>插值演算法微調</title><p>這個選項僅對少數插值品質有效：</"
+"p><p><ul><li><emphasis strong='true'>DCB</emphasis>：啟用插值色彩增強過濾器。"
+"</li><li><emphasis strong='true'>VCD & AHD</emphasis>：啟用增強有效色彩插值 "
+"(EECI) 微調以改善銳利度。</li></ul></p>"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:413
 #, kde-format
@@ -53882,6 +53891,10 @@ msgstr "縮放工具"
 msgctxt "action"
 msgid "Reference Images Tool"
 msgstr "參考圖工具"
+
+#~ msgctxt "description of a file type"
+#~ msgid "JP2 Image"
+#~ msgstr "JP2 影像"
 
 #~ msgctxt "action"
 #~ msgid "Database Explorer"
