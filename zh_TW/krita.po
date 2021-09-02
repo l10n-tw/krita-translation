@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-30 00:15+0000\n"
+"POT-Creation-Date: 2021-09-02 00:16+0000\n"
 "PO-Revision-Date: 2021-08-30 07:03+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
@@ -13875,8 +13875,8 @@ msgstr ""
 "Krita 不支援 Wayland 平台。如您希望在 Wayland 上執行 Krita，請使用 XWayland。"
 "Krita 現在會退出。"
 
-#: krita/main.cc:589 libs/ui/KisApplication.cpp:374
-#: libs/ui/KisApplication.cpp:642
+#: krita/main.cc:589 libs/ui/KisApplication.cpp:370
+#: libs/ui/KisApplication.cpp:638
 #, kde-format
 msgctxt "@title:window"
 msgid "Krita: Warning"
@@ -14517,6 +14517,8 @@ msgstr "縮小(&M)"
 #. i18n: ectx: property (text), widget (QToolButton, bnRemove)
 #. i18n: ectx: property (text), widget (QToolButton, bnEditPalette)
 #. i18n: ectx: property (text), widget (QToolButton, bnSavePalette)
+#. i18n: ectx: property (text), widget (QToolButton, btnCreateScene)
+#. i18n: ectx: property (text), widget (QToolButton, btnDeleteScene)
 #. i18n: ectx: property (text), widget (QToolButton, btnDeleteField)
 #. i18n: ectx: property (text), widget (QToolButton, bnGetPreview)
 #. i18n: ectx: property (text), widget (QToolButton, bnSelectSaveLocation)
@@ -14576,6 +14578,8 @@ msgstr "縮小(&M)"
 #: plugins/dockers/palettedocker/wdgpalettedock.ui:144
 #: plugins/dockers/palettedocker/wdgpalettedock.ui:165
 #: plugins/dockers/storyboarddocker/wdgcommentmenu.ui:118
+#: plugins/dockers/storyboarddocker/wdgstoryboarddock.ui:97
+#: plugins/dockers/storyboarddocker/wdgstoryboarddock.ui:117
 #: plugins/dockers/svgcollectiondocker/WdgSvgCollection.ui:26
 #: plugins/extensions/resourcemanager/wdgdlgcreatebundle.ui:146
 #: plugins/extensions/resourcemanager/wdgdlgcreatebundle.ui:153
@@ -15379,7 +15383,7 @@ msgstr "顯示著色"
 
 #. i18n: ectx: property (text), widget (QPushButton, openFileLink)
 #: libs/image/kis_layer_properties_icons.cpp:32
-#: libs/ui/forms/KisWelcomePage.ui:1484
+#: libs/ui/forms/KisWelcomePage.ui:1572
 #, kde-format
 msgid "Open File"
 msgstr "開啟檔案"
@@ -15451,7 +15455,7 @@ msgid "Processing"
 msgstr "正在處理"
 
 #: libs/image/kis_psd_layer_style.cpp:102
-#: libs/ui/KisApplicationArguments.cpp:393 libs/ui/KisMainWindow.cpp:1417
+#: libs/ui/KisApplicationArguments.cpp:397 libs/ui/KisMainWindow.cpp:1417
 #: libs/ui/KisMainWindow.cpp:1688 libs/ui/KisMainWindow.cpp:1707
 #: plugins/impex/libkra/kis_kra_saver.cpp:86
 #, kde-format
@@ -16120,8 +16124,8 @@ msgctxt "description of a file type"
 msgid "Animated PNG Image"
 msgstr "動態 PNG 影像"
 
-#: libs/libkis/Document.cpp:927 libs/ui/KisMainWindow.cpp:2058
-#: libs/ui/KisMainWindow.cpp:2140
+#: libs/libkis/Document.cpp:927 libs/ui/KisMainWindow.cpp:2060
+#: libs/ui/KisMainWindow.cpp:2142
 #, kde-format
 msgid "Import frames"
 msgstr "匯入影格"
@@ -17411,20 +17415,20 @@ msgstr "本機資源"
 #: libs/ui/kis_filter_manager.cc:233 libs/ui/kis_filter_manager.cc:242
 #: libs/ui/kis_layer_manager.cc:303 libs/ui/kis_layer_manager.cc:892
 #: libs/ui/kis_node_manager.cpp:1214 libs/ui/kis_node_manager.cpp:1277
-#: libs/ui/KisApplication.cpp:888 libs/ui/KisApplication.cpp:891
-#: libs/ui/KisApplication.cpp:907 libs/ui/KisApplication.cpp:939
-#: libs/ui/KisApplication.cpp:953 libs/ui/KisApplication.cpp:981
+#: libs/ui/KisApplication.cpp:886 libs/ui/KisApplication.cpp:889
+#: libs/ui/KisApplication.cpp:905 libs/ui/KisApplication.cpp:937
+#: libs/ui/KisApplication.cpp:951 libs/ui/KisApplication.cpp:979
 #: libs/ui/KisDocument.cpp:860 libs/ui/KisDocument.cpp:863
 #: libs/ui/KisDocument.cpp:1703 libs/ui/KisDocument.cpp:1746
 #: libs/ui/KisDocument.cpp:1754 libs/ui/KisMainWindow.cpp:1090
 #: libs/ui/KisMainWindow.cpp:1217 libs/ui/KisMainWindow.cpp:1315
-#: libs/ui/KisMainWindow.cpp:1918 libs/ui/KisMainWindow.cpp:1927
-#: libs/ui/KisMainWindow.cpp:2066 libs/ui/KisMainWindow.cpp:2125
-#: libs/ui/KisMainWindow.cpp:2149 libs/ui/KisPart.cpp:555
+#: libs/ui/KisMainWindow.cpp:1920 libs/ui/KisMainWindow.cpp:1929
+#: libs/ui/KisMainWindow.cpp:2068 libs/ui/KisMainWindow.cpp:2127
+#: libs/ui/KisMainWindow.cpp:2151 libs/ui/KisPart.cpp:555
 #: libs/ui/KisPart.cpp:558 libs/ui/KisReferenceImage.cpp:178
 #: libs/ui/KisRemoteFileFetcher.cpp:42 libs/ui/KisTemplateCreateDia.cpp:284
 #: libs/ui/KisTemplateCreateDia.cpp:390 libs/ui/KisView.cpp:670
-#: libs/ui/KisWelcomePageWidget.cpp:692
+#: libs/ui/KisWelcomePageWidget.cpp:702
 #: libs/ui/opengl/kis_opengl_canvas2.cpp:410
 #: libs/ui/utils/KisClipboardUtil.cpp:130
 #: libs/ui/widgets/gradient/KisGradientChooser.cpp:534
@@ -17438,8 +17442,8 @@ msgstr "本機資源"
 #: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:170
 #: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:197
 #: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:202
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:353
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:362
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:394
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:403
 #: plugins/extensions/imagesplit/imagesplit.cpp:74
 #: plugins/extensions/imagesplit/imagesplit.cpp:76
 #: plugins/extensions/qmic/kis_qmic_interface.cpp:137
@@ -17931,7 +17935,7 @@ msgid "Storage Resources"
 msgstr "資源收藏"
 
 #: libs/resourcewidgets/KisResourceItemChooser.cpp:227
-#: libs/ui/KisMainWindow.cpp:2558
+#: libs/ui/KisMainWindow.cpp:2564
 #: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:563
 #, kde-format
 msgctxt "@title:window"
@@ -18275,7 +18279,7 @@ msgid "Failed to render animation frames! Output files are incomplete."
 msgstr "動畫影格繪製失敗！輸出檔案不完整。"
 
 #: libs/ui/animation/KisDlgAnimationRenderer.cpp:52
-#: libs/ui/KisMainWindow.cpp:2169
+#: libs/ui/KisMainWindow.cpp:2171
 #, kde-format
 msgid "Render Animation"
 msgstr "繪製動畫"
@@ -20346,7 +20350,7 @@ msgctxt "@title:window"
 msgid "Enter new style name"
 msgstr "輸入新樣式名稱"
 
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:269 libs/ui/KisMainWindow.cpp:2587
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:269 libs/ui/KisMainWindow.cpp:2593
 #: plugins/dockers/gamutmask/gamutmask_dock.cpp:373
 #, kde-format
 msgctxt "@label:textbox"
@@ -21110,7 +21114,7 @@ msgid "Session name:"
 msgstr "工作階段名稱："
 
 #: libs/ui/dialogs/KisSessionManagerDialog.cpp:85
-#: libs/ui/KisMainWindow.cpp:2593 libs/ui/widgets/KoFillConfigWidget.cpp:671
+#: libs/ui/KisMainWindow.cpp:2599 libs/ui/widgets/KoFillConfigWidget.cpp:671
 #: plugins/dockers/gamutmask/gamutmask_dock.cpp:379
 #: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:202
 #, kde-format
@@ -21119,7 +21123,7 @@ msgid "Name Already Exists"
 msgstr "名稱已存在"
 
 #: libs/ui/dialogs/KisSessionManagerDialog.cpp:86
-#: libs/ui/KisMainWindow.cpp:2594
+#: libs/ui/KisMainWindow.cpp:2600
 #: libs/ui/widgets/gradient/KisGradientChooser.cpp:535
 #: libs/ui/widgets/KoFillConfigWidget.cpp:672
 #: plugins/dockers/gamutmask/gamutmask_dock.cpp:380
@@ -21176,92 +21180,38 @@ msgstr "程式啟動時總是使用此範本"
 msgid "Always use this template"
 msgstr "總是使用此範本"
 
-#. i18n: ectx: property (text), widget (QLabel, helpTitleLabel)
-#: libs/ui/forms/KisWelcomePage.ui:118
-#, kde-format
-msgid "Community"
-msgstr "社群資源"
-
-#. i18n: ectx: property (text), widget (QLabel, manualLink)
-#: libs/ui/forms/KisWelcomePage.ui:203 libs/ui/KisWelcomePageWidget.cpp:371
-#, kde-format
-msgid "User Manual"
-msgstr "使用者手冊"
-
-#. i18n: ectx: property (text), widget (QLabel, gettingStartedLink)
-#: libs/ui/forms/KisWelcomePage.ui:293 libs/ui/KisWelcomePageWidget.cpp:368
-#, kde-format
-msgid "Getting Started"
-msgstr "新手入門"
-
-#. i18n: ectx: property (text), widget (QLabel, userCommunityLink)
-#: libs/ui/forms/KisWelcomePage.ui:380 libs/ui/KisWelcomePageWidget.cpp:365
-#, kde-format
-msgid "User Community"
-msgstr "使用者社群"
-
-#. i18n: ectx: property (text), widget (QLabel, kritaWebsiteLink)
-#: libs/ui/forms/KisWelcomePage.ui:467 libs/ui/KisWelcomePageWidget.cpp:377
-#, kde-format
-msgid "Krita Website"
-msgstr "Krita 官方網站"
-
-#. i18n: ectx: property (text), widget (QLabel, sourceCodeLink)
-#: libs/ui/forms/KisWelcomePage.ui:557 libs/ui/KisWelcomePageWidget.cpp:380
-#, kde-format
-msgid "Source Code"
-msgstr "原始碼"
-
-#. i18n: ectx: property (text), widget (QLabel, supportKritaLink)
-#: libs/ui/forms/KisWelcomePage.ui:644 libs/ui/KisWelcomePageWidget.cpp:374
-#, kde-format
-msgid "Support Krita"
-msgstr "支援 Krita"
-
-#. i18n: ectx: property (text), widget (QLabel, poweredByKDELink)
-#: libs/ui/forms/KisWelcomePage.ui:734 libs/ui/KisWelcomePageWidget.cpp:383
-#, kde-format
-msgid "Powered by KDE"
-msgstr "本軟體基於 KDE"
-
-#. i18n: ectx: property (text), widget (QLabel, dragImageHereLabel)
-#: libs/ui/forms/KisWelcomePage.ui:801
-#, kde-format
-msgid "Drag an image into the window to open"
-msgstr "將影像拖進視窗即可開啟"
-
 #. i18n: ectx: property (text), widget (QLabel, newsTitleLabel)
-#: libs/ui/forms/KisWelcomePage.ui:890
+#: libs/ui/forms/KisWelcomePage.ui:168
 #, kde-format
 msgid "News"
 msgstr "新聞"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, btnNewsOptions)
-#: libs/ui/forms/KisWelcomePage.ui:913
+#: libs/ui/forms/KisWelcomePage.ui:191
 #, kde-format
 msgid "News options"
 msgstr "新聞選項"
 
 #. i18n: ectx: property (text), widget (QLabel, versionNotificationLabel)
-#: libs/ui/forms/KisWelcomePage.ui:1036
+#: libs/ui/forms/KisWelcomePage.ui:314
 #, kde-format
 msgid "Krita Version X.X.X Available"
 msgstr "Krita X.X.X 版已可使用"
 
 #. i18n: ectx: property (text), widget (QPushButton, bnVersionUpdate)
-#: libs/ui/forms/KisWelcomePage.ui:1087
+#: libs/ui/forms/KisWelcomePage.ui:365
 #, kde-format
 msgid "Update now!"
 msgstr "立刻更新！"
 
 #. i18n: ectx: property (text), widget (QPushButton, bnErrorDetails)
-#: libs/ui/forms/KisWelcomePage.ui:1094
+#: libs/ui/forms/KisWelcomePage.ui:372
 #, kde-format
 msgid "Show details"
 msgstr "顯示詳細資料"
 
 #. i18n: ectx: property (text), widget (QLabel, labelNoFeed)
-#: libs/ui/forms/KisWelcomePage.ui:1177 libs/ui/KisWelcomePageWidget.cpp:385
+#: libs/ui/forms/KisWelcomePage.ui:455 libs/ui/KisWelcomePageWidget.cpp:395
 #, kde-format
 msgid ""
 "You can <a href=\"ignored\" style=\"color: COLOR_PLACEHOLDER; text-"
@@ -21272,39 +21222,93 @@ msgstr ""
 "text-decoration: underline;\">啟用新聞</a>以取得來自 krita.org 的新聞資訊，以"
 "及選擇新聞語言"
 
+#. i18n: ectx: property (text), widget (QLabel, helpTitleLabel)
+#: libs/ui/forms/KisWelcomePage.ui:562
+#, kde-format
+msgid "Community"
+msgstr "社群資源"
+
+#. i18n: ectx: property (text), widget (QLabel, manualLink)
+#: libs/ui/forms/KisWelcomePage.ui:647 libs/ui/KisWelcomePageWidget.cpp:381
+#, kde-format
+msgid "User Manual"
+msgstr "使用者手冊"
+
+#. i18n: ectx: property (text), widget (QLabel, gettingStartedLink)
+#: libs/ui/forms/KisWelcomePage.ui:737 libs/ui/KisWelcomePageWidget.cpp:378
+#, kde-format
+msgid "Getting Started"
+msgstr "新手入門"
+
+#. i18n: ectx: property (text), widget (QLabel, userCommunityLink)
+#: libs/ui/forms/KisWelcomePage.ui:824 libs/ui/KisWelcomePageWidget.cpp:375
+#, kde-format
+msgid "User Community"
+msgstr "使用者社群"
+
+#. i18n: ectx: property (text), widget (QLabel, kritaWebsiteLink)
+#: libs/ui/forms/KisWelcomePage.ui:911 libs/ui/KisWelcomePageWidget.cpp:387
+#, kde-format
+msgid "Krita Website"
+msgstr "Krita 官方網站"
+
+#. i18n: ectx: property (text), widget (QLabel, sourceCodeLink)
+#: libs/ui/forms/KisWelcomePage.ui:1001 libs/ui/KisWelcomePageWidget.cpp:390
+#, kde-format
+msgid "Source Code"
+msgstr "原始碼"
+
+#. i18n: ectx: property (text), widget (QLabel, supportKritaLink)
+#: libs/ui/forms/KisWelcomePage.ui:1088 libs/ui/KisWelcomePageWidget.cpp:384
+#, kde-format
+msgid "Support Krita"
+msgstr "支援 Krita"
+
+#. i18n: ectx: property (text), widget (QLabel, poweredByKDELink)
+#: libs/ui/forms/KisWelcomePage.ui:1178 libs/ui/KisWelcomePageWidget.cpp:393
+#, kde-format
+msgid "Powered by KDE"
+msgstr "本軟體基於 KDE"
+
+#. i18n: ectx: property (text), widget (QLabel, dragImageHereLabel)
+#: libs/ui/forms/KisWelcomePage.ui:1261
+#, kde-format
+msgid "Drag an image into the window to open"
+msgstr "將影像拖進視窗即可開啟"
+
 #. i18n: ectx: property (text), widget (QLabel, startTitleLabel)
-#: libs/ui/forms/KisWelcomePage.ui:1273
+#: libs/ui/forms/KisWelcomePage.ui:1361
 #, kde-format
 msgid "Start"
 msgstr "開始作業"
 
 #. i18n: ectx: property (text), widget (QLabel, devBuildLabel)
-#: libs/ui/forms/KisWelcomePage.ui:1340 libs/ui/KisWelcomePageWidget.cpp:606
+#: libs/ui/forms/KisWelcomePage.ui:1428 libs/ui/KisWelcomePageWidget.cpp:616
 #, kde-format
 msgid "DEV BUILD"
 msgstr "開發建置版本"
 
 #. i18n: ectx: property (text), widget (QPushButton, newFileLink)
-#: libs/ui/forms/KisWelcomePage.ui:1416
+#: libs/ui/forms/KisWelcomePage.ui:1504
 #, kde-format
 msgid "New File"
 msgstr "建立檔案"
 
 #. i18n: ectx: property (text), widget (QLabel, recentDocumentsLabel)
-#: libs/ui/forms/KisWelcomePage.ui:1565
+#: libs/ui/forms/KisWelcomePage.ui:1655
 #, kde-format
 msgid "Recent Documents"
 msgstr "最近檔案"
 
 #. i18n: ectx: property (text), widget (QPushButton, clearRecentFilesLink)
-#: libs/ui/forms/KisWelcomePage.ui:1623
+#: libs/ui/forms/KisWelcomePage.ui:1713
 #, kde-format
 msgctxt "Welcome Screen Recent Document List's Clear link Label"
 msgid "Clear"
 msgstr "清除"
 
 #. i18n: ectx: property (text), widget (QLabel, labelNoRecentDocs)
-#: libs/ui/forms/KisWelcomePage.ui:1676
+#: libs/ui/forms/KisWelcomePage.ui:1766
 #, kde-format
 msgid ""
 "You don't seem to have any\n"
@@ -21314,7 +21318,7 @@ msgstr ""
 "開啟過文件"
 
 #. i18n: ectx: property (text), widget (QLabel, labelSupportText)
-#: libs/ui/forms/KisWelcomePage.ui:1826
+#: libs/ui/forms/KisWelcomePage.ui:1874
 #, kde-format
 msgid ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
@@ -24514,7 +24518,7 @@ msgid "Anti-aliasing"
 msgstr "反鋸齒"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, DlgSessionManager)
-#: libs/ui/forms/wdgsessionmanager.ui:18 libs/ui/KisApplication.cpp:315
+#: libs/ui/forms/wdgsessionmanager.ui:18 libs/ui/KisApplication.cpp:314
 #, kde-format
 msgid "Sessions"
 msgstr "工作階段"
@@ -25841,7 +25845,7 @@ msgstr "選擇前景色和背景色(&C)"
 msgid "&Painter's Tools"
 msgstr "繪畫工具(&P)"
 
-#: libs/ui/kis_control_frame.cpp:176 libs/ui/KisApplication.cpp:311
+#: libs/ui/kis_control_frame.cpp:176 libs/ui/KisApplication.cpp:310
 #: plugins/dockers/patterndocker/patterndocker_dock.cpp:20
 #: plugins/extensions/resourcemanager/dlg_embed_tags.cpp:65
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:241
@@ -25854,8 +25858,8 @@ msgstr "圖案"
 msgid "Custom Pattern"
 msgstr "自訂圖案"
 
-#: libs/ui/kis_control_frame.cpp:226 libs/ui/KisApplication.cpp:296
-#: libs/ui/KisApplication.cpp:297
+#: libs/ui/kis_control_frame.cpp:226 libs/ui/KisApplication.cpp:295
+#: libs/ui/KisApplication.cpp:296
 #: plugins/extensions/resourcemanager/dlg_embed_tags.cpp:63
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:244
 #, kde-format
@@ -26608,67 +26612,67 @@ msgctxt "<color space> <image profile>"
 msgid "%1  %2"
 msgstr "%1  %2"
 
-#: libs/ui/kis_zoom_manager.cc:322
+#: libs/ui/kis_zoom_manager.cc:320
 #, kde-format
 msgctxt "floating message about zoom"
 msgid "Zoom: %1 %"
 msgstr "縮放：%1 %"
 
-#: libs/ui/KisApplication.cpp:288
+#: libs/ui/KisApplication.cpp:287
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:238
 #, kde-format
 msgid "Brush presets"
 msgstr "筆刷預設"
 
-#: libs/ui/KisApplication.cpp:291 libs/ui/KisApplication.cpp:292
-#: libs/ui/KisApplication.cpp:293 libs/ui/KisApplication.cpp:294
+#: libs/ui/KisApplication.cpp:290 libs/ui/KisApplication.cpp:291
+#: libs/ui/KisApplication.cpp:292 libs/ui/KisApplication.cpp:293
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:239
 #, kde-format
 msgid "Brush tips"
 msgstr "筆刷提示"
 
-#: libs/ui/KisApplication.cpp:299
+#: libs/ui/KisApplication.cpp:298
 #: plugins/extensions/resourcemanager/dlg_embed_tags.cpp:66
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:242
 #, kde-format
 msgid "Palettes"
 msgstr "調色板"
 
-#: libs/ui/KisApplication.cpp:312 libs/ui/widgets/kis_workspace_chooser.cpp:78
+#: libs/ui/KisApplication.cpp:311 libs/ui/widgets/kis_workspace_chooser.cpp:78
 #: plugins/extensions/resourcemanager/dlg_embed_tags.cpp:67
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:240
 #, kde-format
 msgid "Workspaces"
 msgstr "作業空間"
 
-#: libs/ui/KisApplication.cpp:313
+#: libs/ui/KisApplication.cpp:312
 #, kde-format
 msgid "SVG symbol libraries"
 msgstr "SVG 符號庫"
 
-#: libs/ui/KisApplication.cpp:314 libs/ui/widgets/kis_workspace_chooser.cpp:79
+#: libs/ui/KisApplication.cpp:313 libs/ui/widgets/kis_workspace_chooser.cpp:79
 #, kde-format
 msgid "Window layouts"
 msgstr "視窗版面配置"
 
-#: libs/ui/KisApplication.cpp:316
+#: libs/ui/KisApplication.cpp:315
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:245
 #, kde-format
 msgid "Gamut masks"
 msgstr "色域遮罩"
 
-#: libs/ui/KisApplication.cpp:318
+#: libs/ui/KisApplication.cpp:317
 #, kde-format
 msgid "SeExpr Scripts"
 msgstr "SeExpr 指令稿"
 
-#: libs/ui/KisApplication.cpp:323
+#: libs/ui/KisApplication.cpp:322
 #, kde-format
 msgctxt "Resource type name"
 msgid "Layer styles"
 msgstr "圖層樣式"
 
-#: libs/ui/KisApplication.cpp:327
+#: libs/ui/KisApplication.cpp:325
 #, kde-format
 msgid ""
 "%1\n"
@@ -26679,13 +26683,13 @@ msgstr ""
 "\n"
 "Krita 將立刻離開。"
 
-#: libs/ui/KisApplication.cpp:327 libs/ui/KisApplication.cpp:334
+#: libs/ui/KisApplication.cpp:325 libs/ui/KisApplication.cpp:331
 #, kde-format
 msgctxt "@title:window"
 msgid "Krita: Fatal error"
 msgstr "Krita：嚴重錯誤"
 
-#: libs/ui/KisApplication.cpp:334
+#: libs/ui/KisApplication.cpp:331
 #, kde-format
 msgid ""
 "\n"
@@ -26696,12 +26700,12 @@ msgstr ""
 "\n"
 "Krita 將立刻退出。"
 
-#: libs/ui/KisApplication.cpp:359
+#: libs/ui/KisApplication.cpp:355
 #, kde-format
 msgid "Loading Plugins Exiv/IO..."
 msgstr "正在載入 Exiv 和輸入輸出外掛程式…"
 
-#: libs/ui/KisApplication.cpp:375
+#: libs/ui/KisApplication.cpp:371
 #, kde-format
 msgid ""
 "You are running a 32 bits build on a 64 bits Windows.\n"
@@ -26712,50 +26716,50 @@ msgstr ""
 "我們不建議此做法。\n"
 "請下載並安裝 x64 版本的 Krita 應用程式。"
 
-#: libs/ui/KisApplication.cpp:392
+#: libs/ui/KisApplication.cpp:388
 #, kde-format
 msgid "Initializing Globals..."
 msgstr "正在初始化全域參數…"
 
-#: libs/ui/KisApplication.cpp:423
+#: libs/ui/KisApplication.cpp:419
 #, kde-format
 msgid "Adding resource types..."
 msgstr "正在新增資源類型…"
 
-#: libs/ui/KisApplication.cpp:441
+#: libs/ui/KisApplication.cpp:437
 #, kde-format
 msgid "Loading Main Window..."
 msgstr "正在載入主視窗…"
 
-#: libs/ui/KisApplication.cpp:540
+#: libs/ui/KisApplication.cpp:536
 #, kde-format
 msgid "Mimetype not found, try using the -mimetype option"
 msgstr "無法找到 MIME 類型，請嘗試使用 -mimetype 選項"
 
-#: libs/ui/KisApplication.cpp:596
+#: libs/ui/KisApplication.cpp:592
 #, kde-format
 msgid "Failed to render animation frames!"
 msgstr "動畫影格繪製失敗！"
 
-#: libs/ui/KisApplication.cpp:623 libs/ui/KisApplication.cpp:756
+#: libs/ui/KisApplication.cpp:619 libs/ui/KisApplication.cpp:754
 #, kde-format
 msgid "File layer"
 msgstr "檔案圖層"
 
-#: libs/ui/KisApplication.cpp:631 libs/ui/KisApplication.cpp:636
-#: libs/ui/KisApplication.cpp:750 libs/ui/KisApplication.cpp:764
-#: libs/ui/KisApplication.cpp:769
+#: libs/ui/KisApplication.cpp:627 libs/ui/KisApplication.cpp:632
+#: libs/ui/KisApplication.cpp:748 libs/ui/KisApplication.cpp:762
+#: libs/ui/KisApplication.cpp:767
 #, kde-format
 msgctxt "@title:window"
 msgid "Krita:Warning"
 msgstr "Krita：警告"
 
-#: libs/ui/KisApplication.cpp:632 libs/ui/KisApplication.cpp:765
+#: libs/ui/KisApplication.cpp:628 libs/ui/KisApplication.cpp:763
 #, kde-format
 msgid "Cannot add %1 as a file layer: the file does not exist."
 msgstr "無法新增 %1 為檔案圖層：檔案不存在。"
 
-#: libs/ui/KisApplication.cpp:637
+#: libs/ui/KisApplication.cpp:633
 #, kde-format
 msgid ""
 "Cannot add the file layer: no document is open.\n"
@@ -26774,7 +26778,7 @@ msgstr ""
 "如果您想改新增檔案圖層至執行中 Krita 實體中的文件，請核取設定中的「只允許一"
 "個 Krita 實體」(設定 -> 一般 -> 視窗)。"
 
-#: libs/ui/KisApplication.cpp:643
+#: libs/ui/KisApplication.cpp:639
 #, kde-format
 msgid ""
 "Cannot add the file layer: no document is open.\n"
@@ -26784,32 +26788,32 @@ msgstr ""
 "無法新增檔案圖層：未開啟檔案。\n"
 "您可使用 --new-image 選項建立新檔案，或者是開啟現有檔案。"
 
-#: libs/ui/KisApplication.cpp:751
+#: libs/ui/KisApplication.cpp:749
 #, kde-format
 msgid "Couldn't open file %1"
 msgstr "無法開啟檔案「%1」"
 
-#: libs/ui/KisApplication.cpp:770
+#: libs/ui/KisApplication.cpp:768
 #, kde-format
 msgid "Cannot add the file layer: no document is open."
 msgstr "無法新增檔案圖層：未開啟檔案。"
 
-#: libs/ui/KisApplication.cpp:889
+#: libs/ui/KisApplication.cpp:887
 #, kde-format
 msgid "No template found for: %1"
 msgstr "找不到適用於 %1 的範本"
 
-#: libs/ui/KisApplication.cpp:892
+#: libs/ui/KisApplication.cpp:890
 #, kde-format
 msgid "Too many templates found for: %1"
 msgstr "適用於 %1 的範本過多"
 
-#: libs/ui/KisApplication.cpp:908
+#: libs/ui/KisApplication.cpp:906
 #, kde-format
 msgid "Template %1 failed to load."
 msgstr "範本 %1 載入失敗。"
 
-#: libs/ui/KisApplication.cpp:940
+#: libs/ui/KisApplication.cpp:938
 #, kde-format
 msgid ""
 "Krita configurations reset!\n"
@@ -26824,7 +26828,7 @@ msgstr ""
 "\n"
 "請重新啟動 Krita 以套用變更。"
 
-#: libs/ui/KisApplication.cpp:954
+#: libs/ui/KisApplication.cpp:952
 #, kde-format
 msgid ""
 "Failed to clear %1\n"
@@ -26835,7 +26839,7 @@ msgstr ""
 "\n"
 "請確保沒有其他程式正在使用該檔案並重試。"
 
-#: libs/ui/KisApplication.cpp:982
+#: libs/ui/KisApplication.cpp:980
 #, kde-format
 msgid "Do you want to clear the settings file?"
 msgstr "要清空設定檔嗎？"
@@ -26906,32 +26910,32 @@ msgstr "不顯示啟動畫面"
 msgid "Start Krita in full-screen mode"
 msgstr "以全螢幕模式啟動 Krita"
 
-#: libs/ui/KisApplicationArguments.cpp:88
+#: libs/ui/KisApplicationArguments.cpp:89
 #, kde-format
 msgid "Override display DPI"
 msgstr "無視顯示器 DPI"
 
-#: libs/ui/KisApplicationArguments.cpp:89
+#: libs/ui/KisApplicationArguments.cpp:93
 #, kde-format
 msgid "Export to the given filename and exit"
 msgstr "匯出到指定的檔案名並退出"
 
-#: libs/ui/KisApplicationArguments.cpp:90
+#: libs/ui/KisApplicationArguments.cpp:94
 #, kde-format
 msgid "Export animation to the given filename and exit"
 msgstr "匯出動畫到指定檔案名並退出"
 
-#: libs/ui/KisApplicationArguments.cpp:91
+#: libs/ui/KisApplicationArguments.cpp:95
 #, kde-format
 msgid "Filename for export"
 msgstr "匯出的檔案名"
 
-#: libs/ui/KisApplicationArguments.cpp:92
+#: libs/ui/KisApplicationArguments.cpp:96
 #, kde-format
 msgid "File layer to be added to existing or new file"
 msgstr "要新增至現存檔案或新檔案的檔案圖層"
 
-#: libs/ui/KisApplicationArguments.cpp:93
+#: libs/ui/KisApplicationArguments.cpp:97
 #, kde-format
 msgid "File(s) or URL(s) to open"
 msgstr "要開啟的檔案或 URL"
@@ -27551,19 +27555,19 @@ msgstr "自訂檔案"
 msgid "Create from Clipboard"
 msgstr "從剪貼簿建立"
 
-#: libs/ui/KisMainWindow.cpp:1887
+#: libs/ui/KisMainWindow.cpp:1889
 #, kde-format
 msgid "Layers/Masks"
 msgstr "圖層/遮罩"
 
-#: libs/ui/KisMainWindow.cpp:1913
+#: libs/ui/KisMainWindow.cpp:1915
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:179
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:261
 #, kde-format
 msgid "You don't have any resource bundles enabled."
 msgstr "您沒有啟用任何資源包"
 
-#: libs/ui/KisMainWindow.cpp:1917
+#: libs/ui/KisMainWindow.cpp:1919
 #, kde-format
 msgid ""
 "\n"
@@ -27573,7 +27577,7 @@ msgstr ""
 "\n"
 "無可用的筆刷預設。在繼續之前請先啟用一個含有筆刷預設的資源包。\n"
 
-#: libs/ui/KisMainWindow.cpp:1927
+#: libs/ui/KisMainWindow.cpp:1929
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:189
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:273
 #, kde-format
@@ -27584,7 +27588,7 @@ msgstr ""
 "\n"
 "只有您在本機的資源可用。"
 
-#: libs/ui/KisMainWindow.cpp:2066 libs/ui/KisMainWindow.cpp:2149
+#: libs/ui/KisMainWindow.cpp:2068 libs/ui/KisMainWindow.cpp:2151
 #, kde-format
 msgid ""
 "Could not finish import animation:\n"
@@ -27593,59 +27597,59 @@ msgstr ""
 "無法完成匯入動畫：\n"
 "%1"
 
-#: libs/ui/KisMainWindow.cpp:2125
+#: libs/ui/KisMainWindow.cpp:2127
 #, kde-format
 msgid "Failed to create new document. Animation import aborted."
 msgstr "無法建立新文件。已終止匯入動畫。"
 
-#: libs/ui/KisMainWindow.cpp:2550
+#: libs/ui/KisMainWindow.cpp:2556
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Import Workspace..."
 msgstr "匯入作業空間(&I)…"
 
-#: libs/ui/KisMainWindow.cpp:2570
+#: libs/ui/KisMainWindow.cpp:2576
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&New Workspace..."
 msgstr "新作業空間(&N)…"
 
-#: libs/ui/KisMainWindow.cpp:2586
+#: libs/ui/KisMainWindow.cpp:2592
 #, kde-format
 msgctxt "@title:window"
 msgid "New Workspace..."
 msgstr "新作業空間…"
 
-#: libs/ui/KisMainWindow.cpp:2630
+#: libs/ui/KisMainWindow.cpp:2636
 #, kde-format
 msgid "&%1 %2"
 msgstr "%1 %2"
 
-#: libs/ui/KisMainWindow.cpp:2633
+#: libs/ui/KisMainWindow.cpp:2639
 #, kde-format
 msgid "%1 %2"
 msgstr "%1 %2"
 
-#: libs/ui/KisMainWindow.cpp:2791
+#: libs/ui/KisMainWindow.cpp:2797
 #, kde-format
 msgid ""
 "The Krita LittleCMS color management plugin is not installed. Krita will "
 "quit now."
 msgstr "未安裝 Krita 的 LittleCMS 色彩管理外掛程式。Krita 將立即退出。"
 
-#: libs/ui/KisMainWindow.cpp:2807
+#: libs/ui/KisMainWindow.cpp:2813
 #, kde-format
 msgctxt "@title:window"
 msgid "Installation error"
 msgstr "安裝錯誤"
 
-#: libs/ui/KisMainWindow.cpp:2919
+#: libs/ui/KisMainWindow.cpp:2925
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Themes"
 msgstr "主題(&T)"
 
-#: libs/ui/KisMainWindow.cpp:2973
+#: libs/ui/KisMainWindow.cpp:2979
 #, kde-format
 msgid "Expanding Spacer"
 msgstr "擴張空白佔位符"
@@ -28022,22 +28026,22 @@ msgstr "語言"
 msgid "English news is always up to date."
 msgstr "英文新聞永遠是最更新的。"
 
-#: libs/ui/KisWelcomePageWidget.cpp:408
+#: libs/ui/KisWelcomePageWidget.cpp:418
 #, kde-format
 msgid "Get your Krita Supporter Badge here!"
 msgstr "在此取得您的 Krita 支持者徽章！"
 
-#: libs/ui/KisWelcomePageWidget.cpp:711
+#: libs/ui/KisWelcomePageWidget.cpp:721
 #, kde-format
 msgid "New version of Krita is available."
 msgstr "Krita 有新版可用。"
 
-#: libs/ui/KisWelcomePageWidget.cpp:741
+#: libs/ui/KisWelcomePageWidget.cpp:751
 #, kde-format
 msgid "An error occurred during the update"
 msgstr "更新時發生錯誤"
 
-#: libs/ui/KisWelcomePageWidget.cpp:750
+#: libs/ui/KisWelcomePageWidget.cpp:760
 #, kde-format
 msgid "Restart is required."
 msgstr "需要重新啟動。"
@@ -34121,6 +34125,12 @@ msgstr "速率："
 msgid "Preview playback speed"
 msgstr "預覽播放速率"
 
+#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:124
+#, kde-format
+msgctxt "Value (Keep short!)"
+msgid "Val:"
+msgstr ""
+
 #: plugins/dockers/animation/KisAnimCurvesDocker.cpp:159
 #: plugins/dockers/animation/KisAnimTimelineDocker.cpp:121
 #, kde-format
@@ -36352,7 +36362,7 @@ msgstr "編輯子分鏡"
 
 #: plugins/dockers/storyboarddocker/StoryboardDelegate.cpp:135
 #: plugins/dockers/storyboarddocker/StoryboardDelegate.cpp:299
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:499
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:540
 #, kde-format
 msgctxt "suffix in spin box in storyboard that means 'seconds'"
 msgid "s"
@@ -36360,55 +36370,63 @@ msgstr "秒"
 
 #: plugins/dockers/storyboarddocker/StoryboardDelegate.cpp:140
 #: plugins/dockers/storyboarddocker/StoryboardDelegate.cpp:306
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:502
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:543
 #, kde-format
 msgctxt "suffix in spin box in storyboard that means 'frames'"
 msgid "f"
 msgstr "格"
 
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:149
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:150
 #, kde-format
 msgctxt "Storyboard Docker"
 msgid "Storyboard"
 msgstr "分鏡"
 
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:166
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:167
 #, kde-format
 msgctxt "Export storyboard as PDF"
 msgid "Export as PDF"
 msgstr "匯出為 PDF"
 
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:169
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:170
 #, kde-format
 msgctxt "Export storyboard as SVG"
 msgid "Export as SVG"
 msgstr "匯出為 SVG"
 
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:178
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:179
 #, kde-format
 msgctxt "Freeze keyframe positions and ignore storyboard adjustments"
 msgid "Freeze Keyframe Data"
 msgstr "凍結關鍵影格資料"
 
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:353
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:362
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:208
+#: plugins/dockers/storyboarddocker/StoryboardView.cpp:280
+#, kde-format
+msgctxt "Add new scene as the last storyboard"
+msgid "Add Scene"
+msgstr "加入場景"
+
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:224
+#: plugins/dockers/storyboarddocker/StoryboardView.cpp:291
+#, kde-format
+msgctxt "Remove current scene from storyboards"
+msgid "Remove Scene"
+msgstr "移除場景"
+
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:394
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:403
 #, kde-format
 msgid ""
 "Please enter correct range. There are no panels in the range of frames "
 "provided."
 msgstr "請輸入正確的範圍。您提供的影格範圍內沒有任何面板。"
 
-#: plugins/dockers/storyboarddocker/StoryboardModel.cpp:1252
+#: plugins/dockers/storyboarddocker/StoryboardModel.cpp:1253
 #, kde-format
 msgctxt "default name for storyboard item"
 msgid "scene "
 msgstr "場景"
-
-#: plugins/dockers/storyboarddocker/StoryboardView.cpp:280
-#, kde-format
-msgctxt "Add new scene as the last storyboard"
-msgid "Add Scene"
-msgstr "加入場景"
 
 #: plugins/dockers/storyboarddocker/StoryboardView.cpp:287
 #, kde-format
@@ -36421,12 +36439,6 @@ msgstr "加入場景到後方"
 msgctxt "Add scene before active scene"
 msgid "Add Scene Before"
 msgstr "加入場景到前方"
-
-#: plugins/dockers/storyboarddocker/StoryboardView.cpp:291
-#, kde-format
-msgctxt "Remove current scene from storyboards"
-msgid "Remove Scene"
-msgstr "移除場景"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: plugins/dockers/storyboarddocker/wdgarrangemenu.ui:28
