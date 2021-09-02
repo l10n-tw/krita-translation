@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-09-02 00:16+0000\n"
-"PO-Revision-Date: 2021-08-30 07:03+0000\n"
+"PO-Revision-Date: 2021-09-02 08:04+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -34129,7 +34129,7 @@ msgstr "預覽播放速率"
 #, kde-format
 msgctxt "Value (Keep short!)"
 msgid "Val:"
-msgstr ""
+msgstr "值："
 
 #: plugins/dockers/animation/KisAnimCurvesDocker.cpp:159
 #: plugins/dockers/animation/KisAnimTimelineDocker.cpp:121
