@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-09-03 00:15+0000\n"
-"PO-Revision-Date: 2021-09-02 08:04+0000\n"
+"PO-Revision-Date: 2021-09-03 07:48+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -21076,18 +21076,14 @@ msgid "Preset Icon Library"
 msgstr "預設圖示庫"
 
 #: libs/ui/dialogs/KisDlgSavePreset.cpp:191
-#, fuzzy, kde-format
-#| msgctxt "Error message when saving a .kra file"
-#| msgid "Could not save resource %1 to the kra file."
+#, kde-format
 msgid "Could not save preset under name %1, it already exists."
-msgstr "無法儲存資源 %1 到 KRA 檔案。"
+msgstr "無法儲存筆刷預設作名稱 %1：檔案已存在。"
 
 #: libs/ui/dialogs/KisDlgSavePreset.cpp:206
-#, fuzzy, kde-format
-#| msgctxt "Error message when saving a .kra file"
-#| msgid "Could not save resources: %1."
+#, kde-format
 msgid "Could not update preset %1."
-msgstr "無法儲存資源：%1。"
+msgstr "無法更新筆刷預設 %1。"
 
 #: libs/ui/dialogs/KisRecoverNamedAutosaveDialog.cpp:32
 #, kde-format
