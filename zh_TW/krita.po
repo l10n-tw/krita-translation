@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-09-04 00:15+0000\n"
-"PO-Revision-Date: 2021-09-03 07:48+0000\n"
+"PO-Revision-Date: 2021-09-04 08:15+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -41603,32 +41603,28 @@ msgid "Y-Rotation:"
 msgstr "Y 軸旋轉："
 
 #: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:21
-#, fuzzy, kde-format
-#| msgid "Pixels/Inch"
+#, kde-format
 msgctxt "Screentone generator resolution units - pixels/inch"
 msgid " pixels/inch"
-msgstr "像素/英寸"
+msgstr " 像素/英寸"
 
 #: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:22
-#, fuzzy, kde-format
-#| msgid "Pixels/Inch"
+#, kde-format
 msgctxt "Screentone generator resolution units - pixels/cm"
 msgid " pixels/cm"
-msgstr "像素/英寸"
+msgstr " 像素/公分"
 
 #: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:23
 #, kde-format
 msgctxt "Screentone generator line units - lines/inch"
 msgid " lines/inch"
-msgstr ""
+msgstr " 線條/英寸"
 
 #: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:24
-#, fuzzy, kde-format
-#| msgctxt "./krita/data/patterns/Maze_lines.png"
-#| msgid "Maze lines"
+#, kde-format
 msgctxt "Screentone generator line units - lines/cm"
 msgid " lines/cm"
-msgstr "迷宮線條"
+msgstr " 線條/公分"
 
 #: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:57
 #: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:65
@@ -41647,56 +41643,47 @@ msgid "Y: "
 msgstr "Y："
 
 #: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:94
-#, fuzzy, kde-format
-#| msgctxt "Prefix: “Every x min”"
-#| msgid "Every "
+#, kde-format
 msgctxt "Prefix. Part of 'Every # cell/s horizontally"
 msgid "Every "
-msgstr "每隔 "
+msgstr "每 "
 
 #: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:95
 #: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:534
-#, fuzzy, kde-format
-#| msgid "Horizontally"
+#, kde-format
 msgctxt "Suffix. Part of 'Every # cell/s horizontally"
 msgid " cell horizontally"
-msgstr "水平"
+msgstr " 格 (水平)"
 
 #: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:97
-#, fuzzy, kde-format
-#| msgctxt "Prefix: “Every x min”"
-#| msgid "Every "
+#, kde-format
 msgctxt "Prefix. Part of 'Every # cell/s vertically"
 msgid "Every "
-msgstr "每隔 "
+msgstr "每 "
 
 #: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:98
-#, fuzzy, kde-format
-#| msgid "Flip vertically"
+#, kde-format
 msgctxt "Suffix. Part of 'Every # cell/s vertically"
 msgid " cell vertically"
-msgstr "垂直翻轉"
+msgstr " 格 (垂直)"
 
 #: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:536
-#, fuzzy, kde-format
-#| msgid "Horizontally"
+#, kde-format
 msgctxt "Suffix. Part of 'Every # cell/s horizontally"
 msgid " cells horizontally"
-msgstr "水平"
+msgstr " 格 (水平)"
 
 #: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:546
-#, fuzzy, kde-format
-#| msgid "Flip vertically"
+#, kde-format
 msgctxt "Suffix. Part of 'Every # cell/s horizontally"
 msgid " cell vertically"
-msgstr "垂直翻轉"
+msgstr " 格 (垂直)"
 
 #: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:548
-#, fuzzy, kde-format
-#| msgid "Flip vertically"
+#, kde-format
 msgctxt "Suffix. Part of 'Every # cell/s horizontally"
 msgid " cells vertically"
-msgstr "垂直翻轉"
+msgstr " 格 (垂直)"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tabScreentoneType)
 #: plugins/generators/screentone/KisScreentoneConfigWidget.ui:49
@@ -41712,35 +41699,30 @@ msgstr "插值："
 
 #. i18n: ectx: property (text), widget (QLabel, labelEqualize)
 #: plugins/generators/screentone/KisScreentoneConfigWidget.ui:129
-#, fuzzy, kde-format
-#| msgid "Capitalization:"
+#, kde-format
 msgid "Equalization:"
-msgstr "大寫："
+msgstr "等化："
 
 #. i18n: ectx: property (text), widget (KoGroupButton, buttonEqualizationNone)
 #: plugins/generators/screentone/KisScreentoneConfigWidget.ui:144
-#, fuzzy, kde-format
-#| msgid "None"
+#, kde-format
 msgctxt "Screentone equalization mode"
 msgid "None"
 msgstr "無"
 
 #. i18n: ectx: property (text), widget (KoGroupButton, buttonEqualizationFunctionBased)
 #: plugins/generators/screentone/KisScreentoneConfigWidget.ui:157
-#, fuzzy, kde-format
-#| msgctxt "EXIF: flash"
-#| msgid "Function"
+#, kde-format
 msgctxt "Screentone equalization mode"
 msgid "Function Based"
-msgstr "功能"
+msgstr "基於函數"
 
 #. i18n: ectx: property (text), widget (KoGroupButton, buttonEqualizationTemplateBased)
 #: plugins/generators/screentone/KisScreentoneConfigWidget.ui:173
-#, fuzzy, kde-format
-#| msgid "templates"
+#, kde-format
 msgctxt "Screentone equalization mode"
 msgid "Template Based"
-msgstr "範本"
+msgstr "基於模板"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tabTransformation)
 #: plugins/generators/screentone/KisScreentoneConfigWidget.ui:204
@@ -41750,24 +41732,21 @@ msgstr "變形"
 
 #. i18n: ectx: property (text), widget (QLabel, labelSizeMode)
 #: plugins/generators/screentone/KisScreentoneConfigWidget.ui:245
-#, fuzzy, kde-format
-#| msgid "Scaling Mode:"
+#, kde-format
 msgid "Size Mode:"
-msgstr "檢視縮放演算法："
+msgstr "大小模式："
 
 #. i18n: ectx: property (text), widget (KoGroupButton, buttonSizeModeResolutionBased)
 #: plugins/generators/screentone/KisScreentoneConfigWidget.ui:257
-#, fuzzy, kde-format
-#| msgid "Resolution:"
+#, kde-format
 msgid "Resolution based"
-msgstr "解析度："
+msgstr "基於解析度"
 
 #. i18n: ectx: property (text), widget (KoGroupButton, buttonSizeModePixelBased)
 #: plugins/generators/screentone/KisScreentoneConfigWidget.ui:273
-#, fuzzy, kde-format
-#| msgid "Pixels"
+#, kde-format
 msgid "Pixel based"
-msgstr "像素"
+msgstr "基於像素"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBoxUnits)
 #: plugins/generators/screentone/KisScreentoneConfigWidget.ui:337
@@ -41778,18 +41757,15 @@ msgstr "英寸"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBoxUnits)
 #: plugins/generators/screentone/KisScreentoneConfigWidget.ui:342
-#, fuzzy, kde-format
-#| msgid "Centimeter"
+#, kde-format
 msgid "Centimeters"
 msgstr "公分"
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonResolutionFromImage)
 #: plugins/generators/screentone/KisScreentoneConfigWidget.ui:353
-#, fuzzy, kde-format
-#| msgctxt "(qtundo-format)"
-#| msgid "Crop Image"
+#, kde-format
 msgid "Get From Image"
-msgstr "裁切影像"
+msgstr "取自影像"
 
 #. i18n: ectx: property (text), widget (QLabel, label_frequency)
 #. i18n: ectx: property (text), widget (QLabel, labelFrequency)
@@ -41801,10 +41777,9 @@ msgstr "頻率："
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: plugins/generators/screentone/KisScreentoneConfigWidget.ui:563
-#, fuzzy, kde-format
-#| msgid "Pixel Grid:"
+#, kde-format
 msgid "Align to Pixel Grid:"
-msgstr "像素格線："
+msgstr "對齊像素格線："
 
 #. i18n: ectx: property (text), widget (QLabel, labelPosition)
 #: plugins/generators/screentone/KisScreentoneConfigWidget.ui:586
@@ -41869,11 +41844,10 @@ msgid "Round"
 msgstr "圓形"
 
 #: plugins/generators/screentone/KisScreentoneGeneratorConfiguration.cpp:30
-#, fuzzy, kde-format
-#| msgid "Ellipse Shape"
+#, kde-format
 msgctxt "Screentone Pattern - Ellipse Dots (Krita 4 legacy version)"
 msgid "Ellipse (Legacy)"
-msgstr "橢圓形狀"
+msgstr "橢圓 (舊版)"
 
 #: plugins/generators/screentone/KisScreentoneGeneratorConfiguration.cpp:31
 #, kde-format
