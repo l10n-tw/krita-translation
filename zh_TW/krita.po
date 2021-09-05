@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-09-05 00:16+0000\n"
-"PO-Revision-Date: 2021-09-04 08:15+0000\n"
+"PO-Revision-Date: 2021-09-05 07:20+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -15816,15 +15816,12 @@ msgid ""
 msgstr "此影像含有 <b>Exif</b> 中繼資料。中繼資料將不會被儲存。"
 
 #: libs/impex/ExifCheck.h:75
-#, fuzzy, kde-format
-#| msgctxt "image conversion warning"
-#| msgid ""
-#| "The image contains <b>Exif</b> metadata. The metadata will not be saved."
+#, kde-format
 msgctxt "image conversion warning"
 msgid ""
 "The image has <b>Exif</b> metadata and multiple layers. Only metadata <b>in "
 "the first layer</b> will be saved."
-msgstr "此影像含有 <b>Exif</b> 中繼資料。中繼資料將不會被儲存。"
+msgstr "此影像含有 <b>Exif</b> 中繼資料及多個圖層。只有在<b>第一個圖層內</b>的中繼資料會被儲存。"
 
 #: libs/impex/KisExportCheckRegistry.cpp:98 libs/ui/kis_layer_manager.cc:575
 #, kde-format
