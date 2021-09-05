@@ -15821,7 +15821,9 @@ msgctxt "image conversion warning"
 msgid ""
 "The image has <b>Exif</b> metadata and multiple layers. Only metadata <b>in "
 "the first layer</b> will be saved."
-msgstr "此影像含有 <b>Exif</b> 中繼資料及多個圖層。只有在<b>第一個圖層內</b>的中繼資料會被儲存。"
+msgstr ""
+"此影像含有 <b>Exif</b> 中繼資料及多個圖層。只有在<b>第一個圖層內</b>的中繼資"
+"料會被儲存。"
 
 #: libs/impex/KisExportCheckRegistry.cpp:98 libs/ui/kis_layer_manager.cc:575
 #, kde-format
