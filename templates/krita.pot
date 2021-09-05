@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-09-04 00:15+0000\n"
+"POT-Creation-Date: 2021-09-05 00:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -13864,8 +13864,8 @@ msgid ""
 "Wayland. Krita will close now."
 msgstr ""
 
-#: krita/main.cc:589 libs/ui/KisApplication.cpp:370
-#: libs/ui/KisApplication.cpp:638
+#: krita/main.cc:589 libs/ui/KisApplication.cpp:362
+#: libs/ui/KisApplication.cpp:627
 #, kde-format
 msgctxt "@title:window"
 msgid "Krita: Warning"
@@ -15105,7 +15105,7 @@ msgid "Imported Image"
 msgstr ""
 
 #: libs/image/kis_image.cc:626 libs/image/kis_layer_utils.cpp:1865
-#: libs/impex/KisExportCheckRegistry.cpp:113
+#: libs/impex/KisExportCheckRegistry.cpp:118
 #, kde-format
 msgid "Selection Mask"
 msgstr ""
@@ -15773,21 +15773,29 @@ msgid ""
 "The image contains <b>compositions</b>. The compositions will not be saved."
 msgstr ""
 
-#: libs/impex/ExifCheck.h:27
+#: libs/impex/ExifCheck.h:28
 #, kde-format
 msgctxt "image conversion warning"
 msgid ""
 "The image contains <b>Exif</b> metadata. The metadata will not be saved."
 msgstr ""
 
-#: libs/impex/KisExportCheckRegistry.cpp:93
+#: libs/impex/ExifCheck.h:75
+#, kde-format
+msgctxt "image conversion warning"
+msgid ""
+"The image has <b>Exif</b> metadata and multiple layers. Only metadata <b>in "
+"the first layer</b> will be saved."
+msgstr ""
+
+#: libs/impex/KisExportCheckRegistry.cpp:98
 #: libs/ui/kis_layer_manager.cc:575
 #, kde-format
 msgid "Clone Layer"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
-#: libs/impex/KisExportCheckRegistry.cpp:95
+#: libs/impex/KisExportCheckRegistry.cpp:100
 #: libs/ui/kis_layer_manager.cc:559 libs/ui/kis_node_manager.cpp:1499
 #: libs/ui/KisPaletteEditor.cpp:417 libs/widgets/kis_palette_view.cpp:114
 #: plugins/dockers/arrangedocker/arrange_docker_widget.ui:338
@@ -15795,52 +15803,52 @@ msgstr ""
 msgid "Group"
 msgstr ""
 
-#: libs/impex/KisExportCheckRegistry.cpp:97
+#: libs/impex/KisExportCheckRegistry.cpp:102
 #: libs/ui/kis_layer_manager.cc:884
 #, kde-format
 msgid "File Layer"
 msgstr ""
 
-#: libs/impex/KisExportCheckRegistry.cpp:99
+#: libs/impex/KisExportCheckRegistry.cpp:104
 #: libs/ui/kis_layer_manager.cc:588 plugins/impex/svg/kis_svg_import.cc:80
 #, kde-format
 msgid "Vector Layer"
 msgstr ""
 
-#: libs/impex/KisExportCheckRegistry.cpp:101
+#: libs/impex/KisExportCheckRegistry.cpp:106
 #: libs/ui/kis_layer_manager.cc:610
 #, kde-format
 msgid "Filter Layer"
 msgstr ""
 
-#: libs/impex/KisExportCheckRegistry.cpp:103
+#: libs/impex/KisExportCheckRegistry.cpp:108
 #, kde-format
 msgid "Generator Layer"
 msgstr ""
 
-#: libs/impex/KisExportCheckRegistry.cpp:105
+#: libs/impex/KisExportCheckRegistry.cpp:110
 #: libs/ui/kis_mask_manager.cc:274
 #, kde-format
 msgid "Colorize Mask"
 msgstr ""
 
-#: libs/impex/KisExportCheckRegistry.cpp:107
+#: libs/impex/KisExportCheckRegistry.cpp:112
 #: libs/ui/dialogs/kis_dlg_filter.cpp:218
 #: libs/ui/kis_mask_manager.cc:223
 #, kde-format
 msgid "Filter Mask"
 msgstr ""
 
-#: libs/impex/KisExportCheckRegistry.cpp:109
+#: libs/impex/KisExportCheckRegistry.cpp:114
 #: libs/ui/kis_mask_manager.cc:286
 #, kde-format
 msgid "Transform Mask"
 msgstr ""
 
-#: libs/impex/KisExportCheckRegistry.cpp:111
+#: libs/impex/KisExportCheckRegistry.cpp:116
 #: libs/ui/kis_mask_manager.cc:210 libs/ui/kis_node_manager.cpp:1290
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:214
-#: plugins/impex/psd/psd_loader.cpp:288 plugins/impex/tiff/kis_tiff_converter.cc:1186
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:213
+#: plugins/impex/psd/psd_loader.cpp:288 plugins/impex/tiff/kis_tiff_converter.cc:1296
 #: plugins/impex/xcf/kis_xcf_import.cpp:273
 #, kde-format
 msgid "Transparency Mask"
@@ -17383,10 +17391,10 @@ msgstr ""
 #: libs/ui/kis_custom_pattern.cc:122 libs/ui/kis_filter_manager.cc:233
 #: libs/ui/kis_filter_manager.cc:242 libs/ui/kis_layer_manager.cc:303
 #: libs/ui/kis_layer_manager.cc:892 libs/ui/kis_node_manager.cpp:1214
-#: libs/ui/kis_node_manager.cpp:1277 libs/ui/KisApplication.cpp:886
-#: libs/ui/KisApplication.cpp:889 libs/ui/KisApplication.cpp:905
-#: libs/ui/KisApplication.cpp:937 libs/ui/KisApplication.cpp:951
-#: libs/ui/KisApplication.cpp:979 libs/ui/KisDocument.cpp:860
+#: libs/ui/kis_node_manager.cpp:1277 libs/ui/KisApplication.cpp:875
+#: libs/ui/KisApplication.cpp:878 libs/ui/KisApplication.cpp:894
+#: libs/ui/KisApplication.cpp:926 libs/ui/KisApplication.cpp:940
+#: libs/ui/KisApplication.cpp:968 libs/ui/KisDocument.cpp:860
 #: libs/ui/KisDocument.cpp:863 libs/ui/KisDocument.cpp:1703
 #: libs/ui/KisDocument.cpp:1746 libs/ui/KisDocument.cpp:1754
 #: libs/ui/KisMainWindow.cpp:1090 libs/ui/KisMainWindow.cpp:1217
@@ -18474,7 +18482,7 @@ msgstr ""
 msgid "FFMpeg Crashed"
 msgstr ""
 
-#: libs/ui/animation/KisFFMpegWrapper.cpp:516
+#: libs/ui/animation/KisFFMpegWrapper.cpp:520
 #, kde-format
 msgctxt "Video information probing dialog. arg1: frame number."
 msgid "Loading video data... %1 frames examined."
@@ -26343,12 +26351,7 @@ msgid ""
 "Krita will quit now."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:355
-#, kde-format
-msgid "Loading Plugins Exiv/IO..."
-msgstr ""
-
-#: libs/ui/KisApplication.cpp:371
+#: libs/ui/KisApplication.cpp:363
 #, kde-format
 msgid ""
 "You are running a 32 bits build on a 64 bits Windows.\n"
@@ -26356,50 +26359,50 @@ msgid ""
 "Please download and install the x64 build instead."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:388
+#: libs/ui/KisApplication.cpp:380
 #, kde-format
 msgid "Initializing Globals..."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:419
+#: libs/ui/KisApplication.cpp:411
 #, kde-format
 msgid "Adding resource types..."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:437
+#: libs/ui/KisApplication.cpp:426
 #, kde-format
 msgid "Loading Main Window..."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:536
+#: libs/ui/KisApplication.cpp:525
 #, kde-format
 msgid "Mimetype not found, try using the -mimetype option"
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:592
+#: libs/ui/KisApplication.cpp:581
 #, kde-format
 msgid "Failed to render animation frames!"
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:619 libs/ui/KisApplication.cpp:754
+#: libs/ui/KisApplication.cpp:608 libs/ui/KisApplication.cpp:743
 #, kde-format
 msgid "File layer"
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:627 libs/ui/KisApplication.cpp:632
-#: libs/ui/KisApplication.cpp:748 libs/ui/KisApplication.cpp:762
-#: libs/ui/KisApplication.cpp:767
+#: libs/ui/KisApplication.cpp:616 libs/ui/KisApplication.cpp:621
+#: libs/ui/KisApplication.cpp:737 libs/ui/KisApplication.cpp:751
+#: libs/ui/KisApplication.cpp:756
 #, kde-format
 msgctxt "@title:window"
 msgid "Krita:Warning"
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:628 libs/ui/KisApplication.cpp:763
+#: libs/ui/KisApplication.cpp:617 libs/ui/KisApplication.cpp:752
 #, kde-format
 msgid "Cannot add %1 as a file layer: the file does not exist."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:633
+#: libs/ui/KisApplication.cpp:622
 #, kde-format
 msgid ""
 "Cannot add the file layer: no document is open.\n"
@@ -26412,7 +26415,7 @@ msgid ""
 "checkbox in the settings (Settings -> General -> Window)."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:639
+#: libs/ui/KisApplication.cpp:628
 #, kde-format
 msgid ""
 "Cannot add the file layer: no document is open.\n"
@@ -26420,32 +26423,32 @@ msgid ""
 "open an existing file."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:749
+#: libs/ui/KisApplication.cpp:738
 #, kde-format
 msgid "Couldn't open file %1"
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:768
+#: libs/ui/KisApplication.cpp:757
 #, kde-format
 msgid "Cannot add the file layer: no document is open."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:887
+#: libs/ui/KisApplication.cpp:876
 #, kde-format
 msgid "No template found for: %1"
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:890
+#: libs/ui/KisApplication.cpp:879
 #, kde-format
 msgid "Too many templates found for: %1"
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:906
+#: libs/ui/KisApplication.cpp:895
 #, kde-format
 msgid "Template %1 failed to load."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:938
+#: libs/ui/KisApplication.cpp:927
 #, kde-format
 msgid ""
 "Krita configurations reset!\n"
@@ -26455,7 +26458,7 @@ msgid ""
 "Restart Krita for changes to take effect."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:952
+#: libs/ui/KisApplication.cpp:941
 #, kde-format
 msgid ""
 "Failed to clear %1\n"
@@ -26463,7 +26466,7 @@ msgid ""
 "Please make sure no other program is using the file and try again."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:980
+#: libs/ui/KisApplication.cpp:969
 #, kde-format
 msgid "Do you want to clear the settings file?"
 msgstr ""
@@ -26694,24 +26697,6 @@ msgstr ""
 msgctxt ""
 "progress dialog message when the user closes the document that is being saved"
 msgid "Waiting for saving to complete..."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, exif)
-#: libs/ui/kisexiv2/kis_exif_io.h:24 plugins/extensions/metadataeditor/kis_meta_data_editor.cc:162
-#: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:274
-#, kde-format
-msgid "Exif"
-msgstr ""
-
-#: libs/ui/kisexiv2/kis_iptc_io.h:24
-#, kde-format
-msgid "Iptc"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, xmp)
-#: libs/ui/kisexiv2/kis_xmp_io.h:24 plugins/impex/jpeg/kis_wdg_options_jpeg.ui:294
-#, kde-format
-msgid "XMP"
 msgstr ""
 
 #: libs/ui/KisImportExportErrorCode.cpp:19
@@ -34954,7 +34939,7 @@ msgctxt "action"
 msgid "Export Timelapse..."
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:99
+#: plugins/dockers/recorder/recorder_export.cpp:96
 #, kde-format
 msgctxt ""
 "This text is displayed instead of path to external tool in case of external "
@@ -34962,74 +34947,74 @@ msgctxt ""
 msgid "[NOT FOUND]"
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:100
+#: plugins/dockers/recorder/recorder_export.cpp:97
 #, kde-format
 msgid ""
 "FFMpeg executable location couldn't be detected, please install it or select "
 "its location manually"
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:164
+#: plugins/dockers/recorder/recorder_export.cpp:161
 #, kde-format
 msgid "Abort encoding the timelapse video?"
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:236
+#: plugins/dockers/recorder/recorder_export.cpp:233
 #, kde-format
 msgctxt "Status for the export of the video record"
 msgid "Starting FFMpeg..."
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:340
+#: plugins/dockers/recorder/recorder_export.cpp:337
 #, kde-format
 msgctxt "Can't export recording because nothing to export"
 msgid "No frames to export"
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:344
+#: plugins/dockers/recorder/recorder_export.cpp:341
 #, kde-format
 msgctxt "General information about recording"
 msgid "Recording info"
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:347
+#: plugins/dockers/recorder/recorder_export.cpp:344
 #, kde-format
 msgctxt "Pixel dimension suffix"
 msgid "px"
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:349
+#: plugins/dockers/recorder/recorder_export.cpp:346
 #, kde-format
 msgctxt "The suffix after number of frames"
 msgid "frame(s)"
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:452
+#: plugins/dockers/recorder/recorder_export.cpp:448
 #, kde-format
 msgid "Select FFMpeg Executable File"
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:498
+#: plugins/dockers/recorder/recorder_export.cpp:494
 #, kde-format
 msgid "Export Timelapse Video As"
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:513
+#: plugins/dockers/recorder/recorder_export.cpp:509
 #, kde-format
 msgid "The video file is already exists. Do you wish to overwrite?"
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:540
+#: plugins/dockers/recorder/recorder_export.cpp:536
 #, kde-format
 msgid "The timelapse video is being encoded..."
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:553
+#: plugins/dockers/recorder/recorder_export.cpp:549
 #, kde-format
 msgid "Export failed. FFMpeg message:"
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:574
+#: plugins/dockers/recorder/recorder_export.cpp:570
 #, kde-format
 msgid ""
 "The recordings for this document will be deleted and you will not be able to "
@@ -35038,7 +35023,7 @@ msgid ""
 "Do you wish to continue?"
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:581
+#: plugins/dockers/recorder/recorder_export.cpp:577
 #: plugins/dockers/recorder/recorder_snapshots_manager.cpp:260
 #, kde-format
 msgctxt "Label title, Snapshot directory deleting is in progress"
@@ -37331,6 +37316,14 @@ msgstr ""
 #: plugins/extensions/metadataeditor/kis_meta_data_editor.cc:97
 #, kde-format
 msgid "Dublin Core"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, exif)
+#: plugins/extensions/metadataeditor/kis_meta_data_editor.cc:162
+#: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:274
+#: plugins/metadata/exif/kis_exif_io.h:28
+#, kde-format
+msgid "Exif"
 msgstr ""
 
 #: plugins/extensions/metadataeditor/kis_meta_data_editor.cc:174
@@ -42003,6 +41996,13 @@ msgstr ""
 msgid "IPTC"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QCheckBox, xmp)
+#: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:294
+#: plugins/metadata/xmp/kis_xmp_io.h:26
+#, kde-format
+msgid "XMP"
+msgstr ""
+
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkMetaData)
 #: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:333
 #, kde-format
@@ -42038,12 +42038,12 @@ msgstr ""
 msgid "Sign with Author Profile Data"
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:140
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:139
 #, kde-format
 msgid "Could not load embedded reference image %1 "
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:145
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:144
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -42054,7 +42054,7 @@ msgid ""
 "Do you want to select another location?"
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:150
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:149
 #: plugins/impex/libkra/kis_kra_loader.cpp:1018
 #: plugins/impex/libkra/kis_kra_loader.cpp:1388
 #, kde-format
@@ -42062,7 +42062,7 @@ msgctxt "@title:window"
 msgid "File not found"
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:262
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:261
 #, kde-format
 msgctxt "Warning during loading a kra file with a filter layer"
 msgid ""
@@ -42070,7 +42070,7 @@ msgid ""
 "selection."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:325
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:324
 #, kde-format
 msgctxt "Loading a .kra file"
 msgid ""
@@ -42078,74 +42078,74 @@ msgid ""
 "layer will be converted into a paint layer."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:393
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:392
 #, kde-format
 msgid "Could not load \"id\" of the transform mask"
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:407
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:406
 #, kde-format
 msgid "Could not create transform mask params"
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:560
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:559
 #, kde-format
 msgid "Could not find keyframe pixel data for frame %1 in %2."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:568
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:567
 #, kde-format
 msgid "Could not load keyframe pixel data for frame %1 in %2."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:597
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:596
 #, kde-format
 msgid "Could not read pixel data: %1."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:604
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:603
 #, kde-format
 msgid "Could not load pixel data: %1."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:620
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:619
 #, kde-format
 msgid "Could not load profile: %1."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:675
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:674
 #, kde-format
 msgid "Could not filter configuration %1."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:716
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:715
 #, kde-format
 msgid "Could not load metadata for layer %1."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:759
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:758
 #, kde-format
 msgid "Could not load vector selection %1."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:775
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:774
 #, kde-format
 msgid "Could not load raster selection %1."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:805
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:804
 #, kde-format
 msgid "Could not load keyframes from %1."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:819
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:818
 #, kde-format
 msgid ""
 "parsing error in the keyframe file %1 at line %2, column %3\n"
 "Error message: %4"
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:832
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:831
 #, kde-format
 msgid "unknown keyframe channel type: %1 in %2"
 msgstr ""
@@ -44288,6 +44288,11 @@ msgstr ""
 msgid ""
 "This XCF file is too new; Krita cannot support XCF files written by GIMP 2.9 "
 "or newer."
+msgstr ""
+
+#: plugins/metadata/iptc/kis_iptc_io.h:26
+#, kde-format
+msgid "Iptc"
 msgstr ""
 
 #: plugins/paintops/colorsmudge/colorsmudge_paintop_plugin.cpp:30
