@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-09-05 00:16+0000\n"
+"POT-Creation-Date: 2021-09-06 00:16+0000\n"
 "PO-Revision-Date: 2021-09-06 07:46+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
@@ -25315,37 +25315,37 @@ msgstr "Gamma -0.2"
 msgid "Reset Exposure and Gamma"
 msgstr "重設曝光和 Gamma"
 
-#: libs/ui/input/kis_pan_action.cpp:39
+#: libs/ui/input/kis_pan_action.cpp:40
 #, kde-format
 msgid "Pan Canvas"
 msgstr "平移畫布"
 
-#: libs/ui/input/kis_pan_action.cpp:40
+#: libs/ui/input/kis_pan_action.cpp:41
 #, kde-format
 msgid "The <i>Pan Canvas</i> action pans the canvas."
 msgstr "<b>平移畫布</b>操作用於對畫布檢視進行平移。"
 
-#: libs/ui/input/kis_pan_action.cpp:43
+#: libs/ui/input/kis_pan_action.cpp:44
 #, kde-format
 msgid "Pan Mode"
 msgstr "平移模式"
 
-#: libs/ui/input/kis_pan_action.cpp:44
+#: libs/ui/input/kis_pan_action.cpp:45
 #, kde-format
 msgid "Pan Left"
 msgstr "向左平移"
 
-#: libs/ui/input/kis_pan_action.cpp:45
+#: libs/ui/input/kis_pan_action.cpp:46
 #, kde-format
 msgid "Pan Right"
 msgstr "向右平移"
 
-#: libs/ui/input/kis_pan_action.cpp:46
+#: libs/ui/input/kis_pan_action.cpp:47
 #, kde-format
 msgid "Pan Up"
 msgstr "向上平移"
 
-#: libs/ui/input/kis_pan_action.cpp:47
+#: libs/ui/input/kis_pan_action.cpp:48
 #, kde-format
 msgid "Pan Down"
 msgstr "向下平移"
@@ -47463,7 +47463,8 @@ msgctxt "@info:tooltip"
 msgid ""
 "The selected brush engine does not support \"Color\" or \"Lightness\" modes. "
 "The brush will work in \"Mask\" mode."
-msgstr "所選的筆刷引擎不支援「色彩」或「亮度」模式。筆刷將會以「遮罩」模式運作。"
+msgstr ""
+"所選的筆刷引擎不支援「色彩」或「亮度」模式。筆刷將會以「遮罩」模式運作。"
 
 #: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:478
 #, kde-format
