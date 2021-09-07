@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-09-06 00:16+0000\n"
-"PO-Revision-Date: 2021-09-06 07:46+0000\n"
+"POT-Creation-Date: 2021-09-07 00:17+0000\n"
+"PO-Revision-Date: 2021-09-07 10:52+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -4695,7 +4695,7 @@ msgctxt ""
 "./krita/data/bundles/Krita_4_Default_Resources.bundle:paintoppresets/"
 "y)_Texture_Noise.kpp"
 msgid "y) Texture Noise"
-msgstr "紋理 - 噪點"
+msgstr "紋理 - 雜點"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #. i18n: 'a)', 'b)' etc. in resource names are used to keep resources in a specific order when Krita sorts them alphabetically. The order will be kept only using the original/untranslated names
@@ -5521,7 +5521,7 @@ msgctxt ""
 "./krita/data/bundles/Krita_Artists_SeExpr_examples.bundle:seexpr_scripts/"
 "Wolthera's_Cellnoise.kse"
 msgid "Wolthera's Cellnoise"
-msgstr "Wolthera 的方格噪點"
+msgstr "Wolthera 的方格雜點"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
@@ -5545,7 +5545,7 @@ msgctxt ""
 "./krita/data/bundles/Krita_Artists_SeExpr_examples.bundle:seexpr_scripts/"
 "Wolthera's_Color_Cellnoise.kse"
 msgid "Wolthera's Color Cellnoise"
-msgstr "Wolthera 的彩色方格噪點"
+msgstr "Wolthera 的彩色方格雜點"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
@@ -5553,7 +5553,7 @@ msgctxt ""
 "./krita/data/bundles/Krita_Artists_SeExpr_examples.bundle:seexpr_scripts/"
 "Wolthera's_Color_Perlin_Noise_1983.kse"
 msgid "Wolthera's Color Perlin Noise 1983"
-msgstr "Wolthera 的彩色 Perlin 噪點 1983"
+msgstr "Wolthera 的彩色 Perlin 雜點 1983"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
@@ -5681,7 +5681,7 @@ msgctxt ""
 "./krita/data/bundles/Krita_Artists_SeExpr_examples.bundle:seexpr_scripts/"
 "Wolthera's_Perlin_Noise_1983.kse"
 msgid "Wolthera's Perlin Noise 1983"
-msgstr "Wolthera 的 Perlin 噪點 1983"
+msgstr "Wolthera 的 Perlin 雜點 1983"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
@@ -9002,14 +9002,14 @@ msgstr "下邊緣檢測"
 #, kde-format
 msgctxt "action"
 msgid "&Random Noise..."
-msgstr "隨機噪點(&R)…"
+msgstr "隨機雜點(&R)…"
 
 #. i18n: context: Action (krita_filter_noise), Actions (Filters), ActionCollection (Krita)
 #: krita/krita.action:1072
 #, kde-format
 msgctxt "action"
 msgid "Random Noise"
-msgstr "隨機噪點"
+msgstr "隨機雜點"
 
 #. i18n: context: Action (krita_filter_brightnesscontrast), Actions (Filters), ActionCollection (Krita)
 #: krita/krita.action:1082
@@ -14349,9 +14349,8 @@ msgstr ""
 "為 Krita 5 格式而不再兼容 Krita 4.x 版本"
 
 #: libs/flake/text/KoSvgTextShape.cpp:572
-#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:51
-#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:53
 #, kde-format
+msgctxt "Text label in SVG Text Tool"
 msgid "Text"
 msgstr "文字"
 
@@ -14735,7 +14734,7 @@ msgstr "大小"
 #: libs/ui/forms/wdgrectangleconstraints.ui:86
 #: libs/ui/forms/wdgrectangleconstraints.ui:134
 #: libs/ui/forms/wdgrectangleconstraints.ui:184
-#: libs/ui/forms/wdgrectangleconstraints.ui:226 libs/ui/kis_paintop_box.cc:281
+#: libs/ui/forms/wdgrectangleconstraints.ui:226 libs/ui/kis_paintop_box.cc:282
 #: libs/ui/widgets/kis_lod_availability_widget.cpp:75
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:488
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:762
@@ -15050,6 +15049,7 @@ msgstr "Hermite 演算法"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbSmoothingType)
 #: libs/image/kis_filter_strategy.h:72
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:120
 #: libs/ui/widgets/KoFillConfigWidget.ui:421
 #, kde-format
 msgid "Bicubic"
@@ -15063,6 +15063,7 @@ msgid ""
 msgstr "新增使用周圍像素色彩的像素。可產生比雙線性演算法更加平滑的色調漸變。"
 
 #: libs/image/kis_filter_strategy.h:86
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:123
 #, kde-format
 msgid "Nearest Neighbor"
 msgstr "最近相鄰演算法"
@@ -15076,6 +15077,7 @@ msgstr "複製影像中的像素。保留所有原始細節，但可能伴有鋸
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbSmoothingType)
 #: libs/image/kis_filter_strategy.h:108
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:121
 #: libs/ui/canvas/kis_canvas_controller.cpp:305
 #: libs/ui/widgets/KoFillConfigWidget.ui:416
 #, kde-format
@@ -15103,6 +15105,7 @@ msgid "BSpline"
 msgstr "BSpline 演算法"
 
 #: libs/image/kis_filter_strategy.h:146
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:122
 #, kde-format
 msgid "Lanczos3"
 msgstr "Lanczos3 演算法"
@@ -15137,7 +15140,7 @@ msgstr "匯入的影像"
 msgid "Selection Mask"
 msgstr "選取區域遮罩"
 
-#: libs/image/kis_image.cc:686 libs/ui/KisDocument.cpp:2324
+#: libs/image/kis_image.cc:686 libs/ui/KisDocument.cpp:2323
 #: plugins/impex/psd/psd_loader.cpp:162
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:69
 #: plugins/python/comics_project_management_tools/comics_template_dialog.py:302
@@ -15723,7 +15726,7 @@ msgstr "描邊 (樣式)"
 #: libs/image/layerstyles/kis_ls_drop_shadow_filter.cpp:37
 #, kde-format
 msgid "Drop Shadow (style)"
-msgstr "投影 (樣式)"
+msgstr "陰影 (樣式)"
 
 #: libs/image/layerstyles/kis_ls_overlay_filter.cpp:38
 #, kde-format
@@ -17363,10 +17366,10 @@ msgstr "輸入"
 msgid "Out"
 msgstr "輸出"
 
-#: libs/pigment/resources/KoColorSet.cpp:488
-#: libs/pigment/resources/KoColorSet.cpp:769
-#: libs/pigment/resources/KoColorSet.cpp:851
-#: libs/pigment/resources/KoColorSet.cpp:1074
+#: libs/pigment/resources/KoColorSet.cpp:489
+#: libs/pigment/resources/KoColorSet.cpp:770
+#: libs/pigment/resources/KoColorSet.cpp:852
+#: libs/pigment/resources/KoColorSet.cpp:1075
 #: libs/ui/actions/KisPasteActionFactories.cpp:291
 #: libs/ui/animation/KisDlgAnimationRenderer.cpp:345 libs/ui/KisView.cpp:667
 #: plugins/generators/seexpr/kis_wdg_seexpr.cpp:27
@@ -17430,9 +17433,9 @@ msgstr "本機資源"
 #: libs/ui/KisApplication.cpp:875 libs/ui/KisApplication.cpp:878
 #: libs/ui/KisApplication.cpp:894 libs/ui/KisApplication.cpp:926
 #: libs/ui/KisApplication.cpp:940 libs/ui/KisApplication.cpp:968
-#: libs/ui/KisDocument.cpp:860 libs/ui/KisDocument.cpp:863
-#: libs/ui/KisDocument.cpp:1703 libs/ui/KisDocument.cpp:1746
-#: libs/ui/KisDocument.cpp:1754 libs/ui/KisMainWindow.cpp:1090
+#: libs/ui/KisDocument.cpp:859 libs/ui/KisDocument.cpp:862
+#: libs/ui/KisDocument.cpp:1702 libs/ui/KisDocument.cpp:1745
+#: libs/ui/KisDocument.cpp:1753 libs/ui/KisMainWindow.cpp:1090
 #: libs/ui/KisMainWindow.cpp:1217 libs/ui/KisMainWindow.cpp:1315
 #: libs/ui/KisMainWindow.cpp:1920 libs/ui/KisMainWindow.cpp:1929
 #: libs/ui/KisMainWindow.cpp:2068 libs/ui/KisMainWindow.cpp:2127
@@ -18357,6 +18360,32 @@ msgstr "匯入影片動畫"
 msgid "FFMpeg not found! Please add a path to FFMpeg in the \"Advanced\" tab"
 msgstr "無法找到 FFmpeg！請到「進階」分頁加入指向 FFmpeg 程式的檔案路徑"
 
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:80
+#, kde-format
+msgctxt "FPS as a unit following a value, like 60 FPS"
+msgid " FPS"
+msgstr " FPS"
+
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:87
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:93
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:625
+#, kde-format
+msgctxt "Second as a unit following a value, like 60 s"
+msgid " s"
+msgstr " 秒"
+
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:99
+#, kde-format
+msgctxt "Import video to New Document"
+msgid "New Document"
+msgstr "新檔案"
+
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:102
+#, kde-format
+msgctxt "Import video to Current Document"
+msgid "Current Document"
+msgstr "目前檔案"
+
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:105
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:588
 #, kde-format
@@ -18367,6 +18396,12 @@ msgid ""
 msgstr ""
 "<small>文件：\n"
 " %1 FPS</small>"
+
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:124
+#: plugins/assistants/Assistants/SplineAssistant.cc:222
+#, kde-format
+msgid "Spline"
+msgstr "樣條曲線 (Spline)"
 
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:170
 #, kde-format
@@ -19226,7 +19261,7 @@ msgstr "顯示"
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #. i18n: ectx: property (text), widget (QLabel, labelX)
 #: libs/ui/animation/VideoHDRMetadataOptionsDialog.ui:46
-#: libs/ui/kis_paintop_box.cc:293
+#: libs/ui/kis_paintop_box.cc:294
 #: plugins/dockers/recorder/recorder_export.ui:227
 #, kde-format
 msgid "x"
@@ -20268,8 +20303,8 @@ msgstr "圖層屬性"
 #. i18n: ectx: property (suffix), widget (KisDoubleParseSpinBox, spbScaleWidth)
 #. i18n: ectx: property (suffix), widget (KisDoubleParseSpinBox, spbScaleHeight)
 #: libs/ui/dialogs/kis_dlg_layer_properties.cc:97
-#: libs/ui/forms/wdgdisplaysettings.ui:364 libs/ui/kis_paintop_box.cc:263
-#: libs/ui/kis_paintop_box.cc:271 libs/ui/layerstyles/wdgInnerGlow.ui:220
+#: libs/ui/forms/wdgdisplaysettings.ui:364 libs/ui/kis_paintop_box.cc:264
+#: libs/ui/kis_paintop_box.cc:272 libs/ui/layerstyles/wdgInnerGlow.ui:220
 #: libs/ui/layerstyles/wdgInnerGlow.ui:322
 #: libs/ui/layerstyles/wdgInnerGlow.ui:351
 #: libs/ui/widgets/gradient/KisGradientColorEditor.cpp:93
@@ -22136,8 +22171,8 @@ msgstr "起始顯示比例："
 #. i18n: ectx: property (text), widget (QLabel, opacityLbl)
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #. i18n: ectx: property (text), widget (QLabel, opacityLabel)
-#: libs/ui/forms/wdgdisplaysettings.ui:391 libs/ui/kis_paintop_box.cc:248
-#: libs/ui/kis_paintop_box.cc:254
+#: libs/ui/forms/wdgdisplaysettings.ui:391 libs/ui/kis_paintop_box.cc:249
+#: libs/ui/kis_paintop_box.cc:255
 #: plugins/dockers/layerdocker/WdgLayerBox.ui:113
 #: plugins/filters/noisefilter/wdgnoiseoptions.ui:56
 #: plugins/filters/randompickfilter/wdgrandompickoptions.ui:57
@@ -23611,7 +23646,7 @@ msgid "path"
 msgstr "路徑"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgPaintOpSettings)
-#: libs/ui/forms/wdgpaintopsettings.ui:18 libs/ui/kis_paintop_box.cc:433
+#: libs/ui/forms/wdgpaintopsettings.ui:18 libs/ui/kis_paintop_box.cc:434
 #, kde-format
 msgid "Brush Editor"
 msgstr "筆刷編輯器"
@@ -24574,9 +24609,9 @@ msgstr "刪除…"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
 #: libs/ui/forms/wdgstrokeselectionproperties.ui:34
-#: plugins/paintops/mypaint/MyPaintBrushOption.h:34
 #: plugins/tools/defaulttool/defaulttool/DefaultToolTabbedWidget.cpp:29
 #, kde-format
+msgctxt "Draws a line around an area"
 msgid "Stroke"
 msgstr "描邊"
 
@@ -26269,28 +26304,28 @@ msgctxt "@info:tooltip"
 msgid "Disabled: cloning pass-through groups is not supported!"
 msgstr "已停用：不支援複製穿透群組！"
 
-#: libs/ui/kis_paintop_box.cc:95
+#: libs/ui/kis_paintop_box.cc:96
 #, kde-format
 msgid "Painter's Toolchest"
 msgstr "畫具箱"
 
-#: libs/ui/kis_paintop_box.cc:107
+#: libs/ui/kis_paintop_box.cc:108
 #, kde-format
 msgid "Tool Settings"
 msgstr "工具設定"
 
-#: libs/ui/kis_paintop_box.cc:115
+#: libs/ui/kis_paintop_box.cc:116
 #, kde-format
 msgid "Edit brush settings"
 msgstr "編輯筆刷選項"
 
-#: libs/ui/kis_paintop_box.cc:122
+#: libs/ui/kis_paintop_box.cc:123
 #, kde-format
 msgid "Choose brush preset"
 msgstr "選擇筆刷預設"
 
 #. i18n: ectx: property (text), widget (QLabel, lblFlow)
-#: libs/ui/kis_paintop_box.cc:249 libs/ui/kis_paintop_box.cc:255
+#: libs/ui/kis_paintop_box.cc:250 libs/ui/kis_paintop_box.cc:256
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:1934
 #, kde-format
 msgid "Flow:"
@@ -26299,7 +26334,7 @@ msgstr "流量："
 #. i18n: ectx: property (text), widget (QLabel, brushSizeLabel)
 #. i18n: ectx: property (text), widget (QLabel, lblSize)
 #. i18n: ectx: property (text), widget (QLabel, labelSize)
-#: libs/ui/kis_paintop_box.cc:250 libs/ui/kis_paintop_box.cc:256
+#: libs/ui/kis_paintop_box.cc:251 libs/ui/kis_paintop_box.cc:257
 #: plugins/generators/screentone/KisScreentoneConfigWidget.ui:414
 #: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:185
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:1956
@@ -26307,23 +26342,23 @@ msgstr "流量："
 msgid "Size:"
 msgstr "大小："
 
-#: libs/ui/kis_paintop_box.cc:251 libs/ui/kis_paintop_box.cc:257
+#: libs/ui/kis_paintop_box.cc:252 libs/ui/kis_paintop_box.cc:258
 #, kde-format
 msgid "Pattern Scale:"
 msgstr "圖案縮放："
 
-#: libs/ui/kis_paintop_box.cc:309
+#: libs/ui/kis_paintop_box.cc:310
 #, kde-format
 msgid "Choose workspace"
 msgstr "選擇作業空間"
 
-#: libs/ui/kis_paintop_box.cc:346
+#: libs/ui/kis_paintop_box.cc:347
 #, kde-format
 msgid "Brush composite"
 msgstr "筆刷分量"
 
-#: libs/ui/kis_paintop_box.cc:1257 libs/ui/kis_paintop_box.cc:1279
-#: libs/ui/kis_paintop_box.cc:1293
+#: libs/ui/kis_paintop_box.cc:1261 libs/ui/kis_paintop_box.cc:1283
+#: libs/ui/kis_paintop_box.cc:1297
 #, kde-format
 msgid ""
 "%1\n"
@@ -26636,7 +26671,7 @@ msgctxt "<color space> <image profile>"
 msgid "%1  %2"
 msgstr "%1  %2"
 
-#: libs/ui/kis_zoom_manager.cc:320
+#: libs/ui/kis_zoom_manager.cc:319
 #, kde-format
 msgctxt "floating message about zoom"
 msgid "Zoom: %1 %"
@@ -26995,33 +27030,33 @@ msgctxt "(qtundo-format)"
 msgid "Clone Document"
 msgstr "再製文件"
 
-#: libs/ui/KisDocument.cpp:678
+#: libs/ui/KisDocument.cpp:677
 #, kde-format
 msgid "%1 cannot be written to. Please save under a different name."
 msgstr "無法寫入 %1 。請以不同的名稱儲存。"
 
-#: libs/ui/KisDocument.cpp:740
+#: libs/ui/KisDocument.cpp:739
 #, kde-format
 msgid "Exporting Document..."
 msgstr "正在匯出檔案…"
 
-#: libs/ui/KisDocument.cpp:741
+#: libs/ui/KisDocument.cpp:740
 #, kde-format
 msgid "Saving Document..."
 msgstr "正在儲存檔案…"
 
-#: libs/ui/KisDocument.cpp:853
+#: libs/ui/KisDocument.cpp:852
 #, kde-format
 msgctxt "%1 --- failing file name, %2 --- error message"
 msgid "Error during saving %1: %2"
 msgstr "儲存%1 時出錯： %2"
 
-#: libs/ui/KisDocument.cpp:860
+#: libs/ui/KisDocument.cpp:859
 #, kde-format
 msgid "Could not save %1"
 msgstr "無法儲存 %1"
 
-#: libs/ui/KisDocument.cpp:863 plugins/extensions/imagesplit/imagesplit.cpp:76
+#: libs/ui/KisDocument.cpp:862 plugins/extensions/imagesplit/imagesplit.cpp:76
 #, kde-format
 msgid ""
 "Could not save %1\n"
@@ -27030,38 +27065,38 @@ msgstr ""
 "無法儲存 %1\n"
 "原因：%2"
 
-#: libs/ui/KisDocument.cpp:898
+#: libs/ui/KisDocument.cpp:897
 #, kde-format
 msgid "Finished saving %1"
 msgstr "完成儲存 %1"
 
-#: libs/ui/KisDocument.cpp:1242
+#: libs/ui/KisDocument.cpp:1241
 #, kde-format
 msgid "Autosaving... %1"
 msgstr "正在自動儲存… %1"
 
-#: libs/ui/KisDocument.cpp:1250
+#: libs/ui/KisDocument.cpp:1249
 #, kde-format
 msgid "Autosaving..."
 msgstr "正在自動儲存…"
 
-#: libs/ui/KisDocument.cpp:1256
+#: libs/ui/KisDocument.cpp:1255
 #, kde-format
 msgid "Autosaving postponed: document is busy..."
 msgstr "自動儲存已推遲：檔案正在被佔用…"
 
-#: libs/ui/KisDocument.cpp:1361
+#: libs/ui/KisDocument.cpp:1360
 #, kde-format
 msgctxt "%1 --- failing file name, %2 --- error message"
 msgid "Error during autosaving %1: %2"
 msgstr "自動儲存%1 時出錯：%2"
 
-#: libs/ui/KisDocument.cpp:1375
+#: libs/ui/KisDocument.cpp:1374
 #, kde-format
 msgid "Finished autosaving %1"
 msgstr "完成自動儲存 %1"
 
-#: libs/ui/KisDocument.cpp:1606
+#: libs/ui/KisDocument.cpp:1605
 #, kde-format
 msgid ""
 "Malformed Path\n"
@@ -27070,17 +27105,17 @@ msgstr ""
 "路徑格式錯誤\n"
 "%1"
 
-#: libs/ui/KisDocument.cpp:1703
+#: libs/ui/KisDocument.cpp:1702
 #, kde-format
 msgid "File %1 does not exist."
 msgstr "檔案 %1 不存在。"
 
-#: libs/ui/KisDocument.cpp:1732
+#: libs/ui/KisDocument.cpp:1731
 #, kde-format
 msgid "Opening document"
 msgstr "正在開啟檔案"
 
-#: libs/ui/KisDocument.cpp:1747
+#: libs/ui/KisDocument.cpp:1746
 #, kde-format
 msgid ""
 "Could not open %2.\n"
@@ -27089,23 +27124,23 @@ msgstr ""
 "無法開啟 %2。\n"
 "原因：%1"
 
-#: libs/ui/KisDocument.cpp:1755
+#: libs/ui/KisDocument.cpp:1754
 #, kde-format
 msgid "There were problems opening %1"
 msgstr "開啟 %1 時遇到了一些問題"
 
-#: libs/ui/KisDocument.cpp:1889
+#: libs/ui/KisDocument.cpp:1888
 #, kde-format
 msgid "Not Saved"
 msgstr "未儲存"
 
-#: libs/ui/KisDocument.cpp:2331
+#: libs/ui/KisDocument.cpp:2330
 #, kde-format
 msgctxt "Name of automatically created background color fill layer"
 msgid "Background Fill"
 msgstr "背景色填充"
 
-#: libs/ui/KisDocument.cpp:2385
+#: libs/ui/KisDocument.cpp:2384
 #, kde-format
 msgctxt ""
 "progress dialog message when the user closes the document that is being saved"
@@ -28569,7 +28604,7 @@ msgstr "範圍(&R)："
 #: libs/ui/layerstyles/wdgdropshadow.ui:103
 #, kde-format
 msgid "Add noise to shadow"
-msgstr "向投影新增噪點"
+msgstr "於陰影加入雜點"
 
 #. i18n: ectx: property (text), item, widget (QListWidget, lstStyleSelector)
 #. i18n: ectx: property (title), widget (QGroupBox, grpMain)
@@ -28577,19 +28612,19 @@ msgstr "向投影新增噪點"
 #: libs/ui/layerstyles/wdglayerstyles.ui:44
 #, kde-format
 msgid "Drop Shadow"
-msgstr "投影"
+msgstr "陰影"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkLayerKnocksOutDropShadow)
 #: libs/ui/layerstyles/wdgdropshadow.ui:40
 #, kde-format
 msgid "Use to obscure the shadow when fill is transparent"
-msgstr "當填充區域為透明時遮蓋投影"
+msgstr "當填充區域為透明時遮蓋陰影"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkLayerKnocksOutDropShadow)
 #: libs/ui/layerstyles/wdgdropshadow.ui:43
 #, kde-format
 msgid "Layer knocks O&ut Drop Shadow"
-msgstr "圖層挖空投影(&U)"
+msgstr "圖層挖空陰影(&U)"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
@@ -28610,7 +28645,7 @@ msgstr "品質"
 #: libs/ui/layerstyles/wdgInnerGlow.ui:88
 #, kde-format
 msgid "&Noise:"
-msgstr "噪點(&N)："
+msgstr "雜點(&N)："
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. i18n: ectx: property (text), widget (QLabel, label_13)
@@ -29088,37 +29123,37 @@ msgstr "選取動作"
 msgid "Transform"
 msgstr "變形"
 
-#: libs/ui/tool/kis_tool.cc:572
+#: libs/ui/tool/kis_tool.cc:568
 #, kde-format
 msgid "No options"
 msgstr "無選項"
 
-#: libs/ui/tool/kis_tool.cc:666
+#: libs/ui/tool/kis_tool.cc:662
 #, kde-format
 msgid "Layer is locked and invisible."
 msgstr "圖層已鎖定且不可見。"
 
-#: libs/ui/tool/kis_tool.cc:668
+#: libs/ui/tool/kis_tool.cc:664
 #, kde-format
 msgid "Layer is locked."
 msgstr "圖層已鎖定。"
 
-#: libs/ui/tool/kis_tool.cc:670
+#: libs/ui/tool/kis_tool.cc:666
 #, kde-format
 msgid "Layer is invisible."
 msgstr "圖層不可見。"
 
-#: libs/ui/tool/kis_tool.cc:672
+#: libs/ui/tool/kis_tool.cc:668
 #, kde-format
 msgid "Layer can be painted in Wash Mode only."
 msgstr "此圖層只能在沖刷模式下進行繪製。"
 
-#: libs/ui/tool/kis_tool.cc:674
+#: libs/ui/tool/kis_tool.cc:670
 #, kde-format
 msgid "Group not editable."
 msgstr "群組圖層不可編輯。"
 
-#: libs/ui/tool/kis_tool.cc:689
+#: libs/ui/tool/kis_tool.cc:685
 #, kde-format
 msgid "Local selection is locked."
 msgstr "局部選取區域已鎖定。"
@@ -29140,12 +29175,12 @@ msgstr "筆刷工具無法在此圖層繪畫，請選取一個顏料圖層或者
 msgid "The MyPaint Brush Engine is not available for this colorspace"
 msgstr "MyPaint 筆刷引擎不支援這個色彩空間"
 
-#: libs/ui/tool/kis_tool_paint.cc:380
+#: libs/ui/tool/kis_tool_paint.cc:375
 #, kde-format
 msgid "Color sampler does not work on this layer."
 msgstr "色彩取樣器不能在此圖層上使用。"
 
-#: libs/ui/tool/kis_tool_paint.cc:668
+#: libs/ui/tool/kis_tool_paint.cc:663
 #, kde-format
 msgid "%1 %2 px"
 msgstr "%1 %2 px"
@@ -30785,7 +30820,7 @@ msgstr "閾值模式"
 #: libs/ui/widgets/KisDitherWidget.ui:55
 #, kde-format
 msgid "Noise"
-msgstr "噪點"
+msgstr "雜點"
 
 #. i18n: ectx: property (prefix), widget (QStackedWidget, thresholdModeStackedWidget)
 #. i18n: ectx: property (prefix), widget (QStackedWidget, stackedWidgetColorMode)
@@ -33283,11 +33318,6 @@ msgstr "直線"
 #, kde-format
 msgid "Spline assistant"
 msgstr "樣條曲線輔助尺"
-
-#: plugins/assistants/Assistants/SplineAssistant.cc:222
-#, kde-format
-msgid "Spline"
-msgstr "樣條曲線 (Spline)"
 
 #: plugins/assistants/Assistants/TwoPointAssistant.cc:27
 #, kde-format
@@ -36286,6 +36316,11 @@ msgctxt "Export storyboard dialog caption"
 msgid "Export Storyboard as SVG"
 msgstr "將分鏡匯出為 SVG"
 
+#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:59
+#, kde-format
+msgid "Export Directory: "
+msgstr "匯出目錄："
+
 #: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:152
 #, kde-format
 msgid ""
@@ -38000,42 +38035,42 @@ msgstr "未定義"
 #, kde-format
 msgctxt "EXIF: misc - sensing method type"
 msgid "One-chip color area sensor"
-msgstr "單晶片色彩區域感測器"
+msgstr "單晶片色彩區域感光元件"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editSensingMethod)
 #: plugins/extensions/metadataeditor/editors/exif.ui:893
 #, kde-format
 msgctxt "EXIF: misc - sensing method type"
 msgid "Two-chip color area sensor"
-msgstr "雙晶片色彩區域感測器"
+msgstr "雙晶片色彩區域感光元件"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editSensingMethod)
 #: plugins/extensions/metadataeditor/editors/exif.ui:898
 #, kde-format
 msgctxt "EXIF: misc - sensing method type"
 msgid "Three-chip color area sensor"
-msgstr "三晶片色彩區域感測器"
+msgstr "三晶片色彩區域感光元件"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editSensingMethod)
 #: plugins/extensions/metadataeditor/editors/exif.ui:903
 #, kde-format
 msgctxt "EXIF: misc - sensing method type"
 msgid "Color sequential area sensor"
-msgstr "色序區域感測器"
+msgstr "色序區域感光元件"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editSensingMethod)
 #: plugins/extensions/metadataeditor/editors/exif.ui:908
 #, kde-format
 msgctxt "EXIF: misc - sensing method type"
 msgid "Trilinear sensor"
-msgstr "三線性感測器"
+msgstr "三線性感光元件"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editSensingMethod)
 #: plugins/extensions/metadataeditor/editors/exif.ui:913
 #, kde-format
 msgctxt "EXIF: misc - sensing method type"
 msgid "Color sequential linear sensor"
-msgstr "色序線性感測器"
+msgstr "色序線性感光元件"
 
 #: plugins/extensions/metadataeditor/kis_meta_data_editor.cc:97
 #, kde-format
@@ -40502,12 +40537,12 @@ msgstr "自動色階(&A)"
 #: plugins/filters/noisefilter/noisefilter.cpp:53
 #, kde-format
 msgid "&Random Noise..."
-msgstr "隨機噪點(&R)…"
+msgstr "隨機雜點(&R)…"
 
 #: plugins/filters/noisefilter/noisefilter.h:38
 #, kde-format
 msgid "Random Noise"
-msgstr "隨機噪點"
+msgstr "隨機雜點"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: plugins/filters/noisefilter/wdgnoiseoptions.ui:33
@@ -42001,12 +42036,12 @@ msgstr "將指令稿繪製到縮圖"
 #: plugins/generators/simplexnoise/simplexnoisegenerator.cpp:38
 #, kde-format
 msgid "&Simplex Noise..."
-msgstr "單純形法噪音(&S)…"
+msgstr "單體雜點 (Simplex Noise) (&S)…"
 
 #: plugins/generators/simplexnoise/simplexnoisegenerator.h:40
 #, kde-format
 msgid "Simplex Noise"
-msgstr "單純形法噪音"
+msgstr "單體雜點 (Simplex Noise)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cb_looping)
 #: plugins/generators/simplexnoise/wdgsimplexnoiseoptions.ui:78
@@ -46653,7 +46688,7 @@ msgstr "可用的混色模式"
 #: plugins/paintops/mypaint/wdgmypaintcurveoption.ui:57
 #, kde-format
 msgid "Enable Pen Settings"
-msgstr "啟用壓感筆感測器"
+msgstr "啟用畫筆感測器"
 
 #. i18n: ectx: property (text), widget (QLabel, yRangeLabel)
 #. i18n: ectx: property (text), widget (QLabel, label_5)
@@ -46966,14 +47001,22 @@ msgstr "自動間距"
 
 #: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:45
 #, kde-format
-msgctxt "Autobrush Label"
+msgctxt "Autobrush Brush tip mode"
 msgid "Auto"
 msgstr "自動"
 
 #: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:49
 #, kde-format
+msgctxt "Predefined Brush tip mode"
 msgid "Predefined"
 msgstr "預製形狀"
+
+#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:51
+#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:53
+#, kde-format
+msgctxt "Text Brush tip mode"
+msgid "Text"
+msgstr "文字"
 
 #: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:142
 #, kde-format
@@ -47758,6 +47801,12 @@ msgstr "精確速度"
 msgid "Gross Speed"
 msgstr "粗略速度"
 
+#: plugins/paintops/mypaint/MyPaintBrushOption.h:34
+#, kde-format
+msgctxt "The duration of a brush stroke"
+msgid "Stroke"
+msgstr "筆畫時長"
+
 #. i18n: ectx: property (text), widget (QRadioButton, optionDirection)
 #: plugins/paintops/mypaint/MyPaintBrushOption.h:35
 #: plugins/paintops/tangentnormal/wdgtangenttiltoption.ui:243
@@ -47767,11 +47816,13 @@ msgstr "方向"
 
 #: plugins/paintops/mypaint/MyPaintBrushOption.h:36
 #, kde-format
+msgctxt "Pen tilt declination"
 msgid "Declination"
 msgstr "傾角"
 
 #: plugins/paintops/mypaint/MyPaintBrushOption.h:37
 #, kde-format
+msgctxt "Pen tilt ascension"
 msgid "Ascension"
 msgstr "指向"
 
@@ -47989,7 +48040,7 @@ msgstr "慢速追蹤"
 #: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:62
 #, kde-format
 msgid "Tracking Noise"
-msgstr "追蹤噪點"
+msgstr "追蹤雜點"
 
 #: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:63
 #, kde-format
@@ -48015,22 +48066,22 @@ msgstr "塗抹半徑 (對數)"
 #, kde-format
 msgctxt "Option Category"
 msgid "Stroke"
-msgstr "描邊"
+msgstr "筆畫"
 
 #: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:66
 #, kde-format
 msgid "Stroke Duration log"
-msgstr "描邊時長 (對數)"
+msgstr "筆畫時長 (對數)"
 
 #: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:67
 #, kde-format
 msgid "Stroke Holdtime"
-msgstr "描邊持續時間"
+msgstr "筆畫持續時間"
 
 #: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:68
 #, kde-format
 msgid "Stroke Threshold"
-msgstr "描邊閾值"
+msgstr "筆畫閾值"
 
 #: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:69
 #: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:70
@@ -54061,6 +54112,10 @@ msgstr "縮放工具"
 msgctxt "action"
 msgid "Reference Images Tool"
 msgstr "參考圖工具"
+
+#~ msgctxt "Autobrush Label"
+#~ msgid "Auto"
+#~ msgstr "自動"
 
 #~ msgid "Loading Plugins Exiv/IO..."
 #~ msgstr "正在載入 Exiv 和輸入輸出外掛程式…"

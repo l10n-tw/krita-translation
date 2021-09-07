@@ -22,7 +22,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_koffice\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-19 00:24+0000\n"
+"POT-Creation-Date: 2021-09-07 00:32+0000\n"
 "PO-Revision-Date: 2021-08-13 08:00+0000\n"
 "Last-Translator: 楊景貴 <issacsopp@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
@@ -59,7 +59,7 @@ msgctxt "Name"
 msgid "★ My Favorites"
 msgstr "★ 最愛"
 
-#: krita/data/paintoppresets/Favorites.tag:26
+#: krita/data/paintoppresets/Favorites.tag:27
 msgctxt "Comment"
 msgid "Your favorite brush presets"
 msgstr "您最常用的筆刷預設"
@@ -99,7 +99,7 @@ msgctxt "Name"
 msgid "Pixel Art"
 msgstr "像素畫"
 
-#: krita/data/paintoppresets/Pixel_Art.tag:25
+#: krita/data/paintoppresets/Pixel_Art.tag:26
 msgctxt "Comment"
 msgid "Presets for working with individual pixels"
 msgstr "對個別像素操作的筆刷預設"
