@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-09-06 00:16+0000\n"
+"POT-Creation-Date: 2021-09-07 00:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -14326,9 +14326,8 @@ msgid ""
 msgstr ""
 
 #: libs/flake/text/KoSvgTextShape.cpp:572
-#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:51
-#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:53
 #, kde-format
+msgctxt "Text label in SVG Text Tool"
 msgid "Text"
 msgstr ""
 
@@ -14715,7 +14714,7 @@ msgstr ""
 #: libs/ui/forms/wdgrectangleconstraints.ui:134
 #: libs/ui/forms/wdgrectangleconstraints.ui:184
 #: libs/ui/forms/wdgrectangleconstraints.ui:226
-#: libs/ui/kis_paintop_box.cc:281 libs/ui/widgets/kis_lod_availability_widget.cpp:75
+#: libs/ui/kis_paintop_box.cc:282 libs/ui/widgets/kis_lod_availability_widget.cpp:75
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:488
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:762
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:861
@@ -15028,7 +15027,8 @@ msgid "Hermite"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbSmoothingType)
-#: libs/image/kis_filter_strategy.h:72 libs/ui/widgets/KoFillConfigWidget.ui:421
+#: libs/image/kis_filter_strategy.h:72 libs/ui/animation/KisDlgImportVideoAnimation.cpp:120
+#: libs/ui/widgets/KoFillConfigWidget.ui:421
 #, kde-format
 msgid "Bicubic"
 msgstr ""
@@ -15040,7 +15040,7 @@ msgid ""
 "gradations than Bilinear."
 msgstr ""
 
-#: libs/image/kis_filter_strategy.h:86
+#: libs/image/kis_filter_strategy.h:86 libs/ui/animation/KisDlgImportVideoAnimation.cpp:123
 #, kde-format
 msgid "Nearest Neighbor"
 msgstr ""
@@ -15053,7 +15053,8 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbSmoothingType)
-#: libs/image/kis_filter_strategy.h:108 libs/ui/canvas/kis_canvas_controller.cpp:305
+#: libs/image/kis_filter_strategy.h:108 libs/ui/animation/KisDlgImportVideoAnimation.cpp:121
+#: libs/ui/canvas/kis_canvas_controller.cpp:305
 #: libs/ui/widgets/KoFillConfigWidget.ui:416
 #, kde-format
 msgid "Bilinear"
@@ -15077,7 +15078,7 @@ msgstr ""
 msgid "BSpline"
 msgstr ""
 
-#: libs/image/kis_filter_strategy.h:146
+#: libs/image/kis_filter_strategy.h:146 libs/ui/animation/KisDlgImportVideoAnimation.cpp:122
 #, kde-format
 msgid "Lanczos3"
 msgstr ""
@@ -15110,7 +15111,7 @@ msgstr ""
 msgid "Selection Mask"
 msgstr ""
 
-#: libs/image/kis_image.cc:686 libs/ui/KisDocument.cpp:2324
+#: libs/image/kis_image.cc:686 libs/ui/KisDocument.cpp:2323
 #: plugins/impex/psd/psd_loader.cpp:162 plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:69
 #: plugins/python/comics_project_management_tools/comics_template_dialog.py:302
 #, kde-format
@@ -17327,10 +17328,10 @@ msgstr ""
 msgid "Out"
 msgstr ""
 
-#: libs/pigment/resources/KoColorSet.cpp:488
-#: libs/pigment/resources/KoColorSet.cpp:769
-#: libs/pigment/resources/KoColorSet.cpp:851
-#: libs/pigment/resources/KoColorSet.cpp:1074
+#: libs/pigment/resources/KoColorSet.cpp:489
+#: libs/pigment/resources/KoColorSet.cpp:770
+#: libs/pigment/resources/KoColorSet.cpp:852
+#: libs/pigment/resources/KoColorSet.cpp:1075
 #: libs/ui/actions/KisPasteActionFactories.cpp:291
 #: libs/ui/animation/KisDlgAnimationRenderer.cpp:345
 #: libs/ui/KisView.cpp:667 plugins/generators/seexpr/kis_wdg_seexpr.cpp:27
@@ -17394,9 +17395,9 @@ msgstr ""
 #: libs/ui/kis_node_manager.cpp:1277 libs/ui/KisApplication.cpp:875
 #: libs/ui/KisApplication.cpp:878 libs/ui/KisApplication.cpp:894
 #: libs/ui/KisApplication.cpp:926 libs/ui/KisApplication.cpp:940
-#: libs/ui/KisApplication.cpp:968 libs/ui/KisDocument.cpp:860
-#: libs/ui/KisDocument.cpp:863 libs/ui/KisDocument.cpp:1703
-#: libs/ui/KisDocument.cpp:1746 libs/ui/KisDocument.cpp:1754
+#: libs/ui/KisApplication.cpp:968 libs/ui/KisDocument.cpp:859
+#: libs/ui/KisDocument.cpp:862 libs/ui/KisDocument.cpp:1702
+#: libs/ui/KisDocument.cpp:1745 libs/ui/KisDocument.cpp:1753
 #: libs/ui/KisMainWindow.cpp:1090 libs/ui/KisMainWindow.cpp:1217
 #: libs/ui/KisMainWindow.cpp:1315 libs/ui/KisMainWindow.cpp:1920
 #: libs/ui/KisMainWindow.cpp:1929 libs/ui/KisMainWindow.cpp:2068
@@ -18300,6 +18301,32 @@ msgstr ""
 msgid "FFMpeg not found! Please add a path to FFMpeg in the \"Advanced\" tab"
 msgstr ""
 
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:80
+#, kde-format
+msgctxt "FPS as a unit following a value, like 60 FPS"
+msgid " FPS"
+msgstr ""
+
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:87
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:93
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:625
+#, kde-format
+msgctxt "Second as a unit following a value, like 60 s"
+msgid " s"
+msgstr ""
+
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:99
+#, kde-format
+msgctxt "Import video to New Document"
+msgid "New Document"
+msgstr ""
+
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:102
+#, kde-format
+msgctxt "Import video to Current Document"
+msgid "Current Document"
+msgstr ""
+
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:105
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:588
 #, kde-format
@@ -18307,6 +18334,12 @@ msgctxt "Video importer: fps of the document you're importing into"
 msgid ""
 "<small>Document:\n"
 " %1 FPS</small>"
+msgstr ""
+
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:124
+#: plugins/assistants/Assistants/SplineAssistant.cc:222
+#, kde-format
+msgid "Spline"
 msgstr ""
 
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:170
@@ -19150,7 +19183,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #. i18n: ectx: property (text), widget (QLabel, labelX)
 #: libs/ui/animation/VideoHDRMetadataOptionsDialog.ui:46
-#: libs/ui/kis_paintop_box.cc:293 plugins/dockers/recorder/recorder_export.ui:227
+#: libs/ui/kis_paintop_box.cc:294 plugins/dockers/recorder/recorder_export.ui:227
 #, kde-format
 msgid "x"
 msgstr ""
@@ -20138,7 +20171,7 @@ msgstr ""
 #. i18n: ectx: property (suffix), widget (KisDoubleParseSpinBox, spbScaleHeight)
 #: libs/ui/dialogs/kis_dlg_layer_properties.cc:97
 #: libs/ui/forms/wdgdisplaysettings.ui:364
-#: libs/ui/kis_paintop_box.cc:263 libs/ui/kis_paintop_box.cc:271
+#: libs/ui/kis_paintop_box.cc:264 libs/ui/kis_paintop_box.cc:272
 #: libs/ui/layerstyles/wdgInnerGlow.ui:220
 #: libs/ui/layerstyles/wdgInnerGlow.ui:322
 #: libs/ui/layerstyles/wdgInnerGlow.ui:351
@@ -21936,7 +21969,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #. i18n: ectx: property (text), widget (QLabel, opacityLabel)
 #: libs/ui/forms/wdgdisplaysettings.ui:391
-#: libs/ui/kis_paintop_box.cc:248 libs/ui/kis_paintop_box.cc:254
+#: libs/ui/kis_paintop_box.cc:249 libs/ui/kis_paintop_box.cc:255
 #: plugins/dockers/layerdocker/WdgLayerBox.ui:113
 #: plugins/filters/noisefilter/wdgnoiseoptions.ui:56
 #: plugins/filters/randompickfilter/wdgrandompickoptions.ui:57
@@ -23366,7 +23399,7 @@ msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgPaintOpSettings)
 #: libs/ui/forms/wdgpaintopsettings.ui:18
-#: libs/ui/kis_paintop_box.cc:433
+#: libs/ui/kis_paintop_box.cc:434
 #, kde-format
 msgid "Brush Editor"
 msgstr ""
@@ -24280,9 +24313,9 @@ msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
 #: libs/ui/forms/wdgstrokeselectionproperties.ui:34
-#: plugins/paintops/mypaint/MyPaintBrushOption.h:34
 #: plugins/tools/defaulttool/defaulttool/DefaultToolTabbedWidget.cpp:29
 #, kde-format
+msgctxt "Draws a line around an area"
 msgid "Stroke"
 msgstr ""
 
@@ -25950,28 +25983,28 @@ msgctxt "@info:tooltip"
 msgid "Disabled: cloning pass-through groups is not supported!"
 msgstr ""
 
-#: libs/ui/kis_paintop_box.cc:95
+#: libs/ui/kis_paintop_box.cc:96
 #, kde-format
 msgid "Painter's Toolchest"
 msgstr ""
 
-#: libs/ui/kis_paintop_box.cc:107
+#: libs/ui/kis_paintop_box.cc:108
 #, kde-format
 msgid "Tool Settings"
 msgstr ""
 
-#: libs/ui/kis_paintop_box.cc:115
+#: libs/ui/kis_paintop_box.cc:116
 #, kde-format
 msgid "Edit brush settings"
 msgstr ""
 
-#: libs/ui/kis_paintop_box.cc:122
+#: libs/ui/kis_paintop_box.cc:123
 #, kde-format
 msgid "Choose brush preset"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblFlow)
-#: libs/ui/kis_paintop_box.cc:249 libs/ui/kis_paintop_box.cc:255
+#: libs/ui/kis_paintop_box.cc:250 libs/ui/kis_paintop_box.cc:256
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:1934
 #, kde-format
 msgid "Flow:"
@@ -25980,7 +26013,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, brushSizeLabel)
 #. i18n: ectx: property (text), widget (QLabel, lblSize)
 #. i18n: ectx: property (text), widget (QLabel, labelSize)
-#: libs/ui/kis_paintop_box.cc:250 libs/ui/kis_paintop_box.cc:256
+#: libs/ui/kis_paintop_box.cc:251 libs/ui/kis_paintop_box.cc:257
 #: plugins/generators/screentone/KisScreentoneConfigWidget.ui:414
 #: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:185
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:1956
@@ -25988,23 +26021,23 @@ msgstr ""
 msgid "Size:"
 msgstr ""
 
-#: libs/ui/kis_paintop_box.cc:251 libs/ui/kis_paintop_box.cc:257
+#: libs/ui/kis_paintop_box.cc:252 libs/ui/kis_paintop_box.cc:258
 #, kde-format
 msgid "Pattern Scale:"
 msgstr ""
 
-#: libs/ui/kis_paintop_box.cc:309
+#: libs/ui/kis_paintop_box.cc:310
 #, kde-format
 msgid "Choose workspace"
 msgstr ""
 
-#: libs/ui/kis_paintop_box.cc:346
+#: libs/ui/kis_paintop_box.cc:347
 #, kde-format
 msgid "Brush composite"
 msgstr ""
 
-#: libs/ui/kis_paintop_box.cc:1257 libs/ui/kis_paintop_box.cc:1279
-#: libs/ui/kis_paintop_box.cc:1293
+#: libs/ui/kis_paintop_box.cc:1261 libs/ui/kis_paintop_box.cc:1283
+#: libs/ui/kis_paintop_box.cc:1297
 #, kde-format
 msgid ""
 "%1\n"
@@ -26272,7 +26305,7 @@ msgctxt "<color space> <image profile>"
 msgid "%1  %2"
 msgstr ""
 
-#: libs/ui/kis_zoom_manager.cc:320
+#: libs/ui/kis_zoom_manager.cc:319
 #, kde-format
 msgctxt "floating message about zoom"
 msgid "Zoom: %1 %"
@@ -26588,111 +26621,111 @@ msgctxt "(qtundo-format)"
 msgid "Clone Document"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:678
+#: libs/ui/KisDocument.cpp:677
 #, kde-format
 msgid "%1 cannot be written to. Please save under a different name."
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:740
+#: libs/ui/KisDocument.cpp:739
 #, kde-format
 msgid "Exporting Document..."
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:741
+#: libs/ui/KisDocument.cpp:740
 #, kde-format
 msgid "Saving Document..."
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:853
+#: libs/ui/KisDocument.cpp:852
 #, kde-format
 msgctxt "%1 --- failing file name, %2 --- error message"
 msgid "Error during saving %1: %2"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:860
+#: libs/ui/KisDocument.cpp:859
 #, kde-format
 msgid "Could not save %1"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:863 plugins/extensions/imagesplit/imagesplit.cpp:76
+#: libs/ui/KisDocument.cpp:862 plugins/extensions/imagesplit/imagesplit.cpp:76
 #, kde-format
 msgid ""
 "Could not save %1\n"
 "Reason: %2"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:898
+#: libs/ui/KisDocument.cpp:897
 #, kde-format
 msgid "Finished saving %1"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1242
+#: libs/ui/KisDocument.cpp:1241
 #, kde-format
 msgid "Autosaving... %1"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1250
+#: libs/ui/KisDocument.cpp:1249
 #, kde-format
 msgid "Autosaving..."
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1256
+#: libs/ui/KisDocument.cpp:1255
 #, kde-format
 msgid "Autosaving postponed: document is busy..."
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1361
+#: libs/ui/KisDocument.cpp:1360
 #, kde-format
 msgctxt "%1 --- failing file name, %2 --- error message"
 msgid "Error during autosaving %1: %2"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1375
+#: libs/ui/KisDocument.cpp:1374
 #, kde-format
 msgid "Finished autosaving %1"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1606
+#: libs/ui/KisDocument.cpp:1605
 #, kde-format
 msgid ""
 "Malformed Path\n"
 "%1"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1703
+#: libs/ui/KisDocument.cpp:1702
 #, kde-format
 msgid "File %1 does not exist."
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1732
+#: libs/ui/KisDocument.cpp:1731
 #, kde-format
 msgid "Opening document"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1747
+#: libs/ui/KisDocument.cpp:1746
 #, kde-format
 msgid ""
 "Could not open %2.\n"
 "Reason: %1"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1755
+#: libs/ui/KisDocument.cpp:1754
 #, kde-format
 msgid "There were problems opening %1"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1889
+#: libs/ui/KisDocument.cpp:1888
 #, kde-format
 msgid "Not Saved"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:2331
+#: libs/ui/KisDocument.cpp:2330
 #, kde-format
 msgctxt "Name of automatically created background color fill layer"
 msgid "Background Fill"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:2385
+#: libs/ui/KisDocument.cpp:2384
 #, kde-format
 msgctxt ""
 "progress dialog message when the user closes the document that is being saved"
@@ -28635,37 +28668,37 @@ msgstr ""
 msgid "Transform"
 msgstr ""
 
-#: libs/ui/tool/kis_tool.cc:572
+#: libs/ui/tool/kis_tool.cc:568
 #, kde-format
 msgid "No options"
 msgstr ""
 
-#: libs/ui/tool/kis_tool.cc:666
+#: libs/ui/tool/kis_tool.cc:662
 #, kde-format
 msgid "Layer is locked and invisible."
 msgstr ""
 
-#: libs/ui/tool/kis_tool.cc:668
+#: libs/ui/tool/kis_tool.cc:664
 #, kde-format
 msgid "Layer is locked."
 msgstr ""
 
-#: libs/ui/tool/kis_tool.cc:670
+#: libs/ui/tool/kis_tool.cc:666
 #, kde-format
 msgid "Layer is invisible."
 msgstr ""
 
-#: libs/ui/tool/kis_tool.cc:672
+#: libs/ui/tool/kis_tool.cc:668
 #, kde-format
 msgid "Layer can be painted in Wash Mode only."
 msgstr ""
 
-#: libs/ui/tool/kis_tool.cc:674
+#: libs/ui/tool/kis_tool.cc:670
 #, kde-format
 msgid "Group not editable."
 msgstr ""
 
-#: libs/ui/tool/kis_tool.cc:689
+#: libs/ui/tool/kis_tool.cc:685
 #, kde-format
 msgid "Local selection is locked."
 msgstr ""
@@ -28686,12 +28719,12 @@ msgstr ""
 msgid "The MyPaint Brush Engine is not available for this colorspace"
 msgstr ""
 
-#: libs/ui/tool/kis_tool_paint.cc:380
+#: libs/ui/tool/kis_tool_paint.cc:375
 #, kde-format
 msgid "Color sampler does not work on this layer."
 msgstr ""
 
-#: libs/ui/tool/kis_tool_paint.cc:668
+#: libs/ui/tool/kis_tool_paint.cc:663
 #, kde-format
 msgid "%1 %2 px"
 msgstr ""
@@ -32608,11 +32641,6 @@ msgstr ""
 msgid "Spline assistant"
 msgstr ""
 
-#: plugins/assistants/Assistants/SplineAssistant.cc:222
-#, kde-format
-msgid "Spline"
-msgstr ""
-
 #: plugins/assistants/Assistants/TwoPointAssistant.cc:27
 #, kde-format
 msgid "Two point assistant"
@@ -35584,6 +35612,11 @@ msgstr ""
 #, kde-format
 msgctxt "Export storyboard dialog caption"
 msgid "Export Storyboard as SVG"
+msgstr ""
+
+#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:59
+#, kde-format
+msgid "Export Directory: "
 msgstr ""
 
 #: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:152
@@ -45985,13 +46018,21 @@ msgstr ""
 
 #: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:45
 #, kde-format
-msgctxt "Autobrush Label"
+msgctxt "Autobrush Brush tip mode"
 msgid "Auto"
 msgstr ""
 
 #: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:49
 #, kde-format
+msgctxt "Predefined Brush tip mode"
 msgid "Predefined"
+msgstr ""
+
+#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:51
+#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:53
+#, kde-format
+msgctxt "Text Brush tip mode"
+msgid "Text"
 msgstr ""
 
 #: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:142
@@ -46734,6 +46775,12 @@ msgstr ""
 msgid "Gross Speed"
 msgstr ""
 
+#: plugins/paintops/mypaint/MyPaintBrushOption.h:34
+#, kde-format
+msgctxt "The duration of a brush stroke"
+msgid "Stroke"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QRadioButton, optionDirection)
 #: plugins/paintops/mypaint/MyPaintBrushOption.h:35
 #: plugins/paintops/tangentnormal/wdgtangenttiltoption.ui:243
@@ -46743,11 +46790,13 @@ msgstr ""
 
 #: plugins/paintops/mypaint/MyPaintBrushOption.h:36
 #, kde-format
+msgctxt "Pen tilt declination"
 msgid "Declination"
 msgstr ""
 
 #: plugins/paintops/mypaint/MyPaintBrushOption.h:37
 #, kde-format
+msgctxt "Pen tilt ascension"
 msgid "Ascension"
 msgstr ""
 
