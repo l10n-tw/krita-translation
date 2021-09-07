@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-09-07 00:17+0000\n"
-"PO-Revision-Date: 2021-09-06 07:46+0000\n"
+"PO-Revision-Date: 2021-09-07 10:39+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -14349,8 +14349,7 @@ msgstr ""
 "為 Krita 5 格式而不再兼容 Krita 4.x 版本"
 
 #: libs/flake/text/KoSvgTextShape.cpp:572
-#, fuzzy, kde-format
-#| msgid "Text"
+#, kde-format
 msgctxt "Text label in SVG Text Tool"
 msgid "Text"
 msgstr "文字"
@@ -18365,30 +18364,27 @@ msgstr "無法找到 FFmpeg！請到「進階」分頁加入指向 FFmpeg 程式
 #, kde-format
 msgctxt "FPS as a unit following a value, like 60 FPS"
 msgid " FPS"
-msgstr ""
+msgstr " FPS"
 
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:87
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:93
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:625
-#, fuzzy, kde-format
-#| msgid " s"
+#, kde-format
 msgctxt "Second as a unit following a value, like 60 s"
 msgid " s"
-msgstr " s"
+msgstr " 秒"
 
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:99
-#, fuzzy, kde-format
-#| msgid "Document"
+#, kde-format
 msgctxt "Import video to New Document"
 msgid "New Document"
-msgstr "檔案"
+msgstr "新檔案"
 
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:102
-#, fuzzy, kde-format
-#| msgid "Custom Document"
+#, kde-format
 msgctxt "Import video to Current Document"
 msgid "Current Document"
-msgstr "自訂檔案"
+msgstr "目前檔案"
 
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:105
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:588
@@ -24614,8 +24610,7 @@ msgstr "刪除…"
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
 #: libs/ui/forms/wdgstrokeselectionproperties.ui:34
 #: plugins/tools/defaulttool/defaulttool/DefaultToolTabbedWidget.cpp:29
-#, fuzzy, kde-format
-#| msgid "Stroke"
+#, kde-format
 msgctxt "Draws a line around an area"
 msgid "Stroke"
 msgstr "描邊"
@@ -36322,10 +36317,9 @@ msgid "Export Storyboard as SVG"
 msgstr "將分鏡匯出為 SVG"
 
 #: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:59
-#, fuzzy, kde-format
-#| msgid "Export directory"
+#, kde-format
 msgid "Export Directory: "
-msgstr "匯出目錄"
+msgstr "匯出目錄："
 
 #: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:152
 #, kde-format
@@ -47006,23 +47000,20 @@ msgid "Auto Spacing"
 msgstr "自動間距"
 
 #: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:45
-#, fuzzy, kde-format
-#| msgid "Auto"
+#, kde-format
 msgctxt "Autobrush Brush tip mode"
 msgid "Auto"
 msgstr "自動"
 
 #: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:49
-#, fuzzy, kde-format
-#| msgid "Predefined"
+#, kde-format
 msgctxt "Predefined Brush tip mode"
 msgid "Predefined"
 msgstr "預製形狀"
 
 #: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:51
 #: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:53
-#, fuzzy, kde-format
-#| msgid "Text"
+#, kde-format
 msgctxt "Text Brush tip mode"
 msgid "Text"
 msgstr "文字"
@@ -47811,11 +47802,10 @@ msgid "Gross Speed"
 msgstr "粗略速度"
 
 #: plugins/paintops/mypaint/MyPaintBrushOption.h:34
-#, fuzzy, kde-format
-#| msgid "Stroke"
+#, kde-format
 msgctxt "The duration of a brush stroke"
 msgid "Stroke"
-msgstr "描邊"
+msgstr "筆畫時長"
 
 #. i18n: ectx: property (text), widget (QRadioButton, optionDirection)
 #: plugins/paintops/mypaint/MyPaintBrushOption.h:35
@@ -47825,15 +47815,13 @@ msgid "Direction"
 msgstr "方向"
 
 #: plugins/paintops/mypaint/MyPaintBrushOption.h:36
-#, fuzzy, kde-format
-#| msgid "Declination"
+#, kde-format
 msgctxt "Pen tilt declination"
 msgid "Declination"
 msgstr "傾角"
 
 #: plugins/paintops/mypaint/MyPaintBrushOption.h:37
-#, fuzzy, kde-format
-#| msgid "Ascension"
+#, kde-format
 msgctxt "Pen tilt ascension"
 msgid "Ascension"
 msgstr "指向"
@@ -48078,22 +48066,22 @@ msgstr "塗抹半徑 (對數)"
 #, kde-format
 msgctxt "Option Category"
 msgid "Stroke"
-msgstr "描邊"
+msgstr "筆畫"
 
 #: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:66
 #, kde-format
 msgid "Stroke Duration log"
-msgstr "描邊時長 (對數)"
+msgstr "筆畫時長 (對數)"
 
 #: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:67
 #, kde-format
 msgid "Stroke Holdtime"
-msgstr "描邊持續時間"
+msgstr "筆畫持續時間"
 
 #: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:68
 #, kde-format
 msgid "Stroke Threshold"
-msgstr "描邊閾值"
+msgstr "筆畫閾值"
 
 #: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:69
 #: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:70
