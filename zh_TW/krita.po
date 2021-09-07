@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-09-07 00:17+0000\n"
-"PO-Revision-Date: 2021-09-07 10:39+0000\n"
+"PO-Revision-Date: 2021-09-07 10:52+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -4695,7 +4695,7 @@ msgctxt ""
 "./krita/data/bundles/Krita_4_Default_Resources.bundle:paintoppresets/"
 "y)_Texture_Noise.kpp"
 msgid "y) Texture Noise"
-msgstr "紋理 - 噪點"
+msgstr "紋理 - 雜點"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #. i18n: 'a)', 'b)' etc. in resource names are used to keep resources in a specific order when Krita sorts them alphabetically. The order will be kept only using the original/untranslated names
@@ -5521,7 +5521,7 @@ msgctxt ""
 "./krita/data/bundles/Krita_Artists_SeExpr_examples.bundle:seexpr_scripts/"
 "Wolthera's_Cellnoise.kse"
 msgid "Wolthera's Cellnoise"
-msgstr "Wolthera 的方格噪點"
+msgstr "Wolthera 的方格雜點"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
@@ -5545,7 +5545,7 @@ msgctxt ""
 "./krita/data/bundles/Krita_Artists_SeExpr_examples.bundle:seexpr_scripts/"
 "Wolthera's_Color_Cellnoise.kse"
 msgid "Wolthera's Color Cellnoise"
-msgstr "Wolthera 的彩色方格噪點"
+msgstr "Wolthera 的彩色方格雜點"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
@@ -5553,7 +5553,7 @@ msgctxt ""
 "./krita/data/bundles/Krita_Artists_SeExpr_examples.bundle:seexpr_scripts/"
 "Wolthera's_Color_Perlin_Noise_1983.kse"
 msgid "Wolthera's Color Perlin Noise 1983"
-msgstr "Wolthera 的彩色 Perlin 噪點 1983"
+msgstr "Wolthera 的彩色 Perlin 雜點 1983"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
@@ -5681,7 +5681,7 @@ msgctxt ""
 "./krita/data/bundles/Krita_Artists_SeExpr_examples.bundle:seexpr_scripts/"
 "Wolthera's_Perlin_Noise_1983.kse"
 msgid "Wolthera's Perlin Noise 1983"
-msgstr "Wolthera 的 Perlin 噪點 1983"
+msgstr "Wolthera 的 Perlin 雜點 1983"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
@@ -9002,14 +9002,14 @@ msgstr "下邊緣檢測"
 #, kde-format
 msgctxt "action"
 msgid "&Random Noise..."
-msgstr "隨機噪點(&R)…"
+msgstr "隨機雜點(&R)…"
 
 #. i18n: context: Action (krita_filter_noise), Actions (Filters), ActionCollection (Krita)
 #: krita/krita.action:1072
 #, kde-format
 msgctxt "action"
 msgid "Random Noise"
-msgstr "隨機噪點"
+msgstr "隨機雜點"
 
 #. i18n: context: Action (krita_filter_brightnesscontrast), Actions (Filters), ActionCollection (Krita)
 #: krita/krita.action:1082
@@ -15726,7 +15726,7 @@ msgstr "描邊 (樣式)"
 #: libs/image/layerstyles/kis_ls_drop_shadow_filter.cpp:37
 #, kde-format
 msgid "Drop Shadow (style)"
-msgstr "投影 (樣式)"
+msgstr "陰影 (樣式)"
 
 #: libs/image/layerstyles/kis_ls_overlay_filter.cpp:38
 #, kde-format
@@ -28604,7 +28604,7 @@ msgstr "範圍(&R)："
 #: libs/ui/layerstyles/wdgdropshadow.ui:103
 #, kde-format
 msgid "Add noise to shadow"
-msgstr "向投影新增噪點"
+msgstr "於陰影加入雜點"
 
 #. i18n: ectx: property (text), item, widget (QListWidget, lstStyleSelector)
 #. i18n: ectx: property (title), widget (QGroupBox, grpMain)
@@ -28612,19 +28612,19 @@ msgstr "向投影新增噪點"
 #: libs/ui/layerstyles/wdglayerstyles.ui:44
 #, kde-format
 msgid "Drop Shadow"
-msgstr "投影"
+msgstr "陰影"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkLayerKnocksOutDropShadow)
 #: libs/ui/layerstyles/wdgdropshadow.ui:40
 #, kde-format
 msgid "Use to obscure the shadow when fill is transparent"
-msgstr "當填充區域為透明時遮蓋投影"
+msgstr "當填充區域為透明時遮蓋陰影"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkLayerKnocksOutDropShadow)
 #: libs/ui/layerstyles/wdgdropshadow.ui:43
 #, kde-format
 msgid "Layer knocks O&ut Drop Shadow"
-msgstr "圖層挖空投影(&U)"
+msgstr "圖層挖空陰影(&U)"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
@@ -28645,7 +28645,7 @@ msgstr "品質"
 #: libs/ui/layerstyles/wdgInnerGlow.ui:88
 #, kde-format
 msgid "&Noise:"
-msgstr "噪點(&N)："
+msgstr "雜點(&N)："
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. i18n: ectx: property (text), widget (QLabel, label_13)
@@ -30820,7 +30820,7 @@ msgstr "閾值模式"
 #: libs/ui/widgets/KisDitherWidget.ui:55
 #, kde-format
 msgid "Noise"
-msgstr "噪點"
+msgstr "雜點"
 
 #. i18n: ectx: property (prefix), widget (QStackedWidget, thresholdModeStackedWidget)
 #. i18n: ectx: property (prefix), widget (QStackedWidget, stackedWidgetColorMode)
@@ -38035,42 +38035,42 @@ msgstr "未定義"
 #, kde-format
 msgctxt "EXIF: misc - sensing method type"
 msgid "One-chip color area sensor"
-msgstr "單晶片色彩區域感測器"
+msgstr "單晶片色彩區域感光元件"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editSensingMethod)
 #: plugins/extensions/metadataeditor/editors/exif.ui:893
 #, kde-format
 msgctxt "EXIF: misc - sensing method type"
 msgid "Two-chip color area sensor"
-msgstr "雙晶片色彩區域感測器"
+msgstr "雙晶片色彩區域感光元件"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editSensingMethod)
 #: plugins/extensions/metadataeditor/editors/exif.ui:898
 #, kde-format
 msgctxt "EXIF: misc - sensing method type"
 msgid "Three-chip color area sensor"
-msgstr "三晶片色彩區域感測器"
+msgstr "三晶片色彩區域感光元件"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editSensingMethod)
 #: plugins/extensions/metadataeditor/editors/exif.ui:903
 #, kde-format
 msgctxt "EXIF: misc - sensing method type"
 msgid "Color sequential area sensor"
-msgstr "色序區域感測器"
+msgstr "色序區域感光元件"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editSensingMethod)
 #: plugins/extensions/metadataeditor/editors/exif.ui:908
 #, kde-format
 msgctxt "EXIF: misc - sensing method type"
 msgid "Trilinear sensor"
-msgstr "三線性感測器"
+msgstr "三線性感光元件"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editSensingMethod)
 #: plugins/extensions/metadataeditor/editors/exif.ui:913
 #, kde-format
 msgctxt "EXIF: misc - sensing method type"
 msgid "Color sequential linear sensor"
-msgstr "色序線性感測器"
+msgstr "色序線性感光元件"
 
 #: plugins/extensions/metadataeditor/kis_meta_data_editor.cc:97
 #, kde-format
@@ -40537,12 +40537,12 @@ msgstr "自動色階(&A)"
 #: plugins/filters/noisefilter/noisefilter.cpp:53
 #, kde-format
 msgid "&Random Noise..."
-msgstr "隨機噪點(&R)…"
+msgstr "隨機雜點(&R)…"
 
 #: plugins/filters/noisefilter/noisefilter.h:38
 #, kde-format
 msgid "Random Noise"
-msgstr "隨機噪點"
+msgstr "隨機雜點"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: plugins/filters/noisefilter/wdgnoiseoptions.ui:33
@@ -42036,12 +42036,12 @@ msgstr "將指令稿繪製到縮圖"
 #: plugins/generators/simplexnoise/simplexnoisegenerator.cpp:38
 #, kde-format
 msgid "&Simplex Noise..."
-msgstr "單純形法噪音(&S)…"
+msgstr "單體雜點 (Simplex Noise) (&S)…"
 
 #: plugins/generators/simplexnoise/simplexnoisegenerator.h:40
 #, kde-format
 msgid "Simplex Noise"
-msgstr "單純形法噪音"
+msgstr "單體雜點 (Simplex Noise)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cb_looping)
 #: plugins/generators/simplexnoise/wdgsimplexnoiseoptions.ui:78
@@ -46688,7 +46688,7 @@ msgstr "可用的混色模式"
 #: plugins/paintops/mypaint/wdgmypaintcurveoption.ui:57
 #, kde-format
 msgid "Enable Pen Settings"
-msgstr "啟用壓感筆感測器"
+msgstr "啟用畫筆感測器"
 
 #. i18n: ectx: property (text), widget (QLabel, yRangeLabel)
 #. i18n: ectx: property (text), widget (QLabel, label_5)
@@ -48040,7 +48040,7 @@ msgstr "慢速追蹤"
 #: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:62
 #, kde-format
 msgid "Tracking Noise"
-msgstr "追蹤噪點"
+msgstr "追蹤雜點"
 
 #: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:63
 #, kde-format
