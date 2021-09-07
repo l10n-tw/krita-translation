@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-09-07 00:17+0000\n"
-"PO-Revision-Date: 2021-09-07 10:52+0000\n"
+"PO-Revision-Date: 2021-09-07 13:58+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -28604,7 +28604,7 @@ msgstr "範圍(&R)："
 #: libs/ui/layerstyles/wdgdropshadow.ui:103
 #, kde-format
 msgid "Add noise to shadow"
-msgstr "於陰影加入雜點"
+msgstr "為陰影加入雜點"
 
 #. i18n: ectx: property (text), item, widget (QListWidget, lstStyleSelector)
 #. i18n: ectx: property (title), widget (QGroupBox, grpMain)
@@ -42036,7 +42036,7 @@ msgstr "將指令稿繪製到縮圖"
 #: plugins/generators/simplexnoise/simplexnoisegenerator.cpp:38
 #, kde-format
 msgid "&Simplex Noise..."
-msgstr "單體雜點 (Simplex Noise) (&S)…"
+msgstr "單體雜點 (&Simplex Noise)…"
 
 #: plugins/generators/simplexnoise/simplexnoisegenerator.h:40
 #, kde-format
