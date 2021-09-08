@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-09-08 00:18+0000\n"
-"PO-Revision-Date: 2021-09-07 13:58+0000\n"
+"PO-Revision-Date: 2021-09-08 07:38+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -11539,7 +11539,7 @@ msgstr "屬性"
 #, kde-format
 msgctxt "action"
 msgid "Set Copy F&rom..."
-msgstr "設定複製來源(&R)…"
+msgstr "設定再製來源(&R)…"
 
 #. i18n: context: Action (set-copy-from), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:3379
@@ -15040,7 +15040,7 @@ msgstr "高斯"
 #: libs/image/kis_clone_layer.cpp:315
 #, kde-format
 msgid "Copy From"
-msgstr "複製來源"
+msgstr "再製來源"
 
 #: libs/image/kis_filter_strategy.h:60
 #, kde-format
@@ -21738,7 +21738,7 @@ msgstr "刪除"
 #: libs/ui/forms/wdgchangeclonesource.ui:34
 #, kde-format
 msgid "Copy from:"
-msgstr "複製來源："
+msgstr "再製來源："
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgTabletSettings)
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgColorSettings)
@@ -41650,29 +41650,25 @@ msgstr "Y："
 #. and it will be substituted by the number. The text before will be
 #. used as the prefix and the text arfet as the suffix
 #: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:356
-#, fuzzy, kde-format
-#| msgctxt "Suffix. Part of 'Every # cell/s horizontally"
-#| msgid " cell horizontally"
+#, kde-format
 msgctxt ""
 "Horizontal pixel grid alignment prefix/suffix for spinboxes in screentone "
 "generator"
 msgid "Every {n} cell horizontally"
 msgid_plural "Every {n} cells horizontally"
-msgstr[0] " 格 (水平)"
+msgstr[0] "每 {n} 格 (水平)"
 
 #. i18n: This is meant to be used in a spinbox so keep the {n} in the text
 #. and it will be substituted by the number. The text before will be
 #. used as the prefix and the text arfet as the suffix
 #: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:372
-#, fuzzy, kde-format
-#| msgctxt "Suffix. Part of 'Every # cell/s vertically"
-#| msgid " cell vertically"
+#, kde-format
 msgctxt ""
 "Vertical pixel grid alignment prefix/suffix for spinboxes in screentone "
 "generator"
 msgid "Every {n} cell vertically"
 msgid_plural "Every {n} cells vertically"
-msgstr[0] " 格 (垂直)"
+msgstr[0] "每 {n} 格 (垂直)"
 
 #: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:460
 #, kde-format
