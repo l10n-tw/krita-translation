@@ -22,7 +22,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_koffice\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-09-07 00:32+0000\n"
+"POT-Creation-Date: 2021-09-08 00:31+0000\n"
 "PO-Revision-Date: 2021-08-13 08:00+0000\n"
 "Last-Translator: 楊景貴 <issacsopp@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
@@ -144,7 +144,7 @@ msgctxt "Name"
 msgid "waffle-iron grid"
 msgstr "華夫餅/窩夫烤盤格線"
 
-#: krita/data/templates/comics/a4_waffle_grid.desktop:41
+#: krita/data/templates/comics/a4_waffle_grid.desktop:40
 msgctxt "Comment"
 msgid "300 dpi, A4 waffle-iron grid comic page with ink and color layers"
 msgstr "300 dpi，A4 大小的華夫餅/窩夫烤盤鐵模狀的格線，有墨水線稿與顏色圖層"
@@ -154,7 +154,7 @@ msgctxt "Name"
 msgid "European BD template"
 msgstr "歐洲風漫畫範本"
 
-#: krita/data/templates/comics/BD-EuroTemplate.desktop:45
+#: krita/data/templates/comics/BD-EuroTemplate.desktop:44
 msgctxt "Comment"
 msgid "template for European BD-style comics"
 msgstr "歐洲 BD (bande dessinée) 風格的連環漫畫範本"
@@ -164,7 +164,7 @@ msgctxt "Name"
 msgid "US-style comics template"
 msgstr "美式漫畫範本"
 
-#: krita/data/templates/comics/Comics-USTemplate.desktop:46
+#: krita/data/templates/comics/Comics-USTemplate.desktop:45
 msgctxt "Comment"
 msgid "template for US-style comics"
 msgstr "美式風格的連環漫畫範本"
@@ -179,7 +179,7 @@ msgctxt "Name"
 msgid "Manga template"
 msgstr "日本漫畫範本"
 
-#: krita/data/templates/comics/Manga-JpTemplate.desktop:47
+#: krita/data/templates/comics/Manga-JpTemplate.desktop:46
 msgctxt "Comment"
 msgid "template for Japanese Manga-style comics"
 msgstr "日本漫畫 (manga) 風格的連環漫畫範本"
@@ -321,11 +321,11 @@ msgid "Texture 8k 8bit srgb"
 msgstr "紋理 8k 8位元 srgb"
 
 #: krita/org.kde.krita.desktop:2 plugins/impex/brush/krita_brush.desktop:2
-#: plugins/impex/csv/krita_csv.desktop:2 plugins/impex/exr/krita_exr.desktop:57
+#: plugins/impex/csv/krita_csv.desktop:2 plugins/impex/exr/krita_exr.desktop:56
 #: plugins/impex/gif/krita_gif.desktop:2
-#: plugins/impex/heif/krita_heif.desktop:57
+#: plugins/impex/heif/krita_heif.desktop:56
 #: plugins/impex/heightmap/krita_heightmap.desktop:7
-#: plugins/impex/jp2/krita_jp2.desktop:54
+#: plugins/impex/jp2/krita_jp2.desktop:53
 #: plugins/impex/jpeg/krita_jpeg.desktop:6
 #: plugins/impex/kra/krita_kra.desktop:7 plugins/impex/krz/krita_krz.desktop:7
 #: plugins/impex/ora/krita_ora.desktop:7 plugins/impex/pdf/krita_pdf.desktop:6
@@ -341,12 +341,12 @@ msgctxt "Name"
 msgid "Krita"
 msgstr "Krita"
 
-#: krita/org.kde.krita.desktop:67
+#: krita/org.kde.krita.desktop:66
 msgctxt "GenericName"
 msgid "Digital Painting"
 msgstr "數位繪畫"
 
-#: krita/org.kde.krita.desktop:110
+#: krita/org.kde.krita.desktop:108
 msgctxt "Comment"
 msgid "Digital Painting"
 msgstr "數位繪畫"
