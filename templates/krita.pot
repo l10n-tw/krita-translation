@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-09-07 00:17+0000\n"
+"POT-Creation-Date: 2021-09-08 00:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -13864,8 +13864,8 @@ msgid ""
 "Wayland. Krita will close now."
 msgstr ""
 
-#: krita/main.cc:589 libs/ui/KisApplication.cpp:362
-#: libs/ui/KisApplication.cpp:627
+#: krita/main.cc:589 libs/ui/KisApplication.cpp:359
+#: libs/ui/KisApplication.cpp:624
 #, kde-format
 msgctxt "@title:window"
 msgid "Krita: Warning"
@@ -14732,10 +14732,10 @@ msgstr ""
 #: plugins/filters/blur/kis_wdg_gaussian_blur.cpp:44
 #: plugins/generators/pattern/kis_wdg_pattern.cpp:40
 #: plugins/generators/pattern/kis_wdg_pattern.cpp:41
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:66
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:71
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:76
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:82
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:63
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:68
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:73
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:79
 #: plugins/paintops/curvebrush/kis_curve_line_option.cpp:21
 #: plugins/paintops/curvebrush/kis_curve_paintop_settings.cpp:68
 #: plugins/paintops/deform/kis_brush_size_option.cpp:38
@@ -15428,9 +15428,9 @@ msgid "Processing"
 msgstr ""
 
 #: libs/image/kis_psd_layer_style.cpp:102
-#: libs/ui/KisApplicationArguments.cpp:397
-#: libs/ui/KisMainWindow.cpp:1417 libs/ui/KisMainWindow.cpp:1688
-#: libs/ui/KisMainWindow.cpp:1707 plugins/impex/libkra/kis_kra_saver.cpp:86
+#: libs/ui/KisApplicationArguments.cpp:375
+#: libs/ui/KisMainWindow.cpp:1423 libs/ui/KisMainWindow.cpp:1694
+#: libs/ui/KisMainWindow.cpp:1713 plugins/impex/libkra/kis_kra_saver.cpp:86
 #, kde-format
 msgid "Unnamed"
 msgstr ""
@@ -16099,8 +16099,8 @@ msgctxt "description of a file type"
 msgid "Animated PNG Image"
 msgstr ""
 
-#: libs/libkis/Document.cpp:927 libs/ui/KisMainWindow.cpp:2060
-#: libs/ui/KisMainWindow.cpp:2142
+#: libs/libkis/Document.cpp:927 libs/ui/KisMainWindow.cpp:2066
+#: libs/ui/KisMainWindow.cpp:2148
 #, kde-format
 msgid "Import frames"
 msgstr ""
@@ -17392,16 +17392,16 @@ msgstr ""
 #: libs/ui/kis_custom_pattern.cc:122 libs/ui/kis_filter_manager.cc:233
 #: libs/ui/kis_filter_manager.cc:242 libs/ui/kis_layer_manager.cc:303
 #: libs/ui/kis_layer_manager.cc:892 libs/ui/kis_node_manager.cpp:1214
-#: libs/ui/kis_node_manager.cpp:1277 libs/ui/KisApplication.cpp:875
-#: libs/ui/KisApplication.cpp:878 libs/ui/KisApplication.cpp:894
-#: libs/ui/KisApplication.cpp:926 libs/ui/KisApplication.cpp:940
-#: libs/ui/KisApplication.cpp:968 libs/ui/KisDocument.cpp:859
+#: libs/ui/kis_node_manager.cpp:1277 libs/ui/KisApplication.cpp:872
+#: libs/ui/KisApplication.cpp:875 libs/ui/KisApplication.cpp:891
+#: libs/ui/KisApplication.cpp:923 libs/ui/KisApplication.cpp:937
+#: libs/ui/KisApplication.cpp:965 libs/ui/KisDocument.cpp:859
 #: libs/ui/KisDocument.cpp:862 libs/ui/KisDocument.cpp:1702
 #: libs/ui/KisDocument.cpp:1745 libs/ui/KisDocument.cpp:1753
-#: libs/ui/KisMainWindow.cpp:1090 libs/ui/KisMainWindow.cpp:1217
-#: libs/ui/KisMainWindow.cpp:1315 libs/ui/KisMainWindow.cpp:1920
-#: libs/ui/KisMainWindow.cpp:1929 libs/ui/KisMainWindow.cpp:2068
-#: libs/ui/KisMainWindow.cpp:2127 libs/ui/KisMainWindow.cpp:2151
+#: libs/ui/KisMainWindow.cpp:1096 libs/ui/KisMainWindow.cpp:1223
+#: libs/ui/KisMainWindow.cpp:1321 libs/ui/KisMainWindow.cpp:1926
+#: libs/ui/KisMainWindow.cpp:1935 libs/ui/KisMainWindow.cpp:2074
+#: libs/ui/KisMainWindow.cpp:2133 libs/ui/KisMainWindow.cpp:2157
 #: libs/ui/KisPart.cpp:555 libs/ui/KisPart.cpp:558 libs/ui/KisReferenceImage.cpp:178
 #: libs/ui/KisRemoteFileFetcher.cpp:42 libs/ui/KisTemplateCreateDia.cpp:284
 #: libs/ui/KisTemplateCreateDia.cpp:390 libs/ui/KisView.cpp:670
@@ -17891,25 +17891,25 @@ msgstr ""
 msgid "Tag:"
 msgstr ""
 
-#: libs/resourcewidgets/KisResourceItemChooser.cpp:164
+#: libs/resourcewidgets/KisResourceItemChooser.cpp:165
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Import resource"
 msgstr ""
 
-#: libs/resourcewidgets/KisResourceItemChooser.cpp:171
+#: libs/resourcewidgets/KisResourceItemChooser.cpp:172
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Delete resource"
 msgstr ""
 
-#: libs/resourcewidgets/KisResourceItemChooser.cpp:191
+#: libs/resourcewidgets/KisResourceItemChooser.cpp:192
 #, kde-format
 msgid "Storage Resources"
 msgstr ""
 
-#: libs/resourcewidgets/KisResourceItemChooser.cpp:227
-#: libs/ui/KisMainWindow.cpp:2563 plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:563
+#: libs/resourcewidgets/KisResourceItemChooser.cpp:229
+#: libs/ui/KisMainWindow.cpp:2569 plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:563
 #, kde-format
 msgctxt "@title:window"
 msgid "Choose File to Add"
@@ -18242,7 +18242,7 @@ msgid "Failed to render animation frames! Output files are incomplete."
 msgstr ""
 
 #: libs/ui/animation/KisDlgAnimationRenderer.cpp:52
-#: libs/ui/KisMainWindow.cpp:2171
+#: libs/ui/KisMainWindow.cpp:2177
 #, kde-format
 msgid "Render Animation"
 msgstr ""
@@ -20139,7 +20139,7 @@ msgid "Numerical"
 msgstr ""
 
 #: libs/ui/dialogs/kis_dlg_import_image_sequence.cpp:137
-#: libs/ui/KisMainWindow.cpp:1185
+#: libs/ui/KisMainWindow.cpp:1191
 #, kde-format
 msgid "Import Images"
 msgstr ""
@@ -20189,10 +20189,10 @@ msgstr ""
 #: plugins/filters/halftone/KisHalftoneConfigPageWidget.cpp:54
 #: plugins/generators/pattern/wdgpatternoptions.ui:90
 #: plugins/generators/pattern/wdgpatternoptions.ui:116
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:39
 #: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:42
 #: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:45
 #: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:48
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:51
 #: plugins/impex/jpeg/kis_jpeg_export.cc:217
 #: plugins/impex/jpeg/kis_jpeg_export.cc:219
 #: plugins/impex/tiff/kis_wdg_options_tiff.ui:314
@@ -20266,7 +20266,7 @@ msgid "Enter new style name"
 msgstr ""
 
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:269
-#: libs/ui/KisMainWindow.cpp:2592 plugins/dockers/gamutmask/gamutmask_dock.cpp:373
+#: libs/ui/KisMainWindow.cpp:2598 plugins/dockers/gamutmask/gamutmask_dock.cpp:373
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Name:"
@@ -21014,19 +21014,19 @@ msgid "Session name:"
 msgstr ""
 
 #: libs/ui/dialogs/KisSessionManagerDialog.cpp:85
-#: libs/ui/KisMainWindow.cpp:2598 libs/ui/widgets/KoFillConfigWidget.cpp:671
+#: libs/ui/KisMainWindow.cpp:2604 libs/ui/widgets/KoFillConfigWidget.cpp:671
 #: plugins/dockers/gamutmask/gamutmask_dock.cpp:379
-#: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:202
+#: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:204
 #, kde-format
 msgctxt "@title:window"
 msgid "Name Already Exists"
 msgstr ""
 
 #: libs/ui/dialogs/KisSessionManagerDialog.cpp:86
-#: libs/ui/KisMainWindow.cpp:2599 libs/ui/widgets/gradient/KisGradientChooser.cpp:535
+#: libs/ui/KisMainWindow.cpp:2605 libs/ui/widgets/gradient/KisGradientChooser.cpp:535
 #: libs/ui/widgets/KoFillConfigWidget.cpp:672
 #: plugins/dockers/gamutmask/gamutmask_dock.cpp:380
-#: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:203
+#: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:205
 #, kde-format
 msgid "The name '%1' already exists, do you wish to overwrite it?"
 msgstr ""
@@ -23362,7 +23362,7 @@ msgstr ""
 #: libs/ui/forms/wdgnewwindowlayout.ui:30
 #: libs/ui/forms/wdgsegmentgradienteditor.ui:41
 #: libs/ui/forms/wdgstopgradienteditor.ui:41
-#: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:195
+#: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:197
 #: plugins/extensions/pykrita/plugin/info.ui:217
 #: plugins/extensions/resourcemanager/WdgDlgResourceManager.ui:143
 #: plugins/impex/brush/wdg_export_gih.ui:41
@@ -23413,7 +23413,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, updateBrushNameButton)
 #. i18n: ectx: property (toolTip), widget (QPushButton, bnSaveMask)
 #: libs/ui/forms/wdgpaintopsettings.ui:188
-#: libs/ui/KisMainWindow.cpp:1069 libs/ui/widgets/kis_workspace_chooser.cpp:108
+#: libs/ui/KisMainWindow.cpp:1075 libs/ui/widgets/kis_workspace_chooser.cpp:108
 #: libs/ui/widgets/kis_workspace_chooser.cpp:175
 #: plugins/dockers/gamutmask/forms/wdgGamutMaskChooser.ui:232
 #: plugins/generators/seexpr/wdgseexpr.ui:172
@@ -24281,7 +24281,7 @@ msgid "Anti-aliasing"
 msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, DlgSessionManager)
-#: libs/ui/forms/wdgsessionmanager.ui:18 libs/ui/KisApplication.cpp:314
+#: libs/ui/forms/wdgsessionmanager.ui:18 libs/ui/KisApplication.cpp:311
 #, kde-format
 msgid "Sessions"
 msgstr ""
@@ -25586,7 +25586,7 @@ msgstr ""
 msgid "&Painter's Tools"
 msgstr ""
 
-#: libs/ui/kis_control_frame.cpp:176 libs/ui/KisApplication.cpp:310
+#: libs/ui/kis_control_frame.cpp:176 libs/ui/KisApplication.cpp:307
 #: plugins/dockers/patterndocker/patterndocker_dock.cpp:20
 #: plugins/extensions/resourcemanager/dlg_embed_tags.cpp:65
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:241
@@ -25599,8 +25599,8 @@ msgstr ""
 msgid "Custom Pattern"
 msgstr ""
 
-#: libs/ui/kis_control_frame.cpp:226 libs/ui/KisApplication.cpp:295
-#: libs/ui/KisApplication.cpp:296 plugins/extensions/resourcemanager/dlg_embed_tags.cpp:63
+#: libs/ui/kis_control_frame.cpp:226 libs/ui/KisApplication.cpp:292
+#: libs/ui/KisApplication.cpp:293 plugins/extensions/resourcemanager/dlg_embed_tags.cpp:63
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:244
 #, kde-format
 msgid "Gradients"
@@ -26311,58 +26311,58 @@ msgctxt "floating message about zoom"
 msgid "Zoom: %1 %"
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:287 plugins/extensions/resourcemanager/wdgtagselection.cpp:238
+#: libs/ui/KisApplication.cpp:284 plugins/extensions/resourcemanager/wdgtagselection.cpp:238
 #, kde-format
 msgid "Brush presets"
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:290 libs/ui/KisApplication.cpp:291
-#: libs/ui/KisApplication.cpp:292 libs/ui/KisApplication.cpp:293
+#: libs/ui/KisApplication.cpp:287 libs/ui/KisApplication.cpp:288
+#: libs/ui/KisApplication.cpp:289 libs/ui/KisApplication.cpp:290
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:239
 #, kde-format
 msgid "Brush tips"
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:298 plugins/extensions/resourcemanager/dlg_embed_tags.cpp:66
+#: libs/ui/KisApplication.cpp:295 plugins/extensions/resourcemanager/dlg_embed_tags.cpp:66
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:242
 #, kde-format
 msgid "Palettes"
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:311 libs/ui/widgets/kis_workspace_chooser.cpp:78
+#: libs/ui/KisApplication.cpp:308 libs/ui/widgets/kis_workspace_chooser.cpp:78
 #: plugins/extensions/resourcemanager/dlg_embed_tags.cpp:67
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:240
 #, kde-format
 msgid "Workspaces"
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:312
+#: libs/ui/KisApplication.cpp:309
 #, kde-format
 msgid "SVG symbol libraries"
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:313 libs/ui/widgets/kis_workspace_chooser.cpp:79
+#: libs/ui/KisApplication.cpp:310 libs/ui/widgets/kis_workspace_chooser.cpp:79
 #, kde-format
 msgid "Window layouts"
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:315 plugins/extensions/resourcemanager/wdgtagselection.cpp:245
+#: libs/ui/KisApplication.cpp:312 plugins/extensions/resourcemanager/wdgtagselection.cpp:245
 #, kde-format
 msgid "Gamut masks"
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:317
+#: libs/ui/KisApplication.cpp:314
 #, kde-format
 msgid "SeExpr Scripts"
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:322
+#: libs/ui/KisApplication.cpp:319
 #, kde-format
 msgctxt "Resource type name"
 msgid "Layer styles"
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:325
+#: libs/ui/KisApplication.cpp:322
 #, kde-format
 msgid ""
 "%1\n"
@@ -26370,13 +26370,13 @@ msgid ""
 "Krita will quit now."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:325 libs/ui/KisApplication.cpp:331
+#: libs/ui/KisApplication.cpp:322 libs/ui/KisApplication.cpp:328
 #, kde-format
 msgctxt "@title:window"
 msgid "Krita: Fatal error"
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:331
+#: libs/ui/KisApplication.cpp:328
 #, kde-format
 msgid ""
 "\n"
@@ -26384,7 +26384,7 @@ msgid ""
 "Krita will quit now."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:363
+#: libs/ui/KisApplication.cpp:360
 #, kde-format
 msgid ""
 "You are running a 32 bits build on a 64 bits Windows.\n"
@@ -26392,50 +26392,50 @@ msgid ""
 "Please download and install the x64 build instead."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:380
+#: libs/ui/KisApplication.cpp:377
 #, kde-format
 msgid "Initializing Globals..."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:411
+#: libs/ui/KisApplication.cpp:408
 #, kde-format
 msgid "Adding resource types..."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:426
+#: libs/ui/KisApplication.cpp:423
 #, kde-format
 msgid "Loading Main Window..."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:525
+#: libs/ui/KisApplication.cpp:522
 #, kde-format
 msgid "Mimetype not found, try using the -mimetype option"
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:581
+#: libs/ui/KisApplication.cpp:578
 #, kde-format
 msgid "Failed to render animation frames!"
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:608 libs/ui/KisApplication.cpp:743
+#: libs/ui/KisApplication.cpp:605 libs/ui/KisApplication.cpp:740
 #, kde-format
 msgid "File layer"
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:616 libs/ui/KisApplication.cpp:621
-#: libs/ui/KisApplication.cpp:737 libs/ui/KisApplication.cpp:751
-#: libs/ui/KisApplication.cpp:756
+#: libs/ui/KisApplication.cpp:613 libs/ui/KisApplication.cpp:618
+#: libs/ui/KisApplication.cpp:734 libs/ui/KisApplication.cpp:748
+#: libs/ui/KisApplication.cpp:753
 #, kde-format
 msgctxt "@title:window"
 msgid "Krita:Warning"
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:617 libs/ui/KisApplication.cpp:752
+#: libs/ui/KisApplication.cpp:614 libs/ui/KisApplication.cpp:749
 #, kde-format
 msgid "Cannot add %1 as a file layer: the file does not exist."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:622
+#: libs/ui/KisApplication.cpp:619
 #, kde-format
 msgid ""
 "Cannot add the file layer: no document is open.\n"
@@ -26448,7 +26448,7 @@ msgid ""
 "checkbox in the settings (Settings -> General -> Window)."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:628
+#: libs/ui/KisApplication.cpp:625
 #, kde-format
 msgid ""
 "Cannot add the file layer: no document is open.\n"
@@ -26456,32 +26456,32 @@ msgid ""
 "open an existing file."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:738
+#: libs/ui/KisApplication.cpp:735
 #, kde-format
 msgid "Couldn't open file %1"
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:757
+#: libs/ui/KisApplication.cpp:754
 #, kde-format
 msgid "Cannot add the file layer: no document is open."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:876
+#: libs/ui/KisApplication.cpp:873
 #, kde-format
 msgid "No template found for: %1"
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:879
+#: libs/ui/KisApplication.cpp:876
 #, kde-format
 msgid "Too many templates found for: %1"
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:895
+#: libs/ui/KisApplication.cpp:892
 #, kde-format
 msgid "Template %1 failed to load."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:927
+#: libs/ui/KisApplication.cpp:924
 #, kde-format
 msgid ""
 "Krita configurations reset!\n"
@@ -26491,7 +26491,7 @@ msgid ""
 "Restart Krita for changes to take effect."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:941
+#: libs/ui/KisApplication.cpp:938
 #, kde-format
 msgid ""
 "Failed to clear %1\n"
@@ -26499,7 +26499,7 @@ msgid ""
 "Please make sure no other program is using the file and try again."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:969
+#: libs/ui/KisApplication.cpp:966
 #, kde-format
 msgid "Do you want to clear the settings file?"
 msgstr ""
@@ -27088,42 +27088,42 @@ msgctxt "@action:inmenu"
 msgid "Wor&kspace"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:585 plugins/tools/svgtexttool/SvgTextEditor.cpp:309
+#: libs/ui/KisMainWindow.cpp:586 plugins/tools/svgtexttool/SvgTextEditor.cpp:309
 #, kde-format
 msgid "Show %1 Toolbar"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:587 plugins/tools/svgtexttool/SvgTextEditor.cpp:311
+#: libs/ui/KisMainWindow.cpp:588 plugins/tools/svgtexttool/SvgTextEditor.cpp:311
 #, kde-format
 msgid "Hide %1 Toolbar"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1038
+#: libs/ui/KisMainWindow.cpp:1044
 #, kde-format
 msgid "Write Protected"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1042
+#: libs/ui/KisMainWindow.cpp:1048
 #, kde-format
 msgid "Recovered"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1066
+#: libs/ui/KisMainWindow.cpp:1072
 #, kde-format
 msgid "Save as %1"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1090
+#: libs/ui/KisMainWindow.cpp:1096
 #, kde-format
 msgid "The file %1 does not exist."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1185
+#: libs/ui/KisMainWindow.cpp:1191
 #, kde-format
 msgid "Open Images"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1316
+#: libs/ui/KisMainWindow.cpp:1322
 #, kde-format
 msgid ""
 "You are saving a file while the image is still rendering. The saved file may "
@@ -27132,43 +27132,43 @@ msgid ""
 "Please select a location where the original file will not be overridden!"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1372
+#: libs/ui/KisMainWindow.cpp:1378
 #, kde-format
 msgid "Exporting"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1372
+#: libs/ui/KisMainWindow.cpp:1378
 #, kde-format
 msgid "Saving As"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1667 libs/widgetutils/config/kstandardaction_p.h:29
+#: libs/ui/KisMainWindow.cpp:1673 libs/widgetutils/config/kstandardaction_p.h:29
 #, kde-format
 msgid "Create new document"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1691
+#: libs/ui/KisMainWindow.cpp:1697
 #, kde-format
 msgid "Custom Document"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1709
+#: libs/ui/KisMainWindow.cpp:1715
 #, kde-format
 msgid "Create from Clipboard"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1889
+#: libs/ui/KisMainWindow.cpp:1895
 #, kde-format
 msgid "Layers/Masks"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1915 plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:179
+#: libs/ui/KisMainWindow.cpp:1921 plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:179
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:261
 #, kde-format
 msgid "You don't have any resource bundles enabled."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1919
+#: libs/ui/KisMainWindow.cpp:1925
 #, kde-format
 msgid ""
 "\n"
@@ -27176,7 +27176,7 @@ msgid ""
 "presets before continuing.\n"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1929 plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:189
+#: libs/ui/KisMainWindow.cpp:1935 plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:189
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:273
 #, kde-format
 msgid ""
@@ -27184,66 +27184,66 @@ msgid ""
 "Only your local resources are available."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2068 libs/ui/KisMainWindow.cpp:2151
+#: libs/ui/KisMainWindow.cpp:2074 libs/ui/KisMainWindow.cpp:2157
 #, kde-format
 msgid ""
 "Could not finish import animation:\n"
 "%1"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2127
+#: libs/ui/KisMainWindow.cpp:2133
 #, kde-format
 msgid "Failed to create new document. Animation import aborted."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2555
+#: libs/ui/KisMainWindow.cpp:2561
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Import Workspace..."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2575
+#: libs/ui/KisMainWindow.cpp:2581
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&New Workspace..."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2591
+#: libs/ui/KisMainWindow.cpp:2597
 #, kde-format
 msgctxt "@title:window"
 msgid "New Workspace..."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2635
+#: libs/ui/KisMainWindow.cpp:2641
 #, kde-format
 msgid "&%1 %2"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2638
+#: libs/ui/KisMainWindow.cpp:2644
 #, kde-format
 msgid "%1 %2"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2796
+#: libs/ui/KisMainWindow.cpp:2805
 #, kde-format
 msgid ""
 "The Krita LittleCMS color management plugin is not installed. Krita will "
 "quit now."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2812
+#: libs/ui/KisMainWindow.cpp:2821
 #, kde-format
 msgctxt "@title:window"
 msgid "Installation error"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2924
+#: libs/ui/KisMainWindow.cpp:2933
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Themes"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2978
+#: libs/ui/KisMainWindow.cpp:2987
 #, kde-format
 msgid "Expanding Spacer"
 msgstr ""
@@ -29033,8 +29033,8 @@ msgstr ""
 #: plugins/assistants/Assistants/kis_assistant_tool.cc:1244
 #: plugins/filters/halftone/KisHalftoneConfigPageWidget.cpp:50
 #: plugins/filters/halftone/KisHalftoneConfigPageWidget.cpp:53
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:38
 #: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:41
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:44
 #: plugins/tools/defaulttool/defaulttool/DefaultToolGeometryWidget.cpp:110
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImagesWidget.cpp:43
 #, kde-format
@@ -32607,7 +32607,7 @@ msgstr ""
 msgid "Parallel Ruler assistant"
 msgstr ""
 
-#: plugins/assistants/Assistants/ParallelRulerAssistant.cc:259
+#: plugins/assistants/Assistants/ParallelRulerAssistant.cc:258
 #, kde-format
 msgid "Parallel Ruler"
 msgstr ""
@@ -32646,7 +32646,7 @@ msgstr ""
 msgid "Two point assistant"
 msgstr ""
 
-#: plugins/assistants/Assistants/TwoPointAssistant.cc:553
+#: plugins/assistants/Assistants/TwoPointAssistant.cc:556
 #, kde-format
 msgid "2 Point Perspective"
 msgstr ""
@@ -32656,7 +32656,7 @@ msgstr ""
 msgid "Vanishing Point assistant"
 msgstr ""
 
-#: plugins/assistants/Assistants/VanishingPointAssistant.cc:382
+#: plugins/assistants/Assistants/VanishingPointAssistant.cc:381
 #, kde-format
 msgid "Vanishing Point"
 msgstr ""
@@ -35957,17 +35957,17 @@ msgstr ""
 msgid "Task Sets"
 msgstr ""
 
-#: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:186
+#: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:188
 #, kde-format
 msgid "Taskset"
 msgstr ""
 
-#: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:194
+#: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:196
 #, kde-format
 msgid "Taskset Name"
 msgstr ""
 
-#: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:240
+#: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:242
 #, kde-format
 msgid "Task sets"
 msgstr ""
@@ -40878,87 +40878,70 @@ msgstr ""
 msgid "Y-Rotation:"
 msgstr ""
 
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:21
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:54
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:62
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:72
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:84
+#, kde-format
+msgid "X: "
+msgstr ""
+
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:56
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:67
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:78
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:88
+#, kde-format
+msgid "Y: "
+msgstr ""
+
+#. i18n: This is meant to be used in a spinbox so keep the {n} in the text
+#. and it will be substituted by the number. The text before will be
+#. used as the prefix and the text arfet as the suffix
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:356
+#, kde-format
+msgctxt ""
+"Horizontal pixel grid alignment prefix/suffix for spinboxes in screentone "
+"generator"
+msgid "Every {n} cell horizontally"
+msgid_plural "Every {n} cells horizontally"
+msgstr[0] ""
+msgstr[1] ""
+
+#. i18n: This is meant to be used in a spinbox so keep the {n} in the text
+#. and it will be substituted by the number. The text before will be
+#. used as the prefix and the text arfet as the suffix
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:372
+#, kde-format
+msgctxt ""
+"Vertical pixel grid alignment prefix/suffix for spinboxes in screentone "
+"generator"
+msgid "Every {n} cell vertically"
+msgid_plural "Every {n} cells vertically"
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:460
 #, kde-format
 msgctxt "Screentone generator resolution units - pixels/inch"
 msgid " pixels/inch"
 msgstr ""
 
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:22
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:461
 #, kde-format
 msgctxt "Screentone generator resolution units - pixels/cm"
 msgid " pixels/cm"
 msgstr ""
 
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:23
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:464
 #, kde-format
 msgctxt "Screentone generator line units - lines/inch"
 msgid " lines/inch"
 msgstr ""
 
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:24
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:465
 #, kde-format
 msgctxt "Screentone generator line units - lines/cm"
 msgid " lines/cm"
-msgstr ""
-
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:57
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:65
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:75
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:87
-#, kde-format
-msgid "X: "
-msgstr ""
-
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:59
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:70
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:81
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:91
-#, kde-format
-msgid "Y: "
-msgstr ""
-
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:94
-#, kde-format
-msgctxt "Prefix. Part of 'Every # cell/s horizontally"
-msgid "Every "
-msgstr ""
-
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:95
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:534
-#, kde-format
-msgctxt "Suffix. Part of 'Every # cell/s horizontally"
-msgid " cell horizontally"
-msgstr ""
-
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:97
-#, kde-format
-msgctxt "Prefix. Part of 'Every # cell/s vertically"
-msgid "Every "
-msgstr ""
-
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:98
-#, kde-format
-msgctxt "Suffix. Part of 'Every # cell/s vertically"
-msgid " cell vertically"
-msgstr ""
-
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:536
-#, kde-format
-msgctxt "Suffix. Part of 'Every # cell/s horizontally"
-msgid " cells horizontally"
-msgstr ""
-
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:546
-#, kde-format
-msgctxt "Suffix. Part of 'Every # cell/s horizontally"
-msgid " cell vertically"
-msgstr ""
-
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:548
-#, kde-format
-msgctxt "Suffix. Part of 'Every # cell/s horizontally"
-msgid " cells vertically"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tabScreentoneType)
