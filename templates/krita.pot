@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-09-08 00:18+0000\n"
+"POT-Creation-Date: 2021-09-10 00:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -11821,7 +11821,7 @@ msgstr ""
 #: krita/kritamenu.action:104
 #, kde-format
 msgctxt "action"
-msgid "E&xport Advanced..."
+msgid "Export Advanced..."
 msgstr ""
 
 #. i18n: context: Action (file_export_advanced), Actions (File), ActionCollection (Menu)
@@ -15429,8 +15429,8 @@ msgstr ""
 
 #: libs/image/kis_psd_layer_style.cpp:102
 #: libs/ui/KisApplicationArguments.cpp:375
-#: libs/ui/KisMainWindow.cpp:1423 libs/ui/KisMainWindow.cpp:1694
-#: libs/ui/KisMainWindow.cpp:1713 plugins/impex/libkra/kis_kra_saver.cpp:86
+#: libs/ui/KisMainWindow.cpp:1415 libs/ui/KisMainWindow.cpp:1686
+#: libs/ui/KisMainWindow.cpp:1705 plugins/impex/libkra/kis_kra_saver.cpp:86
 #, kde-format
 msgid "Unnamed"
 msgstr ""
@@ -16099,8 +16099,8 @@ msgctxt "description of a file type"
 msgid "Animated PNG Image"
 msgstr ""
 
-#: libs/libkis/Document.cpp:927 libs/ui/KisMainWindow.cpp:2066
-#: libs/ui/KisMainWindow.cpp:2148
+#: libs/libkis/Document.cpp:927 libs/ui/KisMainWindow.cpp:2058
+#: libs/ui/KisMainWindow.cpp:2140
 #, kde-format
 msgid "Import frames"
 msgstr ""
@@ -17398,10 +17398,10 @@ msgstr ""
 #: libs/ui/KisApplication.cpp:965 libs/ui/KisDocument.cpp:859
 #: libs/ui/KisDocument.cpp:862 libs/ui/KisDocument.cpp:1702
 #: libs/ui/KisDocument.cpp:1745 libs/ui/KisDocument.cpp:1753
-#: libs/ui/KisMainWindow.cpp:1096 libs/ui/KisMainWindow.cpp:1223
-#: libs/ui/KisMainWindow.cpp:1321 libs/ui/KisMainWindow.cpp:1926
-#: libs/ui/KisMainWindow.cpp:1935 libs/ui/KisMainWindow.cpp:2074
-#: libs/ui/KisMainWindow.cpp:2133 libs/ui/KisMainWindow.cpp:2157
+#: libs/ui/KisMainWindow.cpp:1088 libs/ui/KisMainWindow.cpp:1215
+#: libs/ui/KisMainWindow.cpp:1313 libs/ui/KisMainWindow.cpp:1918
+#: libs/ui/KisMainWindow.cpp:1927 libs/ui/KisMainWindow.cpp:2066
+#: libs/ui/KisMainWindow.cpp:2125 libs/ui/KisMainWindow.cpp:2149
 #: libs/ui/KisPart.cpp:555 libs/ui/KisPart.cpp:558 libs/ui/KisReferenceImage.cpp:178
 #: libs/ui/KisRemoteFileFetcher.cpp:42 libs/ui/KisTemplateCreateDia.cpp:284
 #: libs/ui/KisTemplateCreateDia.cpp:390 libs/ui/KisView.cpp:670
@@ -17412,14 +17412,13 @@ msgstr ""
 #: plugins/assistants/Assistants/kis_assistant_tool.cc:1080
 #: plugins/assistants/Assistants/kis_assistant_tool.cc:1083
 #: plugins/dockers/gamutmask/gamutmask_dock.cpp:300
-#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:152
-#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:158
-#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:161
-#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:170
-#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:197
-#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:202
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:394
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:403
+#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:172
+#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:175
+#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:184
+#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:211
+#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:216
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:389
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:398
 #: plugins/extensions/imagesplit/imagesplit.cpp:74
 #: plugins/extensions/imagesplit/imagesplit.cpp:76
 #: plugins/extensions/qmic/kis_qmic_interface.cpp:137
@@ -17909,7 +17908,7 @@ msgid "Storage Resources"
 msgstr ""
 
 #: libs/resourcewidgets/KisResourceItemChooser.cpp:229
-#: libs/ui/KisMainWindow.cpp:2569 plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:563
+#: libs/ui/KisMainWindow.cpp:2561 plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:563
 #, kde-format
 msgctxt "@title:window"
 msgid "Choose File to Add"
@@ -18242,7 +18241,7 @@ msgid "Failed to render animation frames! Output files are incomplete."
 msgstr ""
 
 #: libs/ui/animation/KisDlgAnimationRenderer.cpp:52
-#: libs/ui/KisMainWindow.cpp:2177
+#: libs/ui/KisMainWindow.cpp:2169
 #, kde-format
 msgid "Render Animation"
 msgstr ""
@@ -19854,8 +19853,10 @@ msgid "Snap to:"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
+#. i18n: ectx: property (text), item, widget (QComboBox, boardLayoutComboBox)
 #: libs/ui/canvas/kis_guides_manager.cpp:776
 #: plugins/dockers/griddocker/grid_config_widget.ui:43
+#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:140
 #, kde-format
 msgid "Grid"
 msgstr ""
@@ -20139,7 +20140,7 @@ msgid "Numerical"
 msgstr ""
 
 #: libs/ui/dialogs/kis_dlg_import_image_sequence.cpp:137
-#: libs/ui/KisMainWindow.cpp:1191
+#: libs/ui/KisMainWindow.cpp:1183
 #, kde-format
 msgid "Import Images"
 msgstr ""
@@ -20266,7 +20267,7 @@ msgid "Enter new style name"
 msgstr ""
 
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:269
-#: libs/ui/KisMainWindow.cpp:2598 plugins/dockers/gamutmask/gamutmask_dock.cpp:373
+#: libs/ui/KisMainWindow.cpp:2590 plugins/dockers/gamutmask/gamutmask_dock.cpp:373
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Name:"
@@ -21014,7 +21015,7 @@ msgid "Session name:"
 msgstr ""
 
 #: libs/ui/dialogs/KisSessionManagerDialog.cpp:85
-#: libs/ui/KisMainWindow.cpp:2604 libs/ui/widgets/KoFillConfigWidget.cpp:671
+#: libs/ui/KisMainWindow.cpp:2596 libs/ui/widgets/KoFillConfigWidget.cpp:671
 #: plugins/dockers/gamutmask/gamutmask_dock.cpp:379
 #: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:204
 #, kde-format
@@ -21023,7 +21024,7 @@ msgid "Name Already Exists"
 msgstr ""
 
 #: libs/ui/dialogs/KisSessionManagerDialog.cpp:86
-#: libs/ui/KisMainWindow.cpp:2605 libs/ui/widgets/gradient/KisGradientChooser.cpp:535
+#: libs/ui/KisMainWindow.cpp:2597 libs/ui/widgets/gradient/KisGradientChooser.cpp:535
 #: libs/ui/widgets/KoFillConfigWidget.cpp:672
 #: plugins/dockers/gamutmask/gamutmask_dock.cpp:380
 #: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:205
@@ -23213,15 +23214,15 @@ msgid "W&idth:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, bnLandscape)
-#. i18n: ectx: property (text), item, widget (QComboBox, cmbPageOrient)
-#: libs/ui/forms/wdgnewimage.ui:231 plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:134
+#. i18n: ectx: property (text), item, widget (QComboBox, pageOrientationComboBox)
+#: libs/ui/forms/wdgnewimage.ui:231 plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:108
 #, kde-format
 msgid "Landscape"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, bnPortrait)
-#. i18n: ectx: property (text), item, widget (QComboBox, cmbPageOrient)
-#: libs/ui/forms/wdgnewimage.ui:250 plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:129
+#. i18n: ectx: property (text), item, widget (QComboBox, pageOrientationComboBox)
+#: libs/ui/forms/wdgnewimage.ui:250 plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:103
 #, kde-format
 msgid "Portrait"
 msgstr ""
@@ -23413,7 +23414,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, updateBrushNameButton)
 #. i18n: ectx: property (toolTip), widget (QPushButton, bnSaveMask)
 #: libs/ui/forms/wdgpaintopsettings.ui:188
-#: libs/ui/KisMainWindow.cpp:1075 libs/ui/widgets/kis_workspace_chooser.cpp:108
+#: libs/ui/KisMainWindow.cpp:1067 libs/ui/widgets/kis_workspace_chooser.cpp:108
 #: libs/ui/widgets/kis_workspace_chooser.cpp:175
 #: plugins/dockers/gamutmask/forms/wdgGamutMaskChooser.ui:232
 #: plugins/generators/seexpr/wdgseexpr.ui:172
@@ -26036,8 +26037,8 @@ msgstr ""
 msgid "Brush composite"
 msgstr ""
 
-#: libs/ui/kis_paintop_box.cc:1261 libs/ui/kis_paintop_box.cc:1283
-#: libs/ui/kis_paintop_box.cc:1297
+#: libs/ui/kis_paintop_box.cc:1247 libs/ui/kis_paintop_box.cc:1269
+#: libs/ui/kis_paintop_box.cc:1283
 #, kde-format
 msgid ""
 "%1\n"
@@ -27088,42 +27089,42 @@ msgctxt "@action:inmenu"
 msgid "Wor&kspace"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:586 plugins/tools/svgtexttool/SvgTextEditor.cpp:309
+#: libs/ui/KisMainWindow.cpp:578 plugins/tools/svgtexttool/SvgTextEditor.cpp:309
 #, kde-format
 msgid "Show %1 Toolbar"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:588 plugins/tools/svgtexttool/SvgTextEditor.cpp:311
+#: libs/ui/KisMainWindow.cpp:580 plugins/tools/svgtexttool/SvgTextEditor.cpp:311
 #, kde-format
 msgid "Hide %1 Toolbar"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1044
+#: libs/ui/KisMainWindow.cpp:1036
 #, kde-format
 msgid "Write Protected"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1048
+#: libs/ui/KisMainWindow.cpp:1040
 #, kde-format
 msgid "Recovered"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1072
+#: libs/ui/KisMainWindow.cpp:1064
 #, kde-format
 msgid "Save as %1"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1096
+#: libs/ui/KisMainWindow.cpp:1088
 #, kde-format
 msgid "The file %1 does not exist."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1191
+#: libs/ui/KisMainWindow.cpp:1183
 #, kde-format
 msgid "Open Images"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1322
+#: libs/ui/KisMainWindow.cpp:1314
 #, kde-format
 msgid ""
 "You are saving a file while the image is still rendering. The saved file may "
@@ -27132,43 +27133,43 @@ msgid ""
 "Please select a location where the original file will not be overridden!"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1378
+#: libs/ui/KisMainWindow.cpp:1370
 #, kde-format
 msgid "Exporting"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1378
+#: libs/ui/KisMainWindow.cpp:1370
 #, kde-format
 msgid "Saving As"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1673 libs/widgetutils/config/kstandardaction_p.h:29
+#: libs/ui/KisMainWindow.cpp:1665 libs/widgetutils/config/kstandardaction_p.h:29
 #, kde-format
 msgid "Create new document"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1697
+#: libs/ui/KisMainWindow.cpp:1689
 #, kde-format
 msgid "Custom Document"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1715
+#: libs/ui/KisMainWindow.cpp:1707
 #, kde-format
 msgid "Create from Clipboard"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1895
+#: libs/ui/KisMainWindow.cpp:1887
 #, kde-format
 msgid "Layers/Masks"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1921 plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:179
+#: libs/ui/KisMainWindow.cpp:1913 plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:179
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:261
 #, kde-format
 msgid "You don't have any resource bundles enabled."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1925
+#: libs/ui/KisMainWindow.cpp:1917
 #, kde-format
 msgid ""
 "\n"
@@ -27176,7 +27177,7 @@ msgid ""
 "presets before continuing.\n"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1935 plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:189
+#: libs/ui/KisMainWindow.cpp:1927 plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:189
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:273
 #, kde-format
 msgid ""
@@ -27184,66 +27185,66 @@ msgid ""
 "Only your local resources are available."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2074 libs/ui/KisMainWindow.cpp:2157
+#: libs/ui/KisMainWindow.cpp:2066 libs/ui/KisMainWindow.cpp:2149
 #, kde-format
 msgid ""
 "Could not finish import animation:\n"
 "%1"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2133
+#: libs/ui/KisMainWindow.cpp:2125
 #, kde-format
 msgid "Failed to create new document. Animation import aborted."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2561
+#: libs/ui/KisMainWindow.cpp:2553
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Import Workspace..."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2581
+#: libs/ui/KisMainWindow.cpp:2573
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&New Workspace..."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2597
+#: libs/ui/KisMainWindow.cpp:2589
 #, kde-format
 msgctxt "@title:window"
 msgid "New Workspace..."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2641
+#: libs/ui/KisMainWindow.cpp:2633
 #, kde-format
 msgid "&%1 %2"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2644
+#: libs/ui/KisMainWindow.cpp:2636
 #, kde-format
 msgid "%1 %2"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2805
+#: libs/ui/KisMainWindow.cpp:2797
 #, kde-format
 msgid ""
 "The Krita LittleCMS color management plugin is not installed. Krita will "
 "quit now."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2821
+#: libs/ui/KisMainWindow.cpp:2813
 #, kde-format
 msgctxt "@title:window"
 msgid "Installation error"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2933
+#: libs/ui/KisMainWindow.cpp:2925
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Themes"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2987
+#: libs/ui/KisMainWindow.cpp:2979
 #, kde-format
 msgid "Expanding Spacer"
 msgstr ""
@@ -27546,41 +27547,41 @@ msgstr ""
 msgid "Gamut Warnings turned off."
 msgstr ""
 
-#: libs/ui/KisViewManager.cpp:741
+#: libs/ui/KisViewManager.cpp:742
 #, kde-format
 msgid "Active Author Profile"
 msgstr ""
 
-#: libs/ui/KisViewManager.cpp:868
+#: libs/ui/KisViewManager.cpp:869
 #, kde-format
 msgid "%1 (Copy)"
 msgstr ""
 
-#: libs/ui/KisViewManager.cpp:991 libs/ui/KisViewManager.cpp:1072
+#: libs/ui/KisViewManager.cpp:1011 libs/ui/KisViewManager.cpp:1092
 #, kde-format
 msgid "Alternative names exhausted, try manually saving with a higher number"
 msgstr ""
 
-#: libs/ui/KisViewManager.cpp:991
+#: libs/ui/KisViewManager.cpp:1011
 #, kde-format
 msgctxt "@title:window"
 msgid "Couldn't save incremental version"
 msgstr ""
 
-#: libs/ui/KisViewManager.cpp:1072
+#: libs/ui/KisViewManager.cpp:1092
 #, kde-format
 msgctxt "@title:window"
 msgid "Couldn't save incremental backup"
 msgstr ""
 
-#: libs/ui/KisViewManager.cpp:1255
+#: libs/ui/KisViewManager.cpp:1275
 #, kde-format
 msgid ""
 "Going into Canvas-Only mode.\n"
 "Press %1 to go back."
 msgstr ""
 
-#: libs/ui/KisViewManager.cpp:1363 libs/ui/KisViewManager.cpp:1381
+#: libs/ui/KisViewManager.cpp:1383 libs/ui/KisViewManager.cpp:1401
 #, kde-format
 msgctxt "choice for author profile"
 msgid "Anonymous"
@@ -30393,6 +30394,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, lblNumRows)
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: libs/ui/widgets/KoFillConfigWidget.ui:376
+#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:154
 #: plugins/extensions/clonesarray/wdg_clonesarray.ui:219
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:2118
 #, kde-format
@@ -30403,6 +30405,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, lblNumColumns)
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: libs/ui/widgets/KoFillConfigWidget.ui:394
+#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:180
 #: plugins/extensions/clonesarray/wdg_clonesarray.ui:122
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:2108
 #, kde-format
@@ -31594,12 +31597,12 @@ msgstr ""
 msgid "Toggle Preview"
 msgstr ""
 
-#: libs/widgetutils/KoFileDialog.cpp:246
+#: libs/widgetutils/KoFileDialog.cpp:244
 #, kde-format
 msgid "Save As:"
 msgstr ""
 
-#: libs/widgetutils/KoFileDialog.cpp:452
+#: libs/widgetutils/KoFileDialog.cpp:438
 #, kde-format
 msgid "All supported formats"
 msgstr ""
@@ -35142,7 +35145,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QToolButton, btnExport)
 #. i18n: ectx: property (text), widget (QPushButton, buttonExport)
 #: plugins/dockers/recorder/recorder_export.ui:570
-#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:27
+#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:29
 #: plugins/dockers/storyboarddocker/wdgstoryboarddock.ui:21
 #, kde-format
 msgid "Export"
@@ -35602,51 +35605,39 @@ msgstr ""
 msgid "Use percentage"
 msgstr ""
 
-#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:23
+#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:25
 #, kde-format
 msgctxt "Export storyboard dialog caption"
 msgid "Export Storyboard as PDF"
 msgstr ""
 
-#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:24
+#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:26
 #, kde-format
 msgctxt "Export storyboard dialog caption"
 msgid "Export Storyboard as SVG"
 msgstr ""
 
-#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:59
-#, kde-format
-msgid "Export Directory: "
-msgstr ""
-
-#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:152
-#, kde-format
-msgid ""
-"Please enter correct range. The first frame should be less than or equal to "
-"the last frame."
-msgstr ""
-
-#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:158
+#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:172
 #, kde-format
 msgid "Please enter a file name to export to."
 msgstr ""
 
-#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:161
+#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:175
 #, kde-format
 msgid "Please enter a directory to export to."
 msgstr ""
 
-#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:170
+#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:184
 #, kde-format
 msgid "Please enter an existing directory."
 msgstr ""
 
-#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:180
+#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:194
 #, kde-format
 msgid "Existing files with similar naming scheme"
 msgstr ""
 
-#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:181
+#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:195
 #, kde-format
 msgid ""
 "Files with the same naming scheme exist in the destination directory. They "
@@ -35656,12 +35647,12 @@ msgid ""
 "Files: %2"
 msgstr ""
 
-#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:197
+#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:211
 #, kde-format
 msgid "Please choose svg file to specify the layout for exporting."
 msgstr ""
 
-#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:202
+#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:216
 #, kde-format
 msgid ""
 "The SVG file to specify layout doesn't exist. Please choose an existing SVG "
@@ -35688,81 +35679,81 @@ msgctxt "(qtundo-format)"
 msgid "Edit Storyboard Child"
 msgstr ""
 
-#: plugins/dockers/storyboarddocker/StoryboardDelegate.cpp:135
-#: plugins/dockers/storyboarddocker/StoryboardDelegate.cpp:299
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:540
+#: plugins/dockers/storyboarddocker/StoryboardDelegate.cpp:136
+#: plugins/dockers/storyboarddocker/StoryboardDelegate.cpp:300
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:536
 #, kde-format
 msgctxt "suffix in spin box in storyboard that means 'seconds'"
 msgid "s"
 msgstr ""
 
-#: plugins/dockers/storyboarddocker/StoryboardDelegate.cpp:140
-#: plugins/dockers/storyboarddocker/StoryboardDelegate.cpp:306
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:543
+#: plugins/dockers/storyboarddocker/StoryboardDelegate.cpp:141
+#: plugins/dockers/storyboarddocker/StoryboardDelegate.cpp:307
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:539
 #, kde-format
 msgctxt "suffix in spin box in storyboard that means 'frames'"
 msgid "f"
 msgstr ""
 
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:150
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:152
 #, kde-format
 msgctxt "Storyboard Docker"
 msgid "Storyboard"
 msgstr ""
 
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:167
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:169
 #, kde-format
 msgctxt "Export storyboard as PDF"
 msgid "Export as PDF"
 msgstr ""
 
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:170
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:172
 #, kde-format
 msgctxt "Export storyboard as SVG"
 msgid "Export as SVG"
 msgstr ""
 
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:179
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:185
 #, kde-format
 msgctxt "Freeze keyframe positions and ignore storyboard adjustments"
 msgid "Freeze Keyframe Data"
 msgstr ""
 
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:208
-#: plugins/dockers/storyboarddocker/StoryboardView.cpp:280
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:214
+#: plugins/dockers/storyboarddocker/StoryboardView.cpp:279
 #, kde-format
 msgctxt "Add new scene as the last storyboard"
 msgid "Add Scene"
 msgstr ""
 
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:224
-#: plugins/dockers/storyboarddocker/StoryboardView.cpp:291
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:230
+#: plugins/dockers/storyboarddocker/StoryboardView.cpp:290
 #, kde-format
 msgctxt "Remove current scene from storyboards"
 msgid "Remove Scene"
 msgstr ""
 
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:394
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:403
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:389
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:398
 #, kde-format
 msgid ""
 "Please enter correct range. There are no panels in the range of frames "
 "provided."
 msgstr ""
 
-#: plugins/dockers/storyboarddocker/StoryboardModel.cpp:1253
+#: plugins/dockers/storyboarddocker/StoryboardModel.cpp:1260
 #, kde-format
 msgctxt "default name for storyboard item"
 msgid "scene "
 msgstr ""
 
-#: plugins/dockers/storyboarddocker/StoryboardView.cpp:287
+#: plugins/dockers/storyboarddocker/StoryboardView.cpp:286
 #, kde-format
 msgctxt "Add scene after active scene"
 msgid "Add Scene After"
 msgstr ""
 
-#: plugins/dockers/storyboarddocker/StoryboardView.cpp:289
+#: plugins/dockers/storyboarddocker/StoryboardView.cpp:288
 #, kde-format
 msgctxt "Add scene before active scene"
 msgid "Add Scene Before"
@@ -35825,111 +35816,99 @@ msgid "Comments Only"
 msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgExportStoryboard)
-#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:14
+#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:20
 #, kde-format
 msgid "Export Storyboard"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:22
+#. i18n: ectx: property (text), widget (QLabel, pageSizeLabel)
+#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:34
 #, kde-format
-msgid "Frame number of first item to render:"
+msgid "Page Size:"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label_5)
-#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:32
-#, kde-format
-msgid "Frame number of last item to render:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:46
-#, kde-format
-msgid "Rows per page :"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:56
-#, kde-format
-msgid "Columns per page :"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_6)
-#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:70
-#, kde-format
-msgid "Font Size :"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:80
-#, kde-format
-msgid "Page Size :"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, cmbPageSize)
-#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:88
-#, kde-format
-msgid "A4"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, cmbPageSize)
-#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:93
+#. i18n: ectx: property (text), item, widget (QComboBox, pageSizeComboBox)
+#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:51
 #, kde-format
 msgid "A0"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (QComboBox, cmbPageSize)
-#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:98
+#. i18n: ectx: property (text), item, widget (QComboBox, pageSizeComboBox)
+#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:56
 #, kde-format
 msgid "A1"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (QComboBox, cmbPageSize)
-#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:103
+#. i18n: ectx: property (text), item, widget (QComboBox, pageSizeComboBox)
+#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:61
 #, kde-format
 msgid "A2"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (QComboBox, cmbPageSize)
-#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:108
+#. i18n: ectx: property (text), item, widget (QComboBox, pageSizeComboBox)
+#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:66
 #, kde-format
 msgid "A3"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (QComboBox, cmbPageSize)
-#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:113
+#. i18n: ectx: property (text), item, widget (QComboBox, pageSizeComboBox)
+#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:71
+#, kde-format
+msgid "A4"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, pageSizeComboBox)
+#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:76
 #, kde-format
 msgid "A5"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label_7)
-#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:121
+#. i18n: ectx: property (text), item, widget (QComboBox, pageSizeComboBox)
+#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:81
 #, kde-format
-msgid "Page Orientation :"
+msgid "US Letter"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, chkUseSVGLayout)
-#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:142
+#. i18n: ectx: property (text), widget (QLabel, pageOrientationLabel)
+#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:89
 #, kde-format
-msgid "Specify Layout Using SVG file "
+msgid "Page Orientation:"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label_8)
-#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:149
+#. i18n: ectx: property (text), widget (QLabel, boardLayoutLabel)
+#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:116
 #, kde-format
-msgid "SVG file for specifying layout :"
+msgid "Board Layout:"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, lblExportFileName)
-#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:166
+#. i18n: ectx: property (text), item, widget (QComboBox, boardLayoutComboBox)
+#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:130
 #, kde-format
-msgid "Export File Name : "
+msgid "Rows"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, lblSvgFileBaseName)
-#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:183
+#. i18n: ectx: property (text), item, widget (QComboBox, boardLayoutComboBox)
+#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:135
 #, kde-format
-msgid "SVG file base name : "
+msgid "Columns"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, svgTemplatePathLabel)
+#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:222
+#, kde-format
+msgid "SVG Template Path:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, fontSizeLabel)
+#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:232
+#, kde-format
+msgid "Font Size:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, exportPathLabel)
+#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:281
+#, kde-format
+msgid "Export Path:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QToolButton, btnComment)
@@ -37999,7 +37978,7 @@ msgstr ""
 msgid "Manage Resources"
 msgstr ""
 
-#: plugins/extensions/resourcemanager/DlgResourceManager.cpp:220
+#: plugins/extensions/resourcemanager/DlgResourceManager.cpp:222
 #, kde-format
 msgctxt ""
 "In Resource manager, this is text shown instead of filename, name or "
@@ -38008,7 +37987,7 @@ msgctxt ""
 msgid "(Multiple selected)"
 msgstr ""
 
-#: plugins/extensions/resourcemanager/DlgResourceManager.cpp:236
+#: plugins/extensions/resourcemanager/DlgResourceManager.cpp:238
 #, kde-format
 msgctxt ""
 "In Resource manager, this is text shown instead of filename, name or "
@@ -38016,19 +37995,19 @@ msgctxt ""
 msgid "(None selected)"
 msgstr ""
 
-#: plugins/extensions/resourcemanager/DlgResourceManager.cpp:378
+#: plugins/extensions/resourcemanager/DlgResourceManager.cpp:379
 #, kde-format
 msgid "Undelete Resources"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, btnDeleteResource)
-#: plugins/extensions/resourcemanager/DlgResourceManager.cpp:380
+#: plugins/extensions/resourcemanager/DlgResourceManager.cpp:381
 #: plugins/extensions/resourcemanager/WdgDlgResourceManager.ui:201
 #, kde-format
 msgid "Delete Resources"
 msgstr ""
 
-#: plugins/extensions/resourcemanager/DlgResourceManager.cpp:398
+#: plugins/extensions/resourcemanager/DlgResourceManager.cpp:399
 #, kde-format
 msgctxt "Brush engine type, in resource manager"
 msgid "Engine: "
