@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-09-10 00:16+0000\n"
-"PO-Revision-Date: 2021-09-08 07:38+0000\n"
+"PO-Revision-Date: 2021-09-11 11:06+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -11377,14 +11377,14 @@ msgstr "編輯中繼資料"
 #, kde-format
 msgctxt "action"
 msgid "&Histogram..."
-msgstr "直方圖(&H)…"
+msgstr "色階分佈圖(&H)…"
 
 #. i18n: context: Action (histogram), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:3227
 #, kde-format
 msgctxt "action"
 msgid "Histogram"
-msgstr "直方圖"
+msgstr "色階分佈圖"
 
 #. i18n: context: Action (layercolorspaceconversion), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:3237
@@ -11828,9 +11828,7 @@ msgstr "匯出檔案"
 
 #. i18n: context: Action (file_export_advanced), Actions (File), ActionCollection (Menu)
 #: krita/kritamenu.action:104
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "E&xport Advanced..."
+#, kde-format
 msgctxt "action"
 msgid "Export Advanced..."
 msgstr "進階匯出…"
@@ -16401,7 +16399,7 @@ msgstr "簡單色彩轉換引擎"
 #: libs/pigment/KoBasicHistogramProducers.cpp:427
 #, kde-format
 msgid "Generic RGB Histogram"
-msgstr "一般 RGB 直方圖"
+msgstr "一般 RGB 色階分佈圖"
 
 #: libs/pigment/KoBasicHistogramProducers.cpp:364
 #, kde-format
@@ -16421,7 +16419,7 @@ msgstr "藍"
 #: libs/pigment/KoBasicHistogramProducers.cpp:433
 #, kde-format
 msgid "L*a*b* Histogram"
-msgstr "L*a*b* 直方圖"
+msgstr "L*a*b* 色階分佈圖"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: libs/pigment/KoBasicHistogramProducers.cpp:437
@@ -16433,7 +16431,7 @@ msgstr "L*"
 #: libs/pigment/KoBasicHistogramProducers.cpp:511
 #, kde-format
 msgid "Generic L*a*b* Histogram"
-msgstr "一般 L*a*b* 直方圖"
+msgstr "一般 L*a*b* 色階分佈圖"
 
 #: libs/pigment/KoColorModelStandardIds.cpp:12
 #, kde-format
@@ -33451,107 +33449,107 @@ msgstr "ICC 引擎"
 #: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:160
 #, kde-format
 msgid "L*a*b*/8 Histogram"
-msgstr "L*a*b* 8 位元直方圖"
+msgstr "L*a*b* 8 位元色階分佈圖"
 
 #: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:164
 #, kde-format
 msgid "L*a*b*/16 Histogram"
-msgstr "L*a*b* 16 位元直方圖"
+msgstr "L*a*b* 16 位元色階分佈圖"
 
 #: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:168
 #, kde-format
 msgid "L*a*b*/32 Histogram"
-msgstr "L*a*b* 32 位元直方圖"
+msgstr "L*a*b* 32 位元色階分佈圖"
 
 #: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:186
 #, kde-format
 msgid "RGBA/8 Histogram"
-msgstr "RGBA 8 位元直方圖"
+msgstr "RGBA 8 位元色階分佈圖"
 
 #: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:190
 #, kde-format
 msgid "RGBA/16 Histogram"
-msgstr "RGBA 16 位元直方圖"
+msgstr "RGBA 16 位元色階分佈圖"
 
 #: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:196
 #, kde-format
 msgid "RGBA/F16 Histogram"
-msgstr "RGBA 16 位元浮點直方圖"
+msgstr "RGBA 16 位元浮點色階分佈圖"
 
 #: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:202
 #, kde-format
 msgid "RGBA/F32 Histogram"
-msgstr "RGBA 32 位元浮點直方圖"
+msgstr "RGBA 32 位元浮點色階分佈圖"
 
 #: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:223
 #, kde-format
 msgid "GRAY/8 Histogram"
-msgstr "灰階 8 位元直方圖"
+msgstr "灰階 8 位元色階分佈圖"
 
 #: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:227
 #, kde-format
 msgid "GRAY/16 Histogram"
-msgstr "灰階 16 位元直方圖"
+msgstr "灰階 16 位元色階分佈圖"
 
 #: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:232
 #, kde-format
 msgid "GRAYF/F16 Histogram"
-msgstr "灰階 16 位元浮點直方圖"
+msgstr "灰階 16 位元浮點色階分佈圖"
 
 #: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:238
 #, kde-format
 msgid "GRAY/F32 float Histogram"
-msgstr "灰階 32 位元浮點直方圖"
+msgstr "灰階 32 位元浮點色階分佈圖"
 
 #: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:248
 #, kde-format
 msgid "CMYK/8 Histogram"
-msgstr "CMYK 8 位元直方圖"
+msgstr "CMYK 8 位元色階分佈圖"
 
 #: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:252
 #, kde-format
 msgid "CMYK/16 Histogram"
-msgstr "CMYK 16 位元直方圖"
+msgstr "CMYK 16 位元色階分佈圖"
 
 #: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:256
 #, kde-format
 msgid "CMYK/F32 Histogram"
-msgstr "CMYK 32 位元浮點直方圖"
+msgstr "CMYK 32 位元浮點色階分佈圖"
 
 #: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:274
 #, kde-format
 msgid "XYZ/8 Histogram"
-msgstr "XYZ 8 位元直方圖"
+msgstr "XYZ 8 位元色階分佈圖"
 
 #: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:278
 #, kde-format
 msgid "XYZ/16 Histogram"
-msgstr "XYZ 16 位元直方圖"
+msgstr "XYZ 16 位元色階分佈圖"
 
 #: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:284
 #, kde-format
 msgid "XYZ/F16 Histogram"
-msgstr "XYZ 16 位元浮點直方圖"
+msgstr "XYZ 16 位元浮點色階分佈圖"
 
 #: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:290
 #, kde-format
 msgid "XYZF32 Histogram"
-msgstr "XYZ 32 位元浮點直方圖"
+msgstr "XYZ 32 位元浮點色階分佈圖"
 
 #: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:303
 #, kde-format
 msgid "YCbCr/8 Histogram"
-msgstr "YCbCr 8 位元直方圖"
+msgstr "YCbCr 8 位元色階分佈圖"
 
 #: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:307
 #, kde-format
 msgid "YCbCr/16 Histogram"
-msgstr "YCbCr 16 位元直方圖"
+msgstr "YCbCr 16 位元色階分佈圖"
 
 #: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:311
 #, kde-format
 msgid "YCbCr/F32 Histogram"
-msgstr "YCbCr 32 位元浮點直方圖"
+msgstr "YCbCr 32 位元浮點色階分佈圖"
 
 #: plugins/dockers/advancedcolorselector/kis_color_selector_ng_dock.cpp:24
 #: plugins/dockers/advancedcolorselector/kis_color_selector_settings.cpp:43
@@ -35090,7 +35088,7 @@ msgstr "格線與參考線"
 #: plugins/dockers/histogram/histogramdocker_dock.cpp:22
 #, kde-format
 msgid "Histogram"
-msgstr "直方圖"
+msgstr "色階分佈圖"
 
 #: plugins/dockers/historydocker/DlgConfigureHistoryDock.cpp:24
 #, kde-format
@@ -35593,7 +35591,7 @@ msgstr "筆刷預設"
 #: plugins/dockers/presethistory/presethistory_dock.cpp:36
 #, kde-format
 msgid "Brush Preset History"
-msgstr "筆刷預設歷史"
+msgstr "筆刷預設切換歷史"
 
 #: plugins/dockers/presethistory/presethistory_dock.cpp:48
 #, kde-format
@@ -36531,8 +36529,7 @@ msgstr "匯出分鏡"
 
 #. i18n: ectx: property (text), widget (QLabel, pageSizeLabel)
 #: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:34
-#, fuzzy, kde-format
-#| msgid "Page Size :"
+#, kde-format
 msgid "Page Size:"
 msgstr "頁面大小："
 
@@ -36574,61 +36571,51 @@ msgstr "A5"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, pageSizeComboBox)
 #: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:81
-#, fuzzy, kde-format
-#| msgctxt "Page size"
-#| msgid "US Letter"
+#, kde-format
 msgid "US Letter"
 msgstr "US Letter"
 
 #. i18n: ectx: property (text), widget (QLabel, pageOrientationLabel)
 #: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:89
-#, fuzzy, kde-format
-#| msgid "Page Orientation :"
+#, kde-format
 msgid "Page Orientation:"
 msgstr "頁面方向："
 
 #. i18n: ectx: property (text), widget (QLabel, boardLayoutLabel)
 #: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:116
-#, fuzzy, kde-format
-#| msgid "Page Layout:"
+#, kde-format
 msgid "Board Layout:"
-msgstr "頁面版式："
+msgstr "版面配置："
 
 #. i18n: ectx: property (text), item, widget (QComboBox, boardLayoutComboBox)
 #: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:130
-#, fuzzy, kde-format
-#| msgid "Rows:"
+#, kde-format
 msgid "Rows"
-msgstr "行數："
+msgstr "行數"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, boardLayoutComboBox)
 #: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:135
-#, fuzzy, kde-format
-#| msgid "Columns:"
+#, kde-format
 msgid "Columns"
-msgstr "列數："
+msgstr "列數"
 
 #. i18n: ectx: property (text), widget (QLabel, svgTemplatePathLabel)
 #: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:222
-#, fuzzy, kde-format
-#| msgctxt "Screentone equalization mode"
-#| msgid "Template Based"
+#, kde-format
 msgid "SVG Template Path:"
-msgstr "基於模板"
+msgstr "SVG 模板路徑："
 
 #. i18n: ectx: property (text), widget (QLabel, fontSizeLabel)
 #: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:232
-#, fuzzy, kde-format
-#| msgid "Font Size :"
+#, kde-format
 msgid "Font Size:"
 msgstr "字型大小："
 
 #. i18n: ectx: property (text), widget (QLabel, exportPathLabel)
 #: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:281
-#, fuzzy, kde-format
-#| msgid "Export Palette"
+#, kde-format
 msgid "Export Path:"
-msgstr "匯出調色板"
+msgstr "匯出路徑："
 
 #. i18n: ectx: property (text), widget (QToolButton, btnComment)
 #: plugins/dockers/storyboarddocker/wdgstoryboarddock.ui:31
@@ -44081,9 +44068,7 @@ msgctxt "@info:whatsthis"
 msgid ""
 "<p>If disable, use a fixed white level and ignore the image histogram to "
 "adjust brightness.</p>"
-msgstr ""
-"<p>停用此選項時，程式將使用固定白色級別並在調整亮度時忽略影像的直方圖資料。</"
-"p>"
+msgstr "<p>停用此選項時，程式將使用固定白色級別並在調整亮度時忽略影像的色階分佈圖資料。</p>"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:511
 #, kde-format
