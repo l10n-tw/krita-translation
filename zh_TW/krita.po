@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-09-12 00:16+0000\n"
-"PO-Revision-Date: 2021-09-11 11:06+0000\n"
+"PO-Revision-Date: 2021-09-12 12:09+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -24248,7 +24248,7 @@ msgstr "sRGB 三角形選色器"
 #: libs/ui/forms/WdgPopupPaletteSettings.ui:89
 #, kde-format
 msgid "Wide Gamut Selector"
-msgstr "寛色域選色器"
+msgstr "廣色域選色器"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: libs/ui/forms/WdgPopupPaletteSettings.ui:97
@@ -29200,7 +29200,7 @@ msgid ""
 "Width: %1 px\n"
 "Height: %2 px"
 msgstr ""
-"寛：%1 px\n"
+"寬：%1 px\n"
 "高：%2 px"
 
 #: libs/ui/tool/kis_tool_rectangle_base.cpp:251
@@ -30099,13 +30099,11 @@ msgid ""
 "printers.</p><p>The Adobe RGB 1998 color gamut is a reasonable approximation "
 "to some of today's high-end wide gamut monitors.</p>"
 msgstr ""
-"<p>為避免潛在的侵權風險，此特性檔案庫參考 ArgyllCMS 的做法用 ClayRGB 來命名此"
-"色彩空間。\"相容 Adobe RGB 1998\" 用於表述某個色彩特性檔案與 Adobe RGB 1998色"
-"彩空間的規範相容。</p><p>Adobe RGB 1998 色域比 sRGB 寬廣，能覆蓋更多真實色彩"
-"中的青色、綠色和黃綠色，但它並不能覆蓋新型高端寬色域噴墨印表機可列印的全部青"
-"色、綠色和黃綠色。 BetaRGB (不包含在本色彩特性庫中) 和 Rec.2020 色彩空間與這"
-"些印表機匹配得更好。</p><p>Adobe RGB 1998 色域常被用於新型高端寬色域顯示器"
-"上。</p>"
+"<p>為避免潛在的侵權風險，此特性檔案庫參考 ArgyllCMS 的做法用 ClayRGB 來命名此色彩空間。\"相容 Adobe RGB 1998\" "
+"用於表述某個色彩特性檔案與 Adobe RGB 1998色彩空間的規範相容。</p><p>Adobe RGB 1998 色域比 sRGB "
+"寬廣，能覆蓋更多真實色彩中的青色、綠色和黃綠色，但它並不能覆蓋新型高端廣色域噴墨印表機可列印的全部青色、綠色和黃綠色。 BetaRGB "
+"(不包含在本色彩特性庫中) 和 Rec.2020 色彩空間與這些印表機匹配得更好。</p><p>Adobe RGB 1998 "
+"色域常被用於新型高端廣色域顯示器上。</p>"
 
 #: libs/ui/widgets/kis_advanced_color_space_selector.cc:518
 #, kde-format
@@ -30260,11 +30258,9 @@ msgid ""
 "after its introduction, Adobe switched their emphasis to the ProPhotoRGB "
 "color space.</p>"
 msgstr ""
-"<p>為避免潛在的侵權風險，此特性檔案庫用 WideRGB 來命名此色彩空間。</"
-"p><p>WideGamutRGB 由 Adobe 研發，用於以光色作為基色的寬色域色彩空間。Pascale "
-"使用的基色數值與 Adobe 和佳能曾經使用的 V2 規範寬色域特性檔案相匹配。此色彩空"
-"間耐人尋味，在它發表之後不久，Adobe 便將其注意力轉向了 ProPhotoRGB 色彩空間。"
-"</p>"
+"<p>為避免潛在的侵權風險，此特性檔案庫用 WideRGB 來命名此色彩空間。</p><p>WideGamutRGB 由 Adobe "
+"研發，用於以光色作為基色的廣色域色彩空間。Pascale 使用的基色數值與 Adobe 和佳能曾經使用的 V2 "
+"規範廣色域特性檔案相匹配。此色彩空間耐人尋味，在它發表之後不久，Adobe 便將其注意力轉向了 ProPhotoRGB 色彩空間。</p>"
 
 #: libs/ui/widgets/kis_advanced_color_space_selector.cc:605
 #, kde-format
@@ -41931,7 +41927,7 @@ msgstr "將 Y 軸座標標準化由影像左上角計算"
 #, kde-format
 msgctxt "SeExpr variable"
 msgid "Image width"
-msgstr "影像寛度"
+msgstr "影像寬度"
 
 #: plugins/generators/seexpr/kis_wdg_seexpr.cpp:49
 #, kde-format
@@ -44384,17 +44380,15 @@ msgid ""
 "in mind.</li><li><emphasis strong='true'>Custom</emphasis>: use a custom "
 "output color space profile.</li></ul></p>"
 msgstr ""
-"<title>作業空間</title><p>在此選擇用於解碼 RAW 資料的輸出色彩空間。</"
-"p><p><ul><li><emphasis strong='true'>RAW (無特性檔案)</emphasis>：在此模式"
-"下，解碼 RAW 過程中將不使用輸出色彩空間。</li><li><emphasis "
-"strong='true'>sRGB</emphasis>：這是一個 RGB 色彩空間，由惠普和微軟共同研發。"
-"它是網路及肖像攝影影像的最佳選擇。</li><li><emphasis strong='true'>Adobe "
-"RGB</emphasis>：這是一個寬色域 RGB 色彩空間，由 Adobe 研發。它用於廣告及高雅"
-"藝術的攝影。</li><li><emphasis strong='true'>Wide Gamut</emphasis>：這是 "
-"Adobe RGB 色彩空間的擴展版本。</li><li><emphasis strong='true'>Pro-Photo</"
-"emphasis>：這是一個 RGB 色彩空間，由柯達研發。它提供了為攝影列印而設計的特別"
-"寬廣的色域。</li><li><emphasis strong='true'>自訂</emphasis>：使用一個自訂的"
-"色彩空間特性檔案。</li></ul></p>"
+"<title>作業空間</title><p>在此選擇用於解碼 RAW 資料的輸出色彩空間。</p><p><ul><li><emphasis "
+"strong='true'>RAW (無特性檔案)</emphasis>：在此模式下，解碼 RAW 過程中將不使用輸出色彩空間。</"
+"li><li><emphasis strong='true'>sRGB</emphasis>：這是一個 RGB "
+"色彩空間，由惠普和微軟共同研發。它是網路及肖像攝影影像的最佳選擇。</li><li><emphasis strong='true'>Adobe "
+"RGB</emphasis>：這是一個廣色域 RGB 色彩空間，由 Adobe 研發。它用於廣告及高雅藝術的攝影。</li><li><emphasis "
+"strong='true'>Wide Gamut</emphasis>：這是 Adobe RGB 色彩空間的擴展版本。</"
+"li><li><emphasis strong='true'>Pro-Photo</emphasis>：這是一個 RGB "
+"色彩空間，由柯達研發。它提供了為攝影列印而設計的特別寬廣的色域。</li><li><emphasis "
+"strong='true'>自訂</emphasis>：使用一個自訂的色彩空間特性檔案。</li></ul></p>"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:729
 #, kde-format
@@ -47856,7 +47850,7 @@ msgstr "橢圓印跡角度"
 #: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:38
 #, kde-format
 msgid "Elliptical Dab Ratio"
-msgstr "橢圓印跡長寛比"
+msgstr "橢圓印跡長寬比"
 
 #: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:39
 #, kde-format
@@ -52926,7 +52920,7 @@ msgstr "鎖定高度"
 #: plugins/tools/tool_crop/kis_tool_crop.cc:128
 #, kde-format
 msgid "Lock Ratio"
-msgstr "鎖定長寛比"
+msgstr "鎖定長寬比"
 
 #: plugins/tools/tool_crop/kis_tool_crop.cc:246
 #, kde-format
@@ -52948,7 +52942,7 @@ msgid ""
 "Width: %1\n"
 "Height: %2"
 msgstr ""
-"寛：%1\n"
+"寬：%1\n"
 "高：%2"
 
 #: plugins/tools/tool_crop/kis_tool_crop.h:215
