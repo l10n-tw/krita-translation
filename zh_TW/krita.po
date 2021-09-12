@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-09-08 00:18+0000\n"
-"PO-Revision-Date: 2021-09-08 07:38+0000\n"
+"POT-Creation-Date: 2021-09-12 00:16+0000\n"
+"PO-Revision-Date: 2021-09-11 11:06+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -11377,14 +11377,14 @@ msgstr "編輯中繼資料"
 #, kde-format
 msgctxt "action"
 msgid "&Histogram..."
-msgstr "直方圖(&H)…"
+msgstr "色階分佈圖(&H)…"
 
 #. i18n: context: Action (histogram), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:3227
 #, kde-format
 msgctxt "action"
 msgid "Histogram"
-msgstr "直方圖"
+msgstr "色階分佈圖"
 
 #. i18n: context: Action (layercolorspaceconversion), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:3237
@@ -11830,7 +11830,7 @@ msgstr "匯出檔案"
 #: krita/kritamenu.action:104
 #, kde-format
 msgctxt "action"
-msgid "E&xport Advanced..."
+msgid "Export Advanced..."
 msgstr "進階匯出…"
 
 #. i18n: context: Action (file_export_advanced), Actions (File), ActionCollection (Menu)
@@ -15458,8 +15458,8 @@ msgid "Processing"
 msgstr "正在處理"
 
 #: libs/image/kis_psd_layer_style.cpp:102
-#: libs/ui/KisApplicationArguments.cpp:375 libs/ui/KisMainWindow.cpp:1423
-#: libs/ui/KisMainWindow.cpp:1694 libs/ui/KisMainWindow.cpp:1713
+#: libs/ui/KisApplicationArguments.cpp:375 libs/ui/KisMainWindow.cpp:1415
+#: libs/ui/KisMainWindow.cpp:1686 libs/ui/KisMainWindow.cpp:1705
 #: plugins/impex/libkra/kis_kra_saver.cpp:86
 #, kde-format
 msgid "Unnamed"
@@ -16137,8 +16137,8 @@ msgctxt "description of a file type"
 msgid "Animated PNG Image"
 msgstr "動態 PNG 影像"
 
-#: libs/libkis/Document.cpp:927 libs/ui/KisMainWindow.cpp:2066
-#: libs/ui/KisMainWindow.cpp:2148
+#: libs/libkis/Document.cpp:927 libs/ui/KisMainWindow.cpp:2058
+#: libs/ui/KisMainWindow.cpp:2140
 #, kde-format
 msgid "Import frames"
 msgstr "匯入影格"
@@ -16399,7 +16399,7 @@ msgstr "簡單色彩轉換引擎"
 #: libs/pigment/KoBasicHistogramProducers.cpp:427
 #, kde-format
 msgid "Generic RGB Histogram"
-msgstr "一般 RGB 直方圖"
+msgstr "一般 RGB 色階分佈圖"
 
 #: libs/pigment/KoBasicHistogramProducers.cpp:364
 #, kde-format
@@ -16419,7 +16419,7 @@ msgstr "藍"
 #: libs/pigment/KoBasicHistogramProducers.cpp:433
 #, kde-format
 msgid "L*a*b* Histogram"
-msgstr "L*a*b* 直方圖"
+msgstr "L*a*b* 色階分佈圖"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: libs/pigment/KoBasicHistogramProducers.cpp:437
@@ -16431,7 +16431,7 @@ msgstr "L*"
 #: libs/pigment/KoBasicHistogramProducers.cpp:511
 #, kde-format
 msgid "Generic L*a*b* Histogram"
-msgstr "一般 L*a*b* 直方圖"
+msgstr "一般 L*a*b* 色階分佈圖"
 
 #: libs/pigment/KoColorModelStandardIds.cpp:12
 #, kde-format
@@ -17435,11 +17435,11 @@ msgstr "本機資源"
 #: libs/ui/KisApplication.cpp:937 libs/ui/KisApplication.cpp:965
 #: libs/ui/KisDocument.cpp:859 libs/ui/KisDocument.cpp:862
 #: libs/ui/KisDocument.cpp:1702 libs/ui/KisDocument.cpp:1745
-#: libs/ui/KisDocument.cpp:1753 libs/ui/KisMainWindow.cpp:1096
-#: libs/ui/KisMainWindow.cpp:1223 libs/ui/KisMainWindow.cpp:1321
-#: libs/ui/KisMainWindow.cpp:1926 libs/ui/KisMainWindow.cpp:1935
-#: libs/ui/KisMainWindow.cpp:2074 libs/ui/KisMainWindow.cpp:2133
-#: libs/ui/KisMainWindow.cpp:2157 libs/ui/KisPart.cpp:555
+#: libs/ui/KisDocument.cpp:1753 libs/ui/KisMainWindow.cpp:1088
+#: libs/ui/KisMainWindow.cpp:1215 libs/ui/KisMainWindow.cpp:1313
+#: libs/ui/KisMainWindow.cpp:1918 libs/ui/KisMainWindow.cpp:1927
+#: libs/ui/KisMainWindow.cpp:2066 libs/ui/KisMainWindow.cpp:2125
+#: libs/ui/KisMainWindow.cpp:2149 libs/ui/KisPart.cpp:555
 #: libs/ui/KisPart.cpp:558 libs/ui/KisReferenceImage.cpp:178
 #: libs/ui/KisRemoteFileFetcher.cpp:42 libs/ui/KisTemplateCreateDia.cpp:284
 #: libs/ui/KisTemplateCreateDia.cpp:390 libs/ui/KisView.cpp:670
@@ -17451,14 +17451,13 @@ msgstr "本機資源"
 #: plugins/assistants/Assistants/kis_assistant_tool.cc:1080
 #: plugins/assistants/Assistants/kis_assistant_tool.cc:1083
 #: plugins/dockers/gamutmask/gamutmask_dock.cpp:300
-#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:152
-#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:158
-#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:161
-#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:170
-#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:197
-#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:202
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:394
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:403
+#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:172
+#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:175
+#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:184
+#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:211
+#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:216
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:389
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:398
 #: plugins/extensions/imagesplit/imagesplit.cpp:74
 #: plugins/extensions/imagesplit/imagesplit.cpp:76
 #: plugins/extensions/qmic/kis_qmic_interface.cpp:137
@@ -17950,7 +17949,7 @@ msgid "Storage Resources"
 msgstr "資源收藏"
 
 #: libs/resourcewidgets/KisResourceItemChooser.cpp:229
-#: libs/ui/KisMainWindow.cpp:2569
+#: libs/ui/KisMainWindow.cpp:2561
 #: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:563
 #, kde-format
 msgctxt "@title:window"
@@ -18294,7 +18293,7 @@ msgid "Failed to render animation frames! Output files are incomplete."
 msgstr "動畫影格繪製失敗！輸出檔案不完整。"
 
 #: libs/ui/animation/KisDlgAnimationRenderer.cpp:52
-#: libs/ui/KisMainWindow.cpp:2177
+#: libs/ui/KisMainWindow.cpp:2169
 #, kde-format
 msgid "Render Animation"
 msgstr "繪製動畫"
@@ -19964,8 +19963,10 @@ msgid "Snap to:"
 msgstr "吸附到："
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
+#. i18n: ectx: property (text), item, widget (QComboBox, boardLayoutComboBox)
 #: libs/ui/canvas/kis_guides_manager.cpp:776
 #: plugins/dockers/griddocker/grid_config_widget.ui:43
+#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:140
 #, kde-format
 msgid "Grid"
 msgstr "格線"
@@ -20272,7 +20273,7 @@ msgid "Numerical"
 msgstr "按數字順序"
 
 #: libs/ui/dialogs/kis_dlg_import_image_sequence.cpp:137
-#: libs/ui/KisMainWindow.cpp:1191
+#: libs/ui/KisMainWindow.cpp:1183
 #, kde-format
 msgid "Import Images"
 msgstr "匯入影像"
@@ -20397,7 +20398,7 @@ msgctxt "@title:window"
 msgid "Enter new style name"
 msgstr "輸入新樣式名稱"
 
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:269 libs/ui/KisMainWindow.cpp:2598
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:269 libs/ui/KisMainWindow.cpp:2590
 #: plugins/dockers/gamutmask/gamutmask_dock.cpp:373
 #, kde-format
 msgctxt "@label:textbox"
@@ -21171,7 +21172,7 @@ msgid "Session name:"
 msgstr "工作階段名稱："
 
 #: libs/ui/dialogs/KisSessionManagerDialog.cpp:85
-#: libs/ui/KisMainWindow.cpp:2604 libs/ui/widgets/KoFillConfigWidget.cpp:671
+#: libs/ui/KisMainWindow.cpp:2596 libs/ui/widgets/KoFillConfigWidget.cpp:671
 #: plugins/dockers/gamutmask/gamutmask_dock.cpp:379
 #: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:204
 #, kde-format
@@ -21180,7 +21181,7 @@ msgid "Name Already Exists"
 msgstr "名稱已存在"
 
 #: libs/ui/dialogs/KisSessionManagerDialog.cpp:86
-#: libs/ui/KisMainWindow.cpp:2605
+#: libs/ui/KisMainWindow.cpp:2597
 #: libs/ui/widgets/gradient/KisGradientChooser.cpp:535
 #: libs/ui/widgets/KoFillConfigWidget.cpp:672
 #: plugins/dockers/gamutmask/gamutmask_dock.cpp:380
@@ -21439,7 +21440,7 @@ msgstr "許可協議/權利："
 #: libs/ui/widgets/KoFillConfigWidget.ui:222
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:558
 #: plugins/dockers/griddocker/grid_config_widget.ui:90
-#: plugins/extensions/resourcemanager/wdgdlgbundlemanager.ui:167
+#: plugins/extensions/resourcemanager/wdgdlgbundlemanager.ui:170
 #: plugins/extensions/resourcemanager/wdgdlgcreatebundle.ui:58
 #: plugins/extensions/resourcemanager/wdgdlgembedtags.ui:58
 #: plugins/flake/pathshapes/ellipse/EllipseShapeConfigWidget.ui:39
@@ -21466,7 +21467,7 @@ msgstr "修訂版本："
 #. i18n: ectx: property (text), widget (QLabel, lblCreatedDesc)
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #: libs/ui/forms/koDocumentInfoAboutWidget.ui:128
-#: plugins/extensions/resourcemanager/wdgdlgbundlemanager.ui:476
+#: plugins/extensions/resourcemanager/wdgdlgbundlemanager.ui:479
 #, kde-format
 msgid "Created:"
 msgstr "建立時間："
@@ -23453,17 +23454,17 @@ msgid "W&idth:"
 msgstr "寬度(&I)："
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, bnLandscape)
-#. i18n: ectx: property (text), item, widget (QComboBox, cmbPageOrient)
+#. i18n: ectx: property (text), item, widget (QComboBox, pageOrientationComboBox)
 #: libs/ui/forms/wdgnewimage.ui:231
-#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:134
+#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:108
 #, kde-format
 msgid "Landscape"
 msgstr "橫向"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, bnPortrait)
-#. i18n: ectx: property (text), item, widget (QComboBox, cmbPageOrient)
+#. i18n: ectx: property (text), item, widget (QComboBox, pageOrientationComboBox)
 #: libs/ui/forms/wdgnewimage.ui:250
-#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:129
+#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:103
 #, kde-format
 msgid "Portrait"
 msgstr "縱向"
@@ -23659,7 +23660,7 @@ msgstr "目前筆刷預設"
 
 #. i18n: ectx: property (text), widget (QPushButton, updateBrushNameButton)
 #. i18n: ectx: property (toolTip), widget (QPushButton, bnSaveMask)
-#: libs/ui/forms/wdgpaintopsettings.ui:188 libs/ui/KisMainWindow.cpp:1075
+#: libs/ui/forms/wdgpaintopsettings.ui:188 libs/ui/KisMainWindow.cpp:1067
 #: libs/ui/widgets/kis_workspace_chooser.cpp:108
 #: libs/ui/widgets/kis_workspace_chooser.cpp:175
 #: plugins/dockers/gamutmask/forms/wdgGamutMaskChooser.ui:232
@@ -26357,8 +26358,8 @@ msgstr "選擇作業空間"
 msgid "Brush composite"
 msgstr "筆刷分量"
 
-#: libs/ui/kis_paintop_box.cc:1261 libs/ui/kis_paintop_box.cc:1283
-#: libs/ui/kis_paintop_box.cc:1297
+#: libs/ui/kis_paintop_box.cc:1247 libs/ui/kis_paintop_box.cc:1269
+#: libs/ui/kis_paintop_box.cc:1283
 #, kde-format
 msgid ""
 "%1\n"
@@ -27514,44 +27515,44 @@ msgctxt "@action:inmenu"
 msgid "Wor&kspace"
 msgstr "作業空間(&K)"
 
-#: libs/ui/KisMainWindow.cpp:586
+#: libs/ui/KisMainWindow.cpp:578
 #: plugins/tools/svgtexttool/SvgTextEditor.cpp:309
 #, kde-format
 msgid "Show %1 Toolbar"
 msgstr "顯示%1工具列"
 
-#: libs/ui/KisMainWindow.cpp:588
+#: libs/ui/KisMainWindow.cpp:580
 #: plugins/tools/svgtexttool/SvgTextEditor.cpp:311
 #, kde-format
 msgid "Hide %1 Toolbar"
 msgstr "隱藏%1工具列"
 
-#: libs/ui/KisMainWindow.cpp:1044
+#: libs/ui/KisMainWindow.cpp:1036
 #, kde-format
 msgid "Write Protected"
 msgstr "防寫"
 
-#: libs/ui/KisMainWindow.cpp:1048
+#: libs/ui/KisMainWindow.cpp:1040
 #, kde-format
 msgid "Recovered"
 msgstr "已復原"
 
-#: libs/ui/KisMainWindow.cpp:1072
+#: libs/ui/KisMainWindow.cpp:1064
 #, kde-format
 msgid "Save as %1"
 msgstr "另存為 %1"
 
-#: libs/ui/KisMainWindow.cpp:1096
+#: libs/ui/KisMainWindow.cpp:1088
 #, kde-format
 msgid "The file %1 does not exist."
 msgstr "檔案 %1 不存在。"
 
-#: libs/ui/KisMainWindow.cpp:1191
+#: libs/ui/KisMainWindow.cpp:1183
 #, kde-format
 msgid "Open Images"
 msgstr "開啟影像"
 
-#: libs/ui/KisMainWindow.cpp:1322
+#: libs/ui/KisMainWindow.cpp:1314
 #, kde-format
 msgid ""
 "You are saving a file while the image is still rendering. The saved file may "
@@ -27563,45 +27564,45 @@ msgstr ""
 "\n"
 "請選擇一個原始檔案不會被覆蓋掉的位置！"
 
-#: libs/ui/KisMainWindow.cpp:1378
+#: libs/ui/KisMainWindow.cpp:1370
 #, kde-format
 msgid "Exporting"
 msgstr "正在匯出"
 
-#: libs/ui/KisMainWindow.cpp:1378
+#: libs/ui/KisMainWindow.cpp:1370
 #, kde-format
 msgid "Saving As"
 msgstr "正在儲存為"
 
-#: libs/ui/KisMainWindow.cpp:1673
+#: libs/ui/KisMainWindow.cpp:1665
 #: libs/widgetutils/config/kstandardaction_p.h:29
 #, kde-format
 msgid "Create new document"
 msgstr "建立檔案"
 
-#: libs/ui/KisMainWindow.cpp:1697
+#: libs/ui/KisMainWindow.cpp:1689
 #, kde-format
 msgid "Custom Document"
 msgstr "自訂檔案"
 
-#: libs/ui/KisMainWindow.cpp:1715
+#: libs/ui/KisMainWindow.cpp:1707
 #, kde-format
 msgid "Create from Clipboard"
 msgstr "從剪貼簿建立"
 
-#: libs/ui/KisMainWindow.cpp:1895
+#: libs/ui/KisMainWindow.cpp:1887
 #, kde-format
 msgid "Layers/Masks"
 msgstr "圖層/遮罩"
 
-#: libs/ui/KisMainWindow.cpp:1921
+#: libs/ui/KisMainWindow.cpp:1913
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:179
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:261
 #, kde-format
 msgid "You don't have any resource bundles enabled."
 msgstr "您沒有啟用任何資源包"
 
-#: libs/ui/KisMainWindow.cpp:1925
+#: libs/ui/KisMainWindow.cpp:1917
 #, kde-format
 msgid ""
 "\n"
@@ -27611,7 +27612,7 @@ msgstr ""
 "\n"
 "無可用的筆刷預設。在繼續之前請先啟用一個含有筆刷預設的資源包。\n"
 
-#: libs/ui/KisMainWindow.cpp:1935
+#: libs/ui/KisMainWindow.cpp:1927
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:189
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:273
 #, kde-format
@@ -27622,7 +27623,7 @@ msgstr ""
 "\n"
 "只有您在本機的資源可用。"
 
-#: libs/ui/KisMainWindow.cpp:2074 libs/ui/KisMainWindow.cpp:2157
+#: libs/ui/KisMainWindow.cpp:2066 libs/ui/KisMainWindow.cpp:2149
 #, kde-format
 msgid ""
 "Could not finish import animation:\n"
@@ -27631,59 +27632,59 @@ msgstr ""
 "無法完成匯入動畫：\n"
 "%1"
 
-#: libs/ui/KisMainWindow.cpp:2133
+#: libs/ui/KisMainWindow.cpp:2125
 #, kde-format
 msgid "Failed to create new document. Animation import aborted."
 msgstr "無法建立新文件。已終止匯入動畫。"
 
-#: libs/ui/KisMainWindow.cpp:2561
+#: libs/ui/KisMainWindow.cpp:2553
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Import Workspace..."
 msgstr "匯入作業空間(&I)…"
 
-#: libs/ui/KisMainWindow.cpp:2581
+#: libs/ui/KisMainWindow.cpp:2573
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&New Workspace..."
 msgstr "新作業空間(&N)…"
 
-#: libs/ui/KisMainWindow.cpp:2597
+#: libs/ui/KisMainWindow.cpp:2589
 #, kde-format
 msgctxt "@title:window"
 msgid "New Workspace..."
 msgstr "新作業空間…"
 
-#: libs/ui/KisMainWindow.cpp:2641
+#: libs/ui/KisMainWindow.cpp:2633
 #, kde-format
 msgid "&%1 %2"
 msgstr "%1 %2"
 
-#: libs/ui/KisMainWindow.cpp:2644
+#: libs/ui/KisMainWindow.cpp:2636
 #, kde-format
 msgid "%1 %2"
 msgstr "%1 %2"
 
-#: libs/ui/KisMainWindow.cpp:2805
+#: libs/ui/KisMainWindow.cpp:2797
 #, kde-format
 msgid ""
 "The Krita LittleCMS color management plugin is not installed. Krita will "
 "quit now."
 msgstr "未安裝 Krita 的 LittleCMS 色彩管理外掛程式。Krita 將立即退出。"
 
-#: libs/ui/KisMainWindow.cpp:2821
+#: libs/ui/KisMainWindow.cpp:2813
 #, kde-format
 msgctxt "@title:window"
 msgid "Installation error"
 msgstr "安裝錯誤"
 
-#: libs/ui/KisMainWindow.cpp:2933
+#: libs/ui/KisMainWindow.cpp:2925
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Themes"
 msgstr "主題(&T)"
 
-#: libs/ui/KisMainWindow.cpp:2987
+#: libs/ui/KisMainWindow.cpp:2979
 #, kde-format
 msgid "Expanding Spacer"
 msgstr "擴張空白佔位符"
@@ -27995,34 +27996,34 @@ msgstr "但螢幕校樣仍然關閉。"
 msgid "Gamut Warnings turned off."
 msgstr "已關閉色域警告。"
 
-#: libs/ui/KisViewManager.cpp:741
+#: libs/ui/KisViewManager.cpp:742
 #, kde-format
 msgid "Active Author Profile"
 msgstr "目前作者檔案"
 
-#: libs/ui/KisViewManager.cpp:868
+#: libs/ui/KisViewManager.cpp:869
 #, kde-format
 msgid "%1 (Copy)"
 msgstr "%1 (副本)"
 
-#: libs/ui/KisViewManager.cpp:991 libs/ui/KisViewManager.cpp:1072
+#: libs/ui/KisViewManager.cpp:1011 libs/ui/KisViewManager.cpp:1092
 #, kde-format
 msgid "Alternative names exhausted, try manually saving with a higher number"
 msgstr "備用名稱數字已用盡，請手動輸入更大的數字儲存檔案"
 
-#: libs/ui/KisViewManager.cpp:991
+#: libs/ui/KisViewManager.cpp:1011
 #, kde-format
 msgctxt "@title:window"
 msgid "Couldn't save incremental version"
 msgstr "無法儲存遞增版本"
 
-#: libs/ui/KisViewManager.cpp:1072
+#: libs/ui/KisViewManager.cpp:1092
 #, kde-format
 msgctxt "@title:window"
 msgid "Couldn't save incremental backup"
 msgstr "無法儲存遞增備份"
 
-#: libs/ui/KisViewManager.cpp:1255
+#: libs/ui/KisViewManager.cpp:1275
 #, kde-format
 msgid ""
 "Going into Canvas-Only mode.\n"
@@ -28031,7 +28032,7 @@ msgstr ""
 "即將切換為畫布獨佔模式。\n"
 "按下 %1 返回。"
 
-#: libs/ui/KisViewManager.cpp:1363 libs/ui/KisViewManager.cpp:1381
+#: libs/ui/KisViewManager.cpp:1383 libs/ui/KisViewManager.cpp:1401
 #, kde-format
 msgctxt "choice for author profile"
 msgid "Anonymous"
@@ -29503,6 +29504,7 @@ msgstr "透明"
 #: plugins/filters/halftone/KisHalftoneConfigPageWidget.cpp:53
 #: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:38
 #: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:41
+#: plugins/paintops/libpaintop/kis_pressure_flow_opacity_option_widget.cpp:38
 #: plugins/tools/defaulttool/defaulttool/DefaultToolGeometryWidget.cpp:110
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImagesWidget.cpp:43
 #, kde-format
@@ -30755,7 +30757,7 @@ msgstr "跳前"
 #. i18n: ectx: property (title), widget (QGroupBox, BundleSelectedGroupBox)
 #: libs/ui/widgets/kis_utility_title_bar.cpp:18
 #: plugins/dockers/gamutmask/forms/wdgGamutMaskChooser.ui:137
-#: plugins/extensions/resourcemanager/wdgdlgbundlemanager.ui:159
+#: plugins/extensions/resourcemanager/wdgdlgbundlemanager.ui:162
 #, kde-format
 msgid "Title"
 msgstr "標題"
@@ -31024,6 +31026,7 @@ msgstr "按下按鈕"
 #. i18n: ectx: property (text), widget (QLabel, lblNumRows)
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: libs/ui/widgets/KoFillConfigWidget.ui:376
+#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:154
 #: plugins/extensions/clonesarray/wdg_clonesarray.ui:219
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:2118
 #, kde-format
@@ -31034,6 +31037,7 @@ msgstr "行數："
 #. i18n: ectx: property (text), widget (QLabel, lblNumColumns)
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: libs/ui/widgets/KoFillConfigWidget.ui:394
+#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:180
 #: plugins/extensions/clonesarray/wdg_clonesarray.ui:122
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:2108
 #, kde-format
@@ -32230,12 +32234,12 @@ msgstr "秒 (s)"
 msgid "Toggle Preview"
 msgstr "切換預覽"
 
-#: libs/widgetutils/KoFileDialog.cpp:246
+#: libs/widgetutils/KoFileDialog.cpp:244
 #, kde-format
 msgid "Save As:"
 msgstr "另存為："
 
-#: libs/widgetutils/KoFileDialog.cpp:452
+#: libs/widgetutils/KoFileDialog.cpp:438
 #, kde-format
 msgid "All supported formats"
 msgstr "所有支援的格式"
@@ -33446,107 +33450,107 @@ msgstr "ICC 引擎"
 #: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:160
 #, kde-format
 msgid "L*a*b*/8 Histogram"
-msgstr "L*a*b* 8 位元直方圖"
+msgstr "L*a*b* 8 位元色階分佈圖"
 
 #: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:164
 #, kde-format
 msgid "L*a*b*/16 Histogram"
-msgstr "L*a*b* 16 位元直方圖"
+msgstr "L*a*b* 16 位元色階分佈圖"
 
 #: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:168
 #, kde-format
 msgid "L*a*b*/32 Histogram"
-msgstr "L*a*b* 32 位元直方圖"
+msgstr "L*a*b* 32 位元色階分佈圖"
 
 #: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:186
 #, kde-format
 msgid "RGBA/8 Histogram"
-msgstr "RGBA 8 位元直方圖"
+msgstr "RGBA 8 位元色階分佈圖"
 
 #: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:190
 #, kde-format
 msgid "RGBA/16 Histogram"
-msgstr "RGBA 16 位元直方圖"
+msgstr "RGBA 16 位元色階分佈圖"
 
 #: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:196
 #, kde-format
 msgid "RGBA/F16 Histogram"
-msgstr "RGBA 16 位元浮點直方圖"
+msgstr "RGBA 16 位元浮點色階分佈圖"
 
 #: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:202
 #, kde-format
 msgid "RGBA/F32 Histogram"
-msgstr "RGBA 32 位元浮點直方圖"
+msgstr "RGBA 32 位元浮點色階分佈圖"
 
 #: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:223
 #, kde-format
 msgid "GRAY/8 Histogram"
-msgstr "灰階 8 位元直方圖"
+msgstr "灰階 8 位元色階分佈圖"
 
 #: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:227
 #, kde-format
 msgid "GRAY/16 Histogram"
-msgstr "灰階 16 位元直方圖"
+msgstr "灰階 16 位元色階分佈圖"
 
 #: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:232
 #, kde-format
 msgid "GRAYF/F16 Histogram"
-msgstr "灰階 16 位元浮點直方圖"
+msgstr "灰階 16 位元浮點色階分佈圖"
 
 #: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:238
 #, kde-format
 msgid "GRAY/F32 float Histogram"
-msgstr "灰階 32 位元浮點直方圖"
+msgstr "灰階 32 位元浮點色階分佈圖"
 
 #: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:248
 #, kde-format
 msgid "CMYK/8 Histogram"
-msgstr "CMYK 8 位元直方圖"
+msgstr "CMYK 8 位元色階分佈圖"
 
 #: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:252
 #, kde-format
 msgid "CMYK/16 Histogram"
-msgstr "CMYK 16 位元直方圖"
+msgstr "CMYK 16 位元色階分佈圖"
 
 #: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:256
 #, kde-format
 msgid "CMYK/F32 Histogram"
-msgstr "CMYK 32 位元浮點直方圖"
+msgstr "CMYK 32 位元浮點色階分佈圖"
 
 #: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:274
 #, kde-format
 msgid "XYZ/8 Histogram"
-msgstr "XYZ 8 位元直方圖"
+msgstr "XYZ 8 位元色階分佈圖"
 
 #: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:278
 #, kde-format
 msgid "XYZ/16 Histogram"
-msgstr "XYZ 16 位元直方圖"
+msgstr "XYZ 16 位元色階分佈圖"
 
 #: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:284
 #, kde-format
 msgid "XYZ/F16 Histogram"
-msgstr "XYZ 16 位元浮點直方圖"
+msgstr "XYZ 16 位元浮點色階分佈圖"
 
 #: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:290
 #, kde-format
 msgid "XYZF32 Histogram"
-msgstr "XYZ 32 位元浮點直方圖"
+msgstr "XYZ 32 位元浮點色階分佈圖"
 
 #: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:303
 #, kde-format
 msgid "YCbCr/8 Histogram"
-msgstr "YCbCr 8 位元直方圖"
+msgstr "YCbCr 8 位元色階分佈圖"
 
 #: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:307
 #, kde-format
 msgid "YCbCr/16 Histogram"
-msgstr "YCbCr 16 位元直方圖"
+msgstr "YCbCr 16 位元色階分佈圖"
 
 #: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:311
 #, kde-format
 msgid "YCbCr/F32 Histogram"
-msgstr "YCbCr 32 位元浮點直方圖"
+msgstr "YCbCr 32 位元浮點色階分佈圖"
 
 #: plugins/dockers/advancedcolorselector/kis_color_selector_ng_dock.cpp:24
 #: plugins/dockers/advancedcolorselector/kis_color_selector_settings.cpp:43
@@ -35085,7 +35089,7 @@ msgstr "格線與參考線"
 #: plugins/dockers/histogram/histogramdocker_dock.cpp:22
 #, kde-format
 msgid "Histogram"
-msgstr "直方圖"
+msgstr "色階分佈圖"
 
 #: plugins/dockers/historydocker/DlgConfigureHistoryDock.cpp:24
 #, kde-format
@@ -35588,7 +35592,7 @@ msgstr "筆刷預設"
 #: plugins/dockers/presethistory/presethistory_dock.cpp:36
 #, kde-format
 msgid "Brush Preset History"
-msgstr "筆刷預設歷史"
+msgstr "筆刷預設切換歷史"
 
 #: plugins/dockers/presethistory/presethistory_dock.cpp:48
 #, kde-format
@@ -35830,7 +35834,7 @@ msgstr "影片長度："
 #. i18n: ectx: property (text), widget (QToolButton, btnExport)
 #. i18n: ectx: property (text), widget (QPushButton, buttonExport)
 #: plugins/dockers/recorder/recorder_export.ui:570
-#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:27
+#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:29
 #: plugins/dockers/storyboarddocker/wdgstoryboarddock.ui:21
 #, kde-format
 msgid "Export"
@@ -36304,51 +36308,39 @@ msgstr "設定色彩空間"
 msgid "Use percentage"
 msgstr "使用百分比"
 
-#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:23
+#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:25
 #, kde-format
 msgctxt "Export storyboard dialog caption"
 msgid "Export Storyboard as PDF"
 msgstr "將分鏡匯出為 PDF"
 
-#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:24
+#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:26
 #, kde-format
 msgctxt "Export storyboard dialog caption"
 msgid "Export Storyboard as SVG"
 msgstr "將分鏡匯出為 SVG"
 
-#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:59
-#, kde-format
-msgid "Export Directory: "
-msgstr "匯出目錄："
-
-#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:152
-#, kde-format
-msgid ""
-"Please enter correct range. The first frame should be less than or equal to "
-"the last frame."
-msgstr "請輸入正確的範圍。第一個影格應該小於或等於最後一個影格。"
-
-#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:158
+#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:172
 #, kde-format
 msgid "Please enter a file name to export to."
 msgstr "請輸出要匯出至的檔名。"
 
-#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:161
+#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:175
 #, kde-format
 msgid "Please enter a directory to export to."
 msgstr "請輸出要匯出至的目錄。"
 
-#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:170
+#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:184
 #, kde-format
 msgid "Please enter an existing directory."
 msgstr "請輸入存在的目錄。"
 
-#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:180
+#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:194
 #, kde-format
 msgid "Existing files with similar naming scheme"
 msgstr "有相同命名規則的檔案"
 
-#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:181
+#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:195
 #, kde-format
 msgid ""
 "Files with the same naming scheme exist in the destination directory. They "
@@ -36362,12 +36354,12 @@ msgstr ""
 "目錄：%1\n"
 "檔案：%2"
 
-#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:197
+#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:211
 #, kde-format
 msgid "Please choose svg file to specify the layout for exporting."
 msgstr "請選擇用來指定匯出版面配置的 SVG 檔案。"
 
-#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:202
+#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:216
 #, kde-format
 msgid ""
 "The SVG file to specify layout doesn't exist. Please choose an existing SVG "
@@ -36394,81 +36386,81 @@ msgctxt "(qtundo-format)"
 msgid "Edit Storyboard Child"
 msgstr "編輯子分鏡"
 
-#: plugins/dockers/storyboarddocker/StoryboardDelegate.cpp:135
-#: plugins/dockers/storyboarddocker/StoryboardDelegate.cpp:299
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:540
+#: plugins/dockers/storyboarddocker/StoryboardDelegate.cpp:136
+#: plugins/dockers/storyboarddocker/StoryboardDelegate.cpp:300
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:536
 #, kde-format
 msgctxt "suffix in spin box in storyboard that means 'seconds'"
 msgid "s"
 msgstr "秒"
 
-#: plugins/dockers/storyboarddocker/StoryboardDelegate.cpp:140
-#: plugins/dockers/storyboarddocker/StoryboardDelegate.cpp:306
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:543
+#: plugins/dockers/storyboarddocker/StoryboardDelegate.cpp:141
+#: plugins/dockers/storyboarddocker/StoryboardDelegate.cpp:307
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:539
 #, kde-format
 msgctxt "suffix in spin box in storyboard that means 'frames'"
 msgid "f"
 msgstr "格"
 
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:150
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:152
 #, kde-format
 msgctxt "Storyboard Docker"
 msgid "Storyboard"
 msgstr "分鏡"
 
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:167
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:169
 #, kde-format
 msgctxt "Export storyboard as PDF"
 msgid "Export as PDF"
 msgstr "匯出為 PDF"
 
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:170
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:172
 #, kde-format
 msgctxt "Export storyboard as SVG"
 msgid "Export as SVG"
 msgstr "匯出為 SVG"
 
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:179
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:185
 #, kde-format
 msgctxt "Freeze keyframe positions and ignore storyboard adjustments"
 msgid "Freeze Keyframe Data"
 msgstr "凍結關鍵影格資料"
 
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:208
-#: plugins/dockers/storyboarddocker/StoryboardView.cpp:280
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:214
+#: plugins/dockers/storyboarddocker/StoryboardView.cpp:279
 #, kde-format
 msgctxt "Add new scene as the last storyboard"
 msgid "Add Scene"
 msgstr "加入場景"
 
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:224
-#: plugins/dockers/storyboarddocker/StoryboardView.cpp:291
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:230
+#: plugins/dockers/storyboarddocker/StoryboardView.cpp:290
 #, kde-format
 msgctxt "Remove current scene from storyboards"
 msgid "Remove Scene"
 msgstr "移除場景"
 
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:394
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:403
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:389
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:398
 #, kde-format
 msgid ""
 "Please enter correct range. There are no panels in the range of frames "
 "provided."
 msgstr "請輸入正確的範圍。您提供的影格範圍內沒有任何面板。"
 
-#: plugins/dockers/storyboarddocker/StoryboardModel.cpp:1253
+#: plugins/dockers/storyboarddocker/StoryboardModel.cpp:1260
 #, kde-format
 msgctxt "default name for storyboard item"
 msgid "scene "
 msgstr "場景"
 
-#: plugins/dockers/storyboarddocker/StoryboardView.cpp:287
+#: plugins/dockers/storyboarddocker/StoryboardView.cpp:286
 #, kde-format
 msgctxt "Add scene after active scene"
 msgid "Add Scene After"
 msgstr "加入場景到後方"
 
-#: plugins/dockers/storyboarddocker/StoryboardView.cpp:289
+#: plugins/dockers/storyboarddocker/StoryboardView.cpp:288
 #, kde-format
 msgctxt "Add scene before active scene"
 msgid "Add Scene Before"
@@ -36531,112 +36523,100 @@ msgid "Comments Only"
 msgstr "只顯示注釋"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgExportStoryboard)
-#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:14
+#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:20
 #, kde-format
 msgid "Export Storyboard"
 msgstr "匯出分鏡"
 
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:22
+#. i18n: ectx: property (text), widget (QLabel, pageSizeLabel)
+#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:34
 #, kde-format
-msgid "Frame number of first item to render:"
-msgstr "要繪製之第一個項目的影格編號："
-
-#. i18n: ectx: property (text), widget (QLabel, label_5)
-#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:32
-#, kde-format
-msgid "Frame number of last item to render:"
-msgstr "要繪製之最後一個項目的影格編號："
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:46
-#, kde-format
-msgid "Rows per page :"
-msgstr "每頁行數："
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:56
-#, kde-format
-msgid "Columns per page :"
-msgstr "每頁列數："
-
-#. i18n: ectx: property (text), widget (QLabel, label_6)
-#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:70
-#, kde-format
-msgid "Font Size :"
-msgstr "字型大小："
-
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:80
-#, kde-format
-msgid "Page Size :"
+msgid "Page Size:"
 msgstr "頁面大小："
 
-#. i18n: ectx: property (text), item, widget (QComboBox, cmbPageSize)
-#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:88
-#, kde-format
-msgid "A4"
-msgstr "A4"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, cmbPageSize)
-#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:93
+#. i18n: ectx: property (text), item, widget (QComboBox, pageSizeComboBox)
+#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:51
 #, kde-format
 msgid "A0"
 msgstr "A0"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, cmbPageSize)
-#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:98
+#. i18n: ectx: property (text), item, widget (QComboBox, pageSizeComboBox)
+#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:56
 #, kde-format
 msgid "A1"
 msgstr "A1"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, cmbPageSize)
-#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:103
+#. i18n: ectx: property (text), item, widget (QComboBox, pageSizeComboBox)
+#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:61
 #, kde-format
 msgid "A2"
 msgstr "A2"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, cmbPageSize)
-#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:108
+#. i18n: ectx: property (text), item, widget (QComboBox, pageSizeComboBox)
+#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:66
 #, kde-format
 msgid "A3"
 msgstr "A3"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, cmbPageSize)
-#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:113
+#. i18n: ectx: property (text), item, widget (QComboBox, pageSizeComboBox)
+#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:71
+#, kde-format
+msgid "A4"
+msgstr "A4"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, pageSizeComboBox)
+#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:76
 #, kde-format
 msgid "A5"
 msgstr "A5"
 
-#. i18n: ectx: property (text), widget (QLabel, label_7)
-#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:121
+#. i18n: ectx: property (text), item, widget (QComboBox, pageSizeComboBox)
+#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:81
 #, kde-format
-msgid "Page Orientation :"
+msgid "US Letter"
+msgstr "US Letter"
+
+#. i18n: ectx: property (text), widget (QLabel, pageOrientationLabel)
+#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:89
+#, kde-format
+msgid "Page Orientation:"
 msgstr "頁面方向："
 
-#. i18n: ectx: property (text), widget (QCheckBox, chkUseSVGLayout)
-#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:142
+#. i18n: ectx: property (text), widget (QLabel, boardLayoutLabel)
+#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:116
 #, kde-format
-msgid "Specify Layout Using SVG file "
-msgstr "使用 SVG 檔案指定版面配置"
+msgid "Board Layout:"
+msgstr "版面配置："
 
-#. i18n: ectx: property (text), widget (QLabel, label_8)
-#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:149
+#. i18n: ectx: property (text), item, widget (QComboBox, boardLayoutComboBox)
+#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:130
 #, kde-format
-msgid "SVG file for specifying layout :"
-msgstr "用來指定版面配置的 SVG 檔案："
+msgid "Rows"
+msgstr "行數"
 
-#. i18n: ectx: property (text), widget (QLabel, lblExportFileName)
-#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:166
+#. i18n: ectx: property (text), item, widget (QComboBox, boardLayoutComboBox)
+#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:135
 #, kde-format
-msgid "Export File Name : "
-msgstr "匯出檔名："
+msgid "Columns"
+msgstr "列數"
 
-#. i18n: ectx: property (text), widget (QLabel, lblSvgFileBaseName)
-#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:183
+#. i18n: ectx: property (text), widget (QLabel, svgTemplatePathLabel)
+#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:222
 #, kde-format
-msgid "SVG file base name : "
-msgstr "SVG 檔案名根據："
+msgid "SVG Template Path:"
+msgstr "SVG 模板路徑："
+
+#. i18n: ectx: property (text), widget (QLabel, fontSizeLabel)
+#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:232
+#, kde-format
+msgid "Font Size:"
+msgstr "字型大小："
+
+#. i18n: ectx: property (text), widget (QLabel, exportPathLabel)
+#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:281
+#, kde-format
+msgid "Export Path:"
+msgstr "匯出路徑："
 
 #. i18n: ectx: property (text), widget (QToolButton, btnComment)
 #: plugins/dockers/storyboarddocker/wdgstoryboarddock.ui:31
@@ -38745,7 +38725,7 @@ msgstr "筆刷"
 msgid "Manage Resources"
 msgstr "管理資源"
 
-#: plugins/extensions/resourcemanager/DlgResourceManager.cpp:220
+#: plugins/extensions/resourcemanager/DlgResourceManager.cpp:222
 #, kde-format
 msgctxt ""
 "In Resource manager, this is text shown instead of filename, name or "
@@ -38754,7 +38734,7 @@ msgctxt ""
 msgid "(Multiple selected)"
 msgstr "(已選擇多項)"
 
-#: plugins/extensions/resourcemanager/DlgResourceManager.cpp:236
+#: plugins/extensions/resourcemanager/DlgResourceManager.cpp:238
 #, kde-format
 msgctxt ""
 "In Resource manager, this is text shown instead of filename, name or "
@@ -38762,19 +38742,19 @@ msgctxt ""
 msgid "(None selected)"
 msgstr "(未選擇)"
 
-#: plugins/extensions/resourcemanager/DlgResourceManager.cpp:378
+#: plugins/extensions/resourcemanager/DlgResourceManager.cpp:379
 #, kde-format
 msgid "Undelete Resources"
 msgstr "還原刪除資源"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnDeleteResource)
-#: plugins/extensions/resourcemanager/DlgResourceManager.cpp:380
+#: plugins/extensions/resourcemanager/DlgResourceManager.cpp:381
 #: plugins/extensions/resourcemanager/WdgDlgResourceManager.ui:201
 #, kde-format
 msgid "Delete Resources"
 msgstr "刪除資源"
 
-#: plugins/extensions/resourcemanager/DlgResourceManager.cpp:398
+#: plugins/extensions/resourcemanager/DlgResourceManager.cpp:399
 #, kde-format
 msgctxt "Brush engine type, in resource manager"
 msgid "Engine: "
@@ -38945,26 +38925,26 @@ msgid "&Resources"
 msgstr "資源(&R)"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, bnAdd)
-#: plugins/extensions/resourcemanager/wdgdlgbundlemanager.ui:95
+#: plugins/extensions/resourcemanager/wdgdlgbundlemanager.ui:98
 #, kde-format
 msgid "Import a resource library"
 msgstr "匯入資源庫"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, bnToggle)
-#: plugins/extensions/resourcemanager/wdgdlgbundlemanager.ui:115
+#: plugins/extensions/resourcemanager/wdgdlgbundlemanager.ui:118
 #, kde-format
 msgid "Delete a resource library"
 msgstr "刪除資源庫"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, bnNew)
-#: plugins/extensions/resourcemanager/wdgdlgbundlemanager.ui:135
+#: plugins/extensions/resourcemanager/wdgdlgbundlemanager.ui:138
 #, kde-format
 msgid "Create a resource library"
 msgstr "建立資源庫"
 
 #. i18n: ectx: property (text), widget (QLabel, author)
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: plugins/extensions/resourcemanager/wdgdlgbundlemanager.ui:345
+#: plugins/extensions/resourcemanager/wdgdlgbundlemanager.ui:348
 #: plugins/extensions/resourcemanager/wdgdlgcreatebundle.ui:260
 #, kde-format
 msgid "Author:"
@@ -38972,7 +38952,7 @@ msgstr "作者："
 
 #. i18n: ectx: property (text), widget (QLabel, license)
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: plugins/extensions/resourcemanager/wdgdlgbundlemanager.ui:380
+#: plugins/extensions/resourcemanager/wdgdlgbundlemanager.ui:383
 #: plugins/extensions/resourcemanager/wdgdlgcreatebundle.ui:304
 #: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:410
 #, kde-format
@@ -38981,7 +38961,7 @@ msgstr "許可協議："
 
 #. i18n: ectx: property (text), widget (QLabel, website)
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: plugins/extensions/resourcemanager/wdgdlgbundlemanager.ui:412
+#: plugins/extensions/resourcemanager/wdgdlgbundlemanager.ui:415
 #: plugins/extensions/resourcemanager/wdgdlgcreatebundle.ui:290
 #, kde-format
 msgid "Website:"
@@ -38989,14 +38969,14 @@ msgstr "網站："
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: property (text), widget (QLabel, label_8)
-#: plugins/extensions/resourcemanager/wdgdlgbundlemanager.ui:444
+#: plugins/extensions/resourcemanager/wdgdlgbundlemanager.ui:447
 #: plugins/extensions/resourcemanager/wdgdlgcreatebundle.ui:280
 #, kde-format
 msgid "Email:"
 msgstr "電子信箱："
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
-#: plugins/extensions/resourcemanager/wdgdlgbundlemanager.ui:508
+#: plugins/extensions/resourcemanager/wdgdlgbundlemanager.ui:511
 #, kde-format
 msgid "Updated:"
 msgstr "更新日期："
@@ -44090,8 +44070,8 @@ msgid ""
 "<p>If disable, use a fixed white level and ignore the image histogram to "
 "adjust brightness.</p>"
 msgstr ""
-"<p>停用此選項時，程式將使用固定白色級別並在調整亮度時忽略影像的直方圖資料。</"
-"p>"
+"<p>停用此選項時，程式將使用固定白色級別並在調整亮度時忽略影像的色階分佈圖資"
+"料。</p>"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:511
 #, kde-format
@@ -54094,6 +54074,38 @@ msgctxt "action"
 msgid "Reference Images Tool"
 msgstr "參考圖工具"
 
+#~ msgid "Export Directory: "
+#~ msgstr "匯出目錄："
+
+#~ msgid ""
+#~ "Please enter correct range. The first frame should be less than or equal "
+#~ "to the last frame."
+#~ msgstr "請輸入正確的範圍。第一個影格應該小於或等於最後一個影格。"
+
+#~ msgid "Frame number of first item to render:"
+#~ msgstr "要繪製之第一個項目的影格編號："
+
+#~ msgid "Frame number of last item to render:"
+#~ msgstr "要繪製之最後一個項目的影格編號："
+
+#~ msgid "Rows per page :"
+#~ msgstr "每頁行數："
+
+#~ msgid "Columns per page :"
+#~ msgstr "每頁列數："
+
+#~ msgid "Specify Layout Using SVG file "
+#~ msgstr "使用 SVG 檔案指定版面配置"
+
+#~ msgid "SVG file for specifying layout :"
+#~ msgstr "用來指定版面配置的 SVG 檔案："
+
+#~ msgid "Export File Name : "
+#~ msgstr "匯出檔名："
+
+#~ msgid "SVG file base name : "
+#~ msgstr "SVG 檔案名根據："
+
 #~ msgctxt "Prefix. Part of 'Every # cell/s horizontally"
 #~ msgid "Every "
 #~ msgstr "每 "
@@ -54997,10 +55009,6 @@ msgstr "參考圖工具"
 #~ msgstr "ISO A5"
 
 #~ msgctxt "Page size"
-#~ msgid "US Letter"
-#~ msgstr "US Letter"
-
-#~ msgctxt "Page size"
 #~ msgid "US Legal"
 #~ msgstr "US Legal"
 
@@ -55145,9 +55153,6 @@ msgstr "參考圖工具"
 
 #~ msgid "Facing pages"
 #~ msgstr "並排頁面"
-
-#~ msgid "Page Layout:"
-#~ msgstr "頁面版式："
 
 #~ msgid "Page spread"
 #~ msgstr "跨頁"
