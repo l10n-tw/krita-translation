@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-09-14 00:16+0000\n"
-"PO-Revision-Date: 2021-09-12 12:09+0000\n"
+"PO-Revision-Date: 2021-09-15 07:41+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -8665,8 +8665,7 @@ msgstr ""
 #. i18n: context: Actions (Filters), ActionCollection (Krita)
 #: krita/krita.action:791 plugins/dockers/logdocker/LogDockerDock.cpp:142
 #: plugins/filters/threshold/threshold.action:4
-#, fuzzy, kde-format
-#| msgid "Filters"
+#, kde-format
 msgctxt "Filter as an effect"
 msgid "Filters"
 msgstr "濾鏡"
@@ -18399,11 +18398,10 @@ msgstr ""
 " %1 FPS</small>"
 
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:124
-#, fuzzy, kde-format
-#| msgid "Spline"
+#, kde-format
 msgctxt "An interpolation method"
 msgid "Spline"
-msgstr "樣條曲線 (Spline)"
+msgstr "樣條插值 (Spline)"
 
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:170
 #, kde-format
@@ -19597,11 +19595,10 @@ msgstr "匯入影片縮放"
 #: libs/ui/animation/wdg_animationrenderer.ui:206
 #: libs/ui/imagesize/wdg_layersize.ui:119
 #: plugins/python/documenttools/tools/scaletool/scaletool.py:43
-#, fuzzy, kde-format
-#| msgid "Filter:"
+#, kde-format
 msgctxt "Resize intepolation method list label"
 msgid "Filter:"
-msgstr "濾鏡："
+msgstr "縮放過濾："
 
 #. i18n: ectx: property (title), widget (QGroupBox, optionsFFMpegGroup)
 #: libs/ui/animation/VideoImportDialog.ui:571
@@ -24787,8 +24784,7 @@ msgstr "WinTab"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnResolutionSettings)
 #: libs/ui/forms/wdgtabletsettings.ui:210
-#, fuzzy, kde-format
-#| msgid "Advanced..."
+#, kde-format
 msgctxt "Tablet mapping settings"
 msgid "Advanced..."
 msgstr "進階…"
@@ -24961,11 +24957,10 @@ msgstr "像素尺寸"
 
 #. i18n: ectx: property (text), widget (QLabel, lblPixelFilter)
 #: libs/ui/imagesize/wdg_imagesize.ui:81
-#, fuzzy, kde-format
-#| msgid "&Filter:"
+#, kde-format
 msgctxt "Resize intepolation method list label"
 msgid "&Filter:"
-msgstr "濾法(&F)："
+msgstr "縮放過濾(&F)："
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupPrintSize)
 #: libs/ui/imagesize/wdg_imagesize.ui:158
@@ -28968,7 +28963,7 @@ msgstr "圖案："
 #: libs/ui/layerstyles/WdgStroke.ui:363 libs/ui/layerstyles/wdgTexture.ui:64
 #, kde-format
 msgid "Sn&ap to Origin"
-msgstr "對齊到基點(&A)"
+msgstr "對齊到原點(&A)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkLinkWithLayer)
 #: libs/ui/layerstyles/WdgPatternOverlay.ui:148
@@ -29236,9 +29231,7 @@ msgid "Decrease Brush Size"
 msgstr "減小筆刷尺寸"
 
 #: libs/ui/tool/strokes/kis_filter_stroke_strategy.cpp:139
-#, fuzzy, kde-format
-#| msgctxt "(qtundo-format)"
-#| msgid "Filter \"%1\""
+#, kde-format
 msgctxt "(qtundo-format) Filter as an effect"
 msgid "Filter \"%1\""
 msgstr "濾鏡「%1」"
@@ -31010,8 +31003,7 @@ msgstr "反射"
 
 #. i18n: ectx: property (text), widget (QLabel, stopColorLabel)
 #: libs/ui/widgets/KoFillConfigWidget.ui:358
-#, fuzzy, kde-format
-#| msgid "Stop:"
+#, kde-format
 msgctxt "Gradient stop color selector label"
 msgid "Stop:"
 msgstr "節點："
@@ -31641,8 +31633,7 @@ msgstr "選擇檔案名…"
 #. i18n: ectx: attribute (title), widget (QWidget, tab_channel)
 #: libs/widgets/WdgDlgInternalColorSelector.ui:57
 #: plugins/dockers/channeldocker/channeldocker_dock.cpp:28
-#, fuzzy, kde-format
-#| msgid "Channels"
+#, kde-format
 msgctxt "Channel as in Color Channels"
 msgid "Channels"
 msgstr "色彩通道"
@@ -32526,8 +32517,7 @@ msgid "A&vailable actions:"
 msgstr "可用的操作(&V)："
 
 #: libs/widgetutils/xmlgui/kedittoolbar.cpp:1026
-#, fuzzy, kde-format
-#| msgid "Filter"
+#, kde-format
 msgctxt "Filter as in showing only matching items"
 msgid "Filter"
 msgstr "過濾"
@@ -33340,8 +33330,7 @@ msgid "Spline assistant"
 msgstr "樣條曲線輔助尺"
 
 #: plugins/assistants/Assistants/SplineAssistant.cc:222
-#, fuzzy, kde-format
-#| msgid "Spline"
+#, kde-format
 msgctxt "A type of drawing assistants"
 msgid "Spline"
 msgstr "樣條曲線 (Spline)"
@@ -34081,8 +34070,7 @@ msgstr "要顯示的 HSI 滑動條"
 
 #. i18n: ectx: property (text), widget (QCheckBox, csl_hsiI)
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1360
-#, fuzzy, kde-format
-#| msgid "Intensity"
+#, kde-format
 msgctxt "Brightness in HSI color model"
 msgid "Intensity"
 msgstr "強度"
@@ -35602,11 +35590,10 @@ msgid "Add foreground color"
 msgstr "新增前景色"
 
 #: plugins/dockers/presetdocker/presetdocker_dock.cpp:26
-#, fuzzy, kde-format
-#| msgid "Brush Presets"
+#, kde-format
 msgctxt "@title:window Brush presets chooser docker"
 msgid "Brush Presets"
-msgstr "筆刷預設"
+msgstr "筆刷預設選擇器"
 
 #: plugins/dockers/presethistory/presethistory_dock.cpp:36
 #, kde-format
@@ -35840,8 +35827,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, labelFpsInput)
 #: plugins/dockers/recorder/recorder_export.ui:490
-#, fuzzy, kde-format
-#| msgid "Input FPS:"
+#, kde-format
 msgctxt "Input FPS of recorded timelapses."
 msgid "Input FPS:"
 msgstr "輸入 FPS："
@@ -40023,8 +40009,7 @@ msgstr "對數分布"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: plugins/filters/colorsfilters/wdg_perchannel.ui:359
-#, fuzzy, kde-format
-#| msgid "Channel:"
+#, kde-format
 msgctxt "Channel as in Color Channels"
 msgid "Channel:"
 msgstr "通道："
@@ -40366,8 +40351,7 @@ msgstr "前景："
 
 #: plugins/filters/halftone/KisHalftoneConfigWidget.cpp:33
 #: plugins/filters/halftone/KisHalftoneConfigWidget.cpp:204
-#, fuzzy, kde-format
-#| msgid "Intensity"
+#, kde-format
 msgctxt "Brightness in Halftone Widget"
 msgid "Intensity"
 msgstr "強度"
@@ -44914,8 +44898,7 @@ msgstr "過濾強度：0 = 停用，100 = 最強。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblFilterStrength)
 #: plugins/impex/webp/dlg_webp_export.ui:330
-#, fuzzy, kde-format
-#| msgid "Filter Strength"
+#, kde-format
 msgctxt "Filter options specifically for WebP"
 msgid "Filter Strength"
 msgstr "過濾強度"
@@ -44930,8 +44913,7 @@ msgstr "過濾銳利度：0 = 停用，7 = 最不銳利。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblFilterSharpness)
 #: plugins/impex/webp/dlg_webp_export.ui:353
-#, fuzzy, kde-format
-#| msgid "Filter Sharpness"
+#, kde-format
 msgctxt "Filter options specifically for WebP"
 msgid "Filter Sharpness"
 msgstr "過濾銳利度"
@@ -44949,8 +44931,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblFilterType)
 #: plugins/impex/webp/dlg_webp_export.ui:376
-#, fuzzy, kde-format
-#| msgid "Filter Type"
+#, kde-format
 msgctxt "Filter options specifically for WebP"
 msgid "Filter Type"
 msgstr "過濾類型"
@@ -45034,8 +45015,7 @@ msgstr "顯示已壓縮"
 
 #. i18n: ectx: property (text), widget (QLabel, lblPreprocessing)
 #: plugins/impex/webp/dlg_webp_export.ui:546
-#, fuzzy, kde-format
-#| msgid "Preprocessing Filter"
+#, kde-format
 msgctxt "Filter options specifically for WebP"
 msgid "Preprocessing Filter"
 msgstr "預處理過濾"
@@ -45409,8 +45389,7 @@ msgid "Smudge Radius"
 msgstr "塗抹半徑"
 
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:59
-#, fuzzy, kde-format
-#| msgid "Color Rate"
+#, kde-format
 msgctxt "Color rate of active Foreground color"
 msgid "Color Rate"
 msgstr "色彩量"
@@ -45699,8 +45678,7 @@ msgid "Lightness Strength"
 msgstr "亮度強度"
 
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:67
-#, fuzzy, kde-format
-#| msgid "Source"
+#, kde-format
 msgctxt "Color source"
 msgid "Source"
 msgstr "來源"
@@ -45716,8 +45694,7 @@ msgid "Foreground"
 msgstr "前景色"
 
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:69
-#, fuzzy, kde-format
-#| msgid "Mix"
+#, kde-format
 msgctxt "Mixing of colors"
 msgid "Mix"
 msgstr "混合"
@@ -45856,8 +45833,7 @@ msgstr "扭曲模式"
 #. i18n: ectx: property (text), widget (QRadioButton, growBtn)
 #: plugins/paintops/deform/kis_deform_paintop_settings.cpp:134
 #: plugins/paintops/deform/wdgdeformoptions.ui:48
-#, fuzzy, kde-format
-#| msgid "Grow"
+#, kde-format
 msgctxt "Grow as in deform brush engine"
 msgid "Grow"
 msgstr "擴張"
@@ -45865,8 +45841,7 @@ msgstr "擴張"
 #. i18n: ectx: property (text), widget (QRadioButton, shrinkBtn)
 #: plugins/paintops/deform/kis_deform_paintop_settings.cpp:135
 #: plugins/paintops/deform/wdgdeformoptions.ui:55
-#, fuzzy, kde-format
-#| msgid "Shrink"
+#, kde-format
 msgctxt "Shrink as in deform brush engine"
 msgid "Shrink"
 msgstr "收縮"
@@ -45907,8 +45882,7 @@ msgid "Lens Zoom Out"
 msgstr "鏡頭縮小"
 
 #: plugins/paintops/deform/kis_deform_paintop_settings.cpp:141
-#, fuzzy, kde-format
-#| msgid "Color Deformation"
+#, kde-format
 msgctxt "Rearrange the positions of the pixels under the cursor"
 msgid "Color Deformation"
 msgstr "色彩扭曲"
@@ -45920,8 +45894,7 @@ msgstr "扭曲選項"
 
 #. i18n: ectx: property (text), widget (QRadioButton, colorBtn)
 #: plugins/paintops/deform/wdgdeformoptions.ui:86
-#, fuzzy, kde-format
-#| msgid "Color deformation"
+#, kde-format
 msgctxt "Rearrange the pixels positions under the cursor"
 msgid "Color deformation"
 msgstr "色彩扭曲"
@@ -46451,13 +46424,13 @@ msgstr "分離度："
 #: plugins/paintops/hatching/wdghatchingoptions.ui:148
 #, kde-format
 msgid "Origin X:"
-msgstr "基點 X："
+msgstr "原點 X："
 
 #. i18n: ectx: property (text), widget (QLabel, label_24)
 #: plugins/paintops/hatching/wdghatchingoptions.ui:186
 #, kde-format
 msgid "Origin Y:"
-msgstr "基點 Y："
+msgstr "原點 Y："
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: plugins/paintops/hatching/wdghatchingoptions.ui:262
@@ -46826,19 +46799,17 @@ msgstr "保留 Alpha (透明度) 通道"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: plugins/paintops/libpaintop/forms/wdgfilteroption.ui:28
-#, fuzzy, kde-format
-#| msgid "Filter:"
+#, kde-format
 msgctxt "Filter as an effect"
 msgid "Filter:"
 msgstr "濾鏡："
 
 #. i18n: ectx: property (title), widget (QGroupBox, grpFilterOptions)
 #: plugins/paintops/libpaintop/forms/wdgfilteroption.ui:62
-#, fuzzy, kde-format
-#| msgid "Filter Settings"
+#, kde-format
 msgctxt "Filter as an effect"
 msgid "Filter Settings"
-msgstr "過濾設定"
+msgstr "濾鏡設定"
 
 #. i18n: ectx: property (title), widget (QGroupBox, grpIncremental)
 #: plugins/paintops/libpaintop/forms/wdgincremental.ui:24
@@ -46921,8 +46892,7 @@ msgstr "重設預製形狀筆尖"
 
 #. i18n: ectx: property (title), widget (QGroupBox, grpBrushMode)
 #: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:226
-#, fuzzy, kde-format
-#| msgid "Brush mode"
+#, kde-format
 msgctxt "Predefined Brush tip mode"
 msgid "Brush mode"
 msgstr "筆刷模式"
@@ -46983,11 +46953,10 @@ msgstr "紋理模式："
 
 #. i18n: ectx: property (text), widget (QLabel, lblSpacing_2)
 #: plugins/paintops/libpaintop/forms/wdgtexturechooser.ui:179
-#, fuzzy, kde-format
-#| msgid "Cutoff"
+#, kde-format
 msgctxt "Texture lightness range cutoff range slider"
 msgid "Cutoff:"
-msgstr "截斷範圍"
+msgstr "截斷範圍："
 
 #. i18n: ectx: property (text), widget (QLabel, lblNeutralPoint)
 #: plugins/paintops/libpaintop/forms/wdgtexturechooser.ui:199
@@ -47801,15 +47770,13 @@ msgid "Blending Mode:"
 msgstr "混色模式："
 
 #: plugins/paintops/libpaintop/sensors/kis_dynamic_sensor_drawing_angle.cpp:66
-#, fuzzy, kde-format
-#| msgid "Lock"
+#, kde-format
 msgctxt "Lock Drawing angle at start of each stroke"
 msgid "Lock"
 msgstr "鎖定"
 
 #: plugins/paintops/libpaintop/sensors/kis_dynamic_sensor_drawing_angle.cpp:72
-#, fuzzy, kde-format
-#| msgid "Fan Corners"
+#, kde-format
 msgctxt "Smoothing Drawing angle when a stroke is making a sharp turn"
 msgid "Fan Corners"
 msgstr "平滑轉角"
@@ -47851,8 +47818,7 @@ msgstr "筆畫時長"
 #. i18n: ectx: property (text), widget (QRadioButton, optionDirection)
 #: plugins/paintops/mypaint/MyPaintBrushOption.h:35
 #: plugins/paintops/tangentnormal/wdgtangenttiltoption.ui:243
-#, fuzzy, kde-format
-#| msgid "Direction"
+#, kde-format
 msgctxt "Drawing Angle"
 msgid "Direction"
 msgstr "方向"
@@ -48517,11 +48483,10 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, optionTilt)
 #: plugins/paintops/tangentnormal/wdgtangenttiltoption.ui:230
-#, fuzzy, kde-format
-#| msgid "Tilt"
+#, kde-format
 msgctxt "Tilt elevation"
 msgid "Tilt"
-msgstr "傾斜"
+msgstr "傾斜度"
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, optionDirection)
 #: plugins/paintops/tangentnormal/wdgtangenttiltoption.ui:240
@@ -48546,8 +48511,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, optionRotation)
 #: plugins/paintops/tangentnormal/wdgtangenttiltoption.ui:253
-#, fuzzy, kde-format
-#| msgid "Rotation"
+#, kde-format
 msgctxt "Pen Rotation"
 msgid "Rotation"
 msgstr "旋轉"
@@ -50242,11 +50206,9 @@ msgid "Keep original layer"
 msgstr "保留原始圖層"
 
 #: plugins/python/highpass/highpass.py:52
-#, fuzzy
-#| msgid "Filter radius:"
 msgctxt "Filter radius in Highpass filter settings"
 msgid "Filter radius:"
-msgstr "濾鏡半徑："
+msgstr "過濾半徑："
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #: plugins/python/krita_script_starter/bbdkss.ui:40
@@ -51376,11 +51338,10 @@ msgstr "色彩取樣器"
 
 #. i18n: ectx: property (text), widget (QLabel, blendLabel)
 #: plugins/tools/basictools/wdgcolorsampler.ui:29
-#, fuzzy, kde-format
-#| msgid "Blend: "
+#, kde-format
 msgctxt "The color rate of sampled color setting slider"
 msgid "Blend: "
-msgstr "混色："
+msgstr "混色比率："
 
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, blend)
 #: plugins/tools/basictools/wdgcolorsampler.ui:48
@@ -51390,8 +51351,7 @@ msgid ""
 "mixed with your current brush color. A full blending value samples colors "
 "completely, ignoring brush color."
 msgstr ""
-"<nobr>混色數值控制取樣色彩的比例，</nobr>按此比例與目前筆刷色彩進行混合。混色"
-"數值最大時，取樣的色彩將完全取代目前筆刷色彩。"
+"<nobr>混色比率數值控制取樣色彩的比例，</nobr>按此比例與目前筆刷色彩進行混合。混色比率數值最大時，取樣的色彩將完全取代目前筆刷色彩。"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, cmbSources)
 #: plugins/tools/basictools/wdgcolorsampler.ui:75
@@ -51646,7 +51606,7 @@ msgstr "垂直"
 #: plugins/tools/basictools/wdgmultihandtool.ui:116
 #, kde-format
 msgid "Show Origin"
-msgstr "顯示基點"
+msgstr "顯示原點"
 
 #. i18n: ectx: property (text), widget (QCheckBox, verticalCheckbox)
 #: plugins/tools/basictools/wdgmultihandtool.ui:139
@@ -51656,11 +51616,10 @@ msgstr "水平"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: plugins/tools/basictools/wdgmultihandtool.ui:216
-#, fuzzy, kde-format
-#| msgid "Origin:"
+#, kde-format
 msgctxt "Origin in Multihand Tool"
 msgid "Origin:"
-msgstr "基點："
+msgstr "原點："
 
 #. i18n: ectx: property (text), widget (QPushButton, removeSubbrushButton)
 #: plugins/tools/basictools/wdgmultihandtool.ui:241
@@ -52345,8 +52304,7 @@ msgid "Magnetic Selection"
 msgstr "以磁性選取工具建立選取區域"
 
 #: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:659
-#, fuzzy, kde-format
-#| msgid "Filter Radius: "
+#, kde-format
 msgctxt "Filter radius in Magnetic Select Tool settings"
 msgid "Filter Radius: "
 msgstr "過濾半徑："
@@ -52816,9 +52774,7 @@ msgstr "文字編輯器設定"
 
 #. i18n: context: Action (svg_settings), Actions (Text Tool), ActionCollection (SVG Tools)
 #: plugins/tools/svgtexttool/SvgTextTool.action:243
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Settings..."
+#, kde-format
 msgctxt "Text Editor Settings label"
 msgid "Settings..."
 msgstr "設定…"
@@ -53019,8 +52975,7 @@ msgstr "中間"
 #. i18n: ectx: property (text), widget (QCheckBox, boolGrow)
 #: plugins/tools/tool_crop/kis_tool_crop.cc:119
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:155
-#, fuzzy, kde-format
-#| msgid "Grow"
+#, kde-format
 msgctxt "Grow as in crop tool"
 msgid "Grow"
 msgstr "擴張"
