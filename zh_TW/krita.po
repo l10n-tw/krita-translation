@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-09-12 00:16+0000\n"
-"PO-Revision-Date: 2021-09-12 12:09+0000\n"
+"POT-Creation-Date: 2021-09-15 00:16+0000\n"
+"PO-Revision-Date: 2021-09-15 07:49+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -8663,9 +8663,10 @@ msgstr ""
 #. i18n: context: Actions (Filters), ActionCollection (Krita)
 #. i18n: context: Actions (Filters), ActionCollection (Krita)
 #. i18n: context: Actions (Filters), ActionCollection (Krita)
-#: krita/krita.action:791 plugins/filters/threshold/threshold.action:4
+#: krita/krita.action:791 plugins/dockers/logdocker/LogDockerDock.cpp:142
+#: plugins/filters/threshold/threshold.action:4
 #, kde-format
-msgctxt "action"
+msgctxt "Filter as an effect"
 msgid "Filters"
 msgstr "濾鏡"
 
@@ -13860,13 +13861,13 @@ msgctxt "action"
 msgid "Workspaces"
 msgstr "作業空間"
 
-#: krita/main.cc:491
+#: krita/main.cc:492
 #, kde-format
 msgctxt "@title:window"
 msgid "Fatal Error"
 msgstr "嚴重錯誤"
 
-#: krita/main.cc:491
+#: krita/main.cc:492
 #, kde-format
 msgid ""
 "Krita does not support the Wayland platform. Use XWayland to run Krita on "
@@ -13875,14 +13876,14 @@ msgstr ""
 "Krita 不支援 Wayland 平台。如您希望在 Wayland 上執行 Krita，請使用 XWayland。"
 "Krita 現在會退出。"
 
-#: krita/main.cc:589 libs/ui/KisApplication.cpp:359
+#: krita/main.cc:590 libs/ui/KisApplication.cpp:359
 #: libs/ui/KisApplication.cpp:624
 #, kde-format
 msgctxt "@title:window"
 msgid "Krita: Warning"
 msgstr "Krita：警告"
 
-#: krita/main.cc:590
+#: krita/main.cc:591
 #, kde-format
 msgid ""
 "You are running an unsupported version of Windows: %1.\n"
@@ -13893,12 +13894,12 @@ msgstr ""
 "我們不建議這樣做，請勿為此報告問題。\n"
 "請升級到下列支援的 Windows 版本之一：Windows 7、8、8.1、10。"
 
-#: krita/main.cc:612 krita/main.cc:617
+#: krita/main.cc:613 krita/main.cc:618
 #, kde-format
 msgid "Krita Tablet Support"
 msgstr "Krita 數位板支援"
 
-#: krita/main.cc:613
+#: krita/main.cc:614
 #, kde-format
 msgid ""
 "Cannot load WinTab driver and no Windows Ink pen devices are found. If you "
@@ -13908,7 +13909,7 @@ msgstr ""
 "無法載入 WinTab 驅動程式，且未發現 Windows Ink 手寫筆裝置。如果數位板已連接，"
 "請確保其驅動程式已正確安裝。"
 
-#: krita/main.cc:618
+#: krita/main.cc:619
 #, kde-format
 msgid ""
 "Cannot load WinTab driver. If you have a drawing tablet, please make sure "
@@ -14729,7 +14730,7 @@ msgstr "大小"
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1335
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1338
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1404
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1058
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1063
 #: libs/ui/forms/wdgdisplaysettings.ui:318
 #: libs/ui/forms/wdgrectangleconstraints.ui:86
 #: libs/ui/forms/wdgrectangleconstraints.ui:134
@@ -14927,7 +14928,7 @@ msgid "Set Image Resolution"
 msgstr "設定影像解析度"
 
 #: libs/image/commands_new/kis_move_command_common.h:28
-#: libs/ui/tool/strokes/move_stroke_strategy.cpp:30
+#: libs/ui/tool/strokes/move_stroke_strategy.cpp:33
 msgctxt "(qtundo-format)"
 msgid "Move"
 msgstr "移動"
@@ -17423,7 +17424,7 @@ msgstr "本機資源"
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:670
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:728
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:753
-#: libs/ui/dialogs/kis_dlg_preferences.cc:547
+#: libs/ui/dialogs/kis_dlg_preferences.cc:552
 #: libs/ui/dialogs/KisDlgSavePreset.cpp:190
 #: libs/ui/dialogs/KisDlgSavePreset.cpp:205
 #: libs/ui/input/kis_tablet_debugger.cpp:96 libs/ui/kis_custom_pattern.cc:122
@@ -17633,8 +17634,8 @@ msgstr "MD5 雜湊值"
 #. i18n: ectx: attribute (title), widget (QWidget, tab_hsx)
 #. i18n: ectx: property (text), widget (QLabel, lblCurrentRenderer)
 #: libs/resources/KisResourceStorage.h:128
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1411
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1415
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1416
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1420
 #: libs/ui/forms/wdgdisplaysettings.ui:172 libs/ui/KoDocumentInfo.cpp:39
 #: libs/widgets/KisDlgInternalColorSelector.cpp:322
 #: libs/widgets/WdgDlgInternalColorSelector.ui:89
@@ -18397,10 +18398,10 @@ msgstr ""
 " %1 FPS</small>"
 
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:124
-#: plugins/assistants/Assistants/SplineAssistant.cc:222
 #, kde-format
+msgctxt "An interpolation method"
 msgid "Spline"
-msgstr "樣條曲線 (Spline)"
+msgstr "樣條插值 (Spline)"
 
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:170
 #, kde-format
@@ -19250,8 +19251,8 @@ msgstr "主顯示器："
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgDisplaySettings)
 #: libs/ui/animation/VideoHDRMetadataOptionsDialog.ui:38
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1696
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1698
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1701
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1703
 #: libs/ui/forms/wdgcolorsettings.ui:154 libs/ui/forms/wdgdisplaysettings.ui:24
 #, kde-format
 msgid "Display"
@@ -19346,8 +19347,8 @@ msgstr "匯入影片動畫"
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
 #. i18n: ectx: attribute (title), widget (QWidget, general)
 #: libs/ui/animation/VideoImportDialog.ui:34
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1666
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1668
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1671
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1673
 #: libs/ui/forms/wdgcolorsettings.ui:28
 #: libs/ui/forms/wdgperformancesettings.ui:38 libs/ui/KoDocumentInfoDlg.cpp:92
 #: libs/ui/KoDocumentInfoDlg.cpp:93
@@ -19590,15 +19591,14 @@ msgstr "匯入影片縮放"
 #. i18n: ectx: property (text), widget (QLabel, lblFilter)
 #. i18n: ectx: property (text), widget (QLabel, videoScaleFilterLabel)
 #. i18n: ectx: property (text), widget (QLabel, scaleFilterLabel)
-#. i18n: ectx: property (text), widget (QLabel, label)
 #: libs/ui/animation/VideoImportDialog.ui:528
 #: libs/ui/animation/wdg_animationrenderer.ui:206
 #: libs/ui/imagesize/wdg_layersize.ui:119
-#: plugins/paintops/libpaintop/forms/wdgfilteroption.ui:28
 #: plugins/python/documenttools/tools/scaletool/scaletool.py:43
 #, kde-format
+msgctxt "Resize intepolation method list label"
 msgid "Filter:"
-msgstr "濾鏡："
+msgstr "縮放過濾："
 
 #. i18n: ectx: property (title), widget (QGroupBox, optionsFFMpegGroup)
 #: libs/ui/animation/VideoImportDialog.ui:571
@@ -19946,13 +19946,13 @@ msgid "Edit Guides"
 msgstr "編輯參考線"
 
 #: libs/ui/canvas/kis_guides_manager.cpp:543
-#: libs/ui/canvas/kis_mirror_axis.cpp:290
+#: libs/ui/canvas/kis_mirror_axis.cpp:286
 #, kde-format
 msgid "Y: %1 px"
 msgstr "Y：%1 px"
 
 #: libs/ui/canvas/kis_guides_manager.cpp:548
-#: libs/ui/canvas/kis_mirror_axis.cpp:274
+#: libs/ui/canvas/kis_mirror_axis.cpp:270
 #, kde-format
 msgid "X: %1 px"
 msgstr "X：%1 px"
@@ -20458,10 +20458,10 @@ msgstr ""
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1408
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1411
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1414
-#: libs/ui/dialogs/kis_dlg_preferences.cc:976
-#: libs/ui/dialogs/kis_dlg_preferences.cc:980
-#: libs/ui/dialogs/kis_dlg_preferences.cc:984
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1063
+#: libs/ui/dialogs/kis_dlg_preferences.cc:981
+#: libs/ui/dialogs/kis_dlg_preferences.cc:985
+#: libs/ui/dialogs/kis_dlg_preferences.cc:989
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1068
 #: plugins/impex/webp/dlg_webp_import.ui:356
 #: plugins/impex/webp/dlg_webp_import.ui:369
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImagesWidget.cpp:44
@@ -20599,27 +20599,27 @@ msgstr "載入上一次工作階段"
 msgid "Show session manager"
 msgstr "顯示工作階段管理器"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:535
+#: libs/ui/dialogs/kis_dlg_preferences.cc:540
 #, kde-format
 msgid "Select a Background Image"
 msgstr "選擇背景影像"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:547
+#: libs/ui/dialogs/kis_dlg_preferences.cc:552
 #: libs/ui/KisTemplateCreateDia.cpp:390
 #, kde-format
 msgid "%1 is not a valid image file!"
 msgstr "%1 不是有效的影像檔案！"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:644
+#: libs/ui/dialogs/kis_dlg_preferences.cc:649
 #: libs/ui/widgets/kis_advanced_color_space_selector.cc:55
 #: libs/ui/widgets/kis_color_space_selector.cc:52
 #, kde-format
 msgid "Open Color Profile"
 msgstr "開啟色彩特性檔案"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:650
-#: libs/ui/dialogs/kis_dlg_preferences.cc:759
-#: libs/ui/dialogs/kis_dlg_preferences.cc:841
+#: libs/ui/dialogs/kis_dlg_preferences.cc:655
+#: libs/ui/dialogs/kis_dlg_preferences.cc:764
+#: libs/ui/dialogs/kis_dlg_preferences.cc:846
 #, kde-format
 msgctxt ""
 "The number of the screen (ordinal) and shortened 'name' of the screen (model "
@@ -20627,14 +20627,14 @@ msgctxt ""
 msgid "Screen %1 (%2):"
 msgstr "顯示器 %1 (%2)："
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:718
+#: libs/ui/dialogs/kis_dlg_preferences.cc:723
 #: libs/ui/widgets/kis_advanced_color_space_selector.cc:772
 #: libs/ui/widgets/kis_color_space_selector.cc:188
 #, kde-format
 msgid "Install Color Profiles"
 msgstr "安裝色彩特性檔案"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:930
+#: libs/ui/dialogs/kis_dlg_preferences.cc:935
 #, kde-format
 msgid ""
 "Use tablet driver timestamps for brush speed (may cause severe artifacts "
@@ -20642,210 +20642,210 @@ msgid ""
 msgstr ""
 "以數位板驅動程式提供的時間來計算筆刷速度 (使用 WinTab 時可能會產生大量雜訊)"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:932
+#: libs/ui/dialogs/kis_dlg_preferences.cc:937
 #, kde-format
 msgid "Use tablet driver timestamps for brush speed"
 msgstr "以數位板驅動程式提供的筆跡時間戳記來計算筆刷速度"
 
 #. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, intSwapSize)
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1028
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1033
 #: libs/ui/forms/wdgperformancesettings.ui:206
 #, kde-format
 msgid " GiB"
 msgstr " GiB"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1048
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1053
 #, kde-format
 msgctxt "suffix for \"seconds\""
 msgid " sec"
 msgstr " 秒"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1052
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1057
 #, kde-format
 msgid " fps"
 msgstr " fps"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1211
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1216
 #, kde-format
 msgctxt "@title:window"
 msgid "Select a swap directory"
 msgstr "選擇交換檔案目錄"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1273
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1278
 #, kde-format
 msgctxt "canvas renderer"
 msgid "OpenGL"
 msgstr "OpenGL"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1274
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1279
 #, kde-format
 msgctxt "canvas renderer"
 msgid "Software Renderer (very slow)"
 msgstr "軟體繪製器 (非常慢)"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1276
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1281
 #, kde-format
 msgctxt "canvas renderer"
 msgid "Direct3D 11 via ANGLE"
 msgstr "通過 ANGLE 實現的 Direct3D 11"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1278
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1283
 #, kde-format
 msgctxt "canvas renderer"
 msgid "OpenGL ES"
 msgstr "OpenGL ES"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1285
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1290
 #, kde-format
 msgctxt "canvas renderer"
 msgid "Unknown"
 msgstr "未知"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1305
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1310
 #, kde-format
 msgctxt "canvas renderer"
 msgid "Auto (%1)"
 msgstr "自動 (%1)"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1397
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1402
 #, kde-format
 msgid "Display Id: %1"
 msgstr "顯示器 ID：%1"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1398
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1403
 #, kde-format
 msgid "Display Name: %1 %2"
 msgstr "顯示器名稱：%1 %2"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1399
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1404
 #, kde-format
 msgid "Min Luminance: %1"
 msgstr "最小光度：%1"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1400
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1405
 #, kde-format
 msgid "Max Luminance: %1"
 msgstr "最大光度：%1"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1401
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1406
 #, kde-format
 msgid "Max Full Frame Luminance: %1"
 msgstr "最大全影格光度：%1"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1402
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1407
 #, kde-format
 msgid "Red Primary: %1, %2"
 msgstr "紅基色：%1, %2"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1403
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1408
 #, kde-format
 msgid "Green Primary: %1, %2"
 msgstr "綠基色：%1, %2"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1404
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1409
 #, kde-format
 msgid "Blue Primary: %1, %2"
 msgstr "藍基色：%1, %2"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1405
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1410
 #, kde-format
 msgid "White Point: %1, %2"
 msgstr "白點：%1, %2"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1441
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1446
 #, kde-format
 msgid "Warning(s):"
 msgstr "警告："
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1574
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1579
 #, kde-format
 msgid "WARNING: current display doesn't support HDR rendering"
 msgstr "警告：目前顯示器不支援 HDR 繪製"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1659
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1664
 #, kde-format
 msgid "Configure Krita"
 msgstr "設定 Krita"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1676
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1681
 #, kde-format
 msgid "Keyboard Shortcuts"
 msgstr "鍵盤快捷鍵"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1678
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1683
 #: libs/widgetutils/xmlgui/KisShortcutsEditor_p.cpp:282
 #, kde-format
 msgid "Shortcuts"
 msgstr "快捷鍵"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1688
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1693
 #, kde-format
 msgid "Canvas Input Settings"
 msgstr "畫布輸入設定"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1689
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1694
 #, kde-format
 msgid "Canvas Input"
 msgstr "畫布輸入"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1706
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1711
 #: plugins/dockers/logdocker/LogDockerDock.cpp:190
 #, kde-format
 msgid "Color Management"
 msgstr "色彩管理"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1708
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1713
 #, kde-format
 msgctxt "Label of color as in Color Management"
 msgid "Color"
 msgstr "色彩"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1716
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1718
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1721
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1723
 #, kde-format
 msgid "Performance"
 msgstr "效能"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1726
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1731
 #, kde-format
 msgid "Tablet settings"
 msgstr "數位板設定"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1728
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1733
 #, kde-format
 msgid "Tablet"
 msgstr "數位板"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1736
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1741
 #, kde-format
 msgid "Canvas-only settings"
 msgstr "畫布獨佔模式設定"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1738
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1743
 #, kde-format
 msgid "Canvas-only"
 msgstr "畫布獨佔模式"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1746
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1748
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1751
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1753
 #, kde-format
 msgid "Pop-up Palette"
 msgstr "浮動畫具板"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1756
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1761
 #, kde-format
 msgctxt "@title:tab Author page"
 msgid "Author"
 msgstr "作者檔案"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1758
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1763
 #: libs/ui/KoDocumentInfoDlg.cpp:115
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
 #, kde-format
 msgid "Author"
 msgstr "作者"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1765
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1770
 #, kde-format
 msgctxt "@action:button"
 msgid "Restore Defaults"
@@ -24785,6 +24785,7 @@ msgstr "WinTab"
 #. i18n: ectx: property (text), widget (QPushButton, btnResolutionSettings)
 #: libs/ui/forms/wdgtabletsettings.ui:210
 #, kde-format
+msgctxt "Tablet mapping settings"
 msgid "Advanced..."
 msgstr "進階…"
 
@@ -24874,7 +24875,7 @@ msgstr "新的大小"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, constrainProportionsCkb)
 #: libs/ui/imagesize/wdg_canvassize.ui:132
-#: libs/ui/imagesize/wdg_imagesize.ui:336
+#: libs/ui/imagesize/wdg_imagesize.ui:339
 #: libs/ui/imagesize/wdg_layersize.ui:139
 #: plugins/impex/webp/dlg_webp_import.ui:232
 #, kde-format
@@ -24884,7 +24885,7 @@ msgstr "保持寬高比"
 #. i18n: ectx: property (text), widget (QCheckBox, constrainProportionsCkb)
 #. i18n: ectx: property (toolTip), widget (QPushButton, buttonLockRatio)
 #: libs/ui/imagesize/wdg_canvassize.ui:135
-#: libs/ui/imagesize/wdg_imagesize.ui:339
+#: libs/ui/imagesize/wdg_imagesize.ui:342
 #: libs/ui/imagesize/wdg_layersize.ui:142
 #: plugins/dockers/recorder/recorder_export.ui:459
 #: plugins/impex/webp/dlg_webp_import.ui:235
@@ -24955,12 +24956,11 @@ msgid "Pixel Dimensions"
 msgstr "像素尺寸"
 
 #. i18n: ectx: property (text), widget (QLabel, lblPixelFilter)
-#. i18n: ectx: property (text), widget (QLabel, label_10)
 #: libs/ui/imagesize/wdg_imagesize.ui:81
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:322
 #, kde-format
+msgctxt "Resize intepolation method list label"
 msgid "&Filter:"
-msgstr "濾法(&F)："
+msgstr "縮放過濾(&F)："
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupPrintSize)
 #: libs/ui/imagesize/wdg_imagesize.ui:158
@@ -24981,7 +24981,7 @@ msgid "Wid&th:"
 msgstr "寬度(&T)："
 
 #. i18n: ectx: property (text), widget (QCheckBox, adjustPrintSizeSeparatelyCkb)
-#: libs/ui/imagesize/wdg_imagesize.ui:349
+#: libs/ui/imagesize/wdg_imagesize.ui:352
 #, kde-format
 msgid "Adjust print size separately"
 msgstr "單獨調整列印尺寸"
@@ -28963,7 +28963,7 @@ msgstr "圖案："
 #: libs/ui/layerstyles/WdgStroke.ui:363 libs/ui/layerstyles/wdgTexture.ui:64
 #, kde-format
 msgid "Sn&ap to Origin"
-msgstr "對齊到基點(&A)"
+msgstr "對齊到原點(&A)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkLinkWithLayer)
 #: libs/ui/layerstyles/WdgPatternOverlay.ui:148
@@ -29232,7 +29232,7 @@ msgstr "減小筆刷尺寸"
 
 #: libs/ui/tool/strokes/kis_filter_stroke_strategy.cpp:139
 #, kde-format
-msgctxt "(qtundo-format)"
+msgctxt "(qtundo-format) Filter as an effect"
 msgid "Filter \"%1\""
 msgstr "濾鏡「%1」"
 
@@ -30363,7 +30363,6 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QToolButton, btnLock)
 #: libs/ui/widgets/kis_categorized_list_view.cpp:154
 #: plugins/dockers/storyboarddocker/wdgstoryboarddock.ui:57
-#: plugins/paintops/libpaintop/sensors/kis_dynamic_sensor_drawing_angle.cpp:66
 #, kde-format
 msgid "Lock"
 msgstr "鎖定"
@@ -30530,7 +30529,7 @@ msgstr "<p>即時預覽模式可用</p>"
 msgid "Choose meta data merge strategy"
 msgstr "選擇中繼資料合併策略"
 
-#: libs/ui/widgets/kis_multipliers_double_slider_spinbox.cpp:42
+#: libs/ui/widgets/kis_multipliers_double_slider_spinbox.cpp:51
 #, kde-format
 msgid "x%1"
 msgstr "x%1"
@@ -31005,6 +31004,7 @@ msgstr "反射"
 #. i18n: ectx: property (text), widget (QLabel, stopColorLabel)
 #: libs/ui/widgets/KoFillConfigWidget.ui:358
 #, kde-format
+msgctxt "Gradient stop color selector label"
 msgid "Stop:"
 msgstr "節點："
 
@@ -31634,6 +31634,7 @@ msgstr "選擇檔案名…"
 #: libs/widgets/WdgDlgInternalColorSelector.ui:57
 #: plugins/dockers/channeldocker/channeldocker_dock.cpp:28
 #, kde-format
+msgctxt "Channel as in Color Channels"
 msgid "Channels"
 msgstr "色彩通道"
 
@@ -32516,8 +32517,8 @@ msgid "A&vailable actions:"
 msgstr "可用的操作(&V)："
 
 #: libs/widgetutils/xmlgui/kedittoolbar.cpp:1026
-#: libs/widgetutils/xmlgui/kedittoolbar.cpp:1045
 #, kde-format
+msgctxt "Filter as in showing only matching items"
 msgid "Filter"
 msgstr "過濾"
 
@@ -32525,6 +32526,11 @@ msgstr "過濾"
 #, kde-format
 msgid "Curr&ent actions:"
 msgstr "目前操作(&E)："
+
+#: libs/widgetutils/xmlgui/kedittoolbar.cpp:1045
+#, kde-format
+msgid "Filter"
+msgstr "過濾"
 
 #: libs/widgetutils/xmlgui/kedittoolbar.cpp:1186
 #, kde-format
@@ -33323,6 +33329,12 @@ msgstr "直線"
 msgid "Spline assistant"
 msgstr "樣條曲線輔助尺"
 
+#: plugins/assistants/Assistants/SplineAssistant.cc:222
+#, kde-format
+msgctxt "A type of drawing assistants"
+msgid "Spline"
+msgstr "樣條曲線 (Spline)"
+
 #: plugins/assistants/Assistants/TwoPointAssistant.cc:27
 #, kde-format
 msgid "Two point assistant"
@@ -34058,9 +34070,8 @@ msgstr "要顯示的 HSI 滑動條"
 
 #. i18n: ectx: property (text), widget (QCheckBox, csl_hsiI)
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1360
-#: plugins/filters/halftone/KisHalftoneConfigWidget.cpp:33
-#: plugins/filters/halftone/KisHalftoneConfigWidget.cpp:204
 #, kde-format
+msgctxt "Brightness in HSI color model"
 msgid "Intensity"
 msgstr "強度"
 
@@ -34419,18 +34430,18 @@ msgctxt "@item:inmenu"
 msgid "Hold Frames"
 msgstr "保持影格"
 
-#: plugins/dockers/animation/KisAnimTimelineTimeHeader.cpp:488
+#: plugins/dockers/animation/KisAnimTimelineTimeHeader.cpp:494
 #, kde-format
 msgid "Edit Columns:"
 msgstr "編輯影格列："
 
-#: plugins/dockers/animation/KisAnimTimelineTimeHeader.cpp:498
+#: plugins/dockers/animation/KisAnimTimelineTimeHeader.cpp:504
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Keyframe Columns"
 msgstr "關鍵影格列"
 
-#: plugins/dockers/animation/KisAnimTimelineTimeHeader.cpp:506
+#: plugins/dockers/animation/KisAnimTimelineTimeHeader.cpp:512
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Hold Frame Columns"
@@ -35267,11 +35278,6 @@ msgstr "註冊項"
 msgid "Tile Engine"
 msgstr "分塊引擎"
 
-#: plugins/dockers/logdocker/LogDockerDock.cpp:142
-#, kde-format
-msgid "Filters"
-msgstr "濾鏡"
-
 #: plugins/dockers/logdocker/LogDockerDock.cpp:146
 #, kde-format
 msgid "Plugin Management"
@@ -35584,10 +35590,10 @@ msgid "Add foreground color"
 msgstr "新增前景色"
 
 #: plugins/dockers/presetdocker/presetdocker_dock.cpp:26
-#: plugins/extensions/resourcemanager/dlg_embed_tags.cpp:62
 #, kde-format
+msgctxt "@title:window Brush presets chooser docker"
 msgid "Brush Presets"
-msgstr "筆刷預設"
+msgstr "筆刷預設選擇器"
 
 #: plugins/dockers/presethistory/presethistory_dock.cpp:36
 #, kde-format
@@ -35822,6 +35828,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, labelFpsInput)
 #: plugins/dockers/recorder/recorder_export.ui:490
 #, kde-format
+msgctxt "Input FPS of recorded timelapses."
 msgid "Input FPS:"
 msgstr "輸入 FPS："
 
@@ -38720,6 +38727,11 @@ msgstr "請選擇用作資源包圖示的檔案"
 msgid "Brushes"
 msgstr "筆刷"
 
+#: plugins/extensions/resourcemanager/dlg_embed_tags.cpp:62
+#, kde-format
+msgid "Brush Presets"
+msgstr "筆刷預設"
+
 #: plugins/extensions/resourcemanager/DlgResourceManager.cpp:36
 #, kde-format
 msgid "Manage Resources"
@@ -39182,7 +39194,6 @@ msgstr "目前色彩模型："
 
 #. i18n: ectx: property (title), widget (QGroupBox, grpSource)
 #: plugins/extensions/separate_channels/wdg_separations.ui:62
-#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:67
 #, kde-format
 msgid "Source"
 msgstr "來源"
@@ -39999,6 +40010,7 @@ msgstr "對數分布"
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: plugins/filters/colorsfilters/wdg_perchannel.ui:359
 #, kde-format
+msgctxt "Channel as in Color Channels"
 msgid "Channel:"
 msgstr "通道："
 
@@ -40336,6 +40348,13 @@ msgstr "反轉："
 #, kde-format
 msgid "Foreground:"
 msgstr "前景："
+
+#: plugins/filters/halftone/KisHalftoneConfigWidget.cpp:33
+#: plugins/filters/halftone/KisHalftoneConfigWidget.cpp:204
+#, kde-format
+msgctxt "Brightness in Halftone Widget"
+msgid "Intensity"
+msgstr "強度"
 
 #: plugins/filters/halftone/KisHalftoneConfigWidget.cpp:34
 #, kde-format
@@ -41296,7 +41315,7 @@ msgstr "放射"
 #, kde-format
 msgctxt "the gradient will be drawn in a square around a centre"
 msgid "Square"
-msgstr "平方"
+msgstr "正方形"
 
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.cpp:32
 #: plugins/tools/basictools/kis_tool_gradient.cc:243
@@ -44880,6 +44899,7 @@ msgstr "過濾強度：0 = 停用，100 = 最強。"
 #. i18n: ectx: property (text), widget (QLabel, lblFilterStrength)
 #: plugins/impex/webp/dlg_webp_export.ui:330
 #, kde-format
+msgctxt "Filter options specifically for WebP"
 msgid "Filter Strength"
 msgstr "過濾強度"
 
@@ -44894,6 +44914,7 @@ msgstr "過濾銳利度：0 = 停用，7 = 最不銳利。"
 #. i18n: ectx: property (text), widget (QLabel, lblFilterSharpness)
 #: plugins/impex/webp/dlg_webp_export.ui:353
 #, kde-format
+msgctxt "Filter options specifically for WebP"
 msgid "Filter Sharpness"
 msgstr "過濾銳利度"
 
@@ -44911,6 +44932,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, lblFilterType)
 #: plugins/impex/webp/dlg_webp_export.ui:376
 #, kde-format
+msgctxt "Filter options specifically for WebP"
 msgid "Filter Type"
 msgstr "過濾類型"
 
@@ -44994,6 +45016,7 @@ msgstr "顯示已壓縮"
 #. i18n: ectx: property (text), widget (QLabel, lblPreprocessing)
 #: plugins/impex/webp/dlg_webp_export.ui:546
 #, kde-format
+msgctxt "Filter options specifically for WebP"
 msgid "Preprocessing Filter"
 msgstr "預處理過濾"
 
@@ -45367,6 +45390,7 @@ msgstr "塗抹半徑"
 
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:59
 #, kde-format
+msgctxt "Color rate of active Foreground color"
 msgid "Color Rate"
 msgstr "色彩量"
 
@@ -45405,7 +45429,6 @@ msgstr "-180°"
 msgid "180°"
 msgstr "180°"
 
-#. i18n: ectx: property (text), widget (QRadioButton, optionRotation)
 #. i18n: ectx: property (title), widget (QGroupBox, rotationGroup)
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:63
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:61
@@ -45417,7 +45440,6 @@ msgstr "180°"
 #: plugins/paintops/sketch/kis_sketch_paintop_settings_widget.cpp:37
 #: plugins/paintops/spray/kis_spray_paintop_settings_widget.cpp:40
 #: plugins/paintops/tangentnormal/kis_tangent_normal_paintop_settings_widget.cpp:52
-#: plugins/paintops/tangentnormal/wdgtangenttiltoption.ui:253
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:700
 #, kde-format
 msgid "Rotation"
@@ -45655,6 +45677,12 @@ msgstr "銳利度"
 msgid "Lightness Strength"
 msgstr "亮度強度"
 
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:67
+#, kde-format
+msgctxt "Color source"
+msgid "Source"
+msgstr "來源"
+
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:68
 #, kde-format
 msgid "Darken"
@@ -45667,6 +45695,7 @@ msgstr "前景色"
 
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:69
 #, kde-format
+msgctxt "Mixing of colors"
 msgid "Mix"
 msgstr "混合"
 
@@ -45802,12 +45831,10 @@ msgid "Deform Mode"
 msgstr "扭曲模式"
 
 #. i18n: ectx: property (text), widget (QRadioButton, growBtn)
-#. i18n: ectx: property (text), widget (QCheckBox, boolGrow)
 #: plugins/paintops/deform/kis_deform_paintop_settings.cpp:134
 #: plugins/paintops/deform/wdgdeformoptions.ui:48
-#: plugins/tools/tool_crop/kis_tool_crop.cc:119
-#: plugins/tools/tool_crop/wdg_tool_crop.ui:155
 #, kde-format
+msgctxt "Grow as in deform brush engine"
 msgid "Grow"
 msgstr "擴張"
 
@@ -45815,6 +45842,7 @@ msgstr "擴張"
 #: plugins/paintops/deform/kis_deform_paintop_settings.cpp:135
 #: plugins/paintops/deform/wdgdeformoptions.ui:55
 #, kde-format
+msgctxt "Shrink as in deform brush engine"
 msgid "Shrink"
 msgstr "收縮"
 
@@ -45855,6 +45883,7 @@ msgstr "鏡頭縮小"
 
 #: plugins/paintops/deform/kis_deform_paintop_settings.cpp:141
 #, kde-format
+msgctxt "Rearrange the positions of the pixels under the cursor"
 msgid "Color Deformation"
 msgstr "色彩扭曲"
 
@@ -45866,6 +45895,7 @@ msgstr "扭曲選項"
 #. i18n: ectx: property (text), widget (QRadioButton, colorBtn)
 #: plugins/paintops/deform/wdgdeformoptions.ui:86
 #, kde-format
+msgctxt "Rearrange the pixels positions under the cursor"
 msgid "Color deformation"
 msgstr "色彩扭曲"
 
@@ -46394,13 +46424,13 @@ msgstr "分離度："
 #: plugins/paintops/hatching/wdghatchingoptions.ui:148
 #, kde-format
 msgid "Origin X:"
-msgstr "基點 X："
+msgstr "原點 X："
 
 #. i18n: ectx: property (text), widget (QLabel, label_24)
 #: plugins/paintops/hatching/wdghatchingoptions.ui:186
 #, kde-format
 msgid "Origin Y:"
-msgstr "基點 Y："
+msgstr "原點 Y："
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: plugins/paintops/hatching/wdghatchingoptions.ui:262
@@ -46767,11 +46797,19 @@ msgstr "X 範圍："
 msgid "Preserve alpha channel"
 msgstr "保留 Alpha (透明度) 通道"
 
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: plugins/paintops/libpaintop/forms/wdgfilteroption.ui:28
+#, kde-format
+msgctxt "Filter as an effect"
+msgid "Filter:"
+msgstr "濾鏡："
+
 #. i18n: ectx: property (title), widget (QGroupBox, grpFilterOptions)
 #: plugins/paintops/libpaintop/forms/wdgfilteroption.ui:62
 #, kde-format
+msgctxt "Filter as an effect"
 msgid "Filter Settings"
-msgstr "過濾設定"
+msgstr "濾鏡設定"
 
 #. i18n: ectx: property (title), widget (QGroupBox, grpIncremental)
 #: plugins/paintops/libpaintop/forms/wdgincremental.ui:24
@@ -46855,6 +46893,7 @@ msgstr "重設預製形狀筆尖"
 #. i18n: ectx: property (title), widget (QGroupBox, grpBrushMode)
 #: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:226
 #, kde-format
+msgctxt "Predefined Brush tip mode"
 msgid "Brush mode"
 msgstr "筆刷模式"
 
@@ -46915,8 +46954,9 @@ msgstr "紋理模式："
 #. i18n: ectx: property (text), widget (QLabel, lblSpacing_2)
 #: plugins/paintops/libpaintop/forms/wdgtexturechooser.ui:179
 #, kde-format
-msgid "Cutoff"
-msgstr "截斷範圍"
+msgctxt "Texture lightness range cutoff range slider"
+msgid "Cutoff:"
+msgstr "截斷範圍："
 
 #. i18n: ectx: property (text), widget (QLabel, lblNeutralPoint)
 #: plugins/paintops/libpaintop/forms/wdgtexturechooser.ui:199
@@ -47729,8 +47769,15 @@ msgstr "紋理 -> 圖案 (低品質預覽)"
 msgid "Blending Mode:"
 msgstr "混色模式："
 
+#: plugins/paintops/libpaintop/sensors/kis_dynamic_sensor_drawing_angle.cpp:66
+#, kde-format
+msgctxt "Lock Drawing angle at start of each stroke"
+msgid "Lock"
+msgstr "鎖定"
+
 #: plugins/paintops/libpaintop/sensors/kis_dynamic_sensor_drawing_angle.cpp:72
 #, kde-format
+msgctxt "Smoothing Drawing angle when a stroke is making a sharp turn"
 msgid "Fan Corners"
 msgstr "平滑轉角"
 
@@ -47772,6 +47819,7 @@ msgstr "筆畫時長"
 #: plugins/paintops/mypaint/MyPaintBrushOption.h:35
 #: plugins/paintops/tangentnormal/wdgtangenttiltoption.ui:243
 #, kde-format
+msgctxt "Drawing Angle"
 msgid "Direction"
 msgstr "方向"
 
@@ -48436,8 +48484,9 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton, optionTilt)
 #: plugins/paintops/tangentnormal/wdgtangenttiltoption.ui:230
 #, kde-format
+msgctxt "Tilt elevation"
 msgid "Tilt"
-msgstr "傾斜"
+msgstr "傾斜度"
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, optionDirection)
 #: plugins/paintops/tangentnormal/wdgtangenttiltoption.ui:240
@@ -48459,6 +48508,13 @@ msgid ""
 msgstr ""
 "<html><head/><body><p>以某些壓感筆才具備的旋轉感測器來決定 X 和 Y 軸，以筆身"
 "傾斜-仰角決定 Z 軸。</p></body></html>"
+
+#. i18n: ectx: property (text), widget (QRadioButton, optionRotation)
+#: plugins/paintops/tangentnormal/wdgtangenttiltoption.ui:253
+#, kde-format
+msgctxt "Pen Rotation"
+msgid "Rotation"
+msgstr "旋轉"
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, optionMix)
 #: plugins/paintops/tangentnormal/wdgtangenttiltoption.ui:260
@@ -50150,8 +50206,9 @@ msgid "Keep original layer"
 msgstr "保留原始圖層"
 
 #: plugins/python/highpass/highpass.py:52
+msgctxt "Filter radius in Highpass filter settings"
 msgid "Filter radius:"
-msgstr "濾鏡半徑："
+msgstr "過濾半徑："
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #: plugins/python/krita_script_starter/bbdkss.ui:40
@@ -51282,8 +51339,9 @@ msgstr "色彩取樣器"
 #. i18n: ectx: property (text), widget (QLabel, blendLabel)
 #: plugins/tools/basictools/wdgcolorsampler.ui:29
 #, kde-format
+msgctxt "The color rate of sampled color setting slider"
 msgid "Blend: "
-msgstr "混色："
+msgstr "混色比率："
 
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, blend)
 #: plugins/tools/basictools/wdgcolorsampler.ui:48
@@ -51293,8 +51351,8 @@ msgid ""
 "mixed with your current brush color. A full blending value samples colors "
 "completely, ignoring brush color."
 msgstr ""
-"<nobr>混色數值控制取樣色彩的比例，</nobr>按此比例與目前筆刷色彩進行混合。混色"
-"數值最大時，取樣的色彩將完全取代目前筆刷色彩。"
+"<nobr>混色比率數值控制取樣色彩的比例，</nobr>按此比例與目前筆刷色彩進行混合。"
+"混色比率數值最大時，取樣的色彩將完全取代目前筆刷色彩。"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, cmbSources)
 #: plugins/tools/basictools/wdgcolorsampler.ui:75
@@ -51549,7 +51607,7 @@ msgstr "垂直"
 #: plugins/tools/basictools/wdgmultihandtool.ui:116
 #, kde-format
 msgid "Show Origin"
-msgstr "顯示基點"
+msgstr "顯示原點"
 
 #. i18n: ectx: property (text), widget (QCheckBox, verticalCheckbox)
 #: plugins/tools/basictools/wdgmultihandtool.ui:139
@@ -51560,8 +51618,9 @@ msgstr "水平"
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: plugins/tools/basictools/wdgmultihandtool.ui:216
 #, kde-format
+msgctxt "Origin in Multihand Tool"
 msgid "Origin:"
-msgstr "基點："
+msgstr "原點："
 
 #. i18n: ectx: property (text), widget (QPushButton, removeSubbrushButton)
 #: plugins/tools/basictools/wdgmultihandtool.ui:241
@@ -52247,6 +52306,7 @@ msgstr "以磁性選取工具建立選取區域"
 
 #: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:659
 #, kde-format
+msgctxt "Filter radius in Magnetic Select Tool settings"
 msgid "Filter Radius: "
 msgstr "過濾半徑："
 
@@ -52716,7 +52776,7 @@ msgstr "文字編輯器設定"
 #. i18n: context: Action (svg_settings), Actions (Text Tool), ActionCollection (SVG Tools)
 #: plugins/tools/svgtexttool/SvgTextTool.action:243
 #, kde-format
-msgctxt "action"
+msgctxt "Text Editor Settings label"
 msgid "Settings..."
 msgstr "設定…"
 
@@ -52912,6 +52972,14 @@ msgstr ""
 #, kde-format
 msgid "Center"
 msgstr "中間"
+
+#. i18n: ectx: property (text), widget (QCheckBox, boolGrow)
+#: plugins/tools/tool_crop/kis_tool_crop.cc:119
+#: plugins/tools/tool_crop/wdg_tool_crop.ui:155
+#, kde-format
+msgctxt "Grow as in crop tool"
+msgid "Grow"
+msgstr "擴張"
 
 #: plugins/tools/tool_crop/kis_tool_crop.cc:122
 #, kde-format
@@ -53598,6 +53666,12 @@ msgstr "液化"
 msgid "Mesh"
 msgstr "網狀"
 
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:322
+#, kde-format
+msgid "&Filter:"
+msgstr "濾法(&F)："
+
 #. i18n: ectx: property (toolTip), widget (QToolButton, btnTransformAroundPivotPoint)
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:341
 #, kde-format
@@ -54073,6 +54147,10 @@ msgstr "縮放工具"
 msgctxt "action"
 msgid "Reference Images Tool"
 msgstr "參考圖工具"
+
+#~ msgctxt "action"
+#~ msgid "Filters"
+#~ msgstr "濾鏡"
 
 #~ msgid "Export Directory: "
 #~ msgstr "匯出目錄："
