@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-09-15 00:16+0000\n"
-"PO-Revision-Date: 2021-09-15 07:41+0000\n"
+"PO-Revision-Date: 2021-09-15 07:49+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -41315,7 +41315,7 @@ msgstr "放射"
 #, kde-format
 msgctxt "the gradient will be drawn in a square around a centre"
 msgid "Square"
-msgstr "平方"
+msgstr "正方形"
 
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.cpp:32
 #: plugins/tools/basictools/kis_tool_gradient.cc:243
