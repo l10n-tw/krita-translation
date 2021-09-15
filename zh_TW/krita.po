@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-09-14 00:16+0000\n"
+"POT-Creation-Date: 2021-09-15 00:16+0000\n"
 "PO-Revision-Date: 2021-09-15 07:41+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
@@ -30529,7 +30529,7 @@ msgstr "<p>即時預覽模式可用</p>"
 msgid "Choose meta data merge strategy"
 msgstr "選擇中繼資料合併策略"
 
-#: libs/ui/widgets/kis_multipliers_double_slider_spinbox.cpp:42
+#: libs/ui/widgets/kis_multipliers_double_slider_spinbox.cpp:51
 #, kde-format
 msgid "x%1"
 msgstr "x%1"
@@ -34430,18 +34430,18 @@ msgctxt "@item:inmenu"
 msgid "Hold Frames"
 msgstr "保持影格"
 
-#: plugins/dockers/animation/KisAnimTimelineTimeHeader.cpp:488
+#: plugins/dockers/animation/KisAnimTimelineTimeHeader.cpp:494
 #, kde-format
 msgid "Edit Columns:"
 msgstr "編輯影格列："
 
-#: plugins/dockers/animation/KisAnimTimelineTimeHeader.cpp:498
+#: plugins/dockers/animation/KisAnimTimelineTimeHeader.cpp:504
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Keyframe Columns"
 msgstr "關鍵影格列"
 
-#: plugins/dockers/animation/KisAnimTimelineTimeHeader.cpp:506
+#: plugins/dockers/animation/KisAnimTimelineTimeHeader.cpp:512
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Hold Frame Columns"
@@ -51351,7 +51351,8 @@ msgid ""
 "mixed with your current brush color. A full blending value samples colors "
 "completely, ignoring brush color."
 msgstr ""
-"<nobr>混色比率數值控制取樣色彩的比例，</nobr>按此比例與目前筆刷色彩進行混合。混色比率數值最大時，取樣的色彩將完全取代目前筆刷色彩。"
+"<nobr>混色比率數值控制取樣色彩的比例，</nobr>按此比例與目前筆刷色彩進行混合。"
+"混色比率數值最大時，取樣的色彩將完全取代目前筆刷色彩。"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, cmbSources)
 #: plugins/tools/basictools/wdgcolorsampler.ui:75
