@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-09-15 00:16+0000\n"
+"POT-Creation-Date: 2021-09-16 00:15+0000\n"
 "PO-Revision-Date: 2021-09-15 07:49+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
@@ -15709,11 +15709,13 @@ msgid "Layout"
 msgstr "版面配置"
 
 #: libs/image/krita_utils.cpp:351
+#: plugins/dockers/animation/KisAnimTimelineLayersHeader.cpp:252
 #, kde-format
 msgid "off"
 msgstr "關閉"
 
 #: libs/image/krita_utils.cpp:351
+#: plugins/dockers/animation/KisAnimTimelineLayersHeader.cpp:252
 #, kde-format
 msgid "on"
 msgstr "開"
@@ -18298,6 +18300,41 @@ msgstr "動畫影格繪製失敗！輸出檔案不完整。"
 #, kde-format
 msgid "Render Animation"
 msgstr "繪製動畫"
+
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:101
+#, fuzzy, kde-format
+#| msgid "Bicubic"
+msgctxt "bicubic filtering"
+msgid "bicubic"
+msgstr "雙立方演算法"
+
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:102
+#, fuzzy, kde-format
+#| msgid "Bilinear"
+msgctxt "bilinear filtering"
+msgid "bilinear"
+msgstr "雙線性"
+
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:103
+#, fuzzy, kde-format
+#| msgid "Lanczos3"
+msgctxt "lanczos3 filtering"
+msgid "lanczos3"
+msgstr "Lanczos3 演算法"
+
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:104
+#, kde-format
+msgctxt "nearest neighbor filtering"
+msgid "neighbor"
+msgstr ""
+
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:105
+#, fuzzy, kde-format
+#| msgctxt "An interpolation method"
+#| msgid "Spline"
+msgctxt "spline filtering"
+msgid "spline"
+msgstr "樣條插值 (Spline)"
 
 #: libs/ui/animation/KisDlgAnimationRenderer.cpp:524
 #, kde-format
@@ -36455,7 +36492,7 @@ msgid ""
 "provided."
 msgstr "請輸入正確的範圍。您提供的影格範圍內沒有任何面板。"
 
-#: plugins/dockers/storyboarddocker/StoryboardModel.cpp:1260
+#: plugins/dockers/storyboarddocker/StoryboardModel.cpp:1265
 #, kde-format
 msgctxt "default name for storyboard item"
 msgid "scene "
