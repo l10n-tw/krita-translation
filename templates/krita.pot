@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-09-15 00:16+0000\n"
+"POT-Creation-Date: 2021-09-16 00:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -15677,12 +15677,12 @@ msgctxt "Layer name for translation of template"
 msgid "Layout"
 msgstr ""
 
-#: libs/image/krita_utils.cpp:351
+#: libs/image/krita_utils.cpp:351 plugins/dockers/animation/KisAnimTimelineLayersHeader.cpp:252
 #, kde-format
 msgid "off"
 msgstr ""
 
-#: libs/image/krita_utils.cpp:351
+#: libs/image/krita_utils.cpp:351 plugins/dockers/animation/KisAnimTimelineLayersHeader.cpp:252
 #, kde-format
 msgid "on"
 msgstr ""
@@ -18245,6 +18245,36 @@ msgstr ""
 #: libs/ui/KisMainWindow.cpp:2169
 #, kde-format
 msgid "Render Animation"
+msgstr ""
+
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:101
+#, kde-format
+msgctxt "bicubic filtering"
+msgid "bicubic"
+msgstr ""
+
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:102
+#, kde-format
+msgctxt "bilinear filtering"
+msgid "bilinear"
+msgstr ""
+
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:103
+#, kde-format
+msgctxt "lanczos3 filtering"
+msgid "lanczos3"
+msgstr ""
+
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:104
+#, kde-format
+msgctxt "nearest neighbor filtering"
+msgid "neighbor"
+msgstr ""
+
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:105
+#, kde-format
+msgctxt "spline filtering"
+msgid "spline"
 msgstr ""
 
 #: libs/ui/animation/KisDlgAnimationRenderer.cpp:524
@@ -35750,7 +35780,7 @@ msgid ""
 "provided."
 msgstr ""
 
-#: plugins/dockers/storyboarddocker/StoryboardModel.cpp:1260
+#: plugins/dockers/storyboarddocker/StoryboardModel.cpp:1265
 #, kde-format
 msgctxt "default name for storyboard item"
 msgid "scene "
