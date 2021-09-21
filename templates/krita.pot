@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-09-20 00:16+0000\n"
+"POT-Creation-Date: 2021-09-21 00:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -15798,7 +15798,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #: libs/impex/KisExportCheckRegistry.cpp:100
-#: libs/ui/kis_layer_manager.cc:559 libs/ui/kis_node_manager.cpp:1499
+#: libs/ui/kis_layer_manager.cc:559 libs/ui/kis_node_manager.cpp:1501
 #: libs/ui/KisPaletteEditor.cpp:417 libs/widgets/kis_palette_view.cpp:114
 #: plugins/dockers/arrangedocker/arrange_docker_widget.ui:338
 #, kde-format
@@ -17333,7 +17333,7 @@ msgstr ""
 #: libs/pigment/resources/KoColorSet.cpp:770
 #: libs/pigment/resources/KoColorSet.cpp:852
 #: libs/pigment/resources/KoColorSet.cpp:1075
-#: libs/ui/actions/KisPasteActionFactories.cpp:291
+#: libs/ui/actions/KisPasteActionFactories.cpp:298
 #: libs/ui/animation/KisDlgAnimationRenderer.cpp:345
 #: libs/ui/KisView.cpp:667 plugins/generators/seexpr/kis_wdg_seexpr.cpp:27
 #, kde-format
@@ -18048,7 +18048,7 @@ msgstr ""
 #: libs/ui/dialogs/KisRecoverNamedAutosaveDialog.ui:60
 #: libs/ui/forms/wdgpaintopsettings.ui:201
 #: libs/ui/input/kis_tool_invocation_action.cpp:43
-#: libs/ui/kis_clipboard.cc:302 libs/ui/utils/KisClipboardUtil.cpp:70
+#: libs/ui/kis_clipboard.cc:301 libs/ui/utils/KisClipboardUtil.cpp:70
 #: plugins/dockers/gamutmask/forms/wdgGamutMaskChooser.ui:190
 #: plugins/dockers/recorder/recorder_export.ui:703
 #: plugins/dockers/recorder/recorder_snapshots_manager.ui:130
@@ -18114,75 +18114,63 @@ msgstr ""
 msgid "Undelete"
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:133
+#: libs/ui/actions/kis_selection_action_factories.cpp:131
 msgctxt "(qtundo-format)"
 msgid "Select All"
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:207
+#: libs/ui/actions/kis_selection_action_factories.cpp:205
 #: libs/ui/KisView.cpp:526
 msgctxt "(qtundo-format)"
 msgid "Flood Fill Layer"
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:286
-#, kde-format
-msgctxt "floating message when cannot copy from a node"
-msgid "Cannot copy pixels from this type of layer "
-msgstr ""
-
-#: libs/ui/actions/kis_selection_action_factories.cpp:295
-#, kde-format
-msgctxt "floating message when copying empty selection"
-msgid "Selection is empty: no pixels were copied "
-msgstr ""
-
-#: libs/ui/actions/kis_selection_action_factories.cpp:351
+#: libs/ui/actions/kis_selection_action_factories.cpp:358
 msgctxt "(qtundo-format)"
 msgid "Cut"
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:352
+#: libs/ui/actions/kis_selection_action_factories.cpp:359
 msgctxt "(qtundo-format)"
 msgid "Copy"
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:384
+#: libs/ui/actions/kis_selection_action_factories.cpp:444
 msgctxt "(qtundo-format)"
 msgid "Copy Merged"
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:401
+#: libs/ui/actions/kis_selection_action_factories.cpp:461
 #, kde-format
 msgctxt "floating message"
 msgid "Selection is already in a vector format "
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:426
-#: libs/ui/actions/kis_selection_action_factories.cpp:446
+#: libs/ui/actions/kis_selection_action_factories.cpp:486
+#: libs/ui/actions/kis_selection_action_factories.cpp:506
 msgctxt "(qtundo-format)"
 msgid "Convert to Vector Selection"
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:441
+#: libs/ui/actions/kis_selection_action_factories.cpp:501
 #, kde-format
 msgctxt "floating message"
 msgid "Selection is already in a raster format "
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:487
+#: libs/ui/actions/kis_selection_action_factories.cpp:547
 #, kde-format
 msgctxt "floating message"
 msgid "The shape already belongs to a selection"
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:493
+#: libs/ui/actions/kis_selection_action_factories.cpp:553
 msgctxt "(qtundo-format)"
 msgid "Convert shapes to vector selection"
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:546
-#: libs/ui/actions/kis_selection_action_factories.cpp:605
+#: libs/ui/actions/kis_selection_action_factories.cpp:606
+#: libs/ui/actions/kis_selection_action_factories.cpp:665
 #: plugins/tools/tool_polyline/kis_tool_polyline.cc:49
 msgctxt "(qtundo-format)"
 msgid "Draw Polyline"
@@ -18193,18 +18181,18 @@ msgctxt "(qtundo-format)"
 msgid "Paste shapes"
 msgstr ""
 
-#: libs/ui/actions/KisPasteActionFactories.cpp:226
-#: libs/ui/actions/KisPasteActionFactories.cpp:298
+#: libs/ui/actions/KisPasteActionFactories.cpp:233
+#: libs/ui/actions/KisPasteActionFactories.cpp:305
 #, kde-format
 msgid "(pasted)"
 msgstr ""
 
-#: libs/ui/actions/KisPasteActionFactories.cpp:296
+#: libs/ui/actions/KisPasteActionFactories.cpp:303
 #, kde-format
 msgid "Pasted"
 msgstr ""
 
-#: libs/ui/actions/KisPasteActionFactories.cpp:348
+#: libs/ui/actions/KisPasteActionFactories.cpp:355
 msgctxt "(qtundo-format)"
 msgid "Paste Style"
 msgstr ""
@@ -21573,7 +21561,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, pushButtonDelete)
 #: libs/ui/forms/wdgbookmarkedconfigurationseditor.ui:55
-#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:62
+#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:66
 #, kde-format
 msgid "Delete"
 msgstr ""
@@ -25564,18 +25552,18 @@ msgctxt "(qtundo-format)"
 msgid "Change File Layer"
 msgstr ""
 
-#: libs/ui/kis_clipboard.cc:292
+#: libs/ui/kis_clipboard.cc:291
 #, kde-format
 msgid "Remember"
 msgstr ""
 
-#: libs/ui/kis_clipboard.cc:296
+#: libs/ui/kis_clipboard.cc:295
 #, kde-format
 msgctxt "@title:window"
 msgid "Missing Color Profile"
 msgstr ""
 
-#: libs/ui/kis_clipboard.cc:297
+#: libs/ui/kis_clipboard.cc:296
 #, kde-format
 msgid ""
 "The image data you are trying to paste has no color profile information. How "
@@ -25589,12 +25577,12 @@ msgid ""
 "\n"
 msgstr ""
 
-#: libs/ui/kis_clipboard.cc:300
+#: libs/ui/kis_clipboard.cc:299
 #, kde-format
 msgid "As &Web"
 msgstr ""
 
-#: libs/ui/kis_clipboard.cc:301
+#: libs/ui/kis_clipboard.cc:300
 #, kde-format
 msgid "As on &Monitor"
 msgstr ""
@@ -25992,29 +25980,29 @@ msgctxt "(qtundo-format)"
 msgid "Cut Nodes"
 msgstr ""
 
-#: libs/ui/kis_node_manager.cpp:1529
+#: libs/ui/kis_node_manager.cpp:1531
 msgctxt "(qtundo-format)"
 msgid "Quick Group"
 msgstr ""
 
-#: libs/ui/kis_node_manager.cpp:1540
+#: libs/ui/kis_node_manager.cpp:1542
 msgctxt "(qtundo-format)"
 msgid "Quick Clipping Group"
 msgstr ""
 
-#: libs/ui/kis_node_manager.cpp:1547
+#: libs/ui/kis_node_manager.cpp:1549
 #, kde-format
 msgctxt "default name for a clipping group layer"
 msgid "Clipping Group"
 msgstr ""
 
-#: libs/ui/kis_node_manager.cpp:1548
+#: libs/ui/kis_node_manager.cpp:1550
 #, kde-format
 msgctxt "default name for quick clip group mask layer"
 msgid "Mask Layer"
 msgstr ""
 
-#: libs/ui/kis_node_manager.cpp:1565
+#: libs/ui/kis_node_manager.cpp:1567
 msgctxt "(qtundo-format)"
 msgid "Quick Ungroup"
 msgstr ""
@@ -26194,37 +26182,37 @@ msgid ""
 "to tag them and then select the tag here."
 msgstr ""
 
-#: libs/ui/kis_selection_manager.cc:598
+#: libs/ui/kis_selection_manager.cc:590
 #, kde-format
 msgid "Stroked Shapes"
 msgstr ""
 
-#: libs/ui/kis_selection_manager.cc:600
+#: libs/ui/kis_selection_manager.cc:592
 msgctxt "(qtundo-format)"
 msgid "Stroke Shapes"
 msgstr ""
 
-#: libs/ui/kis_selection_manager.cc:718
+#: libs/ui/kis_selection_manager.cc:710
 msgctxt "(qtundo-format)"
 msgid "Select Opaque (Add)"
 msgstr ""
 
-#: libs/ui/kis_selection_manager.cc:721
+#: libs/ui/kis_selection_manager.cc:713
 msgctxt "(qtundo-format)"
 msgid "Select Opaque (Subtract)"
 msgstr ""
 
-#: libs/ui/kis_selection_manager.cc:724
+#: libs/ui/kis_selection_manager.cc:716
 msgctxt "(qtundo-format)"
 msgid "Select Opaque (Intersect)"
 msgstr ""
 
-#: libs/ui/kis_selection_manager.cc:727
+#: libs/ui/kis_selection_manager.cc:719
 msgctxt "(qtundo-format)"
 msgid "Select Opaque (Symmetric Difference)"
 msgstr ""
 
-#: libs/ui/kis_selection_manager.cc:730
+#: libs/ui/kis_selection_manager.cc:722
 msgctxt "(qtundo-format)"
 msgid "Select Opaque"
 msgstr ""
@@ -28801,7 +28789,8 @@ msgid ""
 "Y: %2 px"
 msgstr ""
 
-#: libs/ui/tool/kis_tool_utils.cpp:131 plugins/dockers/animation/KisAnimUtils.cpp:75
+#: libs/ui/tool/kis_tool_utils.cpp:147 libs/ui/tool/kis_tool_utils.cpp:159
+#: plugins/dockers/animation/KisAnimUtils.cpp:75
 msgctxt "(qtundo-format)"
 msgid "Clear"
 msgstr ""
@@ -32156,83 +32145,83 @@ msgstr ""
 msgid "Unsupported Key"
 msgstr ""
 
-#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:49
+#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:53
 #, kde-format
 msgid "Shortcut Schemes:"
 msgstr ""
 
-#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:59
+#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:63
 #, kde-format
 msgctxt "New shortcut scheme"
 msgid "New..."
 msgstr ""
 
-#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:65
+#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:69
 #, kde-format
 msgid "Save/Load"
 msgstr ""
 
 #. i18n("Save as Scheme Defaults"),
 #. this, SLOT(saveAsDefaultsForScheme()));
-#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:72
+#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:76
 #, kde-format
 msgid "Save Custom Shortcuts"
 msgstr ""
 
-#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:74
+#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:78
 #, kde-format
 msgid "Load Custom Shortcuts"
 msgstr ""
 
-#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:76
+#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:80
 #, kde-format
 msgid "Export Scheme..."
 msgstr ""
 
-#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:78
+#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:82
 #, kde-format
 msgid "Import Scheme..."
 msgstr ""
 
-#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:94
+#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:98
 #, kde-format
 msgid "Name for New Scheme"
 msgstr ""
 
-#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:95
+#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:99
 #, kde-format
 msgid "Name for new scheme:"
 msgstr ""
 
-#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:95
+#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:99
 #, kde-format
 msgid "New Scheme"
 msgstr ""
 
-#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:101
+#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:105
 #, kde-format
 msgid "A scheme with this name already exists."
 msgstr ""
 
-#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:125
+#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:129
 #, kde-format
 msgid ""
 "Do you really want to delete the scheme %1?\n"
 "Note that this will not remove any system wide shortcut schemes."
 msgstr ""
 
-#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:149
+#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:153
 #, kde-format
 msgid "Export Shortcuts"
 msgstr ""
 
-#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:165
+#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:169
 #, kde-format
 msgid "Save Shortcuts"
 msgstr ""
 
-#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:183
-#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:204
+#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:187
+#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:208
 #, kde-format
 msgid "Import Shortcuts"
 msgstr ""
