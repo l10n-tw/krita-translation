@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-09-22 00:16+0000\n"
-"PO-Revision-Date: 2021-09-15 07:49+0000\n"
+"PO-Revision-Date: 2021-09-22 10:33+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -18290,22 +18290,19 @@ msgid "Render Animation"
 msgstr "繪製動畫"
 
 #: libs/ui/animation/KisDlgAnimationRenderer.cpp:101
-#, fuzzy, kde-format
-#| msgid "Bicubic"
+#, kde-format
 msgctxt "bicubic filtering"
 msgid "bicubic"
 msgstr "雙立方演算法"
 
 #: libs/ui/animation/KisDlgAnimationRenderer.cpp:102
-#, fuzzy, kde-format
-#| msgid "Bilinear"
+#, kde-format
 msgctxt "bilinear filtering"
 msgid "bilinear"
 msgstr "雙線性"
 
 #: libs/ui/animation/KisDlgAnimationRenderer.cpp:103
-#, fuzzy, kde-format
-#| msgid "Lanczos3"
+#, kde-format
 msgctxt "lanczos3 filtering"
 msgid "lanczos3"
 msgstr "Lanczos3 演算法"
@@ -18314,12 +18311,10 @@ msgstr "Lanczos3 演算法"
 #, kde-format
 msgctxt "nearest neighbor filtering"
 msgid "neighbor"
-msgstr ""
+msgstr "最近相鄰演算法"
 
 #: libs/ui/animation/KisDlgAnimationRenderer.cpp:105
-#, fuzzy, kde-format
-#| msgctxt "An interpolation method"
-#| msgid "Spline"
+#, kde-format
 msgctxt "spline filtering"
 msgid "spline"
 msgstr "樣條插值 (Spline)"
@@ -24845,7 +24840,7 @@ msgstr ""
 msgid ""
 "Maximum speed mapped to 1.0 for the speed sensor curve. Should be set to the "
 "maximum speed you can reach using Tablet Tester"
-msgstr ""
+msgstr "速度感測器曲線映射到 1.0 的最高速度值。應設定為在「數位板測試器」中能達到的最高速度值。"
 
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, intBrushSpeedSmoothing)
 #: libs/ui/forms/wdgtabletsettings.ui:245
@@ -24853,7 +24848,7 @@ msgstr ""
 msgid ""
 "Amount of smoothing Krita should do to speed sensor. This value is very "
 "hardware-dependent"
-msgstr ""
+msgstr "Krita 應將速度感測器數值平滑化的程度。這個設定值非常取決於個別硬體裝置。"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnTabletTest)
 #: libs/ui/forms/wdgtabletsettings.ui:252
