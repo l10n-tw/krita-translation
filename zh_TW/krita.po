@@ -24840,7 +24840,9 @@ msgstr ""
 msgid ""
 "Maximum speed mapped to 1.0 for the speed sensor curve. Should be set to the "
 "maximum speed you can reach using Tablet Tester"
-msgstr "速度感測器曲線映射到 1.0 的最高速度值。應設定為在「數位板測試器」中能達到的最高速度值。"
+msgstr ""
+"速度感測器曲線映射到 1.0 的最高速度值。應設定為在「數位板測試器」中能達到的最"
+"高速度值。"
 
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, intBrushSpeedSmoothing)
 #: libs/ui/forms/wdgtabletsettings.ui:245
@@ -24848,7 +24850,8 @@ msgstr "速度感測器曲線映射到 1.0 的最高速度值。應設定為在�
 msgid ""
 "Amount of smoothing Krita should do to speed sensor. This value is very "
 "hardware-dependent"
-msgstr "Krita 應將速度感測器數值平滑化的程度。這個設定值非常取決於個別硬體裝置。"
+msgstr ""
+"Krita 應將速度感測器數值平滑化的程度。這個設定值非常取決於個別硬體裝置。"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnTabletTest)
 #: libs/ui/forms/wdgtabletsettings.ui:252
