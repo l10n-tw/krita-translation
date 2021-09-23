@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-09-22 00:16+0000\n"
+"POT-Creation-Date: 2021-09-23 00:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -15328,8 +15328,8 @@ msgid "Onion Skins"
 msgstr ""
 
 #: libs/image/kis_layer_properties_icons.cpp:27
-#: libs/resources/KisResourceModel.cpp:128
-#: libs/resources/KisStorageModel.cpp:421
+#: libs/resources/KisResourceModel.cpp:132
+#: libs/resources/KisStorageModel.cpp:429
 #: libs/resourcewidgets/dbexplorer/DlgDbExplorer.cpp:72
 #, kde-format
 msgid "Active"
@@ -17418,8 +17418,8 @@ msgstr ""
 #: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:184
 #: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:211
 #: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:216
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:389
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:398
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:395
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:404
 #: plugins/extensions/imagesplit/imagesplit.cpp:74
 #: plugins/extensions/imagesplit/imagesplit.cpp:76
 #: plugins/extensions/qmic/kis_qmic_interface.cpp:137
@@ -17471,7 +17471,7 @@ msgid "Could not add %1 to the database"
 msgstr ""
 
 #: libs/resources/KisResourceLocator.cpp:574
-#: libs/resources/KisResourceLocator.cpp:899
+#: libs/resources/KisResourceLocator.cpp:906
 #, kde-format
 msgid "Could not remove storage %1 from the database"
 msgstr ""
@@ -17513,25 +17513,25 @@ msgstr ""
 msgid "Temporary Resources"
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:889
+#: libs/resources/KisResourceLocator.cpp:896
 #, kde-format
 msgid "Could not synchronize %1 with the database"
 msgstr ""
 
-#: libs/resources/KisResourceModel.cpp:110
-#: libs/resources/KisStorageModel.cpp:411
+#: libs/resources/KisResourceModel.cpp:114
+#: libs/resources/KisStorageModel.cpp:419
 #: libs/resourcewidgets/dbexplorer/DlgDbExplorer.cpp:66
 #, kde-format
 msgid "Id"
 msgstr ""
 
-#: libs/resources/KisResourceModel.cpp:112
+#: libs/resources/KisResourceModel.cpp:116
 #, kde-format
 msgid "Storage ID"
 msgstr ""
 
-#: libs/resources/KisResourceModel.cpp:114
-#: libs/resources/KisStorageModel.cpp:425
+#: libs/resources/KisResourceModel.cpp:118
+#: libs/resources/KisStorageModel.cpp:433
 #: libs/resourcewidgets/dbexplorer/DlgDbExplorer.cpp:70
 #: libs/ui/KisPaletteEditor.cpp:214 libs/ui/KisPaletteEditor.cpp:419
 #: libs/widgets/kis_palette_view.cpp:116 plugins/python/filtermanager/components/filtermanagertreemodel.py:18
@@ -17540,19 +17540,19 @@ msgstr ""
 msgid "Name"
 msgstr ""
 
-#: libs/resources/KisResourceModel.cpp:116
+#: libs/resources/KisResourceModel.cpp:120
 #, kde-format
 msgid "File Name"
 msgstr ""
 
-#: libs/resources/KisResourceModel.cpp:118
+#: libs/resources/KisResourceModel.cpp:122
 #, kde-format
 msgid "Tooltip"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, shapeBox)
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbType)
-#: libs/resources/KisResourceModel.cpp:120
+#: libs/resources/KisResourceModel.cpp:124
 #: libs/ui/imagesize/imagesize.xmlgui:4 plugins/extensions/imagesplit/imagesplit.xmlgui:4
 #: plugins/extensions/separate_channels/imageseparate.xmlgui:4
 #: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:356
@@ -17562,30 +17562,30 @@ msgstr ""
 msgid "Image"
 msgstr ""
 
-#: libs/resources/KisResourceModel.cpp:122
+#: libs/resources/KisResourceModel.cpp:126
 #, kde-format
 msgid "Status"
 msgstr ""
 
-#: libs/resources/KisResourceModel.cpp:124
-#: libs/resources/KisStorageModel.cpp:415
+#: libs/resources/KisResourceModel.cpp:128
+#: libs/resources/KisStorageModel.cpp:423
 #, kde-format
 msgid "Location"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: libs/resources/KisResourceModel.cpp:126
+#: libs/resources/KisResourceModel.cpp:130
 #: libs/resourcewidgets/dbexplorer/WdgDbExplorer.ui:49
 #, kde-format
 msgid "Resource Type"
 msgstr ""
 
-#: libs/resources/KisResourceModel.cpp:130
+#: libs/resources/KisResourceModel.cpp:134
 #, kde-format
 msgid "Storage Active"
 msgstr ""
 
-#: libs/resources/KisResourceModel.cpp:132
+#: libs/resources/KisResourceModel.cpp:136
 #, kde-format
 msgid "md5sum"
 msgstr ""
@@ -17719,7 +17719,7 @@ msgctxt "resource type"
 msgid "Layer Styles"
 msgstr ""
 
-#: libs/resources/KisStorageModel.cpp:413
+#: libs/resources/KisStorageModel.cpp:421
 #: libs/resourcewidgets/dbexplorer/DlgDbExplorer.cpp:67
 #: libs/widgets/KoConfigAuthorPage.cpp:89
 #: plugins/extensions/metadataeditor/kis_meta_data_model.cpp:97
@@ -17730,18 +17730,18 @@ msgid "Type"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
-#: libs/resources/KisStorageModel.cpp:417
+#: libs/resources/KisStorageModel.cpp:425
 #: libs/resourcewidgets/dbexplorer/WdgDbExplorer.ui:147
 #, kde-format
 msgid "Creation Date"
 msgstr ""
 
-#: libs/resources/KisStorageModel.cpp:419
+#: libs/resources/KisStorageModel.cpp:427
 #, kde-format
 msgid "Preinstalled"
 msgstr ""
 
-#: libs/resources/KisStorageModel.cpp:423
+#: libs/resources/KisStorageModel.cpp:431
 #: libs/resourcewidgets/dbexplorer/DlgDbExplorer.cpp:73
 #: plugins/python/filtermanager/components/filtermanagertreemodel.py:18
 #, kde-format
@@ -17750,7 +17750,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, bnDelete)
 #. i18n: ectx: property (text), widget (QPushButton, deleteAllAssistantsButton)
-#: libs/resources/KisTagModel.cpp:117 libs/resources/KisTagModel.cpp:279
+#: libs/resources/KisTagModel.cpp:125 libs/resources/KisTagModel.cpp:287
 #: libs/ui/widgets/kis_paintop_presets_editor.cpp:593
 #: plugins/assistants/Assistants/AssistantsToolOptions.ui:262
 #: plugins/tools/defaulttool/referenceimagestool/WdgToolOptions.ui:207
@@ -17758,17 +17758,17 @@ msgstr ""
 msgid "All"
 msgstr ""
 
-#: libs/resources/KisTagModel.cpp:144 libs/resources/KisTagModel.cpp:289
+#: libs/resources/KisTagModel.cpp:152 libs/resources/KisTagModel.cpp:297
 #, kde-format
 msgid "All Untagged"
 msgstr ""
 
-#: libs/resources/KisTagModel.cpp:282
+#: libs/resources/KisTagModel.cpp:290
 #, kde-format
 msgid "All Resources"
 msgstr ""
 
-#: libs/resources/KisTagModel.cpp:292
+#: libs/resources/KisTagModel.cpp:300
 #, kde-format
 msgid "All Untagged Resources"
 msgstr ""
@@ -32698,7 +32698,7 @@ msgstr ""
 msgid "Two point assistant"
 msgstr ""
 
-#: plugins/assistants/Assistants/TwoPointAssistant.cc:556
+#: plugins/assistants/Assistants/TwoPointAssistant.cc:558
 #, kde-format
 msgid "2 Point Perspective"
 msgstr ""
@@ -32708,7 +32708,7 @@ msgstr ""
 msgid "Vanishing Point assistant"
 msgstr ""
 
-#: plugins/assistants/Assistants/VanishingPointAssistant.cc:381
+#: plugins/assistants/Assistants/VanishingPointAssistant.cc:384
 #, kde-format
 msgid "Vanishing Point"
 msgstr ""
@@ -35725,7 +35725,7 @@ msgstr ""
 
 #: plugins/dockers/storyboarddocker/StoryboardDelegate.cpp:136
 #: plugins/dockers/storyboarddocker/StoryboardDelegate.cpp:300
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:536
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:542
 #, kde-format
 msgctxt "suffix in spin box in storyboard that means 'seconds'"
 msgid "s"
@@ -35733,7 +35733,7 @@ msgstr ""
 
 #: plugins/dockers/storyboarddocker/StoryboardDelegate.cpp:141
 #: plugins/dockers/storyboarddocker/StoryboardDelegate.cpp:307
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:539
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:545
 #, kde-format
 msgctxt "suffix in spin box in storyboard that means 'frames'"
 msgid "f"
@@ -35757,35 +35757,35 @@ msgctxt "Export storyboard as SVG"
 msgid "Export as SVG"
 msgstr ""
 
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:185
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:188
 #, kde-format
 msgctxt "Freeze keyframe positions and ignore storyboard adjustments"
 msgid "Freeze Keyframe Data"
 msgstr ""
 
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:214
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:217
 #: plugins/dockers/storyboarddocker/StoryboardView.cpp:279
 #, kde-format
 msgctxt "Add new scene as the last storyboard"
 msgid "Add Scene"
 msgstr ""
 
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:230
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:233
 #: plugins/dockers/storyboarddocker/StoryboardView.cpp:290
 #, kde-format
 msgctxt "Remove current scene from storyboards"
 msgid "Remove Scene"
 msgstr ""
 
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:389
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:398
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:395
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:404
 #, kde-format
 msgid ""
 "Please enter correct range. There are no panels in the range of frames "
 "provided."
 msgstr ""
 
-#: plugins/dockers/storyboarddocker/StoryboardModel.cpp:1265
+#: plugins/dockers/storyboarddocker/StoryboardModel.cpp:1266
 #, kde-format
 msgctxt "default name for storyboard item"
 msgid "scene "
