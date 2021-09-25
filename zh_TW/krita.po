@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-09-25 00:15+0000\n"
-"PO-Revision-Date: 2021-09-22 10:33+0000\n"
+"PO-Revision-Date: 2021-09-25 09:46+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -12116,19 +12116,17 @@ msgstr "合併複製"
 
 #. i18n: context: Action (copy_layer_style), Actions (Edit), ActionCollection (Menu)
 #: krita/kritamenu.action:349
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Layer Style"
+#, kde-format
 msgctxt "action"
 msgid "Copy Layer Style"
-msgstr "圖層樣式"
+msgstr "複製圖層樣式"
 
 #. i18n: context: Action (copy_layer_style), Actions (Edit), ActionCollection (Menu)
 #: krita/kritamenu.action:351
 #, kde-format
 msgctxt "action"
 msgid "Copy Layer Style from the Current Node"
-msgstr ""
+msgstr "從目前節點複製圖層樣式"
 
 #. i18n: context: Action (edit_paste), Actions (Edit), ActionCollection (Menu)
 #: krita/kritamenu.action:361
@@ -12208,20 +12206,17 @@ msgstr "作為參考圖貼上"
 
 #. i18n: context: Action (paste_layer_style), Actions (Edit), ActionCollection (Menu)
 #: krita/kritamenu.action:433
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Paste Shape Style"
+#, kde-format
 msgctxt "action"
 msgid "Paste Layer Style"
-msgstr "貼上形狀樣式"
+msgstr "貼上圖層樣式"
 
 #. i18n: context: Action (paste_layer_style), Actions (Edit), ActionCollection (Menu)
 #: krita/kritamenu.action:435
-#, fuzzy, kde-format
-#| msgid "Save Palette in the Current Document"
+#, kde-format
 msgctxt "action"
 msgid "Paste Layer Style into the Current Node"
-msgstr "儲存目前檔案的調色板"
+msgstr "點上圖層樣式到目前節點"
 
 #. i18n: context: Action (clear), Actions (Edit), ActionCollection (Menu)
 #: krita/kritamenu.action:446
@@ -42273,7 +42268,7 @@ msgstr "EXR 影像已被調整"
 #, kde-format
 msgctxt "@item:unsupported-node-message"
 msgid "%1 (type: \"%2\")"
-msgstr "%1(類型：「%2」)"
+msgstr "%1 (類型：「%2」)"
 
 #: plugins/impex/exr/exr_converter.cc:1297
 #, kde-format
@@ -53698,17 +53693,15 @@ msgstr "變形"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbPreviewMode)
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:64
-#, fuzzy, kde-format
-#| msgid "Accuracy:"
+#, kde-format
 msgid "Accurate"
-msgstr "精度："
+msgstr "準確"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbPreviewMode)
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:69
-#, fuzzy, kde-format
-#| msgid "Instant Preview"
+#, kde-format
 msgid "Accurate with Instant Preview"
-msgstr "即時預覽"
+msgstr "準確 (使用即時預覽)"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, freeTransformButton)
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:124
