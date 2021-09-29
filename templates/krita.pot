@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-09-28 00:15+0000\n"
+"POT-Creation-Date: 2021-09-29 00:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -13998,19 +13998,19 @@ msgstr ""
 msgid "Line"
 msgstr ""
 
-#: libs/brush/kis_auto_brush.cpp:379
+#: libs/brush/kis_auto_brush.cpp:383
 #, kde-format
 msgctxt "PaintOp instant preview limitation"
 msgid "Brush Density recommended value 100.0"
 msgstr ""
 
-#: libs/brush/kis_auto_brush.cpp:383
+#: libs/brush/kis_auto_brush.cpp:387
 #, kde-format
 msgctxt "PaintOp instant preview limitation"
 msgid "Brush Randomness recommended value 0.0"
 msgstr ""
 
-#: libs/brush/kis_brush.cpp:704
+#: libs/brush/kis_brush.cpp:711
 #, kde-format
 msgctxt "PaintOp instant preview limitation"
 msgid "Spacing > 0.5, consider disabling Instant Preview"
@@ -14682,7 +14682,7 @@ msgid "default"
 msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgRectangleConstraints)
-#: libs/image/brushengine/kis_standard_uniform_properties_factory.cpp:39
+#: libs/image/brushengine/kis_standard_uniform_properties_factory.cpp:37
 #: libs/image/brushengine/kis_standard_uniform_properties_factory.h:18
 #: libs/ui/forms/wdgrectangleconstraints.ui:24
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:47
@@ -14726,7 +14726,7 @@ msgstr ""
 #. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, commonColorsHeight)
 #. i18n: ectx: property (suffix), widget (QSpinBox, spinScaleWidth)
 #. i18n: ectx: property (suffix), widget (QSpinBox, spinScaleHeight)
-#: libs/image/brushengine/kis_standard_uniform_properties_factory.cpp:48
+#: libs/image/brushengine/kis_standard_uniform_properties_factory.cpp:46
 #: libs/ui/animation/wdg_animationrenderer.ui:157
 #: libs/ui/animation/wdg_animationrenderer.ui:196
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:738
@@ -14743,7 +14743,7 @@ msgstr ""
 #: libs/ui/forms/wdgrectangleconstraints.ui:134
 #: libs/ui/forms/wdgrectangleconstraints.ui:184
 #: libs/ui/forms/wdgrectangleconstraints.ui:226
-#: libs/ui/kis_paintop_box.cc:282 libs/ui/widgets/kis_lod_availability_widget.cpp:75
+#: libs/ui/kis_paintop_box.cc:283 libs/ui/widgets/kis_lod_availability_widget.cpp:75
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:488
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:762
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:861
@@ -14776,13 +14776,13 @@ msgstr ""
 #: plugins/paintops/hatching/kis_hatching_options.cpp:21
 #: plugins/paintops/hatching/kis_hatching_paintop_settings.cpp:155
 #: plugins/paintops/hatching/kis_hatching_paintop_settings.cpp:186
-#: plugins/paintops/libpaintop/kis_auto_brush_widget.cpp:52
+#: plugins/paintops/libpaintop/kis_auto_brush_widget.cpp:49
 #: plugins/paintops/libpaintop/kis_dynamic_sensor.cc:264
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:114
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:111
 #: plugins/paintops/libpaintop/kis_texture_chooser.cpp:42
 #: plugins/paintops/libpaintop/kis_texture_chooser.cpp:44
 #: plugins/paintops/libpaintop/sensors/kis_dynamic_sensor_fade.cpp:54
-#: plugins/paintops/roundmarker/kis_roundmarker_option.cpp:26
+#: plugins/paintops/roundmarker/kis_roundmarker_option.cpp:24
 #: plugins/paintops/sketch/kis_sketchop_option.cpp:32
 #: plugins/paintops/spray/kis_spray_shape_option.cpp:45
 #: plugins/paintops/spray/kis_spray_shape_option.cpp:49
@@ -17435,7 +17435,7 @@ msgstr ""
 #: libs/ui/KisPart.cpp:555 libs/ui/KisPart.cpp:558 libs/ui/KisReferenceImage.cpp:178
 #: libs/ui/KisRemoteFileFetcher.cpp:42 libs/ui/KisTemplateCreateDia.cpp:284
 #: libs/ui/KisTemplateCreateDia.cpp:390 libs/ui/KisView.cpp:669
-#: libs/ui/KisWelcomePageWidget.cpp:702 libs/ui/opengl/kis_opengl_canvas2.cpp:410
+#: libs/ui/KisWelcomePageWidget.cpp:702 libs/ui/opengl/kis_opengl_canvas2.cpp:386
 #: libs/ui/utils/KisClipboardUtil.cpp:130
 #: libs/ui/widgets/gradient/KisGradientChooser.cpp:534
 #: libs/ui/widgets/kis_custom_image_widget.cc:299
@@ -17585,7 +17585,7 @@ msgstr ""
 #: libs/resources/KisResourceModel.cpp:124
 #: libs/ui/imagesize/imagesize.xmlgui:4 plugins/extensions/imagesplit/imagesplit.xmlgui:4
 #: plugins/extensions/separate_channels/imageseparate.xmlgui:4
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:356
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:353
 #: plugins/paintops/spray/wdgsprayshapeoptions.ui:90
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:400
 #, kde-format
@@ -17660,7 +17660,7 @@ msgstr ""
 
 #: libs/resources/KisResourceStorage.h:140
 #: plugins/extensions/metadataeditor/kis_meta_data_model.cpp:47
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:352
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:349
 #, kde-format
 msgid "Invalid"
 msgstr ""
@@ -17939,7 +17939,7 @@ msgid "Storage Resources"
 msgstr ""
 
 #: libs/resourcewidgets/KisResourceItemChooser.cpp:229
-#: libs/ui/KisMainWindow.cpp:2552 plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:563
+#: libs/ui/KisMainWindow.cpp:2552 plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:560
 #, kde-format
 msgctxt "@title:window"
 msgid "Choose File to Add"
@@ -19231,7 +19231,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #. i18n: ectx: property (text), widget (QLabel, labelX)
 #: libs/ui/animation/VideoHDRMetadataOptionsDialog.ui:46
-#: libs/ui/kis_paintop_box.cc:294 plugins/dockers/recorder/recorder_export.ui:227
+#: libs/ui/kis_paintop_box.cc:295 plugins/dockers/recorder/recorder_export.ui:227
 #, kde-format
 msgid "x"
 msgstr ""
@@ -20217,7 +20217,7 @@ msgstr ""
 #. i18n: ectx: property (suffix), widget (KisDoubleParseSpinBox, spbScaleHeight)
 #: libs/ui/dialogs/kis_dlg_layer_properties.cc:97
 #: libs/ui/forms/wdgdisplaysettings.ui:364
-#: libs/ui/kis_paintop_box.cc:264 libs/ui/kis_paintop_box.cc:272
+#: libs/ui/kis_paintop_box.cc:265 libs/ui/kis_paintop_box.cc:273
 #: libs/ui/layerstyles/wdgInnerGlow.ui:220
 #: libs/ui/layerstyles/wdgInnerGlow.ui:322
 #: libs/ui/layerstyles/wdgInnerGlow.ui:351
@@ -20261,7 +20261,7 @@ msgstr ""
 #: plugins/paintops/hairy/kis_hairy_ink_option.cpp:37
 #: plugins/paintops/hairy/kis_hairy_ink_option.cpp:41
 #: plugins/paintops/hairy/kis_hairy_ink_option.cpp:45
-#: plugins/paintops/libpaintop/kis_auto_brush_widget.cpp:95
+#: plugins/paintops/libpaintop/kis_auto_brush_widget.cpp:92
 #: plugins/paintops/libpaintop/kis_curve_option.cpp:165
 #: plugins/paintops/libpaintop/kis_curve_option_widget.cpp:77
 #: plugins/paintops/libpaintop/kis_dynamic_sensor.cc:260
@@ -21078,14 +21078,38 @@ msgstr ""
 msgid "The name '%1' already exists, do you wish to overwrite it?"
 msgstr ""
 
-#: libs/ui/dialogs/KisSessionManagerDialog.cpp:107
+#: libs/ui/dialogs/KisSessionManagerDialog.cpp:101
+#, kde-format
+msgctxt "Warning message"
+msgid "Adding the session to the database failed."
+msgstr ""
+
+#: libs/ui/dialogs/KisSessionManagerDialog.cpp:101
+#, kde-format
+msgctxt "@title:window"
+msgid "Couldn't add the session"
+msgstr ""
+
+#: libs/ui/dialogs/KisSessionManagerDialog.cpp:110
 #, kde-format
 msgid "Rename session"
 msgstr ""
 
-#: libs/ui/dialogs/KisSessionManagerDialog.cpp:108
+#: libs/ui/dialogs/KisSessionManagerDialog.cpp:111
 #, kde-format
 msgid "New name:"
+msgstr ""
+
+#: libs/ui/dialogs/KisSessionManagerDialog.cpp:120
+#, kde-format
+msgctxt "@title:window"
+msgid "Couldn't rename the session"
+msgstr ""
+
+#: libs/ui/dialogs/KisSessionManagerDialog.cpp:121
+#, kde-format
+msgctxt "Warning about not being able to rename a session"
+msgid "Renaming the session failed."
 msgstr ""
 
 #: libs/ui/flake/kis_shape_controller.cpp:197
@@ -22016,7 +22040,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #. i18n: ectx: property (text), widget (QLabel, opacityLabel)
 #: libs/ui/forms/wdgdisplaysettings.ui:391
-#: libs/ui/kis_paintop_box.cc:249 libs/ui/kis_paintop_box.cc:255
+#: libs/ui/kis_paintop_box.cc:250 libs/ui/kis_paintop_box.cc:256
 #: plugins/dockers/layerdocker/WdgLayerBox.ui:113
 #: plugins/filters/noisefilter/wdgnoiseoptions.ui:56
 #: plugins/filters/randompickfilter/wdgrandompickoptions.ui:57
@@ -23278,7 +23302,7 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, grpClipboard)
 #. i18n: ectx: property (text), widget (QPushButton, clipboardButton)
 #: libs/ui/forms/wdgnewimage.ui:284 plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:94
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:324
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:321
 #, kde-format
 msgid "Clipboard"
 msgstr ""
@@ -23448,7 +23472,7 @@ msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgPaintOpSettings)
 #: libs/ui/forms/wdgpaintopsettings.ui:18
-#: libs/ui/kis_paintop_box.cc:434
+#: libs/ui/kis_paintop_box.cc:435
 #, kde-format
 msgid "Brush Editor"
 msgstr ""
@@ -26051,28 +26075,28 @@ msgctxt "@info:tooltip"
 msgid "Disabled: cloning pass-through groups is not supported!"
 msgstr ""
 
-#: libs/ui/kis_paintop_box.cc:96
+#: libs/ui/kis_paintop_box.cc:97
 #, kde-format
 msgid "Painter's Toolchest"
 msgstr ""
 
-#: libs/ui/kis_paintop_box.cc:108
+#: libs/ui/kis_paintop_box.cc:109
 #, kde-format
 msgid "Tool Settings"
 msgstr ""
 
-#: libs/ui/kis_paintop_box.cc:116
+#: libs/ui/kis_paintop_box.cc:117
 #, kde-format
 msgid "Edit brush settings"
 msgstr ""
 
-#: libs/ui/kis_paintop_box.cc:123
+#: libs/ui/kis_paintop_box.cc:124
 #, kde-format
 msgid "Choose brush preset"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblFlow)
-#: libs/ui/kis_paintop_box.cc:250 libs/ui/kis_paintop_box.cc:256
+#: libs/ui/kis_paintop_box.cc:251 libs/ui/kis_paintop_box.cc:257
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:1970
 #, kde-format
 msgid "Flow:"
@@ -26081,7 +26105,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, brushSizeLabel)
 #. i18n: ectx: property (text), widget (QLabel, lblSize)
 #. i18n: ectx: property (text), widget (QLabel, labelSize)
-#: libs/ui/kis_paintop_box.cc:251 libs/ui/kis_paintop_box.cc:257
+#: libs/ui/kis_paintop_box.cc:252 libs/ui/kis_paintop_box.cc:258
 #: plugins/generators/screentone/KisScreentoneConfigWidget.ui:414
 #: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:185
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:1992
@@ -26089,23 +26113,23 @@ msgstr ""
 msgid "Size:"
 msgstr ""
 
-#: libs/ui/kis_paintop_box.cc:252 libs/ui/kis_paintop_box.cc:258
+#: libs/ui/kis_paintop_box.cc:253 libs/ui/kis_paintop_box.cc:259
 #, kde-format
 msgid "Pattern Scale:"
 msgstr ""
 
-#: libs/ui/kis_paintop_box.cc:310
+#: libs/ui/kis_paintop_box.cc:311
 #, kde-format
 msgid "Choose workspace"
 msgstr ""
 
-#: libs/ui/kis_paintop_box.cc:347
+#: libs/ui/kis_paintop_box.cc:348
 #, kde-format
 msgid "Brush composite"
 msgstr ""
 
-#: libs/ui/kis_paintop_box.cc:1247 libs/ui/kis_paintop_box.cc:1269
-#: libs/ui/kis_paintop_box.cc:1283
+#: libs/ui/kis_paintop_box.cc:1248 libs/ui/kis_paintop_box.cc:1270
+#: libs/ui/kis_paintop_box.cc:1284
 #, kde-format
 msgid ""
 "%1\n"
@@ -26345,7 +26369,7 @@ msgstr ""
 msgid "Ants"
 msgstr ""
 
-#: libs/ui/kis_statusbar.cc:398 plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:354
+#: libs/ui/kis_statusbar.cc:398 plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:351
 #, kde-format
 msgid "Mask"
 msgstr ""
@@ -28677,12 +28701,12 @@ msgstr ""
 msgid "Li&nk with Layer"
 msgstr ""
 
-#: libs/ui/opengl/kis_opengl.cpp:487
+#: libs/ui/opengl/kis_opengl.cpp:537
 #, kde-format
 msgid "The Intel graphics driver in use is known to have issues with OpenGL."
 msgstr ""
 
-#: libs/ui/opengl/kis_opengl.cpp:489
+#: libs/ui/opengl/kis_opengl.cpp:539
 #, kde-format
 msgid ""
 "Intel graphics drivers tend to have issues with OpenGL so ANGLE will be used "
@@ -28690,19 +28714,19 @@ msgid ""
 "work properly."
 msgstr ""
 
-#: libs/ui/opengl/kis_opengl.cpp:881
+#: libs/ui/opengl/kis_opengl.cpp:931
 #, kde-format
 msgid ""
 "Preferred renderer doesn't support requested surface format. Another "
 "renderer has been selected."
 msgstr ""
 
-#: libs/ui/opengl/kis_opengl.cpp:883
+#: libs/ui/opengl/kis_opengl.cpp:933
 #, kde-format
 msgid "Preferred output format is not supported by available renderers"
 msgstr ""
 
-#: libs/ui/opengl/kis_opengl_canvas2.cpp:411
+#: libs/ui/opengl/kis_opengl_canvas2.cpp:387
 #, kde-format
 msgid ""
 "Krita could not initialize the OpenGL canvas:\n"
@@ -28712,7 +28736,7 @@ msgid ""
 " Krita will disable OpenGL and close now."
 msgstr ""
 
-#: libs/ui/opengl/kis_opengl_image_textures.cpp:643
+#: libs/ui/opengl/kis_opengl_image_textures.cpp:732
 #, kde-format
 msgid "OpenColorIO is disabled: image color space is not supported"
 msgstr ""
@@ -28773,14 +28797,14 @@ msgstr ""
 msgid "Local selection is locked."
 msgstr ""
 
-#: libs/ui/tool/kis_tool_freehand.cc:193
+#: libs/ui/tool/kis_tool_freehand.cc:194
 #, kde-format
 msgid ""
 "The brush tool cannot paint on this layer.  Please select a paint layer or "
 "mask."
 msgstr ""
 
-#: libs/ui/tool/kis_tool_freehand.cc:198 libs/ui/tool/kis_tool_polyline_base.cpp:81
+#: libs/ui/tool/kis_tool_freehand.cc:199 libs/ui/tool/kis_tool_polyline_base.cpp:81
 #: libs/ui/tool/kis_tool_rectangle_base.cpp:125
 #: plugins/tools/basictools/kis_tool_line.cc:175
 #: plugins/tools/basictools/kis_tool_path.cc:70
@@ -28789,12 +28813,12 @@ msgstr ""
 msgid "The MyPaint Brush Engine is not available for this colorspace"
 msgstr ""
 
-#: libs/ui/tool/kis_tool_paint.cc:375
+#: libs/ui/tool/kis_tool_paint.cc:376
 #, kde-format
 msgid "Color sampler does not work on this layer."
 msgstr ""
 
-#: libs/ui/tool/kis_tool_paint.cc:663
+#: libs/ui/tool/kis_tool_paint.cc:664
 #, kde-format
 msgid "%1 %2 px"
 msgstr ""
@@ -35823,22 +35847,22 @@ msgid ""
 "file."
 msgstr ""
 
-#: plugins/dockers/storyboarddocker/KisAddRemoveStoryboardCommand.cpp:19
+#: plugins/dockers/storyboarddocker/KisAddRemoveStoryboardCommand.cpp:20
 msgctxt "(qtundo-format)"
 msgid "Add Storyboard Scene"
 msgstr ""
 
-#: plugins/dockers/storyboarddocker/KisAddRemoveStoryboardCommand.cpp:71
+#: plugins/dockers/storyboarddocker/KisAddRemoveStoryboardCommand.cpp:72
 msgctxt "(qtundo-format)"
 msgid "Remove Storyboard Scene"
 msgstr ""
 
-#: plugins/dockers/storyboarddocker/KisAddRemoveStoryboardCommand.cpp:100
+#: plugins/dockers/storyboarddocker/KisAddRemoveStoryboardCommand.cpp:101
 msgctxt "(qtundo-format)"
 msgid "Move Storyboard Scene"
 msgstr ""
 
-#: plugins/dockers/storyboarddocker/KisAddRemoveStoryboardCommand.cpp:154
+#: plugins/dockers/storyboarddocker/KisAddRemoveStoryboardCommand.cpp:155
 msgctxt "(qtundo-format)"
 msgid "Edit Storyboard Child"
 msgstr ""
@@ -35891,7 +35915,7 @@ msgid "Add Scene"
 msgstr ""
 
 #: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:233
-#: plugins/dockers/storyboarddocker/StoryboardView.cpp:290
+#: plugins/dockers/storyboarddocker/StoryboardView.cpp:298
 #, kde-format
 msgctxt "Remove current scene from storyboards"
 msgid "Remove Scene"
@@ -35921,6 +35945,12 @@ msgstr ""
 #, kde-format
 msgctxt "Add scene before active scene"
 msgid "Add Scene Before"
+msgstr ""
+
+#: plugins/dockers/storyboarddocker/StoryboardView.cpp:291
+#, kde-format
+msgctxt "Duplicate current scene from storyboard docker"
+msgid "Duplicate Scene"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
@@ -39655,7 +39685,7 @@ msgstr ""
 #. i18n: ectx: property (windowTitle), widget (QWidget, GradientMapFilterConfigWidget)
 #: plugins/filters/gradientmap/KisGradientMapFilter.h:27
 #: plugins/filters/gradientmap/KisGradientMapFilterConfigWidget.ui:14
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:188
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:185
 #, kde-format
 msgid "Gradient Map"
 msgstr ""
@@ -46112,7 +46142,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, stampButton)
 #: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:81
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:307
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:304
 #, kde-format
 msgid "Stamp"
 msgstr ""
@@ -46580,19 +46610,19 @@ msgctxt "@info:tooltip"
 msgid "Only wash mode is possible when using a masked brush."
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:150
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:147
 #, kde-format
 msgid ""
 "Creates a brush tip from the current image selection.\n"
 " If no selection is present the whole image will be used."
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:154
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:151
 #, kde-format
 msgid "Creates a brush tip from the image in the clipboard."
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:162
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:159
 #, kde-format
 msgid ""
 "Reloads Spacing from file\n"
@@ -46600,25 +46630,25 @@ msgid ""
 "Sets Rotation to 0.0"
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:168
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:165
 #, kde-format
 msgctxt "@label:slider"
 msgid "Neutral point: "
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:174
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:171
 #, kde-format
 msgctxt "@label:slider"
 msgid "Brightness: "
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:180
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:177
 #, kde-format
 msgctxt "@label:slider"
 msgid "Contrast: "
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:182
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:179
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -46628,35 +46658,35 @@ msgid ""
 " Contrast: 0%"
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:185
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:182
 #, kde-format
 msgid "Alpha Mask"
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:186
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:183
 #, kde-format
 msgid "Color Image"
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:187
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:184
 #, kde-format
 msgid "Lightness Map"
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:189
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:186
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
 "Luminosity of the brush tip image is used as alpha channel for the stroke"
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:190
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:187
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The brush tip image is painted as it is"
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:191
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:188
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -46665,7 +46695,7 @@ msgid ""
 "the final stroke"
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:192
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:189
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -46673,17 +46703,17 @@ msgid ""
 "channel of the brush tip image is used as alpha for the final stroke"
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:358
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:355
 #, kde-format
 msgid "Animated Mask"
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:367
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:364
 #, kde-format
 msgid "Animated Image"
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:420
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:417
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -46692,19 +46722,19 @@ msgid ""
 "lighter than neutral point — lighter."
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:421
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:418
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Brightness correction for the brush"
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:422
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:419
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Contrast correction for the brush"
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:439
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:436
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -46712,7 +46742,7 @@ msgid ""
 "\"Mask\" mode."
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:442
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:439
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -46720,7 +46750,7 @@ msgid ""
 "The brush will work in \"Mask\" mode."
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:478
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:475
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -46972,9 +47002,17 @@ msgctxt "PaintOp instant preview limitation"
 msgid "Texture->Pattern (low quality preview)"
 msgstr ""
 
-#: plugins/paintops/libpaintop/KisMaskingBrushOption.cpp:43
+#: plugins/paintops/libpaintop/KisMaskingBrushOption.cpp:44
 #, kde-format
 msgid "Blending Mode:"
+msgstr ""
+
+#: plugins/paintops/libpaintop/KisMaskingBrushOption.cpp:146
+#, kde-format
+msgctxt "warning about too big size of the masking brush"
+msgid ""
+"WARNING: Dependent size of the masking brush grew too big (%1 pixels). Its "
+"value has been cropped to %2 pixels."
 msgstr ""
 
 #: plugins/paintops/libpaintop/sensors/kis_dynamic_sensor_drawing_angle.cpp:66
