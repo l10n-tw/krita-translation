@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-09-30 00:14+0000\n"
-"PO-Revision-Date: 2021-09-25 09:46+0000\n"
+"PO-Revision-Date: 2021-10-01 07:38+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -21242,14 +21242,13 @@ msgstr "已有「%1」名稱的項目，您真的要覆寫嗎？"
 #, kde-format
 msgctxt "Warning message"
 msgid "Adding the session to the database failed."
-msgstr ""
+msgstr "將工作階段加入到資料庫時失敗。"
 
 #: libs/ui/dialogs/KisSessionManagerDialog.cpp:101
-#, fuzzy, kde-format
-#| msgid "Could not load raster selection %1."
+#, kde-format
 msgctxt "@title:window"
 msgid "Couldn't add the session"
-msgstr "無法載入點陣選取區域 %1。"
+msgstr "無法加入工作階段"
 
 #: libs/ui/dialogs/KisSessionManagerDialog.cpp:110
 #, kde-format
@@ -21262,18 +21261,16 @@ msgid "New name:"
 msgstr "新名稱："
 
 #: libs/ui/dialogs/KisSessionManagerDialog.cpp:120
-#, fuzzy, kde-format
-#| msgid "Create session"
+#, kde-format
 msgctxt "@title:window"
 msgid "Couldn't rename the session"
-msgstr "建立新工作階段"
+msgstr "無法重新命名工作階段"
 
 #: libs/ui/dialogs/KisSessionManagerDialog.cpp:121
-#, fuzzy, kde-format
-#| msgid "Rename session"
+#, kde-format
 msgctxt "Warning about not being able to rename a session"
 msgid "Renaming the session failed."
-msgstr "重新命名工作階段"
+msgstr "重新命名工作階段失敗。"
 
 #: libs/ui/flake/kis_shape_controller.cpp:197
 #, kde-format
@@ -30908,10 +30905,9 @@ msgstr "儲存目前的視窗佈局。"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: libs/ui/widgets/KisAutoLevelsWidget.ui:35
-#, fuzzy, kde-format
-#| msgid "Reset Highlights"
+#, kde-format
 msgid "Shadows and Highlights"
-msgstr "重設高亮色"
+msgstr "陰影及亮點"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: property (text), widget (QLabel, label_5)
@@ -30924,21 +30920,21 @@ msgstr "方式："
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBoxShadowsAndLightsMethod)
 #: libs/ui/widgets/KisAutoLevelsWidget.ui:70
-#, kde-format
+#, fuzzy, kde-format
 msgid "Adjust monochromatic contrast"
-msgstr ""
+msgstr "調整單色調對比度"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBoxShadowsAndLightsMethod)
 #: libs/ui/widgets/KisAutoLevelsWidget.ui:75
-#, kde-format
+#, fuzzy, kde-format
 msgid "Adjust per channel contrast"
-msgstr ""
+msgstr "調整每通度對比度"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: libs/ui/widgets/KisAutoLevelsWidget.ui:83
-#, kde-format
+#, fuzzy, kde-format
 msgid "Shadows clipping:"
-msgstr ""
+msgstr "陰影削值："
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: libs/ui/widgets/KisAutoLevelsWidget.ui:90
@@ -30946,21 +30942,21 @@ msgstr ""
 #| msgctxt "@label:listbox"
 #| msgid "Highlights:"
 msgid "Highlights clipping:"
-msgstr "高亮色："
+msgstr "亮點削值："
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: libs/ui/widgets/KisAutoLevelsWidget.ui:97
 #, fuzzy, kde-format
 #| msgid "Random offset:"
 msgid "Maximum offset:"
-msgstr "隨機偏移："
+msgstr "最大偏移："
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #: libs/ui/widgets/KisAutoLevelsWidget.ui:107
 #, fuzzy, kde-format
 #| msgid "Shadows"
 msgid "Shadows color:"
-msgstr "陰影色"
+msgstr "陰影色："
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #: libs/ui/widgets/KisAutoLevelsWidget.ui:114
@@ -30968,7 +30964,7 @@ msgstr "陰影色"
 #| msgctxt "@label:listbox"
 #| msgid "Highlights:"
 msgid "Highlights color:"
-msgstr "高亮色："
+msgstr "亮點色："
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #. i18n: ectx: property (text), widget (QRadioButton, radioButtonMidtones)
@@ -30984,21 +30980,21 @@ msgstr "中間色"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBoxMidtonesMethod)
 #: libs/ui/widgets/KisAutoLevelsWidget.ui:171
-#, kde-format
+#, fuzzy, kde-format
 msgid "Don't adjust the midtones"
-msgstr ""
+msgstr "不調整中間色調"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBoxMidtonesMethod)
 #: libs/ui/widgets/KisAutoLevelsWidget.ui:176
-#, kde-format
+#, fuzzy, kde-format
 msgid "Use the median to adjust the midtones"
-msgstr ""
+msgstr "以中位數調整中間色調"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBoxMidtonesMethod)
 #: libs/ui/widgets/KisAutoLevelsWidget.ui:181
-#, kde-format
+#, fuzzy, kde-format
 msgid "Use the mean value to adjust the midtones"
-msgstr ""
+msgstr "以平均值調整中間色調"
 
 #. i18n: ectx: property (text), widget (QLabel, label_9)
 #: libs/ui/widgets/KisAutoLevelsWidget.ui:202
@@ -36669,11 +36665,10 @@ msgid "Add Scene Before"
 msgstr "加入場景到前方"
 
 #: plugins/dockers/storyboarddocker/StoryboardView.cpp:291
-#, fuzzy, kde-format
-#| msgid "Duplicate"
+#, kde-format
 msgctxt "Duplicate current scene from storyboard docker"
 msgid "Duplicate Scene"
-msgstr "複製"
+msgstr "複製場景"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: plugins/dockers/storyboarddocker/wdgarrangemenu.ui:28
@@ -40700,15 +40695,15 @@ msgid ""
 "be used.\n"
 "The channels will be reset."
 msgstr ""
-"目前的設定檔當初是為不同色彩空間建立的，而目前不能使用。將會重設所有曲線。"
+"目前的設定檔當初是為不同色彩空間建立的，而目前不能使用。\n"
+"將會重設所有通道。"
 
 #: plugins/filters/levelfilter/KisLevelsConfigWidget.cpp:621
 #: plugins/filters/levelfilter/KisLevelsConfigWidget.cpp:672
-#, fuzzy, kde-format
-#| msgid "&Auto Levels"
+#, kde-format
 msgctxt "@title:window"
 msgid "Auto Levels"
-msgstr "自動色階(&A)"
+msgstr "自動色階"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgThreshold)
 #. i18n: ectx: property (windowTitle), widget (QWidget, LevelsConfigWidget)
@@ -40724,13 +40719,13 @@ msgstr "色階"
 #, fuzzy, kde-format
 #| msgid "Lightness Only:"
 msgid "Modify lightness only"
-msgstr "僅亮度："
+msgstr "僅修改亮度"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, buttonAllChannelsMode)
 #: plugins/filters/levelfilter/KisLevelsConfigWidget.ui:71
-#, kde-format
+#, fuzzy, kde-format
 msgid "Modify all channels independently"
-msgstr ""
+msgstr "分別修改所有通道"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, buttonResetAll)
 #: plugins/filters/levelfilter/KisLevelsConfigWidget.ui:108
@@ -40751,7 +40746,7 @@ msgstr "<b>輸入色階</b>"
 #| msgctxt "action"
 #| msgid "Show color history"
 msgid "Show linear histogram"
-msgstr "顯示色彩歷史"
+msgstr "顯示線性色階分佈圖"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, buttonLogarithmicHistogram)
 #: plugins/filters/levelfilter/KisLevelsConfigWidget.ui:180
@@ -40759,33 +40754,33 @@ msgstr "顯示色彩歷史"
 #| msgctxt "action"
 #| msgid "Show color history"
 msgid "Show logarithmic histogram"
-msgstr "顯示色彩歷史"
+msgstr "顯示對數色階分佈圖"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, buttonScaleHistogramToFit)
 #: plugins/filters/levelfilter/KisLevelsConfigWidget.ui:201
-#, kde-format
+#, fuzzy, kde-format
 msgid "Scale the histogram to fit"
-msgstr ""
+msgstr "縮放色階分佈圖以符合大小"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, buttonScaleHistogramToCutLongPeaks)
 #: plugins/filters/levelfilter/KisLevelsConfigWidget.ui:214
-#, kde-format
+#, fuzzy, kde-format
 msgid "Scale the histogram to cut long peaks "
-msgstr ""
+msgstr "縮放色階分佈圖以隱藏高峰"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, buttonAutoLevels)
 #: plugins/filters/levelfilter/KisLevelsConfigWidget.ui:240
 #, fuzzy, kde-format
 #| msgid "Apply result to alpha channel"
 msgid "Apply auto levels to this channel"
-msgstr "將結果套用到 Alpha (透明度) 通道"
+msgstr "將自動色階套用到此通道"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, buttonResetInputLevels)
 #: plugins/filters/levelfilter/KisLevelsConfigWidget.ui:250
 #, fuzzy, kde-format
 #| msgid "Reset Filters"
 msgid "Reset input levels"
-msgstr "重設濾鏡"
+msgstr "重設輸入色階"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
 #: plugins/filters/levelfilter/KisLevelsConfigWidget.ui:404
@@ -40798,21 +40793,20 @@ msgstr "<b>輸出色階</b>"
 #, fuzzy, kde-format
 #| msgid "Select zoom level"
 msgid "Reset output levels"
-msgstr "選擇縮放級別"
+msgstr "重設輸出色階"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel3_2)
 #: plugins/filters/levelfilter/KisLevelsConfigWidget.ui:524
-#, fuzzy, kde-format
-#| msgid "All Channels"
+#, kde-format
 msgid "<b>All Channels</b>"
-msgstr "全部通道"
+msgstr "<b>全部通道</b>"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, buttonAutoLevelsAllChannels)
 #: plugins/filters/levelfilter/KisLevelsConfigWidget.ui:575
 #, fuzzy, kde-format
 #| msgid "Apply result to alpha channel"
 msgid "Apply auto levels to all the channels"
-msgstr "將結果套用到 Alpha (透明度) 通道"
+msgstr "將自動色階套用到全部通道"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, buttonResetAllChannels)
 #: plugins/filters/levelfilter/KisLevelsConfigWidget.ui:585
@@ -48070,7 +48064,7 @@ msgctxt "warning about too big size of the masking brush"
 msgid ""
 "WARNING: Dependent size of the masking brush grew too big (%1 pixels). Its "
 "value has been cropped to %2 pixels."
-msgstr ""
+msgstr "警告：遮罩筆刷的相依大小變得過大 (%1 像素)。該值已被限制為 %2 像素。"
 
 #: plugins/paintops/libpaintop/sensors/kis_dynamic_sensor_drawing_angle.cpp:66
 #, kde-format
