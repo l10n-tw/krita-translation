@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-10-01 00:17+0000\n"
-"PO-Revision-Date: 2021-10-01 07:38+0000\n"
+"PO-Revision-Date: 2021-10-02 07:59+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -48097,11 +48097,7 @@ msgid "Blending Mode:"
 msgstr "混色模式："
 
 #: plugins/paintops/libpaintop/KisMaskingBrushOption.cpp:146
-#, fuzzy, kde-format
-#| msgctxt "warning about too big size of the masking brush"
-#| msgid ""
-#| "WARNING: Dependent size of the masking brush grew too big (%1 pixels). "
-#| "Its value has been cropped to %2 pixels."
+#, kde-format
 msgctxt "warning about too big size of the masked brush"
 msgid ""
 "WARNING: Dependent size of the masked brush grew too big (%1 pixels). Its "
