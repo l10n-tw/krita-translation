@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-09-30 00:14+0000\n"
+"POT-Creation-Date: 2021-10-01 00:17+0000\n"
 "PO-Revision-Date: 2021-10-01 07:38+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
@@ -17628,7 +17628,7 @@ msgstr "工具提示"
 #: libs/resources/KisResourceModel.cpp:124 libs/ui/imagesize/imagesize.xmlgui:4
 #: plugins/extensions/imagesplit/imagesplit.xmlgui:4
 #: plugins/extensions/separate_channels/imageseparate.xmlgui:4
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:353
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:363
 #: plugins/paintops/spray/wdgsprayshapeoptions.ui:90
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:400
 #, kde-format
@@ -17703,7 +17703,7 @@ msgstr "記憶體"
 
 #: libs/resources/KisResourceStorage.h:140
 #: plugins/extensions/metadataeditor/kis_meta_data_model.cpp:47
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:349
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:359
 #, kde-format
 msgid "Invalid"
 msgstr "無效"
@@ -17983,7 +17983,7 @@ msgstr "資源收藏"
 
 #: libs/resourcewidgets/KisResourceItemChooser.cpp:229
 #: libs/ui/KisMainWindow.cpp:2552
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:560
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:570
 #, kde-format
 msgctxt "@title:window"
 msgid "Choose File to Add"
@@ -23547,7 +23547,7 @@ msgstr "縱向"
 #. i18n: ectx: property (text), widget (QPushButton, clipboardButton)
 #: libs/ui/forms/wdgnewimage.ui:284
 #: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:94
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:321
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:325
 #, kde-format
 msgid "Clipboard"
 msgstr "剪貼簿"
@@ -26453,8 +26453,8 @@ msgstr "選擇作業空間"
 msgid "Brush composite"
 msgstr "筆刷分量"
 
-#: libs/ui/kis_paintop_box.cc:1248 libs/ui/kis_paintop_box.cc:1270
-#: libs/ui/kis_paintop_box.cc:1284
+#: libs/ui/kis_paintop_box.cc:1254 libs/ui/kis_paintop_box.cc:1276
+#: libs/ui/kis_paintop_box.cc:1290
 #, kde-format
 msgid ""
 "%1\n"
@@ -26737,7 +26737,7 @@ msgid "Ants"
 msgstr "螞蟻線"
 
 #: libs/ui/kis_statusbar.cc:398
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:351
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:361
 #, kde-format
 msgid "Mask"
 msgstr "遮罩"
@@ -29114,7 +29114,6 @@ msgid "Fill"
 msgstr "填充"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#. i18n: ectx: property (text), widget (QLabel, label_8)
 #. i18n: ectx: property (text), widget (QLabel, soldStrokeColorLabel)
 #. i18n: ectx: property (text), widget (QLabel, colorLabel4)
 #. i18n: ectx: property (text), widget (QLabel, colorLabel2)
@@ -29122,7 +29121,6 @@ msgstr "填充"
 #. i18n: ectx: property (text), widget (QLabel, colorLabel3)
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: libs/ui/layerstyles/WdgStroke.ui:163
-#: libs/ui/widgets/KisAutoLevelsWidget.ui:189
 #: libs/ui/widgets/KoFillConfigWidget.ui:176
 #: plugins/filters/colors/wdgcolortoalphabase.ui:44
 #: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:462
@@ -30905,34 +30903,39 @@ msgstr "儲存目前的視窗佈局。"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: libs/ui/widgets/KisAutoLevelsWidget.ui:35
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Shadows and Highlights"
+msgctxt "Contrast enhancement section in auto levels"
 msgid "Shadows and Highlights"
 msgstr "陰影及亮點"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#. i18n: ectx: property (text), widget (QLabel, label_5)
 #: libs/ui/widgets/KisAutoLevelsWidget.ui:62
-#: libs/ui/widgets/KisAutoLevelsWidget.ui:163
-#: plugins/python/comics_project_management_tools/comics_export_dialog.py:65
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Method:"
+msgctxt "Contrast enhancement method used in auto levels"
 msgid "Method:"
 msgstr "方式："
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBoxShadowsAndLightsMethod)
 #: libs/ui/widgets/KisAutoLevelsWidget.ui:70
 #, fuzzy, kde-format
+msgctxt "Use same black and white points for all the channels in auto levels"
 msgid "Adjust monochromatic contrast"
 msgstr "調整單色調對比度"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBoxShadowsAndLightsMethod)
 #: libs/ui/widgets/KisAutoLevelsWidget.ui:75
 #, fuzzy, kde-format
+msgctxt "Use different black and white points for each channel in auto levels"
 msgid "Adjust per channel contrast"
 msgstr "調整每通度對比度"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: libs/ui/widgets/KisAutoLevelsWidget.ui:83
 #, fuzzy, kde-format
+msgctxt ""
+"Percentage of the histogram to clip in the shadous side in auto levels"
 msgid "Shadows clipping:"
 msgstr "陰影削值："
 
@@ -30941,6 +30944,8 @@ msgstr "陰影削值："
 #, fuzzy, kde-format
 #| msgctxt "@label:listbox"
 #| msgid "Highlights:"
+msgctxt ""
+"Percentage of the histogram to clip in the highlights side in auto levels"
 msgid "Highlights clipping:"
 msgstr "亮點削值："
 
@@ -30948,6 +30953,9 @@ msgstr "亮點削值："
 #: libs/ui/widgets/KisAutoLevelsWidget.ui:97
 #, fuzzy, kde-format
 #| msgid "Random offset:"
+msgctxt ""
+"Maximum distance the black/white points can be moved from their relative "
+"extremes in auto levels"
 msgid "Maximum offset:"
 msgstr "最大偏移："
 
@@ -30955,6 +30963,7 @@ msgstr "最大偏移："
 #: libs/ui/widgets/KisAutoLevelsWidget.ui:107
 #, fuzzy, kde-format
 #| msgid "Shadows"
+msgctxt "Output color used for the shadows in auto levels"
 msgid "Shadows color:"
 msgstr "陰影色："
 
@@ -30963,44 +30972,63 @@ msgstr "陰影色："
 #, fuzzy, kde-format
 #| msgctxt "@label:listbox"
 #| msgid "Highlights:"
+msgctxt "Output color used for the highlights in auto levels"
 msgid "Highlights color:"
 msgstr "亮點色："
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#. i18n: ectx: property (text), widget (QRadioButton, radioButtonMidtones)
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#. i18n: ectx: property (text), item, widget (QComboBox, cmbSelect)
 #: libs/ui/widgets/KisAutoLevelsWidget.ui:136
-#: plugins/extensions/colorrange/wdg_colorrange.ui:62
-#: plugins/filters/colorsfilters/wdg_color_balance.ui:185
-#: plugins/filters/dodgeburn/DodgeBurnConfigurationBaseWidget.ui:37
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Midtones"
+msgctxt "Midtones enhancement section in auto levels"
 msgid "Midtones"
 msgstr "中間色"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: libs/ui/widgets/KisAutoLevelsWidget.ui:163
+#, fuzzy, kde-format
+#| msgid "Method:"
+msgctxt "Midtones enhancement method used in auto levels"
+msgid "Method:"
+msgstr "方式："
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBoxMidtonesMethod)
 #: libs/ui/widgets/KisAutoLevelsWidget.ui:171
 #, fuzzy, kde-format
+msgctxt "Do not perform midtones enhancement in auto levels"
 msgid "Don't adjust the midtones"
 msgstr "不調整中間色調"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBoxMidtonesMethod)
 #: libs/ui/widgets/KisAutoLevelsWidget.ui:176
 #, fuzzy, kde-format
+msgctxt "Use the median point of the histogram as midtone point in auto levels"
 msgid "Use the median to adjust the midtones"
 msgstr "以中位數調整中間色調"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBoxMidtonesMethod)
 #: libs/ui/widgets/KisAutoLevelsWidget.ui:181
 #, fuzzy, kde-format
+msgctxt "Use the mean value of the histogram as midtone point in auto levels"
 msgid "Use the mean value to adjust the midtones"
 msgstr "以平均值調整中間色調"
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: libs/ui/widgets/KisAutoLevelsWidget.ui:189
+#, fuzzy, kde-format
+#| msgid "Color:"
+msgctxt "Output color used for the midtones in auto levels"
+msgid "Color:"
+msgstr "色彩："
 
 #. i18n: ectx: property (text), widget (QLabel, label_9)
 #: libs/ui/widgets/KisAutoLevelsWidget.ui:202
 #, fuzzy, kde-format
 #| msgctxt "Amount in Unsharp mask filter"
 #| msgid "Amount:"
+msgctxt ""
+"How much the midtone point used in auto levels is close to the center of the "
+"histogram (0%) or to the point selected in the method (100%)"
 msgid "Amount:"
 msgstr "強度："
 
@@ -37076,6 +37104,16 @@ msgstr "品紅"
 #, kde-format
 msgid "Highlights"
 msgstr "高亮色"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButtonMidtones)
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbSelect)
+#: plugins/extensions/colorrange/wdg_colorrange.ui:62
+#: plugins/filters/colorsfilters/wdg_color_balance.ui:185
+#: plugins/filters/dodgeburn/DodgeBurnConfigurationBaseWidget.ui:37
+#, kde-format
+msgid "Midtones"
+msgstr "中間色"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioButtonShadows)
 #. i18n: ectx: property (text), widget (QLabel, label)
@@ -46025,7 +46063,7 @@ msgstr "修復"
 msgid "Move Source"
 msgstr "移動來源點"
 
-#: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:61
+#: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:60
 #, kde-format
 msgctxt "PaintOp instant preview limitation"
 msgid "Clone Brush (temporarily disabled)"
@@ -47150,7 +47188,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, stampButton)
 #: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:81
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:304
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:308
 #, kde-format
 msgid "Stamp"
 msgstr "印章"
@@ -47749,17 +47787,17 @@ msgstr ""
 "筆尖亮度將映射到使用中的漸變色階。筆尖影像的 Alpha (透明度) 通道將用作筆跡的 "
 "Alpha。"
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:355
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:365
 #, kde-format
 msgid "Animated Mask"
 msgstr "動畫遮罩"
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:364
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:374
 #, kde-format
 msgid "Animated Image"
 msgstr "動畫影像"
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:417
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:427
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -47770,19 +47808,19 @@ msgstr ""
 "不影刷色彩的筆尖光度數值。所有比中性點暗的像素將繪出較暗的色彩，而比中性點亮"
 "的像素則將繪出較亮的色彩。"
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:418
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:428
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Brightness correction for the brush"
 msgstr "校正筆刷亮度"
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:419
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:429
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Contrast correction for the brush"
 msgstr "校正比刷的對比度"
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:436
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:446
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -47790,7 +47828,7 @@ msgid ""
 "\"Mask\" mode."
 msgstr "選取的筆尖沒有色彩通道。筆刷將以「遮罩」模式運作。"
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:439
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:449
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -47799,7 +47837,7 @@ msgid ""
 msgstr ""
 "所選的筆刷引擎不支援「色彩」或「亮度」模式。筆刷將會以「遮罩」模式運作。"
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:475
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:485
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -48059,10 +48097,14 @@ msgid "Blending Mode:"
 msgstr "混色模式："
 
 #: plugins/paintops/libpaintop/KisMaskingBrushOption.cpp:146
-#, kde-format
-msgctxt "warning about too big size of the masking brush"
+#, fuzzy, kde-format
+#| msgctxt "warning about too big size of the masking brush"
+#| msgid ""
+#| "WARNING: Dependent size of the masking brush grew too big (%1 pixels). "
+#| "Its value has been cropped to %2 pixels."
+msgctxt "warning about too big size of the masked brush"
 msgid ""
-"WARNING: Dependent size of the masking brush grew too big (%1 pixels). Its "
+"WARNING: Dependent size of the masked brush grew too big (%1 pixels). Its "
 "value has been cropped to %2 pixels."
 msgstr "警告：遮罩筆刷的相依大小變得過大 (%1 像素)。該值已被限制為 %2 像素。"
 
@@ -48989,6 +49031,10 @@ msgstr "最大高度"
 #: plugins/python/comics_project_management_tools/comics_export_dialog.py:43
 msgid " DPI"
 msgstr " DPI"
+
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:65
+msgid "Method:"
+msgstr "方式："
 
 #: plugins/python/comics_project_management_tools/comics_export_dialog.py:66
 #: plugins/python/comics_project_management_tools/comics_template_dialog.py:177
