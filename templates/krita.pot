@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-10-03 00:15+0000\n"
+"POT-Creation-Date: 2021-10-04 00:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -15827,7 +15827,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #: libs/impex/KisExportCheckRegistry.cpp:100
 #: libs/ui/kis_layer_manager.cc:628 libs/ui/kis_node_manager.cpp:1501
-#: libs/ui/KisPaletteEditor.cpp:417 libs/widgets/kis_palette_view.cpp:114
+#: libs/ui/KisPaletteEditor.cpp:421 libs/widgets/kis_palette_view.cpp:115
 #: plugins/dockers/arrangedocker/arrange_docker_widget.ui:338
 #, kde-format
 msgid "Group"
@@ -17416,10 +17416,8 @@ msgstr ""
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:728
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:753
 #: libs/ui/dialogs/kis_dlg_preferences.cc:552
-#: libs/ui/dialogs/KisDlgSavePreset.cpp:190
-#: libs/ui/dialogs/KisDlgSavePreset.cpp:205
 #: libs/ui/input/kis_tablet_debugger.cpp:96
-#: libs/ui/kis_custom_pattern.cc:122 libs/ui/kis_filter_manager.cc:233
+#: libs/ui/kis_custom_pattern.cc:123 libs/ui/kis_filter_manager.cc:233
 #: libs/ui/kis_filter_manager.cc:242 libs/ui/kis_layer_manager.cc:313
 #: libs/ui/kis_layer_manager.cc:961 libs/ui/kis_node_manager.cpp:1214
 #: libs/ui/kis_node_manager.cpp:1277 libs/ui/KisApplication.cpp:872
@@ -17437,11 +17435,11 @@ msgstr ""
 #: libs/ui/KisTemplateCreateDia.cpp:390 libs/ui/KisView.cpp:669
 #: libs/ui/KisWelcomePageWidget.cpp:702 libs/ui/opengl/kis_opengl_canvas2.cpp:386
 #: libs/ui/utils/KisClipboardUtil.cpp:130
-#: libs/ui/widgets/gradient/KisGradientChooser.cpp:534
+#: libs/ui/widgets/gradient/KisGradientChooser.cpp:535
 #: libs/ui/widgets/kis_custom_image_widget.cc:299
 #: plugins/assistants/Assistants/kis_assistant_tool.cc:1080
 #: plugins/assistants/Assistants/kis_assistant_tool.cc:1083
-#: plugins/dockers/gamutmask/gamutmask_dock.cpp:300
+#: plugins/dockers/gamutmask/gamutmask_dock.cpp:302
 #: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:172
 #: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:175
 #: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:184
@@ -17563,8 +17561,8 @@ msgstr ""
 #: libs/resources/KisResourceModel.cpp:118
 #: libs/resources/KisStorageModel.cpp:433
 #: libs/resourcewidgets/dbexplorer/DlgDbExplorer.cpp:70
-#: libs/ui/KisPaletteEditor.cpp:214 libs/ui/KisPaletteEditor.cpp:419
-#: libs/widgets/kis_palette_view.cpp:116 plugins/python/filtermanager/components/filtermanagertreemodel.py:18
+#: libs/ui/KisPaletteEditor.cpp:217 libs/ui/KisPaletteEditor.cpp:423
+#: libs/widgets/kis_palette_view.cpp:117 plugins/python/filtermanager/components/filtermanagertreemodel.py:18
 #: plugins/python/scripter/ui_scripter/tabwidgets/debuggerwidget/debuggertable.py:16
 #, kde-format
 msgid "Name"
@@ -17781,7 +17779,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, bnDelete)
 #. i18n: ectx: property (text), widget (QPushButton, deleteAllAssistantsButton)
 #: libs/resources/KisTagModel.cpp:125 libs/resources/KisTagModel.cpp:287
-#: libs/ui/widgets/kis_paintop_presets_editor.cpp:593
+#: libs/ui/widgets/kis_paintop_presets_editor.cpp:594
 #: plugins/assistants/Assistants/AssistantsToolOptions.ui:262
 #: plugins/tools/defaulttool/referenceimagestool/WdgToolOptions.ui:207
 #, kde-format
@@ -17939,7 +17937,7 @@ msgid "Storage Resources"
 msgstr ""
 
 #: libs/resourcewidgets/KisResourceItemChooser.cpp:229
-#: libs/ui/KisMainWindow.cpp:2548 plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:570
+#: libs/ui/KisMainWindow.cpp:2549 plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:570
 #, kde-format
 msgctxt "@title:window"
 msgid "Choose File to Add"
@@ -17960,19 +17958,113 @@ msgstr ""
 msgid "Remove from other tag"
 msgstr ""
 
-#: libs/resourcewidgets/KisResourceOverwriteDialog.cpp:19
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:21
 #, kde-format
 msgctxt "Dialog title"
 msgid "Overwrite the file?"
 msgstr ""
 
-#: libs/resourcewidgets/KisResourceOverwriteDialog.cpp:20
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:22
 #, kde-format
 msgctxt "Question in a dialog/messagebox"
 msgid ""
 "This resource file already exists in the resource folder. Do you want to "
 "overwrite it?\n"
 "Resource filename: %1"
+msgstr ""
+
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:47
+#, kde-format
+msgctxt "@title:window"
+msgid "Failed to import the resource"
+msgstr ""
+
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:47
+#, kde-format
+msgctxt "Warning message"
+msgid "Failed to import the resource."
+msgstr ""
+
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:60
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:108
+#, kde-format
+msgctxt "@title:window"
+msgid "Rename the resource?"
+msgstr ""
+
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:61
+#, kde-format
+msgctxt "Question in a dialog/messagebox"
+msgid ""
+"This name is already used for another resource. Do you want to use the same "
+"name for multiple resources?"
+msgstr ""
+
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:69
+#, kde-format
+msgctxt "@title:window"
+msgid "Failed to rename the resource"
+msgstr ""
+
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:69
+#, kde-format
+msgctxt "Warning message"
+msgid "Failed to rename the resource."
+msgstr ""
+
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:82
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:87
+#, kde-format
+msgctxt "@title:window"
+msgid "Cannot add the resource"
+msgstr ""
+
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:83
+#, kde-format
+msgctxt "Warning message"
+msgid ""
+"The filename %1 is already used for a resource %2, so adding a resource with "
+"name %3 failed."
+msgstr ""
+
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:88
+#, kde-format
+msgctxt "Warning message"
+msgid ""
+"The filename %1 is already in use, so adding a resource with name %2 failed."
+msgstr ""
+
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:94
+#, kde-format
+msgctxt "@title:window"
+msgid "Failed to add resource"
+msgstr ""
+
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:94
+#, kde-format
+msgctxt "Warning message"
+msgid "Failed to add the resource."
+msgstr ""
+
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:109
+#, kde-format
+msgctxt "Question in a dialog/messagebox"
+msgid ""
+"This name is already used for another resource. Do you want to overwrite and "
+"use the same name for multiple resources?\n"
+"If you cancel, your changes won't be saved."
+msgstr ""
+
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:121
+#, kde-format
+msgctxt "@title:window"
+msgid "Failed to overwrite the resource"
+msgstr ""
+
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:121
+#, kde-format
+msgctxt "Warning message"
+msgid "Failed to overwrite the resource."
 msgstr ""
 
 #: libs/resourcewidgets/KisStorageChooserWidget.cpp:137
@@ -20301,25 +20393,25 @@ msgctxt "(qtundo-format)"
 msgid "Change Layer Properties"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:59
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:60
 #, kde-format
 msgid "Layer Styles"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:268
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:269
 #, kde-format
 msgctxt "@title:window"
 msgid "Enter new style name"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:269
-#: libs/ui/KisMainWindow.cpp:2577 plugins/dockers/gamutmask/gamutmask_dock.cpp:373
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:270
+#: plugins/dockers/gamutmask/gamutmask_dock.cpp:375
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Name:"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:270
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:271
 #, kde-format
 msgctxt "Default name for a new style"
 msgid "New Style"
@@ -20983,17 +21075,17 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, labelRowCount)
 #: libs/ui/dialogs/KisDlgPaletteEditor.cpp:54
 #: libs/ui/forms/WdgDlgPaletteEditor.ui:101
-#: libs/ui/KisPaletteEditor.cpp:218
+#: libs/ui/KisPaletteEditor.cpp:221
 #, kde-format
 msgid "Row count"
 msgstr ""
 
-#: libs/ui/dialogs/KisDlgSavePreset.cpp:69
+#: libs/ui/dialogs/KisDlgSavePreset.cpp:70
 #, kde-format
 msgid "Save New Brush Preset"
 msgstr ""
 
-#: libs/ui/dialogs/KisDlgSavePreset.cpp:78
+#: libs/ui/dialogs/KisDlgSavePreset.cpp:79
 #: plugins/generators/seexpr/kis_wdg_seexpr_presets_save.cpp:72
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:316
 #, kde-format
@@ -21001,25 +21093,15 @@ msgid "Copy"
 msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgSaveBrushPreset)
-#: libs/ui/dialogs/KisDlgSavePreset.cpp:84
+#: libs/ui/dialogs/KisDlgSavePreset.cpp:85
 #: libs/ui/forms/wdgsavebrushpreset.ui:24
 #, kde-format
 msgid "Save Brush Preset"
 msgstr ""
 
-#: libs/ui/dialogs/KisDlgSavePreset.cpp:132
+#: libs/ui/dialogs/KisDlgSavePreset.cpp:133
 #, kde-format
 msgid "Preset Icon Library"
-msgstr ""
-
-#: libs/ui/dialogs/KisDlgSavePreset.cpp:191
-#, kde-format
-msgid "Could not save preset under name %1, it already exists."
-msgstr ""
-
-#: libs/ui/dialogs/KisDlgSavePreset.cpp:206
-#, kde-format
-msgid "Could not update preset %1."
 msgstr ""
 
 #: libs/ui/dialogs/KisRecoverNamedAutosaveDialog.cpp:32
@@ -21050,66 +21132,24 @@ msgstr ""
 msgid "OK"
 msgstr ""
 
-#: libs/ui/dialogs/KisSessionManagerDialog.cpp:77
+#: libs/ui/dialogs/KisSessionManagerDialog.cpp:70
 #, kde-format
 msgid "Create session"
 msgstr ""
 
-#: libs/ui/dialogs/KisSessionManagerDialog.cpp:78
+#: libs/ui/dialogs/KisSessionManagerDialog.cpp:71
 #, kde-format
 msgid "Session name:"
 msgstr ""
 
-#: libs/ui/dialogs/KisSessionManagerDialog.cpp:85
-#: libs/ui/KisMainWindow.cpp:2583 libs/ui/widgets/KoFillConfigWidget.cpp:671
-#: plugins/dockers/gamutmask/gamutmask_dock.cpp:379
-#: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:205
-#, kde-format
-msgctxt "@title:window"
-msgid "Name Already Exists"
-msgstr ""
-
-#: libs/ui/dialogs/KisSessionManagerDialog.cpp:86
-#: libs/ui/KisMainWindow.cpp:2584 libs/ui/widgets/gradient/KisGradientChooser.cpp:535
-#: libs/ui/widgets/KoFillConfigWidget.cpp:672
-#: plugins/dockers/gamutmask/gamutmask_dock.cpp:380
-#: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:206
-#, kde-format
-msgid "The name '%1' already exists, do you wish to overwrite it?"
-msgstr ""
-
-#: libs/ui/dialogs/KisSessionManagerDialog.cpp:101
-#, kde-format
-msgctxt "Warning message"
-msgid "Adding the session to the database failed."
-msgstr ""
-
-#: libs/ui/dialogs/KisSessionManagerDialog.cpp:101
-#, kde-format
-msgctxt "@title:window"
-msgid "Couldn't add the session"
-msgstr ""
-
-#: libs/ui/dialogs/KisSessionManagerDialog.cpp:110
+#: libs/ui/dialogs/KisSessionManagerDialog.cpp:91
 #, kde-format
 msgid "Rename session"
 msgstr ""
 
-#: libs/ui/dialogs/KisSessionManagerDialog.cpp:111
+#: libs/ui/dialogs/KisSessionManagerDialog.cpp:92
 #, kde-format
 msgid "New name:"
-msgstr ""
-
-#: libs/ui/dialogs/KisSessionManagerDialog.cpp:120
-#, kde-format
-msgctxt "@title:window"
-msgid "Couldn't rename the session"
-msgstr ""
-
-#: libs/ui/dialogs/KisSessionManagerDialog.cpp:121
-#, kde-format
-msgctxt "Warning about not being able to rename a session"
-msgid "Renaming the session failed."
 msgstr ""
 
 #: libs/ui/flake/kis_shape_controller.cpp:197
@@ -23435,7 +23475,7 @@ msgstr ""
 #: libs/ui/forms/wdgnewwindowlayout.ui:30
 #: libs/ui/forms/wdgsegmentgradienteditor.ui:41
 #: libs/ui/forms/wdgstopgradienteditor.ui:41
-#: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:198
+#: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:200
 #: plugins/extensions/pykrita/plugin/info.ui:217
 #: plugins/extensions/resourcemanager/WdgDlgResourceManager.ui:143
 #: plugins/impex/brush/wdg_export_gih.ui:41
@@ -23486,12 +23526,12 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, updateBrushNameButton)
 #. i18n: ectx: property (toolTip), widget (QPushButton, bnSaveMask)
 #: libs/ui/forms/wdgpaintopsettings.ui:188
-#: libs/ui/KisMainWindow.cpp:1058 libs/ui/widgets/kis_workspace_chooser.cpp:108
-#: libs/ui/widgets/kis_workspace_chooser.cpp:175
+#: libs/ui/KisMainWindow.cpp:1058 libs/ui/widgets/kis_workspace_chooser.cpp:109
+#: libs/ui/widgets/kis_workspace_chooser.cpp:177
 #: plugins/dockers/gamutmask/forms/wdgGamutMaskChooser.ui:232
 #: plugins/generators/seexpr/wdgseexpr.ui:172
-#: plugins/paintops/libpaintop/kis_clipboard_brush_widget.cpp:162
-#: plugins/paintops/libpaintop/kis_custom_brush_widget.cpp:138
+#: plugins/paintops/libpaintop/kis_clipboard_brush_widget.cpp:165
+#: plugins/paintops/libpaintop/kis_custom_brush_widget.cpp:139
 #: plugins/python/scripter/ui_scripter/actions/saveaction/saveaction.py:21
 #, kde-format
 msgid "Save"
@@ -24442,9 +24482,9 @@ msgstr ""
 #. i18n: ectx: property (text), widget (KColorButton, colorFillSelector)
 #: libs/ui/forms/wdgstrokeselectionproperties.ui:114
 #: libs/ui/forms/wdgstrokeselectionproperties.ui:232
-#: libs/ui/KisPaletteEditor.cpp:371 libs/ui/KisPaletteEditor.cpp:420
+#: libs/ui/KisPaletteEditor.cpp:375 libs/ui/KisPaletteEditor.cpp:424
 #: libs/ui/layerstyles/WdgColorOverlay.ui:27
-#: libs/ui/layerstyles/WdgStroke.ui:138 libs/widgets/kis_palette_view.cpp:117
+#: libs/ui/layerstyles/WdgStroke.ui:138 libs/widgets/kis_palette_view.cpp:118
 #: plugins/extensions/layersplit/layersplit.cpp:203
 #: plugins/generators/solid/colorgenerator.h:41
 #, kde-format
@@ -25698,12 +25738,12 @@ msgstr ""
 msgid "Gradients"
 msgstr ""
 
-#: libs/ui/kis_custom_pattern.cc:107
+#: libs/ui/kis_custom_pattern.cc:108
 #, kde-format
 msgid "Add to Predefined Patterns"
 msgstr ""
 
-#: libs/ui/kis_custom_pattern.cc:122
+#: libs/ui/kis_custom_pattern.cc:123
 #, kde-format
 msgid "This pattern already exists. Do you want to overwrite it?"
 msgstr ""
@@ -26421,7 +26461,7 @@ msgstr ""
 msgid "Palettes"
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:308 libs/ui/widgets/kis_workspace_chooser.cpp:78
+#: libs/ui/KisApplication.cpp:308 libs/ui/widgets/kis_workspace_chooser.cpp:79
 #: plugins/extensions/resourcemanager/dlg_embed_tags.cpp:67
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:240
 #, kde-format
@@ -26433,7 +26473,7 @@ msgstr ""
 msgid "SVG symbol libraries"
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:310 libs/ui/widgets/kis_workspace_chooser.cpp:79
+#: libs/ui/KisApplication.cpp:310 libs/ui/widgets/kis_workspace_chooser.cpp:80
 #, kde-format
 msgid "Window layouts"
 msgstr ""
@@ -27294,48 +27334,42 @@ msgctxt "@action:inmenu"
 msgid "&Import Workspace..."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2560
+#: libs/ui/KisMainWindow.cpp:2556
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&New Workspace..."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2576
-#, kde-format
-msgctxt "@title:window"
-msgid "New Workspace..."
-msgstr ""
-
-#: libs/ui/KisMainWindow.cpp:2620
+#: libs/ui/KisMainWindow.cpp:2600
 #, kde-format
 msgid "&%1 %2"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2623
+#: libs/ui/KisMainWindow.cpp:2603
 #, kde-format
 msgid "%1 %2"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2784
+#: libs/ui/KisMainWindow.cpp:2764
 #, kde-format
 msgid ""
 "The Krita LittleCMS color management plugin is not installed. Krita will "
 "quit now."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2800
+#: libs/ui/KisMainWindow.cpp:2780
 #, kde-format
 msgctxt "@title:window"
 msgid "Installation error"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2912
+#: libs/ui/KisMainWindow.cpp:2892
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Themes"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2966
+#: libs/ui/KisMainWindow.cpp:2946
 #, kde-format
 msgid "Expanding Spacer"
 msgstr ""
@@ -27368,48 +27402,48 @@ msgstr ""
 msgid "Save Palette in the Current Document"
 msgstr ""
 
-#: libs/ui/KisPaletteEditor.cpp:129
+#: libs/ui/KisPaletteEditor.cpp:131
 #, kde-format
 msgid "Import Palette"
 msgstr ""
 
-#: libs/ui/KisPaletteEditor.cpp:140
+#: libs/ui/KisPaletteEditor.cpp:142
 #, kde-format
 msgid "Do you want to store this palette in your current image?"
 msgstr ""
 
-#: libs/ui/KisPaletteEditor.cpp:242 libs/widgets/kis_palette_view.cpp:167
+#: libs/ui/KisPaletteEditor.cpp:245 libs/widgets/kis_palette_view.cpp:168
 #, kde-format
 msgctxt "@title:dialog"
 msgid "Removing Group"
 msgstr ""
 
-#: libs/ui/KisPaletteEditor.cpp:246 libs/widgets/kis_palette_view.cpp:170
+#: libs/ui/KisPaletteEditor.cpp:249 libs/widgets/kis_palette_view.cpp:171
 #, kde-format
 msgctxt "Shows up when deleting a swatch group"
 msgid "Keep the Colors"
 msgstr ""
 
-#: libs/ui/KisPaletteEditor.cpp:271
+#: libs/ui/KisPaletteEditor.cpp:274
 #, kde-format
 msgctxt "Renaming swatch group"
 msgid "New name"
 msgstr ""
 
-#: libs/ui/KisPaletteEditor.cpp:318 libs/ui/KisPaletteEditor.cpp:408
+#: libs/ui/KisPaletteEditor.cpp:321 libs/ui/KisPaletteEditor.cpp:412
 #, kde-format
 msgctxt "Default name for a color swatch"
 msgid "Color %1"
 msgstr ""
 
-#: libs/ui/KisPaletteEditor.cpp:351
+#: libs/ui/KisPaletteEditor.cpp:355
 #, kde-format
 msgctxt "@title:dialog"
 msgid "Add a Color"
 msgstr ""
 
-#: libs/ui/KisPaletteEditor.cpp:365 libs/ui/KisPaletteEditor.cpp:415
-#: libs/widgets/kis_palette_view.cpp:113
+#: libs/ui/KisPaletteEditor.cpp:369 libs/ui/KisPaletteEditor.cpp:419
+#: libs/widgets/kis_palette_view.cpp:114
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -27417,36 +27451,36 @@ msgid ""
 "paints it has available to it. The opposite is called a process color."
 msgstr ""
 
-#: libs/ui/KisPaletteEditor.cpp:369 libs/ui/KisPaletteEditor.cpp:418
-#: libs/widgets/kis_palette_view.cpp:115
+#: libs/ui/KisPaletteEditor.cpp:373 libs/ui/KisPaletteEditor.cpp:422
+#: libs/widgets/kis_palette_view.cpp:116
 #, kde-format
 msgid "ID"
 msgstr ""
 
-#: libs/ui/KisPaletteEditor.cpp:370
+#: libs/ui/KisPaletteEditor.cpp:374
 #, kde-format
 msgctxt "Name of the color swatch"
 msgid "Color swatch name"
 msgstr ""
 
-#: libs/ui/KisPaletteEditor.cpp:372
+#: libs/ui/KisPaletteEditor.cpp:376
 #, kde-format
 msgid "Spot color"
 msgstr ""
 
-#: libs/ui/KisPaletteEditor.cpp:396 libs/widgets/kis_palette_view.cpp:102
+#: libs/ui/KisPaletteEditor.cpp:400 libs/widgets/kis_palette_view.cpp:103
 #, kde-format
 msgctxt "@title:dialog"
 msgid "Add a new Colorset Entry"
 msgstr ""
 
-#: libs/ui/KisPaletteEditor.cpp:421 libs/widgets/kis_palette_view.cpp:118
+#: libs/ui/KisPaletteEditor.cpp:425 libs/widgets/kis_palette_view.cpp:119
 #, kde-format
 msgctxt "Spot color"
 msgid "Spot"
 msgstr ""
 
-#: libs/ui/KisPaletteEditor.cpp:537 libs/ui/KisPaletteEditor.cpp:540
+#: libs/ui/KisPaletteEditor.cpp:543 libs/ui/KisPaletteEditor.cpp:546
 #, kde-format
 msgctxt "Default new group name"
 msgid "New Group %1"
@@ -28953,7 +28987,7 @@ msgstr ""
 msgid "&Close"
 msgstr ""
 
-#: libs/ui/widgets/gradient/KisGenericGradientEditor.cpp:122
+#: libs/ui/widgets/gradient/KisGenericGradientEditor.cpp:123
 #, kde-format
 msgctxt ""
 "Warning text shown when converting from a segment gradient to a stop gradient"
@@ -28962,13 +28996,13 @@ msgid ""
 "information"
 msgstr ""
 
-#: libs/ui/widgets/gradient/KisGenericGradientEditor.cpp:132
+#: libs/ui/widgets/gradient/KisGenericGradientEditor.cpp:133
 #, kde-format
 msgctxt "Choose a preset gradient from the button popup"
 msgid "Choose Gradient Preset"
 msgstr ""
 
-#: libs/ui/widgets/gradient/KisGenericGradientEditor.cpp:149
+#: libs/ui/widgets/gradient/KisGenericGradientEditor.cpp:150
 #, kde-format
 msgctxt ""
 "Update the current gradient in the presets with the one in the generic "
@@ -28976,113 +29010,121 @@ msgctxt ""
 msgid "Update the selected gradient preset with the current gradient"
 msgstr ""
 
-#: libs/ui/widgets/gradient/KisGenericGradientEditor.cpp:158
+#: libs/ui/widgets/gradient/KisGenericGradientEditor.cpp:159
 #, kde-format
 msgctxt ""
 "Add the current gradient in the generic gradient editor to the presets"
 msgid "Add the current gradient to the presets"
 msgstr ""
 
-#: libs/ui/widgets/gradient/KisGenericGradientEditor.cpp:172
+#: libs/ui/widgets/gradient/KisGenericGradientEditor.cpp:173
 #, kde-format
 msgctxt "Show the gradient preset chooser as a pop-up in a button or inline"
 msgid "Use a pop-up gradient preset chooser"
 msgstr ""
 
-#: libs/ui/widgets/gradient/KisGenericGradientEditor.cpp:180
+#: libs/ui/widgets/gradient/KisGenericGradientEditor.cpp:181
 #, kde-format
 msgctxt "Hide/show option widgets around the gradient preset chooser"
 msgid "Show compact gradient preset chooser"
 msgstr ""
 
-#: libs/ui/widgets/gradient/KisGenericGradientEditor.cpp:525
+#: libs/ui/widgets/gradient/KisGenericGradientEditor.cpp:526
 #, kde-format
 msgctxt "Convert the segment gradient to a stop gradient"
 msgid "Convert to Stop Gradient"
 msgstr ""
 
-#: libs/ui/widgets/gradient/KisGenericGradientEditor.cpp:526
+#: libs/ui/widgets/gradient/KisGenericGradientEditor.cpp:527
 #, kde-format
 msgctxt "Convert the stop gradient to a segment gradient"
 msgid "Convert to Segment Gradient"
 msgstr ""
 
-#: libs/ui/widgets/gradient/KisGenericGradientEditor.cpp:527
+#: libs/ui/widgets/gradient/KisGenericGradientEditor.cpp:528
 #, kde-format
 msgctxt "A gradient wasn't set in the generic gradient editor"
 msgid "No Gradient Set"
 msgstr ""
 
-#: libs/ui/widgets/gradient/KisGradientChooser.cpp:77
+#: libs/ui/widgets/gradient/KisGradientChooser.cpp:78
 #, kde-format
 msgid "Custom Stop Gradient"
 msgstr ""
 
-#: libs/ui/widgets/gradient/KisGradientChooser.cpp:82
+#: libs/ui/widgets/gradient/KisGradientChooser.cpp:83
 #, kde-format
 msgid "Custom Segmented Gradient"
 msgstr ""
 
-#: libs/ui/widgets/gradient/KisGradientChooser.cpp:174
+#: libs/ui/widgets/gradient/KisGradientChooser.cpp:175
 #, kde-format
 msgctxt "Set the gradient chooser to show icons instead of a list"
 msgid "Icon view"
 msgstr ""
 
-#: libs/ui/widgets/gradient/KisGradientChooser.cpp:180
+#: libs/ui/widgets/gradient/KisGradientChooser.cpp:181
 #, kde-format
 msgctxt "Set the gradient chooser to show a list instead of icons"
 msgid "List view"
 msgstr ""
 
-#: libs/ui/widgets/gradient/KisGradientChooser.cpp:189
+#: libs/ui/widgets/gradient/KisGradientChooser.cpp:190
 #, kde-format
 msgctxt "Set the gradient chooser to show small items"
 msgid "Small items"
 msgstr ""
 
-#: libs/ui/widgets/gradient/KisGradientChooser.cpp:195
+#: libs/ui/widgets/gradient/KisGradientChooser.cpp:196
 #, kde-format
 msgctxt "Set the gradient chooser to show medium size items"
 msgid "Medium size items"
 msgstr ""
 
-#: libs/ui/widgets/gradient/KisGradientChooser.cpp:201
+#: libs/ui/widgets/gradient/KisGradientChooser.cpp:202
 #, kde-format
 msgctxt "Set the gradient chooser to show large items"
 msgid "Large items"
 msgstr ""
 
-#: libs/ui/widgets/gradient/KisGradientChooser.cpp:207
+#: libs/ui/widgets/gradient/KisGradientChooser.cpp:208
 #, kde-format
 msgctxt "Set the gradient chooser to show custom size items"
 msgid "Custom size items"
 msgstr ""
 
-#: libs/ui/widgets/gradient/KisGradientChooser.cpp:234
+#: libs/ui/widgets/gradient/KisGradientChooser.cpp:235
 #, kde-format
 msgid "Add..."
 msgstr ""
 
-#: libs/ui/widgets/gradient/KisGradientChooser.cpp:239
+#: libs/ui/widgets/gradient/KisGradientChooser.cpp:240
 #, kde-format
 msgid "Stop gradient"
 msgstr ""
 
-#: libs/ui/widgets/gradient/KisGradientChooser.cpp:241
+#: libs/ui/widgets/gradient/KisGradientChooser.cpp:242
 #, kde-format
 msgid "Segmented gradient"
 msgstr ""
 
-#: libs/ui/widgets/gradient/KisGradientChooser.cpp:248
+#: libs/ui/widgets/gradient/KisGradientChooser.cpp:249
 #, kde-format
 msgid "Edit..."
 msgstr ""
 
-#: libs/ui/widgets/gradient/KisGradientChooser.cpp:486
-#: libs/ui/widgets/gradient/KisGradientChooser.cpp:495
+#: libs/ui/widgets/gradient/KisGradientChooser.cpp:487
+#: libs/ui/widgets/gradient/KisGradientChooser.cpp:496
 #, kde-format
 msgid "unnamed"
+msgstr ""
+
+#: libs/ui/widgets/gradient/KisGradientChooser.cpp:536
+#: libs/ui/widgets/KoFillConfigWidget.cpp:674
+#: plugins/dockers/gamutmask/gamutmask_dock.cpp:382
+#: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:208
+#, kde-format
+msgid "The name '%1' already exists, do you wish to overwrite it?"
 msgstr ""
 
 #: libs/ui/widgets/gradient/KisGradientColorEditor.cpp:39
@@ -30027,7 +30069,7 @@ msgid "Mid-gray level:"
 msgstr ""
 
 #: libs/ui/widgets/kis_paintop_presets_chooser_popup.cpp:43
-#: libs/ui/widgets/kis_paintop_presets_editor.cpp:128
+#: libs/ui/widgets/kis_paintop_presets_editor.cpp:129
 #: plugins/dockers/gamutmask/KisGamutMaskChooser.cpp:155
 #, kde-format
 msgctxt "@title Which elements to display (e.g., thumbnails or details)"
@@ -30035,59 +30077,59 @@ msgid "Display"
 msgstr ""
 
 #: libs/ui/widgets/kis_paintop_presets_chooser_popup.cpp:49
-#: libs/ui/widgets/kis_paintop_presets_editor.cpp:134
+#: libs/ui/widgets/kis_paintop_presets_editor.cpp:135
 #: plugins/dockers/gamutmask/KisGamutMaskChooser.cpp:163
 #, kde-format
 msgid "Thumbnails"
 msgstr ""
 
 #: libs/ui/widgets/kis_paintop_presets_chooser_popup.cpp:54
-#: libs/ui/widgets/kis_paintop_presets_editor.cpp:139
+#: libs/ui/widgets/kis_paintop_presets_editor.cpp:140
 #: plugins/dockers/gamutmask/KisGamutMaskChooser.cpp:169
 #, kde-format
 msgid "Details"
 msgstr ""
 
 #: libs/ui/widgets/kis_paintop_presets_chooser_popup.cpp:72
-#: libs/ui/widgets/kis_paintop_presets_editor.cpp:158
+#: libs/ui/widgets/kis_paintop_presets_editor.cpp:159
 #: libs/widgets/KoToolBox.cpp:297 libs/widgetutils/xmlgui/ktoolbar.cpp:318
 #: plugins/dockers/svgcollectiondocker/SvgSymbolCollectionDocker.cpp:200
 #, kde-format
 msgid "Icon Size"
 msgstr ""
 
-#: libs/ui/widgets/kis_paintop_presets_editor.cpp:98
+#: libs/ui/widgets/kis_paintop_presets_editor.cpp:99
 #: plugins/generators/seexpr/kis_wdg_seexpr.cpp:40
 #, kde-format
 msgid "The settings for this preset have changed from their default."
 msgstr ""
 
-#: libs/ui/widgets/kis_paintop_presets_editor.cpp:101
+#: libs/ui/widgets/kis_paintop_presets_editor.cpp:102
 #, kde-format
 msgid "Toggle showing presets"
 msgstr ""
 
-#: libs/ui/widgets/kis_paintop_presets_editor.cpp:103
+#: libs/ui/widgets/kis_paintop_presets_editor.cpp:104
 #, kde-format
 msgid "Toggle showing scratchpad"
 msgstr ""
 
-#: libs/ui/widgets/kis_paintop_presets_editor.cpp:105
+#: libs/ui/widgets/kis_paintop_presets_editor.cpp:106
 #, kde-format
 msgid "Reload the brush preset"
 msgstr ""
 
-#: libs/ui/widgets/kis_paintop_presets_editor.cpp:106
+#: libs/ui/widgets/kis_paintop_presets_editor.cpp:107
 #, kde-format
 msgid "Rename the brush preset"
 msgstr ""
 
-#: libs/ui/widgets/kis_paintop_presets_editor.cpp:188
+#: libs/ui/widgets/kis_paintop_presets_editor.cpp:189
 #, kde-format
 msgid "Detach Brush Editor"
 msgstr ""
 
-#: libs/ui/widgets/kis_paintop_presets_editor.cpp:535
+#: libs/ui/widgets/kis_paintop_presets_editor.cpp:536
 #, kde-format
 msgctxt "%1 is the name of a brush engine"
 msgid "%1 Engine"
@@ -30234,41 +30276,41 @@ msgstr ""
 msgid "No configuration options."
 msgstr ""
 
-#: libs/ui/widgets/kis_workspace_chooser.cpp:111
+#: libs/ui/widgets/kis_workspace_chooser.cpp:112
 #, kde-format
 msgid "Insert name"
 msgstr ""
 
-#: libs/ui/widgets/kis_workspace_chooser.cpp:169
+#: libs/ui/widgets/kis_workspace_chooser.cpp:171
 #, kde-format
 msgid "File name already in use. Saving will overwrite the original Workspace."
 msgstr ""
 
-#: libs/ui/widgets/kis_workspace_chooser.cpp:170
+#: libs/ui/widgets/kis_workspace_chooser.cpp:172
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings.cpp:156
-#: plugins/paintops/libpaintop/kis_clipboard_brush_widget.cpp:160
-#: plugins/paintops/libpaintop/kis_custom_brush_widget.cpp:136
+#: plugins/paintops/libpaintop/kis_clipboard_brush_widget.cpp:163
+#: plugins/paintops/libpaintop/kis_custom_brush_widget.cpp:137
 #, kde-format
 msgid "Overwrite"
 msgstr ""
 
-#: libs/ui/widgets/kis_workspace_chooser.cpp:174
+#: libs/ui/widgets/kis_workspace_chooser.cpp:176
 #, kde-format
 msgid "Save current workspace."
 msgstr ""
 
-#: libs/ui/widgets/kis_workspace_chooser.cpp:213
+#: libs/ui/widgets/kis_workspace_chooser.cpp:215
 #, kde-format
 msgid "Window Layout"
 msgstr ""
 
-#: libs/ui/widgets/kis_workspace_chooser.cpp:231
+#: libs/ui/widgets/kis_workspace_chooser.cpp:234
 #, kde-format
 msgid ""
 "File name already in use. Saving will overwrite the original window layout."
 msgstr ""
 
-#: libs/ui/widgets/kis_workspace_chooser.cpp:234
+#: libs/ui/widgets/kis_workspace_chooser.cpp:237
 #, kde-format
 msgid "Save current window layout."
 msgstr ""
@@ -30496,31 +30538,39 @@ msgstr ""
 msgid "Background color selector"
 msgstr ""
 
-#: libs/ui/widgets/KoFillConfigWidget.cpp:270
+#: libs/ui/widgets/KoFillConfigWidget.cpp:272
 #, kde-format
 msgid "Change the filling color"
 msgstr ""
 
-#: libs/ui/widgets/KoFillConfigWidget.cpp:303
+#: libs/ui/widgets/KoFillConfigWidget.cpp:305
 #, kde-format
 msgid "Change filling gradient"
 msgstr ""
 
-#: libs/ui/widgets/KoFillConfigWidget.cpp:654
+#: libs/ui/widgets/KoFillConfigWidget.cpp:656
 #, kde-format
 msgctxt "default prefix for the saved gradient"
 msgid "gradient"
 msgstr ""
 
-#: libs/ui/widgets/KoFillConfigWidget.cpp:663
+#: libs/ui/widgets/KoFillConfigWidget.cpp:665
 #, kde-format
 msgctxt "@title:window"
 msgid "Save Gradient"
 msgstr ""
 
-#: libs/ui/widgets/KoFillConfigWidget.cpp:664
+#: libs/ui/widgets/KoFillConfigWidget.cpp:666
 #, kde-format
 msgid "Enter gradient name:"
+msgstr ""
+
+#: libs/ui/widgets/KoFillConfigWidget.cpp:673
+#: plugins/dockers/gamutmask/gamutmask_dock.cpp:381
+#: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:207
+#, kde-format
+msgctxt "@title:window"
+msgid "Name Already Exists"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, btnNoFill)
@@ -30737,31 +30787,31 @@ msgstr ""
 msgid "Select a directory to load..."
 msgstr ""
 
-#: libs/widgets/kis_palette_view.cpp:106
+#: libs/widgets/kis_palette_view.cpp:107
 #, kde-format
 msgctxt "Name for default group"
 msgid "Default"
 msgstr ""
 
-#: libs/widgets/kis_palette_view.cpp:120
+#: libs/widgets/kis_palette_view.cpp:121
 #, kde-format
 msgctxt "Part of a default name for a color"
 msgid "Color"
 msgstr ""
 
-#: libs/widgets/kis_palette_view.cpp:146
+#: libs/widgets/kis_palette_view.cpp:147
 #, kde-format
 msgctxt "@title:dialog"
 msgid "Add a new group"
 msgstr ""
 
-#: libs/widgets/kis_palette_view.cpp:149
+#: libs/widgets/kis_palette_view.cpp:150
 #, kde-format
 msgctxt "Part of default name for a new group"
 msgid "Color Group"
 msgstr ""
 
-#: libs/widgets/kis_palette_view.cpp:150
+#: libs/widgets/kis_palette_view.cpp:151
 #, kde-format
 msgctxt "Name for a group"
 msgid "Name"
@@ -32839,7 +32889,7 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, perspectiveTransformButton)
 #. i18n: ectx: property (text), widget (QToolButton, perspectiveTransformButton)
-#: plugins/assistants/Assistants/PerspectiveAssistant.cc:489
+#: plugins/assistants/Assistants/PerspectiveAssistant.cc:499
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:152
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:155
 #, kde-format
@@ -34410,28 +34460,28 @@ msgstr ""
 msgid "Edit the gamut mask"
 msgstr ""
 
-#: plugins/dockers/gamutmask/gamutmask_dock.cpp:56
+#: plugins/dockers/gamutmask/gamutmask_dock.cpp:57
 #: plugins/extensions/resourcemanager/dlg_embed_tags.cpp:64
 #, kde-format
 msgid "Gamut Masks"
 msgstr ""
 
-#: plugins/dockers/gamutmask/gamutmask_dock.cpp:137
+#: plugins/dockers/gamutmask/gamutmask_dock.cpp:138
 #, kde-format
 msgid "Could not open gamut mask for editing."
 msgstr ""
 
-#: plugins/dockers/gamutmask/gamutmask_dock.cpp:138
+#: plugins/dockers/gamutmask/gamutmask_dock.cpp:139
 #, kde-format
 msgid "The editor template was not found."
 msgstr ""
 
-#: plugins/dockers/gamutmask/gamutmask_dock.cpp:269
+#: plugins/dockers/gamutmask/gamutmask_dock.cpp:271
 #, kde-format
 msgid "Saving of gamut mask '%1' was aborted."
 msgstr ""
 
-#: plugins/dockers/gamutmask/gamutmask_dock.cpp:270
+#: plugins/dockers/gamutmask/gamutmask_dock.cpp:272
 #, kde-format
 msgid ""
 "<p>The mask template is invalid.</p><p>Please check that:<ul><li>your "
@@ -34439,34 +34489,34 @@ msgid ""
 "one or more vector shapes on the 'maskShapesLayer'</li></ul></p>"
 msgstr ""
 
-#: plugins/dockers/gamutmask/gamutmask_dock.cpp:316
+#: plugins/dockers/gamutmask/gamutmask_dock.cpp:318
 #, kde-format
 msgid "Gamut mask <b>'%1'</b> has been modified."
 msgstr ""
 
-#: plugins/dockers/gamutmask/gamutmask_dock.cpp:317
+#: plugins/dockers/gamutmask/gamutmask_dock.cpp:319
 #, kde-format
 msgid "Do you want to save it?"
 msgstr ""
 
-#: plugins/dockers/gamutmask/gamutmask_dock.cpp:372
+#: plugins/dockers/gamutmask/gamutmask_dock.cpp:374
 #, kde-format
 msgctxt "@title:window"
 msgid "New Gamut Mask..."
 msgstr ""
 
-#: plugins/dockers/gamutmask/gamutmask_dock.cpp:375
+#: plugins/dockers/gamutmask/gamutmask_dock.cpp:377
 #, kde-format
 msgctxt "@title:window"
 msgid "Invalid Name"
 msgstr ""
 
-#: plugins/dockers/gamutmask/gamutmask_dock.cpp:375
+#: plugins/dockers/gamutmask/gamutmask_dock.cpp:377
 #, kde-format
 msgid "Please enter a name"
 msgstr ""
 
-#: plugins/dockers/gamutmask/gamutmask_dock.cpp:588
+#: plugins/dockers/gamutmask/gamutmask_dock.cpp:590
 #, kde-format
 msgid "Are you sure you want to delete mask <b>'%1'</b>?"
 msgstr ""
@@ -36148,22 +36198,22 @@ msgstr ""
 msgid "Vector Libraries"
 msgstr ""
 
-#: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:76
+#: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:78
 #, kde-format
 msgid "Task Sets"
 msgstr ""
 
-#: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:189
+#: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:191
 #, kde-format
 msgid "Taskset"
 msgstr ""
 
-#: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:197
+#: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:199
 #, kde-format
 msgid "Taskset Name"
 msgstr ""
 
-#: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:243
+#: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:246
 #, kde-format
 msgid "Task sets"
 msgstr ""
@@ -46381,7 +46431,7 @@ msgid ""
 "The slowest performance. Best quality."
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_clipboard_brush_widget.cpp:101
+#: plugins/paintops/libpaintop/kis_clipboard_brush_widget.cpp:102
 #, kde-format
 msgid ""
 "Nothing copied\n"
