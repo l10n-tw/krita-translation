@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-10-04 00:15+0000\n"
+"POT-Creation-Date: 2021-10-05 00:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -17440,13 +17440,13 @@ msgstr ""
 #: plugins/assistants/Assistants/kis_assistant_tool.cc:1080
 #: plugins/assistants/Assistants/kis_assistant_tool.cc:1083
 #: plugins/dockers/gamutmask/gamutmask_dock.cpp:302
-#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:172
 #: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:175
-#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:184
-#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:211
-#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:216
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:395
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:404
+#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:178
+#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:187
+#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:214
+#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:219
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:408
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:418
 #: plugins/extensions/imagesplit/imagesplit.cpp:74
 #: plugins/extensions/imagesplit/imagesplit.cpp:76
 #: plugins/extensions/qmic/kis_qmic_interface.cpp:137
@@ -30655,7 +30655,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, lblNumRows)
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: libs/ui/widgets/KoFillConfigWidget.ui:376
-#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:154
+#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:159
 #: plugins/extensions/clonesarray/wdg_clonesarray.ui:219
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:2154
 #, kde-format
@@ -30666,7 +30666,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, lblNumColumns)
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: libs/ui/widgets/KoFillConfigWidget.ui:394
-#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:180
+#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:185
 #: plugins/extensions/clonesarray/wdg_clonesarray.ui:122
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:2144
 #, kde-format
@@ -35878,27 +35878,27 @@ msgctxt "Export storyboard dialog caption"
 msgid "Export Storyboard as SVG"
 msgstr ""
 
-#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:172
+#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:175
 #, kde-format
 msgid "Please enter a file name to export to."
 msgstr ""
 
-#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:175
+#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:178
 #, kde-format
 msgid "Please enter a directory to export to."
 msgstr ""
 
-#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:184
+#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:187
 #, kde-format
 msgid "Please enter an existing directory."
 msgstr ""
 
-#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:194
+#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:197
 #, kde-format
 msgid "Existing files with similar naming scheme"
 msgstr ""
 
-#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:195
+#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:198
 #, kde-format
 msgid ""
 "Files with the same naming scheme exist in the destination directory. They "
@@ -35908,12 +35908,12 @@ msgid ""
 "Files: %2"
 msgstr ""
 
-#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:211
+#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:214
 #, kde-format
 msgid "Please choose svg file to specify the layout for exporting."
 msgstr ""
 
-#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:216
+#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:219
 #, kde-format
 msgid ""
 "The SVG file to specify layout doesn't exist. Please choose an existing SVG "
@@ -35942,7 +35942,7 @@ msgstr ""
 
 #: plugins/dockers/storyboarddocker/StoryboardDelegate.cpp:136
 #: plugins/dockers/storyboarddocker/StoryboardDelegate.cpp:300
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:542
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:497
 #, kde-format
 msgctxt "suffix in spin box in storyboard that means 'seconds'"
 msgid "s"
@@ -35950,7 +35950,7 @@ msgstr ""
 
 #: plugins/dockers/storyboarddocker/StoryboardDelegate.cpp:141
 #: plugins/dockers/storyboarddocker/StoryboardDelegate.cpp:307
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:545
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:500
 #, kde-format
 msgctxt "suffix in spin box in storyboard that means 'frames'"
 msgid "f"
@@ -35994,8 +35994,8 @@ msgctxt "Remove current scene from storyboards"
 msgid "Remove Scene"
 msgstr ""
 
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:395
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:404
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:408
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:418
 #, kde-format
 msgid ""
 "Please enter correct range. There are no panels in the range of frames "
@@ -36160,20 +36160,26 @@ msgstr ""
 msgid "Columns"
 msgstr ""
 
+#. i18n: ectx: property (text), item, widget (QComboBox, boardLayoutComboBox)
+#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:145
+#, kde-format
+msgid "SVG Template"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLabel, svgTemplatePathLabel)
-#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:222
+#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:227
 #, kde-format
 msgid "SVG Template Path:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, fontSizeLabel)
-#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:232
+#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:237
 #, kde-format
 msgid "Font Size:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, exportPathLabel)
-#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:281
+#: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:286
 #, kde-format
 msgid "Export Path:"
 msgstr ""
