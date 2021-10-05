@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-10-04 00:15+0000\n"
-"PO-Revision-Date: 2021-10-04 08:10+0000\n"
+"PO-Revision-Date: 2021-10-05 08:00+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -31060,7 +31060,7 @@ msgctxt ""
 "How much the midtone point used in auto levels is close to the center of the "
 "histogram (0%) or to the point selected in the method (100%)"
 msgid "Amount:"
-msgstr "調色量："
+msgstr "調色值："
 
 #: libs/ui/widgets/KisDitherWidget.cpp:44
 #, kde-format
