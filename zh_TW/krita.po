@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-10-05 00:15+0000\n"
-"PO-Revision-Date: 2021-10-05 08:00+0000\n"
+"PO-Revision-Date: 2021-10-06 16:59+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -18093,7 +18093,7 @@ msgid "Failed to add the resource."
 msgstr "無法加入資源。"
 
 #: libs/resourcewidgets/KisResourceUserOperations.cpp:109
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "Question in a dialog/messagebox"
 msgid ""
 "This name is already used for another resource. Do you want to overwrite and "
@@ -36872,10 +36872,9 @@ msgstr "列數"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, boardLayoutComboBox)
 #: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:145
-#, fuzzy, kde-format
-#| msgid "SVG Template Path:"
+#, kde-format
 msgid "SVG Template"
-msgstr "SVG 模板路徑："
+msgstr "SVG 模板"
 
 #. i18n: ectx: property (text), widget (QLabel, svgTemplatePathLabel)
 #: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:227
