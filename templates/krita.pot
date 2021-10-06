@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-10-05 00:15+0000\n"
+"POT-Creation-Date: 2021-10-06 00:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -13998,19 +13998,19 @@ msgstr ""
 msgid "Line"
 msgstr ""
 
-#: libs/brush/kis_auto_brush.cpp:394
+#: libs/brush/kis_auto_brush.cpp:388
 #, kde-format
 msgctxt "PaintOp instant preview limitation"
 msgid "Brush Density recommended value 100.0"
 msgstr ""
 
-#: libs/brush/kis_auto_brush.cpp:398
+#: libs/brush/kis_auto_brush.cpp:392
 #, kde-format
 msgctxt "PaintOp instant preview limitation"
 msgid "Brush Randomness recommended value 0.0"
 msgstr ""
 
-#: libs/brush/kis_brush.cpp:717
+#: libs/brush/kis_brush.cpp:726
 #, kde-format
 msgctxt "PaintOp instant preview limitation"
 msgid "Spacing > 0.5, consider disabling Instant Preview"
@@ -14851,7 +14851,7 @@ msgstr ""
 #: plugins/extensions/rotateimage/wdg_rotateimage.ui:50
 #: plugins/paintops/deform/kis_deform_paintop_settings.cpp:171
 #: plugins/paintops/hatching/kis_hatching_paintop_settings_widget.cpp:45
-#: plugins/paintops/libpaintop/kis_brush_based_paintop_settings.cpp:210
+#: plugins/paintops/libpaintop/kis_brush_based_paintop_settings.cpp:219
 #, kde-format
 msgid "Angle"
 msgstr ""
@@ -14861,7 +14861,7 @@ msgstr ""
 #: plugins/dockers/arrangedocker/arrange_docker_widget.ui:322
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:49
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:55
-#: plugins/paintops/libpaintop/kis_brush_based_paintop_settings.cpp:268
+#: plugins/paintops/libpaintop/kis_brush_based_paintop_settings.cpp:277
 #: plugins/paintops/roundmarker/kis_roundmarkerop_settings_widget.cpp:31
 #: plugins/paintops/spray/kis_spray_paintop_settings.cpp:94
 #: plugins/paintops/tangentnormal/kis_tangent_normal_paintop_settings_widget.cpp:46
@@ -46365,7 +46365,7 @@ msgstr ""
 msgid "The mixing option mixes the paint on the brush with that on the canvas."
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_brush_based_paintop_settings.cpp:240
+#: plugins/paintops/libpaintop/kis_brush_based_paintop_settings.cpp:249
 #, kde-format
 msgid "Auto Spacing"
 msgstr ""
