@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-10-05 00:15+0000\n"
+"POT-Creation-Date: 2021-10-06 00:16+0000\n"
 "PO-Revision-Date: 2021-10-06 16:59+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
@@ -14015,19 +14015,19 @@ msgstr "鉛筆"
 msgid "Line"
 msgstr "線條"
 
-#: libs/brush/kis_auto_brush.cpp:394
+#: libs/brush/kis_auto_brush.cpp:388
 #, kde-format
 msgctxt "PaintOp instant preview limitation"
 msgid "Brush Density recommended value 100.0"
 msgstr "筆刷密度建議值為 100.0"
 
-#: libs/brush/kis_auto_brush.cpp:398
+#: libs/brush/kis_auto_brush.cpp:392
 #, kde-format
 msgctxt "PaintOp instant preview limitation"
 msgid "Brush Randomness recommended value 0.0"
 msgstr "筆刷隨機度建議值為 0.0"
 
-#: libs/brush/kis_brush.cpp:717
+#: libs/brush/kis_brush.cpp:726
 #, kde-format
 msgctxt "PaintOp instant preview limitation"
 msgid "Spacing > 0.5, consider disabling Instant Preview"
@@ -14872,7 +14872,7 @@ msgstr "流量"
 #: plugins/extensions/rotateimage/wdg_rotateimage.ui:50
 #: plugins/paintops/deform/kis_deform_paintop_settings.cpp:171
 #: plugins/paintops/hatching/kis_hatching_paintop_settings_widget.cpp:45
-#: plugins/paintops/libpaintop/kis_brush_based_paintop_settings.cpp:210
+#: plugins/paintops/libpaintop/kis_brush_based_paintop_settings.cpp:219
 #, kde-format
 msgid "Angle"
 msgstr "角度"
@@ -14882,7 +14882,7 @@ msgstr "角度"
 #: plugins/dockers/arrangedocker/arrange_docker_widget.ui:322
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:49
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:55
-#: plugins/paintops/libpaintop/kis_brush_based_paintop_settings.cpp:268
+#: plugins/paintops/libpaintop/kis_brush_based_paintop_settings.cpp:277
 #: plugins/paintops/roundmarker/kis_roundmarkerop_settings_widget.cpp:31
 #: plugins/paintops/spray/kis_spray_paintop_settings.cpp:94
 #: plugins/paintops/tangentnormal/kis_tangent_normal_paintop_settings_widget.cpp:46
@@ -47352,7 +47352,7 @@ msgstr "垂直偏移："
 msgid "The mixing option mixes the paint on the brush with that on the canvas."
 msgstr "混色選項會將筆刷的顏料與畫布上的顏料混合。"
 
-#: plugins/paintops/libpaintop/kis_brush_based_paintop_settings.cpp:240
+#: plugins/paintops/libpaintop/kis_brush_based_paintop_settings.cpp:249
 #, kde-format
 msgid "Auto Spacing"
 msgstr "自動間距"
