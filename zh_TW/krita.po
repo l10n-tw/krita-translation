@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-10-06 00:16+0000\n"
+"POT-Creation-Date: 2021-10-07 00:15+0000\n"
 "PO-Revision-Date: 2021-10-06 16:59+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
@@ -14040,7 +14040,7 @@ msgid "Undo"
 msgstr "復原"
 
 #: libs/command/kundo2group.cpp:359 libs/command/kundo2stack.cpp:1144
-#: libs/ui/KisUndoActionsUpdateManager.cpp:47
+#: libs/ui/KisUndoActionsUpdateManager.cpp:44
 #, kde-format
 msgid "Undo %1"
 msgstr "復原 %1"
@@ -14052,7 +14052,7 @@ msgid "Redo"
 msgstr "重做"
 
 #: libs/command/kundo2group.cpp:386 libs/command/kundo2stack.cpp:1170
-#: libs/ui/KisUndoActionsUpdateManager.cpp:52
+#: libs/ui/KisUndoActionsUpdateManager.cpp:49
 #, kde-format
 msgid "Redo %1"
 msgstr "重做 %1"
@@ -17486,8 +17486,8 @@ msgstr "本機資源"
 #: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:187
 #: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:214
 #: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:219
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:408
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:418
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:426
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:436
 #: plugins/extensions/imagesplit/imagesplit.cpp:74
 #: plugins/extensions/imagesplit/imagesplit.cpp:76
 #: plugins/extensions/qmic/kis_qmic_interface.cpp:137
@@ -18019,53 +18019,61 @@ msgstr ""
 "這個資源檔案已存在於資源資料夾內，您確定要覆寫它嗎？\n"
 "資源檔案名稱：%1"
 
-#: libs/resourcewidgets/KisResourceUserOperations.cpp:47
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:55
 #, kde-format
 msgctxt "@title:window"
 msgid "Failed to import the resource"
 msgstr "匯入資源失敗"
 
-#: libs/resourcewidgets/KisResourceUserOperations.cpp:47
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:55
 #, kde-format
 msgctxt "Warning message"
 msgid "Failed to import the resource."
 msgstr "無法匯入資源。"
 
-#: libs/resourcewidgets/KisResourceUserOperations.cpp:60
-#: libs/resourcewidgets/KisResourceUserOperations.cpp:108
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:68
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:132
 #, kde-format
 msgctxt "@title:window"
 msgid "Rename the resource?"
 msgstr "重新命名資源？"
 
-#: libs/resourcewidgets/KisResourceUserOperations.cpp:61
-#, kde-format
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:69
+#, fuzzy, kde-format
+#| msgctxt "Question in a dialog/messagebox"
+#| msgid ""
+#| "This name is already used for another resource. Do you want to overwrite "
+#| "and use the same name for multiple resources?\n"
+#| "If you cancel, your changes won't be saved."
 msgctxt "Question in a dialog/messagebox"
 msgid ""
 "This name is already used for another resource. Do you want to use the same "
-"name for multiple resources?"
-msgstr "這個名稱已被另一項資源使用。你想要多項資源使用相同的名稱嗎？"
+"name for multiple resources?(If you decline now, the resource won't be "
+"renamed)."
+msgstr ""
+"這個名稱已被另一項資源使用。你想要覆寫並使多項資源使用相同的名稱嗎？\n"
+"如選擇取消，你的變更將不會被儲存。"
 
-#: libs/resourcewidgets/KisResourceUserOperations.cpp:69
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:79
 #, kde-format
 msgctxt "@title:window"
 msgid "Failed to rename the resource"
 msgstr "重新命名資源失敗"
 
-#: libs/resourcewidgets/KisResourceUserOperations.cpp:69
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:79
 #, kde-format
 msgctxt "Warning message"
 msgid "Failed to rename the resource."
 msgstr "無法重新命名資源。"
 
-#: libs/resourcewidgets/KisResourceUserOperations.cpp:82
-#: libs/resourcewidgets/KisResourceUserOperations.cpp:87
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:93
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:98
 #, kde-format
 msgctxt "@title:window"
 msgid "Cannot add the resource"
 msgstr "未能加入資源"
 
-#: libs/resourcewidgets/KisResourceUserOperations.cpp:83
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:94
 #, kde-format
 msgctxt "Warning message"
 msgid ""
@@ -18073,26 +18081,50 @@ msgid ""
 "name %3 failed."
 msgstr "檔案名稱「%1」已被資源「%2」使用，因此無法加入一個名為「%3」的資源。"
 
-#: libs/resourcewidgets/KisResourceUserOperations.cpp:88
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:99
 #, kde-format
 msgctxt "Warning message"
 msgid ""
 "The filename %1 is already in use, so adding a resource with name %2 failed."
 msgstr "檔案名稱「%1」已被使用，因此無法加入一個名為「%2」的資源。"
 
-#: libs/resourcewidgets/KisResourceUserOperations.cpp:94
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:106
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Rename the resource?"
+msgctxt "@title:window"
+msgid "Add the resource?"
+msgstr "重新命名資源？"
+
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:107
+#, fuzzy, kde-format
+#| msgctxt "Question in a dialog/messagebox"
+#| msgid ""
+#| "This name is already used for another resource. Do you want to overwrite "
+#| "and use the same name for multiple resources?\n"
+#| "If you cancel, your changes won't be saved."
+msgctxt "Question in a dialog/messagebox"
+msgid ""
+"This name is already used for another resource. Do you want to use the same "
+"name for multiple resources? (If you decline now, the resource won't be "
+"added)."
+msgstr ""
+"這個名稱已被另一項資源使用。你想要覆寫並使多項資源使用相同的名稱嗎？\n"
+"如選擇取消，你的變更將不會被儲存。"
+
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:119
 #, kde-format
 msgctxt "@title:window"
 msgid "Failed to add resource"
 msgstr "加入資源失敗"
 
-#: libs/resourcewidgets/KisResourceUserOperations.cpp:94
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:119
 #, kde-format
 msgctxt "Warning message"
 msgid "Failed to add the resource."
 msgstr "無法加入資源。"
 
-#: libs/resourcewidgets/KisResourceUserOperations.cpp:109
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:133
 #, kde-format
 msgctxt "Question in a dialog/messagebox"
 msgid ""
@@ -18103,13 +18135,13 @@ msgstr ""
 "這個名稱已被另一項資源使用。你想要覆寫並使多項資源使用相同的名稱嗎？\n"
 "如選擇取消，你的變更將不會被儲存。"
 
-#: libs/resourcewidgets/KisResourceUserOperations.cpp:121
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:145
 #, kde-format
 msgctxt "@title:window"
 msgid "Failed to overwrite the resource"
 msgstr "覆寫資源失敗"
 
-#: libs/resourcewidgets/KisResourceUserOperations.cpp:121
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:145
 #, kde-format
 msgctxt "Warning message"
 msgid "Failed to overwrite the resource."
@@ -36652,7 +36684,7 @@ msgstr "編輯子分鏡"
 
 #: plugins/dockers/storyboarddocker/StoryboardDelegate.cpp:136
 #: plugins/dockers/storyboarddocker/StoryboardDelegate.cpp:300
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:497
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:536
 #, kde-format
 msgctxt "suffix in spin box in storyboard that means 'seconds'"
 msgid "s"
@@ -36660,52 +36692,52 @@ msgstr "秒"
 
 #: plugins/dockers/storyboarddocker/StoryboardDelegate.cpp:141
 #: plugins/dockers/storyboarddocker/StoryboardDelegate.cpp:307
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:500
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:539
 #, kde-format
 msgctxt "suffix in spin box in storyboard that means 'frames'"
 msgid "f"
 msgstr "格"
 
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:152
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:171
 #, kde-format
 msgctxt "Storyboard Docker"
 msgid "Storyboard"
 msgstr "分鏡"
 
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:169
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:188
 #, kde-format
 msgctxt "Export storyboard as PDF"
 msgid "Export as PDF"
 msgstr "匯出為 PDF"
 
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:172
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:191
 #, kde-format
 msgctxt "Export storyboard as SVG"
 msgid "Export as SVG"
 msgstr "匯出為 SVG"
 
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:188
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:207
 #, kde-format
 msgctxt "Freeze keyframe positions and ignore storyboard adjustments"
 msgid "Freeze Keyframe Data"
 msgstr "凍結關鍵影格資料"
 
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:217
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:236
 #: plugins/dockers/storyboarddocker/StoryboardView.cpp:279
 #, kde-format
 msgctxt "Add new scene as the last storyboard"
 msgid "Add Scene"
 msgstr "加入場景"
 
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:233
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:252
 #: plugins/dockers/storyboarddocker/StoryboardView.cpp:298
 #, kde-format
 msgctxt "Remove current scene from storyboards"
 msgid "Remove Scene"
 msgstr "移除場景"
 
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:408
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:418
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:426
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:436
 #, kde-format
 msgid ""
 "Please enter correct range. There are no panels in the range of frames "
@@ -40940,23 +40972,23 @@ msgstr "平滑"
 msgid "Oilpaint"
 msgstr "油畫"
 
-#: plugins/filters/palettize/palettize.cpp:117
+#: plugins/filters/palettize/palettize.cpp:114
 #, kde-format
 msgid "Offset Scale:"
 msgstr "偏移比例："
 
-#: plugins/filters/palettize/palettize.cpp:126
+#: plugins/filters/palettize/palettize.cpp:123
 #, kde-format
 msgid "Clip:"
 msgstr "削值："
 
-#: plugins/filters/palettize/palettize.cpp:131
+#: plugins/filters/palettize/palettize.cpp:128
 #, kde-format
 msgctxt "Index as in Index Color"
 msgid "Index:"
 msgstr "索引："
 
-#: plugins/filters/palettize/palettize.cpp:197
+#: plugins/filters/palettize/palettize.cpp:194
 #, kde-format
 msgid "&Palettize..."
 msgstr "調色板配色(&P)…"
@@ -41945,7 +41977,7 @@ msgstr "連接線條："
 msgid "Color Factors"
 msgstr "色彩比例"
 
-#: plugins/generators/pattern/patterngenerator.cpp:122
+#: plugins/generators/pattern/patterngenerator.cpp:117
 #, kde-format
 msgid "&Pattern..."
 msgstr "圖案(&P)…"
@@ -54524,6 +54556,12 @@ msgstr "縮放工具"
 msgctxt "action"
 msgid "Reference Images Tool"
 msgstr "參考圖工具"
+
+#~ msgctxt "Question in a dialog/messagebox"
+#~ msgid ""
+#~ "This name is already used for another resource. Do you want to use the "
+#~ "same name for multiple resources?"
+#~ msgstr "這個名稱已被另一項資源使用。你想要多項資源使用相同的名稱嗎？"
 
 #~ msgid "Could not save preset under name %1, it already exists."
 #~ msgstr "無法儲存筆刷預設作名稱 %1：檔案已存在。"
