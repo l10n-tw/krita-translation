@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-10-07 00:15+0000\n"
-"PO-Revision-Date: 2021-10-06 16:59+0000\n"
+"PO-Revision-Date: 2021-10-07 08:13+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -18039,20 +18039,15 @@ msgid "Rename the resource?"
 msgstr "重新命名資源？"
 
 #: libs/resourcewidgets/KisResourceUserOperations.cpp:69
-#, fuzzy, kde-format
-#| msgctxt "Question in a dialog/messagebox"
-#| msgid ""
-#| "This name is already used for another resource. Do you want to overwrite "
-#| "and use the same name for multiple resources?\n"
-#| "If you cancel, your changes won't be saved."
+#, kde-format
 msgctxt "Question in a dialog/messagebox"
 msgid ""
 "This name is already used for another resource. Do you want to use the same "
 "name for multiple resources?(If you decline now, the resource won't be "
 "renamed)."
 msgstr ""
-"這個名稱已被另一項資源使用。你想要覆寫並使多項資源使用相同的名稱嗎？\n"
-"如選擇取消，你的變更將不會被儲存。"
+"這個名稱已被另一項資源使用。你希望多項資源使用相同的名稱嗎？\n"
+"(如選擇取消，將不會重新命名該資源。)"
 
 #: libs/resourcewidgets/KisResourceUserOperations.cpp:79
 #, kde-format
@@ -18089,28 +18084,21 @@ msgid ""
 msgstr "檔案名稱「%1」已被使用，因此無法加入一個名為「%2」的資源。"
 
 #: libs/resourcewidgets/KisResourceUserOperations.cpp:106
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Rename the resource?"
+#, kde-format
 msgctxt "@title:window"
 msgid "Add the resource?"
-msgstr "重新命名資源？"
+msgstr "加入資源？"
 
 #: libs/resourcewidgets/KisResourceUserOperations.cpp:107
-#, fuzzy, kde-format
-#| msgctxt "Question in a dialog/messagebox"
-#| msgid ""
-#| "This name is already used for another resource. Do you want to overwrite "
-#| "and use the same name for multiple resources?\n"
-#| "If you cancel, your changes won't be saved."
+#, kde-format
 msgctxt "Question in a dialog/messagebox"
 msgid ""
 "This name is already used for another resource. Do you want to use the same "
 "name for multiple resources? (If you decline now, the resource won't be "
 "added)."
 msgstr ""
-"這個名稱已被另一項資源使用。你想要覆寫並使多項資源使用相同的名稱嗎？\n"
-"如選擇取消，你的變更將不會被儲存。"
+"這個名稱已被另一項資源使用。你希望多項資源使用相同的名稱嗎？\n"
+"(如選擇取消，將不會加入該資源。)"
 
 #: libs/resourcewidgets/KisResourceUserOperations.cpp:119
 #, kde-format
@@ -18133,7 +18121,7 @@ msgid ""
 "If you cancel, your changes won't be saved."
 msgstr ""
 "這個名稱已被另一項資源使用。你想要覆寫並使多項資源使用相同的名稱嗎？\n"
-"如選擇取消，你的變更將不會被儲存。"
+"如選擇取消，將不會儲存你的變更。"
 
 #: libs/resourcewidgets/KisResourceUserOperations.cpp:145
 #, kde-format
