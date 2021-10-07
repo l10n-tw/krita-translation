@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-10-06 00:16+0000\n"
+"POT-Creation-Date: 2021-10-07 00:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -14023,7 +14023,7 @@ msgid "Undo"
 msgstr ""
 
 #: libs/command/kundo2group.cpp:359 libs/command/kundo2stack.cpp:1144
-#: libs/ui/KisUndoActionsUpdateManager.cpp:47
+#: libs/ui/KisUndoActionsUpdateManager.cpp:44
 #, kde-format
 msgid "Undo %1"
 msgstr ""
@@ -14035,7 +14035,7 @@ msgid "Redo"
 msgstr ""
 
 #: libs/command/kundo2group.cpp:386 libs/command/kundo2stack.cpp:1170
-#: libs/ui/KisUndoActionsUpdateManager.cpp:52
+#: libs/ui/KisUndoActionsUpdateManager.cpp:49
 #, kde-format
 msgid "Redo %1"
 msgstr ""
@@ -17445,8 +17445,8 @@ msgstr ""
 #: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:187
 #: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:214
 #: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:219
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:408
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:418
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:426
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:436
 #: plugins/extensions/imagesplit/imagesplit.cpp:74
 #: plugins/extensions/imagesplit/imagesplit.cpp:76
 #: plugins/extensions/qmic/kis_qmic_interface.cpp:137
@@ -17973,53 +17973,54 @@ msgid ""
 "Resource filename: %1"
 msgstr ""
 
-#: libs/resourcewidgets/KisResourceUserOperations.cpp:47
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:55
 #, kde-format
 msgctxt "@title:window"
 msgid "Failed to import the resource"
 msgstr ""
 
-#: libs/resourcewidgets/KisResourceUserOperations.cpp:47
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:55
 #, kde-format
 msgctxt "Warning message"
 msgid "Failed to import the resource."
 msgstr ""
 
-#: libs/resourcewidgets/KisResourceUserOperations.cpp:60
-#: libs/resourcewidgets/KisResourceUserOperations.cpp:108
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:68
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:132
 #, kde-format
 msgctxt "@title:window"
 msgid "Rename the resource?"
 msgstr ""
 
-#: libs/resourcewidgets/KisResourceUserOperations.cpp:61
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:69
 #, kde-format
 msgctxt "Question in a dialog/messagebox"
 msgid ""
 "This name is already used for another resource. Do you want to use the same "
-"name for multiple resources?"
+"name for multiple resources?(If you decline now, the resource won't be "
+"renamed)."
 msgstr ""
 
-#: libs/resourcewidgets/KisResourceUserOperations.cpp:69
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:79
 #, kde-format
 msgctxt "@title:window"
 msgid "Failed to rename the resource"
 msgstr ""
 
-#: libs/resourcewidgets/KisResourceUserOperations.cpp:69
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:79
 #, kde-format
 msgctxt "Warning message"
 msgid "Failed to rename the resource."
 msgstr ""
 
-#: libs/resourcewidgets/KisResourceUserOperations.cpp:82
-#: libs/resourcewidgets/KisResourceUserOperations.cpp:87
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:93
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:98
 #, kde-format
 msgctxt "@title:window"
 msgid "Cannot add the resource"
 msgstr ""
 
-#: libs/resourcewidgets/KisResourceUserOperations.cpp:83
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:94
 #, kde-format
 msgctxt "Warning message"
 msgid ""
@@ -18027,26 +18028,41 @@ msgid ""
 "name %3 failed."
 msgstr ""
 
-#: libs/resourcewidgets/KisResourceUserOperations.cpp:88
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:99
 #, kde-format
 msgctxt "Warning message"
 msgid ""
 "The filename %1 is already in use, so adding a resource with name %2 failed."
 msgstr ""
 
-#: libs/resourcewidgets/KisResourceUserOperations.cpp:94
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:106
+#, kde-format
+msgctxt "@title:window"
+msgid "Add the resource?"
+msgstr ""
+
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:107
+#, kde-format
+msgctxt "Question in a dialog/messagebox"
+msgid ""
+"This name is already used for another resource. Do you want to use the same "
+"name for multiple resources? (If you decline now, the resource won't be "
+"added)."
+msgstr ""
+
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:119
 #, kde-format
 msgctxt "@title:window"
 msgid "Failed to add resource"
 msgstr ""
 
-#: libs/resourcewidgets/KisResourceUserOperations.cpp:94
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:119
 #, kde-format
 msgctxt "Warning message"
 msgid "Failed to add the resource."
 msgstr ""
 
-#: libs/resourcewidgets/KisResourceUserOperations.cpp:109
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:133
 #, kde-format
 msgctxt "Question in a dialog/messagebox"
 msgid ""
@@ -18055,13 +18071,13 @@ msgid ""
 "If you cancel, your changes won't be saved."
 msgstr ""
 
-#: libs/resourcewidgets/KisResourceUserOperations.cpp:121
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:145
 #, kde-format
 msgctxt "@title:window"
 msgid "Failed to overwrite the resource"
 msgstr ""
 
-#: libs/resourcewidgets/KisResourceUserOperations.cpp:121
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:145
 #, kde-format
 msgctxt "Warning message"
 msgid "Failed to overwrite the resource."
@@ -35942,7 +35958,7 @@ msgstr ""
 
 #: plugins/dockers/storyboarddocker/StoryboardDelegate.cpp:136
 #: plugins/dockers/storyboarddocker/StoryboardDelegate.cpp:300
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:497
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:536
 #, kde-format
 msgctxt "suffix in spin box in storyboard that means 'seconds'"
 msgid "s"
@@ -35950,52 +35966,52 @@ msgstr ""
 
 #: plugins/dockers/storyboarddocker/StoryboardDelegate.cpp:141
 #: plugins/dockers/storyboarddocker/StoryboardDelegate.cpp:307
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:500
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:539
 #, kde-format
 msgctxt "suffix in spin box in storyboard that means 'frames'"
 msgid "f"
 msgstr ""
 
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:152
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:171
 #, kde-format
 msgctxt "Storyboard Docker"
 msgid "Storyboard"
 msgstr ""
 
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:169
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:188
 #, kde-format
 msgctxt "Export storyboard as PDF"
 msgid "Export as PDF"
 msgstr ""
 
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:172
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:191
 #, kde-format
 msgctxt "Export storyboard as SVG"
 msgid "Export as SVG"
 msgstr ""
 
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:188
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:207
 #, kde-format
 msgctxt "Freeze keyframe positions and ignore storyboard adjustments"
 msgid "Freeze Keyframe Data"
 msgstr ""
 
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:217
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:236
 #: plugins/dockers/storyboarddocker/StoryboardView.cpp:279
 #, kde-format
 msgctxt "Add new scene as the last storyboard"
 msgid "Add Scene"
 msgstr ""
 
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:233
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:252
 #: plugins/dockers/storyboarddocker/StoryboardView.cpp:298
 #, kde-format
 msgctxt "Remove current scene from storyboards"
 msgid "Remove Scene"
 msgstr ""
 
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:408
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:418
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:426
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:436
 #, kde-format
 msgid ""
 "Please enter correct range. There are no panels in the range of frames "
@@ -40182,23 +40198,23 @@ msgstr ""
 msgid "Oilpaint"
 msgstr ""
 
-#: plugins/filters/palettize/palettize.cpp:117
+#: plugins/filters/palettize/palettize.cpp:114
 #, kde-format
 msgid "Offset Scale:"
 msgstr ""
 
-#: plugins/filters/palettize/palettize.cpp:126
+#: plugins/filters/palettize/palettize.cpp:123
 #, kde-format
 msgid "Clip:"
 msgstr ""
 
-#: plugins/filters/palettize/palettize.cpp:131
+#: plugins/filters/palettize/palettize.cpp:128
 #, kde-format
 msgctxt "Index as in Index Color"
 msgid "Index:"
 msgstr ""
 
-#: plugins/filters/palettize/palettize.cpp:197
+#: plugins/filters/palettize/palettize.cpp:194
 #, kde-format
 msgid "&Palettize..."
 msgstr ""
@@ -41187,7 +41203,7 @@ msgstr ""
 msgid "Color Factors"
 msgstr ""
 
-#: plugins/generators/pattern/patterngenerator.cpp:122
+#: plugins/generators/pattern/patterngenerator.cpp:117
 #, kde-format
 msgid "&Pattern..."
 msgstr ""
