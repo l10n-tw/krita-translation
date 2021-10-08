@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-10-07 00:15+0000\n"
+"POT-Creation-Date: 2021-10-08 00:15+0000\n"
 "PO-Revision-Date: 2021-10-07 08:13+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
@@ -14015,13 +14015,13 @@ msgstr "鉛筆"
 msgid "Line"
 msgstr "線條"
 
-#: libs/brush/kis_auto_brush.cpp:388
+#: libs/brush/kis_auto_brush.cpp:406
 #, kde-format
 msgctxt "PaintOp instant preview limitation"
 msgid "Brush Density recommended value 100.0"
 msgstr "筆刷密度建議值為 100.0"
 
-#: libs/brush/kis_auto_brush.cpp:392
+#: libs/brush/kis_auto_brush.cpp:410
 #, kde-format
 msgctxt "PaintOp instant preview limitation"
 msgid "Brush Randomness recommended value 0.0"
@@ -17498,6 +17498,7 @@ msgstr "本機資源"
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:268
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:273
 #: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:326
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:333
 #: plugins/extensions/resourcemanager/resourcemanager.cpp:221
 #: plugins/filters/colorsfilters/kis_multichannel_filter_base.cpp:351
 #: plugins/filters/levelfilter/KisLevelsConfigWidget.cpp:163
@@ -26554,22 +26555,22 @@ msgctxt "option category"
 msgid "Masked Brush"
 msgstr "遮罩筆刷"
 
-#: libs/ui/kis_popup_palette.cpp:148
+#: libs/ui/kis_popup_palette.cpp:151
 #, kde-format
 msgid "Clear color history"
 msgstr "清除色彩歷史記錄"
 
-#: libs/ui/kis_popup_palette.cpp:171
+#: libs/ui/kis_popup_palette.cpp:174
 #, kde-format
 msgid "Mirror Canvas"
 msgstr "畫布鏡像顯示"
 
-#: libs/ui/kis_popup_palette.cpp:180
+#: libs/ui/kis_popup_palette.cpp:183
 #, kde-format
 msgid "Canvas Only"
 msgstr "僅顯示畫布"
 
-#: libs/ui/kis_popup_palette.cpp:184
+#: libs/ui/kis_popup_palette.cpp:187
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:47
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:48
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:67
@@ -26608,12 +26609,12 @@ msgstr "僅顯示畫布"
 msgid "100%"
 msgstr "100%"
 
-#: libs/ui/kis_popup_palette.cpp:187
+#: libs/ui/kis_popup_palette.cpp:190
 #, kde-format
 msgid "Zoom to 100%"
 msgstr "縮放至 100%"
 
-#: libs/ui/kis_popup_palette.cpp:844
+#: libs/ui/kis_popup_palette.cpp:847
 #, kde-format
 msgid ""
 "Click to swap foreground and background colors.\n"
@@ -26622,7 +26623,7 @@ msgstr ""
 "左鍵點擊：交換前景色和背景色\n"
 "右鍵點擊：將前景色和背景色設定為黑色和白色"
 
-#: libs/ui/kis_popup_palette.cpp:949
+#: libs/ui/kis_popup_palette.cpp:952
 #, kde-format
 msgid ""
 "There are no tags available to show in this popup. To add presets, you need "
@@ -38987,24 +38988,30 @@ msgstr "建立資源包"
 msgid "The resource bundle name cannot be empty."
 msgstr "資源包的名稱不能為空。"
 
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:336
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:333
+#, fuzzy, kde-format
+#| msgid "The resource bundle name cannot be empty."
+msgid "The save location cannot be empty."
+msgstr "資源包的名稱不能為空。"
+
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:343
 #, kde-format
 msgctxt "In a dialog asking whether to overwrite a bundle (resource pack)"
 msgid "A bundle with this name already exists."
 msgstr "已經有同名的資源包。"
 
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:337
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:344
 #, kde-format
 msgctxt "In a dialog regarding overwriting a bundle (resource pack)"
 msgid "Do you want to overwrite the existing bundle?"
 msgstr "您確定要覆寫現存的資源包嗎？"
 
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:399
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:406
 #, kde-format
 msgid "Select a directory to save the bundle"
 msgstr "選擇儲存資源包的資料夾"
 
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:489
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:496
 #, kde-format
 msgid "Select file to use as bundle icon"
 msgstr "請選擇用作資源包圖示的檔案"
