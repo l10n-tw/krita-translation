@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-10-08 00:15+0000\n"
-"PO-Revision-Date: 2021-10-07 08:13+0000\n"
+"PO-Revision-Date: 2021-10-08 05:29+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -18047,7 +18047,7 @@ msgid ""
 "name for multiple resources?(If you decline now, the resource won't be "
 "renamed)."
 msgstr ""
-"這個名稱已被另一項資源使用。你希望多項資源使用相同的名稱嗎？\n"
+"這個名稱已被另一項資源使用。您希望多項資源使用相同的名稱嗎？\n"
 "(如選擇取消，將不會重新命名該資源。)"
 
 #: libs/resourcewidgets/KisResourceUserOperations.cpp:79
@@ -18098,7 +18098,7 @@ msgid ""
 "name for multiple resources? (If you decline now, the resource won't be "
 "added)."
 msgstr ""
-"這個名稱已被另一項資源使用。你希望多項資源使用相同的名稱嗎？\n"
+"這個名稱已被另一項資源使用。您希望多項資源使用相同的名稱嗎？\n"
 "(如選擇取消，將不會加入該資源。)"
 
 #: libs/resourcewidgets/KisResourceUserOperations.cpp:119
@@ -18121,8 +18121,8 @@ msgid ""
 "use the same name for multiple resources?\n"
 "If you cancel, your changes won't be saved."
 msgstr ""
-"這個名稱已被另一項資源使用。你想要覆寫並使多項資源使用相同的名稱嗎？\n"
-"如選擇取消，將不會儲存你的變更。"
+"這個名稱已被另一項資源使用。您想要覆寫並使多項資源使用相同的名稱嗎？\n"
+"如選擇取消，將不會儲存您的變更。"
 
 #: libs/resourcewidgets/KisResourceUserOperations.cpp:145
 #, kde-format
@@ -18189,8 +18189,7 @@ msgid ""
 "Tag to be removed: %1\n"
 "Tag's unique name: %2"
 msgstr ""
-"已存在一個使用相同辨識名稱的標籤。若要完成重新命名動作，必須先移除現有的同名"
-"標籤。你要繼續嗎？\n"
+"已存在一個使用相同辨識名稱的標籤。若要完成重新命名動作，必須先移除現有的同名標籤。您要繼續嗎？\n"
 "將會移除的標籤：%1\n"
 "標籤的辨識名稱：%2"
 
@@ -38989,10 +38988,9 @@ msgid "The resource bundle name cannot be empty."
 msgstr "資源包的名稱不能為空。"
 
 #: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:333
-#, fuzzy, kde-format
-#| msgid "The resource bundle name cannot be empty."
+#, kde-format
 msgid "The save location cannot be empty."
-msgstr "資源包的名稱不能為空。"
+msgstr "儲存位置不能為空。"
 
 #: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:343
 #, kde-format
