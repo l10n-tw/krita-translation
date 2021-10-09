@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-10-08 00:15+0000\n"
+"POT-Creation-Date: 2021-10-09 00:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -7273,10 +7273,12 @@ msgstr ""
 #. i18n: context: Action (object_group), Actions (Interaction Tool), ActionCollection (Tools)
 #. i18n: context: Action (object_group), Actions (Interaction Tool), ActionCollection (Tools)
 #. i18n: context: Action (object_group), Actions (Interaction Tool), ActionCollection (Tools)
+#. i18n: ectx: property (text), widget (QLabel, label_6)
 #: krita/data/actions/InteractionTool.action:68
 #: krita/data/actions/InteractionTool.action:73
+#: plugins/dockers/arrangedocker/arrange_docker_widget.ui:338
 #, kde-format
-msgctxt "action"
+msgctxt "Group in the context of Vector Interaction Tool"
 msgid "Group"
 msgstr ""
 
@@ -10347,154 +10349,154 @@ msgstr ""
 #: krita/krita.action:2349
 #, kde-format
 msgctxt "action"
-msgid "&Group Layer"
+msgid "Add a new &Group Layer"
 msgstr ""
 
 #. i18n: context: Action (add_new_group_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2351
 #, kde-format
 msgctxt "action"
-msgid "Group Layer"
+msgid "Add a new Group Layer"
 msgstr ""
 
 #. i18n: context: Action (add_new_clone_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2361
 #, kde-format
 msgctxt "action"
-msgid "&Clone Layer"
+msgid "Add a new &Clone Layer"
 msgstr ""
 
 #. i18n: context: Action (add_new_clone_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2363
 #, kde-format
 msgctxt "action"
-msgid "Clone Layer"
+msgid "Add a new Clone Layer"
 msgstr ""
 
 #. i18n: context: Action (add_new_shape_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2373
 #, kde-format
 msgctxt "action"
-msgid "&Vector Layer"
+msgid "Add a new &Vector Layer"
 msgstr ""
 
 #. i18n: context: Action (add_new_shape_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2375
 #, kde-format
 msgctxt "action"
-msgid "Vector Layer"
+msgid "Add a new Vector Layer"
 msgstr ""
 
 #. i18n: context: Action (add_new_adjustment_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2385
 #, kde-format
 msgctxt "action"
-msgid "&Filter Layer..."
+msgid "Add a new &Filter Layer..."
 msgstr ""
 
 #. i18n: context: Action (add_new_adjustment_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2387
 #, kde-format
 msgctxt "action"
-msgid "Filter Layer"
+msgid "Add a new Filter Layer"
 msgstr ""
 
 #. i18n: context: Action (add_new_fill_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2397
 #, kde-format
 msgctxt "action"
-msgid "&Fill Layer..."
+msgid "Add a new &Fill Layer..."
 msgstr ""
 
 #. i18n: context: Action (add_new_fill_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2399
 #, kde-format
 msgctxt "action"
-msgid "Fill Layer"
+msgid "Add a new Fill Layer"
 msgstr ""
 
 #. i18n: context: Action (add_new_file_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2409
 #, kde-format
 msgctxt "action"
-msgid "&File Layer..."
+msgid "Add a new &File Layer..."
 msgstr ""
 
 #. i18n: context: Action (add_new_file_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2411
 #, kde-format
 msgctxt "action"
-msgid "File Layer"
+msgid "Add a new File Layer"
 msgstr ""
 
 #. i18n: context: Action (add_new_transparency_mask), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2421
 #, kde-format
 msgctxt "action"
-msgid "&Transparency Mask"
+msgid "Add a new &Transparency Mask"
 msgstr ""
 
 #. i18n: context: Action (add_new_transparency_mask), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2423
 #, kde-format
 msgctxt "action"
-msgid "Transparency Mask"
+msgid "Add a new Transparency Mask"
 msgstr ""
 
 #. i18n: context: Action (add_new_filter_mask), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2433
 #, kde-format
 msgctxt "action"
-msgid "&Filter Mask..."
+msgid "Add a new &Filter Mask..."
 msgstr ""
 
 #. i18n: context: Action (add_new_filter_mask), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2435
 #, kde-format
 msgctxt "action"
-msgid "Filter Mask"
+msgid "Add a new Filter Mask"
 msgstr ""
 
 #. i18n: context: Action (add_new_colorize_mask), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2445
 #, kde-format
 msgctxt "action"
-msgid "&Colorize Mask"
+msgid "Add a new &Colorize Mask"
 msgstr ""
 
 #. i18n: context: Action (add_new_colorize_mask), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2447
 #, kde-format
 msgctxt "action"
-msgid "Colorize Mask"
+msgid "Add a new Colorize Mask"
 msgstr ""
 
 #. i18n: context: Action (add_new_transform_mask), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2457
 #, kde-format
 msgctxt "action"
-msgid "&Transform Mask"
+msgid "Add a new &Transform Mask"
 msgstr ""
 
 #. i18n: context: Action (add_new_transform_mask), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2459
 #, kde-format
 msgctxt "action"
-msgid "Transform Mask"
+msgid "Add a new Transform Mask"
 msgstr ""
 
 #. i18n: context: Action (add_new_selection_mask), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2469
 #, kde-format
 msgctxt "action"
-msgid "&Local Selection"
+msgid "Add a new &Local Selection"
 msgstr ""
 
 #. i18n: context: Action (add_new_selection_mask), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2471
 #, kde-format
 msgctxt "action"
-msgid "Local Selection"
+msgid "Add a new Local Selection"
 msgstr ""
 
 #. i18n: context: Action (isolate_active_layer), Actions (Layers), ActionCollection (Krita)
@@ -10601,14 +10603,14 @@ msgstr ""
 #: krita/krita.action:2565
 #, kde-format
 msgctxt "action"
-msgid "&Paint Layer"
+msgid "Add a new &Paint Layer"
 msgstr ""
 
 #. i18n: context: Action (add_new_paint_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2567
 #, kde-format
 msgctxt "action"
-msgid "Paint Layer"
+msgid "Add a new Paint Layer"
 msgstr ""
 
 #. i18n: context: Action (new_from_visible), Actions (Layers), ActionCollection (Krita)
@@ -11633,6 +11635,7 @@ msgstr ""
 
 #: krita/krita5.xmlgui:233 plugins/dockers/layerdocker/LayerBox.cpp:726
 #, kde-format
+msgctxt "A group of layers"
 msgid "&Group"
 msgstr ""
 
@@ -15824,12 +15827,10 @@ msgstr ""
 msgid "Clone Layer"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label_6)
 #: libs/impex/KisExportCheckRegistry.cpp:100
 #: libs/ui/kis_layer_manager.cc:628 libs/ui/kis_node_manager.cpp:1501
-#: libs/ui/KisPaletteEditor.cpp:421 libs/widgets/kis_palette_view.cpp:115
-#: plugins/dockers/arrangedocker/arrange_docker_widget.ui:338
 #, kde-format
+msgctxt "A group of layers"
 msgid "Group"
 msgstr ""
 
@@ -17494,55 +17495,55 @@ msgstr ""
 msgid "2. The resource location at %1 is not writable."
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:553
+#: libs/resources/KisResourceLocator.cpp:558
 #, kde-format
 msgid "Could not add %1 to the database"
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:574
-#: libs/resources/KisResourceLocator.cpp:906
+#: libs/resources/KisResourceLocator.cpp:579
+#: libs/resources/KisResourceLocator.cpp:911
 #, kde-format
 msgid "Could not remove storage %1 from the database"
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:688
+#: libs/resources/KisResourceLocator.cpp:693
 #, kde-format
 msgid ""
 "Krita is running for the first time. Initialization will take some time."
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:695
+#: libs/resources/KisResourceLocator.cpp:700
 #, kde-format
 msgid "3. Could not create the resource location at %1."
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:708
-#: libs/resources/KisResourceLocator.cpp:724
+#: libs/resources/KisResourceLocator.cpp:713
+#: libs/resources/KisResourceLocator.cpp:729
 #, kde-format
 msgid "Could not copy resource %1 to %2"
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:720
+#: libs/resources/KisResourceLocator.cpp:725
 #, kde-format
 msgid "Installing the resources from bundle %1."
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:742
+#: libs/resources/KisResourceLocator.cpp:747
 #, kde-format
 msgid "Initializing the resources."
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:756
+#: libs/resources/KisResourceLocator.cpp:761
 #, kde-format
 msgid "Could not add storage %1 to the cache database"
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:777
+#: libs/resources/KisResourceLocator.cpp:782
 #, kde-format
 msgid "Temporary Resources"
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:896
+#: libs/resources/KisResourceLocator.cpp:901
 #, kde-format
 msgid "Could not synchronize %1 with the database"
 msgstr ""
@@ -17562,8 +17563,7 @@ msgstr ""
 #: libs/resources/KisResourceModel.cpp:118
 #: libs/resources/KisStorageModel.cpp:433
 #: libs/resourcewidgets/dbexplorer/DlgDbExplorer.cpp:70
-#: libs/ui/KisPaletteEditor.cpp:217 libs/ui/KisPaletteEditor.cpp:423
-#: libs/widgets/kis_palette_view.cpp:117 plugins/python/filtermanager/components/filtermanagertreemodel.py:18
+#: plugins/python/filtermanager/components/filtermanagertreemodel.py:18
 #: plugins/python/scripter/ui_scripter/tabwidgets/debuggerwidget/debuggertable.py:16
 #, kde-format
 msgid "Name"
@@ -19309,10 +19309,8 @@ msgstr ""
 #. i18n: ectx: property (windowTitle), widget (QDialog, VideoHDRMetadataOptionsDialog)
 #. i18n: ectx: property (windowTitle), widget (QDialog, FilterDialog)
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgImportImageSequence)
-#. i18n: ectx: property (windowTitle), widget (QDialog, WdgDlgPaletteEditor)
 #. i18n: ectx: property (windowTitle), widget (QWidget, DlgHeifImport)
 #: libs/ui/animation/VideoHDRMetadataOptionsDialog.ui:18
-#: libs/ui/forms/WdgDlgPaletteEditor.ui:18
 #: libs/ui/forms/wdgfilterdialog.ui:30 libs/ui/forms/wdgimportimagesequence.ui:18
 #: libs/widgets/WdgDlgInternalColorSelector.ui:18
 #: plugins/impex/heif/DlgHeifImport.ui:14
@@ -21039,24 +21037,28 @@ msgstr ""
 #: libs/ui/dialogs/KisDlgPaletteEditor.cpp:39
 #: libs/ui/forms/WdgDlgPaletteEditor.ui:82
 #, kde-format
-msgid "Add a group"
+msgid "Add a swatch group"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QToolButton, bnDelGroup)
 #: libs/ui/dialogs/KisDlgPaletteEditor.cpp:40
-#: libs/ui/forms/WdgDlgPaletteEditor.ui:143
+#: libs/ui/forms/WdgDlgPaletteEditor.ui:150
 #, kde-format
-msgid "Delete this group"
+msgctxt "Group as Swatch Group in a Palette"
+msgid "Remove selected group"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QToolButton, bnRenGroup)
 #: libs/ui/dialogs/KisDlgPaletteEditor.cpp:41
-#: libs/ui/forms/WdgDlgPaletteEditor.ui:130
+#: libs/ui/forms/WdgDlgPaletteEditor.ui:137
 #, kde-format
-msgid "Rename this group"
+msgctxt "Group as Swatch Group in a Palette"
+msgid "Rename selected group"
 msgstr ""
 
+#. i18n: ectx: property (windowTitle), widget (QDialog, WdgDlgPaletteEditor)
 #: libs/ui/dialogs/KisDlgPaletteEditor.cpp:45
+#: libs/ui/forms/WdgDlgPaletteEditor.ui:18
 #, kde-format
 msgid "Palette Editor"
 msgstr ""
@@ -21065,36 +21067,36 @@ msgstr ""
 #: libs/ui/dialogs/KisDlgPaletteEditor.cpp:48
 #: libs/ui/forms/WdgDlgPaletteEditor.ui:27
 #, kde-format
-msgid "Palette settings"
+msgid "Palette options"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, labelName)
 #: libs/ui/dialogs/KisDlgPaletteEditor.cpp:49
 #: libs/ui/forms/WdgDlgPaletteEditor.ui:33
 #, kde-format
-msgid "Palette Name"
+msgid "Palette name:"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, gbxGroup)
 #: libs/ui/dialogs/KisDlgPaletteEditor.cpp:52
 #: libs/ui/forms/WdgDlgPaletteEditor.ui:92
 #, kde-format
-msgid "Group settings"
+msgid "Swatch Group options"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, labelColCount)
 #: libs/ui/dialogs/KisDlgPaletteEditor.cpp:53
 #: libs/ui/forms/WdgDlgPaletteEditor.ui:43
 #, kde-format
-msgid "Column count"
+msgid "Columns of swatches:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, labelRowCount)
 #: libs/ui/dialogs/KisDlgPaletteEditor.cpp:54
-#: libs/ui/forms/WdgDlgPaletteEditor.ui:101
+#: libs/ui/forms/WdgDlgPaletteEditor.ui:108
 #: libs/ui/KisPaletteEditor.cpp:221
 #, kde-format
-msgid "Row count"
+msgid "Rows of swatches in group:"
 msgstr ""
 
 #: libs/ui/dialogs/KisDlgSavePreset.cpp:70
@@ -22243,7 +22245,13 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: libs/ui/forms/WdgDlgPaletteEditor.ui:53
 #, kde-format
-msgid "Storage Location"
+msgid "Storage location:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelColorGroupList)
+#: libs/ui/forms/WdgDlgPaletteEditor.ui:98
+#, kde-format
+msgid "Swatch group:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblProfiles)
@@ -24499,10 +24507,8 @@ msgstr ""
 #. i18n: ectx: property (text), widget (KColorButton, colorFillSelector)
 #: libs/ui/forms/wdgstrokeselectionproperties.ui:114
 #: libs/ui/forms/wdgstrokeselectionproperties.ui:232
-#: libs/ui/KisPaletteEditor.cpp:375 libs/ui/KisPaletteEditor.cpp:424
 #: libs/ui/layerstyles/WdgColorOverlay.ui:27
-#: libs/ui/layerstyles/WdgStroke.ui:138 libs/widgets/kis_palette_view.cpp:118
-#: plugins/extensions/layersplit/layersplit.cpp:203
+#: libs/ui/layerstyles/WdgStroke.ui:138 plugins/extensions/layersplit/layersplit.cpp:203
 #: plugins/generators/solid/colorgenerator.h:41
 #, kde-format
 msgid "Color"
@@ -27410,8 +27416,7 @@ msgstr ""
 
 #: libs/ui/KisPaletteEditor.cpp:101
 #, kde-format
-msgctxt "Label for line edit to set a palette name."
-msgid "Name"
+msgid "New palette name:"
 msgstr ""
 
 #: libs/ui/KisPaletteEditor.cpp:106
@@ -27429,10 +27434,15 @@ msgstr ""
 msgid "Do you want to store this palette in your current image?"
 msgstr ""
 
-#: libs/ui/KisPaletteEditor.cpp:245 libs/widgets/kis_palette_view.cpp:168
+#: libs/ui/KisPaletteEditor.cpp:217 libs/ui/KisPaletteEditor.cpp:274
+#, kde-format
+msgid "New swatch group name:"
+msgstr ""
+
+#: libs/ui/KisPaletteEditor.cpp:245
 #, kde-format
 msgctxt "@title:dialog"
-msgid "Removing Group"
+msgid "Removing Swatch Group"
 msgstr ""
 
 #: libs/ui/KisPaletteEditor.cpp:249 libs/widgets/kis_palette_view.cpp:171
@@ -27441,22 +27451,17 @@ msgctxt "Shows up when deleting a swatch group"
 msgid "Keep the Colors"
 msgstr ""
 
-#: libs/ui/KisPaletteEditor.cpp:274
-#, kde-format
-msgctxt "Renaming swatch group"
-msgid "New name"
-msgstr ""
-
 #: libs/ui/KisPaletteEditor.cpp:321 libs/ui/KisPaletteEditor.cpp:412
 #, kde-format
 msgctxt "Default name for a color swatch"
 msgid "Color %1"
 msgstr ""
 
-#: libs/ui/KisPaletteEditor.cpp:355
+#: libs/ui/KisPaletteEditor.cpp:355 libs/ui/KisPaletteEditor.cpp:400
+#: libs/widgets/kis_palette_view.cpp:103
 #, kde-format
 msgctxt "@title:dialog"
-msgid "Add a Color"
+msgid "Add a new Color Swatch"
 msgstr ""
 
 #: libs/ui/KisPaletteEditor.cpp:369 libs/ui/KisPaletteEditor.cpp:419
@@ -27471,30 +27476,31 @@ msgstr ""
 #: libs/ui/KisPaletteEditor.cpp:373 libs/ui/KisPaletteEditor.cpp:422
 #: libs/widgets/kis_palette_view.cpp:116
 #, kde-format
-msgid "ID"
+msgid "Swatch ID:"
 msgstr ""
 
-#: libs/ui/KisPaletteEditor.cpp:374
+#: libs/ui/KisPaletteEditor.cpp:374 libs/ui/KisPaletteEditor.cpp:423
+#: libs/widgets/kis_palette_view.cpp:117
 #, kde-format
-msgctxt "Name of the color swatch"
-msgid "Color swatch name"
+msgid "Color swatch name:"
 msgstr ""
 
-#: libs/ui/KisPaletteEditor.cpp:376
+#: libs/ui/KisPaletteEditor.cpp:375 libs/ui/KisPaletteEditor.cpp:424
+#: libs/widgets/kis_palette_view.cpp:118
 #, kde-format
-msgid "Spot color"
+msgctxt "Color as the Color of a Swatch in a Palette"
+msgid "Color:"
 msgstr ""
 
-#: libs/ui/KisPaletteEditor.cpp:400 libs/widgets/kis_palette_view.cpp:103
+#: libs/ui/KisPaletteEditor.cpp:376 libs/ui/KisPaletteEditor.cpp:425
+#: libs/widgets/kis_palette_view.cpp:119
 #, kde-format
-msgctxt "@title:dialog"
-msgid "Add a new Colorset Entry"
+msgid "Spot color:"
 msgstr ""
 
-#: libs/ui/KisPaletteEditor.cpp:425 libs/widgets/kis_palette_view.cpp:119
+#: libs/ui/KisPaletteEditor.cpp:421 libs/widgets/kis_palette_view.cpp:115
 #, kde-format
-msgctxt "Spot color"
-msgid "Spot"
+msgid "Swatch Group:"
 msgstr ""
 
 #: libs/ui/KisPaletteEditor.cpp:543 libs/ui/KisPaletteEditor.cpp:546
@@ -27541,11 +27547,13 @@ msgstr ""
 
 #: libs/ui/KisTemplateCreateDia.cpp:106
 #, kde-format
+msgctxt "Group as in Template Group"
 msgid "Group:"
 msgstr ""
 
 #: libs/ui/KisTemplateCreateDia.cpp:120
 #, kde-format
+msgctxt "Group as in Template Group"
 msgid "&Add Group..."
 msgstr ""
 
@@ -27595,23 +27603,25 @@ msgid "Select an image"
 msgstr ""
 
 #: libs/ui/KisTemplateCreateDia.cpp:407 libs/ui/KisTemplateCreateDia.cpp:410
-#: plugins/python/palette_docker/palette_docker.py:72
 #, kde-format
+msgctxt "Group as in Template Group"
 msgid "Add Group"
 msgstr ""
 
 #: libs/ui/KisTemplateCreateDia.cpp:407
 #, kde-format
+msgctxt "Group as in Template Group"
 msgid "Enter group name:"
 msgstr ""
 
 #: libs/ui/KisTemplateCreateDia.cpp:410
 #, kde-format
-msgid "This name is already used."
+msgid "This name has already been used."
 msgstr ""
 
 #: libs/ui/KisTemplateCreateDia.cpp:434
 #, kde-format
+msgctxt "Group as in Template Group"
 msgid "Do you really want to remove that group?"
 msgstr ""
 
@@ -30806,13 +30816,13 @@ msgstr ""
 
 #: libs/widgets/kis_palette_view.cpp:107
 #, kde-format
-msgctxt "Name for default group"
+msgctxt "Name for default swatch group"
 msgid "Default"
 msgstr ""
 
 #: libs/widgets/kis_palette_view.cpp:121
 #, kde-format
-msgctxt "Part of a default name for a color"
+msgctxt "Prefix of a color swatch default name, as in Color 1"
 msgid "Color"
 msgstr ""
 
@@ -30832,6 +30842,12 @@ msgstr ""
 #, kde-format
 msgctxt "Name for a group"
 msgid "Name"
+msgstr ""
+
+#: libs/widgets/kis_palette_view.cpp:168
+#, kde-format
+msgctxt "@title:dialog"
+msgid "Removing Group"
 msgstr ""
 
 #: libs/widgets/KisAngleSelector.cpp:214
@@ -30961,7 +30977,7 @@ msgstr ""
 msgid "Recent:"
 msgstr ""
 
-#: libs/widgets/KoColorSetWidget.cpp:94 plugins/dockers/palettedocker/palettedocker_dock.cpp:123
+#: libs/widgets/KoColorSetWidget.cpp:94
 #, kde-format
 msgid "Choose palette"
 msgstr ""
@@ -35135,29 +35151,34 @@ msgstr ""
 
 #: plugins/dockers/palettedocker/palettedocker_dock.cpp:67
 #, kde-format
-msgid "Add a color"
+msgid "Add a new color swatch"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, bnRemove)
 #: plugins/dockers/palettedocker/palettedocker_dock.cpp:68
 #: plugins/dockers/palettedocker/wdgpalettedock.ui:121
 #, kde-format
-msgid "Delete color"
+msgid "Remove swatch or group"
 msgstr ""
 
 #: plugins/dockers/palettedocker/palettedocker_dock.cpp:69
 #, kde-format
-msgid "Modify this spot"
+msgid "Edit swatch or group"
 msgstr ""
 
 #: plugins/dockers/palettedocker/palettedocker_dock.cpp:70
 #, kde-format
-msgid "Edit this palette"
+msgid "Edit current palette"
 msgstr ""
 
 #: plugins/dockers/palettedocker/palettedocker_dock.cpp:71
 #, kde-format
-msgid "Save this palette"
+msgid "Save current palette"
+msgstr ""
+
+#: plugins/dockers/palettedocker/palettedocker_dock.cpp:123
+#, kde-format
+msgid "Load a palette"
 msgstr ""
 
 #: plugins/dockers/palettedocker/palettedocker_dock.cpp:217
@@ -45453,7 +45474,7 @@ msgctxt "type of a brush engine, shown in the list of brush engines"
 msgid "Grid"
 msgstr ""
 
-#: plugins/paintops/gridbrush/kis_grid_paintop_settings.cpp:196
+#: plugins/paintops/gridbrush/kis_grid_paintop_settings.cpp:198
 #, kde-format
 msgid "Division Level"
 msgstr ""
@@ -49632,6 +49653,11 @@ msgstr ""
 
 #: plugins/python/palette_docker/palette_docker.py:63
 msgid "Set"
+msgstr ""
+
+#: plugins/python/palette_docker/palette_docker.py:72
+msgctxt "Group as Color Group in a Palette"
+msgid "Add Group"
 msgstr ""
 
 #: plugins/python/palette_docker/palette_docker.py:75
