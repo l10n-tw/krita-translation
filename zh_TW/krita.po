@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-10-10 00:16+0000\n"
-"PO-Revision-Date: 2021-10-08 05:29+0000\n"
+"PO-Revision-Date: 2021-10-10 16:14+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -7281,8 +7281,7 @@ msgstr "垂直居中"
 #: krita/data/actions/InteractionTool.action:68
 #: krita/data/actions/InteractionTool.action:73
 #: plugins/dockers/arrangedocker/arrange_docker_widget.ui:338
-#, fuzzy, kde-format
-#| msgid "Group"
+#, kde-format
 msgctxt "Group in the context of Vector Interaction Tool"
 msgid "Group"
 msgstr "群組"
@@ -10354,198 +10353,157 @@ msgstr "切換至先前選取的圖層"
 
 #. i18n: context: Action (add_new_group_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2349
-#, fuzzy, kde-format
-#| msgctxt "@title:dialog"
-#| msgid "Add a new group"
+#, kde-format
 msgctxt "action"
 msgid "Add a new &Group Layer"
-msgstr "新增色彩群組"
+msgstr "新增群組圖層(&G)"
 
 #. i18n: context: Action (add_new_group_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2351
-#, fuzzy, kde-format
-#| msgctxt "@title:dialog"
-#| msgid "Add a new group"
+#, kde-format
 msgctxt "action"
 msgid "Add a new Group Layer"
-msgstr "新增色彩群組"
+msgstr "新增群組圖層"
 
 #. i18n: context: Action (add_new_clone_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2361
-#, fuzzy, kde-format
-#| msgid "Change Clone Layer"
+#, kde-format
 msgctxt "action"
 msgid "Add a new &Clone Layer"
-msgstr "變更再製圖層"
+msgstr "新增再製圖層(&C)"
 
 #. i18n: context: Action (add_new_clone_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2363
-#, fuzzy, kde-format
-#| msgid "Change Clone Layer"
+#, kde-format
 msgctxt "action"
 msgid "Add a new Clone Layer"
-msgstr "變更再製圖層"
+msgstr "新增再製圖層"
 
 #. i18n: context: Action (add_new_shape_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2373
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "&Vector Layer"
+#, kde-format
 msgctxt "action"
 msgid "Add a new &Vector Layer"
-msgstr "向量圖層(&V)"
+msgstr "新增向量圖層(&V)"
 
 #. i18n: context: Action (add_new_shape_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2375
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Vector Layer"
+#, kde-format
 msgctxt "action"
 msgid "Add a new Vector Layer"
-msgstr "向量圖層"
+msgstr "新增向量圖層"
 
 #. i18n: context: Action (add_new_adjustment_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2385
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "&Filter Layer..."
+#, kde-format
 msgctxt "action"
 msgid "Add a new &Filter Layer..."
-msgstr "濾鏡圖層(&F)…"
+msgstr "新增濾鏡圖層(&F)…"
 
 #. i18n: context: Action (add_new_adjustment_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2387
-#, fuzzy, kde-format
-#| msgid "New Filter Layer"
+#, kde-format
 msgctxt "action"
 msgid "Add a new Filter Layer"
-msgstr "建立濾鏡圖層"
+msgstr "新增濾鏡圖層"
 
 #. i18n: context: Action (add_new_fill_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2397
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "&Fill Layer..."
+#, kde-format
 msgctxt "action"
 msgid "Add a new &Fill Layer..."
-msgstr "填充圖層(&F)…"
+msgstr "新增填充圖層(&F)…"
 
 #. i18n: context: Action (add_new_fill_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2399
-#, fuzzy, kde-format
-#| msgctxt "(qtundo-format)"
-#| msgid "Change File Layer"
+#, kde-format
 msgctxt "action"
 msgid "Add a new Fill Layer"
-msgstr "變更檔案圖層"
+msgstr "新增填充圖層"
 
 #. i18n: context: Action (add_new_file_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2409
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "&File Layer..."
+#, kde-format
 msgctxt "action"
 msgid "Add a new &File Layer..."
-msgstr "檔案圖層(&F)…"
+msgstr "新增檔案圖層(&F)…"
 
 #. i18n: context: Action (add_new_file_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2411
-#, fuzzy, kde-format
-#| msgctxt "(qtundo-format)"
-#| msgid "Change File Layer"
+#, kde-format
 msgctxt "action"
 msgid "Add a new File Layer"
-msgstr "變更檔案圖層"
+msgstr "新增檔案圖層"
 
 #. i18n: context: Action (add_new_transparency_mask), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2421
-#, fuzzy, kde-format
-#| msgctxt "(qtundo-format)"
-#| msgid "Add Transparency Mask"
+#, kde-format
 msgctxt "action"
 msgid "Add a new &Transparency Mask"
-msgstr "新增透明度遮罩"
+msgstr "新增透明度遮罩(&T)"
 
 #. i18n: context: Action (add_new_transparency_mask), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2423
-#, fuzzy, kde-format
-#| msgctxt "(qtundo-format)"
-#| msgid "Add Transparency Mask"
+#, kde-format
 msgctxt "action"
 msgid "Add a new Transparency Mask"
 msgstr "新增透明度遮罩"
 
 #. i18n: context: Action (add_new_filter_mask), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2433
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "as &Filter Mask..."
+#, kde-format
 msgctxt "action"
 msgid "Add a new &Filter Mask..."
-msgstr "作為濾鏡遮罩(&F)…"
+msgstr "新增濾鏡遮罩(&F)…"
 
 #. i18n: context: Action (add_new_filter_mask), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2435
-#, fuzzy, kde-format
-#| msgctxt "(qtundo-format)"
-#| msgid "Add Filter Mask"
+#, kde-format
 msgctxt "action"
 msgid "Add a new Filter Mask"
 msgstr "新增濾鏡遮罩"
 
 #. i18n: context: Action (add_new_colorize_mask), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2445
-#, fuzzy, kde-format
-#| msgctxt "(qtundo-format)"
-#| msgid "Add Colorize Mask"
+#, kde-format
 msgctxt "action"
 msgid "Add a new &Colorize Mask"
-msgstr "新增著色遮罩"
+msgstr "新增著色遮罩(&M)"
 
 #. i18n: context: Action (add_new_colorize_mask), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2447
-#, fuzzy, kde-format
-#| msgctxt "(qtundo-format)"
-#| msgid "Add Colorize Mask"
+#, kde-format
 msgctxt "action"
 msgid "Add a new Colorize Mask"
 msgstr "新增著色遮罩"
 
 #. i18n: context: Action (add_new_transform_mask), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2457
-#, fuzzy, kde-format
-#| msgctxt "(qtundo-format)"
-#| msgid "Add Transform Mask"
+#, kde-format
 msgctxt "action"
 msgid "Add a new &Transform Mask"
-msgstr "新增變形遮罩"
+msgstr "新增變形遮罩(&T)"
 
 #. i18n: context: Action (add_new_transform_mask), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2459
-#, fuzzy, kde-format
-#| msgctxt "(qtundo-format)"
-#| msgid "Add Transform Mask"
+#, kde-format
 msgctxt "action"
 msgid "Add a new Transform Mask"
 msgstr "新增變形遮罩"
 
 #. i18n: context: Action (add_new_selection_mask), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2469
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "&Local Selection"
+#, kde-format
 msgctxt "action"
 msgid "Add a new &Local Selection"
-msgstr "局部選取區域(&L)"
+msgstr "新增局部選取區域(&L)"
 
 #. i18n: context: Action (add_new_selection_mask), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2471
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Local Selection"
+#, kde-format
 msgctxt "action"
 msgid "Add a new Local Selection"
-msgstr "局部選取區域"
+msgstr "新增局部選取區域"
 
 #. i18n: context: Action (isolate_active_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2481
@@ -10649,21 +10607,17 @@ msgstr "切換圖層 Alpha (透明度) 繼承"
 
 #. i18n: context: Action (add_new_paint_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2565
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "as Paint Layer"
+#, kde-format
 msgctxt "action"
 msgid "Add a new &Paint Layer"
-msgstr "作為顏料圖層"
+msgstr "新增顏料圖層(&P)"
 
 #. i18n: context: Action (add_new_paint_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2567
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "as Paint Layer"
+#, kde-format
 msgctxt "action"
 msgid "Add a new Paint Layer"
-msgstr "作為顏料圖層"
+msgstr "新增顏料圖層"
 
 #. i18n: context: Action (new_from_visible), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2577
@@ -11689,8 +11643,7 @@ msgid "&Select"
 msgstr "選取(&S)"
 
 #: krita/krita5.xmlgui:233 plugins/dockers/layerdocker/LayerBox.cpp:726
-#, fuzzy, kde-format
-#| msgid "&Group"
+#, kde-format
 msgctxt "A group of layers"
 msgid "&Group"
 msgstr "群組(&G)"
@@ -15916,8 +15869,7 @@ msgstr "再製圖層"
 
 #: libs/impex/KisExportCheckRegistry.cpp:100 libs/ui/kis_layer_manager.cc:628
 #: libs/ui/kis_node_manager.cpp:1501
-#, fuzzy, kde-format
-#| msgid "Group"
+#, kde-format
 msgctxt "A group of layers"
 msgid "Group"
 msgstr "群組"
@@ -21248,30 +21200,25 @@ msgstr "Y 位移："
 #. i18n: ectx: property (text), widget (QToolButton, bnAddGroup)
 #: libs/ui/dialogs/KisDlgPaletteEditor.cpp:39
 #: libs/ui/forms/WdgDlgPaletteEditor.ui:82
-#, fuzzy, kde-format
-#| msgctxt "@title:dialog"
-#| msgid "Add a new group"
+#, kde-format
 msgid "Add a swatch group"
 msgstr "新增色彩群組"
 
 #. i18n: ectx: property (text), widget (QToolButton, bnDelGroup)
 #: libs/ui/dialogs/KisDlgPaletteEditor.cpp:40
 #: libs/ui/forms/WdgDlgPaletteEditor.ui:150
-#, fuzzy, kde-format
-#| msgctxt "@info:tooltip"
-#| msgid "Remove selected snapshot"
+#, kde-format
 msgctxt "Group as Swatch Group in a Palette"
 msgid "Remove selected group"
-msgstr "移除選取快照"
+msgstr "移除選取群組"
 
 #. i18n: ectx: property (text), widget (QToolButton, bnRenGroup)
 #: libs/ui/dialogs/KisDlgPaletteEditor.cpp:41
 #: libs/ui/forms/WdgDlgPaletteEditor.ui:137
-#, fuzzy, kde-format
-#| msgid "Rename this group"
+#, kde-format
 msgctxt "Group as Swatch Group in a Palette"
 msgid "Rename selected group"
-msgstr "重新命名此群組"
+msgstr "重新命名選取群組"
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, WdgDlgPaletteEditor)
 #: libs/ui/dialogs/KisDlgPaletteEditor.cpp:45
@@ -21283,43 +21230,37 @@ msgstr "調色板編輯器"
 #. i18n: ectx: property (title), widget (QGroupBox, gbxPalette)
 #: libs/ui/dialogs/KisDlgPaletteEditor.cpp:48
 #: libs/ui/forms/WdgDlgPaletteEditor.ui:27
-#, fuzzy, kde-format
-#| msgid "Pattern Options"
+#, kde-format
 msgid "Palette options"
 msgstr "圖案選項"
 
 #. i18n: ectx: property (text), widget (QLabel, labelName)
 #: libs/ui/dialogs/KisDlgPaletteEditor.cpp:49
 #: libs/ui/forms/WdgDlgPaletteEditor.ui:33
-#, fuzzy, kde-format
-#| msgid "Palette Name"
+#, kde-format
 msgid "Palette name:"
-msgstr "調色板名稱"
+msgstr "調色板名稱："
 
 #. i18n: ectx: property (title), widget (QGroupBox, gbxGroup)
 #: libs/ui/dialogs/KisDlgPaletteEditor.cpp:52
 #: libs/ui/forms/WdgDlgPaletteEditor.ui:92
-#, fuzzy, kde-format
-#| msgctxt "Name for a swatch group"
-#| msgid "Swatch group name"
+#, kde-format
 msgid "Swatch Group options"
-msgstr "調色板分組名稱"
+msgstr "調色板群組選項"
 
 #. i18n: ectx: property (text), widget (QLabel, labelColCount)
 #: libs/ui/dialogs/KisDlgPaletteEditor.cpp:53
 #: libs/ui/forms/WdgDlgPaletteEditor.ui:43
-#, fuzzy, kde-format
-#| msgctxt "Name of the color swatch"
-#| msgid "Color swatch name"
+#, kde-format
 msgid "Columns of swatches:"
-msgstr "色塊名稱"
+msgstr "色塊列數："
 
 #. i18n: ectx: property (text), widget (QLabel, labelRowCount)
 #: libs/ui/dialogs/KisDlgPaletteEditor.cpp:54
 #: libs/ui/forms/WdgDlgPaletteEditor.ui:108 libs/ui/KisPaletteEditor.cpp:221
 #, kde-format
 msgid "Rows of swatches in group:"
-msgstr ""
+msgstr "群組中色塊行數："
 
 #: libs/ui/dialogs/KisDlgSavePreset.cpp:70
 #, kde-format
@@ -22516,18 +22457,15 @@ msgstr "圖層名稱："
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: libs/ui/forms/WdgDlgPaletteEditor.ui:53
-#, fuzzy, kde-format
-#| msgid "Storage Location"
+#, kde-format
 msgid "Storage location:"
-msgstr "儲存空間位置"
+msgstr "儲存空間位置："
 
 #. i18n: ectx: property (text), widget (QLabel, labelColorGroupList)
 #: libs/ui/forms/WdgDlgPaletteEditor.ui:98
-#, fuzzy, kde-format
-#| msgctxt "Name for a swatch group"
-#| msgid "Swatch group name"
+#, kde-format
 msgid "Swatch group:"
-msgstr "調色板分組名稱"
+msgstr "色塊群組："
 
 #. i18n: ectx: property (text), widget (QLabel, lblProfiles)
 #: libs/ui/forms/wdgdlgpngimport.ui:21
@@ -27927,11 +27865,9 @@ msgid "New Palette"
 msgstr "新調色板"
 
 #: libs/ui/KisPaletteEditor.cpp:101
-#, fuzzy, kde-format
-#| msgctxt "Default name for a new palette"
-#| msgid "New Palette"
+#, kde-format
 msgid "New palette name:"
-msgstr "新調色板"
+msgstr "新調色板名稱："
 
 #: libs/ui/KisPaletteEditor.cpp:106
 #, kde-format
@@ -27949,19 +27885,15 @@ msgid "Do you want to store this palette in your current image?"
 msgstr "確定儲存目前影像中的這個調色板？"
 
 #: libs/ui/KisPaletteEditor.cpp:217 libs/ui/KisPaletteEditor.cpp:274
-#, fuzzy, kde-format
-#| msgctxt "Name for a swatch group"
-#| msgid "Swatch group name"
+#, kde-format
 msgid "New swatch group name:"
-msgstr "調色板分組名稱"
+msgstr "色塊群組名稱："
 
 #: libs/ui/KisPaletteEditor.cpp:245
-#, fuzzy, kde-format
-#| msgctxt "@title:dialog"
-#| msgid "Removing Group"
+#, kde-format
 msgctxt "@title:dialog"
 msgid "Removing Swatch Group"
-msgstr "移除群組"
+msgstr "正在移除色塊群組"
 
 #: libs/ui/KisPaletteEditor.cpp:249 libs/widgets/kis_palette_view.cpp:171
 #, kde-format
@@ -27977,12 +27909,10 @@ msgstr "色彩 %1"
 
 #: libs/ui/KisPaletteEditor.cpp:355 libs/ui/KisPaletteEditor.cpp:400
 #: libs/widgets/kis_palette_view.cpp:103
-#, fuzzy, kde-format
-#| msgctxt "@title:dialog"
-#| msgid "Add a new Colorset Entry"
+#, kde-format
 msgctxt "@title:dialog"
 msgid "Add a new Color Swatch"
-msgstr "新增新色彩集合"
+msgstr "新增色塊"
 
 #: libs/ui/KisPaletteEditor.cpp:369 libs/ui/KisPaletteEditor.cpp:419
 #: libs/widgets/kis_palette_view.cpp:114
@@ -27997,43 +27927,33 @@ msgstr ""
 
 #: libs/ui/KisPaletteEditor.cpp:373 libs/ui/KisPaletteEditor.cpp:422
 #: libs/widgets/kis_palette_view.cpp:116
-#, fuzzy, kde-format
-#| msgctxt ""
-#| "./krita/data/bundles/Krita_3_Default_Resources.bundle:palettes/swatch-rgb."
-#| "gpl"
-#| msgid "Swatch RGB"
+#, kde-format
 msgid "Swatch ID:"
-msgstr "RGB 樣本色"
+msgstr "色塊 ID："
 
 #: libs/ui/KisPaletteEditor.cpp:374 libs/ui/KisPaletteEditor.cpp:423
 #: libs/widgets/kis_palette_view.cpp:117
-#, fuzzy, kde-format
-#| msgctxt "Name of the color swatch"
-#| msgid "Color swatch name"
+#, kde-format
 msgid "Color swatch name:"
-msgstr "色塊名稱"
+msgstr "色塊名稱："
 
 #: libs/ui/KisPaletteEditor.cpp:375 libs/ui/KisPaletteEditor.cpp:424
 #: libs/widgets/kis_palette_view.cpp:118
-#, fuzzy, kde-format
-#| msgid "Color:"
+#, kde-format
 msgctxt "Color as the Color of a Swatch in a Palette"
 msgid "Color:"
 msgstr "色彩："
 
 #: libs/ui/KisPaletteEditor.cpp:376 libs/ui/KisPaletteEditor.cpp:425
 #: libs/widgets/kis_palette_view.cpp:119
-#, fuzzy, kde-format
-#| msgid "Spot color"
+#, kde-format
 msgid "Spot color:"
-msgstr "印刷專色"
+msgstr "印刷專色："
 
 #: libs/ui/KisPaletteEditor.cpp:421 libs/widgets/kis_palette_view.cpp:115
-#, fuzzy, kde-format
-#| msgctxt "Name for a swatch group"
-#| msgid "Swatch group name"
+#, kde-format
 msgid "Swatch Group:"
-msgstr "調色板分組名稱"
+msgstr "色塊群組："
 
 #: libs/ui/KisPaletteEditor.cpp:543 libs/ui/KisPaletteEditor.cpp:546
 #, kde-format
@@ -28084,15 +28004,13 @@ msgid "Name:"
 msgstr "名稱："
 
 #: libs/ui/KisTemplateCreateDia.cpp:106
-#, fuzzy, kde-format
-#| msgid "Group:"
+#, kde-format
 msgctxt "Group as in Template Group"
 msgid "Group:"
 msgstr "群組："
 
 #: libs/ui/KisTemplateCreateDia.cpp:120
-#, fuzzy, kde-format
-#| msgid "&Add Group..."
+#, kde-format
 msgctxt "Group as in Template Group"
 msgid "&Add Group..."
 msgstr "新增群組(&A)…"
@@ -28144,28 +28062,24 @@ msgid "Select an image"
 msgstr "選擇影像"
 
 #: libs/ui/KisTemplateCreateDia.cpp:407 libs/ui/KisTemplateCreateDia.cpp:410
-#, fuzzy, kde-format
-#| msgid "Add Group"
+#, kde-format
 msgctxt "Group as in Template Group"
 msgid "Add Group"
 msgstr "新增群組"
 
 #: libs/ui/KisTemplateCreateDia.cpp:407
-#, fuzzy, kde-format
-#| msgid "Enter group name:"
+#, kde-format
 msgctxt "Group as in Template Group"
 msgid "Enter group name:"
 msgstr "輸入群組名稱："
 
 #: libs/ui/KisTemplateCreateDia.cpp:410
-#, fuzzy, kde-format
-#| msgid "This name is already used."
+#, kde-format
 msgid "This name has already been used."
 msgstr "此名稱已經被使用。"
 
 #: libs/ui/KisTemplateCreateDia.cpp:434
-#, fuzzy, kde-format
-#| msgid "Do you really want to remove that group?"
+#, kde-format
 msgctxt "Group as in Template Group"
 msgid "Do you really want to remove that group?"
 msgstr "確定要移除該群組嗎？"
@@ -31542,15 +31456,13 @@ msgid "Select a directory to load..."
 msgstr "選擇要載入的目錄…"
 
 #: libs/widgets/kis_palette_view.cpp:107
-#, fuzzy, kde-format
-#| msgid "Default"
+#, kde-format
 msgctxt "Name for default swatch group"
 msgid "Default"
 msgstr "預設"
 
 #: libs/widgets/kis_palette_view.cpp:121
-#, fuzzy, kde-format
-#| msgid "Color"
+#, kde-format
 msgctxt "Prefix of a color swatch default name, as in Color 1"
 msgid "Color"
 msgstr "色彩"
@@ -35928,44 +35840,36 @@ msgid "Pin navigation controls"
 msgstr "固定瀏覽控制項"
 
 #: plugins/dockers/palettedocker/palettedocker_dock.cpp:67
-#, fuzzy, kde-format
-#| msgctxt "@title:dialog"
-#| msgid "Add a new Colorset Entry"
+#, kde-format
 msgid "Add a new color swatch"
-msgstr "新增新色彩集合"
+msgstr "新增色塊"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, bnRemove)
 #: plugins/dockers/palettedocker/palettedocker_dock.cpp:68
 #: plugins/dockers/palettedocker/wdgpalettedock.ui:121
-#, fuzzy, kde-format
-#| msgid "Rename this group"
+#, kde-format
 msgid "Remove swatch or group"
-msgstr "重新命名此群組"
+msgstr "移除色塊或群組"
 
 #: plugins/dockers/palettedocker/palettedocker_dock.cpp:69
-#, fuzzy, kde-format
-#| msgctxt "Button to edit the selected stop color in the stop gradient editor"
-#| msgid "Edit stop"
+#, kde-format
 msgid "Edit swatch or group"
-msgstr "編輯停駐點"
+msgstr "編輯色塊或群組"
 
 #: plugins/dockers/palettedocker/palettedocker_dock.cpp:70
-#, fuzzy, kde-format
-#| msgid "Remove current palette"
+#, kde-format
 msgid "Edit current palette"
 msgstr "移除目前調色板"
 
 #: plugins/dockers/palettedocker/palettedocker_dock.cpp:71
-#, fuzzy, kde-format
-#| msgid "Remove current palette"
+#, kde-format
 msgid "Save current palette"
-msgstr "移除目前調色板"
+msgstr "儲存目前調色板"
 
 #: plugins/dockers/palettedocker/palettedocker_dock.cpp:123
-#, fuzzy, kde-format
-#| msgid "Add a new palette"
+#, kde-format
 msgid "Load a palette"
-msgstr "新增新調色板"
+msgstr "載入調色板"
 
 #: plugins/dockers/palettedocker/palettedocker_dock.cpp:217
 #, kde-format
@@ -36190,10 +36094,9 @@ msgstr "影片位置："
 
 #. i18n: ectx: property (text), widget (QLabel, labelHoldLastFrameSec)
 #: plugins/dockers/recorder/recorder_export.ui:266
-#, fuzzy, kde-format
-#| msgid "Last Frame"
+#, kde-format
 msgid "Hold Last Frame for:"
-msgstr "末影格"
+msgstr "最後影格保持時長："
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelFpsInput)
 #: plugins/dockers/recorder/recorder_export.ui:323
@@ -50852,8 +50755,6 @@ msgid "Set"
 msgstr "集合"
 
 #: plugins/python/palette_docker/palette_docker.py:72
-#, fuzzy
-#| msgid "Add Group"
 msgctxt "Group as Color Group in a Palette"
 msgid "Add Group"
 msgstr "新增群組"
