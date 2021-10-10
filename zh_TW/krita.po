@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-10-08 00:15+0000\n"
+"POT-Creation-Date: 2021-10-10 00:16+0000\n"
 "PO-Revision-Date: 2021-10-08 05:29+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
@@ -7277,12 +7277,15 @@ msgstr "垂直居中"
 #. i18n: context: Action (object_group), Actions (Interaction Tool), ActionCollection (Tools)
 #. i18n: context: Action (object_group), Actions (Interaction Tool), ActionCollection (Tools)
 #. i18n: context: Action (object_group), Actions (Interaction Tool), ActionCollection (Tools)
+#. i18n: ectx: property (text), widget (QLabel, label_6)
 #: krita/data/actions/InteractionTool.action:68
 #: krita/data/actions/InteractionTool.action:73
-#, kde-format
-msgctxt "action"
+#: plugins/dockers/arrangedocker/arrange_docker_widget.ui:338
+#, fuzzy, kde-format
+#| msgid "Group"
+msgctxt "Group in the context of Vector Interaction Tool"
 msgid "Group"
-msgstr "組合"
+msgstr "群組"
 
 #. i18n: context: Action (object_align_horizontal_left), Actions (Interaction Tool), ActionCollection (Tools)
 #. i18n: context: Action (object_align_horizontal_left), Actions (Interaction Tool), ActionCollection (Tools)
@@ -10351,156 +10354,197 @@ msgstr "切換至先前選取的圖層"
 
 #. i18n: context: Action (add_new_group_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2349
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title:dialog"
+#| msgid "Add a new group"
 msgctxt "action"
-msgid "&Group Layer"
-msgstr "群組圖層(&G)"
+msgid "Add a new &Group Layer"
+msgstr "新增色彩群組"
 
 #. i18n: context: Action (add_new_group_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2351
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title:dialog"
+#| msgid "Add a new group"
 msgctxt "action"
-msgid "Group Layer"
-msgstr "群組圖層"
+msgid "Add a new Group Layer"
+msgstr "新增色彩群組"
 
 #. i18n: context: Action (add_new_clone_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2361
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Change Clone Layer"
 msgctxt "action"
-msgid "&Clone Layer"
-msgstr "再製圖層(&C)"
+msgid "Add a new &Clone Layer"
+msgstr "變更再製圖層"
 
 #. i18n: context: Action (add_new_clone_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2363
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Change Clone Layer"
 msgctxt "action"
-msgid "Clone Layer"
-msgstr "再製圖層"
+msgid "Add a new Clone Layer"
+msgstr "變更再製圖層"
 
 #. i18n: context: Action (add_new_shape_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2373
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "action"
+#| msgid "&Vector Layer"
 msgctxt "action"
-msgid "&Vector Layer"
+msgid "Add a new &Vector Layer"
 msgstr "向量圖層(&V)"
 
 #. i18n: context: Action (add_new_shape_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2375
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "action"
+#| msgid "Vector Layer"
 msgctxt "action"
-msgid "Vector Layer"
+msgid "Add a new Vector Layer"
 msgstr "向量圖層"
 
 #. i18n: context: Action (add_new_adjustment_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2385
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "action"
+#| msgid "&Filter Layer..."
 msgctxt "action"
-msgid "&Filter Layer..."
+msgid "Add a new &Filter Layer..."
 msgstr "濾鏡圖層(&F)…"
 
 #. i18n: context: Action (add_new_adjustment_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2387
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "New Filter Layer"
 msgctxt "action"
-msgid "Filter Layer"
-msgstr "濾鏡圖層"
+msgid "Add a new Filter Layer"
+msgstr "建立濾鏡圖層"
 
 #. i18n: context: Action (add_new_fill_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2397
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "action"
+#| msgid "&Fill Layer..."
 msgctxt "action"
-msgid "&Fill Layer..."
+msgid "Add a new &Fill Layer..."
 msgstr "填充圖層(&F)…"
 
 #. i18n: context: Action (add_new_fill_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2399
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "(qtundo-format)"
+#| msgid "Change File Layer"
 msgctxt "action"
-msgid "Fill Layer"
-msgstr "填充圖層"
+msgid "Add a new Fill Layer"
+msgstr "變更檔案圖層"
 
 #. i18n: context: Action (add_new_file_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2409
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "action"
+#| msgid "&File Layer..."
 msgctxt "action"
-msgid "&File Layer..."
+msgid "Add a new &File Layer..."
 msgstr "檔案圖層(&F)…"
 
 #. i18n: context: Action (add_new_file_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2411
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "(qtundo-format)"
+#| msgid "Change File Layer"
 msgctxt "action"
-msgid "File Layer"
-msgstr "檔案圖層"
+msgid "Add a new File Layer"
+msgstr "變更檔案圖層"
 
 #. i18n: context: Action (add_new_transparency_mask), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2421
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "(qtundo-format)"
+#| msgid "Add Transparency Mask"
 msgctxt "action"
-msgid "&Transparency Mask"
-msgstr "透明度遮罩(&T)"
+msgid "Add a new &Transparency Mask"
+msgstr "新增透明度遮罩"
 
 #. i18n: context: Action (add_new_transparency_mask), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2423
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "(qtundo-format)"
+#| msgid "Add Transparency Mask"
 msgctxt "action"
-msgid "Transparency Mask"
-msgstr "透明度遮罩"
+msgid "Add a new Transparency Mask"
+msgstr "新增透明度遮罩"
 
 #. i18n: context: Action (add_new_filter_mask), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2433
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "action"
+#| msgid "as &Filter Mask..."
 msgctxt "action"
-msgid "&Filter Mask..."
-msgstr "濾鏡遮罩(&F)…"
+msgid "Add a new &Filter Mask..."
+msgstr "作為濾鏡遮罩(&F)…"
 
 #. i18n: context: Action (add_new_filter_mask), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2435
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "(qtundo-format)"
+#| msgid "Add Filter Mask"
 msgctxt "action"
-msgid "Filter Mask"
-msgstr "濾鏡遮罩"
+msgid "Add a new Filter Mask"
+msgstr "新增濾鏡遮罩"
 
 #. i18n: context: Action (add_new_colorize_mask), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2445
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "(qtundo-format)"
+#| msgid "Add Colorize Mask"
 msgctxt "action"
-msgid "&Colorize Mask"
-msgstr "著色遮罩(&C)"
+msgid "Add a new &Colorize Mask"
+msgstr "新增著色遮罩"
 
 #. i18n: context: Action (add_new_colorize_mask), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2447
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "(qtundo-format)"
+#| msgid "Add Colorize Mask"
 msgctxt "action"
-msgid "Colorize Mask"
-msgstr "著色遮罩"
+msgid "Add a new Colorize Mask"
+msgstr "新增著色遮罩"
 
 #. i18n: context: Action (add_new_transform_mask), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2457
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "(qtundo-format)"
+#| msgid "Add Transform Mask"
 msgctxt "action"
-msgid "&Transform Mask"
-msgstr "變形遮罩(&T)"
+msgid "Add a new &Transform Mask"
+msgstr "新增變形遮罩"
 
 #. i18n: context: Action (add_new_transform_mask), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2459
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "(qtundo-format)"
+#| msgid "Add Transform Mask"
 msgctxt "action"
-msgid "Transform Mask"
-msgstr "變形遮罩"
+msgid "Add a new Transform Mask"
+msgstr "新增變形遮罩"
 
 #. i18n: context: Action (add_new_selection_mask), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2469
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "action"
+#| msgid "&Local Selection"
 msgctxt "action"
-msgid "&Local Selection"
+msgid "Add a new &Local Selection"
 msgstr "局部選取區域(&L)"
 
 #. i18n: context: Action (add_new_selection_mask), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2471
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "action"
+#| msgid "Local Selection"
 msgctxt "action"
-msgid "Local Selection"
+msgid "Add a new Local Selection"
 msgstr "局部選取區域"
 
 #. i18n: context: Action (isolate_active_layer), Actions (Layers), ActionCollection (Krita)
@@ -10605,17 +10649,21 @@ msgstr "切換圖層 Alpha (透明度) 繼承"
 
 #. i18n: context: Action (add_new_paint_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2565
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "action"
+#| msgid "as Paint Layer"
 msgctxt "action"
-msgid "&Paint Layer"
-msgstr "顏料圖層(&P)"
+msgid "Add a new &Paint Layer"
+msgstr "作為顏料圖層"
 
 #. i18n: context: Action (add_new_paint_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2567
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "action"
+#| msgid "as Paint Layer"
 msgctxt "action"
-msgid "Paint Layer"
-msgstr "顏料圖層"
+msgid "Add a new Paint Layer"
+msgstr "作為顏料圖層"
 
 #. i18n: context: Action (new_from_visible), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2577
@@ -11641,7 +11689,9 @@ msgid "&Select"
 msgstr "選取(&S)"
 
 #: krita/krita5.xmlgui:233 plugins/dockers/layerdocker/LayerBox.cpp:726
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "&Group"
+msgctxt "A group of layers"
 msgid "&Group"
 msgstr "群組(&G)"
 
@@ -14776,8 +14826,8 @@ msgstr "大小"
 #: plugins/dockers/griddocker/grid_config_widget.ui:230
 #: plugins/dockers/griddocker/grid_config_widget.ui:444
 #: plugins/dockers/griddocker/grid_config_widget.ui:489
-#: plugins/dockers/recorder/recorder_export.ui:208
-#: plugins/dockers/recorder/recorder_export.ui:246
+#: plugins/dockers/recorder/recorder_export.ui:190
+#: plugins/dockers/recorder/recorder_export.ui:228
 #: plugins/filters/blur/kis_wdg_gaussian_blur.cpp:36
 #: plugins/filters/blur/kis_wdg_gaussian_blur.cpp:44
 #: plugins/generators/pattern/kis_wdg_pattern.cpp:40
@@ -15864,12 +15914,11 @@ msgstr ""
 msgid "Clone Layer"
 msgstr "再製圖層"
 
-#. i18n: ectx: property (text), widget (QLabel, label_6)
 #: libs/impex/KisExportCheckRegistry.cpp:100 libs/ui/kis_layer_manager.cc:628
-#: libs/ui/kis_node_manager.cpp:1501 libs/ui/KisPaletteEditor.cpp:421
-#: libs/widgets/kis_palette_view.cpp:115
-#: plugins/dockers/arrangedocker/arrange_docker_widget.ui:338
-#, kde-format
+#: libs/ui/kis_node_manager.cpp:1501
+#, fuzzy, kde-format
+#| msgid "Group"
+msgctxt "A group of layers"
 msgid "Group"
 msgstr "群組"
 
@@ -17536,55 +17585,55 @@ msgstr "1. 無法建立位於 %1 的資源位置。"
 msgid "2. The resource location at %1 is not writable."
 msgstr "2. 位於 %1 的資源位置無法寫入。"
 
-#: libs/resources/KisResourceLocator.cpp:553
+#: libs/resources/KisResourceLocator.cpp:558
 #, kde-format
 msgid "Could not add %1 to the database"
 msgstr "無法新增 %1 至資料庫"
 
-#: libs/resources/KisResourceLocator.cpp:574
-#: libs/resources/KisResourceLocator.cpp:906
+#: libs/resources/KisResourceLocator.cpp:579
+#: libs/resources/KisResourceLocator.cpp:911
 #, kde-format
 msgid "Could not remove storage %1 from the database"
 msgstr "無法從資料庫移除 %1 儲存空間"
 
-#: libs/resources/KisResourceLocator.cpp:688
+#: libs/resources/KisResourceLocator.cpp:693
 #, kde-format
 msgid ""
 "Krita is running for the first time. Initialization will take some time."
 msgstr "Krita 為第一次執行。需要一點時間初始化。"
 
-#: libs/resources/KisResourceLocator.cpp:695
+#: libs/resources/KisResourceLocator.cpp:700
 #, kde-format
 msgid "3. Could not create the resource location at %1."
 msgstr "3. 無法建立位於 %1 的資源位置"
 
-#: libs/resources/KisResourceLocator.cpp:708
-#: libs/resources/KisResourceLocator.cpp:724
+#: libs/resources/KisResourceLocator.cpp:713
+#: libs/resources/KisResourceLocator.cpp:729
 #, kde-format
 msgid "Could not copy resource %1 to %2"
 msgstr "無法複製 %1 資源至 %2"
 
-#: libs/resources/KisResourceLocator.cpp:720
+#: libs/resources/KisResourceLocator.cpp:725
 #, kde-format
 msgid "Installing the resources from bundle %1."
 msgstr "正在從 %1 資源包安裝資源。"
 
-#: libs/resources/KisResourceLocator.cpp:742
+#: libs/resources/KisResourceLocator.cpp:747
 #, kde-format
 msgid "Initializing the resources."
 msgstr "正在初始化資源。"
 
-#: libs/resources/KisResourceLocator.cpp:756
+#: libs/resources/KisResourceLocator.cpp:761
 #, kde-format
 msgid "Could not add storage %1 to the cache database"
 msgstr "無法新增 %1 儲存空間至快取資料庫"
 
-#: libs/resources/KisResourceLocator.cpp:777
+#: libs/resources/KisResourceLocator.cpp:782
 #, kde-format
 msgid "Temporary Resources"
 msgstr "暫存資源"
 
-#: libs/resources/KisResourceLocator.cpp:896
+#: libs/resources/KisResourceLocator.cpp:901
 #, kde-format
 msgid "Could not synchronize %1 with the database"
 msgstr "無法與資料庫同步 %1"
@@ -17604,8 +17653,6 @@ msgstr "儲存空間 ID"
 #: libs/resources/KisResourceModel.cpp:118
 #: libs/resources/KisStorageModel.cpp:433
 #: libs/resourcewidgets/dbexplorer/DlgDbExplorer.cpp:70
-#: libs/ui/KisPaletteEditor.cpp:217 libs/ui/KisPaletteEditor.cpp:423
-#: libs/widgets/kis_palette_view.cpp:117
 #: plugins/python/filtermanager/components/filtermanagertreemodel.py:18
 #: plugins/python/scripter/ui_scripter/tabwidgets/debuggerwidget/debuggertable.py:16
 #, kde-format
@@ -18247,7 +18294,7 @@ msgstr "取代 (覆蓋) 標籤"
 #: libs/ui/input/kis_tool_invocation_action.cpp:43 libs/ui/kis_clipboard.cc:301
 #: libs/ui/utils/KisClipboardUtil.cpp:70
 #: plugins/dockers/gamutmask/forms/wdgGamutMaskChooser.ui:190
-#: plugins/dockers/recorder/recorder_export.ui:693
+#: plugins/dockers/recorder/recorder_export.ui:736
 #: plugins/dockers/recorder/recorder_snapshots_manager.ui:130
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:116
 #: plugins/generators/seexpr/wdgseexpr.ui:179
@@ -19395,10 +19442,9 @@ msgstr "訂製"
 #. i18n: ectx: property (windowTitle), widget (QDialog, VideoHDRMetadataOptionsDialog)
 #. i18n: ectx: property (windowTitle), widget (QDialog, FilterDialog)
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgImportImageSequence)
-#. i18n: ectx: property (windowTitle), widget (QDialog, WdgDlgPaletteEditor)
 #. i18n: ectx: property (windowTitle), widget (QWidget, DlgHeifImport)
 #: libs/ui/animation/VideoHDRMetadataOptionsDialog.ui:18
-#: libs/ui/forms/WdgDlgPaletteEditor.ui:18 libs/ui/forms/wdgfilterdialog.ui:30
+#: libs/ui/forms/wdgfilterdialog.ui:30
 #: libs/ui/forms/wdgimportimagesequence.ui:18
 #: libs/widgets/WdgDlgInternalColorSelector.ui:18
 #: plugins/impex/heif/DlgHeifImport.ui:14
@@ -19427,7 +19473,7 @@ msgstr "顯示"
 #. i18n: ectx: property (text), widget (QLabel, labelX)
 #: libs/ui/animation/VideoHDRMetadataOptionsDialog.ui:46
 #: libs/ui/kis_paintop_box.cc:295
-#: plugins/dockers/recorder/recorder_export.ui:227
+#: plugins/dockers/recorder/recorder_export.ui:209
 #, kde-format
 msgid "x"
 msgstr "x"
@@ -19848,7 +19894,7 @@ msgstr "FF&mpeg："
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #. i18n: ectx: property (text), widget (QLabel, labelResolution)
 #: libs/ui/animation/wdg_animationrenderer.ui:283
-#: plugins/dockers/recorder/recorder_export.ui:284
+#: plugins/dockers/recorder/recorder_export.ui:431
 #, kde-format
 msgid "Render as:"
 msgstr "繪製為："
@@ -21202,25 +21248,34 @@ msgstr "Y 位移："
 #. i18n: ectx: property (text), widget (QToolButton, bnAddGroup)
 #: libs/ui/dialogs/KisDlgPaletteEditor.cpp:39
 #: libs/ui/forms/WdgDlgPaletteEditor.ui:82
-#, kde-format
-msgid "Add a group"
-msgstr "新增群組"
+#, fuzzy, kde-format
+#| msgctxt "@title:dialog"
+#| msgid "Add a new group"
+msgid "Add a swatch group"
+msgstr "新增色彩群組"
 
 #. i18n: ectx: property (text), widget (QToolButton, bnDelGroup)
 #: libs/ui/dialogs/KisDlgPaletteEditor.cpp:40
-#: libs/ui/forms/WdgDlgPaletteEditor.ui:143
-#, kde-format
-msgid "Delete this group"
-msgstr "刪除此群組"
+#: libs/ui/forms/WdgDlgPaletteEditor.ui:150
+#, fuzzy, kde-format
+#| msgctxt "@info:tooltip"
+#| msgid "Remove selected snapshot"
+msgctxt "Group as Swatch Group in a Palette"
+msgid "Remove selected group"
+msgstr "移除選取快照"
 
 #. i18n: ectx: property (text), widget (QToolButton, bnRenGroup)
 #: libs/ui/dialogs/KisDlgPaletteEditor.cpp:41
-#: libs/ui/forms/WdgDlgPaletteEditor.ui:130
-#, kde-format
-msgid "Rename this group"
+#: libs/ui/forms/WdgDlgPaletteEditor.ui:137
+#, fuzzy, kde-format
+#| msgid "Rename this group"
+msgctxt "Group as Swatch Group in a Palette"
+msgid "Rename selected group"
 msgstr "重新命名此群組"
 
+#. i18n: ectx: property (windowTitle), widget (QDialog, WdgDlgPaletteEditor)
 #: libs/ui/dialogs/KisDlgPaletteEditor.cpp:45
+#: libs/ui/forms/WdgDlgPaletteEditor.ui:18
 #, kde-format
 msgid "Palette Editor"
 msgstr "調色板編輯器"
@@ -21228,37 +21283,43 @@ msgstr "調色板編輯器"
 #. i18n: ectx: property (title), widget (QGroupBox, gbxPalette)
 #: libs/ui/dialogs/KisDlgPaletteEditor.cpp:48
 #: libs/ui/forms/WdgDlgPaletteEditor.ui:27
-#, kde-format
-msgid "Palette settings"
-msgstr "調色板設定"
+#, fuzzy, kde-format
+#| msgid "Pattern Options"
+msgid "Palette options"
+msgstr "圖案選項"
 
 #. i18n: ectx: property (text), widget (QLabel, labelName)
 #: libs/ui/dialogs/KisDlgPaletteEditor.cpp:49
 #: libs/ui/forms/WdgDlgPaletteEditor.ui:33
-#, kde-format
-msgid "Palette Name"
+#, fuzzy, kde-format
+#| msgid "Palette Name"
+msgid "Palette name:"
 msgstr "調色板名稱"
 
 #. i18n: ectx: property (title), widget (QGroupBox, gbxGroup)
 #: libs/ui/dialogs/KisDlgPaletteEditor.cpp:52
 #: libs/ui/forms/WdgDlgPaletteEditor.ui:92
-#, kde-format
-msgid "Group settings"
-msgstr "群組設定"
+#, fuzzy, kde-format
+#| msgctxt "Name for a swatch group"
+#| msgid "Swatch group name"
+msgid "Swatch Group options"
+msgstr "調色板分組名稱"
 
 #. i18n: ectx: property (text), widget (QLabel, labelColCount)
 #: libs/ui/dialogs/KisDlgPaletteEditor.cpp:53
 #: libs/ui/forms/WdgDlgPaletteEditor.ui:43
-#, kde-format
-msgid "Column count"
-msgstr "列數"
+#, fuzzy, kde-format
+#| msgctxt "Name of the color swatch"
+#| msgid "Color swatch name"
+msgid "Columns of swatches:"
+msgstr "色塊名稱"
 
 #. i18n: ectx: property (text), widget (QLabel, labelRowCount)
 #: libs/ui/dialogs/KisDlgPaletteEditor.cpp:54
-#: libs/ui/forms/WdgDlgPaletteEditor.ui:101 libs/ui/KisPaletteEditor.cpp:221
+#: libs/ui/forms/WdgDlgPaletteEditor.ui:108 libs/ui/KisPaletteEditor.cpp:221
 #, kde-format
-msgid "Row count"
-msgstr "行數"
+msgid "Rows of swatches in group:"
+msgstr ""
 
 #: libs/ui/dialogs/KisDlgSavePreset.cpp:70
 #, kde-format
@@ -22455,9 +22516,18 @@ msgstr "圖層名稱："
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: libs/ui/forms/WdgDlgPaletteEditor.ui:53
-#, kde-format
-msgid "Storage Location"
+#, fuzzy, kde-format
+#| msgid "Storage Location"
+msgid "Storage location:"
 msgstr "儲存空間位置"
+
+#. i18n: ectx: property (text), widget (QLabel, labelColorGroupList)
+#: libs/ui/forms/WdgDlgPaletteEditor.ui:98
+#, fuzzy, kde-format
+#| msgctxt "Name for a swatch group"
+#| msgid "Swatch group name"
+msgid "Swatch group:"
+msgstr "調色板分組名稱"
 
 #. i18n: ectx: property (text), widget (QLabel, lblProfiles)
 #: libs/ui/forms/wdgdlgpngimport.ui:21
@@ -22474,7 +22544,7 @@ msgstr "色彩特性檔案："
 #: libs/ui/forms/wdgfilterdialog.ui:67
 #: libs/widgetutils/KisPreviewFileDialog.cpp:50
 #: plugins/dockers/gamutmask/forms/wdgGamutMaskChooser.ui:219
-#: plugins/dockers/recorder/recorder_profile_settings.ui:175
+#: plugins/dockers/recorder/recorder_profile_settings.ui:176
 #: plugins/extensions/resourcemanager/WdgDlgResourceManager.ui:83
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:50
 #, kde-format
@@ -24451,7 +24521,7 @@ msgstr "工具圖示："
 #. i18n: ectx: property (toolTip), widget (QLabel, heightLabel)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, spinScaleHeight)
 #: libs/ui/forms/wdgrectangleconstraints.ui:83
-#: plugins/dockers/recorder/recorder_export.ui:240
+#: plugins/dockers/recorder/recorder_export.ui:222
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:222
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:247
 #, kde-format
@@ -24469,7 +24539,7 @@ msgstr "寬高比"
 #. i18n: ectx: property (toolTip), widget (QLabel, widthLabel)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, spinScaleWidth)
 #: libs/ui/forms/wdgrectangleconstraints.ui:131
-#: plugins/dockers/recorder/recorder_export.ui:202
+#: plugins/dockers/recorder/recorder_export.ui:184
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:272
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:320
 #, kde-format
@@ -24802,9 +24872,8 @@ msgstr "自訂色彩"
 #. i18n: ectx: property (text), widget (KColorButton, colorFillSelector)
 #: libs/ui/forms/wdgstrokeselectionproperties.ui:114
 #: libs/ui/forms/wdgstrokeselectionproperties.ui:232
-#: libs/ui/KisPaletteEditor.cpp:375 libs/ui/KisPaletteEditor.cpp:424
 #: libs/ui/layerstyles/WdgColorOverlay.ui:27
-#: libs/ui/layerstyles/WdgStroke.ui:138 libs/widgets/kis_palette_view.cpp:118
+#: libs/ui/layerstyles/WdgStroke.ui:138
 #: plugins/extensions/layersplit/layersplit.cpp:203
 #: plugins/generators/solid/colorgenerator.h:41
 #, kde-format
@@ -25044,7 +25113,7 @@ msgstr "保持寬高比"
 #: libs/ui/imagesize/wdg_canvassize.ui:135
 #: libs/ui/imagesize/wdg_imagesize.ui:342
 #: libs/ui/imagesize/wdg_layersize.ui:142
-#: plugins/dockers/recorder/recorder_export.ui:459
+#: plugins/dockers/recorder/recorder_export.ui:414
 #: plugins/impex/webp/dlg_webp_import.ui:235
 #, kde-format
 msgid "Constrain proportions"
@@ -27858,10 +27927,11 @@ msgid "New Palette"
 msgstr "新調色板"
 
 #: libs/ui/KisPaletteEditor.cpp:101
-#, kde-format
-msgctxt "Label for line edit to set a palette name."
-msgid "Name"
-msgstr "名稱"
+#, fuzzy, kde-format
+#| msgctxt "Default name for a new palette"
+#| msgid "New Palette"
+msgid "New palette name:"
+msgstr "新調色板"
 
 #: libs/ui/KisPaletteEditor.cpp:106
 #, kde-format
@@ -27878,10 +27948,19 @@ msgstr "匯入調色板"
 msgid "Do you want to store this palette in your current image?"
 msgstr "確定儲存目前影像中的這個調色板？"
 
-#: libs/ui/KisPaletteEditor.cpp:245 libs/widgets/kis_palette_view.cpp:168
-#, kde-format
+#: libs/ui/KisPaletteEditor.cpp:217 libs/ui/KisPaletteEditor.cpp:274
+#, fuzzy, kde-format
+#| msgctxt "Name for a swatch group"
+#| msgid "Swatch group name"
+msgid "New swatch group name:"
+msgstr "調色板分組名稱"
+
+#: libs/ui/KisPaletteEditor.cpp:245
+#, fuzzy, kde-format
+#| msgctxt "@title:dialog"
+#| msgid "Removing Group"
 msgctxt "@title:dialog"
-msgid "Removing Group"
+msgid "Removing Swatch Group"
 msgstr "移除群組"
 
 #: libs/ui/KisPaletteEditor.cpp:249 libs/widgets/kis_palette_view.cpp:171
@@ -27890,23 +27969,20 @@ msgctxt "Shows up when deleting a swatch group"
 msgid "Keep the Colors"
 msgstr "保留色彩"
 
-#: libs/ui/KisPaletteEditor.cpp:274
-#, kde-format
-msgctxt "Renaming swatch group"
-msgid "New name"
-msgstr "新名稱"
-
 #: libs/ui/KisPaletteEditor.cpp:321 libs/ui/KisPaletteEditor.cpp:412
 #, kde-format
 msgctxt "Default name for a color swatch"
 msgid "Color %1"
 msgstr "色彩 %1"
 
-#: libs/ui/KisPaletteEditor.cpp:355
-#, kde-format
+#: libs/ui/KisPaletteEditor.cpp:355 libs/ui/KisPaletteEditor.cpp:400
+#: libs/widgets/kis_palette_view.cpp:103
+#, fuzzy, kde-format
+#| msgctxt "@title:dialog"
+#| msgid "Add a new Colorset Entry"
 msgctxt "@title:dialog"
-msgid "Add a Color"
-msgstr "新增色彩"
+msgid "Add a new Color Swatch"
+msgstr "新增新色彩集合"
 
 #: libs/ui/KisPaletteEditor.cpp:369 libs/ui/KisPaletteEditor.cpp:419
 #: libs/widgets/kis_palette_view.cpp:114
@@ -27921,32 +27997,43 @@ msgstr ""
 
 #: libs/ui/KisPaletteEditor.cpp:373 libs/ui/KisPaletteEditor.cpp:422
 #: libs/widgets/kis_palette_view.cpp:116
-#, kde-format
-msgid "ID"
-msgstr "編碼"
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "./krita/data/bundles/Krita_3_Default_Resources.bundle:palettes/swatch-rgb."
+#| "gpl"
+#| msgid "Swatch RGB"
+msgid "Swatch ID:"
+msgstr "RGB 樣本色"
 
-#: libs/ui/KisPaletteEditor.cpp:374
-#, kde-format
-msgctxt "Name of the color swatch"
-msgid "Color swatch name"
+#: libs/ui/KisPaletteEditor.cpp:374 libs/ui/KisPaletteEditor.cpp:423
+#: libs/widgets/kis_palette_view.cpp:117
+#, fuzzy, kde-format
+#| msgctxt "Name of the color swatch"
+#| msgid "Color swatch name"
+msgid "Color swatch name:"
 msgstr "色塊名稱"
 
-#: libs/ui/KisPaletteEditor.cpp:376
-#, kde-format
-msgid "Spot color"
+#: libs/ui/KisPaletteEditor.cpp:375 libs/ui/KisPaletteEditor.cpp:424
+#: libs/widgets/kis_palette_view.cpp:118
+#, fuzzy, kde-format
+#| msgid "Color:"
+msgctxt "Color as the Color of a Swatch in a Palette"
+msgid "Color:"
+msgstr "色彩："
+
+#: libs/ui/KisPaletteEditor.cpp:376 libs/ui/KisPaletteEditor.cpp:425
+#: libs/widgets/kis_palette_view.cpp:119
+#, fuzzy, kde-format
+#| msgid "Spot color"
+msgid "Spot color:"
 msgstr "印刷專色"
 
-#: libs/ui/KisPaletteEditor.cpp:400 libs/widgets/kis_palette_view.cpp:103
-#, kde-format
-msgctxt "@title:dialog"
-msgid "Add a new Colorset Entry"
-msgstr "新增新色彩集合"
-
-#: libs/ui/KisPaletteEditor.cpp:425 libs/widgets/kis_palette_view.cpp:119
-#, kde-format
-msgctxt "Spot color"
-msgid "Spot"
-msgstr "印刷專色"
+#: libs/ui/KisPaletteEditor.cpp:421 libs/widgets/kis_palette_view.cpp:115
+#, fuzzy, kde-format
+#| msgctxt "Name for a swatch group"
+#| msgid "Swatch group name"
+msgid "Swatch Group:"
+msgstr "調色板分組名稱"
 
 #: libs/ui/KisPaletteEditor.cpp:543 libs/ui/KisPaletteEditor.cpp:546
 #, kde-format
@@ -27997,12 +28084,16 @@ msgid "Name:"
 msgstr "名稱："
 
 #: libs/ui/KisTemplateCreateDia.cpp:106
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Group:"
+msgctxt "Group as in Template Group"
 msgid "Group:"
 msgstr "群組："
 
 #: libs/ui/KisTemplateCreateDia.cpp:120
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "&Add Group..."
+msgctxt "Group as in Template Group"
 msgid "&Add Group..."
 msgstr "新增群組(&A)…"
 
@@ -28053,23 +28144,29 @@ msgid "Select an image"
 msgstr "選擇影像"
 
 #: libs/ui/KisTemplateCreateDia.cpp:407 libs/ui/KisTemplateCreateDia.cpp:410
-#: plugins/python/palette_docker/palette_docker.py:72
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Add Group"
+msgctxt "Group as in Template Group"
 msgid "Add Group"
 msgstr "新增群組"
 
 #: libs/ui/KisTemplateCreateDia.cpp:407
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Enter group name:"
+msgctxt "Group as in Template Group"
 msgid "Enter group name:"
 msgstr "輸入群組名稱："
 
 #: libs/ui/KisTemplateCreateDia.cpp:410
-#, kde-format
-msgid "This name is already used."
+#, fuzzy, kde-format
+#| msgid "This name is already used."
+msgid "This name has already been used."
 msgstr "此名稱已經被使用。"
 
 #: libs/ui/KisTemplateCreateDia.cpp:434
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Do you really want to remove that group?"
+msgctxt "Group as in Template Group"
 msgid "Do you really want to remove that group?"
 msgstr "確定要移除該群組嗎？"
 
@@ -31445,14 +31542,16 @@ msgid "Select a directory to load..."
 msgstr "選擇要載入的目錄…"
 
 #: libs/widgets/kis_palette_view.cpp:107
-#, kde-format
-msgctxt "Name for default group"
+#, fuzzy, kde-format
+#| msgid "Default"
+msgctxt "Name for default swatch group"
 msgid "Default"
 msgstr "預設"
 
 #: libs/widgets/kis_palette_view.cpp:121
-#, kde-format
-msgctxt "Part of a default name for a color"
+#, fuzzy, kde-format
+#| msgid "Color"
+msgctxt "Prefix of a color swatch default name, as in Color 1"
 msgid "Color"
 msgstr "色彩"
 
@@ -31473,6 +31572,12 @@ msgstr "色彩群組"
 msgctxt "Name for a group"
 msgid "Name"
 msgstr "名稱"
+
+#: libs/widgets/kis_palette_view.cpp:168
+#, kde-format
+msgctxt "@title:dialog"
+msgid "Removing Group"
+msgstr "移除群組"
 
 #: libs/widgets/KisAngleSelector.cpp:214
 #, kde-format
@@ -31602,7 +31707,6 @@ msgid "Recent:"
 msgstr "最近："
 
 #: libs/widgets/KoColorSetWidget.cpp:94
-#: plugins/dockers/palettedocker/palettedocker_dock.cpp:123
 #, kde-format
 msgid "Choose palette"
 msgstr "選擇調色板"
@@ -35824,31 +35928,44 @@ msgid "Pin navigation controls"
 msgstr "固定瀏覽控制項"
 
 #: plugins/dockers/palettedocker/palettedocker_dock.cpp:67
-#, kde-format
-msgid "Add a color"
-msgstr "新增色彩"
+#, fuzzy, kde-format
+#| msgctxt "@title:dialog"
+#| msgid "Add a new Colorset Entry"
+msgid "Add a new color swatch"
+msgstr "新增新色彩集合"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, bnRemove)
 #: plugins/dockers/palettedocker/palettedocker_dock.cpp:68
 #: plugins/dockers/palettedocker/wdgpalettedock.ui:121
-#, kde-format
-msgid "Delete color"
-msgstr "刪除色彩"
+#, fuzzy, kde-format
+#| msgid "Rename this group"
+msgid "Remove swatch or group"
+msgstr "重新命名此群組"
 
 #: plugins/dockers/palettedocker/palettedocker_dock.cpp:69
-#, kde-format
-msgid "Modify this spot"
-msgstr "修改此格"
+#, fuzzy, kde-format
+#| msgctxt "Button to edit the selected stop color in the stop gradient editor"
+#| msgid "Edit stop"
+msgid "Edit swatch or group"
+msgstr "編輯停駐點"
 
 #: plugins/dockers/palettedocker/palettedocker_dock.cpp:70
-#, kde-format
-msgid "Edit this palette"
-msgstr "編輯此調色板"
+#, fuzzy, kde-format
+#| msgid "Remove current palette"
+msgid "Edit current palette"
+msgstr "移除目前調色板"
 
 #: plugins/dockers/palettedocker/palettedocker_dock.cpp:71
-#, kde-format
-msgid "Save this palette"
-msgstr "儲存此調色板"
+#, fuzzy, kde-format
+#| msgid "Remove current palette"
+msgid "Save current palette"
+msgstr "移除目前調色板"
+
+#: plugins/dockers/palettedocker/palettedocker_dock.cpp:123
+#, fuzzy, kde-format
+#| msgid "Add a new palette"
+msgid "Load a palette"
+msgstr "新增新調色板"
 
 #: plugins/dockers/palettedocker/palettedocker_dock.cpp:217
 #, kde-format
@@ -35944,7 +36061,7 @@ msgctxt "action"
 msgid "Export Timelapse..."
 msgstr "匯出縮時影片…"
 
-#: plugins/dockers/recorder/recorder_export.cpp:96
+#: plugins/dockers/recorder/recorder_export.cpp:97
 #, kde-format
 msgctxt ""
 "This text is displayed instead of path to external tool in case of external "
@@ -35952,7 +36069,7 @@ msgctxt ""
 msgid "[NOT FOUND]"
 msgstr "[找不到]"
 
-#: plugins/dockers/recorder/recorder_export.cpp:97
+#: plugins/dockers/recorder/recorder_export.cpp:98
 #, kde-format
 msgid ""
 "FFMpeg executable location couldn't be detected, please install it or select "
@@ -35960,75 +36077,75 @@ msgid ""
 msgstr ""
 "未能檢測到 FFmpeg 執行檔的位置。請先安裝其軟體套件或手動選擇執行檔的位置"
 
-#: plugins/dockers/recorder/recorder_export.cpp:161
+#: plugins/dockers/recorder/recorder_export.cpp:162
 #, kde-format
 msgid "Abort encoding the timelapse video?"
 msgstr "是否中止縮時影片的編碼程序？"
 
-#: plugins/dockers/recorder/recorder_export.cpp:233
+#: plugins/dockers/recorder/recorder_export.cpp:234
 #, kde-format
 msgctxt "Status for the export of the video record"
 msgid "Starting FFMpeg..."
 msgstr "正在啟動 FFmpeg……"
 
 #. i18n: ectx: property (text), widget (QToolButton, btnExport)
-#: plugins/dockers/recorder/recorder_export.cpp:314
+#: plugins/dockers/recorder/recorder_export.cpp:317
 #: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:29
 #: plugins/dockers/storyboarddocker/wdgstoryboarddock.ui:21
 #, kde-format
 msgid "Export"
 msgstr "匯出"
 
-#: plugins/dockers/recorder/recorder_export.cpp:339
+#: plugins/dockers/recorder/recorder_export.cpp:342
 #, kde-format
 msgctxt "Can't export recording because nothing to export"
 msgid "No frames to export"
 msgstr "沒有要匯出的影格"
 
-#: plugins/dockers/recorder/recorder_export.cpp:343
+#: plugins/dockers/recorder/recorder_export.cpp:346
 #, kde-format
 msgctxt "General information about recording"
 msgid "Recording info"
 msgstr "錄影資訊"
 
-#: plugins/dockers/recorder/recorder_export.cpp:346
+#: plugins/dockers/recorder/recorder_export.cpp:349
 #, kde-format
 msgctxt "Pixel dimension suffix"
 msgid "px"
 msgstr "px"
 
-#: plugins/dockers/recorder/recorder_export.cpp:348
+#: plugins/dockers/recorder/recorder_export.cpp:351
 #, kde-format
 msgctxt "The suffix after number of frames"
 msgid "frame(s)"
 msgstr "影格"
 
-#: plugins/dockers/recorder/recorder_export.cpp:450
+#: plugins/dockers/recorder/recorder_export.cpp:460
 #, kde-format
 msgid "Select FFMpeg Executable File"
 msgstr "選擇 FFmpeg 可執行檔"
 
-#: plugins/dockers/recorder/recorder_export.cpp:496
+#: plugins/dockers/recorder/recorder_export.cpp:506
 #, kde-format
 msgid "Export Timelapse Video As"
 msgstr "匯出縮時影片為"
 
-#: plugins/dockers/recorder/recorder_export.cpp:511
+#: plugins/dockers/recorder/recorder_export.cpp:521
 #, kde-format
 msgid "The video file is already exists. Do you wish to overwrite?"
 msgstr "影片檔已經存在。是否覆寫？"
 
-#: plugins/dockers/recorder/recorder_export.cpp:538
+#: plugins/dockers/recorder/recorder_export.cpp:548
 #, kde-format
 msgid "The timelapse video is being encoded..."
 msgstr "正在編碼縮時影片……"
 
-#: plugins/dockers/recorder/recorder_export.cpp:551
+#: plugins/dockers/recorder/recorder_export.cpp:561
 #, kde-format
 msgid "Export failed. FFMpeg message:"
 msgstr "匯出失敗。FFmpeg 訊息："
 
-#: plugins/dockers/recorder/recorder_export.cpp:572
+#: plugins/dockers/recorder/recorder_export.cpp:582
 #, kde-format
 msgid ""
 "The recordings for this document will be deleted and you will not be able to "
@@ -36040,7 +36157,7 @@ msgstr ""
 "片還會留著)。\n"
 "是否繼續？"
 
-#: plugins/dockers/recorder/recorder_export.cpp:579
+#: plugins/dockers/recorder/recorder_export.cpp:589
 #: plugins/dockers/recorder/recorder_snapshots_manager.cpp:262
 #, kde-format
 msgctxt "Label title, Snapshot directory deleting is in progress"
@@ -36059,56 +36176,27 @@ msgstr "匯出縮時影片"
 msgid "Open record directory"
 msgstr "開啟錄影目錄"
 
-#. i18n: ectx: property (toolTip), widget (QPushButton, buttonBrowseExport)
-#: plugins/dockers/recorder/recorder_export.ui:92
-#, kde-format
-msgid "Select a file to export timelapse video"
-msgstr "請選擇縮時影片要匯出到的檔案"
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, buttonBrowseFfmpeg)
-#: plugins/dockers/recorder/recorder_export.ui:106
-#, kde-format
-msgid "Setup ffmpeg executable location"
-msgstr "設定 FFmpeg 可執行檔的位置"
-
-#. i18n: ectx: property (text), widget (QLineEdit, editFfmpegPath)
-#: plugins/dockers/recorder/recorder_export.ui:126
-#, kde-format
-msgid "ffmpeg"
-msgstr "FFmpeg"
-
 #. i18n: ectx: property (text), widget (QLabel, labelFfmpegLocation)
-#: plugins/dockers/recorder/recorder_export.ui:297
+#: plugins/dockers/recorder/recorder_export.ui:92
 #, kde-format
 msgid "FFMpeg:"
 msgstr "FFmpeg："
 
-#. i18n: ectx: property (toolTip), widget (QPushButton, buttonEditProfile)
-#: plugins/dockers/recorder/recorder_export.ui:341
-#, kde-format
-msgid "Edit video profile"
-msgstr "編輯影片設定檔"
-
-#. i18n: ectx: property (text), widget (QLabel, labelFps)
-#: plugins/dockers/recorder/recorder_export.ui:348
-#, kde-format
-msgid "Video FPS:"
-msgstr "影片 FPS："
-
-#. i18n: ectx: property (text), widget (QCheckBox, checkResize)
-#: plugins/dockers/recorder/recorder_export.ui:385
-#, kde-format
-msgid "Resize:"
-msgstr "調整大小："
-
 #. i18n: ectx: property (text), widget (QLabel, labelExportTo)
-#: plugins/dockers/recorder/recorder_export.ui:394
+#: plugins/dockers/recorder/recorder_export.ui:105
 #, kde-format
 msgid "Video location:"
 msgstr "影片位置："
 
+#. i18n: ectx: property (text), widget (QLabel, labelHoldLastFrameSec)
+#: plugins/dockers/recorder/recorder_export.ui:266
+#, fuzzy, kde-format
+#| msgid "Last Frame"
+msgid "Hold Last Frame for:"
+msgstr "末影格"
+
 #. i18n: ectx: property (toolTip), widget (QLabel, labelFpsInput)
-#: plugins/dockers/recorder/recorder_export.ui:487
+#: plugins/dockers/recorder/recorder_export.ui:323
 #, kde-format
 msgid ""
 "The speed of reading the input stream.\n"
@@ -36119,61 +36207,106 @@ msgstr ""
 "例子：如希望速繪錄影以兩倍速度播放，應將此設定為影片影格速率的兩偣。"
 
 #. i18n: ectx: property (text), widget (QLabel, labelFpsInput)
-#: plugins/dockers/recorder/recorder_export.ui:490
+#: plugins/dockers/recorder/recorder_export.ui:326
 #, kde-format
 msgctxt "Input FPS of recorded timelapses."
 msgid "Input FPS:"
 msgstr "輸入 FPS："
 
+#. i18n: ectx: property (text), widget (QLineEdit, editFfmpegPath)
+#: plugins/dockers/recorder/recorder_export.ui:358
+#, kde-format
+msgid "ffmpeg"
+msgstr "FFmpeg"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkResize)
+#: plugins/dockers/recorder/recorder_export.ui:402
+#, kde-format
+msgid "Resize:"
+msgstr "調整大小："
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, buttonBrowseExport)
+#: plugins/dockers/recorder/recorder_export.ui:444
+#, kde-format
+msgid "Select a file to export timelapse video"
+msgstr "請選擇縮時影片要匯出到的檔案"
+
+#. i18n: ectx: property (text), widget (QLabel, labelFps)
+#: plugins/dockers/recorder/recorder_export.ui:458
+#, kde-format
+msgid "Video FPS:"
+msgstr "影片 FPS："
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, buttonEditProfile)
+#: plugins/dockers/recorder/recorder_export.ui:489
+#, kde-format
+msgid "Edit video profile"
+msgstr "編輯影片設定檔"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, buttonBrowseFfmpeg)
+#: plugins/dockers/recorder/recorder_export.ui:496
+#, kde-format
+msgid "Setup ffmpeg executable location"
+msgstr "設定 FFmpeg 可執行檔的位置"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, spinCaptureInterval)
+#. i18n: ectx: property (suffix), widget (QSpinBox, spinLastFrameSec)
+#: plugins/dockers/recorder/recorder_export.ui:518
+#: plugins/dockers/recorder/recorderdocker.ui:180
+#, kde-format
+msgctxt "Contraction of \"second\" for interval"
+msgid " sec."
+msgstr " 秒"
+
 #. i18n: ectx: property (text), widget (QLabel, labelTitleVideoDuration)
-#: plugins/dockers/recorder/recorder_export.ui:533
+#: plugins/dockers/recorder/recorder_export.ui:576
 #, kde-format
 msgid "Video duration:"
 msgstr "影片長度："
 
 #. i18n: ectx: property (text), widget (QLabel, labelDone)
-#: plugins/dockers/recorder/recorder_export.ui:796
+#: plugins/dockers/recorder/recorder_export.ui:839
 #, kde-format
 msgctxt "Caption: Video exporting finished"
 msgid "Done!"
 msgstr "完成！"
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonWatchIt)
-#: plugins/dockers/recorder/recorder_export.ui:814
+#: plugins/dockers/recorder/recorder_export.ui:857
 #, kde-format
 msgctxt "Watch the video which is just created"
 msgid "Watch it!"
 msgstr "觀看！"
 
 #. i18n: ectx: property (text), widget (QLabel, labelWritten)
-#: plugins/dockers/recorder/recorder_export.ui:824
+#: plugins/dockers/recorder/recorder_export.ui:867
 #, kde-format
 msgid "The timelapse video has been written to:"
 msgstr "縮時影片已經寫入至："
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonShowInFolder)
-#: plugins/dockers/recorder/recorder_export.ui:842
+#: plugins/dockers/recorder/recorder_export.ui:885
 #, kde-format
 msgctxt "Open the folder when the new created video is placed"
 msgid "Show in folder"
 msgstr "在資料夾顯示"
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonRemoveSnapshots)
-#: plugins/dockers/recorder/recorder_export.ui:879
+#: plugins/dockers/recorder/recorder_export.ui:922
 #, kde-format
 msgctxt "Open the folder when the new created video is placed"
 msgid "Remove recordings"
 msgstr "移除錄影檔"
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonRestart)
-#: plugins/dockers/recorder/recorder_export.ui:945
+#: plugins/dockers/recorder/recorder_export.ui:988
 #, kde-format
 msgctxt "Button to restart the timelapse video configuring"
 msgid "Restart"
 msgstr "重新開始"
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonDoneClose)
-#: plugins/dockers/recorder/recorder_export.ui:952
+#: plugins/dockers/recorder/recorder_export.ui:995
 #, kde-format
 msgctxt "Close dialog button"
 msgid "Close"
@@ -36199,26 +36332,26 @@ msgid "Revert"
 msgstr "還原"
 
 #. i18n: ectx: property (text), widget (QLabel, labelTitleSupportedVariables)
-#: plugins/dockers/recorder/recorder_profile_settings.ui:87
+#: plugins/dockers/recorder/recorder_profile_settings.ui:77
 #, kde-format
 msgctxt "Title: variables for FFMpeg arguments"
 msgid "Insert variable:"
 msgstr "插入變數："
 
 #. i18n: ectx: property (text), widget (QLabel, labelTitleFFMpegArguments)
-#: plugins/dockers/recorder/recorder_profile_settings.ui:165
+#: plugins/dockers/recorder/recorder_profile_settings.ui:166
 #, kde-format
 msgid "FFMpeg arguments:"
 msgstr "FFmpeg 引數："
 
 #. i18n: ectx: property (text), widget (QLabel, labelProfileName)
-#: plugins/dockers/recorder/recorder_profile_settings.ui:192
+#: plugins/dockers/recorder/recorder_profile_settings.ui:193
 #, kde-format
 msgid "Profile name:"
 msgstr "設定檔名稱："
 
 #. i18n: ectx: property (text), widget (QLabel, labelFileExt)
-#: plugins/dockers/recorder/recorder_profile_settings.ui:212
+#: plugins/dockers/recorder/recorder_profile_settings.ui:213
 #, kde-format
 msgid "File extension:"
 msgstr "檔案副檔名："
@@ -36331,13 +36464,6 @@ msgstr "選擇錄影檔目錄…"
 #, kde-format
 msgid "Capture interval:"
 msgstr "擷取區間："
-
-#. i18n: ectx: property (suffix), widget (QSpinBox, spinCaptureInterval)
-#: plugins/dockers/recorder/recorderdocker.ui:180
-#, kde-format
-msgctxt "Contraction of \"second\" for interval"
-msgid " sec."
-msgstr " 秒"
 
 #. i18n: ectx: property (text), widget (QLabel, labelQuality)
 #: plugins/dockers/recorder/recorderdocker.ui:193
@@ -39010,7 +39136,7 @@ msgstr "您確定要覆寫現存的資源包嗎？"
 msgid "Select a directory to save the bundle"
 msgstr "選擇儲存資源包的資料夾"
 
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:496
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:500
 #, kde-format
 msgid "Select file to use as bundle icon"
 msgstr "請選擇用作資源包圖示的檔案"
@@ -46422,7 +46548,7 @@ msgctxt "type of a brush engine, shown in the list of brush engines"
 msgid "Grid"
 msgstr "網格"
 
-#: plugins/paintops/gridbrush/kis_grid_paintop_settings.cpp:196
+#: plugins/paintops/gridbrush/kis_grid_paintop_settings.cpp:198
 #, kde-format
 msgid "Division Level"
 msgstr "細分級別"
@@ -50725,6 +50851,13 @@ msgstr "Python 調色板工具面板"
 msgid "Set"
 msgstr "集合"
 
+#: plugins/python/palette_docker/palette_docker.py:72
+#, fuzzy
+#| msgid "Add Group"
+msgctxt "Group as Color Group in a Palette"
+msgid "Add Group"
+msgstr "新增群組"
+
 #: plugins/python/palette_docker/palette_docker.py:75
 msgid "Remove Entry"
 msgstr "移除項目"
@@ -54551,6 +54684,138 @@ msgctxt "action"
 msgid "Reference Images Tool"
 msgstr "參考圖工具"
 
+#~ msgctxt "action"
+#~ msgid "Group"
+#~ msgstr "組合"
+
+#~ msgctxt "action"
+#~ msgid "&Group Layer"
+#~ msgstr "群組圖層(&G)"
+
+#~ msgctxt "action"
+#~ msgid "Group Layer"
+#~ msgstr "群組圖層"
+
+#~ msgctxt "action"
+#~ msgid "&Clone Layer"
+#~ msgstr "再製圖層(&C)"
+
+#~ msgctxt "action"
+#~ msgid "Clone Layer"
+#~ msgstr "再製圖層"
+
+#~ msgctxt "action"
+#~ msgid "Filter Layer"
+#~ msgstr "濾鏡圖層"
+
+#~ msgctxt "action"
+#~ msgid "Fill Layer"
+#~ msgstr "填充圖層"
+
+#~ msgctxt "action"
+#~ msgid "File Layer"
+#~ msgstr "檔案圖層"
+
+#~ msgctxt "action"
+#~ msgid "&Transparency Mask"
+#~ msgstr "透明度遮罩(&T)"
+
+#~ msgctxt "action"
+#~ msgid "Transparency Mask"
+#~ msgstr "透明度遮罩"
+
+#~ msgctxt "action"
+#~ msgid "&Filter Mask..."
+#~ msgstr "濾鏡遮罩(&F)…"
+
+#~ msgctxt "action"
+#~ msgid "Filter Mask"
+#~ msgstr "濾鏡遮罩"
+
+#~ msgctxt "action"
+#~ msgid "&Colorize Mask"
+#~ msgstr "著色遮罩(&C)"
+
+#~ msgctxt "action"
+#~ msgid "Colorize Mask"
+#~ msgstr "著色遮罩"
+
+#~ msgctxt "action"
+#~ msgid "&Transform Mask"
+#~ msgstr "變形遮罩(&T)"
+
+#~ msgctxt "action"
+#~ msgid "Transform Mask"
+#~ msgstr "變形遮罩"
+
+#~ msgctxt "action"
+#~ msgid "&Paint Layer"
+#~ msgstr "顏料圖層(&P)"
+
+#~ msgctxt "action"
+#~ msgid "Paint Layer"
+#~ msgstr "顏料圖層"
+
+#~ msgid "Add a group"
+#~ msgstr "新增群組"
+
+#~ msgid "Delete this group"
+#~ msgstr "刪除此群組"
+
+#~ msgid "Palette settings"
+#~ msgstr "調色板設定"
+
+#~ msgid "Group settings"
+#~ msgstr "群組設定"
+
+#~ msgid "Column count"
+#~ msgstr "列數"
+
+#~ msgid "Row count"
+#~ msgstr "行數"
+
+#~ msgctxt "Label for line edit to set a palette name."
+#~ msgid "Name"
+#~ msgstr "名稱"
+
+#~ msgctxt "Renaming swatch group"
+#~ msgid "New name"
+#~ msgstr "新名稱"
+
+#~ msgctxt "@title:dialog"
+#~ msgid "Add a Color"
+#~ msgstr "新增色彩"
+
+#~ msgid "ID"
+#~ msgstr "編碼"
+
+#~ msgctxt "Spot color"
+#~ msgid "Spot"
+#~ msgstr "印刷專色"
+
+#~ msgctxt "Name for default group"
+#~ msgid "Default"
+#~ msgstr "預設"
+
+#~ msgctxt "Part of a default name for a color"
+#~ msgid "Color"
+#~ msgstr "色彩"
+
+#~ msgid "Add a color"
+#~ msgstr "新增色彩"
+
+#~ msgid "Delete color"
+#~ msgstr "刪除色彩"
+
+#~ msgid "Modify this spot"
+#~ msgstr "修改此格"
+
+#~ msgid "Edit this palette"
+#~ msgstr "編輯此調色板"
+
+#~ msgid "Save this palette"
+#~ msgstr "儲存此調色板"
+
 #~ msgctxt "Question in a dialog/messagebox"
 #~ msgid ""
 #~ "This name is already used for another resource. Do you want to use the "
@@ -55336,10 +55601,6 @@ msgstr "參考圖工具"
 #~ msgid "Lock"
 #~ msgstr "鎖定"
 
-#~ msgctxt "Name for a swatch group"
-#~ msgid "Swatch group name"
-#~ msgstr "調色板分組名稱"
-
 #~ msgid "Defor&m Layer"
 #~ msgstr "扭曲圖層(&M)"
 
@@ -55408,9 +55669,6 @@ msgstr "參考圖工具"
 
 #~ msgid "First Frame"
 #~ msgstr "首影格"
-
-#~ msgid "Last Frame"
-#~ msgstr "末影格"
 
 #~ msgid "Play / Stop"
 #~ msgstr "播放/停止"
@@ -57184,9 +57442,6 @@ msgstr "參考圖工具"
 
 #~ msgid "Tile Offset"
 #~ msgstr "平鋪偏移"
-
-#~ msgid "Pattern Options"
-#~ msgstr "圖案選項"
 
 #~ msgid "New Frame"
 #~ msgstr "建立影格"
