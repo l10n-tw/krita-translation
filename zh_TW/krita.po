@@ -25365,8 +25365,9 @@ msgid ""
 "current tool. For example, using the brush tool it samples a color from the "
 "canvas."
 msgstr ""
-"<b>切換備選功能</b>操作透過組合鍵來啟用某些工具內建的額外功能。例如筆刷工具的主要功能是繪畫，而按住 Ctrl "
-"點擊滑鼠左鍵即可使用其備選功能，即取樣畫布上的色彩。"
+"<b>切換備選功能</b>操作透過組合鍵來啟用某些工具內建的額外功能。例如筆刷工具的"
+"主要功能是繪畫，而按住 Ctrl 點擊滑鼠左鍵即可使用其備選功能，即取樣畫布上的色"
+"彩。"
 
 #: libs/ui/input/kis_alternate_invocation_action.cpp:30
 #, kde-format
@@ -25767,7 +25768,8 @@ msgid ""
 "The <i>Tool Invocation</i> action invokes the current tool, for example, "
 "using the brush tool, it will start painting."
 msgstr ""
-"<b>切換工具</b>操作透過長按特定按鍵暫時切換到另一個工具。例如在使用筆刷工具時按住 V 即可暫時使用直線工具，放開 V 即可還原繼續使用筆刷繪畫。"
+"<b>切換工具</b>操作透過長按特定按鍵暫時切換到另一個工具。例如在使用筆刷工具時"
+"按住 V 即可暫時使用直線工具，放開 V 即可還原繼續使用筆刷繪畫。"
 
 #: libs/ui/input/kis_tool_invocation_action.cpp:42
 #, kde-format
