@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-10-10 00:16+0000\n"
-"PO-Revision-Date: 2021-10-10 16:14+0000\n"
+"PO-Revision-Date: 2021-10-12 15:33+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -22766,7 +22766,7 @@ msgstr "堅硬 (Krita 4.1 以及之前版本)"
 #: libs/ui/forms/wdggeneralsettings.ui:451
 #, kde-format
 msgid "Switch Control/Alt Selection Modifiers"
-msgstr "交換 Ctrl/Alt 在選取區域工具中的修飾功能"
+msgstr "在使用選取區域工具時交換 Ctrl 與 Alt 組合鍵的作用"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkEnableTouch)
 #: libs/ui/forms/wdggeneralsettings.ui:458
@@ -25365,9 +25365,9 @@ msgid ""
 "current tool. For example, using the brush tool it samples a color from the "
 "canvas."
 msgstr ""
-"<b>切換備選功能</b>操作透過修飾鍵來切換某些工具內建的多種可供呼叫的功能。例"
-"如，在使用筆刷工具時點擊滑鼠左鍵的第一功能是繪畫，而按住 Ctrl 點擊滑鼠左鍵即"
-"可暫時切換成呼叫其備選功能——取樣畫布上的色彩。"
+"<b>切換備選功能</b>操作透過組合鍵來啟用某些工具內建的額外功能。例如筆刷工具的"
+"主要功能是繪畫，而按住 Ctrl 點擊滑鼠左鍵即可使用其備選功能，即取樣畫布上的色"
+"彩。"
 
 #: libs/ui/input/kis_alternate_invocation_action.cpp:30
 #, kde-format
@@ -25768,8 +25768,8 @@ msgid ""
 "The <i>Tool Invocation</i> action invokes the current tool, for example, "
 "using the brush tool, it will start painting."
 msgstr ""
-"<b>切換工具</b>操作透過修飾鍵暫時呼叫另一個工具。例如在使用筆刷工具時按住 V "
-"即可暫時呼叫直線工具，放開 V 即可以繼續使用筆刷繪畫。"
+"<b>切換工具</b>操作透過長按特定按鍵暫時切換到另一個工具。例如在使用筆刷工具時"
+"按住 V 即可暫時使用直線工具，放開 V 即可還原繼續使用筆刷繪畫。"
 
 #: libs/ui/input/kis_tool_invocation_action.cpp:42
 #, kde-format
