@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-10-13 00:16+0000\n"
+"POT-Creation-Date: 2021-10-14 00:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -14746,7 +14746,7 @@ msgstr ""
 #: libs/ui/forms/wdgrectangleconstraints.ui:134
 #: libs/ui/forms/wdgrectangleconstraints.ui:184
 #: libs/ui/forms/wdgrectangleconstraints.ui:226
-#: libs/ui/kis_paintop_box.cc:283 libs/ui/widgets/kis_lod_availability_widget.cpp:75
+#: libs/ui/kis_paintop_box.cc:285 libs/ui/widgets/kis_lod_availability_widget.cpp:75
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:488
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:762
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:861
@@ -17486,65 +17486,65 @@ msgid ""
 "and create a new database."
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:88
+#: libs/resources/KisResourceLocator.cpp:89
 #, kde-format
 msgid "1. Could not create the resource location at %1."
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:95
+#: libs/resources/KisResourceLocator.cpp:96
 #, kde-format
 msgid "2. The resource location at %1 is not writable."
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:558
+#: libs/resources/KisResourceLocator.cpp:559
 #, kde-format
 msgid "Could not add %1 to the database"
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:579
-#: libs/resources/KisResourceLocator.cpp:911
+#: libs/resources/KisResourceLocator.cpp:580
+#: libs/resources/KisResourceLocator.cpp:925
 #, kde-format
 msgid "Could not remove storage %1 from the database"
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:693
+#: libs/resources/KisResourceLocator.cpp:707
 #, kde-format
 msgid ""
 "Krita is running for the first time. Initialization will take some time."
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:700
+#: libs/resources/KisResourceLocator.cpp:714
 #, kde-format
 msgid "3. Could not create the resource location at %1."
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:713
-#: libs/resources/KisResourceLocator.cpp:729
+#: libs/resources/KisResourceLocator.cpp:727
+#: libs/resources/KisResourceLocator.cpp:743
 #, kde-format
 msgid "Could not copy resource %1 to %2"
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:725
+#: libs/resources/KisResourceLocator.cpp:739
 #, kde-format
 msgid "Installing the resources from bundle %1."
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:747
+#: libs/resources/KisResourceLocator.cpp:761
 #, kde-format
 msgid "Initializing the resources."
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:761
+#: libs/resources/KisResourceLocator.cpp:775
 #, kde-format
 msgid "Could not add storage %1 to the cache database"
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:782
+#: libs/resources/KisResourceLocator.cpp:796
 #, kde-format
 msgid "Temporary Resources"
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:901
+#: libs/resources/KisResourceLocator.cpp:915
 #, kde-format
 msgid "Could not synchronize %1 with the database"
 msgstr ""
@@ -19339,7 +19339,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #. i18n: ectx: property (text), widget (QLabel, labelX)
 #: libs/ui/animation/VideoHDRMetadataOptionsDialog.ui:46
-#: libs/ui/kis_paintop_box.cc:295 plugins/dockers/recorder/recorder_export.ui:209
+#: libs/ui/kis_paintop_box.cc:297 plugins/dockers/recorder/recorder_export.ui:209
 #, kde-format
 msgid "x"
 msgstr ""
@@ -20325,7 +20325,7 @@ msgstr ""
 #. i18n: ectx: property (suffix), widget (KisDoubleParseSpinBox, spbScaleHeight)
 #: libs/ui/dialogs/kis_dlg_layer_properties.cc:97
 #: libs/ui/forms/wdgdisplaysettings.ui:364
-#: libs/ui/kis_paintop_box.cc:265 libs/ui/kis_paintop_box.cc:273
+#: libs/ui/kis_paintop_box.cc:267 libs/ui/kis_paintop_box.cc:275
 #: libs/ui/layerstyles/wdgInnerGlow.ui:220
 #: libs/ui/layerstyles/wdgInnerGlow.ui:322
 #: libs/ui/layerstyles/wdgInnerGlow.ui:351
@@ -22100,7 +22100,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #. i18n: ectx: property (text), widget (QLabel, opacityLabel)
 #: libs/ui/forms/wdgdisplaysettings.ui:391
-#: libs/ui/kis_paintop_box.cc:250 libs/ui/kis_paintop_box.cc:256
+#: libs/ui/kis_paintop_box.cc:252 libs/ui/kis_paintop_box.cc:258
 #: plugins/dockers/layerdocker/WdgLayerBox.ui:113
 #: plugins/filters/noisefilter/wdgnoiseoptions.ui:56
 #: plugins/filters/randompickfilter/wdgrandompickoptions.ui:57
@@ -23538,7 +23538,7 @@ msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgPaintOpSettings)
 #: libs/ui/forms/wdgpaintopsettings.ui:18
-#: libs/ui/kis_paintop_box.cc:435
+#: libs/ui/kis_paintop_box.cc:437
 #, kde-format
 msgid "Brush Editor"
 msgstr ""
@@ -26139,28 +26139,28 @@ msgctxt "@info:tooltip"
 msgid "Disabled: cloning pass-through groups is not supported!"
 msgstr ""
 
-#: libs/ui/kis_paintop_box.cc:97
+#: libs/ui/kis_paintop_box.cc:99
 #, kde-format
 msgid "Painter's Toolchest"
 msgstr ""
 
-#: libs/ui/kis_paintop_box.cc:109
+#: libs/ui/kis_paintop_box.cc:111
 #, kde-format
 msgid "Tool Settings"
 msgstr ""
 
-#: libs/ui/kis_paintop_box.cc:117
+#: libs/ui/kis_paintop_box.cc:119
 #, kde-format
 msgid "Edit brush settings"
 msgstr ""
 
-#: libs/ui/kis_paintop_box.cc:124
+#: libs/ui/kis_paintop_box.cc:126
 #, kde-format
 msgid "Choose brush preset"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblFlow)
-#: libs/ui/kis_paintop_box.cc:251 libs/ui/kis_paintop_box.cc:257
+#: libs/ui/kis_paintop_box.cc:253 libs/ui/kis_paintop_box.cc:259
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:1970
 #, kde-format
 msgid "Flow:"
@@ -26169,7 +26169,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, brushSizeLabel)
 #. i18n: ectx: property (text), widget (QLabel, lblSize)
 #. i18n: ectx: property (text), widget (QLabel, labelSize)
-#: libs/ui/kis_paintop_box.cc:252 libs/ui/kis_paintop_box.cc:258
+#: libs/ui/kis_paintop_box.cc:254 libs/ui/kis_paintop_box.cc:260
 #: plugins/generators/screentone/KisScreentoneConfigWidget.ui:414
 #: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:185
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:1992
@@ -26177,23 +26177,23 @@ msgstr ""
 msgid "Size:"
 msgstr ""
 
-#: libs/ui/kis_paintop_box.cc:253 libs/ui/kis_paintop_box.cc:259
+#: libs/ui/kis_paintop_box.cc:255 libs/ui/kis_paintop_box.cc:261
 #, kde-format
 msgid "Pattern Scale:"
 msgstr ""
 
-#: libs/ui/kis_paintop_box.cc:311
+#: libs/ui/kis_paintop_box.cc:313
 #, kde-format
 msgid "Choose workspace"
 msgstr ""
 
-#: libs/ui/kis_paintop_box.cc:348
+#: libs/ui/kis_paintop_box.cc:350
 #, kde-format
 msgid "Brush composite"
 msgstr ""
 
-#: libs/ui/kis_paintop_box.cc:1254 libs/ui/kis_paintop_box.cc:1276
-#: libs/ui/kis_paintop_box.cc:1290
+#: libs/ui/kis_paintop_box.cc:1268 libs/ui/kis_paintop_box.cc:1290
+#: libs/ui/kis_paintop_box.cc:1304
 #, kde-format
 msgid ""
 "%1\n"
@@ -35990,7 +35990,7 @@ msgstr ""
 
 #: plugins/dockers/storyboarddocker/StoryboardDelegate.cpp:136
 #: plugins/dockers/storyboarddocker/StoryboardDelegate.cpp:300
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:536
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:923
 #, kde-format
 msgctxt "suffix in spin box in storyboard that means 'seconds'"
 msgid "s"
@@ -35998,7 +35998,7 @@ msgstr ""
 
 #: plugins/dockers/storyboarddocker/StoryboardDelegate.cpp:141
 #: plugins/dockers/storyboarddocker/StoryboardDelegate.cpp:307
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:539
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:926
 #, kde-format
 msgctxt "suffix in spin box in storyboard that means 'frames'"
 msgid "f"
