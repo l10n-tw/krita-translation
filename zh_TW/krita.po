@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-10-15 00:14+0000\n"
+"POT-Creation-Date: 2021-10-19 00:15+0000\n"
 "PO-Revision-Date: 2021-10-12 15:33+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
@@ -13794,15 +13794,49 @@ msgctxt "action"
 msgid "Color"
 msgstr "色彩"
 
-#. i18n: context: Action (paintops), Actions (BrushesAndStuff), ActionCollection (Menu)
+#. i18n: context: Action (chooseForegroundColor), Actions (BrushesAndStuff), ActionCollection (Menu)
 #: krita/kritamenu.action:1865
+#, fuzzy, kde-format
+#| msgid "Foreground Color"
+msgctxt "action"
+msgid "&Choose Foreground Color"
+msgstr "前景色"
+
+#. i18n: context: Action (chooseForegroundColor), Actions (BrushesAndStuff), ActionCollection (Menu)
+#: krita/kritamenu.action:1867
+#, fuzzy, kde-format
+#| msgid "Foreground Color"
+msgctxt "action"
+msgid "Choose Foreground Color"
+msgstr "前景色"
+
+#. i18n: context: Action (chooseBackgroundColor), Actions (BrushesAndStuff), ActionCollection (Menu)
+#: krita/kritamenu.action:1875
+#, fuzzy, kde-format
+#| msgctxt "(qtundo-format)"
+#| msgid "Set Background Color"
+msgctxt "action"
+msgid "&Choose Background Color"
+msgstr "設定背景色"
+
+#. i18n: context: Action (chooseBackgroundColor), Actions (BrushesAndStuff), ActionCollection (Menu)
+#: krita/kritamenu.action:1877
+#, fuzzy, kde-format
+#| msgctxt "(qtundo-format)"
+#| msgid "Set Background Color"
+msgctxt "action"
+msgid "Choose Background Color"
+msgstr "設定背景色"
+
+#. i18n: context: Action (paintops), Actions (BrushesAndStuff), ActionCollection (Menu)
+#: krita/kritamenu.action:1885
 #, kde-format
 msgctxt "action"
 msgid "&Painter's Tools"
 msgstr "繪畫工具(&P)"
 
 #. i18n: context: Action (paintops), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1867
+#: krita/kritamenu.action:1887
 #, kde-format
 msgctxt "action"
 msgid "Painter's Tools"
@@ -13812,7 +13846,7 @@ msgstr "繪畫工具"
 #. i18n: context: Action (composite_actions), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: Action (composite_actions), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: Action (composite_actions), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1875 krita/kritamenu.action:1877
+#: krita/kritamenu.action:1895 krita/kritamenu.action:1897
 #, kde-format
 msgctxt "action"
 msgid "Brush composite"
@@ -13822,7 +13856,7 @@ msgstr "筆刷分量"
 #. i18n: context: Action (brushslider1), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: Action (brushslider1), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: Action (brushslider1), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1885 krita/kritamenu.action:1887
+#: krita/kritamenu.action:1905 krita/kritamenu.action:1907
 #, kde-format
 msgctxt "action"
 msgid "Brush option slider 1"
@@ -13832,7 +13866,7 @@ msgstr "筆刷選項滑動條 1"
 #. i18n: context: Action (brushslider2), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: Action (brushslider2), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: Action (brushslider2), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1895 krita/kritamenu.action:1897
+#: krita/kritamenu.action:1915 krita/kritamenu.action:1917
 #, kde-format
 msgctxt "action"
 msgid "Brush option slider 2"
@@ -13842,7 +13876,7 @@ msgstr "筆刷選項滑動條 2"
 #. i18n: context: Action (brushslider3), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: Action (brushslider3), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: Action (brushslider3), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1905 krita/kritamenu.action:1907
+#: krita/kritamenu.action:1925 krita/kritamenu.action:1927
 #, kde-format
 msgctxt "action"
 msgid "Brush option slider 3"
@@ -13852,7 +13886,7 @@ msgstr "筆刷選項滑動條 3"
 #. i18n: context: Action (brushslider4), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: Action (brushslider4), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: Action (brushslider4), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1915 krita/kritamenu.action:1917
+#: krita/kritamenu.action:1935 krita/kritamenu.action:1937
 #, kde-format
 msgctxt "action"
 msgid "Brush option slider 4"
@@ -13862,21 +13896,21 @@ msgstr "筆刷選項滑動條 4"
 #. i18n: context: Action (mirror_actions), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: Action (mirror_actions), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: Action (mirror_actions), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1925 krita/kritamenu.action:1927
+#: krita/kritamenu.action:1945 krita/kritamenu.action:1947
 #, kde-format
 msgctxt "action"
 msgid "Mirror"
 msgstr "鏡像繪畫"
 
 #. i18n: context: Action (select_layout), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1935
+#: krita/kritamenu.action:1955
 #, kde-format
 msgctxt "action"
 msgid "Layouts"
 msgstr "版面配置"
 
 #. i18n: context: Action (select_layout), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1937
+#: krita/kritamenu.action:1957
 #, kde-format
 msgctxt "action"
 msgid "Select layout"
@@ -13886,7 +13920,7 @@ msgstr "選擇版面配置"
 #. i18n: context: Action (workspaces), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: Action (workspaces), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: Action (workspaces), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1944 krita/kritamenu.action:1946
+#: krita/kritamenu.action:1964 krita/kritamenu.action:1966
 #, kde-format
 msgctxt "action"
 msgid "Workspaces"
@@ -26070,7 +26104,19 @@ msgstr "選取前景色和背景色(&C)"
 msgid "&Painter's Tools"
 msgstr "繪畫工具(&P)"
 
-#: libs/ui/kis_control_frame.cpp:176 libs/ui/KisApplication.cpp:307
+#: libs/ui/kis_control_frame.cpp:120
+#, fuzzy, kde-format
+#| msgid "Foreground color selector"
+msgid "&Open Foreground color selector"
+msgstr "選取前景色"
+
+#: libs/ui/kis_control_frame.cpp:125
+#, fuzzy, kde-format
+#| msgid "Background color selector"
+msgid "&Open Background color selector"
+msgstr "選取背景色"
+
+#: libs/ui/kis_control_frame.cpp:186 libs/ui/KisApplication.cpp:307
 #: plugins/dockers/patterndocker/patterndocker_dock.cpp:20
 #: plugins/extensions/resourcemanager/dlg_embed_tags.cpp:65
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:241
@@ -26078,12 +26124,12 @@ msgstr "繪畫工具(&P)"
 msgid "Patterns"
 msgstr "圖案"
 
-#: libs/ui/kis_control_frame.cpp:179 libs/ui/kis_control_frame.cpp:180
+#: libs/ui/kis_control_frame.cpp:189 libs/ui/kis_control_frame.cpp:190
 #, kde-format
 msgid "Custom Pattern"
 msgstr "自訂圖案"
 
-#: libs/ui/kis_control_frame.cpp:226 libs/ui/KisApplication.cpp:292
+#: libs/ui/kis_control_frame.cpp:236 libs/ui/KisApplication.cpp:292
 #: libs/ui/KisApplication.cpp:293
 #: plugins/extensions/resourcemanager/dlg_embed_tags.cpp:63
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:244
@@ -31187,22 +31233,22 @@ msgstr ""
 "\"https://docs.krita.org/en/general_concepts/colors/color_managed_workflow."
 "html\">詳細資料</a></p></body></html>"
 
-#: libs/ui/widgets/KoDualColorButton.cpp:401
+#: libs/ui/widgets/KoDualColorButton.cpp:415
 #, kde-format
 msgid "Foreground color selector"
 msgstr "選取前景色"
 
-#: libs/ui/widgets/KoDualColorButton.cpp:404
+#: libs/ui/widgets/KoDualColorButton.cpp:418
 #, kde-format
 msgid "Set foreground and background colors to black and white"
 msgstr "將前景色和背景色設定為黑色和白色"
 
-#: libs/ui/widgets/KoDualColorButton.cpp:409
+#: libs/ui/widgets/KoDualColorButton.cpp:423
 #, kde-format
 msgid "Swap foreground and background colors"
 msgstr "交換前景色和背景色"
 
-#: libs/ui/widgets/KoDualColorButton.cpp:412
+#: libs/ui/widgets/KoDualColorButton.cpp:426
 #, kde-format
 msgid "Background color selector"
 msgstr "選取背景色"
@@ -56791,10 +56837,6 @@ msgstr "參考圖工具"
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Set Font Size"
 #~ msgstr "設定字型大小"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Set Background Color"
-#~ msgstr "設定背景色"
 
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Set Text Color"
