@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-10-19 00:15+0000\n"
-"PO-Revision-Date: 2021-10-12 15:33+0000\n"
+"PO-Revision-Date: 2021-10-20 07:51+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -13796,37 +13796,31 @@ msgstr "色彩"
 
 #. i18n: context: Action (chooseForegroundColor), Actions (BrushesAndStuff), ActionCollection (Menu)
 #: krita/kritamenu.action:1865
-#, fuzzy, kde-format
-#| msgid "Foreground Color"
+#, kde-format
 msgctxt "action"
 msgid "&Choose Foreground Color"
-msgstr "前景色"
+msgstr "選取前景色(&C)"
 
 #. i18n: context: Action (chooseForegroundColor), Actions (BrushesAndStuff), ActionCollection (Menu)
 #: krita/kritamenu.action:1867
-#, fuzzy, kde-format
-#| msgid "Foreground Color"
+#, kde-format
 msgctxt "action"
 msgid "Choose Foreground Color"
-msgstr "前景色"
+msgstr "選取前景色"
 
 #. i18n: context: Action (chooseBackgroundColor), Actions (BrushesAndStuff), ActionCollection (Menu)
 #: krita/kritamenu.action:1875
-#, fuzzy, kde-format
-#| msgctxt "(qtundo-format)"
-#| msgid "Set Background Color"
+#, kde-format
 msgctxt "action"
 msgid "&Choose Background Color"
-msgstr "設定背景色"
+msgstr "最取背景色(&C)"
 
 #. i18n: context: Action (chooseBackgroundColor), Actions (BrushesAndStuff), ActionCollection (Menu)
 #: krita/kritamenu.action:1877
-#, fuzzy, kde-format
-#| msgctxt "(qtundo-format)"
-#| msgid "Set Background Color"
+#, kde-format
 msgctxt "action"
 msgid "Choose Background Color"
-msgstr "設定背景色"
+msgstr "選取背景色"
 
 #. i18n: context: Action (paintops), Actions (BrushesAndStuff), ActionCollection (Menu)
 #: krita/kritamenu.action:1885
@@ -26105,16 +26099,14 @@ msgid "&Painter's Tools"
 msgstr "繪畫工具(&P)"
 
 #: libs/ui/kis_control_frame.cpp:120
-#, fuzzy, kde-format
-#| msgid "Foreground color selector"
+#, kde-format
 msgid "&Open Foreground color selector"
-msgstr "選取前景色"
+msgstr "開啟前景色選取工具(&O)"
 
 #: libs/ui/kis_control_frame.cpp:125
-#, fuzzy, kde-format
-#| msgid "Background color selector"
+#, kde-format
 msgid "&Open Background color selector"
-msgstr "選取背景色"
+msgstr "開啟背景色選取工具"
 
 #: libs/ui/kis_control_frame.cpp:186 libs/ui/KisApplication.cpp:307
 #: plugins/dockers/patterndocker/patterndocker_dock.cpp:20
