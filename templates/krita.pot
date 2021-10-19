@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-10-15 00:14+0000\n"
+"POT-Creation-Date: 2021-10-19 00:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -13785,15 +13785,43 @@ msgctxt "action"
 msgid "Color"
 msgstr ""
 
-#. i18n: context: Action (paintops), Actions (BrushesAndStuff), ActionCollection (Menu)
+#. i18n: context: Action (chooseForegroundColor), Actions (BrushesAndStuff), ActionCollection (Menu)
 #: krita/kritamenu.action:1865
+#, kde-format
+msgctxt "action"
+msgid "&Choose Foreground Color"
+msgstr ""
+
+#. i18n: context: Action (chooseForegroundColor), Actions (BrushesAndStuff), ActionCollection (Menu)
+#: krita/kritamenu.action:1867
+#, kde-format
+msgctxt "action"
+msgid "Choose Foreground Color"
+msgstr ""
+
+#. i18n: context: Action (chooseBackgroundColor), Actions (BrushesAndStuff), ActionCollection (Menu)
+#: krita/kritamenu.action:1875
+#, kde-format
+msgctxt "action"
+msgid "&Choose Background Color"
+msgstr ""
+
+#. i18n: context: Action (chooseBackgroundColor), Actions (BrushesAndStuff), ActionCollection (Menu)
+#: krita/kritamenu.action:1877
+#, kde-format
+msgctxt "action"
+msgid "Choose Background Color"
+msgstr ""
+
+#. i18n: context: Action (paintops), Actions (BrushesAndStuff), ActionCollection (Menu)
+#: krita/kritamenu.action:1885
 #, kde-format
 msgctxt "action"
 msgid "&Painter's Tools"
 msgstr ""
 
 #. i18n: context: Action (paintops), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1867
+#: krita/kritamenu.action:1887
 #, kde-format
 msgctxt "action"
 msgid "Painter's Tools"
@@ -13803,7 +13831,7 @@ msgstr ""
 #. i18n: context: Action (composite_actions), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: Action (composite_actions), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: Action (composite_actions), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1875 krita/kritamenu.action:1877
+#: krita/kritamenu.action:1895 krita/kritamenu.action:1897
 #, kde-format
 msgctxt "action"
 msgid "Brush composite"
@@ -13813,7 +13841,7 @@ msgstr ""
 #. i18n: context: Action (brushslider1), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: Action (brushslider1), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: Action (brushslider1), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1885 krita/kritamenu.action:1887
+#: krita/kritamenu.action:1905 krita/kritamenu.action:1907
 #, kde-format
 msgctxt "action"
 msgid "Brush option slider 1"
@@ -13823,7 +13851,7 @@ msgstr ""
 #. i18n: context: Action (brushslider2), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: Action (brushslider2), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: Action (brushslider2), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1895 krita/kritamenu.action:1897
+#: krita/kritamenu.action:1915 krita/kritamenu.action:1917
 #, kde-format
 msgctxt "action"
 msgid "Brush option slider 2"
@@ -13833,7 +13861,7 @@ msgstr ""
 #. i18n: context: Action (brushslider3), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: Action (brushslider3), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: Action (brushslider3), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1905 krita/kritamenu.action:1907
+#: krita/kritamenu.action:1925 krita/kritamenu.action:1927
 #, kde-format
 msgctxt "action"
 msgid "Brush option slider 3"
@@ -13843,7 +13871,7 @@ msgstr ""
 #. i18n: context: Action (brushslider4), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: Action (brushslider4), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: Action (brushslider4), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1915 krita/kritamenu.action:1917
+#: krita/kritamenu.action:1935 krita/kritamenu.action:1937
 #, kde-format
 msgctxt "action"
 msgid "Brush option slider 4"
@@ -13853,21 +13881,21 @@ msgstr ""
 #. i18n: context: Action (mirror_actions), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: Action (mirror_actions), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: Action (mirror_actions), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1925 krita/kritamenu.action:1927
+#: krita/kritamenu.action:1945 krita/kritamenu.action:1947
 #, kde-format
 msgctxt "action"
 msgid "Mirror"
 msgstr ""
 
 #. i18n: context: Action (select_layout), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1935
+#: krita/kritamenu.action:1955
 #, kde-format
 msgctxt "action"
 msgid "Layouts"
 msgstr ""
 
 #. i18n: context: Action (select_layout), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1937
+#: krita/kritamenu.action:1957
 #, kde-format
 msgctxt "action"
 msgid "Select layout"
@@ -13877,7 +13905,7 @@ msgstr ""
 #. i18n: context: Action (workspaces), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: Action (workspaces), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: Action (workspaces), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1944 krita/kritamenu.action:1946
+#: krita/kritamenu.action:1964 krita/kritamenu.action:1966
 #, kde-format
 msgctxt "action"
 msgid "Workspaces"
@@ -25742,7 +25770,17 @@ msgstr ""
 msgid "&Painter's Tools"
 msgstr ""
 
-#: libs/ui/kis_control_frame.cpp:176 libs/ui/KisApplication.cpp:307
+#: libs/ui/kis_control_frame.cpp:120
+#, kde-format
+msgid "&Open Foreground color selector"
+msgstr ""
+
+#: libs/ui/kis_control_frame.cpp:125
+#, kde-format
+msgid "&Open Background color selector"
+msgstr ""
+
+#: libs/ui/kis_control_frame.cpp:186 libs/ui/KisApplication.cpp:307
 #: plugins/dockers/patterndocker/patterndocker_dock.cpp:20
 #: plugins/extensions/resourcemanager/dlg_embed_tags.cpp:65
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:241
@@ -25750,12 +25788,12 @@ msgstr ""
 msgid "Patterns"
 msgstr ""
 
-#: libs/ui/kis_control_frame.cpp:179 libs/ui/kis_control_frame.cpp:180
+#: libs/ui/kis_control_frame.cpp:189 libs/ui/kis_control_frame.cpp:190
 #, kde-format
 msgid "Custom Pattern"
 msgstr ""
 
-#: libs/ui/kis_control_frame.cpp:226 libs/ui/KisApplication.cpp:292
+#: libs/ui/kis_control_frame.cpp:236 libs/ui/KisApplication.cpp:292
 #: libs/ui/KisApplication.cpp:293 plugins/extensions/resourcemanager/dlg_embed_tags.cpp:63
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:244
 #, kde-format
@@ -30547,22 +30585,22 @@ msgid ""
 "information</a></p></body></html>"
 msgstr ""
 
-#: libs/ui/widgets/KoDualColorButton.cpp:401
+#: libs/ui/widgets/KoDualColorButton.cpp:415
 #, kde-format
 msgid "Foreground color selector"
 msgstr ""
 
-#: libs/ui/widgets/KoDualColorButton.cpp:404
+#: libs/ui/widgets/KoDualColorButton.cpp:418
 #, kde-format
 msgid "Set foreground and background colors to black and white"
 msgstr ""
 
-#: libs/ui/widgets/KoDualColorButton.cpp:409
+#: libs/ui/widgets/KoDualColorButton.cpp:423
 #, kde-format
 msgid "Swap foreground and background colors"
 msgstr ""
 
-#: libs/ui/widgets/KoDualColorButton.cpp:412
+#: libs/ui/widgets/KoDualColorButton.cpp:426
 #, kde-format
 msgid "Background color selector"
 msgstr ""
