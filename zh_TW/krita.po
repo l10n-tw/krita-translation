@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-10-21 00:15+0000\n"
-"PO-Revision-Date: 2021-10-20 07:51+0000\n"
+"PO-Revision-Date: 2021-10-21 07:58+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -10353,12 +10353,10 @@ msgstr "切換至先前選取的圖層"
 
 #. i18n: context: Action (add_new_group_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2349
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "&Group Layer"
+#, kde-format
 msgctxt "action"
 msgid "Add &Group Layer"
-msgstr "群組圖層(&G)"
+msgstr "新增群組圖層(&G)"
 
 #. i18n: context: Action (add_new_group_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2351
@@ -10369,12 +10367,10 @@ msgstr "新增群組圖層"
 
 #. i18n: context: Action (add_new_clone_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2361
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "&Clone Layer"
+#, kde-format
 msgctxt "action"
 msgid "Add &Clone Layer"
-msgstr "再製圖層(&C)"
+msgstr "新增再製圖層(&C)"
 
 #. i18n: context: Action (add_new_clone_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2363
@@ -10385,9 +10381,7 @@ msgstr "新增再製圖層"
 
 #. i18n: context: Action (add_new_shape_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2373
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Add a new &Vector Layer"
+#, kde-format
 msgctxt "action"
 msgid "Add &Vector Layer"
 msgstr "新增向量圖層(&V)"
@@ -10401,9 +10395,7 @@ msgstr "新增向量圖層"
 
 #. i18n: context: Action (add_new_adjustment_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2385
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Add a new &Filter Layer..."
+#, kde-format
 msgctxt "action"
 msgid "Add &Filter Layer..."
 msgstr "新增濾鏡圖層(&F)…"
@@ -10417,9 +10409,7 @@ msgstr "新增濾鏡圖層"
 
 #. i18n: context: Action (add_new_fill_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2397
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Add a new &Fill Layer..."
+#, kde-format
 msgctxt "action"
 msgid "Add &Fill Layer..."
 msgstr "新增填充圖層(&F)…"
@@ -10433,9 +10423,7 @@ msgstr "新增填充圖層"
 
 #. i18n: context: Action (add_new_file_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2409
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Add a new &File Layer..."
+#, kde-format
 msgctxt "action"
 msgid "Add &File Layer..."
 msgstr "新增檔案圖層(&F)…"
@@ -10449,12 +10437,10 @@ msgstr "新增檔案圖層"
 
 #. i18n: context: Action (add_new_transparency_mask), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2421
-#, fuzzy, kde-format
-#| msgctxt "(qtundo-format)"
-#| msgid "Add Transparency Mask"
+#, kde-format
 msgctxt "action"
 msgid "Add &Transparency Mask"
-msgstr "新增透明度遮罩"
+msgstr "新增透明度遮罩(&T)"
 
 #. i18n: context: Action (add_new_transparency_mask), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2423
@@ -10465,12 +10451,10 @@ msgstr "新增透明度遮罩"
 
 #. i18n: context: Action (add_new_filter_mask), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2433
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "&Filter Mask..."
+#, kde-format
 msgctxt "action"
 msgid "Add &Filter Mask..."
-msgstr "濾鏡遮罩(&F)…"
+msgstr "新增濾鏡遮罩(&F)…"
 
 #. i18n: context: Action (add_new_filter_mask), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2435
@@ -10481,12 +10465,10 @@ msgstr "新增濾鏡遮罩"
 
 #. i18n: context: Action (add_new_colorize_mask), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2445
-#, fuzzy, kde-format
-#| msgctxt "(qtundo-format)"
-#| msgid "Add Colorize Mask"
+#, kde-format
 msgctxt "action"
 msgid "Add &Colorize Mask"
-msgstr "新增著色遮罩"
+msgstr "新增著色遮罩(&C)"
 
 #. i18n: context: Action (add_new_colorize_mask), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2447
@@ -10497,12 +10479,10 @@ msgstr "新增著色遮罩"
 
 #. i18n: context: Action (add_new_transform_mask), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2457
-#, fuzzy, kde-format
-#| msgctxt "(qtundo-format)"
-#| msgid "Add Transform Mask"
+#, kde-format
 msgctxt "action"
 msgid "Add &Transform Mask"
-msgstr "新增變形遮罩"
+msgstr "新增變形遮罩(&T)"
 
 #. i18n: context: Action (add_new_transform_mask), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2459
@@ -10513,9 +10493,7 @@ msgstr "新增變形遮罩"
 
 #. i18n: context: Action (add_new_selection_mask), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2469
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Add a new &Local Selection"
+#, kde-format
 msgctxt "action"
 msgid "Add &Local Selection"
 msgstr "新增局部選取區域(&L)"
@@ -10629,12 +10607,10 @@ msgstr "切換圖層 Alpha (透明度) 繼承"
 
 #. i18n: context: Action (add_new_paint_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2565
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "&Paint Layer"
+#, kde-format
 msgctxt "action"
 msgid "Add &Paint Layer"
-msgstr "顏料圖層(&P)"
+msgstr "新增顏料圖層(&P)"
 
 #. i18n: context: Action (add_new_paint_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2567
@@ -11009,9 +10985,7 @@ msgstr "作為選取區域遮罩"
 
 #. i18n: context: Action (convert_to_paint_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2889
-#, fuzzy, kde-format
-#| msgctxt "(qtundo-format)"
-#| msgid "Convert to a Paint Layer"
+#, kde-format
 msgctxt "action"
 msgid "Convert to &Paint Layer"
 msgstr "轉成顏料圖層"
@@ -11025,12 +10999,10 @@ msgstr "為顏料圖層"
 
 #. i18n: context: Action (convert_to_transparency_mask), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2901
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "to &Transparency Mask"
+#, kde-format
 msgctxt "action"
 msgid "Convert to &Transparency Mask"
-msgstr "為透明度遮罩(&T)"
+msgstr "轉成透明度遮罩(&T)"
 
 #. i18n: context: Action (convert_to_transparency_mask), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2903
@@ -11041,12 +11013,10 @@ msgstr "為透明度遮罩"
 
 #. i18n: context: Action (convert_to_filter_mask), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2913
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "to &Filter Mask..."
+#, kde-format
 msgctxt "action"
 msgid "Convert to &Filter Mask..."
-msgstr "為濾鏡遮罩(&F)…"
+msgstr "轉成濾鏡遮罩(&F)…"
 
 #. i18n: context: Action (convert_to_filter_mask), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2915
@@ -11057,12 +11027,10 @@ msgstr "為濾鏡遮罩"
 
 #. i18n: context: Action (convert_to_selection_mask), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2925
-#, fuzzy, kde-format
-#| msgctxt "(qtundo-format)"
-#| msgid "Convert to a Selection Mask"
+#, kde-format
 msgctxt "action"
 msgid "Convert to &Selection Mask"
-msgstr "轉成選取區域遮罩"
+msgstr "轉成選取區域遮罩(&S)"
 
 #. i18n: context: Action (convert_to_selection_mask), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2927
@@ -18125,28 +18093,21 @@ msgid "Failed to rename the resource."
 msgstr "無法重新命名資源。"
 
 #: libs/resourcewidgets/KisResourceUserOperations.cpp:127
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Failed to overwrite the resource"
+#, kde-format
 msgctxt "@title:window"
 msgid "Overwrite the resource?"
-msgstr "覆寫資源失敗"
+msgstr "覆寫資源？"
 
 #: libs/resourcewidgets/KisResourceUserOperations.cpp:128
-#, fuzzy, kde-format
-#| msgctxt "Question in a dialog/messagebox"
-#| msgid ""
-#| "This name is already used for another resource. Do you want to use the "
-#| "same name for multiple resources? (If you decline now, the resource won't "
-#| "be added)."
+#, kde-format
 msgctxt "Question in a dialog/messagebox"
 msgid ""
 "This filename is already used for another resource. Do you want to overwrite "
 "that resource?\n"
 "(If you decline now, nothing will be done)."
 msgstr ""
-"這個名稱已被另一項資源使用。您希望多項資源使用相同的名稱嗎？\n"
-"(如選擇取消，將不會加入該資源。)"
+"這個檔案名稱已被另一項資源使用。您希望覆寫該資源嗎？\n"
+"(如選擇取消，將不會作出任何動作。)"
 
 #: libs/resourcewidgets/KisResourceUserOperations.cpp:141
 #, kde-format
@@ -24049,13 +24010,13 @@ msgstr ""
 #: libs/ui/forms/wdgperformancesettings.ui:138
 #, kde-format
 msgid "Swap Undo After:"
-msgstr "交換復原起點："
+msgstr "復原資料置換前上限："
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: libs/ui/forms/wdgperformancesettings.ui:172
 #, kde-format
 msgid "Swap File Size"
-msgstr "交換檔案大小"
+msgstr "置換檔案大小"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_6)
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, sliderSwapSize)
@@ -24063,7 +24024,7 @@ msgstr "交換檔案大小"
 #: libs/ui/forms/wdgperformancesettings.ui:199
 #, kde-format
 msgid "The swap file will not be bigger than this limit."
-msgstr "交換檔案不會大於此限制。"
+msgstr "置換檔案不會大於此限制。"
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #: libs/ui/forms/wdgperformancesettings.ui:184
@@ -24075,13 +24036,13 @@ msgstr "檔案大小限制："
 #: libs/ui/forms/wdgperformancesettings.ui:215
 #, kde-format
 msgid "Swap File Location:"
-msgstr "交換檔案位置："
+msgstr "置換檔案位置："
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, bnSwapFile)
 #: libs/ui/forms/wdgperformancesettings.ui:240
 #, kde-format
 msgid "Select the location where Krita writes its swap files."
-msgstr "選擇 Krita 寫入交換檔案的位置。"
+msgstr "選擇 Krita 寫入置換檔案的位置。"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
 #: libs/ui/forms/wdgperformancesettings.ui:275
@@ -24266,10 +24227,9 @@ msgid ""
 "low, you might want to limit cached frame size to be able to play your video "
 "at 25 fps. The limit of 2500 px is usually a good choice.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>動畫影格快取將存放到磁碟交換檔案使用的目錄中。快取檔案"
-"會被壓縮。需要少量額外的記憶體。</p><p>由於硬碟的資料傳輸速率較低，為了能夠以"
-"每秒 25 影格的速度播放影片，可能需要對影格的尺寸進行限制。2500 px 的限制通常"
-"來說是較佳選擇。</p></body></html>"
+"<html><head/"
+"><body><p>動畫影格快取將存放到磁碟置換檔案使用的目錄中。快取檔案會被壓縮。需要少量額外的記憶體。</p><p>由於硬碟的資料傳輸速率較低，"
+"為了能夠以每秒 25 影格的速度播放影片，可能需要對影格的尺寸進行限制。2500 px 的限制通常來說是較佳選擇。</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QRadioButton, optOnDisk)
 #: libs/ui/forms/wdgperformancesettings.ui:462
@@ -26855,7 +26815,7 @@ msgstr ""
 "  記憶體池：\t\t%5 / %6\n"
 "  復原資料：\t\t%7\n"
 "\n"
-"已用交換空間：\t%8"
+"已用置換空間：\t%8"
 
 #: libs/ui/kis_statusbar.cc:341
 #, kde-format
@@ -26868,7 +26828,7 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"警告：\t記憶體不足！已啟用記憶體交換。\n"
+"警告：\t記憶體不足！已啟用記憶體置換。\n"
 "\t\t請在設定對話框中為 Krita 分配更多記憶體"
 
 #: libs/ui/kis_statusbar.cc:396
