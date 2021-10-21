@@ -24227,9 +24227,10 @@ msgid ""
 "low, you might want to limit cached frame size to be able to play your video "
 "at 25 fps. The limit of 2500 px is usually a good choice.</p></body></html>"
 msgstr ""
-"<html><head/"
-"><body><p>動畫影格快取將存放到磁碟置換檔案使用的目錄中。快取檔案會被壓縮。需要少量額外的記憶體。</p><p>由於硬碟的資料傳輸速率較低，"
-"為了能夠以每秒 25 影格的速度播放影片，可能需要對影格的尺寸進行限制。2500 px 的限制通常來說是較佳選擇。</p></body></html>"
+"<html><head/><body><p>動畫影格快取將存放到磁碟置換檔案使用的目錄中。快取檔案"
+"會被壓縮。需要少量額外的記憶體。</p><p>由於硬碟的資料傳輸速率較低，為了能夠以"
+"每秒 25 影格的速度播放影片，可能需要對影格的尺寸進行限制。2500 px 的限制通常"
+"來說是較佳選擇。</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QRadioButton, optOnDisk)
 #: libs/ui/forms/wdgperformancesettings.ui:462
