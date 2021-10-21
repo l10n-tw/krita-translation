@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-10-10 00:16+0000\n"
-"PO-Revision-Date: 2021-10-12 15:33+0000\n"
+"POT-Creation-Date: 2021-10-21 00:15+0000\n"
+"PO-Revision-Date: 2021-10-21 07:58+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -10355,7 +10355,7 @@ msgstr "切換至先前選取的圖層"
 #: krita/krita.action:2349
 #, kde-format
 msgctxt "action"
-msgid "Add a new &Group Layer"
+msgid "Add &Group Layer"
 msgstr "新增群組圖層(&G)"
 
 #. i18n: context: Action (add_new_group_layer), Actions (Layers), ActionCollection (Krita)
@@ -10369,7 +10369,7 @@ msgstr "新增群組圖層"
 #: krita/krita.action:2361
 #, kde-format
 msgctxt "action"
-msgid "Add a new &Clone Layer"
+msgid "Add &Clone Layer"
 msgstr "新增再製圖層(&C)"
 
 #. i18n: context: Action (add_new_clone_layer), Actions (Layers), ActionCollection (Krita)
@@ -10383,7 +10383,7 @@ msgstr "新增再製圖層"
 #: krita/krita.action:2373
 #, kde-format
 msgctxt "action"
-msgid "Add a new &Vector Layer"
+msgid "Add &Vector Layer"
 msgstr "新增向量圖層(&V)"
 
 #. i18n: context: Action (add_new_shape_layer), Actions (Layers), ActionCollection (Krita)
@@ -10397,7 +10397,7 @@ msgstr "新增向量圖層"
 #: krita/krita.action:2385
 #, kde-format
 msgctxt "action"
-msgid "Add a new &Filter Layer..."
+msgid "Add &Filter Layer..."
 msgstr "新增濾鏡圖層(&F)…"
 
 #. i18n: context: Action (add_new_adjustment_layer), Actions (Layers), ActionCollection (Krita)
@@ -10411,7 +10411,7 @@ msgstr "新增濾鏡圖層"
 #: krita/krita.action:2397
 #, kde-format
 msgctxt "action"
-msgid "Add a new &Fill Layer..."
+msgid "Add &Fill Layer..."
 msgstr "新增填充圖層(&F)…"
 
 #. i18n: context: Action (add_new_fill_layer), Actions (Layers), ActionCollection (Krita)
@@ -10425,7 +10425,7 @@ msgstr "新增填充圖層"
 #: krita/krita.action:2409
 #, kde-format
 msgctxt "action"
-msgid "Add a new &File Layer..."
+msgid "Add &File Layer..."
 msgstr "新增檔案圖層(&F)…"
 
 #. i18n: context: Action (add_new_file_layer), Actions (Layers), ActionCollection (Krita)
@@ -10439,7 +10439,7 @@ msgstr "新增檔案圖層"
 #: krita/krita.action:2421
 #, kde-format
 msgctxt "action"
-msgid "Add a new &Transparency Mask"
+msgid "Add &Transparency Mask"
 msgstr "新增透明度遮罩(&T)"
 
 #. i18n: context: Action (add_new_transparency_mask), Actions (Layers), ActionCollection (Krita)
@@ -10453,7 +10453,7 @@ msgstr "新增透明度遮罩"
 #: krita/krita.action:2433
 #, kde-format
 msgctxt "action"
-msgid "Add a new &Filter Mask..."
+msgid "Add &Filter Mask..."
 msgstr "新增濾鏡遮罩(&F)…"
 
 #. i18n: context: Action (add_new_filter_mask), Actions (Layers), ActionCollection (Krita)
@@ -10467,8 +10467,8 @@ msgstr "新增濾鏡遮罩"
 #: krita/krita.action:2445
 #, kde-format
 msgctxt "action"
-msgid "Add a new &Colorize Mask"
-msgstr "新增著色遮罩(&M)"
+msgid "Add &Colorize Mask"
+msgstr "新增著色遮罩(&C)"
 
 #. i18n: context: Action (add_new_colorize_mask), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2447
@@ -10481,7 +10481,7 @@ msgstr "新增著色遮罩"
 #: krita/krita.action:2457
 #, kde-format
 msgctxt "action"
-msgid "Add a new &Transform Mask"
+msgid "Add &Transform Mask"
 msgstr "新增變形遮罩(&T)"
 
 #. i18n: context: Action (add_new_transform_mask), Actions (Layers), ActionCollection (Krita)
@@ -10495,7 +10495,7 @@ msgstr "新增變形遮罩"
 #: krita/krita.action:2469
 #, kde-format
 msgctxt "action"
-msgid "Add a new &Local Selection"
+msgid "Add &Local Selection"
 msgstr "新增局部選取區域(&L)"
 
 #. i18n: context: Action (add_new_selection_mask), Actions (Layers), ActionCollection (Krita)
@@ -10609,7 +10609,7 @@ msgstr "切換圖層 Alpha (透明度) 繼承"
 #: krita/krita.action:2565
 #, kde-format
 msgctxt "action"
-msgid "Add a new &Paint Layer"
+msgid "Add &Paint Layer"
 msgstr "新增顏料圖層(&P)"
 
 #. i18n: context: Action (add_new_paint_layer), Actions (Layers), ActionCollection (Krita)
@@ -10987,8 +10987,8 @@ msgstr "作為選取區域遮罩"
 #: krita/krita.action:2889
 #, kde-format
 msgctxt "action"
-msgid "to &Paint Layer"
-msgstr "為顏料圖層(&P)"
+msgid "Convert to &Paint Layer"
+msgstr "轉成顏料圖層"
 
 #. i18n: context: Action (convert_to_paint_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2891
@@ -11001,8 +11001,8 @@ msgstr "為顏料圖層"
 #: krita/krita.action:2901
 #, kde-format
 msgctxt "action"
-msgid "to &Transparency Mask"
-msgstr "為透明度遮罩(&T)"
+msgid "Convert to &Transparency Mask"
+msgstr "轉成透明度遮罩(&T)"
 
 #. i18n: context: Action (convert_to_transparency_mask), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2903
@@ -11015,8 +11015,8 @@ msgstr "為透明度遮罩"
 #: krita/krita.action:2913
 #, kde-format
 msgctxt "action"
-msgid "to &Filter Mask..."
-msgstr "為濾鏡遮罩(&F)…"
+msgid "Convert to &Filter Mask..."
+msgstr "轉成濾鏡遮罩(&F)…"
 
 #. i18n: context: Action (convert_to_filter_mask), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2915
@@ -11029,8 +11029,8 @@ msgstr "為濾鏡遮罩"
 #: krita/krita.action:2925
 #, kde-format
 msgctxt "action"
-msgid "to &Selection Mask"
-msgstr "為選取區域遮罩(&S)"
+msgid "Convert to &Selection Mask"
+msgstr "轉成選取區域遮罩(&S)"
 
 #. i18n: context: Action (convert_to_selection_mask), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2927
@@ -13794,15 +13794,43 @@ msgctxt "action"
 msgid "Color"
 msgstr "色彩"
 
-#. i18n: context: Action (paintops), Actions (BrushesAndStuff), ActionCollection (Menu)
+#. i18n: context: Action (chooseForegroundColor), Actions (BrushesAndStuff), ActionCollection (Menu)
 #: krita/kritamenu.action:1865
+#, kde-format
+msgctxt "action"
+msgid "&Choose Foreground Color"
+msgstr "選取前景色(&C)"
+
+#. i18n: context: Action (chooseForegroundColor), Actions (BrushesAndStuff), ActionCollection (Menu)
+#: krita/kritamenu.action:1867
+#, kde-format
+msgctxt "action"
+msgid "Choose Foreground Color"
+msgstr "選取前景色"
+
+#. i18n: context: Action (chooseBackgroundColor), Actions (BrushesAndStuff), ActionCollection (Menu)
+#: krita/kritamenu.action:1875
+#, kde-format
+msgctxt "action"
+msgid "&Choose Background Color"
+msgstr "最取背景色(&C)"
+
+#. i18n: context: Action (chooseBackgroundColor), Actions (BrushesAndStuff), ActionCollection (Menu)
+#: krita/kritamenu.action:1877
+#, kde-format
+msgctxt "action"
+msgid "Choose Background Color"
+msgstr "選取背景色"
+
+#. i18n: context: Action (paintops), Actions (BrushesAndStuff), ActionCollection (Menu)
+#: krita/kritamenu.action:1885
 #, kde-format
 msgctxt "action"
 msgid "&Painter's Tools"
 msgstr "繪畫工具(&P)"
 
 #. i18n: context: Action (paintops), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1867
+#: krita/kritamenu.action:1887
 #, kde-format
 msgctxt "action"
 msgid "Painter's Tools"
@@ -13812,7 +13840,7 @@ msgstr "繪畫工具"
 #. i18n: context: Action (composite_actions), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: Action (composite_actions), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: Action (composite_actions), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1875 krita/kritamenu.action:1877
+#: krita/kritamenu.action:1895 krita/kritamenu.action:1897
 #, kde-format
 msgctxt "action"
 msgid "Brush composite"
@@ -13822,7 +13850,7 @@ msgstr "筆刷分量"
 #. i18n: context: Action (brushslider1), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: Action (brushslider1), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: Action (brushslider1), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1885 krita/kritamenu.action:1887
+#: krita/kritamenu.action:1905 krita/kritamenu.action:1907
 #, kde-format
 msgctxt "action"
 msgid "Brush option slider 1"
@@ -13832,7 +13860,7 @@ msgstr "筆刷選項滑動條 1"
 #. i18n: context: Action (brushslider2), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: Action (brushslider2), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: Action (brushslider2), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1895 krita/kritamenu.action:1897
+#: krita/kritamenu.action:1915 krita/kritamenu.action:1917
 #, kde-format
 msgctxt "action"
 msgid "Brush option slider 2"
@@ -13842,7 +13870,7 @@ msgstr "筆刷選項滑動條 2"
 #. i18n: context: Action (brushslider3), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: Action (brushslider3), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: Action (brushslider3), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1905 krita/kritamenu.action:1907
+#: krita/kritamenu.action:1925 krita/kritamenu.action:1927
 #, kde-format
 msgctxt "action"
 msgid "Brush option slider 3"
@@ -13852,7 +13880,7 @@ msgstr "筆刷選項滑動條 3"
 #. i18n: context: Action (brushslider4), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: Action (brushslider4), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: Action (brushslider4), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1915 krita/kritamenu.action:1917
+#: krita/kritamenu.action:1935 krita/kritamenu.action:1937
 #, kde-format
 msgctxt "action"
 msgid "Brush option slider 4"
@@ -13862,21 +13890,21 @@ msgstr "筆刷選項滑動條 4"
 #. i18n: context: Action (mirror_actions), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: Action (mirror_actions), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: Action (mirror_actions), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1925 krita/kritamenu.action:1927
+#: krita/kritamenu.action:1945 krita/kritamenu.action:1947
 #, kde-format
 msgctxt "action"
 msgid "Mirror"
 msgstr "鏡像繪畫"
 
 #. i18n: context: Action (select_layout), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1935
+#: krita/kritamenu.action:1955
 #, kde-format
 msgctxt "action"
 msgid "Layouts"
 msgstr "版面配置"
 
 #. i18n: context: Action (select_layout), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1937
+#: krita/kritamenu.action:1957
 #, kde-format
 msgctxt "action"
 msgid "Select layout"
@@ -13886,7 +13914,7 @@ msgstr "選擇版面配置"
 #. i18n: context: Action (workspaces), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: Action (workspaces), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: Action (workspaces), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1944 krita/kritamenu.action:1946
+#: krita/kritamenu.action:1964 krita/kritamenu.action:1966
 #, kde-format
 msgctxt "action"
 msgid "Workspaces"
@@ -14591,14 +14619,14 @@ msgstr "縮小(&M)"
 #: libs/ui/widgets/KoFillConfigWidget.ui:332
 #: libs/ui/widgets/KoStrokeConfigWidget.ui:64
 #: libs/widgets/wdg_file_name_requester.ui:39
-#: plugins/dockers/layerdocker/WdgLayerBox.ui:90
-#: plugins/dockers/layerdocker/WdgLayerBox.ui:154
-#: plugins/dockers/layerdocker/WdgLayerBox.ui:203
-#: plugins/dockers/layerdocker/WdgLayerBox.ui:222
-#: plugins/dockers/layerdocker/WdgLayerBox.ui:247
-#: plugins/dockers/layerdocker/WdgLayerBox.ui:272
-#: plugins/dockers/layerdocker/WdgLayerBox.ui:297
-#: plugins/dockers/layerdocker/WdgLayerBox.ui:338
+#: plugins/dockers/layerdocker/WdgLayerBox.ui:84
+#: plugins/dockers/layerdocker/WdgLayerBox.ui:148
+#: plugins/dockers/layerdocker/WdgLayerBox.ui:197
+#: plugins/dockers/layerdocker/WdgLayerBox.ui:216
+#: plugins/dockers/layerdocker/WdgLayerBox.ui:241
+#: plugins/dockers/layerdocker/WdgLayerBox.ui:266
+#: plugins/dockers/layerdocker/WdgLayerBox.ui:291
+#: plugins/dockers/layerdocker/WdgLayerBox.ui:332
 #: plugins/dockers/logdocker/WdgLogDocker.ui:49
 #: plugins/dockers/logdocker/WdgLogDocker.ui:65
 #: plugins/dockers/logdocker/WdgLogDocker.ui:78
@@ -14766,7 +14794,7 @@ msgstr "大小"
 #: libs/ui/forms/wdgrectangleconstraints.ui:86
 #: libs/ui/forms/wdgrectangleconstraints.ui:134
 #: libs/ui/forms/wdgrectangleconstraints.ui:184
-#: libs/ui/forms/wdgrectangleconstraints.ui:226 libs/ui/kis_paintop_box.cc:283
+#: libs/ui/forms/wdgrectangleconstraints.ui:226 libs/ui/kis_paintop_box.cc:285
 #: libs/ui/widgets/kis_lod_availability_widget.cpp:75
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:488
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:762
@@ -15172,7 +15200,7 @@ msgstr "匯入的影像"
 msgid "Selection Mask"
 msgstr "選取區域遮罩"
 
-#: libs/image/kis_image.cc:686 libs/ui/KisDocument.cpp:2323
+#: libs/image/kis_image.cc:686 libs/ui/KisDocument.cpp:2362
 #: plugins/impex/psd/psd_loader.cpp:162
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:69
 #: plugins/python/comics_project_management_tools/comics_template_dialog.py:302
@@ -15334,7 +15362,7 @@ msgstr "%1%"
 
 #. i18n: ectx: property (toolTip), widget (KisCompositeOpComboBox, cmbComposite)
 #: libs/image/kis_layer.cc:283 libs/ui/widgets/kis_cmb_composite.cc:66
-#: plugins/dockers/layerdocker/WdgLayerBox.ui:62
+#: plugins/dockers/layerdocker/WdgLayerBox.ui:56
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:45
 #: plugins/paintops/curvebrush/kis_curve_paintop_settings_widget.cpp:26
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:50
@@ -17403,9 +17431,9 @@ msgstr "輸出"
 #: libs/pigment/resources/KoColorSet.cpp:770
 #: libs/pigment/resources/KoColorSet.cpp:852
 #: libs/pigment/resources/KoColorSet.cpp:1075
-#: libs/ui/actions/KisPasteActionFactories.cpp:298
+#: libs/ui/actions/KisPasteActionFactories.cpp:305
 #: libs/ui/animation/KisDlgAnimationRenderer.cpp:345 libs/ui/KisView.cpp:666
-#: plugins/generators/seexpr/kis_wdg_seexpr.cpp:27
+#: plugins/generators/seexpr/kis_wdg_seexpr.cpp:34
 #, kde-format
 msgid "Untitled"
 msgstr "無標題"
@@ -17449,24 +17477,24 @@ msgstr "本機資源"
 #: libs/ui/animation/KisDlgAnimationRenderer.cpp:556
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:65
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:170
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:237
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:541
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:562
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:569
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:670
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:728
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:753
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:236
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:540
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:561
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:568
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:669
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:727
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:752
 #: libs/ui/dialogs/kis_dlg_preferences.cc:552
-#: libs/ui/input/kis_tablet_debugger.cpp:96 libs/ui/kis_custom_pattern.cc:123
+#: libs/ui/input/kis_tablet_debugger.cpp:96 libs/ui/kis_custom_pattern.cc:131
 #: libs/ui/kis_filter_manager.cc:233 libs/ui/kis_filter_manager.cc:242
 #: libs/ui/kis_layer_manager.cc:313 libs/ui/kis_layer_manager.cc:961
 #: libs/ui/kis_node_manager.cpp:1214 libs/ui/kis_node_manager.cpp:1277
 #: libs/ui/KisApplication.cpp:872 libs/ui/KisApplication.cpp:875
 #: libs/ui/KisApplication.cpp:891 libs/ui/KisApplication.cpp:923
 #: libs/ui/KisApplication.cpp:937 libs/ui/KisApplication.cpp:965
-#: libs/ui/KisDocument.cpp:859 libs/ui/KisDocument.cpp:862
-#: libs/ui/KisDocument.cpp:1702 libs/ui/KisDocument.cpp:1745
-#: libs/ui/KisDocument.cpp:1753 libs/ui/KisMainWindow.cpp:1079
+#: libs/ui/KisDocument.cpp:881 libs/ui/KisDocument.cpp:884
+#: libs/ui/KisDocument.cpp:1708 libs/ui/KisDocument.cpp:1751
+#: libs/ui/KisDocument.cpp:1759 libs/ui/KisMainWindow.cpp:1079
 #: libs/ui/KisMainWindow.cpp:1206 libs/ui/KisMainWindow.cpp:1304
 #: libs/ui/KisMainWindow.cpp:1905 libs/ui/KisMainWindow.cpp:1914
 #: libs/ui/KisMainWindow.cpp:2053 libs/ui/KisMainWindow.cpp:2112
@@ -17475,8 +17503,9 @@ msgstr "本機資源"
 #: libs/ui/KisRemoteFileFetcher.cpp:42 libs/ui/KisTemplateCreateDia.cpp:284
 #: libs/ui/KisTemplateCreateDia.cpp:390 libs/ui/KisView.cpp:669
 #: libs/ui/KisWelcomePageWidget.cpp:702
-#: libs/ui/opengl/kis_opengl_canvas2.cpp:386
-#: libs/ui/utils/KisClipboardUtil.cpp:130
+#: libs/ui/opengl/kis_opengl_canvas2.cpp:388
+#: libs/ui/utils/KisClipboardUtil.cpp:131
+#: libs/ui/utils/KisClipboardUtil.cpp:236
 #: libs/ui/widgets/gradient/KisGradientChooser.cpp:535
 #: libs/ui/widgets/kis_custom_image_widget.cc:299
 #: plugins/assistants/Assistants/kis_assistant_tool.cc:1080
@@ -17527,65 +17556,65 @@ msgid ""
 msgstr ""
 "資源資料庫綱要已變更。Krita 會先備份您的資料庫，然後再建立一個新的資料庫。"
 
-#: libs/resources/KisResourceLocator.cpp:88
+#: libs/resources/KisResourceLocator.cpp:89
 #, kde-format
 msgid "1. Could not create the resource location at %1."
 msgstr "1. 無法建立位於 %1 的資源位置。"
 
-#: libs/resources/KisResourceLocator.cpp:95
+#: libs/resources/KisResourceLocator.cpp:96
 #, kde-format
 msgid "2. The resource location at %1 is not writable."
 msgstr "2. 位於 %1 的資源位置無法寫入。"
 
-#: libs/resources/KisResourceLocator.cpp:558
+#: libs/resources/KisResourceLocator.cpp:559
 #, kde-format
 msgid "Could not add %1 to the database"
 msgstr "無法新增 %1 至資料庫"
 
-#: libs/resources/KisResourceLocator.cpp:579
-#: libs/resources/KisResourceLocator.cpp:911
+#: libs/resources/KisResourceLocator.cpp:580
+#: libs/resources/KisResourceLocator.cpp:925
 #, kde-format
 msgid "Could not remove storage %1 from the database"
 msgstr "無法從資料庫移除 %1 儲存空間"
 
-#: libs/resources/KisResourceLocator.cpp:693
+#: libs/resources/KisResourceLocator.cpp:707
 #, kde-format
 msgid ""
 "Krita is running for the first time. Initialization will take some time."
 msgstr "Krita 為第一次執行。需要一點時間初始化。"
 
-#: libs/resources/KisResourceLocator.cpp:700
+#: libs/resources/KisResourceLocator.cpp:714
 #, kde-format
 msgid "3. Could not create the resource location at %1."
 msgstr "3. 無法建立位於 %1 的資源位置"
 
-#: libs/resources/KisResourceLocator.cpp:713
-#: libs/resources/KisResourceLocator.cpp:729
+#: libs/resources/KisResourceLocator.cpp:727
+#: libs/resources/KisResourceLocator.cpp:743
 #, kde-format
 msgid "Could not copy resource %1 to %2"
 msgstr "無法複製 %1 資源至 %2"
 
-#: libs/resources/KisResourceLocator.cpp:725
+#: libs/resources/KisResourceLocator.cpp:739
 #, kde-format
 msgid "Installing the resources from bundle %1."
 msgstr "正在從 %1 資源包安裝資源。"
 
-#: libs/resources/KisResourceLocator.cpp:747
+#: libs/resources/KisResourceLocator.cpp:761
 #, kde-format
 msgid "Initializing the resources."
 msgstr "正在初始化資源。"
 
-#: libs/resources/KisResourceLocator.cpp:761
+#: libs/resources/KisResourceLocator.cpp:775
 #, kde-format
 msgid "Could not add storage %1 to the cache database"
 msgstr "無法新增 %1 儲存空間至快取資料庫"
 
-#: libs/resources/KisResourceLocator.cpp:782
+#: libs/resources/KisResourceLocator.cpp:796
 #, kde-format
 msgid "Temporary Resources"
 msgstr "暫存資源"
 
-#: libs/resources/KisResourceLocator.cpp:901
+#: libs/resources/KisResourceLocator.cpp:915
 #, kde-format
 msgid "Could not synchronize %1 with the database"
 msgstr "無法與資料庫同步 %1"
@@ -17927,12 +17956,14 @@ msgstr "資料庫版本"
 #. i18n: ectx: property (text), widget (QLabel, lblDescription)
 #. i18n: ectx: property (text), widget (QLabel, lblSwapFileLocation)
 #. i18n: ectx: property (text), widget (QLabel, lblPreview)
+#. i18n: ectx: property (text), widget (QLabel, m_lblOcioVersion)
 #. i18n: ectx: property (text), widget (QLabel, lblSaveLocation)
 #: libs/resourcewidgets/dbexplorer/WdgDbExplorer.ui:126
 #: libs/resourcewidgets/dbexplorer/WdgDbExplorer.ui:140
 #: libs/resourcewidgets/dbexplorer/WdgDbExplorer.ui:154
 #: libs/ui/forms/wdgimageproperties.ui:414 libs/ui/forms/wdgnewimage.ui:305
 #: libs/ui/forms/wdgperformancesettings.ui:233
+#: plugins/dockers/lut/wdglut.ui:358
 #: plugins/extensions/resourcemanager/wdgdlgcreatebundle.ui:459
 #, kde-format
 msgid "TextLabel"
@@ -18002,13 +18033,13 @@ msgstr "移除出此標籤"
 msgid "Remove from other tag"
 msgstr "移除出其他標籤"
 
-#: libs/resourcewidgets/KisResourceUserOperations.cpp:21
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:25
 #, kde-format
 msgctxt "Dialog title"
 msgid "Overwrite the file?"
 msgstr "覆寫檔案嗎？"
 
-#: libs/resourcewidgets/KisResourceUserOperations.cpp:22
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:26
 #, kde-format
 msgctxt "Question in a dialog/messagebox"
 msgid ""
@@ -18019,26 +18050,26 @@ msgstr ""
 "這個資源檔案已存在於資源資料夾內，您確定要覆寫它嗎？\n"
 "資源檔案名稱：%1"
 
-#: libs/resourcewidgets/KisResourceUserOperations.cpp:55
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:82
 #, kde-format
 msgctxt "@title:window"
 msgid "Failed to import the resource"
 msgstr "匯入資源失敗"
 
-#: libs/resourcewidgets/KisResourceUserOperations.cpp:55
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:82
 #, kde-format
 msgctxt "Warning message"
 msgid "Failed to import the resource."
 msgstr "無法匯入資源。"
 
-#: libs/resourcewidgets/KisResourceUserOperations.cpp:68
-#: libs/resourcewidgets/KisResourceUserOperations.cpp:132
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:94
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:215
 #, kde-format
 msgctxt "@title:window"
 msgid "Rename the resource?"
 msgstr "重新命名資源？"
 
-#: libs/resourcewidgets/KisResourceUserOperations.cpp:69
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:95
 #, kde-format
 msgctxt "Question in a dialog/messagebox"
 msgid ""
@@ -18049,47 +18080,42 @@ msgstr ""
 "這個名稱已被另一項資源使用。您希望多項資源使用相同的名稱嗎？\n"
 "(如選擇取消，將不會重新命名該資源。)"
 
-#: libs/resourcewidgets/KisResourceUserOperations.cpp:79
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:105
 #, kde-format
 msgctxt "@title:window"
 msgid "Failed to rename the resource"
 msgstr "重新命名資源失敗"
 
-#: libs/resourcewidgets/KisResourceUserOperations.cpp:79
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:105
 #, kde-format
 msgctxt "Warning message"
 msgid "Failed to rename the resource."
 msgstr "無法重新命名資源。"
 
-#: libs/resourcewidgets/KisResourceUserOperations.cpp:93
-#: libs/resourcewidgets/KisResourceUserOperations.cpp:98
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:127
 #, kde-format
 msgctxt "@title:window"
-msgid "Cannot add the resource"
-msgstr "未能加入資源"
+msgid "Overwrite the resource?"
+msgstr "覆寫資源？"
 
-#: libs/resourcewidgets/KisResourceUserOperations.cpp:94
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:128
 #, kde-format
-msgctxt "Warning message"
+msgctxt "Question in a dialog/messagebox"
 msgid ""
-"The filename %1 is already used for a resource %2, so adding a resource with "
-"name %3 failed."
-msgstr "檔案名稱「%1」已被資源「%2」使用，因此無法加入一個名為「%3」的資源。"
+"This filename is already used for another resource. Do you want to overwrite "
+"that resource?\n"
+"(If you decline now, nothing will be done)."
+msgstr ""
+"這個檔案名稱已被另一項資源使用。您希望覆寫該資源嗎？\n"
+"(如選擇取消，將不會作出任何動作。)"
 
-#: libs/resourcewidgets/KisResourceUserOperations.cpp:99
-#, kde-format
-msgctxt "Warning message"
-msgid ""
-"The filename %1 is already in use, so adding a resource with name %2 failed."
-msgstr "檔案名稱「%1」已被使用，因此無法加入一個名為「%2」的資源。"
-
-#: libs/resourcewidgets/KisResourceUserOperations.cpp:106
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:141
 #, kde-format
 msgctxt "@title:window"
 msgid "Add the resource?"
 msgstr "加入資源？"
 
-#: libs/resourcewidgets/KisResourceUserOperations.cpp:107
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:142
 #, kde-format
 msgctxt "Question in a dialog/messagebox"
 msgid ""
@@ -18100,19 +18126,33 @@ msgstr ""
 "這個名稱已被另一項資源使用。您希望多項資源使用相同的名稱嗎？\n"
 "(如選擇取消，將不會加入該資源。)"
 
-#: libs/resourcewidgets/KisResourceUserOperations.cpp:119
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:158
 #, kde-format
 msgctxt "@title:window"
 msgid "Failed to add resource"
 msgstr "加入資源失敗"
 
-#: libs/resourcewidgets/KisResourceUserOperations.cpp:119
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:158
 #, kde-format
 msgctxt "Warning message"
 msgid "Failed to add the resource."
 msgstr "無法加入資源。"
 
-#: libs/resourcewidgets/KisResourceUserOperations.cpp:133
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:195
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:228
+#, kde-format
+msgctxt "@title:window"
+msgid "Failed to overwrite the resource"
+msgstr "覆寫資源失敗"
+
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:195
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:228
+#, kde-format
+msgctxt "Warning message"
+msgid "Failed to overwrite the resource."
+msgstr "無法覆寫資源。"
+
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:216
 #, kde-format
 msgctxt "Question in a dialog/messagebox"
 msgid ""
@@ -18122,18 +18162,6 @@ msgid ""
 msgstr ""
 "這個名稱已被另一項資源使用。您想要覆寫並使多項資源使用相同的名稱嗎？\n"
 "如選擇取消，將不會儲存您的變更。"
-
-#: libs/resourcewidgets/KisResourceUserOperations.cpp:145
-#, kde-format
-msgctxt "@title:window"
-msgid "Failed to overwrite the resource"
-msgstr "覆寫資源失敗"
-
-#: libs/resourcewidgets/KisResourceUserOperations.cpp:145
-#, kde-format
-msgctxt "Warning message"
-msgid "Failed to overwrite the resource."
-msgstr "無法覆寫資源。"
 
 #: libs/resourcewidgets/KisStorageChooserWidget.cpp:137
 #, kde-format
@@ -18243,8 +18271,8 @@ msgstr "取代 (覆蓋) 標籤"
 #: libs/ui/dialogs/KisAsyncAnimationRenderDialogBase.cpp:154
 #: libs/ui/dialogs/KisRecoverNamedAutosaveDialog.ui:60
 #: libs/ui/forms/wdgpaintopsettings.ui:201
-#: libs/ui/input/kis_tool_invocation_action.cpp:43 libs/ui/kis_clipboard.cc:301
-#: libs/ui/utils/KisClipboardUtil.cpp:70
+#: libs/ui/input/kis_tool_invocation_action.cpp:43 libs/ui/kis_clipboard.cc:297
+#: libs/ui/utils/KisClipboardUtil.cpp:71
 #: plugins/dockers/gamutmask/forms/wdgGamutMaskChooser.ui:190
 #: plugins/dockers/recorder/recorder_export.ui:736
 #: plugins/dockers/recorder/recorder_snapshots_manager.ui:130
@@ -18372,23 +18400,23 @@ msgctxt "(qtundo-format)"
 msgid "Draw Polyline"
 msgstr "繪製折線"
 
-#: libs/ui/actions/KisPasteActionFactories.cpp:117
+#: libs/ui/actions/KisPasteActionFactories.cpp:120
 msgctxt "(qtundo-format)"
 msgid "Paste shapes"
 msgstr "貼上形狀"
 
-#: libs/ui/actions/KisPasteActionFactories.cpp:233
-#: libs/ui/actions/KisPasteActionFactories.cpp:305
+#: libs/ui/actions/KisPasteActionFactories.cpp:240
+#: libs/ui/actions/KisPasteActionFactories.cpp:312
 #, kde-format
 msgid "(pasted)"
 msgstr "(已貼上)"
 
-#: libs/ui/actions/KisPasteActionFactories.cpp:303
+#: libs/ui/actions/KisPasteActionFactories.cpp:310
 #, kde-format
 msgid "Pasted"
 msgstr "已貼上"
 
-#: libs/ui/actions/KisPasteActionFactories.cpp:355
+#: libs/ui/actions/KisPasteActionFactories.cpp:362
 msgctxt "(qtundo-format)"
 msgid "Paste Style"
 msgstr "貼上樣式"
@@ -18532,7 +18560,7 @@ msgstr " FPS"
 
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:87
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:93
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:625
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:624
 #, kde-format
 msgctxt "Second as a unit following a value, like 60 s"
 msgid " s"
@@ -18551,7 +18579,7 @@ msgid "Current Document"
 msgstr "目前檔案"
 
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:105
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:588
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:587
 #, kde-format
 msgctxt "Video importer: fps of the document you're importing into"
 msgid ""
@@ -18572,13 +18600,13 @@ msgstr "樣條插值 (Spline)"
 msgid "Failed to create a work directory, make sure you have write permission"
 msgstr "無法建立工作目錄，請確認您有寫入的權限"
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:182
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:181
 #, kde-format
 msgctxt "Title for a messagebox"
 msgid "Krita"
 msgstr "Krita"
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:183
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:182
 #, kde-format
 msgid ""
 "Warning: you are trying to import more than 100 frames into Krita.\n"
@@ -18593,7 +18621,7 @@ msgstr ""
 "如果您希望修改一段多於 100 個影格的影片，請考慮使用一個影片編輯軟體，例如 "
 "Kdenlive (https://kdenlive.org)。"
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:226
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:225
 #, kde-format
 msgctxt ""
 "FFMPEG animated video import message. arg1: frame progress number. arg2: "
@@ -18601,59 +18629,59 @@ msgctxt ""
 msgid "Extracted %1 frames from %2 video."
 msgstr "從影片 %2 抽取了 %1 個影格。"
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:237
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:236
 #, kde-format
 msgid "Failed to export frames from video"
 msgstr "無法從影片匯出影格"
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:309
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:308
 #, kde-format
 msgid "Select your Video File"
 msgstr "選擇影片檔案"
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:352
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:351
 #, kde-format
 msgctxt "video importer: video file statistics"
 msgid "Width: %1 px"
 msgstr "寬度：%1 px"
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:353
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:352
 #, kde-format
 msgctxt "video importer: video file statistics"
 msgid "Height: %1 px"
 msgstr "高度：%1 px"
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:357
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:356
 #, kde-format
 msgctxt "video importer: video file statistics"
 msgid "Color Primaries: %1"
 msgstr "原色：%1"
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:360
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:359
 #, kde-format
 msgctxt "video importer: video file statistics"
 msgid "Color Transfer: %1"
 msgstr "色彩轉移：%1"
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:363
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:362
 #, kde-format
 msgctxt "video importer: video file statistics"
 msgid "Duration: %1 s"
 msgstr "時長：%1 秒"
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:364
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:363
 #, kde-format
 msgctxt "video importer: video file statistics"
 msgid "Frames: %1"
 msgstr "影格數：%1"
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:365
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:364
 #, kde-format
 msgctxt "video importer: video file statistics"
 msgid "FPS: %1"
 msgstr "FPS：%1"
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:369
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:368
 #, kde-format
 msgctxt "video importer: video file statistics"
 msgid ""
@@ -18663,7 +18691,7 @@ msgstr ""
 "*<font size='0.5em'><em>*檔案中的每秒影格數不正確。已修改以符合完整時長</"
 "em></font>"
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:468
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:467
 #, kde-format
 msgctxt "part of warning in video importer."
 msgid ""
@@ -18671,13 +18699,13 @@ msgid ""
 "import is %2."
 msgstr "警告：您正嘗試匯入 %1 個影格。您最多能夠匯入 %2 個影格。"
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:475
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:474
 #, kde-format
 msgctxt "part of warning in video importer."
 msgid "Use a <a href=\"https://kdenlive.org\">video editor</a> instead!"
 msgstr "請使用一個<a href=\"https://kdenlive.org\">影片編輯軟體</a>來代替吧！"
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:481
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:480
 #, kde-format
 msgctxt "part of warning in video importer."
 msgid ""
@@ -18685,14 +18713,14 @@ msgid ""
 "overloaded."
 msgstr "您的系統沒有足夠的記憶體以載入這個數量的影格，系統將會超出負荷。"
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:488
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:487
 #, kde-format
 msgctxt "part of warning in video importer."
 msgid ""
 "This will take over half the available memory, editing will be difficult."
 msgstr "這會耗用系統超過一半的可用記憶體，將會令編輯變得困難。"
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:497
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:496
 #, kde-format
 msgctxt "part of warning in video importer."
 msgid ""
@@ -18700,44 +18728,44 @@ msgid ""
 "linear"
 msgstr "Krita 不支援此影像轉移曲線 (%1)，將會以線性載入"
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:527
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:529
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:526
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:528
 #, kde-format
 msgid "Open FFProbe"
 msgstr "開啟 ffprobe"
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:541
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:540
 #, kde-format
 msgid "FFProbe is invalid!"
 msgstr "ffprobe 無效！"
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:548
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:550
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:547
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:549
 #, kde-format
 msgid "Open FFMpeg"
 msgstr "開啟 FFmpeg"
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:562
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:561
 #, kde-format
 msgid "FFMpeg is invalid!"
 msgstr "FFmpeg 無效！"
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:569
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:568
 #, kde-format
 msgid "No FFMpeg found!"
 msgstr "找不到 FFmpeg！"
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:670
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:669
 #, kde-format
 msgid "No video stream could be found!"
 msgstr "找不到影片流！"
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:728
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:727
 #, kde-format
 msgid "Failed to load video information"
 msgstr "無法載入影片資訊"
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:753
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:752
 #, kde-format
 msgid "Your FFMpeg version does not support this format"
 msgstr "您的 FFmpeg 版本不支援此格式"
@@ -18747,7 +18775,7 @@ msgstr "您的 FFmpeg 版本不支援此格式"
 msgid "FFMpeg Crashed"
 msgstr "FFmpeg 當掉了"
 
-#: libs/ui/animation/KisFFMpegWrapper.cpp:520
+#: libs/ui/animation/KisFFMpegWrapper.cpp:516
 #, kde-format
 msgctxt "Video information probing dialog. arg1: frame number."
 msgid "Loading video data... %1 frames examined."
@@ -19424,7 +19452,7 @@ msgstr "顯示"
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #. i18n: ectx: property (text), widget (QLabel, labelX)
 #: libs/ui/animation/VideoHDRMetadataOptionsDialog.ui:46
-#: libs/ui/kis_paintop_box.cc:295
+#: libs/ui/kis_paintop_box.cc:297
 #: plugins/dockers/recorder/recorder_export.ui:209
 #, kde-format
 msgid "x"
@@ -20464,8 +20492,8 @@ msgstr "圖層屬性"
 #. i18n: ectx: property (suffix), widget (KisDoubleParseSpinBox, spbScaleWidth)
 #. i18n: ectx: property (suffix), widget (KisDoubleParseSpinBox, spbScaleHeight)
 #: libs/ui/dialogs/kis_dlg_layer_properties.cc:97
-#: libs/ui/forms/wdgdisplaysettings.ui:364 libs/ui/kis_paintop_box.cc:265
-#: libs/ui/kis_paintop_box.cc:273 libs/ui/layerstyles/wdgInnerGlow.ui:220
+#: libs/ui/forms/wdgdisplaysettings.ui:364 libs/ui/kis_paintop_box.cc:267
+#: libs/ui/kis_paintop_box.cc:275 libs/ui/layerstyles/wdgInnerGlow.ui:220
 #: libs/ui/layerstyles/wdgInnerGlow.ui:322
 #: libs/ui/layerstyles/wdgInnerGlow.ui:351
 #: libs/ui/widgets/gradient/KisGradientColorEditor.cpp:93
@@ -21257,7 +21285,7 @@ msgstr "色塊列數："
 
 #. i18n: ectx: property (text), widget (QLabel, labelRowCount)
 #: libs/ui/dialogs/KisDlgPaletteEditor.cpp:54
-#: libs/ui/forms/WdgDlgPaletteEditor.ui:108 libs/ui/KisPaletteEditor.cpp:221
+#: libs/ui/forms/WdgDlgPaletteEditor.ui:108 libs/ui/KisPaletteEditor.cpp:220
 #, kde-format
 msgid "Rows of swatches in group:"
 msgstr "群組中色塊行數："
@@ -21268,7 +21296,7 @@ msgid "Save New Brush Preset"
 msgstr "儲存新筆刷預設"
 
 #: libs/ui/dialogs/KisDlgSavePreset.cpp:79
-#: plugins/generators/seexpr/kis_wdg_seexpr_presets_save.cpp:72
+#: plugins/generators/seexpr/kis_wdg_seexpr_presets_save.cpp:74
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:316
 #, kde-format
 msgid "Copy"
@@ -21326,12 +21354,12 @@ msgstr "建立新工作階段"
 msgid "Session name:"
 msgstr "工作階段名稱："
 
-#: libs/ui/dialogs/KisSessionManagerDialog.cpp:91
+#: libs/ui/dialogs/KisSessionManagerDialog.cpp:90
 #, kde-format
 msgid "Rename session"
 msgstr "重新命名工作階段"
 
-#: libs/ui/dialogs/KisSessionManagerDialog.cpp:92
+#: libs/ui/dialogs/KisSessionManagerDialog.cpp:91
 #, kde-format
 msgid "New name:"
 msgstr "新名稱："
@@ -22308,9 +22336,9 @@ msgstr "起始顯示比例："
 #. i18n: ectx: property (text), widget (QLabel, opacityLbl)
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #. i18n: ectx: property (text), widget (QLabel, opacityLabel)
-#: libs/ui/forms/wdgdisplaysettings.ui:391 libs/ui/kis_paintop_box.cc:250
-#: libs/ui/kis_paintop_box.cc:256
-#: plugins/dockers/layerdocker/WdgLayerBox.ui:113
+#: libs/ui/forms/wdgdisplaysettings.ui:391 libs/ui/kis_paintop_box.cc:252
+#: libs/ui/kis_paintop_box.cc:258
+#: plugins/dockers/layerdocker/WdgLayerBox.ui:107
 #: plugins/filters/noisefilter/wdgnoiseoptions.ui:56
 #: plugins/filters/randompickfilter/wdgrandompickoptions.ui:57
 #: plugins/paintops/mypaint/wdgmypaintoptions.ui:126
@@ -23791,7 +23819,7 @@ msgid "path"
 msgstr "路徑"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgPaintOpSettings)
-#: libs/ui/forms/wdgpaintopsettings.ui:18 libs/ui/kis_paintop_box.cc:435
+#: libs/ui/forms/wdgpaintopsettings.ui:18 libs/ui/kis_paintop_box.cc:437
 #, kde-format
 msgid "Brush Editor"
 msgstr "筆刷編輯器"
@@ -23806,10 +23834,10 @@ msgstr "目前筆刷預設"
 #. i18n: ectx: property (toolTip), widget (QPushButton, bnSaveMask)
 #: libs/ui/forms/wdgpaintopsettings.ui:188 libs/ui/KisMainWindow.cpp:1058
 #: libs/ui/widgets/kis_workspace_chooser.cpp:109
-#: libs/ui/widgets/kis_workspace_chooser.cpp:177
+#: libs/ui/widgets/kis_workspace_chooser.cpp:176
 #: plugins/dockers/gamutmask/forms/wdgGamutMaskChooser.ui:232
 #: plugins/generators/seexpr/wdgseexpr.ui:172
-#: plugins/paintops/libpaintop/kis_clipboard_brush_widget.cpp:165
+#: plugins/paintops/libpaintop/kis_clipboard_brush_widget.cpp:164
 #: plugins/paintops/libpaintop/kis_custom_brush_widget.cpp:139
 #: plugins/python/scripter/ui_scripter/actions/saveaction/saveaction.py:21
 #, kde-format
@@ -23982,13 +24010,13 @@ msgstr ""
 #: libs/ui/forms/wdgperformancesettings.ui:138
 #, kde-format
 msgid "Swap Undo After:"
-msgstr "交換復原起點："
+msgstr "復原資料置換前上限："
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: libs/ui/forms/wdgperformancesettings.ui:172
 #, kde-format
 msgid "Swap File Size"
-msgstr "交換檔案大小"
+msgstr "置換檔案大小"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_6)
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, sliderSwapSize)
@@ -23996,7 +24024,7 @@ msgstr "交換檔案大小"
 #: libs/ui/forms/wdgperformancesettings.ui:199
 #, kde-format
 msgid "The swap file will not be bigger than this limit."
-msgstr "交換檔案不會大於此限制。"
+msgstr "置換檔案不會大於此限制。"
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #: libs/ui/forms/wdgperformancesettings.ui:184
@@ -24008,13 +24036,13 @@ msgstr "檔案大小限制："
 #: libs/ui/forms/wdgperformancesettings.ui:215
 #, kde-format
 msgid "Swap File Location:"
-msgstr "交換檔案位置："
+msgstr "置換檔案位置："
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, bnSwapFile)
 #: libs/ui/forms/wdgperformancesettings.ui:240
 #, kde-format
 msgid "Select the location where Krita writes its swap files."
-msgstr "選擇 Krita 寫入交換檔案的位置。"
+msgstr "選擇 Krita 寫入置換檔案的位置。"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
 #: libs/ui/forms/wdgperformancesettings.ui:275
@@ -24199,7 +24227,7 @@ msgid ""
 "low, you might want to limit cached frame size to be able to play your video "
 "at 25 fps. The limit of 2500 px is usually a good choice.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>動畫影格快取將存放到磁碟交換檔案使用的目錄中。快取檔案"
+"<html><head/><body><p>動畫影格快取將存放到磁碟置換檔案使用的目錄中。快取檔案"
 "會被壓縮。需要少量額外的記憶體。</p><p>由於硬碟的資料傳輸速率較低，為了能夠以"
 "每秒 25 影格的速度播放影片，可能需要對影格的尺寸進行限制。2500 px 的限制通常"
 "來說是較佳選擇。</p></body></html>"
@@ -25992,18 +26020,18 @@ msgctxt "(qtundo-format)"
 msgid "Change File Layer"
 msgstr "變更檔案圖層"
 
-#: libs/ui/kis_clipboard.cc:291
+#: libs/ui/kis_clipboard.cc:287
 #, kde-format
 msgid "Remember"
 msgstr "記住"
 
-#: libs/ui/kis_clipboard.cc:295
+#: libs/ui/kis_clipboard.cc:291
 #, kde-format
 msgctxt "@title:window"
 msgid "Missing Color Profile"
 msgstr "缺少色彩特性檔案"
 
-#: libs/ui/kis_clipboard.cc:296
+#: libs/ui/kis_clipboard.cc:292
 #, kde-format
 msgid ""
 "The image data you are trying to paste has no color profile information. How "
@@ -26024,12 +26052,12 @@ msgstr ""
 "彩空間。\n"
 "\n"
 
-#: libs/ui/kis_clipboard.cc:299
+#: libs/ui/kis_clipboard.cc:295
 #, kde-format
 msgid "As &Web"
 msgstr "按網路規範(&W)"
 
-#: libs/ui/kis_clipboard.cc:300
+#: libs/ui/kis_clipboard.cc:296
 #, kde-format
 msgid "As on &Monitor"
 msgstr "按顯示器所見(&M)"
@@ -26069,7 +26097,17 @@ msgstr "選取前景色和背景色(&C)"
 msgid "&Painter's Tools"
 msgstr "繪畫工具(&P)"
 
-#: libs/ui/kis_control_frame.cpp:176 libs/ui/KisApplication.cpp:307
+#: libs/ui/kis_control_frame.cpp:120
+#, kde-format
+msgid "&Open Foreground color selector"
+msgstr "開啟前景色選取工具(&O)"
+
+#: libs/ui/kis_control_frame.cpp:125
+#, kde-format
+msgid "&Open Background color selector"
+msgstr "開啟背景色選取工具"
+
+#: libs/ui/kis_control_frame.cpp:186 libs/ui/KisApplication.cpp:307
 #: plugins/dockers/patterndocker/patterndocker_dock.cpp:20
 #: plugins/extensions/resourcemanager/dlg_embed_tags.cpp:65
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:241
@@ -26077,12 +26115,12 @@ msgstr "繪畫工具(&P)"
 msgid "Patterns"
 msgstr "圖案"
 
-#: libs/ui/kis_control_frame.cpp:179 libs/ui/kis_control_frame.cpp:180
+#: libs/ui/kis_control_frame.cpp:189 libs/ui/kis_control_frame.cpp:190
 #, kde-format
 msgid "Custom Pattern"
 msgstr "自訂圖案"
 
-#: libs/ui/kis_control_frame.cpp:226 libs/ui/KisApplication.cpp:292
+#: libs/ui/kis_control_frame.cpp:236 libs/ui/KisApplication.cpp:292
 #: libs/ui/KisApplication.cpp:293
 #: plugins/extensions/resourcemanager/dlg_embed_tags.cpp:63
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:244
@@ -26095,7 +26133,7 @@ msgstr "漸變"
 msgid "Add to Predefined Patterns"
 msgstr "新增到預製圖案"
 
-#: libs/ui/kis_custom_pattern.cc:123
+#: libs/ui/kis_custom_pattern.cc:131
 #, kde-format
 msgid "This pattern already exists. Do you want to overwrite it?"
 msgstr "已有這個圖案。您確定要覆寫它嗎？"
@@ -26469,28 +26507,28 @@ msgctxt "@info:tooltip"
 msgid "Disabled: cloning pass-through groups is not supported!"
 msgstr "已停用：不支援複製穿透群組！"
 
-#: libs/ui/kis_paintop_box.cc:97
+#: libs/ui/kis_paintop_box.cc:99
 #, kde-format
 msgid "Painter's Toolchest"
 msgstr "畫具箱"
 
-#: libs/ui/kis_paintop_box.cc:109
+#: libs/ui/kis_paintop_box.cc:111
 #, kde-format
 msgid "Tool Settings"
 msgstr "工具設定"
 
-#: libs/ui/kis_paintop_box.cc:117
+#: libs/ui/kis_paintop_box.cc:119
 #, kde-format
 msgid "Edit brush settings"
 msgstr "編輯筆刷選項"
 
-#: libs/ui/kis_paintop_box.cc:124
+#: libs/ui/kis_paintop_box.cc:126
 #, kde-format
 msgid "Choose brush preset"
 msgstr "選擇筆刷預設"
 
 #. i18n: ectx: property (text), widget (QLabel, lblFlow)
-#: libs/ui/kis_paintop_box.cc:251 libs/ui/kis_paintop_box.cc:257
+#: libs/ui/kis_paintop_box.cc:253 libs/ui/kis_paintop_box.cc:259
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:1970
 #, kde-format
 msgid "Flow:"
@@ -26499,7 +26537,7 @@ msgstr "流量："
 #. i18n: ectx: property (text), widget (QLabel, brushSizeLabel)
 #. i18n: ectx: property (text), widget (QLabel, lblSize)
 #. i18n: ectx: property (text), widget (QLabel, labelSize)
-#: libs/ui/kis_paintop_box.cc:252 libs/ui/kis_paintop_box.cc:258
+#: libs/ui/kis_paintop_box.cc:254 libs/ui/kis_paintop_box.cc:260
 #: plugins/generators/screentone/KisScreentoneConfigWidget.ui:414
 #: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:185
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:1992
@@ -26507,23 +26545,23 @@ msgstr "流量："
 msgid "Size:"
 msgstr "大小："
 
-#: libs/ui/kis_paintop_box.cc:253 libs/ui/kis_paintop_box.cc:259
+#: libs/ui/kis_paintop_box.cc:255 libs/ui/kis_paintop_box.cc:261
 #, kde-format
 msgid "Pattern Scale:"
 msgstr "圖案縮放："
 
-#: libs/ui/kis_paintop_box.cc:311
+#: libs/ui/kis_paintop_box.cc:313
 #, kde-format
 msgid "Choose workspace"
 msgstr "選擇作業空間"
 
-#: libs/ui/kis_paintop_box.cc:348
+#: libs/ui/kis_paintop_box.cc:350
 #, kde-format
 msgid "Brush composite"
 msgstr "筆刷分量"
 
-#: libs/ui/kis_paintop_box.cc:1254 libs/ui/kis_paintop_box.cc:1276
-#: libs/ui/kis_paintop_box.cc:1290
+#: libs/ui/kis_paintop_box.cc:1268 libs/ui/kis_paintop_box.cc:1290
+#: libs/ui/kis_paintop_box.cc:1304
 #, kde-format
 msgid ""
 "%1\n"
@@ -26621,7 +26659,7 @@ msgstr "100%"
 msgid "Zoom to 100%"
 msgstr "縮放至 100%"
 
-#: libs/ui/kis_popup_palette.cpp:847
+#: libs/ui/kis_popup_palette.cpp:846
 #, kde-format
 msgid ""
 "Click to swap foreground and background colors.\n"
@@ -26630,7 +26668,7 @@ msgstr ""
 "左鍵點擊：交換前景色和背景色\n"
 "右鍵點擊：將前景色和背景色設定為黑色和白色"
 
-#: libs/ui/kis_popup_palette.cpp:952
+#: libs/ui/kis_popup_palette.cpp:951
 #, kde-format
 msgid ""
 "There are no tags available to show in this popup. To add presets, you need "
@@ -26778,7 +26816,7 @@ msgstr ""
 "  記憶體池：\t\t%5 / %6\n"
 "  復原資料：\t\t%7\n"
 "\n"
-"已用交換空間：\t%8"
+"已用置換空間：\t%8"
 
 #: libs/ui/kis_statusbar.cc:341
 #, kde-format
@@ -26791,7 +26829,7 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"警告：\t記憶體不足！已啟用記憶體交換。\n"
+"警告：\t記憶體不足！已啟用記憶體置換。\n"
 "\t\t請在設定對話框中為 Krita 分配更多記憶體"
 
 #: libs/ui/kis_statusbar.cc:396
@@ -27195,33 +27233,33 @@ msgctxt "(qtundo-format)"
 msgid "Clone Document"
 msgstr "再製文件"
 
-#: libs/ui/KisDocument.cpp:677
+#: libs/ui/KisDocument.cpp:699
 #, kde-format
 msgid "%1 cannot be written to. Please save under a different name."
 msgstr "無法寫入 %1 。請以不同的名稱儲存。"
 
-#: libs/ui/KisDocument.cpp:739
+#: libs/ui/KisDocument.cpp:761
 #, kde-format
 msgid "Exporting Document..."
 msgstr "正在匯出檔案…"
 
-#: libs/ui/KisDocument.cpp:740
+#: libs/ui/KisDocument.cpp:762
 #, kde-format
 msgid "Saving Document..."
 msgstr "正在儲存檔案…"
 
-#: libs/ui/KisDocument.cpp:852
+#: libs/ui/KisDocument.cpp:874
 #, kde-format
 msgctxt "%1 --- failing file name, %2 --- error message"
 msgid "Error during saving %1: %2"
 msgstr "儲存%1 時出錯： %2"
 
-#: libs/ui/KisDocument.cpp:859
+#: libs/ui/KisDocument.cpp:881
 #, kde-format
 msgid "Could not save %1"
 msgstr "無法儲存 %1"
 
-#: libs/ui/KisDocument.cpp:862 plugins/extensions/imagesplit/imagesplit.cpp:76
+#: libs/ui/KisDocument.cpp:884 plugins/extensions/imagesplit/imagesplit.cpp:76
 #, kde-format
 msgid ""
 "Could not save %1\n"
@@ -27230,38 +27268,38 @@ msgstr ""
 "無法儲存 %1\n"
 "原因：%2"
 
-#: libs/ui/KisDocument.cpp:897
+#: libs/ui/KisDocument.cpp:919
 #, kde-format
 msgid "Finished saving %1"
 msgstr "完成儲存 %1"
 
-#: libs/ui/KisDocument.cpp:1241
+#: libs/ui/KisDocument.cpp:1247
 #, kde-format
 msgid "Autosaving... %1"
 msgstr "正在自動儲存… %1"
 
-#: libs/ui/KisDocument.cpp:1249
+#: libs/ui/KisDocument.cpp:1255
 #, kde-format
 msgid "Autosaving..."
 msgstr "正在自動儲存…"
 
-#: libs/ui/KisDocument.cpp:1255
+#: libs/ui/KisDocument.cpp:1261
 #, kde-format
 msgid "Autosaving postponed: document is busy..."
 msgstr "自動儲存已推遲：檔案正在被佔用…"
 
-#: libs/ui/KisDocument.cpp:1360
+#: libs/ui/KisDocument.cpp:1366
 #, kde-format
 msgctxt "%1 --- failing file name, %2 --- error message"
 msgid "Error during autosaving %1: %2"
 msgstr "自動儲存%1 時出錯：%2"
 
-#: libs/ui/KisDocument.cpp:1374
+#: libs/ui/KisDocument.cpp:1380
 #, kde-format
 msgid "Finished autosaving %1"
 msgstr "完成自動儲存 %1"
 
-#: libs/ui/KisDocument.cpp:1605
+#: libs/ui/KisDocument.cpp:1611
 #, kde-format
 msgid ""
 "Malformed Path\n"
@@ -27270,17 +27308,17 @@ msgstr ""
 "路徑格式錯誤\n"
 "%1"
 
-#: libs/ui/KisDocument.cpp:1702
+#: libs/ui/KisDocument.cpp:1708
 #, kde-format
 msgid "File %1 does not exist."
 msgstr "檔案 %1 不存在。"
 
-#: libs/ui/KisDocument.cpp:1731
+#: libs/ui/KisDocument.cpp:1737
 #, kde-format
 msgid "Opening document"
 msgstr "正在開啟檔案"
 
-#: libs/ui/KisDocument.cpp:1746
+#: libs/ui/KisDocument.cpp:1752
 #, kde-format
 msgid ""
 "Could not open %2.\n"
@@ -27289,23 +27327,23 @@ msgstr ""
 "無法開啟 %2。\n"
 "原因：%1"
 
-#: libs/ui/KisDocument.cpp:1754
+#: libs/ui/KisDocument.cpp:1760
 #, kde-format
 msgid "There were problems opening %1"
 msgstr "開啟 %1 時遇到了一些問題"
 
-#: libs/ui/KisDocument.cpp:1888
+#: libs/ui/KisDocument.cpp:1894
 #, kde-format
 msgid "Not Saved"
 msgstr "未儲存"
 
-#: libs/ui/KisDocument.cpp:2330
+#: libs/ui/KisDocument.cpp:2369
 #, kde-format
 msgctxt "Name of automatically created background color fill layer"
 msgid "Background Fill"
 msgstr "背景色填充"
 
-#: libs/ui/KisDocument.cpp:2384
+#: libs/ui/KisDocument.cpp:2423
 #, kde-format
 msgctxt ""
 "progress dialog message when the user closes the document that is being saved"
@@ -27807,42 +27845,42 @@ msgctxt "@action:inmenu"
 msgid "&Import Workspace..."
 msgstr "匯入作業空間(&I)…"
 
-#: libs/ui/KisMainWindow.cpp:2556
+#: libs/ui/KisMainWindow.cpp:2555
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&New Workspace..."
 msgstr "新作業空間(&N)…"
 
-#: libs/ui/KisMainWindow.cpp:2600
+#: libs/ui/KisMainWindow.cpp:2599
 #, kde-format
 msgid "&%1 %2"
 msgstr "%1 %2"
 
-#: libs/ui/KisMainWindow.cpp:2603
+#: libs/ui/KisMainWindow.cpp:2602
 #, kde-format
 msgid "%1 %2"
 msgstr "%1 %2"
 
-#: libs/ui/KisMainWindow.cpp:2764
+#: libs/ui/KisMainWindow.cpp:2763
 #, kde-format
 msgid ""
 "The Krita LittleCMS color management plugin is not installed. Krita will "
 "quit now."
 msgstr "未安裝 Krita 的 LittleCMS 色彩管理外掛程式。Krita 將立即退出。"
 
-#: libs/ui/KisMainWindow.cpp:2780
+#: libs/ui/KisMainWindow.cpp:2779
 #, kde-format
 msgctxt "@title:window"
 msgid "Installation error"
 msgstr "安裝錯誤"
 
-#: libs/ui/KisMainWindow.cpp:2892
+#: libs/ui/KisMainWindow.cpp:2891
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Themes"
 msgstr "主題(&T)"
 
-#: libs/ui/KisMainWindow.cpp:2946
+#: libs/ui/KisMainWindow.cpp:2945
 #, kde-format
 msgid "Expanding Spacer"
 msgstr "擴張空白佔位符"
@@ -27884,37 +27922,37 @@ msgstr "匯入調色板"
 msgid "Do you want to store this palette in your current image?"
 msgstr "確定儲存目前影像中的這個調色板？"
 
-#: libs/ui/KisPaletteEditor.cpp:217 libs/ui/KisPaletteEditor.cpp:274
+#: libs/ui/KisPaletteEditor.cpp:216 libs/ui/KisPaletteEditor.cpp:273
 #, kde-format
 msgid "New swatch group name:"
 msgstr "色塊群組名稱："
 
-#: libs/ui/KisPaletteEditor.cpp:245
+#: libs/ui/KisPaletteEditor.cpp:244
 #, kde-format
 msgctxt "@title:dialog"
 msgid "Removing Swatch Group"
 msgstr "正在移除色塊群組"
 
-#: libs/ui/KisPaletteEditor.cpp:249 libs/widgets/kis_palette_view.cpp:171
+#: libs/ui/KisPaletteEditor.cpp:248 libs/widgets/kis_palette_view.cpp:171
 #, kde-format
 msgctxt "Shows up when deleting a swatch group"
 msgid "Keep the Colors"
 msgstr "保留色彩"
 
-#: libs/ui/KisPaletteEditor.cpp:321 libs/ui/KisPaletteEditor.cpp:412
+#: libs/ui/KisPaletteEditor.cpp:320 libs/ui/KisPaletteEditor.cpp:410
 #, kde-format
 msgctxt "Default name for a color swatch"
 msgid "Color %1"
 msgstr "色彩 %1"
 
-#: libs/ui/KisPaletteEditor.cpp:355 libs/ui/KisPaletteEditor.cpp:400
+#: libs/ui/KisPaletteEditor.cpp:353 libs/ui/KisPaletteEditor.cpp:398
 #: libs/widgets/kis_palette_view.cpp:103
 #, kde-format
 msgctxt "@title:dialog"
 msgid "Add a new Color Swatch"
 msgstr "新增色塊"
 
-#: libs/ui/KisPaletteEditor.cpp:369 libs/ui/KisPaletteEditor.cpp:419
+#: libs/ui/KisPaletteEditor.cpp:367 libs/ui/KisPaletteEditor.cpp:417
 #: libs/widgets/kis_palette_view.cpp:114
 #, kde-format
 msgctxt "@info:tooltip"
@@ -27925,37 +27963,37 @@ msgstr ""
 "專色是印表機能夠在不混合其可用顏料的情況下能夠列印出的色彩。相反的則稱為混"
 "色。"
 
-#: libs/ui/KisPaletteEditor.cpp:373 libs/ui/KisPaletteEditor.cpp:422
+#: libs/ui/KisPaletteEditor.cpp:371 libs/ui/KisPaletteEditor.cpp:420
 #: libs/widgets/kis_palette_view.cpp:116
 #, kde-format
 msgid "Swatch ID:"
 msgstr "色塊 ID："
 
-#: libs/ui/KisPaletteEditor.cpp:374 libs/ui/KisPaletteEditor.cpp:423
+#: libs/ui/KisPaletteEditor.cpp:372 libs/ui/KisPaletteEditor.cpp:421
 #: libs/widgets/kis_palette_view.cpp:117
 #, kde-format
 msgid "Color swatch name:"
 msgstr "色塊名稱："
 
-#: libs/ui/KisPaletteEditor.cpp:375 libs/ui/KisPaletteEditor.cpp:424
+#: libs/ui/KisPaletteEditor.cpp:373 libs/ui/KisPaletteEditor.cpp:422
 #: libs/widgets/kis_palette_view.cpp:118
 #, kde-format
 msgctxt "Color as the Color of a Swatch in a Palette"
 msgid "Color:"
 msgstr "色彩："
 
-#: libs/ui/KisPaletteEditor.cpp:376 libs/ui/KisPaletteEditor.cpp:425
+#: libs/ui/KisPaletteEditor.cpp:374 libs/ui/KisPaletteEditor.cpp:423
 #: libs/widgets/kis_palette_view.cpp:119
 #, kde-format
 msgid "Spot color:"
 msgstr "印刷專色："
 
-#: libs/ui/KisPaletteEditor.cpp:421 libs/widgets/kis_palette_view.cpp:115
+#: libs/ui/KisPaletteEditor.cpp:419 libs/widgets/kis_palette_view.cpp:115
 #, kde-format
 msgid "Swatch Group:"
 msgstr "色塊群組："
 
-#: libs/ui/KisPaletteEditor.cpp:543 libs/ui/KisPaletteEditor.cpp:546
+#: libs/ui/KisPaletteEditor.cpp:539 libs/ui/KisPaletteEditor.cpp:542
 #, kde-format
 msgctxt "Default new group name"
 msgid "New Group %1"
@@ -28504,7 +28542,7 @@ msgstr "設定圖層的主體不透明度"
 #: libs/ui/layerstyles/wdgInnerGlow.ui:113
 #: libs/ui/layerstyles/WdgPatternOverlay.ui:84
 #: libs/ui/layerstyles/WdgSatin.ui:92
-#: plugins/dockers/layerdocker/WdgLayerBox.ui:129
+#: plugins/dockers/layerdocker/WdgLayerBox.ui:123
 #, kde-format
 msgid "Adjust the transparency of the layer"
 msgstr "調整圖層的透明度"
@@ -29217,12 +29255,12 @@ msgstr "深度(&D)："
 msgid "Li&nk with Layer"
 msgstr "與圖層連結(&N)"
 
-#: libs/ui/opengl/kis_opengl.cpp:537
+#: libs/ui/opengl/kis_opengl.cpp:550
 #, kde-format
 msgid "The Intel graphics driver in use is known to have issues with OpenGL."
 msgstr "目前使用的 Intel 核芯顯示卡驅動程式對 OpenGL 的支援存有已知的問題。"
 
-#: libs/ui/opengl/kis_opengl.cpp:539
+#: libs/ui/opengl/kis_opengl.cpp:552
 #, kde-format
 msgid ""
 "Intel graphics drivers tend to have issues with OpenGL so ANGLE will be used "
@@ -29232,19 +29270,19 @@ msgstr ""
 "Intel 核芯顯示卡的驅動程式在 OpenGL 支援方面常常存在各種問題，因此預設將使用 "
 "ANGLE 繪製器。您可以手動切換成 OpenGL 模式，但是無法保證正常作業。"
 
-#: libs/ui/opengl/kis_opengl.cpp:931
+#: libs/ui/opengl/kis_opengl.cpp:944
 #, kde-format
 msgid ""
 "Preferred renderer doesn't support requested surface format. Another "
 "renderer has been selected."
 msgstr "首選繪製器不支援請求的表面格式。已選用另一個繪製器。"
 
-#: libs/ui/opengl/kis_opengl.cpp:933
+#: libs/ui/opengl/kis_opengl.cpp:946
 #, kde-format
 msgid "Preferred output format is not supported by available renderers"
 msgstr "可用繪製器不支援首選輸出格式"
 
-#: libs/ui/opengl/kis_opengl_canvas2.cpp:387
+#: libs/ui/opengl/kis_opengl_canvas2.cpp:389
 #, kde-format
 msgid ""
 "Krita could not initialize the OpenGL canvas:\n"
@@ -29259,7 +29297,7 @@ msgstr ""
 "\n"
 "Krita 將在停用 OpenGL 選項後立即關閉。"
 
-#: libs/ui/opengl/kis_opengl_image_textures.cpp:732
+#: libs/ui/opengl/kis_opengl_image_textures.cpp:787
 #, kde-format
 msgid "OpenColorIO is disabled: image color space is not supported"
 msgstr "已停用 OpenColorIO：不支援影像色彩空間"
@@ -29406,47 +29444,48 @@ msgid ""
 msgstr ""
 "新的 AppImage 已下載至 %1。如要完成更新，請關閉 Krita 並執行新的 AppImage。"
 
-#: libs/ui/utils/KisClipboardUtil.cpp:58
+#: libs/ui/utils/KisClipboardUtil.cpp:59
 #, kde-format
 msgid "Insert as New Layer"
 msgstr "插入為新圖層"
 
-#: libs/ui/utils/KisClipboardUtil.cpp:59
+#: libs/ui/utils/KisClipboardUtil.cpp:60
 #, kde-format
 msgid "Insert Many Layers"
 msgstr "插入多個圖層"
 
-#: libs/ui/utils/KisClipboardUtil.cpp:61
+#: libs/ui/utils/KisClipboardUtil.cpp:62
 #, kde-format
 msgid "Insert as New File Layer"
 msgstr "插入為新檔案圖層"
 
-#: libs/ui/utils/KisClipboardUtil.cpp:62
+#: libs/ui/utils/KisClipboardUtil.cpp:63
 #, kde-format
 msgid "Insert Many File Layers"
 msgstr "插入多個檔案圖層"
 
-#: libs/ui/utils/KisClipboardUtil.cpp:64
+#: libs/ui/utils/KisClipboardUtil.cpp:65
 #, kde-format
 msgid "Open in New Document"
 msgstr "開啟文件"
 
-#: libs/ui/utils/KisClipboardUtil.cpp:65
+#: libs/ui/utils/KisClipboardUtil.cpp:66
 #, kde-format
 msgid "Open Many Documents"
 msgstr "開啟多個文件"
 
-#: libs/ui/utils/KisClipboardUtil.cpp:67
+#: libs/ui/utils/KisClipboardUtil.cpp:68
 #, kde-format
 msgid "Insert as Reference Image"
 msgstr "插入為參考圖"
 
-#: libs/ui/utils/KisClipboardUtil.cpp:68
+#: libs/ui/utils/KisClipboardUtil.cpp:69
 #, kde-format
 msgid "Insert as Reference Images"
 msgstr "插入多幅參考圖"
 
-#: libs/ui/utils/KisClipboardUtil.cpp:131
+#: libs/ui/utils/KisClipboardUtil.cpp:132
+#: libs/ui/utils/KisClipboardUtil.cpp:237
 #, kde-format
 msgid ""
 "Could not open %2.\n"
@@ -29624,7 +29663,7 @@ msgid "unnamed"
 msgstr "未命名"
 
 #: libs/ui/widgets/gradient/KisGradientChooser.cpp:536
-#: libs/ui/widgets/KoFillConfigWidget.cpp:674
+#: libs/ui/widgets/KoFillConfigWidget.cpp:671
 #: plugins/dockers/gamutmask/gamutmask_dock.cpp:382
 #: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:208
 #, kde-format
@@ -30760,7 +30799,7 @@ msgid "Icon Size"
 msgstr "圖示大小"
 
 #: libs/ui/widgets/kis_paintop_presets_editor.cpp:99
-#: plugins/generators/seexpr/kis_wdg_seexpr.cpp:40
+#: plugins/generators/seexpr/kis_wdg_seexpr.cpp:47
 #, kde-format
 msgid "The settings for this preset have changed from their default."
 msgstr "此預設的目前設定已被變更為不同於其預設值。"
@@ -30942,36 +30981,36 @@ msgstr "無設定選項。"
 msgid "Insert name"
 msgstr "新作業空間名稱"
 
-#: libs/ui/widgets/kis_workspace_chooser.cpp:171
+#: libs/ui/widgets/kis_workspace_chooser.cpp:170
 #, kde-format
 msgid "File name already in use. Saving will overwrite the original Workspace."
 msgstr "檔名已在使用。儲存將會覆蓋原本的工作空間。"
 
-#: libs/ui/widgets/kis_workspace_chooser.cpp:172
+#: libs/ui/widgets/kis_workspace_chooser.cpp:171
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings.cpp:156
-#: plugins/paintops/libpaintop/kis_clipboard_brush_widget.cpp:163
+#: plugins/paintops/libpaintop/kis_clipboard_brush_widget.cpp:162
 #: plugins/paintops/libpaintop/kis_custom_brush_widget.cpp:137
 #, kde-format
 msgid "Overwrite"
 msgstr "覆蓋"
 
-#: libs/ui/widgets/kis_workspace_chooser.cpp:176
+#: libs/ui/widgets/kis_workspace_chooser.cpp:175
 #, kde-format
 msgid "Save current workspace."
 msgstr "儲存目前工作空間。"
 
-#: libs/ui/widgets/kis_workspace_chooser.cpp:215
+#: libs/ui/widgets/kis_workspace_chooser.cpp:214
 #, kde-format
 msgid "Window Layout"
 msgstr "視窗版面配置"
 
-#: libs/ui/widgets/kis_workspace_chooser.cpp:234
+#: libs/ui/widgets/kis_workspace_chooser.cpp:232
 #, kde-format
 msgid ""
 "File name already in use. Saving will overwrite the original window layout."
 msgstr "檔名已在使用。儲存將會覆蓋原本的視窗佈局。"
 
-#: libs/ui/widgets/kis_workspace_chooser.cpp:237
+#: libs/ui/widgets/kis_workspace_chooser.cpp:235
 #, kde-format
 msgid "Save current window layout."
 msgstr "儲存目前的視窗佈局。"
@@ -31185,22 +31224,22 @@ msgstr ""
 "\"https://docs.krita.org/en/general_concepts/colors/color_managed_workflow."
 "html\">詳細資料</a></p></body></html>"
 
-#: libs/ui/widgets/KoDualColorButton.cpp:401
+#: libs/ui/widgets/KoDualColorButton.cpp:415
 #, kde-format
 msgid "Foreground color selector"
 msgstr "選取前景色"
 
-#: libs/ui/widgets/KoDualColorButton.cpp:404
+#: libs/ui/widgets/KoDualColorButton.cpp:418
 #, kde-format
 msgid "Set foreground and background colors to black and white"
 msgstr "將前景色和背景色設定為黑色和白色"
 
-#: libs/ui/widgets/KoDualColorButton.cpp:409
+#: libs/ui/widgets/KoDualColorButton.cpp:423
 #, kde-format
 msgid "Swap foreground and background colors"
 msgstr "交換前景色和背景色"
 
-#: libs/ui/widgets/KoDualColorButton.cpp:412
+#: libs/ui/widgets/KoDualColorButton.cpp:426
 #, kde-format
 msgid "Background color selector"
 msgstr "選取背景色"
@@ -31215,24 +31254,24 @@ msgstr "變更填充色彩"
 msgid "Change filling gradient"
 msgstr "變更填充漸變"
 
-#: libs/ui/widgets/KoFillConfigWidget.cpp:656
+#: libs/ui/widgets/KoFillConfigWidget.cpp:653
 #, kde-format
 msgctxt "default prefix for the saved gradient"
 msgid "gradient"
 msgstr "漸變"
 
-#: libs/ui/widgets/KoFillConfigWidget.cpp:665
+#: libs/ui/widgets/KoFillConfigWidget.cpp:662
 #, kde-format
 msgctxt "@title:window"
 msgid "Save Gradient"
 msgstr "儲存漸變"
 
-#: libs/ui/widgets/KoFillConfigWidget.cpp:666
+#: libs/ui/widgets/KoFillConfigWidget.cpp:663
 #, kde-format
 msgid "Enter gradient name:"
 msgstr "輸入漸變名稱："
 
-#: libs/ui/widgets/KoFillConfigWidget.cpp:673
+#: libs/ui/widgets/KoFillConfigWidget.cpp:670
 #: plugins/dockers/gamutmask/gamutmask_dock.cpp:381
 #: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:207
 #, kde-format
@@ -34702,30 +34741,30 @@ msgctxt "@item:inmenu"
 msgid "Change audio (%1)..."
 msgstr "變更音訊 (%1)…"
 
-#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1576
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1577
 #, kde-format
 msgctxt "@title:window"
 msgid "Insert or Remove Hold Frames"
 msgstr "插入或移除保持影格"
 
-#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1577
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1578
 #, kde-format
 msgctxt "@label:spinbox"
 msgid "Enter number of frames"
 msgstr "輸入影格數"
 
-#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1684
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1685
 #, kde-format
 msgid "Edit Frames:"
 msgstr "編輯影格："
 
-#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1711
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1712
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Keyframes"
 msgstr "關鍵影格"
 
-#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1719
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1720
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Hold Frames"
@@ -35508,43 +35547,43 @@ msgid "Yes"
 msgstr "是"
 
 #. i18n: ectx: property (whatsThis), widget (KisCompositeOpComboBox, cmbComposite)
-#: plugins/dockers/layerdocker/WdgLayerBox.ui:65
+#: plugins/dockers/layerdocker/WdgLayerBox.ui:59
 #, kde-format
 msgid "Select the blending mode for the layer."
 msgstr "選擇圖層的混色模式。"
 
 #. i18n: ectx: property (toolTip), widget (KisDoubleSliderSpinBox, doubleOpacity)
-#: plugins/dockers/layerdocker/WdgLayerBox.ui:126
+#: plugins/dockers/layerdocker/WdgLayerBox.ui:120
 #, kde-format
 msgid "Layer Opacity"
 msgstr "圖層不透明度"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, bnDuplicate)
-#: plugins/dockers/layerdocker/WdgLayerBox.ui:219
+#: plugins/dockers/layerdocker/WdgLayerBox.ui:213
 #, kde-format
 msgid "Duplicate layer or mask"
 msgstr "複製圖層或遮罩"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, bnLower)
-#: plugins/dockers/layerdocker/WdgLayerBox.ui:244
+#: plugins/dockers/layerdocker/WdgLayerBox.ui:238
 #, kde-format
 msgid "Move layer or mask down"
 msgstr "下移圖層或遮罩"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, bnRaise)
-#: plugins/dockers/layerdocker/WdgLayerBox.ui:269
+#: plugins/dockers/layerdocker/WdgLayerBox.ui:263
 #, kde-format
 msgid "Move layer or mask up"
 msgstr "上移圖層或遮罩"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, bnProperties)
-#: plugins/dockers/layerdocker/WdgLayerBox.ui:294
+#: plugins/dockers/layerdocker/WdgLayerBox.ui:288
 #, kde-format
 msgid "View or change the layer properties"
 msgstr "檢視或修改圖層屬性"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, bnDelete)
-#: plugins/dockers/layerdocker/WdgLayerBox.ui:335
+#: plugins/dockers/layerdocker/WdgLayerBox.ui:329
 #, kde-format
 msgid "Delete the layer or mask"
 msgstr "刪除圖層或遮罩"
@@ -35665,47 +35704,47 @@ msgstr "黑點："
 msgid "White:"
 msgstr "白點："
 
-#: plugins/dockers/lut/lutdocker_dock.cpp:84
+#: plugins/dockers/lut/lutdocker_dock.cpp:85
 #, kde-format
 msgid "LUT Management"
 msgstr "LUT 色彩管理"
 
-#: plugins/dockers/lut/lutdocker_dock.cpp:103
+#: plugins/dockers/lut/lutdocker_dock.cpp:104
 #, kde-format
 msgid "Select custom configuration file."
 msgstr "選擇自訂設定檔。"
 
-#: plugins/dockers/lut/lutdocker_dock.cpp:110
-#: plugins/dockers/lut/lutdocker_dock.cpp:655
+#: plugins/dockers/lut/lutdocker_dock.cpp:111
+#: plugins/dockers/lut/lutdocker_dock.cpp:658
 #, kde-format
 msgid "Select LUT file"
 msgstr "選擇 LUT 檔案"
 
-#: plugins/dockers/lut/lutdocker_dock.cpp:123
+#: plugins/dockers/lut/lutdocker_dock.cpp:124
 #, kde-format
 msgid "Select the exposure (stops) for HDR images."
 msgstr "為 HDR 影像選擇曝光值 (檔位)。"
 
-#: plugins/dockers/lut/lutdocker_dock.cpp:136
+#: plugins/dockers/lut/lutdocker_dock.cpp:137
 #, kde-format
 msgid ""
 "Select the amount of gamma modification for display. This does not affect "
 "the pixels of your image."
 msgstr "選擇用於顯示的 Gamma 校正量。這不會影響影像本身的像素屬性。"
 
-#: plugins/dockers/lut/lutdocker_dock.cpp:287
+#: plugins/dockers/lut/lutdocker_dock.cpp:290
 #, kde-format
 msgctxt "floating message about exposure"
 msgid "Exposure: %1"
 msgstr "曝光：%1"
 
-#: plugins/dockers/lut/lutdocker_dock.cpp:298
+#: plugins/dockers/lut/lutdocker_dock.cpp:301
 #, kde-format
 msgctxt "floating message about gamma"
 msgid "Gamma: %1"
 msgstr "Gamma：%1"
 
-#: plugins/dockers/lut/lutdocker_dock.cpp:390
+#: plugins/dockers/lut/lutdocker_dock.cpp:393
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -35713,22 +35752,22 @@ msgid ""
 "mode to use them"
 msgstr "曝光和 Gamma 校正在內置模式中無法使用。切換到 OCIO 模式以啟用"
 
-#: plugins/dockers/lut/lutdocker_dock.cpp:480
+#: plugins/dockers/lut/lutdocker_dock.cpp:483
 #, kde-format
 msgid "Select OpenColorIO Configuration"
 msgstr "選擇 OpenColorIO 設定"
 
-#: plugins/dockers/lut/lutdocker_dock.cpp:558
+#: plugins/dockers/lut/lutdocker_dock.cpp:561
 #, kde-format
 msgid "Luminance"
 msgstr "光度"
 
-#: plugins/dockers/lut/lutdocker_dock.cpp:559
+#: plugins/dockers/lut/lutdocker_dock.cpp:562
 #, kde-format
 msgid "All Channels"
 msgstr "全部通道"
 
-#: plugins/dockers/lut/lutdocker_dock.cpp:618
+#: plugins/dockers/lut/lutdocker_dock.cpp:621
 #, kde-format
 msgctxt "Item to indicate no look transform being selected"
 msgid "None"
@@ -35815,7 +35854,7 @@ msgid "Look:"
 msgstr "觀察："
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, m_btnConvertCurrentColor)
-#: plugins/dockers/lut/wdglut.ui:377
+#: plugins/dockers/lut/wdglut.ui:384
 #, kde-format
 msgid ""
 "Lock current color to have the same visual representation when changing OCIO "
@@ -35823,7 +35862,7 @@ msgid ""
 msgstr "變更 OCIO設定時將目前色彩鎖定以維持一致的視覺效果"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, m_btmShowBWConfiguration)
-#: plugins/dockers/lut/wdglut.ui:396
+#: plugins/dockers/lut/wdglut.ui:403
 #, kde-format
 msgid "Configure black and white points of the view"
 msgstr "變更檢視所用的黑點及白點"
@@ -36701,16 +36740,16 @@ msgid "Edit Storyboard Child"
 msgstr "編輯子分鏡"
 
 #: plugins/dockers/storyboarddocker/StoryboardDelegate.cpp:136
-#: plugins/dockers/storyboarddocker/StoryboardDelegate.cpp:300
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:536
+#: plugins/dockers/storyboarddocker/StoryboardDelegate.cpp:305
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:921
 #, kde-format
 msgctxt "suffix in spin box in storyboard that means 'seconds'"
 msgid "s"
 msgstr "秒"
 
 #: plugins/dockers/storyboarddocker/StoryboardDelegate.cpp:141
-#: plugins/dockers/storyboarddocker/StoryboardDelegate.cpp:307
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:539
+#: plugins/dockers/storyboarddocker/StoryboardDelegate.cpp:312
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:924
 #, kde-format
 msgctxt "suffix in spin box in storyboard that means 'frames'"
 msgid "f"
@@ -36979,7 +37018,7 @@ msgstr "操作集合"
 msgid "Taskset Name"
 msgstr "操作集合名稱"
 
-#: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:246
+#: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:245
 #, kde-format
 msgid "Task sets"
 msgstr "操作集合"
@@ -42079,25 +42118,25 @@ msgid "Every {n} cell vertically"
 msgid_plural "Every {n} cells vertically"
 msgstr[0] "每 {n} 格 (垂直)"
 
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:460
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:464
 #, kde-format
 msgctxt "Screentone generator resolution units - pixels/inch"
 msgid " pixels/inch"
 msgstr " 像素/英寸"
 
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:461
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:465
 #, kde-format
 msgctxt "Screentone generator resolution units - pixels/cm"
 msgid " pixels/cm"
 msgstr " 像素/公分"
 
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:464
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:468
 #, kde-format
 msgctxt "Screentone generator line units - lines/inch"
 msgid " lines/inch"
 msgstr " 線條/英寸"
 
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:465
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:469
 #, kde-format
 msgctxt "Screentone generator line units - lines/cm"
 msgid " lines/cm"
@@ -42339,41 +42378,41 @@ msgstr "&SeExpr…"
 msgid "SeExpr"
 msgstr "SeExpr"
 
-#: plugins/generators/seexpr/kis_wdg_seexpr.cpp:38
+#: plugins/generators/seexpr/kis_wdg_seexpr.cpp:45
 #, kde-format
 msgid "Reload the preset"
 msgstr "重新載入預設"
 
-#: plugins/generators/seexpr/kis_wdg_seexpr.cpp:46
+#: plugins/generators/seexpr/kis_wdg_seexpr.cpp:53
 #, kde-format
 msgctxt "SeExpr variable"
 msgid "Normalized X axis coordinate of the image from its top-left corner"
 msgstr "將 X 軸座標標準化由影像左上角計算"
 
-#: plugins/generators/seexpr/kis_wdg_seexpr.cpp:47
+#: plugins/generators/seexpr/kis_wdg_seexpr.cpp:54
 #, kde-format
 msgctxt "SeExpr variable"
 msgid "Normalized Y axis coordinate of the image from its top-left corner"
 msgstr "將 Y 軸座標標準化由影像左上角計算"
 
-#: plugins/generators/seexpr/kis_wdg_seexpr.cpp:48
+#: plugins/generators/seexpr/kis_wdg_seexpr.cpp:55
 #, kde-format
 msgctxt "SeExpr variable"
 msgid "Image width"
 msgstr "影像寬度"
 
-#: plugins/generators/seexpr/kis_wdg_seexpr.cpp:49
+#: plugins/generators/seexpr/kis_wdg_seexpr.cpp:56
 #, kde-format
 msgctxt "SeExpr variable"
 msgid "Image height"
 msgstr "影像高度"
 
-#: plugins/generators/seexpr/kis_wdg_seexpr.cpp:322
+#: plugins/generators/seexpr/kis_wdg_seexpr.cpp:360
 #, kde-format
 msgid "Expected this script to output color, got '%1'"
 msgstr "這個指令稿預期輸出色彩，卻收到 '%1'"
 
-#: plugins/generators/seexpr/kis_wdg_seexpr_presets_save.cpp:63
+#: plugins/generators/seexpr/kis_wdg_seexpr_presets_save.cpp:68
 #, kde-format
 msgid "Save New SeExpr Preset"
 msgstr "儲存新 SeExpr 預設"
@@ -43561,81 +43600,81 @@ msgstr "中繼資料後端為 %1 儲存中繼資料失敗"
 msgid "Could not write for %1 metadata to the file."
 msgstr "無法為 %1 中繼資料寫入檔案。"
 
-#: plugins/impex/libkra/kis_kra_saver.cpp:203
+#: plugins/impex/libkra/kis_kra_saver.cpp:208
 #, kde-format
 msgctxt "Error message when saving a .kra file"
 msgid "Could not open resource for writing."
 msgstr "無法開啟資源以供寫入。"
 
-#: plugins/impex/libkra/kis_kra_saver.cpp:213
+#: plugins/impex/libkra/kis_kra_saver.cpp:218
 #, kde-format
 msgctxt "Error message when saving a .kra file"
 msgid "Could not save resource %1 to the kra file."
 msgstr "無法儲存資源 %1 到 KRA 檔案。"
 
-#: plugins/impex/libkra/kis_kra_saver.cpp:231
+#: plugins/impex/libkra/kis_kra_saver.cpp:236
 #, kde-format
 msgctxt "Error message when saving a .kra file"
 msgid "Could not save resources: %1."
 msgstr "無法儲存資源：%1。"
 
-#: plugins/impex/libkra/kis_kra_saver.cpp:247
-#: plugins/impex/libkra/kis_kra_saver.cpp:269
+#: plugins/impex/libkra/kis_kra_saver.cpp:252
+#: plugins/impex/libkra/kis_kra_saver.cpp:274
 #, kde-format
 msgctxt "Error message when saving a .kra file"
 msgid "Could not save storyboards."
 msgstr "無法儲存分鏡。"
 
-#: plugins/impex/libkra/kis_kra_saver.cpp:281
-#: plugins/impex/libkra/kis_kra_saver.cpp:305
+#: plugins/impex/libkra/kis_kra_saver.cpp:286
+#: plugins/impex/libkra/kis_kra_saver.cpp:310
 #, kde-format
 msgctxt "Error message when saving a .kra file"
 msgid "Could not save animation meta data."
 msgstr "無法儲存動畫中繼資料。"
 
-#: plugins/impex/libkra/kis_kra_saver.cpp:425
+#: plugins/impex/libkra/kis_kra_saver.cpp:432
 #, kde-format
 msgctxt "Error message on saving a .kra file"
 msgid "Could not save keyframes."
 msgstr "無法儲存關鍵影格。"
 
-#: plugins/impex/libkra/kis_kra_saver.cpp:469
+#: plugins/impex/libkra/kis_kra_saver.cpp:476
 #, kde-format
 msgctxt "Saving .kra file error message"
 msgid "Could not save annotations."
 msgstr "無法儲存注釋。"
 
-#: plugins/impex/libkra/kis_kra_saver.cpp:503
+#: plugins/impex/libkra/kis_kra_saver.cpp:510
 #, kde-format
 msgctxt "Saving .kra file error message"
 msgid "Could not save image profile."
 msgstr "無法儲存影像特性檔案。"
 
-#: plugins/impex/libkra/kis_kra_saver.cpp:533
+#: plugins/impex/libkra/kis_kra_saver.cpp:540
 #, kde-format
 msgctxt "Saving .kra file error message"
 msgid "Could not save softproofing color profile."
 msgstr "無法儲存螢幕校樣色彩特性檔案。"
 
-#: plugins/impex/libkra/kis_kra_saver.cpp:568
+#: plugins/impex/libkra/kis_kra_saver.cpp:575
 #, kde-format
 msgctxt "Saving .kra file error message"
 msgid "Could not save additional annotations."
 msgstr "無法儲存附加注釋。"
 
-#: plugins/impex/libkra/kis_kra_saver.cpp:601
+#: plugins/impex/libkra/kis_kra_saver.cpp:608
 #, kde-format
 msgctxt "Saving .kra file error message"
 msgid "Could not save layer styles."
 msgstr "無法儲存圖層樣式。"
 
-#: plugins/impex/libkra/kis_kra_saver.cpp:616
+#: plugins/impex/libkra/kis_kra_saver.cpp:623
 #, kde-format
 msgctxt "Saving .kra file error message"
 msgid "Could not save merged image."
 msgstr "無法儲存合併影像。"
 
-#: plugins/impex/libkra/kis_kra_saver.cpp:706
+#: plugins/impex/libkra/kis_kra_saver.cpp:713
 #, kde-format
 msgctxt "Saving .kra file error message"
 msgid "Could not save assistants."
@@ -52933,7 +52972,7 @@ msgid "Line height"
 msgstr "行高"
 
 #: plugins/tools/svgtexttool/SvgTextEditor.cpp:1455
-#: plugins/tools/svgtexttool/SvgTextTool.cpp:194
+#: plugins/tools/svgtexttool/SvgTextTool.cpp:206
 #, kde-format
 msgid "Letter Spacing"
 msgstr "字距"
@@ -53234,32 +53273,32 @@ msgctxt "action"
 msgid "Kerning"
 msgstr "字距調整 (Kerning)"
 
-#: plugins/tools/svgtexttool/SvgTextTool.cpp:126
+#: plugins/tools/svgtexttool/SvgTextTool.cpp:138
 #, kde-format
 msgid "Create new texts with..."
 msgstr "建立新文字自…"
 
-#: plugins/tools/svgtexttool/SvgTextTool.cpp:162
+#: plugins/tools/svgtexttool/SvgTextTool.cpp:174
 #, kde-format
 msgid "Anchor text to the left."
 msgstr "將文字錨定到左側。"
 
-#: plugins/tools/svgtexttool/SvgTextTool.cpp:170
+#: plugins/tools/svgtexttool/SvgTextTool.cpp:182
 #, kde-format
 msgid "Anchor text to the middle."
 msgstr "將文字錨定到中間。"
 
-#: plugins/tools/svgtexttool/SvgTextTool.cpp:178
+#: plugins/tools/svgtexttool/SvgTextTool.cpp:190
 #, kde-format
 msgid "Anchor text to the right."
 msgstr "將文字錨定到右側。"
 
-#: plugins/tools/svgtexttool/SvgTextTool.cpp:208
+#: plugins/tools/svgtexttool/SvgTextTool.cpp:220
 #, kde-format
 msgid "Edit Text"
 msgstr "編輯文字"
 
-#: plugins/tools/svgtexttool/SvgTextTool.cpp:244
+#: plugins/tools/svgtexttool/SvgTextTool.cpp:256
 #, kde-format
 msgctxt "@title:window"
 msgid "Krita - Edit Text"
@@ -54586,20 +54625,65 @@ msgid "Reference Images Tool"
 msgstr "參考圖工具"
 
 #~ msgctxt "action"
+#~ msgid "Add a new &Group Layer"
+#~ msgstr "新增群組圖層(&G)"
+
+#~ msgctxt "action"
+#~ msgid "Add a new &Clone Layer"
+#~ msgstr "新增再製圖層(&C)"
+
+#~ msgctxt "action"
+#~ msgid "Add a new &Transparency Mask"
+#~ msgstr "新增透明度遮罩(&T)"
+
+#~ msgctxt "action"
+#~ msgid "Add a new &Filter Mask..."
+#~ msgstr "新增濾鏡遮罩(&F)…"
+
+#~ msgctxt "action"
+#~ msgid "Add a new &Colorize Mask"
+#~ msgstr "新增著色遮罩(&M)"
+
+#~ msgctxt "action"
+#~ msgid "Add a new &Transform Mask"
+#~ msgstr "新增變形遮罩(&T)"
+
+#~ msgctxt "action"
+#~ msgid "Add a new &Paint Layer"
+#~ msgstr "新增顏料圖層(&P)"
+
+#~ msgctxt "action"
+#~ msgid "to &Paint Layer"
+#~ msgstr "為顏料圖層(&P)"
+
+#~ msgctxt "action"
+#~ msgid "to &Selection Mask"
+#~ msgstr "為選取區域遮罩(&S)"
+
+#~ msgctxt "@title:window"
+#~ msgid "Cannot add the resource"
+#~ msgstr "未能加入資源"
+
+#~ msgctxt "Warning message"
+#~ msgid ""
+#~ "The filename %1 is already used for a resource %2, so adding a resource "
+#~ "with name %3 failed."
+#~ msgstr ""
+#~ "檔案名稱「%1」已被資源「%2」使用，因此無法加入一個名為「%3」的資源。"
+
+#~ msgctxt "Warning message"
+#~ msgid ""
+#~ "The filename %1 is already in use, so adding a resource with name %2 "
+#~ "failed."
+#~ msgstr "檔案名稱「%1」已被使用，因此無法加入一個名為「%2」的資源。"
+
+#~ msgctxt "action"
 #~ msgid "Group"
 #~ msgstr "組合"
 
 #~ msgctxt "action"
-#~ msgid "&Group Layer"
-#~ msgstr "群組圖層(&G)"
-
-#~ msgctxt "action"
 #~ msgid "Group Layer"
 #~ msgstr "群組圖層"
-
-#~ msgctxt "action"
-#~ msgid "&Clone Layer"
-#~ msgstr "再製圖層(&C)"
 
 #~ msgctxt "action"
 #~ msgid "Clone Layer"
@@ -54626,10 +54710,6 @@ msgstr "參考圖工具"
 #~ msgstr "透明度遮罩"
 
 #~ msgctxt "action"
-#~ msgid "&Filter Mask..."
-#~ msgstr "濾鏡遮罩(&F)…"
-
-#~ msgctxt "action"
 #~ msgid "Filter Mask"
 #~ msgstr "濾鏡遮罩"
 
@@ -54648,10 +54728,6 @@ msgstr "參考圖工具"
 #~ msgctxt "action"
 #~ msgid "Transform Mask"
 #~ msgstr "變形遮罩"
-
-#~ msgctxt "action"
-#~ msgid "&Paint Layer"
-#~ msgstr "顏料圖層(&P)"
 
 #~ msgctxt "action"
 #~ msgid "Paint Layer"
@@ -56789,10 +56865,6 @@ msgstr "參考圖工具"
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Set Font Size"
 #~ msgstr "設定字型大小"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Set Background Color"
-#~ msgstr "設定背景色"
 
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Set Text Color"
