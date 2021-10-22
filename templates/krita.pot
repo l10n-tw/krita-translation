@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-10-21 00:15+0000\n"
+"POT-Creation-Date: 2021-10-22 00:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -8659,7 +8659,31 @@ msgstr ""
 #. i18n: context: Actions (Filters), ActionCollection (Krita)
 #. i18n: context: Actions (Filters), ActionCollection (Krita)
 #. i18n: context: Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Actions (Filters), ActionCollection (Krita)
 #: krita/krita.action:791 plugins/dockers/logdocker/LogDockerDock.cpp:142
+#: plugins/filters/asccdl/asccdl.action:4
+#: plugins/filters/colorsfilters/colorsfilters.action:4
+#: plugins/filters/convertheightnormalmap/convertheightnormalmap.action:4
+#: plugins/filters/gaussianhighpass/gaussianhighpass.action:4
+#: plugins/filters/gradientmap/gradientmap.action:4
+#: plugins/filters/halftone/halftone.action:4
+#: plugins/filters/normalize/normalize.action:4
+#: plugins/filters/palettize/palettize.action:4
 #: plugins/filters/threshold/threshold.action:4
 #, kde-format
 msgctxt "Filter as an effect"
@@ -15052,7 +15076,7 @@ msgctxt "property of a filter layer, noun"
 msgid "Filter"
 msgstr ""
 
-#: libs/image/kis_asl_layer_style_serializer.cpp:1260
+#: libs/image/kis_asl_layer_style_serializer.cpp:1264
 #, kde-format
 msgctxt "Auto-generated layer style name for embedded styles (style itself)"
 msgid "<%1> (embedded)"
@@ -15487,10 +15511,10 @@ msgstr ""
 msgid "Processing"
 msgstr ""
 
-#: libs/image/kis_psd_layer_style.cpp:102
+#: libs/image/kis_psd_layer_style.cpp:101
 #: libs/ui/KisApplicationArguments.cpp:375
-#: libs/ui/KisMainWindow.cpp:1406 libs/ui/KisMainWindow.cpp:1677
-#: libs/ui/KisMainWindow.cpp:1696 plugins/impex/libkra/kis_kra_saver.cpp:86
+#: libs/ui/KisMainWindow.cpp:1405 libs/ui/KisMainWindow.cpp:1676
+#: libs/ui/KisMainWindow.cpp:1695 plugins/impex/libkra/kis_kra_saver.cpp:86
 #, kde-format
 msgid "Unnamed"
 msgstr ""
@@ -15856,7 +15880,7 @@ msgid "Clone Layer"
 msgstr ""
 
 #: libs/impex/KisExportCheckRegistry.cpp:100
-#: libs/ui/kis_layer_manager.cc:628 libs/ui/kis_node_manager.cpp:1501
+#: libs/ui/kis_layer_manager.cc:628 libs/ui/kis_node_manager.cpp:1510
 #, kde-format
 msgctxt "A group of layers"
 msgid "Group"
@@ -16157,8 +16181,8 @@ msgctxt "description of a file type"
 msgid "Animated PNG Image"
 msgstr ""
 
-#: libs/libkis/Document.cpp:927 libs/ui/KisMainWindow.cpp:2045
-#: libs/ui/KisMainWindow.cpp:2127
+#: libs/libkis/Document.cpp:927 libs/ui/KisMainWindow.cpp:2044
+#: libs/ui/KisMainWindow.cpp:2126
 #, kde-format
 msgid "Import frames"
 msgstr ""
@@ -17455,11 +17479,11 @@ msgstr ""
 #: libs/ui/KisApplication.cpp:965 libs/ui/KisDocument.cpp:881
 #: libs/ui/KisDocument.cpp:884 libs/ui/KisDocument.cpp:1708
 #: libs/ui/KisDocument.cpp:1751 libs/ui/KisDocument.cpp:1759
-#: libs/ui/KisMainWindow.cpp:1079 libs/ui/KisMainWindow.cpp:1206
-#: libs/ui/KisMainWindow.cpp:1304 libs/ui/KisMainWindow.cpp:1905
-#: libs/ui/KisMainWindow.cpp:1914 libs/ui/KisMainWindow.cpp:2053
-#: libs/ui/KisMainWindow.cpp:2112 libs/ui/KisMainWindow.cpp:2136
-#: libs/ui/KisPart.cpp:554 libs/ui/KisPart.cpp:557 libs/ui/KisReferenceImage.cpp:178
+#: libs/ui/KisMainWindow.cpp:1078 libs/ui/KisMainWindow.cpp:1205
+#: libs/ui/KisMainWindow.cpp:1303 libs/ui/KisMainWindow.cpp:1904
+#: libs/ui/KisMainWindow.cpp:1913 libs/ui/KisMainWindow.cpp:2052
+#: libs/ui/KisMainWindow.cpp:2111 libs/ui/KisMainWindow.cpp:2135
+#: libs/ui/KisPart.cpp:556 libs/ui/KisPart.cpp:559 libs/ui/KisReferenceImage.cpp:178
 #: libs/ui/KisRemoteFileFetcher.cpp:42 libs/ui/KisTemplateCreateDia.cpp:284
 #: libs/ui/KisTemplateCreateDia.cpp:390 libs/ui/KisView.cpp:669
 #: libs/ui/KisWelcomePageWidget.cpp:702 libs/ui/opengl/kis_opengl_canvas2.cpp:388
@@ -17968,7 +17992,7 @@ msgid "Storage Resources"
 msgstr ""
 
 #: libs/resourcewidgets/KisResourceItemChooser.cpp:229
-#: libs/ui/KisMainWindow.cpp:2549 plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:570
+#: libs/ui/KisMainWindow.cpp:2548 plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:570
 #, kde-format
 msgctxt "@title:window"
 msgid "Choose File to Add"
@@ -18394,7 +18418,7 @@ msgid "Failed to render animation frames! Output files are incomplete."
 msgstr ""
 
 #: libs/ui/animation/KisDlgAnimationRenderer.cpp:52
-#: libs/ui/KisMainWindow.cpp:2156
+#: libs/ui/KisMainWindow.cpp:2155
 #, kde-format
 msgid "Render Animation"
 msgstr ""
@@ -20317,7 +20341,7 @@ msgid "Numerical"
 msgstr ""
 
 #: libs/ui/dialogs/kis_dlg_import_image_sequence.cpp:137
-#: libs/ui/KisMainWindow.cpp:1174
+#: libs/ui/KisMainWindow.cpp:1173
 #, kde-format
 msgid "Import Images"
 msgstr ""
@@ -23576,7 +23600,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, updateBrushNameButton)
 #. i18n: ectx: property (toolTip), widget (QPushButton, bnSaveMask)
 #: libs/ui/forms/wdgpaintopsettings.ui:188
-#: libs/ui/KisMainWindow.cpp:1058 libs/ui/widgets/kis_workspace_chooser.cpp:109
+#: libs/ui/KisMainWindow.cpp:1057 libs/ui/widgets/kis_workspace_chooser.cpp:109
 #: libs/ui/widgets/kis_workspace_chooser.cpp:176
 #: plugins/dockers/gamutmask/forms/wdgGamutMaskChooser.ui:232
 #: plugins/generators/seexpr/wdgseexpr.ui:172
@@ -26129,34 +26153,34 @@ msgctxt "(qtundo-format)"
 msgid "Write Alpha into a Layer"
 msgstr ""
 
-#: libs/ui/kis_node_manager.cpp:1449
+#: libs/ui/kis_node_manager.cpp:1458
 msgctxt "(qtundo-format)"
 msgid "Cut Nodes"
 msgstr ""
 
-#: libs/ui/kis_node_manager.cpp:1531
+#: libs/ui/kis_node_manager.cpp:1540
 msgctxt "(qtundo-format)"
 msgid "Quick Group"
 msgstr ""
 
-#: libs/ui/kis_node_manager.cpp:1542
+#: libs/ui/kis_node_manager.cpp:1551
 msgctxt "(qtundo-format)"
 msgid "Quick Clipping Group"
 msgstr ""
 
-#: libs/ui/kis_node_manager.cpp:1549
+#: libs/ui/kis_node_manager.cpp:1558
 #, kde-format
 msgctxt "default name for a clipping group layer"
 msgid "Clipping Group"
 msgstr ""
 
-#: libs/ui/kis_node_manager.cpp:1550
+#: libs/ui/kis_node_manager.cpp:1559
 #, kde-format
 msgctxt "default name for quick clip group mask layer"
 msgid "Mask Layer"
 msgstr ""
 
-#: libs/ui/kis_node_manager.cpp:1567
+#: libs/ui/kis_node_manager.cpp:1576
 msgctxt "(qtundo-format)"
 msgid "Quick Ungroup"
 msgstr ""
@@ -27288,32 +27312,32 @@ msgstr ""
 msgid "Hide %1 Toolbar"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1027
+#: libs/ui/KisMainWindow.cpp:1026
 #, kde-format
 msgid "Write Protected"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1031
+#: libs/ui/KisMainWindow.cpp:1030
 #, kde-format
 msgid "Recovered"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1055
+#: libs/ui/KisMainWindow.cpp:1054
 #, kde-format
 msgid "Save as %1"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1079
+#: libs/ui/KisMainWindow.cpp:1078
 #, kde-format
 msgid "The file %1 does not exist."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1174
+#: libs/ui/KisMainWindow.cpp:1173
 #, kde-format
 msgid "Open Images"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1305
+#: libs/ui/KisMainWindow.cpp:1304
 #, kde-format
 msgid ""
 "You are saving a file while the image is still rendering. The saved file may "
@@ -27322,43 +27346,43 @@ msgid ""
 "Please select a location where the original file will not be overridden!"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1361
+#: libs/ui/KisMainWindow.cpp:1360
 #, kde-format
 msgid "Exporting"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1361
+#: libs/ui/KisMainWindow.cpp:1360
 #, kde-format
 msgid "Saving As"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1656 libs/widgetutils/config/kstandardaction_p.h:29
+#: libs/ui/KisMainWindow.cpp:1655 libs/widgetutils/config/kstandardaction_p.h:29
 #, kde-format
 msgid "Create new document"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1680
+#: libs/ui/KisMainWindow.cpp:1679
 #, kde-format
 msgid "Custom Document"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1698
+#: libs/ui/KisMainWindow.cpp:1697
 #, kde-format
 msgid "Create from Clipboard"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1874
+#: libs/ui/KisMainWindow.cpp:1873
 #, kde-format
 msgid "Layers/Masks"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1900 plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:179
+#: libs/ui/KisMainWindow.cpp:1899 plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:179
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:261
 #, kde-format
 msgid "You don't have any resource bundles enabled."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1904
+#: libs/ui/KisMainWindow.cpp:1903
 #, kde-format
 msgid ""
 "\n"
@@ -27366,7 +27390,7 @@ msgid ""
 "presets before continuing.\n"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1914 plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:189
+#: libs/ui/KisMainWindow.cpp:1913 plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:189
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:273
 #, kde-format
 msgid ""
@@ -27374,60 +27398,60 @@ msgid ""
 "Only your local resources are available."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2053 libs/ui/KisMainWindow.cpp:2136
+#: libs/ui/KisMainWindow.cpp:2052 libs/ui/KisMainWindow.cpp:2135
 #, kde-format
 msgid ""
 "Could not finish import animation:\n"
 "%1"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2112
+#: libs/ui/KisMainWindow.cpp:2111
 #, kde-format
 msgid "Failed to create new document. Animation import aborted."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2540
+#: libs/ui/KisMainWindow.cpp:2539
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Import Workspace..."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2555
+#: libs/ui/KisMainWindow.cpp:2554
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&New Workspace..."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2599
+#: libs/ui/KisMainWindow.cpp:2598
 #, kde-format
 msgid "&%1 %2"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2602
+#: libs/ui/KisMainWindow.cpp:2601
 #, kde-format
 msgid "%1 %2"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2763
+#: libs/ui/KisMainWindow.cpp:2762
 #, kde-format
 msgid ""
 "The Krita LittleCMS color management plugin is not installed. Krita will "
 "quit now."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2779
+#: libs/ui/KisMainWindow.cpp:2778
 #, kde-format
 msgctxt "@title:window"
 msgid "Installation error"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2891
+#: libs/ui/KisMainWindow.cpp:2890
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Themes"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2945
+#: libs/ui/KisMainWindow.cpp:2944
 #, kde-format
 msgid "Expanding Spacer"
 msgstr ""
@@ -27544,14 +27568,14 @@ msgctxt "Default new group name"
 msgid "New Group %1"
 msgstr ""
 
-#: libs/ui/KisPart.cpp:554
+#: libs/ui/KisPart.cpp:556
 #, kde-format
 msgid ""
 "Could not create document from template\n"
 "%1"
 msgstr ""
 
-#: libs/ui/KisPart.cpp:557
+#: libs/ui/KisPart.cpp:559
 #, kde-format
 msgid ""
 "Could not create document from template\n"
@@ -39071,6 +39095,17 @@ msgstr ""
 msgid "Wavelet scales:"
 msgstr ""
 
+#. i18n: context: Action (krita_filter_asc-cdl), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_asc-cdl), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_asc-cdl), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_asc-cdl), Actions (Filters), ActionCollection (Krita)
+#: plugins/filters/asccdl/asccdl.action:7
+#: plugins/filters/asccdl/asccdl.action:9
+#, kde-format
+msgctxt "action"
+msgid "Slope, Offset, Power Filter"
+msgstr ""
+
 #: plugins/filters/asccdl/kis_asccdl_filter.cpp:31
 #, kde-format
 msgid "&Slope, Offset, Power..."
@@ -39351,6 +39386,17 @@ msgstr ""
 msgid "Color Sampler:"
 msgstr ""
 
+#. i18n: context: Action (krita_filter_crosschannel), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_crosschannel), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_crosschannel), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_crosschannel), Actions (Filters), ActionCollection (Krita)
+#: plugins/filters/colorsfilters/colorsfilters.action:7
+#: plugins/filters/colorsfilters/colorsfilters.action:9
+#, kde-format
+msgctxt "action"
+msgid "Cross-channel adjustment Filter"
+msgstr ""
+
 #: plugins/filters/colorsfilters/colorsfilters.cpp:77
 #, kde-format
 msgid "&Auto Contrast"
@@ -39618,6 +39664,17 @@ msgstr ""
 msgid "Driver channel"
 msgstr ""
 
+#. i18n: context: Action (krita_filter_height to normal), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_height to normal), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_height to normal), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_height to normal), Actions (Filters), ActionCollection (Krita)
+#: plugins/filters/convertheightnormalmap/convertheightnormalmap.action:7
+#: plugins/filters/convertheightnormalmap/convertheightnormalmap.action:9
+#, kde-format
+msgctxt "action"
+msgid "Height to Normal Map Filter"
+msgstr ""
+
 #: plugins/filters/convertheightnormalmap/kis_convert_height_to_normal_map_filter.cpp:29
 #, kde-format
 msgid "&Height to Normal Map..."
@@ -39843,6 +39900,17 @@ msgstr ""
 msgid "Reference image:"
 msgstr ""
 
+#. i18n: context: Action (krita_filter_gaussianhighpass), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_gaussianhighpass), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_gaussianhighpass), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_gaussianhighpass), Actions (Filters), ActionCollection (Krita)
+#: plugins/filters/gaussianhighpass/gaussianhighpass.action:7
+#: plugins/filters/gaussianhighpass/gaussianhighpass.action:9
+#, kde-format
+msgctxt "action"
+msgid "Gaussian High Pass Filter"
+msgstr ""
+
 #: plugins/filters/gaussianhighpass/gaussianhighpass_filter.cpp:38
 #, kde-format
 msgid "&Gaussian High Pass..."
@@ -39851,6 +39919,20 @@ msgstr ""
 #: plugins/filters/gaussianhighpass/gaussianhighpass_filter.h:29
 #, kde-format
 msgid "Gaussian High Pass"
+msgstr ""
+
+#. i18n: context: Action (krita_filter_gradientmap), Actions (Filters), ActionCollection (Krita)
+#: plugins/filters/gradientmap/gradientmap.action:7
+#, kde-format
+msgctxt "action"
+msgid "gradientmap Filter"
+msgstr ""
+
+#. i18n: context: Action (krita_filter_gradientmap), Actions (Filters), ActionCollection (Krita)
+#: plugins/filters/gradientmap/gradientmap.action:9
+#, kde-format
+msgctxt "action"
+msgid "Gradient Map Filter"
 msgstr ""
 
 #: plugins/filters/gradientmap/KisGradientMapFilter.cpp:32
@@ -39908,6 +39990,17 @@ msgstr ""
 #: plugins/filters/palettize/palettize.ui:191
 #, kde-format
 msgid "Dither"
+msgstr ""
+
+#. i18n: context: Action (krita_filter_halftone), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_halftone), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_halftone), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_halftone), Actions (Filters), ActionCollection (Krita)
+#: plugins/filters/halftone/halftone.action:7
+#: plugins/filters/halftone/halftone.action:9
+#, kde-format
+msgctxt "action"
+msgid "Halftone Filter"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tabScreenGenerator)
@@ -40244,6 +40337,17 @@ msgstr ""
 msgid "&Normalize"
 msgstr ""
 
+#. i18n: context: Action (krita_filter_normalize), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_normalize), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_normalize), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_normalize), Actions (Filters), ActionCollection (Krita)
+#: plugins/filters/normalize/normalize.action:7
+#: plugins/filters/normalize/normalize.action:9
+#, kde-format
+msgctxt "action"
+msgid "Normalize Filter"
+msgstr ""
+
 #: plugins/filters/oilpaintfilter/kis_oilpaint_filter.cpp:44
 #, kde-format
 msgid "&Oilpaint..."
@@ -40267,6 +40371,17 @@ msgstr ""
 #: plugins/filters/oilpaintfilter/kis_oilpaint_filter.h:26
 #, kde-format
 msgid "Oilpaint"
+msgstr ""
+
+#. i18n: context: Action (krita_filter_palettize), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_palettize), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_palettize), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_palettize), Actions (Filters), ActionCollection (Krita)
+#: plugins/filters/palettize/palettize.action:7
+#: plugins/filters/palettize/palettize.action:9
+#, kde-format
+msgctxt "action"
+msgid "Palettize Filter"
 msgstr ""
 
 #: plugins/filters/palettize/palettize.cpp:114
