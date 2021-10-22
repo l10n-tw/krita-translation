@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-10-22 00:15+0000\n"
-"PO-Revision-Date: 2021-10-21 07:58+0000\n"
+"PO-Revision-Date: 2021-10-23 11:25+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -39858,11 +39858,10 @@ msgstr "子波比例："
 #. i18n: context: Action (krita_filter_asc-cdl), Actions (Filters), ActionCollection (Krita)
 #: plugins/filters/asccdl/asccdl.action:7
 #: plugins/filters/asccdl/asccdl.action:9
-#, fuzzy, kde-format
-#| msgid "&Slope, Offset, Power..."
+#, kde-format
 msgctxt "action"
 msgid "Slope, Offset, Power Filter"
-msgstr "斜率、偏移、指數(&S)…"
+msgstr "斜率、偏移、指數濾鏡"
 
 #: plugins/filters/asccdl/kis_asccdl_filter.cpp:31
 #, kde-format
@@ -40154,11 +40153,10 @@ msgstr "色彩取樣器："
 #. i18n: context: Action (krita_filter_crosschannel), Actions (Filters), ActionCollection (Krita)
 #: plugins/filters/colorsfilters/colorsfilters.action:7
 #: plugins/filters/colorsfilters/colorsfilters.action:9
-#, fuzzy, kde-format
-#| msgid "&Cross-channel adjustment curves..."
+#, kde-format
 msgctxt "action"
 msgid "Cross-channel adjustment Filter"
-msgstr "跨通道色彩調整曲線(&C)…"
+msgstr "跨通道色彩調整曲線濾鏡"
 
 #: plugins/filters/colorsfilters/colorsfilters.cpp:77
 #, kde-format
@@ -40434,11 +40432,10 @@ msgstr "驅動通道"
 #. i18n: context: Action (krita_filter_height to normal), Actions (Filters), ActionCollection (Krita)
 #: plugins/filters/convertheightnormalmap/convertheightnormalmap.action:7
 #: plugins/filters/convertheightnormalmap/convertheightnormalmap.action:9
-#, fuzzy, kde-format
-#| msgid "Height to Normal Map"
+#, kde-format
 msgctxt "action"
 msgid "Height to Normal Map Filter"
-msgstr "高度貼圖轉法線貼圖"
+msgstr "高度貼圖轉法線貼圖濾鏡"
 
 #: plugins/filters/convertheightnormalmap/kis_convert_height_to_normal_map_filter.cpp:29
 #, kde-format
@@ -40673,11 +40670,10 @@ msgstr "參考圖："
 #. i18n: context: Action (krita_filter_gaussianhighpass), Actions (Filters), ActionCollection (Krita)
 #: plugins/filters/gaussianhighpass/gaussianhighpass.action:7
 #: plugins/filters/gaussianhighpass/gaussianhighpass.action:9
-#, fuzzy, kde-format
-#| msgid "Gaussian High Pass"
+#, kde-format
 msgctxt "action"
 msgid "Gaussian High Pass Filter"
-msgstr "高斯高通濾波"
+msgstr "高斯高通濾波濾鏡"
 
 #: plugins/filters/gaussianhighpass/gaussianhighpass_filter.cpp:38
 #, kde-format
@@ -40691,19 +40687,17 @@ msgstr "高斯高通濾波"
 
 #. i18n: context: Action (krita_filter_gradientmap), Actions (Filters), ActionCollection (Krita)
 #: plugins/filters/gradientmap/gradientmap.action:7
-#, fuzzy, kde-format
-#| msgid "Gradient fill"
+#, kde-format
 msgctxt "action"
 msgid "gradientmap Filter"
-msgstr "漸變填充"
+msgstr "漸變映射濾鏡"
 
 #. i18n: context: Action (krita_filter_gradientmap), Actions (Filters), ActionCollection (Krita)
 #: plugins/filters/gradientmap/gradientmap.action:9
-#, fuzzy, kde-format
-#| msgid "Gradient Map"
+#, kde-format
 msgctxt "action"
 msgid "Gradient Map Filter"
-msgstr "漸變映射"
+msgstr "漸變映射濾鏡"
 
 #: plugins/filters/gradientmap/KisGradientMapFilter.cpp:32
 #, kde-format
@@ -40768,12 +40762,10 @@ msgstr "抖色 (dither)"
 #. i18n: context: Action (krita_filter_halftone), Actions (Filters), ActionCollection (Krita)
 #: plugins/filters/halftone/halftone.action:7
 #: plugins/filters/halftone/halftone.action:9
-#, fuzzy, kde-format
-#| msgctxt "(qtundo-format)"
-#| msgid "Change Filter"
+#, kde-format
 msgctxt "action"
 msgid "Halftone Filter"
-msgstr "變更濾鏡"
+msgstr "半色調濾鏡"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tabScreenGenerator)
 #: plugins/filters/halftone/KisHalftoneConfigPageWidget.ui:49
@@ -41116,11 +41108,10 @@ msgstr "標準化(&N)"
 #. i18n: context: Action (krita_filter_normalize), Actions (Filters), ActionCollection (Krita)
 #: plugins/filters/normalize/normalize.action:7
 #: plugins/filters/normalize/normalize.action:9
-#, fuzzy, kde-format
-#| msgid "Normalize"
+#, kde-format
 msgctxt "action"
 msgid "Normalize Filter"
-msgstr "標準化"
+msgstr "標準化濾鏡"
 
 #: plugins/filters/oilpaintfilter/kis_oilpaint_filter.cpp:44
 #, kde-format
@@ -41153,11 +41144,10 @@ msgstr "油畫"
 #. i18n: context: Action (krita_filter_palettize), Actions (Filters), ActionCollection (Krita)
 #: plugins/filters/palettize/palettize.action:7
 #: plugins/filters/palettize/palettize.action:9
-#, fuzzy, kde-format
-#| msgid "Palette Editor"
+#, kde-format
 msgctxt "action"
 msgid "Palettize Filter"
-msgstr "調色板編輯器"
+msgstr "調色板配色濾鏡"
 
 #: plugins/filters/palettize/palettize.cpp:114
 #, kde-format
@@ -53725,7 +53715,7 @@ msgstr "五分法格線"
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:456
 #, kde-format
 msgid "Passport photo"
-msgstr "護照照片"
+msgstr "護照相片"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:469
