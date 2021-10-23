@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-10-21 00:15+0000\n"
-"PO-Revision-Date: 2021-10-21 07:58+0000\n"
+"POT-Creation-Date: 2021-10-23 00:16+0000\n"
+"PO-Revision-Date: 2021-10-23 12:36+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -8665,7 +8665,31 @@ msgstr ""
 #. i18n: context: Actions (Filters), ActionCollection (Krita)
 #. i18n: context: Actions (Filters), ActionCollection (Krita)
 #. i18n: context: Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Actions (Filters), ActionCollection (Krita)
 #: krita/krita.action:791 plugins/dockers/logdocker/LogDockerDock.cpp:142
+#: plugins/filters/asccdl/asccdl.action:4
+#: plugins/filters/colorsfilters/colorsfilters.action:4
+#: plugins/filters/convertheightnormalmap/convertheightnormalmap.action:4
+#: plugins/filters/gaussianhighpass/gaussianhighpass.action:4
+#: plugins/filters/gradientmap/gradientmap.action:4
+#: plugins/filters/halftone/halftone.action:4
+#: plugins/filters/normalize/normalize.action:4
+#: plugins/filters/palettize/palettize.action:4
 #: plugins/filters/threshold/threshold.action:4
 #, kde-format
 msgctxt "Filter as an effect"
@@ -15073,7 +15097,7 @@ msgctxt "property of a filter layer, noun"
 msgid "Filter"
 msgstr "濾鏡"
 
-#: libs/image/kis_asl_layer_style_serializer.cpp:1260
+#: libs/image/kis_asl_layer_style_serializer.cpp:1264
 #, kde-format
 msgctxt "Auto-generated layer style name for embedded styles (style itself)"
 msgid "<%1> (embedded)"
@@ -15517,9 +15541,9 @@ msgstr "轉成顏料圖層"
 msgid "Processing"
 msgstr "正在處理"
 
-#: libs/image/kis_psd_layer_style.cpp:102
-#: libs/ui/KisApplicationArguments.cpp:375 libs/ui/KisMainWindow.cpp:1406
-#: libs/ui/KisMainWindow.cpp:1677 libs/ui/KisMainWindow.cpp:1696
+#: libs/image/kis_psd_layer_style.cpp:101
+#: libs/ui/KisApplicationArguments.cpp:375 libs/ui/KisMainWindow.cpp:1405
+#: libs/ui/KisMainWindow.cpp:1676 libs/ui/KisMainWindow.cpp:1695
 #: plugins/impex/libkra/kis_kra_saver.cpp:86
 #, kde-format
 msgid "Unnamed"
@@ -15896,7 +15920,7 @@ msgid "Clone Layer"
 msgstr "再製圖層"
 
 #: libs/impex/KisExportCheckRegistry.cpp:100 libs/ui/kis_layer_manager.cc:628
-#: libs/ui/kis_node_manager.cpp:1501
+#: libs/ui/kis_node_manager.cpp:1510
 #, kde-format
 msgctxt "A group of layers"
 msgid "Group"
@@ -16197,8 +16221,8 @@ msgctxt "description of a file type"
 msgid "Animated PNG Image"
 msgstr "動態 PNG 影像"
 
-#: libs/libkis/Document.cpp:927 libs/ui/KisMainWindow.cpp:2045
-#: libs/ui/KisMainWindow.cpp:2127
+#: libs/libkis/Document.cpp:927 libs/ui/KisMainWindow.cpp:2044
+#: libs/ui/KisMainWindow.cpp:2126
 #, kde-format
 msgid "Import frames"
 msgstr "匯入影格"
@@ -17465,7 +17489,7 @@ msgid "Local Resources"
 msgstr "本機資源"
 
 #: libs/resources/KisResourceCacheDb.cpp:136
-#: libs/resourcewidgets/KisStorageChooserWidget.cpp:144
+#: libs/resourcewidgets/KisStorageChooserWidget.cpp:167
 #: libs/ui/animation/KisAnimationRender.cpp:49
 #: libs/ui/animation/KisAnimationRender.cpp:101
 #: libs/ui/animation/KisDlgAnimationRenderer.cpp:524
@@ -17492,14 +17516,14 @@ msgstr "本機資源"
 #: libs/ui/KisApplication.cpp:872 libs/ui/KisApplication.cpp:875
 #: libs/ui/KisApplication.cpp:891 libs/ui/KisApplication.cpp:923
 #: libs/ui/KisApplication.cpp:937 libs/ui/KisApplication.cpp:965
-#: libs/ui/KisDocument.cpp:881 libs/ui/KisDocument.cpp:884
+#: libs/ui/KisDocument.cpp:882 libs/ui/KisDocument.cpp:885
 #: libs/ui/KisDocument.cpp:1708 libs/ui/KisDocument.cpp:1751
-#: libs/ui/KisDocument.cpp:1759 libs/ui/KisMainWindow.cpp:1079
-#: libs/ui/KisMainWindow.cpp:1206 libs/ui/KisMainWindow.cpp:1304
-#: libs/ui/KisMainWindow.cpp:1905 libs/ui/KisMainWindow.cpp:1914
-#: libs/ui/KisMainWindow.cpp:2053 libs/ui/KisMainWindow.cpp:2112
-#: libs/ui/KisMainWindow.cpp:2136 libs/ui/KisPart.cpp:554
-#: libs/ui/KisPart.cpp:557 libs/ui/KisReferenceImage.cpp:178
+#: libs/ui/KisDocument.cpp:1759 libs/ui/KisMainWindow.cpp:1078
+#: libs/ui/KisMainWindow.cpp:1205 libs/ui/KisMainWindow.cpp:1303
+#: libs/ui/KisMainWindow.cpp:1904 libs/ui/KisMainWindow.cpp:1913
+#: libs/ui/KisMainWindow.cpp:2052 libs/ui/KisMainWindow.cpp:2111
+#: libs/ui/KisMainWindow.cpp:2135 libs/ui/KisPart.cpp:558
+#: libs/ui/KisPart.cpp:561 libs/ui/KisReferenceImage.cpp:178
 #: libs/ui/KisRemoteFileFetcher.cpp:42 libs/ui/KisTemplateCreateDia.cpp:284
 #: libs/ui/KisTemplateCreateDia.cpp:390 libs/ui/KisView.cpp:669
 #: libs/ui/KisWelcomePageWidget.cpp:702
@@ -18011,7 +18035,7 @@ msgid "Storage Resources"
 msgstr "資源收藏"
 
 #: libs/resourcewidgets/KisResourceItemChooser.cpp:229
-#: libs/ui/KisMainWindow.cpp:2549
+#: libs/ui/KisMainWindow.cpp:2548
 #: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:570
 #, kde-format
 msgctxt "@title:window"
@@ -18163,20 +18187,20 @@ msgstr ""
 "這個名稱已被另一項資源使用。您想要覆寫並使多項資源使用相同的名稱嗎？\n"
 "如選擇取消，將不會儲存您的變更。"
 
-#: libs/resourcewidgets/KisStorageChooserWidget.cpp:137
+#: libs/resourcewidgets/KisStorageChooserWidget.cpp:156
 #, kde-format
 msgid "All bundles have been deactivated."
 msgstr "已停用所有資源包。"
 
-#: libs/resourcewidgets/KisStorageChooserWidget.cpp:143
+#: libs/resourcewidgets/KisStorageChooserWidget.cpp:162
 #, kde-format
 msgid ""
 "\n"
-"There are no brush presets available. Please re-enable a bundle that "
-"provides brush presets."
+"There are no resources of type %1 available. Please enable at least one "
+"bundle."
 msgstr ""
 "\n"
-"無可用的筆刷預設。請啟用一個含有筆刷預設的資源包。"
+"無可用的「%1」資源。請啟用一個資源包。"
 
 #: libs/resourcewidgets/KisTagChooserWidget.cpp:66
 #, kde-format
@@ -18456,7 +18480,7 @@ msgid "Failed to render animation frames! Output files are incomplete."
 msgstr "動畫影格繪製失敗！輸出檔案不完整。"
 
 #: libs/ui/animation/KisDlgAnimationRenderer.cpp:52
-#: libs/ui/KisMainWindow.cpp:2156
+#: libs/ui/KisMainWindow.cpp:2155
 #, kde-format
 msgid "Render Animation"
 msgstr "繪製動畫"
@@ -20461,7 +20485,7 @@ msgid "Numerical"
 msgstr "按數字順序"
 
 #: libs/ui/dialogs/kis_dlg_import_image_sequence.cpp:137
-#: libs/ui/KisMainWindow.cpp:1174
+#: libs/ui/KisMainWindow.cpp:1173
 #, kde-format
 msgid "Import Images"
 msgstr "匯入影像"
@@ -20587,7 +20611,7 @@ msgctxt "@title:window"
 msgid "Enter new style name"
 msgstr "輸入新樣式名稱"
 
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:270
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:270 libs/ui/KisMainWindow.cpp:2559
 #: plugins/dockers/gamutmask/gamutmask_dock.cpp:375
 #, kde-format
 msgctxt "@label:textbox"
@@ -23832,7 +23856,7 @@ msgstr "目前筆刷預設"
 
 #. i18n: ectx: property (text), widget (QPushButton, updateBrushNameButton)
 #. i18n: ectx: property (toolTip), widget (QPushButton, bnSaveMask)
-#: libs/ui/forms/wdgpaintopsettings.ui:188 libs/ui/KisMainWindow.cpp:1058
+#: libs/ui/forms/wdgpaintopsettings.ui:188 libs/ui/KisMainWindow.cpp:1057
 #: libs/ui/widgets/kis_workspace_chooser.cpp:109
 #: libs/ui/widgets/kis_workspace_chooser.cpp:176
 #: plugins/dockers/gamutmask/forms/wdgGamutMaskChooser.ui:232
@@ -26463,34 +26487,34 @@ msgctxt "(qtundo-format)"
 msgid "Write Alpha into a Layer"
 msgstr "寫入 Alpha (透明度) 到圖層"
 
-#: libs/ui/kis_node_manager.cpp:1449
+#: libs/ui/kis_node_manager.cpp:1458
 msgctxt "(qtundo-format)"
 msgid "Cut Nodes"
 msgstr "剪下節點"
 
-#: libs/ui/kis_node_manager.cpp:1531
+#: libs/ui/kis_node_manager.cpp:1540
 msgctxt "(qtundo-format)"
 msgid "Quick Group"
 msgstr "快速建立群組"
 
-#: libs/ui/kis_node_manager.cpp:1542
+#: libs/ui/kis_node_manager.cpp:1551
 msgctxt "(qtundo-format)"
 msgid "Quick Clipping Group"
 msgstr "快速建立裁剪群組"
 
-#: libs/ui/kis_node_manager.cpp:1549
+#: libs/ui/kis_node_manager.cpp:1558
 #, kde-format
 msgctxt "default name for a clipping group layer"
 msgid "Clipping Group"
 msgstr "裁剪群組"
 
-#: libs/ui/kis_node_manager.cpp:1550
+#: libs/ui/kis_node_manager.cpp:1559
 #, kde-format
 msgctxt "default name for quick clip group mask layer"
 msgid "Mask Layer"
 msgstr "遮罩圖層"
 
-#: libs/ui/kis_node_manager.cpp:1567
+#: libs/ui/kis_node_manager.cpp:1576
 msgctxt "(qtundo-format)"
 msgid "Quick Ungroup"
 msgstr "快速拆散群組"
@@ -27233,33 +27257,33 @@ msgctxt "(qtundo-format)"
 msgid "Clone Document"
 msgstr "再製文件"
 
-#: libs/ui/KisDocument.cpp:699
+#: libs/ui/KisDocument.cpp:700
 #, kde-format
 msgid "%1 cannot be written to. Please save under a different name."
 msgstr "無法寫入 %1 。請以不同的名稱儲存。"
 
-#: libs/ui/KisDocument.cpp:761
+#: libs/ui/KisDocument.cpp:762
 #, kde-format
 msgid "Exporting Document..."
 msgstr "正在匯出檔案…"
 
-#: libs/ui/KisDocument.cpp:762
+#: libs/ui/KisDocument.cpp:763
 #, kde-format
 msgid "Saving Document..."
 msgstr "正在儲存檔案…"
 
-#: libs/ui/KisDocument.cpp:874
+#: libs/ui/KisDocument.cpp:875
 #, kde-format
 msgctxt "%1 --- failing file name, %2 --- error message"
 msgid "Error during saving %1: %2"
 msgstr "儲存%1 時出錯： %2"
 
-#: libs/ui/KisDocument.cpp:881
+#: libs/ui/KisDocument.cpp:882
 #, kde-format
 msgid "Could not save %1"
 msgstr "無法儲存 %1"
 
-#: libs/ui/KisDocument.cpp:884 plugins/extensions/imagesplit/imagesplit.cpp:76
+#: libs/ui/KisDocument.cpp:885 plugins/extensions/imagesplit/imagesplit.cpp:76
 #, kde-format
 msgid ""
 "Could not save %1\n"
@@ -27268,22 +27292,22 @@ msgstr ""
 "無法儲存 %1\n"
 "原因：%2"
 
-#: libs/ui/KisDocument.cpp:919
+#: libs/ui/KisDocument.cpp:920
 #, kde-format
 msgid "Finished saving %1"
 msgstr "完成儲存 %1"
 
-#: libs/ui/KisDocument.cpp:1247
+#: libs/ui/KisDocument.cpp:1248
 #, kde-format
 msgid "Autosaving... %1"
 msgstr "正在自動儲存… %1"
 
-#: libs/ui/KisDocument.cpp:1255
+#: libs/ui/KisDocument.cpp:1256
 #, kde-format
 msgid "Autosaving..."
 msgstr "正在自動儲存…"
 
-#: libs/ui/KisDocument.cpp:1261
+#: libs/ui/KisDocument.cpp:1262
 #, kde-format
 msgid "Autosaving postponed: document is busy..."
 msgstr "自動儲存已推遲：檔案正在被佔用…"
@@ -27729,32 +27753,32 @@ msgstr "顯示%1工具列"
 msgid "Hide %1 Toolbar"
 msgstr "隱藏%1工具列"
 
-#: libs/ui/KisMainWindow.cpp:1027
+#: libs/ui/KisMainWindow.cpp:1026
 #, kde-format
 msgid "Write Protected"
 msgstr "防寫"
 
-#: libs/ui/KisMainWindow.cpp:1031
+#: libs/ui/KisMainWindow.cpp:1030
 #, kde-format
 msgid "Recovered"
 msgstr "已復原"
 
-#: libs/ui/KisMainWindow.cpp:1055
+#: libs/ui/KisMainWindow.cpp:1054
 #, kde-format
 msgid "Save as %1"
 msgstr "另存為 %1"
 
-#: libs/ui/KisMainWindow.cpp:1079
+#: libs/ui/KisMainWindow.cpp:1078
 #, kde-format
 msgid "The file %1 does not exist."
 msgstr "檔案 %1 不存在。"
 
-#: libs/ui/KisMainWindow.cpp:1174
+#: libs/ui/KisMainWindow.cpp:1173
 #, kde-format
 msgid "Open Images"
 msgstr "開啟影像"
 
-#: libs/ui/KisMainWindow.cpp:1305
+#: libs/ui/KisMainWindow.cpp:1304
 #, kde-format
 msgid ""
 "You are saving a file while the image is still rendering. The saved file may "
@@ -27766,45 +27790,45 @@ msgstr ""
 "\n"
 "請選擇一個原始檔案不會被覆蓋掉的位置！"
 
-#: libs/ui/KisMainWindow.cpp:1361
+#: libs/ui/KisMainWindow.cpp:1360
 #, kde-format
 msgid "Exporting"
 msgstr "正在匯出"
 
-#: libs/ui/KisMainWindow.cpp:1361
+#: libs/ui/KisMainWindow.cpp:1360
 #, kde-format
 msgid "Saving As"
 msgstr "正在儲存為"
 
-#: libs/ui/KisMainWindow.cpp:1656
+#: libs/ui/KisMainWindow.cpp:1655
 #: libs/widgetutils/config/kstandardaction_p.h:29
 #, kde-format
 msgid "Create new document"
 msgstr "建立檔案"
 
-#: libs/ui/KisMainWindow.cpp:1680
+#: libs/ui/KisMainWindow.cpp:1679
 #, kde-format
 msgid "Custom Document"
 msgstr "自訂檔案"
 
-#: libs/ui/KisMainWindow.cpp:1698
+#: libs/ui/KisMainWindow.cpp:1697
 #, kde-format
 msgid "Create from Clipboard"
 msgstr "從剪貼簿建立"
 
-#: libs/ui/KisMainWindow.cpp:1874
+#: libs/ui/KisMainWindow.cpp:1873
 #, kde-format
 msgid "Layers/Masks"
 msgstr "圖層/遮罩"
 
-#: libs/ui/KisMainWindow.cpp:1900
+#: libs/ui/KisMainWindow.cpp:1899
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:179
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:261
 #, kde-format
 msgid "You don't have any resource bundles enabled."
 msgstr "您沒有啟用任何資源包"
 
-#: libs/ui/KisMainWindow.cpp:1904
+#: libs/ui/KisMainWindow.cpp:1903
 #, kde-format
 msgid ""
 "\n"
@@ -27814,7 +27838,7 @@ msgstr ""
 "\n"
 "無可用的筆刷預設。在繼續之前請先啟用一個含有筆刷預設的資源包。\n"
 
-#: libs/ui/KisMainWindow.cpp:1914
+#: libs/ui/KisMainWindow.cpp:1913
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:189
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:273
 #, kde-format
@@ -27825,7 +27849,7 @@ msgstr ""
 "\n"
 "只有您在本機的資源可用。"
 
-#: libs/ui/KisMainWindow.cpp:2053 libs/ui/KisMainWindow.cpp:2136
+#: libs/ui/KisMainWindow.cpp:2052 libs/ui/KisMainWindow.cpp:2135
 #, kde-format
 msgid ""
 "Could not finish import animation:\n"
@@ -27834,53 +27858,59 @@ msgstr ""
 "無法完成匯入動畫：\n"
 "%1"
 
-#: libs/ui/KisMainWindow.cpp:2112
+#: libs/ui/KisMainWindow.cpp:2111
 #, kde-format
 msgid "Failed to create new document. Animation import aborted."
 msgstr "無法建立新文件。已終止匯入動畫。"
 
-#: libs/ui/KisMainWindow.cpp:2540
+#: libs/ui/KisMainWindow.cpp:2539
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Import Workspace..."
 msgstr "匯入作業空間(&I)…"
 
-#: libs/ui/KisMainWindow.cpp:2555
+#: libs/ui/KisMainWindow.cpp:2554
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&New Workspace..."
 msgstr "新作業空間(&N)…"
 
-#: libs/ui/KisMainWindow.cpp:2599
+#: libs/ui/KisMainWindow.cpp:2558
+#, kde-format
+msgctxt "@title:window"
+msgid "New Workspace..."
+msgstr "新作業空間…"
+
+#: libs/ui/KisMainWindow.cpp:2602
 #, kde-format
 msgid "&%1 %2"
 msgstr "%1 %2"
 
-#: libs/ui/KisMainWindow.cpp:2602
+#: libs/ui/KisMainWindow.cpp:2605
 #, kde-format
 msgid "%1 %2"
 msgstr "%1 %2"
 
-#: libs/ui/KisMainWindow.cpp:2763
+#: libs/ui/KisMainWindow.cpp:2766
 #, kde-format
 msgid ""
 "The Krita LittleCMS color management plugin is not installed. Krita will "
 "quit now."
 msgstr "未安裝 Krita 的 LittleCMS 色彩管理外掛程式。Krita 將立即退出。"
 
-#: libs/ui/KisMainWindow.cpp:2779
+#: libs/ui/KisMainWindow.cpp:2782
 #, kde-format
 msgctxt "@title:window"
 msgid "Installation error"
 msgstr "安裝錯誤"
 
-#: libs/ui/KisMainWindow.cpp:2891
+#: libs/ui/KisMainWindow.cpp:2894
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Themes"
 msgstr "主題(&T)"
 
-#: libs/ui/KisMainWindow.cpp:2945
+#: libs/ui/KisMainWindow.cpp:2948
 #, kde-format
 msgid "Expanding Spacer"
 msgstr "擴張空白佔位符"
@@ -27999,7 +28029,7 @@ msgctxt "Default new group name"
 msgid "New Group %1"
 msgstr "建立群組 %1"
 
-#: libs/ui/KisPart.cpp:554
+#: libs/ui/KisPart.cpp:558
 #, kde-format
 msgid ""
 "Could not create document from template\n"
@@ -28008,7 +28038,7 @@ msgstr ""
 "無法用範本%1\n"
 "建立檔案"
 
-#: libs/ui/KisPart.cpp:557
+#: libs/ui/KisPart.cpp:561
 #, kde-format
 msgid ""
 "Could not create document from template\n"
@@ -39828,6 +39858,17 @@ msgstr "子波分解"
 msgid "Wavelet scales:"
 msgstr "子波比例："
 
+#. i18n: context: Action (krita_filter_asc-cdl), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_asc-cdl), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_asc-cdl), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_asc-cdl), Actions (Filters), ActionCollection (Krita)
+#: plugins/filters/asccdl/asccdl.action:7
+#: plugins/filters/asccdl/asccdl.action:9
+#, kde-format
+msgctxt "action"
+msgid "Slope, Offset, Power Filter"
+msgstr "斜率、偏移、指數濾鏡"
+
 #: plugins/filters/asccdl/kis_asccdl_filter.cpp:31
 #, kde-format
 msgid "&Slope, Offset, Power..."
@@ -40112,6 +40153,17 @@ msgstr "閾值："
 msgid "Color Sampler:"
 msgstr "色彩取樣器："
 
+#. i18n: context: Action (krita_filter_crosschannel), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_crosschannel), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_crosschannel), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_crosschannel), Actions (Filters), ActionCollection (Krita)
+#: plugins/filters/colorsfilters/colorsfilters.action:7
+#: plugins/filters/colorsfilters/colorsfilters.action:9
+#, kde-format
+msgctxt "action"
+msgid "Cross-channel adjustment Filter"
+msgstr "跨通道色彩調整曲線濾鏡"
+
 #: plugins/filters/colorsfilters/colorsfilters.cpp:77
 #, kde-format
 msgid "&Auto Contrast"
@@ -40380,6 +40432,17 @@ msgstr "通道："
 msgid "Driver channel"
 msgstr "驅動通道"
 
+#. i18n: context: Action (krita_filter_height to normal), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_height to normal), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_height to normal), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_height to normal), Actions (Filters), ActionCollection (Krita)
+#: plugins/filters/convertheightnormalmap/convertheightnormalmap.action:7
+#: plugins/filters/convertheightnormalmap/convertheightnormalmap.action:9
+#, kde-format
+msgctxt "action"
+msgid "Height to Normal Map Filter"
+msgstr "高度貼圖轉法線貼圖濾鏡"
+
 #: plugins/filters/convertheightnormalmap/kis_convert_height_to_normal_map_filter.cpp:29
 #, kde-format
 msgid "&Height to Normal Map..."
@@ -40607,6 +40670,17 @@ msgstr "色彩轉移"
 msgid "Reference image:"
 msgstr "參考圖："
 
+#. i18n: context: Action (krita_filter_gaussianhighpass), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_gaussianhighpass), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_gaussianhighpass), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_gaussianhighpass), Actions (Filters), ActionCollection (Krita)
+#: plugins/filters/gaussianhighpass/gaussianhighpass.action:7
+#: plugins/filters/gaussianhighpass/gaussianhighpass.action:9
+#, kde-format
+msgctxt "action"
+msgid "Gaussian High Pass Filter"
+msgstr "高斯高通濾波濾鏡"
+
 #: plugins/filters/gaussianhighpass/gaussianhighpass_filter.cpp:38
 #, kde-format
 msgid "&Gaussian High Pass..."
@@ -40616,6 +40690,20 @@ msgstr "高斯高通濾波(&G)…"
 #, kde-format
 msgid "Gaussian High Pass"
 msgstr "高斯高通濾波"
+
+#. i18n: context: Action (krita_filter_gradientmap), Actions (Filters), ActionCollection (Krita)
+#: plugins/filters/gradientmap/gradientmap.action:7
+#, kde-format
+msgctxt "action"
+msgid "gradientmap Filter"
+msgstr "漸變映射濾鏡"
+
+#. i18n: context: Action (krita_filter_gradientmap), Actions (Filters), ActionCollection (Krita)
+#: plugins/filters/gradientmap/gradientmap.action:9
+#, kde-format
+msgctxt "action"
+msgid "Gradient Map Filter"
+msgstr "漸變映射濾鏡"
 
 #: plugins/filters/gradientmap/KisGradientMapFilter.cpp:32
 #, kde-format
@@ -40673,6 +40761,17 @@ msgstr "最接近"
 #, kde-format
 msgid "Dither"
 msgstr "抖色 (dither)"
+
+#. i18n: context: Action (krita_filter_halftone), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_halftone), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_halftone), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_halftone), Actions (Filters), ActionCollection (Krita)
+#: plugins/filters/halftone/halftone.action:7
+#: plugins/filters/halftone/halftone.action:9
+#, kde-format
+msgctxt "action"
+msgid "Halftone Filter"
+msgstr "半色調濾鏡"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tabScreenGenerator)
 #: plugins/filters/halftone/KisHalftoneConfigPageWidget.ui:49
@@ -41009,6 +41108,17 @@ msgstr "標準化"
 msgid "&Normalize"
 msgstr "標準化(&N)"
 
+#. i18n: context: Action (krita_filter_normalize), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_normalize), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_normalize), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_normalize), Actions (Filters), ActionCollection (Krita)
+#: plugins/filters/normalize/normalize.action:7
+#: plugins/filters/normalize/normalize.action:9
+#, kde-format
+msgctxt "action"
+msgid "Normalize Filter"
+msgstr "標準化濾鏡"
+
 #: plugins/filters/oilpaintfilter/kis_oilpaint_filter.cpp:44
 #, kde-format
 msgid "&Oilpaint..."
@@ -41033,6 +41143,17 @@ msgstr "平滑"
 #, kde-format
 msgid "Oilpaint"
 msgstr "油畫"
+
+#. i18n: context: Action (krita_filter_palettize), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_palettize), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_palettize), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_palettize), Actions (Filters), ActionCollection (Krita)
+#: plugins/filters/palettize/palettize.action:7
+#: plugins/filters/palettize/palettize.action:9
+#, kde-format
+msgctxt "action"
+msgid "Palettize Filter"
+msgstr "調色板配色濾鏡"
 
 #: plugins/filters/palettize/palettize.cpp:114
 #, kde-format
@@ -53600,7 +53721,7 @@ msgstr "五分法格線"
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:456
 #, kde-format
 msgid "Passport photo"
-msgstr "護照照片"
+msgstr "護照相片"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:469
@@ -54816,10 +54937,6 @@ msgstr "參考圖工具"
 #~ msgctxt "Warning about not being able to rename a session"
 #~ msgid "Renaming the session failed."
 #~ msgstr "重新命名工作階段失敗。"
-
-#~ msgctxt "@title:window"
-#~ msgid "New Workspace..."
-#~ msgstr "新作業空間…"
 
 #~ msgid "Clean Up"
 #~ msgstr "清理"
