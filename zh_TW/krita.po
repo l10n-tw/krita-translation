@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-10-22 00:15+0000\n"
+"POT-Creation-Date: 2021-10-23 00:16+0000\n"
 "PO-Revision-Date: 2021-10-23 11:25+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
@@ -17489,7 +17489,7 @@ msgid "Local Resources"
 msgstr "本機資源"
 
 #: libs/resources/KisResourceCacheDb.cpp:136
-#: libs/resourcewidgets/KisStorageChooserWidget.cpp:144
+#: libs/resourcewidgets/KisStorageChooserWidget.cpp:167
 #: libs/ui/animation/KisAnimationRender.cpp:49
 #: libs/ui/animation/KisAnimationRender.cpp:101
 #: libs/ui/animation/KisDlgAnimationRenderer.cpp:524
@@ -17516,14 +17516,14 @@ msgstr "本機資源"
 #: libs/ui/KisApplication.cpp:872 libs/ui/KisApplication.cpp:875
 #: libs/ui/KisApplication.cpp:891 libs/ui/KisApplication.cpp:923
 #: libs/ui/KisApplication.cpp:937 libs/ui/KisApplication.cpp:965
-#: libs/ui/KisDocument.cpp:881 libs/ui/KisDocument.cpp:884
+#: libs/ui/KisDocument.cpp:882 libs/ui/KisDocument.cpp:885
 #: libs/ui/KisDocument.cpp:1708 libs/ui/KisDocument.cpp:1751
 #: libs/ui/KisDocument.cpp:1759 libs/ui/KisMainWindow.cpp:1078
 #: libs/ui/KisMainWindow.cpp:1205 libs/ui/KisMainWindow.cpp:1303
 #: libs/ui/KisMainWindow.cpp:1904 libs/ui/KisMainWindow.cpp:1913
 #: libs/ui/KisMainWindow.cpp:2052 libs/ui/KisMainWindow.cpp:2111
-#: libs/ui/KisMainWindow.cpp:2135 libs/ui/KisPart.cpp:556
-#: libs/ui/KisPart.cpp:559 libs/ui/KisReferenceImage.cpp:178
+#: libs/ui/KisMainWindow.cpp:2135 libs/ui/KisPart.cpp:558
+#: libs/ui/KisPart.cpp:561 libs/ui/KisReferenceImage.cpp:178
 #: libs/ui/KisRemoteFileFetcher.cpp:42 libs/ui/KisTemplateCreateDia.cpp:284
 #: libs/ui/KisTemplateCreateDia.cpp:390 libs/ui/KisView.cpp:669
 #: libs/ui/KisWelcomePageWidget.cpp:702
@@ -18187,17 +18187,21 @@ msgstr ""
 "這個名稱已被另一項資源使用。您想要覆寫並使多項資源使用相同的名稱嗎？\n"
 "如選擇取消，將不會儲存您的變更。"
 
-#: libs/resourcewidgets/KisStorageChooserWidget.cpp:137
+#: libs/resourcewidgets/KisStorageChooserWidget.cpp:156
 #, kde-format
 msgid "All bundles have been deactivated."
 msgstr "已停用所有資源包。"
 
-#: libs/resourcewidgets/KisStorageChooserWidget.cpp:143
-#, kde-format
+#: libs/resourcewidgets/KisStorageChooserWidget.cpp:162
+#, fuzzy, kde-format
+#| msgid ""
+#| "\n"
+#| "There are no brush presets available. Please re-enable a bundle that "
+#| "provides brush presets."
 msgid ""
 "\n"
-"There are no brush presets available. Please re-enable a bundle that "
-"provides brush presets."
+"There are no resources of type %1 available. Please enable at least one "
+"bundle."
 msgstr ""
 "\n"
 "無可用的筆刷預設。請啟用一個含有筆刷預設的資源包。"
@@ -20611,7 +20615,7 @@ msgctxt "@title:window"
 msgid "Enter new style name"
 msgstr "輸入新樣式名稱"
 
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:270
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:270 libs/ui/KisMainWindow.cpp:2559
 #: plugins/dockers/gamutmask/gamutmask_dock.cpp:375
 #, kde-format
 msgctxt "@label:textbox"
@@ -27257,33 +27261,33 @@ msgctxt "(qtundo-format)"
 msgid "Clone Document"
 msgstr "再製文件"
 
-#: libs/ui/KisDocument.cpp:699
+#: libs/ui/KisDocument.cpp:700
 #, kde-format
 msgid "%1 cannot be written to. Please save under a different name."
 msgstr "無法寫入 %1 。請以不同的名稱儲存。"
 
-#: libs/ui/KisDocument.cpp:761
+#: libs/ui/KisDocument.cpp:762
 #, kde-format
 msgid "Exporting Document..."
 msgstr "正在匯出檔案…"
 
-#: libs/ui/KisDocument.cpp:762
+#: libs/ui/KisDocument.cpp:763
 #, kde-format
 msgid "Saving Document..."
 msgstr "正在儲存檔案…"
 
-#: libs/ui/KisDocument.cpp:874
+#: libs/ui/KisDocument.cpp:875
 #, kde-format
 msgctxt "%1 --- failing file name, %2 --- error message"
 msgid "Error during saving %1: %2"
 msgstr "儲存%1 時出錯： %2"
 
-#: libs/ui/KisDocument.cpp:881
+#: libs/ui/KisDocument.cpp:882
 #, kde-format
 msgid "Could not save %1"
 msgstr "無法儲存 %1"
 
-#: libs/ui/KisDocument.cpp:884 plugins/extensions/imagesplit/imagesplit.cpp:76
+#: libs/ui/KisDocument.cpp:885 plugins/extensions/imagesplit/imagesplit.cpp:76
 #, kde-format
 msgid ""
 "Could not save %1\n"
@@ -27292,22 +27296,22 @@ msgstr ""
 "無法儲存 %1\n"
 "原因：%2"
 
-#: libs/ui/KisDocument.cpp:919
+#: libs/ui/KisDocument.cpp:920
 #, kde-format
 msgid "Finished saving %1"
 msgstr "完成儲存 %1"
 
-#: libs/ui/KisDocument.cpp:1247
+#: libs/ui/KisDocument.cpp:1248
 #, kde-format
 msgid "Autosaving... %1"
 msgstr "正在自動儲存… %1"
 
-#: libs/ui/KisDocument.cpp:1255
+#: libs/ui/KisDocument.cpp:1256
 #, kde-format
 msgid "Autosaving..."
 msgstr "正在自動儲存…"
 
-#: libs/ui/KisDocument.cpp:1261
+#: libs/ui/KisDocument.cpp:1262
 #, kde-format
 msgid "Autosaving postponed: document is busy..."
 msgstr "自動儲存已推遲：檔案正在被佔用…"
@@ -27875,36 +27879,42 @@ msgctxt "@action:inmenu"
 msgid "&New Workspace..."
 msgstr "新作業空間(&N)…"
 
-#: libs/ui/KisMainWindow.cpp:2598
+#: libs/ui/KisMainWindow.cpp:2558
+#, kde-format
+msgctxt "@title:window"
+msgid "New Workspace..."
+msgstr "新作業空間…"
+
+#: libs/ui/KisMainWindow.cpp:2602
 #, kde-format
 msgid "&%1 %2"
 msgstr "%1 %2"
 
-#: libs/ui/KisMainWindow.cpp:2601
+#: libs/ui/KisMainWindow.cpp:2605
 #, kde-format
 msgid "%1 %2"
 msgstr "%1 %2"
 
-#: libs/ui/KisMainWindow.cpp:2762
+#: libs/ui/KisMainWindow.cpp:2766
 #, kde-format
 msgid ""
 "The Krita LittleCMS color management plugin is not installed. Krita will "
 "quit now."
 msgstr "未安裝 Krita 的 LittleCMS 色彩管理外掛程式。Krita 將立即退出。"
 
-#: libs/ui/KisMainWindow.cpp:2778
+#: libs/ui/KisMainWindow.cpp:2782
 #, kde-format
 msgctxt "@title:window"
 msgid "Installation error"
 msgstr "安裝錯誤"
 
-#: libs/ui/KisMainWindow.cpp:2890
+#: libs/ui/KisMainWindow.cpp:2894
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Themes"
 msgstr "主題(&T)"
 
-#: libs/ui/KisMainWindow.cpp:2944
+#: libs/ui/KisMainWindow.cpp:2948
 #, kde-format
 msgid "Expanding Spacer"
 msgstr "擴張空白佔位符"
@@ -28023,7 +28033,7 @@ msgctxt "Default new group name"
 msgid "New Group %1"
 msgstr "建立群組 %1"
 
-#: libs/ui/KisPart.cpp:556
+#: libs/ui/KisPart.cpp:558
 #, kde-format
 msgid ""
 "Could not create document from template\n"
@@ -28032,7 +28042,7 @@ msgstr ""
 "無法用範本%1\n"
 "建立檔案"
 
-#: libs/ui/KisPart.cpp:559
+#: libs/ui/KisPart.cpp:561
 #, kde-format
 msgid ""
 "Could not create document from template\n"
@@ -54931,10 +54941,6 @@ msgstr "參考圖工具"
 #~ msgctxt "Warning about not being able to rename a session"
 #~ msgid "Renaming the session failed."
 #~ msgstr "重新命名工作階段失敗。"
-
-#~ msgctxt "@title:window"
-#~ msgid "New Workspace..."
-#~ msgstr "新作業空間…"
 
 #~ msgid "Clean Up"
 #~ msgstr "清理"
