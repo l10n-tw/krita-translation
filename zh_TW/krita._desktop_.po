@@ -500,7 +500,8 @@ msgctxt "Comment"
 msgid ""
 "A plugin to fetch images from a specified folder. Very useful for "
 "photobashing!"
-msgstr "可從特定資料夾取得影像的外掛程式，非常適合用作多幅相片接合 (Photobashing)！"
+msgstr ""
+"可從特定資料夾取得影像的外掛程式，非常適合用作多幅相片接合 (Photobashing)！"
 
 #: plugins/python/plugin_importer/kritapykrita_plugin_importer.desktop:7
 msgctxt "Name"
