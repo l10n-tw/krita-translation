@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-10-23 00:16+0000\n"
-"PO-Revision-Date: 2021-10-23 12:36+0000\n"
+"POT-Creation-Date: 2021-10-26 00:16+0000\n"
+"PO-Revision-Date: 2021-10-26 18:05+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -11012,7 +11012,7 @@ msgstr "作為選取區域遮罩"
 #, kde-format
 msgctxt "action"
 msgid "Convert to &Paint Layer"
-msgstr "轉成顏料圖層"
+msgstr "轉成顏料圖層(&P)"
 
 #. i18n: context: Action (convert_to_paint_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2891
@@ -30965,28 +30965,28 @@ msgstr "無可用色調曲線…"
 msgid "Skip Back"
 msgstr "跳後"
 
-#: libs/ui/widgets/kis_transport_controls.cpp:34
+#: libs/ui/widgets/kis_transport_controls.cpp:35
 #, kde-format
 msgid "Back"
 msgstr "往後"
 
-#: libs/ui/widgets/kis_transport_controls.cpp:41
+#: libs/ui/widgets/kis_transport_controls.cpp:43
 #: plugins/python/scripter/ui_scripter/tabwidgets/debuggerwidget/stopaction.py:21
 #, kde-format
 msgid "Stop"
 msgstr "停止"
 
-#: libs/ui/widgets/kis_transport_controls.cpp:48
+#: libs/ui/widgets/kis_transport_controls.cpp:51
 #, kde-format
 msgid "Play/Pause"
 msgstr "播放/暫停"
 
-#: libs/ui/widgets/kis_transport_controls.cpp:55
+#: libs/ui/widgets/kis_transport_controls.cpp:59
 #, kde-format
 msgid "Forward"
 msgstr "往前"
 
-#: libs/ui/widgets/kis_transport_controls.cpp:62
+#: libs/ui/widgets/kis_transport_controls.cpp:67
 #, kde-format
 msgid "Skip Forward"
 msgstr "跳前"
