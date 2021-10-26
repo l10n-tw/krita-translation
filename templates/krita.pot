@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-10-23 00:16+0000\n"
+"POT-Creation-Date: 2021-10-26 00:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -30328,28 +30328,28 @@ msgstr ""
 msgid "Skip Back"
 msgstr ""
 
-#: libs/ui/widgets/kis_transport_controls.cpp:34
+#: libs/ui/widgets/kis_transport_controls.cpp:35
 #, kde-format
 msgid "Back"
 msgstr ""
 
-#: libs/ui/widgets/kis_transport_controls.cpp:41
+#: libs/ui/widgets/kis_transport_controls.cpp:43
 #: plugins/python/scripter/ui_scripter/tabwidgets/debuggerwidget/stopaction.py:21
 #, kde-format
 msgid "Stop"
 msgstr ""
 
-#: libs/ui/widgets/kis_transport_controls.cpp:48
+#: libs/ui/widgets/kis_transport_controls.cpp:51
 #, kde-format
 msgid "Play/Pause"
 msgstr ""
 
-#: libs/ui/widgets/kis_transport_controls.cpp:55
+#: libs/ui/widgets/kis_transport_controls.cpp:59
 #, kde-format
 msgid "Forward"
 msgstr ""
 
-#: libs/ui/widgets/kis_transport_controls.cpp:62
+#: libs/ui/widgets/kis_transport_controls.cpp:67
 #, kde-format
 msgid "Skip Forward"
 msgstr ""
