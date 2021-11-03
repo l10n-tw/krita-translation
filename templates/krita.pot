@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-10-30 00:15+0000\n"
+"POT-Creation-Date: 2021-11-03 00:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -14071,25 +14071,25 @@ msgctxt "PaintOp instant preview limitation"
 msgid "Spacing > 0.5, consider disabling Instant Preview"
 msgstr ""
 
-#: libs/command/kundo2group.cpp:359 libs/command/kundo2stack.cpp:1144
+#: libs/command/kundo2group.cpp:359 libs/command/kundo2stack.cpp:1142
 #, kde-format
 msgctxt "Default text for undo action"
 msgid "Undo"
 msgstr ""
 
-#: libs/command/kundo2group.cpp:359 libs/command/kundo2stack.cpp:1144
+#: libs/command/kundo2group.cpp:359 libs/command/kundo2stack.cpp:1142
 #: libs/ui/KisUndoActionsUpdateManager.cpp:44
 #, kde-format
 msgid "Undo %1"
 msgstr ""
 
-#: libs/command/kundo2group.cpp:386 libs/command/kundo2stack.cpp:1170
+#: libs/command/kundo2group.cpp:386 libs/command/kundo2stack.cpp:1168
 #, kde-format
 msgctxt "Default text for redo action"
 msgid "Redo"
 msgstr ""
 
-#: libs/command/kundo2group.cpp:386 libs/command/kundo2stack.cpp:1170
+#: libs/command/kundo2group.cpp:386 libs/command/kundo2stack.cpp:1168
 #: libs/ui/KisUndoActionsUpdateManager.cpp:49
 #, kde-format
 msgid "Redo %1"
@@ -14100,13 +14100,13 @@ msgstr ""
 msgid "<empty>"
 msgstr ""
 
-#: libs/command/kundo2stack.cpp:1415 libs/widgetutils/xmlgui/kundoactions.cpp:32
+#: libs/command/kundo2stack.cpp:1413 libs/widgetutils/xmlgui/kundoactions.cpp:32
 #, kde-format
 msgid "Redo"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QToolButton, liquifyUndo)
-#: libs/command/kundo2stack.cpp:1434 libs/widgetutils/xmlgui/kundoactions.cpp:51
+#: libs/command/kundo2stack.cpp:1432 libs/widgetutils/xmlgui/kundoactions.cpp:51
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:1905
 #, kde-format
 msgid "Undo"
@@ -15195,7 +15195,7 @@ msgstr ""
 msgid "Selection Mask"
 msgstr ""
 
-#: libs/image/kis_image.cc:686 libs/ui/KisDocument.cpp:2362
+#: libs/image/kis_image.cc:686 libs/ui/KisDocument.cpp:2365
 #: plugins/impex/psd/psd_loader.cpp:162 plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:69
 #: plugins/python/comics_project_management_tools/comics_template_dialog.py:302
 #, kde-format
@@ -15513,8 +15513,8 @@ msgstr ""
 
 #: libs/image/kis_psd_layer_style.cpp:101
 #: libs/ui/KisApplicationArguments.cpp:375
-#: libs/ui/KisMainWindow.cpp:1405 libs/ui/KisMainWindow.cpp:1676
-#: libs/ui/KisMainWindow.cpp:1695 plugins/impex/libkra/kis_kra_saver.cpp:86
+#: libs/ui/KisMainWindow.cpp:1402 libs/ui/KisMainWindow.cpp:1673
+#: libs/ui/KisMainWindow.cpp:1692 plugins/impex/libkra/kis_kra_saver.cpp:86
 #, kde-format
 msgid "Unnamed"
 msgstr ""
@@ -16181,8 +16181,8 @@ msgctxt "description of a file type"
 msgid "Animated PNG Image"
 msgstr ""
 
-#: libs/libkis/Document.cpp:927 libs/ui/KisMainWindow.cpp:2044
-#: libs/ui/KisMainWindow.cpp:2126
+#: libs/libkis/Document.cpp:927 libs/ui/KisMainWindow.cpp:2041
+#: libs/ui/KisMainWindow.cpp:2123
 #, kde-format
 msgid "Import frames"
 msgstr ""
@@ -17479,10 +17479,10 @@ msgstr ""
 #: libs/ui/KisApplication.cpp:965 libs/ui/KisDocument.cpp:882
 #: libs/ui/KisDocument.cpp:885 libs/ui/KisDocument.cpp:1708
 #: libs/ui/KisDocument.cpp:1751 libs/ui/KisDocument.cpp:1759
-#: libs/ui/KisMainWindow.cpp:1078 libs/ui/KisMainWindow.cpp:1205
-#: libs/ui/KisMainWindow.cpp:1303 libs/ui/KisMainWindow.cpp:1904
-#: libs/ui/KisMainWindow.cpp:1913 libs/ui/KisMainWindow.cpp:2052
-#: libs/ui/KisMainWindow.cpp:2111 libs/ui/KisMainWindow.cpp:2135
+#: libs/ui/KisMainWindow.cpp:1075 libs/ui/KisMainWindow.cpp:1202
+#: libs/ui/KisMainWindow.cpp:1300 libs/ui/KisMainWindow.cpp:1901
+#: libs/ui/KisMainWindow.cpp:1910 libs/ui/KisMainWindow.cpp:2049
+#: libs/ui/KisMainWindow.cpp:2108 libs/ui/KisMainWindow.cpp:2132
 #: libs/ui/KisPart.cpp:558 libs/ui/KisPart.cpp:561 libs/ui/KisReferenceImage.cpp:178
 #: libs/ui/KisRemoteFileFetcher.cpp:42 libs/ui/KisTemplateCreateDia.cpp:284
 #: libs/ui/KisTemplateCreateDia.cpp:390 libs/ui/KisView.cpp:669
@@ -17510,8 +17510,8 @@ msgstr ""
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:189
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:268
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:273
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:326
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:333
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:347
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:354
 #: plugins/extensions/resourcemanager/resourcemanager.cpp:221
 #: plugins/filters/colorsfilters/kis_multichannel_filter_base.cpp:351
 #: plugins/filters/levelfilter/KisLevelsConfigWidget.cpp:163
@@ -17553,50 +17553,50 @@ msgstr ""
 msgid "Could not add %1 to the database"
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:580
-#: libs/resources/KisResourceLocator.cpp:925
+#: libs/resources/KisResourceLocator.cpp:579
+#: libs/resources/KisResourceLocator.cpp:930
 #, kde-format
 msgid "Could not remove storage %1 from the database"
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:707
+#: libs/resources/KisResourceLocator.cpp:705
 #, kde-format
 msgid ""
 "Krita is running for the first time. Initialization will take some time."
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:714
+#: libs/resources/KisResourceLocator.cpp:712
 #, kde-format
 msgid "3. Could not create the resource location at %1."
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:727
-#: libs/resources/KisResourceLocator.cpp:743
+#: libs/resources/KisResourceLocator.cpp:725
+#: libs/resources/KisResourceLocator.cpp:741
 #, kde-format
 msgid "Could not copy resource %1 to %2"
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:739
+#: libs/resources/KisResourceLocator.cpp:737
 #, kde-format
 msgid "Installing the resources from bundle %1."
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:761
+#: libs/resources/KisResourceLocator.cpp:759
 #, kde-format
 msgid "Initializing the resources."
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:775
+#: libs/resources/KisResourceLocator.cpp:773
 #, kde-format
 msgid "Could not add storage %1 to the cache database"
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:796
+#: libs/resources/KisResourceLocator.cpp:794
 #, kde-format
 msgid "Temporary Resources"
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:915
+#: libs/resources/KisResourceLocator.cpp:913
 #, kde-format
 msgid "Could not synchronize %1 with the database"
 msgstr ""
@@ -17992,7 +17992,7 @@ msgid "Storage Resources"
 msgstr ""
 
 #: libs/resourcewidgets/KisResourceItemChooser.cpp:230
-#: libs/ui/KisMainWindow.cpp:2548 plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:570
+#: libs/ui/KisMainWindow.cpp:2545 plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:570
 #, kde-format
 msgctxt "@title:window"
 msgid "Choose File to Add"
@@ -18238,7 +18238,7 @@ msgstr ""
 #: libs/ui/input/kis_tool_invocation_action.cpp:43
 #: libs/ui/kis_clipboard.cc:297 libs/ui/utils/KisClipboardUtil.cpp:71
 #: plugins/dockers/gamutmask/forms/wdgGamutMaskChooser.ui:190
-#: plugins/dockers/recorder/recorder_export.ui:736
+#: plugins/dockers/recorder/recorder_export.ui:739
 #: plugins/dockers/recorder/recorder_snapshots_manager.ui:130
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:116
 #: plugins/generators/seexpr/wdgseexpr.ui:179
@@ -18418,7 +18418,7 @@ msgid "Failed to render animation frames! Output files are incomplete."
 msgstr ""
 
 #: libs/ui/animation/KisDlgAnimationRenderer.cpp:52
-#: libs/ui/KisMainWindow.cpp:2155
+#: libs/ui/KisMainWindow.cpp:2152
 #, kde-format
 msgid "Render Animation"
 msgstr ""
@@ -19792,7 +19792,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #. i18n: ectx: property (text), widget (QLabel, labelResolution)
 #: libs/ui/animation/wdg_animationrenderer.ui:283
-#: plugins/dockers/recorder/recorder_export.ui:431
+#: plugins/dockers/recorder/recorder_export.ui:434
 #, kde-format
 msgid "Render as:"
 msgstr ""
@@ -20341,7 +20341,7 @@ msgid "Numerical"
 msgstr ""
 
 #: libs/ui/dialogs/kis_dlg_import_image_sequence.cpp:137
-#: libs/ui/KisMainWindow.cpp:1173
+#: libs/ui/KisMainWindow.cpp:1170
 #, kde-format
 msgid "Import Images"
 msgstr ""
@@ -20469,7 +20469,7 @@ msgid "Enter new style name"
 msgstr ""
 
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:270
-#: libs/ui/KisMainWindow.cpp:2559 plugins/dockers/gamutmask/gamutmask_dock.cpp:375
+#: libs/ui/KisMainWindow.cpp:2556 plugins/dockers/gamutmask/gamutmask_dock.cpp:375
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Name:"
@@ -23600,7 +23600,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, updateBrushNameButton)
 #. i18n: ectx: property (toolTip), widget (QToolButton, bnSaveMask)
 #: libs/ui/forms/wdgpaintopsettings.ui:188
-#: libs/ui/KisMainWindow.cpp:1057 libs/ui/widgets/kis_workspace_chooser.cpp:109
+#: libs/ui/KisMainWindow.cpp:1054 libs/ui/widgets/kis_workspace_chooser.cpp:109
 #: libs/ui/widgets/kis_workspace_chooser.cpp:176
 #: plugins/dockers/gamutmask/forms/wdgGamutMaskChooser.ui:232
 #: plugins/generators/seexpr/wdgseexpr.ui:172
@@ -24787,7 +24787,7 @@ msgstr ""
 #: libs/ui/imagesize/wdg_canvassize.ui:135
 #: libs/ui/imagesize/wdg_imagesize.ui:342
 #: libs/ui/imagesize/wdg_layersize.ui:142
-#: plugins/dockers/recorder/recorder_export.ui:414
+#: plugins/dockers/recorder/recorder_export.ui:417
 #: plugins/impex/webp/dlg_webp_import.ui:235
 #, kde-format
 msgid "Constrain proportions"
@@ -25281,37 +25281,37 @@ msgstr ""
 msgid "Pan Down"
 msgstr ""
 
-#: libs/ui/input/kis_rotate_canvas_action.cpp:37
+#: libs/ui/input/kis_rotate_canvas_action.cpp:38
 #, kde-format
 msgid "Rotate Canvas"
 msgstr ""
 
-#: libs/ui/input/kis_rotate_canvas_action.cpp:38
+#: libs/ui/input/kis_rotate_canvas_action.cpp:39
 #, kde-format
 msgid "The <i>Rotate Canvas</i> action rotates the canvas."
 msgstr ""
 
-#: libs/ui/input/kis_rotate_canvas_action.cpp:41
+#: libs/ui/input/kis_rotate_canvas_action.cpp:42
 #, kde-format
 msgid "Rotate Mode"
 msgstr ""
 
-#: libs/ui/input/kis_rotate_canvas_action.cpp:42
+#: libs/ui/input/kis_rotate_canvas_action.cpp:43
 #, kde-format
 msgid "Discrete Rotate Mode"
 msgstr ""
 
-#: libs/ui/input/kis_rotate_canvas_action.cpp:43
+#: libs/ui/input/kis_rotate_canvas_action.cpp:44
 #, kde-format
 msgid "Rotate Left"
 msgstr ""
 
-#: libs/ui/input/kis_rotate_canvas_action.cpp:44
+#: libs/ui/input/kis_rotate_canvas_action.cpp:45
 #, kde-format
 msgid "Rotate Right"
 msgstr ""
 
-#: libs/ui/input/kis_rotate_canvas_action.cpp:45
+#: libs/ui/input/kis_rotate_canvas_action.cpp:46
 #, kde-format
 msgid "Reset Rotation"
 msgstr ""
@@ -26933,13 +26933,13 @@ msgstr ""
 msgid "Not Saved"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:2369
+#: libs/ui/KisDocument.cpp:2372
 #, kde-format
 msgctxt "Name of automatically created background color fill layer"
 msgid "Background Fill"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:2423
+#: libs/ui/KisDocument.cpp:2426
 #, kde-format
 msgctxt ""
 "progress dialog message when the user closes the document that is being saved"
@@ -27302,42 +27302,42 @@ msgctxt "@action:inmenu"
 msgid "Wor&kspace"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:578 plugins/tools/svgtexttool/SvgTextEditor.cpp:309
+#: libs/ui/KisMainWindow.cpp:577 plugins/tools/svgtexttool/SvgTextEditor.cpp:309
 #, kde-format
 msgid "Show %1 Toolbar"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:580 plugins/tools/svgtexttool/SvgTextEditor.cpp:311
+#: libs/ui/KisMainWindow.cpp:579 plugins/tools/svgtexttool/SvgTextEditor.cpp:311
 #, kde-format
 msgid "Hide %1 Toolbar"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1026
+#: libs/ui/KisMainWindow.cpp:1023
 #, kde-format
 msgid "Write Protected"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1030
+#: libs/ui/KisMainWindow.cpp:1027
 #, kde-format
 msgid "Recovered"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1054
+#: libs/ui/KisMainWindow.cpp:1051
 #, kde-format
 msgid "Save as %1"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1078
+#: libs/ui/KisMainWindow.cpp:1075
 #, kde-format
 msgid "The file %1 does not exist."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1173
+#: libs/ui/KisMainWindow.cpp:1170
 #, kde-format
 msgid "Open Images"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1304
+#: libs/ui/KisMainWindow.cpp:1301
 #, kde-format
 msgid ""
 "You are saving a file while the image is still rendering. The saved file may "
@@ -27346,43 +27346,43 @@ msgid ""
 "Please select a location where the original file will not be overridden!"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1360
+#: libs/ui/KisMainWindow.cpp:1357
 #, kde-format
 msgid "Exporting"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1360
+#: libs/ui/KisMainWindow.cpp:1357
 #, kde-format
 msgid "Saving As"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1655 libs/widgetutils/config/kstandardaction_p.h:29
+#: libs/ui/KisMainWindow.cpp:1652 libs/widgetutils/config/kstandardaction_p.h:29
 #, kde-format
 msgid "Create new document"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1679
+#: libs/ui/KisMainWindow.cpp:1676
 #, kde-format
 msgid "Custom Document"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1697
+#: libs/ui/KisMainWindow.cpp:1694
 #, kde-format
 msgid "Create from Clipboard"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1873
+#: libs/ui/KisMainWindow.cpp:1870
 #, kde-format
 msgid "Layers/Masks"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1899 plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:179
+#: libs/ui/KisMainWindow.cpp:1896 plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:179
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:261
 #, kde-format
 msgid "You don't have any resource bundles enabled."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1903
+#: libs/ui/KisMainWindow.cpp:1900
 #, kde-format
 msgid ""
 "\n"
@@ -27390,7 +27390,7 @@ msgid ""
 "presets before continuing.\n"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1913 plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:189
+#: libs/ui/KisMainWindow.cpp:1910 plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:189
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:273
 #, kde-format
 msgid ""
@@ -27398,66 +27398,66 @@ msgid ""
 "Only your local resources are available."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2052 libs/ui/KisMainWindow.cpp:2135
+#: libs/ui/KisMainWindow.cpp:2049 libs/ui/KisMainWindow.cpp:2132
 #, kde-format
 msgid ""
 "Could not finish import animation:\n"
 "%1"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2111
+#: libs/ui/KisMainWindow.cpp:2108
 #, kde-format
 msgid "Failed to create new document. Animation import aborted."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2539
+#: libs/ui/KisMainWindow.cpp:2536
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Import Workspace..."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2554
+#: libs/ui/KisMainWindow.cpp:2551
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&New Workspace..."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2558
+#: libs/ui/KisMainWindow.cpp:2555
 #, kde-format
 msgctxt "@title:window"
 msgid "New Workspace..."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2602
+#: libs/ui/KisMainWindow.cpp:2599
 #, kde-format
 msgid "&%1 %2"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2605
+#: libs/ui/KisMainWindow.cpp:2602
 #, kde-format
 msgid "%1 %2"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2766
+#: libs/ui/KisMainWindow.cpp:2763
 #, kde-format
 msgid ""
 "The Krita LittleCMS color management plugin is not installed. Krita will "
 "quit now."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2782
+#: libs/ui/KisMainWindow.cpp:2779
 #, kde-format
 msgctxt "@title:window"
 msgid "Installation error"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2894
+#: libs/ui/KisMainWindow.cpp:2891
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Themes"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2948
+#: libs/ui/KisMainWindow.cpp:2945
 #, kde-format
 msgid "Expanding Spacer"
 msgstr ""
@@ -35247,19 +35247,19 @@ msgstr ""
 msgid "Load a palette"
 msgstr ""
 
-#: plugins/dockers/palettedocker/palettedocker_dock.cpp:217
+#: plugins/dockers/palettedocker/palettedocker_dock.cpp:218
 #, kde-format
 msgid "Export Palette"
 msgstr ""
 
-#: plugins/dockers/palettedocker/palettedocker_dock.cpp:359
+#: plugins/dockers/palettedocker/palettedocker_dock.cpp:360
 #, kde-format
 msgctxt "@tooltip"
 msgid ""
 "Save palette explicitly, will also happen automatically on exiting Krita."
 msgstr ""
 
-#: plugins/dockers/palettedocker/palettedocker_dock.cpp:361
+#: plugins/dockers/palettedocker/palettedocker_dock.cpp:362
 #, kde-format
 msgctxt "@tooltip"
 msgid "Saving for document palettes is done by saving the document."
@@ -35277,37 +35277,37 @@ msgctxt "@title:window Brush presets chooser docker"
 msgid "Brush Presets"
 msgstr ""
 
-#: plugins/dockers/presethistory/presethistory_dock.cpp:35
+#: plugins/dockers/presethistory/presethistory_dock.cpp:48
 #, kde-format
 msgid "Brush Preset History"
 msgstr ""
 
-#: plugins/dockers/presethistory/presethistory_dock.cpp:47
+#: plugins/dockers/presethistory/presethistory_dock.cpp:60
 #, kde-format
 msgid "Static Positions"
 msgstr ""
 
-#: plugins/dockers/presethistory/presethistory_dock.cpp:49
+#: plugins/dockers/presethistory/presethistory_dock.cpp:62
 #, kde-format
 msgid "Move to Top on Use"
 msgstr ""
 
-#: plugins/dockers/presethistory/presethistory_dock.cpp:51
+#: plugins/dockers/presethistory/presethistory_dock.cpp:64
 #, kde-format
 msgid "Bubble Up on Repeated Use"
 msgstr ""
 
-#: plugins/dockers/presethistory/presethistory_dock.cpp:245
+#: plugins/dockers/presethistory/presethistory_dock.cpp:258
 #, kde-format
 msgid "Forget \"%1\""
 msgstr ""
 
-#: plugins/dockers/presethistory/presethistory_dock.cpp:248
+#: plugins/dockers/presethistory/presethistory_dock.cpp:261
 #, kde-format
 msgid "Clear History"
 msgstr ""
 
-#: plugins/dockers/presethistory/presethistory_dock.cpp:250
+#: plugins/dockers/presethistory/presethistory_dock.cpp:263
 #, kde-format
 msgid "History Behavior:"
 msgstr ""
@@ -35352,7 +35352,7 @@ msgstr ""
 #: plugins/dockers/recorder/recorder_export.cpp:98
 #, kde-format
 msgid ""
-"FFMpeg executable location couldn't be detected, please install it or select "
+"FFmpeg executable location couldn't be detected, please install it or select "
 "its location manually"
 msgstr ""
 
@@ -35364,76 +35364,88 @@ msgstr ""
 #: plugins/dockers/recorder/recorder_export.cpp:234
 #, kde-format
 msgctxt "Status for the export of the video record"
-msgid "Starting FFMpeg..."
+msgid "Starting FFmpeg..."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QToolButton, btnExport)
-#: plugins/dockers/recorder/recorder_export.cpp:317
+#: plugins/dockers/recorder/recorder_export.cpp:318
 #: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:29
 #: plugins/dockers/storyboarddocker/wdgstoryboarddock.ui:21
 #, kde-format
 msgid "Export"
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:342
+#: plugins/dockers/recorder/recorder_export.cpp:343
 #, kde-format
 msgctxt "Can't export recording because nothing to export"
 msgid "No frames to export"
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:346
+#: plugins/dockers/recorder/recorder_export.cpp:347
 #, kde-format
 msgctxt "General information about recording"
 msgid "Recording info"
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:349
+#: plugins/dockers/recorder/recorder_export.cpp:350
 #, kde-format
 msgctxt "Pixel dimension suffix"
 msgid "px"
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:351
+#: plugins/dockers/recorder/recorder_export.cpp:352
 #, kde-format
 msgctxt "The suffix after number of frames"
 msgid "frame(s)"
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:460
+#: plugins/dockers/recorder/recorder_export.cpp:401
 #, kde-format
-msgid "Select FFMpeg Executable File"
+msgctxt "Can't browse frames of recording because no frames have been recorded"
+msgid "No frames to browse."
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:506
+#: plugins/dockers/recorder/recorder_export.cpp:468
+#, kde-format
+msgid "Select FFmpeg Executable File"
+msgstr ""
+
+#: plugins/dockers/recorder/recorder_export.cpp:514
 #, kde-format
 msgid "Export Timelapse Video As"
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:521
+#: plugins/dockers/recorder/recorder_export.cpp:530
 #, kde-format
-msgid "The video file is already exists. Do you wish to overwrite?"
+msgid "The video file already exists. Do you wish to overwrite it?"
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:548
+#: plugins/dockers/recorder/recorder_export.cpp:535
+#, kde-format
+msgid "No frames to export."
+msgstr ""
+
+#: plugins/dockers/recorder/recorder_export.cpp:562
 #, kde-format
 msgid "The timelapse video is being encoded..."
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:561
+#: plugins/dockers/recorder/recorder_export.cpp:575
 #, kde-format
-msgid "Export failed. FFMpeg message:"
+msgid "Export failed. FFmpeg message:"
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:582
+#: plugins/dockers/recorder/recorder_export.cpp:596
 #, kde-format
 msgid ""
 "The recordings for this document will be deleted and you will not be able to "
-"export a timelapse for it again (the already exported timelapses will be "
-"preserved though).\n"
+"export a timelapse for it again. Note that already exported timelapses will "
+"still be preserved.\n"
+"\n"
 "Do you wish to continue?"
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:589
+#: plugins/dockers/recorder/recorder_export.cpp:603
 #: plugins/dockers/recorder/recorder_snapshots_manager.cpp:262
 #, kde-format
 msgctxt "Label title, Snapshot directory deleting is in progress"
@@ -35455,7 +35467,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, labelFfmpegLocation)
 #: plugins/dockers/recorder/recorder_export.ui:92
 #, kde-format
-msgid "FFMpeg:"
+msgid "FFmpeg:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, labelExportTo)
@@ -35464,67 +35476,73 @@ msgstr ""
 msgid "Video location:"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, labelHoldLastFrameSec)
+#. i18n: ectx: property (toolTip), widget (QLabel, labelHoldLastFrameSec)
 #: plugins/dockers/recorder/recorder_export.ui:266
+#, kde-format
+msgid "The added duration for showing the last frame."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelHoldLastFrameSec)
+#: plugins/dockers/recorder/recorder_export.ui:269
 #, kde-format
 msgid "Hold Last Frame for:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelFpsInput)
-#: plugins/dockers/recorder/recorder_export.ui:323
+#: plugins/dockers/recorder/recorder_export.ui:326
 #, kde-format
 msgid ""
 "The speed of reading the input stream.\n"
-"For example to make your speedpaint twice faster it should be twice larger "
-"of the Video FPS."
+"For example, to make your timelapse twice faster, the Input FPS should be "
+"twice larger of the Video FPS."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, labelFpsInput)
-#: plugins/dockers/recorder/recorder_export.ui:326
+#: plugins/dockers/recorder/recorder_export.ui:329
 #, kde-format
 msgctxt "Input FPS of recorded timelapses."
 msgid "Input FPS:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLineEdit, editFfmpegPath)
-#: plugins/dockers/recorder/recorder_export.ui:358
+#: plugins/dockers/recorder/recorder_export.ui:361
 #, kde-format
 msgid "ffmpeg"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, checkResize)
-#: plugins/dockers/recorder/recorder_export.ui:402
+#: plugins/dockers/recorder/recorder_export.ui:405
 #, kde-format
 msgid "Resize:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, buttonBrowseExport)
-#: plugins/dockers/recorder/recorder_export.ui:444
+#: plugins/dockers/recorder/recorder_export.ui:447
 #, kde-format
-msgid "Select a file to export timelapse video"
+msgid "Select a file location for the exported timelapse video"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, labelFps)
-#: plugins/dockers/recorder/recorder_export.ui:458
+#: plugins/dockers/recorder/recorder_export.ui:461
 #, kde-format
 msgid "Video FPS:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, buttonEditProfile)
-#: plugins/dockers/recorder/recorder_export.ui:489
+#: plugins/dockers/recorder/recorder_export.ui:492
 #, kde-format
 msgid "Edit video profile"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, buttonBrowseFfmpeg)
-#: plugins/dockers/recorder/recorder_export.ui:496
+#: plugins/dockers/recorder/recorder_export.ui:499
 #, kde-format
 msgid "Setup ffmpeg executable location"
 msgstr ""
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, spinCaptureInterval)
 #. i18n: ectx: property (suffix), widget (QSpinBox, spinLastFrameSec)
-#: plugins/dockers/recorder/recorder_export.ui:518
+#: plugins/dockers/recorder/recorder_export.ui:521
 #: plugins/dockers/recorder/recorderdocker.ui:180
 #, kde-format
 msgctxt "Contraction of \"second\" for interval"
@@ -35532,54 +35550,54 @@ msgid " sec."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, labelTitleVideoDuration)
-#: plugins/dockers/recorder/recorder_export.ui:576
+#: plugins/dockers/recorder/recorder_export.ui:579
 #, kde-format
 msgid "Video duration:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, labelDone)
-#: plugins/dockers/recorder/recorder_export.ui:839
+#: plugins/dockers/recorder/recorder_export.ui:842
 #, kde-format
 msgctxt "Caption: Video exporting finished"
 msgid "Done!"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonWatchIt)
-#: plugins/dockers/recorder/recorder_export.ui:857
+#: plugins/dockers/recorder/recorder_export.ui:860
 #, kde-format
 msgctxt "Watch the video which is just created"
 msgid "Watch it!"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, labelWritten)
-#: plugins/dockers/recorder/recorder_export.ui:867
+#: plugins/dockers/recorder/recorder_export.ui:870
 #, kde-format
 msgid "The timelapse video has been written to:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonShowInFolder)
-#: plugins/dockers/recorder/recorder_export.ui:885
+#: plugins/dockers/recorder/recorder_export.ui:888
 #, kde-format
 msgctxt "Open the folder when the new created video is placed"
 msgid "Show in folder"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonRemoveSnapshots)
-#: plugins/dockers/recorder/recorder_export.ui:922
+#: plugins/dockers/recorder/recorder_export.ui:925
 #, kde-format
 msgctxt "Open the folder when the new created video is placed"
 msgid "Remove recordings"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonRestart)
-#: plugins/dockers/recorder/recorder_export.ui:988
+#: plugins/dockers/recorder/recorder_export.ui:991
 #, kde-format
 msgctxt "Button to restart the timelapse video configuring"
 msgid "Restart"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonDoneClose)
-#: plugins/dockers/recorder/recorder_export.ui:995
+#: plugins/dockers/recorder/recorder_export.ui:998
 #, kde-format
 msgctxt "Close dialog button"
 msgid "Close"
@@ -35779,7 +35797,8 @@ msgstr ""
 #, kde-format
 msgid ""
 "Record frames when Isolate Layer or Isolate Group mode is active.\n"
-"Depending on timelapse speed this may cause flickering in resulting video."
+"Depending on timelapse speed, this may cause flickering in the resulting "
+"video."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, checkBoxRecordIsolateMode)
@@ -35819,7 +35838,7 @@ msgstr ""
 #, kde-format
 msgid ""
 "⚠ Unsupported color space.\n"
-"\"RGB/Alpha 8-bit\" is only supported."
+"Only \"RGB/Alpha 8-bit\" is supported."
 msgstr ""
 
 #: plugins/dockers/recorder/recorderdocker_dock.cpp:102
@@ -35834,7 +35853,7 @@ msgctxt "@tooltip"
 msgid ""
 "Greater value will produce a larger file and a better quality. Doesn't "
 "affect CPU consumption.\n"
-"Values lower than 50 are not recommended due to high artifacts"
+"Values lower than 50 are not recommended due to high artifacts."
 msgstr ""
 
 #: plugins/dockers/recorder/recorderdocker_dock.cpp:111
@@ -35923,8 +35942,8 @@ msgstr ""
 #: plugins/dockers/recorder/recorderdocker_dock.cpp:464
 #, kde-format
 msgid ""
-"The recorder have been stopped due to failure while writing a frame. Please "
-"check free disk space and start recorder again."
+"The recorder has been stopped due to failure while writing a frame. Please "
+"check free disk space and start the recorder again."
 msgstr ""
 
 #: plugins/dockers/smallcolorselector/smallcolorselector_dock.cc:37
@@ -38324,34 +38343,34 @@ msgstr ""
 msgid "Create Resource Bundle"
 msgstr ""
 
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:326
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:347
 #, kde-format
 msgid "The resource bundle name cannot be empty."
 msgstr ""
 
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:333
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:354
 #, kde-format
 msgid "The save location cannot be empty."
 msgstr ""
 
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:343
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:364
 #, kde-format
 msgctxt "In a dialog asking whether to overwrite a bundle (resource pack)"
 msgid "A bundle with this name already exists."
 msgstr ""
 
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:344
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:365
 #, kde-format
 msgctxt "In a dialog regarding overwriting a bundle (resource pack)"
 msgid "Do you want to overwrite the existing bundle?"
 msgstr ""
 
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:406
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:427
 #, kde-format
 msgid "Select a directory to save the bundle"
 msgstr ""
 
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:500
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:521
 #, kde-format
 msgid "Select file to use as bundle icon"
 msgstr ""
