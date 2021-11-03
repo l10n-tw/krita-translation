@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-11-03 00:17+0000\n"
-"PO-Revision-Date: 2021-10-26 18:05+0000\n"
+"PO-Revision-Date: 2021-11-03 08:03+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 4.8.1\n"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
@@ -36043,15 +36043,11 @@ msgid "[NOT FOUND]"
 msgstr "[找不到]"
 
 #: plugins/dockers/recorder/recorder_export.cpp:98
-#, fuzzy, kde-format
-#| msgid ""
-#| "FFMpeg executable location couldn't be detected, please install it or "
-#| "select its location manually"
+#, kde-format
 msgid ""
 "FFmpeg executable location couldn't be detected, please install it or select "
 "its location manually"
-msgstr ""
-"未能檢測到 FFmpeg 執行檔的位置。請先安裝其軟體套件或手動選擇執行檔的位置"
+msgstr "未能檢測到 FFmpeg 執行檔的位置。請先安裝其軟體套件或手動選擇執行檔的位置"
 
 #: plugins/dockers/recorder/recorder_export.cpp:162
 #, kde-format
@@ -36059,9 +36055,7 @@ msgid "Abort encoding the timelapse video?"
 msgstr "是否中止縮時影片的編碼程序？"
 
 #: plugins/dockers/recorder/recorder_export.cpp:234
-#, fuzzy, kde-format
-#| msgctxt "Status for the export of the video record"
-#| msgid "Starting FFMpeg..."
+#, kde-format
 msgctxt "Status for the export of the video record"
 msgid "Starting FFmpeg..."
 msgstr "正在啟動 FFmpeg……"
@@ -36099,16 +36093,13 @@ msgid "frame(s)"
 msgstr "影格"
 
 #: plugins/dockers/recorder/recorder_export.cpp:401
-#, fuzzy, kde-format
-#| msgctxt "Can't export recording because nothing to export"
-#| msgid "No frames to export"
+#, kde-format
 msgctxt "Can't browse frames of recording because no frames have been recorded"
 msgid "No frames to browse."
-msgstr "沒有要匯出的影格"
+msgstr "沒有可供瀏覽的影格。"
 
 #: plugins/dockers/recorder/recorder_export.cpp:468
-#, fuzzy, kde-format
-#| msgid "Select FFMpeg Executable File"
+#, kde-format
 msgid "Select FFmpeg Executable File"
 msgstr "選擇 FFmpeg 可執行檔"
 
@@ -36118,17 +36109,14 @@ msgid "Export Timelapse Video As"
 msgstr "匯出縮時影片為"
 
 #: plugins/dockers/recorder/recorder_export.cpp:530
-#, fuzzy, kde-format
-#| msgid "The video file is already exists. Do you wish to overwrite?"
+#, kde-format
 msgid "The video file already exists. Do you wish to overwrite it?"
 msgstr "影片檔已經存在。是否覆寫？"
 
 #: plugins/dockers/recorder/recorder_export.cpp:535
-#, fuzzy, kde-format
-#| msgctxt "Can't export recording because nothing to export"
-#| msgid "No frames to export"
+#, kde-format
 msgid "No frames to export."
-msgstr "沒有要匯出的影格"
+msgstr "沒有要匯出的影格。"
 
 #: plugins/dockers/recorder/recorder_export.cpp:562
 #, kde-format
@@ -36136,18 +36124,12 @@ msgid "The timelapse video is being encoded..."
 msgstr "正在編碼縮時影片……"
 
 #: plugins/dockers/recorder/recorder_export.cpp:575
-#, fuzzy, kde-format
-#| msgid "Export failed. FFMpeg message:"
+#, kde-format
 msgid "Export failed. FFmpeg message:"
 msgstr "匯出失敗。FFmpeg 訊息："
 
 #: plugins/dockers/recorder/recorder_export.cpp:596
-#, fuzzy, kde-format
-#| msgid ""
-#| "The recordings for this document will be deleted and you will not be able "
-#| "to export a timelapse for it again (the already exported timelapses will "
-#| "be preserved though).\n"
-#| "Do you wish to continue?"
+#, kde-format
 msgid ""
 "The recordings for this document will be deleted and you will not be able to "
 "export a timelapse for it again. Note that already exported timelapses will "
@@ -36155,8 +36137,7 @@ msgid ""
 "\n"
 "Do you wish to continue?"
 msgstr ""
-"將會刪除這個文件的錄影檔，而您將無法再次匯出這文件的縮時影片 (已匯出的縮時影"
-"片還會留著)。\n"
+"將會刪除這個文件的錄影檔，而您將無法再次匯出這文件的縮時影片 (已匯出的縮時影片會被保留)。\n"
 "是否繼續？"
 
 #: plugins/dockers/recorder/recorder_export.cpp:603
@@ -36180,8 +36161,7 @@ msgstr "開啟錄影目錄"
 
 #. i18n: ectx: property (text), widget (QLabel, labelFfmpegLocation)
 #: plugins/dockers/recorder/recorder_export.ui:92
-#, fuzzy, kde-format
-#| msgid "FFMpeg:"
+#, kde-format
 msgid "FFmpeg:"
 msgstr "FFmpeg："
 
@@ -36195,7 +36175,7 @@ msgstr "影片位置："
 #: plugins/dockers/recorder/recorder_export.ui:266
 #, kde-format
 msgid "The added duration for showing the last frame."
-msgstr ""
+msgstr "保持顥最後一個影格的額外時長。"
 
 #. i18n: ectx: property (text), widget (QLabel, labelHoldLastFrameSec)
 #: plugins/dockers/recorder/recorder_export.ui:269
@@ -36205,18 +36185,14 @@ msgstr "最後影格保持時長："
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelFpsInput)
 #: plugins/dockers/recorder/recorder_export.ui:326
-#, fuzzy, kde-format
-#| msgid ""
-#| "The speed of reading the input stream.\n"
-#| "For example to make your speedpaint twice faster it should be twice "
-#| "larger of the Video FPS."
+#, kde-format
 msgid ""
 "The speed of reading the input stream.\n"
 "For example, to make your timelapse twice faster, the Input FPS should be "
 "twice larger of the Video FPS."
 msgstr ""
 "畫面輸入的影格速率。\n"
-"例子：如希望速繪錄影以兩倍速度播放，應將此設定為影片影格速率的兩偣。"
+"例子：如希望縮時錄影以兩倍速度播放，應將此設定為影片 FPS 的兩倍。"
 
 #. i18n: ectx: property (text), widget (QLabel, labelFpsInput)
 #: plugins/dockers/recorder/recorder_export.ui:329
@@ -36239,10 +36215,9 @@ msgstr "調整大小："
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, buttonBrowseExport)
 #: plugins/dockers/recorder/recorder_export.ui:447
-#, fuzzy, kde-format
-#| msgid "Select a file to export timelapse video"
+#, kde-format
 msgid "Select a file location for the exported timelapse video"
-msgstr "請選擇縮時影片要匯出到的檔案"
+msgstr "請選擇要匯出縮時影片的檔案位置"
 
 #. i18n: ectx: property (text), widget (QLabel, labelFps)
 #: plugins/dockers/recorder/recorder_export.ui:461
@@ -36519,10 +36494,7 @@ msgstr "檔案格式："
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, checkBoxRecordIsolateMode)
 #: plugins/dockers/recorder/recorderdocker.ui:299
-#, fuzzy, kde-format
-#| msgid ""
-#| "Record frames when Isolate Layer or Isolate Group mode is active.\n"
-#| "Depending on timelapse speed this may cause flickering in resulting video."
+#, kde-format
 msgid ""
 "Record frames when Isolate Layer or Isolate Group mode is active.\n"
 "Depending on timelapse speed, this may cause flickering in the resulting "
@@ -36565,16 +36537,13 @@ msgstr "匯出…"
 
 #. i18n: ectx: property (text), widget (QLabel, labelUnsupportedColorSpace)
 #: plugins/dockers/recorder/recorderdocker.ui:364
-#, fuzzy, kde-format
-#| msgid ""
-#| "⚠ Unsupported color space.\n"
-#| "\"RGB/Alpha 8-bit\" is only supported."
+#, kde-format
 msgid ""
 "⚠ Unsupported color space.\n"
 "Only \"RGB/Alpha 8-bit\" is supported."
 msgstr ""
 "⚠ 不支援的色彩空間。\n"
-"只支援 \"RGB/Alpha 8 位元\"。"
+"只支援「RGB/Alpha (8 位元)」。"
 
 #: plugins/dockers/recorder/recorderdocker_dock.cpp:102
 #, kde-format
@@ -36583,12 +36552,7 @@ msgid "Quality:"
 msgstr "品質："
 
 #: plugins/dockers/recorder/recorderdocker_dock.cpp:103
-#, fuzzy, kde-format
-#| msgctxt "@tooltip"
-#| msgid ""
-#| "Greater value will produce a larger file and a better quality. Doesn't "
-#| "affect CPU consumption.\n"
-#| "Values lower than 50 are not recommended due to high artifacts"
+#, kde-format
 msgctxt "@tooltip"
 msgid ""
 "Greater value will produce a larger file and a better quality. Doesn't "
@@ -36685,16 +36649,11 @@ msgid "Recorder"
 msgstr "錄影工具"
 
 #: plugins/dockers/recorder/recorderdocker_dock.cpp:464
-#, fuzzy, kde-format
-#| msgid ""
-#| "The recorder have been stopped due to failure while writing a frame. "
-#| "Please check free disk space and start recorder again."
+#, kde-format
 msgid ""
 "The recorder has been stopped due to failure while writing a frame. Please "
 "check free disk space and start the recorder again."
-msgstr ""
-"錄影工具因為寫入影格失敗，已經停止錄影。請先檢查可用儲存空間大小，然後再重新"
-"開始錄影。"
+msgstr "錄影工具因為寫入影格失敗，已經停止錄影。請先檢查可用儲存空間大小，然後再重新開始錄影。"
 
 #: plugins/dockers/smallcolorselector/smallcolorselector_dock.cc:37
 #, kde-format
