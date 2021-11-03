@@ -36047,7 +36047,8 @@ msgstr "[找不到]"
 msgid ""
 "FFmpeg executable location couldn't be detected, please install it or select "
 "its location manually"
-msgstr "未能檢測到 FFmpeg 執行檔的位置。請先安裝其軟體套件或手動選擇執行檔的位置"
+msgstr ""
+"未能檢測到 FFmpeg 執行檔的位置。請先安裝其軟體套件或手動選擇執行檔的位置"
 
 #: plugins/dockers/recorder/recorder_export.cpp:162
 #, kde-format
@@ -36137,7 +36138,8 @@ msgid ""
 "\n"
 "Do you wish to continue?"
 msgstr ""
-"將會刪除這個文件的錄影檔，而您將無法再次匯出這文件的縮時影片 (已匯出的縮時影片會被保留)。\n"
+"將會刪除這個文件的錄影檔，而您將無法再次匯出這文件的縮時影片 (已匯出的縮時影"
+"片會被保留)。\n"
 "是否繼續？"
 
 #: plugins/dockers/recorder/recorder_export.cpp:603
@@ -36653,7 +36655,9 @@ msgstr "錄影工具"
 msgid ""
 "The recorder has been stopped due to failure while writing a frame. Please "
 "check free disk space and start the recorder again."
-msgstr "錄影工具因為寫入影格失敗，已經停止錄影。請先檢查可用儲存空間大小，然後再重新開始錄影。"
+msgstr ""
+"錄影工具因為寫入影格失敗，已經停止錄影。請先檢查可用儲存空間大小，然後再重新"
+"開始錄影。"
 
 #: plugins/dockers/smallcolorselector/smallcolorselector_dock.cc:37
 #, kde-format
