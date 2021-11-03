@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-10-26 00:16+0000\n"
-"PO-Revision-Date: 2021-10-26 18:05+0000\n"
+"POT-Creation-Date: 2021-11-03 00:17+0000\n"
+"PO-Revision-Date: 2021-11-03 08:03+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 4.8.1\n"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
@@ -13944,13 +13944,13 @@ msgctxt "action"
 msgid "Workspaces"
 msgstr "作業空間"
 
-#: krita/main.cc:492
+#: krita/main.cc:508
 #, kde-format
 msgctxt "@title:window"
 msgid "Fatal Error"
 msgstr "嚴重錯誤"
 
-#: krita/main.cc:492
+#: krita/main.cc:508
 #, kde-format
 msgid ""
 "Krita does not support the Wayland platform. Use XWayland to run Krita on "
@@ -13959,14 +13959,14 @@ msgstr ""
 "Krita 不支援 Wayland 平台。如您希望在 Wayland 上執行 Krita，請使用 XWayland。"
 "Krita 現在會退出。"
 
-#: krita/main.cc:590 libs/ui/KisApplication.cpp:359
+#: krita/main.cc:606 libs/ui/KisApplication.cpp:359
 #: libs/ui/KisApplication.cpp:624
 #, kde-format
 msgctxt "@title:window"
 msgid "Krita: Warning"
 msgstr "Krita：警告"
 
-#: krita/main.cc:591
+#: krita/main.cc:607
 #, kde-format
 msgid ""
 "You are running an unsupported version of Windows: %1.\n"
@@ -13977,12 +13977,12 @@ msgstr ""
 "我們不建議這樣做，請勿為此報告問題。\n"
 "請升級到下列支援的 Windows 版本之一：Windows 7、8、8.1、10。"
 
-#: krita/main.cc:613 krita/main.cc:618
+#: krita/main.cc:629 krita/main.cc:634
 #, kde-format
 msgid "Krita Tablet Support"
 msgstr "Krita 數位板支援"
 
-#: krita/main.cc:614
+#: krita/main.cc:630
 #, kde-format
 msgid ""
 "Cannot load WinTab driver and no Windows Ink pen devices are found. If you "
@@ -13992,7 +13992,7 @@ msgstr ""
 "無法載入 WinTab 驅動程式，且未發現 Windows Ink 手寫筆裝置。如果數位板已連接，"
 "請確保其驅動程式已正確安裝。"
 
-#: krita/main.cc:619
+#: krita/main.cc:635
 #, kde-format
 msgid ""
 "Cannot load WinTab driver. If you have a drawing tablet, please make sure "
@@ -14088,25 +14088,25 @@ msgctxt "PaintOp instant preview limitation"
 msgid "Spacing > 0.5, consider disabling Instant Preview"
 msgstr "間距大於 0.5 時應考慮停用即時預覽"
 
-#: libs/command/kundo2group.cpp:359 libs/command/kundo2stack.cpp:1144
+#: libs/command/kundo2group.cpp:359 libs/command/kundo2stack.cpp:1142
 #, kde-format
 msgctxt "Default text for undo action"
 msgid "Undo"
 msgstr "復原"
 
-#: libs/command/kundo2group.cpp:359 libs/command/kundo2stack.cpp:1144
+#: libs/command/kundo2group.cpp:359 libs/command/kundo2stack.cpp:1142
 #: libs/ui/KisUndoActionsUpdateManager.cpp:44
 #, kde-format
 msgid "Undo %1"
 msgstr "復原 %1"
 
-#: libs/command/kundo2group.cpp:386 libs/command/kundo2stack.cpp:1170
+#: libs/command/kundo2group.cpp:386 libs/command/kundo2stack.cpp:1168
 #, kde-format
 msgctxt "Default text for redo action"
 msgid "Redo"
 msgstr "重做"
 
-#: libs/command/kundo2group.cpp:386 libs/command/kundo2stack.cpp:1170
+#: libs/command/kundo2group.cpp:386 libs/command/kundo2stack.cpp:1168
 #: libs/ui/KisUndoActionsUpdateManager.cpp:49
 #, kde-format
 msgid "Redo %1"
@@ -14118,16 +14118,16 @@ msgstr "重做 %1"
 msgid "<empty>"
 msgstr "<空>"
 
-#: libs/command/kundo2stack.cpp:1415
+#: libs/command/kundo2stack.cpp:1413
 #: libs/widgetutils/xmlgui/kundoactions.cpp:32
 #, kde-format
 msgid "Redo"
 msgstr "重做"
 
 #. i18n: ectx: property (text), widget (QToolButton, liquifyUndo)
-#: libs/command/kundo2stack.cpp:1434
+#: libs/command/kundo2stack.cpp:1432
 #: libs/widgetutils/xmlgui/kundoactions.cpp:51
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1890
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1905
 #, kde-format
 msgid "Undo"
 msgstr "復原"
@@ -15224,7 +15224,7 @@ msgstr "匯入的影像"
 msgid "Selection Mask"
 msgstr "選取區域遮罩"
 
-#: libs/image/kis_image.cc:686 libs/ui/KisDocument.cpp:2362
+#: libs/image/kis_image.cc:686 libs/ui/KisDocument.cpp:2365
 #: plugins/impex/psd/psd_loader.cpp:162
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:69
 #: plugins/python/comics_project_management_tools/comics_template_dialog.py:302
@@ -15542,8 +15542,8 @@ msgid "Processing"
 msgstr "正在處理"
 
 #: libs/image/kis_psd_layer_style.cpp:101
-#: libs/ui/KisApplicationArguments.cpp:375 libs/ui/KisMainWindow.cpp:1405
-#: libs/ui/KisMainWindow.cpp:1676 libs/ui/KisMainWindow.cpp:1695
+#: libs/ui/KisApplicationArguments.cpp:375 libs/ui/KisMainWindow.cpp:1402
+#: libs/ui/KisMainWindow.cpp:1673 libs/ui/KisMainWindow.cpp:1692
 #: plugins/impex/libkra/kis_kra_saver.cpp:86
 #, kde-format
 msgid "Unnamed"
@@ -16221,8 +16221,8 @@ msgctxt "description of a file type"
 msgid "Animated PNG Image"
 msgstr "動態 PNG 影像"
 
-#: libs/libkis/Document.cpp:927 libs/ui/KisMainWindow.cpp:2044
-#: libs/ui/KisMainWindow.cpp:2126
+#: libs/libkis/Document.cpp:927 libs/ui/KisMainWindow.cpp:2041
+#: libs/ui/KisMainWindow.cpp:2123
 #, kde-format
 msgid "Import frames"
 msgstr "匯入影格"
@@ -17518,15 +17518,15 @@ msgstr "本機資源"
 #: libs/ui/KisApplication.cpp:937 libs/ui/KisApplication.cpp:965
 #: libs/ui/KisDocument.cpp:882 libs/ui/KisDocument.cpp:885
 #: libs/ui/KisDocument.cpp:1708 libs/ui/KisDocument.cpp:1751
-#: libs/ui/KisDocument.cpp:1759 libs/ui/KisMainWindow.cpp:1078
-#: libs/ui/KisMainWindow.cpp:1205 libs/ui/KisMainWindow.cpp:1303
-#: libs/ui/KisMainWindow.cpp:1904 libs/ui/KisMainWindow.cpp:1913
-#: libs/ui/KisMainWindow.cpp:2052 libs/ui/KisMainWindow.cpp:2111
-#: libs/ui/KisMainWindow.cpp:2135 libs/ui/KisPart.cpp:558
+#: libs/ui/KisDocument.cpp:1759 libs/ui/KisMainWindow.cpp:1075
+#: libs/ui/KisMainWindow.cpp:1202 libs/ui/KisMainWindow.cpp:1300
+#: libs/ui/KisMainWindow.cpp:1901 libs/ui/KisMainWindow.cpp:1910
+#: libs/ui/KisMainWindow.cpp:2049 libs/ui/KisMainWindow.cpp:2108
+#: libs/ui/KisMainWindow.cpp:2132 libs/ui/KisPart.cpp:558
 #: libs/ui/KisPart.cpp:561 libs/ui/KisReferenceImage.cpp:178
 #: libs/ui/KisRemoteFileFetcher.cpp:42 libs/ui/KisTemplateCreateDia.cpp:284
 #: libs/ui/KisTemplateCreateDia.cpp:390 libs/ui/KisView.cpp:669
-#: libs/ui/KisWelcomePageWidget.cpp:702
+#: libs/ui/KisWelcomePageWidget.cpp:693
 #: libs/ui/opengl/kis_opengl_canvas2.cpp:388
 #: libs/ui/utils/KisClipboardUtil.cpp:131
 #: libs/ui/utils/KisClipboardUtil.cpp:236
@@ -17551,8 +17551,8 @@ msgstr "本機資源"
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:189
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:268
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:273
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:326
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:333
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:347
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:354
 #: plugins/extensions/resourcemanager/resourcemanager.cpp:221
 #: plugins/filters/colorsfilters/kis_multichannel_filter_base.cpp:351
 #: plugins/filters/levelfilter/KisLevelsConfigWidget.cpp:163
@@ -17595,50 +17595,50 @@ msgstr "2. 位於 %1 的資源位置無法寫入。"
 msgid "Could not add %1 to the database"
 msgstr "無法新增 %1 至資料庫"
 
-#: libs/resources/KisResourceLocator.cpp:580
-#: libs/resources/KisResourceLocator.cpp:925
+#: libs/resources/KisResourceLocator.cpp:579
+#: libs/resources/KisResourceLocator.cpp:930
 #, kde-format
 msgid "Could not remove storage %1 from the database"
 msgstr "無法從資料庫移除 %1 儲存空間"
 
-#: libs/resources/KisResourceLocator.cpp:707
+#: libs/resources/KisResourceLocator.cpp:705
 #, kde-format
 msgid ""
 "Krita is running for the first time. Initialization will take some time."
 msgstr "Krita 為第一次執行。需要一點時間初始化。"
 
-#: libs/resources/KisResourceLocator.cpp:714
+#: libs/resources/KisResourceLocator.cpp:712
 #, kde-format
 msgid "3. Could not create the resource location at %1."
 msgstr "3. 無法建立位於 %1 的資源位置"
 
-#: libs/resources/KisResourceLocator.cpp:727
-#: libs/resources/KisResourceLocator.cpp:743
+#: libs/resources/KisResourceLocator.cpp:725
+#: libs/resources/KisResourceLocator.cpp:741
 #, kde-format
 msgid "Could not copy resource %1 to %2"
 msgstr "無法複製 %1 資源至 %2"
 
-#: libs/resources/KisResourceLocator.cpp:739
+#: libs/resources/KisResourceLocator.cpp:737
 #, kde-format
 msgid "Installing the resources from bundle %1."
 msgstr "正在從 %1 資源包安裝資源。"
 
-#: libs/resources/KisResourceLocator.cpp:761
+#: libs/resources/KisResourceLocator.cpp:759
 #, kde-format
 msgid "Initializing the resources."
 msgstr "正在初始化資源。"
 
-#: libs/resources/KisResourceLocator.cpp:775
+#: libs/resources/KisResourceLocator.cpp:773
 #, kde-format
 msgid "Could not add storage %1 to the cache database"
 msgstr "無法新增 %1 儲存空間至快取資料庫"
 
-#: libs/resources/KisResourceLocator.cpp:796
+#: libs/resources/KisResourceLocator.cpp:794
 #, kde-format
 msgid "Temporary Resources"
 msgstr "暫存資源"
 
-#: libs/resources/KisResourceLocator.cpp:915
+#: libs/resources/KisResourceLocator.cpp:913
 #, kde-format
 msgid "Could not synchronize %1 with the database"
 msgstr "無法與資料庫同步 %1"
@@ -17877,7 +17877,7 @@ msgstr "縮圖"
 #: libs/resources/KisTagModel.cpp:125 libs/resources/KisTagModel.cpp:287
 #: libs/ui/widgets/kis_paintop_presets_editor.cpp:594
 #: plugins/assistants/Assistants/AssistantsToolOptions.ui:262
-#: plugins/tools/defaulttool/referenceimagestool/WdgToolOptions.ui:207
+#: plugins/tools/defaulttool/referenceimagestool/WdgToolOptions.ui:220
 #, kde-format
 msgid "All"
 msgstr "全部"
@@ -18029,13 +18029,13 @@ msgctxt "@info:tooltip"
 msgid "Delete resource"
 msgstr "刪除資源"
 
-#: libs/resourcewidgets/KisResourceItemChooser.cpp:192
+#: libs/resourcewidgets/KisResourceItemChooser.cpp:193
 #, kde-format
 msgid "Storage Resources"
 msgstr "資源收藏"
 
-#: libs/resourcewidgets/KisResourceItemChooser.cpp:229
-#: libs/ui/KisMainWindow.cpp:2548
+#: libs/resourcewidgets/KisResourceItemChooser.cpp:230
+#: libs/ui/KisMainWindow.cpp:2545
 #: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:570
 #, kde-format
 msgctxt "@title:window"
@@ -18287,7 +18287,7 @@ msgstr "取代 (覆蓋) 標籤"
 #. i18n: ectx: property (text), widget (QPushButton, btCancel)
 #. i18n: ectx: property (text), widget (QPushButton, cancelBrushNameUpdateButton)
 #. i18n: ectx: property (text), widget (QPushButton, cancel_button)
-#. i18n: ectx: property (toolTip), widget (QPushButton, bnCancelMaskEdit)
+#. i18n: ectx: property (toolTip), widget (QToolButton, bnCancelMaskEdit)
 #. i18n: ectx: property (text), widget (QPushButton, buttonCancel)
 #. i18n: ectx: property (text), widget (QPushButton, buttonCancelExport)
 #: libs/resourcewidgets/KisTagChooserWidget.cpp:219
@@ -18298,7 +18298,7 @@ msgstr "取代 (覆蓋) 標籤"
 #: libs/ui/input/kis_tool_invocation_action.cpp:43 libs/ui/kis_clipboard.cc:297
 #: libs/ui/utils/KisClipboardUtil.cpp:71
 #: plugins/dockers/gamutmask/forms/wdgGamutMaskChooser.ui:190
-#: plugins/dockers/recorder/recorder_export.ui:736
+#: plugins/dockers/recorder/recorder_export.ui:739
 #: plugins/dockers/recorder/recorder_snapshots_manager.ui:130
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:116
 #: plugins/generators/seexpr/wdgseexpr.ui:179
@@ -18480,7 +18480,7 @@ msgid "Failed to render animation frames! Output files are incomplete."
 msgstr "動畫影格繪製失敗！輸出檔案不完整。"
 
 #: libs/ui/animation/KisDlgAnimationRenderer.cpp:52
-#: libs/ui/KisMainWindow.cpp:2155
+#: libs/ui/KisMainWindow.cpp:2152
 #, kde-format
 msgid "Render Animation"
 msgstr "繪製動畫"
@@ -19748,9 +19748,9 @@ msgstr "檔案"
 #: plugins/python/comics_project_management_tools/comics_template_dialog.py:181
 #: plugins/python/documenttools/tools/canvassizetool/canvassizetool.py:34
 #: plugins/python/documenttools/tools/scaletool/scaletool.py:40
-#: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:78
+#: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:80
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:323
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:946
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:949
 #, kde-format
 msgid "Width:"
 msgstr "寬度："
@@ -19792,7 +19792,7 @@ msgstr "寬度："
 #: plugins/python/documenttools/tools/canvassizetool/canvassizetool.py:35
 #: plugins/python/documenttools/tools/scaletool/scaletool.py:41
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:225
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1006
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1009
 #, kde-format
 msgid "Height:"
 msgstr "高度："
@@ -19898,7 +19898,7 @@ msgstr "FF&mpeg："
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #. i18n: ectx: property (text), widget (QLabel, labelResolution)
 #: libs/ui/animation/wdg_animationrenderer.ui:283
-#: plugins/dockers/recorder/recorder_export.ui:431
+#: plugins/dockers/recorder/recorder_export.ui:434
 #, kde-format
 msgid "Render as:"
 msgstr "繪製為："
@@ -20485,7 +20485,7 @@ msgid "Numerical"
 msgstr "按數字順序"
 
 #: libs/ui/dialogs/kis_dlg_import_image_sequence.cpp:137
-#: libs/ui/KisMainWindow.cpp:1173
+#: libs/ui/KisMainWindow.cpp:1170
 #, kde-format
 msgid "Import Images"
 msgstr "匯入影像"
@@ -20611,7 +20611,7 @@ msgctxt "@title:window"
 msgid "Enter new style name"
 msgstr "輸入新樣式名稱"
 
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:270 libs/ui/KisMainWindow.cpp:2559
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:270 libs/ui/KisMainWindow.cpp:2556
 #: plugins/dockers/gamutmask/gamutmask_dock.cpp:375
 #, kde-format
 msgctxt "@label:textbox"
@@ -20680,8 +20680,8 @@ msgstr ""
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImagesWidget.cpp:44
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImagesWidget.cpp:51
 #: plugins/tools/tool_lazybrush/kis_tool_lazy_brush_options_widget.cpp:123
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:968
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:984
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:971
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:987
 #, no-c-format, kde-format
 msgid " %"
 msgstr " %"
@@ -21309,7 +21309,7 @@ msgstr "色塊列數："
 
 #. i18n: ectx: property (text), widget (QLabel, labelRowCount)
 #: libs/ui/dialogs/KisDlgPaletteEditor.cpp:54
-#: libs/ui/forms/WdgDlgPaletteEditor.ui:108 libs/ui/KisPaletteEditor.cpp:220
+#: libs/ui/forms/WdgDlgPaletteEditor.ui:108 libs/ui/KisPaletteEditor.cpp:219
 #, kde-format
 msgid "Rows of swatches in group:"
 msgstr "群組中色塊行數："
@@ -21457,7 +21457,7 @@ msgid "Show details"
 msgstr "顯示詳細資料"
 
 #. i18n: ectx: property (text), widget (QLabel, labelNoFeed)
-#: libs/ui/forms/KisWelcomePage.ui:455 libs/ui/KisWelcomePageWidget.cpp:395
+#: libs/ui/forms/KisWelcomePage.ui:455 libs/ui/KisWelcomePageWidget.cpp:394
 #, kde-format
 msgid ""
 "You can <a href=\"ignored\" style=\"color: COLOR_PLACEHOLDER; text-"
@@ -21475,43 +21475,43 @@ msgid "Community"
 msgstr "社群資源"
 
 #. i18n: ectx: property (text), widget (QLabel, manualLink)
-#: libs/ui/forms/KisWelcomePage.ui:647 libs/ui/KisWelcomePageWidget.cpp:381
+#: libs/ui/forms/KisWelcomePage.ui:647 libs/ui/KisWelcomePageWidget.cpp:380
 #, kde-format
 msgid "User Manual"
 msgstr "使用者手冊"
 
 #. i18n: ectx: property (text), widget (QLabel, gettingStartedLink)
-#: libs/ui/forms/KisWelcomePage.ui:737 libs/ui/KisWelcomePageWidget.cpp:378
+#: libs/ui/forms/KisWelcomePage.ui:737 libs/ui/KisWelcomePageWidget.cpp:377
 #, kde-format
 msgid "Getting Started"
 msgstr "新手入門"
 
 #. i18n: ectx: property (text), widget (QLabel, userCommunityLink)
-#: libs/ui/forms/KisWelcomePage.ui:824 libs/ui/KisWelcomePageWidget.cpp:375
+#: libs/ui/forms/KisWelcomePage.ui:824 libs/ui/KisWelcomePageWidget.cpp:374
 #, kde-format
 msgid "User Community"
 msgstr "使用者社群"
 
 #. i18n: ectx: property (text), widget (QLabel, kritaWebsiteLink)
-#: libs/ui/forms/KisWelcomePage.ui:911 libs/ui/KisWelcomePageWidget.cpp:387
+#: libs/ui/forms/KisWelcomePage.ui:911 libs/ui/KisWelcomePageWidget.cpp:386
 #, kde-format
 msgid "Krita Website"
 msgstr "Krita 官方網站"
 
 #. i18n: ectx: property (text), widget (QLabel, sourceCodeLink)
-#: libs/ui/forms/KisWelcomePage.ui:1001 libs/ui/KisWelcomePageWidget.cpp:390
+#: libs/ui/forms/KisWelcomePage.ui:1001 libs/ui/KisWelcomePageWidget.cpp:389
 #, kde-format
 msgid "Source Code"
 msgstr "原始碼"
 
 #. i18n: ectx: property (text), widget (QLabel, supportKritaLink)
-#: libs/ui/forms/KisWelcomePage.ui:1088 libs/ui/KisWelcomePageWidget.cpp:384
+#: libs/ui/forms/KisWelcomePage.ui:1088 libs/ui/KisWelcomePageWidget.cpp:383
 #, kde-format
 msgid "Support Krita"
 msgstr "支援 Krita"
 
 #. i18n: ectx: property (text), widget (QLabel, poweredByKDELink)
-#: libs/ui/forms/KisWelcomePage.ui:1178 libs/ui/KisWelcomePageWidget.cpp:393
+#: libs/ui/forms/KisWelcomePage.ui:1178 libs/ui/KisWelcomePageWidget.cpp:392
 #, kde-format
 msgid "Powered by KDE"
 msgstr "本軟體基於 KDE"
@@ -21529,7 +21529,7 @@ msgid "Start"
 msgstr "開始作業"
 
 #. i18n: ectx: property (text), widget (QLabel, devBuildLabel)
-#: libs/ui/forms/KisWelcomePage.ui:1428 libs/ui/KisWelcomePageWidget.cpp:616
+#: libs/ui/forms/KisWelcomePage.ui:1428 libs/ui/KisWelcomePageWidget.cpp:607
 #, kde-format
 msgid "DEV BUILD"
 msgstr "開發建置版本"
@@ -22528,7 +22528,7 @@ msgstr "色彩特性檔案："
 
 #. i18n: ectx: property (text), widget (QCheckBox, checkBoxPreview)
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#. i18n: ectx: property (toolTip), widget (QPushButton, bnPreviewMask)
+#. i18n: ectx: property (toolTip), widget (QToolButton, bnPreviewMask)
 #. i18n: ectx: property (text), widget (QCheckBox, checkPreview)
 #. i18n: ectx: property (text), widget (QLabel, lblThumbnail)
 #: libs/ui/forms/wdgfilterdialog.ui:67
@@ -23807,7 +23807,7 @@ msgstr "儲存新視窗版面配置"
 #: libs/ui/forms/wdgnewwindowlayout.ui:30
 #: libs/ui/forms/wdgsegmentgradienteditor.ui:41
 #: libs/ui/forms/wdgstopgradienteditor.ui:41
-#: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:200
+#: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:197
 #: plugins/extensions/pykrita/plugin/info.ui:217
 #: plugins/extensions/resourcemanager/WdgDlgResourceManager.ui:143
 #: plugins/impex/brush/wdg_export_gih.ui:41
@@ -23855,8 +23855,8 @@ msgid "Current brush preset"
 msgstr "目前筆刷預設"
 
 #. i18n: ectx: property (text), widget (QPushButton, updateBrushNameButton)
-#. i18n: ectx: property (toolTip), widget (QPushButton, bnSaveMask)
-#: libs/ui/forms/wdgpaintopsettings.ui:188 libs/ui/KisMainWindow.cpp:1057
+#. i18n: ectx: property (toolTip), widget (QToolButton, bnSaveMask)
+#: libs/ui/forms/wdgpaintopsettings.ui:188 libs/ui/KisMainWindow.cpp:1054
 #: libs/ui/widgets/kis_workspace_chooser.cpp:109
 #: libs/ui/widgets/kis_workspace_chooser.cpp:176
 #: plugins/dockers/gamutmask/forms/wdgGamutMaskChooser.ui:232
@@ -23934,32 +23934,32 @@ msgstr "暫時儲存選項修改"
 msgid "Scratchpad"
 msgstr "試畫區"
 
-#. i18n: ectx: property (toolTip), widget (QPushButton, paintPresetIcon)
-#: libs/ui/forms/wdgpaintopsettings.ui:862
+#. i18n: ectx: property (toolTip), widget (QToolButton, paintPresetIcon)
+#: libs/ui/forms/wdgpaintopsettings.ui:868
 #, kde-format
 msgid "Fill area with brush preset icon"
 msgstr "填充筆刷預設圖示到此區域"
 
-#. i18n: ectx: property (toolTip), widget (QPushButton, fillLayer)
-#: libs/ui/forms/wdgpaintopsettings.ui:875
+#. i18n: ectx: property (toolTip), widget (QToolButton, fillLayer)
+#: libs/ui/forms/wdgpaintopsettings.ui:887
 #, kde-format
 msgid "Fill area with current image"
 msgstr "填充目前影像到此區域"
 
-#. i18n: ectx: property (toolTip), widget (QPushButton, fillGradient)
-#: libs/ui/forms/wdgpaintopsettings.ui:888
+#. i18n: ectx: property (toolTip), widget (QToolButton, fillGradient)
+#: libs/ui/forms/wdgpaintopsettings.ui:906
 #, kde-format
 msgid "Fill area with gradient"
 msgstr "填充漸變到此區域"
 
-#. i18n: ectx: property (toolTip), widget (QPushButton, fillSolid)
-#: libs/ui/forms/wdgpaintopsettings.ui:901
+#. i18n: ectx: property (toolTip), widget (QToolButton, fillSolid)
+#: libs/ui/forms/wdgpaintopsettings.ui:925
 #, kde-format
 msgid "Fill area with background color"
 msgstr "填充背景色到此區域"
 
-#. i18n: ectx: property (toolTip), widget (QPushButton, eraseScratchPad)
-#: libs/ui/forms/wdgpaintopsettings.ui:914
+#. i18n: ectx: property (toolTip), widget (QToolButton, eraseScratchPad)
+#: libs/ui/forms/wdgpaintopsettings.ui:944
 #, kde-format
 msgid "Reset area to white"
 msgstr "重設此區域為白色"
@@ -24736,7 +24736,7 @@ msgstr "新增"
 #: libs/ui/forms/wdgselectionoptions.ui:96
 #: plugins/filters/halftone/KisHalftoneConfigWidget.ui:50
 #: plugins/python/highpass/highpass.py:53
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:2036
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:2051
 #, kde-format
 msgid "Mode:"
 msgstr "模式："
@@ -25103,7 +25103,7 @@ msgstr "保持寬高比"
 #: libs/ui/imagesize/wdg_canvassize.ui:135
 #: libs/ui/imagesize/wdg_imagesize.ui:342
 #: libs/ui/imagesize/wdg_layersize.ui:142
-#: plugins/dockers/recorder/recorder_export.ui:414
+#: plugins/dockers/recorder/recorder_export.ui:417
 #: plugins/impex/webp/dlg_webp_import.ui:235
 #, kde-format
 msgid "Constrain proportions"
@@ -25114,7 +25114,7 @@ msgstr "保持寬高比"
 #. i18n: ectx: property (title), widget (QGroupBox, grpAngle)
 #: libs/ui/imagesize/wdg_canvassize.ui:148
 #: plugins/extensions/offsetimage/wdg_offsetimage.ui:24
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1868
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1883
 #, kde-format
 msgid "Offset"
 msgstr "平移"
@@ -25602,37 +25602,37 @@ msgstr "向上平移"
 msgid "Pan Down"
 msgstr "向下平移"
 
-#: libs/ui/input/kis_rotate_canvas_action.cpp:37
+#: libs/ui/input/kis_rotate_canvas_action.cpp:38
 #, kde-format
 msgid "Rotate Canvas"
 msgstr "旋轉畫布"
 
-#: libs/ui/input/kis_rotate_canvas_action.cpp:38
+#: libs/ui/input/kis_rotate_canvas_action.cpp:39
 #, kde-format
 msgid "The <i>Rotate Canvas</i> action rotates the canvas."
 msgstr "<b>旋轉畫布</b>操作用於對畫布檢視進行旋轉。"
 
-#: libs/ui/input/kis_rotate_canvas_action.cpp:41
+#: libs/ui/input/kis_rotate_canvas_action.cpp:42
 #, kde-format
 msgid "Rotate Mode"
 msgstr "旋轉模式"
 
-#: libs/ui/input/kis_rotate_canvas_action.cpp:42
+#: libs/ui/input/kis_rotate_canvas_action.cpp:43
 #, kde-format
 msgid "Discrete Rotate Mode"
 msgstr "非連續旋轉模式"
 
-#: libs/ui/input/kis_rotate_canvas_action.cpp:43
+#: libs/ui/input/kis_rotate_canvas_action.cpp:44
 #, kde-format
 msgid "Rotate Left"
 msgstr "向左旋轉"
 
-#: libs/ui/input/kis_rotate_canvas_action.cpp:44
+#: libs/ui/input/kis_rotate_canvas_action.cpp:45
 #, kde-format
 msgid "Rotate Right"
 msgstr "向右旋轉"
 
-#: libs/ui/input/kis_rotate_canvas_action.cpp:45
+#: libs/ui/input/kis_rotate_canvas_action.cpp:46
 #, kde-format
 msgid "Reset Rotation"
 msgstr "重設旋轉"
@@ -26553,7 +26553,7 @@ msgstr "選擇筆刷預設"
 
 #. i18n: ectx: property (text), widget (QLabel, lblFlow)
 #: libs/ui/kis_paintop_box.cc:253 libs/ui/kis_paintop_box.cc:259
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1970
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1985
 #, kde-format
 msgid "Flow:"
 msgstr "流量："
@@ -26564,7 +26564,7 @@ msgstr "流量："
 #: libs/ui/kis_paintop_box.cc:254 libs/ui/kis_paintop_box.cc:260
 #: plugins/generators/screentone/KisScreentoneConfigWidget.ui:414
 #: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:185
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1992
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:2007
 #, kde-format
 msgid "Size:"
 msgstr "大小："
@@ -27361,13 +27361,13 @@ msgstr "開啟 %1 時遇到了一些問題"
 msgid "Not Saved"
 msgstr "未儲存"
 
-#: libs/ui/KisDocument.cpp:2369
+#: libs/ui/KisDocument.cpp:2372
 #, kde-format
 msgctxt "Name of automatically created background color fill layer"
 msgid "Background Fill"
 msgstr "背景色填充"
 
-#: libs/ui/KisDocument.cpp:2423
+#: libs/ui/KisDocument.cpp:2426
 #, kde-format
 msgctxt ""
 "progress dialog message when the user closes the document that is being saved"
@@ -27741,44 +27741,44 @@ msgctxt "@action:inmenu"
 msgid "Wor&kspace"
 msgstr "作業空間(&K)"
 
-#: libs/ui/KisMainWindow.cpp:578
+#: libs/ui/KisMainWindow.cpp:577
 #: plugins/tools/svgtexttool/SvgTextEditor.cpp:309
 #, kde-format
 msgid "Show %1 Toolbar"
 msgstr "顯示%1工具列"
 
-#: libs/ui/KisMainWindow.cpp:580
+#: libs/ui/KisMainWindow.cpp:579
 #: plugins/tools/svgtexttool/SvgTextEditor.cpp:311
 #, kde-format
 msgid "Hide %1 Toolbar"
 msgstr "隱藏%1工具列"
 
-#: libs/ui/KisMainWindow.cpp:1026
+#: libs/ui/KisMainWindow.cpp:1023
 #, kde-format
 msgid "Write Protected"
 msgstr "防寫"
 
-#: libs/ui/KisMainWindow.cpp:1030
+#: libs/ui/KisMainWindow.cpp:1027
 #, kde-format
 msgid "Recovered"
 msgstr "已復原"
 
-#: libs/ui/KisMainWindow.cpp:1054
+#: libs/ui/KisMainWindow.cpp:1051
 #, kde-format
 msgid "Save as %1"
 msgstr "另存為 %1"
 
-#: libs/ui/KisMainWindow.cpp:1078
+#: libs/ui/KisMainWindow.cpp:1075
 #, kde-format
 msgid "The file %1 does not exist."
 msgstr "檔案 %1 不存在。"
 
-#: libs/ui/KisMainWindow.cpp:1173
+#: libs/ui/KisMainWindow.cpp:1170
 #, kde-format
 msgid "Open Images"
 msgstr "開啟影像"
 
-#: libs/ui/KisMainWindow.cpp:1304
+#: libs/ui/KisMainWindow.cpp:1301
 #, kde-format
 msgid ""
 "You are saving a file while the image is still rendering. The saved file may "
@@ -27790,45 +27790,45 @@ msgstr ""
 "\n"
 "請選擇一個原始檔案不會被覆蓋掉的位置！"
 
-#: libs/ui/KisMainWindow.cpp:1360
+#: libs/ui/KisMainWindow.cpp:1357
 #, kde-format
 msgid "Exporting"
 msgstr "正在匯出"
 
-#: libs/ui/KisMainWindow.cpp:1360
+#: libs/ui/KisMainWindow.cpp:1357
 #, kde-format
 msgid "Saving As"
 msgstr "正在儲存為"
 
-#: libs/ui/KisMainWindow.cpp:1655
+#: libs/ui/KisMainWindow.cpp:1652
 #: libs/widgetutils/config/kstandardaction_p.h:29
 #, kde-format
 msgid "Create new document"
 msgstr "建立檔案"
 
-#: libs/ui/KisMainWindow.cpp:1679
+#: libs/ui/KisMainWindow.cpp:1676
 #, kde-format
 msgid "Custom Document"
 msgstr "自訂檔案"
 
-#: libs/ui/KisMainWindow.cpp:1697
+#: libs/ui/KisMainWindow.cpp:1694
 #, kde-format
 msgid "Create from Clipboard"
 msgstr "從剪貼簿建立"
 
-#: libs/ui/KisMainWindow.cpp:1873
+#: libs/ui/KisMainWindow.cpp:1870
 #, kde-format
 msgid "Layers/Masks"
 msgstr "圖層/遮罩"
 
-#: libs/ui/KisMainWindow.cpp:1899
+#: libs/ui/KisMainWindow.cpp:1896
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:179
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:261
 #, kde-format
 msgid "You don't have any resource bundles enabled."
 msgstr "您沒有啟用任何資源包"
 
-#: libs/ui/KisMainWindow.cpp:1903
+#: libs/ui/KisMainWindow.cpp:1900
 #, kde-format
 msgid ""
 "\n"
@@ -27838,7 +27838,7 @@ msgstr ""
 "\n"
 "無可用的筆刷預設。在繼續之前請先啟用一個含有筆刷預設的資源包。\n"
 
-#: libs/ui/KisMainWindow.cpp:1913
+#: libs/ui/KisMainWindow.cpp:1910
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:189
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:273
 #, kde-format
@@ -27849,7 +27849,7 @@ msgstr ""
 "\n"
 "只有您在本機的資源可用。"
 
-#: libs/ui/KisMainWindow.cpp:2052 libs/ui/KisMainWindow.cpp:2135
+#: libs/ui/KisMainWindow.cpp:2049 libs/ui/KisMainWindow.cpp:2132
 #, kde-format
 msgid ""
 "Could not finish import animation:\n"
@@ -27858,59 +27858,59 @@ msgstr ""
 "無法完成匯入動畫：\n"
 "%1"
 
-#: libs/ui/KisMainWindow.cpp:2111
+#: libs/ui/KisMainWindow.cpp:2108
 #, kde-format
 msgid "Failed to create new document. Animation import aborted."
 msgstr "無法建立新文件。已終止匯入動畫。"
 
-#: libs/ui/KisMainWindow.cpp:2539
+#: libs/ui/KisMainWindow.cpp:2536
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Import Workspace..."
 msgstr "匯入作業空間(&I)…"
 
-#: libs/ui/KisMainWindow.cpp:2554
+#: libs/ui/KisMainWindow.cpp:2551
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&New Workspace..."
 msgstr "新作業空間(&N)…"
 
-#: libs/ui/KisMainWindow.cpp:2558
+#: libs/ui/KisMainWindow.cpp:2555
 #, kde-format
 msgctxt "@title:window"
 msgid "New Workspace..."
 msgstr "新作業空間…"
 
-#: libs/ui/KisMainWindow.cpp:2602
+#: libs/ui/KisMainWindow.cpp:2599
 #, kde-format
 msgid "&%1 %2"
 msgstr "%1 %2"
 
-#: libs/ui/KisMainWindow.cpp:2605
+#: libs/ui/KisMainWindow.cpp:2602
 #, kde-format
 msgid "%1 %2"
 msgstr "%1 %2"
 
-#: libs/ui/KisMainWindow.cpp:2766
+#: libs/ui/KisMainWindow.cpp:2763
 #, kde-format
 msgid ""
 "The Krita LittleCMS color management plugin is not installed. Krita will "
 "quit now."
 msgstr "未安裝 Krita 的 LittleCMS 色彩管理外掛程式。Krita 將立即退出。"
 
-#: libs/ui/KisMainWindow.cpp:2782
+#: libs/ui/KisMainWindow.cpp:2779
 #, kde-format
 msgctxt "@title:window"
 msgid "Installation error"
 msgstr "安裝錯誤"
 
-#: libs/ui/KisMainWindow.cpp:2894
+#: libs/ui/KisMainWindow.cpp:2891
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Themes"
 msgstr "主題(&T)"
 
-#: libs/ui/KisMainWindow.cpp:2948
+#: libs/ui/KisMainWindow.cpp:2945
 #, kde-format
 msgid "Expanding Spacer"
 msgstr "擴張空白佔位符"
@@ -27926,63 +27926,63 @@ msgstr "切換到 %1"
 msgid "Open Existing Document"
 msgstr "開啟現存檔案"
 
-#: libs/ui/KisPaletteEditor.cpp:100
+#: libs/ui/KisPaletteEditor.cpp:99
 #, kde-format
 msgctxt "Default name for a new palette"
 msgid "New Palette"
 msgstr "新調色板"
 
-#: libs/ui/KisPaletteEditor.cpp:101
+#: libs/ui/KisPaletteEditor.cpp:100
 #, kde-format
 msgid "New palette name:"
 msgstr "新調色板名稱："
 
-#: libs/ui/KisPaletteEditor.cpp:106
+#: libs/ui/KisPaletteEditor.cpp:105
 #, kde-format
 msgid "Save Palette in the Current Document"
 msgstr "儲存目前檔案的調色板"
 
-#: libs/ui/KisPaletteEditor.cpp:131
+#: libs/ui/KisPaletteEditor.cpp:130
 #, kde-format
 msgid "Import Palette"
 msgstr "匯入調色板"
 
-#: libs/ui/KisPaletteEditor.cpp:142
+#: libs/ui/KisPaletteEditor.cpp:141
 #, kde-format
 msgid "Do you want to store this palette in your current image?"
 msgstr "確定儲存目前影像中的這個調色板？"
 
-#: libs/ui/KisPaletteEditor.cpp:216 libs/ui/KisPaletteEditor.cpp:273
+#: libs/ui/KisPaletteEditor.cpp:215 libs/ui/KisPaletteEditor.cpp:272
 #, kde-format
 msgid "New swatch group name:"
 msgstr "色塊群組名稱："
 
-#: libs/ui/KisPaletteEditor.cpp:244
+#: libs/ui/KisPaletteEditor.cpp:243
 #, kde-format
 msgctxt "@title:dialog"
 msgid "Removing Swatch Group"
 msgstr "正在移除色塊群組"
 
-#: libs/ui/KisPaletteEditor.cpp:248 libs/widgets/kis_palette_view.cpp:171
+#: libs/ui/KisPaletteEditor.cpp:247 libs/widgets/kis_palette_view.cpp:171
 #, kde-format
 msgctxt "Shows up when deleting a swatch group"
 msgid "Keep the Colors"
 msgstr "保留色彩"
 
-#: libs/ui/KisPaletteEditor.cpp:320 libs/ui/KisPaletteEditor.cpp:410
+#: libs/ui/KisPaletteEditor.cpp:319 libs/ui/KisPaletteEditor.cpp:409
 #, kde-format
 msgctxt "Default name for a color swatch"
 msgid "Color %1"
 msgstr "色彩 %1"
 
-#: libs/ui/KisPaletteEditor.cpp:353 libs/ui/KisPaletteEditor.cpp:398
+#: libs/ui/KisPaletteEditor.cpp:352 libs/ui/KisPaletteEditor.cpp:397
 #: libs/widgets/kis_palette_view.cpp:103
 #, kde-format
 msgctxt "@title:dialog"
 msgid "Add a new Color Swatch"
 msgstr "新增色塊"
 
-#: libs/ui/KisPaletteEditor.cpp:367 libs/ui/KisPaletteEditor.cpp:417
+#: libs/ui/KisPaletteEditor.cpp:366 libs/ui/KisPaletteEditor.cpp:416
 #: libs/widgets/kis_palette_view.cpp:114
 #, kde-format
 msgctxt "@info:tooltip"
@@ -27993,37 +27993,37 @@ msgstr ""
 "專色是印表機能夠在不混合其可用顏料的情況下能夠列印出的色彩。相反的則稱為混"
 "色。"
 
-#: libs/ui/KisPaletteEditor.cpp:371 libs/ui/KisPaletteEditor.cpp:420
+#: libs/ui/KisPaletteEditor.cpp:370 libs/ui/KisPaletteEditor.cpp:419
 #: libs/widgets/kis_palette_view.cpp:116
 #, kde-format
 msgid "Swatch ID:"
 msgstr "色塊 ID："
 
-#: libs/ui/KisPaletteEditor.cpp:372 libs/ui/KisPaletteEditor.cpp:421
+#: libs/ui/KisPaletteEditor.cpp:371 libs/ui/KisPaletteEditor.cpp:420
 #: libs/widgets/kis_palette_view.cpp:117
 #, kde-format
 msgid "Color swatch name:"
 msgstr "色塊名稱："
 
-#: libs/ui/KisPaletteEditor.cpp:373 libs/ui/KisPaletteEditor.cpp:422
+#: libs/ui/KisPaletteEditor.cpp:372 libs/ui/KisPaletteEditor.cpp:421
 #: libs/widgets/kis_palette_view.cpp:118
 #, kde-format
 msgctxt "Color as the Color of a Swatch in a Palette"
 msgid "Color:"
 msgstr "色彩："
 
-#: libs/ui/KisPaletteEditor.cpp:374 libs/ui/KisPaletteEditor.cpp:423
+#: libs/ui/KisPaletteEditor.cpp:373 libs/ui/KisPaletteEditor.cpp:422
 #: libs/widgets/kis_palette_view.cpp:119
 #, kde-format
 msgid "Spot color:"
 msgstr "印刷專色："
 
-#: libs/ui/KisPaletteEditor.cpp:419 libs/widgets/kis_palette_view.cpp:115
+#: libs/ui/KisPaletteEditor.cpp:418 libs/widgets/kis_palette_view.cpp:115
 #, kde-format
 msgid "Swatch Group:"
 msgstr "色塊群組："
 
-#: libs/ui/KisPaletteEditor.cpp:539 libs/ui/KisPaletteEditor.cpp:542
+#: libs/ui/KisPaletteEditor.cpp:538 libs/ui/KisPaletteEditor.cpp:541
 #, kde-format
 msgctxt "Default new group name"
 msgid "New Group %1"
@@ -28268,45 +28268,45 @@ msgctxt "choice for author profile"
 msgid "Anonymous"
 msgstr "匿名"
 
-#: libs/ui/KisWelcomePageWidget.cpp:123
+#: libs/ui/KisWelcomePageWidget.cpp:139
 #, kde-format
 msgid "Enable news and check for new releases"
 msgstr "啟用新聞並檢查新版本發布"
 
-#: libs/ui/KisWelcomePageWidget.cpp:125
+#: libs/ui/KisWelcomePageWidget.cpp:141
 #, kde-format
 msgid ""
 "Show news about Krita: this needs internet to retrieve information from the "
 "krita.org website"
 msgstr "顯示 Krita 的新聞：這需要透過網際網路從 krita.org 網站檢索資訊"
 
-#: libs/ui/KisWelcomePageWidget.cpp:128
+#: libs/ui/KisWelcomePageWidget.cpp:144
 #: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:343
 #, kde-format
 msgid "Language"
 msgstr "語言"
 
-#: libs/ui/KisWelcomePageWidget.cpp:129
+#: libs/ui/KisWelcomePageWidget.cpp:145
 #, kde-format
 msgid "English news is always up to date."
 msgstr "英文新聞永遠是最更新的。"
 
-#: libs/ui/KisWelcomePageWidget.cpp:418
+#: libs/ui/KisWelcomePageWidget.cpp:416
 #, kde-format
 msgid "Get your Krita Supporter Badge here!"
 msgstr "在此取得您的 Krita 支持者徽章！"
 
-#: libs/ui/KisWelcomePageWidget.cpp:721
+#: libs/ui/KisWelcomePageWidget.cpp:712
 #, kde-format
 msgid "New version of Krita is available."
 msgstr "Krita 有新版可用。"
 
-#: libs/ui/KisWelcomePageWidget.cpp:751
+#: libs/ui/KisWelcomePageWidget.cpp:741
 #, kde-format
 msgid "An error occurred during the update"
 msgstr "更新時發生錯誤"
 
-#: libs/ui/KisWelcomePageWidget.cpp:760
+#: libs/ui/KisWelcomePageWidget.cpp:747
 #, kde-format
 msgid "Restart is required."
 msgstr "需要重新啟動。"
@@ -29434,7 +29434,7 @@ msgstr ""
 "高：%2 px"
 
 #: libs/ui/tool/kis_tool_rectangle_base.cpp:251
-#: plugins/tools/basictools/kis_tool_line.cc:251
+#: plugins/tools/basictools/kis_tool_line.cc:252
 #: plugins/tools/basictools/kis_tool_multihand.cpp:499
 #, kde-format
 msgid ""
@@ -29695,7 +29695,7 @@ msgstr "未命名"
 #: libs/ui/widgets/gradient/KisGradientChooser.cpp:536
 #: libs/ui/widgets/KoFillConfigWidget.cpp:671
 #: plugins/dockers/gamutmask/gamutmask_dock.cpp:382
-#: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:208
+#: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:205
 #, kde-format
 msgid "The name '%1' already exists, do you wish to overwrite it?"
 msgstr "已有「%1」名稱的項目，您真的要覆寫嗎？"
@@ -30800,7 +30800,7 @@ msgstr "中間灰亮度："
 
 #: libs/ui/widgets/kis_paintop_presets_chooser_popup.cpp:43
 #: libs/ui/widgets/kis_paintop_presets_editor.cpp:129
-#: plugins/dockers/gamutmask/KisGamutMaskChooser.cpp:155
+#: plugins/dockers/gamutmask/KisGamutMaskChooser.cpp:154
 #, kde-format
 msgctxt "@title Which elements to display (e.g., thumbnails or details)"
 msgid "Display"
@@ -30808,14 +30808,14 @@ msgstr "顯示方式"
 
 #: libs/ui/widgets/kis_paintop_presets_chooser_popup.cpp:49
 #: libs/ui/widgets/kis_paintop_presets_editor.cpp:135
-#: plugins/dockers/gamutmask/KisGamutMaskChooser.cpp:163
+#: plugins/dockers/gamutmask/KisGamutMaskChooser.cpp:162
 #, kde-format
 msgid "Thumbnails"
 msgstr "縮圖"
 
 #: libs/ui/widgets/kis_paintop_presets_chooser_popup.cpp:54
 #: libs/ui/widgets/kis_paintop_presets_editor.cpp:140
-#: plugins/dockers/gamutmask/KisGamutMaskChooser.cpp:169
+#: plugins/dockers/gamutmask/KisGamutMaskChooser.cpp:168
 #, kde-format
 msgid "Details"
 msgstr "詳細資料"
@@ -30960,33 +30960,33 @@ msgstr "符合色彩標籤的圖層"
 msgid "No tone curve available..."
 msgstr "無可用色調曲線…"
 
-#: libs/ui/widgets/kis_transport_controls.cpp:27
+#: libs/ui/widgets/kis_transport_controls.cpp:28
 #, kde-format
 msgid "Skip Back"
 msgstr "跳後"
 
-#: libs/ui/widgets/kis_transport_controls.cpp:35
+#: libs/ui/widgets/kis_transport_controls.cpp:37
 #, kde-format
 msgid "Back"
 msgstr "往後"
 
-#: libs/ui/widgets/kis_transport_controls.cpp:43
+#: libs/ui/widgets/kis_transport_controls.cpp:46
 #: plugins/python/scripter/ui_scripter/tabwidgets/debuggerwidget/stopaction.py:21
 #, kde-format
 msgid "Stop"
 msgstr "停止"
 
-#: libs/ui/widgets/kis_transport_controls.cpp:51
+#: libs/ui/widgets/kis_transport_controls.cpp:55
 #, kde-format
 msgid "Play/Pause"
 msgstr "播放/暫停"
 
-#: libs/ui/widgets/kis_transport_controls.cpp:59
+#: libs/ui/widgets/kis_transport_controls.cpp:64
 #, kde-format
 msgid "Forward"
 msgstr "往前"
 
-#: libs/ui/widgets/kis_transport_controls.cpp:67
+#: libs/ui/widgets/kis_transport_controls.cpp:73
 #, kde-format
 msgid "Skip Forward"
 msgstr "跳前"
@@ -31303,7 +31303,7 @@ msgstr "輸入漸變名稱："
 
 #: libs/ui/widgets/KoFillConfigWidget.cpp:670
 #: plugins/dockers/gamutmask/gamutmask_dock.cpp:381
-#: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:207
+#: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:204
 #, kde-format
 msgctxt "@title:window"
 msgid "Name Already Exists"
@@ -31393,7 +31393,7 @@ msgstr "按下按鈕"
 #: libs/ui/widgets/KoFillConfigWidget.ui:376
 #: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:159
 #: plugins/extensions/clonesarray/wdg_clonesarray.ui:219
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:2154
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:2169
 #, kde-format
 msgid "Rows:"
 msgstr "行數："
@@ -31404,7 +31404,7 @@ msgstr "行數："
 #: libs/ui/widgets/KoFillConfigWidget.ui:394
 #: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:185
 #: plugins/extensions/clonesarray/wdg_clonesarray.ui:122
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:2144
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:2159
 #, kde-format
 msgid "Columns:"
 msgstr "列數："
@@ -33494,13 +33494,13 @@ msgstr "全域色彩："
 msgid "Custom Color"
 msgstr "自訂色彩"
 
-#. i18n: ectx: property (toolTip), widget (QPushButton, loadAssistantButton)
+#. i18n: ectx: property (toolTip), widget (QToolButton, loadAssistantButton)
 #: plugins/assistants/Assistants/AssistantsToolOptions.ui:211
 #, kde-format
 msgid "Load Assistant Set"
 msgstr "載入輔助尺集合"
 
-#. i18n: ectx: property (toolTip), widget (QPushButton, saveAssistantButton)
+#. i18n: ectx: property (toolTip), widget (QToolButton, saveAssistantButton)
 #: plugins/assistants/Assistants/AssistantsToolOptions.ui:230
 #, kde-format
 msgid "Save Assistant Set"
@@ -34514,27 +34514,27 @@ msgstr "紅/綠："
 msgid "Bluer/Yellower: "
 msgstr "藍/黃："
 
-#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:55
-#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:247
+#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:54
+#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:249
 #, kde-format
 msgid "Animation Curves"
 msgstr "動畫曲線"
 
-#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:64
-#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:64
+#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:63
+#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:63
 #, kde-format
 msgid "Frame register"
 msgstr "影格註冊"
 
 #: plugins/dockers/animation/KisAnimCurvesDocker.cpp:79
-#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:81
+#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:80
 #, kde-format
 msgctxt "preview playback speed percentage prefix"
 msgid "Speed: "
 msgstr "速率："
 
 #: plugins/dockers/animation/KisAnimCurvesDocker.cpp:81
-#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:83
+#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:82
 #, kde-format
 msgid "Preview playback speed"
 msgstr "預覽播放速率"
@@ -34545,93 +34545,93 @@ msgctxt "Value (Keep short!)"
 msgid "Val:"
 msgstr "值："
 
-#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:159
+#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:161
 #: plugins/dockers/animation/KisAnimTimelineDocker.cpp:121
 #, kde-format
 msgid "Onion skins menu"
 msgstr "洋蔥皮選單"
 
-#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:166
-#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:128
+#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:169
+#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:129
 #, kde-format
 msgid "Audio menu"
 msgstr "音訊選單"
 
-#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:175
-#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:135
+#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:177
+#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:137
 #, kde-format
 msgid "Animation settings menu"
 msgstr "動畫設定選單"
 
-#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:187
-#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:147
+#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:189
+#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:149
 #, kde-format
 msgid "Clip Start: "
 msgstr "剪輯開始："
 
-#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:191
-#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:151
+#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:193
+#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:153
 #, kde-format
 msgid "Clip End: "
 msgstr "剪輯結束："
 
-#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:196
-#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:156
+#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:198
+#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:158
 #, kde-format
 msgid "Frame Rate: "
 msgstr "影格速率："
 
-#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:269
+#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:271
 #, kde-format
 msgid "Channel Operations"
 msgstr "通道操作"
 
-#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:271
+#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:273
 #, kde-format
 msgid "Layer Operations"
 msgstr "圖層操作"
 
-#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:274
+#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:276
 #, kde-format
 msgid "Reset Channel"
 msgstr "重設通道"
 
-#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:280
+#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:282
 #, kde-format
 msgid "Reset All Channels"
 msgstr "重設全部通道"
 
-#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:461
+#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:463
 #, kde-format
 msgid "Hold constant value. No interpolation."
 msgstr "保持固定值，不使用插值。"
 
-#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:468
+#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:470
 #, kde-format
 msgid "Linear interpolation."
 msgstr "線性插值"
 
-#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:475
+#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:477
 #, kde-format
 msgid "Bezier curve interpolation."
 msgstr "貝茲曲線插值"
 
-#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:482
+#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:484
 #, kde-format
 msgid "Sharp interpolation tangents."
 msgstr "銳利切點插值。"
 
-#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:489
+#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:491
 #, kde-format
 msgid "Smooth interpolation tangents."
 msgstr "平滑切點插值。"
 
-#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:496
+#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:498
 #, kde-format
 msgid "Zoom view to fit channel range."
 msgstr "縮放檢視到適合通道範圍"
 
-#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:503
+#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:505
 #, kde-format
 msgid "Zoom view to fit curve."
 msgstr "縮放檢視到適合曲線"
@@ -34670,38 +34670,38 @@ msgid "Adjust Keyframe"
 msgid_plural "Adjust %1 Keyframes"
 msgstr[0] "調整 %1 個關鍵影格"
 
-#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:51
-#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:235
+#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:50
+#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:237
 #, kde-format
 msgid "Animation Timeline"
 msgstr "動畫時間軸"
 
-#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:164
+#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:166
 #, kde-format
 msgid "AutoKey Blank"
 msgstr "自動關鍵影格：空白"
 
-#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:166
+#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:168
 #, kde-format
 msgid "AutoKey Duplicate"
 msgstr "自動關鍵影格：複製"
 
-#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:438
+#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:440
 #, kde-format
 msgid "Enable to preserve playback timing."
 msgstr "啟用以保持播放時間"
 
-#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:446
+#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:448
 #, kde-format
 msgid "Effective FPS:\t%1"
 msgstr "有效 FPS：%1"
 
-#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:447
+#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:449
 #, kde-format
 msgid "Real FPS:\t%1"
 msgstr "真實 FPS：%1"
 
-#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:448
+#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:450
 #, kde-format
 msgid "Frames dropped:\t%1%"
 msgstr "拋棄的影格：%1%"
@@ -35207,7 +35207,7 @@ msgid "Checked compositions will be exported, unchecked won't."
 msgstr "選取的圖層合成方案會被匯出，未選取的不被匯出。"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, exportCompositions)
-#: plugins/dockers/compositiondocker/wdgcompositiondocker.ui:74
+#: plugins/dockers/compositiondocker/wdgcompositiondocker.ui:34
 #, kde-format
 msgid "Export checked compositions."
 msgstr "匯出選取的圖層合成方案。"
@@ -35217,25 +35217,25 @@ msgstr "匯出選取的圖層合成方案。"
 msgid "Digital Colors Mixer"
 msgstr "數位混色器"
 
-#. i18n: ectx: property (toolTip), widget (QPushButton, bnMaskNew)
+#. i18n: ectx: property (toolTip), widget (QToolButton, bnMaskNew)
 #: plugins/dockers/gamutmask/forms/wdgGamutMaskChooser.ui:52
 #, kde-format
 msgid "Create new mask"
 msgstr "建立新遮罩"
 
-#. i18n: ectx: property (toolTip), widget (QPushButton, bnMaskEditor)
+#. i18n: ectx: property (toolTip), widget (QToolButton, bnMaskEditor)
 #: plugins/dockers/gamutmask/forms/wdgGamutMaskChooser.ui:65
 #, kde-format
 msgid "Edit selected mask"
 msgstr "編輯所選遮罩"
 
-#. i18n: ectx: property (toolTip), widget (QPushButton, bnMaskDuplicate)
+#. i18n: ectx: property (toolTip), widget (QToolButton, bnMaskDuplicate)
 #: plugins/dockers/gamutmask/forms/wdgGamutMaskChooser.ui:78
 #, kde-format
 msgid "Duplicate selected mask"
 msgstr "複製所選遮罩"
 
-#. i18n: ectx: property (toolTip), widget (QPushButton, bnMaskDelete)
+#. i18n: ectx: property (toolTip), widget (QToolButton, bnMaskDelete)
 #: plugins/dockers/gamutmask/forms/wdgGamutMaskChooser.ui:104
 #, kde-format
 msgid "Delete selected mask"
@@ -35883,7 +35883,7 @@ msgstr "OCIO (環境)"
 msgid "Look:"
 msgstr "觀察："
 
-#. i18n: ectx: property (toolTip), widget (QPushButton, m_btnConvertCurrentColor)
+#. i18n: ectx: property (toolTip), widget (QToolButton, m_btnConvertCurrentColor)
 #: plugins/dockers/lut/wdglut.ui:384
 #, kde-format
 msgid ""
@@ -35891,8 +35891,8 @@ msgid ""
 "configuration"
 msgstr "變更 OCIO設定時將目前色彩鎖定以維持一致的視覺效果"
 
-#. i18n: ectx: property (toolTip), widget (QPushButton, m_btmShowBWConfiguration)
-#: plugins/dockers/lut/wdglut.ui:403
+#. i18n: ectx: property (toolTip), widget (QToolButton, m_btmShowBWConfiguration)
+#: plugins/dockers/lut/wdglut.ui:406
 #, kde-format
 msgid "Configure black and white points of the view"
 msgstr "變更檢視所用的黑點及白點"
@@ -35902,7 +35902,7 @@ msgstr "變更檢視所用的黑點及白點"
 msgid "Overview"
 msgstr "總覽圖"
 
-#: plugins/dockers/overview/overviewdocker_dock.cpp:160
+#: plugins/dockers/overview/overviewdocker_dock.cpp:161
 #, kde-format
 msgctxt "Make the controls in the overview docker auto-hide or always visible"
 msgid "Pin navigation controls"
@@ -35940,19 +35940,19 @@ msgstr "儲存目前調色板"
 msgid "Load a palette"
 msgstr "載入調色板"
 
-#: plugins/dockers/palettedocker/palettedocker_dock.cpp:217
+#: plugins/dockers/palettedocker/palettedocker_dock.cpp:218
 #, kde-format
 msgid "Export Palette"
 msgstr "匯出調色板"
 
-#: plugins/dockers/palettedocker/palettedocker_dock.cpp:359
+#: plugins/dockers/palettedocker/palettedocker_dock.cpp:360
 #, kde-format
 msgctxt "@tooltip"
 msgid ""
 "Save palette explicitly, will also happen automatically on exiting Krita."
 msgstr "手動儲存調色板。在關閉 Krita 時調色板也會自動儲存。"
 
-#: plugins/dockers/palettedocker/palettedocker_dock.cpp:361
+#: plugins/dockers/palettedocker/palettedocker_dock.cpp:362
 #, kde-format
 msgctxt "@tooltip"
 msgid "Saving for document palettes is done by saving the document."
@@ -35964,43 +35964,43 @@ msgstr "文件調色板會於儲存文件時一併儲存。"
 msgid "Add foreground color"
 msgstr "新增前景色"
 
-#: plugins/dockers/presetdocker/presetdocker_dock.cpp:26
+#: plugins/dockers/presetdocker/presetdocker_dock.cpp:25
 #, kde-format
 msgctxt "@title:window Brush presets chooser docker"
 msgid "Brush Presets"
 msgstr "筆刷預設選擇器"
 
-#: plugins/dockers/presethistory/presethistory_dock.cpp:36
+#: plugins/dockers/presethistory/presethistory_dock.cpp:48
 #, kde-format
 msgid "Brush Preset History"
 msgstr "筆刷預設切換歷史"
 
-#: plugins/dockers/presethistory/presethistory_dock.cpp:48
+#: plugins/dockers/presethistory/presethistory_dock.cpp:60
 #, kde-format
 msgid "Static Positions"
 msgstr "靜態位置"
 
-#: plugins/dockers/presethistory/presethistory_dock.cpp:50
+#: plugins/dockers/presethistory/presethistory_dock.cpp:62
 #, kde-format
 msgid "Move to Top on Use"
 msgstr "使用時移到最上方"
 
-#: plugins/dockers/presethistory/presethistory_dock.cpp:52
+#: plugins/dockers/presethistory/presethistory_dock.cpp:64
 #, kde-format
 msgid "Bubble Up on Repeated Use"
 msgstr "按使用次數上移"
 
-#: plugins/dockers/presethistory/presethistory_dock.cpp:246
+#: plugins/dockers/presethistory/presethistory_dock.cpp:258
 #, kde-format
 msgid "Forget \"%1\""
 msgstr "忘記「%1」"
 
-#: plugins/dockers/presethistory/presethistory_dock.cpp:249
+#: plugins/dockers/presethistory/presethistory_dock.cpp:261
 #, kde-format
 msgid "Clear History"
 msgstr "清除歷史"
 
-#: plugins/dockers/presethistory/presethistory_dock.cpp:251
+#: plugins/dockers/presethistory/presethistory_dock.cpp:263
 #, kde-format
 msgid "History Behavior:"
 msgstr "歷史行為："
@@ -36045,7 +36045,7 @@ msgstr "[找不到]"
 #: plugins/dockers/recorder/recorder_export.cpp:98
 #, kde-format
 msgid ""
-"FFMpeg executable location couldn't be detected, please install it or select "
+"FFmpeg executable location couldn't be detected, please install it or select "
 "its location manually"
 msgstr ""
 "未能檢測到 FFmpeg 執行檔的位置。請先安裝其軟體套件或手動選擇執行檔的位置"
@@ -36058,79 +36058,91 @@ msgstr "是否中止縮時影片的編碼程序？"
 #: plugins/dockers/recorder/recorder_export.cpp:234
 #, kde-format
 msgctxt "Status for the export of the video record"
-msgid "Starting FFMpeg..."
+msgid "Starting FFmpeg..."
 msgstr "正在啟動 FFmpeg……"
 
 #. i18n: ectx: property (text), widget (QToolButton, btnExport)
-#: plugins/dockers/recorder/recorder_export.cpp:317
+#: plugins/dockers/recorder/recorder_export.cpp:318
 #: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:29
 #: plugins/dockers/storyboarddocker/wdgstoryboarddock.ui:21
 #, kde-format
 msgid "Export"
 msgstr "匯出"
 
-#: plugins/dockers/recorder/recorder_export.cpp:342
+#: plugins/dockers/recorder/recorder_export.cpp:343
 #, kde-format
 msgctxt "Can't export recording because nothing to export"
 msgid "No frames to export"
 msgstr "沒有要匯出的影格"
 
-#: plugins/dockers/recorder/recorder_export.cpp:346
+#: plugins/dockers/recorder/recorder_export.cpp:347
 #, kde-format
 msgctxt "General information about recording"
 msgid "Recording info"
 msgstr "錄影資訊"
 
-#: plugins/dockers/recorder/recorder_export.cpp:349
+#: plugins/dockers/recorder/recorder_export.cpp:350
 #, kde-format
 msgctxt "Pixel dimension suffix"
 msgid "px"
 msgstr "px"
 
-#: plugins/dockers/recorder/recorder_export.cpp:351
+#: plugins/dockers/recorder/recorder_export.cpp:352
 #, kde-format
 msgctxt "The suffix after number of frames"
 msgid "frame(s)"
 msgstr "影格"
 
-#: plugins/dockers/recorder/recorder_export.cpp:460
+#: plugins/dockers/recorder/recorder_export.cpp:401
 #, kde-format
-msgid "Select FFMpeg Executable File"
+msgctxt "Can't browse frames of recording because no frames have been recorded"
+msgid "No frames to browse."
+msgstr "沒有可供瀏覽的影格。"
+
+#: plugins/dockers/recorder/recorder_export.cpp:468
+#, kde-format
+msgid "Select FFmpeg Executable File"
 msgstr "選擇 FFmpeg 可執行檔"
 
-#: plugins/dockers/recorder/recorder_export.cpp:506
+#: plugins/dockers/recorder/recorder_export.cpp:514
 #, kde-format
 msgid "Export Timelapse Video As"
 msgstr "匯出縮時影片為"
 
-#: plugins/dockers/recorder/recorder_export.cpp:521
+#: plugins/dockers/recorder/recorder_export.cpp:530
 #, kde-format
-msgid "The video file is already exists. Do you wish to overwrite?"
+msgid "The video file already exists. Do you wish to overwrite it?"
 msgstr "影片檔已經存在。是否覆寫？"
 
-#: plugins/dockers/recorder/recorder_export.cpp:548
+#: plugins/dockers/recorder/recorder_export.cpp:535
+#, kde-format
+msgid "No frames to export."
+msgstr "沒有要匯出的影格。"
+
+#: plugins/dockers/recorder/recorder_export.cpp:562
 #, kde-format
 msgid "The timelapse video is being encoded..."
 msgstr "正在編碼縮時影片……"
 
-#: plugins/dockers/recorder/recorder_export.cpp:561
+#: plugins/dockers/recorder/recorder_export.cpp:575
 #, kde-format
-msgid "Export failed. FFMpeg message:"
+msgid "Export failed. FFmpeg message:"
 msgstr "匯出失敗。FFmpeg 訊息："
 
-#: plugins/dockers/recorder/recorder_export.cpp:582
+#: plugins/dockers/recorder/recorder_export.cpp:596
 #, kde-format
 msgid ""
 "The recordings for this document will be deleted and you will not be able to "
-"export a timelapse for it again (the already exported timelapses will be "
-"preserved though).\n"
+"export a timelapse for it again. Note that already exported timelapses will "
+"still be preserved.\n"
+"\n"
 "Do you wish to continue?"
 msgstr ""
 "將會刪除這個文件的錄影檔，而您將無法再次匯出這文件的縮時影片 (已匯出的縮時影"
-"片還會留著)。\n"
+"片會被保留)。\n"
 "是否繼續？"
 
-#: plugins/dockers/recorder/recorder_export.cpp:589
+#: plugins/dockers/recorder/recorder_export.cpp:603
 #: plugins/dockers/recorder/recorder_snapshots_manager.cpp:262
 #, kde-format
 msgctxt "Label title, Snapshot directory deleting is in progress"
@@ -36152,7 +36164,7 @@ msgstr "開啟錄影目錄"
 #. i18n: ectx: property (text), widget (QLabel, labelFfmpegLocation)
 #: plugins/dockers/recorder/recorder_export.ui:92
 #, kde-format
-msgid "FFMpeg:"
+msgid "FFmpeg:"
 msgstr "FFmpeg："
 
 #. i18n: ectx: property (text), widget (QLabel, labelExportTo)
@@ -36161,69 +36173,75 @@ msgstr "FFmpeg："
 msgid "Video location:"
 msgstr "影片位置："
 
-#. i18n: ectx: property (text), widget (QLabel, labelHoldLastFrameSec)
+#. i18n: ectx: property (toolTip), widget (QLabel, labelHoldLastFrameSec)
 #: plugins/dockers/recorder/recorder_export.ui:266
+#, kde-format
+msgid "The added duration for showing the last frame."
+msgstr "保持顥最後一個影格的額外時長。"
+
+#. i18n: ectx: property (text), widget (QLabel, labelHoldLastFrameSec)
+#: plugins/dockers/recorder/recorder_export.ui:269
 #, kde-format
 msgid "Hold Last Frame for:"
 msgstr "最後影格保持時長："
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelFpsInput)
-#: plugins/dockers/recorder/recorder_export.ui:323
+#: plugins/dockers/recorder/recorder_export.ui:326
 #, kde-format
 msgid ""
 "The speed of reading the input stream.\n"
-"For example to make your speedpaint twice faster it should be twice larger "
-"of the Video FPS."
+"For example, to make your timelapse twice faster, the Input FPS should be "
+"twice larger of the Video FPS."
 msgstr ""
 "畫面輸入的影格速率。\n"
-"例子：如希望速繪錄影以兩倍速度播放，應將此設定為影片影格速率的兩偣。"
+"例子：如希望縮時錄影以兩倍速度播放，應將此設定為影片 FPS 的兩倍。"
 
 #. i18n: ectx: property (text), widget (QLabel, labelFpsInput)
-#: plugins/dockers/recorder/recorder_export.ui:326
+#: plugins/dockers/recorder/recorder_export.ui:329
 #, kde-format
 msgctxt "Input FPS of recorded timelapses."
 msgid "Input FPS:"
 msgstr "輸入 FPS："
 
 #. i18n: ectx: property (text), widget (QLineEdit, editFfmpegPath)
-#: plugins/dockers/recorder/recorder_export.ui:358
+#: plugins/dockers/recorder/recorder_export.ui:361
 #, kde-format
 msgid "ffmpeg"
 msgstr "FFmpeg"
 
 #. i18n: ectx: property (text), widget (QCheckBox, checkResize)
-#: plugins/dockers/recorder/recorder_export.ui:402
+#: plugins/dockers/recorder/recorder_export.ui:405
 #, kde-format
 msgid "Resize:"
 msgstr "調整大小："
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, buttonBrowseExport)
-#: plugins/dockers/recorder/recorder_export.ui:444
+#: plugins/dockers/recorder/recorder_export.ui:447
 #, kde-format
-msgid "Select a file to export timelapse video"
-msgstr "請選擇縮時影片要匯出到的檔案"
+msgid "Select a file location for the exported timelapse video"
+msgstr "請選擇要匯出縮時影片的檔案位置"
 
 #. i18n: ectx: property (text), widget (QLabel, labelFps)
-#: plugins/dockers/recorder/recorder_export.ui:458
+#: plugins/dockers/recorder/recorder_export.ui:461
 #, kde-format
 msgid "Video FPS:"
 msgstr "影片 FPS："
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, buttonEditProfile)
-#: plugins/dockers/recorder/recorder_export.ui:489
+#: plugins/dockers/recorder/recorder_export.ui:492
 #, kde-format
 msgid "Edit video profile"
 msgstr "編輯影片設定檔"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, buttonBrowseFfmpeg)
-#: plugins/dockers/recorder/recorder_export.ui:496
+#: plugins/dockers/recorder/recorder_export.ui:499
 #, kde-format
 msgid "Setup ffmpeg executable location"
 msgstr "設定 FFmpeg 可執行檔的位置"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, spinCaptureInterval)
 #. i18n: ectx: property (suffix), widget (QSpinBox, spinLastFrameSec)
-#: plugins/dockers/recorder/recorder_export.ui:518
+#: plugins/dockers/recorder/recorder_export.ui:521
 #: plugins/dockers/recorder/recorderdocker.ui:180
 #, kde-format
 msgctxt "Contraction of \"second\" for interval"
@@ -36231,54 +36249,54 @@ msgid " sec."
 msgstr " 秒"
 
 #. i18n: ectx: property (text), widget (QLabel, labelTitleVideoDuration)
-#: plugins/dockers/recorder/recorder_export.ui:576
+#: plugins/dockers/recorder/recorder_export.ui:579
 #, kde-format
 msgid "Video duration:"
 msgstr "影片長度："
 
 #. i18n: ectx: property (text), widget (QLabel, labelDone)
-#: plugins/dockers/recorder/recorder_export.ui:839
+#: plugins/dockers/recorder/recorder_export.ui:842
 #, kde-format
 msgctxt "Caption: Video exporting finished"
 msgid "Done!"
 msgstr "完成！"
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonWatchIt)
-#: plugins/dockers/recorder/recorder_export.ui:857
+#: plugins/dockers/recorder/recorder_export.ui:860
 #, kde-format
 msgctxt "Watch the video which is just created"
 msgid "Watch it!"
 msgstr "觀看！"
 
 #. i18n: ectx: property (text), widget (QLabel, labelWritten)
-#: plugins/dockers/recorder/recorder_export.ui:867
+#: plugins/dockers/recorder/recorder_export.ui:870
 #, kde-format
 msgid "The timelapse video has been written to:"
 msgstr "縮時影片已經寫入至："
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonShowInFolder)
-#: plugins/dockers/recorder/recorder_export.ui:885
+#: plugins/dockers/recorder/recorder_export.ui:888
 #, kde-format
 msgctxt "Open the folder when the new created video is placed"
 msgid "Show in folder"
 msgstr "在資料夾顯示"
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonRemoveSnapshots)
-#: plugins/dockers/recorder/recorder_export.ui:922
+#: plugins/dockers/recorder/recorder_export.ui:925
 #, kde-format
 msgctxt "Open the folder when the new created video is placed"
 msgid "Remove recordings"
 msgstr "移除錄影檔"
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonRestart)
-#: plugins/dockers/recorder/recorder_export.ui:988
+#: plugins/dockers/recorder/recorder_export.ui:991
 #, kde-format
 msgctxt "Button to restart the timelapse video configuring"
 msgid "Restart"
 msgstr "重新開始"
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonDoneClose)
-#: plugins/dockers/recorder/recorder_export.ui:995
+#: plugins/dockers/recorder/recorder_export.ui:998
 #, kde-format
 msgctxt "Close dialog button"
 msgid "Close"
@@ -36481,7 +36499,8 @@ msgstr "檔案格式："
 #, kde-format
 msgid ""
 "Record frames when Isolate Layer or Isolate Group mode is active.\n"
-"Depending on timelapse speed this may cause flickering in resulting video."
+"Depending on timelapse speed, this may cause flickering in the resulting "
+"video."
 msgstr ""
 "於啟用「單獨顯示使用中圖層」或「單獨顯示使用中群組」時錄影。\n"
 "視乎縮時影片的速率設定，有可能會導致輸出的影片出現閃爍現象。"
@@ -36523,10 +36542,10 @@ msgstr "匯出…"
 #, kde-format
 msgid ""
 "⚠ Unsupported color space.\n"
-"\"RGB/Alpha 8-bit\" is only supported."
+"Only \"RGB/Alpha 8-bit\" is supported."
 msgstr ""
 "⚠ 不支援的色彩空間。\n"
-"只支援 \"RGB/Alpha 8 位元\"。"
+"只支援「RGB/Alpha (8 位元)」。"
 
 #: plugins/dockers/recorder/recorderdocker_dock.cpp:102
 #, kde-format
@@ -36540,7 +36559,7 @@ msgctxt "@tooltip"
 msgid ""
 "Greater value will produce a larger file and a better quality. Doesn't "
 "affect CPU consumption.\n"
-"Values lower than 50 are not recommended due to high artifacts"
+"Values lower than 50 are not recommended due to high artifacts."
 msgstr ""
 "較大的數值會產生較大的檔案，而影像質素亦會更高。不影響 CPU 使用率。\n"
 "不建議設定為低於 50，因為這會產生大量雜訊。"
@@ -36634,8 +36653,8 @@ msgstr "錄影工具"
 #: plugins/dockers/recorder/recorderdocker_dock.cpp:464
 #, kde-format
 msgid ""
-"The recorder have been stopped due to failure while writing a frame. Please "
-"check free disk space and start recorder again."
+"The recorder has been stopped due to failure while writing a frame. Please "
+"check free disk space and start the recorder again."
 msgstr ""
 "錄影工具因為寫入影格失敗，已經停止錄影。請先檢查可用儲存空間大小，然後再重新"
 "開始錄影。"
@@ -36685,7 +36704,7 @@ msgstr "量化選色器"
 msgid "Set color space"
 msgstr "設定色彩空間"
 
-#. i18n: ectx: property (toolTip), widget (QPushButton, chkUsePercentage)
+#. i18n: ectx: property (toolTip), widget (QToolButton, chkUsePercentage)
 #: plugins/dockers/specificcolorselector/wdgSpecificColorSelectorWidget.ui:69
 #, kde-format
 msgid "Use percentage"
@@ -37038,17 +37057,17 @@ msgstr "向量圖庫"
 msgid "Task Sets"
 msgstr "操作集合"
 
-#: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:191
+#: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:188
 #, kde-format
 msgid "Taskset"
 msgstr "操作集合"
 
-#: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:199
+#: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:196
 #, kde-format
 msgid "Taskset Name"
 msgstr "操作集合名稱"
 
-#: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:245
+#: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:242
 #, kde-format
 msgid "Task sets"
 msgstr "操作集合"
@@ -37058,23 +37077,23 @@ msgstr "操作集合"
 msgid "Task"
 msgstr "操作"
 
-#. i18n: ectx: property (toolTip), widget (QPushButton, recordButton)
-#: plugins/dockers/tasksetdocker/wdgtasksetdocker.ui:37
+#. i18n: ectx: property (toolTip), widget (QToolButton, recordButton)
+#: plugins/dockers/tasksetdocker/wdgtasksetdocker.ui:40
 #, kde-format
 msgid "Start Recording"
 msgstr "開始錄影"
 
-#. i18n: ectx: property (toolTip), widget (QPushButton, clearButton)
-#: plugins/dockers/tasksetdocker/wdgtasksetdocker.ui:47
-#, kde-format
-msgid "Delete the taskset"
-msgstr "刪除操作集合"
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, saveButton)
-#: plugins/dockers/tasksetdocker/wdgtasksetdocker.ui:57
+#. i18n: ectx: property (toolTip), widget (QToolButton, saveButton)
+#: plugins/dockers/tasksetdocker/wdgtasksetdocker.ui:53
 #, kde-format
 msgid "Save the taskset"
 msgstr "儲存操作集合"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, clearButton)
+#: plugins/dockers/tasksetdocker/wdgtasksetdocker.ui:66
+#, kde-format
+msgid "Delete the taskset"
+msgstr "刪除操作集合"
 
 #: plugins/dockers/throttle/ThrottlePlugin.h:23
 #, kde-format
@@ -39081,34 +39100,34 @@ msgstr "編輯資源包"
 msgid "Create Resource Bundle"
 msgstr "建立資源包"
 
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:326
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:347
 #, kde-format
 msgid "The resource bundle name cannot be empty."
 msgstr "資源包的名稱不能為空。"
 
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:333
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:354
 #, kde-format
 msgid "The save location cannot be empty."
 msgstr "儲存位置不能為空。"
 
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:343
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:364
 #, kde-format
 msgctxt "In a dialog asking whether to overwrite a bundle (resource pack)"
 msgid "A bundle with this name already exists."
 msgstr "已經有同名的資源包。"
 
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:344
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:365
 #, kde-format
 msgctxt "In a dialog regarding overwriting a bundle (resource pack)"
 msgid "Do you want to overwrite the existing bundle?"
 msgstr "您確定要覆寫現存的資源包嗎？"
 
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:406
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:427
 #, kde-format
 msgid "Select a directory to save the bundle"
 msgstr "選擇儲存資源包的資料夾"
 
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:500
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:521
 #, kde-format
 msgid "Select file to use as bundle icon"
 msgstr "請選擇用作資源包圖示的檔案"
@@ -40079,7 +40098,7 @@ msgstr "旋轉："
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:220
 #: plugins/paintops/spray/wdgsprayoptions.ui:96
 #: plugins/tools/basictools/kis_tool_measure.cc:44
-#: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:98
+#: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:100
 #, kde-format
 msgid "Angle:"
 msgstr "角度："
@@ -41995,7 +42014,7 @@ msgstr "反鋸齒閾值："
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: property (text), widget (QLabel, labelReverse)
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.ui:115
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1929
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1944
 #, kde-format
 msgid "Reverse:"
 msgstr "反轉："
@@ -42004,7 +42023,7 @@ msgstr "反轉："
 #. i18n: ectx: attribute (title), widget (QWidget, tabPosition)
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.ui:159
 #: plugins/tools/basictools/wdgmovetool.ui:185
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1042
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1045
 #, kde-format
 msgid "Position"
 msgstr "位置"
@@ -42649,8 +42668,8 @@ msgstr "遞增"
 #: plugins/impex/brush/KisWdgOptionsBrush.h:36
 #: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:224
 #: plugins/paintops/mypaint/MyPaintBrushOption.h:30
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:2085
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:2101
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:2100
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:2116
 #, kde-format
 msgid "Pressure"
 msgstr "壓力"
@@ -42687,7 +42706,7 @@ msgstr "等級"
 #: plugins/paintops/libpaintop/forms/wdgtextbrush.ui:152
 #: plugins/paintops/roundmarker/kis_roundmarker_option.ui:36
 #: plugins/paintops/spray/wdgsprayoptions.ui:132
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1951
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1966
 #, kde-format
 msgid "Spacing:"
 msgstr "間距："
@@ -46012,7 +46031,7 @@ msgstr "180°"
 #: plugins/paintops/sketch/kis_sketch_paintop_settings_widget.cpp:37
 #: plugins/paintops/spray/kis_spray_paintop_settings_widget.cpp:40
 #: plugins/paintops/tangentnormal/kis_tangent_normal_paintop_settings_widget.cpp:52
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:736
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:739
 #, kde-format
 msgid "Rotation"
 msgstr "旋轉"
@@ -46438,7 +46457,7 @@ msgstr "漩渦 (逆時針)"
 #: plugins/paintops/deform/kis_deform_paintop_settings.cpp:138
 #: plugins/paintops/deform/wdgdeformoptions.ui:79
 #: plugins/tools/basictools/wdgmultihandtool.ui:173
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1799
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1814
 #, kde-format
 msgid "Move"
 msgstr "移動"
@@ -47398,7 +47417,7 @@ msgstr "堆疊"
 #. i18n: ectx: property (text), widget (QRadioButton, radioWash)
 #. i18n: ectx: property (text), item, widget (QComboBox, buidupModeComboBox)
 #: plugins/paintops/libpaintop/forms/wdgincremental.ui:43
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:2058
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:2073
 #, kde-format
 msgid "Wash"
 msgstr "沖刷"
@@ -50652,7 +50671,7 @@ msgstr "用於編輯選定檔案屬性的外掛程式。"
 
 #. i18n: ectx: property (text), widget (QToolButton, liquifyRotate)
 #: plugins/python/documenttools/tools/rotatetool/rotatetool.py:12
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1846
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1861
 #, kde-format
 msgid "Rotate"
 msgstr "旋轉"
@@ -50668,8 +50687,8 @@ msgstr "度數："
 #. i18n: ectx: property (title), widget (QGroupBox, scaleGroup)
 #. i18n: ectx: property (text), widget (QToolButton, liquifyScale)
 #: plugins/python/documenttools/tools/scaletool/scaletool.py:12
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:912
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1824
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:915
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1839
 #, kde-format
 msgid "Scale"
 msgstr "縮放"
@@ -51759,12 +51778,12 @@ msgstr "顯示預覽"
 msgid "Show Guideline"
 msgstr "顯示引導線"
 
-#: plugins/tools/basictools/kis_tool_line.cc:365
+#: plugins/tools/basictools/kis_tool_line.cc:366
 #, kde-format
 msgid "Length: %1 px"
 msgstr "長度：%1 px"
 
-#: plugins/tools/basictools/kis_tool_line.cc:383
+#: plugins/tools/basictools/kis_tool_line.cc:384
 #, kde-format
 msgid ""
 "Alt+Drag will move the origin of the currently displayed line around, Shift"
@@ -52123,8 +52142,8 @@ msgstr "單位："
 #. i18n: ectx: property (toolTip), widget (KisIntParseSpinBox, translateXBox)
 #: plugins/tools/basictools/wdgmovetool.ui:235
 #: plugins/tools/basictools/wdgmovetool.ui:257
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1068
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1090
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1071
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1093
 #, kde-format
 msgid "Horizontal Translation"
 msgstr "水平位置"
@@ -52132,7 +52151,7 @@ msgstr "水平位置"
 #. i18n: ectx: property (text), widget (QLabel, label_offsetX)
 #. i18n: ectx: property (text), widget (QLabel, label_rotateX)
 #: plugins/tools/basictools/wdgmovetool.ui:241
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:769
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:772
 #, kde-format
 msgid "&x:"
 msgstr "&x："
@@ -52141,8 +52160,8 @@ msgstr "&x："
 #. i18n: ectx: property (toolTip), widget (QLabel, label_offsetY)
 #: plugins/tools/basictools/wdgmovetool.ui:273
 #: plugins/tools/basictools/wdgmovetool.ui:286
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1106
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1119
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1109
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1122
 #, kde-format
 msgid "Vertical Translation"
 msgstr "垂直位置"
@@ -52150,7 +52169,7 @@ msgstr "垂直位置"
 #. i18n: ectx: property (text), widget (QLabel, label_offsetY)
 #. i18n: ectx: property (text), widget (QLabel, label_rotateY)
 #: plugins/tools/basictools/wdgmovetool.ui:289
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:804
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:807
 #, kde-format
 msgid "&y:"
 msgstr "&y："
@@ -52563,83 +52582,83 @@ msgstr "西方書法形狀"
 msgid "Save profile as..."
 msgstr "設定檔另存為…"
 
-#: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:64
+#: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:65
 #, kde-format
 msgid "Remove profile"
 msgstr "移除設定檔"
 
-#: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:72
+#: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:74
 #, kde-format
 msgid "&Follow selected path"
 msgstr "跟隨選取的路徑(&F)"
 
-#: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:75
+#: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:77
 #, kde-format
 msgid "Use tablet &pressure"
 msgstr "使用數位板壓力(&P)"
 
-#: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:86
+#: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:88
 #, kde-format
 msgid "Thinning:"
 msgstr "變細："
 
-#: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:95
+#: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:97
 #, kde-format
 msgid "Use tablet &angle"
 msgstr "使用數位板角度(&A)"
 
-#: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:109
+#: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:111
 #, kde-format
 msgid "Fixation:"
 msgstr "固定："
 
-#: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:118
+#: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:120
 #, kde-format
 msgid "Caps:"
 msgstr "線頭："
 
-#: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:127
+#: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:129
 #: plugins/tools/tool_dyna/kis_tool_dyna.cpp:277
 #, kde-format
 msgid "Mass:"
 msgstr "重量："
 
-#: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:136
+#: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:138
 #: plugins/tools/tool_dyna/kis_tool_dyna.cpp:284
 #, kde-format
 msgid "Drag:"
 msgstr "拽引："
 
-#: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:187
-#: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:188
-#: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:195
-#: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:215
+#: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:189
+#: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:190
+#: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:197
+#: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:217
 #, kde-format
 msgid "Current"
 msgstr "目前設定"
 
-#: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:207
+#: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:209
 #, kde-format
 msgid "Profile name"
 msgstr "設定檔案名稱"
 
-#: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:208
+#: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:210
 #, kde-format
 msgid "Please insert the name by which you want to save this profile:"
 msgstr "請輸入要儲存設定檔的名稱："
 
-#: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:217
+#: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:219
 #, kde-format
 msgid "Sorry, the name you entered is invalid."
 msgstr "對不起，輸入的名稱無效。"
 
-#: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:218
+#: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:220
 #, kde-format
 msgctxt "invalid profile name"
 msgid "Invalid name."
 msgstr "無效名稱。"
 
-#: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:226
+#: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:228
 #, kde-format
 msgid ""
 "A profile with that name already exists.\n"
@@ -52648,13 +52667,13 @@ msgstr ""
 "已存在此名稱的設定檔。\n"
 "要覆蓋它嗎？"
 
-#: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:361
-#: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:386
+#: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:363
+#: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:388
 #, kde-format
 msgid "Mouse"
 msgstr "滑鼠"
 
-#: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:374
+#: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:376
 #, kde-format
 msgid "Graphics Pen"
 msgstr "壓感筆"
@@ -53093,7 +53112,7 @@ msgid "Line height"
 msgstr "行高"
 
 #: plugins/tools/svgtexttool/SvgTextEditor.cpp:1455
-#: plugins/tools/svgtexttool/SvgTextTool.cpp:206
+#: plugins/tools/svgtexttool/SvgTextTool.cpp:209
 #, kde-format
 msgid "Letter Spacing"
 msgstr "字距"
@@ -53399,27 +53418,27 @@ msgstr "字距調整 (Kerning)"
 msgid "Create new texts with..."
 msgstr "建立新文字自…"
 
-#: plugins/tools/svgtexttool/SvgTextTool.cpp:174
+#: plugins/tools/svgtexttool/SvgTextTool.cpp:175
 #, kde-format
 msgid "Anchor text to the left."
 msgstr "將文字錨定到左側。"
 
-#: plugins/tools/svgtexttool/SvgTextTool.cpp:182
+#: plugins/tools/svgtexttool/SvgTextTool.cpp:184
 #, kde-format
 msgid "Anchor text to the middle."
 msgstr "將文字錨定到中間。"
 
-#: plugins/tools/svgtexttool/SvgTextTool.cpp:190
+#: plugins/tools/svgtexttool/SvgTextTool.cpp:193
 #, kde-format
 msgid "Anchor text to the right."
 msgstr "將文字錨定到右側。"
 
-#: plugins/tools/svgtexttool/SvgTextTool.cpp:220
+#: plugins/tools/svgtexttool/SvgTextTool.cpp:223
 #, kde-format
 msgid "Edit Text"
 msgstr "編輯文字"
 
-#: plugins/tools/svgtexttool/SvgTextTool.cpp:256
+#: plugins/tools/svgtexttool/SvgTextTool.cpp:259
 #, kde-format
 msgctxt "@title:window"
 msgid "Krita - Edit Text"
@@ -54168,7 +54187,7 @@ msgstr "切換外框的編輯和扭曲模式"
 
 #. i18n: ectx: property (text), widget (QPushButton, lockUnlockPointsButton)
 #: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:669
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1603
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1618
 #, kde-format
 msgid "Lock Points"
 msgstr "鎖定點"
@@ -54180,7 +54199,7 @@ msgstr "解鎖點"
 
 #. i18n: ectx: property (text), widget (QLabel, cageTransformDirections)
 #: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:748
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1641
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1656
 #, kde-format
 msgid "Create 3 points on the canvas to begin"
 msgstr "在畫布上至少建立 3 個點"
@@ -54276,268 +54295,268 @@ msgid "Transform around pivot point (Alt)"
 msgstr "圍繞支點變形 (Alt)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, freeMoveRadioButton)
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:627
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:630
 #, kde-format
 msgctxt "@option:radio Type of transformation"
 msgid "Position"
 msgstr "位置"
 
 #. i18n: ectx: property (text), widget (QRadioButton, freeRotationRadioButton)
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:640
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:643
 #, kde-format
 msgctxt "@option:radio Type of transformation"
 msgid "Rotate"
 msgstr "旋轉"
 
 #. i18n: ectx: property (text), widget (QRadioButton, freeScaleRadioButton)
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:650
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:653
 #, kde-format
 msgctxt "@option:radio Type of transformation"
 msgid "Scale"
 msgstr "縮放"
 
 #. i18n: ectx: property (text), widget (QRadioButton, freeShearRadioButton)
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:660
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:663
 #, kde-format
 msgctxt "@option:radio Type of transformation"
 msgid "Shear"
 msgstr "切變"
 
 #. i18n: ectx: property (text), widget (QLabel, tooBigLabelWidget)
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:697
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:700
 #, kde-format
 msgid "off canvas"
 msgstr "畫布之外"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_rotateX)
 #. i18n: ectx: property (toolTip), widget (KisAngleSelector, aXBox)
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:763
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:779
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:766
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:782
 #, kde-format
 msgid "Rotate around X-Axis"
 msgstr "圍繞 X 軸旋轉"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_rotateY)
 #. i18n: ectx: property (toolTip), widget (KisAngleSelector, aYBox)
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:798
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:814
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:801
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:817
 #, kde-format
 msgid "Rotate around Y-Axis"
 msgstr "圍繞 Y 軸旋轉"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_rotateZ)
 #. i18n: ectx: property (toolTip), widget (KisAngleSelector, aZBox)
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:833
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:858
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:836
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:861
 #, kde-format
 msgid "Rotate around Z-Axis"
 msgstr "圍繞 Z 軸旋轉"
 
 #. i18n: ectx: property (text), widget (QLabel, label_rotateZ)
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:839
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:842
 #, kde-format
 msgid "&z:"
 msgstr "&z："
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblCameraHeight)
 #. i18n: ectx: property (toolTip), widget (KisDoubleSliderSpinBox, cameraHeightBox)
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:877
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:902
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:880
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:905
 #, kde-format
 msgid "Z-coordinate of the camera position over the scene"
 msgstr "鏡頭位於場景上的 Z 軸座標"
 
 #. i18n: ectx: property (text), widget (QLabel, lblCameraHeight)
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:883
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:886
 #, kde-format
 msgid "Camera height:"
 msgstr "鏡頭高度："
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_width)
 #. i18n: ectx: property (toolTip), widget (KisIntParseSpinBox, scaleXBox)
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:943
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:965
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:946
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:968
 #, kde-format
 msgid "Horizontal Scale"
 msgstr "水平縮放"
 
 #. i18n: ectx: property (toolTip), widget (KisIntParseSpinBox, scaleYBox)
 #. i18n: ectx: property (toolTip), widget (QLabel, label_height)
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:981
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1003
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:984
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1006
 #, kde-format
 msgid "Vertical Scale"
 msgstr "垂直縮放"
 
 #. i18n: ectx: property (text), widget (QLabel, label_offsetX)
 #. i18n: ectx: property (text), widget (QLabel, label_shearX)
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1074
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1172
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1077
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1175
 #, kde-format
 msgid "x:"
 msgstr "x："
 
 #. i18n: ectx: property (text), widget (QLabel, label_offsetY)
 #. i18n: ectx: property (text), widget (QLabel, label_shearY)
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1122
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1213
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1125
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1216
 #, kde-format
 msgid "y:"
 msgstr "y："
 
 #. i18n: ectx: property (title), widget (QGroupBox, shearGroup)
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1140
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1143
 #, kde-format
 msgid "Shear"
 msgstr "切變"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_shearX)
 #. i18n: ectx: property (toolTip), widget (KisDoubleSliderSpinBox, shearXBox)
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1169
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1232
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1172
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1235
 #, kde-format
 msgid "Horizontal Shear"
 msgstr "水平切變"
 
 #. i18n: ectx: property (toolTip), widget (KisDoubleSliderSpinBox, shearYBox)
 #. i18n: ectx: property (toolTip), widget (QLabel, label_shearY)
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1191
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1210
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1194
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1213
 #, kde-format
 msgid "Vertical Shear"
 msgstr "垂直切變"
 
-#. i18n: ectx: property (toolTip), widget (QPushButton, flipXButton)
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1265
+#. i18n: ectx: property (toolTip), widget (QToolButton, flipXButton)
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1268
 #, kde-format
 msgid "Flip selection horizontally"
 msgstr "水平翻轉選取區域"
 
-#. i18n: ectx: property (toolTip), widget (QPushButton, flipYButton)
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1287
+#. i18n: ectx: property (toolTip), widget (QToolButton, flipYButton)
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1293
 #, kde-format
 msgid "Flip selection vertically"
 msgstr "垂直翻轉選取區域"
 
-#. i18n: ectx: property (toolTip), widget (QPushButton, rotateCCWButton)
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1325
+#. i18n: ectx: property (toolTip), widget (QToolButton, rotateCCWButton)
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1334
 #, kde-format
 msgid "Rotate selection counter-clockwise 90 degrees"
 msgstr "將選取區域逆時針旋轉 90 度"
 
-#. i18n: ectx: property (toolTip), widget (QPushButton, rotateCWButton)
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1347
+#. i18n: ectx: property (toolTip), widget (QToolButton, rotateCWButton)
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1359
 #, kde-format
 msgid "Rotate the selection clockwise 90 degrees"
 msgstr "將選取區域順時針旋轉 90 度"
 
 #. i18n: ectx: property (text), widget (QLabel, flexibilityLabel)
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1423
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1438
 #, kde-format
 msgid "Fle&xibility:"
 msgstr "彈性(&X)："
 
 #. i18n: ectx: property (text), widget (QLabel, warpTypeLabel)
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1452
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1467
 #, kde-format
 msgid "Anc&hor Strength:"
 msgstr "錨定強度(&H)："
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1470
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1485
 #, kde-format
 msgid "Anchor Points"
 msgstr "錨點"
 
 #. i18n: ectx: property (text), widget (QRadioButton, defaultRadioButton)
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1505
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1520
 #, kde-format
 msgid "Subdi&vide"
 msgstr "細分(&V)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, customRadioButton)
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1562
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1577
 #, kde-format
 msgid "Draw"
 msgstr "繪製"
 
 #. i18n: ectx: property (text), widget (QPushButton, resetPointsButton)
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1596
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1611
 #, kde-format
 msgid "Clear Points"
 msgstr "清理點"
 
 #. i18n: ectx: property (text), widget (QRadioButton, cageAddEditRadio)
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1648
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1663
 #, kde-format
 msgid "Add/Ed&it Anchor Points"
 msgstr "新增/編輯錨點(&I)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, cageDeformRadio)
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1664
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1679
 #, kde-format
 msgid "Defor&m Selection"
 msgstr "將選取區域扭曲(&M)"
 
 #. i18n: ectx: property (text), widget (QLabel, adjustGranularity)
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1696
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1711
 #, kde-format
 msgid "Adjust Granularity :"
 msgstr "調整粒度："
 
 #. i18n: ectx: property (text), widget (QLabel, previewGranularity)
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1705
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1720
 #, kde-format
 msgctxt "The Granularity value for Cage Transformation Preview"
 msgid "Preview"
 msgstr "預覽時"
 
 #. i18n: ectx: property (text), widget (QLabel, realGranularity)
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1722
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1737
 #, kde-format
 msgctxt "The Granularity value for Cage Transformation Result"
 msgid "Real"
 msgstr "實際"
 
 #. i18n: ectx: property (whatsThis), widget (QFrame, liquifyOptionsLayout)
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1769
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1784
 #, kde-format
 msgid "<html><head/><body><p><br/></p></body></html>"
 msgstr "<html><head/><body><p><br/></p></body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, lblAmount)
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:2014
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:2029
 #, kde-format
 msgctxt "Amount of transformation"
 msgid "Amount:"
 msgstr "扭曲量："
 
 #. i18n: ectx: property (text), item, widget (QComboBox, buidupModeComboBox)
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:2053
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:2068
 #, kde-format
 msgid "Build Up"
 msgstr "堆疊"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:2138
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:2153
 #, kde-format
 msgid "Mesh size"
 msgstr "網格大小"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkShowControlPoints)
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:2167
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:2182
 #, kde-format
 msgid "Show handles"
 msgstr "顯示控制柄"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkSymmetricalHandles)
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:2174
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:2189
 #, kde-format
 msgid "Lock handles symmetrically"
 msgstr "對稱鎖定控制柄兩邊"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkScaleHandles)
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:2181
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:2196
 #, kde-format
 msgid "Scale handles proportionally"
 msgstr "按比例縮放控制柄"
