@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-11-06 00:15+0000\n"
-"PO-Revision-Date: 2021-11-03 08:28+0000\n"
+"PO-Revision-Date: 2021-11-07 08:01+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -28179,10 +28179,9 @@ msgid "Use This Template"
 msgstr "使用此範本"
 
 #: libs/ui/KisView.cpp:531
-#, fuzzy, kde-format
-#| msgid "You cannot use this tool with the selected layer type"
+#, kde-format
 msgid "You cannot drag and drop colors on the selected layer type."
-msgstr "不能在選定的圖層類型上使用此工具"
+msgstr "不能將色塊拖放到選定的圖層類型上。"
 
 #: libs/ui/KisView.cpp:539 libs/ui/tool/kis_tool.cc:662
 #, kde-format
