@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-11-03 00:17+0000\n"
-"PO-Revision-Date: 2021-11-03 08:28+0000\n"
+"POT-Creation-Date: 2021-11-06 00:15+0000\n"
+"PO-Revision-Date: 2021-11-07 08:01+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -17456,7 +17456,7 @@ msgstr "輸出"
 #: libs/pigment/resources/KoColorSet.cpp:852
 #: libs/pigment/resources/KoColorSet.cpp:1075
 #: libs/ui/actions/KisPasteActionFactories.cpp:305
-#: libs/ui/animation/KisDlgAnimationRenderer.cpp:345 libs/ui/KisView.cpp:666
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:345 libs/ui/KisView.cpp:734
 #: plugins/generators/seexpr/kis_wdg_seexpr.cpp:34
 #, kde-format
 msgid "Untitled"
@@ -17525,8 +17525,8 @@ msgstr "本機資源"
 #: libs/ui/KisMainWindow.cpp:2132 libs/ui/KisPart.cpp:558
 #: libs/ui/KisPart.cpp:561 libs/ui/KisReferenceImage.cpp:178
 #: libs/ui/KisRemoteFileFetcher.cpp:42 libs/ui/KisTemplateCreateDia.cpp:284
-#: libs/ui/KisTemplateCreateDia.cpp:390 libs/ui/KisView.cpp:669
-#: libs/ui/KisWelcomePageWidget.cpp:693
+#: libs/ui/KisTemplateCreateDia.cpp:390 libs/ui/KisView.cpp:737
+#: libs/ui/KisWelcomePageWidget.cpp:691
 #: libs/ui/opengl/kis_opengl_canvas2.cpp:388
 #: libs/ui/utils/KisClipboardUtil.cpp:131
 #: libs/ui/utils/KisClipboardUtil.cpp:236
@@ -18368,7 +18368,7 @@ msgid "Select All"
 msgstr "全部選取"
 
 #: libs/ui/actions/kis_selection_action_factories.cpp:205
-#: libs/ui/KisView.cpp:525
+#: libs/ui/KisView.cpp:557
 msgctxt "(qtundo-format)"
 msgid "Flood Fill Layer"
 msgstr "浸漫填充圖層"
@@ -21457,7 +21457,7 @@ msgid "Show details"
 msgstr "顯示詳細資料"
 
 #. i18n: ectx: property (text), widget (QLabel, labelNoFeed)
-#: libs/ui/forms/KisWelcomePage.ui:455 libs/ui/KisWelcomePageWidget.cpp:394
+#: libs/ui/forms/KisWelcomePage.ui:455 libs/ui/KisWelcomePageWidget.cpp:392
 #, kde-format
 msgid ""
 "You can <a href=\"ignored\" style=\"color: COLOR_PLACEHOLDER; text-"
@@ -21475,43 +21475,43 @@ msgid "Community"
 msgstr "社群資源"
 
 #. i18n: ectx: property (text), widget (QLabel, manualLink)
-#: libs/ui/forms/KisWelcomePage.ui:647 libs/ui/KisWelcomePageWidget.cpp:380
+#: libs/ui/forms/KisWelcomePage.ui:647 libs/ui/KisWelcomePageWidget.cpp:378
 #, kde-format
 msgid "User Manual"
 msgstr "使用者手冊"
 
 #. i18n: ectx: property (text), widget (QLabel, gettingStartedLink)
-#: libs/ui/forms/KisWelcomePage.ui:737 libs/ui/KisWelcomePageWidget.cpp:377
+#: libs/ui/forms/KisWelcomePage.ui:737 libs/ui/KisWelcomePageWidget.cpp:375
 #, kde-format
 msgid "Getting Started"
 msgstr "新手入門"
 
 #. i18n: ectx: property (text), widget (QLabel, userCommunityLink)
-#: libs/ui/forms/KisWelcomePage.ui:824 libs/ui/KisWelcomePageWidget.cpp:374
+#: libs/ui/forms/KisWelcomePage.ui:824 libs/ui/KisWelcomePageWidget.cpp:372
 #, kde-format
 msgid "User Community"
 msgstr "使用者社群"
 
 #. i18n: ectx: property (text), widget (QLabel, kritaWebsiteLink)
-#: libs/ui/forms/KisWelcomePage.ui:911 libs/ui/KisWelcomePageWidget.cpp:386
+#: libs/ui/forms/KisWelcomePage.ui:911 libs/ui/KisWelcomePageWidget.cpp:384
 #, kde-format
 msgid "Krita Website"
 msgstr "Krita 官方網站"
 
 #. i18n: ectx: property (text), widget (QLabel, sourceCodeLink)
-#: libs/ui/forms/KisWelcomePage.ui:1001 libs/ui/KisWelcomePageWidget.cpp:389
+#: libs/ui/forms/KisWelcomePage.ui:1001 libs/ui/KisWelcomePageWidget.cpp:387
 #, kde-format
 msgid "Source Code"
 msgstr "原始碼"
 
 #. i18n: ectx: property (text), widget (QLabel, supportKritaLink)
-#: libs/ui/forms/KisWelcomePage.ui:1088 libs/ui/KisWelcomePageWidget.cpp:383
+#: libs/ui/forms/KisWelcomePage.ui:1088 libs/ui/KisWelcomePageWidget.cpp:381
 #, kde-format
 msgid "Support Krita"
 msgstr "支援 Krita"
 
 #. i18n: ectx: property (text), widget (QLabel, poweredByKDELink)
-#: libs/ui/forms/KisWelcomePage.ui:1178 libs/ui/KisWelcomePageWidget.cpp:392
+#: libs/ui/forms/KisWelcomePage.ui:1178 libs/ui/KisWelcomePageWidget.cpp:390
 #, kde-format
 msgid "Powered by KDE"
 msgstr "本軟體基於 KDE"
@@ -21529,7 +21529,7 @@ msgid "Start"
 msgstr "開始作業"
 
 #. i18n: ectx: property (text), widget (QLabel, devBuildLabel)
-#: libs/ui/forms/KisWelcomePage.ui:1428 libs/ui/KisWelcomePageWidget.cpp:607
+#: libs/ui/forms/KisWelcomePage.ui:1428 libs/ui/KisWelcomePageWidget.cpp:605
 #, kde-format
 msgid "DEV BUILD"
 msgstr "開發建置版本"
@@ -26188,7 +26188,7 @@ msgstr "再次套用濾鏡：%1"
 msgid "Import Image"
 msgstr "匯入影像"
 
-#: libs/ui/kis_image_manager.cc:197 libs/ui/widgets/KoDualColorButton.cpp:89
+#: libs/ui/kis_image_manager.cc:197 libs/ui/widgets/KoDualColorButton.cpp:90
 #, kde-format
 msgid "Select a Color"
 msgstr "選取一種色彩"
@@ -26798,19 +26798,13 @@ msgstr ""
 msgid "Toggle Fullscreen"
 msgstr "切換全螢幕"
 
-#: libs/ui/kis_statusbar.cc:251
-#, kde-format
-msgctxt "@info mouse position (x, y)"
-msgid "%1, %2"
-msgstr "%1, %2"
-
-#: libs/ui/kis_statusbar.cc:263
+#: libs/ui/kis_statusbar.cc:245
 #, kde-format
 msgctxt "@info:status width x height (file size)"
 msgid "%1 &x %2 (%3)"
 msgstr "%1 &x %2 (%3)"
 
-#: libs/ui/kis_statusbar.cc:295
+#: libs/ui/kis_statusbar.cc:277
 #, kde-format
 msgctxt "tooltip on statusbar memory reporting button (image stats)"
 msgid ""
@@ -26824,7 +26818,7 @@ msgstr ""
 "  - 投影：\t\t%3\n"
 "  - 即時預覽：\t%4\n"
 
-#: libs/ui/kis_statusbar.cc:306
+#: libs/ui/kis_statusbar.cc:288
 #, kde-format
 msgctxt "tooltip on statusbar memory reporting button (total stats)"
 msgid ""
@@ -26842,7 +26836,7 @@ msgstr ""
 "\n"
 "已用置換空間：\t%8"
 
-#: libs/ui/kis_statusbar.cc:341
+#: libs/ui/kis_statusbar.cc:323
 #, kde-format
 msgctxt "tooltip on statusbar memory reporting button"
 msgid ""
@@ -26856,24 +26850,24 @@ msgstr ""
 "警告：\t記憶體不足！已啟用記憶體置換。\n"
 "\t\t請在設定對話框中為 Krita 分配更多記憶體"
 
-#: libs/ui/kis_statusbar.cc:396
+#: libs/ui/kis_statusbar.cc:378
 #: plugins/python/channels2layers/channels2layers.py:79
 #, kde-format
 msgid "Hidden"
 msgstr "已隱藏"
 
-#: libs/ui/kis_statusbar.cc:398
+#: libs/ui/kis_statusbar.cc:380
 #, kde-format
 msgid "Ants"
 msgstr "螞蟻線"
 
-#: libs/ui/kis_statusbar.cc:398
+#: libs/ui/kis_statusbar.cc:380
 #: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:361
 #, kde-format
 msgid "Mask"
 msgstr "遮罩"
 
-#: libs/ui/kis_statusbar.cc:401
+#: libs/ui/kis_statusbar.cc:383
 #, kde-format
 msgid ""
 "Selection: x = %1 y = %2 width = %3 height = %4\n"
@@ -26882,17 +26876,17 @@ msgstr ""
 "選取區域：x = %1 y = %2 寬 = %3 高 = %4\n"
 "選取區域顯示模式：%5"
 
-#: libs/ui/kis_statusbar.cc:406
+#: libs/ui/kis_statusbar.cc:388
 #, kde-format
 msgid "No Selection"
 msgstr "無選取區域"
 
-#: libs/ui/kis_statusbar.cc:424
+#: libs/ui/kis_statusbar.cc:406
 #, kde-format
 msgid "No profile"
 msgstr "無色彩特性檔案"
 
-#: libs/ui/kis_statusbar.cc:426
+#: libs/ui/kis_statusbar.cc:408
 #, kde-format
 msgctxt "<color space> <image profile>"
 msgid "%1  %2"
@@ -28184,44 +28178,64 @@ msgstr "無可用圖片。"
 msgid "Use This Template"
 msgstr "使用此範本"
 
-#: libs/ui/KisView.cpp:670
+#: libs/ui/KisView.cpp:531
+#, kde-format
+msgid "You cannot drag and drop colors on the selected layer type."
+msgstr "不能將色塊拖放到選定的圖層類型上。"
+
+#: libs/ui/KisView.cpp:539 libs/ui/tool/kis_tool.cc:662
+#, kde-format
+msgid "Layer is locked and invisible."
+msgstr "圖層已鎖定且不可見。"
+
+#: libs/ui/KisView.cpp:541 libs/ui/tool/kis_tool.cc:664
+#, kde-format
+msgid "Layer is locked."
+msgstr "圖層已鎖定。"
+
+#: libs/ui/KisView.cpp:543 libs/ui/tool/kis_tool.cc:666
+#, kde-format
+msgid "Layer is invisible."
+msgstr "圖層不可見。"
+
+#: libs/ui/KisView.cpp:738
 #, kde-format
 msgid ""
 "<p>The document <b>'%1'</b> has been modified.</p><p>Do you want to save it?"
 "</p>"
 msgstr "<p>檔案 <b>「%1」</b> 已被修改。</p><p>要儲存它嗎？</p>"
 
-#: libs/ui/KisView.cpp:859
+#: libs/ui/KisView.cpp:927
 #, kde-format
 msgid "Soft Proofing doesn't work in floating point."
 msgstr "螢幕校樣不支援浮點位深度。"
 
-#: libs/ui/KisView.cpp:864
+#: libs/ui/KisView.cpp:932
 #, kde-format
 msgid "Soft Proofing turned on."
 msgstr "已啟用螢幕校樣。"
 
-#: libs/ui/KisView.cpp:866
+#: libs/ui/KisView.cpp:934
 #, kde-format
 msgid "Soft Proofing turned off."
 msgstr "已關閉螢幕校樣。"
 
-#: libs/ui/KisView.cpp:878
+#: libs/ui/KisView.cpp:946
 #, kde-format
 msgid "Gamut Warnings don't work in floating point."
 msgstr "色域警告不支援浮點色深。"
 
-#: libs/ui/KisView.cpp:884
+#: libs/ui/KisView.cpp:952
 #, kde-format
 msgid "Gamut Warnings turned on."
 msgstr "已啟用色域警告。"
 
-#: libs/ui/KisView.cpp:886
+#: libs/ui/KisView.cpp:954
 #, kde-format
 msgid "But Soft Proofing is still off."
 msgstr "但螢幕校樣仍然關閉。"
 
-#: libs/ui/KisView.cpp:889
+#: libs/ui/KisView.cpp:957
 #, kde-format
 msgid "Gamut Warnings turned off."
 msgstr "已關閉色域警告。"
@@ -28291,22 +28305,22 @@ msgstr "語言"
 msgid "English news is always up to date."
 msgstr "英文新聞永遠是最更新的。"
 
-#: libs/ui/KisWelcomePageWidget.cpp:416
+#: libs/ui/KisWelcomePageWidget.cpp:414
 #, kde-format
 msgid "Get your Krita Supporter Badge here!"
 msgstr "在此取得您的 Krita 支持者徽章！"
 
-#: libs/ui/KisWelcomePageWidget.cpp:712
+#: libs/ui/KisWelcomePageWidget.cpp:710
 #, kde-format
 msgid "New version of Krita is available."
 msgstr "Krita 有新版可用。"
 
-#: libs/ui/KisWelcomePageWidget.cpp:741
+#: libs/ui/KisWelcomePageWidget.cpp:739
 #, kde-format
 msgid "An error occurred during the update"
 msgstr "更新時發生錯誤"
 
-#: libs/ui/KisWelcomePageWidget.cpp:747
+#: libs/ui/KisWelcomePageWidget.cpp:745
 #, kde-format
 msgid "Restart is required."
 msgstr "需要重新啟動。"
@@ -29358,21 +29372,6 @@ msgstr "變形"
 #, kde-format
 msgid "No options"
 msgstr "無選項"
-
-#: libs/ui/tool/kis_tool.cc:662
-#, kde-format
-msgid "Layer is locked and invisible."
-msgstr "圖層已鎖定且不可見。"
-
-#: libs/ui/tool/kis_tool.cc:664
-#, kde-format
-msgid "Layer is locked."
-msgstr "圖層已鎖定。"
-
-#: libs/ui/tool/kis_tool.cc:666
-#, kde-format
-msgid "Layer is invisible."
-msgstr "圖層不可見。"
 
 #: libs/ui/tool/kis_tool.cc:668
 #, kde-format
@@ -31254,22 +31253,22 @@ msgstr ""
 "\"https://docs.krita.org/en/general_concepts/colors/color_managed_workflow."
 "html\">詳細資料</a></p></body></html>"
 
-#: libs/ui/widgets/KoDualColorButton.cpp:415
+#: libs/ui/widgets/KoDualColorButton.cpp:420
 #, kde-format
 msgid "Foreground color selector"
 msgstr "選取前景色"
 
-#: libs/ui/widgets/KoDualColorButton.cpp:418
+#: libs/ui/widgets/KoDualColorButton.cpp:423
 #, kde-format
 msgid "Set foreground and background colors to black and white"
 msgstr "將前景色和背景色設定為黑色和白色"
 
-#: libs/ui/widgets/KoDualColorButton.cpp:423
+#: libs/ui/widgets/KoDualColorButton.cpp:428
 #, kde-format
 msgid "Swap foreground and background colors"
 msgstr "交換前景色和背景色"
 
-#: libs/ui/widgets/KoDualColorButton.cpp:426
+#: libs/ui/widgets/KoDualColorButton.cpp:431
 #, kde-format
 msgid "Background color selector"
 msgstr "選取背景色"
@@ -54763,6 +54762,11 @@ msgstr "縮放工具"
 msgctxt "action"
 msgid "Reference Images Tool"
 msgstr "參考圖工具"
+
+#, kde-format
+#~ msgctxt "@info mouse position (x, y)"
+#~ msgid "%1, %2"
+#~ msgstr "%1, %2"
 
 #~ msgctxt "action"
 #~ msgid "Add a new &Group Layer"
