@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-11-09 00:15+0000\n"
+"POT-Creation-Date: 2021-11-10 00:15+0000\n"
 "PO-Revision-Date: 2021-11-07 08:01+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
@@ -17875,7 +17875,7 @@ msgstr "縮圖"
 #. i18n: ectx: property (text), widget (QPushButton, bnDelete)
 #. i18n: ectx: property (text), widget (QPushButton, deleteAllAssistantsButton)
 #: libs/resources/KisTagModel.cpp:125 libs/resources/KisTagModel.cpp:287
-#: libs/ui/widgets/kis_paintop_presets_editor.cpp:594
+#: libs/ui/widgets/kis_paintop_presets_editor.cpp:590
 #: plugins/assistants/Assistants/AssistantsToolOptions.ui:262
 #: plugins/tools/defaulttool/referenceimagestool/WdgToolOptions.ui:220
 #, kde-format
@@ -30798,7 +30798,7 @@ msgid "Mid-gray level:"
 msgstr "中間灰亮度："
 
 #: libs/ui/widgets/kis_paintop_presets_chooser_popup.cpp:43
-#: libs/ui/widgets/kis_paintop_presets_editor.cpp:129
+#: libs/ui/widgets/kis_paintop_presets_editor.cpp:125
 #: plugins/dockers/gamutmask/KisGamutMaskChooser.cpp:154
 #, kde-format
 msgctxt "@title Which elements to display (e.g., thumbnails or details)"
@@ -30806,59 +30806,59 @@ msgid "Display"
 msgstr "顯示方式"
 
 #: libs/ui/widgets/kis_paintop_presets_chooser_popup.cpp:49
-#: libs/ui/widgets/kis_paintop_presets_editor.cpp:135
+#: libs/ui/widgets/kis_paintop_presets_editor.cpp:131
 #: plugins/dockers/gamutmask/KisGamutMaskChooser.cpp:162
 #, kde-format
 msgid "Thumbnails"
 msgstr "縮圖"
 
 #: libs/ui/widgets/kis_paintop_presets_chooser_popup.cpp:54
-#: libs/ui/widgets/kis_paintop_presets_editor.cpp:140
+#: libs/ui/widgets/kis_paintop_presets_editor.cpp:136
 #: plugins/dockers/gamutmask/KisGamutMaskChooser.cpp:168
 #, kde-format
 msgid "Details"
 msgstr "詳細資料"
 
 #: libs/ui/widgets/kis_paintop_presets_chooser_popup.cpp:72
-#: libs/ui/widgets/kis_paintop_presets_editor.cpp:159
+#: libs/ui/widgets/kis_paintop_presets_editor.cpp:155
 #: libs/widgets/KoToolBox.cpp:297 libs/widgetutils/xmlgui/ktoolbar.cpp:318
 #: plugins/dockers/svgcollectiondocker/SvgSymbolCollectionDocker.cpp:200
 #, kde-format
 msgid "Icon Size"
 msgstr "圖示大小"
 
-#: libs/ui/widgets/kis_paintop_presets_editor.cpp:99
+#: libs/ui/widgets/kis_paintop_presets_editor.cpp:96
 #: plugins/generators/seexpr/kis_wdg_seexpr.cpp:47
 #, kde-format
 msgid "The settings for this preset have changed from their default."
 msgstr "此預設的目前設定已被變更為不同於其預設值。"
 
-#: libs/ui/widgets/kis_paintop_presets_editor.cpp:102
+#: libs/ui/widgets/kis_paintop_presets_editor.cpp:98
 #, kde-format
 msgid "Toggle showing presets"
 msgstr "切換顯示預設"
 
-#: libs/ui/widgets/kis_paintop_presets_editor.cpp:104
+#: libs/ui/widgets/kis_paintop_presets_editor.cpp:100
 #, kde-format
 msgid "Toggle showing scratchpad"
 msgstr "切換顯示試畫區"
 
-#: libs/ui/widgets/kis_paintop_presets_editor.cpp:106
+#: libs/ui/widgets/kis_paintop_presets_editor.cpp:102
 #, kde-format
 msgid "Reload the brush preset"
 msgstr "重新載入筆刷預設"
 
-#: libs/ui/widgets/kis_paintop_presets_editor.cpp:107
+#: libs/ui/widgets/kis_paintop_presets_editor.cpp:103
 #, kde-format
 msgid "Rename the brush preset"
 msgstr "重新命名筆刷預設"
 
-#: libs/ui/widgets/kis_paintop_presets_editor.cpp:189
+#: libs/ui/widgets/kis_paintop_presets_editor.cpp:185
 #, kde-format
 msgid "Detach Brush Editor"
 msgstr "在獨立視窗顯示筆刷編輯器"
 
-#: libs/ui/widgets/kis_paintop_presets_editor.cpp:536
+#: libs/ui/widgets/kis_paintop_presets_editor.cpp:532
 #, kde-format
 msgctxt "%1 is the name of a brush engine"
 msgid "%1 Engine"
