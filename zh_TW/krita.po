@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-11-10 00:15+0000\n"
+"POT-Creation-Date: 2021-11-11 00:15+0000\n"
 "PO-Revision-Date: 2021-11-07 08:01+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
@@ -14813,7 +14813,7 @@ msgstr "大小"
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1335
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1338
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1404
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1076
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1085
 #: libs/ui/forms/wdgdisplaysettings.ui:318
 #: libs/ui/forms/wdgrectangleconstraints.ui:86
 #: libs/ui/forms/wdgrectangleconstraints.ui:134
@@ -15378,8 +15378,8 @@ msgstr "旋轉 (Y)"
 msgid "Rotation (Z)"
 msgstr "旋轉 (Z)"
 
-#: libs/image/kis_layer.cc:278 libs/widgets/KoZoomAction.cpp:194
-#: libs/widgets/KoZoomAction.cpp:205 libs/widgets/KoZoomMode.cpp:13
+#: libs/image/kis_layer.cc:278 libs/widgets/KoZoomAction.cpp:216
+#: libs/widgets/KoZoomAction.cpp:227 libs/widgets/KoZoomMode.cpp:13
 #, kde-format
 msgid "%1%"
 msgstr "%1%"
@@ -17508,7 +17508,7 @@ msgstr "本機資源"
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:669
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:727
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:752
-#: libs/ui/dialogs/kis_dlg_preferences.cc:552
+#: libs/ui/dialogs/kis_dlg_preferences.cc:561
 #: libs/ui/input/kis_tablet_debugger.cpp:96 libs/ui/kis_custom_pattern.cc:131
 #: libs/ui/kis_filter_manager.cc:233 libs/ui/kis_filter_manager.cc:242
 #: libs/ui/kis_layer_manager.cc:313 libs/ui/kis_layer_manager.cc:961
@@ -17534,7 +17534,7 @@ msgstr "本機資源"
 #: libs/ui/widgets/kis_custom_image_widget.cc:299
 #: plugins/assistants/Assistants/kis_assistant_tool.cc:1080
 #: plugins/assistants/Assistants/kis_assistant_tool.cc:1083
-#: plugins/dockers/gamutmask/gamutmask_dock.cpp:302
+#: plugins/dockers/gamutmask/gamutmask_dock.cpp:305
 #: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:175
 #: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:178
 #: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:187
@@ -17596,7 +17596,7 @@ msgid "Could not add %1 to the database"
 msgstr "無法新增 %1 至資料庫"
 
 #: libs/resources/KisResourceLocator.cpp:584
-#: libs/resources/KisResourceLocator.cpp:935
+#: libs/resources/KisResourceLocator.cpp:941
 #, kde-format
 msgid "Could not remove storage %1 from the database"
 msgstr "無法從資料庫移除 %1 儲存空間"
@@ -17628,17 +17628,13 @@ msgstr "正在從 %1 資源包安裝資源。"
 msgid "Initializing the resources."
 msgstr "正在初始化資源。"
 
-#: libs/resources/KisResourceLocator.cpp:778
-#, kde-format
-msgid "Could not add storage %1 to the cache database"
-msgstr "無法新增 %1 儲存空間至快取資料庫"
-
-#: libs/resources/KisResourceLocator.cpp:799
+#: libs/resources/KisResourceLocator.cpp:798
 #, kde-format
 msgid "Temporary Resources"
 msgstr "暫存資源"
 
-#: libs/resources/KisResourceLocator.cpp:918
+#: libs/resources/KisResourceLocator.cpp:917
+#: libs/resources/KisResourceLocator.cpp:923
 #, kde-format
 msgid "Could not synchronize %1 with the database"
 msgstr "無法與資料庫同步 %1"
@@ -17717,8 +17713,8 @@ msgstr "MD5 雜湊值"
 #. i18n: ectx: attribute (title), widget (QWidget, tab_hsx)
 #. i18n: ectx: property (text), widget (QLabel, lblCurrentRenderer)
 #: libs/resources/KisResourceStorage.h:128
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1429
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1433
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1438
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1442
 #: libs/ui/forms/wdgdisplaysettings.ui:172 libs/ui/KoDocumentInfo.cpp:39
 #: libs/widgets/KisDlgInternalColorSelector.cpp:322
 #: libs/widgets/WdgDlgInternalColorSelector.ui:89
@@ -17944,7 +17940,7 @@ msgstr "儲存空間"
 #. i18n: ectx: attribute (title), widget (QWidget, tabResources)
 #. i18n: ectx: attribute (title), widget (QWidget, tab_4)
 #: libs/resourcewidgets/dbexplorer/WdgDbExplorer.ui:39
-#: libs/ui/forms/wdggeneralsettings.ui:977
+#: libs/ui/forms/wdggeneralsettings.ui:987
 #, kde-format
 msgid "Resources"
 msgstr "資源"
@@ -19466,8 +19462,8 @@ msgstr "主顯示器："
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgDisplaySettings)
 #: libs/ui/animation/VideoHDRMetadataOptionsDialog.ui:38
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1714
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1716
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1723
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1725
 #: libs/ui/forms/wdgcolorsettings.ui:154 libs/ui/forms/wdgdisplaysettings.ui:24
 #, kde-format
 msgid "Display"
@@ -19562,8 +19558,8 @@ msgstr "匯入影片動畫"
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
 #. i18n: ectx: attribute (title), widget (QWidget, general)
 #: libs/ui/animation/VideoImportDialog.ui:34
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1684
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1686
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1693
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1695
 #: libs/ui/forms/wdgcolorsettings.ui:28
 #: libs/ui/forms/wdgperformancesettings.ui:38 libs/ui/KoDocumentInfoDlg.cpp:92
 #: libs/ui/KoDocumentInfoDlg.cpp:93
@@ -20612,7 +20608,7 @@ msgid "Enter new style name"
 msgstr "輸入新樣式名稱"
 
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:270 libs/ui/KisMainWindow.cpp:2562
-#: plugins/dockers/gamutmask/gamutmask_dock.cpp:375
+#: plugins/dockers/gamutmask/gamutmask_dock.cpp:378
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Name:"
@@ -20671,10 +20667,10 @@ msgstr ""
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1408
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1411
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1414
-#: libs/ui/dialogs/kis_dlg_preferences.cc:994
-#: libs/ui/dialogs/kis_dlg_preferences.cc:998
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1002
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1081
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1003
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1007
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1011
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1090
 #: plugins/impex/webp/dlg_webp_import.ui:356
 #: plugins/impex/webp/dlg_webp_import.ui:369
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImagesWidget.cpp:44
@@ -20797,42 +20793,42 @@ msgstr "點擊並拖曳捲動"
 msgid "On Middle-Click Drag"
 msgstr "按住中間鍵拖曳捲動"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:291
+#: libs/ui/dialogs/kis_dlg_preferences.cc:294
 #, kde-format
 msgid "Open default window"
 msgstr "開啟預設視窗"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:292
+#: libs/ui/dialogs/kis_dlg_preferences.cc:295
 #, kde-format
 msgid "Load previous session"
 msgstr "載入上一次工作階段"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:293
+#: libs/ui/dialogs/kis_dlg_preferences.cc:296
 #, kde-format
 msgid "Show session manager"
 msgstr "顯示工作階段管理器"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:540
+#: libs/ui/dialogs/kis_dlg_preferences.cc:549
 #, kde-format
 msgid "Select a Background Image"
 msgstr "選擇背景影像"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:552
+#: libs/ui/dialogs/kis_dlg_preferences.cc:561
 #: libs/ui/KisTemplateCreateDia.cpp:390
 #, kde-format
 msgid "%1 is not a valid image file!"
 msgstr "%1 不是有效的影像檔案！"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:649
+#: libs/ui/dialogs/kis_dlg_preferences.cc:658
 #: libs/ui/widgets/kis_advanced_color_space_selector.cc:55
 #: libs/ui/widgets/kis_color_space_selector.cc:52
 #, kde-format
 msgid "Open Color Profile"
 msgstr "開啟色彩特性檔案"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:655
-#: libs/ui/dialogs/kis_dlg_preferences.cc:764
-#: libs/ui/dialogs/kis_dlg_preferences.cc:846
+#: libs/ui/dialogs/kis_dlg_preferences.cc:664
+#: libs/ui/dialogs/kis_dlg_preferences.cc:773
+#: libs/ui/dialogs/kis_dlg_preferences.cc:855
 #, kde-format
 msgctxt ""
 "The number of the screen (ordinal) and shortened 'name' of the screen (model "
@@ -20840,14 +20836,14 @@ msgctxt ""
 msgid "Screen %1 (%2):"
 msgstr "顯示器 %1 (%2)："
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:723
+#: libs/ui/dialogs/kis_dlg_preferences.cc:732
 #: libs/ui/widgets/kis_advanced_color_space_selector.cc:772
 #: libs/ui/widgets/kis_color_space_selector.cc:188
 #, kde-format
 msgid "Install Color Profiles"
 msgstr "安裝色彩特性檔案"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:938
+#: libs/ui/dialogs/kis_dlg_preferences.cc:947
 #, kde-format
 msgid ""
 "Use tablet driver timestamps for brush speed (may cause severe artifacts "
@@ -20855,210 +20851,210 @@ msgid ""
 msgstr ""
 "以數位板驅動程式提供的時間來計算筆刷速度 (使用 WinTab 時可能會產生大量雜訊)"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:940
+#: libs/ui/dialogs/kis_dlg_preferences.cc:949
 #, kde-format
 msgid "Use tablet driver timestamps for brush speed"
 msgstr "以數位板驅動程式提供的筆跡時間戳記來計算筆刷速度"
 
 #. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, intSwapSize)
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1046
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1055
 #: libs/ui/forms/wdgperformancesettings.ui:206
 #, kde-format
 msgid " GiB"
 msgstr " GiB"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1066
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1075
 #, kde-format
 msgctxt "suffix for \"seconds\""
 msgid " sec"
 msgstr " 秒"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1070
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1079
 #, kde-format
 msgid " fps"
 msgstr " fps"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1229
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1238
 #, kde-format
 msgctxt "@title:window"
 msgid "Select a swap directory"
 msgstr "選擇交換檔案目錄"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1291
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1300
 #, kde-format
 msgctxt "canvas renderer"
 msgid "OpenGL"
 msgstr "OpenGL"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1292
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1301
 #, kde-format
 msgctxt "canvas renderer"
 msgid "Software Renderer (very slow)"
 msgstr "軟體繪製器 (非常慢)"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1294
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1303
 #, kde-format
 msgctxt "canvas renderer"
 msgid "Direct3D 11 via ANGLE"
 msgstr "通過 ANGLE 實現的 Direct3D 11"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1296
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1305
 #, kde-format
 msgctxt "canvas renderer"
 msgid "OpenGL ES"
 msgstr "OpenGL ES"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1303
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1312
 #, kde-format
 msgctxt "canvas renderer"
 msgid "Unknown"
 msgstr "未知"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1323
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1332
 #, kde-format
 msgctxt "canvas renderer"
 msgid "Auto (%1)"
 msgstr "自動 (%1)"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1415
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1424
 #, kde-format
 msgid "Display Id: %1"
 msgstr "顯示器 ID：%1"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1416
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1425
 #, kde-format
 msgid "Display Name: %1 %2"
 msgstr "顯示器名稱：%1 %2"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1417
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1426
 #, kde-format
 msgid "Min Luminance: %1"
 msgstr "最小光度：%1"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1418
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1427
 #, kde-format
 msgid "Max Luminance: %1"
 msgstr "最大光度：%1"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1419
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1428
 #, kde-format
 msgid "Max Full Frame Luminance: %1"
 msgstr "最大全影格光度：%1"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1420
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1429
 #, kde-format
 msgid "Red Primary: %1, %2"
 msgstr "紅基色：%1, %2"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1421
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1430
 #, kde-format
 msgid "Green Primary: %1, %2"
 msgstr "綠基色：%1, %2"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1422
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1431
 #, kde-format
 msgid "Blue Primary: %1, %2"
 msgstr "藍基色：%1, %2"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1423
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1432
 #, kde-format
 msgid "White Point: %1, %2"
 msgstr "白點：%1, %2"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1459
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1468
 #, kde-format
 msgid "Warning(s):"
 msgstr "警告："
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1592
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1601
 #, kde-format
 msgid "WARNING: current display doesn't support HDR rendering"
 msgstr "警告：目前顯示器不支援 HDR 繪製"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1677
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1686
 #, kde-format
 msgid "Configure Krita"
 msgstr "設定 Krita"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1694
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1703
 #, kde-format
 msgid "Keyboard Shortcuts"
 msgstr "鍵盤快捷鍵"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1696
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1705
 #: libs/widgetutils/xmlgui/KisShortcutsEditor_p.cpp:282
 #, kde-format
 msgid "Shortcuts"
 msgstr "快捷鍵"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1706
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1715
 #, kde-format
 msgid "Canvas Input Settings"
 msgstr "畫布輸入設定"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1707
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1716
 #, kde-format
 msgid "Canvas Input"
 msgstr "畫布輸入"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1724
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1733
 #: plugins/dockers/logdocker/LogDockerDock.cpp:190
 #, kde-format
 msgid "Color Management"
 msgstr "色彩管理"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1726
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1735
 #, kde-format
 msgctxt "Label of color as in Color Management"
 msgid "Color"
 msgstr "色彩"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1734
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1736
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1743
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1745
 #, kde-format
 msgid "Performance"
 msgstr "效能"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1744
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1753
 #, kde-format
 msgid "Tablet settings"
 msgstr "數位板設定"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1746
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1755
 #, kde-format
 msgid "Tablet"
 msgstr "數位板"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1754
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1763
 #, kde-format
 msgid "Canvas-only settings"
 msgstr "畫布獨佔模式設定"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1756
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1765
 #, kde-format
 msgid "Canvas-only"
 msgstr "畫布獨佔模式"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1764
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1766
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1773
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1775
 #, kde-format
 msgid "Pop-up Palette"
 msgstr "浮動畫具板"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1774
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1783
 #, kde-format
 msgctxt "@title:tab Author page"
 msgid "Author"
 msgstr "作者檔案"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1776
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1785
 #: libs/ui/KoDocumentInfoDlg.cpp:115
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
 #, kde-format
 msgid "Author"
 msgstr "作者"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1783
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1792
 #, kde-format
 msgctxt "@action:button"
 msgid "Restore Defaults"
@@ -22397,7 +22393,7 @@ msgstr "畫布外周色彩："
 #. i18n: ectx: attribute (title), widget (QWidget, Miscellaneous)
 #. i18n: ectx: attribute (title), widget (QWidget, tab_4)
 #: libs/ui/forms/wdgdisplaysettings.ui:518
-#: libs/ui/forms/wdggeneralsettings.ui:726
+#: libs/ui/forms/wdggeneralsettings.ui:736
 #, kde-format
 msgid "Miscellaneous"
 msgstr "其他"
@@ -22838,118 +22834,125 @@ msgstr "在貼上後自動切換到變形工具"
 msgid "Enable Touch Rotation"
 msgstr "啟用觸控螢幕旋轉手勢"
 
-#. i18n: ectx: property (title), widget (QGroupBox, m_groupBoxKineticScrollingSettings)
+#. i18n: ectx: property (text), widget (QCheckBox, chkEnableSmoothZooming)
 #: libs/ui/forms/wdggeneralsettings.ui:479
+#, fuzzy, kde-format
+#| msgid "Enable Autosaving"
+msgid "Enable Smooth Zooming"
+msgstr "啟用自動儲存"
+
+#. i18n: ectx: property (title), widget (QGroupBox, m_groupBoxKineticScrollingSettings)
+#: libs/ui/forms/wdggeneralsettings.ui:489
 #, kde-format
 msgid "Kinetic Scrolling (needs restart)"
 msgstr "拖曳捲動 (需要重啟程式)"
 
 #. i18n: ectx: property (text), widget (QLabel, labelKineticScrollingSensitivity)
-#: libs/ui/forms/wdggeneralsettings.ui:496
+#: libs/ui/forms/wdggeneralsettings.ui:506
 #, kde-format
 msgid "Sensitivity:"
 msgstr "靈敏度："
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkKineticScrollingHideScrollbars)
-#: libs/ui/forms/wdggeneralsettings.ui:508
+#: libs/ui/forms/wdggeneralsettings.ui:518
 #, kde-format
 msgid "Hide docker scrollbars if kinetic scrolling is enabled (needs restart)"
 msgstr "啟用拖曳捲動時，隱藏工具面板的捲動軸 (需要重啟程式)"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
-#: libs/ui/forms/wdggeneralsettings.ui:535
+#: libs/ui/forms/wdggeneralsettings.ui:545
 #, kde-format
 msgid "File Handling"
 msgstr "檔案處理"
 
 #. i18n: ectx: property (title), widget (QGroupBox, m_autosaveCheckBox)
-#: libs/ui/forms/wdggeneralsettings.ui:541
+#: libs/ui/forms/wdggeneralsettings.ui:551
 #, kde-format
 msgid "Enable Autosaving"
 msgstr "啟用自動儲存"
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
-#: libs/ui/forms/wdggeneralsettings.ui:550
+#: libs/ui/forms/wdggeneralsettings.ui:560
 #, kde-format
 msgid "Autosave Interval:"
 msgstr "自動儲存間隔："
 
 #. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, m_autosaveSpinBox)
-#: libs/ui/forms/wdggeneralsettings.ui:569
+#: libs/ui/forms/wdggeneralsettings.ui:579
 #, kde-format
 msgctxt "Suffix: “Every x min”"
 msgid " min"
 msgstr " 分鐘"
 
 #. i18n: ectx: property (prefix), widget (KisIntParseSpinBox, m_autosaveSpinBox)
-#: libs/ui/forms/wdggeneralsettings.ui:572
+#: libs/ui/forms/wdggeneralsettings.ui:582
 #, kde-format
 msgctxt "Prefix: “Every x min”"
 msgid "Every "
 msgstr "每隔 "
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkHideAutosaveFiles)
-#: libs/ui/forms/wdggeneralsettings.ui:591
+#: libs/ui/forms/wdggeneralsettings.ui:601
 #, kde-format
 msgid "Unnamed autosave files are hidden by default"
 msgstr "預設隱藏未命名的自動儲存檔案"
 
 #. i18n: ectx: property (title), widget (QGroupBox, m_backupFileCheckBox)
-#: libs/ui/forms/wdggeneralsettings.ui:604
+#: libs/ui/forms/wdggeneralsettings.ui:614
 #, kde-format
 msgid "Create a Backup File on Saving"
 msgstr "儲存時建立備份檔案"
 
 #. i18n: ectx: property (text), widget (QLabel, label_13)
-#: libs/ui/forms/wdggeneralsettings.ui:613
+#: libs/ui/forms/wdggeneralsettings.ui:623
 #, kde-format
 msgid "Backup File Location"
 msgstr "備份檔案位置"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbBackupFileLocation)
-#: libs/ui/forms/wdggeneralsettings.ui:621
+#: libs/ui/forms/wdggeneralsettings.ui:631
 #, kde-format
 msgid "Same Folder as Original File"
 msgstr "與原始檔案相同資料夾"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbBackupFileLocation)
-#: libs/ui/forms/wdggeneralsettings.ui:626
+#: libs/ui/forms/wdggeneralsettings.ui:636
 #, kde-format
 msgid "User Folder"
 msgstr "使用者資料夾"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbBackupFileLocation)
-#: libs/ui/forms/wdggeneralsettings.ui:631
+#: libs/ui/forms/wdggeneralsettings.ui:641
 #, kde-format
 msgid "Temporary File Location"
 msgstr "暫存位置"
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
-#: libs/ui/forms/wdggeneralsettings.ui:639
+#: libs/ui/forms/wdggeneralsettings.ui:649
 #, kde-format
 msgid "Backup File Suffix:"
 msgstr "備份檔案後綴："
 
 #. i18n: ectx: property (text), widget (QLineEdit, txtBackupFileSuffix)
-#: libs/ui/forms/wdggeneralsettings.ui:646
+#: libs/ui/forms/wdggeneralsettings.ui:656
 #, kde-format
 msgid "~"
 msgstr "~"
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
-#: libs/ui/forms/wdggeneralsettings.ui:656
+#: libs/ui/forms/wdggeneralsettings.ui:666
 #, kde-format
 msgid "Number of Backup Files Kept:"
 msgstr "保留的備份檔案數目："
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: libs/ui/forms/wdggeneralsettings.ui:676
+#: libs/ui/forms/wdggeneralsettings.ui:686
 #, kde-format
 msgid "Kra File Compression"
 msgstr "Kra 檔案壓縮"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkZip64)
-#: libs/ui/forms/wdggeneralsettings.ui:682
+#: libs/ui/forms/wdggeneralsettings.ui:692
 #, kde-format
 msgid ""
 "<html><head/><body><p>Only use this option for <span style=\" font-"
@@ -22960,7 +22963,7 @@ msgstr ""
 "\">非常</span> 大的檔案——大於 4 GiB。</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkZip64)
-#: libs/ui/forms/wdggeneralsettings.ui:685
+#: libs/ui/forms/wdggeneralsettings.ui:695
 #, kde-format
 msgid ""
 "Use Zip64 (for very large files: cannot be opened in versions of Krita older "
@@ -22968,63 +22971,63 @@ msgid ""
 msgstr "使用 Zip64 (針對體積非常大的檔案，無法在低於 Krita 4.2.0 的版本中開啟)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkCompressKra)
-#: libs/ui/forms/wdggeneralsettings.ui:692
+#: libs/ui/forms/wdggeneralsettings.ui:702
 #, kde-format
 msgid "Compress .kra files more (slows loading/saving)"
 msgstr "提高 .kra 檔案的壓縮率 (載入及儲存的速度會變慢)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkTrimKra)
-#: libs/ui/forms/wdggeneralsettings.ui:702
+#: libs/ui/forms/wdggeneralsettings.ui:712
 #, kde-format
 msgid "Trim files before saving"
 msgstr "儲存前裁剪檔案"
 
 #. i18n: ectx: property (text), widget (QLabel, label_12)
-#: libs/ui/forms/wdggeneralsettings.ui:738
+#: libs/ui/forms/wdggeneralsettings.ui:748
 #, kde-format
 msgid "When Krita starts:"
 msgstr "當 Krita 啟動時："
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkSaveSessionOnQuit)
-#: libs/ui/forms/wdggeneralsettings.ui:758
+#: libs/ui/forms/wdggeneralsettings.ui:768
 #, kde-format
 msgid "Save session when Krita closes"
 msgstr "關閉 Krita 時儲存工作階段"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkConvertOnImport)
-#: libs/ui/forms/wdggeneralsettings.ui:765
+#: libs/ui/forms/wdggeneralsettings.ui:775
 #, kde-format
 msgid "On importing images as layers, convert to the image colorspace"
 msgstr "匯入影像為圖層時，將其轉換成目標影像的色彩空間"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label)
 #. i18n: ectx: property (toolTip), widget (KisIntParseSpinBox, m_undoStackSize)
-#: libs/ui/forms/wdggeneralsettings.ui:778
-#: libs/ui/forms/wdggeneralsettings.ui:803
+#: libs/ui/forms/wdggeneralsettings.ui:788
+#: libs/ui/forms/wdggeneralsettings.ui:813
 #, kde-format
 msgid "Only applies to new or newly opened images."
 msgstr "僅套用於新建立或者新開啟的影像。"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: libs/ui/forms/wdggeneralsettings.ui:781
+#: libs/ui/forms/wdggeneralsettings.ui:791
 #, kde-format
 msgid "Undo stack size:"
 msgstr "復原次數上限："
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkShowRootLayer)
-#: libs/ui/forms/wdggeneralsettings.ui:822
+#: libs/ui/forms/wdggeneralsettings.ui:832
 #, kde-format
 msgid "Show root layer"
 msgstr "顯示根圖層"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkUsageLogging)
-#: libs/ui/forms/wdggeneralsettings.ui:829
+#: libs/ui/forms/wdggeneralsettings.ui:839
 #, kde-format
 msgid "Enable Logging for bug reports"
 msgstr "啟用供錯誤報告用的紀錄"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, m_chkNativeFileDialog)
-#: libs/ui/forms/wdggeneralsettings.ui:839
+#: libs/ui/forms/wdggeneralsettings.ui:849
 #, kde-format
 msgid ""
 "Warning: if you enable this setting and the file dialogs do weird stuff, do "
@@ -23033,57 +23036,57 @@ msgstr ""
 "警告：如果啟用此選項後開啟/儲存檔案對話框不能正常運作，請勿為此提交錯誤報告。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkNativeFileDialog)
-#: libs/ui/forms/wdggeneralsettings.ui:842
+#: libs/ui/forms/wdggeneralsettings.ui:852
 #, kde-format
 msgid ""
 "Enable native file dialogs (warning: may not work correctly on some systems)"
 msgstr "使用系統原生開啟/儲存檔案對話框 (警告：在某些系統上可能會出錯)"
 
 #. i18n: ectx: property (text), widget (QLabel, label_9)
-#: libs/ui/forms/wdggeneralsettings.ui:849
+#: libs/ui/forms/wdggeneralsettings.ui:859
 #, kde-format
 msgid "Maximum brush size:"
 msgstr "筆刷最大大小："
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, intMaxBrushSize)
-#: libs/ui/forms/wdggeneralsettings.ui:864
+#: libs/ui/forms/wdggeneralsettings.ui:874
 #, kde-format
 msgid "The maximum diameter of a brush in pixels."
 msgstr "筆刷的最大直徑，以像素為單位。"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, intMaxBrushSize)
-#: libs/ui/forms/wdggeneralsettings.ui:867
+#: libs/ui/forms/wdggeneralsettings.ui:877
 #, kde-format
 msgctxt "pixel"
 msgid "px"
 msgstr "px"
 
 #. i18n: ectx: property (text), widget (QLabel, label_10)
-#: libs/ui/forms/wdggeneralsettings.ui:883
+#: libs/ui/forms/wdggeneralsettings.ui:893
 #, kde-format
 msgid "(Needs restart)"
 msgstr "(需要重啟程式)"
 
 #. i18n: ectx: property (text), widget (QLabel, label_16)
-#: libs/ui/forms/wdggeneralsettings.ui:892
+#: libs/ui/forms/wdggeneralsettings.ui:902
 #, kde-format
 msgid "Animation:"
 msgstr "動畫："
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkAutoPin)
-#: libs/ui/forms/wdggeneralsettings.ui:902
+#: libs/ui/forms/wdggeneralsettings.ui:912
 #, kde-format
 msgid "Automatically pin new layers to timeline"
 msgstr "自動釘選新圖層至時間軸"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkAdaptivePlaybackRange)
-#: libs/ui/forms/wdggeneralsettings.ui:912
+#: libs/ui/forms/wdggeneralsettings.ui:922
 #, kde-format
 msgid "Adapt playback range to keyframes"
 msgstr "將重播範圍調整至關鍵影格"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_17)
-#: libs/ui/forms/wdggeneralsettings.ui:925
+#: libs/ui/forms/wdggeneralsettings.ui:935
 #, kde-format
 msgid ""
 "In some Krita versions before 5.0 text size could be dependent on the "
@@ -23111,15 +23114,15 @@ msgstr ""
 "檔案以 Krita 5.0 儲存後，將無需再次作出轉換。"
 
 #. i18n: ectx: property (text), widget (QLabel, label_17)
-#: libs/ui/forms/wdggeneralsettings.ui:928
+#: libs/ui/forms/wdggeneralsettings.ui:938
 #, kde-format
 msgid "Font DPI workaround"
 msgstr "字型 DPI 應急修正方法"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkForcedFontDPI)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, intForcedFontDPI)
-#: libs/ui/forms/wdggeneralsettings.ui:939
-#: libs/ui/forms/wdggeneralsettings.ui:951
+#: libs/ui/forms/wdggeneralsettings.ui:949
+#: libs/ui/forms/wdggeneralsettings.ui:961
 #, kde-format
 msgid ""
 "In some versions of Krita before 4.4.3 text size could be dependent on the "
@@ -23137,13 +23140,13 @@ msgstr ""
 "用此 DPI 解析度作文字顯示。"
 
 #. i18n: ectx: property (text), widget (QLabel, label_14)
-#: libs/ui/forms/wdggeneralsettings.ui:985
+#: libs/ui/forms/wdggeneralsettings.ui:995
 #, kde-format
 msgid "Cache Location:"
 msgstr "快取位置："
 
 #. i18n: ectx: property (text), widget (QLabel, label_15)
-#: libs/ui/forms/wdggeneralsettings.ui:995
+#: libs/ui/forms/wdggeneralsettings.ui:1005
 #, kde-format
 msgid "Resource Folder:"
 msgstr "資源目錄："
@@ -28276,7 +28279,7 @@ msgstr ""
 "即將切換為畫布獨佔模式。\n"
 "按下 %1 返回。"
 
-#: libs/ui/KisViewManager.cpp:1383 libs/ui/KisViewManager.cpp:1401
+#: libs/ui/KisViewManager.cpp:1384 libs/ui/KisViewManager.cpp:1402
 #, kde-format
 msgctxt "choice for author profile"
 msgid "Anonymous"
@@ -29693,7 +29696,7 @@ msgstr "未命名"
 
 #: libs/ui/widgets/gradient/KisGradientChooser.cpp:536
 #: libs/ui/widgets/KoFillConfigWidget.cpp:671
-#: plugins/dockers/gamutmask/gamutmask_dock.cpp:382
+#: plugins/dockers/gamutmask/gamutmask_dock.cpp:385
 #: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:205
 #, kde-format
 msgid "The name '%1' already exists, do you wish to overwrite it?"
@@ -31301,7 +31304,7 @@ msgid "Enter gradient name:"
 msgstr "輸入漸變名稱："
 
 #: libs/ui/widgets/KoFillConfigWidget.cpp:670
-#: plugins/dockers/gamutmask/gamutmask_dock.cpp:381
+#: plugins/dockers/gamutmask/gamutmask_dock.cpp:384
 #: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:204
 #, kde-format
 msgctxt "@title:window"
@@ -31648,7 +31651,7 @@ msgstr "從檔案匯入新調色板"
 msgid "Export current palette to file"
 msgstr "將目前調色板匯出到檔案"
 
-#: libs/widgets/KisPaletteModel.cpp:393
+#: libs/widgets/KisPaletteModel.cpp:395
 #, kde-format
 msgid "Empty slot"
 msgstr "空格"
@@ -35262,12 +35265,12 @@ msgstr "無法開啟色域遮罩進行編輯。"
 msgid "The editor template was not found."
 msgstr "找不到該編輯器範本。"
 
-#: plugins/dockers/gamutmask/gamutmask_dock.cpp:271
+#: plugins/dockers/gamutmask/gamutmask_dock.cpp:274
 #, kde-format
 msgid "Saving of gamut mask '%1' was aborted."
 msgstr "已中止儲存色域遮罩「%1」。"
 
-#: plugins/dockers/gamutmask/gamutmask_dock.cpp:272
+#: plugins/dockers/gamutmask/gamutmask_dock.cpp:275
 #, kde-format
 msgid ""
 "<p>The mask template is invalid.</p><p>Please check that:<ul><li>your "
@@ -35278,34 +35281,34 @@ msgstr ""
 "「maskShapesLayer」的向量圖層</li><li>該「maskShapesLayer」中是否包含一個以上"
 "的向量形狀</li></ul></p>"
 
-#: plugins/dockers/gamutmask/gamutmask_dock.cpp:318
+#: plugins/dockers/gamutmask/gamutmask_dock.cpp:321
 #, kde-format
 msgid "Gamut mask <b>'%1'</b> has been modified."
 msgstr "色域遮罩<b>「%1」</b>已被變更。"
 
-#: plugins/dockers/gamutmask/gamutmask_dock.cpp:319
+#: plugins/dockers/gamutmask/gamutmask_dock.cpp:322
 #, kde-format
 msgid "Do you want to save it?"
 msgstr "要進行儲存嗎？"
 
-#: plugins/dockers/gamutmask/gamutmask_dock.cpp:374
+#: plugins/dockers/gamutmask/gamutmask_dock.cpp:377
 #, kde-format
 msgctxt "@title:window"
 msgid "New Gamut Mask..."
 msgstr "新色域遮罩…"
 
-#: plugins/dockers/gamutmask/gamutmask_dock.cpp:377
+#: plugins/dockers/gamutmask/gamutmask_dock.cpp:380
 #, kde-format
 msgctxt "@title:window"
 msgid "Invalid Name"
 msgstr "名稱無效"
 
-#: plugins/dockers/gamutmask/gamutmask_dock.cpp:377
+#: plugins/dockers/gamutmask/gamutmask_dock.cpp:380
 #, kde-format
 msgid "Please enter a name"
 msgstr "請輸入名稱"
 
-#: plugins/dockers/gamutmask/gamutmask_dock.cpp:590
+#: plugins/dockers/gamutmask/gamutmask_dock.cpp:593
 #, kde-format
 msgid "Are you sure you want to delete mask <b>'%1'</b>?"
 msgstr "確定要刪除遮罩<b>「%1」</b>嗎？"
@@ -54762,6 +54765,10 @@ msgstr "縮放工具"
 msgctxt "action"
 msgid "Reference Images Tool"
 msgstr "參考圖工具"
+
+#, kde-format
+#~ msgid "Could not add storage %1 to the cache database"
+#~ msgstr "無法新增 %1 儲存空間至快取資料庫"
 
 #, kde-format
 #~ msgctxt "@info mouse position (x, y)"
