@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-11-12 00:25+0000\n"
-"PO-Revision-Date: 2021-11-12 07:54+0000\n"
+"POT-Creation-Date: 2021-11-14 00:26+0000\n"
+"PO-Revision-Date: 2021-11-14 09:10+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -14082,7 +14082,7 @@ msgctxt "PaintOp instant preview limitation"
 msgid "Brush Randomness recommended value 0.0"
 msgstr "筆刷隨機度建議值為 0.0"
 
-#: libs/brush/kis_brush.cpp:726
+#: libs/brush/kis_brush.cpp:737
 #, kde-format
 msgctxt "PaintOp instant preview limitation"
 msgid "Spacing > 0.5, consider disabling Instant Preview"
@@ -15224,7 +15224,7 @@ msgstr "匯入的影像"
 msgid "Selection Mask"
 msgstr "選取區域遮罩"
 
-#: libs/image/kis_image.cc:686 libs/ui/KisDocument.cpp:2360
+#: libs/image/kis_image.cc:686 libs/ui/KisDocument.cpp:2419
 #: plugins/impex/psd/psd_loader.cpp:162
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:69
 #: plugins/python/comics_project_management_tools/comics_template_dialog.py:302
@@ -15544,7 +15544,7 @@ msgstr "正在處理"
 #: libs/image/kis_psd_layer_style.cpp:101
 #: libs/ui/KisApplicationArguments.cpp:375 libs/ui/KisMainWindow.cpp:1408
 #: libs/ui/KisMainWindow.cpp:1679 libs/ui/KisMainWindow.cpp:1698
-#: plugins/impex/libkra/kis_kra_saver.cpp:86
+#: plugins/impex/libkra/kis_kra_saver.cpp:90
 #, kde-format
 msgid "Unnamed"
 msgstr "未命名"
@@ -17483,7 +17483,7 @@ msgstr "未命名圖層"
 msgid "Unparsed Resource Block"
 msgstr "未解析的資源資料塊"
 
-#: libs/resources/KisFolderStorage.cpp:251
+#: libs/resources/KisFolderStorage.cpp:272
 #, kde-format
 msgid "Local Resources"
 msgstr "本機資源"
@@ -17516,9 +17516,9 @@ msgstr "本機資源"
 #: libs/ui/KisApplication.cpp:872 libs/ui/KisApplication.cpp:875
 #: libs/ui/KisApplication.cpp:891 libs/ui/KisApplication.cpp:923
 #: libs/ui/KisApplication.cpp:937 libs/ui/KisApplication.cpp:965
-#: libs/ui/KisDocument.cpp:882 libs/ui/KisDocument.cpp:885
-#: libs/ui/KisDocument.cpp:1708 libs/ui/KisDocument.cpp:1751
-#: libs/ui/KisDocument.cpp:1759 libs/ui/KisMainWindow.cpp:1081
+#: libs/ui/KisDocument.cpp:911 libs/ui/KisDocument.cpp:919
+#: libs/ui/KisDocument.cpp:1775 libs/ui/KisDocument.cpp:1818
+#: libs/ui/KisDocument.cpp:1826 libs/ui/KisMainWindow.cpp:1081
 #: libs/ui/KisMainWindow.cpp:1208 libs/ui/KisMainWindow.cpp:1306
 #: libs/ui/KisMainWindow.cpp:1907 libs/ui/KisMainWindow.cpp:1916
 #: libs/ui/KisMainWindow.cpp:2055 libs/ui/KisMainWindow.cpp:2114
@@ -17551,8 +17551,8 @@ msgstr "本機資源"
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:189
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:268
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:273
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:347
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:354
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:355
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:362
 #: plugins/extensions/resourcemanager/resourcemanager.cpp:221
 #: plugins/filters/colorsfilters/kis_multichannel_filter_base.cpp:351
 #: plugins/filters/levelfilter/KisLevelsConfigWidget.cpp:163
@@ -17580,61 +17580,61 @@ msgid ""
 msgstr ""
 "資源資料庫綱要已變更。Krita 會先備份您的資料庫，然後再建立一個新的資料庫。"
 
-#: libs/resources/KisResourceLocator.cpp:89
+#: libs/resources/KisResourceLocator.cpp:91
 #, kde-format
 msgid "1. Could not create the resource location at %1."
 msgstr "1. 無法建立位於 %1 的資源位置。"
 
-#: libs/resources/KisResourceLocator.cpp:96
+#: libs/resources/KisResourceLocator.cpp:98
 #, kde-format
 msgid "2. The resource location at %1 is not writable."
 msgstr "2. 位於 %1 的資源位置無法寫入。"
 
-#: libs/resources/KisResourceLocator.cpp:564
+#: libs/resources/KisResourceLocator.cpp:615
 #, kde-format
 msgid "Could not add %1 to the database"
 msgstr "無法新增 %1 至資料庫"
 
-#: libs/resources/KisResourceLocator.cpp:584
-#: libs/resources/KisResourceLocator.cpp:941
+#: libs/resources/KisResourceLocator.cpp:635
+#: libs/resources/KisResourceLocator.cpp:992
 #, kde-format
 msgid "Could not remove storage %1 from the database"
 msgstr "無法從資料庫移除 %1 儲存空間"
 
-#: libs/resources/KisResourceLocator.cpp:710
+#: libs/resources/KisResourceLocator.cpp:761
 #, kde-format
 msgid ""
 "Krita is running for the first time. Initialization will take some time."
 msgstr "Krita 為第一次執行。需要一點時間初始化。"
 
-#: libs/resources/KisResourceLocator.cpp:717
+#: libs/resources/KisResourceLocator.cpp:768
 #, kde-format
 msgid "3. Could not create the resource location at %1."
 msgstr "3. 無法建立位於 %1 的資源位置"
 
-#: libs/resources/KisResourceLocator.cpp:730
-#: libs/resources/KisResourceLocator.cpp:746
+#: libs/resources/KisResourceLocator.cpp:781
+#: libs/resources/KisResourceLocator.cpp:797
 #, kde-format
 msgid "Could not copy resource %1 to %2"
 msgstr "無法複製 %1 資源至 %2"
 
-#: libs/resources/KisResourceLocator.cpp:742
+#: libs/resources/KisResourceLocator.cpp:793
 #, kde-format
 msgid "Installing the resources from bundle %1."
 msgstr "正在從 %1 資源包安裝資源。"
 
-#: libs/resources/KisResourceLocator.cpp:764
+#: libs/resources/KisResourceLocator.cpp:815
 #, kde-format
 msgid "Initializing the resources."
 msgstr "正在初始化資源。"
 
-#: libs/resources/KisResourceLocator.cpp:798
+#: libs/resources/KisResourceLocator.cpp:849
 #, kde-format
 msgid "Temporary Resources"
 msgstr "暫存資源"
 
-#: libs/resources/KisResourceLocator.cpp:917
-#: libs/resources/KisResourceLocator.cpp:923
+#: libs/resources/KisResourceLocator.cpp:968
+#: libs/resources/KisResourceLocator.cpp:974
 #, kde-format
 msgid "Could not synchronize %1 with the database"
 msgstr "無法與資料庫同步 %1"
@@ -27253,73 +27253,80 @@ msgctxt "(qtundo-format)"
 msgid "Clone Document"
 msgstr "再製文件"
 
-#: libs/ui/KisDocument.cpp:700
+#: libs/ui/KisDocument.cpp:706
 #, kde-format
 msgid "%1 cannot be written to. Please save under a different name."
 msgstr "無法寫入 %1 。請以不同的名稱儲存。"
 
-#: libs/ui/KisDocument.cpp:762
+#: libs/ui/KisDocument.cpp:769
 #, kde-format
 msgid "Exporting Document..."
 msgstr "正在匯出檔案…"
 
-#: libs/ui/KisDocument.cpp:763
+#: libs/ui/KisDocument.cpp:770
 #, kde-format
 msgid "Saving Document..."
 msgstr "正在儲存檔案…"
 
-#: libs/ui/KisDocument.cpp:875
+#: libs/ui/KisDocument.cpp:906
 #, kde-format
 msgctxt "%1 --- failing file name, %2 --- error message"
 msgid "Error during saving %1: %2"
 msgstr "儲存%1 時出錯： %2"
 
-#: libs/ui/KisDocument.cpp:882
-#, kde-format
-msgid "Could not save %1"
-msgstr "無法儲存 %1"
-
-#: libs/ui/KisDocument.cpp:885 plugins/extensions/imagesplit/imagesplit.cpp:76
+#: libs/ui/KisDocument.cpp:912
 #, kde-format
 msgid ""
-"Could not save %1\n"
+"Could not save %1.\n"
 "Reason: %2"
 msgstr ""
-"無法儲存 %1\n"
+"無法儲存 %1。\n"
 "原因：%2"
 
-#: libs/ui/KisDocument.cpp:920
+#: libs/ui/KisDocument.cpp:921
+#, kde-format
+msgctxt ""
+"dialog box shown to the user if there were warnings while saving the "
+"document, %1 is the file path"
+msgid ""
+"%1 has been saved but is incomplete.\n"
+"The following problems were encountered when saving:"
+msgstr ""
+"已儲存 %1 但檔案不完整。\n"
+"儲存檔案時遇到以下問題："
+
+#: libs/ui/KisDocument.cpp:957
 #, kde-format
 msgid "Finished saving %1"
 msgstr "完成儲存 %1"
 
-#: libs/ui/KisDocument.cpp:1248
+#: libs/ui/KisDocument.cpp:1335
 #, kde-format
 msgid "Autosaving... %1"
 msgstr "正在自動儲存… %1"
 
-#: libs/ui/KisDocument.cpp:1256
+#: libs/ui/KisDocument.cpp:1343
 #, kde-format
 msgid "Autosaving..."
 msgstr "正在自動儲存…"
 
-#: libs/ui/KisDocument.cpp:1262
+#: libs/ui/KisDocument.cpp:1349
 #, kde-format
 msgid "Autosaving postponed: document is busy..."
 msgstr "自動儲存已推遲：檔案正在被佔用…"
 
-#: libs/ui/KisDocument.cpp:1366
+#: libs/ui/KisDocument.cpp:1454
 #, kde-format
 msgctxt "%1 --- failing file name, %2 --- error message"
 msgid "Error during autosaving %1: %2"
 msgstr "自動儲存%1 時出錯：%2"
 
-#: libs/ui/KisDocument.cpp:1380
+#: libs/ui/KisDocument.cpp:1468
 #, kde-format
 msgid "Finished autosaving %1"
 msgstr "完成自動儲存 %1"
 
-#: libs/ui/KisDocument.cpp:1611
+#: libs/ui/KisDocument.cpp:1709
 #, kde-format
 msgid ""
 "Malformed Path\n"
@@ -27328,17 +27335,17 @@ msgstr ""
 "路徑格式錯誤\n"
 "%1"
 
-#: libs/ui/KisDocument.cpp:1708
+#: libs/ui/KisDocument.cpp:1775
 #, kde-format
 msgid "File %1 does not exist."
 msgstr "檔案 %1 不存在。"
 
-#: libs/ui/KisDocument.cpp:1737
+#: libs/ui/KisDocument.cpp:1804
 #, kde-format
 msgid "Opening document"
 msgstr "正在開啟檔案"
 
-#: libs/ui/KisDocument.cpp:1752
+#: libs/ui/KisDocument.cpp:1819
 #, kde-format
 msgid ""
 "Could not open %2.\n"
@@ -27347,23 +27354,23 @@ msgstr ""
 "無法開啟 %2。\n"
 "原因：%1"
 
-#: libs/ui/KisDocument.cpp:1760
+#: libs/ui/KisDocument.cpp:1827
 #, kde-format
 msgid "There were problems opening %1"
 msgstr "開啟 %1 時遇到了一些問題"
 
-#: libs/ui/KisDocument.cpp:1889
+#: libs/ui/KisDocument.cpp:1956
 #, kde-format
 msgid "Not Saved"
 msgstr "未儲存"
 
-#: libs/ui/KisDocument.cpp:2367
+#: libs/ui/KisDocument.cpp:2426
 #, kde-format
 msgctxt "Name of automatically created background color fill layer"
 msgid "Background Fill"
 msgstr "背景色填充"
 
-#: libs/ui/KisDocument.cpp:2421
+#: libs/ui/KisDocument.cpp:2480
 #, kde-format
 msgctxt ""
 "progress dialog message when the user closes the document that is being saved"
@@ -27522,8 +27529,8 @@ msgid "The action was cancelled by the user."
 msgstr "操作已由使用者取消。"
 
 #: libs/ui/KisImportExportErrorCode.cpp:158
-#: plugins/impex/libkra/kra_converter.cpp:377
-#: plugins/impex/libkra/kra_converter.cpp:406
+#: plugins/impex/libkra/kra_converter.cpp:379
+#: plugins/impex/libkra/kra_converter.cpp:408
 #, kde-format
 msgid "Unknown error."
 msgstr "未知錯誤。"
@@ -31164,7 +31171,7 @@ msgctxt ""
 msgid "Amount:"
 msgstr "調色值："
 
-#: libs/ui/widgets/KisDitherWidget.cpp:44
+#: libs/ui/widgets/KisDitherWidget.cpp:45
 #, kde-format
 msgid "Spread:"
 msgstr "擴散幅度："
@@ -37472,6 +37479,15 @@ msgstr ""
 "無法儲存\n"
 "%1"
 
+#: plugins/extensions/imagesplit/imagesplit.cpp:76
+#, kde-format
+msgid ""
+"Could not save %1\n"
+"Reason: %2"
+msgstr ""
+"無法儲存 %1\n"
+"原因：%2"
+
 #: plugins/extensions/imagesplit/imagesplit.cpp:172
 #: plugins/extensions/imagesplit/imagesplit.cpp:247
 #, kde-format
@@ -39101,34 +39117,34 @@ msgstr "編輯資源包"
 msgid "Create Resource Bundle"
 msgstr "建立資源包"
 
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:347
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:355
 #, kde-format
 msgid "The resource bundle name cannot be empty."
 msgstr "資源包的名稱不能為空。"
 
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:354
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:362
 #, kde-format
 msgid "The save location cannot be empty."
 msgstr "儲存位置不能為空。"
 
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:364
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:372
 #, kde-format
 msgctxt "In a dialog asking whether to overwrite a bundle (resource pack)"
 msgid "A bundle with this name already exists."
 msgstr "已經有同名的資源包。"
 
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:365
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:373
 #, kde-format
 msgctxt "In a dialog regarding overwriting a bundle (resource pack)"
 msgid "Do you want to overwrite the existing bundle?"
 msgstr "您確定要覆寫現存的資源包嗎？"
 
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:427
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:435
 #, kde-format
 msgid "Select a directory to save the bundle"
 msgstr "選擇儲存資源包的資料夾"
 
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:521
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:529
 #, kde-format
 msgid "Select file to use as bundle icon"
 msgstr "請選擇用作資源包圖示的檔案"
@@ -41175,23 +41191,23 @@ msgctxt "action"
 msgid "Palettize Filter"
 msgstr "調色板配色濾鏡"
 
-#: plugins/filters/palettize/palettize.cpp:114
+#: plugins/filters/palettize/palettize.cpp:110
 #, kde-format
 msgid "Offset Scale:"
 msgstr "偏移比例："
 
-#: plugins/filters/palettize/palettize.cpp:123
+#: plugins/filters/palettize/palettize.cpp:119
 #, kde-format
 msgid "Clip:"
 msgstr "削值："
 
-#: plugins/filters/palettize/palettize.cpp:128
+#: plugins/filters/palettize/palettize.cpp:124
 #, kde-format
 msgctxt "Index as in Index Color"
 msgid "Index:"
 msgstr "索引："
 
-#: plugins/filters/palettize/palettize.cpp:194
+#: plugins/filters/palettize/palettize.cpp:190
 #, kde-format
 msgid "&Palettize..."
 msgstr "調色板配色(&P)…"
@@ -42180,7 +42196,7 @@ msgstr "連接線條："
 msgid "Color Factors"
 msgstr "色彩比例"
 
-#: plugins/generators/pattern/patterngenerator.cpp:117
+#: plugins/generators/pattern/patterngenerator.cpp:111
 #, kde-format
 msgid "&Pattern..."
 msgstr "圖案(&P)…"
@@ -43557,32 +43573,44 @@ msgstr ""
 msgid "unknown keyframe channel type: %1 in %2"
 msgstr "未知的關鍵影格通道類型：%1 在 %2 中"
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:217
+#: plugins/impex/libkra/kis_kra_loader.cpp:214
 #, kde-format
 msgid "Image does not have a name."
 msgstr "影像沒有名稱。"
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:222
+#: plugins/impex/libkra/kis_kra_loader.cpp:219
 #, kde-format
 msgid "Image does not specify a width."
 msgstr "影像未指定寬度。"
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:228
+#: plugins/impex/libkra/kis_kra_loader.cpp:225
 #, kde-format
 msgid "Image does not specify a height."
 msgstr "影像未指定高度。"
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:278
+#: plugins/impex/libkra/kis_kra_loader.cpp:275
 #, kde-format
 msgid "Image specifies an unsupported color model: %1."
 msgstr "影像指定了一個不支援的色彩模型：%1 。"
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:573
+#: plugins/impex/libkra/kis_kra_loader.cpp:570
 #, kde-format
 msgctxt "Warning message on loading a .kra file"
 msgid ""
 "Embedded palette is empty and cannot be loaded. The name of the palette: %1"
 msgstr "嵌入的調色板為空白而且不能載入。調色板名稱為：%1"
+
+#: plugins/impex/libkra/kis_kra_loader.cpp:581
+#, kde-format
+msgctxt "Warning message on loading a .kra file"
+msgid "Embedded resource cannot be read. The filename of the resource: %1"
+msgstr "未能讀取已嵌入的資源。資源名稱為：%1"
+
+#: plugins/impex/libkra/kis_kra_loader.cpp:590
+#, kde-format
+msgctxt "Warning message on loading a .kra file"
+msgid "Embedded resource cannot be imported. The filename of the resource: %1"
+msgstr "未能匯入已嵌入的資源。資源名稱為：%1"
 
 #: plugins/impex/libkra/kis_kra_loader.cpp:822
 #, kde-format
@@ -43741,81 +43769,87 @@ msgstr "中繼資料後端為 %1 儲存中繼資料失敗"
 msgid "Could not write for %1 metadata to the file."
 msgstr "無法為 %1 中繼資料寫入檔案。"
 
-#: plugins/impex/libkra/kis_kra_saver.cpp:208
+#: plugins/impex/libkra/kis_kra_saver.cpp:196
 #, kde-format
 msgctxt "Error message when saving a .kra file"
-msgid "Could not open resource for writing."
-msgstr "無法開啟資源以供寫入。"
+msgid "Could not export resource for embedding: %1"
+msgstr "無法匯出資源以供嵌入：%1"
 
-#: plugins/impex/libkra/kis_kra_saver.cpp:218
+#: plugins/impex/libkra/kis_kra_saver.cpp:211
 #, kde-format
 msgctxt "Error message when saving a .kra file"
-msgid "Could not save resource %1 to the kra file."
-msgstr "無法儲存資源 %1 到 KRA 檔案。"
+msgid "Could not write resource: %1"
+msgstr "無法寫入資源：%1"
 
-#: plugins/impex/libkra/kis_kra_saver.cpp:236
+#: plugins/impex/libkra/kis_kra_saver.cpp:223
 #, kde-format
 msgctxt "Error message when saving a .kra file"
-msgid "Could not save resources: %1."
-msgstr "無法儲存資源：%1。"
+msgid "Written resource is empty: %1"
+msgstr "被寫入的資源為空白：%1"
 
-#: plugins/impex/libkra/kis_kra_saver.cpp:252
-#: plugins/impex/libkra/kis_kra_saver.cpp:274
+#: plugins/impex/libkra/kis_kra_saver.cpp:229
+#, kde-format
+msgctxt "Error message when saving a .kra file"
+msgid "Written resource is incomplete: %1"
+msgstr "被寫入的資源不完整：%1"
+
+#: plugins/impex/libkra/kis_kra_saver.cpp:246
+#: plugins/impex/libkra/kis_kra_saver.cpp:268
 #, kde-format
 msgctxt "Error message when saving a .kra file"
 msgid "Could not save storyboards."
 msgstr "無法儲存分鏡。"
 
-#: plugins/impex/libkra/kis_kra_saver.cpp:286
-#: plugins/impex/libkra/kis_kra_saver.cpp:310
+#: plugins/impex/libkra/kis_kra_saver.cpp:280
+#: plugins/impex/libkra/kis_kra_saver.cpp:304
 #, kde-format
 msgctxt "Error message when saving a .kra file"
 msgid "Could not save animation meta data."
 msgstr "無法儲存動畫中繼資料。"
 
-#: plugins/impex/libkra/kis_kra_saver.cpp:432
+#: plugins/impex/libkra/kis_kra_saver.cpp:417
 #, kde-format
 msgctxt "Error message on saving a .kra file"
 msgid "Could not save keyframes."
 msgstr "無法儲存關鍵影格。"
 
-#: plugins/impex/libkra/kis_kra_saver.cpp:476
+#: plugins/impex/libkra/kis_kra_saver.cpp:461
 #, kde-format
 msgctxt "Saving .kra file error message"
 msgid "Could not save annotations."
 msgstr "無法儲存注釋。"
 
-#: plugins/impex/libkra/kis_kra_saver.cpp:510
+#: plugins/impex/libkra/kis_kra_saver.cpp:495
 #, kde-format
 msgctxt "Saving .kra file error message"
 msgid "Could not save image profile."
 msgstr "無法儲存影像特性檔案。"
 
-#: plugins/impex/libkra/kis_kra_saver.cpp:540
+#: plugins/impex/libkra/kis_kra_saver.cpp:525
 #, kde-format
 msgctxt "Saving .kra file error message"
 msgid "Could not save softproofing color profile."
 msgstr "無法儲存螢幕校樣色彩特性檔案。"
 
-#: plugins/impex/libkra/kis_kra_saver.cpp:575
+#: plugins/impex/libkra/kis_kra_saver.cpp:560
 #, kde-format
 msgctxt "Saving .kra file error message"
 msgid "Could not save additional annotations."
 msgstr "無法儲存附加注釋。"
 
-#: plugins/impex/libkra/kis_kra_saver.cpp:608
+#: plugins/impex/libkra/kis_kra_saver.cpp:593
 #, kde-format
 msgctxt "Saving .kra file error message"
 msgid "Could not save layer styles."
 msgstr "無法儲存圖層樣式。"
 
-#: plugins/impex/libkra/kis_kra_saver.cpp:623
+#: plugins/impex/libkra/kis_kra_saver.cpp:608
 #, kde-format
 msgctxt "Saving .kra file error message"
 msgid "Could not save merged image."
 msgstr "無法儲存合併影像。"
 
-#: plugins/impex/libkra/kis_kra_saver.cpp:713
+#: plugins/impex/libkra/kis_kra_saver.cpp:703
 #, kde-format
 msgctxt "Saving .kra file error message"
 msgid "Could not save assistants."
@@ -43836,17 +43870,17 @@ msgstr "無效檔案：沒有「maindoc.xml」檔案。"
 msgid "Could not create the file for saving"
 msgstr "無法建立要儲存的檔案"
 
-#: plugins/impex/libkra/kra_converter.cpp:222
+#: plugins/impex/libkra/kra_converter.cpp:224
 #, kde-format
 msgid "Not able to write '%1'. Partition full?"
 msgstr "無法寫入「%1」。請檢查分區是否已滿。"
 
-#: plugins/impex/libkra/kra_converter.cpp:313
+#: plugins/impex/libkra/kra_converter.cpp:315
 #, kde-format
 msgid "Could not find %1"
 msgstr "無法找到 %1"
 
-#: plugins/impex/libkra/kra_converter.cpp:325
+#: plugins/impex/libkra/kra_converter.cpp:327
 #, kde-format
 msgid ""
 "Parsing error in %1 at line %2, column %3\n"
@@ -43855,22 +43889,22 @@ msgstr ""
 "在 %1 的第 %2 行第 %3 列發生解析錯誤\n"
 "錯誤訊息：%4"
 
-#: plugins/impex/libkra/kra_converter.cpp:343
+#: plugins/impex/libkra/kra_converter.cpp:345
 #, kde-format
 msgid "The format is not supported or the file is corrupted"
 msgstr "檔案格式不支援或者檔案已損壞"
 
-#: plugins/impex/libkra/kra_converter.cpp:354
+#: plugins/impex/libkra/kra_converter.cpp:356
 #, kde-format
 msgid "The file is too new for this version of Krita (%1)."
 msgstr "此檔案對此版 Krita 而言格式太新 (%1)。"
 
-#: plugins/impex/libkra/kra_converter.cpp:360
+#: plugins/impex/libkra/kra_converter.cpp:362
 #, kde-format
 msgid "The file has no layers."
 msgstr "檔案沒有圖層。"
 
-#: plugins/impex/libkra/kra_converter.cpp:393
+#: plugins/impex/libkra/kra_converter.cpp:395
 #, kde-format
 msgid "The file does not contain an image."
 msgstr "檔案不包含影像。"
@@ -48350,7 +48384,7 @@ msgid ""
 "the cut-off policy will be applied."
 msgstr "當圖案紋理數值超出此滑動條指定的範圍時，將套用截斷策略。"
 
-#: plugins/paintops/libpaintop/kis_texture_option.cpp:189
+#: plugins/paintops/libpaintop/kis_texture_option.cpp:192
 #, kde-format
 msgctxt "PaintOp instant preview limitation"
 msgid "Texture->Pattern (low quality preview)"
@@ -52793,7 +52827,7 @@ msgstr "橢圓選取區域工具"
 msgid "Freehand Selection"
 msgstr "手繪選取區域"
 
-#: plugins/tools/selectiontools/kis_tool_select_outline.cc:160
+#: plugins/tools/selectiontools/kis_tool_select_outline.cc:165
 msgctxt "(qtundo-format)"
 msgid "Freehand Selection"
 msgstr "按手繪邊界建立選取區域"
@@ -54764,6 +54798,15 @@ msgstr "縮放工具"
 msgctxt "action"
 msgid "Reference Images Tool"
 msgstr "參考圖工具"
+
+#, kde-format
+#~ msgid "Could not save %1"
+#~ msgstr "無法儲存 %1"
+
+#, kde-format
+#~ msgctxt "Error message when saving a .kra file"
+#~ msgid "Could not save resource %1 to the kra file."
+#~ msgstr "無法儲存資源 %1 到 KRA 檔案。"
 
 #, kde-format
 #~ msgid "Could not add storage %1 to the cache database"
