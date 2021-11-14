@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-11-14 00:26+0000\n"
-"PO-Revision-Date: 2021-11-12 07:54+0000\n"
+"PO-Revision-Date: 2021-11-14 09:10+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -27275,15 +27275,12 @@ msgid "Error during saving %1: %2"
 msgstr "儲存%1 時出錯： %2"
 
 #: libs/ui/KisDocument.cpp:912
-#, fuzzy, kde-format
-#| msgid ""
-#| "Could not save %1\n"
-#| "Reason: %2"
+#, kde-format
 msgid ""
 "Could not save %1.\n"
 "Reason: %2"
 msgstr ""
-"無法儲存 %1\n"
+"無法儲存 %1。\n"
 "原因：%2"
 
 #: libs/ui/KisDocument.cpp:921
@@ -27295,6 +27292,8 @@ msgid ""
 "%1 has been saved but is incomplete.\n"
 "The following problems were encountered when saving:"
 msgstr ""
+"已儲存 %1 但檔案不完整。\n"
+"儲存檔案時遇到以下問題："
 
 #: libs/ui/KisDocument.cpp:957
 #, kde-format
@@ -43602,24 +43601,16 @@ msgid ""
 msgstr "嵌入的調色板為空白而且不能載入。調色板名稱為：%1"
 
 #: plugins/impex/libkra/kis_kra_loader.cpp:581
-#, fuzzy, kde-format
-#| msgctxt "Warning message on loading a .kra file"
-#| msgid ""
-#| "Embedded palette is empty and cannot be loaded. The name of the palette: "
-#| "%1"
+#, kde-format
 msgctxt "Warning message on loading a .kra file"
 msgid "Embedded resource cannot be read. The filename of the resource: %1"
-msgstr "嵌入的調色板為空白而且不能載入。調色板名稱為：%1"
+msgstr "未能讀取已嵌入的資源。資源名稱為：%1"
 
 #: plugins/impex/libkra/kis_kra_loader.cpp:590
-#, fuzzy, kde-format
-#| msgctxt "Warning message on loading a .kra file"
-#| msgid ""
-#| "Embedded palette is empty and cannot be loaded. The name of the palette: "
-#| "%1"
+#, kde-format
 msgctxt "Warning message on loading a .kra file"
 msgid "Embedded resource cannot be imported. The filename of the resource: %1"
-msgstr "嵌入的調色板為空白而且不能載入。調色板名稱為：%1"
+msgstr "未能匯入已嵌入的資源。資源名稱為：%1"
 
 #: plugins/impex/libkra/kis_kra_loader.cpp:822
 #, kde-format
@@ -43779,32 +43770,28 @@ msgid "Could not write for %1 metadata to the file."
 msgstr "無法為 %1 中繼資料寫入檔案。"
 
 #: plugins/impex/libkra/kis_kra_saver.cpp:196
-#, fuzzy, kde-format
-#| msgctxt "Error message when saving a .kra file"
-#| msgid "Could not open resource for writing."
+#, kde-format
 msgctxt "Error message when saving a .kra file"
 msgid "Could not export resource for embedding: %1"
-msgstr "無法開啟資源以供寫入。"
+msgstr "無法匯出資源以供嵌入：%1"
 
 #: plugins/impex/libkra/kis_kra_saver.cpp:211
-#, fuzzy, kde-format
-#| msgctxt "Error message when saving a .kra file"
-#| msgid "Could not save resources: %1."
+#, kde-format
 msgctxt "Error message when saving a .kra file"
 msgid "Could not write resource: %1"
-msgstr "無法儲存資源：%1。"
+msgstr "無法寫入資源：%1"
 
 #: plugins/impex/libkra/kis_kra_saver.cpp:223
 #, kde-format
 msgctxt "Error message when saving a .kra file"
 msgid "Written resource is empty: %1"
-msgstr ""
+msgstr "被寫入的資源為空白：%1"
 
 #: plugins/impex/libkra/kis_kra_saver.cpp:229
 #, kde-format
 msgctxt "Error message when saving a .kra file"
 msgid "Written resource is incomplete: %1"
-msgstr ""
+msgstr "被寫入的資源不完整：%1"
 
 #: plugins/impex/libkra/kis_kra_saver.cpp:246
 #: plugins/impex/libkra/kis_kra_saver.cpp:268
