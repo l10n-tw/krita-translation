@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-11-15 00:26+0000\n"
+"POT-Creation-Date: 2021-11-16 00:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -14788,10 +14788,10 @@ msgstr ""
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:742
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:950
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:957
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1167
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1335
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1338
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1404
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1169
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1337
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1340
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1406
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1085
 #: libs/ui/forms/wdgdisplaysettings.ui:318
 #: libs/ui/forms/wdgrectangleconstraints.ui:86
@@ -15076,7 +15076,7 @@ msgctxt "property of a filter layer, noun"
 msgid "Filter"
 msgstr ""
 
-#: libs/image/kis_asl_layer_style_serializer.cpp:1264
+#: libs/image/kis_asl_layer_style_serializer.cpp:1266
 #, kde-format
 msgctxt "Auto-generated layer style name for embedded styles (style itself)"
 msgid "<%1> (embedded)"
@@ -17548,51 +17548,51 @@ msgstr ""
 msgid "2. The resource location at %1 is not writable."
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:615
+#: libs/resources/KisResourceLocator.cpp:619
 #, kde-format
 msgid "Could not add %1 to the database"
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:635
-#: libs/resources/KisResourceLocator.cpp:992
+#: libs/resources/KisResourceLocator.cpp:639
+#: libs/resources/KisResourceLocator.cpp:996
 #, kde-format
 msgid "Could not remove storage %1 from the database"
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:761
+#: libs/resources/KisResourceLocator.cpp:765
 #, kde-format
 msgid ""
 "Krita is running for the first time. Initialization will take some time."
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:768
+#: libs/resources/KisResourceLocator.cpp:772
 #, kde-format
 msgid "3. Could not create the resource location at %1."
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:781
-#: libs/resources/KisResourceLocator.cpp:797
+#: libs/resources/KisResourceLocator.cpp:785
+#: libs/resources/KisResourceLocator.cpp:801
 #, kde-format
 msgid "Could not copy resource %1 to %2"
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:793
+#: libs/resources/KisResourceLocator.cpp:797
 #, kde-format
 msgid "Installing the resources from bundle %1."
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:815
+#: libs/resources/KisResourceLocator.cpp:819
 #, kde-format
 msgid "Initializing the resources."
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:849
+#: libs/resources/KisResourceLocator.cpp:853
 #, kde-format
 msgid "Temporary Resources"
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:968
-#: libs/resources/KisResourceLocator.cpp:974
+#: libs/resources/KisResourceLocator.cpp:972
+#: libs/resources/KisResourceLocator.cpp:978
 #, kde-format
 msgid "Could not synchronize %1 with the database"
 msgstr ""
@@ -20511,17 +20511,17 @@ msgstr ""
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:961
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1092
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1095
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1158
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1161
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1164
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1171
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1174
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1290
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1293
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1332
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1408
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1411
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1414
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1160
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1163
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1166
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1173
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1176
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1292
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1295
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1334
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1410
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1413
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1416
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1003
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1007
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1011
@@ -20555,7 +20555,7 @@ msgstr ""
 msgid "Choke:"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1200
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1202
 #, kde-format
 msgctxt "layer styles parameter"
 msgid "Spread:"
@@ -27785,34 +27785,34 @@ msgstr ""
 msgid "Gamut Warnings turned off."
 msgstr ""
 
-#: libs/ui/KisViewManager.cpp:742
+#: libs/ui/KisViewManager.cpp:743
 #, kde-format
 msgid "Active Author Profile"
 msgstr ""
 
-#: libs/ui/KisViewManager.cpp:869
+#: libs/ui/KisViewManager.cpp:870
 #, kde-format
 msgid "%1 (Copy)"
 msgstr ""
 
-#: libs/ui/KisViewManager.cpp:1011 libs/ui/KisViewManager.cpp:1092
+#: libs/ui/KisViewManager.cpp:1012 libs/ui/KisViewManager.cpp:1093
 #, kde-format
 msgid "Alternative names exhausted, try manually saving with a higher number"
 msgstr ""
 
-#: libs/ui/KisViewManager.cpp:1011
+#: libs/ui/KisViewManager.cpp:1012
 #, kde-format
 msgctxt "@title:window"
 msgid "Couldn't save incremental version"
 msgstr ""
 
-#: libs/ui/KisViewManager.cpp:1092
+#: libs/ui/KisViewManager.cpp:1093
 #, kde-format
 msgctxt "@title:window"
 msgid "Couldn't save incremental backup"
 msgstr ""
 
-#: libs/ui/KisViewManager.cpp:1275
+#: libs/ui/KisViewManager.cpp:1276
 #, kde-format
 msgid ""
 "Going into Canvas-Only mode.\n"
