@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-11-14 00:26+0000\n"
+"POT-Creation-Date: 2021-11-16 00:26+0000\n"
 "PO-Revision-Date: 2021-11-14 09:10+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
@@ -14809,10 +14809,10 @@ msgstr "大小"
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:742
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:950
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:957
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1167
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1335
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1338
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1404
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1169
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1337
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1340
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1406
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1085
 #: libs/ui/forms/wdgdisplaysettings.ui:318
 #: libs/ui/forms/wdgrectangleconstraints.ui:86
@@ -15097,7 +15097,7 @@ msgctxt "property of a filter layer, noun"
 msgid "Filter"
 msgstr "濾鏡"
 
-#: libs/image/kis_asl_layer_style_serializer.cpp:1264
+#: libs/image/kis_asl_layer_style_serializer.cpp:1266
 #, kde-format
 msgctxt "Auto-generated layer style name for embedded styles (style itself)"
 msgid "<%1> (embedded)"
@@ -17590,51 +17590,51 @@ msgstr "1. 無法建立位於 %1 的資源位置。"
 msgid "2. The resource location at %1 is not writable."
 msgstr "2. 位於 %1 的資源位置無法寫入。"
 
-#: libs/resources/KisResourceLocator.cpp:615
+#: libs/resources/KisResourceLocator.cpp:619
 #, kde-format
 msgid "Could not add %1 to the database"
 msgstr "無法新增 %1 至資料庫"
 
-#: libs/resources/KisResourceLocator.cpp:635
-#: libs/resources/KisResourceLocator.cpp:992
+#: libs/resources/KisResourceLocator.cpp:639
+#: libs/resources/KisResourceLocator.cpp:996
 #, kde-format
 msgid "Could not remove storage %1 from the database"
 msgstr "無法從資料庫移除 %1 儲存空間"
 
-#: libs/resources/KisResourceLocator.cpp:761
+#: libs/resources/KisResourceLocator.cpp:765
 #, kde-format
 msgid ""
 "Krita is running for the first time. Initialization will take some time."
 msgstr "Krita 為第一次執行。需要一點時間初始化。"
 
-#: libs/resources/KisResourceLocator.cpp:768
+#: libs/resources/KisResourceLocator.cpp:772
 #, kde-format
 msgid "3. Could not create the resource location at %1."
 msgstr "3. 無法建立位於 %1 的資源位置"
 
-#: libs/resources/KisResourceLocator.cpp:781
-#: libs/resources/KisResourceLocator.cpp:797
+#: libs/resources/KisResourceLocator.cpp:785
+#: libs/resources/KisResourceLocator.cpp:801
 #, kde-format
 msgid "Could not copy resource %1 to %2"
 msgstr "無法複製 %1 資源至 %2"
 
-#: libs/resources/KisResourceLocator.cpp:793
+#: libs/resources/KisResourceLocator.cpp:797
 #, kde-format
 msgid "Installing the resources from bundle %1."
 msgstr "正在從 %1 資源包安裝資源。"
 
-#: libs/resources/KisResourceLocator.cpp:815
+#: libs/resources/KisResourceLocator.cpp:819
 #, kde-format
 msgid "Initializing the resources."
 msgstr "正在初始化資源。"
 
-#: libs/resources/KisResourceLocator.cpp:849
+#: libs/resources/KisResourceLocator.cpp:853
 #, kde-format
 msgid "Temporary Resources"
 msgstr "暫存資源"
 
-#: libs/resources/KisResourceLocator.cpp:968
-#: libs/resources/KisResourceLocator.cpp:974
+#: libs/resources/KisResourceLocator.cpp:972
+#: libs/resources/KisResourceLocator.cpp:978
 #, kde-format
 msgid "Could not synchronize %1 with the database"
 msgstr "無法與資料庫同步 %1"
@@ -20656,17 +20656,17 @@ msgstr ""
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:961
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1092
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1095
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1158
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1161
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1164
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1171
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1174
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1290
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1293
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1332
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1408
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1411
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1414
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1160
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1163
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1166
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1173
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1176
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1292
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1295
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1334
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1410
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1413
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1416
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1003
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1007
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1011
@@ -20700,7 +20700,7 @@ msgstr "內部陰影"
 msgid "Choke:"
 msgstr "阻塞："
 
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1200
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1202
 #, kde-format
 msgctxt "layer styles parameter"
 msgid "Spread:"
@@ -21305,7 +21305,7 @@ msgstr "色塊列數："
 
 #. i18n: ectx: property (text), widget (QLabel, labelRowCount)
 #: libs/ui/dialogs/KisDlgPaletteEditor.cpp:54
-#: libs/ui/forms/WdgDlgPaletteEditor.ui:108 libs/ui/KisPaletteEditor.cpp:219
+#: libs/ui/forms/WdgDlgPaletteEditor.ui:108 libs/ui/KisPaletteEditor.cpp:223
 #, kde-format
 msgid "Rows of swatches in group:"
 msgstr "群組中色塊行數："
@@ -27945,47 +27945,47 @@ msgstr "新調色板名稱："
 msgid "Save Palette in the Current Document"
 msgstr "儲存目前檔案的調色板"
 
-#: libs/ui/KisPaletteEditor.cpp:130
+#: libs/ui/KisPaletteEditor.cpp:134
 #, kde-format
 msgid "Import Palette"
 msgstr "匯入調色板"
 
-#: libs/ui/KisPaletteEditor.cpp:141
+#: libs/ui/KisPaletteEditor.cpp:145
 #, kde-format
 msgid "Do you want to store this palette in your current image?"
 msgstr "確定儲存目前影像中的這個調色板？"
 
-#: libs/ui/KisPaletteEditor.cpp:215 libs/ui/KisPaletteEditor.cpp:272
+#: libs/ui/KisPaletteEditor.cpp:219 libs/ui/KisPaletteEditor.cpp:276
 #, kde-format
 msgid "New swatch group name:"
 msgstr "色塊群組名稱："
 
-#: libs/ui/KisPaletteEditor.cpp:243
+#: libs/ui/KisPaletteEditor.cpp:247
 #, kde-format
 msgctxt "@title:dialog"
 msgid "Removing Swatch Group"
 msgstr "正在移除色塊群組"
 
-#: libs/ui/KisPaletteEditor.cpp:247 libs/widgets/kis_palette_view.cpp:171
+#: libs/ui/KisPaletteEditor.cpp:251 libs/widgets/kis_palette_view.cpp:171
 #, kde-format
 msgctxt "Shows up when deleting a swatch group"
 msgid "Keep the Colors"
 msgstr "保留色彩"
 
-#: libs/ui/KisPaletteEditor.cpp:319 libs/ui/KisPaletteEditor.cpp:409
+#: libs/ui/KisPaletteEditor.cpp:323 libs/ui/KisPaletteEditor.cpp:413
 #, kde-format
 msgctxt "Default name for a color swatch"
 msgid "Color %1"
 msgstr "色彩 %1"
 
-#: libs/ui/KisPaletteEditor.cpp:352 libs/ui/KisPaletteEditor.cpp:397
+#: libs/ui/KisPaletteEditor.cpp:356 libs/ui/KisPaletteEditor.cpp:401
 #: libs/widgets/kis_palette_view.cpp:103
 #, kde-format
 msgctxt "@title:dialog"
 msgid "Add a new Color Swatch"
 msgstr "新增色塊"
 
-#: libs/ui/KisPaletteEditor.cpp:366 libs/ui/KisPaletteEditor.cpp:416
+#: libs/ui/KisPaletteEditor.cpp:370 libs/ui/KisPaletteEditor.cpp:420
 #: libs/widgets/kis_palette_view.cpp:114
 #, kde-format
 msgctxt "@info:tooltip"
@@ -27996,37 +27996,37 @@ msgstr ""
 "專色是印表機能夠在不混合其可用顏料的情況下能夠列印出的色彩。相反的則稱為混"
 "色。"
 
-#: libs/ui/KisPaletteEditor.cpp:370 libs/ui/KisPaletteEditor.cpp:419
+#: libs/ui/KisPaletteEditor.cpp:374 libs/ui/KisPaletteEditor.cpp:423
 #: libs/widgets/kis_palette_view.cpp:116
 #, kde-format
 msgid "Swatch ID:"
 msgstr "色塊 ID："
 
-#: libs/ui/KisPaletteEditor.cpp:371 libs/ui/KisPaletteEditor.cpp:420
+#: libs/ui/KisPaletteEditor.cpp:375 libs/ui/KisPaletteEditor.cpp:424
 #: libs/widgets/kis_palette_view.cpp:117
 #, kde-format
 msgid "Color swatch name:"
 msgstr "色塊名稱："
 
-#: libs/ui/KisPaletteEditor.cpp:372 libs/ui/KisPaletteEditor.cpp:421
+#: libs/ui/KisPaletteEditor.cpp:376 libs/ui/KisPaletteEditor.cpp:425
 #: libs/widgets/kis_palette_view.cpp:118
 #, kde-format
 msgctxt "Color as the Color of a Swatch in a Palette"
 msgid "Color:"
 msgstr "色彩："
 
-#: libs/ui/KisPaletteEditor.cpp:373 libs/ui/KisPaletteEditor.cpp:422
+#: libs/ui/KisPaletteEditor.cpp:377 libs/ui/KisPaletteEditor.cpp:426
 #: libs/widgets/kis_palette_view.cpp:119
 #, kde-format
 msgid "Spot color:"
 msgstr "印刷專色："
 
-#: libs/ui/KisPaletteEditor.cpp:418 libs/widgets/kis_palette_view.cpp:115
+#: libs/ui/KisPaletteEditor.cpp:422 libs/widgets/kis_palette_view.cpp:115
 #, kde-format
 msgid "Swatch Group:"
 msgstr "色塊群組："
 
-#: libs/ui/KisPaletteEditor.cpp:538 libs/ui/KisPaletteEditor.cpp:541
+#: libs/ui/KisPaletteEditor.cpp:542 libs/ui/KisPaletteEditor.cpp:545
 #, kde-format
 msgctxt "Default new group name"
 msgid "New Group %1"
@@ -28249,34 +28249,34 @@ msgstr "但螢幕校樣仍然關閉。"
 msgid "Gamut Warnings turned off."
 msgstr "已關閉色域警告。"
 
-#: libs/ui/KisViewManager.cpp:742
+#: libs/ui/KisViewManager.cpp:743
 #, kde-format
 msgid "Active Author Profile"
 msgstr "目前作者檔案"
 
-#: libs/ui/KisViewManager.cpp:869
+#: libs/ui/KisViewManager.cpp:870
 #, kde-format
 msgid "%1 (Copy)"
 msgstr "%1 (副本)"
 
-#: libs/ui/KisViewManager.cpp:1011 libs/ui/KisViewManager.cpp:1092
+#: libs/ui/KisViewManager.cpp:1012 libs/ui/KisViewManager.cpp:1093
 #, kde-format
 msgid "Alternative names exhausted, try manually saving with a higher number"
 msgstr "備用名稱數字已用盡，請手動輸入更大的數字儲存檔案"
 
-#: libs/ui/KisViewManager.cpp:1011
+#: libs/ui/KisViewManager.cpp:1012
 #, kde-format
 msgctxt "@title:window"
 msgid "Couldn't save incremental version"
 msgstr "無法儲存遞增版本"
 
-#: libs/ui/KisViewManager.cpp:1092
+#: libs/ui/KisViewManager.cpp:1093
 #, kde-format
 msgctxt "@title:window"
 msgid "Couldn't save incremental backup"
 msgstr "無法儲存遞增備份"
 
-#: libs/ui/KisViewManager.cpp:1275
+#: libs/ui/KisViewManager.cpp:1276
 #, kde-format
 msgid ""
 "Going into Canvas-Only mode.\n"
