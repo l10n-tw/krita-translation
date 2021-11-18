@@ -30157,12 +30157,14 @@ msgid ""
 "painting, nor for export, but best as a space to do post-processing in. The "
 "TRC is assumed to be the L* TRC."
 msgstr ""
-"<b><a href=\"https://zh.wikipedia.org/wiki/Lab色彩空間\">L*a*b</a></b>。<b>L</b> "
-"代表亮度， <b>a</b> 和 <b>b</b> 表示色彩通道。<br/>L*a*b "
-"是為色彩校對而設計的特殊色彩模型。它基於人類對色彩的感知原理將色彩以亮度、紅綠平衡以及黃藍平衡三個參數進行編碼。雖然此模型便於色彩校對，但 Krita "
-"大多數的混色模式所使用的演算法<b>不能</b>在此模型下正常作業。<br/>因為類似的原因 Krita 在 LAB 色彩空間下不支援 HDR，一切 "
-"HDR 影像在轉成 LAB 色彩空間時都會遺失色彩資訊。我們<b>不建議</b>將此色彩空間用於繪畫或匯出，但是可以用於做後期處理。"
-"此色彩空間的階調響應曲線 (TRC) 假設為 L* TRC。"
+"<b><a href=\"https://zh.wikipedia.org/wiki/Lab色彩空間\">L*a*b</a></b>。"
+"<b>L</b> 代表亮度， <b>a</b> 和 <b>b</b> 表示色彩通道。<br/>L*a*b 是為色彩校"
+"對而設計的特殊色彩模型。它基於人類對色彩的感知原理將色彩以亮度、紅綠平衡以及"
+"黃藍平衡三個參數進行編碼。雖然此模型便於色彩校對，但 Krita 大多數的混色模式所"
+"使用的演算法<b>不能</b>在此模型下正常作業。<br/>因為類似的原因 Krita 在 LAB "
+"色彩空間下不支援 HDR，一切 HDR 影像在轉成 LAB 色彩空間時都會遺失色彩資訊。我"
+"們<b>不建議</b>將此色彩空間用於繪畫或匯出，但是可以用於做後期處理。此色彩空間"
+"的階調響應曲線 (TRC) 假設為 L* TRC。"
 
 #: libs/ui/widgets/kis_advanced_color_space_selector.cc:408
 #, kde-format
@@ -39106,7 +39108,8 @@ msgctxt "Warning message"
 msgid ""
 "One of more resources share the same file name '%1'. Please export them in "
 "separate bundles."
-msgstr "多於一項資源使用了相同的檔案名稱「%1」。請分別將它們匯出為獨立的資源包。"
+msgstr ""
+"多於一項資源使用了相同的檔案名稱「%1」。請分別將它們匯出為獨立的資源包。"
 
 #: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:373
 #, kde-format
