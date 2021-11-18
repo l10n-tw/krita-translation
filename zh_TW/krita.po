@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-11-16 00:26+0000\n"
+"POT-Creation-Date: 2021-11-18 00:25+0000\n"
 "PO-Revision-Date: 2021-11-14 09:10+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
@@ -13959,8 +13959,8 @@ msgstr ""
 "Krita 不支援 Wayland 平台。如您希望在 Wayland 上執行 Krita，請使用 XWayland。"
 "Krita 現在會退出。"
 
-#: krita/main.cc:606 libs/ui/KisApplication.cpp:359
-#: libs/ui/KisApplication.cpp:624
+#: krita/main.cc:606 libs/ui/KisApplication.cpp:366
+#: libs/ui/KisApplication.cpp:631
 #, kde-format
 msgctxt "@title:window"
 msgid "Krita: Warning"
@@ -14805,14 +14805,14 @@ msgstr "大小"
 #: libs/image/brushengine/kis_standard_uniform_properties_factory.cpp:46
 #: libs/ui/animation/wdg_animationrenderer.ui:157
 #: libs/ui/animation/wdg_animationrenderer.ui:196
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:738
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:742
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:950
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:957
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1169
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1337
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1340
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1406
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:747
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:751
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:959
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:966
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1178
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1346
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1349
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1415
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1085
 #: libs/ui/forms/wdgdisplaysettings.ui:318
 #: libs/ui/forms/wdgrectangleconstraints.ui:86
@@ -15224,7 +15224,7 @@ msgstr "匯入的影像"
 msgid "Selection Mask"
 msgstr "選取區域遮罩"
 
-#: libs/image/kis_image.cc:686 libs/ui/KisDocument.cpp:2419
+#: libs/image/kis_image.cc:686 libs/ui/KisDocument.cpp:2418
 #: plugins/impex/psd/psd_loader.cpp:162
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:69
 #: plugins/python/comics_project_management_tools/comics_template_dialog.py:302
@@ -15542,7 +15542,7 @@ msgid "Processing"
 msgstr "正在處理"
 
 #: libs/image/kis_psd_layer_style.cpp:101
-#: libs/ui/KisApplicationArguments.cpp:375 libs/ui/KisMainWindow.cpp:1408
+#: libs/ui/KisApplicationArguments.cpp:374 libs/ui/KisMainWindow.cpp:1408
 #: libs/ui/KisMainWindow.cpp:1679 libs/ui/KisMainWindow.cpp:1698
 #: plugins/impex/libkra/kis_kra_saver.cpp:90
 #, kde-format
@@ -17478,7 +17478,7 @@ msgstr "背景"
 msgid "Unnamed Layer"
 msgstr "未命名圖層"
 
-#: libs/psd/psd_resource_block.h:109
+#: libs/psd/psd_resource_block.h:108
 #, kde-format
 msgid "Unparsed Resource Block"
 msgstr "未解析的資源資料塊"
@@ -17508,17 +17508,18 @@ msgstr "本機資源"
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:669
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:727
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:752
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:349
 #: libs/ui/dialogs/kis_dlg_preferences.cc:561
 #: libs/ui/input/kis_tablet_debugger.cpp:96 libs/ui/kis_custom_pattern.cc:131
 #: libs/ui/kis_filter_manager.cc:233 libs/ui/kis_filter_manager.cc:242
 #: libs/ui/kis_layer_manager.cc:313 libs/ui/kis_layer_manager.cc:961
 #: libs/ui/kis_node_manager.cpp:1214 libs/ui/kis_node_manager.cpp:1277
-#: libs/ui/KisApplication.cpp:872 libs/ui/KisApplication.cpp:875
-#: libs/ui/KisApplication.cpp:891 libs/ui/KisApplication.cpp:923
-#: libs/ui/KisApplication.cpp:937 libs/ui/KisApplication.cpp:965
-#: libs/ui/KisDocument.cpp:911 libs/ui/KisDocument.cpp:919
-#: libs/ui/KisDocument.cpp:1775 libs/ui/KisDocument.cpp:1818
-#: libs/ui/KisDocument.cpp:1826 libs/ui/KisMainWindow.cpp:1081
+#: libs/ui/KisApplication.cpp:879 libs/ui/KisApplication.cpp:882
+#: libs/ui/KisApplication.cpp:898 libs/ui/KisApplication.cpp:930
+#: libs/ui/KisApplication.cpp:944 libs/ui/KisApplication.cpp:972
+#: libs/ui/KisDocument.cpp:910 libs/ui/KisDocument.cpp:918
+#: libs/ui/KisDocument.cpp:1774 libs/ui/KisDocument.cpp:1817
+#: libs/ui/KisDocument.cpp:1825 libs/ui/KisMainWindow.cpp:1081
 #: libs/ui/KisMainWindow.cpp:1208 libs/ui/KisMainWindow.cpp:1306
 #: libs/ui/KisMainWindow.cpp:1907 libs/ui/KisMainWindow.cpp:1916
 #: libs/ui/KisMainWindow.cpp:2055 libs/ui/KisMainWindow.cpp:2114
@@ -17530,7 +17531,6 @@ msgstr "本機資源"
 #: libs/ui/opengl/kis_opengl_canvas2.cpp:388
 #: libs/ui/utils/KisClipboardUtil.cpp:131
 #: libs/ui/utils/KisClipboardUtil.cpp:236
-#: libs/ui/widgets/gradient/KisGradientChooser.cpp:535
 #: libs/ui/widgets/kis_custom_image_widget.cc:299
 #: plugins/assistants/Assistants/kis_assistant_tool.cc:1080
 #: plugins/assistants/Assistants/kis_assistant_tool.cc:1083
@@ -17547,13 +17547,15 @@ msgstr "本機資源"
 #: plugins/extensions/qmic/kis_qmic_interface.cpp:137
 #: plugins/extensions/qmic/kis_qmic_interface.cpp:208
 #: plugins/extensions/qmic/QMic.cpp:54 plugins/extensions/qmic/QMic.cpp:80
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:184
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:189
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:268
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:273
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:355
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:362
-#: plugins/extensions/resourcemanager/resourcemanager.cpp:221
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:185
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:190
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:215
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:283
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:288
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:294
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:373
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:380
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:412
 #: plugins/filters/colorsfilters/kis_multichannel_filter_base.cpp:351
 #: plugins/filters/levelfilter/KisLevelsConfigWidget.cpp:163
 #: plugins/tools/basictools/kis_tool_colorsampler.cc:162
@@ -17590,51 +17592,51 @@ msgstr "1. 無法建立位於 %1 的資源位置。"
 msgid "2. The resource location at %1 is not writable."
 msgstr "2. 位於 %1 的資源位置無法寫入。"
 
-#: libs/resources/KisResourceLocator.cpp:619
+#: libs/resources/KisResourceLocator.cpp:623
 #, kde-format
 msgid "Could not add %1 to the database"
 msgstr "無法新增 %1 至資料庫"
 
-#: libs/resources/KisResourceLocator.cpp:639
-#: libs/resources/KisResourceLocator.cpp:996
+#: libs/resources/KisResourceLocator.cpp:650
+#: libs/resources/KisResourceLocator.cpp:1006
 #, kde-format
 msgid "Could not remove storage %1 from the database"
 msgstr "無法從資料庫移除 %1 儲存空間"
 
-#: libs/resources/KisResourceLocator.cpp:765
+#: libs/resources/KisResourceLocator.cpp:775
 #, kde-format
 msgid ""
 "Krita is running for the first time. Initialization will take some time."
 msgstr "Krita 為第一次執行。需要一點時間初始化。"
 
-#: libs/resources/KisResourceLocator.cpp:772
+#: libs/resources/KisResourceLocator.cpp:782
 #, kde-format
 msgid "3. Could not create the resource location at %1."
 msgstr "3. 無法建立位於 %1 的資源位置"
 
-#: libs/resources/KisResourceLocator.cpp:785
-#: libs/resources/KisResourceLocator.cpp:801
+#: libs/resources/KisResourceLocator.cpp:795
+#: libs/resources/KisResourceLocator.cpp:811
 #, kde-format
 msgid "Could not copy resource %1 to %2"
 msgstr "無法複製 %1 資源至 %2"
 
-#: libs/resources/KisResourceLocator.cpp:797
+#: libs/resources/KisResourceLocator.cpp:807
 #, kde-format
 msgid "Installing the resources from bundle %1."
 msgstr "正在從 %1 資源包安裝資源。"
 
-#: libs/resources/KisResourceLocator.cpp:819
+#: libs/resources/KisResourceLocator.cpp:829
 #, kde-format
 msgid "Initializing the resources."
 msgstr "正在初始化資源。"
 
-#: libs/resources/KisResourceLocator.cpp:853
+#: libs/resources/KisResourceLocator.cpp:863
 #, kde-format
 msgid "Temporary Resources"
 msgstr "暫存資源"
 
-#: libs/resources/KisResourceLocator.cpp:972
-#: libs/resources/KisResourceLocator.cpp:978
+#: libs/resources/KisResourceLocator.cpp:982
+#: libs/resources/KisResourceLocator.cpp:988
 #, kde-format
 msgid "Could not synchronize %1 with the database"
 msgstr "無法與資料庫同步 %1"
@@ -20596,77 +20598,87 @@ msgctxt "(qtundo-format)"
 msgid "Change Layer Properties"
 msgstr "變更圖層屬性"
 
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:60
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:64
 #, kde-format
 msgid "Layer Styles"
 msgstr "圖層樣式"
 
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:269
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:273
 #, kde-format
 msgctxt "@title:window"
 msgid "Enter new style name"
 msgstr "輸入新樣式名稱"
 
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:270 libs/ui/KisMainWindow.cpp:2562
-#: plugins/dockers/gamutmask/gamutmask_dock.cpp:378
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:274 libs/ui/KisMainWindow.cpp:2562
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Name:"
 msgstr "名稱："
 
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:271
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:276
 #, kde-format
 msgctxt "Default name for a new style"
 msgid "New Style"
 msgstr "建立樣式"
 
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:314
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:358
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:329
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:394
 #, kde-format
 msgid "Select ASL file"
 msgstr "選擇 ASL 檔案"
 
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:335
-#, kde-format
-msgid "New name for ASL storage"
-msgstr "ASL 儲存空間的新名稱"
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:350
+#, fuzzy, kde-format
+#| msgid "Could not load raster selection %1."
+msgid "Could not load layer style library %1."
+msgstr "無法載入點陣選取區域 %1。"
 
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:335
-#, kde-format
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:366
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:232
+#, fuzzy, kde-format
+#| msgctxt "@ttile:window"
+#| msgid "Warning"
+msgctxt "@title:window"
+msgid "Warning"
+msgstr "警告"
+
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:367
+#, fuzzy, kde-format
+#| msgid ""
+#| "There is already a bundle with this name installed. Do you want to "
+#| "overwrite it?"
 msgid ""
-"The old filename is taken.\n"
-"New name:"
-msgstr ""
-"舊檔名已被取走。\n"
-"新名稱："
+"There is already a layer style library with this name installed. Do you want "
+"to overwrite it?"
+msgstr "已存在此名稱的資源包。要覆蓋它嗎？"
 
 #. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, scaleXBox)
 #. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, scaleYBox)
 #. i18n: ectx: property (suffix), widget (KisSliderSpinBox, ditheringStrength)
 #. i18n: ectx: property (suffix), widget (KisSliderSpinBox, alphaDitheringStrength)
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:735
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:753
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:756
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:774
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:782
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:785
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:912
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:947
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:954
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:961
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1092
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1095
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1160
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1163
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1166
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1173
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1176
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1292
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1295
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1334
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1410
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1413
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1416
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:744
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:762
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:765
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:783
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:791
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:794
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:921
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:956
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:963
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:970
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1101
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1104
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1169
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1172
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1175
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1182
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1185
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1301
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1304
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1343
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1419
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1422
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1425
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1003
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1007
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1011
@@ -20682,25 +20694,25 @@ msgstr ""
 msgid " %"
 msgstr " %"
 
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:895
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:904
 #: libs/ui/widgets/kis_cmb_contour.cpp:13
 #, kde-format
 msgid "Not Implemented Yet"
 msgstr "尚未實現"
 
 #. i18n: ectx: property (text), item, widget (QListWidget, lstStyleSelector)
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:984
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:993
 #: libs/ui/layerstyles/wdglayerstyles.ui:52
 #, kde-format
 msgid "Inner Shadow"
 msgstr "內部陰影"
 
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:985
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:994
 #, kde-format
 msgid "Choke:"
 msgstr "阻塞："
 
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1202
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1211
 #, kde-format
 msgctxt "layer styles parameter"
 msgid "Spread:"
@@ -26954,7 +26966,7 @@ msgctxt "Resource type name"
 msgid "Layer styles"
 msgstr "圖層樣式"
 
-#: libs/ui/KisApplication.cpp:322
+#: libs/ui/KisApplication.cpp:329
 #, kde-format
 msgid ""
 "%1\n"
@@ -26965,13 +26977,13 @@ msgstr ""
 "\n"
 "Krita 將立刻離開。"
 
-#: libs/ui/KisApplication.cpp:322 libs/ui/KisApplication.cpp:328
+#: libs/ui/KisApplication.cpp:329 libs/ui/KisApplication.cpp:335
 #, kde-format
 msgctxt "@title:window"
 msgid "Krita: Fatal error"
 msgstr "Krita：嚴重錯誤"
 
-#: libs/ui/KisApplication.cpp:328
+#: libs/ui/KisApplication.cpp:335
 #, kde-format
 msgid ""
 "\n"
@@ -26982,7 +26994,7 @@ msgstr ""
 "\n"
 "Krita 將立刻退出。"
 
-#: libs/ui/KisApplication.cpp:360
+#: libs/ui/KisApplication.cpp:367
 #, kde-format
 msgid ""
 "You are running a 32 bits build on a 64 bits Windows.\n"
@@ -26993,50 +27005,50 @@ msgstr ""
 "我們不建議此做法。\n"
 "請下載並安裝 x64 版本的 Krita 應用程式。"
 
-#: libs/ui/KisApplication.cpp:377
+#: libs/ui/KisApplication.cpp:384
 #, kde-format
 msgid "Initializing Globals..."
 msgstr "正在初始化全域參數…"
 
-#: libs/ui/KisApplication.cpp:408
+#: libs/ui/KisApplication.cpp:415
 #, kde-format
 msgid "Adding resource types..."
 msgstr "正在新增資源類型…"
 
-#: libs/ui/KisApplication.cpp:423
+#: libs/ui/KisApplication.cpp:430
 #, kde-format
 msgid "Loading Main Window..."
 msgstr "正在載入主視窗…"
 
-#: libs/ui/KisApplication.cpp:522
+#: libs/ui/KisApplication.cpp:529
 #, kde-format
 msgid "Mimetype not found, try using the -mimetype option"
 msgstr "無法找到 MIME 類型，請嘗試使用 -mimetype 選項"
 
-#: libs/ui/KisApplication.cpp:578
+#: libs/ui/KisApplication.cpp:585
 #, kde-format
 msgid "Failed to render animation frames!"
 msgstr "動畫影格繪製失敗！"
 
-#: libs/ui/KisApplication.cpp:605 libs/ui/KisApplication.cpp:740
+#: libs/ui/KisApplication.cpp:612 libs/ui/KisApplication.cpp:747
 #, kde-format
 msgid "File layer"
 msgstr "檔案圖層"
 
-#: libs/ui/KisApplication.cpp:613 libs/ui/KisApplication.cpp:618
-#: libs/ui/KisApplication.cpp:734 libs/ui/KisApplication.cpp:748
-#: libs/ui/KisApplication.cpp:753
+#: libs/ui/KisApplication.cpp:620 libs/ui/KisApplication.cpp:625
+#: libs/ui/KisApplication.cpp:741 libs/ui/KisApplication.cpp:755
+#: libs/ui/KisApplication.cpp:760
 #, kde-format
 msgctxt "@title:window"
 msgid "Krita:Warning"
 msgstr "Krita：警告"
 
-#: libs/ui/KisApplication.cpp:614 libs/ui/KisApplication.cpp:749
+#: libs/ui/KisApplication.cpp:621 libs/ui/KisApplication.cpp:756
 #, kde-format
 msgid "Cannot add %1 as a file layer: the file does not exist."
 msgstr "無法新增 %1 為檔案圖層：檔案不存在。"
 
-#: libs/ui/KisApplication.cpp:619
+#: libs/ui/KisApplication.cpp:626
 #, kde-format
 msgid ""
 "Cannot add the file layer: no document is open.\n"
@@ -27055,7 +27067,7 @@ msgstr ""
 "如果您想改新增檔案圖層至執行中 Krita 實體中的文件，請核取設定中的「只允許一"
 "個 Krita 實體」(設定 -> 一般 -> 視窗)。"
 
-#: libs/ui/KisApplication.cpp:625
+#: libs/ui/KisApplication.cpp:632
 #, kde-format
 msgid ""
 "Cannot add the file layer: no document is open.\n"
@@ -27065,32 +27077,32 @@ msgstr ""
 "無法新增檔案圖層：未開啟檔案。\n"
 "您可使用 --new-image 選項建立新檔案，或者是開啟現有檔案。"
 
-#: libs/ui/KisApplication.cpp:735
+#: libs/ui/KisApplication.cpp:742
 #, kde-format
 msgid "Couldn't open file %1"
 msgstr "無法開啟檔案「%1」"
 
-#: libs/ui/KisApplication.cpp:754
+#: libs/ui/KisApplication.cpp:761
 #, kde-format
 msgid "Cannot add the file layer: no document is open."
 msgstr "無法新增檔案圖層：未開啟檔案。"
 
-#: libs/ui/KisApplication.cpp:873
+#: libs/ui/KisApplication.cpp:880
 #, kde-format
 msgid "No template found for: %1"
 msgstr "找不到適用於 %1 的範本"
 
-#: libs/ui/KisApplication.cpp:876
+#: libs/ui/KisApplication.cpp:883
 #, kde-format
 msgid "Too many templates found for: %1"
 msgstr "適用於 %1 的範本過多"
 
-#: libs/ui/KisApplication.cpp:892
+#: libs/ui/KisApplication.cpp:899
 #, kde-format
 msgid "Template %1 failed to load."
 msgstr "範本 %1 載入失敗。"
 
-#: libs/ui/KisApplication.cpp:924
+#: libs/ui/KisApplication.cpp:931
 #, kde-format
 msgid ""
 "Krita configurations reset!\n"
@@ -27105,7 +27117,7 @@ msgstr ""
 "\n"
 "請重新啟動 Krita 以套用變更。"
 
-#: libs/ui/KisApplication.cpp:938
+#: libs/ui/KisApplication.cpp:945
 #, kde-format
 msgid ""
 "Failed to clear %1\n"
@@ -27116,7 +27128,7 @@ msgstr ""
 "\n"
 "請確保沒有其他程式正在使用該檔案並重試。"
 
-#: libs/ui/KisApplication.cpp:966
+#: libs/ui/KisApplication.cpp:973
 #, kde-format
 msgid "Do you want to clear the settings file?"
 msgstr "要清空設定檔嗎？"
@@ -27268,13 +27280,13 @@ msgstr "正在匯出檔案…"
 msgid "Saving Document..."
 msgstr "正在儲存檔案…"
 
-#: libs/ui/KisDocument.cpp:906
+#: libs/ui/KisDocument.cpp:905
 #, kde-format
 msgctxt "%1 --- failing file name, %2 --- error message"
 msgid "Error during saving %1: %2"
 msgstr "儲存%1 時出錯： %2"
 
-#: libs/ui/KisDocument.cpp:912
+#: libs/ui/KisDocument.cpp:911
 #, kde-format
 msgid ""
 "Could not save %1.\n"
@@ -27283,7 +27295,7 @@ msgstr ""
 "無法儲存 %1。\n"
 "原因：%2"
 
-#: libs/ui/KisDocument.cpp:921
+#: libs/ui/KisDocument.cpp:920
 #, kde-format
 msgctxt ""
 "dialog box shown to the user if there were warnings while saving the "
@@ -27295,38 +27307,38 @@ msgstr ""
 "已儲存 %1 但檔案不完整。\n"
 "儲存檔案時遇到以下問題："
 
-#: libs/ui/KisDocument.cpp:957
+#: libs/ui/KisDocument.cpp:956
 #, kde-format
 msgid "Finished saving %1"
 msgstr "完成儲存 %1"
 
-#: libs/ui/KisDocument.cpp:1335
+#: libs/ui/KisDocument.cpp:1334
 #, kde-format
 msgid "Autosaving... %1"
 msgstr "正在自動儲存… %1"
 
-#: libs/ui/KisDocument.cpp:1343
+#: libs/ui/KisDocument.cpp:1342
 #, kde-format
 msgid "Autosaving..."
 msgstr "正在自動儲存…"
 
-#: libs/ui/KisDocument.cpp:1349
+#: libs/ui/KisDocument.cpp:1348
 #, kde-format
 msgid "Autosaving postponed: document is busy..."
 msgstr "自動儲存已推遲：檔案正在被佔用…"
 
-#: libs/ui/KisDocument.cpp:1454
+#: libs/ui/KisDocument.cpp:1453
 #, kde-format
 msgctxt "%1 --- failing file name, %2 --- error message"
 msgid "Error during autosaving %1: %2"
 msgstr "自動儲存%1 時出錯：%2"
 
-#: libs/ui/KisDocument.cpp:1468
+#: libs/ui/KisDocument.cpp:1467
 #, kde-format
 msgid "Finished autosaving %1"
 msgstr "完成自動儲存 %1"
 
-#: libs/ui/KisDocument.cpp:1709
+#: libs/ui/KisDocument.cpp:1708
 #, kde-format
 msgid ""
 "Malformed Path\n"
@@ -27335,17 +27347,17 @@ msgstr ""
 "路徑格式錯誤\n"
 "%1"
 
-#: libs/ui/KisDocument.cpp:1775
+#: libs/ui/KisDocument.cpp:1774
 #, kde-format
 msgid "File %1 does not exist."
 msgstr "檔案 %1 不存在。"
 
-#: libs/ui/KisDocument.cpp:1804
+#: libs/ui/KisDocument.cpp:1803
 #, kde-format
 msgid "Opening document"
 msgstr "正在開啟檔案"
 
-#: libs/ui/KisDocument.cpp:1819
+#: libs/ui/KisDocument.cpp:1818
 #, kde-format
 msgid ""
 "Could not open %2.\n"
@@ -27354,23 +27366,23 @@ msgstr ""
 "無法開啟 %2。\n"
 "原因：%1"
 
-#: libs/ui/KisDocument.cpp:1827
+#: libs/ui/KisDocument.cpp:1826
 #, kde-format
 msgid "There were problems opening %1"
 msgstr "開啟 %1 時遇到了一些問題"
 
-#: libs/ui/KisDocument.cpp:1956
+#: libs/ui/KisDocument.cpp:1955
 #, kde-format
 msgid "Not Saved"
 msgstr "未儲存"
 
-#: libs/ui/KisDocument.cpp:2426
+#: libs/ui/KisDocument.cpp:2425
 #, kde-format
 msgctxt "Name of automatically created background color fill layer"
 msgid "Background Fill"
 msgstr "背景色填充"
 
-#: libs/ui/KisDocument.cpp:2480
+#: libs/ui/KisDocument.cpp:2479
 #, kde-format
 msgctxt ""
 "progress dialog message when the user closes the document that is being saved"
@@ -27825,8 +27837,8 @@ msgid "Layers/Masks"
 msgstr "圖層/遮罩"
 
 #: libs/ui/KisMainWindow.cpp:1902
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:179
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:261
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:180
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:276
 #, kde-format
 msgid "You don't have any resource bundles enabled."
 msgstr "您沒有啟用任何資源包"
@@ -27842,8 +27854,8 @@ msgstr ""
 "無可用的筆刷預設。在繼續之前請先啟用一個含有筆刷預設的資源包。\n"
 
 #: libs/ui/KisMainWindow.cpp:1916
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:189
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:273
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:190
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:288
 #, kde-format
 msgid ""
 "\n"
@@ -29169,10 +29181,11 @@ msgstr "描邊"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnNewStyle)
 #: libs/ui/layerstyles/wdglayerstyles.ui:156
-#, kde-format
-msgctxt "New layer style"
-msgid "&New..."
-msgstr "建立(&N)…"
+#, fuzzy, kde-format
+#| msgid "Save &As..."
+msgctxt "Save as new layer style..."
+msgid "&Save as..."
+msgstr "另存為(&A)…"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnLoadStyle)
 #: libs/ui/layerstyles/wdglayerstyles.ui:163
@@ -29323,14 +29336,14 @@ msgstr ""
 "Intel 核芯顯示卡的驅動程式在 OpenGL 支援方面常常存在各種問題，因此預設將使用 "
 "ANGLE 繪製器。您可以手動切換成 OpenGL 模式，但是無法保證正常作業。"
 
-#: libs/ui/opengl/kis_opengl.cpp:944
+#: libs/ui/opengl/kis_opengl.cpp:952
 #, kde-format
 msgid ""
 "Preferred renderer doesn't support requested surface format. Another "
 "renderer has been selected."
 msgstr "首選繪製器不支援請求的表面格式。已選用另一個繪製器。"
 
-#: libs/ui/opengl/kis_opengl.cpp:946
+#: libs/ui/opengl/kis_opengl.cpp:954
 #, kde-format
 msgid "Preferred output format is not supported by available renderers"
 msgstr "可用繪製器不支援首選輸出格式"
@@ -29699,14 +29712,6 @@ msgstr "編輯…"
 #, kde-format
 msgid "unnamed"
 msgstr "未命名"
-
-#: libs/ui/widgets/gradient/KisGradientChooser.cpp:536
-#: libs/ui/widgets/KoFillConfigWidget.cpp:671
-#: plugins/dockers/gamutmask/gamutmask_dock.cpp:385
-#: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:205
-#, kde-format
-msgid "The name '%1' already exists, do you wish to overwrite it?"
-msgstr "已有「%1」名稱的項目，您真的要覆寫嗎？"
 
 #: libs/ui/widgets/gradient/KisGradientColorEditor.cpp:39
 #, kde-format
@@ -30144,20 +30149,33 @@ msgstr ""
 "含 RGB 和灰度圖層。"
 
 #: libs/ui/widgets/kis_advanced_color_space_selector.cc:397
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "If the selected model is LAB"
+#| msgid ""
+#| "<b><a href=\"https://en.wikipedia.org/wiki/Lab_color_space\">L*a*b</a></"
+#| "b>. <b>L<b> stands for Lightness, the <b>a</b> and <b>b</b> components "
+#| "represent color channels.<br/>L*a*b is a special model for color "
+#| "correction. It is based on human perception, meaning that it tries to "
+#| "encode the difference in lightness, red-green balance and yellow-blue "
+#| "balance. This makes it useful for color correction, but the vast majority "
+#| "of color maths in the blending modes do <b>not</b> work as expected here."
+#| "<br/>Similarly, Krita does not support HDR in LAB, meaning that HDR "
+#| "images converted to LAB lose color information. This colorspace is "
+#| "<b>not</b> recommended for painting, nor for export, but best as a space "
+#| "to do post-processing in. The TRC is assumed to be the L* TRC."
 msgctxt "If the selected model is LAB"
 msgid ""
 "<b><a href=\"https://en.wikipedia.org/wiki/Lab_color_space\">L*a*b</a></b>. "
-"<b>L<b> stands for Lightness, the <b>a</b> and <b>b</b> components represent "
-"color channels.<br/>L*a*b is a special model for color correction. It is "
-"based on human perception, meaning that it tries to encode the difference in "
-"lightness, red-green balance and yellow-blue balance. This makes it useful "
-"for color correction, but the vast majority of color maths in the blending "
-"modes do <b>not</b> work as expected here.<br/>Similarly, Krita does not "
-"support HDR in LAB, meaning that HDR images converted to LAB lose color "
-"information. This colorspace is <b>not</b> recommended for painting, nor for "
-"export, but best as a space to do post-processing in. The TRC is assumed to "
-"be the L* TRC."
+"<b>L</b> stands for Lightness, the <b>a</b> and <b>b</b> components "
+"represent color channels.<br/>L*a*b is a special model for color correction. "
+"It is based on human perception, meaning that it tries to encode the "
+"difference in lightness, red-green balance and yellow-blue balance. This "
+"makes it useful for color correction, but the vast majority of color maths "
+"in the blending modes do <b>not</b> work as expected here.<br/>Similarly, "
+"Krita does not support HDR in LAB, meaning that HDR images converted to LAB "
+"lose color information. This colorspace is <b>not</b> recommended for "
+"painting, nor for export, but best as a space to do post-processing in. The "
+"TRC is assumed to be the L* TRC."
 msgstr ""
 "<b><a href=\"https://zh.wikipedia.org/wiki/Lab色彩空間\">L*a*b</a></b>。"
 "<b>L</b> 代表亮度， <b>a</b> 和 <b>b</b> 表示色彩通道。<br/>L*a*b 是為色彩校"
@@ -30808,7 +30826,7 @@ msgstr "中間灰亮度："
 
 #: libs/ui/widgets/kis_paintop_presets_chooser_popup.cpp:43
 #: libs/ui/widgets/kis_paintop_presets_editor.cpp:125
-#: plugins/dockers/gamutmask/KisGamutMaskChooser.cpp:154
+#: plugins/dockers/gamutmask/KisGamutMaskChooser.cpp:160
 #, kde-format
 msgctxt "@title Which elements to display (e.g., thumbnails or details)"
 msgid "Display"
@@ -30816,14 +30834,14 @@ msgstr "顯示方式"
 
 #: libs/ui/widgets/kis_paintop_presets_chooser_popup.cpp:49
 #: libs/ui/widgets/kis_paintop_presets_editor.cpp:131
-#: plugins/dockers/gamutmask/KisGamutMaskChooser.cpp:162
+#: plugins/dockers/gamutmask/KisGamutMaskChooser.cpp:168
 #, kde-format
 msgid "Thumbnails"
 msgstr "縮圖"
 
 #: libs/ui/widgets/kis_paintop_presets_chooser_popup.cpp:54
 #: libs/ui/widgets/kis_paintop_presets_editor.cpp:136
-#: plugins/dockers/gamutmask/KisGamutMaskChooser.cpp:168
+#: plugins/dockers/gamutmask/KisGamutMaskChooser.cpp:174
 #, kde-format
 msgid "Details"
 msgstr "詳細資料"
@@ -31310,12 +31328,17 @@ msgid "Enter gradient name:"
 msgstr "輸入漸變名稱："
 
 #: libs/ui/widgets/KoFillConfigWidget.cpp:670
-#: plugins/dockers/gamutmask/gamutmask_dock.cpp:384
 #: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:204
 #, kde-format
 msgctxt "@title:window"
 msgid "Name Already Exists"
 msgstr "名稱已存在"
+
+#: libs/ui/widgets/KoFillConfigWidget.cpp:671
+#: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:205
+#, kde-format
+msgid "The name '%1' already exists, do you wish to overwrite it?"
+msgstr "已有「%1」名稱的項目，您真的要覆寫嗎？"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, btnNoFill)
 #: libs/ui/widgets/KoFillConfigWidget.ui:38
@@ -35297,24 +35320,7 @@ msgstr "色域遮罩<b>「%1」</b>已被變更。"
 msgid "Do you want to save it?"
 msgstr "要進行儲存嗎？"
 
-#: plugins/dockers/gamutmask/gamutmask_dock.cpp:377
-#, kde-format
-msgctxt "@title:window"
-msgid "New Gamut Mask..."
-msgstr "新色域遮罩…"
-
-#: plugins/dockers/gamutmask/gamutmask_dock.cpp:380
-#, kde-format
-msgctxt "@title:window"
-msgid "Invalid Name"
-msgstr "名稱無效"
-
-#: plugins/dockers/gamutmask/gamutmask_dock.cpp:380
-#, kde-format
-msgid "Please enter a name"
-msgstr "請輸入名稱"
-
-#: plugins/dockers/gamutmask/gamutmask_dock.cpp:593
+#: plugins/dockers/gamutmask/gamutmask_dock.cpp:574
 #, kde-format
 msgid "Are you sure you want to delete mask <b>'%1'</b>?"
 msgstr "確定要刪除遮罩<b>「%1」</b>嗎？"
@@ -39030,18 +39036,18 @@ msgstr "G'MIC 外掛程式並未安裝或不能載入。"
 msgid "Krita cannot launch the gmic-qt plugin. No bundled library found."
 msgstr "Krita 未能啟動 gmic-qt 外掛程式。找不到同捆的程式庫。"
 
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:130
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:131
 #, kde-format
 msgid "Manage Resource Libraries"
 msgstr "管理資源庫"
 
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:137
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:138
 #, kde-format
 msgctxt "In bundle manager; press button to import a resource library"
 msgid "Import"
 msgstr "匯入"
 
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:142
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:143
 #, kde-format
 msgctxt ""
 "In bundle manager; press button to deactivate the resource library(remove "
@@ -39049,14 +39055,14 @@ msgctxt ""
 msgid "Deactivate"
 msgstr "停用"
 
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:146
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:147
 #, kde-format
 msgctxt "In bundle manager; press button to create a new bundle"
 msgid "Create Bundle"
 msgstr "建立新資源包"
 
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:183
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:267
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:184
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:282
 #, kde-format
 msgid ""
 "\n"
@@ -39068,30 +39074,29 @@ msgstr ""
 "無可用的筆刷預設。在繼續之前請先啟用一個含有筆刷預設的資源包。\n"
 "如果沒有資源包，請先匯入一個資源包。"
 
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:197
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:198
 #, kde-format
 msgid "Choose the resource library to import"
 msgstr "選擇要匯入的資源庫"
 
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:203
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:204
 #, kde-format
 msgid "Select the bundle"
 msgstr "請選擇資源包"
 
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:217
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:216
+#, kde-format
+msgid "Could not load bundle %1."
+msgstr "無法載入資源包 %1。"
+
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:232
 #, kde-format
 msgid ""
 "There is already a bundle with this name installed. Do you want to overwrite "
 "it?"
 msgstr "已存在此名稱的資源包。要覆蓋它嗎？"
 
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:217
-#, kde-format
-msgctxt "@ttile:window"
-msgid "Warning"
-msgstr "警告"
-
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:315
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:330
 #, kde-format
 msgctxt ""
 "In bundle manager; press button to deactivate the bundle (remove resources "
@@ -39099,7 +39104,7 @@ msgctxt ""
 msgid "Deactivate"
 msgstr "停用"
 
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:319
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:334
 #, kde-format
 msgctxt ""
 "In bundle manager; press button to activate the bundle (add resources from "
@@ -39107,44 +39112,58 @@ msgctxt ""
 msgid "Activate"
 msgstr "啟用"
 
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:62
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:64
 #, kde-format
 msgid "Edit Resource Bundle"
 msgstr "編輯資源包"
 
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:142
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:144
 #, kde-format
 msgid "Create Resource Bundle"
 msgstr "建立資源包"
 
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:355
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:295
+#, kde-format
+msgctxt "Warning message"
+msgid ""
+"One of more resources share the same file name '%1'. Please export them in "
+"separate bundles."
+msgstr ""
+
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:373
 #, kde-format
 msgid "The resource bundle name cannot be empty."
 msgstr "資源包的名稱不能為空。"
 
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:362
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:380
 #, kde-format
 msgid "The save location cannot be empty."
 msgstr "儲存位置不能為空。"
 
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:372
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:391
 #, kde-format
 msgctxt "In a dialog asking whether to overwrite a bundle (resource pack)"
 msgid "A bundle with this name already exists."
 msgstr "已經有同名的資源包。"
 
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:373
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:392
 #, kde-format
 msgctxt "In a dialog regarding overwriting a bundle (resource pack)"
 msgid "Do you want to overwrite the existing bundle?"
 msgstr "您確定要覆寫現存的資源包嗎？"
 
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:435
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:413
+#: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:214
+#, kde-format
+msgid "Could not open '%1' for saving."
+msgstr "無法開啟「%1」以進行儲存。"
+
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:462
 #, kde-format
 msgid "Select a directory to save the bundle"
 msgstr "選擇儲存資源包的資料夾"
 
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:529
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:556
 #, kde-format
 msgid "Select file to use as bundle icon"
 msgstr "請選擇用作資源包圖示的檔案"
@@ -39273,90 +39292,15 @@ msgctxt "Resource Importer file dialog title"
 msgid "Import Resources and Resource Libraries"
 msgstr "匯入資源及資源庫"
 
-#: plugins/extensions/resourcemanager/resourcemanager.cpp:82
-#, kde-format
-msgid "Import Bundles..."
-msgstr "匯入資源包…"
-
-#: plugins/extensions/resourcemanager/resourcemanager.cpp:86
-#, kde-format
-msgid "Import Brushes..."
-msgstr "匯入筆刷…"
-
-#: plugins/extensions/resourcemanager/resourcemanager.cpp:90
-#, kde-format
-msgid "Import Gradients..."
-msgstr "匯入漸變…"
-
-#: plugins/extensions/resourcemanager/resourcemanager.cpp:94
-#, kde-format
-msgid "Import Palettes..."
-msgstr "匯入調色板…"
-
-#: plugins/extensions/resourcemanager/resourcemanager.cpp:98
-#, kde-format
-msgid "Import Patterns..."
-msgstr "匯入圖案…"
-
-#: plugins/extensions/resourcemanager/resourcemanager.cpp:102
-#, kde-format
-msgid "Import Presets..."
-msgstr "匯入預設…"
-
-#: plugins/extensions/resourcemanager/resourcemanager.cpp:106
-#, kde-format
-msgid "Import Workspaces..."
-msgstr "匯入作業空間…"
-
-#: plugins/extensions/resourcemanager/resourcemanager.cpp:110
-#, kde-format
-msgid "Create Resource Bundle..."
-msgstr "建立資源包…"
-
-#: plugins/extensions/resourcemanager/resourcemanager.cpp:114
+#: plugins/extensions/resourcemanager/resourcemanager.cpp:38
 #, kde-format
 msgid "Manage Resources Libraries..."
 msgstr "管理資源庫"
 
-#: plugins/extensions/resourcemanager/resourcemanager.cpp:118
+#: plugins/extensions/resourcemanager/resourcemanager.cpp:42
 #, kde-format
 msgid "Manage Resources..."
 msgstr "管理資源…"
-
-#: plugins/extensions/resourcemanager/resourcemanager.cpp:221
-#, kde-format
-msgid "Could not create the new bundle."
-msgstr "無法建立資源包。"
-
-#: plugins/extensions/resourcemanager/resourcemanager.cpp:261
-#, kde-format
-msgid "Import Brushes"
-msgstr "匯入筆刷"
-
-#: plugins/extensions/resourcemanager/resourcemanager.cpp:273
-#, kde-format
-msgid "Import Presets"
-msgstr "匯入預設"
-
-#: plugins/extensions/resourcemanager/resourcemanager.cpp:281
-#, kde-format
-msgid "Import Gradients"
-msgstr "匯入漸變"
-
-#: plugins/extensions/resourcemanager/resourcemanager.cpp:320
-#, kde-format
-msgid "Import Patterns"
-msgstr "匯入圖案"
-
-#: plugins/extensions/resourcemanager/resourcemanager.cpp:334
-#, kde-format
-msgid "Import Palettes"
-msgstr "匯入調色板"
-
-#: plugins/extensions/resourcemanager/resourcemanager.cpp:342
-#, kde-format
-msgid "Import Workspaces"
-msgstr "匯入作業空間"
 
 #: plugins/extensions/resourcemanager/resourcemanager.xmlgui:5
 #, kde-format
@@ -43476,8 +43420,8 @@ msgstr ""
 "是否選擇其他位置？"
 
 #: plugins/impex/libkra/kis_kra_load_visitor.cpp:149
-#: plugins/impex/libkra/kis_kra_loader.cpp:1018
-#: plugins/impex/libkra/kis_kra_loader.cpp:1388
+#: plugins/impex/libkra/kis_kra_loader.cpp:1011
+#: plugins/impex/libkra/kis_kra_loader.cpp:1381
 #, kde-format
 msgctxt "@title:window"
 msgid "File not found"
@@ -43573,66 +43517,66 @@ msgstr ""
 msgid "unknown keyframe channel type: %1 in %2"
 msgstr "未知的關鍵影格通道類型：%1 在 %2 中"
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:214
+#: plugins/impex/libkra/kis_kra_loader.cpp:207
 #, kde-format
 msgid "Image does not have a name."
 msgstr "影像沒有名稱。"
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:219
+#: plugins/impex/libkra/kis_kra_loader.cpp:212
 #, kde-format
 msgid "Image does not specify a width."
 msgstr "影像未指定寬度。"
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:225
+#: plugins/impex/libkra/kis_kra_loader.cpp:218
 #, kde-format
 msgid "Image does not specify a height."
 msgstr "影像未指定高度。"
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:275
+#: plugins/impex/libkra/kis_kra_loader.cpp:268
 #, kde-format
 msgid "Image specifies an unsupported color model: %1."
 msgstr "影像指定了一個不支援的色彩模型：%1 。"
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:570
+#: plugins/impex/libkra/kis_kra_loader.cpp:563
 #, kde-format
 msgctxt "Warning message on loading a .kra file"
 msgid ""
 "Embedded palette is empty and cannot be loaded. The name of the palette: %1"
 msgstr "嵌入的調色板為空白而且不能載入。調色板名稱為：%1"
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:581
+#: plugins/impex/libkra/kis_kra_loader.cpp:574
 #, kde-format
 msgctxt "Warning message on loading a .kra file"
 msgid "Embedded resource cannot be read. The filename of the resource: %1"
 msgstr "未能讀取已嵌入的資源。資源名稱為：%1"
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:590
+#: plugins/impex/libkra/kis_kra_loader.cpp:583
 #, kde-format
 msgctxt "Warning message on loading a .kra file"
 msgid "Embedded resource cannot be imported. The filename of the resource: %1"
 msgstr "未能匯入已嵌入的資源。資源名稱為：%1"
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:822
+#: plugins/impex/libkra/kis_kra_loader.cpp:815
 #, kde-format
 msgid "Layer %1 specifies an unsupported color model: %2."
 msgstr "圖層 %1 指定了一個不支援的色彩模型：%2"
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:850
+#: plugins/impex/libkra/kis_kra_loader.cpp:843
 #, kde-format
 msgid "Layer %1 has an unsupported type."
 msgstr "圖層 %1 含有不支援的類型。"
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:884
+#: plugins/impex/libkra/kis_kra_loader.cpp:877
 #, kde-format
 msgid "Layer %1 has an unsupported type: %2."
 msgstr "圖層 %1 含有不支援的類型：%2 。"
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:891
+#: plugins/impex/libkra/kis_kra_loader.cpp:884
 #, kde-format
 msgid "Failure loading layer %1 of type: %2."
 msgstr "載入類型為：%2 的圖層 %1 時出錯。"
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:1013
+#: plugins/impex/libkra/kis_kra_loader.cpp:1006
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -43650,7 +43594,7 @@ msgstr ""
 "\n"
 "要手動定位該檔案嗎？"
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:1383
+#: plugins/impex/libkra/kis_kra_loader.cpp:1376
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -52514,11 +52458,6 @@ msgstr "無法載入來自「%1」的參考圖。"
 msgid "Save Reference Images"
 msgstr "儲存參考圖"
 
-#: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:214
-#, kde-format
-msgid "Could not open '%1' for saving."
-msgstr "無法開啟「%1」以進行儲存。"
-
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:223
 #, kde-format
 msgid "Failed to save reference images."
@@ -54798,6 +54737,97 @@ msgstr "縮放工具"
 msgctxt "action"
 msgid "Reference Images Tool"
 msgstr "參考圖工具"
+
+#, kde-format
+#~ msgid "New name for ASL storage"
+#~ msgstr "ASL 儲存空間的新名稱"
+
+#, kde-format
+#~ msgid ""
+#~ "The old filename is taken.\n"
+#~ "New name:"
+#~ msgstr ""
+#~ "舊檔名已被取走。\n"
+#~ "新名稱："
+
+#, kde-format
+#~ msgctxt "New layer style"
+#~ msgid "&New..."
+#~ msgstr "建立(&N)…"
+
+#, kde-format
+#~ msgctxt "@title:window"
+#~ msgid "New Gamut Mask..."
+#~ msgstr "新色域遮罩…"
+
+#, kde-format
+#~ msgctxt "@title:window"
+#~ msgid "Invalid Name"
+#~ msgstr "名稱無效"
+
+#, kde-format
+#~ msgid "Please enter a name"
+#~ msgstr "請輸入名稱"
+
+#, kde-format
+#~ msgid "Import Bundles..."
+#~ msgstr "匯入資源包…"
+
+#, kde-format
+#~ msgid "Import Brushes..."
+#~ msgstr "匯入筆刷…"
+
+#, kde-format
+#~ msgid "Import Gradients..."
+#~ msgstr "匯入漸變…"
+
+#, kde-format
+#~ msgid "Import Palettes..."
+#~ msgstr "匯入調色板…"
+
+#, kde-format
+#~ msgid "Import Patterns..."
+#~ msgstr "匯入圖案…"
+
+#, kde-format
+#~ msgid "Import Presets..."
+#~ msgstr "匯入預設…"
+
+#, kde-format
+#~ msgid "Import Workspaces..."
+#~ msgstr "匯入作業空間…"
+
+#, kde-format
+#~ msgid "Create Resource Bundle..."
+#~ msgstr "建立資源包…"
+
+#, kde-format
+#~ msgid "Could not create the new bundle."
+#~ msgstr "無法建立資源包。"
+
+#, kde-format
+#~ msgid "Import Brushes"
+#~ msgstr "匯入筆刷"
+
+#, kde-format
+#~ msgid "Import Presets"
+#~ msgstr "匯入預設"
+
+#, kde-format
+#~ msgid "Import Gradients"
+#~ msgstr "匯入漸變"
+
+#, kde-format
+#~ msgid "Import Patterns"
+#~ msgstr "匯入圖案"
+
+#, kde-format
+#~ msgid "Import Palettes"
+#~ msgstr "匯入調色板"
+
+#, kde-format
+#~ msgid "Import Workspaces"
+#~ msgstr "匯入作業空間"
 
 #, kde-format
 #~ msgid "Could not save %1"
@@ -57380,9 +57410,6 @@ msgstr "參考圖工具"
 
 #~ msgid "Bundle \"%1\" doesn't exist!"
 #~ msgstr "資源包「%1」不存在！"
-
-#~ msgid "Could not load bundle %1."
-#~ msgstr "無法載入資源包 %1。"
 
 #~ msgid "Inactive Bundles"
 #~ msgstr "未啟動的資源包"
