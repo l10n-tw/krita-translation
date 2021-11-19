@@ -39108,7 +39108,8 @@ msgctxt "Warning message"
 msgid ""
 "More than one resources share the same file name '%1'. Please export them in "
 "separate bundles."
-msgstr "多於一項資源使用了相同的檔案名稱「%1」。請分別將它們匯出為獨立的資源包。"
+msgstr ""
+"多於一項資源使用了相同的檔案名稱「%1」。請分別將它們匯出為獨立的資源包。"
 
 #: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:373
 #, kde-format
