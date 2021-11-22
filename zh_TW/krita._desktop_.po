@@ -22,7 +22,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_koffice\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-10-15 00:25+0000\n"
+"POT-Creation-Date: 2021-11-22 00:36+0000\n"
 "PO-Revision-Date: 2021-10-23 11:25+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
@@ -69,7 +69,7 @@ msgctxt "Name"
 msgid "FX"
 msgstr "特效"
 
-#: krita/data/paintoppresets/FX.tag:28
+#: krita/data/paintoppresets/FX.tag:29
 msgctxt "Comment"
 msgid "Special Effects.kpp"
 msgstr "Special Effects.kpp"
@@ -79,7 +79,7 @@ msgctxt "Name"
 msgid "Ink"
 msgstr "上墨"
 
-#: krita/data/paintoppresets/Ink.tag:28
+#: krita/data/paintoppresets/Ink.tag:29
 msgctxt "Comment"
 msgid "Inking Brush Presets"
 msgstr "上墨用筆刷預設"
@@ -89,7 +89,7 @@ msgctxt "Name"
 msgid "Paint"
 msgstr "塗繪"
 
-#: krita/data/paintoppresets/Paint.tag:28
+#: krita/data/paintoppresets/Paint.tag:29
 msgctxt "Comment"
 msgid "Paint Brushes"
 msgstr "塗繪筆刷"
@@ -109,7 +109,7 @@ msgctxt "Name"
 msgid "Sketch"
 msgstr "草圖"
 
-#: krita/data/paintoppresets/Sketch.tag:28
+#: krita/data/paintoppresets/Sketch.tag:29
 msgctxt "Comment"
 msgid "Sketching brush presets"
 msgstr "草圖用筆刷預設"
@@ -119,7 +119,7 @@ msgctxt "Name"
 msgid "Textures"
 msgstr "紋理"
 
-#: krita/data/paintoppresets/Textures.tag:28
+#: krita/data/paintoppresets/Textures.tag:29
 msgctxt "Comment"
 msgid "Textured Brush Presets"
 msgstr "帶紋理的筆刷預設"
