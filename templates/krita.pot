@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-11-23 00:26+0000\n"
+"POT-Creation-Date: 2021-11-25 00:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -14753,7 +14753,7 @@ msgstr ""
 #: plugins/paintops/spray/kis_spray_paintop_settings_widget.cpp:34
 #: plugins/paintops/tangentnormal/kis_tangent_normal_paintop_settings_widget.cpp:42
 #: plugins/python/quick_settings_docker/quick_settings_docker.py:53
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1407
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1412
 #, kde-format
 msgid "Size"
 msgstr ""
@@ -17526,7 +17526,7 @@ msgstr ""
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:182
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:214
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:223
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1115
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1120
 #: plugins/tools/tool_transform2/kis_free_transform_strategy_gsl_helpers.cpp:436
 #, kde-format
 msgctxt "@title:window"
@@ -20432,7 +20432,7 @@ msgstr ""
 #: plugins/paintops/tangentnormal/kis_tangent_tilt_option.cpp:39
 #: plugins/paintops/tangentnormal/kis_tangent_tilt_option.cpp:43
 #: plugins/tools/basictools/kis_tool_colorsampler.cc:398
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1444
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1449
 #, no-c-format, kde-format
 msgid "%"
 msgstr ""
@@ -22952,7 +22952,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbFill)
 #: libs/ui/forms/wdggeometryoptions.ui:69
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1423
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1428
 #, kde-format
 msgid "Background Color"
 msgstr ""
@@ -27312,12 +27312,12 @@ msgctxt "@action:inmenu"
 msgid "Wor&kspace"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:577 plugins/tools/svgtexttool/SvgTextEditor.cpp:309
+#: libs/ui/KisMainWindow.cpp:577 plugins/tools/svgtexttool/SvgTextEditor.cpp:314
 #, kde-format
 msgid "Show %1 Toolbar"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:579 plugins/tools/svgtexttool/SvgTextEditor.cpp:311
+#: libs/ui/KisMainWindow.cpp:579 plugins/tools/svgtexttool/SvgTextEditor.cpp:316
 #, kde-format
 msgid "Hide %1 Toolbar"
 msgstr ""
@@ -51870,77 +51870,77 @@ msgctxt "(qtundo-format)"
 msgid "Change SvgTextTool"
 msgstr ""
 
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:256
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:261
 #, kde-format
 msgid "Text Tool"
 msgstr ""
 
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:367
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:372
 #, kde-format
 msgid "Conversion failed"
 msgstr ""
 
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:577
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:582
 #, kde-format
 msgid "Find Text"
 msgstr ""
 
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:580
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:623
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:585
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:628
 #, kde-format
 msgid "Find:"
 msgstr ""
 
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:619
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:624
 #, kde-format
 msgid "Find and Replace all"
 msgstr ""
 
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:625
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:630
 #, kde-format
 msgid "Replace:"
 msgstr ""
 
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1115
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1120
 #, kde-format
 msgid "You have modified the text. Discard changes?"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, richTab)
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1251
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1257
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1256
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1262
 #: plugins/tools/svgtexttool/WdgSvgTextEditor.ui:28
 #, kde-format
 msgid "Rich text"
 msgstr ""
 
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1254
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1258
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1259
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1263
 #, kde-format
 msgid "SVG Source"
 msgstr ""
 
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1398
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1403
 #, kde-format
 msgid "Font"
 msgstr ""
 
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1415
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1420
 #, kde-format
 msgid "Text Color"
 msgstr ""
 
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1430
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1435
 #, kde-format
 msgid "Sample a Color"
 msgstr ""
 
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1441
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1446
 #, kde-format
 msgid "Line height"
 msgstr ""
 
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1453
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1458
 #: plugins/tools/svgtexttool/SvgTextTool.cpp:209
 #, kde-format
 msgid "Letter Spacing"
