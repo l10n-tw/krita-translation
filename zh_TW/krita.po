@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-11-20 00:25+0000\n"
+"POT-Creation-Date: 2021-11-25 00:26+0000\n"
 "PO-Revision-Date: 2021-11-19 08:50+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
@@ -13959,8 +13959,8 @@ msgstr ""
 "Krita 不支援 Wayland 平台。如您希望在 Wayland 上執行 Krita，請使用 XWayland。"
 "Krita 現在會退出。"
 
-#: krita/main.cc:606 libs/ui/KisApplication.cpp:395
-#: libs/ui/KisApplication.cpp:660
+#: krita/main.cc:606 libs/ui/KisApplication.cpp:404
+#: libs/ui/KisApplication.cpp:669
 #, kde-format
 msgctxt "@title:window"
 msgid "Krita: Warning"
@@ -14774,7 +14774,7 @@ msgstr "預設"
 #: plugins/paintops/spray/kis_spray_paintop_settings_widget.cpp:34
 #: plugins/paintops/tangentnormal/kis_tangent_normal_paintop_settings_widget.cpp:42
 #: plugins/python/quick_settings_docker/quick_settings_docker.py:53
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1407
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1412
 #, kde-format
 msgid "Size"
 msgstr "大小"
@@ -17514,9 +17514,9 @@ msgstr "本機資源"
 #: libs/ui/kis_filter_manager.cc:233 libs/ui/kis_filter_manager.cc:242
 #: libs/ui/kis_layer_manager.cc:313 libs/ui/kis_layer_manager.cc:961
 #: libs/ui/kis_node_manager.cpp:1218 libs/ui/kis_node_manager.cpp:1281
-#: libs/ui/KisApplication.cpp:951 libs/ui/KisApplication.cpp:954
-#: libs/ui/KisApplication.cpp:970 libs/ui/KisApplication.cpp:1002
-#: libs/ui/KisApplication.cpp:1016 libs/ui/KisApplication.cpp:1044
+#: libs/ui/KisApplication.cpp:965 libs/ui/KisApplication.cpp:968
+#: libs/ui/KisApplication.cpp:984 libs/ui/KisApplication.cpp:1016
+#: libs/ui/KisApplication.cpp:1030 libs/ui/KisApplication.cpp:1058
 #: libs/ui/KisDocument.cpp:910 libs/ui/KisDocument.cpp:918
 #: libs/ui/KisDocument.cpp:1774 libs/ui/KisDocument.cpp:1817
 #: libs/ui/KisDocument.cpp:1825 libs/ui/KisMainWindow.cpp:1081
@@ -17567,7 +17567,7 @@ msgstr "本機資源"
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:182
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:214
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:223
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1115
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1120
 #: plugins/tools/tool_transform2/kis_free_transform_strategy_gsl_helpers.cpp:436
 #, kde-format
 msgctxt "@title:window"
@@ -20575,7 +20575,7 @@ msgstr "圖層屬性"
 #: plugins/paintops/tangentnormal/kis_tangent_tilt_option.cpp:39
 #: plugins/paintops/tangentnormal/kis_tangent_tilt_option.cpp:43
 #: plugins/tools/basictools/kis_tool_colorsampler.cc:398
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1444
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1449
 #, no-c-format, kde-format
 msgid "%"
 msgstr "%"
@@ -23186,7 +23186,7 @@ msgstr "前景色"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbFill)
 #: libs/ui/forms/wdggeometryoptions.ui:69
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1423
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1428
 #, kde-format
 msgid "Background Color"
 msgstr "背景色"
@@ -24784,7 +24784,7 @@ msgid "Anti-aliasing"
 msgstr "反鋸齒"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, DlgSessionManager)
-#: libs/ui/forms/wdgsessionmanager.ui:18 libs/ui/KisApplication.cpp:340
+#: libs/ui/forms/wdgsessionmanager.ui:18 libs/ui/KisApplication.cpp:349
 #, kde-format
 msgid "Sessions"
 msgstr "工作階段"
@@ -26139,7 +26139,7 @@ msgstr "開啟前景色選取工具(&O)"
 msgid "&Open Background color selector"
 msgstr "開啟背景色選取工具"
 
-#: libs/ui/kis_control_frame.cpp:186 libs/ui/KisApplication.cpp:336
+#: libs/ui/kis_control_frame.cpp:186 libs/ui/KisApplication.cpp:345
 #: plugins/dockers/patterndocker/patterndocker_dock.cpp:20
 #: plugins/extensions/resourcemanager/dlg_embed_tags.cpp:65
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:241
@@ -26152,8 +26152,8 @@ msgstr "圖案"
 msgid "Custom Pattern"
 msgstr "自訂圖案"
 
-#: libs/ui/kis_control_frame.cpp:236 libs/ui/KisApplication.cpp:321
-#: libs/ui/KisApplication.cpp:322
+#: libs/ui/kis_control_frame.cpp:236 libs/ui/KisApplication.cpp:330
+#: libs/ui/KisApplication.cpp:331
 #: plugins/extensions/resourcemanager/dlg_embed_tags.cpp:63
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:244
 #, kde-format
@@ -26906,61 +26906,61 @@ msgctxt "floating message about zoom"
 msgid "Zoom: %1 %"
 msgstr "縮放：%1 %"
 
-#: libs/ui/KisApplication.cpp:313
+#: libs/ui/KisApplication.cpp:322
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:238
 #, kde-format
 msgid "Brush presets"
 msgstr "筆刷預設"
 
-#: libs/ui/KisApplication.cpp:316 libs/ui/KisApplication.cpp:317
-#: libs/ui/KisApplication.cpp:318 libs/ui/KisApplication.cpp:319
+#: libs/ui/KisApplication.cpp:325 libs/ui/KisApplication.cpp:326
+#: libs/ui/KisApplication.cpp:327 libs/ui/KisApplication.cpp:328
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:239
 #, kde-format
 msgid "Brush tips"
 msgstr "筆刷提示"
 
-#: libs/ui/KisApplication.cpp:324
+#: libs/ui/KisApplication.cpp:333
 #: plugins/extensions/resourcemanager/dlg_embed_tags.cpp:66
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:242
 #, kde-format
 msgid "Palettes"
 msgstr "調色板"
 
-#: libs/ui/KisApplication.cpp:337 libs/ui/widgets/kis_workspace_chooser.cpp:79
+#: libs/ui/KisApplication.cpp:346 libs/ui/widgets/kis_workspace_chooser.cpp:79
 #: plugins/extensions/resourcemanager/dlg_embed_tags.cpp:67
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:240
 #, kde-format
 msgid "Workspaces"
 msgstr "作業空間"
 
-#: libs/ui/KisApplication.cpp:338
+#: libs/ui/KisApplication.cpp:347
 #, kde-format
 msgid "SVG symbol libraries"
 msgstr "SVG 符號庫"
 
-#: libs/ui/KisApplication.cpp:339 libs/ui/widgets/kis_workspace_chooser.cpp:80
+#: libs/ui/KisApplication.cpp:348 libs/ui/widgets/kis_workspace_chooser.cpp:80
 #, kde-format
 msgid "Window layouts"
 msgstr "視窗版面配置"
 
-#: libs/ui/KisApplication.cpp:341
+#: libs/ui/KisApplication.cpp:350
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:245
 #, kde-format
 msgid "Gamut masks"
 msgstr "色域遮罩"
 
-#: libs/ui/KisApplication.cpp:343
+#: libs/ui/KisApplication.cpp:352
 #, kde-format
 msgid "SeExpr Scripts"
 msgstr "SeExpr 指令稿"
 
-#: libs/ui/KisApplication.cpp:348
+#: libs/ui/KisApplication.cpp:357
 #, kde-format
 msgctxt "Resource type name"
 msgid "Layer styles"
 msgstr "圖層樣式"
 
-#: libs/ui/KisApplication.cpp:358
+#: libs/ui/KisApplication.cpp:367
 #, kde-format
 msgid ""
 "%1\n"
@@ -26971,13 +26971,13 @@ msgstr ""
 "\n"
 "Krita 將立刻離開。"
 
-#: libs/ui/KisApplication.cpp:358 libs/ui/KisApplication.cpp:364
+#: libs/ui/KisApplication.cpp:367 libs/ui/KisApplication.cpp:373
 #, kde-format
 msgctxt "@title:window"
 msgid "Krita: Fatal error"
 msgstr "Krita：嚴重錯誤"
 
-#: libs/ui/KisApplication.cpp:364
+#: libs/ui/KisApplication.cpp:373
 #, kde-format
 msgid ""
 "\n"
@@ -26988,7 +26988,7 @@ msgstr ""
 "\n"
 "Krita 將立刻退出。"
 
-#: libs/ui/KisApplication.cpp:396
+#: libs/ui/KisApplication.cpp:405
 #, kde-format
 msgid ""
 "You are running a 32 bits build on a 64 bits Windows.\n"
@@ -26999,50 +26999,50 @@ msgstr ""
 "我們不建議此做法。\n"
 "請下載並安裝 x64 版本的 Krita 應用程式。"
 
-#: libs/ui/KisApplication.cpp:413
+#: libs/ui/KisApplication.cpp:422
 #, kde-format
 msgid "Initializing Globals..."
 msgstr "正在初始化全域參數…"
 
-#: libs/ui/KisApplication.cpp:444
+#: libs/ui/KisApplication.cpp:453
 #, kde-format
 msgid "Adding resource types..."
 msgstr "正在新增資源類型…"
 
-#: libs/ui/KisApplication.cpp:459
+#: libs/ui/KisApplication.cpp:468
 #, kde-format
 msgid "Loading Main Window..."
 msgstr "正在載入主視窗…"
 
-#: libs/ui/KisApplication.cpp:558
+#: libs/ui/KisApplication.cpp:567
 #, kde-format
 msgid "Mimetype not found, try using the -mimetype option"
 msgstr "無法找到 MIME 類型，請嘗試使用 -mimetype 選項"
 
-#: libs/ui/KisApplication.cpp:614
+#: libs/ui/KisApplication.cpp:623
 #, kde-format
 msgid "Failed to render animation frames!"
 msgstr "動畫影格繪製失敗！"
 
-#: libs/ui/KisApplication.cpp:641 libs/ui/KisApplication.cpp:819
+#: libs/ui/KisApplication.cpp:650 libs/ui/KisApplication.cpp:833
 #, kde-format
 msgid "File layer"
 msgstr "檔案圖層"
 
-#: libs/ui/KisApplication.cpp:649 libs/ui/KisApplication.cpp:654
-#: libs/ui/KisApplication.cpp:813 libs/ui/KisApplication.cpp:827
-#: libs/ui/KisApplication.cpp:832
+#: libs/ui/KisApplication.cpp:658 libs/ui/KisApplication.cpp:663
+#: libs/ui/KisApplication.cpp:827 libs/ui/KisApplication.cpp:841
+#: libs/ui/KisApplication.cpp:846
 #, kde-format
 msgctxt "@title:window"
 msgid "Krita:Warning"
 msgstr "Krita：警告"
 
-#: libs/ui/KisApplication.cpp:650 libs/ui/KisApplication.cpp:828
+#: libs/ui/KisApplication.cpp:659 libs/ui/KisApplication.cpp:842
 #, kde-format
 msgid "Cannot add %1 as a file layer: the file does not exist."
 msgstr "無法新增 %1 為檔案圖層：檔案不存在。"
 
-#: libs/ui/KisApplication.cpp:655
+#: libs/ui/KisApplication.cpp:664
 #, kde-format
 msgid ""
 "Cannot add the file layer: no document is open.\n"
@@ -27061,7 +27061,7 @@ msgstr ""
 "如果您想改新增檔案圖層至執行中 Krita 實體中的文件，請核取設定中的「只允許一"
 "個 Krita 實體」(設定 -> 一般 -> 視窗)。"
 
-#: libs/ui/KisApplication.cpp:661
+#: libs/ui/KisApplication.cpp:670
 #, kde-format
 msgid ""
 "Cannot add the file layer: no document is open.\n"
@@ -27071,32 +27071,32 @@ msgstr ""
 "無法新增檔案圖層：未開啟檔案。\n"
 "您可使用 --new-image 選項建立新檔案，或者是開啟現有檔案。"
 
-#: libs/ui/KisApplication.cpp:814
+#: libs/ui/KisApplication.cpp:828
 #, kde-format
 msgid "Couldn't open file %1"
 msgstr "無法開啟檔案「%1」"
 
-#: libs/ui/KisApplication.cpp:833
+#: libs/ui/KisApplication.cpp:847
 #, kde-format
 msgid "Cannot add the file layer: no document is open."
 msgstr "無法新增檔案圖層：未開啟檔案。"
 
-#: libs/ui/KisApplication.cpp:952
+#: libs/ui/KisApplication.cpp:966
 #, kde-format
 msgid "No template found for: %1"
 msgstr "找不到適用於 %1 的範本"
 
-#: libs/ui/KisApplication.cpp:955
+#: libs/ui/KisApplication.cpp:969
 #, kde-format
 msgid "Too many templates found for: %1"
 msgstr "適用於 %1 的範本過多"
 
-#: libs/ui/KisApplication.cpp:971
+#: libs/ui/KisApplication.cpp:985
 #, kde-format
 msgid "Template %1 failed to load."
 msgstr "範本 %1 載入失敗。"
 
-#: libs/ui/KisApplication.cpp:1003
+#: libs/ui/KisApplication.cpp:1017
 #, kde-format
 msgid ""
 "Krita configurations reset!\n"
@@ -27111,7 +27111,7 @@ msgstr ""
 "\n"
 "請重新啟動 Krita 以套用變更。"
 
-#: libs/ui/KisApplication.cpp:1017
+#: libs/ui/KisApplication.cpp:1031
 #, kde-format
 msgid ""
 "Failed to clear %1\n"
@@ -27122,7 +27122,7 @@ msgstr ""
 "\n"
 "請確保沒有其他程式正在使用該檔案並重試。"
 
-#: libs/ui/KisApplication.cpp:1045
+#: libs/ui/KisApplication.cpp:1059
 #, kde-format
 msgid "Do you want to clear the settings file?"
 msgstr "要清空設定檔嗎？"
@@ -27751,13 +27751,13 @@ msgid "Wor&kspace"
 msgstr "作業空間(&K)"
 
 #: libs/ui/KisMainWindow.cpp:577
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:309
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:314
 #, kde-format
 msgid "Show %1 Toolbar"
 msgstr "顯示%1工具列"
 
 #: libs/ui/KisMainWindow.cpp:579
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:311
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:316
 #, kde-format
 msgid "Hide %1 Toolbar"
 msgstr "隱藏%1工具列"
@@ -31290,31 +31290,31 @@ msgstr "變更填充色彩"
 msgid "Change filling gradient"
 msgstr "變更填充漸變"
 
-#: libs/ui/widgets/KoFillConfigWidget.cpp:653
+#: libs/ui/widgets/KoFillConfigWidget.cpp:654
 #, kde-format
 msgctxt "default prefix for the saved gradient"
 msgid "gradient"
 msgstr "漸變"
 
-#: libs/ui/widgets/KoFillConfigWidget.cpp:662
+#: libs/ui/widgets/KoFillConfigWidget.cpp:663
 #, kde-format
 msgctxt "@title:window"
 msgid "Save Gradient"
 msgstr "儲存漸變"
 
-#: libs/ui/widgets/KoFillConfigWidget.cpp:663
+#: libs/ui/widgets/KoFillConfigWidget.cpp:664
 #, kde-format
 msgid "Enter gradient name:"
 msgstr "輸入漸變名稱："
 
-#: libs/ui/widgets/KoFillConfigWidget.cpp:670
+#: libs/ui/widgets/KoFillConfigWidget.cpp:671
 #: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:204
 #, kde-format
 msgctxt "@title:window"
 msgid "Name Already Exists"
 msgstr "名稱已存在"
 
-#: libs/ui/widgets/KoFillConfigWidget.cpp:671
+#: libs/ui/widgets/KoFillConfigWidget.cpp:672
 #: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:205
 #, kde-format
 msgid "The name '%1' already exists, do you wish to overwrite it?"
@@ -52996,77 +52996,77 @@ msgctxt "(qtundo-format)"
 msgid "Change SvgTextTool"
 msgstr "調整 SVG 文字工具"
 
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:256
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:261
 #, kde-format
 msgid "Text Tool"
 msgstr "文字工具"
 
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:367
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:372
 #, kde-format
 msgid "Conversion failed"
 msgstr "轉換失敗"
 
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:577
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:582
 #, kde-format
 msgid "Find Text"
 msgstr "尋找文字"
 
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:580
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:623
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:585
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:628
 #, kde-format
 msgid "Find:"
 msgstr "尋找："
 
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:619
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:624
 #, kde-format
 msgid "Find and Replace all"
 msgstr "尋找並取代全部"
 
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:625
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:630
 #, kde-format
 msgid "Replace:"
 msgstr "取代："
 
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1115
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1120
 #, kde-format
 msgid "You have modified the text. Discard changes?"
 msgstr "文字已被修改。要放棄變更嗎？"
 
 #. i18n: ectx: attribute (title), widget (QWidget, richTab)
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1251
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1257
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1256
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1262
 #: plugins/tools/svgtexttool/WdgSvgTextEditor.ui:28
 #, kde-format
 msgid "Rich text"
 msgstr "富文字"
 
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1254
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1258
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1259
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1263
 #, kde-format
 msgid "SVG Source"
 msgstr "SVG 原始碼"
 
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1398
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1403
 #, kde-format
 msgid "Font"
 msgstr "字型"
 
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1415
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1420
 #, kde-format
 msgid "Text Color"
 msgstr "文字色彩"
 
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1430
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1435
 #, kde-format
 msgid "Sample a Color"
 msgstr "取樣一種色彩"
 
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1441
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1446
 #, kde-format
 msgid "Line height"
 msgstr "行高"
 
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1453
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1458
 #: plugins/tools/svgtexttool/SvgTextTool.cpp:209
 #, kde-format
 msgid "Letter Spacing"
