@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-11-25 00:26+0000\n"
-"PO-Revision-Date: 2021-11-19 08:50+0000\n"
+"PO-Revision-Date: 2021-11-26 09:47+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -9694,7 +9694,7 @@ msgstr "上一個符合的關鍵影格"
 #, kde-format
 msgctxt "action"
 msgid "Change time to previous keyframe of the same color"
-msgstr "跳到上一個同色的關鍵影格"
+msgstr "跳到上一個符合色彩標籤的關鍵影格"
 
 #. i18n: context: Action (next_matching_keyframe), Actions (Animation), ActionCollection (Krita)
 #: krita/krita.action:1732
@@ -9708,7 +9708,7 @@ msgstr "下一個符合的關鍵影格"
 #, kde-format
 msgctxt "action"
 msgid "Change time to next keyframe of the same color"
-msgstr "跳到下一個同色的關鍵影格"
+msgstr "跳到下一個符合色彩標籤的關鍵影格"
 
 #. i18n: context: Action (previous_unfiltered_keyframe), Actions (Animation), ActionCollection (Krita)
 #: krita/krita.action:1744
