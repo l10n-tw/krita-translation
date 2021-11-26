@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-11-25 00:26+0000\n"
+"POT-Creation-Date: 2021-11-26 00:25+0000\n"
 "PO-Revision-Date: 2021-11-26 09:47+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
@@ -15441,7 +15441,7 @@ msgid "Onion Skins"
 msgstr "洋蔥皮檢視"
 
 #: libs/image/kis_layer_properties_icons.cpp:27
-#: libs/resources/KisResourceModel.cpp:132
+#: libs/resources/KisResourceModel.cpp:135
 #: libs/resources/KisStorageModel.cpp:429
 #: libs/resourcewidgets/dbexplorer/DlgDbExplorer.cpp:72
 #, kde-format
@@ -17547,11 +17547,11 @@ msgstr "本機資源"
 #: plugins/extensions/qmic/kis_qmic_interface.cpp:137
 #: plugins/extensions/qmic/kis_qmic_interface.cpp:208
 #: plugins/extensions/qmic/QMic.cpp:54 plugins/extensions/qmic/QMic.cpp:80
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:185
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:190
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:215
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:283
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:288
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:186
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:191
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:214
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:282
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:287
 #: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:294
 #: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:373
 #: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:380
@@ -17641,19 +17641,19 @@ msgstr "暫存資源"
 msgid "Could not synchronize %1 with the database"
 msgstr "無法與資料庫同步 %1"
 
-#: libs/resources/KisResourceModel.cpp:114
+#: libs/resources/KisResourceModel.cpp:117
 #: libs/resources/KisStorageModel.cpp:419
 #: libs/resourcewidgets/dbexplorer/DlgDbExplorer.cpp:66
 #, kde-format
 msgid "Id"
 msgstr "Id"
 
-#: libs/resources/KisResourceModel.cpp:116
+#: libs/resources/KisResourceModel.cpp:119
 #, kde-format
 msgid "Storage ID"
 msgstr "儲存空間 ID"
 
-#: libs/resources/KisResourceModel.cpp:118
+#: libs/resources/KisResourceModel.cpp:121
 #: libs/resources/KisStorageModel.cpp:433
 #: libs/resourcewidgets/dbexplorer/DlgDbExplorer.cpp:70
 #: plugins/python/filtermanager/components/filtermanagertreemodel.py:18
@@ -17662,19 +17662,19 @@ msgstr "儲存空間 ID"
 msgid "Name"
 msgstr "名稱"
 
-#: libs/resources/KisResourceModel.cpp:120
+#: libs/resources/KisResourceModel.cpp:123
 #, kde-format
 msgid "File Name"
 msgstr "檔案名稱"
 
-#: libs/resources/KisResourceModel.cpp:122
+#: libs/resources/KisResourceModel.cpp:125
 #, kde-format
 msgid "Tooltip"
 msgstr "工具提示"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, shapeBox)
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbType)
-#: libs/resources/KisResourceModel.cpp:124 libs/ui/imagesize/imagesize.xmlgui:4
+#: libs/resources/KisResourceModel.cpp:127 libs/ui/imagesize/imagesize.xmlgui:4
 #: plugins/extensions/imagesplit/imagesplit.xmlgui:4
 #: plugins/extensions/separate_channels/imageseparate.xmlgui:4
 #: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:363
@@ -17684,30 +17684,30 @@ msgstr "工具提示"
 msgid "Image"
 msgstr "影像"
 
-#: libs/resources/KisResourceModel.cpp:126
+#: libs/resources/KisResourceModel.cpp:129
 #, kde-format
 msgid "Status"
 msgstr "狀態"
 
-#: libs/resources/KisResourceModel.cpp:128
+#: libs/resources/KisResourceModel.cpp:131
 #: libs/resources/KisStorageModel.cpp:423
 #, kde-format
 msgid "Location"
 msgstr "位置"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: libs/resources/KisResourceModel.cpp:130
+#: libs/resources/KisResourceModel.cpp:133
 #: libs/resourcewidgets/dbexplorer/WdgDbExplorer.ui:49
 #, kde-format
 msgid "Resource Type"
 msgstr "資源類型"
 
-#: libs/resources/KisResourceModel.cpp:134
+#: libs/resources/KisResourceModel.cpp:137
 #, kde-format
 msgid "Storage Active"
 msgstr "儲存空間使用中"
 
-#: libs/resources/KisResourceModel.cpp:136
+#: libs/resources/KisResourceModel.cpp:139
 #, kde-format
 msgid "md5sum"
 msgstr "MD5 雜湊值"
@@ -17873,7 +17873,7 @@ msgstr "縮圖"
 #. i18n: ectx: property (text), widget (QPushButton, bnDelete)
 #. i18n: ectx: property (text), widget (QPushButton, deleteAllAssistantsButton)
 #: libs/resources/KisTagModel.cpp:125 libs/resources/KisTagModel.cpp:287
-#: libs/ui/widgets/kis_paintop_presets_editor.cpp:590
+#: libs/ui/widgets/kis_paintop_presets_editor.cpp:592
 #: plugins/assistants/Assistants/AssistantsToolOptions.ui:262
 #: plugins/tools/defaulttool/referenceimagestool/WdgToolOptions.ui:220
 #, kde-format
@@ -18041,6 +18041,7 @@ msgid "Choose File to Add"
 msgstr "選擇要新增的檔案"
 
 #: libs/resourcewidgets/KisResourceItemChooserContextMenu.cpp:84
+#: libs/widgets/KisTagSelectionWidget.cpp:121
 #, kde-format
 msgid "Assign to tag"
 msgstr "指定給標籤"
@@ -18319,7 +18320,7 @@ msgstr "<p>輸入搜尋關鍵字以按名稱過濾</p>"
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, lneFilterText)
 #: libs/resourcewidgets/KisTagFilterWidget.cpp:53
-#: plugins/extensions/resourcemanager/WdgDlgResourceManager.ui:52
+#: plugins/extensions/resourcemanager/WdgDlgResourceManager.ui:49
 #, kde-format
 msgid "Search"
 msgstr "搜尋"
@@ -19698,7 +19699,7 @@ msgstr "匯入到："
 #. i18n: ectx: attribute (title), widget (QWidget, advanced)
 #: libs/ui/animation/VideoImportDialog.ui:467
 #: libs/ui/forms/wdgperformancesettings.ui:269
-#: plugins/impex/webp/dlg_webp_export.ui:145
+#: plugins/impex/webp/dlg_webp_export.ui:148
 #: plugins/impex/webp/dlg_webp_import.ui:304
 #, kde-format
 msgid "Advanced"
@@ -20541,13 +20542,13 @@ msgstr "圖層屬性"
 #: plugins/impex/jpeg/kis_jpeg_export.cc:219
 #: plugins/impex/tiff/kis_wdg_options_tiff.ui:314
 #: plugins/impex/webp/dlg_webp_export.ui:79
-#: plugins/impex/webp/dlg_webp_export.ui:317
-#: plugins/impex/webp/dlg_webp_export.ui:340
-#: plugins/impex/webp/dlg_webp_export.ui:478
-#: plugins/impex/webp/dlg_webp_export.ui:608
-#: plugins/impex/webp/dlg_webp_export.ui:696
-#: plugins/impex/webp/dlg_webp_export.ui:762
-#: plugins/impex/webp/dlg_webp_export.ui:785
+#: plugins/impex/webp/dlg_webp_export.ui:320
+#: plugins/impex/webp/dlg_webp_export.ui:343
+#: plugins/impex/webp/dlg_webp_export.ui:481
+#: plugins/impex/webp/dlg_webp_export.ui:611
+#: plugins/impex/webp/dlg_webp_export.ui:699
+#: plugins/impex/webp/dlg_webp_export.ui:765
+#: plugins/impex/webp/dlg_webp_export.ui:788
 #: plugins/paintops/curvebrush/kis_curve_paintop_settings.cpp:130
 #: plugins/paintops/deform/kis_brush_size_option.cpp:60
 #: plugins/paintops/experiment/kis_experiment_paintop_settings.cpp:84
@@ -20633,7 +20634,7 @@ msgid "Could not load layer style library %1."
 msgstr "無法載入圖層樣式庫 %1。"
 
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:366
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:232
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:231
 #, kde-format
 msgctxt "@title:window"
 msgid "Warning"
@@ -22537,7 +22538,7 @@ msgstr "色彩特性檔案："
 #: libs/widgetutils/KisPreviewFileDialog.cpp:50
 #: plugins/dockers/gamutmask/forms/wdgGamutMaskChooser.ui:219
 #: plugins/dockers/recorder/recorder_profile_settings.ui:176
-#: plugins/extensions/resourcemanager/WdgDlgResourceManager.ui:83
+#: plugins/extensions/resourcemanager/WdgDlgResourceManager.ui:98
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:50
 #, kde-format
 msgid "Preview"
@@ -23817,7 +23818,7 @@ msgstr "儲存新視窗版面配置"
 #: libs/ui/forms/wdgstopgradienteditor.ui:41
 #: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:197
 #: plugins/extensions/pykrita/plugin/info.ui:217
-#: plugins/extensions/resourcemanager/WdgDlgResourceManager.ui:143
+#: plugins/extensions/resourcemanager/WdgDlgResourceManager.ui:160
 #: plugins/impex/brush/wdg_export_gih.ui:41
 #: plugins/paintops/libpaintop/forms/wdgclipboardbrush.ui:117
 #: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:99
@@ -24903,7 +24904,7 @@ msgstr "inch"
 #: plugins/filters/halftone/KisHalftoneConfigPageWidget.cpp:36
 #: plugins/impex/tiff/kis_wdg_options_tiff.ui:53
 #: plugins/impex/tiff/kis_wdg_options_tiff.ui:98
-#: plugins/impex/webp/dlg_webp_export.ui:436
+#: plugins/impex/webp/dlg_webp_export.ui:439
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:441
 #, kde-format
 msgid "None"
@@ -27831,8 +27832,8 @@ msgid "Layers/Masks"
 msgstr "圖層/遮罩"
 
 #: libs/ui/KisMainWindow.cpp:1902
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:180
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:276
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:181
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:275
 #, kde-format
 msgid "You don't have any resource bundles enabled."
 msgstr "您沒有啟用任何資源包"
@@ -27848,8 +27849,8 @@ msgstr ""
 "無可用的筆刷預設。在繼續之前請先啟用一個含有筆刷預設的資源包。\n"
 
 #: libs/ui/KisMainWindow.cpp:1916
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:190
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:288
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:191
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:287
 #, kde-format
 msgid ""
 "\n"
@@ -28032,7 +28033,7 @@ msgstr "印刷專色："
 msgid "Swatch Group:"
 msgstr "色塊群組："
 
-#: libs/ui/KisPaletteEditor.cpp:542 libs/ui/KisPaletteEditor.cpp:545
+#: libs/ui/KisPaletteEditor.cpp:548 libs/ui/KisPaletteEditor.cpp:551
 #, kde-format
 msgctxt "Default new group name"
 msgid "New Group %1"
@@ -30865,7 +30866,7 @@ msgstr "重新命名筆刷預設"
 msgid "Detach Brush Editor"
 msgstr "在獨立視窗顯示筆刷編輯器"
 
-#: libs/ui/widgets/kis_paintop_presets_editor.cpp:532
+#: libs/ui/widgets/kis_paintop_presets_editor.cpp:534
 #, kde-format
 msgctxt "%1 is the name of a brush engine"
 msgid "%1 Engine"
@@ -31692,6 +31693,12 @@ msgstr "強度："
 #, kde-format
 msgid "Luma:"
 msgstr "光度："
+
+#: libs/widgets/KisTagSelectionWidget.cpp:60
+#, fuzzy, kde-format
+#| msgid "Remove from this tag"
+msgid "Remove from tag"
+msgstr "移除出此標籤"
 
 #: libs/widgets/KoColorSetWidget.cpp:78
 #, kde-format
@@ -39016,18 +39023,18 @@ msgstr "G'MIC 外掛程式並未安裝或不能載入。"
 msgid "Krita cannot launch the gmic-qt plugin. No bundled library found."
 msgstr "Krita 未能啟動 gmic-qt 外掛程式。找不到同捆的程式庫。"
 
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:131
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:132
 #, kde-format
 msgid "Manage Resource Libraries"
 msgstr "管理資源庫"
 
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:138
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:139
 #, kde-format
 msgctxt "In bundle manager; press button to import a resource library"
 msgid "Import"
 msgstr "匯入"
 
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:143
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:144
 #, kde-format
 msgctxt ""
 "In bundle manager; press button to deactivate the resource library(remove "
@@ -39035,14 +39042,14 @@ msgctxt ""
 msgid "Deactivate"
 msgstr "停用"
 
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:147
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:148
 #, kde-format
 msgctxt "In bundle manager; press button to create a new bundle"
 msgid "Create Bundle"
 msgstr "建立新資源包"
 
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:184
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:282
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:185
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:281
 #, kde-format
 msgid ""
 "\n"
@@ -39054,29 +39061,29 @@ msgstr ""
 "無可用的筆刷預設。在繼續之前請先啟用一個含有筆刷預設的資源包。\n"
 "如果沒有資源包，請先匯入一個資源包。"
 
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:198
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:199
 #, kde-format
 msgid "Choose the resource library to import"
 msgstr "選擇要匯入的資源庫"
 
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:204
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:203
 #, kde-format
 msgid "Select the bundle"
 msgstr "請選擇資源包"
 
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:216
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:215
 #, kde-format
 msgid "Could not load bundle %1."
 msgstr "無法載入資源包 %1。"
 
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:232
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:231
 #, kde-format
 msgid ""
 "There is already a bundle with this name installed. Do you want to overwrite "
 "it?"
 msgstr "已存在此名稱的資源包。要覆蓋它嗎？"
 
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:330
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:329
 #, kde-format
 msgctxt ""
 "In bundle manager; press button to deactivate the bundle (remove resources "
@@ -39084,7 +39091,7 @@ msgctxt ""
 msgid "Deactivate"
 msgstr "停用"
 
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:334
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:333
 #, kde-format
 msgctxt ""
 "In bundle manager; press button to activate the bundle (add resources from "
@@ -39188,7 +39195,7 @@ msgstr "還原刪除資源"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnDeleteResource)
 #: plugins/extensions/resourcemanager/DlgResourceManager.cpp:381
-#: plugins/extensions/resourcemanager/WdgDlgResourceManager.ui:201
+#: plugins/extensions/resourcemanager/WdgDlgResourceManager.ui:221
 #, kde-format
 msgid "Delete Resources"
 msgstr "刪除資源"
@@ -39398,55 +39405,55 @@ msgid "Embed tags..."
 msgstr "嵌入標籤…"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkShowDeleted)
-#: plugins/extensions/resourcemanager/WdgDlgResourceManager.ui:42
+#: plugins/extensions/resourcemanager/WdgDlgResourceManager.ui:39
 #, kde-format
 msgid "Show deleted resources"
 msgstr "顯示已刪除的資源"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: plugins/extensions/resourcemanager/WdgDlgResourceManager.ui:94
+#: plugins/extensions/resourcemanager/WdgDlgResourceManager.ui:110
 #, kde-format
 msgid "ID:"
 msgstr "ID："
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: plugins/extensions/resourcemanager/WdgDlgResourceManager.ui:136
+#: plugins/extensions/resourcemanager/WdgDlgResourceManager.ui:153
 #, kde-format
 msgid "Filename:"
 msgstr "檔案名："
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: plugins/extensions/resourcemanager/WdgDlgResourceManager.ui:150
+#: plugins/extensions/resourcemanager/WdgDlgResourceManager.ui:167
 #, kde-format
 msgid "Location:"
 msgstr "位置："
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: plugins/extensions/resourcemanager/WdgDlgResourceManager.ui:157
+#: plugins/extensions/resourcemanager/WdgDlgResourceManager.ui:174
 #, kde-format
 msgid "Tags:"
 msgstr "標籤："
 
 #. i18n: ectx: property (text), widget (QPushButton, btnImportResources)
-#: plugins/extensions/resourcemanager/WdgDlgResourceManager.ui:230
+#: plugins/extensions/resourcemanager/WdgDlgResourceManager.ui:250
 #, kde-format
 msgid "Import Resources"
 msgstr "匯入資源"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnOpenResourceFolder)
-#: plugins/extensions/resourcemanager/WdgDlgResourceManager.ui:237
+#: plugins/extensions/resourcemanager/WdgDlgResourceManager.ui:257
 #, kde-format
 msgid "Open Resource Folder"
 msgstr "開啟資源資料夾"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnCreateBundle)
-#: plugins/extensions/resourcemanager/WdgDlgResourceManager.ui:244
+#: plugins/extensions/resourcemanager/WdgDlgResourceManager.ui:264
 #, kde-format
 msgid "Create a Bundle"
 msgstr "建立新資源包"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, btnExtractTagsToResourceFolder)
-#: plugins/extensions/resourcemanager/WdgDlgResourceManager.ui:254
+#: plugins/extensions/resourcemanager/WdgDlgResourceManager.ui:274
 #, kde-format
 msgid ""
 "Make a backup of all your tags in the resource folder so they won't get lost "
@@ -39454,7 +39461,7 @@ msgid ""
 msgstr "將標籤備份到資源資料夾，以避免於更新 Krita 時流失標籤資料"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnExtractTagsToResourceFolder)
-#: plugins/extensions/resourcemanager/WdgDlgResourceManager.ui:257
+#: plugins/extensions/resourcemanager/WdgDlgResourceManager.ui:277
 #, kde-format
 msgid "Save Tags to Folder"
 msgstr "儲存標籤至資料夾"
@@ -45160,7 +45167,7 @@ msgstr "檔案最小"
 
 #. i18n: ectx: property (text), widget (QLabel, lblBest)
 #: plugins/impex/tiff/kis_wdg_options_tiff.ui:298
-#: plugins/impex/webp/dlg_webp_export.ui:443
+#: plugins/impex/webp/dlg_webp_export.ui:446
 #, kde-format
 msgid "Best"
 msgstr "品質最好"
@@ -45320,14 +45327,14 @@ msgstr "無損壓縮"
 #. i18n: ectx: property (text), widget (QCheckBox, exact)
 #. i18n: ectx: property (text), widget (QCheckBox, useSharpYUV)
 #: plugins/impex/webp/dlg_webp_export.ui:57
-#: plugins/impex/webp/dlg_webp_export.ui:137
-#: plugins/impex/webp/dlg_webp_export.ui:397
-#: plugins/impex/webp/dlg_webp_export.ui:539
-#: plugins/impex/webp/dlg_webp_export.ui:636
-#: plugins/impex/webp/dlg_webp_export.ui:656
-#: plugins/impex/webp/dlg_webp_export.ui:676
-#: plugins/impex/webp/dlg_webp_export.ui:722
-#: plugins/impex/webp/dlg_webp_export.ui:742
+#: plugins/impex/webp/dlg_webp_export.ui:140
+#: plugins/impex/webp/dlg_webp_export.ui:400
+#: plugins/impex/webp/dlg_webp_export.ui:542
+#: plugins/impex/webp/dlg_webp_export.ui:639
+#: plugins/impex/webp/dlg_webp_export.ui:659
+#: plugins/impex/webp/dlg_webp_export.ui:679
+#: plugins/impex/webp/dlg_webp_export.ui:725
+#: plugins/impex/webp/dlg_webp_export.ui:745
 #, kde-format
 msgid "Enabled"
 msgstr "啟用"
@@ -45363,9 +45370,15 @@ msgstr "較快"
 msgid "Slower/Better"
 msgstr "較慢/較佳"
 
+#. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, tradeoff)
+#: plugins/impex/webp/dlg_webp_export.ui:118
+#, kde-format
+msgid "Quality/speed trade-off (0 = fast, 6 = slower-better)"
+msgstr ""
+
 #. i18n: ectx: property (title), widget (QGroupBox, dithering)
 #. i18n: ectx: property (text), widget (QLabel, lblDithering)
-#: plugins/impex/webp/dlg_webp_export.ui:130
+#: plugins/impex/webp/dlg_webp_export.ui:133
 #: plugins/impex/webp/dlg_webp_import.ui:341
 #, kde-format
 msgid "Dithering"
@@ -45373,8 +45386,8 @@ msgstr "抖色 (Dithering)"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblTargetSize)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, targetSize)
-#: plugins/impex/webp/dlg_webp_export.ui:214
-#: plugins/impex/webp/dlg_webp_export.ui:230
+#: plugins/impex/webp/dlg_webp_export.ui:217
+#: plugins/impex/webp/dlg_webp_export.ui:233
 #, kde-format
 msgid ""
 "If non-zero, sets the desired target size in bytes. Takes precedence over "
@@ -45382,21 +45395,21 @@ msgid ""
 msgstr "如數值非零，則設定目標預期檔案大小。比壓縮設定參數更優先。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblTargetSize)
-#: plugins/impex/webp/dlg_webp_export.ui:217
+#: plugins/impex/webp/dlg_webp_export.ui:220
 #, kde-format
 msgid "Target Size"
 msgstr "目標大小"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, targetSize)
-#: plugins/impex/webp/dlg_webp_export.ui:233
+#: plugins/impex/webp/dlg_webp_export.ui:236
 #, kde-format
 msgid " kB"
 msgstr " kB"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblTargetPSNR)
 #. i18n: ectx: property (toolTip), widget (KisDoubleParseUnitSpinBox, targetPSNR)
-#: plugins/impex/webp/dlg_webp_export.ui:243
-#: plugins/impex/webp/dlg_webp_export.ui:259
+#: plugins/impex/webp/dlg_webp_export.ui:246
+#: plugins/impex/webp/dlg_webp_export.ui:262
 #, kde-format
 msgid ""
 "If non-zero, specifies the minimal distortion to try to achieve. Takes "
@@ -45404,49 +45417,49 @@ msgid ""
 msgstr "如數值非零，則設定希望達到的最低失真程度。比「目標大小」設定更優先。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblTargetPSNR)
-#: plugins/impex/webp/dlg_webp_export.ui:246
+#: plugins/impex/webp/dlg_webp_export.ui:249
 #, kde-format
 msgid "Target PSNR"
 msgstr "目標 PSNR (峰值訊噪比)"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblSegments)
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, segments)
-#: plugins/impex/webp/dlg_webp_export.ui:272
-#: plugins/impex/webp/dlg_webp_export.ui:288
+#: plugins/impex/webp/dlg_webp_export.ui:275
+#: plugins/impex/webp/dlg_webp_export.ui:291
 #, kde-format
 msgid "Maximum number of segments (1 to 4)."
 msgstr "最高分段數 (1 至 4)。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblSegments)
-#: plugins/impex/webp/dlg_webp_export.ui:275
+#: plugins/impex/webp/dlg_webp_export.ui:278
 #, kde-format
 msgid "Segments"
 msgstr "分段數"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblSNSStrength)
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, snsStrength)
-#: plugins/impex/webp/dlg_webp_export.ui:304
-#: plugins/impex/webp/dlg_webp_export.ui:314
+#: plugins/impex/webp/dlg_webp_export.ui:307
+#: plugins/impex/webp/dlg_webp_export.ui:317
 #, kde-format
 msgid "Spatial Noise Shaping: 0 = off, 100 = maximum."
 msgstr "空間雜訊整形 (SNS)：0 = 停用，100 = 最高。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblSNSStrength)
-#: plugins/impex/webp/dlg_webp_export.ui:307
+#: plugins/impex/webp/dlg_webp_export.ui:310
 #, kde-format
 msgid "SNS Strength"
 msgstr "SNS 強度"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblFilterStrength)
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, filterStrength)
-#: plugins/impex/webp/dlg_webp_export.ui:327
-#: plugins/impex/webp/dlg_webp_export.ui:337
+#: plugins/impex/webp/dlg_webp_export.ui:330
+#: plugins/impex/webp/dlg_webp_export.ui:340
 #, kde-format
 msgid "Filter strength: 0 = off, 100 = strongest."
 msgstr "過濾強度：0 = 停用，100 = 最強。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblFilterStrength)
-#: plugins/impex/webp/dlg_webp_export.ui:330
+#: plugins/impex/webp/dlg_webp_export.ui:333
 #, kde-format
 msgctxt "Filter options specifically for WebP"
 msgid "Filter Strength"
@@ -45454,14 +45467,14 @@ msgstr "過濾強度"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblFilterSharpness)
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, filterSharpness)
-#: plugins/impex/webp/dlg_webp_export.ui:350
-#: plugins/impex/webp/dlg_webp_export.ui:360
+#: plugins/impex/webp/dlg_webp_export.ui:353
+#: plugins/impex/webp/dlg_webp_export.ui:363
 #, kde-format
 msgid "Filter sharpness: 0 = off, 7 = least sharp."
 msgstr "過濾銳利度：0 = 停用，7 = 最不銳利。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblFilterSharpness)
-#: plugins/impex/webp/dlg_webp_export.ui:353
+#: plugins/impex/webp/dlg_webp_export.ui:356
 #, kde-format
 msgctxt "Filter options specifically for WebP"
 msgid "Filter Sharpness"
@@ -45469,8 +45482,8 @@ msgstr "過濾銳利度"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblFilterType)
 #. i18n: ectx: property (toolTip), widget (QComboBox, filterType)
-#: plugins/impex/webp/dlg_webp_export.ui:373
-#: plugins/impex/webp/dlg_webp_export.ui:383
+#: plugins/impex/webp/dlg_webp_export.ui:376
+#: plugins/impex/webp/dlg_webp_export.ui:386
 #, kde-format
 msgid ""
 "0 = Simple, 1 = Strong. Only used if Filter Strength is higher than 0 or "
@@ -45479,20 +45492,20 @@ msgstr ""
 "0 = 簡單，1 = 強。只在「過濾強度」高於 0 或「自動調整過濾」已啟用時才有效。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblFilterType)
-#: plugins/impex/webp/dlg_webp_export.ui:376
+#: plugins/impex/webp/dlg_webp_export.ui:379
 #, kde-format
 msgctxt "Filter options specifically for WebP"
 msgid "Filter Type"
 msgstr "過濾類型"
 
 #. i18n: ectx: property (text), widget (QLabel, lblAutofilter)
-#: plugins/impex/webp/dlg_webp_export.ui:390
+#: plugins/impex/webp/dlg_webp_export.ui:393
 #, kde-format
 msgid "Auto Adjust Filter Strength"
 msgstr "自動調整過濾強度"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblAlphaCompression)
-#: plugins/impex/webp/dlg_webp_export.ui:404
+#: plugins/impex/webp/dlg_webp_export.ui:407
 #, kde-format
 msgid ""
 "Algorithm for encoding the alpha plane (0 = None, 1 = compressed with WebP "
@@ -45500,20 +45513,20 @@ msgid ""
 msgstr "Alpha (透明度) 通度平面壓縮方法 (0 = 無，1 = WebP 無損壓縮)"
 
 #. i18n: ectx: property (text), widget (QLabel, lblAlphaCompression)
-#: plugins/impex/webp/dlg_webp_export.ui:407
+#: plugins/impex/webp/dlg_webp_export.ui:410
 #, kde-format
 msgid "Alpha Plane Compression"
 msgstr "Alpha 通度平面壓縮"
 
 #. i18n: ectx: property (text), widget (QLabel, lblAlphaFiltering)
-#: plugins/impex/webp/dlg_webp_export.ui:417
+#: plugins/impex/webp/dlg_webp_export.ui:420
 #, kde-format
 msgid "Predictive Filtering for Alpha Plane"
 msgstr "Alpha (透明度) 通度平面的預測性過濾"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbPreviewMode)
 #. i18n: ectx: property (text), widget (QLabel, lblFast)
-#: plugins/impex/webp/dlg_webp_export.ui:426
+#: plugins/impex/webp/dlg_webp_export.ui:429
 #: plugins/paintops/libpaintop/kis_dynamic_sensor.cc:156
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:74
 #, kde-format
@@ -45522,36 +45535,36 @@ msgstr "快"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblAlphaQuality)
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, alphaQuality)
-#: plugins/impex/webp/dlg_webp_export.ui:465
-#: plugins/impex/webp/dlg_webp_export.ui:475
+#: plugins/impex/webp/dlg_webp_export.ui:468
+#: plugins/impex/webp/dlg_webp_export.ui:478
 #, kde-format
 msgid "0 = smallest size, 100 = lossless. Default is 100."
 msgstr "0 = 檔案最小，100 = 無損。預設值為 100。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblAlphaQuality)
-#: plugins/impex/webp/dlg_webp_export.ui:468
+#: plugins/impex/webp/dlg_webp_export.ui:471
 #, kde-format
 msgid "Alpha Plane Quality"
 msgstr "Alpha 通道平面品質"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblPass)
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, pass)
-#: plugins/impex/webp/dlg_webp_export.ui:491
-#: plugins/impex/webp/dlg_webp_export.ui:507
+#: plugins/impex/webp/dlg_webp_export.ui:494
+#: plugins/impex/webp/dlg_webp_export.ui:510
 #, kde-format
 msgid "Number of entropy-analysis passes (1 to 10)."
 msgstr "熵值分析 (Entropy-analysis passes) 次數 (1 至 10)。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblPass)
-#: plugins/impex/webp/dlg_webp_export.ui:494
+#: plugins/impex/webp/dlg_webp_export.ui:497
 #, kde-format
 msgid "Entropy Passes"
 msgstr "熵值分析次數"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblShowCompressed)
 #. i18n: ectx: property (toolTip), widget (QCheckBox, showCompressed)
-#: plugins/impex/webp/dlg_webp_export.ui:526
-#: plugins/impex/webp/dlg_webp_export.ui:536
+#: plugins/impex/webp/dlg_webp_export.ui:529
+#: plugins/impex/webp/dlg_webp_export.ui:539
 #, kde-format
 msgid ""
 "If enabled, export the compressed picture back. In-loop filtering is not "
@@ -45559,13 +45572,13 @@ msgid ""
 msgstr "如啟用，則匯出已壓縮的影像，不套用迴路過濾。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblShowCompressed)
-#: plugins/impex/webp/dlg_webp_export.ui:529
+#: plugins/impex/webp/dlg_webp_export.ui:532
 #, kde-format
 msgid "Show Compressed"
 msgstr "顯示已壓縮"
 
 #. i18n: ectx: property (text), widget (QLabel, lblPreprocessing)
-#: plugins/impex/webp/dlg_webp_export.ui:546
+#: plugins/impex/webp/dlg_webp_export.ui:549
 #, kde-format
 msgctxt "Filter options specifically for WebP"
 msgid "Preprocessing Filter"
@@ -45573,8 +45586,8 @@ msgstr "預處理過濾"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblPartitions)
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, partitions)
-#: plugins/impex/webp/dlg_webp_export.ui:556
-#: plugins/impex/webp/dlg_webp_export.ui:566
+#: plugins/impex/webp/dlg_webp_export.ui:559
+#: plugins/impex/webp/dlg_webp_export.ui:569
 #, kde-format
 msgid ""
 "log2(number of token partitions) between 0 and 3. Default is 0 for easier "
@@ -45582,15 +45595,15 @@ msgid ""
 msgstr "log2(符記分區數目) 於 0 至 3 之間。預設為 0 以使得漸進式解碼更容易。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblPartitions)
-#: plugins/impex/webp/dlg_webp_export.ui:559
+#: plugins/impex/webp/dlg_webp_export.ui:562
 #, kde-format
 msgid "Partitions"
 msgstr "分區數目"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblPartitionLimit)
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, partitionLimit)
-#: plugins/impex/webp/dlg_webp_export.ui:576
-#: plugins/impex/webp/dlg_webp_export.ui:605
+#: plugins/impex/webp/dlg_webp_export.ui:579
+#: plugins/impex/webp/dlg_webp_export.ui:608
 #, kde-format
 msgid ""
 "Quality degradation allowed to fit the 512KB limit on prediction modes "
@@ -45600,27 +45613,27 @@ msgstr ""
 "品質下降)。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblPartitionLimit)
-#: plugins/impex/webp/dlg_webp_export.ui:579
+#: plugins/impex/webp/dlg_webp_export.ui:582
 #, kde-format
 msgid "Partition Limit"
 msgstr "分區限制"
 
 #. i18n: ectx: property (text), widget (QLabel, lblMaximumDegradation)
-#: plugins/impex/webp/dlg_webp_export.ui:588
+#: plugins/impex/webp/dlg_webp_export.ui:591
 #, kde-format
 msgid "Maximum degradation"
 msgstr "最大品質下降"
 
 #. i18n: ectx: property (text), widget (QLabel, lblNoDegradation)
-#: plugins/impex/webp/dlg_webp_export.ui:598
+#: plugins/impex/webp/dlg_webp_export.ui:601
 #, kde-format
 msgid "No degradation"
 msgstr "無品質下降"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblEmulateJPEGSize)
 #. i18n: ectx: property (toolTip), widget (QCheckBox, emulateJPEGSize)
-#: plugins/impex/webp/dlg_webp_export.ui:623
-#: plugins/impex/webp/dlg_webp_export.ui:633
+#: plugins/impex/webp/dlg_webp_export.ui:626
+#: plugins/impex/webp/dlg_webp_export.ui:636
 #, kde-format
 msgid ""
 "If enabled, compression parameters will be remapped to better match the "
@@ -45631,57 +45644,57 @@ msgstr ""
 "出檔案大小會與 JPEG 近似，但品質下降會較低。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblEmulateJPEGSize)
-#: plugins/impex/webp/dlg_webp_export.ui:626
+#: plugins/impex/webp/dlg_webp_export.ui:629
 #, kde-format
 msgid "Emulate JPEG Size"
 msgstr "模擬 JPEG 大小"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblThreadLevel)
 #. i18n: ectx: property (toolTip), widget (QCheckBox, threadLevel)
-#: plugins/impex/webp/dlg_webp_export.ui:643
-#: plugins/impex/webp/dlg_webp_export.ui:653
+#: plugins/impex/webp/dlg_webp_export.ui:646
+#: plugins/impex/webp/dlg_webp_export.ui:656
 #, kde-format
 msgid "If enabled, try and use multithreaded encoding."
 msgstr "如啟用，嘗試以多執行緒編碼。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblThreadLevel)
-#: plugins/impex/webp/dlg_webp_export.ui:646
+#: plugins/impex/webp/dlg_webp_export.ui:649
 #, kde-format
 msgid "Multithreaded Encoding"
 msgstr "多執行緒編碼"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblLowMemory)
 #. i18n: ectx: property (toolTip), widget (QCheckBox, lowMemory)
-#: plugins/impex/webp/dlg_webp_export.ui:663
-#: plugins/impex/webp/dlg_webp_export.ui:673
+#: plugins/impex/webp/dlg_webp_export.ui:666
+#: plugins/impex/webp/dlg_webp_export.ui:676
 #, kde-format
 msgid "If enabled, reduce memory usage (but increase CPU use)."
 msgstr "如啟用，則減低記憶體使用量 (但增加 CPU 使用量)。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblLowMemory)
-#: plugins/impex/webp/dlg_webp_export.ui:666
+#: plugins/impex/webp/dlg_webp_export.ui:669
 #, kde-format
 msgid "Reduce Memory Usage"
 msgstr "減低記憶體使用量"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblNearLossless)
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, nearLossless)
-#: plugins/impex/webp/dlg_webp_export.ui:683
-#: plugins/impex/webp/dlg_webp_export.ui:693
+#: plugins/impex/webp/dlg_webp_export.ui:686
+#: plugins/impex/webp/dlg_webp_export.ui:696
 #, kde-format
 msgid "Near lossless encoding: 0 = max loss, 100 = off. Default is 100."
 msgstr "接近無損編碼：0 = 最大失真，100 = 停用。預設值為 100。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblNearLossless)
-#: plugins/impex/webp/dlg_webp_export.ui:686
+#: plugins/impex/webp/dlg_webp_export.ui:689
 #, kde-format
 msgid "Near Lossless"
 msgstr "接近無損"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblExact)
 #. i18n: ectx: property (toolTip), widget (QCheckBox, exact)
-#: plugins/impex/webp/dlg_webp_export.ui:709
-#: plugins/impex/webp/dlg_webp_export.ui:719
+#: plugins/impex/webp/dlg_webp_export.ui:712
+#: plugins/impex/webp/dlg_webp_export.ui:722
 #, kde-format
 msgid ""
 "If enabled, preserve the exact RGB values under transparent areas. "
@@ -45692,49 +45705,49 @@ msgstr ""
 "較佳的壓縮比率。預設為停用。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblExact)
-#: plugins/impex/webp/dlg_webp_export.ui:712
+#: plugins/impex/webp/dlg_webp_export.ui:715
 #, kde-format
 msgid "Exact"
 msgstr "確實值"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblUseSharpYUV)
 #. i18n: ectx: property (toolTip), widget (QCheckBox, useSharpYUV)
-#: plugins/impex/webp/dlg_webp_export.ui:729
-#: plugins/impex/webp/dlg_webp_export.ui:739
+#: plugins/impex/webp/dlg_webp_export.ui:732
+#: plugins/impex/webp/dlg_webp_export.ui:742
 #, kde-format
 msgid "If enabled, allows use of the sharp (and slow) RGB to YUV conversion."
 msgstr "如啟用，則容許使用高銳利度 (但縵慢) 的 RGB 至 YUV 色彩轉換。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblUseSharpYUV)
-#: plugins/impex/webp/dlg_webp_export.ui:732
+#: plugins/impex/webp/dlg_webp_export.ui:735
 #, kde-format
 msgid "Use Sharp YUV"
 msgstr "使用銳利 YUV"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblQMin)
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, qMin)
-#: plugins/impex/webp/dlg_webp_export.ui:749
-#: plugins/impex/webp/dlg_webp_export.ui:759
+#: plugins/impex/webp/dlg_webp_export.ui:752
+#: plugins/impex/webp/dlg_webp_export.ui:762
 #, kde-format
 msgid "Minimum permissible quality factor. Default is 0."
 msgstr "最低可接受的品質因數。預設值為 0。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblQMin)
-#: plugins/impex/webp/dlg_webp_export.ui:752
+#: plugins/impex/webp/dlg_webp_export.ui:755
 #, kde-format
 msgid "Minimum Quality"
 msgstr "品質下限"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblQMax)
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, qMax)
-#: plugins/impex/webp/dlg_webp_export.ui:772
-#: plugins/impex/webp/dlg_webp_export.ui:782
+#: plugins/impex/webp/dlg_webp_export.ui:775
+#: plugins/impex/webp/dlg_webp_export.ui:785
 #, kde-format
 msgid "Maximum permissible quality factor. Default is 100."
 msgstr "最高可接受的品質因數。預設值為 100。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblQMax)
-#: plugins/impex/webp/dlg_webp_export.ui:775
+#: plugins/impex/webp/dlg_webp_export.ui:778
 #, kde-format
 msgid "Maximum Quality"
 msgstr "品質上限"
