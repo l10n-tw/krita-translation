@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-11-27 00:26+0000\n"
+"POT-Creation-Date: 2021-11-28 00:25+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -17415,9 +17415,9 @@ msgstr ""
 #: libs/pigment/resources/KoColorSet.cpp:770
 #: libs/pigment/resources/KoColorSet.cpp:852
 #: libs/pigment/resources/KoColorSet.cpp:1075
-#: libs/ui/actions/KisPasteActionFactories.cpp:305
+#: libs/ui/actions/KisPasteActionFactories.cpp:301
 #: libs/ui/animation/KisDlgAnimationRenderer.cpp:345
-#: libs/ui/KisView.cpp:725 plugins/generators/seexpr/kis_wdg_seexpr.cpp:34
+#: libs/ui/KisView.cpp:719 plugins/generators/seexpr/kis_wdg_seexpr.cpp:34
 #, kde-format
 msgid "Untitled"
 msgstr ""
@@ -17486,10 +17486,10 @@ msgstr ""
 #: libs/ui/KisMainWindow.cpp:2114 libs/ui/KisMainWindow.cpp:2138
 #: libs/ui/KisPart.cpp:558 libs/ui/KisPart.cpp:561 libs/ui/KisReferenceImage.cpp:178
 #: libs/ui/KisRemoteFileFetcher.cpp:42 libs/ui/KisTemplateCreateDia.cpp:284
-#: libs/ui/KisTemplateCreateDia.cpp:390 libs/ui/KisView.cpp:728
-#: libs/ui/KisWelcomePageWidget.cpp:691 libs/ui/opengl/kis_opengl_canvas2.cpp:388
+#: libs/ui/KisTemplateCreateDia.cpp:390 libs/ui/KisView.cpp:722
+#: libs/ui/KisWelcomePageWidget.cpp:707 libs/ui/opengl/kis_opengl_canvas2.cpp:388
 #: libs/ui/utils/KisClipboardUtil.cpp:131
-#: libs/ui/utils/KisClipboardUtil.cpp:236
+#: libs/ui/utils/KisClipboardUtil.cpp:237
 #: libs/ui/widgets/kis_custom_image_widget.cc:299
 #: plugins/assistants/Assistants/kis_assistant_tool.cc:1080
 #: plugins/assistants/Assistants/kis_assistant_tool.cc:1083
@@ -18301,63 +18301,63 @@ msgstr ""
 msgid "Undelete"
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:131
+#: libs/ui/actions/kis_selection_action_factories.cpp:143
 msgctxt "(qtundo-format)"
 msgid "Select All"
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:205
-#: libs/ui/KisView.cpp:548
+#: libs/ui/actions/kis_selection_action_factories.cpp:217
+#: libs/ui/KisView.cpp:544
 msgctxt "(qtundo-format)"
 msgid "Flood Fill Layer"
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:358
+#: libs/ui/actions/kis_selection_action_factories.cpp:370
 msgctxt "(qtundo-format)"
 msgid "Cut"
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:359
+#: libs/ui/actions/kis_selection_action_factories.cpp:371
 msgctxt "(qtundo-format)"
 msgid "Copy"
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:444
+#: libs/ui/actions/kis_selection_action_factories.cpp:456
 msgctxt "(qtundo-format)"
 msgid "Copy Merged"
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:461
+#: libs/ui/actions/kis_selection_action_factories.cpp:473
 #, kde-format
 msgctxt "floating message"
 msgid "Selection is already in a vector format "
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:486
-#: libs/ui/actions/kis_selection_action_factories.cpp:506
+#: libs/ui/actions/kis_selection_action_factories.cpp:498
+#: libs/ui/actions/kis_selection_action_factories.cpp:518
 msgctxt "(qtundo-format)"
 msgid "Convert to Vector Selection"
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:501
+#: libs/ui/actions/kis_selection_action_factories.cpp:513
 #, kde-format
 msgctxt "floating message"
 msgid "Selection is already in a raster format "
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:547
+#: libs/ui/actions/kis_selection_action_factories.cpp:559
 #, kde-format
 msgctxt "floating message"
 msgid "The shape already belongs to a selection"
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:553
+#: libs/ui/actions/kis_selection_action_factories.cpp:565
 msgctxt "(qtundo-format)"
 msgid "Convert shapes to vector selection"
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:606
-#: libs/ui/actions/kis_selection_action_factories.cpp:665
+#: libs/ui/actions/kis_selection_action_factories.cpp:618
+#: libs/ui/actions/kis_selection_action_factories.cpp:677
 #: plugins/tools/tool_polyline/kis_tool_polyline.cc:49
 msgctxt "(qtundo-format)"
 msgid "Draw Polyline"
@@ -18368,18 +18368,18 @@ msgctxt "(qtundo-format)"
 msgid "Paste shapes"
 msgstr ""
 
-#: libs/ui/actions/KisPasteActionFactories.cpp:240
-#: libs/ui/actions/KisPasteActionFactories.cpp:312
+#: libs/ui/actions/KisPasteActionFactories.cpp:236
+#: libs/ui/actions/KisPasteActionFactories.cpp:308
 #, kde-format
 msgid "(pasted)"
 msgstr ""
 
-#: libs/ui/actions/KisPasteActionFactories.cpp:310
+#: libs/ui/actions/KisPasteActionFactories.cpp:306
 #, kde-format
 msgid "Pasted"
 msgstr ""
 
-#: libs/ui/actions/KisPasteActionFactories.cpp:362
+#: libs/ui/actions/KisPasteActionFactories.cpp:358
 msgctxt "(qtundo-format)"
 msgid "Paste Style"
 msgstr ""
@@ -21295,7 +21295,7 @@ msgid "Show details"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, labelNoFeed)
-#: libs/ui/forms/KisWelcomePage.ui:455 libs/ui/KisWelcomePageWidget.cpp:392
+#: libs/ui/forms/KisWelcomePage.ui:455 libs/ui/KisWelcomePageWidget.cpp:394
 #, kde-format
 msgid ""
 "You can <a href=\"ignored\" style=\"color: COLOR_PLACEHOLDER; text-"
@@ -21310,43 +21310,43 @@ msgid "Community"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, manualLink)
-#: libs/ui/forms/KisWelcomePage.ui:647 libs/ui/KisWelcomePageWidget.cpp:378
+#: libs/ui/forms/KisWelcomePage.ui:647 libs/ui/KisWelcomePageWidget.cpp:380
 #, kde-format
 msgid "User Manual"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, gettingStartedLink)
-#: libs/ui/forms/KisWelcomePage.ui:737 libs/ui/KisWelcomePageWidget.cpp:375
+#: libs/ui/forms/KisWelcomePage.ui:737 libs/ui/KisWelcomePageWidget.cpp:377
 #, kde-format
 msgid "Getting Started"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, userCommunityLink)
-#: libs/ui/forms/KisWelcomePage.ui:824 libs/ui/KisWelcomePageWidget.cpp:372
+#: libs/ui/forms/KisWelcomePage.ui:824 libs/ui/KisWelcomePageWidget.cpp:374
 #, kde-format
 msgid "User Community"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, kritaWebsiteLink)
-#: libs/ui/forms/KisWelcomePage.ui:911 libs/ui/KisWelcomePageWidget.cpp:384
+#: libs/ui/forms/KisWelcomePage.ui:911 libs/ui/KisWelcomePageWidget.cpp:386
 #, kde-format
 msgid "Krita Website"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, sourceCodeLink)
-#: libs/ui/forms/KisWelcomePage.ui:1001 libs/ui/KisWelcomePageWidget.cpp:387
+#: libs/ui/forms/KisWelcomePage.ui:1001 libs/ui/KisWelcomePageWidget.cpp:389
 #, kde-format
 msgid "Source Code"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, supportKritaLink)
-#: libs/ui/forms/KisWelcomePage.ui:1088 libs/ui/KisWelcomePageWidget.cpp:381
+#: libs/ui/forms/KisWelcomePage.ui:1088 libs/ui/KisWelcomePageWidget.cpp:383
 #, kde-format
 msgid "Support Krita"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, poweredByKDELink)
-#: libs/ui/forms/KisWelcomePage.ui:1178 libs/ui/KisWelcomePageWidget.cpp:390
+#: libs/ui/forms/KisWelcomePage.ui:1178 libs/ui/KisWelcomePageWidget.cpp:392
 #, kde-format
 msgid "Powered by KDE"
 msgstr ""
@@ -21364,7 +21364,7 @@ msgid "Start"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, devBuildLabel)
-#: libs/ui/forms/KisWelcomePage.ui:1428 libs/ui/KisWelcomePageWidget.cpp:605
+#: libs/ui/forms/KisWelcomePage.ui:1428 libs/ui/KisWelcomePageWidget.cpp:621
 #, kde-format
 msgid "DEV BUILD"
 msgstr ""
@@ -27733,64 +27733,64 @@ msgstr ""
 msgid "Use This Template"
 msgstr ""
 
-#: libs/ui/KisView.cpp:522
+#: libs/ui/KisView.cpp:518
 #, kde-format
 msgid "You cannot drag and drop colors on the selected layer type."
 msgstr ""
 
-#: libs/ui/KisView.cpp:530 libs/ui/tool/kis_tool.cc:662
+#: libs/ui/KisView.cpp:526 libs/ui/tool/kis_tool.cc:662
 #, kde-format
 msgid "Layer is locked and invisible."
 msgstr ""
 
-#: libs/ui/KisView.cpp:532 libs/ui/tool/kis_tool.cc:664
+#: libs/ui/KisView.cpp:528 libs/ui/tool/kis_tool.cc:664
 #, kde-format
 msgid "Layer is locked."
 msgstr ""
 
-#: libs/ui/KisView.cpp:534 libs/ui/tool/kis_tool.cc:666
+#: libs/ui/KisView.cpp:530 libs/ui/tool/kis_tool.cc:666
 #, kde-format
 msgid "Layer is invisible."
 msgstr ""
 
-#: libs/ui/KisView.cpp:729
+#: libs/ui/KisView.cpp:723
 #, kde-format
 msgid ""
 "<p>The document <b>'%1'</b> has been modified.</p><p>Do you want to save it?"
 "</p>"
 msgstr ""
 
-#: libs/ui/KisView.cpp:918
+#: libs/ui/KisView.cpp:912
 #, kde-format
 msgid "Soft Proofing doesn't work in floating point."
 msgstr ""
 
-#: libs/ui/KisView.cpp:923
+#: libs/ui/KisView.cpp:917
 #, kde-format
 msgid "Soft Proofing turned on."
 msgstr ""
 
-#: libs/ui/KisView.cpp:925
+#: libs/ui/KisView.cpp:919
 #, kde-format
 msgid "Soft Proofing turned off."
 msgstr ""
 
-#: libs/ui/KisView.cpp:937
+#: libs/ui/KisView.cpp:931
 #, kde-format
 msgid "Gamut Warnings don't work in floating point."
 msgstr ""
 
-#: libs/ui/KisView.cpp:943
+#: libs/ui/KisView.cpp:937
 #, kde-format
 msgid "Gamut Warnings turned on."
 msgstr ""
 
-#: libs/ui/KisView.cpp:945
+#: libs/ui/KisView.cpp:939
 #, kde-format
 msgid "But Soft Proofing is still off."
 msgstr ""
 
-#: libs/ui/KisView.cpp:948
+#: libs/ui/KisView.cpp:942
 #, kde-format
 msgid "Gamut Warnings turned off."
 msgstr ""
@@ -27835,44 +27835,44 @@ msgctxt "choice for author profile"
 msgid "Anonymous"
 msgstr ""
 
-#: libs/ui/KisWelcomePageWidget.cpp:139
+#: libs/ui/KisWelcomePageWidget.cpp:141
 #, kde-format
 msgid "Enable news and check for new releases"
 msgstr ""
 
-#: libs/ui/KisWelcomePageWidget.cpp:141
+#: libs/ui/KisWelcomePageWidget.cpp:143
 #, kde-format
 msgid ""
 "Show news about Krita: this needs internet to retrieve information from the "
 "krita.org website"
 msgstr ""
 
-#: libs/ui/KisWelcomePageWidget.cpp:144 plugins/python/comics_project_management_tools/comics_metadata_dialog.py:343
+#: libs/ui/KisWelcomePageWidget.cpp:146 plugins/python/comics_project_management_tools/comics_metadata_dialog.py:343
 #, kde-format
 msgid "Language"
 msgstr ""
 
-#: libs/ui/KisWelcomePageWidget.cpp:145
+#: libs/ui/KisWelcomePageWidget.cpp:147
 #, kde-format
 msgid "English news is always up to date."
 msgstr ""
 
-#: libs/ui/KisWelcomePageWidget.cpp:414
+#: libs/ui/KisWelcomePageWidget.cpp:416
 #, kde-format
 msgid "Get your Krita Supporter Badge here!"
 msgstr ""
 
-#: libs/ui/KisWelcomePageWidget.cpp:710
+#: libs/ui/KisWelcomePageWidget.cpp:726
 #, kde-format
 msgid "New version of Krita is available."
 msgstr ""
 
-#: libs/ui/KisWelcomePageWidget.cpp:739
+#: libs/ui/KisWelcomePageWidget.cpp:755
 #, kde-format
 msgid "An error occurred during the update"
 msgstr ""
 
-#: libs/ui/KisWelcomePageWidget.cpp:745
+#: libs/ui/KisWelcomePageWidget.cpp:761
 #, kde-format
 msgid "Restart is required."
 msgstr ""
@@ -29057,7 +29057,7 @@ msgid "Insert as Reference Images"
 msgstr ""
 
 #: libs/ui/utils/KisClipboardUtil.cpp:132
-#: libs/ui/utils/KisClipboardUtil.cpp:237
+#: libs/ui/utils/KisClipboardUtil.cpp:238
 #, kde-format
 msgid ""
 "Could not open %2.\n"
