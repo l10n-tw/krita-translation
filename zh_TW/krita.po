@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-11-28 00:25+0000\n"
-"PO-Revision-Date: 2021-11-26 10:03+0000\n"
+"PO-Revision-Date: 2021-11-30 07:38+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -50965,14 +50965,14 @@ msgstr "Python 外掛程式匯入工具"
 #, kde-format
 msgctxt "action"
 msgid "Import Python Plugin from File..."
-msgstr "自檔案匯入 Python 外掛程式"
+msgstr "自檔案匯入 Python 外掛程式…"
 
 #. i18n: context: Action (plugin_importer_web), Actions (Scripts), ActionCollection (Scripts)
 #: plugins/python/plugin_importer/plugin_importer.action:21
 #, kde-format
 msgctxt "action"
 msgid "Import Python Plugin from Web..."
-msgstr "自網路匯入 Python 外掛程式"
+msgstr "自網路匯入 Python 外掛程式…"
 
 #: plugins/python/plugin_importer/plugin_importer.py:142
 msgid "Desktop file"
@@ -50984,11 +50984,11 @@ msgstr "未在壓縮檔案中找到外掛程式"
 
 #: plugins/python/plugin_importer/plugin_importer_extension.py:32
 msgid "Import Python Plugin from File..."
-msgstr "自檔案匯入 Python 外掛程式"
+msgstr "自檔案匯入 Python 外掛程式…"
 
 #: plugins/python/plugin_importer/plugin_importer_extension.py:37
 msgid "Import Python Plugin from Web..."
-msgstr "自網路匯入 Python 外掛程式"
+msgstr "自網路匯入 Python 外掛程式…"
 
 #: plugins/python/plugin_importer/plugin_importer_extension.py:44
 msgid "Overwrite Plugin"
