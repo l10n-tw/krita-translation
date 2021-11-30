@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-11-26 00:25+0000\n"
-"PO-Revision-Date: 2021-11-26 10:03+0000\n"
+"POT-Creation-Date: 2021-11-28 00:25+0000\n"
+"PO-Revision-Date: 2021-11-30 07:38+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -17455,8 +17455,8 @@ msgstr "輸出"
 #: libs/pigment/resources/KoColorSet.cpp:770
 #: libs/pigment/resources/KoColorSet.cpp:852
 #: libs/pigment/resources/KoColorSet.cpp:1075
-#: libs/ui/actions/KisPasteActionFactories.cpp:305
-#: libs/ui/animation/KisDlgAnimationRenderer.cpp:345 libs/ui/KisView.cpp:725
+#: libs/ui/actions/KisPasteActionFactories.cpp:301
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:345 libs/ui/KisView.cpp:719
 #: plugins/generators/seexpr/kis_wdg_seexpr.cpp:34
 #, kde-format
 msgid "Untitled"
@@ -17526,11 +17526,11 @@ msgstr "本機資源"
 #: libs/ui/KisMainWindow.cpp:2138 libs/ui/KisPart.cpp:558
 #: libs/ui/KisPart.cpp:561 libs/ui/KisReferenceImage.cpp:178
 #: libs/ui/KisRemoteFileFetcher.cpp:42 libs/ui/KisTemplateCreateDia.cpp:284
-#: libs/ui/KisTemplateCreateDia.cpp:390 libs/ui/KisView.cpp:728
-#: libs/ui/KisWelcomePageWidget.cpp:691
+#: libs/ui/KisTemplateCreateDia.cpp:390 libs/ui/KisView.cpp:722
+#: libs/ui/KisWelcomePageWidget.cpp:707
 #: libs/ui/opengl/kis_opengl_canvas2.cpp:388
 #: libs/ui/utils/KisClipboardUtil.cpp:131
-#: libs/ui/utils/KisClipboardUtil.cpp:236
+#: libs/ui/utils/KisClipboardUtil.cpp:237
 #: libs/ui/widgets/kis_custom_image_widget.cc:299
 #: plugins/assistants/Assistants/kis_assistant_tool.cc:1080
 #: plugins/assistants/Assistants/kis_assistant_tool.cc:1083
@@ -18361,63 +18361,63 @@ msgstr "刪除此標籤"
 msgid "Undelete"
 msgstr "復原刪除"
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:131
+#: libs/ui/actions/kis_selection_action_factories.cpp:143
 msgctxt "(qtundo-format)"
 msgid "Select All"
 msgstr "全部選取"
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:205
-#: libs/ui/KisView.cpp:548
+#: libs/ui/actions/kis_selection_action_factories.cpp:217
+#: libs/ui/KisView.cpp:544
 msgctxt "(qtundo-format)"
 msgid "Flood Fill Layer"
 msgstr "浸漫填充圖層"
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:358
+#: libs/ui/actions/kis_selection_action_factories.cpp:370
 msgctxt "(qtundo-format)"
 msgid "Cut"
 msgstr "剪下"
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:359
+#: libs/ui/actions/kis_selection_action_factories.cpp:371
 msgctxt "(qtundo-format)"
 msgid "Copy"
 msgstr "複製"
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:444
+#: libs/ui/actions/kis_selection_action_factories.cpp:456
 msgctxt "(qtundo-format)"
 msgid "Copy Merged"
 msgstr "合併複製"
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:461
+#: libs/ui/actions/kis_selection_action_factories.cpp:473
 #, kde-format
 msgctxt "floating message"
 msgid "Selection is already in a vector format "
 msgstr "選取區域已是向量格式"
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:486
-#: libs/ui/actions/kis_selection_action_factories.cpp:506
+#: libs/ui/actions/kis_selection_action_factories.cpp:498
+#: libs/ui/actions/kis_selection_action_factories.cpp:518
 msgctxt "(qtundo-format)"
 msgid "Convert to Vector Selection"
 msgstr "轉成向量選取區域"
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:501
+#: libs/ui/actions/kis_selection_action_factories.cpp:513
 #, kde-format
 msgctxt "floating message"
 msgid "Selection is already in a raster format "
 msgstr "選取區域已是點陣格式"
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:547
+#: libs/ui/actions/kis_selection_action_factories.cpp:559
 #, kde-format
 msgctxt "floating message"
 msgid "The shape already belongs to a selection"
 msgstr "此形狀已屬於一個選取區域"
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:553
+#: libs/ui/actions/kis_selection_action_factories.cpp:565
 msgctxt "(qtundo-format)"
 msgid "Convert shapes to vector selection"
 msgstr "轉換形狀為向量選取區域"
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:606
-#: libs/ui/actions/kis_selection_action_factories.cpp:665
+#: libs/ui/actions/kis_selection_action_factories.cpp:618
+#: libs/ui/actions/kis_selection_action_factories.cpp:677
 #: plugins/tools/tool_polyline/kis_tool_polyline.cc:49
 msgctxt "(qtundo-format)"
 msgid "Draw Polyline"
@@ -18428,18 +18428,18 @@ msgctxt "(qtundo-format)"
 msgid "Paste shapes"
 msgstr "貼上形狀"
 
-#: libs/ui/actions/KisPasteActionFactories.cpp:240
-#: libs/ui/actions/KisPasteActionFactories.cpp:312
+#: libs/ui/actions/KisPasteActionFactories.cpp:236
+#: libs/ui/actions/KisPasteActionFactories.cpp:308
 #, kde-format
 msgid "(pasted)"
 msgstr "(已貼上)"
 
-#: libs/ui/actions/KisPasteActionFactories.cpp:310
+#: libs/ui/actions/KisPasteActionFactories.cpp:306
 #, kde-format
 msgid "Pasted"
 msgstr "已貼上"
 
-#: libs/ui/actions/KisPasteActionFactories.cpp:362
+#: libs/ui/actions/KisPasteActionFactories.cpp:358
 msgctxt "(qtundo-format)"
 msgid "Paste Style"
 msgstr "貼上樣式"
@@ -21460,7 +21460,7 @@ msgid "Show details"
 msgstr "顯示詳細資料"
 
 #. i18n: ectx: property (text), widget (QLabel, labelNoFeed)
-#: libs/ui/forms/KisWelcomePage.ui:455 libs/ui/KisWelcomePageWidget.cpp:392
+#: libs/ui/forms/KisWelcomePage.ui:455 libs/ui/KisWelcomePageWidget.cpp:394
 #, kde-format
 msgid ""
 "You can <a href=\"ignored\" style=\"color: COLOR_PLACEHOLDER; text-"
@@ -21478,43 +21478,43 @@ msgid "Community"
 msgstr "社群資源"
 
 #. i18n: ectx: property (text), widget (QLabel, manualLink)
-#: libs/ui/forms/KisWelcomePage.ui:647 libs/ui/KisWelcomePageWidget.cpp:378
+#: libs/ui/forms/KisWelcomePage.ui:647 libs/ui/KisWelcomePageWidget.cpp:380
 #, kde-format
 msgid "User Manual"
 msgstr "使用者手冊"
 
 #. i18n: ectx: property (text), widget (QLabel, gettingStartedLink)
-#: libs/ui/forms/KisWelcomePage.ui:737 libs/ui/KisWelcomePageWidget.cpp:375
+#: libs/ui/forms/KisWelcomePage.ui:737 libs/ui/KisWelcomePageWidget.cpp:377
 #, kde-format
 msgid "Getting Started"
 msgstr "新手入門"
 
 #. i18n: ectx: property (text), widget (QLabel, userCommunityLink)
-#: libs/ui/forms/KisWelcomePage.ui:824 libs/ui/KisWelcomePageWidget.cpp:372
+#: libs/ui/forms/KisWelcomePage.ui:824 libs/ui/KisWelcomePageWidget.cpp:374
 #, kde-format
 msgid "User Community"
 msgstr "使用者社群"
 
 #. i18n: ectx: property (text), widget (QLabel, kritaWebsiteLink)
-#: libs/ui/forms/KisWelcomePage.ui:911 libs/ui/KisWelcomePageWidget.cpp:384
+#: libs/ui/forms/KisWelcomePage.ui:911 libs/ui/KisWelcomePageWidget.cpp:386
 #, kde-format
 msgid "Krita Website"
 msgstr "Krita 官方網站"
 
 #. i18n: ectx: property (text), widget (QLabel, sourceCodeLink)
-#: libs/ui/forms/KisWelcomePage.ui:1001 libs/ui/KisWelcomePageWidget.cpp:387
+#: libs/ui/forms/KisWelcomePage.ui:1001 libs/ui/KisWelcomePageWidget.cpp:389
 #, kde-format
 msgid "Source Code"
 msgstr "原始碼"
 
 #. i18n: ectx: property (text), widget (QLabel, supportKritaLink)
-#: libs/ui/forms/KisWelcomePage.ui:1088 libs/ui/KisWelcomePageWidget.cpp:381
+#: libs/ui/forms/KisWelcomePage.ui:1088 libs/ui/KisWelcomePageWidget.cpp:383
 #, kde-format
 msgid "Support Krita"
 msgstr "支援 Krita"
 
 #. i18n: ectx: property (text), widget (QLabel, poweredByKDELink)
-#: libs/ui/forms/KisWelcomePage.ui:1178 libs/ui/KisWelcomePageWidget.cpp:390
+#: libs/ui/forms/KisWelcomePage.ui:1178 libs/ui/KisWelcomePageWidget.cpp:392
 #, kde-format
 msgid "Powered by KDE"
 msgstr "本軟體基於 KDE"
@@ -21532,7 +21532,7 @@ msgid "Start"
 msgstr "開始作業"
 
 #. i18n: ectx: property (text), widget (QLabel, devBuildLabel)
-#: libs/ui/forms/KisWelcomePage.ui:1428 libs/ui/KisWelcomePageWidget.cpp:605
+#: libs/ui/forms/KisWelcomePage.ui:1428 libs/ui/KisWelcomePageWidget.cpp:621
 #, kde-format
 msgid "DEV BUILD"
 msgstr "開發建置版本"
@@ -28194,64 +28194,64 @@ msgstr "無可用圖片。"
 msgid "Use This Template"
 msgstr "使用此範本"
 
-#: libs/ui/KisView.cpp:522
+#: libs/ui/KisView.cpp:518
 #, kde-format
 msgid "You cannot drag and drop colors on the selected layer type."
 msgstr "不能將色塊拖放到選定的圖層類型上。"
 
-#: libs/ui/KisView.cpp:530 libs/ui/tool/kis_tool.cc:662
+#: libs/ui/KisView.cpp:526 libs/ui/tool/kis_tool.cc:662
 #, kde-format
 msgid "Layer is locked and invisible."
 msgstr "圖層已鎖定且不可見。"
 
-#: libs/ui/KisView.cpp:532 libs/ui/tool/kis_tool.cc:664
+#: libs/ui/KisView.cpp:528 libs/ui/tool/kis_tool.cc:664
 #, kde-format
 msgid "Layer is locked."
 msgstr "圖層已鎖定。"
 
-#: libs/ui/KisView.cpp:534 libs/ui/tool/kis_tool.cc:666
+#: libs/ui/KisView.cpp:530 libs/ui/tool/kis_tool.cc:666
 #, kde-format
 msgid "Layer is invisible."
 msgstr "圖層不可見。"
 
-#: libs/ui/KisView.cpp:729
+#: libs/ui/KisView.cpp:723
 #, kde-format
 msgid ""
 "<p>The document <b>'%1'</b> has been modified.</p><p>Do you want to save it?"
 "</p>"
 msgstr "<p>檔案 <b>「%1」</b> 已被修改。</p><p>要儲存它嗎？</p>"
 
-#: libs/ui/KisView.cpp:918
+#: libs/ui/KisView.cpp:912
 #, kde-format
 msgid "Soft Proofing doesn't work in floating point."
 msgstr "螢幕校樣不支援浮點位深度。"
 
-#: libs/ui/KisView.cpp:923
+#: libs/ui/KisView.cpp:917
 #, kde-format
 msgid "Soft Proofing turned on."
 msgstr "已啟用螢幕校樣。"
 
-#: libs/ui/KisView.cpp:925
+#: libs/ui/KisView.cpp:919
 #, kde-format
 msgid "Soft Proofing turned off."
 msgstr "已關閉螢幕校樣。"
 
-#: libs/ui/KisView.cpp:937
+#: libs/ui/KisView.cpp:931
 #, kde-format
 msgid "Gamut Warnings don't work in floating point."
 msgstr "色域警告不支援浮點色深。"
 
-#: libs/ui/KisView.cpp:943
+#: libs/ui/KisView.cpp:937
 #, kde-format
 msgid "Gamut Warnings turned on."
 msgstr "已啟用色域警告。"
 
-#: libs/ui/KisView.cpp:945
+#: libs/ui/KisView.cpp:939
 #, kde-format
 msgid "But Soft Proofing is still off."
 msgstr "但螢幕校樣仍然關閉。"
 
-#: libs/ui/KisView.cpp:948
+#: libs/ui/KisView.cpp:942
 #, kde-format
 msgid "Gamut Warnings turned off."
 msgstr "已關閉色域警告。"
@@ -28298,45 +28298,45 @@ msgctxt "choice for author profile"
 msgid "Anonymous"
 msgstr "匿名"
 
-#: libs/ui/KisWelcomePageWidget.cpp:139
+#: libs/ui/KisWelcomePageWidget.cpp:141
 #, kde-format
 msgid "Enable news and check for new releases"
 msgstr "啟用新聞並檢查新版本發布"
 
-#: libs/ui/KisWelcomePageWidget.cpp:141
+#: libs/ui/KisWelcomePageWidget.cpp:143
 #, kde-format
 msgid ""
 "Show news about Krita: this needs internet to retrieve information from the "
 "krita.org website"
 msgstr "顯示 Krita 的新聞：這需要透過網際網路從 krita.org 網站檢索資訊"
 
-#: libs/ui/KisWelcomePageWidget.cpp:144
+#: libs/ui/KisWelcomePageWidget.cpp:146
 #: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:343
 #, kde-format
 msgid "Language"
 msgstr "語言"
 
-#: libs/ui/KisWelcomePageWidget.cpp:145
+#: libs/ui/KisWelcomePageWidget.cpp:147
 #, kde-format
 msgid "English news is always up to date."
 msgstr "英文新聞永遠是最更新的。"
 
-#: libs/ui/KisWelcomePageWidget.cpp:414
+#: libs/ui/KisWelcomePageWidget.cpp:416
 #, kde-format
 msgid "Get your Krita Supporter Badge here!"
 msgstr "在此取得您的 Krita 支持者徽章！"
 
-#: libs/ui/KisWelcomePageWidget.cpp:710
+#: libs/ui/KisWelcomePageWidget.cpp:726
 #, kde-format
 msgid "New version of Krita is available."
 msgstr "Krita 有新版可用。"
 
-#: libs/ui/KisWelcomePageWidget.cpp:739
+#: libs/ui/KisWelcomePageWidget.cpp:755
 #, kde-format
 msgid "An error occurred during the update"
 msgstr "更新時發生錯誤"
 
-#: libs/ui/KisWelcomePageWidget.cpp:745
+#: libs/ui/KisWelcomePageWidget.cpp:761
 #, kde-format
 msgid "Restart is required."
 msgstr "需要重新啟動。"
@@ -29530,7 +29530,7 @@ msgid "Insert as Reference Images"
 msgstr "插入多幅參考圖"
 
 #: libs/ui/utils/KisClipboardUtil.cpp:132
-#: libs/ui/utils/KisClipboardUtil.cpp:237
+#: libs/ui/utils/KisClipboardUtil.cpp:238
 #, kde-format
 msgid ""
 "Could not open %2.\n"
@@ -36639,18 +36639,18 @@ msgctxt "Title of the docker"
 msgid "Recorder"
 msgstr "錄影工具"
 
-#: plugins/dockers/recorder/recorderdocker_dock.cpp:383
+#: plugins/dockers/recorder/recorderdocker_dock.cpp:384
 #, kde-format
 msgid "Select a Directory for Recordings"
 msgstr "請選擇錄影檔的存放目錄"
 
-#: plugins/dockers/recorder/recorderdocker_dock.cpp:463
+#: plugins/dockers/recorder/recorderdocker_dock.cpp:464
 #, kde-format
 msgctxt "@title:window"
 msgid "Recorder"
 msgstr "錄影工具"
 
-#: plugins/dockers/recorder/recorderdocker_dock.cpp:464
+#: plugins/dockers/recorder/recorderdocker_dock.cpp:465
 #, kde-format
 msgid ""
 "The recorder has been stopped due to failure while writing a frame. Please "
@@ -50965,14 +50965,14 @@ msgstr "Python 外掛程式匯入工具"
 #, kde-format
 msgctxt "action"
 msgid "Import Python Plugin from File..."
-msgstr "自檔案匯入 Python 外掛程式"
+msgstr "自檔案匯入 Python 外掛程式…"
 
 #. i18n: context: Action (plugin_importer_web), Actions (Scripts), ActionCollection (Scripts)
 #: plugins/python/plugin_importer/plugin_importer.action:21
 #, kde-format
 msgctxt "action"
 msgid "Import Python Plugin from Web..."
-msgstr "自網路匯入 Python 外掛程式"
+msgstr "自網路匯入 Python 外掛程式…"
 
 #: plugins/python/plugin_importer/plugin_importer.py:142
 msgid "Desktop file"
@@ -50984,11 +50984,11 @@ msgstr "未在壓縮檔案中找到外掛程式"
 
 #: plugins/python/plugin_importer/plugin_importer_extension.py:32
 msgid "Import Python Plugin from File..."
-msgstr "自檔案匯入 Python 外掛程式"
+msgstr "自檔案匯入 Python 外掛程式…"
 
 #: plugins/python/plugin_importer/plugin_importer_extension.py:37
 msgid "Import Python Plugin from Web..."
-msgstr "自網路匯入 Python 外掛程式"
+msgstr "自網路匯入 Python 外掛程式…"
 
 #: plugins/python/plugin_importer/plugin_importer_extension.py:44
 msgid "Overwrite Plugin"
