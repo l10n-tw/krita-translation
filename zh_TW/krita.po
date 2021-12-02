@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-12-02 00:41+0000\n"
-"PO-Revision-Date: 2021-11-30 07:38+0000\n"
+"PO-Revision-Date: 2021-12-02 10:25+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -51592,8 +51592,7 @@ msgid "Flood Fill"
 msgstr "浸漫填充"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:223
-#, fuzzy, kde-format
-#| msgid "Fast mode: "
+#, kde-format
 msgid "Fast mode:"
 msgstr "快速模式："
 
@@ -51607,28 +51606,24 @@ msgstr ""
 "用。"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:231
-#, fuzzy, kde-format
-#| msgid "Threshold:"
+#, kde-format
 msgctxt "The Threshold label in Fill tool options"
 msgid "Threshold:"
 msgstr "閾值："
 
 #: plugins/tools/basictools/kis_tool_fill.cc:237
-#, fuzzy, kde-format
-#| msgid "Softness:"
+#, kde-format
 msgctxt "The Softness label in Fill tool options"
 msgid "Softness:"
 msgstr "柔和度："
 
 #: plugins/tools/basictools/kis_tool_fill.cc:244
-#, fuzzy, kde-format
-#| msgid "Grow selection: "
+#, kde-format
 msgid "Grow selection:"
 msgstr "擴大選取區域："
 
 #: plugins/tools/basictools/kis_tool_fill.cc:251
-#, fuzzy, kde-format
-#| msgid "Feathering radius: "
+#, kde-format
 msgid "Feathering radius:"
 msgstr "羽化半徑："
 
@@ -52737,8 +52732,7 @@ msgid "Fuzziness: "
 msgstr "模糊度："
 
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:243
-#, fuzzy, kde-format
-#| msgid "Softness:"
+#, kde-format
 msgid "Softness: "
 msgstr "柔和度："
 
