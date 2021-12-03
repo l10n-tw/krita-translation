@@ -54734,26 +54734,21 @@ msgctxt "action"
 msgid "Reference Images Tool"
 msgstr "參考圖工具"
 
-#, kde-format
 #~ msgctxt "action"
 #~ msgid "&Brightness/Contrast curve..."
 #~ msgstr "亮度/對比度曲線(&B)…"
 
-#, kde-format
 #~ msgctxt "action"
 #~ msgid "Brightness/Contrast curve"
 #~ msgstr "亮度/對比度曲線"
 
-#, kde-format
 #~ msgctxt "The Threshold label in Fill tool options"
 #~ msgid "Threshold: "
 #~ msgstr "閾值："
 
-#, kde-format
 #~ msgid "New name for ASL storage"
 #~ msgstr "ASL 儲存空間的新名稱"
 
-#, kde-format
 #~ msgid ""
 #~ "The old filename is taken.\n"
 #~ "New name:"
@@ -54761,99 +54756,76 @@ msgstr "參考圖工具"
 #~ "舊檔名已被取走。\n"
 #~ "新名稱："
 
-#, kde-format
 #~ msgctxt "New layer style"
 #~ msgid "&New..."
 #~ msgstr "建立(&N)…"
 
-#, kde-format
 #~ msgctxt "@title:window"
 #~ msgid "New Gamut Mask..."
 #~ msgstr "新色域遮罩…"
 
-#, kde-format
 #~ msgctxt "@title:window"
 #~ msgid "Invalid Name"
 #~ msgstr "名稱無效"
 
-#, kde-format
 #~ msgid "Please enter a name"
 #~ msgstr "請輸入名稱"
 
-#, kde-format
 #~ msgid "Import Bundles..."
 #~ msgstr "匯入資源包…"
 
-#, kde-format
 #~ msgid "Import Brushes..."
 #~ msgstr "匯入筆刷…"
 
-#, kde-format
 #~ msgid "Import Gradients..."
 #~ msgstr "匯入漸變…"
 
-#, kde-format
 #~ msgid "Import Palettes..."
 #~ msgstr "匯入調色板…"
 
-#, kde-format
 #~ msgid "Import Patterns..."
 #~ msgstr "匯入圖案…"
 
-#, kde-format
 #~ msgid "Import Presets..."
 #~ msgstr "匯入預設…"
 
-#, kde-format
 #~ msgid "Import Workspaces..."
 #~ msgstr "匯入作業空間…"
 
-#, kde-format
 #~ msgid "Create Resource Bundle..."
 #~ msgstr "建立資源包…"
 
-#, kde-format
 #~ msgid "Could not create the new bundle."
 #~ msgstr "無法建立資源包。"
 
-#, kde-format
 #~ msgid "Import Brushes"
 #~ msgstr "匯入筆刷"
 
-#, kde-format
 #~ msgid "Import Presets"
 #~ msgstr "匯入預設"
 
-#, kde-format
 #~ msgid "Import Gradients"
 #~ msgstr "匯入漸變"
 
-#, kde-format
 #~ msgid "Import Patterns"
 #~ msgstr "匯入圖案"
 
-#, kde-format
 #~ msgid "Import Palettes"
 #~ msgstr "匯入調色板"
 
-#, kde-format
 #~ msgid "Import Workspaces"
 #~ msgstr "匯入作業空間"
 
-#, kde-format
 #~ msgid "Could not save %1"
 #~ msgstr "無法儲存 %1"
 
-#, kde-format
 #~ msgctxt "Error message when saving a .kra file"
 #~ msgid "Could not save resource %1 to the kra file."
 #~ msgstr "無法儲存資源 %1 到 KRA 檔案。"
 
-#, kde-format
 #~ msgid "Could not add storage %1 to the cache database"
 #~ msgstr "無法新增 %1 儲存空間至快取資料庫"
 
-#, kde-format
 #~ msgctxt "@info mouse position (x, y)"
 #~ msgid "%1, %2"
 #~ msgstr "%1, %2"
