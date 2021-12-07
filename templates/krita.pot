@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-05 00:41+0000\n"
+"POT-Creation-Date: 2021-12-07 00:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -14447,7 +14447,7 @@ msgid "No 'text' node found!"
 msgstr ""
 
 #: libs/flake/text/KoSvgTextShapeMarkupConverter.cpp:357
-#: libs/flake/text/KoSvgTextShapeMarkupConverter.cpp:720
+#: libs/flake/text/KoSvgTextShapeMarkupConverter.cpp:726
 #, kde-format
 msgid "Unknown error writing SVG text element"
 msgstr ""
@@ -15409,7 +15409,7 @@ msgid "Onion Skins"
 msgstr ""
 
 #: libs/image/kis_layer_properties_icons.cpp:27
-#: libs/resources/KisResourceModel.cpp:135
+#: libs/resources/KisResourceModel.cpp:138
 #: libs/resources/KisStorageModel.cpp:429
 #: libs/resourcewidgets/dbexplorer/DlgDbExplorer.cpp:72
 #, kde-format
@@ -17548,68 +17548,68 @@ msgstr ""
 msgid "2. The resource location at %1 is not writable."
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:623
+#: libs/resources/KisResourceLocator.cpp:626
 #, kde-format
 msgid "Could not add %1 to the database"
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:650
-#: libs/resources/KisResourceLocator.cpp:1006
+#: libs/resources/KisResourceLocator.cpp:653
+#: libs/resources/KisResourceLocator.cpp:1009
 #, kde-format
 msgid "Could not remove storage %1 from the database"
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:775
+#: libs/resources/KisResourceLocator.cpp:778
 #, kde-format
 msgid ""
 "Krita is running for the first time. Initialization will take some time."
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:782
+#: libs/resources/KisResourceLocator.cpp:785
 #, kde-format
 msgid "3. Could not create the resource location at %1."
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:795
-#: libs/resources/KisResourceLocator.cpp:811
+#: libs/resources/KisResourceLocator.cpp:798
+#: libs/resources/KisResourceLocator.cpp:814
 #, kde-format
 msgid "Could not copy resource %1 to %2"
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:807
+#: libs/resources/KisResourceLocator.cpp:810
 #, kde-format
 msgid "Installing the resources from bundle %1."
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:829
+#: libs/resources/KisResourceLocator.cpp:832
 #, kde-format
 msgid "Initializing the resources."
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:863
+#: libs/resources/KisResourceLocator.cpp:866
 #, kde-format
 msgid "Temporary Resources"
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:982
-#: libs/resources/KisResourceLocator.cpp:988
+#: libs/resources/KisResourceLocator.cpp:985
+#: libs/resources/KisResourceLocator.cpp:991
 #, kde-format
 msgid "Could not synchronize %1 with the database"
 msgstr ""
 
-#: libs/resources/KisResourceModel.cpp:117
+#: libs/resources/KisResourceModel.cpp:120
 #: libs/resources/KisStorageModel.cpp:419
 #: libs/resourcewidgets/dbexplorer/DlgDbExplorer.cpp:66
 #, kde-format
 msgid "Id"
 msgstr ""
 
-#: libs/resources/KisResourceModel.cpp:119
+#: libs/resources/KisResourceModel.cpp:122
 #, kde-format
 msgid "Storage ID"
 msgstr ""
 
-#: libs/resources/KisResourceModel.cpp:121
+#: libs/resources/KisResourceModel.cpp:124
 #: libs/resources/KisStorageModel.cpp:433
 #: libs/resourcewidgets/dbexplorer/DlgDbExplorer.cpp:70
 #: plugins/python/filtermanager/components/filtermanagertreemodel.py:18
@@ -17618,19 +17618,19 @@ msgstr ""
 msgid "Name"
 msgstr ""
 
-#: libs/resources/KisResourceModel.cpp:123
+#: libs/resources/KisResourceModel.cpp:126
 #, kde-format
 msgid "File Name"
 msgstr ""
 
-#: libs/resources/KisResourceModel.cpp:125
+#: libs/resources/KisResourceModel.cpp:128
 #, kde-format
 msgid "Tooltip"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, shapeBox)
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbType)
-#: libs/resources/KisResourceModel.cpp:127
+#: libs/resources/KisResourceModel.cpp:130
 #: libs/ui/imagesize/imagesize.xmlgui:4 plugins/extensions/imagesplit/imagesplit.xmlgui:4
 #: plugins/extensions/separate_channels/imageseparate.xmlgui:4
 #: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:363
@@ -17640,30 +17640,30 @@ msgstr ""
 msgid "Image"
 msgstr ""
 
-#: libs/resources/KisResourceModel.cpp:129
+#: libs/resources/KisResourceModel.cpp:132
 #, kde-format
 msgid "Status"
 msgstr ""
 
-#: libs/resources/KisResourceModel.cpp:131
+#: libs/resources/KisResourceModel.cpp:134
 #: libs/resources/KisStorageModel.cpp:423
 #, kde-format
 msgid "Location"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: libs/resources/KisResourceModel.cpp:133
+#: libs/resources/KisResourceModel.cpp:136
 #: libs/resourcewidgets/dbexplorer/WdgDbExplorer.ui:49
 #, kde-format
 msgid "Resource Type"
 msgstr ""
 
-#: libs/resources/KisResourceModel.cpp:137
+#: libs/resources/KisResourceModel.cpp:140
 #, kde-format
 msgid "Storage Active"
 msgstr ""
 
-#: libs/resources/KisResourceModel.cpp:139
+#: libs/resources/KisResourceModel.cpp:142
 #, kde-format
 msgid "md5sum"
 msgstr ""
@@ -28936,14 +28936,14 @@ msgstr ""
 msgid "Local selection is locked."
 msgstr ""
 
-#: libs/ui/tool/kis_tool_freehand.cc:194
+#: libs/ui/tool/kis_tool_freehand.cc:195
 #, kde-format
 msgid ""
 "The brush tool cannot paint on this layer.  Please select a paint layer or "
 "mask."
 msgstr ""
 
-#: libs/ui/tool/kis_tool_freehand.cc:199 libs/ui/tool/kis_tool_polyline_base.cpp:81
+#: libs/ui/tool/kis_tool_freehand.cc:200 libs/ui/tool/kis_tool_polyline_base.cpp:81
 #: libs/ui/tool/kis_tool_rectangle_base.cpp:125
 #: plugins/tools/basictools/kis_tool_line.cc:175
 #: plugins/tools/basictools/kis_tool_path.cc:70
@@ -50431,18 +50431,29 @@ msgstr ""
 
 #: plugins/tools/basictools/kis_tool_brush.cc:465
 #, kde-format
-msgid "Snap Single:"
+msgid "Snap to Single Line"
 msgstr ""
 
 #: plugins/tools/basictools/kis_tool_brush.cc:468
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
-"Make it only snap to a single assistant, prevents snapping mess while using "
-"the infinite assistants."
+"Make it only snap to a single assistant line, prevents snapping mess while "
+"using the infinite assistants."
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_brush.h:136
+#: plugins/tools/basictools/kis_tool_brush.cc:473
+#, kde-format
+msgid "Snap Eraser"
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_brush.cc:476
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Enable snapping when using erasers"
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_brush.h:137
 #, kde-format
 msgid "Freehand Brush Tool"
 msgstr ""
