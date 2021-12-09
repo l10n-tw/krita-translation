@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-04 00:42+0000\n"
+"POT-Creation-Date: 2021-12-09 00:41+0000\n"
 "PO-Revision-Date: 2021-12-04 06:34+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
@@ -13942,13 +13942,13 @@ msgctxt "action"
 msgid "Workspaces"
 msgstr "作業空間"
 
-#: krita/main.cc:508
+#: krita/main.cc:507
 #, kde-format
 msgctxt "@title:window"
 msgid "Fatal Error"
 msgstr "嚴重錯誤"
 
-#: krita/main.cc:508
+#: krita/main.cc:507
 #, kde-format
 msgid ""
 "Krita does not support the Wayland platform. Use XWayland to run Krita on "
@@ -13957,14 +13957,14 @@ msgstr ""
 "Krita 不支援 Wayland 平台。如您希望在 Wayland 上執行 Krita，請使用 XWayland。"
 "Krita 現在會退出。"
 
-#: krita/main.cc:606 libs/ui/KisApplication.cpp:404
+#: krita/main.cc:607 libs/ui/KisApplication.cpp:404
 #: libs/ui/KisApplication.cpp:669
 #, kde-format
 msgctxt "@title:window"
 msgid "Krita: Warning"
 msgstr "Krita：警告"
 
-#: krita/main.cc:607
+#: krita/main.cc:608
 #, kde-format
 msgid ""
 "You are running an unsupported version of Windows: %1.\n"
@@ -13975,12 +13975,12 @@ msgstr ""
 "我們不建議這樣做，請勿為此報告問題。\n"
 "請升級到下列支援的 Windows 版本之一：Windows 7、8、8.1、10。"
 
-#: krita/main.cc:629 krita/main.cc:634
+#: krita/main.cc:630 krita/main.cc:635
 #, kde-format
 msgid "Krita Tablet Support"
 msgstr "Krita 數位板支援"
 
-#: krita/main.cc:630
+#: krita/main.cc:631
 #, kde-format
 msgid ""
 "Cannot load WinTab driver and no Windows Ink pen devices are found. If you "
@@ -13990,7 +13990,7 @@ msgstr ""
 "無法載入 WinTab 驅動程式，且未發現 Windows Ink 手寫筆裝置。如果數位板已連接，"
 "請確保其驅動程式已正確安裝。"
 
-#: krita/main.cc:635
+#: krita/main.cc:636
 #, kde-format
 msgid ""
 "Cannot load WinTab driver. If you have a drawing tablet, please make sure "
@@ -14470,7 +14470,7 @@ msgid "No 'text' node found!"
 msgstr "找不到 \"文字\" 節點！"
 
 #: libs/flake/text/KoSvgTextShapeMarkupConverter.cpp:357
-#: libs/flake/text/KoSvgTextShapeMarkupConverter.cpp:720
+#: libs/flake/text/KoSvgTextShapeMarkupConverter.cpp:726
 #, kde-format
 msgid "Unknown error writing SVG text element"
 msgstr "寫入 SVG 文字元素時發生未知錯誤"
@@ -14835,10 +14835,10 @@ msgstr "大小"
 #: plugins/filters/blur/kis_wdg_gaussian_blur.cpp:44
 #: plugins/generators/pattern/kis_wdg_pattern.cpp:40
 #: plugins/generators/pattern/kis_wdg_pattern.cpp:41
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:63
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:68
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:73
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:79
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:64
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:69
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:74
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:80
 #: plugins/paintops/curvebrush/kis_curve_line_option.cpp:21
 #: plugins/paintops/curvebrush/kis_curve_paintop_settings.cpp:68
 #: plugins/paintops/deform/kis_brush_size_option.cpp:38
@@ -14955,7 +14955,7 @@ msgstr "取消選取"
 
 #: libs/image/commands/kis_image_layer_add_command.cpp:20
 #: libs/image/commands/kis_image_layer_add_command.cpp:36
-#: libs/ui/kis_layer_manager.cc:672 libs/ui/kis_layer_manager.cc:724
+#: libs/ui/kis_layer_manager.cc:674 libs/ui/kis_layer_manager.cc:726
 msgctxt "(qtundo-format)"
 msgid "Add Layer"
 msgstr "新增圖層"
@@ -15230,7 +15230,7 @@ msgstr "選取區域遮罩"
 msgid "Background"
 msgstr "背景"
 
-#: libs/image/kis_image.cc:689 libs/ui/kis_layer_manager.cc:615
+#: libs/image/kis_image.cc:689 libs/ui/kis_layer_manager.cc:617
 #, kde-format
 msgid "Paint Layer"
 msgstr "顏料圖層"
@@ -15439,7 +15439,7 @@ msgid "Onion Skins"
 msgstr "洋蔥皮檢視"
 
 #: libs/image/kis_layer_properties_icons.cpp:27
-#: libs/resources/KisResourceModel.cpp:135
+#: libs/resources/KisResourceModel.cpp:138
 #: libs/resources/KisStorageModel.cpp:429
 #: libs/resourcewidgets/dbexplorer/DlgDbExplorer.cpp:72
 #, kde-format
@@ -15539,7 +15539,7 @@ msgstr "轉成顏料圖層"
 msgid "Processing"
 msgstr "正在處理"
 
-#: libs/image/kis_psd_layer_style.cpp:101
+#: libs/image/kis_psd_layer_style.cpp:104
 #: libs/ui/KisApplicationArguments.cpp:374 libs/ui/KisMainWindow.cpp:1408
 #: libs/ui/KisMainWindow.cpp:1679 libs/ui/KisMainWindow.cpp:1698
 #: plugins/impex/libkra/kis_kra_saver.cpp:90
@@ -15912,30 +15912,30 @@ msgstr ""
 "此影像含有 <b>Exif</b> 中繼資料及多個圖層。只有在<b>第一個圖層內</b>的中繼資"
 "料會被儲存。"
 
-#: libs/impex/KisExportCheckRegistry.cpp:98 libs/ui/kis_layer_manager.cc:644
+#: libs/impex/KisExportCheckRegistry.cpp:98 libs/ui/kis_layer_manager.cc:646
 #, kde-format
 msgid "Clone Layer"
 msgstr "再製圖層"
 
-#: libs/impex/KisExportCheckRegistry.cpp:100 libs/ui/kis_layer_manager.cc:628
+#: libs/impex/KisExportCheckRegistry.cpp:100 libs/ui/kis_layer_manager.cc:630
 #: libs/ui/kis_node_manager.cpp:1514
 #, kde-format
 msgctxt "A group of layers"
 msgid "Group"
 msgstr "群組"
 
-#: libs/impex/KisExportCheckRegistry.cpp:102 libs/ui/kis_layer_manager.cc:953
+#: libs/impex/KisExportCheckRegistry.cpp:102 libs/ui/kis_layer_manager.cc:955
 #, kde-format
 msgid "File Layer"
 msgstr "檔案圖層"
 
-#: libs/impex/KisExportCheckRegistry.cpp:104 libs/ui/kis_layer_manager.cc:657
+#: libs/impex/KisExportCheckRegistry.cpp:104 libs/ui/kis_layer_manager.cc:659
 #: plugins/impex/svg/kis_svg_import.cc:80
 #, kde-format
 msgid "Vector Layer"
 msgstr "向量圖層"
 
-#: libs/impex/KisExportCheckRegistry.cpp:106 libs/ui/kis_layer_manager.cc:679
+#: libs/impex/KisExportCheckRegistry.cpp:106 libs/ui/kis_layer_manager.cc:681
 #, kde-format
 msgid "Filter Layer"
 msgstr "濾鏡圖層"
@@ -17454,7 +17454,7 @@ msgstr "輸出"
 #: libs/pigment/resources/KoColorSet.cpp:852
 #: libs/pigment/resources/KoColorSet.cpp:1075
 #: libs/ui/actions/KisPasteActionFactories.cpp:301
-#: libs/ui/animation/KisDlgAnimationRenderer.cpp:345 libs/ui/KisView.cpp:722
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:345 libs/ui/KisView.cpp:732
 #: plugins/generators/seexpr/kis_wdg_seexpr.cpp:34
 #, kde-format
 msgid "Untitled"
@@ -17510,7 +17510,7 @@ msgstr "本機資源"
 #: libs/ui/dialogs/kis_dlg_preferences.cc:561
 #: libs/ui/input/kis_tablet_debugger.cpp:96 libs/ui/kis_custom_pattern.cc:131
 #: libs/ui/kis_filter_manager.cc:233 libs/ui/kis_filter_manager.cc:242
-#: libs/ui/kis_layer_manager.cc:313 libs/ui/kis_layer_manager.cc:961
+#: libs/ui/kis_layer_manager.cc:313 libs/ui/kis_layer_manager.cc:963
 #: libs/ui/kis_node_manager.cpp:1218 libs/ui/kis_node_manager.cpp:1281
 #: libs/ui/KisApplication.cpp:965 libs/ui/KisApplication.cpp:968
 #: libs/ui/KisApplication.cpp:984 libs/ui/KisApplication.cpp:1016
@@ -17524,7 +17524,7 @@ msgstr "本機資源"
 #: libs/ui/KisMainWindow.cpp:2138 libs/ui/KisPart.cpp:558
 #: libs/ui/KisPart.cpp:561 libs/ui/KisReferenceImage.cpp:178
 #: libs/ui/KisRemoteFileFetcher.cpp:42 libs/ui/KisTemplateCreateDia.cpp:284
-#: libs/ui/KisTemplateCreateDia.cpp:390 libs/ui/KisView.cpp:725
+#: libs/ui/KisTemplateCreateDia.cpp:390 libs/ui/KisView.cpp:735
 #: libs/ui/KisWelcomePageWidget.cpp:707
 #: libs/ui/opengl/kis_opengl_canvas2.cpp:388
 #: libs/ui/utils/KisClipboardUtil.cpp:131
@@ -17590,68 +17590,68 @@ msgstr "1. 無法建立位於 %1 的資源位置。"
 msgid "2. The resource location at %1 is not writable."
 msgstr "2. 位於 %1 的資源位置無法寫入。"
 
-#: libs/resources/KisResourceLocator.cpp:623
+#: libs/resources/KisResourceLocator.cpp:626
 #, kde-format
 msgid "Could not add %1 to the database"
 msgstr "無法新增 %1 至資料庫"
 
-#: libs/resources/KisResourceLocator.cpp:650
-#: libs/resources/KisResourceLocator.cpp:1006
+#: libs/resources/KisResourceLocator.cpp:653
+#: libs/resources/KisResourceLocator.cpp:1009
 #, kde-format
 msgid "Could not remove storage %1 from the database"
 msgstr "無法從資料庫移除 %1 儲存空間"
 
-#: libs/resources/KisResourceLocator.cpp:775
+#: libs/resources/KisResourceLocator.cpp:778
 #, kde-format
 msgid ""
 "Krita is running for the first time. Initialization will take some time."
 msgstr "Krita 為第一次執行。需要一點時間初始化。"
 
-#: libs/resources/KisResourceLocator.cpp:782
+#: libs/resources/KisResourceLocator.cpp:785
 #, kde-format
 msgid "3. Could not create the resource location at %1."
 msgstr "3. 無法建立位於 %1 的資源位置"
 
-#: libs/resources/KisResourceLocator.cpp:795
-#: libs/resources/KisResourceLocator.cpp:811
+#: libs/resources/KisResourceLocator.cpp:798
+#: libs/resources/KisResourceLocator.cpp:814
 #, kde-format
 msgid "Could not copy resource %1 to %2"
 msgstr "無法複製 %1 資源至 %2"
 
-#: libs/resources/KisResourceLocator.cpp:807
+#: libs/resources/KisResourceLocator.cpp:810
 #, kde-format
 msgid "Installing the resources from bundle %1."
 msgstr "正在從 %1 資源包安裝資源。"
 
-#: libs/resources/KisResourceLocator.cpp:829
+#: libs/resources/KisResourceLocator.cpp:832
 #, kde-format
 msgid "Initializing the resources."
 msgstr "正在初始化資源。"
 
-#: libs/resources/KisResourceLocator.cpp:863
+#: libs/resources/KisResourceLocator.cpp:866
 #, kde-format
 msgid "Temporary Resources"
 msgstr "暫存資源"
 
-#: libs/resources/KisResourceLocator.cpp:982
-#: libs/resources/KisResourceLocator.cpp:988
+#: libs/resources/KisResourceLocator.cpp:985
+#: libs/resources/KisResourceLocator.cpp:991
 #, kde-format
 msgid "Could not synchronize %1 with the database"
 msgstr "無法與資料庫同步 %1"
 
-#: libs/resources/KisResourceModel.cpp:117
+#: libs/resources/KisResourceModel.cpp:120
 #: libs/resources/KisStorageModel.cpp:419
 #: libs/resourcewidgets/dbexplorer/DlgDbExplorer.cpp:66
 #, kde-format
 msgid "Id"
 msgstr "Id"
 
-#: libs/resources/KisResourceModel.cpp:119
+#: libs/resources/KisResourceModel.cpp:122
 #, kde-format
 msgid "Storage ID"
 msgstr "儲存空間 ID"
 
-#: libs/resources/KisResourceModel.cpp:121
+#: libs/resources/KisResourceModel.cpp:124
 #: libs/resources/KisStorageModel.cpp:433
 #: libs/resourcewidgets/dbexplorer/DlgDbExplorer.cpp:70
 #: plugins/python/filtermanager/components/filtermanagertreemodel.py:18
@@ -17660,19 +17660,19 @@ msgstr "儲存空間 ID"
 msgid "Name"
 msgstr "名稱"
 
-#: libs/resources/KisResourceModel.cpp:123
+#: libs/resources/KisResourceModel.cpp:126
 #, kde-format
 msgid "File Name"
 msgstr "檔案名稱"
 
-#: libs/resources/KisResourceModel.cpp:125
+#: libs/resources/KisResourceModel.cpp:128
 #, kde-format
 msgid "Tooltip"
 msgstr "工具提示"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, shapeBox)
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbType)
-#: libs/resources/KisResourceModel.cpp:127 libs/ui/imagesize/imagesize.xmlgui:4
+#: libs/resources/KisResourceModel.cpp:130 libs/ui/imagesize/imagesize.xmlgui:4
 #: plugins/extensions/imagesplit/imagesplit.xmlgui:4
 #: plugins/extensions/separate_channels/imageseparate.xmlgui:4
 #: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:363
@@ -17682,30 +17682,30 @@ msgstr "工具提示"
 msgid "Image"
 msgstr "影像"
 
-#: libs/resources/KisResourceModel.cpp:129
+#: libs/resources/KisResourceModel.cpp:132
 #, kde-format
 msgid "Status"
 msgstr "狀態"
 
-#: libs/resources/KisResourceModel.cpp:131
+#: libs/resources/KisResourceModel.cpp:134
 #: libs/resources/KisStorageModel.cpp:423
 #, kde-format
 msgid "Location"
 msgstr "位置"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: libs/resources/KisResourceModel.cpp:133
+#: libs/resources/KisResourceModel.cpp:136
 #: libs/resourcewidgets/dbexplorer/WdgDbExplorer.ui:49
 #, kde-format
 msgid "Resource Type"
 msgstr "資源類型"
 
-#: libs/resources/KisResourceModel.cpp:137
+#: libs/resources/KisResourceModel.cpp:140
 #, kde-format
 msgid "Storage Active"
 msgstr "儲存空間使用中"
 
-#: libs/resources/KisResourceModel.cpp:139
+#: libs/resources/KisResourceModel.cpp:142
 #, kde-format
 msgid "md5sum"
 msgstr "MD5 雜湊值"
@@ -18365,7 +18365,7 @@ msgid "Select All"
 msgstr "全部選取"
 
 #: libs/ui/actions/kis_selection_action_factories.cpp:217
-#: libs/ui/KisView.cpp:544
+#: libs/ui/KisView.cpp:549
 msgctxt "(qtundo-format)"
 msgid "Flood Fill Layer"
 msgstr "浸漫填充圖層"
@@ -20532,10 +20532,10 @@ msgstr "圖層屬性"
 #: plugins/filters/halftone/KisHalftoneConfigPageWidget.cpp:54
 #: plugins/generators/pattern/wdgpatternoptions.ui:90
 #: plugins/generators/pattern/wdgpatternoptions.ui:116
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:39
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:42
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:45
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:48
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:40
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:43
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:46
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:49
 #: plugins/impex/jpeg/kis_jpeg_export.cc:217
 #: plugins/impex/jpeg/kis_jpeg_export.cc:219
 #: plugins/impex/tiff/kis_wdg_options_tiff.ui:314
@@ -26235,7 +26235,7 @@ msgstr "填充圖層屬性"
 msgid "File Layer Properties"
 msgstr "檔案圖層屬性"
 
-#: libs/ui/kis_layer_manager.cc:313 libs/ui/kis_layer_manager.cc:961
+#: libs/ui/kis_layer_manager.cc:313 libs/ui/kis_layer_manager.cc:963
 #, kde-format
 msgid "No file name specified"
 msgstr "未指定檔案名"
@@ -26245,45 +26245,45 @@ msgstr "未指定檔案名"
 msgid "Change Clone Layer"
 msgstr "變更再製圖層"
 
-#: libs/ui/kis_layer_manager.cc:478
+#: libs/ui/kis_layer_manager.cc:480
 msgctxt "(qtundo-format)"
 msgid "Convert to an animated layer"
 msgstr "轉成動畫圖層"
 
-#: libs/ui/kis_layer_manager.cc:498
+#: libs/ui/kis_layer_manager.cc:500
 #, kde-format
 msgid "Save layers to..."
 msgstr "將圖層儲存至…"
 
-#: libs/ui/kis_layer_manager.cc:499
+#: libs/ui/kis_layer_manager.cc:501
 #, kde-format
 msgid ""
 "Choose the location where the layer will be saved to. The new file layer "
 "will then reference this location."
 msgstr "選擇圖層儲存的位置。新檔案圖層將在此後將引用此位置的資料。"
 
-#: libs/ui/kis_layer_manager.cc:562
+#: libs/ui/kis_layer_manager.cc:564
 msgctxt "(qtundo-format)"
 msgid "Convert to a file layer"
 msgstr "轉成檔案圖層"
 
-#: libs/ui/kis_layer_manager.cc:679
+#: libs/ui/kis_layer_manager.cc:681
 #, kde-format
 msgid "New Filter Layer"
 msgstr "建立濾鏡圖層"
 
-#: libs/ui/kis_layer_manager.cc:728
+#: libs/ui/kis_layer_manager.cc:730
 #, kde-format
 msgid "Fill Layer"
 msgstr "填充圖層"
 
-#: libs/ui/kis_layer_manager.cc:755
+#: libs/ui/kis_layer_manager.cc:757
 #, kde-format
 msgctxt "@title:window"
 msgid "Flatten Image"
 msgstr "平整影像"
 
-#: libs/ui/kis_layer_manager.cc:756
+#: libs/ui/kis_layer_manager.cc:758
 #, kde-format
 msgid ""
 "The image contains hidden layers that will be lost. Do you want to flatten "
@@ -26291,25 +26291,25 @@ msgid ""
 msgstr ""
 "此影像包含已隱藏的圖層，這些圖層將不會在平整後被保留，確定要平整影像嗎？"
 
-#: libs/ui/kis_layer_manager.cc:834
+#: libs/ui/kis_layer_manager.cc:836
 #, kde-format
 msgctxt "floating message in layer manager"
 msgid "Layer is locked"
 msgid_plural "Layers are locked"
 msgstr[0] "圖層已鎖定"
 
-#: libs/ui/kis_layer_manager.cc:855
+#: libs/ui/kis_layer_manager.cc:857
 #, kde-format
 msgctxt "floating message in layer manager when previous layer is locked"
 msgid "Layer is locked"
 msgstr "圖層已鎖定"
 
-#: libs/ui/kis_layer_manager.cc:911
+#: libs/ui/kis_layer_manager.cc:913
 #, kde-format
 msgid "Convert Invisible Groups"
 msgstr "轉換不可見群組"
 
-#: libs/ui/kis_layer_manager.cc:914
+#: libs/ui/kis_layer_manager.cc:916
 #, kde-format
 msgid "Export Only Toplevel Groups"
 msgstr "僅匯出最頂層群組圖層"
@@ -28194,64 +28194,64 @@ msgstr "無可用圖片。"
 msgid "Use This Template"
 msgstr "使用此範本"
 
-#: libs/ui/KisView.cpp:518
+#: libs/ui/KisView.cpp:523
 #, kde-format
 msgid "You cannot drag and drop colors on the selected layer type."
 msgstr "不能將色塊拖放到選定的圖層類型上。"
 
-#: libs/ui/KisView.cpp:526 libs/ui/tool/kis_tool.cc:662
+#: libs/ui/KisView.cpp:531 libs/ui/tool/kis_tool.cc:662
 #, kde-format
 msgid "Layer is locked and invisible."
 msgstr "圖層已鎖定且不可見。"
 
-#: libs/ui/KisView.cpp:528 libs/ui/tool/kis_tool.cc:664
+#: libs/ui/KisView.cpp:533 libs/ui/tool/kis_tool.cc:664
 #, kde-format
 msgid "Layer is locked."
 msgstr "圖層已鎖定。"
 
-#: libs/ui/KisView.cpp:530 libs/ui/tool/kis_tool.cc:666
+#: libs/ui/KisView.cpp:535 libs/ui/tool/kis_tool.cc:666
 #, kde-format
 msgid "Layer is invisible."
 msgstr "圖層不可見。"
 
-#: libs/ui/KisView.cpp:726
+#: libs/ui/KisView.cpp:736
 #, kde-format
 msgid ""
 "<p>The document <b>'%1'</b> has been modified.</p><p>Do you want to save it?"
 "</p>"
 msgstr "<p>檔案 <b>「%1」</b> 已被修改。</p><p>要儲存它嗎？</p>"
 
-#: libs/ui/KisView.cpp:915
+#: libs/ui/KisView.cpp:925
 #, kde-format
 msgid "Soft Proofing doesn't work in floating point."
 msgstr "螢幕校樣不支援浮點位深度。"
 
-#: libs/ui/KisView.cpp:920
+#: libs/ui/KisView.cpp:930
 #, kde-format
 msgid "Soft Proofing turned on."
 msgstr "已啟用螢幕校樣。"
 
-#: libs/ui/KisView.cpp:922
+#: libs/ui/KisView.cpp:932
 #, kde-format
 msgid "Soft Proofing turned off."
 msgstr "已關閉螢幕校樣。"
 
-#: libs/ui/KisView.cpp:934
+#: libs/ui/KisView.cpp:944
 #, kde-format
 msgid "Gamut Warnings don't work in floating point."
 msgstr "色域警告不支援浮點色深。"
 
-#: libs/ui/KisView.cpp:940
+#: libs/ui/KisView.cpp:950
 #, kde-format
 msgid "Gamut Warnings turned on."
 msgstr "已啟用色域警告。"
 
-#: libs/ui/KisView.cpp:942
+#: libs/ui/KisView.cpp:952
 #, kde-format
 msgid "But Soft Proofing is still off."
 msgstr "但螢幕校樣仍然關閉。"
 
-#: libs/ui/KisView.cpp:945
+#: libs/ui/KisView.cpp:955
 #, kde-format
 msgid "Gamut Warnings turned off."
 msgstr "已關閉色域警告。"
@@ -29404,14 +29404,14 @@ msgstr "群組圖層不可編輯。"
 msgid "Local selection is locked."
 msgstr "局部選取區域已鎖定。"
 
-#: libs/ui/tool/kis_tool_freehand.cc:194
+#: libs/ui/tool/kis_tool_freehand.cc:195
 #, kde-format
 msgid ""
 "The brush tool cannot paint on this layer.  Please select a paint layer or "
 "mask."
 msgstr "筆刷工具無法在此圖層繪畫，請選取一個顏料圖層或者遮罩圖層。"
 
-#: libs/ui/tool/kis_tool_freehand.cc:199
+#: libs/ui/tool/kis_tool_freehand.cc:200
 #: libs/ui/tool/kis_tool_polyline_base.cpp:81
 #: libs/ui/tool/kis_tool_rectangle_base.cpp:125
 #: plugins/tools/basictools/kis_tool_line.cc:175
@@ -29748,8 +29748,8 @@ msgstr "透明"
 #: plugins/assistants/Assistants/kis_assistant_tool.cc:1244
 #: plugins/filters/halftone/KisHalftoneConfigPageWidget.cpp:50
 #: plugins/filters/halftone/KisHalftoneConfigPageWidget.cpp:53
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:38
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:41
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:39
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:42
 #: plugins/paintops/libpaintop/kis_pressure_flow_opacity_option_widget.cpp:38
 #: plugins/tools/defaulttool/defaulttool/DefaultToolGeometryWidget.cpp:110
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImagesWidget.cpp:43
@@ -29880,7 +29880,7 @@ msgid "Edit Handle"
 msgstr "編輯控制柄"
 
 #: libs/ui/widgets/gradient/KisSegmentGradientSlider.cpp:1059
-#: libs/ui/widgets/gradient/KisStopGradientSlider.cpp:500
+#: libs/ui/widgets/gradient/KisStopGradientSlider.cpp:501
 #: libs/widgets/kis_color_button.cpp:307
 #, kde-format
 msgid "Choose a color"
@@ -40775,14 +40775,14 @@ msgstr "反轉："
 msgid "Foreground:"
 msgstr "前景："
 
-#: plugins/filters/halftone/KisHalftoneConfigWidget.cpp:33
-#: plugins/filters/halftone/KisHalftoneConfigWidget.cpp:204
+#: plugins/filters/halftone/KisHalftoneConfigWidget.cpp:36
+#: plugins/filters/halftone/KisHalftoneConfigWidget.cpp:222
 #, kde-format
 msgctxt "Brightness in Halftone Widget"
 msgid "Intensity"
 msgstr "強度"
 
-#: plugins/filters/halftone/KisHalftoneConfigWidget.cpp:34
+#: plugins/filters/halftone/KisHalftoneConfigWidget.cpp:37
 #, kde-format
 msgid "Independent Channels"
 msgstr "獨立通道"
@@ -42166,18 +42166,18 @@ msgstr "X 軸旋轉："
 msgid "Y-Rotation:"
 msgstr "Y 軸旋轉："
 
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:54
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:62
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:72
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:84
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:55
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:63
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:73
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:85
 #, kde-format
 msgid "X: "
 msgstr "X："
 
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:56
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:67
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:78
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:88
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:57
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:68
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:79
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:89
 #, kde-format
 msgid "Y: "
 msgstr "Y："
@@ -42185,7 +42185,7 @@ msgstr "Y："
 #. i18n: This is meant to be used in a spinbox so keep the {n} in the text
 #. and it will be substituted by the number. The text before will be
 #. used as the prefix and the text arfet as the suffix
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:356
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:360
 #, kde-format
 msgctxt ""
 "Horizontal pixel grid alignment prefix/suffix for spinboxes in screentone "
@@ -42197,7 +42197,7 @@ msgstr[0] "每 {n} 格 (水平)"
 #. i18n: This is meant to be used in a spinbox so keep the {n} in the text
 #. and it will be substituted by the number. The text before will be
 #. used as the prefix and the text arfet as the suffix
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:372
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:376
 #, kde-format
 msgctxt ""
 "Vertical pixel grid alignment prefix/suffix for spinboxes in screentone "
@@ -42206,25 +42206,25 @@ msgid "Every {n} cell vertically"
 msgid_plural "Every {n} cells vertically"
 msgstr[0] "每 {n} 格 (垂直)"
 
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:464
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:468
 #, kde-format
 msgctxt "Screentone generator resolution units - pixels/inch"
 msgid " pixels/inch"
 msgstr " 像素/英寸"
 
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:465
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:469
 #, kde-format
 msgctxt "Screentone generator resolution units - pixels/cm"
 msgid " pixels/cm"
 msgstr " 像素/公分"
 
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:468
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:472
 #, kde-format
 msgctxt "Screentone generator line units - lines/inch"
 msgid " lines/inch"
 msgstr " 線條/英寸"
 
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:469
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:473
 #, kde-format
 msgctxt "Screentone generator line units - lines/cm"
 msgid " lines/cm"
@@ -45876,7 +45876,7 @@ msgstr "塗上蓋過"
 #: plugins/paintops/hairy/kis_hairy_paintop_settings_widget.cpp:27
 #: plugins/paintops/hatching/kis_hatching_paintop_settings_widget.cpp:47
 #: plugins/paintops/libpaintop/kis_pressure_flow_opacity_option_widget.cpp:25
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:57
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:58
 #: plugins/paintops/sketch/kis_sketch_paintop_settings_widget.cpp:35
 #: plugins/paintops/spray/kis_spray_paintop_settings_widget.cpp:33
 #: plugins/paintops/tangentnormal/kis_tangent_normal_paintop_settings_widget.cpp:40
@@ -45941,7 +45941,7 @@ msgid "Mirror"
 msgstr "鏡像"
 
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:54
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:64
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:65
 #, kde-format
 msgid "Smudge Length"
 msgstr "塗抹長度"
@@ -46030,7 +46030,7 @@ msgstr "明度"
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:71
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:73
 #: plugins/paintops/deform/kis_deform_paintop_settings_widget.cpp:34
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:71
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:41
 #: plugins/paintops/particle/kis_particle_paintop_settings_widget.cpp:27
 #: plugins/paintops/sketch/kis_sketch_paintop_settings_widget.cpp:41
 #: plugins/paintops/spray/kis_spray_paintop_settings_widget.cpp:41
@@ -47905,7 +47905,7 @@ msgctxt "Context: dynamic sensors"
 msgid "Tangential pressure"
 msgstr "正切壓力"
 
-#: plugins/paintops/libpaintop/kis_filter_option.cpp:198
+#: plugins/paintops/libpaintop/kis_filter_option.cpp:205
 #, kde-format
 msgctxt "PaintOp instant preview limitation"
 msgid "\"%1\" does not support scaled preview (non-linear filter)"
@@ -48482,200 +48482,200 @@ msgstr "橢圓印跡長寬比"
 msgid "Direction Filter"
 msgstr "方向過濾"
 
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:41
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:42
 #, kde-format
 msgid "Change Color H"
 msgstr "變更色彩 H"
 
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:41
 #: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:42
 #: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:43
 #: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:44
 #: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:45
 #: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:46
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:47
 #, kde-format
 msgctxt "Option Category"
 msgid "Color"
 msgstr "色彩"
 
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:42
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:43
 #, kde-format
 msgid "Change Color L"
 msgstr "變更色彩 L"
 
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:43
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:44
 #, kde-format
 msgid "Change Color V"
 msgstr "變更色彩 V"
 
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:44
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:45
 #, kde-format
 msgid "Change Color HSL S"
 msgstr "變更色彩 HSL S"
 
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:45
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:46
 #, kde-format
 msgid "Change Color HSV S"
 msgstr "變更色彩 HSV S"
 
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:46
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:47
 #, kde-format
 msgid "Colorize"
 msgstr "著色"
 
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:47
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:48
 #, kde-format
 msgid "Fine Speed Gamma"
 msgstr "精確速度 Gamma"
 
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:47
 #: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:48
 #: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:49
 #: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:50
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:52
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:51
 #: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:53
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:54
 #, kde-format
 msgctxt "Option Category"
 msgid "Speed"
 msgstr "速度"
 
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:48
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:49
 #, kde-format
 msgid "Gross Speed Gamma"
 msgstr "粗略速度 Gamma"
 
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:49
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:50
 #, kde-format
 msgid "Fine Speed Slowness"
 msgstr "精確速度緩慢程度"
 
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:50
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:51
 #, kde-format
 msgid "Gross Speed Slowness"
 msgstr "粗略速度緩慢程度"
 
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:52
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:53
 #, kde-format
 msgid "Offset By Speed"
 msgstr "依速度偏移"
 
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:53
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:54
 #, kde-format
 msgid "Offset By Random"
 msgstr "隨機偏移"
 
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:55
 #: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:56
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:57
 #, kde-format
 msgctxt "Option Category"
 msgid "Dabs"
 msgstr "印跡"
 
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:55
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:56
 #, kde-format
 msgid "Dabs Per Actual Radius"
 msgstr "每實際半徑的印跡數目"
 
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:56
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:57
 #, kde-format
 msgid "Dabs per Second"
 msgstr "每秒印跡數目"
 
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:57
 #: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:58
 #: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:59
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:60
 #, kde-format
 msgctxt "Option Category"
 msgid "Opacity"
 msgstr "不透明度"
 
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:58
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:59
 #, kde-format
 msgid "Opaque Linearize"
 msgstr "不透明度線性化"
 
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:59
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:60
 #, kde-format
 msgid "Opaque Multiply"
 msgstr "不透明度相乘"
 
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:60
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:61
 #, kde-format
 msgid "Slow tracking per dab"
 msgstr "按印跡減慢追蹤"
 
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:60
 #: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:61
 #: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:62
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:63
 #, kde-format
 msgctxt "Option Category"
 msgid "Tracking"
 msgstr "追蹤"
 
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:61
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:62
 #, kde-format
 msgid "Slow Tracking"
 msgstr "慢速追蹤"
 
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:62
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:63
 #, kde-format
 msgid "Tracking Noise"
 msgstr "追蹤雜點"
 
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:63
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:64
 #, kde-format
 msgid "Smudge"
 msgstr "塗抹"
 
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:63
 #: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:64
 #: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:65
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:66
 #, kde-format
 msgctxt "Option Category"
 msgid "Smudge"
 msgstr "塗抹"
 
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:65
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:66
 #, kde-format
 msgid "Smudge Radius Log"
 msgstr "塗抹半徑 (對數)"
 
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:66
 #: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:67
 #: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:68
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:69
 #, kde-format
 msgctxt "Option Category"
 msgid "Stroke"
 msgstr "筆畫"
 
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:66
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:67
 #, kde-format
 msgid "Stroke Duration log"
 msgstr "筆畫時長 (對數)"
 
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:67
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:68
 #, kde-format
 msgid "Stroke Holdtime"
 msgstr "筆畫持續時間"
 
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:68
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:69
 #, kde-format
 msgid "Stroke Threshold"
 msgstr "筆畫閾值"
 
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:69
 #: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:70
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:71
 #, kde-format
 msgctxt "Option Category"
 msgid "Custom"
 msgstr "自訂"
 
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:69
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:70
 #, kde-format
 msgid "Custom Input"
 msgstr "自訂輸入"
 
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:70
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:71
 #, kde-format
 msgid "Custom Input Slowness"
 msgstr "自訂輸入緩慢程度"
@@ -51532,19 +51532,36 @@ msgid "Magnetism:"
 msgstr "磁性："
 
 #: plugins/tools/basictools/kis_tool_brush.cc:465
-#, kde-format
-msgid "Snap Single:"
+#, fuzzy, kde-format
+#| msgid "Snap Single:"
+msgid "Snap to Single Line"
 msgstr "單一吸附："
 
 #: plugins/tools/basictools/kis_tool_brush.cc:468
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@info:tooltip"
+#| msgid ""
+#| "Make it only snap to a single assistant, prevents snapping mess while "
+#| "using the infinite assistants."
 msgctxt "@info:tooltip"
 msgid ""
-"Make it only snap to a single assistant, prevents snapping mess while using "
-"the infinite assistants."
+"Make it only snap to a single assistant line, prevents snapping mess while "
+"using the infinite assistants."
 msgstr "只吸附至單一輔助尺，可避免在使用無限延伸輔助尺時吸附失靈。"
 
-#: plugins/tools/basictools/kis_tool_brush.h:136
+#: plugins/tools/basictools/kis_tool_brush.cc:473
+#, fuzzy, kde-format
+#| msgid "Eraser"
+msgid "Snap Eraser"
+msgstr "擦除模式"
+
+#: plugins/tools/basictools/kis_tool_brush.cc:476
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Enable snapping when using erasers"
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_brush.h:137
 #, kde-format
 msgid "Freehand Brush Tool"
 msgstr "手繪筆刷工具"
