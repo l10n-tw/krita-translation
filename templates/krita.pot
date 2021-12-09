@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-08 00:43+0000\n"
+"POT-Creation-Date: 2021-12-09 00:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -29400,7 +29400,7 @@ msgid "Edit Handle"
 msgstr ""
 
 #: libs/ui/widgets/gradient/KisSegmentGradientSlider.cpp:1059
-#: libs/ui/widgets/gradient/KisStopGradientSlider.cpp:500
+#: libs/ui/widgets/gradient/KisStopGradientSlider.cpp:501
 #: libs/widgets/kis_color_button.cpp:307
 #, kde-format
 msgid "Choose a color"
@@ -46883,7 +46883,7 @@ msgctxt "Context: dynamic sensors"
 msgid "Tangential pressure"
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_filter_option.cpp:199
+#: plugins/paintops/libpaintop/kis_filter_option.cpp:205
 #, kde-format
 msgctxt "PaintOp instant preview limitation"
 msgid "\"%1\" does not support scaled preview (non-linear filter)"
