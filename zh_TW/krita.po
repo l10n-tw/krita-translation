@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-12-09 00:41+0000\n"
-"PO-Revision-Date: 2021-12-04 06:34+0000\n"
+"PO-Revision-Date: 2021-12-09 07:59+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -51532,17 +51532,12 @@ msgid "Magnetism:"
 msgstr "磁性："
 
 #: plugins/tools/basictools/kis_tool_brush.cc:465
-#, fuzzy, kde-format
-#| msgid "Snap Single:"
+#, kde-format
 msgid "Snap to Single Line"
-msgstr "單一吸附："
+msgstr "吸附單一輔助尺："
 
 #: plugins/tools/basictools/kis_tool_brush.cc:468
-#, fuzzy, kde-format
-#| msgctxt "@info:tooltip"
-#| msgid ""
-#| "Make it only snap to a single assistant, prevents snapping mess while "
-#| "using the infinite assistants."
+#, kde-format
 msgctxt "@info:tooltip"
 msgid ""
 "Make it only snap to a single assistant line, prevents snapping mess while "
@@ -51550,16 +51545,15 @@ msgid ""
 msgstr "只吸附至單一輔助尺，可避免在使用無限延伸輔助尺時吸附失靈。"
 
 #: plugins/tools/basictools/kis_tool_brush.cc:473
-#, fuzzy, kde-format
-#| msgid "Eraser"
+#, kde-format
 msgid "Snap Eraser"
-msgstr "擦除模式"
+msgstr "擦除模式時吸附"
 
 #: plugins/tools/basictools/kis_tool_brush.cc:476
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Enable snapping when using erasers"
-msgstr ""
+msgstr "在使用擦除模式時啟用吸附"
 
 #: plugins/tools/basictools/kis_tool_brush.h:137
 #, kde-format
