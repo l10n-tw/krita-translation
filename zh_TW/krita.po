@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-12-10 00:42+0000\n"
-"PO-Revision-Date: 2021-12-10 10:34+0000\n"
+"PO-Revision-Date: 2021-12-16 08:28+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -30712,7 +30712,7 @@ msgstr "依色彩標籤過濾…"
 #: libs/ui/widgets/kis_layer_filter_widget.cpp:81
 #, kde-format
 msgid "Reset Filters"
-msgstr "重設濾鏡"
+msgstr "重設過濾器"
 
 #: libs/ui/widgets/kis_lod_availability_widget.cpp:28
 #, kde-format
