@@ -20823,7 +20823,9 @@ msgstr "安裝色彩特性檔案"
 msgid ""
 "Use tablet driver timestamps for brush speed (may cause severe artifacts "
 "when using WinTab tablet API)"
-msgstr "以數位板驅動程式提供的筆跡時間戳記來計算筆刷速度 (使用 WinTab 時可能會產生大量雜訊)"
+msgstr ""
+"以數位板驅動程式提供的筆跡時間戳記來計算筆刷速度 (使用 WinTab 時可能會產生大"
+"量雜訊)"
 
 #: libs/ui/dialogs/kis_dlg_preferences.cc:949
 #, kde-format
