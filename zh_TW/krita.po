@@ -54662,16 +54662,13 @@ msgctxt "action"
 msgid "Reference Images Tool"
 msgstr "參考圖工具"
 
-#, kde-format
 #~ msgctxt "Label of Brightness value in brush settings"
 #~ msgid "Value"
 #~ msgstr "明度"
 
-#, kde-format
 #~ msgid "Experiment option"
 #~ msgstr "實驗選項"
 
-#, kde-format
 #~ msgid ""
 #~ "The mixing option mixes the paint on the brush with that on the canvas."
 #~ msgstr "混色選項會將筆刷的顏料與畫布上的顏料混合。"
