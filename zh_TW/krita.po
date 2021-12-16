@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-12-16 00:43+0000\n"
-"PO-Revision-Date: 2021-12-16 08:29+0000\n"
+"PO-Revision-Date: 2021-12-16 16:06+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -20823,8 +20823,7 @@ msgstr "安裝色彩特性檔案"
 msgid ""
 "Use tablet driver timestamps for brush speed (may cause severe artifacts "
 "when using WinTab tablet API)"
-msgstr ""
-"以數位板驅動程式提供的時間來計算筆刷速度 (使用 WinTab 時可能會產生大量雜訊)"
+msgstr "以數位板驅動程式提供的筆跡時間戳記來計算筆刷速度 (使用 WinTab 時可能會產生大量雜訊)"
 
 #: libs/ui/dialogs/kis_dlg_preferences.cc:949
 #, kde-format
@@ -49885,7 +49884,7 @@ msgstr "無關鍵字"
 
 #: plugins/python/comics_project_management_tools/comics_project_manager_docker.py:126
 msgid "No last edit timestamp"
-msgstr "無上次編輯時間戳"
+msgstr "無上次編輯時間戳記"
 
 #: plugins/python/comics_project_management_tools/comics_project_manager_docker.py:146
 msgid "No description"
