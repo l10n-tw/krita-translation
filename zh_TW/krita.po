@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-12-16 00:43+0000\n"
-"PO-Revision-Date: 2021-12-16 08:28+0000\n"
+"PO-Revision-Date: 2021-12-16 08:29+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -17976,8 +17976,7 @@ msgid "Tag:"
 msgstr "標籤："
 
 #: libs/resourcewidgets/KisIconToolTip.cpp:101
-#, fuzzy, kde-format
-#| msgid "Resource Folder"
+#, kde-format
 msgctxt "a placeholder name for the default storage of resources"
 msgid "resource folder"
 msgstr "資源資料夾"
@@ -45824,9 +45823,7 @@ msgid "Dulling"
 msgstr "鈍化"
 
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings.cpp:95
-#, fuzzy, kde-format
-#| msgctxt "Color rate of active Foreground color"
-#| msgid "Color Rate"
+#, kde-format
 msgid "Color Rate"
 msgstr "色彩量"
 
