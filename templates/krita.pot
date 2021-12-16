@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-15 00:43+0000\n"
+"POT-Creation-Date: 2021-12-16 00:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -15370,7 +15370,7 @@ msgid "Onion Skins"
 msgstr ""
 
 #: libs/image/kis_layer_properties_icons.cpp:27
-#: libs/resources/KisResourceModel.cpp:141
+#: libs/resources/KisResourceModel.cpp:142
 #: libs/resources/KisStorageModel.cpp:429
 #: libs/resourcewidgets/dbexplorer/DlgDbExplorer.cpp:72
 #, kde-format
@@ -17402,12 +17402,12 @@ msgstr ""
 msgid "Unparsed Resource Block"
 msgstr ""
 
-#: libs/resources/KisFolderStorage.cpp:274
+#: libs/resources/KisFolderStorage.cpp:269
 #, kde-format
 msgid "Local Resources"
 msgstr ""
 
-#: libs/resources/KisResourceCacheDb.cpp:145
+#: libs/resources/KisResourceCacheDb.cpp:146
 #: libs/resourcewidgets/KisStorageChooserWidget.cpp:167
 #: libs/ui/animation/KisAnimationRender.cpp:49
 #: libs/ui/animation/KisAnimationRender.cpp:101
@@ -17492,85 +17492,85 @@ msgctxt "@title:window"
 msgid "Krita"
 msgstr ""
 
-#: libs/resources/KisResourceCacheDb.cpp:145
+#: libs/resources/KisResourceCacheDb.cpp:146
 #, kde-format
 msgid ""
 "The resource database scheme has changed. Krita will backup your database "
 "and create a new database."
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:91
+#: libs/resources/KisResourceLocator.cpp:93
 #, kde-format
 msgid "1. Could not create the resource location at %1."
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:98
+#: libs/resources/KisResourceLocator.cpp:100
 #, kde-format
 msgid "2. The resource location at %1 is not writable."
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:667
+#: libs/resources/KisResourceLocator.cpp:787
 #, kde-format
 msgid "Could not add %1 to the database"
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:694
-#: libs/resources/KisResourceLocator.cpp:1050
+#: libs/resources/KisResourceLocator.cpp:814
+#: libs/resources/KisResourceLocator.cpp:1121
 #, kde-format
 msgid "Could not remove storage %1 from the database"
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:819
+#: libs/resources/KisResourceLocator.cpp:890
 #, kde-format
 msgid ""
 "Krita is running for the first time. Initialization will take some time."
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:826
+#: libs/resources/KisResourceLocator.cpp:897
 #, kde-format
 msgid "3. Could not create the resource location at %1."
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:839
-#: libs/resources/KisResourceLocator.cpp:855
+#: libs/resources/KisResourceLocator.cpp:910
+#: libs/resources/KisResourceLocator.cpp:926
 #, kde-format
 msgid "Could not copy resource %1 to %2"
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:851
+#: libs/resources/KisResourceLocator.cpp:922
 #, kde-format
 msgid "Installing the resources from bundle %1."
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:873
+#: libs/resources/KisResourceLocator.cpp:944
 #, kde-format
 msgid "Initializing the resources."
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:907
+#: libs/resources/KisResourceLocator.cpp:978
 #, kde-format
 msgid "Temporary Resources"
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:1026
-#: libs/resources/KisResourceLocator.cpp:1032
+#: libs/resources/KisResourceLocator.cpp:1097
+#: libs/resources/KisResourceLocator.cpp:1103
 #, kde-format
 msgid "Could not synchronize %1 with the database"
 msgstr ""
 
-#: libs/resources/KisResourceModel.cpp:123
+#: libs/resources/KisResourceModel.cpp:124
 #: libs/resources/KisStorageModel.cpp:419
 #: libs/resourcewidgets/dbexplorer/DlgDbExplorer.cpp:66
 #, kde-format
 msgid "Id"
 msgstr ""
 
-#: libs/resources/KisResourceModel.cpp:125
+#: libs/resources/KisResourceModel.cpp:126
 #, kde-format
 msgid "Storage ID"
 msgstr ""
 
-#: libs/resources/KisResourceModel.cpp:127
+#: libs/resources/KisResourceModel.cpp:128
 #: libs/resources/KisStorageModel.cpp:433
 #: libs/resourcewidgets/dbexplorer/DlgDbExplorer.cpp:70
 #: plugins/python/filtermanager/components/filtermanagertreemodel.py:18
@@ -17579,19 +17579,19 @@ msgstr ""
 msgid "Name"
 msgstr ""
 
-#: libs/resources/KisResourceModel.cpp:129
+#: libs/resources/KisResourceModel.cpp:130
 #, kde-format
 msgid "File Name"
 msgstr ""
 
-#: libs/resources/KisResourceModel.cpp:131
+#: libs/resources/KisResourceModel.cpp:132
 #, kde-format
 msgid "Tooltip"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, shapeBox)
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbType)
-#: libs/resources/KisResourceModel.cpp:133
+#: libs/resources/KisResourceModel.cpp:134
 #: libs/ui/imagesize/imagesize.xmlgui:4 plugins/extensions/imagesplit/imagesplit.xmlgui:4
 #: plugins/extensions/separate_channels/imageseparate.xmlgui:4
 #: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:363
@@ -17601,12 +17601,12 @@ msgstr ""
 msgid "Image"
 msgstr ""
 
-#: libs/resources/KisResourceModel.cpp:135
+#: libs/resources/KisResourceModel.cpp:136
 #, kde-format
 msgid "Status"
 msgstr ""
 
-#: libs/resources/KisResourceModel.cpp:137
+#: libs/resources/KisResourceModel.cpp:138
 #: libs/resources/KisStorageModel.cpp:423
 #: libs/resourcewidgets/KisIconToolTip.cpp:104
 #, kde-format
@@ -17614,25 +17614,25 @@ msgid "Location"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: libs/resources/KisResourceModel.cpp:139
+#: libs/resources/KisResourceModel.cpp:140
 #: libs/resourcewidgets/dbexplorer/WdgDbExplorer.ui:49
 #, kde-format
 msgid "Resource Type"
 msgstr ""
 
-#: libs/resources/KisResourceModel.cpp:143
+#: libs/resources/KisResourceModel.cpp:144
 #, kde-format
 msgid "Storage Active"
 msgstr ""
 
-#: libs/resources/KisResourceModel.cpp:145
+#: libs/resources/KisResourceModel.cpp:146
 #, kde-format
 msgid "md5sum"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_hsx)
 #. i18n: ectx: property (text), widget (QLabel, lblCurrentRenderer)
-#: libs/resources/KisResourceStorage.h:128
+#: libs/resources/KisResourceStorage.h:116
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1438
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1442
 #: libs/ui/forms/wdgdisplaysettings.ui:172
@@ -17643,32 +17643,32 @@ msgstr ""
 msgid "Unknown"
 msgstr ""
 
-#: libs/resources/KisResourceStorage.h:130
+#: libs/resources/KisResourceStorage.h:118
 #, kde-format
 msgid "Folder"
 msgstr ""
 
-#: libs/resources/KisResourceStorage.h:132
+#: libs/resources/KisResourceStorage.h:120
 #, kde-format
 msgid "Bundle"
 msgstr ""
 
-#: libs/resources/KisResourceStorage.h:134
+#: libs/resources/KisResourceStorage.h:122
 #, kde-format
 msgid "Adobe Brush Library"
 msgstr ""
 
-#: libs/resources/KisResourceStorage.h:136
+#: libs/resources/KisResourceStorage.h:124
 #, kde-format
 msgid "Adobe Style Library"
 msgstr ""
 
-#: libs/resources/KisResourceStorage.h:138
+#: libs/resources/KisResourceStorage.h:126
 #, kde-format
 msgid "Memory"
 msgstr ""
 
-#: libs/resources/KisResourceStorage.h:140
+#: libs/resources/KisResourceStorage.h:128
 #: plugins/extensions/metadataeditor/kis_meta_data_model.cpp:47
 #: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:359
 #, kde-format
@@ -17790,7 +17790,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, bnDelete)
 #. i18n: ectx: property (text), widget (QPushButton, deleteAllAssistantsButton)
-#: libs/resources/KisTagModel.cpp:125 libs/resources/KisTagModel.cpp:287
+#: libs/resources/KisTagModel.cpp:124 libs/resources/KisTagModel.cpp:297
 #: libs/ui/widgets/kis_paintop_presets_editor.cpp:592
 #: plugins/assistants/Assistants/AssistantsToolOptions.ui:262
 #: plugins/tools/defaulttool/referenceimagestool/WdgToolOptions.ui:220
@@ -17798,17 +17798,17 @@ msgstr ""
 msgid "All"
 msgstr ""
 
-#: libs/resources/KisTagModel.cpp:152 libs/resources/KisTagModel.cpp:297
+#: libs/resources/KisTagModel.cpp:151 libs/resources/KisTagModel.cpp:307
 #, kde-format
 msgid "All Untagged"
 msgstr ""
 
-#: libs/resources/KisTagModel.cpp:290
+#: libs/resources/KisTagModel.cpp:300
 #, kde-format
 msgid "All Resources"
 msgstr ""
 
-#: libs/resources/KisTagModel.cpp:300
+#: libs/resources/KisTagModel.cpp:310
 #, kde-format
 msgid "All Untagged Resources"
 msgstr ""
@@ -18117,7 +18117,7 @@ msgid "Tag options"
 msgstr ""
 
 #: libs/resourcewidgets/KisTagChooserWidget.cpp:136
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:253
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:255
 #, kde-format
 msgctxt "Dialog title"
 msgid "Can't rename the tag"
@@ -18125,7 +18125,7 @@ msgstr ""
 
 #: libs/resourcewidgets/KisTagChooserWidget.cpp:136
 #: libs/resourcewidgets/KisTagChooserWidget.cpp:227
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:253
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:255
 #, kde-format
 msgctxt "Dialog message"
 msgid "You can't use this name for your custom tags."
@@ -18151,7 +18151,7 @@ msgid ""
 msgstr ""
 
 #: libs/resourcewidgets/KisTagChooserWidget.cpp:215
-#: plugins/extensions/resourcemanager/wdgtagselection.cpp:116
+#: plugins/extensions/resourcemanager/wdgtagselection.cpp:117
 #, kde-format
 msgctxt ""
 "Option in a dialog to undelete (reactivate) existing tag with its old "
@@ -18167,21 +18167,21 @@ msgid "Use existing tag"
 msgstr ""
 
 #: libs/resourcewidgets/KisTagChooserWidget.cpp:218
-#: plugins/extensions/resourcemanager/wdgtagselection.cpp:113
+#: plugins/extensions/resourcemanager/wdgtagselection.cpp:114
 #, kde-format
 msgctxt "Dialog title"
 msgid "Overwrite tag?"
 msgstr ""
 
 #: libs/resourcewidgets/KisTagChooserWidget.cpp:219
-#: plugins/extensions/resourcemanager/wdgtagselection.cpp:114
+#: plugins/extensions/resourcemanager/wdgtagselection.cpp:115
 #, kde-format
 msgctxt "Question to the user in a dialog about creating a tag"
 msgid "A tag with this unique name already exists. Do you want to replace it?"
 msgstr ""
 
 #: libs/resourcewidgets/KisTagChooserWidget.cpp:220
-#: plugins/extensions/resourcemanager/wdgtagselection.cpp:115
+#: plugins/extensions/resourcemanager/wdgtagselection.cpp:116
 #, kde-format
 msgctxt ""
 "Option in a dialog to discard the previously existing tag and creating a new "
@@ -18204,7 +18204,7 @@ msgstr ""
 #: libs/ui/utils/KisClipboardUtil.cpp:71 plugins/dockers/gamutmask/forms/wdgGamutMaskChooser.ui:190
 #: plugins/dockers/recorder/recorder_export.ui:739
 #: plugins/dockers/recorder/recorder_snapshots_manager.ui:130
-#: plugins/extensions/resourcemanager/wdgtagselection.cpp:116
+#: plugins/extensions/resourcemanager/wdgtagselection.cpp:117
 #: plugins/generators/seexpr/wdgseexpr.ui:179
 #: plugins/python/krita_script_starter/bbdkss.ui:203
 #, kde-format
@@ -21694,7 +21694,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, pushButtonDelete)
 #: libs/ui/forms/wdgbookmarkedconfigurationseditor.ui:55
-#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:66
+#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:65
 #, kde-format
 msgid "Delete"
 msgstr ""
@@ -23575,8 +23575,8 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, updateBrushNameButton)
 #. i18n: ectx: property (toolTip), widget (QToolButton, bnSaveMask)
 #: libs/ui/forms/wdgpaintopsettings.ui:188
-#: libs/ui/KisMainWindow.cpp:1062 libs/ui/widgets/kis_workspace_chooser.cpp:109
-#: libs/ui/widgets/kis_workspace_chooser.cpp:178
+#: libs/ui/KisMainWindow.cpp:1062 libs/ui/widgets/kis_workspace_chooser.cpp:111
+#: libs/ui/widgets/kis_workspace_chooser.cpp:189
 #: plugins/dockers/gamutmask/forms/wdgGamutMaskChooser.ui:232
 #: plugins/generators/seexpr/wdgseexpr.ui:172
 #: plugins/paintops/libpaintop/kis_clipboard_brush_widget.cpp:164
@@ -25778,7 +25778,7 @@ msgstr ""
 #: libs/ui/kis_control_frame.cpp:186 libs/ui/KisApplication.cpp:345
 #: plugins/dockers/patterndocker/patterndocker_dock.cpp:20
 #: plugins/extensions/resourcemanager/dlg_embed_tags.cpp:65
-#: plugins/extensions/resourcemanager/wdgtagselection.cpp:241
+#: plugins/extensions/resourcemanager/wdgtagselection.cpp:242
 #, kde-format
 msgid "Patterns"
 msgstr ""
@@ -25790,7 +25790,7 @@ msgstr ""
 
 #: libs/ui/kis_control_frame.cpp:236 libs/ui/KisApplication.cpp:330
 #: libs/ui/KisApplication.cpp:331 plugins/extensions/resourcemanager/dlg_embed_tags.cpp:63
-#: plugins/extensions/resourcemanager/wdgtagselection.cpp:244
+#: plugins/extensions/resourcemanager/wdgtagselection.cpp:245
 #, kde-format
 msgid "Gradients"
 msgstr ""
@@ -25831,7 +25831,7 @@ msgstr ""
 msgid "Import Image"
 msgstr ""
 
-#: libs/ui/kis_image_manager.cc:197 libs/ui/widgets/KoDualColorButton.cpp:90
+#: libs/ui/kis_image_manager.cc:197 libs/ui/widgets/KoDualColorButton.cpp:92
 #, kde-format
 msgid "Select a Color"
 msgstr ""
@@ -26494,27 +26494,27 @@ msgctxt "floating message about zoom"
 msgid "Zoom: %1 %"
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:322 plugins/extensions/resourcemanager/wdgtagselection.cpp:238
+#: libs/ui/KisApplication.cpp:322 plugins/extensions/resourcemanager/wdgtagselection.cpp:239
 #, kde-format
 msgid "Brush presets"
 msgstr ""
 
 #: libs/ui/KisApplication.cpp:325 libs/ui/KisApplication.cpp:326
 #: libs/ui/KisApplication.cpp:327 libs/ui/KisApplication.cpp:328
-#: plugins/extensions/resourcemanager/wdgtagselection.cpp:239
+#: plugins/extensions/resourcemanager/wdgtagselection.cpp:240
 #, kde-format
 msgid "Brush tips"
 msgstr ""
 
 #: libs/ui/KisApplication.cpp:333 plugins/extensions/resourcemanager/dlg_embed_tags.cpp:66
-#: plugins/extensions/resourcemanager/wdgtagselection.cpp:242
+#: plugins/extensions/resourcemanager/wdgtagselection.cpp:243
 #, kde-format
 msgid "Palettes"
 msgstr ""
 
 #: libs/ui/KisApplication.cpp:346 libs/ui/widgets/kis_workspace_chooser.cpp:79
 #: plugins/extensions/resourcemanager/dlg_embed_tags.cpp:67
-#: plugins/extensions/resourcemanager/wdgtagselection.cpp:240
+#: plugins/extensions/resourcemanager/wdgtagselection.cpp:241
 #, kde-format
 msgid "Workspaces"
 msgstr ""
@@ -26529,7 +26529,7 @@ msgstr ""
 msgid "Window layouts"
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:350 plugins/extensions/resourcemanager/wdgtagselection.cpp:245
+#: libs/ui/KisApplication.cpp:350 plugins/extensions/resourcemanager/wdgtagselection.cpp:246
 #, kde-format
 msgid "Gamut masks"
 msgstr ""
@@ -27402,36 +27402,36 @@ msgctxt "@title:window"
 msgid "New Workspace..."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2607
+#: libs/ui/KisMainWindow.cpp:2610
 #, kde-format
 msgid "&%1 %2"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2610
+#: libs/ui/KisMainWindow.cpp:2613
 #, kde-format
 msgid "%1 %2"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2771
+#: libs/ui/KisMainWindow.cpp:2774
 #, kde-format
 msgid ""
 "The Krita LittleCMS color management plugin is not installed. Krita will "
 "quit now."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2787
+#: libs/ui/KisMainWindow.cpp:2790
 #, kde-format
 msgctxt "@title:window"
 msgid "Installation error"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2899
+#: libs/ui/KisMainWindow.cpp:2902
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Themes"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2953
+#: libs/ui/KisMainWindow.cpp:2956
 #, kde-format
 msgid "Expanding Spacer"
 msgstr ""
@@ -29363,9 +29363,9 @@ msgctxt "Title for the segment gradient handle editor"
 msgid "Edit Handle"
 msgstr ""
 
-#: libs/ui/widgets/gradient/KisSegmentGradientSlider.cpp:1059
-#: libs/ui/widgets/gradient/KisStopGradientSlider.cpp:501
-#: libs/widgets/kis_color_button.cpp:316
+#: libs/ui/widgets/gradient/KisSegmentGradientSlider.cpp:1065
+#: libs/ui/widgets/gradient/KisStopGradientSlider.cpp:507
+#: libs/widgets/kis_color_button.cpp:317
 #, kde-format
 msgid "Choose a color"
 msgstr ""
@@ -30340,17 +30340,17 @@ msgstr ""
 msgid "No configuration options."
 msgstr ""
 
-#: libs/ui/widgets/kis_workspace_chooser.cpp:112
+#: libs/ui/widgets/kis_workspace_chooser.cpp:114
 #, kde-format
 msgid "Insert name"
 msgstr ""
 
-#: libs/ui/widgets/kis_workspace_chooser.cpp:172
+#: libs/ui/widgets/kis_workspace_chooser.cpp:183
 #, kde-format
 msgid "File name already in use. Saving will overwrite the original Workspace."
 msgstr ""
 
-#: libs/ui/widgets/kis_workspace_chooser.cpp:173
+#: libs/ui/widgets/kis_workspace_chooser.cpp:184
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings.cpp:145
 #: plugins/paintops/libpaintop/kis_clipboard_brush_widget.cpp:162
 #: plugins/paintops/libpaintop/kis_custom_brush_widget.cpp:137
@@ -30358,23 +30358,23 @@ msgstr ""
 msgid "Overwrite"
 msgstr ""
 
-#: libs/ui/widgets/kis_workspace_chooser.cpp:177
+#: libs/ui/widgets/kis_workspace_chooser.cpp:188
 #, kde-format
 msgid "Save current workspace."
 msgstr ""
 
-#: libs/ui/widgets/kis_workspace_chooser.cpp:216
+#: libs/ui/widgets/kis_workspace_chooser.cpp:231
 #, kde-format
 msgid "Window Layout"
 msgstr ""
 
-#: libs/ui/widgets/kis_workspace_chooser.cpp:236
+#: libs/ui/widgets/kis_workspace_chooser.cpp:257
 #, kde-format
 msgid ""
 "File name already in use. Saving will overwrite the original window layout."
 msgstr ""
 
-#: libs/ui/widgets/kis_workspace_chooser.cpp:239
+#: libs/ui/widgets/kis_workspace_chooser.cpp:260
 #, kde-format
 msgid "Save current window layout."
 msgstr ""
@@ -30582,22 +30582,22 @@ msgid ""
 "information</a></p></body></html>"
 msgstr ""
 
-#: libs/ui/widgets/KoDualColorButton.cpp:420
+#: libs/ui/widgets/KoDualColorButton.cpp:426
 #, kde-format
 msgid "Foreground color selector"
 msgstr ""
 
-#: libs/ui/widgets/KoDualColorButton.cpp:423
+#: libs/ui/widgets/KoDualColorButton.cpp:429
 #, kde-format
 msgid "Set foreground and background colors to black and white"
 msgstr ""
 
-#: libs/ui/widgets/KoDualColorButton.cpp:428
+#: libs/ui/widgets/KoDualColorButton.cpp:434
 #, kde-format
 msgid "Swap foreground and background colors"
 msgstr ""
 
-#: libs/ui/widgets/KoDualColorButton.cpp:431
+#: libs/ui/widgets/KoDualColorButton.cpp:437
 #, kde-format
 msgid "Background color selector"
 msgstr ""
@@ -31204,7 +31204,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, paletteLabel)
 #: libs/widgets/KoEditColorSetDialog.cpp:202
-#: plugins/dockers/palettedocker/palettedocker_dock.cpp:58
+#: plugins/dockers/palettedocker/palettedocker_dock.cpp:57
 #: plugins/filters/palettize/palettize.ui:39
 #, kde-format
 msgid "Palette"
@@ -32449,83 +32449,83 @@ msgstr ""
 msgid "Unsupported Key"
 msgstr ""
 
-#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:53
+#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:52
 #, kde-format
 msgid "Shortcut Schemes:"
 msgstr ""
 
-#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:63
+#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:62
 #, kde-format
 msgctxt "New shortcut scheme"
 msgid "New..."
 msgstr ""
 
-#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:69
+#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:68
 #, kde-format
 msgid "Save/Load"
 msgstr ""
 
 #. i18n("Save as Scheme Defaults"),
 #. this, SLOT(saveAsDefaultsForScheme()));
-#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:76
+#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:75
 #, kde-format
 msgid "Save Custom Shortcuts"
 msgstr ""
 
-#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:78
+#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:77
 #, kde-format
 msgid "Load Custom Shortcuts"
 msgstr ""
 
-#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:80
+#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:79
 #, kde-format
 msgid "Export Scheme..."
 msgstr ""
 
-#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:82
+#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:81
 #, kde-format
 msgid "Import Scheme..."
 msgstr ""
 
-#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:98
+#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:97
 #, kde-format
 msgid "Name for New Scheme"
 msgstr ""
 
-#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:99
+#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:98
 #, kde-format
 msgid "Name for new scheme:"
 msgstr ""
 
-#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:99
+#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:98
 #, kde-format
 msgid "New Scheme"
 msgstr ""
 
-#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:105
+#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:104
 #, kde-format
 msgid "A scheme with this name already exists."
 msgstr ""
 
-#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:129
+#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:128
 #, kde-format
 msgid ""
 "Do you really want to delete the scheme %1?\n"
 "Note that this will not remove any system wide shortcut schemes."
 msgstr ""
 
-#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:153
+#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:152
 #, kde-format
 msgid "Export Shortcuts"
 msgstr ""
 
-#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:169
+#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:168
 #, kde-format
 msgid "Save Shortcuts"
 msgstr ""
 
-#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:187
-#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:208
+#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:186
+#: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:207
 #, kde-format
 msgid "Import Shortcuts"
 msgstr ""
@@ -35177,51 +35177,51 @@ msgctxt "Make the controls in the overview docker auto-hide or always visible"
 msgid "Pin navigation controls"
 msgstr ""
 
-#: plugins/dockers/palettedocker/palettedocker_dock.cpp:67
+#: plugins/dockers/palettedocker/palettedocker_dock.cpp:66
 #, kde-format
 msgid "Add a new color swatch"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, bnRemove)
-#: plugins/dockers/palettedocker/palettedocker_dock.cpp:68
+#: plugins/dockers/palettedocker/palettedocker_dock.cpp:67
 #: plugins/dockers/palettedocker/wdgpalettedock.ui:121
 #, kde-format
 msgid "Remove swatch or group"
 msgstr ""
 
-#: plugins/dockers/palettedocker/palettedocker_dock.cpp:69
+#: plugins/dockers/palettedocker/palettedocker_dock.cpp:68
 #, kde-format
 msgid "Edit swatch or group"
 msgstr ""
 
-#: plugins/dockers/palettedocker/palettedocker_dock.cpp:70
+#: plugins/dockers/palettedocker/palettedocker_dock.cpp:69
 #, kde-format
 msgid "Edit current palette"
 msgstr ""
 
-#: plugins/dockers/palettedocker/palettedocker_dock.cpp:71
+#: plugins/dockers/palettedocker/palettedocker_dock.cpp:70
 #, kde-format
 msgid "Save current palette"
 msgstr ""
 
-#: plugins/dockers/palettedocker/palettedocker_dock.cpp:124
+#: plugins/dockers/palettedocker/palettedocker_dock.cpp:123
 #, kde-format
 msgid "Load a palette"
 msgstr ""
 
-#: plugins/dockers/palettedocker/palettedocker_dock.cpp:219
+#: plugins/dockers/palettedocker/palettedocker_dock.cpp:218
 #, kde-format
 msgid "Export Palette"
 msgstr ""
 
-#: plugins/dockers/palettedocker/palettedocker_dock.cpp:365
+#: plugins/dockers/palettedocker/palettedocker_dock.cpp:364
 #, kde-format
 msgctxt "@tooltip"
 msgid ""
 "Save palette explicitly, will also happen automatically on exiting Krita."
 msgstr ""
 
-#: plugins/dockers/palettedocker/palettedocker_dock.cpp:367
+#: plugins/dockers/palettedocker/palettedocker_dock.cpp:366
 #, kde-format
 msgctxt "@tooltip"
 msgid "Saving for document palettes is done by saving the document."
@@ -35259,17 +35259,17 @@ msgstr ""
 msgid "Bubble Up on Repeated Use"
 msgstr ""
 
-#: plugins/dockers/presethistory/presethistory_dock.cpp:258
+#: plugins/dockers/presethistory/presethistory_dock.cpp:281
 #, kde-format
 msgid "Forget \"%1\""
 msgstr ""
 
-#: plugins/dockers/presethistory/presethistory_dock.cpp:261
+#: plugins/dockers/presethistory/presethistory_dock.cpp:284
 #, kde-format
 msgid "Clear History"
 msgstr ""
 
-#: plugins/dockers/presethistory/presethistory_dock.cpp:263
+#: plugins/dockers/presethistory/presethistory_dock.cpp:286
 #, kde-format
 msgid "History Behavior:"
 msgstr ""
@@ -38372,7 +38372,7 @@ msgstr ""
 msgid "Manage Resources"
 msgstr ""
 
-#: plugins/extensions/resourcemanager/DlgResourceManager.cpp:222
+#: plugins/extensions/resourcemanager/DlgResourceManager.cpp:219
 #, kde-format
 msgctxt ""
 "In Resource manager, this is text shown instead of filename, name or "
@@ -38381,7 +38381,7 @@ msgctxt ""
 msgid "(Multiple selected)"
 msgstr ""
 
-#: plugins/extensions/resourcemanager/DlgResourceManager.cpp:238
+#: plugins/extensions/resourcemanager/DlgResourceManager.cpp:237
 #, kde-format
 msgctxt ""
 "In Resource manager, this is text shown instead of filename, name or "
@@ -38389,19 +38389,19 @@ msgctxt ""
 msgid "(None selected)"
 msgstr ""
 
-#: plugins/extensions/resourcemanager/DlgResourceManager.cpp:379
+#: plugins/extensions/resourcemanager/DlgResourceManager.cpp:376
 #, kde-format
 msgid "Undelete Resources"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, btnDeleteResource)
-#: plugins/extensions/resourcemanager/DlgResourceManager.cpp:381
+#: plugins/extensions/resourcemanager/DlgResourceManager.cpp:378
 #: plugins/extensions/resourcemanager/WdgDlgResourceManager.ui:221
 #, kde-format
 msgid "Delete Resources"
 msgstr ""
 
-#: plugins/extensions/resourcemanager/DlgResourceManager.cpp:399
+#: plugins/extensions/resourcemanager/DlgResourceManager.cpp:396
 #, kde-format
 msgctxt "Brush engine type, in resource manager"
 msgid "Engine: "
@@ -38667,12 +38667,12 @@ msgstr ""
 msgid "Save Tags to Folder"
 msgstr ""
 
-#: plugins/extensions/resourcemanager/wdgtagselection.cpp:243
+#: plugins/extensions/resourcemanager/wdgtagselection.cpp:244
 #, kde-format
 msgid "Layer styles"
 msgstr ""
 
-#: plugins/extensions/resourcemanager/wdgtagselection.cpp:246
+#: plugins/extensions/resourcemanager/wdgtagselection.cpp:247
 #, kde-format
 msgid "SeExpr scripts"
 msgstr ""
