@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-16 00:43+0000\n"
+"POT-Creation-Date: 2021-12-17 00:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -17402,7 +17402,7 @@ msgstr ""
 msgid "Unparsed Resource Block"
 msgstr ""
 
-#: libs/resources/KisFolderStorage.cpp:269
+#: libs/resources/KisFolderStorage.cpp:266
 #, kde-format
 msgid "Local Resources"
 msgstr ""
@@ -34831,7 +34831,7 @@ msgstr ""
 msgid "&Add"
 msgstr ""
 
-#: plugins/dockers/layerdocker/NodeDelegate.cpp:1187
+#: plugins/dockers/layerdocker/NodeDelegate.cpp:1188
 #, kde-format
 msgid "%1 %"
 msgstr ""
@@ -50083,7 +50083,7 @@ msgstr ""
 msgid "Activate Brush Preset {num}"
 msgstr ""
 
-#: plugins/python/tenbrushes/tenbrushes.py:97
+#: plugins/python/tenbrushes/tenbrushes.py:105
 msgid ""
 "{}\n"
 "selected"
