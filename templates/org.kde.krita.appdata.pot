@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-03-15 02:43+0100\n"
+"POT-Creation-Date: 2021-12-21 00:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -61,15 +61,35 @@ msgstr ""
 
 #. (itstool) path: screenshot/caption
 #: org.kde.krita.appdata.xml:39
-msgid "Create and use gamut masks to give your images a coherent feel"
-msgstr ""
-
-#. (itstool) path: screenshot/caption
-#: org.kde.krita.appdata.xml:43
 msgid "Into animation? Krita provides everything you need for traditional, hand-drawn animation"
 msgstr ""
 
 #. (itstool) path: screenshot/caption
-#: org.kde.krita.appdata.xml:47
+#: org.kde.krita.appdata.xml:43
 msgid "If you're new to digital painting, there's an extensive, up-to-date manual"
+msgstr ""
+
+#. (itstool) path: screenshot/caption
+#: org.kde.krita.appdata.xml:47
+msgid "Krita offers powerful filters"
+msgstr ""
+
+#. (itstool) path: screenshot/caption
+#: org.kde.krita.appdata.xml:51
+msgid "And, there is integration with G'Mic, too, which adds hundreds of filters more"
+msgstr ""
+
+#. (itstool) path: screenshot/caption
+#: org.kde.krita.appdata.xml:55
+msgid "Join our Youtube channel!"
+msgstr ""
+
+#. (itstool) path: caption/a
+#: org.kde.krita.appdata.xml:59
+msgid "Krita Artists community"
+msgstr ""
+
+#. (itstool) path: screenshot/caption
+#: org.kde.krita.appdata.xml:59
+msgid "Or the active <_:a-1/>"
 msgstr ""
