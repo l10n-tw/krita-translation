@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-21 00:41+0000\n"
+"POT-Creation-Date: 2021-12-22 00:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -14554,6 +14554,8 @@ msgstr ""
 #. i18n: ectx: property (text), widget (KoColorPopupButton, btnChoosePredefinedGradient)
 #. i18n: ectx: property (text), widget (QToolButton, btnSaveGradient)
 #. i18n: ectx: property (text), widget (QToolButton, bnFont)
+#. i18n: ectx: property (text), widget (QToolButton, previousButton)
+#. i18n: ectx: property (text), widget (QToolButton, nextButton)
 #. i18n: ectx: property (text), widget (KisIconWidget, paletteIconWidget)
 #. i18n: ectx: property (text), widget (QToolButton, vectorPresetsConfigureButton)
 #. i18n: ectx: property (text), widget (KisLayerFilterWidgetToolButton, bnLayerFilters)
@@ -14649,6 +14651,8 @@ msgstr ""
 #: plugins/filters/palettize/palettize.ui:49
 #: plugins/paintops/libpaintop/forms/wdgtextbrush.ui:91
 #: plugins/python/exportlayers/uiexportlayers.py:29
+#: plugins/python/photobash_images/photobash_images_docker.ui:439
+#: plugins/python/photobash_images/photobash_images_docker.ui:461
 #: plugins/python/scriptdocker/scriptdocker.py:33
 #: plugins/python/tenscripts/uitenscripts.py:59
 #, kde-format
@@ -24077,8 +24081,10 @@ msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgPopupPaletteSettings)
 #. i18n: ectx: property (windowTitle), widget (QWidget, KisAutoLevelsWidget)
+#. i18n: ectx: property (windowTitle), widget (QWidget, photobashWidget)
 #: libs/ui/forms/WdgPopupPaletteSettings.ui:14
 #: libs/ui/widgets/KisAutoLevelsWidget.ui:14
+#: plugins/python/photobash_images/photobash_images_docker.ui:14
 #, kde-format
 msgid "Form"
 msgstr ""
@@ -49741,6 +49747,36 @@ msgstr ""
 msgid "{input} has been exported to {output}."
 msgstr ""
 
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, filterTextEdit)
+#: plugins/python/photobash_images/photobash_images_docker.ui:71
+#, kde-format
+msgid "Filter images by words..."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, changePathButton)
+#: plugins/python/photobash_images/photobash_images_docker.ui:96
+#, kde-format
+msgid "Set References Folder"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, scaleSliderLabel)
+#: plugins/python/photobash_images/photobash_images_docker.ui:328
+#, kde-format
+msgid "Image Scale :"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, fitCanvasCheckBox)
+#: plugins/python/photobash_images/photobash_images_docker.ui:388
+#, kde-format
+msgid "Scale To Canvas"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, paginationLabel)
+#: plugins/python/photobash_images/photobash_images_docker.ui:413
+#, kde-format
+msgid "0/0"
+msgstr ""
+
 #: plugins/python/plugin_importer/plugin_downloader.py:70
 msgid "Could not determine download link from URL"
 msgstr ""
@@ -52837,26 +52873,26 @@ msgstr ""
 msgid "Strongest (Similitude)"
 msgstr ""
 
-#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:213
+#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:214
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Size of the deformation brush"
 msgstr ""
 
-#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:219
+#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:221
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Amount of the deformation you get"
 msgstr ""
 
-#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:225
+#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:228
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
 "When in non-buildup mode, shows how fast the deformation limit is reached."
 msgstr ""
 
-#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:229
+#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:233
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -52865,79 +52901,79 @@ msgid ""
 "deforms the piece to the selected deformation level."
 msgstr ""
 
-#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:236
+#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:241
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Space between two sequential applications of the deformation"
 msgstr ""
 
-#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:240
+#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:246
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Scale <b>Size</b> value according to current stylus pressure"
 msgstr ""
 
-#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:244
+#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:251
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Scale <b>Amount</b> value according to current stylus pressure"
 msgstr ""
 
-#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:248
+#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:256
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Reverse direction of the current deformation tool"
 msgstr ""
 
-#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:263
+#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:272
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Move: drag the image along the brush stroke"
 msgstr ""
 
-#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:264
+#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:273
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Scale: grow/shrink image under cursor"
 msgstr ""
 
-#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:265
+#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:274
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Rotate: twirl image under cursor"
 msgstr ""
 
-#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:266
+#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:275
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Offset: shift the image to the right of the stroke direction"
 msgstr ""
 
-#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:267
+#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:276
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Undo: erase actions of other tools"
 msgstr ""
 
-#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:608
+#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:617
 #, kde-format
 msgid "Switch between editing and deforming cage"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, lockUnlockPointsButton)
-#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:669
+#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:678
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:1618
 #, kde-format
 msgid "Lock Points"
 msgstr ""
 
-#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:671
+#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:680
 #, kde-format
 msgid "Unlock Points"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, cageTransformDirections)
-#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:748
+#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:757
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:1656
 #, kde-format
 msgid "Create 3 points on the canvas to begin"
