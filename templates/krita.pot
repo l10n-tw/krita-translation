@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-22 00:42+0000\n"
+"POT-Creation-Date: 2021-12-23 00:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -15113,7 +15113,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbSmoothingType)
 #: libs/image/kis_filter_strategy.h:108 libs/ui/animation/KisDlgImportVideoAnimation.cpp:121
-#: libs/ui/canvas/kis_canvas_controller.cpp:305
+#: libs/ui/canvas/kis_canvas_controller.cpp:302
 #: libs/ui/widgets/KoFillConfigWidget.ui:416
 #, kde-format
 msgid "Bilinear"
@@ -19927,54 +19927,48 @@ msgid "Horizontal mirroring: %1 "
 msgstr ""
 
 #: libs/ui/canvas/kis_canvas_controller.cpp:171
-#: libs/ui/canvas/kis_canvas_controller.cpp:293
+#: libs/ui/canvas/kis_canvas_controller.cpp:290
 #, kde-format
 msgid "OFF"
 msgstr ""
 
 #: libs/ui/canvas/kis_canvas_controller.cpp:171
-#: libs/ui/canvas/kis_canvas_controller.cpp:293
+#: libs/ui/canvas/kis_canvas_controller.cpp:290
 #, kde-format
 msgid "ON"
 msgstr ""
 
-#: libs/ui/canvas/kis_canvas_controller.cpp:196
-#, kde-format
-msgid ""
-"\"Mirror View Around Cursor\" only works while hovering over the viewport."
-msgstr ""
-
-#: libs/ui/canvas/kis_canvas_controller.cpp:211
+#: libs/ui/canvas/kis_canvas_controller.cpp:208
 #, kde-format
 msgctxt "floating message about rotation"
 msgid "Rotation: %1° "
 msgstr ""
 
-#: libs/ui/canvas/kis_canvas_controller.cpp:258
+#: libs/ui/canvas/kis_canvas_controller.cpp:255
 #, kde-format
 msgid ""
 "You are activating wrap-around mode, but have not enabled OpenGL.\n"
 "To visualize wrap-around mode, enable OpenGL."
 msgstr ""
 
-#: libs/ui/canvas/kis_canvas_controller.cpp:292
+#: libs/ui/canvas/kis_canvas_controller.cpp:289
 #, kde-format
 msgid "Instant Preview Mode: %1"
 msgstr ""
 
-#: libs/ui/canvas/kis_canvas_controller.cpp:299
+#: libs/ui/canvas/kis_canvas_controller.cpp:296
 #, kde-format
 msgid "Instant Preview is only supported with OpenGL activated"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbFilterMode)
-#: libs/ui/canvas/kis_canvas_controller.cpp:305
+#: libs/ui/canvas/kis_canvas_controller.cpp:302
 #: libs/ui/forms/wdgdisplaysettings.ui:68
 #, kde-format
 msgid "Nearest Neighbour"
 msgstr ""
 
-#: libs/ui/canvas/kis_canvas_controller.cpp:306
+#: libs/ui/canvas/kis_canvas_controller.cpp:303
 #, kde-format
 msgid ""
 "Instant Preview is supported\n"
@@ -19982,7 +19976,7 @@ msgid ""
 "Current mode is %1"
 msgstr ""
 
-#: libs/ui/canvas/kis_canvas_controller.cpp:310
+#: libs/ui/canvas/kis_canvas_controller.cpp:307
 #, kde-format
 msgid ""
 "Failed activating Instant Preview mode!\n"
