@@ -22,7 +22,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_koffice\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-11-22 00:36+0000\n"
+"POT-Creation-Date: 2021-12-22 00:53+0000\n"
 "PO-Revision-Date: 2021-10-23 11:25+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
@@ -490,12 +490,12 @@ msgctxt "Comment"
 msgid "A Python-based docker to edit color palettes."
 msgstr "基於 Python 的面板，用於編輯調色板。"
 
-#: plugins/python/photobash_images/kritapykrita_photobash_images.desktop:6
+#: plugins/python/photobash_images/kritapykrita_photobash_images.desktop:7
 msgctxt "Name"
 msgid "Krita Photobash Images"
 msgstr "Krita Photobash 影像"
 
-#: plugins/python/photobash_images/kritapykrita_photobash_images.desktop:29
+#: plugins/python/photobash_images/kritapykrita_photobash_images.desktop:30
 msgctxt "Comment"
 msgid ""
 "A plugin to fetch images from a specified folder. Very useful for "
