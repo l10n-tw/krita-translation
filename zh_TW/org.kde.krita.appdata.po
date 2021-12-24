@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: org.kde.krita.appdata\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-15 02:43+0100\n"
+"POT-Creation-Date: 2021-12-21 00:41+0000\n"
 "PO-Revision-Date: 2021-07-31 03:13+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
@@ -83,18 +83,43 @@ msgstr "有超過十款功能非常強大的筆刷引擎"
 
 #. (itstool) path: screenshot/caption
 #: org.kde.krita.appdata.xml:39
-msgid "Create and use gamut masks to give your images a coherent feel"
-msgstr "建立和使用色域遮罩，使得您的影像看上去感覺有條有紊"
-
-#. (itstool) path: screenshot/caption
-#: org.kde.krita.appdata.xml:43
 msgid ""
 "Into animation? Krita provides everything you need for traditional, hand-"
 "drawn animation"
 msgstr "想做動畫？Krita 提供您在傳統、手繪動畫所需的任何東西"
 
 #. (itstool) path: screenshot/caption
-#: org.kde.krita.appdata.xml:47
+#: org.kde.krita.appdata.xml:43
 msgid ""
 "If you're new to digital painting, there's an extensive, up-to-date manual"
 msgstr "如果您是數位繪圖的新手，我們提供廣範而且不斷更新的說明手冊"
+
+#. (itstool) path: screenshot/caption
+#: org.kde.krita.appdata.xml:47
+msgid "Krita offers powerful filters"
+msgstr ""
+
+#. (itstool) path: screenshot/caption
+#: org.kde.krita.appdata.xml:51
+msgid ""
+"And, there is integration with G'Mic, too, which adds hundreds of filters "
+"more"
+msgstr ""
+
+#. (itstool) path: screenshot/caption
+#: org.kde.krita.appdata.xml:55
+msgid "Join our Youtube channel!"
+msgstr ""
+
+#. (itstool) path: caption/a
+#: org.kde.krita.appdata.xml:59
+msgid "Krita Artists community"
+msgstr ""
+
+#. (itstool) path: screenshot/caption
+#: org.kde.krita.appdata.xml:59
+msgid "Or the active <_:a-1/>"
+msgstr ""
+
+#~ msgid "Create and use gamut masks to give your images a coherent feel"
+#~ msgstr "建立和使用色域遮罩，使得您的影像看上去感覺有條有紊"
