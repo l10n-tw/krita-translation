@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: org.kde.krita.appdata\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-21 00:41+0000\n"
-"PO-Revision-Date: 2021-12-24 08:06+0000\n"
+"PO-Revision-Date: 2021-12-25 08:37+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita-appdata/zh_Hant/>\n"
@@ -97,7 +97,7 @@ msgstr "如果您是數位繪圖的新手，我們提供廣範而且不斷更新
 #. (itstool) path: screenshot/caption
 #: org.kde.krita.appdata.xml:47
 msgid "Krita offers powerful filters"
-msgstr "Krita 提供強大的濾鏡"
+msgstr "Krita 提供強大的濾鏡效果"
 
 #. (itstool) path: screenshot/caption
 #: org.kde.krita.appdata.xml:51
@@ -119,7 +119,7 @@ msgstr "Krita Artists 社群討論區"
 #. (itstool) path: screenshot/caption
 #: org.kde.krita.appdata.xml:59
 msgid "Or the active <_:a-1/>"
-msgstr "或者生氣勃勃的<_:a-1/>"
+msgstr "或者生氣勃勃的 <_:a-1/>"
 
 #~ msgid "Create and use gamut masks to give your images a coherent feel"
 #~ msgstr "建立和使用色域遮罩，使得您的影像看上去感覺有條有紊"
