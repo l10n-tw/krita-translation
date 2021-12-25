@@ -54677,12 +54677,10 @@ msgctxt "action"
 msgid "Reference Images Tool"
 msgstr "參考圖工具"
 
-#, kde-format
 #~ msgid ""
 #~ "\"Mirror View Around Cursor\" only works while hovering over the viewport."
 #~ msgstr "「以游標為中心鏡像顯示」需要游標位於畫布上才能運作。"
 
-#, kde-format
 #~ msgid "Change the color of the line/border"
 #~ msgstr "變更線條/邊框色彩"
 
