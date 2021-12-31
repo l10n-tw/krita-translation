@@ -54689,7 +54689,6 @@ msgctxt "action"
 msgid "Reference Images Tool"
 msgstr "參考圖工具"
 
-#, kde-format
 #~ msgid "0/0"
 #~ msgstr "0/0"
 
