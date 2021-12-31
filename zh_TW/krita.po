@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-29 00:46+0000\n"
+"POT-Creation-Date: 2021-12-30 00:42+0000\n"
 "PO-Revision-Date: 2021-12-24 08:06+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
@@ -24377,10 +24377,8 @@ msgstr "強制濾鏡使用即時預覽"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgPopupPaletteSettings)
 #. i18n: ectx: property (windowTitle), widget (QWidget, KisAutoLevelsWidget)
-#. i18n: ectx: property (windowTitle), widget (QWidget, photobashWidget)
 #: libs/ui/forms/WdgPopupPaletteSettings.ui:14
 #: libs/ui/widgets/KisAutoLevelsWidget.ui:14
-#: plugins/python/photobash_images/photobash_images_docker.ui:14
 #, kde-format
 msgid "Form"
 msgstr "Form"
@@ -50839,35 +50837,59 @@ msgstr "匯出成功"
 msgid "{input} has been exported to {output}."
 msgstr "{input} 已被匯出到 {output}。"
 
+#: plugins/python/photobash_images/photobash_images_docker.py:73
+#, fuzzy
+#| msgctxt "description of a file type"
+#| msgid "Photoshop Image (Large)"
+msgctxt "@title:window"
+msgid "Photobash Images"
+msgstr "Photoshop 影像 (大型)"
+
+#: plugins/python/photobash_images/photobash_images_docker.py:141
+#: plugins/python/photobash_images/photobash_images_docker.py:471
+#, fuzzy
+#| msgid "Set References Folder"
+msgid "Change References Folder"
+msgstr "設定參照資料夾"
+
+#: plugins/python/photobash_images/photobash_images_docker.py:147
+#: plugins/python/photobash_images/photobash_images_docker.py:219
+#, fuzzy, python-brace-format
+#| msgid "Image Scale :"
+msgid "Image Scale: {0}%"
+msgstr "影像比例："
+
+#: plugins/python/photobash_images/photobash_images_docker.py:321
+#, fuzzy, python-brace-format
+#| msgid "Page %1"
+msgid "Page: {0}/{1}"
+msgstr "第 %1 頁"
+
+#: plugins/python/photobash_images/photobash_images_docker.py:460
+#, fuzzy
+#| msgctxt "(qtundo-format)"
+#| msgid "Change rectangle"
+msgid "Change Directory for Images"
+msgstr "變更矩形"
+
+#. i18n: ectx: property (text), widget (QPushButton, changePathButton)
+#: plugins/python/photobash_images/photobash_images_docker.py:469
+#: plugins/python/photobash_images/photobash_images_docker.ui:96
+#, kde-format
+msgid "Set References Folder"
+msgstr "設定參照資料夾"
+
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, filterTextEdit)
 #: plugins/python/photobash_images/photobash_images_docker.ui:71
 #, kde-format
 msgid "Filter images by words..."
 msgstr "按文字過濾影像…"
 
-#. i18n: ectx: property (text), widget (QPushButton, changePathButton)
-#: plugins/python/photobash_images/photobash_images_docker.ui:96
-#, kde-format
-msgid "Set References Folder"
-msgstr "設定參照資料夾"
-
-#. i18n: ectx: property (text), widget (QLabel, scaleSliderLabel)
-#: plugins/python/photobash_images/photobash_images_docker.ui:328
-#, kde-format
-msgid "Image Scale :"
-msgstr "影像比例："
-
 #. i18n: ectx: property (text), widget (QCheckBox, fitCanvasCheckBox)
 #: plugins/python/photobash_images/photobash_images_docker.ui:388
 #, kde-format
 msgid "Scale To Canvas"
 msgstr "縮放到畫布大小"
-
-#. i18n: ectx: property (text), widget (QLabel, paginationLabel)
-#: plugins/python/photobash_images/photobash_images_docker.ui:413
-#, kde-format
-msgid "0/0"
-msgstr "0/0"
 
 #: plugins/python/plugin_importer/plugin_downloader.py:70
 msgid "Could not determine download link from URL"
@@ -54676,6 +54698,10 @@ msgstr "縮放工具"
 msgctxt "action"
 msgid "Reference Images Tool"
 msgstr "參考圖工具"
+
+#, kde-format
+#~ msgid "0/0"
+#~ msgstr "0/0"
 
 #~ msgid ""
 #~ "\"Mirror View Around Cursor\" only works while hovering over the viewport."
