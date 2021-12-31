@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-12-30 00:42+0000\n"
-"PO-Revision-Date: 2021-12-24 08:06+0000\n"
+"PO-Revision-Date: 2021-12-31 09:15+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -50838,39 +50838,29 @@ msgid "{input} has been exported to {output}."
 msgstr "{input} 已被匯出到 {output}。"
 
 #: plugins/python/photobash_images/photobash_images_docker.py:73
-#, fuzzy
-#| msgctxt "description of a file type"
-#| msgid "Photoshop Image (Large)"
 msgctxt "@title:window"
 msgid "Photobash Images"
-msgstr "Photoshop 影像 (大型)"
+msgstr "Photobash 影像"
 
 #: plugins/python/photobash_images/photobash_images_docker.py:141
 #: plugins/python/photobash_images/photobash_images_docker.py:471
-#, fuzzy
-#| msgid "Set References Folder"
 msgid "Change References Folder"
-msgstr "設定參照資料夾"
+msgstr "更改參照資料夾"
 
 #: plugins/python/photobash_images/photobash_images_docker.py:147
 #: plugins/python/photobash_images/photobash_images_docker.py:219
-#, fuzzy, python-brace-format
-#| msgid "Image Scale :"
+#, python-brace-format
 msgid "Image Scale: {0}%"
-msgstr "影像比例："
+msgstr "影像比例：{0}%"
 
 #: plugins/python/photobash_images/photobash_images_docker.py:321
-#, fuzzy, python-brace-format
-#| msgid "Page %1"
+#, python-brace-format
 msgid "Page: {0}/{1}"
-msgstr "第 %1 頁"
+msgstr "頁：{0}/{1}"
 
 #: plugins/python/photobash_images/photobash_images_docker.py:460
-#, fuzzy
-#| msgctxt "(qtundo-format)"
-#| msgid "Change rectangle"
 msgid "Change Directory for Images"
-msgstr "變更矩形"
+msgstr "變更影像資料夾"
 
 #. i18n: ectx: property (text), widget (QPushButton, changePathButton)
 #: plugins/python/photobash_images/photobash_images_docker.py:469
