@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-30 00:42+0000\n"
+"POT-Creation-Date: 2022-01-01 00:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -31162,19 +31162,19 @@ msgstr ""
 msgid "Get help..."
 msgstr ""
 
-#: libs/widgets/KoDockWidgetTitleBar.cpp:39
+#: libs/widgets/KoDockWidgetTitleBar.cpp:44
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Float Docker"
 msgstr ""
 
-#: libs/widgets/KoDockWidgetTitleBar.cpp:47
+#: libs/widgets/KoDockWidgetTitleBar.cpp:52
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Close Docker"
 msgstr ""
 
-#: libs/widgets/KoDockWidgetTitleBar.cpp:57
+#: libs/widgets/KoDockWidgetTitleBar.cpp:61
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Lock Docker"
