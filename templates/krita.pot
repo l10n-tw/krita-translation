@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-01-01 00:41+0000\n"
+"POT-Creation-Date: 2022-01-04 00:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -15267,7 +15267,7 @@ msgctxt "(qtundo-format)"
 msgid "Assign Profile"
 msgstr ""
 
-#: libs/image/kis_image.cc:2423
+#: libs/image/kis_image.cc:2436
 msgctxt "(qtundo-format)"
 msgid "Crop Selections"
 msgstr ""
@@ -27147,29 +27147,29 @@ msgid ""
 "different location."
 msgstr ""
 
-#: libs/ui/KisImportExportManager.cpp:271
+#: libs/ui/KisImportExportManager.cpp:275
 #, kde-format
 msgctxt "@title:window"
 msgid "Open Audio"
 msgstr ""
 
-#: libs/ui/KisImportExportManager.cpp:370
+#: libs/ui/KisImportExportManager.cpp:374
 #, kde-format
 msgid "Opening document..."
 msgstr ""
 
-#: libs/ui/KisImportExportManager.cpp:435
+#: libs/ui/KisImportExportManager.cpp:439
 #, kde-format
 msgid "Saving document..."
 msgstr ""
 
-#: libs/ui/KisImportExportManager.cpp:524
+#: libs/ui/KisImportExportManager.cpp:528
 #, kde-format
 msgctxt "image conversion warning"
 msgid "The image contains <b>assistants</b>. The assistants will not be saved."
 msgstr ""
 
-#: libs/ui/KisImportExportManager.cpp:527
+#: libs/ui/KisImportExportManager.cpp:531
 #, kde-format
 msgctxt "image conversion warning"
 msgid ""
@@ -27177,13 +27177,13 @@ msgid ""
 "saved."
 msgstr ""
 
-#: libs/ui/KisImportExportManager.cpp:530
+#: libs/ui/KisImportExportManager.cpp:534
 #, kde-format
 msgctxt "image conversion warning"
 msgid "The image contains <b>guides</b>. The guides will not be saved."
 msgstr ""
 
-#: libs/ui/KisImportExportManager.cpp:533
+#: libs/ui/KisImportExportManager.cpp:537
 #, kde-format
 msgctxt "image conversion warning"
 msgid ""
@@ -27191,54 +27191,54 @@ msgid ""
 "will not be saved."
 msgstr ""
 
-#: libs/ui/KisImportExportManager.cpp:538
+#: libs/ui/KisImportExportManager.cpp:542
 #, kde-format
 msgid "Error: cannot save this image as a %1."
 msgstr ""
 
-#: libs/ui/KisImportExportManager.cpp:539
-#: libs/ui/KisImportExportManager.cpp:588
+#: libs/ui/KisImportExportManager.cpp:543
+#: libs/ui/KisImportExportManager.cpp:592
 #, kde-format
 msgid "Reasons:"
 msgstr ""
 
-#: libs/ui/KisImportExportManager.cpp:547
+#: libs/ui/KisImportExportManager.cpp:551
 #, kde-format
 msgctxt "@title:window"
 msgid "Krita: Export Error"
 msgstr ""
 
-#: libs/ui/KisImportExportManager.cpp:570
+#: libs/ui/KisImportExportManager.cpp:574
 #, kde-format
 msgctxt "Keep the extra space at the end of the sentence, please"
 msgid "Warning: saving as a %1 will lose information from your image.    "
 msgstr ""
 
-#: libs/ui/KisImportExportManager.cpp:582
+#: libs/ui/KisImportExportManager.cpp:586
 #, kde-format
 msgid "You will lose information when saving this image as a %1."
 msgstr ""
 
-#: libs/ui/KisImportExportManager.cpp:585
+#: libs/ui/KisImportExportManager.cpp:589
 #, kde-format
 msgid "Reason:"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, textureOptionsTab)
-#: libs/ui/KisImportExportManager.cpp:603
+#: libs/ui/KisImportExportManager.cpp:607
 #: plugins/paintops/libpaintop/forms/wdgtexturechooser.ui:57
 #, kde-format
 msgid "Options"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, scale)
-#: libs/ui/KisImportExportManager.cpp:611
+#: libs/ui/KisImportExportManager.cpp:615
 #: plugins/impex/webp/dlg_webp_import.ui:173
 #, kde-format
 msgid "Resize"
 msgstr ""
 
-#: libs/ui/KisImportExportManager.cpp:617
+#: libs/ui/KisImportExportManager.cpp:621
 #, kde-format
 msgid "Also save your image as a Krita file."
 msgstr ""
@@ -36078,7 +36078,7 @@ msgid ""
 "provided."
 msgstr ""
 
-#: plugins/dockers/storyboarddocker/StoryboardModel.cpp:1266
+#: plugins/dockers/storyboarddocker/StoryboardModel.cpp:1264
 #, kde-format
 msgctxt "default name for storyboard item"
 msgid "scene "
@@ -44865,7 +44865,7 @@ msgstr ""
 #: plugins/paintops/hairy/kis_hairy_paintop_settings_widget.cpp:27
 #: plugins/paintops/hatching/kis_hatching_paintop_settings_widget.cpp:47
 #: plugins/paintops/libpaintop/kis_pressure_flow_opacity_option_widget.cpp:25
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:36
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:37
 #: plugins/paintops/sketch/kis_sketch_paintop_settings_widget.cpp:33
 #: plugins/paintops/spray/kis_spray_paintop_settings_widget.cpp:32
 #: plugins/paintops/tangentnormal/kis_tangent_normal_paintop_settings_widget.cpp:40
@@ -44984,7 +44984,7 @@ msgid "Disabled: overlay mode is not supported in Lightness mode of the brush"
 msgstr ""
 
 #: plugins/paintops/colorsmudge/kis_smudge_option.cpp:18
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:169
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:170
 #, kde-format
 msgid "Smudge Length"
 msgstr ""
@@ -46351,7 +46351,7 @@ msgid "Vertical Offset:"
 msgstr ""
 
 #: plugins/paintops/libpaintop/kis_airbrush_option_widget.cpp:49
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:68
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:291
 #, kde-format
 msgid "Airbrush"
 msgstr ""
@@ -47277,13 +47277,7 @@ msgid "Base Value: "
 msgstr ""
 
 #: plugins/paintops/mypaint/MyPaintPaintOpOption.cpp:24
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:40
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:45
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:46
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:51
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:56
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:61
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:66
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:288
 #, kde-format
 msgctxt "Option Category"
 msgid "Basic"
@@ -47294,237 +47288,217 @@ msgstr ""
 msgid "MyPaint Brush Presets"
 msgstr ""
 
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:24
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:25
 #, kde-format
 msgid "Radius Logarithmic"
 msgstr ""
 
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:30
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:31
 #, kde-format
 msgid "Hardness"
 msgstr ""
 
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:42
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:43
 #, kde-format
 msgid "Radius by Random"
 msgstr ""
 
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:48
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:49
 #, kde-format
 msgid "Anti Aliasing"
 msgstr ""
 
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:53
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:54
 #, kde-format
 msgid "Elliptical Dab Angle"
 msgstr ""
 
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:58
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:59
 #, kde-format
 msgid "Elliptical Dab Ratio"
 msgstr ""
 
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:63
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:64
 #, kde-format
 msgid "Direction Filter"
 msgstr ""
 
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:70
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:71
 #, kde-format
 msgid "Change Color H"
 msgstr ""
 
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:73
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:78
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:83
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:88
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:93
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:76
+#, kde-format
+msgid "Change Color L"
+msgstr ""
+
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:81
+#, kde-format
+msgid "Change Color V"
+msgstr ""
+
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:86
+#, kde-format
+msgid "Change Color HSL S"
+msgstr ""
+
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:91
+#, kde-format
+msgid "Change Color HSV S"
+msgstr ""
+
 #: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:96
+#, kde-format
+msgid "Colorize"
+msgstr ""
+
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:99
+#, kde-format
+msgid "Fine Speed Gamma"
+msgstr ""
+
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:104
+#, kde-format
+msgid "Gross Speed Gamma"
+msgstr ""
+
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:109
+#, kde-format
+msgid "Fine Speed Slowness"
+msgstr ""
+
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:114
+#, kde-format
+msgid "Gross Speed Slowness"
+msgstr ""
+
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:120
+#, kde-format
+msgid "Offset By Speed"
+msgstr ""
+
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:125
+#, kde-format
+msgid "Offset By Random"
+msgstr ""
+
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:131
+#, kde-format
+msgid "Dabs Per Actual Radius"
+msgstr ""
+
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:136
+#, kde-format
+msgid "Dabs per Second"
+msgstr ""
+
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:142
+#, kde-format
+msgid "Opaque Linearize"
+msgstr ""
+
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:147
+#, kde-format
+msgid "Opaque Multiply"
+msgstr ""
+
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:152
+#, kde-format
+msgid "Slow tracking per dab"
+msgstr ""
+
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:157
+#, kde-format
+msgid "Slow Tracking"
+msgstr ""
+
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:162
+#, kde-format
+msgid "Tracking Noise"
+msgstr ""
+
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:167
+#, kde-format
+msgid "Smudge"
+msgstr ""
+
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:175
+#, kde-format
+msgid "Smudge Radius Log"
+msgstr ""
+
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:181
+#, kde-format
+msgid "Stroke Duration log"
+msgstr ""
+
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:186
+#, kde-format
+msgid "Stroke Holdtime"
+msgstr ""
+
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:191
+#, kde-format
+msgid "Stroke Threshold"
+msgstr ""
+
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:196
+#, kde-format
+msgid "Custom Input"
+msgstr ""
+
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:201
+#, kde-format
+msgid "Custom Input Slowness"
+msgstr ""
+
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:294
 #, kde-format
 msgctxt "Option Category"
 msgid "Color"
 msgstr ""
 
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:75
-#, kde-format
-msgid "Change Color L"
-msgstr ""
-
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:80
-#, kde-format
-msgid "Change Color V"
-msgstr ""
-
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:85
-#, kde-format
-msgid "Change Color HSL S"
-msgstr ""
-
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:90
-#, kde-format
-msgid "Change Color HSV S"
-msgstr ""
-
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:95
-#, kde-format
-msgid "Colorize"
-msgstr ""
-
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:98
-#, kde-format
-msgid "Fine Speed Gamma"
-msgstr ""
-
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:101
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:106
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:111
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:116
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:122
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:127
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:297
 #, kde-format
 msgctxt "Option Category"
 msgid "Speed"
 msgstr ""
 
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:103
-#, kde-format
-msgid "Gross Speed Gamma"
-msgstr ""
-
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:108
-#, kde-format
-msgid "Fine Speed Slowness"
-msgstr ""
-
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:113
-#, kde-format
-msgid "Gross Speed Slowness"
-msgstr ""
-
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:119
-#, kde-format
-msgid "Offset By Speed"
-msgstr ""
-
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:124
-#, kde-format
-msgid "Offset By Random"
-msgstr ""
-
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:130
-#, kde-format
-msgid "Dabs Per Actual Radius"
-msgstr ""
-
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:133
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:138
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:300
 #, kde-format
 msgctxt "Option Category"
 msgid "Dabs"
 msgstr ""
 
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:135
-#, kde-format
-msgid "Dabs per Second"
-msgstr ""
-
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:139
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:144
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:149
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:303
 #, kde-format
 msgctxt "Option Category"
 msgid "Opacity"
 msgstr ""
 
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:141
-#, kde-format
-msgid "Opaque Linearize"
-msgstr ""
-
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:146
-#, kde-format
-msgid "Opaque Multiply"
-msgstr ""
-
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:151
-#, kde-format
-msgid "Slow tracking per dab"
-msgstr ""
-
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:154
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:159
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:164
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:306
 #, kde-format
 msgctxt "Option Category"
 msgid "Tracking"
 msgstr ""
 
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:156
-#, kde-format
-msgid "Slow Tracking"
-msgstr ""
-
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:161
-#, kde-format
-msgid "Tracking Noise"
-msgstr ""
-
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:166
-#, kde-format
-msgid "Smudge"
-msgstr ""
-
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:167
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:172
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:177
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:309
 #, kde-format
 msgctxt "Option Category"
 msgid "Smudge"
 msgstr ""
 
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:174
-#, kde-format
-msgid "Smudge Radius Log"
-msgstr ""
-
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:180
-#, kde-format
-msgid "Stroke Duration log"
-msgstr ""
-
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:183
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:188
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:193
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:312
 #, kde-format
 msgctxt "Option Category"
 msgid "Stroke"
 msgstr ""
 
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:185
-#, kde-format
-msgid "Stroke Holdtime"
-msgstr ""
-
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:190
-#, kde-format
-msgid "Stroke Threshold"
-msgstr ""
-
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:195
-#, kde-format
-msgid "Custom Input"
-msgstr ""
-
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:198
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:203
+#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:315
 #, kde-format
 msgctxt "Option Category"
 msgid "Custom"
-msgstr ""
-
-#: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:200
-#, kde-format
-msgid "Custom Input Slowness"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, radiusLbl)
