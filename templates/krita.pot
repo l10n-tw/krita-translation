@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-01-07 00:42+0000\n"
+"POT-Creation-Date: 2022-01-08 00:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -14595,8 +14595,8 @@ msgstr ""
 #: libs/flake/tools/PathToolOptionWidgetBase.ui:161
 #: libs/flake/tools/PathToolOptionWidgetBase.ui:168
 #: libs/ui/animation/VideoImportDialog.ui:54
-#: libs/ui/animation/VideoImportDialog.ui:602
-#: libs/ui/animation/VideoImportDialog.ui:622
+#: libs/ui/animation/VideoImportDialog.ui:659
+#: libs/ui/animation/VideoImportDialog.ui:679
 #: libs/ui/animation/wdg_animationrenderer.ui:258
 #: libs/ui/animation/wdg_animationrenderer.ui:400
 #: libs/ui/forms/wdggeneralsettings.ui:257
@@ -15475,8 +15475,8 @@ msgstr ""
 
 #: libs/image/kis_psd_layer_style.cpp:104
 #: libs/ui/KisApplicationArguments.cpp:376
-#: libs/ui/KisMainWindow.cpp:1410 libs/ui/KisMainWindow.cpp:1681
-#: libs/ui/KisMainWindow.cpp:1700 plugins/impex/libkra/kis_kra_saver.cpp:90
+#: libs/ui/KisMainWindow.cpp:1407 libs/ui/KisMainWindow.cpp:1678
+#: libs/ui/KisMainWindow.cpp:1697 plugins/impex/libkra/kis_kra_saver.cpp:90
 #, kde-format
 msgid "Unnamed"
 msgstr ""
@@ -16143,8 +16143,8 @@ msgctxt "description of a file type"
 msgid "Animated PNG Image"
 msgstr ""
 
-#: libs/libkis/Document.cpp:927 libs/ui/KisMainWindow.cpp:2049
-#: libs/ui/KisMainWindow.cpp:2131
+#: libs/libkis/Document.cpp:927 libs/ui/KisMainWindow.cpp:2046
+#: libs/ui/KisMainWindow.cpp:2128
 #, kde-format
 msgid "Import frames"
 msgstr ""
@@ -17422,14 +17422,14 @@ msgstr ""
 #: libs/ui/animation/KisDlgAnimationRenderer.cpp:549
 #: libs/ui/animation/KisDlgAnimationRenderer.cpp:556
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:65
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:170
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:236
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:540
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:561
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:568
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:669
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:727
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:752
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:174
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:281
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:585
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:606
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:613
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:714
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:772
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:797
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:354
 #: libs/ui/dialogs/kis_dlg_preferences.cc:578
 #: libs/ui/input/kis_tablet_debugger.cpp:96
@@ -17442,14 +17442,14 @@ msgstr ""
 #: libs/ui/KisApplication.cpp:1066 libs/ui/KisDocument.cpp:916
 #: libs/ui/KisDocument.cpp:924 libs/ui/KisDocument.cpp:1780
 #: libs/ui/KisDocument.cpp:1823 libs/ui/KisDocument.cpp:1831
-#: libs/ui/KisMainWindow.cpp:1083 libs/ui/KisMainWindow.cpp:1210
-#: libs/ui/KisMainWindow.cpp:1308 libs/ui/KisMainWindow.cpp:1909
-#: libs/ui/KisMainWindow.cpp:1918 libs/ui/KisMainWindow.cpp:2057
-#: libs/ui/KisMainWindow.cpp:2116 libs/ui/KisMainWindow.cpp:2140
+#: libs/ui/KisMainWindow.cpp:1080 libs/ui/KisMainWindow.cpp:1207
+#: libs/ui/KisMainWindow.cpp:1305 libs/ui/KisMainWindow.cpp:1906
+#: libs/ui/KisMainWindow.cpp:1915 libs/ui/KisMainWindow.cpp:2054
+#: libs/ui/KisMainWindow.cpp:2113 libs/ui/KisMainWindow.cpp:2137
 #: libs/ui/KisPart.cpp:558 libs/ui/KisPart.cpp:561 libs/ui/KisReferenceImage.cpp:178
 #: libs/ui/KisRemoteFileFetcher.cpp:42 libs/ui/KisTemplateCreateDia.cpp:284
 #: libs/ui/KisTemplateCreateDia.cpp:390 libs/ui/KisView.cpp:735
-#: libs/ui/KisWelcomePageWidget.cpp:706 libs/ui/opengl/kis_opengl_canvas2.cpp:388
+#: libs/ui/KisWelcomePageWidget.cpp:707 libs/ui/opengl/kis_opengl_canvas2.cpp:388
 #: libs/ui/utils/KisClipboardUtil.cpp:131
 #: libs/ui/utils/KisClipboardUtil.cpp:241
 #: libs/ui/widgets/kis_custom_image_widget.cc:299
@@ -17959,7 +17959,7 @@ msgid "Storage Resources"
 msgstr ""
 
 #: libs/resourcewidgets/KisResourceItemChooser.cpp:230
-#: libs/ui/KisMainWindow.cpp:2553 plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:571
+#: libs/ui/KisMainWindow.cpp:2550 plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:571
 #, kde-format
 msgctxt "@title:window"
 msgid "Choose File to Add"
@@ -18385,7 +18385,7 @@ msgid "Failed to render animation frames! Output files are incomplete."
 msgstr ""
 
 #: libs/ui/animation/KisDlgAnimationRenderer.cpp:52
-#: libs/ui/KisMainWindow.cpp:2160
+#: libs/ui/KisMainWindow.cpp:2157
 #, kde-format
 msgid "Render Animation"
 msgstr ""
@@ -18482,7 +18482,7 @@ msgstr ""
 
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:87
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:93
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:624
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:669
 #, kde-format
 msgctxt "Second as a unit following a value, like 60 s"
 msgid " s"
@@ -18501,7 +18501,7 @@ msgid "Current Document"
 msgstr ""
 
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:105
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:587
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:632
 #, kde-format
 msgctxt "Video importer: fps of the document you're importing into"
 msgid ""
@@ -18515,18 +18515,18 @@ msgctxt "An interpolation method"
 msgid "Spline"
 msgstr ""
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:170
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:174
 #, kde-format
 msgid "Failed to create a work directory, make sure you have write permission"
 msgstr ""
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:181
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:184
 #, kde-format
 msgctxt "Title for a messagebox"
 msgid "Krita"
 msgstr ""
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:182
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:185
 #, kde-format
 msgid ""
 "Warning: you are trying to import more than 100 frames into Krita.\n"
@@ -18536,7 +18536,7 @@ msgid ""
 "video editor, like Kdenlive (https://kdenlive.org)."
 msgstr ""
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:225
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:237
 #, kde-format
 msgctxt ""
 "FFMPEG animated video import message. arg1: frame progress number. arg2: "
@@ -18544,59 +18544,59 @@ msgctxt ""
 msgid "Extracted %1 frames from %2 video."
 msgstr ""
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:236
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:281
 #, kde-format
 msgid "Failed to export frames from video"
 msgstr ""
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:308
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:353
 #, kde-format
 msgid "Select your Video File"
 msgstr ""
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:351
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:396
 #, kde-format
 msgctxt "video importer: video file statistics"
 msgid "Width: %1 px"
 msgstr ""
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:352
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:397
 #, kde-format
 msgctxt "video importer: video file statistics"
 msgid "Height: %1 px"
 msgstr ""
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:356
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:401
 #, kde-format
 msgctxt "video importer: video file statistics"
 msgid "Color Primaries: %1"
 msgstr ""
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:359
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:404
 #, kde-format
 msgctxt "video importer: video file statistics"
 msgid "Color Transfer: %1"
 msgstr ""
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:362
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:407
 #, kde-format
 msgctxt "video importer: video file statistics"
 msgid "Duration: %1 s"
 msgstr ""
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:363
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:408
 #, kde-format
 msgctxt "video importer: video file statistics"
 msgid "Frames: %1"
 msgstr ""
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:364
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:409
 #, kde-format
 msgctxt "video importer: video file statistics"
 msgid "FPS: %1"
 msgstr ""
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:368
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:413
 #, kde-format
 msgctxt "video importer: video file statistics"
 msgid ""
@@ -18604,7 +18604,7 @@ msgid ""
 "duration</em></font>"
 msgstr ""
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:467
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:512
 #, kde-format
 msgctxt "part of warning in video importer."
 msgid ""
@@ -18612,13 +18612,13 @@ msgid ""
 "import is %2."
 msgstr ""
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:474
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:519
 #, kde-format
 msgctxt "part of warning in video importer."
 msgid "Use a <a href=\"https://kdenlive.org\">video editor</a> instead!"
 msgstr ""
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:480
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:525
 #, kde-format
 msgctxt "part of warning in video importer."
 msgid ""
@@ -18626,14 +18626,14 @@ msgid ""
 "overloaded."
 msgstr ""
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:487
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:532
 #, kde-format
 msgctxt "part of warning in video importer."
 msgid ""
 "This will take over half the available memory, editing will be difficult."
 msgstr ""
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:496
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:541
 #, kde-format
 msgctxt "part of warning in video importer."
 msgid ""
@@ -18641,44 +18641,44 @@ msgid ""
 "linear"
 msgstr ""
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:526
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:528
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:571
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:573
 #, kde-format
 msgid "Open FFProbe"
 msgstr ""
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:540
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:585
 #, kde-format
 msgid "FFProbe is invalid!"
 msgstr ""
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:547
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:549
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:592
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:594
 #, kde-format
 msgid "Open FFMpeg"
 msgstr ""
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:561
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:606
 #, kde-format
 msgid "FFMpeg is invalid!"
 msgstr ""
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:568
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:613
 #, kde-format
 msgid "No FFMpeg found!"
 msgstr ""
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:669
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:714
 #, kde-format
 msgid "No video stream could be found!"
 msgstr ""
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:727
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:772
 #, kde-format
 msgid "Failed to load video information"
 msgstr ""
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:752
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:797
 #, kde-format
 msgid "Your FFMpeg version does not support this format"
 msgstr ""
@@ -19504,7 +19504,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: attribute (title), widget (QWidget, tab_3)
-#: libs/ui/animation/VideoImportDialog.ui:198
+#: libs/ui/animation/VideoImportDialog.ui:197
 #: plugins/dockers/logdocker/LogDockerDock.cpp:186
 #: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:262
 #, kde-format
@@ -19512,54 +19512,66 @@ msgid "Metadata"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, fileLoadedDetails)
-#: libs/ui/animation/VideoImportDialog.ui:232
+#: libs/ui/animation/VideoImportDialog.ui:231
 #, kde-format
 msgid "Please choose a file."
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, exportOptionsGroup)
-#: libs/ui/animation/VideoImportDialog.ui:345
+#: libs/ui/animation/VideoImportDialog.ui:344
 #, kde-format
 msgid "Import Options"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, fpsLabel)
-#: libs/ui/animation/VideoImportDialog.ui:356
-#: libs/ui/animation/wdg_animationrenderer.ui:108
-#, kde-format
-msgid "FPS:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, startExportingAtLabel)
-#: libs/ui/animation/VideoImportDialog.ui:379
-#, kde-format
-msgid "Start at: "
-msgstr ""
-
 #. i18n: ectx: property (text), widget (QLabel, frameSkipLabel)
-#: libs/ui/animation/VideoImportDialog.ui:405
+#: libs/ui/animation/VideoImportDialog.ui:371
 #, kde-format
 msgid "Skip Interval:"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QLabel, startExportingAtLabel)
+#: libs/ui/animation/VideoImportDialog.ui:391
+#, kde-format
+msgid "Start at: "
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLabel, exportDurationLabel)
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: libs/ui/animation/VideoImportDialog.ui:418
+#: libs/ui/animation/VideoImportDialog.ui:401
 #: plugins/paintops/libpaintop/sensors/SensorTimeConfiguration.ui:54
 #, kde-format
 msgid "Duration:"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QLabel, fpsLabel)
+#: libs/ui/animation/VideoImportDialog.ui:411
+#: libs/ui/animation/wdg_animationrenderer.ui:108
+#, kde-format
+msgid "FPS:"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLabel, importDocumentLabel)
-#: libs/ui/animation/VideoImportDialog.ui:444
+#: libs/ui/animation/VideoImportDialog.ui:447
 #, kde-format
 msgid "Import into:"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, optionFilterDuplicates)
+#: libs/ui/animation/VideoImportDialog.ui:469
+#, kde-format
+msgid "Filter duplicate frames"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, sensitivityLabel)
+#: libs/ui/animation/VideoImportDialog.ui:493
+#, kde-format
+msgid "Sensitivity"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tabOptions)
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
 #. i18n: ectx: attribute (title), widget (QWidget, advanced)
-#: libs/ui/animation/VideoImportDialog.ui:467
+#: libs/ui/animation/VideoImportDialog.ui:524
 #: libs/ui/forms/wdgperformancesettings.ui:269
 #: plugins/impex/webp/dlg_webp_export.ui:148
 #: plugins/impex/webp/dlg_webp_import.ui:304
@@ -19568,7 +19580,7 @@ msgid "Advanced"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, optionsDocumentGroup)
-#: libs/ui/animation/VideoImportDialog.ui:475
+#: libs/ui/animation/VideoImportDialog.ui:532
 #, kde-format
 msgid "Document"
 msgstr ""
@@ -19586,8 +19598,8 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, lblCropWidth)
 #. i18n: ectx: property (text), widget (QLabel, intWidthzqffs)
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: libs/ui/animation/VideoImportDialog.ui:481
 #: libs/ui/animation/VideoImportDialog.ui:538
+#: libs/ui/animation/VideoImportDialog.ui:595
 #: libs/ui/animation/wdg_animationrenderer.ui:170
 #: libs/ui/dialogs/KisDlgCustomTabletResolution.ui:71
 #: libs/ui/forms/wdg_resolution.ui:24 libs/ui/forms/wdgimageproperties.ui:48
@@ -19629,8 +19641,8 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, intHeightqsdfq)
 #. i18n: ectx: property (text), widget (QLabel, label_14)
 #. i18n: ectx: property (text), widget (QLabel, label_12)
-#: libs/ui/animation/VideoImportDialog.ui:494
-#: libs/ui/animation/VideoImportDialog.ui:548
+#: libs/ui/animation/VideoImportDialog.ui:551
+#: libs/ui/animation/VideoImportDialog.ui:605
 #: libs/ui/animation/wdg_animationrenderer.ui:180
 #: libs/ui/dialogs/KisDlgCustomTabletResolution.ui:108
 #: libs/ui/forms/wdg_resolution.ui:31 libs/ui/forms/wdgimageproperties.ui:71
@@ -19659,7 +19671,7 @@ msgid "Height:"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, optionsImportVideoScaleGroup)
-#: libs/ui/animation/VideoImportDialog.ui:510
+#: libs/ui/animation/VideoImportDialog.ui:567
 #, kde-format
 msgid "Import Video Scale"
 msgstr ""
@@ -19667,7 +19679,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, lblFilter)
 #. i18n: ectx: property (text), widget (QLabel, videoScaleFilterLabel)
 #. i18n: ectx: property (text), widget (QLabel, scaleFilterLabel)
-#: libs/ui/animation/VideoImportDialog.ui:528
+#: libs/ui/animation/VideoImportDialog.ui:585
 #: libs/ui/animation/wdg_animationrenderer.ui:206
 #: libs/ui/imagesize/wdg_layersize.ui:119
 #: plugins/python/documenttools/tools/scaletool/scaletool.py:43
@@ -19677,19 +19689,19 @@ msgid "Filter:"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, optionsFFMpegGroup)
-#: libs/ui/animation/VideoImportDialog.ui:571
+#: libs/ui/animation/VideoImportDialog.ui:628
 #, kde-format
 msgid "FFMpeg"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, ffmpegLocationLabel)
-#: libs/ui/animation/VideoImportDialog.ui:589
+#: libs/ui/animation/VideoImportDialog.ui:646
 #, kde-format
 msgid "FFMpeg Path:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, ffprobeLocationLabel)
-#: libs/ui/animation/VideoImportDialog.ui:609
+#: libs/ui/animation/VideoImportDialog.ui:666
 #, kde-format
 msgid "FFProbe Path:"
 msgstr ""
@@ -20302,7 +20314,7 @@ msgid "Numerical"
 msgstr ""
 
 #: libs/ui/dialogs/kis_dlg_import_image_sequence.cpp:137
-#: libs/ui/KisMainWindow.cpp:1178
+#: libs/ui/KisMainWindow.cpp:1175
 #, kde-format
 msgid "Import Images"
 msgstr ""
@@ -20432,7 +20444,7 @@ msgid "Enter new style name"
 msgstr ""
 
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:275
-#: libs/ui/KisMainWindow.cpp:2564
+#: libs/ui/KisMainWindow.cpp:2561
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Name:"
@@ -21259,7 +21271,7 @@ msgid "Show details"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, labelNoFeed)
-#: libs/ui/forms/KisWelcomePage.ui:455 libs/ui/KisWelcomePageWidget.cpp:393
+#: libs/ui/forms/KisWelcomePage.ui:455 libs/ui/KisWelcomePageWidget.cpp:394
 #, kde-format
 msgid ""
 "You can <a href=\"ignored\" style=\"color: COLOR_PLACEHOLDER; text-"
@@ -21274,43 +21286,43 @@ msgid "Community"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, manualLink)
-#: libs/ui/forms/KisWelcomePage.ui:647 libs/ui/KisWelcomePageWidget.cpp:379
+#: libs/ui/forms/KisWelcomePage.ui:647 libs/ui/KisWelcomePageWidget.cpp:380
 #, kde-format
 msgid "User Manual"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, gettingStartedLink)
-#: libs/ui/forms/KisWelcomePage.ui:737 libs/ui/KisWelcomePageWidget.cpp:376
+#: libs/ui/forms/KisWelcomePage.ui:737 libs/ui/KisWelcomePageWidget.cpp:377
 #, kde-format
 msgid "Getting Started"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, userCommunityLink)
-#: libs/ui/forms/KisWelcomePage.ui:824 libs/ui/KisWelcomePageWidget.cpp:373
+#: libs/ui/forms/KisWelcomePage.ui:824 libs/ui/KisWelcomePageWidget.cpp:374
 #, kde-format
 msgid "User Community"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, kritaWebsiteLink)
-#: libs/ui/forms/KisWelcomePage.ui:911 libs/ui/KisWelcomePageWidget.cpp:385
+#: libs/ui/forms/KisWelcomePage.ui:911 libs/ui/KisWelcomePageWidget.cpp:386
 #, kde-format
 msgid "Krita Website"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, sourceCodeLink)
-#: libs/ui/forms/KisWelcomePage.ui:1001 libs/ui/KisWelcomePageWidget.cpp:388
+#: libs/ui/forms/KisWelcomePage.ui:1001 libs/ui/KisWelcomePageWidget.cpp:389
 #, kde-format
 msgid "Source Code"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, supportKritaLink)
-#: libs/ui/forms/KisWelcomePage.ui:1088 libs/ui/KisWelcomePageWidget.cpp:382
+#: libs/ui/forms/KisWelcomePage.ui:1088 libs/ui/KisWelcomePageWidget.cpp:383
 #, kde-format
 msgid "Support Krita"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, poweredByKDELink)
-#: libs/ui/forms/KisWelcomePage.ui:1178 libs/ui/KisWelcomePageWidget.cpp:391
+#: libs/ui/forms/KisWelcomePage.ui:1178 libs/ui/KisWelcomePageWidget.cpp:392
 #, kde-format
 msgid "Powered by KDE"
 msgstr ""
@@ -21328,7 +21340,7 @@ msgid "Start"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, devBuildLabel)
-#: libs/ui/forms/KisWelcomePage.ui:1428 libs/ui/KisWelcomePageWidget.cpp:620
+#: libs/ui/forms/KisWelcomePage.ui:1428 libs/ui/KisWelcomePageWidget.cpp:621
 #, kde-format
 msgid "DEV BUILD"
 msgstr ""
@@ -23578,7 +23590,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, updateBrushNameButton)
 #. i18n: ectx: property (toolTip), widget (QToolButton, bnSaveMask)
 #: libs/ui/forms/wdgpaintopsettings.ui:188
-#: libs/ui/KisMainWindow.cpp:1062 libs/ui/widgets/kis_workspace_chooser.cpp:111
+#: libs/ui/KisMainWindow.cpp:1059 libs/ui/widgets/kis_workspace_chooser.cpp:111
 #: libs/ui/widgets/kis_workspace_chooser.cpp:189
 #: plugins/dockers/gamutmask/forms/wdgGamutMaskChooser.ui:232
 #: plugins/generators/seexpr/wdgseexpr.ui:172
@@ -25678,7 +25690,7 @@ msgstr ""
 msgid "Do not ask again (hold Shift to ask again)"
 msgstr ""
 
-#: libs/ui/kis_animation_importer.cpp:58
+#: libs/ui/kis_animation_importer.cpp:65
 msgctxt "(qtundo-format)"
 msgid "Import animation"
 msgstr ""
@@ -27279,42 +27291,42 @@ msgctxt "@action:inmenu"
 msgid "Wor&kspace"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:579 plugins/tools/svgtexttool/SvgTextEditor.cpp:314
+#: libs/ui/KisMainWindow.cpp:576 plugins/tools/svgtexttool/SvgTextEditor.cpp:314
 #, kde-format
 msgid "Show %1 Toolbar"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:581 plugins/tools/svgtexttool/SvgTextEditor.cpp:316
+#: libs/ui/KisMainWindow.cpp:578 plugins/tools/svgtexttool/SvgTextEditor.cpp:316
 #, kde-format
 msgid "Hide %1 Toolbar"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1025
+#: libs/ui/KisMainWindow.cpp:1022
 #, kde-format
 msgid "Write Protected"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1029
+#: libs/ui/KisMainWindow.cpp:1026
 #, kde-format
 msgid "Recovered"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1059
+#: libs/ui/KisMainWindow.cpp:1056
 #, kde-format
 msgid "Save as %1"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1083
+#: libs/ui/KisMainWindow.cpp:1080
 #, kde-format
 msgid "The file %1 does not exist."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1178
+#: libs/ui/KisMainWindow.cpp:1175
 #, kde-format
 msgid "Open Images"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1309
+#: libs/ui/KisMainWindow.cpp:1306
 #, kde-format
 msgid ""
 "You are saving a file while the image is still rendering. The saved file may "
@@ -27323,43 +27335,43 @@ msgid ""
 "Please select a location where the original file will not be overridden!"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1365
+#: libs/ui/KisMainWindow.cpp:1362
 #, kde-format
 msgid "Exporting"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1365
+#: libs/ui/KisMainWindow.cpp:1362
 #, kde-format
 msgid "Saving As"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1660 libs/widgetutils/config/kstandardaction_p.h:29
+#: libs/ui/KisMainWindow.cpp:1657 libs/widgetutils/config/kstandardaction_p.h:29
 #, kde-format
 msgid "Create new document"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1684
+#: libs/ui/KisMainWindow.cpp:1681
 #, kde-format
 msgid "Custom Document"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1702
+#: libs/ui/KisMainWindow.cpp:1699
 #, kde-format
 msgid "Create from Clipboard"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1878
+#: libs/ui/KisMainWindow.cpp:1875
 #, kde-format
 msgid "Layers/Masks"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1904 plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:181
+#: libs/ui/KisMainWindow.cpp:1901 plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:181
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:279
 #, kde-format
 msgid "You don't have any resource bundles enabled."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1908
+#: libs/ui/KisMainWindow.cpp:1905
 #, kde-format
 msgid ""
 "\n"
@@ -27367,7 +27379,7 @@ msgid ""
 "presets before continuing.\n"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1918 plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:191
+#: libs/ui/KisMainWindow.cpp:1915 plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:191
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:291
 #, kde-format
 msgid ""
@@ -27375,66 +27387,66 @@ msgid ""
 "Only your local resources are available."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2057 libs/ui/KisMainWindow.cpp:2140
+#: libs/ui/KisMainWindow.cpp:2054 libs/ui/KisMainWindow.cpp:2137
 #, kde-format
 msgid ""
 "Could not finish import animation:\n"
 "%1"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2116
+#: libs/ui/KisMainWindow.cpp:2113
 #, kde-format
 msgid "Failed to create new document. Animation import aborted."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2544
+#: libs/ui/KisMainWindow.cpp:2541
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Import Workspace..."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2559
+#: libs/ui/KisMainWindow.cpp:2556
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&New Workspace..."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2563
+#: libs/ui/KisMainWindow.cpp:2560
 #, kde-format
 msgctxt "@title:window"
 msgid "New Workspace..."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2610
+#: libs/ui/KisMainWindow.cpp:2607
 #, kde-format
 msgid "&%1 %2"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2613
+#: libs/ui/KisMainWindow.cpp:2610
 #, kde-format
 msgid "%1 %2"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2774
+#: libs/ui/KisMainWindow.cpp:2771
 #, kde-format
 msgid ""
 "The Krita LittleCMS color management plugin is not installed. Krita will "
 "quit now."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2790
+#: libs/ui/KisMainWindow.cpp:2787
 #, kde-format
 msgctxt "@title:window"
 msgid "Installation error"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2902
+#: libs/ui/KisMainWindow.cpp:2899
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Themes"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2956
+#: libs/ui/KisMainWindow.cpp:2953
 #, kde-format
 msgid "Expanding Spacer"
 msgstr ""
@@ -27801,44 +27813,44 @@ msgctxt "choice for author profile"
 msgid "Anonymous"
 msgstr ""
 
-#: libs/ui/KisWelcomePageWidget.cpp:140
+#: libs/ui/KisWelcomePageWidget.cpp:141
 #, kde-format
 msgid "Enable news and check for new releases"
 msgstr ""
 
-#: libs/ui/KisWelcomePageWidget.cpp:142
+#: libs/ui/KisWelcomePageWidget.cpp:143
 #, kde-format
 msgid ""
 "Show news about Krita: this needs internet to retrieve information from the "
 "krita.org website"
 msgstr ""
 
-#: libs/ui/KisWelcomePageWidget.cpp:145 plugins/python/comics_project_management_tools/comics_metadata_dialog.py:343
+#: libs/ui/KisWelcomePageWidget.cpp:146 plugins/python/comics_project_management_tools/comics_metadata_dialog.py:343
 #, kde-format
 msgid "Language"
 msgstr ""
 
-#: libs/ui/KisWelcomePageWidget.cpp:146
+#: libs/ui/KisWelcomePageWidget.cpp:147
 #, kde-format
 msgid "English news is always up to date."
 msgstr ""
 
-#: libs/ui/KisWelcomePageWidget.cpp:415
+#: libs/ui/KisWelcomePageWidget.cpp:416
 #, kde-format
 msgid "Get your Krita Supporter Badge here!"
 msgstr ""
 
-#: libs/ui/KisWelcomePageWidget.cpp:725
+#: libs/ui/KisWelcomePageWidget.cpp:726
 #, kde-format
 msgid "New version of Krita is available."
 msgstr ""
 
-#: libs/ui/KisWelcomePageWidget.cpp:754
+#: libs/ui/KisWelcomePageWidget.cpp:755
 #, kde-format
 msgid "An error occurred during the update"
 msgstr ""
 
-#: libs/ui/KisWelcomePageWidget.cpp:760
+#: libs/ui/KisWelcomePageWidget.cpp:761
 #, kde-format
 msgid "Restart is required."
 msgstr ""
