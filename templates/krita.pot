@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-01-08 00:42+0000\n"
+"POT-Creation-Date: 2022-01-09 00:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -17405,7 +17405,7 @@ msgstr ""
 msgid "Unparsed Resource Block"
 msgstr ""
 
-#: libs/resources/KisFolderStorage.cpp:266
+#: libs/resources/KisFolderStorage.cpp:273
 #, kde-format
 msgid "Local Resources"
 msgstr ""
@@ -28931,12 +28931,12 @@ msgstr ""
 msgid "The MyPaint Brush Engine is not available for this colorspace"
 msgstr ""
 
-#: libs/ui/tool/kis_tool_paint.cc:384
+#: libs/ui/tool/kis_tool_paint.cc:387
 #, kde-format
 msgid "Color sampler does not work on this layer."
 msgstr ""
 
-#: libs/ui/tool/kis_tool_paint.cc:672
+#: libs/ui/tool/kis_tool_paint.cc:675
 #, kde-format
 msgid "%1 %2 px"
 msgstr ""
