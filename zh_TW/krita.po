@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-01-10 00:42+0000\n"
-"PO-Revision-Date: 2022-01-07 08:24+0000\n"
+"PO-Revision-Date: 2022-01-10 16:26+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -19665,18 +19665,15 @@ msgstr "匯入到："
 
 #. i18n: ectx: property (title), widget (QGroupBox, optionFilterDuplicates)
 #: libs/ui/animation/VideoImportDialog.ui:469
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Add duplicate frame"
+#, kde-format
 msgid "Filter duplicate frames"
-msgstr "新增重複影格"
+msgstr "過濾重複影格"
 
 #. i18n: ectx: property (text), widget (QLabel, sensitivityLabel)
 #: libs/ui/animation/VideoImportDialog.ui:493
-#, fuzzy, kde-format
-#| msgid "Sensitivity:"
+#, kde-format
 msgid "Sensitivity"
-msgstr "靈敏度："
+msgstr "靈敏度"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tabOptions)
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
