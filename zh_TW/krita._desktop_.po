@@ -22,7 +22,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_koffice\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-01-05 00:56+0000\n"
+"POT-Creation-Date: 2022-01-10 00:52+0000\n"
 "PO-Revision-Date: 2021-10-23 11:25+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
@@ -39,7 +39,7 @@ msgctxt "Name"
 msgid "Digital"
 msgstr "數位"
 
-#: krita/data/paintoppresets/Digital.tag:39
+#: krita/data/paintoppresets/Digital.tag:40
 msgctxt "Comment"
 msgid "Brush presets with a digital look and feel."
 msgstr "數位化質感的筆刷預設。"
@@ -59,7 +59,7 @@ msgctxt "Name"
 msgid "★ My Favorites"
 msgstr "★ 最愛"
 
-#: krita/data/paintoppresets/Favorites.tag:28
+#: krita/data/paintoppresets/Favorites.tag:29
 msgctxt "Comment"
 msgid "Your favorite brush presets"
 msgstr "您最常用的筆刷預設"
