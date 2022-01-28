@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-01-25 00:41+0000\n"
+"POT-Creation-Date: 2022-01-28 00:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -14051,19 +14051,19 @@ msgstr ""
 msgid "Line"
 msgstr ""
 
-#: libs/brush/kis_auto_brush.cpp:406
+#: libs/brush/kis_auto_brush.cpp:392
 #, kde-format
 msgctxt "PaintOp instant preview limitation"
 msgid "Brush Density recommended value 100.0"
 msgstr ""
 
-#: libs/brush/kis_auto_brush.cpp:410
+#: libs/brush/kis_auto_brush.cpp:396
 #, kde-format
 msgctxt "PaintOp instant preview limitation"
 msgid "Brush Randomness recommended value 0.0"
 msgstr ""
 
-#: libs/brush/kis_brush.cpp:737
+#: libs/brush/kis_brush.cpp:727
 #, kde-format
 msgctxt "PaintOp instant preview limitation"
 msgid "Spacing > 0.5, consider disabling Instant Preview"
@@ -17453,8 +17453,8 @@ msgstr ""
 #: libs/ui/utils/KisClipboardUtil.cpp:131
 #: libs/ui/utils/KisClipboardUtil.cpp:241
 #: libs/ui/widgets/kis_custom_image_widget.cc:299
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:1080
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:1083
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:1301
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:1304
 #: plugins/dockers/gamutmask/gamutmask_dock.cpp:304
 #: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:175
 #: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:178
@@ -17795,7 +17795,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, deleteAllAssistantsButton)
 #: libs/resources/KisTagModel.cpp:124 libs/resources/KisTagModel.cpp:297
 #: libs/ui/widgets/kis_paintop_presets_editor.cpp:592
-#: plugins/assistants/Assistants/AssistantsToolOptions.ui:262
+#: plugins/assistants/Assistants/AssistantsToolOptions.ui:325
 #: plugins/tools/defaulttool/referenceimagestool/WdgToolOptions.ui:220
 #, kde-format
 msgid "All"
@@ -28943,6 +28943,7 @@ msgstr ""
 
 #: libs/ui/tool/kis_tool_freehand.cc:200 libs/ui/tool/kis_tool_polyline_base.cpp:81
 #: libs/ui/tool/kis_tool_rectangle_base.cpp:125
+#: libs/ui/tool/KisToolOutlineBase.cpp:88
 #: plugins/tools/basictools/kis_tool_line.cc:175
 #: plugins/tools/basictools/kis_tool_path.cc:70
 #: plugins/tools/basictools/kis_tool_pencil.cc:53
@@ -28962,6 +28963,7 @@ msgstr ""
 
 #: libs/ui/tool/kis_tool_polyline_base.cpp:75
 #: libs/ui/tool/kis_tool_rectangle_base.cpp:119
+#: libs/ui/tool/KisToolOutlineBase.cpp:82
 #, kde-format
 msgid ""
 "This tool cannot paint on clone layers.  Please select a paint or vector "
@@ -29262,8 +29264,8 @@ msgid "Transparent"
 msgstr ""
 
 #: libs/ui/widgets/gradient/KisGradientColorEditor.cpp:92
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:1238
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:1244
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:1463
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:1469
 #: plugins/filters/halftone/KisHalftoneConfigPageWidget.cpp:50
 #: plugins/filters/halftone/KisHalftoneConfigPageWidget.cpp:53
 #: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:39
@@ -32794,26 +32796,32 @@ msgstr ""
 msgid "Enable vertical ruler"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QCheckBox, fixedLengthCheckbox)
+#: plugins/assistants/Assistants/AssistantsToolOptions.ui:117
+#, kde-format
+msgid "Fixed Length"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLabel, globalColorLabel)
-#: plugins/assistants/Assistants/AssistantsToolOptions.ui:97
+#: plugins/assistants/Assistants/AssistantsToolOptions.ui:160
 #, kde-format
 msgid "Global Color:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, useCustomAssistantColor)
-#: plugins/assistants/Assistants/AssistantsToolOptions.ui:146
+#: plugins/assistants/Assistants/AssistantsToolOptions.ui:209
 #, kde-format
 msgid "Custom Color"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, loadAssistantButton)
-#: plugins/assistants/Assistants/AssistantsToolOptions.ui:211
+#: plugins/assistants/Assistants/AssistantsToolOptions.ui:274
 #, kde-format
 msgid "Load Assistant Set"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, saveAssistantButton)
-#: plugins/assistants/Assistants/AssistantsToolOptions.ui:230
+#: plugins/assistants/Assistants/AssistantsToolOptions.ui:293
 #, kde-format
 msgid "Save Assistant Set"
 msgstr ""
@@ -32874,33 +32882,43 @@ msgstr ""
 msgid "Infinite Ruler assistant"
 msgstr ""
 
-#: plugins/assistants/Assistants/InfiniteRulerAssistant.cc:154
+#: plugins/assistants/Assistants/InfiniteRulerAssistant.cc:260
 #, kde-format
 msgid "Infinite Ruler"
 msgstr ""
 
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:935
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:1156
 #, kde-format
 msgid "Select an Assistant"
 msgstr ""
 
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:1083
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:1304
 #, kde-format
 msgid "Errors were encountered. Not all assistants were successfully loaded."
 msgstr ""
 
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:1168
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:1389
 #, kde-format
 msgid "Save Assistant"
 msgstr ""
 
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:1251
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:1255
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:1476
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:1480
 #, kde-format
 msgid "Density: "
 msgstr ""
 
-#: plugins/assistants/Assistants/kis_assistant_tool.h:167
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:1485
+#, kde-format
+msgid "Subdivisions: "
+msgstr ""
+
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:1489
+#, kde-format
+msgid "Minor Subdivisions: "
+msgstr ""
+
+#: plugins/assistants/Assistants/kis_assistant_tool.h:174
 #, kde-format
 msgid "Assistant Tool"
 msgstr ""
@@ -32982,26 +33000,26 @@ msgstr ""
 msgid "Parallel Ruler"
 msgstr ""
 
-#: plugins/assistants/Assistants/PerspectiveAssistant.cc:28
+#: plugins/assistants/Assistants/PerspectiveAssistant.cc:29
 #, kde-format
 msgid "Perspective assistant"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, perspectiveTransformButton)
 #. i18n: ectx: property (text), widget (QToolButton, perspectiveTransformButton)
-#: plugins/assistants/Assistants/PerspectiveAssistant.cc:499
+#: plugins/assistants/Assistants/PerspectiveAssistant.cc:526
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:152
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:155
 #, kde-format
 msgid "Perspective"
 msgstr ""
 
-#: plugins/assistants/Assistants/RulerAssistant.cc:24
+#: plugins/assistants/Assistants/RulerAssistant.cc:25
 #, kde-format
 msgid "Ruler assistant"
 msgstr ""
 
-#: plugins/assistants/Assistants/RulerAssistant.cc:160
+#: plugins/assistants/Assistants/RulerAssistant.cc:339
 #, kde-format
 msgid "Ruler"
 msgstr ""
@@ -51600,17 +51618,17 @@ msgstr ""
 msgid "Elliptical Selection Tool"
 msgstr ""
 
-#: plugins/tools/selectiontools/kis_tool_select_outline.cc:52
-#, kde-format
-msgid "Freehand Selection"
-msgstr ""
-
-#: plugins/tools/selectiontools/kis_tool_select_outline.cc:165
+#: plugins/tools/selectiontools/kis_tool_select_outline.cc:54
 msgctxt "(qtundo-format)"
 msgid "Freehand Selection"
 msgstr ""
 
-#: plugins/tools/selectiontools/kis_tool_select_outline.h:68
+#: plugins/tools/selectiontools/kis_tool_select_outline.cc:106
+#, kde-format
+msgid "Freehand Selection"
+msgstr ""
+
+#: plugins/tools/selectiontools/kis_tool_select_outline.h:55
 #, kde-format
 msgid "Freehand Selection Tool"
 msgstr ""
