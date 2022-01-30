@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-01-30 00:43+0000\n"
-"PO-Revision-Date: 2022-01-23 09:07+0000\n"
+"PO-Revision-Date: 2022-01-30 07:39+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -33492,10 +33492,9 @@ msgstr "啟用垂直尺"
 
 #. i18n: ectx: property (text), widget (QCheckBox, fixedLengthCheckbox)
 #: plugins/assistants/Assistants/AssistantsToolOptions.ui:117
-#, fuzzy, kde-format
-#| msgid "Fixed angle:"
+#, kde-format
 msgid "Fixed Length"
-msgstr "固定角度："
+msgstr "固定長度"
 
 #. i18n: ectx: property (text), widget (QLabel, globalColorLabel)
 #: plugins/assistants/Assistants/AssistantsToolOptions.ui:160
@@ -33601,19 +33600,17 @@ msgstr "儲存輔助尺"
 #: plugins/assistants/Assistants/kis_assistant_tool.cc:1480
 #, kde-format
 msgid "Density: "
-msgstr "密度： "
+msgstr "密度："
 
 #: plugins/assistants/Assistants/kis_assistant_tool.cc:1485
-#, fuzzy, kde-format
-#| msgid "Subdivision:"
+#, kde-format
 msgid "Subdivisions: "
-msgstr "細分："
+msgstr "分段數："
 
 #: plugins/assistants/Assistants/kis_assistant_tool.cc:1489
-#, fuzzy, kde-format
-#| msgid "Subdivision:"
+#, kde-format
 msgid "Minor Subdivisions: "
-msgstr "細分："
+msgstr "刻度細分："
 
 #: plugins/assistants/Assistants/kis_assistant_tool.h:174
 #, kde-format
