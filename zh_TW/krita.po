@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-01-21 00:44+0000\n"
-"PO-Revision-Date: 2022-01-23 09:07+0000\n"
+"POT-Creation-Date: 2022-01-30 00:43+0000\n"
+"PO-Revision-Date: 2022-01-30 07:39+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -14068,19 +14068,19 @@ msgstr "鉛筆"
 msgid "Line"
 msgstr "線條"
 
-#: libs/brush/kis_auto_brush.cpp:406
+#: libs/brush/kis_auto_brush.cpp:392
 #, kde-format
 msgctxt "PaintOp instant preview limitation"
 msgid "Brush Density recommended value 100.0"
 msgstr "筆刷密度建議值為 100.0"
 
-#: libs/brush/kis_auto_brush.cpp:410
+#: libs/brush/kis_auto_brush.cpp:396
 #, kde-format
 msgctxt "PaintOp instant preview limitation"
 msgid "Brush Randomness recommended value 0.0"
 msgstr "筆刷隨機度建議值為 0.0"
 
-#: libs/brush/kis_brush.cpp:737
+#: libs/brush/kis_brush.cpp:727
 #, kde-format
 msgctxt "PaintOp instant preview limitation"
 msgid "Spacing > 0.5, consider disabling Instant Preview"
@@ -15297,7 +15297,7 @@ msgctxt "(qtundo-format)"
 msgid "Assign Profile"
 msgstr "指定特性檔案"
 
-#: libs/image/kis_image.cc:2453
+#: libs/image/kis_image.cc:2459
 msgctxt "(qtundo-format)"
 msgid "Crop Selections"
 msgstr "裁切選取區域"
@@ -17485,8 +17485,8 @@ msgstr "本機資源"
 #: libs/ui/KisMainWindow.cpp:1120 libs/ui/KisMainWindow.cpp:1218
 #: libs/ui/KisMainWindow.cpp:1814 libs/ui/KisMainWindow.cpp:1823
 #: libs/ui/KisMainWindow.cpp:1962 libs/ui/KisMainWindow.cpp:2023
-#: libs/ui/KisMainWindow.cpp:2044 libs/ui/KisPart.cpp:564
-#: libs/ui/KisPart.cpp:567 libs/ui/KisReferenceImage.cpp:178
+#: libs/ui/KisMainWindow.cpp:2044 libs/ui/KisPart.cpp:569
+#: libs/ui/KisPart.cpp:572 libs/ui/KisReferenceImage.cpp:178
 #: libs/ui/KisRemoteFileFetcher.cpp:42 libs/ui/KisTemplateCreateDia.cpp:284
 #: libs/ui/KisTemplateCreateDia.cpp:390 libs/ui/KisView.cpp:735
 #: libs/ui/KisWelcomePageWidget.cpp:711
@@ -17494,8 +17494,8 @@ msgstr "本機資源"
 #: libs/ui/utils/KisClipboardUtil.cpp:131
 #: libs/ui/utils/KisClipboardUtil.cpp:241
 #: libs/ui/widgets/kis_custom_image_widget.cc:299
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:1080
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:1083
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:1301
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:1304
 #: plugins/dockers/gamutmask/gamutmask_dock.cpp:304
 #: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:175
 #: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:178
@@ -17837,7 +17837,7 @@ msgstr "縮圖"
 #. i18n: ectx: property (text), widget (QPushButton, deleteAllAssistantsButton)
 #: libs/resources/KisTagModel.cpp:124 libs/resources/KisTagModel.cpp:297
 #: libs/ui/widgets/kis_paintop_presets_editor.cpp:592
-#: plugins/assistants/Assistants/AssistantsToolOptions.ui:262
+#: plugins/assistants/Assistants/AssistantsToolOptions.ui:325
 #: plugins/tools/defaulttool/referenceimagestool/WdgToolOptions.ui:220
 #, kde-format
 msgid "All"
@@ -28042,7 +28042,7 @@ msgctxt "Default new group name"
 msgid "New Group %1"
 msgstr "建立群組 %1"
 
-#: libs/ui/KisPart.cpp:564
+#: libs/ui/KisPart.cpp:569
 #, kde-format
 msgid ""
 "Could not create document from template\n"
@@ -28051,7 +28051,7 @@ msgstr ""
 "無法用範本%1\n"
 "建立檔案"
 
-#: libs/ui/KisPart.cpp:567
+#: libs/ui/KisPart.cpp:572
 #, kde-format
 msgid ""
 "Could not create document from template\n"
@@ -29318,12 +29318,12 @@ msgstr "深度(&D)："
 msgid "Li&nk with Layer"
 msgstr "與圖層連結(&N)"
 
-#: libs/ui/opengl/kis_opengl.cpp:550
+#: libs/ui/opengl/kis_opengl.cpp:548
 #, kde-format
 msgid "The Intel graphics driver in use is known to have issues with OpenGL."
 msgstr "目前使用的 Intel 核芯顯示卡驅動程式對 OpenGL 的支援存有已知的問題。"
 
-#: libs/ui/opengl/kis_opengl.cpp:552
+#: libs/ui/opengl/kis_opengl.cpp:550
 #, kde-format
 msgid ""
 "Intel graphics drivers tend to have issues with OpenGL so ANGLE will be used "
@@ -29333,14 +29333,14 @@ msgstr ""
 "Intel 核芯顯示卡的驅動程式在 OpenGL 支援方面常常存在各種問題，因此預設將使用 "
 "ANGLE 繪製器。您可以手動切換成 OpenGL 模式，但是無法保證正常作業。"
 
-#: libs/ui/opengl/kis_opengl.cpp:952
+#: libs/ui/opengl/kis_opengl.cpp:950
 #, kde-format
 msgid ""
 "Preferred renderer doesn't support requested surface format. Another "
 "renderer has been selected."
 msgstr "首選繪製器不支援請求的表面格式。已選用另一個繪製器。"
 
-#: libs/ui/opengl/kis_opengl.cpp:954
+#: libs/ui/opengl/kis_opengl.cpp:952
 #, kde-format
 msgid "Preferred output format is not supported by available renderers"
 msgstr "可用繪製器不支援首選輸出格式"
@@ -29360,7 +29360,7 @@ msgstr ""
 "\n"
 "Krita 將在停用 OpenGL 選項後立即關閉。"
 
-#: libs/ui/opengl/kis_opengl_image_textures.cpp:834
+#: libs/ui/opengl/kis_opengl_image_textures.cpp:842
 #, kde-format
 msgid "OpenColorIO is disabled: image color space is not supported"
 msgstr "已停用 OpenColorIO：不支援影像色彩空間"
@@ -29417,6 +29417,7 @@ msgstr "筆刷工具無法在此圖層繪畫，請選取一個顏料圖層或者
 #: libs/ui/tool/kis_tool_freehand.cc:200
 #: libs/ui/tool/kis_tool_polyline_base.cpp:81
 #: libs/ui/tool/kis_tool_rectangle_base.cpp:125
+#: libs/ui/tool/KisToolOutlineBase.cpp:88
 #: plugins/tools/basictools/kis_tool_line.cc:175
 #: plugins/tools/basictools/kis_tool_path.cc:70
 #: plugins/tools/basictools/kis_tool_pencil.cc:53
@@ -29436,6 +29437,7 @@ msgstr "%1 %2 px"
 
 #: libs/ui/tool/kis_tool_polyline_base.cpp:75
 #: libs/ui/tool/kis_tool_rectangle_base.cpp:119
+#: libs/ui/tool/KisToolOutlineBase.cpp:82
 #, kde-format
 msgid ""
 "This tool cannot paint on clone layers.  Please select a paint or vector "
@@ -29747,8 +29749,8 @@ msgid "Transparent"
 msgstr "透明"
 
 #: libs/ui/widgets/gradient/KisGradientColorEditor.cpp:92
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:1238
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:1244
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:1463
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:1469
 #: plugins/filters/halftone/KisHalftoneConfigPageWidget.cpp:50
 #: plugins/filters/halftone/KisHalftoneConfigPageWidget.cpp:53
 #: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:39
@@ -33488,26 +33490,32 @@ msgstr "啟用時，將提供垂直輔助尺以協助繪畫垂直線條 (與地�
 msgid "Enable vertical ruler"
 msgstr "啟用垂直尺"
 
+#. i18n: ectx: property (text), widget (QCheckBox, fixedLengthCheckbox)
+#: plugins/assistants/Assistants/AssistantsToolOptions.ui:117
+#, kde-format
+msgid "Fixed Length"
+msgstr "固定長度"
+
 #. i18n: ectx: property (text), widget (QLabel, globalColorLabel)
-#: plugins/assistants/Assistants/AssistantsToolOptions.ui:97
+#: plugins/assistants/Assistants/AssistantsToolOptions.ui:160
 #, kde-format
 msgid "Global Color:"
 msgstr "全域色彩："
 
 #. i18n: ectx: property (text), widget (QCheckBox, useCustomAssistantColor)
-#: plugins/assistants/Assistants/AssistantsToolOptions.ui:146
+#: plugins/assistants/Assistants/AssistantsToolOptions.ui:209
 #, kde-format
 msgid "Custom Color"
 msgstr "自訂色彩"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, loadAssistantButton)
-#: plugins/assistants/Assistants/AssistantsToolOptions.ui:211
+#: plugins/assistants/Assistants/AssistantsToolOptions.ui:274
 #, kde-format
 msgid "Load Assistant Set"
 msgstr "載入輔助尺集合"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, saveAssistantButton)
-#: plugins/assistants/Assistants/AssistantsToolOptions.ui:230
+#: plugins/assistants/Assistants/AssistantsToolOptions.ui:293
 #, kde-format
 msgid "Save Assistant Set"
 msgstr "儲存輔助尺集合"
@@ -33568,33 +33576,43 @@ msgstr "魚眼透視"
 msgid "Infinite Ruler assistant"
 msgstr "無限直線輔助尺"
 
-#: plugins/assistants/Assistants/InfiniteRulerAssistant.cc:154
+#: plugins/assistants/Assistants/InfiniteRulerAssistant.cc:260
 #, kde-format
 msgid "Infinite Ruler"
 msgstr "無限直線"
 
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:935
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:1156
 #, kde-format
 msgid "Select an Assistant"
 msgstr "選擇輔助尺"
 
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:1083
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:1304
 #, kde-format
 msgid "Errors were encountered. Not all assistants were successfully loaded."
 msgstr "發生錯誤。未能成功載入全部輔助尺。"
 
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:1168
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:1389
 #, kde-format
 msgid "Save Assistant"
 msgstr "儲存輔助尺"
 
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:1251
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:1255
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:1476
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:1480
 #, kde-format
 msgid "Density: "
-msgstr "密度： "
+msgstr "密度："
 
-#: plugins/assistants/Assistants/kis_assistant_tool.h:167
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:1485
+#, kde-format
+msgid "Subdivisions: "
+msgstr "分段數："
+
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:1489
+#, kde-format
+msgid "Minor Subdivisions: "
+msgstr "刻度細分："
+
+#: plugins/assistants/Assistants/kis_assistant_tool.h:174
 #, kde-format
 msgid "Assistant Tool"
 msgstr "輔助尺工具"
@@ -33676,26 +33694,26 @@ msgstr "平行線輔助尺"
 msgid "Parallel Ruler"
 msgstr "平行線"
 
-#: plugins/assistants/Assistants/PerspectiveAssistant.cc:28
+#: plugins/assistants/Assistants/PerspectiveAssistant.cc:29
 #, kde-format
 msgid "Perspective assistant"
 msgstr "透視輔助尺"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, perspectiveTransformButton)
 #. i18n: ectx: property (text), widget (QToolButton, perspectiveTransformButton)
-#: plugins/assistants/Assistants/PerspectiveAssistant.cc:499
+#: plugins/assistants/Assistants/PerspectiveAssistant.cc:526
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:152
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:155
 #, kde-format
 msgid "Perspective"
 msgstr "透視"
 
-#: plugins/assistants/Assistants/RulerAssistant.cc:24
+#: plugins/assistants/Assistants/RulerAssistant.cc:25
 #, kde-format
 msgid "Ruler assistant"
 msgstr "直線輔助尺"
 
-#: plugins/assistants/Assistants/RulerAssistant.cc:160
+#: plugins/assistants/Assistants/RulerAssistant.cc:339
 #, kde-format
 msgid "Ruler"
 msgstr "直線"
@@ -52732,17 +52750,17 @@ msgstr "橢圓選取區域"
 msgid "Elliptical Selection Tool"
 msgstr "橢圓選取區域工具"
 
-#: plugins/tools/selectiontools/kis_tool_select_outline.cc:52
-#, kde-format
-msgid "Freehand Selection"
-msgstr "手繪選取區域"
-
-#: plugins/tools/selectiontools/kis_tool_select_outline.cc:165
+#: plugins/tools/selectiontools/kis_tool_select_outline.cc:54
 msgctxt "(qtundo-format)"
 msgid "Freehand Selection"
 msgstr "按手繪邊界建立選取區域"
 
-#: plugins/tools/selectiontools/kis_tool_select_outline.h:68
+#: plugins/tools/selectiontools/kis_tool_select_outline.cc:106
+#, kde-format
+msgid "Freehand Selection"
+msgstr "手繪選取區域"
+
+#: plugins/tools/selectiontools/kis_tool_select_outline.h:55
 #, kde-format
 msgid "Freehand Selection Tool"
 msgstr "手繪選取區域工具"
