@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-01-31 00:42+0000\n"
-"PO-Revision-Date: 2022-01-30 07:39+0000\n"
+"PO-Revision-Date: 2022-01-31 09:44+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -32547,6 +32547,9 @@ msgid ""
 "Full range: [%1, %2]\n"
 "Subrange: [%3, %4]"
 msgstr ""
+"在全範圍與子範圍之間切換。\n"
+"全範圍：[%1, %2]\n"
+"子範圍：[%3, %4]"
 
 #: libs/widgetutils/kis_slider_spin_box_p.h:517
 #, kde-format
