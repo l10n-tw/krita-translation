@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-01-30 00:43+0000\n"
+"POT-Creation-Date: 2022-01-31 00:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -31886,19 +31886,29 @@ msgstr ""
 msgid "Font Style"
 msgstr ""
 
-#: libs/widgetutils/kis_slider_spin_box_p.h:515
+#: libs/widgetutils/kis_slider_spin_box_p.h:347
+#, kde-format
+msgctxt ""
+"@info:tooltip toggle between soft and hard range in the slider spin box"
+msgid ""
+"Toggle between full range and subrange.\n"
+"Full range: [%1, %2]\n"
+"Subrange: [%3, %4]"
+msgstr ""
+
+#: libs/widgetutils/kis_slider_spin_box_p.h:517
 #, kde-format
 msgctxt "Menu action to select all text in the slider spin box"
 msgid "&Select All"
 msgstr ""
 
-#: libs/widgetutils/kis_slider_spin_box_p.h:525
+#: libs/widgetutils/kis_slider_spin_box_p.h:527
 #, kde-format
 msgctxt "Menu action to step up in the slider spin box"
 msgid "&Step up"
 msgstr ""
 
-#: libs/widgetutils/kis_slider_spin_box_p.h:527
+#: libs/widgetutils/kis_slider_spin_box_p.h:529
 #, kde-format
 msgctxt "Menu action to step down in the slider spin box"
 msgid "Step &down"
