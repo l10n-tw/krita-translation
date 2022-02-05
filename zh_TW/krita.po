@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-01-31 00:42+0000\n"
+"POT-Creation-Date: 2022-02-05 00:41+0000\n"
 "PO-Revision-Date: 2022-01-31 09:44+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
@@ -14803,7 +14803,7 @@ msgstr "大小"
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1352
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1355
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1421
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1103
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1174
 #: libs/ui/forms/wdgdisplaysettings.ui:318
 #: libs/ui/forms/wdgrectangleconstraints.ui:86
 #: libs/ui/forms/wdgrectangleconstraints.ui:134
@@ -15199,7 +15199,7 @@ msgstr "匯入的影像"
 msgid "Selection Mask"
 msgstr "選取區域遮罩"
 
-#: libs/image/kis_image.cc:716 libs/ui/KisDocument.cpp:2424
+#: libs/image/kis_image.cc:716 libs/ui/KisDocument.cpp:2426
 #: plugins/impex/psd/psd_loader.cpp:162
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:68
 #: plugins/python/comics_project_management_tools/comics_template_dialog.py:302
@@ -15786,12 +15786,12 @@ msgstr "覆蓋 (樣式)"
 msgid "Satin (style)"
 msgstr "光澤 (樣式)"
 
-#: libs/image/lazybrush/kis_colorize_mask.cpp:938
+#: libs/image/lazybrush/kis_colorize_mask.cpp:955
 msgctxt "(qtundo-format)"
 msgid "Change Key Stroke Color"
 msgstr "變更關鍵筆畫色彩"
 
-#: libs/image/lazybrush/kis_colorize_mask.cpp:965
+#: libs/image/lazybrush/kis_colorize_mask.cpp:982
 msgctxt "(qtundo-format)"
 msgid "Remove Key Stroke"
 msgstr "移除關鍵筆畫"
@@ -17417,8 +17417,8 @@ msgstr "輸出"
 #: libs/pigment/resources/KoColorSet.cpp:770
 #: libs/pigment/resources/KoColorSet.cpp:852
 #: libs/pigment/resources/KoColorSet.cpp:1075
-#: libs/ui/actions/KisPasteActionFactories.cpp:302
-#: libs/ui/animation/KisDlgAnimationRenderer.cpp:345 libs/ui/KisView.cpp:732
+#: libs/ui/actions/KisPasteActionFactories.cpp:301
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:345 libs/ui/KisView.cpp:844
 #: plugins/generators/seexpr/kis_wdg_seexpr.cpp:34
 #, kde-format
 msgid "Untitled"
@@ -17471,29 +17471,29 @@ msgstr "本機資源"
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:766
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:791
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:354
-#: libs/ui/dialogs/kis_dlg_preferences.cc:579
-#: libs/ui/input/kis_tablet_debugger.cpp:96 libs/ui/kis_custom_pattern.cc:131
-#: libs/ui/kis_filter_manager.cc:233 libs/ui/kis_filter_manager.cc:242
-#: libs/ui/kis_layer_manager.cc:314 libs/ui/kis_layer_manager.cc:964
-#: libs/ui/kis_node_manager.cpp:1218 libs/ui/kis_node_manager.cpp:1281
-#: libs/ui/KisApplication.cpp:973 libs/ui/KisApplication.cpp:976
-#: libs/ui/KisApplication.cpp:992 libs/ui/KisApplication.cpp:1024
-#: libs/ui/KisApplication.cpp:1038 libs/ui/KisApplication.cpp:1066
-#: libs/ui/KisDocument.cpp:916 libs/ui/KisDocument.cpp:924
-#: libs/ui/KisDocument.cpp:1780 libs/ui/KisDocument.cpp:1823
-#: libs/ui/KisDocument.cpp:1831 libs/ui/KisMainWindow.cpp:994
-#: libs/ui/KisMainWindow.cpp:1120 libs/ui/KisMainWindow.cpp:1218
-#: libs/ui/KisMainWindow.cpp:1814 libs/ui/KisMainWindow.cpp:1823
-#: libs/ui/KisMainWindow.cpp:1962 libs/ui/KisMainWindow.cpp:2023
-#: libs/ui/KisMainWindow.cpp:2044 libs/ui/KisPart.cpp:569
-#: libs/ui/KisPart.cpp:572 libs/ui/KisReferenceImage.cpp:178
-#: libs/ui/KisRemoteFileFetcher.cpp:42 libs/ui/KisTemplateCreateDia.cpp:284
-#: libs/ui/KisTemplateCreateDia.cpp:390 libs/ui/KisView.cpp:735
+#: libs/ui/dialogs/kis_dlg_preferences.cc:650
+#: libs/ui/input/kis_tablet_debugger.cpp:96 libs/ui/kis_clipboard.cc:675
+#: libs/ui/kis_custom_pattern.cc:131 libs/ui/kis_filter_manager.cc:233
+#: libs/ui/kis_filter_manager.cc:242 libs/ui/kis_layer_manager.cc:314
+#: libs/ui/kis_layer_manager.cc:964 libs/ui/kis_node_manager.cpp:1218
+#: libs/ui/kis_node_manager.cpp:1281 libs/ui/KisApplication.cpp:969
+#: libs/ui/KisApplication.cpp:972 libs/ui/KisApplication.cpp:988
+#: libs/ui/KisApplication.cpp:1020 libs/ui/KisApplication.cpp:1034
+#: libs/ui/KisApplication.cpp:1062 libs/ui/KisDocument.cpp:917
+#: libs/ui/KisDocument.cpp:925 libs/ui/KisDocument.cpp:1782
+#: libs/ui/KisDocument.cpp:1825 libs/ui/KisDocument.cpp:1833
+#: libs/ui/KisMainWindow.cpp:994 libs/ui/KisMainWindow.cpp:1120
+#: libs/ui/KisMainWindow.cpp:1218 libs/ui/KisMainWindow.cpp:1814
+#: libs/ui/KisMainWindow.cpp:1823 libs/ui/KisMainWindow.cpp:1962
+#: libs/ui/KisMainWindow.cpp:2023 libs/ui/KisMainWindow.cpp:2044
+#: libs/ui/KisPart.cpp:569 libs/ui/KisPart.cpp:572
+#: libs/ui/KisReferenceImage.cpp:180 libs/ui/KisRemoteFileFetcher.cpp:35
+#: libs/ui/KisRemoteFileFetcher.cpp:56 libs/ui/KisRemoteFileFetcher.cpp:86
+#: libs/ui/KisTemplateCreateDia.cpp:284 libs/ui/KisTemplateCreateDia.cpp:390
+#: libs/ui/KisView.cpp:589 libs/ui/KisView.cpp:847
 #: libs/ui/KisWelcomePageWidget.cpp:711
-#: libs/ui/opengl/kis_opengl_canvas2.cpp:388
-#: libs/ui/utils/KisClipboardUtil.cpp:131
-#: libs/ui/utils/KisClipboardUtil.cpp:241
-#: libs/ui/widgets/kis_custom_image_widget.cc:299
+#: libs/ui/opengl/KisOpenGLCanvasRenderer.cpp:356
+#: libs/ui/widgets/kis_custom_image_widget.cc:293
 #: plugins/assistants/Assistants/kis_assistant_tool.cc:1301
 #: plugins/assistants/Assistants/kis_assistant_tool.cc:1304
 #: plugins/dockers/gamutmask/gamutmask_dock.cpp:304
@@ -17678,8 +17678,8 @@ msgstr "MD5 雜湊值"
 #. i18n: ectx: attribute (title), widget (QWidget, tab_hsx)
 #. i18n: ectx: property (text), widget (QLabel, lblCurrentRenderer)
 #: libs/resources/KisResourceStorage.h:116
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1456
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1460
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1527
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1531
 #: libs/ui/forms/wdgdisplaysettings.ui:172 libs/ui/KoDocumentInfo.cpp:39
 #: libs/widgets/KisDlgInternalColorSelector.cpp:322
 #: libs/widgets/WdgDlgInternalColorSelector.ui:89
@@ -17905,7 +17905,7 @@ msgstr "儲存空間"
 #. i18n: ectx: attribute (title), widget (QWidget, tabResources)
 #. i18n: ectx: attribute (title), widget (QWidget, tab_4)
 #: libs/resourcewidgets/dbexplorer/WdgDbExplorer.ui:39
-#: libs/ui/forms/wdggeneralsettings.ui:997
+#: libs/ui/forms/wdggeneralsettings.ui:1066
 #, kde-format
 msgid "Resources"
 msgstr "資源"
@@ -18264,7 +18264,7 @@ msgstr "取代 (覆蓋) 標籤"
 #: libs/ui/dialogs/KisRecoverNamedAutosaveDialog.ui:60
 #: libs/ui/forms/wdgpaintopsettings.ui:201
 #: libs/ui/input/kis_tool_invocation_action.cpp:43
-#: libs/ui/utils/KisClipboardUtil.cpp:71
+#: libs/ui/widgets/kis_canvas_drop.cpp:45
 #: plugins/dockers/gamutmask/forms/wdgGamutMaskChooser.ui:190
 #: plugins/dockers/recorder/recorder_export.ui:739
 #: plugins/dockers/recorder/recorder_snapshots_manager.ui:130
@@ -18336,7 +18336,7 @@ msgid "Select All"
 msgstr "全部選取"
 
 #: libs/ui/actions/kis_selection_action_factories.cpp:217
-#: libs/ui/KisView.cpp:549
+#: libs/ui/KisView.cpp:661
 msgctxt "(qtundo-format)"
 msgid "Flood Fill Layer"
 msgstr "浸漫填充圖層"
@@ -18392,23 +18392,23 @@ msgctxt "(qtundo-format)"
 msgid "Draw Polyline"
 msgstr "繪製折線"
 
-#: libs/ui/actions/KisPasteActionFactories.cpp:121
+#: libs/ui/actions/KisPasteActionFactories.cpp:120
 msgctxt "(qtundo-format)"
 msgid "Paste shapes"
 msgstr "貼上形狀"
 
-#: libs/ui/actions/KisPasteActionFactories.cpp:237
-#: libs/ui/actions/KisPasteActionFactories.cpp:309
+#: libs/ui/actions/KisPasteActionFactories.cpp:236
+#: libs/ui/actions/KisPasteActionFactories.cpp:308
 #, kde-format
 msgid "(pasted)"
 msgstr "(已貼上)"
 
-#: libs/ui/actions/KisPasteActionFactories.cpp:307
+#: libs/ui/actions/KisPasteActionFactories.cpp:306
 #, kde-format
 msgid "Pasted"
 msgstr "已貼上"
 
-#: libs/ui/actions/KisPasteActionFactories.cpp:359
+#: libs/ui/actions/KisPasteActionFactories.cpp:358
 msgctxt "(qtundo-format)"
 msgid "Paste Style"
 msgstr "貼上樣式"
@@ -19434,8 +19434,8 @@ msgstr "主顯示器："
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgDisplaySettings)
 #: libs/ui/animation/VideoHDRMetadataOptionsDialog.ui:38
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1741
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1743
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1812
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1814
 #: libs/ui/forms/wdgcolorsettings.ui:154 libs/ui/forms/wdgdisplaysettings.ui:24
 #, kde-format
 msgid "Display"
@@ -19530,8 +19530,8 @@ msgstr "匯入影片動畫"
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
 #. i18n: ectx: attribute (title), widget (QWidget, general)
 #: libs/ui/animation/VideoImportDialog.ui:34
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1711
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1713
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1782
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1784
 #: libs/ui/forms/wdgcolorsettings.ui:28
 #: libs/ui/forms/wdgperformancesettings.ui:38 libs/ui/KoDocumentInfoDlg.cpp:92
 #: libs/ui/KoDocumentInfoDlg.cpp:93
@@ -20521,7 +20521,7 @@ msgstr "圖層屬性"
 #: libs/ui/widgets/gradient/KisGradientColorEditor.cpp:100
 #: libs/ui/widgets/gradient/KisSegmentGradientEditor.cpp:159
 #: libs/ui/widgets/gradient/KisSegmentGradientEditor.cpp:162
-#: libs/ui/widgets/kis_custom_image_widget.cc:101
+#: libs/ui/widgets/kis_custom_image_widget.cc:100
 #: libs/ui/widgets/KisAutoLevelsWidget.cpp:16
 #: libs/widgets/kis_color_input.cpp:146 libs/widgets/kis_color_input.cpp:189
 #: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:230
@@ -20674,10 +20674,10 @@ msgstr "已存在此名稱的圖層樣式庫。要覆蓋它嗎？"
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1425
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1428
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1431
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1021
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1025
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1029
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1108
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1092
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1096
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1100
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1179
 #: plugins/impex/webp/dlg_webp_import.ui:356
 #: plugins/impex/webp/dlg_webp_import.ui:369
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImagesWidget.cpp:44
@@ -20713,17 +20713,34 @@ msgctxt "layer styles parameter"
 msgid "Spread:"
 msgstr "延伸："
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:171
+#: libs/ui/dialogs/kis_dlg_missing_color_profile.cpp:18
+#, kde-format
+msgctxt "@title:window"
+msgid "Missing Color Profile"
+msgstr "缺少色彩特性檔案"
+
+#: libs/ui/dialogs/kis_dlg_paste_format.cpp:18
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "In Resource manager, this is text shown instead of filename, name or "
+#| "location, when multiple resources are shown so there is no one specific "
+#| "filename"
+#| msgid "(Multiple selected)"
+msgctxt "@title:window"
+msgid "Multiple Paste Sources Detected"
+msgstr "(已選擇多項)"
+
+#: libs/ui/dialogs/kis_dlg_preferences.cc:173
 #, kde-format
 msgid "No Cursor"
 msgstr "無游標"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:172
+#: libs/ui/dialogs/kis_dlg_preferences.cc:174
 #, kde-format
 msgid "Tool Icon"
 msgstr "工具圖示"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:173
+#: libs/ui/dialogs/kis_dlg_preferences.cc:175
 #: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:188
 #: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:222
 #: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:256
@@ -20732,110 +20749,125 @@ msgstr "工具圖示"
 msgid "Arrow"
 msgstr "箭頭"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:174
+#: libs/ui/dialogs/kis_dlg_preferences.cc:176
 #, kde-format
 msgid "Small Circle"
 msgstr "小圓圈"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbDecor)
-#: libs/ui/dialogs/kis_dlg_preferences.cc:175
+#: libs/ui/dialogs/kis_dlg_preferences.cc:177
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:461
 #, kde-format
 msgid "Crosshair"
 msgstr "十字線"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:176
+#: libs/ui/dialogs/kis_dlg_preferences.cc:178
 #, kde-format
 msgid "Triangle Righthanded"
 msgstr "三角形 (慣用右手)"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:177
+#: libs/ui/dialogs/kis_dlg_preferences.cc:179
 #, kde-format
 msgid "Triangle Lefthanded"
 msgstr "三角形 (慣用左手)"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:178
+#: libs/ui/dialogs/kis_dlg_preferences.cc:180
 #, kde-format
 msgid "Black Pixel"
 msgstr "黑色像素"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:179
+#: libs/ui/dialogs/kis_dlg_preferences.cc:181
 #, kde-format
 msgid "White Pixel"
 msgstr "白色像素"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:183
+#: libs/ui/dialogs/kis_dlg_preferences.cc:185
 #, kde-format
 msgctxt "Display options label to not DISPLAY brush outline"
 msgid "No Outline"
 msgstr "不顯示輪廓"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:184
+#: libs/ui/dialogs/kis_dlg_preferences.cc:186
 #, kde-format
 msgid "Circle Outline"
 msgstr "圓形輪廓"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:185
+#: libs/ui/dialogs/kis_dlg_preferences.cc:187
 #, kde-format
 msgid "Preview Outline"
 msgstr "預覽輪廓"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:186
+#: libs/ui/dialogs/kis_dlg_preferences.cc:188
 #, kde-format
 msgid "Tilt Outline"
 msgstr "傾斜度輪廓"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:259
+#: libs/ui/dialogs/kis_dlg_preferences.cc:261
 #, kde-format
 msgid "On Touch Drag"
 msgstr "以觸控螢幕拖曳捲動"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:260
+#: libs/ui/dialogs/kis_dlg_preferences.cc:262
 #, kde-format
 msgid "On Click Drag"
 msgstr "點擊並拖曳捲動"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:261
+#: libs/ui/dialogs/kis_dlg_preferences.cc:263
 #, kde-format
 msgid "On Middle-Click Drag"
 msgstr "按住中間鍵拖曳捲動"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:296
+#: libs/ui/dialogs/kis_dlg_preferences.cc:298
 #, kde-format
 msgid "Open default window"
 msgstr "開啟預設視窗"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:297
+#: libs/ui/dialogs/kis_dlg_preferences.cc:299
 #, kde-format
 msgid "Load previous session"
 msgstr "載入上一次工作階段"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:298
+#: libs/ui/dialogs/kis_dlg_preferences.cc:300
 #, kde-format
 msgid "Show session manager"
 msgstr "顯示工作階段管理器"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:567
+#: libs/ui/dialogs/kis_dlg_preferences.cc:372
+#, kde-format
+msgctxt "@info resource folder"
+msgid ""
+"<p>You are using the Microsoft Store package version of Krita. Even though "
+"Krita can be configured to place resources under the user AppData location, "
+"Windows may actually store the files inside a private app location.</p>\n"
+"<p>You should check both locations to determine where the files are located."
+"</p>\n"
+"<p><b>User AppData</b> (<a href=\"copyuser\">Copy</a>):<br/>\n"
+"%1</p>\n"
+"<p><b>Private app location</b> (<a href=\"copyprivate\">Copy</a>):<br/>\n"
+"%2</p>"
+msgstr ""
+
+#: libs/ui/dialogs/kis_dlg_preferences.cc:638
 #, kde-format
 msgid "Select a Background Image"
 msgstr "選擇背景影像"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:579
+#: libs/ui/dialogs/kis_dlg_preferences.cc:650
 #: libs/ui/KisTemplateCreateDia.cpp:390
 #, kde-format
 msgid "%1 is not a valid image file!"
 msgstr "%1 不是有效的影像檔案！"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:676
+#: libs/ui/dialogs/kis_dlg_preferences.cc:747
 #: libs/ui/widgets/kis_advanced_color_space_selector.cc:55
 #: libs/ui/widgets/kis_color_space_selector.cc:52
 #, kde-format
 msgid "Open Color Profile"
 msgstr "開啟色彩特性檔案"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:682
-#: libs/ui/dialogs/kis_dlg_preferences.cc:791
-#: libs/ui/dialogs/kis_dlg_preferences.cc:873
+#: libs/ui/dialogs/kis_dlg_preferences.cc:753
+#: libs/ui/dialogs/kis_dlg_preferences.cc:862
+#: libs/ui/dialogs/kis_dlg_preferences.cc:944
 #, kde-format
 msgctxt ""
 "The number of the screen (ordinal) and shortened 'name' of the screen (model "
@@ -20843,14 +20875,14 @@ msgctxt ""
 msgid "Screen %1 (%2):"
 msgstr "顯示器 %1 (%2)："
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:750
+#: libs/ui/dialogs/kis_dlg_preferences.cc:821
 #: libs/ui/widgets/kis_advanced_color_space_selector.cc:772
 #: libs/ui/widgets/kis_color_space_selector.cc:188
 #, kde-format
 msgid "Install Color Profiles"
 msgstr "安裝色彩特性檔案"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:965
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1036
 #, kde-format
 msgid ""
 "Use tablet driver timestamps for brush speed (may cause severe artifacts "
@@ -20859,210 +20891,210 @@ msgstr ""
 "以數位板驅動程式提供的筆跡時間戳記來計算筆刷速度 (使用 WinTab 時可能會產生大"
 "量雜訊)"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:967
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1038
 #, kde-format
 msgid "Use tablet driver timestamps for brush speed"
 msgstr "以數位板驅動程式提供的筆跡時間戳記來計算筆刷速度"
 
 #. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, intSwapSize)
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1073
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1144
 #: libs/ui/forms/wdgperformancesettings.ui:206
 #, kde-format
 msgid " GiB"
 msgstr " GiB"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1093
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1164
 #, kde-format
 msgctxt "suffix for \"seconds\""
 msgid " sec"
 msgstr " 秒"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1097
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1168
 #, kde-format
 msgid " fps"
 msgstr " fps"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1256
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1327
 #, kde-format
 msgctxt "@title:window"
 msgid "Select a swap directory"
 msgstr "選擇交換檔案目錄"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1318
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1389
 #, kde-format
 msgctxt "canvas renderer"
 msgid "OpenGL"
 msgstr "OpenGL"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1319
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1390
 #, kde-format
 msgctxt "canvas renderer"
 msgid "Software Renderer (very slow)"
 msgstr "軟體繪製器 (非常慢)"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1321
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1392
 #, kde-format
 msgctxt "canvas renderer"
 msgid "Direct3D 11 via ANGLE"
 msgstr "通過 ANGLE 實現的 Direct3D 11"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1323
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1394
 #, kde-format
 msgctxt "canvas renderer"
 msgid "OpenGL ES"
 msgstr "OpenGL ES"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1330
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1401
 #, kde-format
 msgctxt "canvas renderer"
 msgid "Unknown"
 msgstr "未知"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1350
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1421
 #, kde-format
 msgctxt "canvas renderer"
 msgid "Auto (%1)"
 msgstr "自動 (%1)"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1442
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1513
 #, kde-format
 msgid "Display Id: %1"
 msgstr "顯示器 ID：%1"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1443
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1514
 #, kde-format
 msgid "Display Name: %1 %2"
 msgstr "顯示器名稱：%1 %2"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1444
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1515
 #, kde-format
 msgid "Min Luminance: %1"
 msgstr "最小光度：%1"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1445
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1516
 #, kde-format
 msgid "Max Luminance: %1"
 msgstr "最大光度：%1"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1446
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1517
 #, kde-format
 msgid "Max Full Frame Luminance: %1"
 msgstr "最大全影格光度：%1"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1447
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1518
 #, kde-format
 msgid "Red Primary: %1, %2"
 msgstr "紅基色：%1, %2"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1448
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1519
 #, kde-format
 msgid "Green Primary: %1, %2"
 msgstr "綠基色：%1, %2"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1449
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1520
 #, kde-format
 msgid "Blue Primary: %1, %2"
 msgstr "藍基色：%1, %2"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1450
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1521
 #, kde-format
 msgid "White Point: %1, %2"
 msgstr "白點：%1, %2"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1486
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1557
 #, kde-format
 msgid "Warning(s):"
 msgstr "警告："
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1619
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1690
 #, kde-format
 msgid "WARNING: current display doesn't support HDR rendering"
 msgstr "警告：目前顯示器不支援 HDR 繪製"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1704
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1775
 #, kde-format
 msgid "Configure Krita"
 msgstr "設定 Krita"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1721
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1792
 #, kde-format
 msgid "Keyboard Shortcuts"
 msgstr "鍵盤快捷鍵"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1723
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1794
 #: libs/widgetutils/xmlgui/KisShortcutsEditor_p.cpp:282
 #, kde-format
 msgid "Shortcuts"
 msgstr "快捷鍵"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1733
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1804
 #, kde-format
 msgid "Canvas Input Settings"
 msgstr "畫布輸入設定"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1734
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1805
 #, kde-format
 msgid "Canvas Input"
 msgstr "畫布輸入"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1751
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1822
 #: plugins/dockers/logdocker/LogDockerDock.cpp:191
 #, kde-format
 msgid "Color Management"
 msgstr "色彩管理"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1753
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1824
 #, kde-format
 msgctxt "Label of color as in Color Management"
 msgid "Color"
 msgstr "色彩"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1761
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1763
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1832
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1834
 #, kde-format
 msgid "Performance"
 msgstr "效能"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1771
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1842
 #, kde-format
 msgid "Tablet settings"
 msgstr "數位板設定"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1773
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1844
 #, kde-format
 msgid "Tablet"
 msgstr "數位板"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1781
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1852
 #, kde-format
 msgid "Canvas-only settings"
 msgstr "畫布獨佔模式設定"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1783
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1854
 #, kde-format
 msgid "Canvas-only"
 msgstr "畫布獨佔模式"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1791
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1793
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1862
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1864
 #, kde-format
 msgid "Pop-up Palette"
 msgstr "浮動畫具板"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1801
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1872
 #, kde-format
 msgctxt "@title:tab Author page"
 msgid "Author"
 msgstr "作者檔案"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1803
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1874
 #: libs/ui/KoDocumentInfoDlg.cpp:115
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
 #, kde-format
 msgid "Author"
 msgstr "作者"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1810
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1881
 #, kde-format
 msgctxt "@action:button"
 msgid "Restore Defaults"
@@ -21946,8 +21978,9 @@ msgstr "色彩設定"
 msgid "Use Default color model for new images"
 msgstr "新影像使用預設色彩模型："
 
+#. i18n: ectx: property (title), widget (QGroupBox, grpPasteFrom)
 #. i18n: ectx: property (title), widget (QGroupBox, grpPasteBehaviour)
-#: libs/ui/forms/wdgcolorsettings.ui:76
+#: libs/ui/forms/wdgcolorsettings.ui:76 libs/ui/forms/wdggeneralsettings.ui:989
 #, kde-format
 msgid "When Pasting Into Krita From Other Applications"
 msgstr "從其他應用程式貼上至 Krita 時"
@@ -23152,14 +23185,57 @@ msgstr ""
 "如希望還原先前版本的方式，您可以在此輸入顯示器的 DPI 解析度，以強制 Krita 使"
 "用此 DPI 解析度作文字顯示。"
 
+#. i18n: ectx: property (text), widget (QRadioButton, btnDownload)
+#: libs/ui/forms/wdggeneralsettings.ui:995
+#, kde-format
+msgid "Prefer downloading the original source (this requires Internet access)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lblPasteContext)
+#: libs/ui/forms/wdggeneralsettings.ui:1008
+#, kde-format
+msgid ""
+"Some applications, like Google Chrome, provide multiple formats when pasting "
+"or dropping an image."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, btnLocal)
+#: libs/ui/forms/wdggeneralsettings.ui:1015
+#, kde-format
+msgid "Prefer a local copy (if available; metadata may be lost)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, btnBitmap)
+#: libs/ui/forms/wdggeneralsettings.ui:1022
+#, kde-format
+msgid ""
+"Paste the attached sRGB bitmap (no filesystem or Internet access required, "
+"but metadata will be lost)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, btnAsk)
+#: libs/ui/forms/wdggeneralsettings.ui:1029
+#, fuzzy, kde-format
+#| msgid "As&k each time"
+msgid "Ask each time"
+msgstr "每次詢問(&K)"
+
+#. i18n: ectx: property (text), widget (QLabel, lblPasteNote)
+#: libs/ui/forms/wdggeneralsettings.ui:1042
+#, kde-format
+msgid ""
+"Note: This applies to drops in the Info window, the canvas, and paste "
+"actions."
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLabel, label_14)
-#: libs/ui/forms/wdggeneralsettings.ui:1005
+#: libs/ui/forms/wdggeneralsettings.ui:1080
 #, kde-format
 msgid "Cache Location:"
 msgstr "快取位置："
 
 #. i18n: ectx: property (text), widget (QLabel, label_15)
-#: libs/ui/forms/wdggeneralsettings.ui:1015
+#: libs/ui/forms/wdggeneralsettings.ui:1096
 #, kde-format
 msgid "Resource Folder:"
 msgstr "資源目錄："
@@ -23633,6 +23709,57 @@ msgstr "目前圖層(&L)"
 msgid "Merge strategy:"
 msgstr "合併策略："
 
+#. i18n: ectx: property (windowTitle), widget (QWidget, WdgMissingColorProfile)
+#: libs/ui/forms/wdgMissingColorProfile.ui:20
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Missing Color Profile"
+msgid "Missing Color Profile"
+msgstr "缺少色彩特性檔案"
+
+#. i18n: ectx: property (text), widget (QLabel, lblQuestion)
+#: libs/ui/forms/wdgMissingColorProfile.ui:32
+#, kde-format
+msgid ""
+"The image data you are trying to paste has no color profile information. How "
+"do you want to interpret this data?"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lblExplanationWeb)
+#: libs/ui/forms/wdgMissingColorProfile.ui:63
+#, kde-format
+msgid ""
+"Use standard colors that are displayed from computer monitors. This is the "
+"most common way that images are stored."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, btnAsWeb)
+#: libs/ui/forms/wdgMissingColorProfile.ui:79
+#, fuzzy, kde-format
+#| msgid "As &Web"
+msgid "As &Web (sRGB)"
+msgstr "按網路規範(&W)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, btnAsMonitor)
+#: libs/ui/forms/wdgMissingColorProfile.ui:89
+#, kde-format
+msgid "As on &Monitor"
+msgstr "按顯示器所見(&M)"
+
+#. i18n: ectx: property (text), widget (QLabel, lblExplanationMonitor)
+#: libs/ui/forms/wdgMissingColorProfile.ui:102
+#, kde-format
+msgid ""
+"If you know a bit about color management and want to use your monitor to "
+"determine the color profile."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, dontPrompt)
+#: libs/ui/forms/wdgMissingColorProfile.ui:115
+#, kde-format
+msgid "Remember"
+msgstr "記住"
+
 #. i18n: ectx: property (title), widget (QGroupBox, grpImage)
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgImagesplit)
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgLayerSplit)
@@ -23975,6 +24102,75 @@ msgstr "填充背景色到此區域"
 #, kde-format
 msgid "Reset area to white"
 msgstr "重設此區域為白色"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, WdgPasteFormat)
+#: libs/ui/forms/wdgPasteFormat.ui:20
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "In Resource manager, this is text shown instead of filename, name or "
+#| "location, when multiple resources are shown so there is no one specific "
+#| "filename"
+#| msgid "(Multiple selected)"
+msgid "Multiple Formats Detected"
+msgstr "(已選擇多項)"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: libs/ui/forms/wdgPasteFormat.ui:32
+#, kde-format
+msgid ""
+"There are multiple formats for the image you're trying to paste. Which one "
+"do you want to use?"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, btnDownload)
+#: libs/ui/forms/wdgPasteFormat.ui:66
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Cannot add the resource"
+msgid "&Download from the remote source"
+msgstr "未能加入資源"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: libs/ui/forms/wdgPasteFormat.ui:79
+#, kde-format
+msgid "Preserves the original metadata and color profile."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, btnUseLocal)
+#: libs/ui/forms/wdgPasteFormat.ui:92
+#, fuzzy, kde-format
+#| msgid "Use global light"
+msgid "Use &local file"
+msgstr "使用全域光源"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: libs/ui/forms/wdgPasteFormat.ui:105
+#, kde-format
+msgid ""
+"Depending on the source application, it may not have all of the original's "
+"metadata or color profile."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, btnUseBitmap)
+#: libs/ui/forms/wdgPasteFormat.ui:118
+#, kde-format
+msgid "Paste the attached &bitmap"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: libs/ui/forms/wdgPasteFormat.ui:131
+#, kde-format
+msgid ""
+"Use the bitmap provided by the source application. You will be asked for its "
+"profile."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkRemember)
+#: libs/ui/forms/wdgPasteFormat.ui:144
+#, fuzzy, kde-format
+#| msgid "Remember"
+msgid "&Remember"
+msgstr "記住"
 
 #. i18n: ectx: property (text), widget (QLabel, label_10)
 #: libs/ui/forms/wdgperformancesettings.ui:27
@@ -25054,13 +25250,13 @@ msgid "Resize Canvas"
 msgstr "調整畫布大小"
 
 #: libs/ui/imagesize/dlg_imagesize.cc:41
-#: libs/ui/widgets/kis_custom_image_widget.cc:58
+#: libs/ui/widgets/kis_custom_image_widget.cc:57
 #, kde-format
 msgid "Pixels/Inch"
 msgstr "像素/英寸"
 
 #: libs/ui/imagesize/dlg_imagesize.cc:47
-#: libs/ui/widgets/kis_custom_image_widget.cc:64
+#: libs/ui/widgets/kis_custom_image_widget.cc:63
 #, kde-format
 msgid "Pixels/Centimeter"
 msgstr "像素/公分"
@@ -26056,47 +26252,14 @@ msgctxt "(qtundo-format)"
 msgid "Change File Layer"
 msgstr "變更檔案圖層"
 
-#: libs/ui/kis_clipboard.cc:288
-#, kde-format
-msgid "Remember"
-msgstr "記住"
-
-#: libs/ui/kis_clipboard.cc:292
-#, kde-format
-msgctxt "@title:window"
-msgid "Missing Color Profile"
-msgstr "缺少色彩特性檔案"
-
-#: libs/ui/kis_clipboard.cc:293
+#: libs/ui/kis_clipboard.cc:676 libs/ui/KisView.cpp:590
 #, kde-format
 msgid ""
-"The image data you are trying to paste has no color profile information. How "
-"do you want to interpret these data? \n"
-"\n"
-" As Web (sRGB) -  Use standard colors that are displayed from computer "
-"monitors.  This is the most common way that images are stored. \n"
-"\n"
-"As on Monitor - If you know a bit about color management and want to use "
-"your monitor to determine the color profile.\n"
-"\n"
+"Could not open %2.\n"
+"Reason: %1."
 msgstr ""
-"正在貼上的影像資料未包含色彩特性資訊。要如何解析這些資料？\n"
-"\n"
-"按網路規範 - 使用符合網路影像規範的 sRGB 色彩空間。這是儲存影像的通用方式。\n"
-"\n"
-"按顯示器所見 - 面向熟悉色彩管理的使用者，用本機顯示器的色彩特性檔案來作為其色"
-"彩空間。\n"
-"\n"
-
-#: libs/ui/kis_clipboard.cc:295
-#, kde-format
-msgid "As &Web"
-msgstr "按網路規範(&W)"
-
-#: libs/ui/kis_clipboard.cc:296
-#, kde-format
-msgid "As on &Monitor"
-msgstr "按顯示器所見(&M)"
+"無法開啟 %2。\n"
+"原因：%1。"
 
 #: libs/ui/kis_composite_ops_model.cc:22
 #, kde-format
@@ -27085,22 +27248,22 @@ msgstr "無法開啟檔案「%1」"
 msgid "Cannot add the file layer: no document is open."
 msgstr "無法新增檔案圖層：未開啟檔案。"
 
-#: libs/ui/KisApplication.cpp:974
+#: libs/ui/KisApplication.cpp:970
 #, kde-format
 msgid "No template found for: %1"
 msgstr "找不到適用於 %1 的範本"
 
-#: libs/ui/KisApplication.cpp:977
+#: libs/ui/KisApplication.cpp:973
 #, kde-format
 msgid "Too many templates found for: %1"
 msgstr "適用於 %1 的範本過多"
 
-#: libs/ui/KisApplication.cpp:993
+#: libs/ui/KisApplication.cpp:989
 #, kde-format
 msgid "Template %1 failed to load."
 msgstr "範本 %1 載入失敗。"
 
-#: libs/ui/KisApplication.cpp:1025
+#: libs/ui/KisApplication.cpp:1021
 #, kde-format
 msgid ""
 "Krita configurations reset!\n"
@@ -27115,7 +27278,7 @@ msgstr ""
 "\n"
 "請重新啟動 Krita 以套用變更。"
 
-#: libs/ui/KisApplication.cpp:1039
+#: libs/ui/KisApplication.cpp:1035
 #, kde-format
 msgid ""
 "Failed to clear %1\n"
@@ -27126,7 +27289,7 @@ msgstr ""
 "\n"
 "請確保沒有其他程式正在使用該檔案並重試。"
 
-#: libs/ui/KisApplication.cpp:1067
+#: libs/ui/KisApplication.cpp:1063
 #, kde-format
 msgid "Do you want to clear the settings file?"
 msgstr "要清空設定檔嗎？"
@@ -27227,28 +27390,28 @@ msgstr "要新增至現存檔案或新檔案的檔案圖層"
 msgid "File(s) or URL(s) to open"
 msgstr "要開啟的檔案或 URL"
 
-#: libs/ui/KisAutoSaveRecoveryDialog.cpp:168
+#: libs/ui/KisAutoSaveRecoveryDialog.cpp:169
 #, kde-format
 msgctxt "@title:window"
 msgid "Recover Files"
 msgstr "復原檔案"
 
-#: libs/ui/KisAutoSaveRecoveryDialog.cpp:170
+#: libs/ui/KisAutoSaveRecoveryDialog.cpp:171
 #, kde-format
 msgid "Discard All"
 msgstr "全部丟棄"
 
-#: libs/ui/KisAutoSaveRecoveryDialog.cpp:175
+#: libs/ui/KisAutoSaveRecoveryDialog.cpp:176
 #, kde-format
 msgid "The following autosave file can be recovered:"
 msgstr "下列自動儲存檔案可被復原："
 
-#: libs/ui/KisAutoSaveRecoveryDialog.cpp:178
+#: libs/ui/KisAutoSaveRecoveryDialog.cpp:179
 #, kde-format
 msgid "The following autosave files can be recovered:"
 msgstr "下列自動儲存檔案可被復原："
 
-#: libs/ui/KisAutoSaveRecoveryDialog.cpp:230
+#: libs/ui/KisAutoSaveRecoveryDialog.cpp:226
 #, kde-format
 msgid ""
 "If you select Cancel, all recoverable files will be kept.\n"
@@ -27263,28 +27426,28 @@ msgctxt "(qtundo-format)"
 msgid "Clone Document"
 msgstr "再製文件"
 
-#: libs/ui/KisDocument.cpp:712
+#: libs/ui/KisDocument.cpp:713
 #, kde-format
 msgid "%1 cannot be written to. Please save under a different name."
 msgstr "無法寫入 %1 。請以不同的名稱儲存。"
 
-#: libs/ui/KisDocument.cpp:775
+#: libs/ui/KisDocument.cpp:776
 #, kde-format
 msgid "Exporting Document..."
 msgstr "正在匯出檔案…"
 
-#: libs/ui/KisDocument.cpp:776
+#: libs/ui/KisDocument.cpp:777
 #, kde-format
 msgid "Saving Document..."
 msgstr "正在儲存檔案…"
 
-#: libs/ui/KisDocument.cpp:911
+#: libs/ui/KisDocument.cpp:912
 #, kde-format
 msgctxt "%1 --- failing file name, %2 --- error message"
 msgid "Error during saving %1: %2"
 msgstr "儲存%1 時出錯： %2"
 
-#: libs/ui/KisDocument.cpp:917
+#: libs/ui/KisDocument.cpp:918
 #, kde-format
 msgid ""
 "Could not save %1.\n"
@@ -27293,7 +27456,7 @@ msgstr ""
 "無法儲存 %1。\n"
 "原因：%2"
 
-#: libs/ui/KisDocument.cpp:926
+#: libs/ui/KisDocument.cpp:927
 #, kde-format
 msgctxt ""
 "dialog box shown to the user if there were warnings while saving the "
@@ -27305,38 +27468,38 @@ msgstr ""
 "已儲存 %1 但檔案不完整。\n"
 "儲存檔案時遇到以下問題："
 
-#: libs/ui/KisDocument.cpp:962
+#: libs/ui/KisDocument.cpp:963
 #, kde-format
 msgid "Finished saving %1"
 msgstr "完成儲存 %1"
 
-#: libs/ui/KisDocument.cpp:1340
+#: libs/ui/KisDocument.cpp:1341
 #, kde-format
 msgid "Autosaving... %1"
 msgstr "正在自動儲存… %1"
 
-#: libs/ui/KisDocument.cpp:1348
+#: libs/ui/KisDocument.cpp:1349
 #, kde-format
 msgid "Autosaving..."
 msgstr "正在自動儲存…"
 
-#: libs/ui/KisDocument.cpp:1354
+#: libs/ui/KisDocument.cpp:1355
 #, kde-format
 msgid "Autosaving postponed: document is busy..."
 msgstr "自動儲存已推遲：檔案正在被佔用…"
 
-#: libs/ui/KisDocument.cpp:1459
+#: libs/ui/KisDocument.cpp:1460
 #, kde-format
 msgctxt "%1 --- failing file name, %2 --- error message"
 msgid "Error during autosaving %1: %2"
 msgstr "自動儲存%1 時出錯：%2"
 
-#: libs/ui/KisDocument.cpp:1473
+#: libs/ui/KisDocument.cpp:1474
 #, kde-format
 msgid "Finished autosaving %1"
 msgstr "完成自動儲存 %1"
 
-#: libs/ui/KisDocument.cpp:1714
+#: libs/ui/KisDocument.cpp:1716
 #, kde-format
 msgid ""
 "Malformed Path\n"
@@ -27345,17 +27508,17 @@ msgstr ""
 "路徑格式錯誤\n"
 "%1"
 
-#: libs/ui/KisDocument.cpp:1780
+#: libs/ui/KisDocument.cpp:1782
 #, kde-format
 msgid "File %1 does not exist."
 msgstr "檔案 %1 不存在。"
 
-#: libs/ui/KisDocument.cpp:1809
+#: libs/ui/KisDocument.cpp:1811
 #, kde-format
 msgid "Opening document"
 msgstr "正在開啟檔案"
 
-#: libs/ui/KisDocument.cpp:1824
+#: libs/ui/KisDocument.cpp:1826
 #, kde-format
 msgid ""
 "Could not open %2.\n"
@@ -27364,23 +27527,23 @@ msgstr ""
 "無法開啟 %2。\n"
 "原因：%1"
 
-#: libs/ui/KisDocument.cpp:1832
+#: libs/ui/KisDocument.cpp:1834
 #, kde-format
 msgid "There were problems opening %1"
 msgstr "開啟 %1 時遇到了一些問題"
 
-#: libs/ui/KisDocument.cpp:1961
+#: libs/ui/KisDocument.cpp:1963
 #, kde-format
 msgid "Not Saved"
 msgstr "未儲存"
 
-#: libs/ui/KisDocument.cpp:2431
+#: libs/ui/KisDocument.cpp:2433
 #, kde-format
 msgctxt "Name of automatically created background color fill layer"
 msgid "Background Fill"
 msgstr "背景色填充"
 
-#: libs/ui/KisDocument.cpp:2485
+#: libs/ui/KisDocument.cpp:2487
 #, kde-format
 msgctxt ""
 "progress dialog message when the user closes the document that is being saved"
@@ -28062,14 +28225,41 @@ msgstr ""
 "建立檔案\n"
 "原因：%2"
 
-#: libs/ui/KisReferenceImage.cpp:116
+#: libs/ui/KisReferenceImage.cpp:118
 msgctxt "(qtundo-format)"
 msgid "Set saturation"
 msgstr "設定飽和度"
 
-#: libs/ui/KisReferenceImage.cpp:178
+#: libs/ui/KisReferenceImage.cpp:180
 #, kde-format
 msgid "Could not load %1."
+msgstr "無法載入 %1。"
+
+#: libs/ui/KisRemoteFileFetcher.cpp:38
+#, fuzzy, kde-format
+#| msgid "Do you want to save it?"
+msgctxt "Fetching remote image"
+msgid "Do you want to download the image at %1?"
+msgstr "要進行儲存嗎？"
+
+#: libs/ui/KisRemoteFileFetcher.cpp:57
+#, fuzzy, kde-format
+#| msgid "Could not load reference images from '%1'."
+msgctxt "Fetching remote image"
+msgid "Downloading image from %1..."
+msgstr "無法載入來自「%1」的參考圖。"
+
+#: libs/ui/KisRemoteFileFetcher.cpp:71
+#, kde-format
+msgctxt "Fetching remote image"
+msgid "Downloading image from %1... (%2 / %3)"
+msgstr ""
+
+#: libs/ui/KisRemoteFileFetcher.cpp:88
+#, fuzzy, kde-format
+#| msgid "Could not load %1."
+msgctxt "Fetching remote image"
+msgid "Could not download %1."
 msgstr "無法載入 %1。"
 
 #: libs/ui/KisTemplateCreateDia.cpp:87
@@ -28197,96 +28387,96 @@ msgstr "無可用圖片。"
 msgid "Use This Template"
 msgstr "使用此範本"
 
-#: libs/ui/KisView.cpp:523
+#: libs/ui/KisView.cpp:635
 #, kde-format
 msgid "You cannot drag and drop colors on the selected layer type."
 msgstr "不能將色塊拖放到選定的圖層類型上。"
 
-#: libs/ui/KisView.cpp:531 libs/ui/tool/kis_tool.cc:666
+#: libs/ui/KisView.cpp:643 libs/ui/tool/kis_tool.cc:666
 #, kde-format
 msgid "Layer is locked and invisible."
 msgstr "圖層已鎖定且不可見。"
 
-#: libs/ui/KisView.cpp:533 libs/ui/tool/kis_tool.cc:668
+#: libs/ui/KisView.cpp:645 libs/ui/tool/kis_tool.cc:668
 #, kde-format
 msgid "Layer is locked."
 msgstr "圖層已鎖定。"
 
-#: libs/ui/KisView.cpp:535 libs/ui/tool/kis_tool.cc:670
+#: libs/ui/KisView.cpp:647 libs/ui/tool/kis_tool.cc:670
 #, kde-format
 msgid "Layer is invisible."
 msgstr "圖層不可見。"
 
-#: libs/ui/KisView.cpp:736
+#: libs/ui/KisView.cpp:848
 #, kde-format
 msgid ""
 "<p>The document <b>'%1'</b> has been modified.</p><p>Do you want to save it?"
 "</p>"
 msgstr "<p>檔案 <b>「%1」</b> 已被修改。</p><p>要儲存它嗎？</p>"
 
-#: libs/ui/KisView.cpp:925
+#: libs/ui/KisView.cpp:1037
 #, kde-format
 msgid "Soft Proofing doesn't work in floating point."
 msgstr "螢幕校樣不支援浮點位深度。"
 
-#: libs/ui/KisView.cpp:930
+#: libs/ui/KisView.cpp:1042
 #, kde-format
 msgid "Soft Proofing turned on."
 msgstr "已啟用螢幕校樣。"
 
-#: libs/ui/KisView.cpp:932
+#: libs/ui/KisView.cpp:1044
 #, kde-format
 msgid "Soft Proofing turned off."
 msgstr "已關閉螢幕校樣。"
 
-#: libs/ui/KisView.cpp:944
+#: libs/ui/KisView.cpp:1056
 #, kde-format
 msgid "Gamut Warnings don't work in floating point."
 msgstr "色域警告不支援浮點色深。"
 
-#: libs/ui/KisView.cpp:950
+#: libs/ui/KisView.cpp:1062
 #, kde-format
 msgid "Gamut Warnings turned on."
 msgstr "已啟用色域警告。"
 
-#: libs/ui/KisView.cpp:952
+#: libs/ui/KisView.cpp:1064
 #, kde-format
 msgid "But Soft Proofing is still off."
 msgstr "但螢幕校樣仍然關閉。"
 
-#: libs/ui/KisView.cpp:955
+#: libs/ui/KisView.cpp:1067
 #, kde-format
 msgid "Gamut Warnings turned off."
 msgstr "已關閉色域警告。"
 
-#: libs/ui/KisViewManager.cpp:743
+#: libs/ui/KisViewManager.cpp:748
 #, kde-format
 msgid "Active Author Profile"
 msgstr "目前作者檔案"
 
-#: libs/ui/KisViewManager.cpp:870
+#: libs/ui/KisViewManager.cpp:875
 #, kde-format
 msgid "%1 (Copy)"
 msgstr "%1 (副本)"
 
-#: libs/ui/KisViewManager.cpp:1012 libs/ui/KisViewManager.cpp:1093
+#: libs/ui/KisViewManager.cpp:1017 libs/ui/KisViewManager.cpp:1098
 #, kde-format
 msgid "Alternative names exhausted, try manually saving with a higher number"
 msgstr "備用名稱數字已用盡，請手動輸入更大的數字儲存檔案"
 
-#: libs/ui/KisViewManager.cpp:1012
+#: libs/ui/KisViewManager.cpp:1017
 #, kde-format
 msgctxt "@title:window"
 msgid "Couldn't save incremental version"
 msgstr "無法儲存遞增版本"
 
-#: libs/ui/KisViewManager.cpp:1093
+#: libs/ui/KisViewManager.cpp:1098
 #, kde-format
 msgctxt "@title:window"
 msgid "Couldn't save incremental backup"
 msgstr "無法儲存遞增備份"
 
-#: libs/ui/KisViewManager.cpp:1276
+#: libs/ui/KisViewManager.cpp:1281
 #, kde-format
 msgid ""
 "Going into Canvas-Only mode.\n"
@@ -28295,7 +28485,41 @@ msgstr ""
 "即將切換為畫布獨佔模式。\n"
 "按下 %1 返回。"
 
-#: libs/ui/KisViewManager.cpp:1389 libs/ui/KisViewManager.cpp:1407
+#: libs/ui/KisViewManager.cpp:1321
+#, fuzzy, kde-format
+#| msgid "Open Resource Folder"
+msgctxt "@title:window resource folder"
+msgid "Open Resource Folder"
+msgstr "開啟資源資料夾"
+
+#: libs/ui/KisViewManager.cpp:1324
+#, kde-format
+msgctxt "@info resource folder"
+msgid ""
+"<p>You are using the Microsoft Store package version of Krita. Even though "
+"Krita can be configured to place resources under the user AppData location, "
+"Windows may actually store the files inside a private app location.</p>\n"
+"<p>You should check both locations to determine where the files are located."
+"</p>\n"
+"<p><b>User AppData</b>:<br/>\n"
+"%1</p>\n"
+"<p><b>Private app location</b>:<br/>\n"
+"%2</p>"
+msgstr ""
+
+#: libs/ui/KisViewManager.cpp:1338
+#, kde-format
+msgctxt "@action:button resource folder"
+msgid "Open in &user AppData"
+msgstr ""
+
+#: libs/ui/KisViewManager.cpp:1339
+#, kde-format
+msgctxt "@action:button resource folder"
+msgid "Open in &private app location"
+msgstr ""
+
+#: libs/ui/KisViewManager.cpp:1452 libs/ui/KisViewManager.cpp:1470
 #, kde-format
 msgctxt "choice for author profile"
 msgid "Anonymous"
@@ -29345,7 +29569,12 @@ msgstr "首選繪製器不支援請求的表面格式。已選用另一個繪製
 msgid "Preferred output format is not supported by available renderers"
 msgstr "可用繪製器不支援首選輸出格式"
 
-#: libs/ui/opengl/kis_opengl_canvas2.cpp:389
+#: libs/ui/opengl/kis_opengl_image_textures.cpp:842
+#, kde-format
+msgid "OpenColorIO is disabled: image color space is not supported"
+msgstr "已停用 OpenColorIO：不支援影像色彩空間"
+
+#: libs/ui/opengl/KisOpenGLCanvasRenderer.cpp:357
 #, kde-format
 msgid ""
 "Krita could not initialize the OpenGL canvas:\n"
@@ -29359,11 +29588,6 @@ msgstr ""
 "%1\n"
 "\n"
 "Krita 將在停用 OpenGL 選項後立即關閉。"
-
-#: libs/ui/opengl/kis_opengl_image_textures.cpp:842
-#, kde-format
-msgid "OpenColorIO is disabled: image color space is not supported"
-msgstr "已停用 OpenColorIO：不支援影像色彩空間"
 
 #: libs/ui/tool/kis_selection_tool_helper.cpp:175
 #, kde-format
@@ -29493,56 +29717,6 @@ msgid ""
 "run the new AppImage."
 msgstr ""
 "新的 AppImage 已下載至 %1。如要完成更新，請關閉 Krita 並執行新的 AppImage。"
-
-#: libs/ui/utils/KisClipboardUtil.cpp:59
-#, kde-format
-msgid "Insert as New Layer"
-msgstr "插入為新圖層"
-
-#: libs/ui/utils/KisClipboardUtil.cpp:60
-#, kde-format
-msgid "Insert Many Layers"
-msgstr "插入多個圖層"
-
-#: libs/ui/utils/KisClipboardUtil.cpp:62
-#, kde-format
-msgid "Insert as New File Layer"
-msgstr "插入為新檔案圖層"
-
-#: libs/ui/utils/KisClipboardUtil.cpp:63
-#, kde-format
-msgid "Insert Many File Layers"
-msgstr "插入多個檔案圖層"
-
-#: libs/ui/utils/KisClipboardUtil.cpp:65
-#, kde-format
-msgid "Open in New Document"
-msgstr "開啟文件"
-
-#: libs/ui/utils/KisClipboardUtil.cpp:66
-#, kde-format
-msgid "Open Many Documents"
-msgstr "開啟多個文件"
-
-#: libs/ui/utils/KisClipboardUtil.cpp:68
-#, kde-format
-msgid "Insert as Reference Image"
-msgstr "插入為參考圖"
-
-#: libs/ui/utils/KisClipboardUtil.cpp:69
-#, kde-format
-msgid "Insert as Reference Images"
-msgstr "插入多幅參考圖"
-
-#: libs/ui/utils/KisClipboardUtil.cpp:132
-#: libs/ui/utils/KisClipboardUtil.cpp:242
-#, kde-format
-msgid ""
-"Could not open %2.\n"
-"Reason: %1."
-msgstr ""
-"無法開啟 %2。\n"
-"原因：%1。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblLinks)
 #: libs/ui/wdgsplash.ui:439
@@ -30611,6 +30785,46 @@ msgstr ""
 "<p>如果影像將用於網路，或用於不能處理 V4 規範的影像軟體時，應使用 V2 規範的特"
 "性檔案。</p>"
 
+#: libs/ui/widgets/kis_canvas_drop.cpp:33
+#, kde-format
+msgid "Insert as New Layer"
+msgstr "插入為新圖層"
+
+#: libs/ui/widgets/kis_canvas_drop.cpp:34
+#, kde-format
+msgid "Insert as New File Layer"
+msgstr "插入為新檔案圖層"
+
+#: libs/ui/widgets/kis_canvas_drop.cpp:35
+#, kde-format
+msgid "Open in New Document"
+msgstr "開啟文件"
+
+#: libs/ui/widgets/kis_canvas_drop.cpp:36
+#, kde-format
+msgid "Insert as Reference Image"
+msgstr "插入為參考圖"
+
+#: libs/ui/widgets/kis_canvas_drop.cpp:38
+#, kde-format
+msgid "Insert Many Layers"
+msgstr "插入多個圖層"
+
+#: libs/ui/widgets/kis_canvas_drop.cpp:39
+#, kde-format
+msgid "Insert Many File Layers"
+msgstr "插入多個檔案圖層"
+
+#: libs/ui/widgets/kis_canvas_drop.cpp:40
+#, kde-format
+msgid "Open Many Documents"
+msgstr "開啟多個文件"
+
+#: libs/ui/widgets/kis_canvas_drop.cpp:41
+#, kde-format
+msgid "Insert as Reference Images"
+msgstr "插入多幅參考圖"
+
 #: libs/ui/widgets/kis_categorized_list_view.cpp:160
 #, kde-format
 msgid "Unlock (restore settings from preset)"
@@ -30661,12 +30875,12 @@ msgstr "無標籤"
 msgid "Select a Colorspace"
 msgstr "選擇色彩空間"
 
-#: libs/ui/widgets/kis_custom_image_widget.cc:119
+#: libs/ui/widgets/kis_custom_image_widget.cc:118
 #, kde-format
 msgid "&Create"
 msgstr "建立(&C)"
 
-#: libs/ui/widgets/kis_custom_image_widget.cc:300
+#: libs/ui/widgets/kis_custom_image_widget.cc:294
 #, kde-format
 msgid ""
 "Linear gamma RGB color spaces are not supposed to be used in 8-bit integer "
@@ -30682,7 +30896,7 @@ msgstr ""
 "點擊「確定」建立 8 位元整數線性 RGB 色彩空間，或者點擊「取消」回到設定對話"
 "框。"
 
-#: libs/ui/widgets/kis_custom_image_widget.cc:545
+#: libs/ui/widgets/kis_custom_image_widget.cc:535
 #, kde-format
 msgctxt ""
 "arg1: width. arg2: height. arg3: colorspace name. arg4: size of a channel in "
@@ -30834,7 +31048,7 @@ msgstr "詳細資料"
 
 #: libs/ui/widgets/kis_paintop_presets_chooser_popup.cpp:72
 #: libs/ui/widgets/kis_paintop_presets_editor.cpp:155
-#: libs/widgets/KoToolBox.cpp:297 libs/widgetutils/xmlgui/ktoolbar.cpp:321
+#: libs/widgets/KoToolBox.cpp:306 libs/widgetutils/xmlgui/ktoolbar.cpp:321
 #: plugins/dockers/svgcollectiondocker/SvgSymbolCollectionDocker.cpp:200
 #, kde-format
 msgid "Icon Size"
@@ -31939,13 +32153,13 @@ msgstr "模糊："
 msgid "Distance:"
 msgstr "距離："
 
-#: libs/widgets/KoToolBox.cpp:298 libs/widgetutils/xmlgui/ktoolbar.cpp:323
+#: libs/widgets/KoToolBox.cpp:307 libs/widgetutils/xmlgui/ktoolbar.cpp:323
 #, kde-format
 msgctxt "@item:inmenu Icon size"
 msgid "Default"
 msgstr "預設"
 
-#: libs/widgets/KoToolBox.cpp:305
+#: libs/widgets/KoToolBox.cpp:314
 #, kde-format
 msgid "%1x%2"
 msgstr "%1x%2"
@@ -54740,6 +54954,27 @@ msgctxt "action"
 msgid "Reference Images Tool"
 msgstr "參考圖工具"
 
+#, kde-format
+#~ msgid ""
+#~ "The image data you are trying to paste has no color profile information. "
+#~ "How do you want to interpret these data? \n"
+#~ "\n"
+#~ " As Web (sRGB) -  Use standard colors that are displayed from computer "
+#~ "monitors.  This is the most common way that images are stored. \n"
+#~ "\n"
+#~ "As on Monitor - If you know a bit about color management and want to use "
+#~ "your monitor to determine the color profile.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "正在貼上的影像資料未包含色彩特性資訊。要如何解析這些資料？\n"
+#~ "\n"
+#~ "按網路規範 - 使用符合網路影像規範的 sRGB 色彩空間。這是儲存影像的通用方"
+#~ "式。\n"
+#~ "\n"
+#~ "按顯示器所見 - 面向熟悉色彩管理的使用者，用本機顯示器的色彩特性檔案來作為"
+#~ "其色彩空間。\n"
+#~ "\n"
+
 #~ msgid "0/0"
 #~ msgstr "0/0"
 
@@ -54892,10 +55127,6 @@ msgstr "參考圖工具"
 #~ msgctxt "action"
 #~ msgid "to &Selection Mask"
 #~ msgstr "為選取區域遮罩(&S)"
-
-#~ msgctxt "@title:window"
-#~ msgid "Cannot add the resource"
-#~ msgstr "未能加入資源"
 
 #~ msgctxt "Warning message"
 #~ msgid ""
