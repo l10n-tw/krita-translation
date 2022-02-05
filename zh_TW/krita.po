@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-02-05 00:41+0000\n"
-"PO-Revision-Date: 2022-01-31 09:44+0000\n"
+"PO-Revision-Date: 2022-02-05 09:24+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -20720,15 +20720,10 @@ msgid "Missing Color Profile"
 msgstr "缺少色彩特性檔案"
 
 #: libs/ui/dialogs/kis_dlg_paste_format.cpp:18
-#, fuzzy, kde-format
-#| msgctxt ""
-#| "In Resource manager, this is text shown instead of filename, name or "
-#| "location, when multiple resources are shown so there is no one specific "
-#| "filename"
-#| msgid "(Multiple selected)"
+#, kde-format
 msgctxt "@title:window"
 msgid "Multiple Paste Sources Detected"
-msgstr "(已選擇多項)"
+msgstr "偵測到多個貼上來源"
 
 #: libs/ui/dialogs/kis_dlg_preferences.cc:173
 #, kde-format
@@ -20846,6 +20841,13 @@ msgid ""
 "<p><b>Private app location</b> (<a href=\"copyprivate\">Copy</a>):<br/>\n"
 "%2</p>"
 msgstr ""
+"<p>您正在使用 Microsoft Store 封裝版本的 Krita。即使您可以將 Krita 設定為把資源檔案放到使用者 AppData "
+"資料夾之中，但實際上 Windows 或會將它們存放到應用程式內部資料夾內。</p>\n"
+"<p>請檢查這兩個位置以判斷資源檔案的實際存放位置。</p>\n"
+"<p><b>使用者 AppData 資料夾</b> (<a href=\"copyuser\">複製</a>)：<br/>\n"
+"%1</p>\n"
+"<p><b>應用程式內部資料夾</b> (<a href=\"copyprivate\">複製</a>)：<br/>\n"
+"%2</p>"
 
 #: libs/ui/dialogs/kis_dlg_preferences.cc:638
 #, kde-format
@@ -23189,7 +23191,7 @@ msgstr ""
 #: libs/ui/forms/wdggeneralsettings.ui:995
 #, kde-format
 msgid "Prefer downloading the original source (this requires Internet access)"
-msgstr ""
+msgstr "偏好下載原始檔案 (需要網路連線)"
 
 #. i18n: ectx: property (text), widget (QLabel, lblPasteContext)
 #: libs/ui/forms/wdggeneralsettings.ui:1008
@@ -23197,13 +23199,13 @@ msgstr ""
 msgid ""
 "Some applications, like Google Chrome, provide multiple formats when pasting "
 "or dropping an image."
-msgstr ""
+msgstr "某些應用程式 (例如 Google Chrome) 提供多種在貼上或拖放時可供使用的影像格式。"
 
 #. i18n: ectx: property (text), widget (QRadioButton, btnLocal)
 #: libs/ui/forms/wdggeneralsettings.ui:1015
 #, kde-format
 msgid "Prefer a local copy (if available; metadata may be lost)"
-msgstr ""
+msgstr "偏好本機副本 (當可用時；或會遺失中繼資料)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, btnBitmap)
 #: libs/ui/forms/wdggeneralsettings.ui:1022
@@ -23211,14 +23213,13 @@ msgstr ""
 msgid ""
 "Paste the attached sRGB bitmap (no filesystem or Internet access required, "
 "but metadata will be lost)"
-msgstr ""
+msgstr "貼上已附上的 sRGB 點陣圖 (不需要存取檔案系統或網路連線，但可能會遺失中繼資料)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, btnAsk)
 #: libs/ui/forms/wdggeneralsettings.ui:1029
-#, fuzzy, kde-format
-#| msgid "As&k each time"
+#, kde-format
 msgid "Ask each time"
-msgstr "每次詢問(&K)"
+msgstr "每次詢問"
 
 #. i18n: ectx: property (text), widget (QLabel, lblPasteNote)
 #: libs/ui/forms/wdggeneralsettings.ui:1042
@@ -23226,7 +23227,7 @@ msgstr "每次詢問(&K)"
 msgid ""
 "Note: This applies to drops in the Info window, the canvas, and paste "
 "actions."
-msgstr ""
+msgstr "提示：這將套用到拖放進資訊視窗、畫布上的影像，以及貼上動作。"
 
 #. i18n: ectx: property (text), widget (QLabel, label_14)
 #: libs/ui/forms/wdggeneralsettings.ui:1080
@@ -23711,9 +23712,7 @@ msgstr "合併策略："
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgMissingColorProfile)
 #: libs/ui/forms/wdgMissingColorProfile.ui:20
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Missing Color Profile"
+#, kde-format
 msgid "Missing Color Profile"
 msgstr "缺少色彩特性檔案"
 
@@ -23723,7 +23722,7 @@ msgstr "缺少色彩特性檔案"
 msgid ""
 "The image data you are trying to paste has no color profile information. How "
 "do you want to interpret this data?"
-msgstr ""
+msgstr "您正在貼上的影像資料沒有色彩特性資訊。您希望如何解譯這些資料？"
 
 #. i18n: ectx: property (text), widget (QLabel, lblExplanationWeb)
 #: libs/ui/forms/wdgMissingColorProfile.ui:63
@@ -23731,14 +23730,13 @@ msgstr ""
 msgid ""
 "Use standard colors that are displayed from computer monitors. This is the "
 "most common way that images are stored."
-msgstr ""
+msgstr "使用供電腦顯示器輸出的標準色彩。這是最常用的影像儲存方法。"
 
 #. i18n: ectx: property (text), widget (QRadioButton, btnAsWeb)
 #: libs/ui/forms/wdgMissingColorProfile.ui:79
-#, fuzzy, kde-format
-#| msgid "As &Web"
+#, kde-format
 msgid "As &Web (sRGB)"
-msgstr "按網路規範(&W)"
+msgstr "按網路規範 (sRGB) (&W)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, btnAsMonitor)
 #: libs/ui/forms/wdgMissingColorProfile.ui:89
@@ -23752,7 +23750,7 @@ msgstr "按顯示器所見(&M)"
 msgid ""
 "If you know a bit about color management and want to use your monitor to "
 "determine the color profile."
-msgstr ""
+msgstr "當您認識色彩管理而且希望根據顯示器來決定色彩特性檔案。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, dontPrompt)
 #: libs/ui/forms/wdgMissingColorProfile.ui:115
@@ -24105,14 +24103,9 @@ msgstr "重設此區域為白色"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgPasteFormat)
 #: libs/ui/forms/wdgPasteFormat.ui:20
-#, fuzzy, kde-format
-#| msgctxt ""
-#| "In Resource manager, this is text shown instead of filename, name or "
-#| "location, when multiple resources are shown so there is no one specific "
-#| "filename"
-#| msgid "(Multiple selected)"
+#, kde-format
 msgid "Multiple Formats Detected"
-msgstr "(已選擇多項)"
+msgstr "偵測到多種格式"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: libs/ui/forms/wdgPasteFormat.ui:32
@@ -24120,28 +24113,25 @@ msgstr "(已選擇多項)"
 msgid ""
 "There are multiple formats for the image you're trying to paste. Which one "
 "do you want to use?"
-msgstr ""
+msgstr "您正在貼上的影像帶有多種格式。您希望使用哪一種？"
 
 #. i18n: ectx: property (text), widget (QRadioButton, btnDownload)
 #: libs/ui/forms/wdgPasteFormat.ui:66
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Cannot add the resource"
+#, kde-format
 msgid "&Download from the remote source"
-msgstr "未能加入資源"
+msgstr "下載自遠端來源(&D)"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: libs/ui/forms/wdgPasteFormat.ui:79
 #, kde-format
 msgid "Preserves the original metadata and color profile."
-msgstr ""
+msgstr "將保留來源的中繼資料和色彩特性檔案。"
 
 #. i18n: ectx: property (text), widget (QRadioButton, btnUseLocal)
 #: libs/ui/forms/wdgPasteFormat.ui:92
-#, fuzzy, kde-format
-#| msgid "Use global light"
+#, kde-format
 msgid "Use &local file"
-msgstr "使用全域光源"
+msgstr "使用本機檔案(&L)"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: libs/ui/forms/wdgPasteFormat.ui:105
@@ -24149,13 +24139,13 @@ msgstr "使用全域光源"
 msgid ""
 "Depending on the source application, it may not have all of the original's "
 "metadata or color profile."
-msgstr ""
+msgstr "取決於來源應用程式，這或許不含完整的中繼資料或色彩特性檔案。"
 
 #. i18n: ectx: property (text), widget (QRadioButton, btnUseBitmap)
 #: libs/ui/forms/wdgPasteFormat.ui:118
 #, kde-format
 msgid "Paste the attached &bitmap"
-msgstr ""
+msgstr "貼上已附有的點陣圖(&B)"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: libs/ui/forms/wdgPasteFormat.ui:131
@@ -24163,14 +24153,13 @@ msgstr ""
 msgid ""
 "Use the bitmap provided by the source application. You will be asked for its "
 "profile."
-msgstr ""
+msgstr "使用來源應用程式提供的點陣圖。我們會向你查詢要使用的色彩特性檔案。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkRemember)
 #: libs/ui/forms/wdgPasteFormat.ui:144
-#, fuzzy, kde-format
-#| msgid "Remember"
+#, kde-format
 msgid "&Remember"
-msgstr "記住"
+msgstr "記住(&R)"
 
 #. i18n: ectx: property (text), widget (QLabel, label_10)
 #: libs/ui/forms/wdgperformancesettings.ui:27
@@ -28236,31 +28225,28 @@ msgid "Could not load %1."
 msgstr "無法載入 %1。"
 
 #: libs/ui/KisRemoteFileFetcher.cpp:38
-#, fuzzy, kde-format
-#| msgid "Do you want to save it?"
+#, kde-format
 msgctxt "Fetching remote image"
 msgid "Do you want to download the image at %1?"
-msgstr "要進行儲存嗎？"
+msgstr "要下載位於「%1」的影像嗎？"
 
 #: libs/ui/KisRemoteFileFetcher.cpp:57
-#, fuzzy, kde-format
-#| msgid "Could not load reference images from '%1'."
+#, kde-format
 msgctxt "Fetching remote image"
 msgid "Downloading image from %1..."
-msgstr "無法載入來自「%1」的參考圖。"
+msgstr "正在自「%1」下載影像…"
 
 #: libs/ui/KisRemoteFileFetcher.cpp:71
 #, kde-format
 msgctxt "Fetching remote image"
 msgid "Downloading image from %1... (%2 / %3)"
-msgstr ""
+msgstr "正在自「%1」下載影像… (%2/%3)"
 
 #: libs/ui/KisRemoteFileFetcher.cpp:88
-#, fuzzy, kde-format
-#| msgid "Could not load %1."
+#, kde-format
 msgctxt "Fetching remote image"
 msgid "Could not download %1."
-msgstr "無法載入 %1。"
+msgstr "無法下載 %1。"
 
 #: libs/ui/KisTemplateCreateDia.cpp:87
 #: plugins/python/comics_project_management_tools/comics_template_dialog.py:91
@@ -28486,8 +28472,7 @@ msgstr ""
 "按下 %1 返回。"
 
 #: libs/ui/KisViewManager.cpp:1321
-#, fuzzy, kde-format
-#| msgid "Open Resource Folder"
+#, kde-format
 msgctxt "@title:window resource folder"
 msgid "Open Resource Folder"
 msgstr "開啟資源資料夾"
@@ -28506,18 +28491,25 @@ msgid ""
 "<p><b>Private app location</b>:<br/>\n"
 "%2</p>"
 msgstr ""
+"<p>您正在使用 Microsoft Store 封裝版本的 Krita。即使您可以將 Krita 設定為把資源檔案放到使用者 AppData "
+"資料夾之中，但實際上 Windows 或會將它們存放到應用程式內部資料夾內。</p>\n"
+"<p>請檢查這兩個位置以判斷資源檔案的實際存放位置。</p>\n"
+"<p><b>使用者 AppData 資料夾</b>：<br/>\n"
+"%1</p>\n"
+"<p><b>應用程式內部資料夾</b>：<br/>\n"
+"%2</p>"
 
 #: libs/ui/KisViewManager.cpp:1338
 #, kde-format
 msgctxt "@action:button resource folder"
 msgid "Open in &user AppData"
-msgstr ""
+msgstr "開啟使用者 AppData (&U)"
 
 #: libs/ui/KisViewManager.cpp:1339
 #, kde-format
 msgctxt "@action:button resource folder"
 msgid "Open in &private app location"
-msgstr ""
+msgstr "開啟應用程式內部資料夾(&P)"
 
 #: libs/ui/KisViewManager.cpp:1452 libs/ui/KisViewManager.cpp:1470
 #, kde-format
@@ -35541,7 +35533,7 @@ msgstr "色域遮罩<b>「%1」</b>已被變更。"
 #: plugins/dockers/gamutmask/gamutmask_dock.cpp:321
 #, kde-format
 msgid "Do you want to save it?"
-msgstr "要進行儲存嗎？"
+msgstr "要將其儲存嗎？"
 
 #: plugins/dockers/gamutmask/gamutmask_dock.cpp:573
 #, kde-format
