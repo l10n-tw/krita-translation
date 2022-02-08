@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-02-07 00:42+0000\n"
+"POT-Creation-Date: 2022-02-08 00:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -30393,7 +30393,7 @@ msgstr ""
 
 #: libs/ui/widgets/kis_paintop_presets_chooser_popup.cpp:72
 #: libs/ui/widgets/kis_paintop_presets_editor.cpp:155
-#: libs/widgets/KoToolBox.cpp:306 libs/widgetutils/xmlgui/ktoolbar.cpp:321
+#: libs/widgets/KoToolBoxDocker.cpp:136 libs/widgetutils/xmlgui/ktoolbar.cpp:321
 #: plugins/dockers/svgcollectiondocker/SvgSymbolCollectionDocker.cpp:200
 #, kde-format
 msgid "Icon Size"
@@ -31488,13 +31488,13 @@ msgstr ""
 msgid "Distance:"
 msgstr ""
 
-#: libs/widgets/KoToolBox.cpp:307 libs/widgetutils/xmlgui/ktoolbar.cpp:323
+#: libs/widgets/KoToolBox.cpp:311 libs/widgetutils/xmlgui/ktoolbar.cpp:323
 #, kde-format
 msgctxt "@item:inmenu Icon size"
 msgid "Default"
 msgstr ""
 
-#: libs/widgets/KoToolBox.cpp:314
+#: libs/widgets/KoToolBox.cpp:318
 #, kde-format
 msgid "%1x%2"
 msgstr ""
@@ -31505,9 +31505,33 @@ msgctxt "@info:tooltip %2 is shortcut"
 msgid "%1 (%2)"
 msgstr ""
 
-#: libs/widgets/KoToolBoxDocker.cpp:20
+#: libs/widgets/KoToolBoxDocker.cpp:25
 #, kde-format
 msgid "Toolbox"
+msgstr ""
+
+#: libs/widgets/KoToolBoxDocker.cpp:139
+#, kde-format
+msgctxt "Toolbox layout"
+msgid "Layout"
+msgstr ""
+
+#: libs/widgets/KoToolBoxDocker.cpp:142
+#, kde-format
+msgctxt "@item:inmenu Toolbox layout direction"
+msgid "&Automatic"
+msgstr ""
+
+#: libs/widgets/KoToolBoxDocker.cpp:149
+#, kde-format
+msgctxt "@item:inmenu Toolbox layout direction"
+msgid "&Left-to-right"
+msgstr ""
+
+#: libs/widgets/KoToolBoxDocker.cpp:156
+#, kde-format
+msgctxt "@item:inmenu Toolbox layout direction"
+msgid "&Right-to-left"
 msgstr ""
 
 #: libs/widgets/KoToolDocker.cpp:143
