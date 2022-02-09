@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop files\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-01-15 00:52+0000\n"
+"POT-Creation-Date: 2022-02-09 00:57+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -16,7 +16,7 @@ msgctxt "Name"
 msgid "Digital"
 msgstr ""
 
-#: krita/data/paintoppresets/Digital.tag:41
+#: krita/data/paintoppresets/Digital.tag:42
 msgctxt "Comment"
 msgid "Brush presets with a digital look and feel."
 msgstr ""
@@ -26,7 +26,7 @@ msgctxt "Name"
 msgid "Erasers"
 msgstr ""
 
-#: krita/data/paintoppresets/Erasers.tag:28
+#: krita/data/paintoppresets/Erasers.tag:29
 msgctxt "Comment"
 msgid "Eraser Brush Presets"
 msgstr ""
@@ -36,7 +36,7 @@ msgctxt "Name"
 msgid "★ My Favorites"
 msgstr ""
 
-#: krita/data/paintoppresets/Favorites.tag:29
+#: krita/data/paintoppresets/Favorites.tag:30
 msgctxt "Comment"
 msgid "Your favorite brush presets"
 msgstr ""
@@ -46,7 +46,7 @@ msgctxt "Name"
 msgid "FX"
 msgstr ""
 
-#: krita/data/paintoppresets/FX.tag:29
+#: krita/data/paintoppresets/FX.tag:30
 msgctxt "Comment"
 msgid "Special Effects.kpp"
 msgstr ""
@@ -56,7 +56,7 @@ msgctxt "Name"
 msgid "Ink"
 msgstr ""
 
-#: krita/data/paintoppresets/Ink.tag:29
+#: krita/data/paintoppresets/Ink.tag:30
 msgctxt "Comment"
 msgid "Inking Brush Presets"
 msgstr ""
@@ -66,7 +66,7 @@ msgctxt "Name"
 msgid "Paint"
 msgstr ""
 
-#: krita/data/paintoppresets/Paint.tag:29
+#: krita/data/paintoppresets/Paint.tag:30
 msgctxt "Comment"
 msgid "Paint Brushes"
 msgstr ""
@@ -76,7 +76,7 @@ msgctxt "Name"
 msgid "Pixel Art"
 msgstr ""
 
-#: krita/data/paintoppresets/Pixel_Art.tag:27
+#: krita/data/paintoppresets/Pixel_Art.tag:28
 msgctxt "Comment"
 msgid "Presets for working with individual pixels"
 msgstr ""
@@ -86,7 +86,7 @@ msgctxt "Name"
 msgid "Sketch"
 msgstr ""
 
-#: krita/data/paintoppresets/Sketch.tag:29
+#: krita/data/paintoppresets/Sketch.tag:30
 msgctxt "Comment"
 msgid "Sketching brush presets"
 msgstr ""
@@ -96,7 +96,7 @@ msgctxt "Name"
 msgid "Textures"
 msgstr ""
 
-#: krita/data/paintoppresets/Textures.tag:30
+#: krita/data/paintoppresets/Textures.tag:31
 msgctxt "Comment"
 msgid "Textured Brush Presets"
 msgstr ""
@@ -121,7 +121,7 @@ msgctxt "Name"
 msgid "waffle-iron grid"
 msgstr ""
 
-#: krita/data/templates/comics/a4_waffle_grid.desktop:41
+#: krita/data/templates/comics/a4_waffle_grid.desktop:42
 msgctxt "Comment"
 msgid "300 dpi, A4 waffle-iron grid comic page with ink and color layers"
 msgstr ""
@@ -340,7 +340,7 @@ msgctxt "Name"
 msgid "Assign Profile to Image"
 msgstr ""
 
-#: plugins/python/assignprofiledialog/kritapykrita_assignprofiledialog.desktop:38
+#: plugins/python/assignprofiledialog/kritapykrita_assignprofiledialog.desktop:39
 msgctxt "Comment"
 msgid "Assign a profile to an image without converting it."
 msgstr ""
@@ -350,7 +350,7 @@ msgctxt "Name"
 msgid "Batch Exporter"
 msgstr ""
 
-#: plugins/python/batch_exporter/kritapykrita_batch_exporter.desktop:32
+#: plugins/python/batch_exporter/kritapykrita_batch_exporter.desktop:33
 msgctxt "Comment"
 msgid ""
 "Smart export tool that uses layer names to scale and (re-)export art assets "
@@ -362,7 +362,7 @@ msgctxt "Name"
 msgid "Channels to layers"
 msgstr ""
 
-#: plugins/python/channels2layers/kritapykrita_channels2layers.desktop:33
+#: plugins/python/channels2layers/kritapykrita_channels2layers.desktop:34
 msgctxt "Comment"
 msgid "Extract channels as color layers"
 msgstr ""
@@ -372,7 +372,7 @@ msgctxt "Name"
 msgid "Color Space"
 msgstr ""
 
-#: plugins/python/colorspace/kritapykrita_colorspace.desktop:38
+#: plugins/python/colorspace/kritapykrita_colorspace.desktop:39
 msgctxt "Comment"
 msgid "Plugin to change color space to selected documents"
 msgstr ""
@@ -382,7 +382,7 @@ msgctxt "Name"
 msgid "Comics Project Management Tools"
 msgstr ""
 
-#: plugins/python/comics_project_management_tools/kritapykrita_comics_project_management_tools.desktop:39
+#: plugins/python/comics_project_management_tools/kritapykrita_comics_project_management_tools.desktop:40
 msgctxt "Comment"
 msgid "Tools for managing comics."
 msgstr ""
@@ -392,7 +392,7 @@ msgctxt "Name"
 msgid "Document Tools"
 msgstr ""
 
-#: plugins/python/documenttools/kritapykrita_documenttools.desktop:38
+#: plugins/python/documenttools/kritapykrita_documenttools.desktop:39
 msgctxt "Comment"
 msgid "Plugin to manipulate properties of selected documents"
 msgstr ""
@@ -402,7 +402,7 @@ msgctxt "Name"
 msgid "Export Layers"
 msgstr ""
 
-#: plugins/python/exportlayers/kritapykrita_exportlayers.desktop:38
+#: plugins/python/exportlayers/kritapykrita_exportlayers.desktop:39
 msgctxt "Comment"
 msgid "Plugin to export layers from a document"
 msgstr ""
@@ -412,7 +412,7 @@ msgctxt "Name"
 msgid "Filter Manager"
 msgstr ""
 
-#: plugins/python/filtermanager/kritapykrita_filtermanager.desktop:38
+#: plugins/python/filtermanager/kritapykrita_filtermanager.desktop:39
 msgctxt "Comment"
 msgid "Plugin to filters management"
 msgstr ""
@@ -422,7 +422,7 @@ msgctxt "Name"
 msgid "Highpass Filter"
 msgstr ""
 
-#: plugins/python/highpass/kritapykrita_highpass.desktop:35
+#: plugins/python/highpass/kritapykrita_highpass.desktop:36
 msgctxt "Comment"
 msgid "Highpass Filter, based on http://registry.gimp.org/node/7385"
 msgstr ""
@@ -432,7 +432,7 @@ msgctxt "Name"
 msgid "Krita Script Starter"
 msgstr ""
 
-#: plugins/python/krita_script_starter/kritapykrita_krita_script_starter.desktop:35
+#: plugins/python/krita_script_starter/kritapykrita_krita_script_starter.desktop:36
 msgctxt "Comment"
 msgid "Create the metadata and file structure for a new Krita script"
 msgstr ""
@@ -442,7 +442,7 @@ msgctxt "Name"
 msgid "Last Documents Docker"
 msgstr ""
 
-#: plugins/python/lastdocumentsdocker/kritapykrita_lastdocumentsdocker.desktop:37
+#: plugins/python/lastdocumentsdocker/kritapykrita_lastdocumentsdocker.desktop:38
 msgctxt "Comment"
 msgid "A Python-based docker for show thumbnails to last ten documents"
 msgstr ""
@@ -452,7 +452,7 @@ msgctxt "Name"
 msgid "Mixer Slider docker"
 msgstr ""
 
-#: plugins/python/mixer_slider_docker/kritapykrita_mixer_slider_docker.desktop:31
+#: plugins/python/mixer_slider_docker/kritapykrita_mixer_slider_docker.desktop:32
 msgctxt "Comment"
 msgid "A color slider."
 msgstr ""
@@ -462,7 +462,7 @@ msgctxt "Name"
 msgid "Palette docker"
 msgstr ""
 
-#: plugins/python/palette_docker/kritapykrita_palette_docker.desktop:38
+#: plugins/python/palette_docker/kritapykrita_palette_docker.desktop:39
 msgctxt "Comment"
 msgid "A Python-based docker to edit color palettes."
 msgstr ""
@@ -472,7 +472,7 @@ msgctxt "Name"
 msgid "Krita Photobash Images"
 msgstr ""
 
-#: plugins/python/photobash_images/kritapykrita_photobash_images.desktop:30
+#: plugins/python/photobash_images/kritapykrita_photobash_images.desktop:31
 msgctxt "Comment"
 msgid ""
 "A plugin to fetch images from a specified folder. Very useful for "
@@ -484,7 +484,7 @@ msgctxt "Name"
 msgid "Python Plugin Importer"
 msgstr ""
 
-#: plugins/python/plugin_importer/kritapykrita_plugin_importer.desktop:35
+#: plugins/python/plugin_importer/kritapykrita_plugin_importer.desktop:36
 msgctxt "Comment"
 msgid "Imports Python plugins from zip files."
 msgstr ""
@@ -494,7 +494,7 @@ msgctxt "Name"
 msgid "Quick Settings Docker"
 msgstr ""
 
-#: plugins/python/quick_settings_docker/kritapykrita_quick_settings_docker.desktop:38
+#: plugins/python/quick_settings_docker/kritapykrita_quick_settings_docker.desktop:39
 msgctxt "Comment"
 msgid "A Python-based docker for quickly changing brush size and opacity."
 msgstr ""
@@ -504,7 +504,7 @@ msgctxt "Name"
 msgid "Script Docker"
 msgstr ""
 
-#: plugins/python/scriptdocker/kritapykrita_scriptdocker.desktop:37
+#: plugins/python/scriptdocker/kritapykrita_scriptdocker.desktop:38
 msgctxt "Comment"
 msgid "A Python-based docker for create actions and point to Python scripts"
 msgstr ""
@@ -514,7 +514,7 @@ msgctxt "Name"
 msgid "Scripter"
 msgstr ""
 
-#: plugins/python/scripter/kritapykrita_scripter.desktop:36
+#: plugins/python/scripter/kritapykrita_scripter.desktop:37
 msgctxt "Comment"
 msgid "Plugin to execute ad-hoc Python code"
 msgstr ""
@@ -524,7 +524,7 @@ msgctxt "Name"
 msgid "Selections Bag Docker"
 msgstr ""
 
-#: plugins/python/selectionsbagdocker/kritapykrita_selectionsbagdocker.desktop:33
+#: plugins/python/selectionsbagdocker/kritapykrita_selectionsbagdocker.desktop:34
 msgctxt "Comment"
 msgid "A docker that allow to store a list of selections"
 msgstr ""
@@ -534,7 +534,7 @@ msgctxt "Name"
 msgid "Ten Brushes"
 msgstr ""
 
-#: plugins/python/tenbrushes/kritapykrita_tenbrushes.desktop:38
+#: plugins/python/tenbrushes/kritapykrita_tenbrushes.desktop:39
 msgctxt "Comment"
 msgid "Assign a brush preset to any of ten configurable shortcuts."
 msgstr ""
@@ -544,7 +544,7 @@ msgctxt "Name"
 msgid "Ten Scripts"
 msgstr ""
 
-#: plugins/python/tenscripts/kritapykrita_tenscripts.desktop:37
+#: plugins/python/tenscripts/kritapykrita_tenscripts.desktop:38
 msgctxt "Comment"
 msgid "Assign a Python script to any of ten configurable shortcuts."
 msgstr ""
