@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-02-09 00:45+0000\n"
-"PO-Revision-Date: 2022-02-05 09:24+0000\n"
+"PO-Revision-Date: 2022-02-09 08:42+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -32173,32 +32173,28 @@ msgid "Toolbox"
 msgstr "工具箱"
 
 #: libs/widgets/KoToolBoxDocker.cpp:139
-#, fuzzy, kde-format
-#| msgid "Layout"
+#, kde-format
 msgctxt "Toolbox layout"
 msgid "Layout"
-msgstr "版面配置"
+msgstr "排列方向"
 
 #: libs/widgets/KoToolBoxDocker.cpp:142
-#, fuzzy, kde-format
-#| msgid "Automatic"
+#, kde-format
 msgctxt "@item:inmenu Toolbox layout direction"
 msgid "&Automatic"
-msgstr "自動"
+msgstr "自動(&A)"
 
 #: libs/widgets/KoToolBoxDocker.cpp:149
-#, fuzzy, kde-format
-#| msgid "Left to right"
+#, kde-format
 msgctxt "@item:inmenu Toolbox layout direction"
 msgid "&Left-to-right"
-msgstr "從左到右"
+msgstr "從左到右(&L)"
 
 #: libs/widgets/KoToolBoxDocker.cpp:156
-#, fuzzy, kde-format
-#| msgid "Right to left"
+#, kde-format
 msgctxt "@item:inmenu Toolbox layout direction"
 msgid "&Right-to-left"
-msgstr "從右到左"
+msgstr "從右到左(&R)"
 
 #: libs/widgets/KoToolDocker.cpp:143
 #, kde-format
@@ -46069,8 +46065,7 @@ msgstr "使用多執行緒解碼"
 
 #. i18n: ectx: property (prefix), widget (KisSliderSpinBox, ditheringStrength)
 #: plugins/impex/webp/dlg_webp_import.ui:359
-#, fuzzy, kde-format
-#| msgid "Colour planes: "
+#, kde-format
 msgid "Color planes: "
 msgstr "色彩通道平面："
 
