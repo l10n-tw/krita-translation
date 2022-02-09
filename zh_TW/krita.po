@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-02-05 00:41+0000\n"
-"PO-Revision-Date: 2022-02-05 09:24+0000\n"
+"POT-Creation-Date: 2022-02-09 00:45+0000\n"
+"PO-Revision-Date: 2022-02-09 08:42+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -17450,7 +17450,7 @@ msgstr "未解析的資源資料塊"
 msgid "Local Resources"
 msgstr "本機資源"
 
-#: libs/resources/KisResourceCacheDb.cpp:192
+#: libs/resources/KisResourceCacheDb.cpp:224
 #: libs/resourcewidgets/KisStorageChooserWidget.cpp:167
 #: libs/ui/animation/KisAnimationRender.cpp:47
 #: libs/ui/animation/KisAnimationRender.cpp:99
@@ -17536,7 +17536,7 @@ msgctxt "@title:window"
 msgid "Krita"
 msgstr "Krita"
 
-#: libs/resources/KisResourceCacheDb.cpp:192
+#: libs/resources/KisResourceCacheDb.cpp:224
 #, kde-format
 msgid ""
 "The resource database scheme has changed. Krita will backup your database "
@@ -31044,7 +31044,8 @@ msgstr "詳細資料"
 
 #: libs/ui/widgets/kis_paintop_presets_chooser_popup.cpp:72
 #: libs/ui/widgets/kis_paintop_presets_editor.cpp:155
-#: libs/widgets/KoToolBox.cpp:306 libs/widgetutils/xmlgui/ktoolbar.cpp:321
+#: libs/widgets/KoToolBoxDocker.cpp:136
+#: libs/widgetutils/xmlgui/ktoolbar.cpp:321
 #: plugins/dockers/svgcollectiondocker/SvgSymbolCollectionDocker.cpp:200
 #, kde-format
 msgid "Icon Size"
@@ -32149,13 +32150,13 @@ msgstr "模糊："
 msgid "Distance:"
 msgstr "距離："
 
-#: libs/widgets/KoToolBox.cpp:307 libs/widgetutils/xmlgui/ktoolbar.cpp:323
+#: libs/widgets/KoToolBox.cpp:311 libs/widgetutils/xmlgui/ktoolbar.cpp:323
 #, kde-format
 msgctxt "@item:inmenu Icon size"
 msgid "Default"
 msgstr "預設"
 
-#: libs/widgets/KoToolBox.cpp:314
+#: libs/widgets/KoToolBox.cpp:318
 #, kde-format
 msgid "%1x%2"
 msgstr "%1x%2"
@@ -32166,10 +32167,34 @@ msgctxt "@info:tooltip %2 is shortcut"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: libs/widgets/KoToolBoxDocker.cpp:20
+#: libs/widgets/KoToolBoxDocker.cpp:25
 #, kde-format
 msgid "Toolbox"
 msgstr "工具箱"
+
+#: libs/widgets/KoToolBoxDocker.cpp:139
+#, kde-format
+msgctxt "Toolbox layout"
+msgid "Layout"
+msgstr "排列方向"
+
+#: libs/widgets/KoToolBoxDocker.cpp:142
+#, kde-format
+msgctxt "@item:inmenu Toolbox layout direction"
+msgid "&Automatic"
+msgstr "自動(&A)"
+
+#: libs/widgets/KoToolBoxDocker.cpp:149
+#, kde-format
+msgctxt "@item:inmenu Toolbox layout direction"
+msgid "&Left-to-right"
+msgstr "從左到右(&L)"
+
+#: libs/widgets/KoToolBoxDocker.cpp:156
+#, kde-format
+msgctxt "@item:inmenu Toolbox layout direction"
+msgid "&Right-to-left"
+msgstr "從右到左(&R)"
 
 #: libs/widgets/KoToolDocker.cpp:143
 #, kde-format
@@ -46041,7 +46066,7 @@ msgstr "使用多執行緒解碼"
 #. i18n: ectx: property (prefix), widget (KisSliderSpinBox, ditheringStrength)
 #: plugins/impex/webp/dlg_webp_import.ui:359
 #, kde-format
-msgid "Colour planes: "
+msgid "Color planes: "
 msgstr "色彩通道平面："
 
 #. i18n: ectx: property (prefix), widget (KisSliderSpinBox, alphaDitheringStrength)
@@ -56382,15 +56407,6 @@ msgstr "參考圖工具"
 
 #~ msgid "&Text direction:"
 #~ msgstr "文字方向(&T)："
-
-#~ msgid "Automatic"
-#~ msgstr "自動"
-
-#~ msgid "Left to right"
-#~ msgstr "從左到右"
-
-#~ msgid "Right to left"
-#~ msgstr "從右到左"
 
 #~ msgid "&Binding edge:"
 #~ msgstr "裝訂邊界(&B)："
