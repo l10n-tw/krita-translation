@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-02-11 00:42+0000\n"
-"PO-Revision-Date: 2022-02-09 08:42+0000\n"
+"PO-Revision-Date: 2022-02-11 08:45+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -22118,12 +22118,10 @@ msgstr "提示：這些是新影像的預設螢幕校樣設定。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblColorSpaces)
 #: libs/ui/forms/wdgcolorspaceselector.ui:39
-#, fuzzy, kde-format
-#| msgctxt "EXIF: misc (model name or model number)"
-#| msgid "Model:"
+#, kde-format
 msgctxt "Color model"
 msgid "Model:"
-msgstr "型號："
+msgstr "模型："
 
 #. i18n: ectx: property (text), widget (QLabel, lblColorModels)
 #: libs/ui/forms/wdgcolorspaceselector.ui:56
@@ -22134,11 +22132,9 @@ msgstr "色彩深度："
 
 #. i18n: ectx: property (text), widget (QLabel, lblProfiles)
 #: libs/ui/forms/wdgcolorspaceselector.ui:73
-#, fuzzy, kde-format
-#| msgctxt "Label of H.264 encoder profiles"
-#| msgid "Profile:"
+#, kde-format
 msgid "Profile:"
-msgstr "設定："
+msgstr "特性檔案："
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, bnInstallProfile)
 #: libs/ui/forms/wdgcolorspaceselector.ui:120
@@ -22160,13 +22156,7 @@ msgstr "色彩空間瀏覽器"
 
 #. i18n: ectx: property (text), widget (QLabel, lbl_descriptionwidget)
 #: libs/ui/forms/wdgcolorspaceselectoradvanced.ui:27
-#, fuzzy, kde-format
-#| msgid ""
-#| "<html><head/><body><p><a href=\"https://en.wikipedia.org/wiki/Color_space"
-#| "\"><span style=\" font-weight:600; text-decoration: underline; color:"
-#| "#006e28;\">Color Spaces</span></a> determine how colors are encoded in "
-#| "your files. Different color spaces have different properties and are used "
-#| "for different purposes.</p></body></html>"
+#, kde-format
 msgid ""
 "<html><head/><body><p><a href=\"https://en.wikipedia.org/wiki/Color_space"
 "\"><span style=\" font-weight:600; text-decoration: underline; color:#006e28;"
@@ -22174,10 +22164,9 @@ msgid ""
 "Different color spaces have different properties and are used for different "
 "purposes.</p></body></html>"
 msgstr ""
-"<html><head/><body><p><a href=\"https://zh.wikipedia.org/wiki/色彩空間"
-"\"><span style=\" font-weight:600; text-decoration: underline; color:#006e28;"
-"\">色彩空間</span></a> 用於控制檔案色彩的編碼方式。每種色彩空間特性各異，適應"
-"於不同的用途。</p></body></html>"
+"<html><head/><body><p><a href=\"https://zh.wikipedia.org/wiki/色彩空間\"><span "
+"style=\" font-weight:600; text-decoration: underline; color:#006e28;\""
+">色彩空間</span></a>用於控制檔案色彩的編碼方式。每種色彩空間特性各異，適應於不同的用途。</p></body></html>"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: libs/ui/forms/wdgcolorspaceselectoradvanced.ui:51
@@ -24074,7 +24063,7 @@ msgstr "擦除模式獨立不透明度"
 #: libs/ui/forms/wdgpaintopsettings.ui:690
 #, kde-format
 msgid "Temporarily Save Tweaks To Presets"
-msgstr "暫時儲存選項修改"
+msgstr "暫時儲存選項更動"
 
 #. i18n: ectx: property (text), widget (QLabel, scratchpadSidebarLabel)
 #: libs/ui/forms/wdgpaintopsettings.ui:805
@@ -30137,10 +30126,9 @@ msgstr "編輯停駐點"
 
 #: libs/ui/widgets/kis_advanced_color_space_selector.cc:67
 #: libs/ui/widgets/kis_color_space_selector.cc:55
-#, fuzzy, kde-format
-#| msgid "No profile"
+#, kde-format
 msgid "Import profile"
-msgstr "無色彩特性檔案"
+msgstr "匯入色彩特性檔案"
 
 #: libs/ui/widgets/kis_advanced_color_space_selector.cc:112
 #: libs/ui/widgets/kis_color_space_selector.cc:66
@@ -30242,38 +30230,30 @@ msgid "Estimated Gamma cannot be retrieved for YCrCb."
 msgstr "無法為 YCrCb 色彩空間得出估算 gamma 值。"
 
 #: libs/ui/widgets/kis_advanced_color_space_selector.cc:371
-#, fuzzy, kde-format
-#| msgid "&About %1"
+#, kde-format
 msgctxt "About <Profilename>"
 msgid "About %1/%2"
-msgstr "關於 %1(&A)"
+msgstr "關於 %1/%2"
 
 #: libs/ui/widgets/kis_advanced_color_space_selector.cc:373
-#, fuzzy, kde-format
-#| msgctxt "ICC profile version"
-#| msgid "ICC Version: "
+#, kde-format
 msgctxt "ICC profile version"
 msgid "ICC Version: %1"
-msgstr "ICC 版本："
+msgstr "ICC 版本：%1"
 
 #: libs/ui/widgets/kis_advanced_color_space_selector.cc:376
-#, fuzzy, kde-format
-#| msgid "Min Luminance: %1"
+#, kde-format
 msgctxt "Who made the profile?"
 msgid "Manufacturer: %1"
-msgstr "最小光度：%1"
+msgstr "製造者：%1"
 
 #: libs/ui/widgets/kis_advanced_color_space_selector.cc:381
-#, fuzzy, kde-format
-#| msgctxt ""
-#| "What is the copyright? These are from embedded strings from the icc "
-#| "profile, so they default to english."
-#| msgid "Copyright: "
+#, kde-format
 msgctxt ""
 "What is the copyright? These are from embedded strings from the icc profile, "
 "so they default to english."
 msgid "Copyright: %1"
-msgstr "版權： "
+msgstr "版權：%1"
 
 #: libs/ui/widgets/kis_advanced_color_space_selector.cc:389
 #, kde-format
@@ -36467,8 +36447,7 @@ msgstr "保持顯示最後一個影格的額外時長。"
 
 #. i18n: ectx: property (text), widget (QLabel, labelHoldLastFrameSec)
 #: plugins/dockers/recorder/recorder_export.ui:182
-#, fuzzy, kde-format
-#| msgid "Hold Last Frame for:"
+#, kde-format
 msgid "Hold last frame for:"
 msgstr "最後影格保持時長："
 
@@ -36487,7 +36466,7 @@ msgstr " 秒"
 #: plugins/dockers/recorder/recorder_export.ui:334
 #, kde-format
 msgid "Show result on first frame for:"
-msgstr ""
+msgstr "在開首顯示完成品時長："
 
 #. i18n: ectx: property (text), widget (QLineEdit, editFfmpegPath)
 #: plugins/dockers/recorder/recorder_export.ui:405
@@ -51876,11 +51855,10 @@ msgid "Threshold:"
 msgstr "閾值："
 
 #: plugins/tools/basictools/kis_tool_fill.cc:331
-#, fuzzy, kde-format
-#| msgid "Opacity:"
+#, kde-format
 msgctxt "The Opacity Spread label in Fill tool options"
 msgid "Opacity Spread:"
-msgstr "不透明度："
+msgstr "不透明度擴散："
 
 #: plugins/tools/basictools/kis_tool_fill.cc:338
 #, kde-format
@@ -51951,24 +51929,22 @@ msgid "When checked, use selection borders as boundary when filling"
 msgstr "勾選時，填充將以選取區域邊界為界限"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:393
-#, fuzzy, kde-format
-#| msgid "Continuous Mode"
+#, kde-format
 msgctxt "The 'continuous fill' label in Fill tool options"
 msgid "Continuous Fill:"
-msgstr "連續模式"
+msgstr "連續填充："
 
 #: plugins/tools/basictools/kis_tool_fill.cc:395
 #, kde-format
 msgctxt "Continuous fill mode in fill tool options"
 msgid "Any region"
-msgstr ""
+msgstr "任何區域"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:396
-#, fuzzy, kde-format
-#| msgid "Similar Color Selection"
+#, kde-format
 msgctxt "Continuous fill mode in fill tool options"
 msgid "Similar regions"
-msgstr "相似色彩選取區域"
+msgstr "相似色彩區域"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:512
 #, kde-format
@@ -53017,10 +52993,9 @@ msgid "Fuzziness: "
 msgstr "模糊度："
 
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:244
-#, fuzzy, kde-format
-#| msgid "Opacity: "
+#, kde-format
 msgid "Opacity Spread: "
-msgstr "不透明度："
+msgstr "不透明度擴散："
 
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:255
 #, kde-format
