@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-02-09 00:45+0000\n"
+"POT-Creation-Date: 2022-02-11 00:42+0000\n"
 "PO-Revision-Date: 2022-02-09 08:42+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
@@ -14821,8 +14821,8 @@ msgstr "大小"
 #: plugins/dockers/griddocker/grid_config_widget.ui:230
 #: plugins/dockers/griddocker/grid_config_widget.ui:444
 #: plugins/dockers/griddocker/grid_config_widget.ui:489
-#: plugins/dockers/recorder/recorder_export.ui:190
-#: plugins/dockers/recorder/recorder_export.ui:228
+#: plugins/dockers/recorder/recorder_export.ui:222
+#: plugins/dockers/recorder/recorder_export.ui:260
 #: plugins/filters/blur/kis_wdg_gaussian_blur.cpp:36
 #: plugins/filters/blur/kis_wdg_gaussian_blur.cpp:44
 #: plugins/generators/pattern/kis_wdg_pattern.cpp:40
@@ -14856,14 +14856,14 @@ msgstr "大小"
 #: plugins/paintops/spray/kis_spray_shape_option.cpp:124
 #: plugins/paintops/spray/kis_sprayop_option.cpp:31
 #: plugins/tools/basictools/kis_tool_brush.cc:388
-#: plugins/tools/basictools/kis_tool_fill.cc:249
-#: plugins/tools/basictools/kis_tool_fill.cc:256
+#: plugins/tools/basictools/kis_tool_fill.cc:343
+#: plugins/tools/basictools/kis_tool_fill.cc:350
 #: plugins/tools/basictools/kis_tool_movetooloptionswidget.cpp:51
 #: plugins/tools/basictools/kis_tool_movetooloptionswidget.cpp:52
 #: plugins/tools/basictools/kis_tool_multihand.cpp:451
 #: plugins/tools/basictools/wdgcolorsampler.ui:186
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:295
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:298
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:296
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:299
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:117
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:142
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:250
@@ -17418,7 +17418,7 @@ msgstr "輸出"
 #: libs/pigment/resources/KoColorSet.cpp:852
 #: libs/pigment/resources/KoColorSet.cpp:1075
 #: libs/ui/actions/KisPasteActionFactories.cpp:301
-#: libs/ui/animation/KisDlgAnimationRenderer.cpp:345 libs/ui/KisView.cpp:844
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:345 libs/ui/KisView.cpp:839
 #: plugins/generators/seexpr/kis_wdg_seexpr.cpp:34
 #, kde-format
 msgid "Untitled"
@@ -17490,7 +17490,7 @@ msgstr "本機資源"
 #: libs/ui/KisReferenceImage.cpp:180 libs/ui/KisRemoteFileFetcher.cpp:35
 #: libs/ui/KisRemoteFileFetcher.cpp:56 libs/ui/KisRemoteFileFetcher.cpp:86
 #: libs/ui/KisTemplateCreateDia.cpp:284 libs/ui/KisTemplateCreateDia.cpp:390
-#: libs/ui/KisView.cpp:589 libs/ui/KisView.cpp:847
+#: libs/ui/KisView.cpp:589 libs/ui/KisView.cpp:842
 #: libs/ui/KisWelcomePageWidget.cpp:711
 #: libs/ui/opengl/KisOpenGLCanvasRenderer.cpp:356
 #: libs/ui/widgets/kis_custom_image_widget.cc:293
@@ -18266,7 +18266,7 @@ msgstr "取代 (覆蓋) 標籤"
 #: libs/ui/input/kis_tool_invocation_action.cpp:43
 #: libs/ui/widgets/kis_canvas_drop.cpp:45
 #: plugins/dockers/gamutmask/forms/wdgGamutMaskChooser.ui:190
-#: plugins/dockers/recorder/recorder_export.ui:739
+#: plugins/dockers/recorder/recorder_export.ui:788
 #: plugins/dockers/recorder/recorder_snapshots_manager.ui:130
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:117
 #: plugins/generators/seexpr/wdgseexpr.ui:179
@@ -18341,52 +18341,52 @@ msgctxt "(qtundo-format)"
 msgid "Flood Fill Layer"
 msgstr "浸漫填充圖層"
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:371
+#: libs/ui/actions/kis_selection_action_factories.cpp:365
 msgctxt "(qtundo-format)"
 msgid "Cut"
 msgstr "剪下"
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:372
+#: libs/ui/actions/kis_selection_action_factories.cpp:366
 msgctxt "(qtundo-format)"
 msgid "Copy"
 msgstr "複製"
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:457
+#: libs/ui/actions/kis_selection_action_factories.cpp:451
 msgctxt "(qtundo-format)"
 msgid "Copy Merged"
 msgstr "合併複製"
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:474
+#: libs/ui/actions/kis_selection_action_factories.cpp:468
 #, kde-format
 msgctxt "floating message"
 msgid "Selection is already in a vector format "
 msgstr "選取區域已是向量格式"
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:499
-#: libs/ui/actions/kis_selection_action_factories.cpp:519
+#: libs/ui/actions/kis_selection_action_factories.cpp:493
+#: libs/ui/actions/kis_selection_action_factories.cpp:513
 msgctxt "(qtundo-format)"
 msgid "Convert to Vector Selection"
 msgstr "轉成向量選取區域"
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:514
+#: libs/ui/actions/kis_selection_action_factories.cpp:508
 #, kde-format
 msgctxt "floating message"
 msgid "Selection is already in a raster format "
 msgstr "選取區域已是點陣格式"
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:560
+#: libs/ui/actions/kis_selection_action_factories.cpp:554
 #, kde-format
 msgctxt "floating message"
 msgid "The shape already belongs to a selection"
 msgstr "此形狀已屬於一個選取區域"
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:566
+#: libs/ui/actions/kis_selection_action_factories.cpp:560
 msgctxt "(qtundo-format)"
 msgid "Convert shapes to vector selection"
 msgstr "轉換形狀為向量選取區域"
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:619
-#: libs/ui/actions/kis_selection_action_factories.cpp:678
+#: libs/ui/actions/kis_selection_action_factories.cpp:613
+#: libs/ui/actions/kis_selection_action_factories.cpp:672
 #: plugins/tools/tool_polyline/kis_tool_polyline.cc:49
 msgctxt "(qtundo-format)"
 msgid "Draw Polyline"
@@ -19445,7 +19445,7 @@ msgstr "顯示"
 #. i18n: ectx: property (text), widget (QLabel, labelX)
 #: libs/ui/animation/VideoHDRMetadataOptionsDialog.ui:46
 #: libs/ui/kis_paintop_box.cc:297
-#: plugins/dockers/recorder/recorder_export.ui:209
+#: plugins/dockers/recorder/recorder_export.ui:241
 #, kde-format
 msgid "x"
 msgstr "x"
@@ -19477,7 +19477,7 @@ msgstr "藍基色："
 #. i18n: ectx: property (text), widget (QLabel, label_9)
 #. i18n: ectx: property (text), widget (QLabel, lblWhitepoint)
 #: libs/ui/animation/VideoHDRMetadataOptionsDialog.ui:179
-#: libs/ui/forms/wdgcolorspaceselectoradvanced.ui:220
+#: libs/ui/forms/wdgcolorspaceselectoradvanced.ui:195
 #, kde-format
 msgid "White Point:"
 msgstr "白點："
@@ -19901,7 +19901,7 @@ msgstr "FF&mpeg："
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #. i18n: ectx: property (text), widget (QLabel, labelResolution)
 #: libs/ui/animation/wdg_animationrenderer.ui:283
-#: plugins/dockers/recorder/recorder_export.ui:434
+#: plugins/dockers/recorder/recorder_export.ui:386
 #, kde-format
 msgid "Render as:"
 msgstr "繪製為："
@@ -20574,8 +20574,8 @@ msgstr "圖層屬性"
 #: plugins/paintops/tangentnormal/kis_tangent_tilt_option.cpp:39
 #: plugins/paintops/tangentnormal/kis_tangent_tilt_option.cpp:43
 #: plugins/tools/basictools/kis_tool_colorsampler.cc:398
-#: plugins/tools/basictools/kis_tool_fill.cc:240
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:251
+#: plugins/tools/basictools/kis_tool_fill.cc:334
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:252
 #: plugins/tools/svgtexttool/SvgTextEditor.cpp:1449
 #, no-c-format, kde-format
 msgid "%"
@@ -20862,8 +20862,6 @@ msgid "%1 is not a valid image file!"
 msgstr "%1 不是有效的影像檔案！"
 
 #: libs/ui/dialogs/kis_dlg_preferences.cc:747
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:55
-#: libs/ui/widgets/kis_color_space_selector.cc:52
 #, kde-format
 msgid "Open Color Profile"
 msgstr "開啟色彩特性檔案"
@@ -20879,8 +20877,8 @@ msgid "Screen %1 (%2):"
 msgstr "顯示器 %1 (%2)："
 
 #: libs/ui/dialogs/kis_dlg_preferences.cc:821
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:772
-#: libs/ui/widgets/kis_color_space_selector.cc:188
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:793
+#: libs/ui/widgets/kis_color_space_selector.cc:191
 #, kde-format
 msgid "Install Color Profiles"
 msgstr "安裝色彩特性檔案"
@@ -21878,7 +21876,7 @@ msgstr ""
 #: libs/ui/forms/wdgapplyprofile.ui:100 libs/ui/forms/wdgcolorsettings.ui:217
 #: libs/ui/forms/wdgcolorsettings.ui:302
 #: libs/ui/forms/wdgimageproperties.ui:298
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:464
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:485
 #: plugins/extensions/colorspaceconversion/wdgconvertcolorspace.ui:45
 #, kde-format
 msgid "Perceptual"
@@ -21917,7 +21915,7 @@ msgstr ""
 #: libs/ui/forms/wdgapplyprofile.ui:120 libs/ui/forms/wdgcolorsettings.ui:227
 #: libs/ui/forms/wdgcolorsettings.ui:312
 #: libs/ui/forms/wdgimageproperties.ui:308
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:473
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:494
 #: plugins/extensions/colorspaceconversion/wdgconvertcolorspace.ui:89
 #, kde-format
 msgctxt "ICC profile rendering intent"
@@ -22057,7 +22055,7 @@ msgstr "繪製意圖(&R)："
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbProofingIntent)
 #: libs/ui/forms/wdgcolorsettings.ui:222 libs/ui/forms/wdgcolorsettings.ui:307
 #: libs/ui/forms/wdgimageproperties.ui:303
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:467
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:488
 #, kde-format
 msgid "Relative Colorimetric"
 msgstr "相對比色模式"
@@ -22067,7 +22065,7 @@ msgstr "相對比色模式"
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbProofingIntent)
 #: libs/ui/forms/wdgcolorsettings.ui:232 libs/ui/forms/wdgcolorsettings.ui:317
 #: libs/ui/forms/wdgimageproperties.ui:313
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:470
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:491
 #, kde-format
 msgid "Absolute Colorimetric"
 msgstr "絕對比色模式"
@@ -22119,77 +22117,60 @@ msgid "Note: these are the default proofing settings for new images."
 msgstr "提示：這些是新影像的預設螢幕校樣設定。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblColorSpaces)
-#: libs/ui/forms/wdgcolorspaceselector.ui:35
-#, kde-format
+#: libs/ui/forms/wdgcolorspaceselector.ui:39
+#, fuzzy, kde-format
+#| msgctxt "EXIF: misc (model name or model number)"
+#| msgid "Model:"
 msgctxt "Color model"
-msgid "&Model:"
-msgstr "模型(&M)："
+msgid "Model:"
+msgstr "型號："
 
 #. i18n: ectx: property (text), widget (QLabel, lblColorModels)
-#: libs/ui/forms/wdgcolorspaceselector.ui:59
+#: libs/ui/forms/wdgcolorspaceselector.ui:56
 #, kde-format
 msgctxt "Label of Color Depth in Color Space Selector dialogue"
 msgid "Depth:"
 msgstr "色彩深度："
 
 #. i18n: ectx: property (text), widget (QLabel, lblProfiles)
-#: libs/ui/forms/wdgcolorspaceselector.ui:83
-#, kde-format
-msgid "Profi&le:"
-msgstr "特性檔案(&L)："
+#: libs/ui/forms/wdgcolorspaceselector.ui:73
+#, fuzzy, kde-format
+#| msgctxt "Label of H.264 encoder profiles"
+#| msgid "Profile:"
+msgid "Profile:"
+msgstr "設定："
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, bnInstallProfile)
-#: libs/ui/forms/wdgcolorspaceselector.ui:109
+#: libs/ui/forms/wdgcolorspaceselector.ui:120
 #, kde-format
 msgid "Install a new profile from a file"
 msgstr "安裝新特性檔案"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, bnInstallProfile)
-#: libs/ui/forms/wdgcolorspaceselector.ui:112
+#: libs/ui/forms/wdgcolorspaceselector.ui:123
 #, kde-format
 msgid "Install a new profile from a file."
 msgstr "安裝新特性檔案。"
 
 #. i18n: ectx: property (text), widget (QPushButton, bnAdvanced)
-#: libs/ui/forms/wdgcolorspaceselector.ui:124
+#: libs/ui/forms/wdgcolorspaceselector.ui:136
 #, kde-format
 msgid "Color Space Browser"
 msgstr "色彩空間瀏覽器"
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: libs/ui/forms/wdgcolorspaceselectoradvanced.ui:36
-#, kde-format
-msgid "Profile Picker"
-msgstr "特性檔案選擇工具"
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: libs/ui/forms/wdgcolorspaceselectoradvanced.ui:44
-#, kde-format
-msgctxt "Color depth"
-msgid "Depth"
-msgstr "深度"
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: libs/ui/forms/wdgcolorspaceselectoradvanced.ui:51
-#, kde-format
-msgctxt "Color model"
-msgid "Model"
-msgstr "模型"
-
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: libs/ui/forms/wdgcolorspaceselectoradvanced.ui:58
-#, kde-format
-msgctxt "ICC color profile"
-msgid "Profile"
-msgstr "特性檔案"
-
 #. i18n: ectx: property (text), widget (QLabel, lbl_descriptionwidget)
-#: libs/ui/forms/wdgcolorspaceselectoradvanced.ui:148
-#, kde-format
+#: libs/ui/forms/wdgcolorspaceselectoradvanced.ui:27
+#, fuzzy, kde-format
+#| msgid ""
+#| "<html><head/><body><p><a href=\"https://en.wikipedia.org/wiki/Color_space"
+#| "\"><span style=\" font-weight:600; text-decoration: underline; color:"
+#| "#006e28;\">Color Spaces</span></a> determine how colors are encoded in "
+#| "your files. Different color spaces have different properties and are used "
+#| "for different purposes.</p></body></html>"
 msgid ""
 "<html><head/><body><p><a href=\"https://en.wikipedia.org/wiki/Color_space"
 "\"><span style=\" font-weight:600; text-decoration: underline; color:#006e28;"
-"\">Color Spaces</span></a> determine how colors are encoded in your files. "
+"\">Color Spaces</span></a>  determine how colors are encoded in your files. "
 "Different color spaces have different properties and are used for different "
 "purposes.</p></body></html>"
 msgstr ""
@@ -22198,8 +22179,35 @@ msgstr ""
 "\">色彩空間</span></a> 用於控制檔案色彩的編碼方式。每種色彩空間特性各異，適應"
 "於不同的用途。</p></body></html>"
 
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: libs/ui/forms/wdgcolorspaceselectoradvanced.ui:51
+#, kde-format
+msgid "Profile Picker"
+msgstr "特性檔案選擇工具"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: libs/ui/forms/wdgcolorspaceselectoradvanced.ui:59
+#, kde-format
+msgctxt "Color model"
+msgid "Model"
+msgstr "模型"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: libs/ui/forms/wdgcolorspaceselectoradvanced.ui:76
+#, kde-format
+msgctxt "Color depth"
+msgid "Depth"
+msgstr "深度"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: libs/ui/forms/wdgcolorspaceselectoradvanced.ui:95
+#, kde-format
+msgctxt "ICC color profile"
+msgid "Profile"
+msgstr "特性檔案"
+
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: libs/ui/forms/wdgcolorspaceselectoradvanced.ui:201
+#: libs/ui/forms/wdgcolorspaceselectoradvanced.ui:151
 #, kde-format
 msgid "Profile Properties"
 msgstr "特性檔案屬性"
@@ -22574,7 +22582,7 @@ msgstr "色彩特性檔案："
 #: libs/ui/forms/wdgfilterdialog.ui:67
 #: libs/widgetutils/KisPreviewFileDialog.cpp:50
 #: plugins/dockers/gamutmask/forms/wdgGamutMaskChooser.ui:219
-#: plugins/dockers/recorder/recorder_profile_settings.ui:176
+#: plugins/dockers/recorder/recorder_profile_settings.ui:177
 #: plugins/extensions/resourcemanager/WdgDlgResourceManager.ui:98
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:50
 #, kde-format
@@ -23329,7 +23337,7 @@ msgstr "圖案變形"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: libs/ui/forms/wdggeometryoptions.ui:120
-#: plugins/tools/basictools/kis_tool_fill.cc:262
+#: plugins/tools/basictools/kis_tool_fill.cc:356
 #, kde-format
 msgid "Rotate:"
 msgstr "旋轉："
@@ -23348,7 +23356,7 @@ msgstr "旋轉："
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:121
 #: plugins/paintops/libpaintop/forms/wdgtexturechooser.ui:76
 #: plugins/paintops/spray/wdgsprayoptions.ui:112
-#: plugins/tools/basictools/kis_tool_fill.cc:268
+#: plugins/tools/basictools/kis_tool_fill.cc:362
 #, kde-format
 msgid "Scale:"
 msgstr "縮放："
@@ -23983,7 +23991,7 @@ msgid "path"
 msgstr "路徑"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgPaintOpSettings)
-#: libs/ui/forms/wdgpaintopsettings.ui:18 libs/ui/kis_paintop_box.cc:437
+#: libs/ui/forms/wdgpaintopsettings.ui:18 libs/ui/kis_paintop_box.cc:446
 #, kde-format
 msgid "Brush Editor"
 msgstr "筆刷編輯器"
@@ -24711,7 +24719,7 @@ msgstr "工具圖示："
 #. i18n: ectx: property (toolTip), widget (QLabel, heightLabel)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, spinScaleHeight)
 #: libs/ui/forms/wdgrectangleconstraints.ui:83
-#: plugins/dockers/recorder/recorder_export.ui:222
+#: plugins/dockers/recorder/recorder_export.ui:254
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:222
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:247
 #, kde-format
@@ -24729,7 +24737,7 @@ msgstr "寬高比"
 #. i18n: ectx: property (toolTip), widget (QLabel, widthLabel)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, spinScaleWidth)
 #: libs/ui/forms/wdgrectangleconstraints.ui:131
-#: plugins/dockers/recorder/recorder_export.ui:184
+#: plugins/dockers/recorder/recorder_export.ui:216
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:272
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:320
 #, kde-format
@@ -25303,7 +25311,7 @@ msgstr "保持寬高比"
 #: libs/ui/imagesize/wdg_canvassize.ui:135
 #: libs/ui/imagesize/wdg_imagesize.ui:342
 #: libs/ui/imagesize/wdg_layersize.ui:142
-#: plugins/dockers/recorder/recorder_export.ui:417
+#: plugins/dockers/recorder/recorder_export.ui:444
 #: plugins/impex/webp/dlg_webp_import.ui:235
 #, kde-format
 msgid "Constrain proportions"
@@ -26273,32 +26281,32 @@ msgstr "填充漸變"
 msgid "&Patterns"
 msgstr "圖案(&P)"
 
-#: libs/ui/kis_control_frame.cpp:87
+#: libs/ui/kis_control_frame.cpp:89
 #, kde-format
 msgid "&Gradients"
 msgstr "漸變(&G)"
 
-#: libs/ui/kis_control_frame.cpp:100
+#: libs/ui/kis_control_frame.cpp:104
 #, kde-format
 msgid "&Choose foreground and background colors"
 msgstr "選取前景色和背景色(&C)"
 
-#: libs/ui/kis_control_frame.cpp:115
+#: libs/ui/kis_control_frame.cpp:119
 #, kde-format
 msgid "&Painter's Tools"
 msgstr "繪畫工具(&P)"
 
-#: libs/ui/kis_control_frame.cpp:120
+#: libs/ui/kis_control_frame.cpp:124
 #, kde-format
 msgid "&Open Foreground color selector"
 msgstr "開啟前景色選取工具(&O)"
 
-#: libs/ui/kis_control_frame.cpp:125
+#: libs/ui/kis_control_frame.cpp:129
 #, kde-format
 msgid "&Open Background color selector"
 msgstr "開啟背景色選取工具"
 
-#: libs/ui/kis_control_frame.cpp:186 libs/ui/KisApplication.cpp:346
+#: libs/ui/kis_control_frame.cpp:190 libs/ui/KisApplication.cpp:346
 #: plugins/dockers/patterndocker/patterndocker_dock.cpp:20
 #: plugins/extensions/resourcemanager/dlg_embed_tags.cpp:65
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:242
@@ -26306,12 +26314,12 @@ msgstr "開啟背景色選取工具"
 msgid "Patterns"
 msgstr "圖案"
 
-#: libs/ui/kis_control_frame.cpp:189 libs/ui/kis_control_frame.cpp:190
+#: libs/ui/kis_control_frame.cpp:193 libs/ui/kis_control_frame.cpp:194
 #, kde-format
 msgid "Custom Pattern"
 msgstr "自訂圖案"
 
-#: libs/ui/kis_control_frame.cpp:236 libs/ui/KisApplication.cpp:331
+#: libs/ui/kis_control_frame.cpp:240 libs/ui/KisApplication.cpp:331
 #: libs/ui/KisApplication.cpp:332
 #: plugins/extensions/resourcemanager/dlg_embed_tags.cpp:63
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:245
@@ -26741,18 +26749,18 @@ msgstr "大小："
 msgid "Pattern Scale:"
 msgstr "圖案縮放："
 
-#: libs/ui/kis_paintop_box.cc:313
+#: libs/ui/kis_paintop_box.cc:314
 #, kde-format
 msgid "Choose workspace"
 msgstr "選擇作業空間"
 
-#: libs/ui/kis_paintop_box.cc:350
+#: libs/ui/kis_paintop_box.cc:356
 #, kde-format
 msgid "Brush composite"
 msgstr "筆刷分量"
 
-#: libs/ui/kis_paintop_box.cc:1265 libs/ui/kis_paintop_box.cc:1287
-#: libs/ui/kis_paintop_box.cc:1301
+#: libs/ui/kis_paintop_box.cc:1269 libs/ui/kis_paintop_box.cc:1291
+#: libs/ui/kis_paintop_box.cc:1305
 #, kde-format
 msgid ""
 "%1\n"
@@ -28396,44 +28404,44 @@ msgstr "圖層已鎖定。"
 msgid "Layer is invisible."
 msgstr "圖層不可見。"
 
-#: libs/ui/KisView.cpp:848
+#: libs/ui/KisView.cpp:843
 #, kde-format
 msgid ""
 "<p>The document <b>'%1'</b> has been modified.</p><p>Do you want to save it?"
 "</p>"
 msgstr "<p>檔案 <b>「%1」</b> 已被修改。</p><p>要儲存它嗎？</p>"
 
-#: libs/ui/KisView.cpp:1037
+#: libs/ui/KisView.cpp:1032
 #, kde-format
 msgid "Soft Proofing doesn't work in floating point."
 msgstr "螢幕校樣不支援浮點位深度。"
 
-#: libs/ui/KisView.cpp:1042
+#: libs/ui/KisView.cpp:1037
 #, kde-format
 msgid "Soft Proofing turned on."
 msgstr "已啟用螢幕校樣。"
 
-#: libs/ui/KisView.cpp:1044
+#: libs/ui/KisView.cpp:1039
 #, kde-format
 msgid "Soft Proofing turned off."
 msgstr "已關閉螢幕校樣。"
 
-#: libs/ui/KisView.cpp:1056
+#: libs/ui/KisView.cpp:1051
 #, kde-format
 msgid "Gamut Warnings don't work in floating point."
 msgstr "色域警告不支援浮點色深。"
 
-#: libs/ui/KisView.cpp:1062
+#: libs/ui/KisView.cpp:1057
 #, kde-format
 msgid "Gamut Warnings turned on."
 msgstr "已啟用色域警告。"
 
-#: libs/ui/KisView.cpp:1064
+#: libs/ui/KisView.cpp:1059
 #, kde-format
 msgid "But Soft Proofing is still off."
 msgstr "但螢幕校樣仍然關閉。"
 
-#: libs/ui/KisView.cpp:1067
+#: libs/ui/KisView.cpp:1062
 #, kde-format
 msgid "Gamut Warnings turned off."
 msgstr "已關閉色域警告。"
@@ -30127,8 +30135,15 @@ msgctxt "Title for the gradient stop editor"
 msgid "Edit Stop"
 msgstr "編輯停駐點"
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:100
-#: libs/ui/widgets/kis_color_space_selector.cc:63
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:67
+#: libs/ui/widgets/kis_color_space_selector.cc:55
+#, fuzzy, kde-format
+#| msgid "No profile"
+msgid "Import profile"
+msgstr "無色彩特性檔案"
+
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:112
+#: libs/ui/widgets/kis_color_space_selector.cc:66
 #, kde-format
 msgctxt ""
 "This is appended to the color profile which is the default for the given "
@@ -30136,57 +30151,57 @@ msgctxt ""
 msgid "(Default)"
 msgstr "(預設)"
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:143
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:155
 #, kde-format
 msgctxt "Not Applicable, used where there's no colorants or gamma curve found"
 msgid "N/A"
 msgstr "不適用"
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:144
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:156
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "This profile has no colorants."
 msgstr "此特性檔案不含色料資訊。"
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:145
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:157
 #, kde-format
 msgctxt "Shows up instead of the name when there's no profile"
 msgid "No Profile Found"
 msgstr "找不到特性檔案"
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:146
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:158
 #, kde-format
 msgid "Colorant in d50-adapted xyY."
 msgstr "D50-適應型 xyY 色料。"
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:159
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:171
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "This profile has the following xyY colorants:"
 msgstr "此特性檔案含有下列 xyY 色料："
 
 #. i18n: ectx: property (text), widget (QLabel, RedLabel)
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:160
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:172
 #: plugins/paintops/tangentnormal/wdgtangenttiltoption.ui:54
 #, kde-format
 msgid "Red:"
 msgstr "紅："
 
 #. i18n: ectx: property (text), widget (QLabel, GreenLabel)
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:161
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:173
 #: plugins/paintops/tangentnormal/wdgtangenttiltoption.ui:101
 #, kde-format
 msgid "Green:"
 msgstr "綠："
 
 #. i18n: ectx: property (text), widget (QLabel, BlueLabel)
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:162
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:174
 #: plugins/paintops/tangentnormal/wdgtangenttiltoption.ui:142
 #, kde-format
 msgid "Blue:"
 msgstr "藍："
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:177
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:189
 #, kde-format
 msgctxt ""
 "Estimated Gamma indicates how the TRC (Tone Response Curve or Tone "
@@ -30194,60 +30209,73 @@ msgctxt ""
 msgid "<b>Estimated Gamma</b>: "
 msgstr "<b>估算 gamma 值</b>： "
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:178
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:190
 #, kde-format
 msgctxt ""
 "This is for special Gamma types that LCMS cannot differentiate between"
 msgid "<b>Estimated Gamma</b>: sRGB, L* or rec709 TRC"
 msgstr "<b>估算 gamma 值</b>：sRGB 、 L* 或 rec709 TRC"
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:179
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:191
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
 "The Tone Response Curve of this color space is either sRGB, L* or rec709 TRC."
 msgstr "此色彩空間的階調響應曲線是 sRGB 、 L* 或 rec709 TRC 的其中之一。"
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:288
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:300
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Estimated Gamma cannot be retrieved for CMYK."
 msgstr "無法為 CMYK 色彩空間得出估算 gamma 值。"
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:332
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:344
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "This is assumed to be the L * TRC. "
 msgstr "假設為 L * TRC。 "
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:353
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:365
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Estimated Gamma cannot be retrieved for YCrCb."
 msgstr "無法為 YCrCb 色彩空間得出估算 gamma 值。"
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:358
-#, kde-format
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:371
+#, fuzzy, kde-format
+#| msgid "&About %1"
 msgctxt "About <Profilename>"
-msgid "About "
-msgstr "關於 "
+msgid "About %1/%2"
+msgstr "關於 %1(&A)"
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:359
-#, kde-format
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:373
+#, fuzzy, kde-format
+#| msgctxt "ICC profile version"
+#| msgid "ICC Version: "
 msgctxt "ICC profile version"
-msgid "ICC Version: "
+msgid "ICC Version: %1"
 msgstr "ICC 版本："
 
-#. i18nc("Who made the profile?","Manufacturer: ")  + currentColorSpace()->profile()->manufacturer()  +  "</p>"); //This would work if people actually wrote the manufacturer into the manufacturer fiedl...
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:361
-#, kde-format
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:376
+#, fuzzy, kde-format
+#| msgid "Min Luminance: %1"
+msgctxt "Who made the profile?"
+msgid "Manufacturer: %1"
+msgstr "最小光度：%1"
+
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:381
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "What is the copyright? These are from embedded strings from the icc "
+#| "profile, so they default to english."
+#| msgid "Copyright: "
 msgctxt ""
 "What is the copyright? These are from embedded strings from the icc profile, "
 "so they default to english."
-msgid "Copyright: "
+msgid "Copyright: %1"
 msgstr "版權： "
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:368
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:389
 #, kde-format
 msgctxt "If the selected model is RGB"
 msgid ""
@@ -30265,7 +30293,7 @@ msgstr ""
 "於繪畫。您可以在繪畫後將 RGB 影像轉換到其他色彩空間。RGB 也是 HDR 編輯的推薦"
 "色彩空間。"
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:374
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:395
 #, kde-format
 msgctxt "If the selected model is CMYK"
 msgid ""
@@ -30285,7 +30313,7 @@ msgstr ""
 "的 CMYK 特性檔案來進行轉換。<br/>我們<b>不建議</b> 把 CMYK 用於繪畫過程。"
 "Krita 也無法獲取此色彩空間的色料特性或階調響應曲線 (TRC) 。"
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:383
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:404
 #, kde-format
 msgctxt "If the selected model is XYZ"
 msgid ""
@@ -30302,7 +30330,7 @@ msgstr ""
 "b>將 XYZ 用於繪畫過程，但可用於成品的編碼作業。此設定檔的階調響應曲線 (TRC) "
 "是線性的。"
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:390
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:411
 #, kde-format
 msgctxt "If the selected model is Grayscale"
 msgid ""
@@ -30317,7 +30345,7 @@ msgstr ""
 "僅為一半。<br/>灰階影像適用於繪製線稿和灰度作品。Krita 允許在同一影像中同時包"
 "含 RGB 和灰度圖層。"
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:397
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:418
 #, kde-format
 msgctxt "If the selected model is LAB"
 msgid ""
@@ -30342,7 +30370,7 @@ msgstr ""
 "們<b>不建議</b>將此色彩空間用於繪畫或匯出，但是可以用於做後期處理。此色彩空間"
 "的階調響應曲線 (TRC) 假設為 L* TRC。"
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:408
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:429
 #, kde-format
 msgctxt "If the selected model is YCbCr"
 msgid ""
@@ -30363,7 +30391,7 @@ msgstr ""
 "定檔，儘管 Krita 可以正常開啟某些此色彩模型的檔案，但不能在預設狀態下保證對其"
 "完全相容。"
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:421
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:442
 #, kde-format
 msgctxt "When the selected Bitdepth is 8"
 msgid ""
@@ -30376,7 +30404,7 @@ msgstr ""
 "色彩數量為 256 與通道數目的乘冪 (即 256 的 n 次方)。建議用於網路影像或簡單影"
 "像。"
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:427
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:448
 #, kde-format
 msgctxt "When the selected Bitdepth is 16"
 msgid ""
@@ -30395,7 +30423,7 @@ msgstr ""
 "建議在使用此位深的影像時留意記憶體的佔用情況，如電腦執行過慢則套用回 8 位元影"
 "象。切記：將 16 位元/每通道轉換到 8 位元/每通道時應關閉色彩空間轉換最佳化。"
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:436
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:457
 #, kde-format
 msgctxt "When the selected Bitdepth is 16 bit float"
 msgid ""
@@ -30416,7 +30444,7 @@ msgstr ""
 "多。我們建議在使用此位深的影像時留意記憶體的佔用情況，如電腦執行過慢則套用回 "
 "8 位元色彩深度。"
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:445
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:466
 #, kde-format
 msgctxt "When the selected Bitdepth is 32bit float"
 msgid ""
@@ -30435,7 +30463,7 @@ msgstr ""
 "影像的四倍，對處理器資源的需求也高出許多。我們建議在使用此位深的影像時留意記"
 "憶體的佔用情況，如電腦執行過慢則套用回 8 位元色彩深度。"
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:454
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:475
 #, kde-format
 msgctxt ""
 "When the selected Bitdepth is 64bit float, but this isn't actually available "
@@ -30456,12 +30484,12 @@ msgstr ""
 "也高出許多。我們建議在使用此位深度的影像時留意記憶體的佔用情況，如電腦執行過"
 "慢則套用回 8 位元色彩深度。"
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:462
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:483
 #, kde-format
 msgid "The following conversion intents are possible: "
 msgstr "可以使用下列色彩轉換意圖："
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:481
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:502
 #, kde-format
 msgctxt "These are Elle Stone's notes on her profiles that we ship."
 msgid ""
@@ -30477,7 +30505,7 @@ msgstr ""
 "ninedegreesbelow.com/photography/lcms-make-icc-profiles.html\">完整說明</a>。"
 "</b></p>"
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:489
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:510
 #, kde-format
 msgctxt "From Elle's notes."
 msgid ""
@@ -30491,7 +30519,7 @@ msgstr ""
 "它是一個色彩精確、涵蓋電影工業每一方面的色彩管理流程，意圖實現不同來源之間高"
 "品質動態影像的無縫交換。</p>"
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:497
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:518
 #, kde-format
 msgctxt "From Elle's notes."
 msgid ""
@@ -30504,7 +30532,7 @@ msgstr ""
 "P3 的色域。它和 ACES 色彩空間的不同點在於它的資料不存在負值，只包含極少位於人"
 "眼可見色域之外的色彩。</p>"
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:504
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:525
 #, kde-format
 msgctxt "From Elle's notes."
 msgid ""
@@ -30528,7 +30556,7 @@ msgstr ""
 "些印表機匹配得更好。</p><p>Adobe RGB 1998 色域常被用於新型高端廣色域顯示器"
 "上。</p>"
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:518
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:539
 #, kde-format
 msgctxt "From Elle's notes."
 msgid ""
@@ -30554,7 +30582,7 @@ msgstr ""
 "p><p>除非必須確保色彩空間包含一切真實色彩，否則不應使用此特性檔案來進行影像編"
 "輯。</p>"
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:533
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:554
 #, kde-format
 msgctxt "From Elle's notes."
 msgid ""
@@ -30573,7 +30601,7 @@ msgstr ""
 "值來自 Lindbloom，另一組數值則來自 LCMS 第一版教學。色彩管理領域的專家認為其"
 "正確的基色數值應該透過光譜的波長來計算，本特性檔案採用了該方案。</p>"
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:546
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:567
 #, kde-format
 msgctxt "From Elle's notes."
 msgid ""
@@ -30587,7 +30615,7 @@ msgstr ""
 "一切可見色彩。它包含的概念色比例也高於 ACES 和 AllColorsRGB 色彩空間。此色彩"
 "空間不套用作影像編輯。</p>"
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:554
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:575
 #, kde-format
 msgctxt "From Elle's notes."
 msgid ""
@@ -30619,7 +30647,7 @@ msgstr ""
 "業空間有點奇怪，至少開頭會有這個感覺，因此您應該自行衡量轉移流程的好處與壞"
 "處。</p>"
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:572
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:593
 #, kde-format
 msgctxt "From Elle's notes."
 msgid ""
@@ -30637,7 +30665,7 @@ msgstr ""
 "援。在數位暗房場景中， Rec.2020 比色域範圍狹小的 sRGB 色彩空間更適合作為一般 "
 "RGB 作業空間。</p>"
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:581
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:602
 #, kde-format
 msgctxt "From Elle's notes."
 msgid ""
@@ -30669,7 +30697,7 @@ msgstr ""
 "sRGB 色彩空間 (包括在此色彩特性檔案庫中提供的所有 RGB 特性檔案) 都是階調矩陣"
 "特性檔案，而階調矩陣設定檔不含可感知模式所用的尋找表。</p>"
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:597
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:618
 #, kde-format
 msgctxt "From Elle's notes."
 msgid ""
@@ -30687,7 +30715,7 @@ msgstr ""
 "間耐人尋味，在它發表之後不久，Adobe 便將其注意力轉向了 ProPhotoRGB 色彩空間。"
 "</p>"
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:605
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:626
 #, kde-format
 msgctxt "From Elle's notes."
 msgid ""
@@ -30705,7 +30733,7 @@ msgstr ""
 "節省一些資料量。對於要上傳至網際網路的灰階影像，使用 sRGB 階調響應曲線 (TRC) "
 "的 V2 規範灰階特性檔案</p>"
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:613
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:634
 #, kde-format
 msgctxt "From Elle's notes."
 msgid ""
@@ -30719,7 +30747,7 @@ msgstr ""
 "它們只套用作 16 位元整數及浮點、32 位元整數及浮點影像的編輯流程。許多影像編輯"
 "作業線上性 gamma 的色彩空間下能產生更好的結果。</p>"
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:620
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:641
 #, kde-format
 msgctxt "From Elle's notes."
 msgid ""
@@ -30731,7 +30759,7 @@ msgstr ""
 "議在使用感知上統一的 RGB 色彩空間時對影像進行相應的處理操作。在編輯高位元色深"
 "的影像時應使用 V4 規範的特性檔案。</p>"
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:626
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:647
 #, kde-format
 msgctxt "From Elle's notes."
 msgid ""
@@ -30743,7 +30771,7 @@ msgstr ""
 "近似 (但並非絕對) 感知上統一的階調響應曲線 (TRC) 。尤其是 ProPhotoRGB 色彩空"
 "間的 gamma 為 1.8 的TRC 與感知上統一的標準偏差較大。</p>"
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:631
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:652
 #, kde-format
 msgctxt "From Elle's notes."
 msgid ""
@@ -30760,7 +30788,7 @@ msgstr ""
 "條件。即便如此，在使用 AdobeRGB1998 色彩空間時必須小心避免造成色調分離現象。"
 "還要注意不要把這兩個特性檔案的線性 gamma 版本用於 8 位元影像的編輯流程。</p>"
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:639
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:660
 #, kde-format
 msgctxt "From Elle's notes."
 msgid ""
@@ -30771,7 +30799,7 @@ msgstr ""
 "<p>如果影像需儲存為高位元深並使用 LCMS 作為色彩管理模組的影像軟體進行編輯，"
 "如 Krita 、digiKam/showFoto 和 GIMP 2.9 等，應使用 V4 規範的特性檔案。</p>"
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:644
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:665
 #, kde-format
 msgctxt "From Elle's notes."
 msgid ""
@@ -30838,12 +30866,12 @@ msgstr "鎖定"
 msgid "Unlock (keep current settings)"
 msgstr "解除鎖定 (保留目前設定)"
 
-#: libs/ui/widgets/kis_cie_tongue_widget.cpp:685
+#: libs/ui/widgets/kis_cie_tongue_widget.cpp:674
 #, kde-format
 msgid "Uncalibrated color space"
 msgstr "未經校準的色彩空間"
 
-#: libs/ui/widgets/kis_cie_tongue_widget.cpp:691
+#: libs/ui/widgets/kis_cie_tongue_widget.cpp:680
 #, kde-format
 msgid "No profile available..."
 msgstr "無可用特性檔案…"
@@ -30866,7 +30894,7 @@ msgctxt "combo box: select all layers without a label"
 msgid "No Label"
 msgstr "無標籤"
 
-#: libs/ui/widgets/kis_color_space_selector.cc:215
+#: libs/ui/widgets/kis_color_space_selector.cc:217
 #, kde-format
 msgid "Select a Colorspace"
 msgstr "選擇色彩空間"
@@ -31178,7 +31206,7 @@ msgctxt ""
 msgid "Color Labeled Layers"
 msgstr "符合色彩標籤的圖層"
 
-#: libs/ui/widgets/kis_tone_curve_widget.cpp:330
+#: libs/ui/widgets/kis_tone_curve_widget.cpp:332
 #, kde-format
 msgid "No tone curve available..."
 msgstr "無可用色調曲線…"
@@ -32773,7 +32801,7 @@ msgstr "字型系列"
 msgid "Font Style"
 msgstr "字型樣式"
 
-#: libs/widgetutils/kis_slider_spin_box_p.h:347
+#: libs/widgetutils/kis_slider_spin_box_p.h:375
 #, kde-format
 msgctxt ""
 "@info:tooltip toggle between soft and hard range in the slider spin box"
@@ -32786,19 +32814,19 @@ msgstr ""
 "全範圍：[%1, %2]\n"
 "子範圍：[%3, %4]"
 
-#: libs/widgetutils/kis_slider_spin_box_p.h:517
+#: libs/widgetutils/kis_slider_spin_box_p.h:545
 #, kde-format
 msgctxt "Menu action to select all text in the slider spin box"
 msgid "&Select All"
 msgstr "全部選取(&A)"
 
-#: libs/widgetutils/kis_slider_spin_box_p.h:527
+#: libs/widgetutils/kis_slider_spin_box_p.h:555
 #, kde-format
 msgctxt "Menu action to step up in the slider spin box"
 msgid "&Step up"
 msgstr "上調(&S)"
 
-#: libs/widgetutils/kis_slider_spin_box_p.h:529
+#: libs/widgetutils/kis_slider_spin_box_p.h:557
 #, kde-format
 msgctxt "Menu action to step down in the slider spin box"
 msgid "Step &down"
@@ -36292,7 +36320,7 @@ msgctxt "action"
 msgid "Export Timelapse..."
 msgstr "匯出縮時影片…"
 
-#: plugins/dockers/recorder/recorder_export.cpp:97
+#: plugins/dockers/recorder/recorder_export.cpp:98
 #, kde-format
 msgctxt ""
 "This text is displayed instead of path to external tool in case of external "
@@ -36300,7 +36328,7 @@ msgctxt ""
 msgid "[NOT FOUND]"
 msgstr "[找不到]"
 
-#: plugins/dockers/recorder/recorder_export.cpp:98
+#: plugins/dockers/recorder/recorder_export.cpp:99
 #, kde-format
 msgid ""
 "FFmpeg executable location couldn't be detected, please install it or select "
@@ -36308,86 +36336,86 @@ msgid ""
 msgstr ""
 "未能檢測到 FFmpeg 執行檔的位置。請先安裝其軟體套件或手動選擇執行檔的位置"
 
-#: plugins/dockers/recorder/recorder_export.cpp:162
+#: plugins/dockers/recorder/recorder_export.cpp:163
 #, kde-format
 msgid "Abort encoding the timelapse video?"
 msgstr "是否中止縮時影片的編碼程序？"
 
-#: plugins/dockers/recorder/recorder_export.cpp:234
+#: plugins/dockers/recorder/recorder_export.cpp:235
 #, kde-format
 msgctxt "Status for the export of the video record"
 msgid "Starting FFmpeg..."
 msgstr "正在啟動 FFmpeg……"
 
 #. i18n: ectx: property (text), widget (QToolButton, btnExport)
-#: plugins/dockers/recorder/recorder_export.cpp:318
+#: plugins/dockers/recorder/recorder_export.cpp:321
 #: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:29
 #: plugins/dockers/storyboarddocker/wdgstoryboarddock.ui:21
 #, kde-format
 msgid "Export"
 msgstr "匯出"
 
-#: plugins/dockers/recorder/recorder_export.cpp:343
+#: plugins/dockers/recorder/recorder_export.cpp:346
 #, kde-format
 msgctxt "Can't export recording because nothing to export"
 msgid "No frames to export"
 msgstr "沒有要匯出的影格"
 
-#: plugins/dockers/recorder/recorder_export.cpp:347
+#: plugins/dockers/recorder/recorder_export.cpp:350
 #, kde-format
 msgctxt "General information about recording"
 msgid "Recording info"
 msgstr "錄影資訊"
 
-#: plugins/dockers/recorder/recorder_export.cpp:350
+#: plugins/dockers/recorder/recorder_export.cpp:353
 #, kde-format
 msgctxt "Pixel dimension suffix"
 msgid "px"
 msgstr "px"
 
-#: plugins/dockers/recorder/recorder_export.cpp:352
+#: plugins/dockers/recorder/recorder_export.cpp:355
 #, kde-format
 msgctxt "The suffix after number of frames"
 msgid "frame(s)"
 msgstr "影格"
 
-#: plugins/dockers/recorder/recorder_export.cpp:401
+#: plugins/dockers/recorder/recorder_export.cpp:406
 #, kde-format
 msgctxt "Can't browse frames of recording because no frames have been recorded"
 msgid "No frames to browse."
 msgstr "沒有可供瀏覽的影格。"
 
-#: plugins/dockers/recorder/recorder_export.cpp:468
+#: plugins/dockers/recorder/recorder_export.cpp:480
 #, kde-format
 msgid "Select FFmpeg Executable File"
 msgstr "選擇 FFmpeg 可執行檔"
 
-#: plugins/dockers/recorder/recorder_export.cpp:514
+#: plugins/dockers/recorder/recorder_export.cpp:526
 #, kde-format
 msgid "Export Timelapse Video As"
 msgstr "匯出縮時影片為"
 
-#: plugins/dockers/recorder/recorder_export.cpp:530
+#: plugins/dockers/recorder/recorder_export.cpp:542
 #, kde-format
 msgid "The video file already exists. Do you wish to overwrite it?"
 msgstr "影片檔已經存在。是否覆寫？"
 
-#: plugins/dockers/recorder/recorder_export.cpp:535
+#: plugins/dockers/recorder/recorder_export.cpp:547
 #, kde-format
 msgid "No frames to export."
 msgstr "沒有要匯出的影格。"
 
-#: plugins/dockers/recorder/recorder_export.cpp:562
+#: plugins/dockers/recorder/recorder_export.cpp:574
 #, kde-format
 msgid "The timelapse video is being encoded..."
 msgstr "正在編碼縮時影片……"
 
-#: plugins/dockers/recorder/recorder_export.cpp:575
+#: plugins/dockers/recorder/recorder_export.cpp:587
 #, kde-format
 msgid "Export failed. FFmpeg message:"
 msgstr "匯出失敗。FFmpeg 訊息："
 
-#: plugins/dockers/recorder/recorder_export.cpp:596
+#: plugins/dockers/recorder/recorder_export.cpp:608
 #, kde-format
 msgid ""
 "The recordings for this document will be deleted and you will not be able to "
@@ -36400,7 +36428,7 @@ msgstr ""
 "片會被保留)。\n"
 "是否繼續？"
 
-#: plugins/dockers/recorder/recorder_export.cpp:603
+#: plugins/dockers/recorder/recorder_export.cpp:615
 #: plugins/dockers/recorder/recorder_snapshots_manager.cpp:262
 #, kde-format
 msgctxt "Label title, Snapshot directory deleting is in progress"
@@ -36413,38 +36441,92 @@ msgstr "正在清理……"
 msgid "Export Timelapse"
 msgstr "匯出縮時影片"
 
+#. i18n: ectx: property (text), widget (QLabel, labelTitleVideoDuration)
+#: plugins/dockers/recorder/recorder_export.ui:62
+#, kde-format
+msgid "Video duration:"
+msgstr "影片長度："
+
 #. i18n: ectx: property (toolTip), widget (QPushButton, buttonBrowseDirectory)
-#: plugins/dockers/recorder/recorder_export.ui:64
+#: plugins/dockers/recorder/recorder_export.ui:122
 #, kde-format
 msgid "Open record directory"
 msgstr "開啟錄影目錄"
 
-#. i18n: ectx: property (text), widget (QLabel, labelFfmpegLocation)
-#: plugins/dockers/recorder/recorder_export.ui:92
-#, kde-format
-msgid "FFmpeg:"
-msgstr "FFmpeg："
-
 #. i18n: ectx: property (text), widget (QLabel, labelExportTo)
-#: plugins/dockers/recorder/recorder_export.ui:105
+#: plugins/dockers/recorder/recorder_export.ui:166
 #, kde-format
 msgid "Video location:"
 msgstr "影片位置："
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelHoldLastFrameSec)
-#: plugins/dockers/recorder/recorder_export.ui:266
+#: plugins/dockers/recorder/recorder_export.ui:179
 #, kde-format
 msgid "The added duration for showing the last frame."
 msgstr "保持顯示最後一個影格的額外時長。"
 
 #. i18n: ectx: property (text), widget (QLabel, labelHoldLastFrameSec)
-#: plugins/dockers/recorder/recorder_export.ui:269
-#, kde-format
-msgid "Hold Last Frame for:"
+#: plugins/dockers/recorder/recorder_export.ui:182
+#, fuzzy, kde-format
+#| msgid "Hold Last Frame for:"
+msgid "Hold last frame for:"
 msgstr "最後影格保持時長："
 
+#. i18n: ectx: property (suffix), widget (QSpinBox, spinCaptureInterval)
+#. i18n: ectx: property (suffix), widget (QSpinBox, spinLastFrameSec)
+#. i18n: ectx: property (suffix), widget (QSpinBox, spinFirstFrameSec)
+#: plugins/dockers/recorder/recorder_export.ui:306
+#: plugins/dockers/recorder/recorder_export.ui:637
+#: plugins/dockers/recorder/recorderdocker.ui:180
+#, kde-format
+msgctxt "Contraction of \"second\" for interval"
+msgid " sec."
+msgstr " 秒"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: plugins/dockers/recorder/recorder_export.ui:334
+#, kde-format
+msgid "Show result on first frame for:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLineEdit, editFfmpegPath)
+#: plugins/dockers/recorder/recorder_export.ui:405
+#, kde-format
+msgid "ffmpeg"
+msgstr "FFmpeg"
+
+#. i18n: ectx: property (text), widget (QLabel, labelFfmpegLocation)
+#: plugins/dockers/recorder/recorder_export.ui:415
+#, kde-format
+msgid "FFmpeg:"
+msgstr "FFmpeg："
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, buttonBrowseExport)
+#: plugins/dockers/recorder/recorder_export.ui:461
+#, kde-format
+msgid "Select a file location for the exported timelapse video"
+msgstr "請選擇要匯出縮時影片的檔案位置"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkResize)
+#: plugins/dockers/recorder/recorder_export.ui:499
+#, kde-format
+msgid "Resize:"
+msgstr "調整大小："
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, buttonBrowseFfmpeg)
+#: plugins/dockers/recorder/recorder_export.ui:560
+#, kde-format
+msgid "Setup ffmpeg executable location"
+msgstr "設定 FFmpeg 可執行檔的位置"
+
+#. i18n: ectx: property (text), widget (QLabel, labelFps)
+#: plugins/dockers/recorder/recorder_export.ui:574
+#, kde-format
+msgid "Video FPS:"
+msgstr "影片 FPS："
+
 #. i18n: ectx: property (toolTip), widget (QLabel, labelFpsInput)
-#: plugins/dockers/recorder/recorder_export.ui:326
+#: plugins/dockers/recorder/recorder_export.ui:588
 #, kde-format
 msgid ""
 "The speed of reading the input stream.\n"
@@ -36455,106 +36537,61 @@ msgstr ""
 "例子：如希望縮時錄影以兩倍速度播放，應將此設定為影片 FPS 的兩倍。"
 
 #. i18n: ectx: property (text), widget (QLabel, labelFpsInput)
-#: plugins/dockers/recorder/recorder_export.ui:329
+#: plugins/dockers/recorder/recorder_export.ui:591
 #, kde-format
 msgctxt "Input FPS of recorded timelapses."
 msgid "Input FPS:"
 msgstr "輸入 FPS："
 
-#. i18n: ectx: property (text), widget (QLineEdit, editFfmpegPath)
-#: plugins/dockers/recorder/recorder_export.ui:361
-#, kde-format
-msgid "ffmpeg"
-msgstr "FFmpeg"
-
-#. i18n: ectx: property (text), widget (QCheckBox, checkResize)
-#: plugins/dockers/recorder/recorder_export.ui:405
-#, kde-format
-msgid "Resize:"
-msgstr "調整大小："
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, buttonBrowseExport)
-#: plugins/dockers/recorder/recorder_export.ui:447
-#, kde-format
-msgid "Select a file location for the exported timelapse video"
-msgstr "請選擇要匯出縮時影片的檔案位置"
-
-#. i18n: ectx: property (text), widget (QLabel, labelFps)
-#: plugins/dockers/recorder/recorder_export.ui:461
-#, kde-format
-msgid "Video FPS:"
-msgstr "影片 FPS："
-
 #. i18n: ectx: property (toolTip), widget (QPushButton, buttonEditProfile)
-#: plugins/dockers/recorder/recorder_export.ui:492
+#: plugins/dockers/recorder/recorder_export.ui:622
 #, kde-format
 msgid "Edit video profile"
 msgstr "編輯影片設定檔"
 
-#. i18n: ectx: property (toolTip), widget (QPushButton, buttonBrowseFfmpeg)
-#: plugins/dockers/recorder/recorder_export.ui:499
-#, kde-format
-msgid "Setup ffmpeg executable location"
-msgstr "設定 FFmpeg 可執行檔的位置"
-
-#. i18n: ectx: property (suffix), widget (QSpinBox, spinCaptureInterval)
-#. i18n: ectx: property (suffix), widget (QSpinBox, spinLastFrameSec)
-#: plugins/dockers/recorder/recorder_export.ui:521
-#: plugins/dockers/recorder/recorderdocker.ui:180
-#, kde-format
-msgctxt "Contraction of \"second\" for interval"
-msgid " sec."
-msgstr " 秒"
-
-#. i18n: ectx: property (text), widget (QLabel, labelTitleVideoDuration)
-#: plugins/dockers/recorder/recorder_export.ui:579
-#, kde-format
-msgid "Video duration:"
-msgstr "影片長度："
-
 #. i18n: ectx: property (text), widget (QLabel, labelDone)
-#: plugins/dockers/recorder/recorder_export.ui:842
+#: plugins/dockers/recorder/recorder_export.ui:891
 #, kde-format
 msgctxt "Caption: Video exporting finished"
 msgid "Done!"
 msgstr "完成！"
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonWatchIt)
-#: plugins/dockers/recorder/recorder_export.ui:860
+#: plugins/dockers/recorder/recorder_export.ui:909
 #, kde-format
 msgctxt "Watch the video which is just created"
 msgid "Watch it!"
 msgstr "觀看！"
 
 #. i18n: ectx: property (text), widget (QLabel, labelWritten)
-#: plugins/dockers/recorder/recorder_export.ui:870
+#: plugins/dockers/recorder/recorder_export.ui:919
 #, kde-format
 msgid "The timelapse video has been written to:"
 msgstr "縮時影片已經寫入至："
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonShowInFolder)
-#: plugins/dockers/recorder/recorder_export.ui:888
+#: plugins/dockers/recorder/recorder_export.ui:937
 #, kde-format
 msgctxt "Open the folder when the new created video is placed"
 msgid "Show in folder"
 msgstr "在資料夾顯示"
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonRemoveSnapshots)
-#: plugins/dockers/recorder/recorder_export.ui:925
+#: plugins/dockers/recorder/recorder_export.ui:974
 #, kde-format
 msgctxt "Open the folder when the new created video is placed"
 msgid "Remove recordings"
 msgstr "移除錄影檔"
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonRestart)
-#: plugins/dockers/recorder/recorder_export.ui:991
+#: plugins/dockers/recorder/recorder_export.ui:1040
 #, kde-format
 msgctxt "Button to restart the timelapse video configuring"
 msgid "Restart"
 msgstr "重新開始"
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonDoneClose)
-#: plugins/dockers/recorder/recorder_export.ui:998
+#: plugins/dockers/recorder/recorder_export.ui:1047
 #, kde-format
 msgctxt "Close dialog button"
 msgid "Close"
@@ -36587,19 +36624,19 @@ msgid "Insert variable:"
 msgstr "插入變數："
 
 #. i18n: ectx: property (text), widget (QLabel, labelTitleFFMpegArguments)
-#: plugins/dockers/recorder/recorder_profile_settings.ui:166
+#: plugins/dockers/recorder/recorder_profile_settings.ui:167
 #, kde-format
 msgid "FFMpeg arguments:"
 msgstr "FFmpeg 引數："
 
 #. i18n: ectx: property (text), widget (QLabel, labelProfileName)
-#: plugins/dockers/recorder/recorder_profile_settings.ui:193
+#: plugins/dockers/recorder/recorder_profile_settings.ui:194
 #, kde-format
 msgid "Profile name:"
 msgstr "設定檔名稱："
 
 #. i18n: ectx: property (text), widget (QLabel, labelFileExt)
-#: plugins/dockers/recorder/recorder_profile_settings.ui:213
+#: plugins/dockers/recorder/recorder_profile_settings.ui:214
 #, kde-format
 msgid "File extension:"
 msgstr "檔案副檔名："
@@ -51808,22 +51845,22 @@ msgstr "繪製橢圓"
 msgid "Ellipse Tool"
 msgstr "橢圓工具"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:119
+#: plugins/tools/basictools/kis_tool_fill.cc:120
 #, kde-format
 msgid "You cannot use this tool with the selected layer type"
 msgstr "不能在選定的圖層類型上使用此工具"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:162
+#: plugins/tools/basictools/kis_tool_fill.cc:192
 msgctxt "(qtundo-format)"
 msgid "Flood Fill"
 msgstr "浸漫填充"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:223
+#: plugins/tools/basictools/kis_tool_fill.cc:317
 #, kde-format
 msgid "Fast mode:"
 msgstr "快速模式："
 
-#: plugins/tools/basictools/kis_tool_fill.cc:226
+#: plugins/tools/basictools/kis_tool_fill.cc:320
 #, kde-format
 msgid ""
 "Fills area faster, but does not take composition mode into account. "
@@ -51832,41 +51869,42 @@ msgstr ""
 "填充區域更快，但不將圖層混合模式納入計算範圍。選取區域和其他擴充功能也將被禁"
 "用。"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:231
+#: plugins/tools/basictools/kis_tool_fill.cc:325
 #, kde-format
 msgctxt "The Threshold label in Fill tool options"
 msgid "Threshold:"
 msgstr "閾值："
 
-#: plugins/tools/basictools/kis_tool_fill.cc:237
-#, kde-format
-msgctxt "The Softness label in Fill tool options"
-msgid "Softness:"
-msgstr "柔和度："
+#: plugins/tools/basictools/kis_tool_fill.cc:331
+#, fuzzy, kde-format
+#| msgid "Opacity:"
+msgctxt "The Opacity Spread label in Fill tool options"
+msgid "Opacity Spread:"
+msgstr "不透明度："
 
-#: plugins/tools/basictools/kis_tool_fill.cc:244
+#: plugins/tools/basictools/kis_tool_fill.cc:338
 #, kde-format
 msgid "Grow selection:"
 msgstr "擴大選取區域："
 
-#: plugins/tools/basictools/kis_tool_fill.cc:251
+#: plugins/tools/basictools/kis_tool_fill.cc:345
 #, kde-format
 msgid "Feathering radius:"
 msgstr "羽化半徑："
 
-#: plugins/tools/basictools/kis_tool_fill.cc:258
+#: plugins/tools/basictools/kis_tool_fill.cc:352
 #, kde-format
 msgid "Use pattern:"
 msgstr "使用圖案："
 
-#: plugins/tools/basictools/kis_tool_fill.cc:260
+#: plugins/tools/basictools/kis_tool_fill.cc:354
 #, kde-format
 msgid ""
 "When checked do not use the foreground color, but the pattern selected to "
 "fill with"
 msgstr "勾選時不使用前景色，而是使用所選圖案填充"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:278
+#: plugins/tools/basictools/kis_tool_fill.cc:372
 #, kde-format
 msgctxt ""
 "This is a label before a combobox with different choices regarding which "
@@ -51877,7 +51915,7 @@ msgctxt ""
 msgid "Sample:"
 msgstr "取樣："
 
-#: plugins/tools/basictools/kis_tool_fill.cc:287
+#: plugins/tools/basictools/kis_tool_fill.cc:381
 #, kde-format
 msgctxt ""
 "This is a string in tool options for Fill Tool to describe a combobox about "
@@ -51886,19 +51924,19 @@ msgctxt ""
 msgid "Labels used:"
 msgstr "使用的標籤："
 
-#: plugins/tools/basictools/kis_tool_fill.cc:291
+#: plugins/tools/basictools/kis_tool_fill.cc:385
 #, kde-format
 msgid "Fill entire selection:"
 msgstr "填充整個選取區域："
 
-#: plugins/tools/basictools/kis_tool_fill.cc:293
+#: plugins/tools/basictools/kis_tool_fill.cc:387
 #, kde-format
 msgid ""
 "When checked do not look at the current layer colors, but just fill all of "
 "the selected area"
 msgstr "勾選時，直接填充整個選取區域，不將目前圖層色彩納入計算範圍"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:295
+#: plugins/tools/basictools/kis_tool_fill.cc:389
 #, kde-format
 msgctxt ""
 "Description for a checkbox in a Fill Tool to use selection borders as "
@@ -51906,13 +51944,33 @@ msgctxt ""
 msgid "Use selection as boundary:"
 msgstr "以選取區域為界限："
 
-#: plugins/tools/basictools/kis_tool_fill.cc:297
+#: plugins/tools/basictools/kis_tool_fill.cc:391
 #, kde-format
 msgctxt "Tooltip for 'Use selection as boundary' checkbox"
 msgid "When checked, use selection borders as boundary when filling"
 msgstr "勾選時，填充將以選取區域邊界為界限"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:404
+#: plugins/tools/basictools/kis_tool_fill.cc:393
+#, fuzzy, kde-format
+#| msgid "Continuous Mode"
+msgctxt "The 'continuous fill' label in Fill tool options"
+msgid "Continuous Fill:"
+msgstr "連續模式"
+
+#: plugins/tools/basictools/kis_tool_fill.cc:395
+#, kde-format
+msgctxt "Continuous fill mode in fill tool options"
+msgid "Any region"
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_fill.cc:396
+#, fuzzy, kde-format
+#| msgid "Similar Color Selection"
+msgctxt "Continuous fill mode in fill tool options"
+msgid "Similar regions"
+msgstr "相似色彩選取區域"
+
+#: plugins/tools/basictools/kis_tool_fill.cc:512
 #, kde-format
 msgctxt ""
 "Option in fill tool: take only the current layer into account when "
@@ -51920,7 +51978,7 @@ msgctxt ""
 msgid "Current Layer"
 msgstr "目前圖層"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:408
+#: plugins/tools/basictools/kis_tool_fill.cc:516
 #, kde-format
 msgctxt ""
 "Option in fill tool: take all layers (merged) into account when calculating "
@@ -51928,7 +51986,7 @@ msgctxt ""
 msgid "All Layers"
 msgstr "所有圖層"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:411
+#: plugins/tools/basictools/kis_tool_fill.cc:519
 #, kde-format
 msgctxt ""
 "Option in fill tool: take all layers that were labeled with a color label "
@@ -51937,7 +51995,7 @@ msgctxt ""
 msgid "Color Labeled Layers"
 msgstr "符合色彩標籤的圖層"
 
-#: plugins/tools/basictools/kis_tool_fill.h:132
+#: plugins/tools/basictools/kis_tool_fill.h:157
 #, kde-format
 msgid "Fill Tool"
 msgstr "填充工具"
@@ -52946,34 +53004,35 @@ msgid "Contiguous Area Selection"
 msgstr "相連區域選取區域"
 
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:100
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:173
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:174
 #: plugins/tools/selectiontools/kis_tool_select_similar.cc:128
 msgctxt "(qtundo-format)"
 msgid "Select Contiguous Area"
 msgstr "選取相連區域"
 
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:232
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:233
 #: plugins/tools/selectiontools/kis_tool_select_similar.cc:330
 #, kde-format
 msgid "Fuzziness: "
 msgstr "模糊度："
 
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:243
-#, kde-format
-msgid "Softness: "
-msgstr "柔和度："
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:244
+#, fuzzy, kde-format
+#| msgid "Opacity: "
+msgid "Opacity Spread: "
+msgstr "不透明度："
 
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:254
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:255
 #, kde-format
 msgid "Grow/shrink selection: "
 msgstr "擴大/縮小選取區域："
 
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:264
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:265
 #, kde-format
 msgid "Feathering radius: "
 msgstr "羽化半徑："
 
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:274
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:275
 #, kde-format
 msgid "Use selection as boundary: "
 msgstr "以選取區域為邊界"
@@ -54976,6 +55035,29 @@ msgid "Reference Images Tool"
 msgstr "參考圖工具"
 
 #, kde-format
+#~ msgctxt "Color model"
+#~ msgid "&Model:"
+#~ msgstr "模型(&M)："
+
+#, kde-format
+#~ msgid "Profi&le:"
+#~ msgstr "特性檔案(&L)："
+
+#, kde-format
+#~ msgctxt "About <Profilename>"
+#~ msgid "About "
+#~ msgstr "關於 "
+
+#, kde-format
+#~ msgctxt "The Softness label in Fill tool options"
+#~ msgid "Softness:"
+#~ msgstr "柔和度："
+
+#, kde-format
+#~ msgid "Softness: "
+#~ msgstr "柔和度："
+
+#, kde-format
 #~ msgid ""
 #~ "The image data you are trying to paste has no color profile information. "
 #~ "How do you want to interpret these data? \n"
@@ -55462,12 +55544,6 @@ msgstr "參考圖工具"
 #~| msgid "Depth:"
 #~ msgid "Depth:"
 #~ msgstr "色彩深度："
-
-#, fuzzy
-#~| msgctxt "Label of H.264 encoder profiles"
-#~| msgid "Profile:"
-#~ msgid "Profile:"
-#~ msgstr "設定："
 
 #~ msgid "Attach to Toolbar"
 #~ msgstr "嵌入到工具列"
