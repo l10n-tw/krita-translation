@@ -24407,9 +24407,10 @@ msgid ""
 "experience performance problems and want to help us, enable this option and "
 "add the contents of the directory to a bug report.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>啟用程式效能記錄後，Krita 會定時將紀錄儲存到「目前工作目錄」 中的「log」子資料夾內 (<tt>&lt"
-";working_dir&gt;/log</tt>)。如果在使用中遇到效能問題並希望協助我們改進，請啟用此選項，並將產生在該目錄的內容附加到錯誤報告中。<"
-"/p></body></html>"
+"<html><head/><body><p>啟用程式效能記錄後，Krita 會定時將紀錄儲存到「目前工作"
+"目錄」 中的「log」子資料夾內 (<tt>&lt;working_dir&gt;/log</tt>)。如果在使用中"
+"遇到效能問題並希望協助我們改進，請啟用此選項，並將產生在該目錄的內容附加到錯"
+"誤報告中。</p></body></html>"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_3)
 #: libs/ui/forms/wdgperformancesettings.ui:418
