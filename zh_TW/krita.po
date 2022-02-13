@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-02-12 00:41+0000\n"
-"PO-Revision-Date: 2022-02-11 08:45+0000\n"
+"PO-Revision-Date: 2022-02-13 09:12+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -22772,10 +22772,9 @@ msgstr "視窗背景色彩："
 
 #. i18n: ectx: property (title), widget (QGroupBox, chkUseCustomFont)
 #: libs/ui/forms/wdggeneralsettings.ui:328
-#, fuzzy, kde-format
-#| msgid "Use Custom Interface Font:"
+#, kde-format
 msgid "Use custom interface font"
-msgstr "自訂使用者介面字型："
+msgstr "自訂使用者介面字型"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. i18n: ectx: property (text), widget (QLabel, label)
@@ -22994,10 +22993,9 @@ msgstr "保留的備份檔案數目："
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: libs/ui/forms/wdggeneralsettings.ui:723
-#, fuzzy, kde-format
-#| msgid "Kra File Compression"
+#, kde-format
 msgid "KRA File Compression"
-msgstr "Kra 檔案壓縮"
+msgstr "KRA 檔案壓縮"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkZip64)
 #: libs/ui/forms/wdggeneralsettings.ui:729
@@ -23091,19 +23089,15 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkNativeFileDialog)
 #: libs/ui/forms/wdggeneralsettings.ui:939
-#, fuzzy, kde-format
-#| msgid "Enable Cumulative Undo"
+#, kde-format
 msgid "Enable native file dialogs"
-msgstr "啟用合併復原"
+msgstr "使用系統原生開啟/儲存檔案對話框"
 
 #. i18n: ectx: property (text), widget (QLabel, label_18)
 #: libs/ui/forms/wdggeneralsettings.ui:962
-#, fuzzy, kde-format
-#| msgid ""
-#| "Enable native file dialogs (warning: may not work correctly on some "
-#| "systems)"
+#, kde-format
 msgid "(Warning: may not work correctly on some systems)"
-msgstr "使用系統原生開啟/儲存檔案對話框 (警告：在某些系統上可能會出錯)"
+msgstr "(警告：在某些系統上可能會出錯)"
 
 #. i18n: ectx: property (text), widget (QLabel, label_9)
 #: libs/ui/forms/wdggeneralsettings.ui:972
@@ -23150,8 +23144,7 @@ msgstr "將重播範圍調整至關鍵影格"
 
 #. i18n: ectx: property (title), widget (QGroupBox, chkForcedFontDPI)
 #: libs/ui/forms/wdggeneralsettings.ui:1087
-#, fuzzy, kde-format
-#| msgid "Font DPI workaround"
+#, kde-format
 msgid "Font DPI Workaround"
 msgstr "字型 DPI 應急修正方法"
 
@@ -24407,22 +24400,16 @@ msgstr "程式效能記錄"
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #: libs/ui/forms/wdgperformancesettings.ui:391
-#, fuzzy, kde-format
-#| msgid ""
-#| "<html><head/><body><p>When performance logging is enabled Krita saves "
-#| "timing information into the '&lt;working_dir&gt;/log' folder. If you "
-#| "experience performance problems and want to help us, enable this option "
-#| "and add the contents of the directory to a bug report.</p></body></html>"
+#, kde-format
 msgid ""
 "<html><head/><body><p>When performance logging is enabled Krita saves timing "
 "information into the <tt>&lt;working_dir&gt;/log</tt> folder. If you "
 "experience performance problems and want to help us, enable this option and "
 "add the contents of the directory to a bug report.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>啟用程式效能記錄後，Krita 會定時將紀錄儲存到「目前工作"
-"目錄」(working dir) 中的「log」子資料夾內。如果在使用中遇到效能問題並希望協助"
-"我們改進，請啟用此選項，並將產生在該目錄的內容附加到錯誤報告中。</p></body></"
-"html>"
+"<html><head/><body><p>啟用程式效能記錄後，Krita 會定時將紀錄儲存到「目前工作目錄」 中的「log」子資料夾內 (<tt>&lt"
+";working_dir&gt;/log</tt>)。如果在使用中遇到效能問題並希望協助我們改進，請啟用此選項，並將產生在該目錄的內容附加到錯誤報告中。<"
+"/p></body></html>"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_3)
 #: libs/ui/forms/wdgperformancesettings.ui:418
@@ -24569,9 +24556,7 @@ msgstr "即時預覽"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_6)
 #: libs/ui/forms/wdgperformancesettings.ui:538
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Transform Tool"
+#, kde-format
 msgid "Transform Tool"
 msgstr "變形工具"
 
@@ -30897,8 +30882,7 @@ msgid "No Label"
 msgstr "無標籤"
 
 #: libs/ui/widgets/kis_color_space_selector.cc:217
-#, fuzzy, kde-format
-#| msgid "Select a Colorspace"
+#, kde-format
 msgid "Select a Color Space"
 msgstr "選擇色彩空間"
 
@@ -34377,10 +34361,9 @@ msgstr "顯示選色器"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_5)
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:96
-#, fuzzy, kde-format
-#| msgid "Color &Model Type: "
+#, kde-format
 msgid "Color Model Type"
-msgstr "色彩模型類別(&M)："
+msgstr "色彩模型類別"
 
 #. i18n: ectx: property (title), widget (QGroupBox, lumaCoefficientBox)
 #. i18n: ectx: property (title), widget (QGroupBox, lumaCoefficientGroupbox)
@@ -43147,17 +43130,13 @@ msgid ""
 msgstr "影像的亮度和色彩解析度均會全部保留。"
 
 #: plugins/impex/heif/HeifExport.cpp:570
-#, fuzzy, kde-format
-#| msgctxt "Colorspace name"
-#| msgid "Rec 2100 HLG"
+#, kde-format
 msgctxt "Color space name"
 msgid "Rec 2100 HLG"
 msgstr "Rec 2100 HLG"
 
 #: plugins/impex/heif/HeifExport.cpp:570
-#, fuzzy, kde-format
-#| msgctxt "Colorspace name"
-#| msgid "Rec 2100 PQ"
+#, kde-format
 msgctxt "Color space name"
 msgid "Rec 2100 PQ"
 msgstr "Rec 2100 PQ"
@@ -43185,9 +43164,7 @@ msgstr ""
 "會用於不支援 HDR 的顯示器上的 HDR 影像使用。"
 
 #: plugins/impex/heif/HeifExport.cpp:579
-#, fuzzy, kde-format
-#| msgctxt "Colorspace option plus transfer function name"
-#| msgid "Keep colorants, encode PQ"
+#, kde-format
 msgctxt "Color space option plus transfer function name"
 msgid "Keep colorants, encode PQ"
 msgstr "保留色彩，為 PQ 編碼"
@@ -43204,9 +43181,7 @@ msgstr ""
 "2048 曲線) 作出編碼。建議重視絕對亮度的 HDR 影像使用。"
 
 #: plugins/impex/heif/HeifExport.cpp:584
-#, fuzzy, kde-format
-#| msgctxt "Colorspace option plus transfer function name"
-#| msgid "Keep colorants, encode HLG"
+#, kde-format
 msgctxt "Color space option plus transfer function name"
 msgid "Keep colorants, encode HLG"
 msgstr "保留色彩，為 HLG 編碼"
@@ -43222,9 +43197,7 @@ msgstr ""
 "顯示器上的影像使用。"
 
 #: plugins/impex/heif/HeifExport.cpp:589
-#, fuzzy, kde-format
-#| msgctxt "Colorspace option plus transfer function name"
-#| msgid "Keep colorants, encode SMPTE ST 428"
+#, kde-format
 msgctxt "Color space option plus transfer function name"
 msgid "Keep colorants, encode SMPTE ST 428"
 msgstr "保留色彩，為 SMPTE ST 428 編碼"
@@ -43241,9 +43214,7 @@ msgstr ""
 "啟這些影像，而此選項可用作還原這項操作。"
 
 #: plugins/impex/heif/HeifExport.cpp:595
-#, fuzzy, kde-format
-#| msgctxt "Colorspace option"
-#| msgid "No changes, clip"
+#, kde-format
 msgctxt "Color space option"
 msgid "No changes, clip"
 msgstr "不轉換，削值"
