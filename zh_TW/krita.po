@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-02-15 00:42+0000\n"
-"PO-Revision-Date: 2022-02-13 09:12+0000\n"
+"PO-Revision-Date: 2022-02-15 08:12+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -8052,24 +8052,20 @@ msgstr "顯示用於錯誤報告的系統資訊。"
 #. i18n: context: Action (logcatdump), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (logcatdump), Actions (General), ActionCollection (Krita)
 #: krita/krita.action:177 krita/krita.action:179
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Show Krita log for bug reports."
+#, kde-format
 msgctxt "action"
 msgid "Show Android log for bug reports."
-msgstr "顯示要用於錯誤報告的 Krita 紀錄。"
+msgstr "顯示要用於錯誤報告的 Android 紀錄。"
 
 #. i18n: context: Action (crashlog), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (crashlog), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (crashlog), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (crashlog), Actions (General), ActionCollection (Krita)
 #: krita/krita.action:187 krita/krita.action:189
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Show Krita log for bug reports."
+#, kde-format
 msgctxt "action"
 msgid "Show crash log for bug reports."
-msgstr "顯示要用於錯誤報告的 Krita 紀錄。"
+msgstr "顯示要用於錯誤報告的程式崩潰紀錄。"
 
 #. i18n: context: Action (command_bar_open), Actions (General), ActionCollection (Krita)
 #: krita/krita.action:197
@@ -37429,26 +37425,21 @@ msgid "Unable to open file"
 msgstr "無法開啟檔案"
 
 #: plugins/extensions/buginfo/DlgAndroidLogcatDumper.cpp:30
-#, fuzzy, kde-format
-#| msgid "Enable Logging"
+#, kde-format
 msgid "Toggle Logging"
-msgstr "啟用紀錄"
+msgstr "切換紀錄"
 
 #: plugins/extensions/buginfo/DlgAndroidLogcatDumper.cpp:98
-#, fuzzy, kde-format
-#| msgctxt "Caption of the dialog with Krita usage log for bug reports"
-#| msgid "Krita Usage Log: please paste this information to the bug report"
+#, kde-format
 msgctxt "Caption of the dialog with Krita's Android system log for bug reports"
 msgid "Krita Logcat Dump: please paste this information to the bug report"
-msgstr "Krita 使用紀錄：請將這些資料貼上到錯誤報告內"
+msgstr "Krita Logcat 傾印：請將這些資料貼上到錯誤報告內"
 
 #: plugins/extensions/buginfo/DlgCrashLog.cpp:35
-#, fuzzy, kde-format
-#| msgctxt "Caption of the dialog with Krita usage log for bug reports"
-#| msgid "Krita Usage Log: please paste this information to the bug report"
+#, kde-format
 msgctxt "Caption of the dialog with crash log for bug reports"
 msgid "Krita Crash Log: please paste this information to the bug report"
-msgstr "Krita 使用紀錄：請將這些資料貼上到錯誤報告內"
+msgstr "Krita 程式崩潰紀錄：請將這些資料貼上到錯誤報告內"
 
 #: plugins/extensions/buginfo/DlgKritaLog.cpp:23
 #, kde-format
