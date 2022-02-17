@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-02-15 00:42+0000\n"
+"POT-Creation-Date: 2022-02-17 00:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -17470,7 +17470,7 @@ msgstr ""
 #: libs/ui/KisRemoteFileFetcher.cpp:86 libs/ui/KisTemplateCreateDia.cpp:284
 #: libs/ui/KisTemplateCreateDia.cpp:390 libs/ui/KisView.cpp:589
 #: libs/ui/KisView.cpp:842 libs/ui/KisWelcomePageWidget.cpp:711
-#: libs/ui/opengl/KisOpenGLCanvasRenderer.cpp:356
+#: libs/ui/opengl/KisOpenGLCanvasRenderer.cpp:358
 #: libs/ui/widgets/kis_custom_image_widget.cc:293
 #: plugins/assistants/Assistants/kis_assistant_tool.cc:1301
 #: plugins/assistants/Assistants/kis_assistant_tool.cc:1304
@@ -29121,7 +29121,7 @@ msgstr ""
 msgid "OpenColorIO is disabled: image color space is not supported"
 msgstr ""
 
-#: libs/ui/opengl/KisOpenGLCanvasRenderer.cpp:357
+#: libs/ui/opengl/KisOpenGLCanvasRenderer.cpp:359
 #, kde-format
 msgid ""
 "Krita could not initialize the OpenGL canvas:\n"
@@ -36661,7 +36661,7 @@ msgstr ""
 msgid "CPU Throttle"
 msgstr ""
 
-#: plugins/dockers/touchdocker/TouchDockerDock.cpp:85
+#: plugins/dockers/touchdocker/TouchDockerDock.cpp:86
 #, kde-format
 msgid "Touch Docker"
 msgstr ""
