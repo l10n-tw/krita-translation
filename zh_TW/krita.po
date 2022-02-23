@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-02-23 00:43+0000\n"
-"PO-Revision-Date: 2022-02-15 08:12+0000\n"
+"PO-Revision-Date: 2022-02-23 16:21+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -22762,24 +22762,21 @@ msgstr "在畫布上顯示浮動訊息"
 
 #. i18n: ectx: property (title), widget (QGroupBox, m_chkHiDPI)
 #: libs/ui/forms/wdggeneralsettings.ui:233
-#, fuzzy, kde-format
-#| msgid "Enable Hi-DPI support"
+#, kde-format
 msgid "Enable HiDPI support"
-msgstr "啟用高解析度螢幕 (Hi-DPI) 支援"
+msgstr "啟用高解析度螢幕 (HiDPI) 支援"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkHiDPIFractionalScaling)
 #: libs/ui/forms/wdggeneralsettings.ui:242
-#, fuzzy, kde-format
-#| msgid "(Hi-DPI) Enable fractional scale factor"
+#, kde-format
 msgid "Enable fractional scale factor"
-msgstr "啟用非整數比例縮放 (Hi-DPI)"
+msgstr "啟用非整數縮放比例"
 
 #. i18n: ectx: property (text), widget (QLabel, label_16)
 #: libs/ui/forms/wdggeneralsettings.ui:249
-#, fuzzy, kde-format
-#| msgid "Note: Krita will need to be restarted for changes to take effect"
+#, kde-format
 msgid "<b>Note: Krita will need to be restarted for changes to take effect</b>"
-msgstr "提示：變更下述設定後必須重新啟動程式才能生效"
+msgstr "<b>提示：變更下述設定後必須重新啟動程式才能生效</b>"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: libs/ui/forms/wdggeneralsettings.ui:265
@@ -23150,9 +23147,7 @@ msgstr "(需要重啟程式)"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_5)
 #: libs/ui/forms/wdggeneralsettings.ui:1091
-#, fuzzy, kde-format
-#| msgctxt "./krita/data/workspaces/Animation.kws"
-#| msgid "Animation"
+#, kde-format
 msgid "Animation"
 msgstr "動畫"
 
@@ -24278,10 +24273,9 @@ msgstr "復原資料置換前上限："
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: libs/ui/forms/wdgperformancesettings.ui:184
-#, fuzzy, kde-format
-#| msgid "Swap File Size"
+#, kde-format
 msgid "Swap File"
-msgstr "置換檔案大小"
+msgstr "置換檔案"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_6)
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, sliderSwapSize)
@@ -24293,10 +24287,9 @@ msgstr "置換檔案不會大於此限制。"
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #: libs/ui/forms/wdgperformancesettings.ui:193
-#, fuzzy, kde-format
-#| msgid "File Size Limit:"
+#, kde-format
 msgid "Size Limit:"
-msgstr "檔案大小限制："
+msgstr "大小限制："
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. i18n: ectx: property (text), widget (QLabel, label_4)
@@ -24394,10 +24387,9 @@ msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_7)
 #: libs/ui/forms/wdgperformancesettings.ui:346
-#, fuzzy, kde-format
-#| msgid "Tag options"
+#, kde-format
 msgid "Debug options"
-msgstr "標籤選項"
+msgstr "除錯選項"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkOpenGLFramerateLogging)
 #: libs/ui/forms/wdgperformancesettings.ui:352
@@ -24600,10 +24592,9 @@ msgstr "變形工具顯示圖層堆疊中的預覽"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_6)
 #: libs/ui/forms/wdgperformancesettings.ui:557
-#, fuzzy, kde-format
-#| msgid "Instant Preview"
+#, kde-format
 msgid "Force Instant Preview"
-msgstr "即時預覽"
+msgstr "強制使用即時預覽"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkFiltersForceLodMode)
 #: libs/ui/forms/wdgperformancesettings.ui:563
@@ -24618,11 +24609,9 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkFiltersForceLodMode)
 #: libs/ui/forms/wdgperformancesettings.ui:566
-#, fuzzy, kde-format
-#| msgctxt "Filter as an effect"
-#| msgid "Filters"
+#, kde-format
 msgid "in Filters"
-msgstr "濾鏡"
+msgstr "於濾鏡"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkTransformToolForceLodMode)
 #: libs/ui/forms/wdgperformancesettings.ui:573
@@ -24637,10 +24626,9 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkTransformToolForceLodMode)
 #: libs/ui/forms/wdgperformancesettings.ui:576
-#, fuzzy, kde-format
-#| msgid "Transform Tool"
+#, kde-format
 msgid "in Transform Tool"
-msgstr "變形工具"
+msgstr "於變形工具"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkMoveToolForceLodMode)
 #: libs/ui/forms/wdgperformancesettings.ui:583
@@ -24655,10 +24643,9 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkMoveToolForceLodMode)
 #: libs/ui/forms/wdgperformancesettings.ui:586
-#, fuzzy, kde-format
-#| msgid "Move Tool"
+#, kde-format
 msgid "in Move Tool"
-msgstr "移動工具"
+msgstr "於移動工具"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgPopupPaletteSettings)
 #. i18n: ectx: property (windowTitle), widget (QWidget, KisAutoLevelsWidget)
