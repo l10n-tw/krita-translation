@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-02-24 00:42+0000\n"
-"PO-Revision-Date: 2022-02-23 16:21+0000\n"
+"PO-Revision-Date: 2022-02-25 15:51+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -8272,147 +8272,115 @@ msgstr "加黃筆刷色彩"
 
 #. i18n: context: Action (increase_opacity), Actions (Painting), ActionCollection (Krita)
 #: krita/krita.action:398
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Increase opacity"
+#, kde-format
 msgctxt "action"
 msgid "Increase Opacity"
 msgstr "提高不透明度"
 
 #. i18n: context: Action (increase_opacity), Actions (Painting), ActionCollection (Krita)
 #: krita/krita.action:400
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Increase opacity"
+#, kde-format
 msgctxt "action"
 msgid "Increase brush Opacity"
-msgstr "提高不透明度"
+msgstr "提高筆刷不透明度"
 
 #. i18n: context: Action (decrease_opacity), Actions (Painting), ActionCollection (Krita)
 #: krita/krita.action:410
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Decrease opacity"
+#, kde-format
 msgctxt "action"
 msgid "Decrease Opacity"
 msgstr "降低不透明度"
 
 #. i18n: context: Action (decrease_opacity), Actions (Painting), ActionCollection (Krita)
 #: krita/krita.action:412
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Decrease opacity"
+#, kde-format
 msgctxt "action"
 msgid "Decrease brush Opacity"
-msgstr "降低不透明度"
+msgstr "降低筆刷不透明度"
 
 #. i18n: context: Action (increase_flow), Actions (Painting), ActionCollection (Krita)
 #: krita/krita.action:422
-#, fuzzy, kde-format
-#| msgctxt "Blending mode - Increase Value HSV"
-#| msgid "Increase Value"
+#, kde-format
 msgctxt "action"
 msgid "Increase Flow"
-msgstr "提高明度"
+msgstr "提高流量"
 
 #. i18n: context: Action (increase_flow), Actions (Painting), ActionCollection (Krita)
 #: krita/krita.action:424
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Increase Brush Size"
+#, kde-format
 msgctxt "action"
 msgid "Increase brush Flow"
-msgstr "增大筆刷尺寸"
+msgstr "提高筆刷流量"
 
 #. i18n: context: Action (decrease_flow), Actions (Painting), ActionCollection (Krita)
 #: krita/krita.action:434
-#, fuzzy, kde-format
-#| msgctxt "Blending mode - Decrease Value HSV"
-#| msgid "Decrease Value"
+#, kde-format
 msgctxt "action"
 msgid "Decrease Flow"
-msgstr "降低明度"
+msgstr "降低流量"
 
 #. i18n: context: Action (decrease_flow), Actions (Painting), ActionCollection (Krita)
 #: krita/krita.action:436
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Decrease Brush Size"
+#, kde-format
 msgctxt "action"
 msgid "Decrease brush Flow"
-msgstr "減小筆刷尺寸"
+msgstr "降低筆刷流量"
 
 #. i18n: context: Action (increase_fade), Actions (Painting), ActionCollection (Krita)
 #: krita/krita.action:446
-#, fuzzy, kde-format
-#| msgctxt "Blending mode - Increase Value HSV"
-#| msgid "Increase Value"
+#, kde-format
 msgctxt "action"
 msgid "Increase Fade"
-msgstr "提高明度"
+msgstr "提高淡化"
 
 #. i18n: context: Action (increase_fade), Actions (Painting), ActionCollection (Krita)
 #: krita/krita.action:448
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Increase Brush Size"
+#, kde-format
 msgctxt "action"
 msgid "Increase brush Fade"
-msgstr "增大筆刷尺寸"
+msgstr "提高筆刷淡化"
 
 #. i18n: context: Action (decrease_fade), Actions (Painting), ActionCollection (Krita)
 #: krita/krita.action:458
-#, fuzzy, kde-format
-#| msgctxt "Blending mode - Decrease Value HSV"
-#| msgid "Decrease Value"
+#, kde-format
 msgctxt "action"
 msgid "Decrease Fade"
-msgstr "降低明度"
+msgstr "降低淡化"
 
 #. i18n: context: Action (decrease_fade), Actions (Painting), ActionCollection (Krita)
 #: krita/krita.action:460
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Decrease Brush Size"
+#, kde-format
 msgctxt "action"
 msgid "Decrease brush Fade"
-msgstr "減小筆刷尺寸"
+msgstr "降低筆刷淡化"
 
 #. i18n: context: Action (increase_scatter), Actions (Painting), ActionCollection (Krita)
 #: krita/krita.action:470
-#, fuzzy, kde-format
-#| msgctxt "Blending mode - Increase Saturation HSY"
-#| msgid "Increase Saturation"
+#, kde-format
 msgctxt "action"
 msgid "Increase Scatter"
-msgstr "提高飽和度"
+msgstr "提高分散值"
 
 #. i18n: context: Action (increase_scatter), Actions (Painting), ActionCollection (Krita)
 #: krita/krita.action:472
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Increase Brush Size"
+#, kde-format
 msgctxt "action"
 msgid "Increase brush Scatter strength"
-msgstr "增大筆刷尺寸"
+msgstr "提高筆刷分散度"
 
 #. i18n: context: Action (decrease_scatter), Actions (Painting), ActionCollection (Krita)
 #: krita/krita.action:482
-#, fuzzy, kde-format
-#| msgctxt "Blending mode - Decrease Saturation HSY"
-#| msgid "Decrease Saturation"
+#, kde-format
 msgctxt "action"
 msgid "Decrease Scatter"
-msgstr "降低飽和度"
+msgstr "降低分散值"
 
 #. i18n: context: Action (decrease_scatter), Actions (Painting), ActionCollection (Krita)
 #: krita/krita.action:484
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Decrease Brush Size"
+#, kde-format
 msgctxt "action"
 msgid "Decrease brush Scatter strength"
-msgstr "減小筆刷尺寸"
+msgstr "降低筆刷分散度"
 
 #. i18n: context: Action (erase_action), Actions (Painting), ActionCollection (Krita)
 #. i18n: context: Action (erase_action), Actions (Painting), ActionCollection (Krita)
@@ -27667,7 +27635,7 @@ msgstr "自動儲存已推遲：檔案正在被佔用…"
 #, kde-format
 msgctxt "%1 --- failing file name, %2 --- error message"
 msgid "Error during autosaving %1: %2"
-msgstr "自動儲存%1 時出錯：%2"
+msgstr "自動儲存 %1 時出錯：%2"
 
 #: libs/ui/KisDocument.cpp:1474
 #, kde-format
@@ -28235,7 +28203,7 @@ msgstr "新作業空間…"
 #: libs/ui/KisMainWindow.cpp:2509
 #, kde-format
 msgid "&%1 %2"
-msgstr "%1 %2"
+msgstr "&%1 %2"
 
 #: libs/ui/KisMainWindow.cpp:2512
 #, kde-format
