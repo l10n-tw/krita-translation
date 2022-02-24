@@ -22,7 +22,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_koffice\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-02-09 00:57+0000\n"
+"POT-Creation-Date: 2022-02-18 00:55+0000\n"
 "PO-Revision-Date: 2021-10-23 11:25+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
@@ -321,11 +321,11 @@ msgid "Texture 8k 8bit srgb"
 msgstr "紋理 8k 8位元 srgb"
 
 #: krita/org.kde.krita.desktop:2 plugins/impex/brush/krita_brush.desktop:2
-#: plugins/impex/csv/krita_csv.desktop:2 plugins/impex/exr/krita_exr.desktop:56
+#: plugins/impex/csv/krita_csv.desktop:2 plugins/impex/exr/krita_exr.desktop:57
 #: plugins/impex/gif/krita_gif.desktop:2
-#: plugins/impex/heif/krita_heif.desktop:56
+#: plugins/impex/heif/krita_heif.desktop:57
 #: plugins/impex/heightmap/krita_heightmap.desktop:7
-#: plugins/impex/jp2/krita_jp2.desktop:53
+#: plugins/impex/jp2/krita_jp2.desktop:54
 #: plugins/impex/jpeg/krita_jpeg.desktop:6
 #: plugins/impex/kra/krita_kra.desktop:7 plugins/impex/krz/krita_krz.desktop:7
 #: plugins/impex/ora/krita_ora.desktop:7 plugins/impex/pdf/krita_pdf.desktop:6
@@ -346,7 +346,7 @@ msgctxt "GenericName"
 msgid "Digital Painting"
 msgstr "數位繪畫"
 
-#: krita/org.kde.krita.desktop:108
+#: krita/org.kde.krita.desktop:109
 msgctxt "Comment"
 msgid "Digital Painting"
 msgstr "數位繪畫"
@@ -363,7 +363,7 @@ msgctxt "Name"
 msgid "Assign Profile to Image"
 msgstr "為影像指定色彩特性檔案"
 
-#: plugins/python/assignprofiledialog/kritapykrita_assignprofiledialog.desktop:39
+#: plugins/python/assignprofiledialog/kritapykrita_assignprofiledialog.desktop:40
 msgctxt "Comment"
 msgid "Assign a profile to an image without converting it."
 msgstr "將色彩特性檔案指定給圖像，而不進行轉換。"
@@ -373,7 +373,7 @@ msgctxt "Name"
 msgid "Batch Exporter"
 msgstr "批次匯出工具"
 
-#: plugins/python/batch_exporter/kritapykrita_batch_exporter.desktop:33
+#: plugins/python/batch_exporter/kritapykrita_batch_exporter.desktop:34
 msgctxt "Comment"
 msgid ""
 "Smart export tool that uses layer names to scale and (re-)export art assets "
@@ -385,7 +385,7 @@ msgctxt "Name"
 msgid "Channels to layers"
 msgstr "色彩通道轉換為圖層"
 
-#: plugins/python/channels2layers/kritapykrita_channels2layers.desktop:34
+#: plugins/python/channels2layers/kritapykrita_channels2layers.desktop:35
 msgctxt "Comment"
 msgid "Extract channels as color layers"
 msgstr "將色彩通道擷取為色彩圖層"
@@ -395,7 +395,7 @@ msgctxt "Name"
 msgid "Color Space"
 msgstr "色彩空間"
 
-#: plugins/python/colorspace/kritapykrita_colorspace.desktop:39
+#: plugins/python/colorspace/kritapykrita_colorspace.desktop:40
 msgctxt "Comment"
 msgid "Plugin to change color space to selected documents"
 msgstr "用於變更色彩空間為選定檔案的外掛程式"

@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-02-15 00:42+0000\n"
-"PO-Revision-Date: 2022-02-15 08:12+0000\n"
+"POT-Creation-Date: 2022-02-23 00:43+0000\n"
+"PO-Revision-Date: 2022-02-23 16:21+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -14641,7 +14641,7 @@ msgstr "縮小(&M)"
 #: libs/ui/animation/VideoImportDialog.ui:687
 #: libs/ui/animation/wdg_animationrenderer.ui:258
 #: libs/ui/animation/wdg_animationrenderer.ui:400
-#: libs/ui/forms/wdggeneralsettings.ui:288 libs/ui/forms/wdgnewimage.ui:234
+#: libs/ui/forms/wdggeneralsettings.ui:351 libs/ui/forms/wdgnewimage.ui:234
 #: libs/ui/forms/wdgnewimage.ui:253 libs/ui/forms/wdgselectionoptions.ui:29
 #: libs/ui/forms/wdgselectionoptions.ui:45
 #: libs/ui/forms/wdgselectionoptions.ui:61
@@ -14821,7 +14821,7 @@ msgstr "大小"
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1352
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1355
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1421
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1175
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1185
 #: libs/ui/forms/wdgdisplaysettings.ui:356
 #: libs/ui/forms/wdgrectangleconstraints.ui:86
 #: libs/ui/forms/wdgrectangleconstraints.ui:134
@@ -17468,7 +17468,7 @@ msgstr "未解析的資源資料塊"
 msgid "Local Resources"
 msgstr "本機資源"
 
-#: libs/resources/KisResourceCacheDb.cpp:224
+#: libs/resources/KisResourceCacheDb.cpp:231
 #: libs/resourcewidgets/KisStorageChooserWidget.cpp:167
 #: libs/ui/animation/KisAnimationRender.cpp:47
 #: libs/ui/animation/KisAnimationRender.cpp:99
@@ -17489,7 +17489,7 @@ msgstr "本機資源"
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:766
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:791
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:354
-#: libs/ui/dialogs/kis_dlg_preferences.cc:650
+#: libs/ui/dialogs/kis_dlg_preferences.cc:658
 #: libs/ui/input/kis_tablet_debugger.cpp:96 libs/ui/kis_clipboard.cc:675
 #: libs/ui/kis_custom_pattern.cc:131 libs/ui/kis_filter_manager.cc:233
 #: libs/ui/kis_filter_manager.cc:242 libs/ui/kis_layer_manager.cc:314
@@ -17510,7 +17510,7 @@ msgstr "本機資源"
 #: libs/ui/KisTemplateCreateDia.cpp:284 libs/ui/KisTemplateCreateDia.cpp:390
 #: libs/ui/KisView.cpp:589 libs/ui/KisView.cpp:842
 #: libs/ui/KisWelcomePageWidget.cpp:711
-#: libs/ui/opengl/KisOpenGLCanvasRenderer.cpp:356
+#: libs/ui/opengl/KisOpenGLCanvasRenderer.cpp:358
 #: libs/ui/widgets/kis_custom_image_widget.cc:293
 #: plugins/assistants/Assistants/kis_assistant_tool.cc:1301
 #: plugins/assistants/Assistants/kis_assistant_tool.cc:1304
@@ -17554,7 +17554,7 @@ msgctxt "@title:window"
 msgid "Krita"
 msgstr "Krita"
 
-#: libs/resources/KisResourceCacheDb.cpp:224
+#: libs/resources/KisResourceCacheDb.cpp:231
 #, kde-format
 msgid ""
 "The resource database scheme has changed. Krita will backup your database "
@@ -17562,61 +17562,61 @@ msgid ""
 msgstr ""
 "資源資料庫綱要已變更。Krita 會先備份您的資料庫，然後再建立一個新的資料庫。"
 
-#: libs/resources/KisResourceLocator.cpp:93
+#: libs/resources/KisResourceLocator.cpp:88
 #, kde-format
 msgid "1. Could not create the resource location at %1."
 msgstr "1. 無法建立位於 %1 的資源位置。"
 
-#: libs/resources/KisResourceLocator.cpp:100
+#: libs/resources/KisResourceLocator.cpp:95
 #, kde-format
 msgid "2. The resource location at %1 is not writable."
 msgstr "2. 位於 %1 的資源位置無法寫入。"
 
-#: libs/resources/KisResourceLocator.cpp:812
+#: libs/resources/KisResourceLocator.cpp:816
 #, kde-format
 msgid "Could not add %1 to the database"
 msgstr "無法新增 %1 至資料庫"
 
-#: libs/resources/KisResourceLocator.cpp:856
-#: libs/resources/KisResourceLocator.cpp:1172
+#: libs/resources/KisResourceLocator.cpp:860
+#: libs/resources/KisResourceLocator.cpp:1186
 #, kde-format
 msgid "Could not remove storage %1 from the database"
 msgstr "無法從資料庫移除 %1 儲存空間"
 
-#: libs/resources/KisResourceLocator.cpp:937
+#: libs/resources/KisResourceLocator.cpp:951
 #, kde-format
 msgid ""
 "Krita is running for the first time. Initialization will take some time."
 msgstr "Krita 為第一次執行。需要一點時間初始化。"
 
-#: libs/resources/KisResourceLocator.cpp:944
+#: libs/resources/KisResourceLocator.cpp:958
 #, kde-format
 msgid "3. Could not create the resource location at %1."
 msgstr "3. 無法建立位於 %1 的資源位置"
 
-#: libs/resources/KisResourceLocator.cpp:957
-#: libs/resources/KisResourceLocator.cpp:973
+#: libs/resources/KisResourceLocator.cpp:971
+#: libs/resources/KisResourceLocator.cpp:987
 #, kde-format
 msgid "Could not copy resource %1 to %2"
 msgstr "無法複製 %1 資源至 %2"
 
-#: libs/resources/KisResourceLocator.cpp:969
+#: libs/resources/KisResourceLocator.cpp:983
 #, kde-format
 msgid "Installing the resources from bundle %1."
 msgstr "正在從 %1 資源包安裝資源。"
 
-#: libs/resources/KisResourceLocator.cpp:991
+#: libs/resources/KisResourceLocator.cpp:1005
 #, kde-format
 msgid "Initializing the resources."
 msgstr "正在初始化資源。"
 
-#: libs/resources/KisResourceLocator.cpp:1025
+#: libs/resources/KisResourceLocator.cpp:1039
 #, kde-format
 msgid "Temporary Resources"
 msgstr "暫存資源"
 
-#: libs/resources/KisResourceLocator.cpp:1148
-#: libs/resources/KisResourceLocator.cpp:1154
+#: libs/resources/KisResourceLocator.cpp:1162
+#: libs/resources/KisResourceLocator.cpp:1168
 #, kde-format
 msgid "Could not synchronize %1 with the database"
 msgstr "無法與資料庫同步 %1"
@@ -17696,8 +17696,8 @@ msgstr "MD5 雜湊值"
 #. i18n: ectx: attribute (title), widget (QWidget, tab_hsx)
 #. i18n: ectx: property (text), widget (QLabel, lblCurrentRenderer)
 #: libs/resources/KisResourceStorage.h:116
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1517
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1521
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1527
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1531
 #: libs/ui/forms/wdgdisplaysettings.ui:173 libs/ui/KoDocumentInfo.cpp:39
 #: libs/widgets/KisDlgInternalColorSelector.cpp:322
 #: libs/widgets/WdgDlgInternalColorSelector.ui:89
@@ -17853,7 +17853,7 @@ msgstr "縮圖"
 
 #. i18n: ectx: property (text), widget (QPushButton, bnDelete)
 #. i18n: ectx: property (text), widget (QPushButton, deleteAllAssistantsButton)
-#: libs/resources/KisTagModel.cpp:124 libs/resources/KisTagModel.cpp:297
+#: libs/resources/KisTagModel.cpp:121 libs/resources/KisTagModel.cpp:294
 #: libs/ui/widgets/kis_paintop_presets_editor.cpp:592
 #: plugins/assistants/Assistants/AssistantsToolOptions.ui:325
 #: plugins/tools/defaulttool/referenceimagestool/WdgToolOptions.ui:220
@@ -17861,17 +17861,17 @@ msgstr "縮圖"
 msgid "All"
 msgstr "全部"
 
-#: libs/resources/KisTagModel.cpp:151 libs/resources/KisTagModel.cpp:307
+#: libs/resources/KisTagModel.cpp:148 libs/resources/KisTagModel.cpp:304
 #, kde-format
 msgid "All Untagged"
 msgstr "所有無標籤項目"
 
-#: libs/resources/KisTagModel.cpp:300
+#: libs/resources/KisTagModel.cpp:297
 #, kde-format
 msgid "All Resources"
 msgstr "所有資源"
 
-#: libs/resources/KisTagModel.cpp:310
+#: libs/resources/KisTagModel.cpp:307
 #, kde-format
 msgid "All Untagged Resources"
 msgstr "所有無標籤資源"
@@ -17923,7 +17923,7 @@ msgstr "儲存空間"
 #. i18n: ectx: attribute (title), widget (QWidget, tabResources)
 #. i18n: ectx: attribute (title), widget (QWidget, tab_4)
 #: libs/resourcewidgets/dbexplorer/WdgDbExplorer.ui:39
-#: libs/ui/forms/wdggeneralsettings.ui:1210
+#: libs/ui/forms/wdggeneralsettings.ui:1228
 #, kde-format
 msgid "Resources"
 msgstr "資源"
@@ -18232,7 +18232,7 @@ msgstr ""
 "標籤的辨識名稱：%2"
 
 #: libs/resourcewidgets/KisTagChooserWidget.cpp:215
-#: plugins/extensions/resourcemanager/wdgtagselection.cpp:117
+#: plugins/extensions/resourcemanager/wdgtagselection.cpp:112
 #, kde-format
 msgctxt ""
 "Option in a dialog to undelete (reactivate) existing tag with its old "
@@ -18248,21 +18248,21 @@ msgid "Use existing tag"
 msgstr "使用現存標籤"
 
 #: libs/resourcewidgets/KisTagChooserWidget.cpp:218
-#: plugins/extensions/resourcemanager/wdgtagselection.cpp:114
+#: plugins/extensions/resourcemanager/wdgtagselection.cpp:109
 #, kde-format
 msgctxt "Dialog title"
 msgid "Overwrite tag?"
 msgstr "覆蓋標籤嗎？"
 
 #: libs/resourcewidgets/KisTagChooserWidget.cpp:219
-#: plugins/extensions/resourcemanager/wdgtagselection.cpp:115
+#: plugins/extensions/resourcemanager/wdgtagselection.cpp:110
 #, kde-format
 msgctxt "Question to the user in a dialog about creating a tag"
 msgid "A tag with this unique name already exists. Do you want to replace it?"
 msgstr "已存在使用此辨識名稱的標籤。要取代它嗎？"
 
 #: libs/resourcewidgets/KisTagChooserWidget.cpp:220
-#: plugins/extensions/resourcemanager/wdgtagselection.cpp:116
+#: plugins/extensions/resourcemanager/wdgtagselection.cpp:111
 #, kde-format
 msgctxt ""
 "Option in a dialog to discard the previously existing tag and creating a new "
@@ -18286,7 +18286,7 @@ msgstr "取代 (覆蓋) 標籤"
 #: plugins/dockers/gamutmask/forms/wdgGamutMaskChooser.ui:190
 #: plugins/dockers/recorder/recorder_export.ui:788
 #: plugins/dockers/recorder/recorder_snapshots_manager.ui:130
-#: plugins/extensions/resourcemanager/wdgtagselection.cpp:117
+#: plugins/extensions/resourcemanager/wdgtagselection.cpp:112
 #: plugins/generators/seexpr/wdgseexpr.ui:179
 #: plugins/python/krita_script_starter/bbdkss.ui:203
 #, kde-format
@@ -18353,58 +18353,58 @@ msgctxt "(qtundo-format)"
 msgid "Select All"
 msgstr "全部選取"
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:217
+#: libs/ui/actions/kis_selection_action_factories.cpp:219
 #: libs/ui/KisView.cpp:661
 msgctxt "(qtundo-format)"
 msgid "Flood Fill Layer"
 msgstr "浸漫填充圖層"
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:365
+#: libs/ui/actions/kis_selection_action_factories.cpp:367
 msgctxt "(qtundo-format)"
 msgid "Cut"
 msgstr "剪下"
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:366
+#: libs/ui/actions/kis_selection_action_factories.cpp:368
 msgctxt "(qtundo-format)"
 msgid "Copy"
 msgstr "複製"
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:451
+#: libs/ui/actions/kis_selection_action_factories.cpp:453
 msgctxt "(qtundo-format)"
 msgid "Copy Merged"
 msgstr "合併複製"
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:468
+#: libs/ui/actions/kis_selection_action_factories.cpp:470
 #, kde-format
 msgctxt "floating message"
 msgid "Selection is already in a vector format "
 msgstr "選取區域已是向量格式"
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:493
-#: libs/ui/actions/kis_selection_action_factories.cpp:513
+#: libs/ui/actions/kis_selection_action_factories.cpp:495
+#: libs/ui/actions/kis_selection_action_factories.cpp:515
 msgctxt "(qtundo-format)"
 msgid "Convert to Vector Selection"
 msgstr "轉成向量選取區域"
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:508
+#: libs/ui/actions/kis_selection_action_factories.cpp:510
 #, kde-format
 msgctxt "floating message"
 msgid "Selection is already in a raster format "
 msgstr "選取區域已是點陣格式"
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:554
+#: libs/ui/actions/kis_selection_action_factories.cpp:556
 #, kde-format
 msgctxt "floating message"
 msgid "The shape already belongs to a selection"
 msgstr "此形狀已屬於一個選取區域"
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:560
+#: libs/ui/actions/kis_selection_action_factories.cpp:562
 msgctxt "(qtundo-format)"
 msgid "Convert shapes to vector selection"
 msgstr "轉換形狀為向量選取區域"
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:613
-#: libs/ui/actions/kis_selection_action_factories.cpp:672
+#: libs/ui/actions/kis_selection_action_factories.cpp:615
+#: libs/ui/actions/kis_selection_action_factories.cpp:674
 #: plugins/tools/tool_polyline/kis_tool_polyline.cc:49
 msgctxt "(qtundo-format)"
 msgid "Draw Polyline"
@@ -19453,8 +19453,8 @@ msgstr "主顯示器："
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgDisplaySettings)
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_6)
 #: libs/ui/animation/VideoHDRMetadataOptionsDialog.ui:38
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1805
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1807
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1815
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1817
 #: libs/ui/forms/wdgcolorsettings.ui:147 libs/ui/forms/wdgdisplaysettings.ui:16
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:598
 #, kde-format
@@ -19547,12 +19547,13 @@ msgid "Video Animation Import"
 msgstr "匯入影片動畫"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tabGeneral)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
 #. i18n: ectx: attribute (title), widget (QWidget, general)
 #: libs/ui/animation/VideoImportDialog.ui:34
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1775
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1777
-#: libs/ui/forms/wdgcolorsettings.ui:32
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1785
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1787
+#: libs/ui/forms/wdgcolorsettings.ui:32 libs/ui/forms/wdggeneralsettings.ui:204
 #: libs/ui/forms/wdgperformancesettings.ui:50 libs/ui/KoDocumentInfoDlg.cpp:92
 #: libs/ui/KoDocumentInfoDlg.cpp:93
 #: plugins/dockers/logdocker/LogDockerDock.cpp:119
@@ -20694,10 +20695,10 @@ msgstr "已存在此名稱的圖層樣式庫。要覆蓋它嗎？"
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1425
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1428
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1431
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1092
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1096
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1100
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1180
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1104
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1108
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1190
 #: plugins/impex/webp/dlg_webp_import.ui:356
 #: plugins/impex/webp/dlg_webp_import.ui:369
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImagesWidget.cpp:44
@@ -20745,17 +20746,17 @@ msgctxt "@title:window"
 msgid "Multiple Paste Sources Detected"
 msgstr "偵測到多個貼上來源"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:175
+#: libs/ui/dialogs/kis_dlg_preferences.cc:183
 #, kde-format
 msgid "No Cursor"
 msgstr "無游標"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:176
+#: libs/ui/dialogs/kis_dlg_preferences.cc:184
 #, kde-format
 msgid "Tool Icon"
 msgstr "工具圖示"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:177
+#: libs/ui/dialogs/kis_dlg_preferences.cc:185
 #: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:188
 #: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:222
 #: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:256
@@ -20764,90 +20765,90 @@ msgstr "工具圖示"
 msgid "Arrow"
 msgstr "箭頭"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:178
+#: libs/ui/dialogs/kis_dlg_preferences.cc:186
 #, kde-format
 msgid "Small Circle"
 msgstr "小圓圈"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbDecor)
-#: libs/ui/dialogs/kis_dlg_preferences.cc:179
+#: libs/ui/dialogs/kis_dlg_preferences.cc:187
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:461
 #, kde-format
 msgid "Crosshair"
 msgstr "十字線"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:180
+#: libs/ui/dialogs/kis_dlg_preferences.cc:188
 #, kde-format
 msgid "Triangle Righthanded"
 msgstr "三角形 (慣用右手)"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:181
+#: libs/ui/dialogs/kis_dlg_preferences.cc:189
 #, kde-format
 msgid "Triangle Lefthanded"
 msgstr "三角形 (慣用左手)"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:182
+#: libs/ui/dialogs/kis_dlg_preferences.cc:190
 #, kde-format
 msgid "Black Pixel"
 msgstr "黑色像素"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:183
+#: libs/ui/dialogs/kis_dlg_preferences.cc:191
 #, kde-format
 msgid "White Pixel"
 msgstr "白色像素"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:187
+#: libs/ui/dialogs/kis_dlg_preferences.cc:195
 #, kde-format
 msgctxt "Display options label to not DISPLAY brush outline"
 msgid "No Outline"
 msgstr "不顯示輪廓"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:188
+#: libs/ui/dialogs/kis_dlg_preferences.cc:196
 #, kde-format
 msgid "Circle Outline"
 msgstr "圓形輪廓"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:189
+#: libs/ui/dialogs/kis_dlg_preferences.cc:197
 #, kde-format
 msgid "Preview Outline"
 msgstr "預覽輪廓"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:190
+#: libs/ui/dialogs/kis_dlg_preferences.cc:198
 #, kde-format
 msgid "Tilt Outline"
 msgstr "傾斜度輪廓"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:261
+#: libs/ui/dialogs/kis_dlg_preferences.cc:269
 #, kde-format
 msgid "On Touch Drag"
 msgstr "以觸控螢幕拖曳捲動"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:262
+#: libs/ui/dialogs/kis_dlg_preferences.cc:270
 #, kde-format
 msgid "On Click Drag"
 msgstr "點擊並拖曳捲動"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:263
+#: libs/ui/dialogs/kis_dlg_preferences.cc:271
 #, kde-format
 msgid "On Middle-Click Drag"
 msgstr "按住中間鍵拖曳捲動"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:298
+#: libs/ui/dialogs/kis_dlg_preferences.cc:306
 #, kde-format
 msgid "Open default window"
 msgstr "開啟預設視窗"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:299
+#: libs/ui/dialogs/kis_dlg_preferences.cc:307
 #, kde-format
 msgid "Load previous session"
 msgstr "載入上一次工作階段"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:300
+#: libs/ui/dialogs/kis_dlg_preferences.cc:308
 #, kde-format
 msgid "Show session manager"
 msgstr "顯示工作階段管理器"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:372
+#: libs/ui/dialogs/kis_dlg_preferences.cc:380
 #, kde-format
 msgctxt "@info resource folder"
 msgid ""
@@ -20870,20 +20871,20 @@ msgstr ""
 "<p><b>應用程式內部資料夾</b> (<a href=\"copyprivate\">複製</a>)：<br/>\n"
 "%2</p>"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:638
+#: libs/ui/dialogs/kis_dlg_preferences.cc:646
 #, kde-format
 msgid "Select a Background Image"
 msgstr "選擇背景影像"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:650
+#: libs/ui/dialogs/kis_dlg_preferences.cc:658
 #: libs/ui/KisTemplateCreateDia.cpp:390
 #, kde-format
 msgid "%1 is not a valid image file!"
 msgstr "%1 不是有效的影像檔案！"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:753
-#: libs/ui/dialogs/kis_dlg_preferences.cc:862
-#: libs/ui/dialogs/kis_dlg_preferences.cc:944
+#: libs/ui/dialogs/kis_dlg_preferences.cc:761
+#: libs/ui/dialogs/kis_dlg_preferences.cc:870
+#: libs/ui/dialogs/kis_dlg_preferences.cc:952
 #, kde-format
 msgctxt ""
 "The number of the screen (ordinal) and shortened 'name' of the screen (model "
@@ -20891,14 +20892,14 @@ msgctxt ""
 msgid "Screen %1 (%2):"
 msgstr "顯示器 %1 (%2)："
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:821
+#: libs/ui/dialogs/kis_dlg_preferences.cc:829
 #: libs/ui/widgets/kis_advanced_color_space_selector.cc:793
 #: libs/ui/widgets/kis_color_space_selector.cc:191
 #, kde-format
 msgid "Install Color Profiles"
 msgstr "安裝色彩特性檔案"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1036
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1044
 #, kde-format
 msgid ""
 "Use tablet driver timestamps for brush speed (may cause severe artifacts "
@@ -20907,204 +20908,204 @@ msgstr ""
 "以數位板驅動程式提供的筆跡時間戳記來計算筆刷速度 (使用 WinTab 時可能會產生大"
 "量雜訊)"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1038
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1046
 #, kde-format
 msgid "Use tablet driver timestamps for brush speed"
 msgstr "以數位板驅動程式提供的筆跡時間戳記來計算筆刷速度"
 
 #. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, intSwapSize)
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1144
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1154
 #: libs/ui/forms/wdgperformancesettings.ui:215
 #, kde-format
 msgid " GiB"
 msgstr " GiB"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1165
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1175
 #, kde-format
 msgctxt "suffix for \"seconds\""
 msgid " sec"
 msgstr " 秒"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1169
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1179
 #, kde-format
 msgid " fps"
 msgstr " fps"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1379
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1389
 #, kde-format
 msgctxt "canvas renderer"
 msgid "OpenGL"
 msgstr "OpenGL"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1380
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1390
 #, kde-format
 msgctxt "canvas renderer"
 msgid "Software Renderer (very slow)"
 msgstr "軟體繪製器 (非常慢)"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1382
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1392
 #, kde-format
 msgctxt "canvas renderer"
 msgid "Direct3D 11 via ANGLE"
 msgstr "通過 ANGLE 實現的 Direct3D 11"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1384
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1394
 #, kde-format
 msgctxt "canvas renderer"
 msgid "OpenGL ES"
 msgstr "OpenGL ES"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1391
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1401
 #, kde-format
 msgctxt "canvas renderer"
 msgid "Unknown"
 msgstr "未知"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1411
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1421
 #, kde-format
 msgctxt "canvas renderer"
 msgid "Auto (%1)"
 msgstr "自動 (%1)"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1503
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1513
 #, kde-format
 msgid "Display Id: %1"
 msgstr "顯示器 ID：%1"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1504
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1514
 #, kde-format
 msgid "Display Name: %1 %2"
 msgstr "顯示器名稱：%1 %2"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1505
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1515
 #, kde-format
 msgid "Min Luminance: %1"
 msgstr "最小光度：%1"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1506
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1516
 #, kde-format
 msgid "Max Luminance: %1"
 msgstr "最大光度：%1"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1507
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1517
 #, kde-format
 msgid "Max Full Frame Luminance: %1"
 msgstr "最大全影格光度：%1"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1508
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1518
 #, kde-format
 msgid "Red Primary: %1, %2"
 msgstr "紅基色：%1, %2"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1509
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1519
 #, kde-format
 msgid "Green Primary: %1, %2"
 msgstr "綠基色：%1, %2"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1510
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1520
 #, kde-format
 msgid "Blue Primary: %1, %2"
 msgstr "藍基色：%1, %2"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1511
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1521
 #, kde-format
 msgid "White Point: %1, %2"
 msgstr "白點：%1, %2"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1546
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1556
 #, kde-format
 msgid "Warning(s):"
 msgstr "警告："
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1683
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1693
 #, kde-format
 msgid "WARNING: current display doesn't support HDR rendering"
 msgstr "警告：目前顯示器不支援 HDR 繪製"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1768
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1778
 #, kde-format
 msgid "Configure Krita"
 msgstr "設定 Krita"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1785
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1795
 #, kde-format
 msgid "Keyboard Shortcuts"
 msgstr "鍵盤快捷鍵"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1787
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1797
 #: libs/widgetutils/xmlgui/KisShortcutsEditor_p.cpp:282
 #, kde-format
 msgid "Shortcuts"
 msgstr "快捷鍵"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1797
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1807
 #, kde-format
 msgid "Canvas Input Settings"
 msgstr "畫布輸入設定"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1798
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1808
 #, kde-format
 msgid "Canvas Input"
 msgstr "畫布輸入"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1815
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1825
 #: plugins/dockers/logdocker/LogDockerDock.cpp:191
 #, kde-format
 msgid "Color Management"
 msgstr "色彩管理"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1817
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1827
 #, kde-format
 msgctxt "Label of color as in Color Management"
 msgid "Color"
 msgstr "色彩"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1825
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1827
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1835
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1837
 #, kde-format
 msgid "Performance"
 msgstr "效能"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1835
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1845
 #, kde-format
 msgid "Tablet settings"
 msgstr "數位板設定"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1837
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1847
 #, kde-format
 msgid "Tablet"
 msgstr "數位板"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1845
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1855
 #, kde-format
 msgid "Canvas-only settings"
 msgstr "畫布獨佔模式設定"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1847
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1857
 #, kde-format
 msgid "Canvas-only"
 msgstr "畫布獨佔模式"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1855
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1857
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1865
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1867
 #, kde-format
 msgid "Pop-up Palette"
 msgstr "浮動畫具板"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1865
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1875
 #, kde-format
 msgctxt "@title:tab Author page"
 msgid "Author"
 msgstr "作者檔案"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1867
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1877
 #: libs/ui/KoDocumentInfoDlg.cpp:115
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
 #, kde-format
 msgid "Author"
 msgstr "作者"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1874
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1884
 #, kde-format
 msgctxt "@action:button"
 msgid "Restore Defaults"
@@ -21991,7 +21992,7 @@ msgstr "新影像使用預設色彩模型："
 #. i18n: ectx: property (title), widget (QGroupBox, grpPasteFrom)
 #. i18n: ectx: property (title), widget (QGroupBox, grpPasteBehaviour)
 #: libs/ui/forms/wdgcolorsettings.ui:69
-#: libs/ui/forms/wdggeneralsettings.ui:1133
+#: libs/ui/forms/wdggeneralsettings.ui:1160
 #, kde-format
 msgid "When Pasting Into Krita From Other Applications"
 msgstr "從其他應用程式貼上至 Krita 時"
@@ -22452,7 +22453,7 @@ msgstr "起始顯示比例："
 #. i18n: ectx: attribute (title), widget (QWidget, Miscellaneous)
 #. i18n: ectx: attribute (title), widget (QWidget, tab_4)
 #: libs/ui/forms/wdgdisplaysettings.ui:615
-#: libs/ui/forms/wdggeneralsettings.ui:783
+#: libs/ui/forms/wdggeneralsettings.ui:787
 #, kde-format
 msgid "Miscellaneous"
 msgstr "其他"
@@ -22700,73 +22701,103 @@ msgid "Select a mask in \"Gamut Masks\" docker"
 msgstr "在「色域遮罩」工具面板中選擇一個遮罩"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: libs/ui/forms/wdggeneralsettings.ui:41
+#: libs/ui/forms/wdggeneralsettings.ui:49
 #, kde-format
 msgid "Cursor"
 msgstr "游標"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: libs/ui/forms/wdggeneralsettings.ui:53
+#: libs/ui/forms/wdggeneralsettings.ui:61
 #, kde-format
 msgid "Cursor Shape:"
 msgstr "游標形狀："
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
-#: libs/ui/forms/wdggeneralsettings.ui:75
+#: libs/ui/forms/wdggeneralsettings.ui:83
 #, kde-format
 msgid "Outline Shape:"
 msgstr "輪廓形狀："
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: libs/ui/forms/wdggeneralsettings.ui:103
+#: libs/ui/forms/wdggeneralsettings.ui:111
 #, kde-format
 msgid "While painting..."
 msgstr "在繪畫時…"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_showOutlinePainting)
-#: libs/ui/forms/wdggeneralsettings.ui:133
+#: libs/ui/forms/wdggeneralsettings.ui:141
 #, kde-format
 msgid "Show outline"
 msgstr "顯示輪廓"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_changeBrushOutline)
-#: libs/ui/forms/wdggeneralsettings.ui:140
+#: libs/ui/forms/wdggeneralsettings.ui:148
 #, kde-format
 msgid "Use effective outline size"
 msgstr "使用有效輪廓大小"
 
 #. i18n: ectx: property (text), widget (QLabel, label_11)
-#: libs/ui/forms/wdggeneralsettings.ui:153
+#: libs/ui/forms/wdggeneralsettings.ui:161
 #, kde-format
 msgid "Cursor Color:"
 msgstr "游標色彩："
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_3)
-#: libs/ui/forms/wdggeneralsettings.ui:187
+#: libs/ui/forms/wdggeneralsettings.ui:195
 #, kde-format
 msgid "Window"
 msgstr "視窗"
 
+#. i18n: ectx: property (text), widget (QCheckBox, m_chkRubberBand)
+#: libs/ui/forms/wdggeneralsettings.ui:216
+#, kde-format
+msgid "Don't show contents when moving sub-windows"
+msgstr "移動子視窗時不顯示內容"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_chkCanvasMessages)
+#: libs/ui/forms/wdggeneralsettings.ui:223
+#, kde-format
+msgid "Show on-canvas popup messages"
+msgstr "在畫布上顯示浮動訊息"
+
+#. i18n: ectx: property (title), widget (QGroupBox, m_chkHiDPI)
+#: libs/ui/forms/wdggeneralsettings.ui:233
+#, kde-format
+msgid "Enable HiDPI support"
+msgstr "啟用高解析度螢幕 (HiDPI) 支援"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_chkHiDPIFractionalScaling)
+#: libs/ui/forms/wdggeneralsettings.ui:242
+#, kde-format
+msgid "Enable fractional scale factor"
+msgstr "啟用非整數縮放比例"
+
+#. i18n: ectx: property (text), widget (QLabel, label_16)
+#: libs/ui/forms/wdggeneralsettings.ui:249
+#, kde-format
+msgid "<b>Note: Krita will need to be restarted for changes to take effect</b>"
+msgstr "<b>提示：變更下述設定後必須重新啟動程式才能生效</b>"
+
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: libs/ui/forms/wdggeneralsettings.ui:202
+#: libs/ui/forms/wdggeneralsettings.ui:265
 #, kde-format
 msgid "Multiple Document Mode:"
 msgstr "多檔案模式："
 
 #. i18n: ectx: property (text), item, widget (QComboBox, m_cmbMDIType)
-#: libs/ui/forms/wdggeneralsettings.ui:222
+#: libs/ui/forms/wdggeneralsettings.ui:285
 #, kde-format
 msgid "Subwindows"
 msgstr "子視窗"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, m_cmbMDIType)
-#: libs/ui/forms/wdggeneralsettings.ui:227
+#: libs/ui/forms/wdggeneralsettings.ui:290
 #, kde-format
 msgid "Tabs"
 msgstr "分頁"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: libs/ui/forms/wdggeneralsettings.ui:235
+#: libs/ui/forms/wdggeneralsettings.ui:298
 #, kde-format
 msgid "Background Image (overrides color):"
 msgstr "背景影像 (無視視窗背景色彩)："
@@ -22775,7 +22806,7 @@ msgstr "背景影像 (無視視窗背景色彩)："
 #. i18n: ectx: property (text), widget (QPushButton, clearBgImageButton)
 #. i18n: ectx: property (text), widget (QToolButton, m_bnClearLut)
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
-#: libs/ui/forms/wdggeneralsettings.ui:295
+#: libs/ui/forms/wdggeneralsettings.ui:358
 #: libs/ui/input/wintab/drawpile_tablettester/tablettest.ui:43
 #: plugins/dockers/lut/wdglut.ui:241
 #: plugins/extensions/pykrita/plugin/krita/sceditor/mainwindow.ui:105
@@ -22785,240 +22816,210 @@ msgid "Clear"
 msgstr "清除"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: libs/ui/forms/wdggeneralsettings.ui:305
+#: libs/ui/forms/wdggeneralsettings.ui:368
 #, kde-format
 msgid "Window Background:"
 msgstr "視窗背景色彩："
 
 #. i18n: ectx: property (title), widget (QGroupBox, chkUseCustomFont)
-#: libs/ui/forms/wdggeneralsettings.ui:328
+#: libs/ui/forms/wdggeneralsettings.ui:391
 #, kde-format
 msgid "Use custom interface font"
 msgstr "自訂使用者介面字型"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: libs/ui/forms/wdggeneralsettings.ui:337
+#: libs/ui/forms/wdggeneralsettings.ui:400
 #: plugins/paintops/libpaintop/forms/wdgtextbrush.ui:29
 #, kde-format
 msgid "Font:"
 msgstr "字型："
 
-#. i18n: ectx: property (text), widget (QLabel, lbl_window_general)
-#: libs/ui/forms/wdggeneralsettings.ui:391
-#, kde-format
-msgid "General:"
-msgstr "一般："
-
-#. i18n: ectx: property (text), widget (QCheckBox, m_chkRubberBand)
-#: libs/ui/forms/wdggeneralsettings.ui:419
-#, kde-format
-msgid "Don't show contents when moving sub-windows"
-msgstr "移動子視窗時不顯示內容"
-
-#. i18n: ectx: property (text), widget (QCheckBox, m_chkCanvasMessages)
-#: libs/ui/forms/wdggeneralsettings.ui:426
-#, kde-format
-msgid "Show on-canvas popup messages"
-msgstr "在畫布上顯示浮動訊息"
-
-#. i18n: ectx: property (text), widget (QCheckBox, m_chkHiDPI)
-#: libs/ui/forms/wdggeneralsettings.ui:433
-#, kde-format
-msgid "Enable Hi-DPI support"
-msgstr "啟用高解析度螢幕 (Hi-DPI) 支援"
-
-#. i18n: ectx: property (text), widget (QCheckBox, m_chkHiDPIFractionalScaling)
-#: libs/ui/forms/wdggeneralsettings.ui:440
-#, kde-format
-msgid "(Hi-DPI) Enable fractional scale factor"
-msgstr "啟用非整數比例縮放 (Hi-DPI)"
-
 #. i18n: ectx: attribute (title), widget (QWidget, Tools)
-#: libs/ui/forms/wdggeneralsettings.ui:451
+#: libs/ui/forms/wdggeneralsettings.ui:455
 #: plugins/dockers/logdocker/LogDockerDock.cpp:135
 #, kde-format
 msgid "Tools"
 msgstr "工具"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
-#: libs/ui/forms/wdggeneralsettings.ui:457
+#: libs/ui/forms/wdggeneralsettings.ui:461
 #, kde-format
 msgid "Tool Options Location (needs restart)"
 msgstr "工具選項位置 (需要重啟程式)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, m_radioToolOptionsInDocker)
-#: libs/ui/forms/wdggeneralsettings.ui:463
+#: libs/ui/forms/wdggeneralsettings.ui:467
 #, kde-format
 msgid "In Doc&ker"
 msgstr "在工具面板中(&K)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, m_radioToolOptionsInToolbar)
-#: libs/ui/forms/wdggeneralsettings.ui:470
+#: libs/ui/forms/wdggeneralsettings.ui:474
 #, kde-format
 msgid "I&n Toolbar"
 msgstr "在工具列內(&N)"
 
 #. i18n: ectx: property (text), widget (QLabel, lblFlowMode)
-#: libs/ui/forms/wdggeneralsettings.ui:483
+#: libs/ui/forms/wdggeneralsettings.ui:487
 #, kde-format
 msgid "Brush Flow Mode (needs restart):"
 msgstr "筆刷流量模式 (需要重啟程式)："
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbFlowMode)
-#: libs/ui/forms/wdggeneralsettings.ui:491
+#: libs/ui/forms/wdggeneralsettings.ui:495
 #, kde-format
 msgid "Creamy (Krita 4.2+)"
 msgstr "軟滑 (Krita 4.2 以及之後版本)"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbFlowMode)
-#: libs/ui/forms/wdggeneralsettings.ui:496
+#: libs/ui/forms/wdggeneralsettings.ui:500
 #, kde-format
 msgid "Hard (Krita 4.1 and earlier versions)"
 msgstr "堅硬 (Krita 4.1 以及之前版本)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkSwitchSelectionCtrlAlt)
-#: libs/ui/forms/wdggeneralsettings.ui:504
+#: libs/ui/forms/wdggeneralsettings.ui:508
 #, kde-format
 msgid "Switch Control/Alt Selection Modifiers"
 msgstr "在使用選取區域工具時交換 Ctrl 與 Alt 組合鍵的作用"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkEnableTouch)
-#: libs/ui/forms/wdggeneralsettings.ui:511
+#: libs/ui/forms/wdggeneralsettings.ui:515
 #, kde-format
 msgid "Enable Touch Painting"
 msgstr "啟用以手指在觸控螢幕上繪畫"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkEnableTranformToolAfterPaste)
-#: libs/ui/forms/wdggeneralsettings.ui:518
+#: libs/ui/forms/wdggeneralsettings.ui:522
 #, kde-format
 msgid "Activate transform tool after pasting"
 msgstr "在貼上後自動切換到變形工具"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkEnableTouchRotation)
-#: libs/ui/forms/wdggeneralsettings.ui:525
+#: libs/ui/forms/wdggeneralsettings.ui:529
 #, kde-format
 msgid "Enable Touch Rotation"
 msgstr "啟用觸控螢幕旋轉手勢"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkEnableSmoothZooming)
-#: libs/ui/forms/wdggeneralsettings.ui:532
+#: libs/ui/forms/wdggeneralsettings.ui:536
 #, kde-format
 msgid "Enable Smooth Zooming"
 msgstr "啟用平滑縮放"
 
 #. i18n: ectx: property (title), widget (QGroupBox, m_groupBoxKineticScrollingSettings)
-#: libs/ui/forms/wdggeneralsettings.ui:542
+#: libs/ui/forms/wdggeneralsettings.ui:546
 #, kde-format
 msgid "Kinetic Scrolling (needs restart)"
 msgstr "拖曳捲動 (需要重啟程式)"
 
 #. i18n: ectx: property (text), widget (QLabel, labelKineticScrollingSensitivity)
-#: libs/ui/forms/wdggeneralsettings.ui:557
+#: libs/ui/forms/wdggeneralsettings.ui:561
 #, kde-format
 msgid "Sensitivity:"
 msgstr "靈敏度："
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkKineticScrollingHideScrollbars)
-#: libs/ui/forms/wdggeneralsettings.ui:567
+#: libs/ui/forms/wdggeneralsettings.ui:571
 #, kde-format
 msgid "Hide docker scrollbars if kinetic scrolling is enabled (needs restart)"
 msgstr "啟用拖曳捲動時，隱藏工具面板的捲動軸 (需要重啟程式)"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
-#: libs/ui/forms/wdggeneralsettings.ui:594
+#: libs/ui/forms/wdggeneralsettings.ui:598
 #, kde-format
 msgid "File Handling"
 msgstr "檔案處理"
 
 #. i18n: ectx: property (title), widget (QGroupBox, m_autosaveCheckBox)
-#: libs/ui/forms/wdggeneralsettings.ui:600
+#: libs/ui/forms/wdggeneralsettings.ui:604
 #, kde-format
 msgid "Enable Autosaving"
 msgstr "啟用自動儲存"
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
-#: libs/ui/forms/wdggeneralsettings.ui:609
+#: libs/ui/forms/wdggeneralsettings.ui:613
 #, kde-format
 msgid "Autosave Interval:"
 msgstr "自動儲存間隔："
 
 #. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, m_autosaveSpinBox)
-#: libs/ui/forms/wdggeneralsettings.ui:616
+#: libs/ui/forms/wdggeneralsettings.ui:620
 #, kde-format
 msgctxt "Suffix: “Every x min”"
 msgid " min"
 msgstr " 分鐘"
 
 #. i18n: ectx: property (prefix), widget (KisIntParseSpinBox, m_autosaveSpinBox)
-#: libs/ui/forms/wdggeneralsettings.ui:619
+#: libs/ui/forms/wdggeneralsettings.ui:623
 #, kde-format
 msgctxt "Prefix: “Every x min”"
 msgid "Every "
 msgstr "每隔 "
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkHideAutosaveFiles)
-#: libs/ui/forms/wdggeneralsettings.ui:638
+#: libs/ui/forms/wdggeneralsettings.ui:642
 #, kde-format
 msgid "Unnamed autosave files are hidden by default"
 msgstr "預設隱藏未命名的自動儲存檔案"
 
 #. i18n: ectx: property (title), widget (QGroupBox, m_backupFileCheckBox)
-#: libs/ui/forms/wdggeneralsettings.ui:651
+#: libs/ui/forms/wdggeneralsettings.ui:655
 #, kde-format
 msgid "Create a Backup File on Saving"
 msgstr "儲存時建立備份檔案"
 
 #. i18n: ectx: property (text), widget (QLabel, label_13)
-#: libs/ui/forms/wdggeneralsettings.ui:660
+#: libs/ui/forms/wdggeneralsettings.ui:664
 #, kde-format
 msgid "Backup File Location"
 msgstr "備份檔案位置"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbBackupFileLocation)
-#: libs/ui/forms/wdggeneralsettings.ui:668
+#: libs/ui/forms/wdggeneralsettings.ui:672
 #, kde-format
 msgid "Same Folder as Original File"
 msgstr "與原始檔案相同資料夾"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbBackupFileLocation)
-#: libs/ui/forms/wdggeneralsettings.ui:673
+#: libs/ui/forms/wdggeneralsettings.ui:677
 #, kde-format
 msgid "User Folder"
 msgstr "使用者資料夾"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbBackupFileLocation)
-#: libs/ui/forms/wdggeneralsettings.ui:678
+#: libs/ui/forms/wdggeneralsettings.ui:682
 #, kde-format
 msgid "Temporary File Location"
 msgstr "暫存位置"
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
-#: libs/ui/forms/wdggeneralsettings.ui:686
+#: libs/ui/forms/wdggeneralsettings.ui:690
 #, kde-format
 msgid "Backup File Suffix:"
 msgstr "備份檔案後綴："
 
 #. i18n: ectx: property (text), widget (QLineEdit, txtBackupFileSuffix)
-#: libs/ui/forms/wdggeneralsettings.ui:693
+#: libs/ui/forms/wdggeneralsettings.ui:697
 #, kde-format
 msgid "~"
 msgstr "~"
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
-#: libs/ui/forms/wdggeneralsettings.ui:703
+#: libs/ui/forms/wdggeneralsettings.ui:707
 #, kde-format
 msgid "Number of Backup Files Kept:"
 msgstr "保留的備份檔案數目："
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: libs/ui/forms/wdggeneralsettings.ui:723
+#: libs/ui/forms/wdggeneralsettings.ui:727
 #, kde-format
 msgid "KRA File Compression"
 msgstr "KRA 檔案壓縮"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkZip64)
-#: libs/ui/forms/wdggeneralsettings.ui:729
+#: libs/ui/forms/wdggeneralsettings.ui:733
 #, kde-format
 msgid ""
 "<html><head/><body><p>Only use this option for <span style=\" font-"
@@ -23029,7 +23030,7 @@ msgstr ""
 "\">非常</span> 大的檔案——大於 4 GiB。</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkZip64)
-#: libs/ui/forms/wdggeneralsettings.ui:732
+#: libs/ui/forms/wdggeneralsettings.ui:736
 #, kde-format
 msgid ""
 "Use Zip64 (for very large files: cannot be opened in versions of Krita older "
@@ -23037,69 +23038,69 @@ msgid ""
 msgstr "使用 Zip64 (針對體積非常大的檔案，無法在低於 Krita 4.2.0 的版本中開啟)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkCompressKra)
-#: libs/ui/forms/wdggeneralsettings.ui:739
+#: libs/ui/forms/wdggeneralsettings.ui:743
 #, kde-format
 msgid "Compress .kra files more (slows loading/saving)"
 msgstr "提高 .kra 檔案的壓縮率 (載入及儲存的速度會變慢)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkTrimKra)
-#: libs/ui/forms/wdggeneralsettings.ui:749
+#: libs/ui/forms/wdggeneralsettings.ui:753
 #, kde-format
 msgid "Trim files before saving"
 msgstr "儲存前裁剪檔案"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkTrimFramesImport)
-#: libs/ui/forms/wdggeneralsettings.ui:759
+#: libs/ui/forms/wdggeneralsettings.ui:763
 #, kde-format
 msgid "Trim frames when importing animations"
 msgstr "匯入動畫時裁剪影格"
 
 #. i18n: ectx: property (text), widget (QLabel, label_12)
-#: libs/ui/forms/wdggeneralsettings.ui:795
+#: libs/ui/forms/wdggeneralsettings.ui:844
 #, kde-format
 msgid "When Krita starts:"
 msgstr "當 Krita 啟動時："
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkSaveSessionOnQuit)
-#: libs/ui/forms/wdggeneralsettings.ui:815
+#: libs/ui/forms/wdggeneralsettings.ui:864
 #, kde-format
 msgid "Save session when Krita closes"
 msgstr "關閉 Krita 時儲存工作階段"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkConvertOnImport)
-#: libs/ui/forms/wdggeneralsettings.ui:822
+#: libs/ui/forms/wdggeneralsettings.ui:871
 #, kde-format
 msgid "On importing images as layers, convert to the image colorspace"
 msgstr "匯入影像為圖層時，將其轉換成目標影像的色彩空間"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label)
 #. i18n: ectx: property (toolTip), widget (KisIntParseSpinBox, m_undoStackSize)
-#: libs/ui/forms/wdggeneralsettings.ui:835
-#: libs/ui/forms/wdggeneralsettings.ui:863
+#: libs/ui/forms/wdggeneralsettings.ui:884
+#: libs/ui/forms/wdggeneralsettings.ui:912
 #, kde-format
 msgid "Only applies to new or newly opened images."
 msgstr "僅套用於新建立或者新開啟的影像。"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: libs/ui/forms/wdggeneralsettings.ui:838
+#: libs/ui/forms/wdggeneralsettings.ui:887
 #, kde-format
 msgid "Undo stack size:"
 msgstr "復原次數上限："
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkShowRootLayer)
-#: libs/ui/forms/wdggeneralsettings.ui:898
+#: libs/ui/forms/wdggeneralsettings.ui:947
 #, kde-format
 msgid "Show root layer"
 msgstr "顯示根圖層"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkUsageLogging)
-#: libs/ui/forms/wdggeneralsettings.ui:905
+#: libs/ui/forms/wdggeneralsettings.ui:954
 #, kde-format
 msgid "Enable Logging for bug reports"
 msgstr "啟用供錯誤報告用的紀錄"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, m_chkNativeFileDialog)
-#: libs/ui/forms/wdggeneralsettings.ui:936
+#: libs/ui/forms/wdggeneralsettings.ui:985
 #, kde-format
 msgid ""
 "Warning: if you enable this setting and the file dialogs do weird stuff, do "
@@ -23108,68 +23109,68 @@ msgstr ""
 "警告：如果啟用此選項後開啟/儲存檔案對話框不能正常運作，請勿為此提交錯誤報告。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkNativeFileDialog)
-#: libs/ui/forms/wdggeneralsettings.ui:939
+#: libs/ui/forms/wdggeneralsettings.ui:988
 #, kde-format
 msgid "Enable native file dialogs"
 msgstr "使用系統原生開啟/儲存檔案對話框"
 
 #. i18n: ectx: property (text), widget (QLabel, label_18)
-#: libs/ui/forms/wdggeneralsettings.ui:962
+#: libs/ui/forms/wdggeneralsettings.ui:1011
 #, kde-format
 msgid "(Warning: may not work correctly on some systems)"
 msgstr "(警告：在某些系統上可能會出錯)"
 
 #. i18n: ectx: property (text), widget (QLabel, label_9)
-#: libs/ui/forms/wdggeneralsettings.ui:972
+#: libs/ui/forms/wdggeneralsettings.ui:1021
 #, kde-format
 msgid "Maximum brush size:"
 msgstr "筆刷最大大小："
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, intMaxBrushSize)
-#: libs/ui/forms/wdggeneralsettings.ui:994
+#: libs/ui/forms/wdggeneralsettings.ui:1043
 #, kde-format
 msgid "The maximum diameter of a brush in pixels."
 msgstr "筆刷的最大直徑，以像素為單位。"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, intMaxBrushSize)
-#: libs/ui/forms/wdggeneralsettings.ui:997
+#: libs/ui/forms/wdggeneralsettings.ui:1046
 #, kde-format
 msgctxt "pixel"
 msgid "px"
 msgstr "px"
 
 #. i18n: ectx: property (text), widget (QLabel, label_10)
-#: libs/ui/forms/wdggeneralsettings.ui:1029
+#: libs/ui/forms/wdggeneralsettings.ui:1078
 #, kde-format
 msgid "(Needs restart)"
 msgstr "(需要重啟程式)"
 
-#. i18n: ectx: property (text), widget (QLabel, label_16)
-#: libs/ui/forms/wdggeneralsettings.ui:1042
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_5)
+#: libs/ui/forms/wdggeneralsettings.ui:1091
 #, kde-format
-msgid "Animation:"
-msgstr "動畫："
+msgid "Animation"
+msgstr "動畫"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkAutoPin)
-#: libs/ui/forms/wdggeneralsettings.ui:1067
+#: libs/ui/forms/wdggeneralsettings.ui:1100
 #, kde-format
 msgid "Automatically pin new layers to timeline"
 msgstr "自動釘選新圖層至時間軸"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkAdaptivePlaybackRange)
-#: libs/ui/forms/wdggeneralsettings.ui:1077
+#: libs/ui/forms/wdggeneralsettings.ui:1110
 #, kde-format
 msgid "Adapt playback range to keyframes"
 msgstr "將重播範圍調整至關鍵影格"
 
 #. i18n: ectx: property (title), widget (QGroupBox, chkForcedFontDPI)
-#: libs/ui/forms/wdggeneralsettings.ui:1087
+#: libs/ui/forms/wdggeneralsettings.ui:1120
 #, kde-format
 msgid "Font DPI Workaround"
 msgstr "字型 DPI 應急修正方法"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_17)
-#: libs/ui/forms/wdggeneralsettings.ui:1102
+#: libs/ui/forms/wdggeneralsettings.ui:1135
 #, kde-format
 msgid ""
 "In some Krita versions before 5.0 text size could be dependent on the "
@@ -23197,7 +23198,7 @@ msgstr ""
 "檔案以 Krita 5.0 儲存後，將無需再次作出轉換。"
 
 #. i18n: ectx: property (text), widget (QLabel, label_17)
-#: libs/ui/forms/wdggeneralsettings.ui:1105
+#: libs/ui/forms/wdggeneralsettings.ui:1138
 #: plugins/python/comics_project_management_tools/comics_export_dialog.py:66
 #: plugins/python/comics_project_management_tools/comics_template_dialog.py:177
 #, kde-format
@@ -23205,7 +23206,7 @@ msgid "DPI:"
 msgstr "DPI："
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, intForcedFontDPI)
-#: libs/ui/forms/wdggeneralsettings.ui:1114
+#: libs/ui/forms/wdggeneralsettings.ui:1147
 #, kde-format
 msgid ""
 "In some versions of Krita before 4.4.3 text size could be dependent on the "
@@ -23223,13 +23224,13 @@ msgstr ""
 "用此 DPI 解析度作文字顯示。"
 
 #. i18n: ectx: property (text), widget (QRadioButton, btnDownload)
-#: libs/ui/forms/wdggeneralsettings.ui:1139
+#: libs/ui/forms/wdggeneralsettings.ui:1166
 #, kde-format
 msgid "Prefer downloading the original source (this requires Internet access)"
 msgstr "偏好下載原始檔案 (需要網路連線)"
 
 #. i18n: ectx: property (text), widget (QLabel, lblPasteContext)
-#: libs/ui/forms/wdggeneralsettings.ui:1152
+#: libs/ui/forms/wdggeneralsettings.ui:1179
 #, kde-format
 msgid ""
 "Some applications, like Google Chrome, provide multiple formats when pasting "
@@ -23238,13 +23239,13 @@ msgstr ""
 "某些應用程式 (例如 Google Chrome) 提供多種在貼上或拖放時可供使用的影像格式。"
 
 #. i18n: ectx: property (text), widget (QRadioButton, btnLocal)
-#: libs/ui/forms/wdggeneralsettings.ui:1159
+#: libs/ui/forms/wdggeneralsettings.ui:1186
 #, kde-format
 msgid "Prefer a local copy (if available; metadata may be lost)"
 msgstr "偏好本機副本 (當可用時；或會遺失中繼資料)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, btnBitmap)
-#: libs/ui/forms/wdggeneralsettings.ui:1166
+#: libs/ui/forms/wdggeneralsettings.ui:1193
 #, kde-format
 msgid ""
 "Paste the attached sRGB bitmap (no filesystem or Internet access required, "
@@ -23253,13 +23254,13 @@ msgstr ""
 "貼上已附上的 sRGB 點陣圖 (不需要存取檔案系統或網路連線，但可能會遺失中繼資料)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, btnAsk)
-#: libs/ui/forms/wdggeneralsettings.ui:1173
+#: libs/ui/forms/wdggeneralsettings.ui:1200
 #, kde-format
 msgid "Ask each time"
 msgstr "每次詢問"
 
 #. i18n: ectx: property (text), widget (QLabel, lblPasteNote)
-#: libs/ui/forms/wdggeneralsettings.ui:1186
+#: libs/ui/forms/wdggeneralsettings.ui:1213
 #, kde-format
 msgid ""
 "Note: This applies to drops in the Info window, the canvas, and paste "
@@ -23267,13 +23268,13 @@ msgid ""
 msgstr "提示：這將套用到拖放進資訊視窗、畫布上的影像，以及貼上動作。"
 
 #. i18n: ectx: property (text), widget (QLabel, label_14)
-#: libs/ui/forms/wdggeneralsettings.ui:1216
+#: libs/ui/forms/wdggeneralsettings.ui:1234
 #, kde-format
 msgid "Cache Location:"
 msgstr "快取位置："
 
 #. i18n: ectx: property (text), widget (QLabel, label_15)
-#: libs/ui/forms/wdggeneralsettings.ui:1226
+#: libs/ui/forms/wdggeneralsettings.ui:1244
 #, kde-format
 msgid "Resource Folder:"
 msgstr "資源目錄："
@@ -24273,8 +24274,8 @@ msgstr "復原資料置換前上限："
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: libs/ui/forms/wdgperformancesettings.ui:184
 #, kde-format
-msgid "Swap File Size"
-msgstr "置換檔案大小"
+msgid "Swap File"
+msgstr "置換檔案"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_6)
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, sliderSwapSize)
@@ -24287,14 +24288,16 @@ msgstr "置換檔案不會大於此限制。"
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #: libs/ui/forms/wdgperformancesettings.ui:193
 #, kde-format
-msgid "File Size Limit:"
-msgstr "檔案大小限制："
+msgid "Size Limit:"
+msgstr "大小限制："
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: ectx: property (text), widget (QLabel, label_4)
 #: libs/ui/forms/wdgperformancesettings.ui:224
+#: plugins/extensions/resourcemanager/WdgDlgResourceManager.ui:167
 #, kde-format
-msgid "Swap File Location:"
-msgstr "置換檔案位置："
+msgid "Location:"
+msgstr "位置："
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
 #: libs/ui/forms/wdgperformancesettings.ui:257
@@ -24382,44 +24385,50 @@ msgstr ""
 "較低時畫面反應看上去會變得卡頓，但在某些系統下 (如 macOS) 或許能改善數位板畫"
 "筆的精確度。<p></body></html>"
 
-#. i18n: ectx: property (text), widget (QCheckBox, chkOpenGLFramerateLogging)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_7)
 #: libs/ui/forms/wdgperformancesettings.ui:346
+#, kde-format
+msgid "Debug options"
+msgstr "除錯選項"
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkOpenGLFramerateLogging)
+#: libs/ui/forms/wdgperformancesettings.ui:352
 #, kde-format
 msgid "Debug logging of OpenGL framerate"
 msgstr "啟用供除錯用的 OpenGL 影格速率紀錄"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkBrushSpeedLogging)
-#: libs/ui/forms/wdgperformancesettings.ui:353
+#: libs/ui/forms/wdgperformancesettings.ui:359
 #, kde-format
 msgid "Debug logging for brush rendering speed"
 msgstr "啟用供除錯用的筆刷繪製速度紀錄"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkDisableAVXOptimizations)
-#: libs/ui/forms/wdgperformancesettings.ui:360
+#: libs/ui/forms/wdgperformancesettings.ui:366
 #, kde-format
 msgid "Disable AVX vector optimizations"
 msgstr "停用 AVX 向量最佳化"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkDisableVectorOptimizations)
-#: libs/ui/forms/wdgperformancesettings.ui:367
+#: libs/ui/forms/wdgperformancesettings.ui:373
 #, kde-format
 msgid "Disable all vector optimizations"
 msgstr "停用所有向量最佳化"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkProgressReporting)
-#: libs/ui/forms/wdgperformancesettings.ui:374
+#: libs/ui/forms/wdgperformancesettings.ui:380
 #, kde-format
 msgid "Progress reporting (might affect performance)"
 msgstr "程式進度報告 (可能會影響效能)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkPerformanceLogging)
-#: libs/ui/forms/wdgperformancesettings.ui:381
+#: libs/ui/forms/wdgperformancesettings.ui:387
 #, kde-format
 msgid "Performance logging"
 msgstr "程式效能記錄"
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
-#: libs/ui/forms/wdgperformancesettings.ui:391
+#: libs/ui/forms/wdgperformancesettings.ui:400
 #, kde-format
 msgid ""
 "<html><head/><body><p>When performance logging is enabled Krita saves timing "
@@ -24433,19 +24442,19 @@ msgstr ""
 "誤報告中。</p></body></html>"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_3)
-#: libs/ui/forms/wdgperformancesettings.ui:418
+#: libs/ui/forms/wdgperformancesettings.ui:427
 #, kde-format
 msgid "Animation Cache"
 msgstr "動畫快取"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
-#: libs/ui/forms/wdgperformancesettings.ui:424
+#: libs/ui/forms/wdgperformancesettings.ui:433
 #, kde-format
 msgid "Cache Storage Backend"
 msgstr "快取存放空間後端"
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, optInMemory)
-#: libs/ui/forms/wdgperformancesettings.ui:430
+#: libs/ui/forms/wdgperformancesettings.ui:439
 #, kde-format
 msgid ""
 "<html><head/><body><p>Animation frame cache will be stored in RAM completely "
@@ -24464,13 +24473,13 @@ msgstr ""
 "html>"
 
 #. i18n: ectx: property (text), widget (QRadioButton, optInMemory)
-#: libs/ui/forms/wdgperformancesettings.ui:433
+#: libs/ui/forms/wdgperformancesettings.ui:442
 #, kde-format
 msgid "In-memory"
 msgstr "使用記憶體"
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, optOnDisk)
-#: libs/ui/forms/wdgperformancesettings.ui:440
+#: libs/ui/forms/wdgperformancesettings.ui:449
 #, kde-format
 msgid ""
 "<html><head/><body><p>Animation frames are stored on hard disk in the same "
@@ -24485,19 +24494,19 @@ msgstr ""
 "來說是較佳選擇。</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QRadioButton, optOnDisk)
-#: libs/ui/forms/wdgperformancesettings.ui:443
+#: libs/ui/forms/wdgperformancesettings.ui:452
 #, kde-format
 msgid "On-disk"
 msgstr "使用硬碟"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_5)
-#: libs/ui/forms/wdgperformancesettings.ui:453
+#: libs/ui/forms/wdgperformancesettings.ui:462
 #, kde-format
 msgid "Cache Generation Options"
 msgstr "快取產生選項"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkCachedFramesSizeLimit)
-#: libs/ui/forms/wdgperformancesettings.ui:459
+#: libs/ui/forms/wdgperformancesettings.ui:468
 #, kde-format
 msgid ""
 "<html><head/><body><p>Render scaled down version of the frame if the image "
@@ -24508,13 +24517,13 @@ msgstr ""
 "後端時應啟用此選項。</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkCachedFramesSizeLimit)
-#: libs/ui/forms/wdgperformancesettings.ui:462
+#: libs/ui/forms/wdgperformancesettings.ui:471
 #, kde-format
 msgid "Limit cached frame size:"
 msgstr "限制快取影格大小："
 
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, intCachedFramesSizeLimit)
-#: libs/ui/forms/wdgperformancesettings.ui:475
+#: libs/ui/forms/wdgperformancesettings.ui:484
 #, kde-format
 msgid ""
 "<html><head/><body><p>Size limit after which the frames will be scaled down</"
@@ -24525,7 +24534,7 @@ msgstr ""
 "weight:600;\">建議值：</span>2500&nbsp;px</p></body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkUseRegionOfInterest)
-#: libs/ui/forms/wdgperformancesettings.ui:482
+#: libs/ui/forms/wdgperformancesettings.ui:491
 #, kde-format
 msgid ""
 "<html><head/><body><p>When the image is too big, render only currently "
@@ -24534,13 +24543,13 @@ msgstr ""
 "<html><head/><body><p>當影像太大時, 僅繪製目前可見的部分</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkUseRegionOfInterest)
-#: libs/ui/forms/wdgperformancesettings.ui:485
+#: libs/ui/forms/wdgperformancesettings.ui:494
 #, kde-format
 msgid "Use region of interest"
 msgstr "使用重點區域"
 
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, intRegionOfInterestMargin)
-#: libs/ui/forms/wdgperformancesettings.ui:498
+#: libs/ui/forms/wdgperformancesettings.ui:507
 #, no-c-format, kde-format
 msgid ""
 "<html><head/><body><p>Add extra area to the region of interest to each side "
@@ -24553,7 +24562,7 @@ msgstr ""
 "html>"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkBackgroundCacheGeneration)
-#: libs/ui/forms/wdgperformancesettings.ui:505
+#: libs/ui/forms/wdgperformancesettings.ui:514
 #, kde-format
 msgid ""
 "<html><head/><body><p>Automatically prerender animation cache in background "
@@ -24563,66 +24572,32 @@ msgstr ""
 "html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkBackgroundCacheGeneration)
-#: libs/ui/forms/wdgperformancesettings.ui:508
+#: libs/ui/forms/wdgperformancesettings.ui:517
 #, kde-format
 msgid "Enable background cache generation"
 msgstr "啟用在背景產生快取"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_4)
-#: libs/ui/forms/wdgperformancesettings.ui:532
+#: libs/ui/forms/wdgperformancesettings.ui:541
 #: libs/ui/widgets/kis_lod_availability_widget.cpp:140
 #, kde-format
 msgid "Instant Preview"
 msgstr "即時預覽"
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_6)
-#: libs/ui/forms/wdgperformancesettings.ui:538
-#, kde-format
-msgid "Transform Tool"
-msgstr "變形工具"
-
 #. i18n: ectx: property (text), widget (QCheckBox, chkTransformToolUseInStackPreview)
-#: libs/ui/forms/wdgperformancesettings.ui:547
+#: libs/ui/forms/wdgperformancesettings.ui:550
 #, kde-format
 msgid "Use in-stack preview in Transform Tool"
 msgstr "變形工具顯示圖層堆疊中的預覽"
 
-#. i18n: ectx: property (toolTip), widget (QCheckBox, chkTransformToolForceLodMode)
-#: libs/ui/forms/wdgperformancesettings.ui:554
-#, kde-format
-msgid ""
-"<html><head/><body><p>The transform tool preview will always use instant "
-"preview, even if instant preview is disabled in the &quot;View&quot; menu</"
-"p></body></html>"
-msgstr ""
-"<html><head/><body><p>強制變形工具使用即時預覽，無視「顯示」選單中停用即時預"
-"覽的設定</p></body></html>"
-
-#. i18n: ectx: property (text), widget (QCheckBox, chkTransformToolForceLodMode)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_6)
 #: libs/ui/forms/wdgperformancesettings.ui:557
 #, kde-format
-msgid "Force Instant Preview in Transform Tool"
-msgstr "強制變形工具使用即時預覽"
-
-#. i18n: ectx: property (toolTip), widget (QCheckBox, chkMoveToolForceLodMode)
-#: libs/ui/forms/wdgperformancesettings.ui:567
-#, kde-format
-msgid ""
-"<html><head/><body><p>The move tool preview will always use instant preview, "
-"even if instant preview is disabled in the &quot;View&quot; menu</p></body></"
-"html>"
-msgstr ""
-"<html><head/><body><p>強制移動工具使用即時預覽，無視「顯示」選單中停用即時預"
-"覽的設定</p></body></html>"
-
-#. i18n: ectx: property (text), widget (QCheckBox, chkMoveToolForceLodMode)
-#: libs/ui/forms/wdgperformancesettings.ui:570
-#, kde-format
-msgid "Force Instant Preview in Move Tool"
-msgstr "強制移動工具使用即時預覽"
+msgid "Force Instant Preview"
+msgstr "強制使用即時預覽"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkFiltersForceLodMode)
-#: libs/ui/forms/wdgperformancesettings.ui:577
+#: libs/ui/forms/wdgperformancesettings.ui:563
 #, kde-format
 msgid ""
 "<html><head/><body><p>The filter dialog will always use instant preview, "
@@ -24633,10 +24608,44 @@ msgstr ""
 "覽的設定</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkFiltersForceLodMode)
-#: libs/ui/forms/wdgperformancesettings.ui:580
+#: libs/ui/forms/wdgperformancesettings.ui:566
 #, kde-format
-msgid "Force Instant Preview in Filters"
-msgstr "強制濾鏡使用即時預覽"
+msgid "in Filters"
+msgstr "於濾鏡"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, chkTransformToolForceLodMode)
+#: libs/ui/forms/wdgperformancesettings.ui:573
+#, kde-format
+msgid ""
+"<html><head/><body><p>The transform tool preview will always use instant "
+"preview, even if instant preview is disabled in the &quot;View&quot; menu</"
+"p></body></html>"
+msgstr ""
+"<html><head/><body><p>強制變形工具使用即時預覽，無視「顯示」選單中停用即時預"
+"覽的設定</p></body></html>"
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkTransformToolForceLodMode)
+#: libs/ui/forms/wdgperformancesettings.ui:576
+#, kde-format
+msgid "in Transform Tool"
+msgstr "於變形工具"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, chkMoveToolForceLodMode)
+#: libs/ui/forms/wdgperformancesettings.ui:583
+#, kde-format
+msgid ""
+"<html><head/><body><p>The move tool preview will always use instant preview, "
+"even if instant preview is disabled in the &quot;View&quot; menu</p></body></"
+"html>"
+msgstr ""
+"<html><head/><body><p>強制移動工具使用即時預覽，無視「顯示」選單中停用即時預"
+"覽的設定</p></body></html>"
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkMoveToolForceLodMode)
+#: libs/ui/forms/wdgperformancesettings.ui:586
+#, kde-format
+msgid "in Move Tool"
+msgstr "於移動工具"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgPopupPaletteSettings)
 #. i18n: ectx: property (windowTitle), widget (QWidget, KisAutoLevelsWidget)
@@ -29601,7 +29610,7 @@ msgstr "可用繪製器不支援首選輸出格式"
 msgid "OpenColorIO is disabled: image color space is not supported"
 msgstr "已停用 OpenColorIO：不支援影像色彩空間"
 
-#: libs/ui/opengl/KisOpenGLCanvasRenderer.cpp:357
+#: libs/ui/opengl/KisOpenGLCanvasRenderer.cpp:359
 #, kde-format
 msgid ""
 "Krita could not initialize the OpenGL canvas:\n"
@@ -34906,37 +34915,37 @@ msgstr "重設通道"
 msgid "Reset All Channels"
 msgstr "重設全部通道"
 
-#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:464
+#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:468
 #, kde-format
 msgid "Hold constant value. No interpolation."
 msgstr "保持固定值，不使用插值。"
 
-#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:471
+#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:475
 #, kde-format
 msgid "Linear interpolation."
 msgstr "線性插值"
 
-#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:478
+#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:482
 #, kde-format
 msgid "Bezier curve interpolation."
 msgstr "貝茲曲線插值"
 
-#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:485
+#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:489
 #, kde-format
 msgid "Sharp interpolation tangents."
 msgstr "銳利切點插值。"
 
-#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:492
+#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:496
 #, kde-format
 msgid "Smooth interpolation tangents."
 msgstr "平滑切點插值。"
 
-#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:499
+#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:503
 #, kde-format
 msgid "Zoom view to fit channel range."
 msgstr "縮放檢視到適合通道範圍"
 
-#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:506
+#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:510
 #, kde-format
 msgid "Zoom view to fit curve."
 msgstr "縮放檢視到適合曲線"
@@ -34991,22 +35000,22 @@ msgstr "自動關鍵影格：空白"
 msgid "AutoKey Duplicate"
 msgstr "自動關鍵影格：複製"
 
-#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:441
+#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:443
 #, kde-format
 msgid "Enable to preserve playback timing."
 msgstr "啟用以保持播放時間"
 
-#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:449
+#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:451
 #, kde-format
 msgid "Effective FPS:\t%1"
 msgstr "有效 FPS：%1"
 
-#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:450
+#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:452
 #, kde-format
 msgid "Real FPS:\t%1"
 msgstr "真實 FPS：%1"
 
-#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:451
+#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:453
 #, kde-format
 msgid "Frames dropped:\t%1%"
 msgstr "拋棄的影格：%1%"
@@ -35247,14 +35256,14 @@ msgstr "前影格"
 msgid "Next frames"
 msgstr "後影格"
 
-#: plugins/dockers/animation/KisTimeBasedItemModel.cpp:394
+#: plugins/dockers/animation/KisTimeBasedItemModel.cpp:401
 #, kde-format
 msgctxt "(qtundo-format)"
 msgid "Remove frame and shift"
 msgid_plural "Remove %1 frames and shift"
 msgstr[0] "移除 %1 個關鍵影格並位移"
 
-#: plugins/dockers/animation/KisTimeBasedItemModel.cpp:424
+#: plugins/dockers/animation/KisTimeBasedItemModel.cpp:431
 msgctxt "(qtundo-format)"
 msgid "Mirror Frames"
 msgstr "翻轉影格"
@@ -35492,12 +35501,12 @@ msgstr "新構圖名稱"
 msgid "Select a Directory"
 msgstr "選擇資料夾"
 
-#: plugins/dockers/compositiondocker/compositiondocker_dock.cpp:420
+#: plugins/dockers/compositiondocker/compositiondocker_dock.cpp:418
 #, kde-format
 msgid "Rename Composition"
 msgstr "重新命名方案"
 
-#: plugins/dockers/compositiondocker/compositiondocker_dock.cpp:421
+#: plugins/dockers/compositiondocker/compositiondocker_dock.cpp:419
 #, kde-format
 msgid "New Name:"
 msgstr "新名稱："
@@ -37398,7 +37407,7 @@ msgstr "刪除操作集合"
 msgid "CPU Throttle"
 msgstr "CPU 限速"
 
-#: plugins/dockers/touchdocker/TouchDockerDock.cpp:85
+#: plugins/dockers/touchdocker/TouchDockerDock.cpp:86
 #, kde-format
 msgid "Touch Docker"
 msgstr "觸控按鈕面板"
@@ -39735,12 +39744,6 @@ msgstr "ID："
 #, kde-format
 msgid "Filename:"
 msgstr "檔案名："
-
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: plugins/extensions/resourcemanager/WdgDlgResourceManager.ui:167
-#, kde-format
-msgid "Location:"
-msgstr "位置："
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: plugins/extensions/resourcemanager/WdgDlgResourceManager.ui:174
@@ -55032,6 +55035,30 @@ msgstr "縮放工具"
 msgctxt "action"
 msgid "Reference Images Tool"
 msgstr "參考圖工具"
+
+#, kde-format
+#~ msgid "General:"
+#~ msgstr "一般："
+
+#, kde-format
+#~ msgid "Animation:"
+#~ msgstr "動畫："
+
+#, kde-format
+#~ msgid "Swap File Location:"
+#~ msgstr "置換檔案位置："
+
+#, kde-format
+#~ msgid "Force Instant Preview in Transform Tool"
+#~ msgstr "強制變形工具使用即時預覽"
+
+#, kde-format
+#~ msgid "Force Instant Preview in Move Tool"
+#~ msgstr "強制移動工具使用即時預覽"
+
+#, kde-format
+#~ msgid "Force Instant Preview in Filters"
+#~ msgstr "強制濾鏡使用即時預覽"
 
 #, kde-format
 #~ msgid "Open Color Profile"
