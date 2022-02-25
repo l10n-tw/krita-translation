@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-02-24 00:42+0000\n"
+"POT-Creation-Date: 2022-02-25 00:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -9107,8 +9107,8 @@ msgstr ""
 #. i18n: context: Action (blur_filters), Actions (Filter), ActionCollection (Menu)
 #. i18n: context: Action (blur_filters), Actions (Filter), ActionCollection (Menu)
 #. i18n: context: Action (krita_filter_blur), Actions (Filters), ActionCollection (Krita)
-#: krita/krita.action:1128 krita/kritamenu.action:1539
-#: krita/kritamenu.action:1541
+#: krita/krita.action:1128 krita/kritamenu.action:1549
+#: krita/kritamenu.action:1551
 #, kde-format
 msgctxt "action"
 msgid "Blur"
@@ -12451,7 +12451,7 @@ msgstr ""
 #. i18n: context: Action (window), Actions (Settings), ActionCollection (Menu)
 #. i18n: context: Actions (Window), ActionCollection (Menu)
 #. i18n: context: Action (window), Actions (Settings), ActionCollection (Menu)
-#: krita/kritamenu.action:575 krita/kritamenu.action:1779
+#: krita/kritamenu.action:575 krita/kritamenu.action:1789
 #, kde-format
 msgctxt "action"
 msgid "Window"
@@ -12664,29 +12664,39 @@ msgctxt "action"
 msgid "Zoom Out"
 msgstr ""
 
+#. i18n: context: Action (toggle_zoom_to_fit), Actions (View), ActionCollection (Menu)
+#. i18n: context: Action (toggle_zoom_to_fit), Actions (View), ActionCollection (Menu)
+#. i18n: context: Action (toggle_zoom_to_fit), Actions (View), ActionCollection (Menu)
+#. i18n: context: Action (toggle_zoom_to_fit), Actions (View), ActionCollection (Menu)
+#: krita/kritamenu.action:752 krita/kritamenu.action:754
+#, kde-format
+msgctxt "action"
+msgid "Toggle Zoom Fit to Page"
+msgstr ""
+
 #. i18n: context: Action (rotate_canvas_right), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:752
+#: krita/kritamenu.action:762
 #, kde-format
 msgctxt "action"
 msgid "Rotate &Canvas Right"
 msgstr ""
 
 #. i18n: context: Action (rotate_canvas_right), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:754
+#: krita/kritamenu.action:764
 #, kde-format
 msgctxt "action"
 msgid "Rotate Canvas Right"
 msgstr ""
 
 #. i18n: context: Action (rotate_canvas_left), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:764
+#: krita/kritamenu.action:774
 #, kde-format
 msgctxt "action"
 msgid "Rotate Canvas &Left"
 msgstr ""
 
 #. i18n: context: Action (rotate_canvas_left), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:766
+#: krita/kritamenu.action:776
 #, kde-format
 msgctxt "action"
 msgid "Rotate Canvas Left"
@@ -12696,21 +12706,21 @@ msgstr ""
 #. i18n: context: Action (reset_canvas_rotation), Actions (View), ActionCollection (Menu)
 #. i18n: context: Action (reset_canvas_rotation), Actions (View), ActionCollection (Menu)
 #. i18n: context: Action (reset_canvas_rotation), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:776 krita/kritamenu.action:778
+#: krita/kritamenu.action:786 krita/kritamenu.action:788
 #, kde-format
 msgctxt "action"
 msgid "Reset Canvas Rotation"
 msgstr ""
 
 #. i18n: context: Action (view_ruler), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:788
+#: krita/kritamenu.action:798
 #, kde-format
 msgctxt "action"
 msgid "Show &Rulers"
 msgstr ""
 
 #. i18n: context: Action (view_ruler), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:790
+#: krita/kritamenu.action:800
 #, kde-format
 msgctxt "action"
 msgid "Show Rulers"
@@ -12720,63 +12730,63 @@ msgstr ""
 #. i18n: context: Action (rulers_track_mouse), Actions (View), ActionCollection (Menu)
 #. i18n: context: Action (rulers_track_mouse), Actions (View), ActionCollection (Menu)
 #. i18n: context: Action (rulers_track_mouse), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:800 krita/kritamenu.action:802
+#: krita/kritamenu.action:810 krita/kritamenu.action:812
 #, kde-format
 msgctxt "action"
 msgid "Rulers Track Pointer"
 msgstr ""
 
 #. i18n: context: Action (view_show_guides), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:812
+#: krita/kritamenu.action:822
 #, kde-format
 msgctxt "action"
 msgid "Show Guides"
 msgstr ""
 
 #. i18n: context: Action (view_show_guides), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:814
+#: krita/kritamenu.action:824
 #, kde-format
 msgctxt "action"
 msgid "Show or hide guides"
 msgstr ""
 
 #. i18n: context: Action (view_lock_guides), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:824
+#: krita/kritamenu.action:834
 #, kde-format
 msgctxt "action"
 msgid "Lock Guides"
 msgstr ""
 
 #. i18n: context: Action (view_lock_guides), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:826
+#: krita/kritamenu.action:836
 #, kde-format
 msgctxt "action"
 msgid "Lock or unlock guides"
 msgstr ""
 
 #. i18n: context: Action (view_snap_to_guides), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:836
+#: krita/kritamenu.action:846
 #, kde-format
 msgctxt "action"
 msgid "Snap to Guides"
 msgstr ""
 
 #. i18n: context: Action (view_snap_to_guides), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:838
+#: krita/kritamenu.action:848
 #, kde-format
 msgctxt "action"
 msgid "Snap cursor to guides position"
 msgstr ""
 
 #. i18n: context: Action (showStatusBar), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:848
+#: krita/kritamenu.action:858
 #, kde-format
 msgctxt "action"
 msgid "Show Status &Bar"
 msgstr ""
 
 #. i18n: context: Action (showStatusBar), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:850
+#: krita/kritamenu.action:860
 #, kde-format
 msgctxt "action"
 msgid "Show or hide the status bar"
@@ -12786,21 +12796,21 @@ msgstr ""
 #. i18n: context: Action (view_pixel_grid), Actions (View), ActionCollection (Menu)
 #. i18n: context: Action (view_pixel_grid), Actions (View), ActionCollection (Menu)
 #. i18n: context: Action (view_pixel_grid), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:860 krita/kritamenu.action:862
+#: krita/kritamenu.action:870 krita/kritamenu.action:872
 #, kde-format
 msgctxt "action"
 msgid "Show Pixel Grid"
 msgstr ""
 
 #. i18n: context: Action (view_grid), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:872
+#: krita/kritamenu.action:882
 #, kde-format
 msgctxt "action"
 msgid "Show &Grid"
 msgstr ""
 
 #. i18n: context: Action (view_grid), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:874
+#: krita/kritamenu.action:884
 #, kde-format
 msgctxt "action"
 msgid "Show Grid"
@@ -12810,7 +12820,7 @@ msgstr ""
 #. i18n: context: Action (view_snap_to_grid), Actions (View), ActionCollection (Menu)
 #. i18n: context: Action (view_snap_to_grid), Actions (View), ActionCollection (Menu)
 #. i18n: context: Action (view_snap_to_grid), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:884 krita/kritamenu.action:886
+#: krita/kritamenu.action:894 krita/kritamenu.action:896
 #, kde-format
 msgctxt "action"
 msgid "Snap To Grid"
@@ -12820,7 +12830,7 @@ msgstr ""
 #. i18n: context: Action (show_snap_options_popup), Actions (View), ActionCollection (Menu)
 #. i18n: context: Action (show_snap_options_popup), Actions (View), ActionCollection (Menu)
 #. i18n: context: Action (show_snap_options_popup), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:895 krita/kritamenu.action:897
+#: krita/kritamenu.action:905 krita/kritamenu.action:907
 #, kde-format
 msgctxt "action"
 msgid "Show Snap Options Popup"
@@ -12830,7 +12840,7 @@ msgstr ""
 #. i18n: context: Action (view_snap_orthogonal), Actions (View), ActionCollection (Menu)
 #. i18n: context: Action (view_snap_orthogonal), Actions (View), ActionCollection (Menu)
 #. i18n: context: Action (view_snap_orthogonal), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:907 krita/kritamenu.action:909
+#: krita/kritamenu.action:917 krita/kritamenu.action:919
 #, kde-format
 msgctxt "action"
 msgid "Snap Orthogonal"
@@ -12840,7 +12850,7 @@ msgstr ""
 #. i18n: context: Action (view_snap_node), Actions (View), ActionCollection (Menu)
 #. i18n: context: Action (view_snap_node), Actions (View), ActionCollection (Menu)
 #. i18n: context: Action (view_snap_node), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:919 krita/kritamenu.action:921
+#: krita/kritamenu.action:929 krita/kritamenu.action:931
 #, kde-format
 msgctxt "action"
 msgid "Snap Node"
@@ -12850,7 +12860,7 @@ msgstr ""
 #. i18n: context: Action (view_snap_extension), Actions (View), ActionCollection (Menu)
 #. i18n: context: Action (view_snap_extension), Actions (View), ActionCollection (Menu)
 #. i18n: context: Action (view_snap_extension), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:931 krita/kritamenu.action:933
+#: krita/kritamenu.action:941 krita/kritamenu.action:943
 #, kde-format
 msgctxt "action"
 msgid "Snap Extension"
@@ -12860,7 +12870,7 @@ msgstr ""
 #. i18n: context: Action (view_snap_to_pixel), Actions (View), ActionCollection (Menu)
 #. i18n: context: Action (view_snap_to_pixel), Actions (View), ActionCollection (Menu)
 #. i18n: context: Action (view_snap_to_pixel), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:943 krita/kritamenu.action:945
+#: krita/kritamenu.action:953 krita/kritamenu.action:955
 #, kde-format
 msgctxt "action"
 msgid "Snap Pixel"
@@ -12870,7 +12880,7 @@ msgstr ""
 #. i18n: context: Action (view_snap_intersection), Actions (View), ActionCollection (Menu)
 #. i18n: context: Action (view_snap_intersection), Actions (View), ActionCollection (Menu)
 #. i18n: context: Action (view_snap_intersection), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:954 krita/kritamenu.action:956
+#: krita/kritamenu.action:964 krita/kritamenu.action:966
 #, kde-format
 msgctxt "action"
 msgid "Snap Intersection"
@@ -12880,7 +12890,7 @@ msgstr ""
 #. i18n: context: Action (view_snap_bounding_box), Actions (View), ActionCollection (Menu)
 #. i18n: context: Action (view_snap_bounding_box), Actions (View), ActionCollection (Menu)
 #. i18n: context: Action (view_snap_bounding_box), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:966 krita/kritamenu.action:968
+#: krita/kritamenu.action:976 krita/kritamenu.action:978
 #, kde-format
 msgctxt "action"
 msgid "Snap Bounding Box"
@@ -12890,7 +12900,7 @@ msgstr ""
 #. i18n: context: Action (view_snap_image_bounds), Actions (View), ActionCollection (Menu)
 #. i18n: context: Action (view_snap_image_bounds), Actions (View), ActionCollection (Menu)
 #. i18n: context: Action (view_snap_image_bounds), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:978 krita/kritamenu.action:980
+#: krita/kritamenu.action:988 krita/kritamenu.action:990
 #, kde-format
 msgctxt "action"
 msgid "Snap Image Bounds"
@@ -12900,385 +12910,385 @@ msgstr ""
 #. i18n: context: Action (view_snap_image_center), Actions (View), ActionCollection (Menu)
 #. i18n: context: Action (view_snap_image_center), Actions (View), ActionCollection (Menu)
 #. i18n: context: Action (view_snap_image_center), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:990 krita/kritamenu.action:992
+#: krita/kritamenu.action:1000 krita/kritamenu.action:1002
 #, kde-format
 msgctxt "action"
 msgid "Snap Image Center"
 msgstr ""
 
 #. i18n: context: Action (view_toggle_painting_assistants), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:1001
+#: krita/kritamenu.action:1011
 #, kde-format
 msgctxt "action"
 msgid "S&how Painting Assistants"
 msgstr ""
 
 #. i18n: context: Action (view_toggle_painting_assistants), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:1003
+#: krita/kritamenu.action:1013
 #, kde-format
 msgctxt "action"
 msgid "Show Painting Assistants"
 msgstr ""
 
 #. i18n: context: Action (view_toggle_assistant_previews), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:1013
+#: krita/kritamenu.action:1023
 #, kde-format
 msgctxt "action"
 msgid "Show &Assistant Previews"
 msgstr ""
 
 #. i18n: context: Action (view_toggle_assistant_previews), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:1015
+#: krita/kritamenu.action:1025
 #, kde-format
 msgctxt "action"
 msgid "Show Assistant Previews"
 msgstr ""
 
 #. i18n: context: Action (view_toggle_reference_images), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:1026
+#: krita/kritamenu.action:1036
 #, kde-format
 msgctxt "action"
 msgid "S&how Reference Images"
 msgstr ""
 
 #. i18n: context: Action (view_toggle_reference_images), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:1028
+#: krita/kritamenu.action:1038
 #, kde-format
 msgctxt "action"
 msgid "Show Reference Images"
 msgstr ""
 
 #. i18n: context: Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1040
+#: krita/kritamenu.action:1050
 #, kde-format
 msgctxt "action"
 msgid "Image"
 msgstr ""
 
 #. i18n: context: Action (image_properties), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1043
+#: krita/kritamenu.action:1053
 #, kde-format
 msgctxt "Image Properties"
 msgid "&Properties..."
 msgstr ""
 
 #. i18n: context: Action (image_properties), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1045
+#: krita/kritamenu.action:1055
 #, kde-format
 msgctxt "Image Properties"
 msgid "Properties"
 msgstr ""
 
 #. i18n: context: Action (image_color), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1055
+#: krita/kritamenu.action:1065
 #, kde-format
 msgctxt "action"
 msgid "&Image Background Color and Transparency..."
 msgstr ""
 
 #. i18n: context: Action (image_color), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1057
+#: krita/kritamenu.action:1067
 #, kde-format
 msgctxt "action"
 msgid "Change the background color of the image"
 msgstr ""
 
 #. i18n: context: Action (imagecolorspaceconversion), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1067
+#: krita/kritamenu.action:1077
 #, kde-format
 msgctxt "action"
 msgid "&Convert Image Color Space..."
 msgstr ""
 
 #. i18n: context: Action (imagecolorspaceconversion), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1069
+#: krita/kritamenu.action:1079
 #, kde-format
 msgctxt "action"
 msgid "Convert Image Color Space"
 msgstr ""
 
 #. i18n: context: Action (trim_to_image), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1079
+#: krita/kritamenu.action:1089
 #, kde-format
 msgctxt "action"
 msgid "&Trim to Image Size"
 msgstr ""
 
 #. i18n: context: Action (trim_to_image), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1081
+#: krita/kritamenu.action:1091
 #, kde-format
 msgctxt "action"
 msgid "Trim to Image Size"
 msgstr ""
 
 #. i18n: context: Action (resizeimagetolayer), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1091
+#: krita/kritamenu.action:1101
 #, kde-format
 msgctxt "action"
 msgid "Trim to Current &Layer"
 msgstr ""
 
 #. i18n: context: Action (resizeimagetolayer), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1093
+#: krita/kritamenu.action:1103
 #, kde-format
 msgctxt "action"
 msgid "Trim to Current Layer"
 msgstr ""
 
 #. i18n: context: Action (resizeimagetoselection), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1103
+#: krita/kritamenu.action:1113
 #, kde-format
 msgctxt "action"
 msgid "Trim to S&election"
 msgstr ""
 
 #. i18n: context: Action (resizeimagetoselection), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1105
+#: krita/kritamenu.action:1115
 #, kde-format
 msgctxt "action"
 msgid "Trim to Selection"
 msgstr ""
 
 #. i18n: context: Action (rotateimage), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1115
+#: krita/kritamenu.action:1125
 #, kde-format
 msgctxt "action"
 msgid "&Rotate Image..."
 msgstr ""
 
 #. i18n: context: Action (rotateimage), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1117
+#: krita/kritamenu.action:1127
 #, kde-format
 msgctxt "action"
 msgid "Rotate Image"
 msgstr ""
 
 #. i18n: context: Action (rotateImageCW90), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1127
+#: krita/kritamenu.action:1137
 #, kde-format
 msgctxt "action"
 msgid "Rotate &Image 90° to the Right"
 msgstr ""
 
 #. i18n: context: Action (rotateImageCW90), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1129
+#: krita/kritamenu.action:1139
 #, kde-format
 msgctxt "action"
 msgid "Rotate Image 90° to the Right"
 msgstr ""
 
 #. i18n: context: Action (rotateImageCCW90), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1139
+#: krita/kritamenu.action:1149
 #, kde-format
 msgctxt "action"
 msgid "Rotate Image &90° to the Left"
 msgstr ""
 
 #. i18n: context: Action (rotateImageCCW90), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1141
+#: krita/kritamenu.action:1151
 #, kde-format
 msgctxt "action"
 msgid "Rotate Image 90° to the Left"
 msgstr ""
 
 #. i18n: context: Action (rotateImage180), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1151
+#: krita/kritamenu.action:1161
 #, kde-format
 msgctxt "action"
 msgid "Rotate Image &180°"
 msgstr ""
 
 #. i18n: context: Action (rotateImage180), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1153
+#: krita/kritamenu.action:1163
 #, kde-format
 msgctxt "action"
 msgid "Rotate Image 180°"
 msgstr ""
 
 #. i18n: context: Action (shearimage), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1163
+#: krita/kritamenu.action:1173
 #, kde-format
 msgctxt "action"
 msgid "&Shear Image..."
 msgstr ""
 
 #. i18n: context: Action (shearimage), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1165
+#: krita/kritamenu.action:1175
 #, kde-format
 msgctxt "action"
 msgid "Shear Image"
 msgstr ""
 
 #. i18n: context: Action (mirrorImageHorizontal), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1175
+#: krita/kritamenu.action:1185
 #, kde-format
 msgctxt "action"
 msgid "&Mirror Image Horizontally"
 msgstr ""
 
 #. i18n: context: Action (mirrorImageHorizontal), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1177
+#: krita/kritamenu.action:1187
 #, kde-format
 msgctxt "action"
 msgid "Mirror Image Horizontally"
 msgstr ""
 
 #. i18n: context: Action (mirrorImageVertical), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1187
+#: krita/kritamenu.action:1197
 #, kde-format
 msgctxt "action"
 msgid "Mirror Image &Vertically"
 msgstr ""
 
 #. i18n: context: Action (mirrorImageVertical), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1189
+#: krita/kritamenu.action:1199
 #, kde-format
 msgctxt "action"
 msgid "Mirror Image Vertically"
 msgstr ""
 
 #. i18n: context: Action (imagesize), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1199
+#: krita/kritamenu.action:1209
 #, kde-format
 msgctxt "action"
 msgid "Scale Image To &New Size..."
 msgstr ""
 
 #. i18n: context: Action (imagesize), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1201
+#: krita/kritamenu.action:1211
 #, kde-format
 msgctxt "action"
 msgid "Scale Image To New Size"
 msgstr ""
 
 #. i18n: context: Action (offsetimage), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1211
+#: krita/kritamenu.action:1221
 #, kde-format
 msgctxt "action"
 msgid "&Offset Image..."
 msgstr ""
 
 #. i18n: context: Action (offsetimage), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1213
+#: krita/kritamenu.action:1223
 #, kde-format
 msgctxt "action"
 msgid "Offset Image"
 msgstr ""
 
 #. i18n: context: Action (canvassize), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1223
+#: krita/kritamenu.action:1233
 #, kde-format
 msgctxt "action"
 msgid "R&esize Canvas..."
 msgstr ""
 
 #. i18n: context: Action (canvassize), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1225
+#: krita/kritamenu.action:1235
 #, kde-format
 msgctxt "action"
 msgid "Resize Canvas"
 msgstr ""
 
 #. i18n: context: Action (imagesplit), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1235
+#: krita/kritamenu.action:1245
 #, kde-format
 msgctxt "action"
 msgid "Im&age Split "
 msgstr ""
 
 #. i18n: context: Action (imagesplit), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1237
+#: krita/kritamenu.action:1247
 #, kde-format
 msgctxt "action"
 msgid "Image Split"
 msgstr ""
 
 #. i18n: context: Action (separate), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1247
+#: krita/kritamenu.action:1257
 #, kde-format
 msgctxt "action"
 msgid "Separate Ima&ge..."
 msgstr ""
 
 #. i18n: context: Action (separate), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1249
+#: krita/kritamenu.action:1259
 #, kde-format
 msgctxt "action"
 msgid "Separate Image"
 msgstr ""
 
 #. i18n: context: Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1260
+#: krita/kritamenu.action:1270
 #, kde-format
 msgctxt "action"
 msgid "Select"
 msgstr ""
 
 #. i18n: context: Action (select_all), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1263
+#: krita/kritamenu.action:1273
 #, kde-format
 msgctxt "action"
 msgid "Select &All"
 msgstr ""
 
 #. i18n: context: Action (select_all), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1265
+#: krita/kritamenu.action:1275
 #, kde-format
 msgctxt "action"
 msgid "Select All"
 msgstr ""
 
 #. i18n: context: Action (deselect), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1275
+#: krita/kritamenu.action:1285
 #, kde-format
 msgctxt "action"
 msgid "&Deselect"
 msgstr ""
 
 #. i18n: context: Action (deselect), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1277
+#: krita/kritamenu.action:1287
 #, kde-format
 msgctxt "action"
 msgid "Deselect"
 msgstr ""
 
 #. i18n: context: Action (reselect), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1287
+#: krita/kritamenu.action:1297
 #, kde-format
 msgctxt "action"
 msgid "&Reselect"
 msgstr ""
 
 #. i18n: context: Action (reselect), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1289
+#: krita/kritamenu.action:1299
 #, kde-format
 msgctxt "action"
 msgid "Reselect"
 msgstr ""
 
 #. i18n: context: Action (convert_to_vector_selection), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1299
+#: krita/kritamenu.action:1309
 #, kde-format
 msgctxt "action"
 msgid "&Convert to Vector Selection"
 msgstr ""
 
 #. i18n: context: Action (convert_to_vector_selection), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1301
+#: krita/kritamenu.action:1311
 #, kde-format
 msgctxt "action"
 msgid "Convert to Vector Selection"
 msgstr ""
 
 #. i18n: context: Action (convert_to_raster_selection), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1311
+#: krita/kritamenu.action:1321
 #, kde-format
 msgctxt "action"
 msgid "&Convert to Raster Selection"
 msgstr ""
 
 #. i18n: context: Action (convert_to_raster_selection), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1313
+#: krita/kritamenu.action:1323
 #, kde-format
 msgctxt "action"
 msgid "Convert to Raster Selection"
@@ -13288,224 +13298,224 @@ msgstr ""
 #. i18n: context: Action (edit_selection), Actions (Select), ActionCollection (Menu)
 #. i18n: context: Action (edit_selection), Actions (Select), ActionCollection (Menu)
 #. i18n: context: Action (edit_selection), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1323 krita/kritamenu.action:1325
+#: krita/kritamenu.action:1333 krita/kritamenu.action:1335
 #, kde-format
 msgctxt "action"
 msgid "Edit Selection"
 msgstr ""
 
 #. i18n: context: Action (convert_shapes_to_vector_selection), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1335
+#: krita/kritamenu.action:1345
 #, kde-format
 msgctxt "action"
 msgid "Convert Shapes to &Vector Selection"
 msgstr ""
 
 #. i18n: context: Action (convert_shapes_to_vector_selection), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1337
+#: krita/kritamenu.action:1347
 #, kde-format
 msgctxt "action"
 msgid "Convert Shapes to Vector Selection"
 msgstr ""
 
 #. i18n: context: Action (featherselection), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1347
+#: krita/kritamenu.action:1357
 #, kde-format
 msgctxt "action"
 msgid "&Feather Selection..."
 msgstr ""
 
 #. i18n: context: Action (featherselection), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1349
+#: krita/kritamenu.action:1359
 #, kde-format
 msgctxt "action"
 msgid "Feather Selection"
 msgstr ""
 
 #. i18n: context: Action (toggle_display_selection), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1359
+#: krita/kritamenu.action:1369
 #, kde-format
 msgctxt "action"
 msgid "Dis&play Selection"
 msgstr ""
 
 #. i18n: context: Action (toggle_display_selection), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1361
+#: krita/kritamenu.action:1371
 #, kde-format
 msgctxt "action"
 msgid "Display Selection"
 msgstr ""
 
 #. i18n: context: Action (selectionscale), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1371
+#: krita/kritamenu.action:1381
 #, kde-format
 msgctxt "action"
 msgid "Sca&le..."
 msgstr ""
 
 #. i18n: context: Action (selectionscale), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1373
+#: krita/kritamenu.action:1383
 #, kde-format
 msgctxt "action"
 msgid "Scale"
 msgstr ""
 
 #. i18n: context: Action (colorrange), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1383
+#: krita/kritamenu.action:1393
 #, kde-format
 msgctxt "action"
 msgid "S&elect from Color Range..."
 msgstr ""
 
 #. i18n: context: Action (colorrange), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1385
+#: krita/kritamenu.action:1395
 #, kde-format
 msgctxt "action"
 msgid "Select from Color Range"
 msgstr ""
 
 #. i18n: context: Action (selectopaque), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1395
+#: krita/kritamenu.action:1405
 #, kde-format
 msgctxt "action"
 msgid "Select &Opaque (Replace)"
 msgstr ""
 
 #. i18n: context: Action (selectopaque), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1397
+#: krita/kritamenu.action:1407
 #, kde-format
 msgctxt "action"
 msgid "Select Opaque"
 msgstr ""
 
 #. i18n: context: Action (selectopaque_add), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1407
+#: krita/kritamenu.action:1417
 #, kde-format
 msgctxt "action"
 msgid "Select Opaque (&Add)"
 msgstr ""
 
 #. i18n: context: Action (selectopaque_add), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1409
+#: krita/kritamenu.action:1419
 #, kde-format
 msgctxt "action"
 msgid "Select Opaque (Add)"
 msgstr ""
 
 #. i18n: context: Action (selectopaque_subtract), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1419
+#: krita/kritamenu.action:1429
 #, kde-format
 msgctxt "action"
 msgid "Select Opaque (&Subtract)"
 msgstr ""
 
 #. i18n: context: Action (selectopaque_subtract), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1421
+#: krita/kritamenu.action:1431
 #, kde-format
 msgctxt "action"
 msgid "Select Opaque (Subtract)"
 msgstr ""
 
 #. i18n: context: Action (selectopaque_intersect), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1431
+#: krita/kritamenu.action:1441
 #, kde-format
 msgctxt "action"
 msgid "Select Opaque (&Intersect)"
 msgstr ""
 
 #. i18n: context: Action (selectopaque_intersect), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1433
+#: krita/kritamenu.action:1443
 #, kde-format
 msgctxt "action"
 msgid "Select Opaque (Intersect)"
 msgstr ""
 
 #. i18n: context: Action (growselection), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1443
+#: krita/kritamenu.action:1453
 #, kde-format
 msgctxt "action"
 msgid "&Grow Selection..."
 msgstr ""
 
 #. i18n: context: Action (growselection), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1445
+#: krita/kritamenu.action:1455
 #, kde-format
 msgctxt "action"
 msgid "Grow Selection"
 msgstr ""
 
 #. i18n: context: Action (shrinkselection), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1455
+#: krita/kritamenu.action:1465
 #, kde-format
 msgctxt "action"
 msgid "S&hrink Selection..."
 msgstr ""
 
 #. i18n: context: Action (shrinkselection), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1457
+#: krita/kritamenu.action:1467
 #, kde-format
 msgctxt "action"
 msgid "Shrink Selection"
 msgstr ""
 
 #. i18n: context: Action (borderselection), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1467
+#: krita/kritamenu.action:1477
 #, kde-format
 msgctxt "action"
 msgid "&Border Selection..."
 msgstr ""
 
 #. i18n: context: Action (borderselection), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1469
+#: krita/kritamenu.action:1479
 #, kde-format
 msgctxt "action"
 msgid "Border Selection"
 msgstr ""
 
 #. i18n: context: Action (smoothselection), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1479
+#: krita/kritamenu.action:1489
 #, kde-format
 msgctxt "action"
 msgid "S&mooth"
 msgstr ""
 
 #. i18n: context: Action (smoothselection), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1481
+#: krita/kritamenu.action:1491
 #, kde-format
 msgctxt "action"
 msgid "Smooth"
 msgstr ""
 
 #. i18n: context: Actions (Filter), ActionCollection (Menu)
-#: krita/kritamenu.action:1492
+#: krita/kritamenu.action:1502
 #, kde-format
 msgctxt "action"
 msgid "Filter"
 msgstr ""
 
 #. i18n: context: Action (filter_apply_again), Actions (Filter), ActionCollection (Menu)
-#: krita/kritamenu.action:1495
+#: krita/kritamenu.action:1505
 #, kde-format
 msgctxt "action"
 msgid "&Apply Filter Again"
 msgstr ""
 
 #. i18n: context: Action (filter_apply_again), Actions (Filter), ActionCollection (Menu)
-#: krita/kritamenu.action:1497
+#: krita/kritamenu.action:1507
 #, kde-format
 msgctxt "action"
 msgid "Apply Filter Again"
 msgstr ""
 
 #. i18n: context: Action (filter_apply_reprompt), Actions (Filter), ActionCollection (Menu)
-#: krita/kritamenu.action:1507
+#: krita/kritamenu.action:1517
 #, kde-format
 msgctxt "action"
 msgid "Apply Filter Again (Reprompt)"
 msgstr ""
 
 #. i18n: context: Action (filter_apply_reprompt), Actions (Filter), ActionCollection (Menu)
-#: krita/kritamenu.action:1509
+#: krita/kritamenu.action:1519
 #, kde-format
 msgctxt "action"
 msgid "Reapply Last Used Filter with Prompt for Configuration"
@@ -13515,7 +13525,7 @@ msgstr ""
 #. i18n: context: Action (adjust_filters), Actions (Filter), ActionCollection (Menu)
 #. i18n: context: Action (adjust_filters), Actions (Filter), ActionCollection (Menu)
 #. i18n: context: Action (adjust_filters), Actions (Filter), ActionCollection (Menu)
-#: krita/kritamenu.action:1519 krita/kritamenu.action:1521
+#: krita/kritamenu.action:1529 krita/kritamenu.action:1531
 #, kde-format
 msgctxt "action"
 msgid "Adjust"
@@ -13525,7 +13535,7 @@ msgstr ""
 #. i18n: context: Action (artistic_filters), Actions (Filter), ActionCollection (Menu)
 #. i18n: context: Action (artistic_filters), Actions (Filter), ActionCollection (Menu)
 #. i18n: context: Action (artistic_filters), Actions (Filter), ActionCollection (Menu)
-#: krita/kritamenu.action:1529 krita/kritamenu.action:1531
+#: krita/kritamenu.action:1539 krita/kritamenu.action:1541
 #, kde-format
 msgctxt "action"
 msgid "Artistic"
@@ -13535,7 +13545,7 @@ msgstr ""
 #. i18n: context: Action (color_filters), Actions (Filter), ActionCollection (Menu)
 #. i18n: context: Action (color_filters), Actions (Filter), ActionCollection (Menu)
 #. i18n: context: Action (color_filters), Actions (Filter), ActionCollection (Menu)
-#: krita/kritamenu.action:1549 krita/kritamenu.action:1551
+#: krita/kritamenu.action:1559 krita/kritamenu.action:1561
 #, kde-format
 msgctxt "action"
 msgid "Colors"
@@ -13545,7 +13555,7 @@ msgstr ""
 #. i18n: context: Action (edge_filters), Actions (Filter), ActionCollection (Menu)
 #. i18n: context: Action (edge_filters), Actions (Filter), ActionCollection (Menu)
 #. i18n: context: Action (edge_filters), Actions (Filter), ActionCollection (Menu)
-#: krita/kritamenu.action:1559 krita/kritamenu.action:1561
+#: krita/kritamenu.action:1569 krita/kritamenu.action:1571
 #, kde-format
 msgctxt "action"
 msgid "Edge Detection"
@@ -13555,7 +13565,7 @@ msgstr ""
 #. i18n: context: Action (enhance_filters), Actions (Filter), ActionCollection (Menu)
 #. i18n: context: Action (enhance_filters), Actions (Filter), ActionCollection (Menu)
 #. i18n: context: Action (enhance_filters), Actions (Filter), ActionCollection (Menu)
-#: krita/kritamenu.action:1569 krita/kritamenu.action:1571
+#: krita/kritamenu.action:1579 krita/kritamenu.action:1581
 #, kde-format
 msgctxt "action"
 msgid "Enhance"
@@ -13565,7 +13575,7 @@ msgstr ""
 #. i18n: context: Action (emboss_filters), Actions (Filter), ActionCollection (Menu)
 #. i18n: context: Action (emboss_filters), Actions (Filter), ActionCollection (Menu)
 #. i18n: context: Action (emboss_filters), Actions (Filter), ActionCollection (Menu)
-#: krita/kritamenu.action:1579 krita/kritamenu.action:1581
+#: krita/kritamenu.action:1589 krita/kritamenu.action:1591
 #, kde-format
 msgctxt "action"
 msgid "Emboss"
@@ -13575,7 +13585,7 @@ msgstr ""
 #. i18n: context: Action (map_filters), Actions (Filter), ActionCollection (Menu)
 #. i18n: context: Action (map_filters), Actions (Filter), ActionCollection (Menu)
 #. i18n: context: Action (map_filters), Actions (Filter), ActionCollection (Menu)
-#: krita/kritamenu.action:1589 krita/kritamenu.action:1591
+#: krita/kritamenu.action:1599 krita/kritamenu.action:1601
 #, kde-format
 msgctxt "action"
 msgid "Map"
@@ -13585,140 +13595,140 @@ msgstr ""
 #. i18n: context: Action (other_filters), Actions (Filter), ActionCollection (Menu)
 #. i18n: context: Action (other_filters), Actions (Filter), ActionCollection (Menu)
 #. i18n: context: Action (other_filters), Actions (Filter), ActionCollection (Menu)
-#: krita/kritamenu.action:1599 krita/kritamenu.action:1601
+#: krita/kritamenu.action:1609 krita/kritamenu.action:1611
 #, kde-format
 msgctxt "action"
 msgid "Other"
 msgstr ""
 
 #. i18n: context: Action (QMic), Actions (Filter), ActionCollection (Menu)
-#: krita/kritamenu.action:1609
+#: krita/kritamenu.action:1619
 #, kde-format
 msgctxt "action"
 msgid "Start G'MIC-Qt"
 msgstr ""
 
 #. i18n: context: Action (QMic), Actions (Filter), ActionCollection (Menu)
-#: krita/kritamenu.action:1611
+#: krita/kritamenu.action:1621
 #, kde-format
 msgctxt "action"
 msgid "Start G'Mic-Qt"
 msgstr ""
 
 #. i18n: context: Action (QMicAgain), Actions (Filter), ActionCollection (Menu)
-#: krita/kritamenu.action:1619
+#: krita/kritamenu.action:1629
 #, kde-format
 msgctxt "action"
 msgid "Re-apply the last G'MIC filter"
 msgstr ""
 
 #. i18n: context: Action (QMicAgain), Actions (Filter), ActionCollection (Menu)
-#: krita/kritamenu.action:1621
+#: krita/kritamenu.action:1631
 #, kde-format
 msgctxt "action"
 msgid "Apply the last G'Mic-Qt action again"
 msgstr ""
 
 #. i18n: context: Actions (Settings), ActionCollection (Menu)
-#: krita/kritamenu.action:1630
+#: krita/kritamenu.action:1640
 #, kde-format
 msgctxt "action"
 msgid "Settings"
 msgstr ""
 
 #. i18n: context: Action (options_configure), Actions (Settings), ActionCollection (Menu)
-#: krita/kritamenu.action:1633
+#: krita/kritamenu.action:1643
 #, kde-format
 msgctxt "action"
 msgid "&Configure Krita..."
 msgstr ""
 
 #. i18n: context: Action (options_configure), Actions (Settings), ActionCollection (Menu)
-#: krita/kritamenu.action:1635
+#: krita/kritamenu.action:1645
 #, kde-format
 msgctxt "action"
 msgid "Configure Krita"
 msgstr ""
 
 #. i18n: context: Action (manage_bundles), Actions (Settings), ActionCollection (Menu)
-#: krita/kritamenu.action:1645
+#: krita/kritamenu.action:1655
 #, kde-format
 msgctxt "action"
 msgid "&Manage Resource Libraries..."
 msgstr ""
 
 #. i18n: context: Action (manage_bundles), Actions (Settings), ActionCollection (Menu)
-#: krita/kritamenu.action:1647
+#: krita/kritamenu.action:1657
 #, kde-format
 msgctxt "action"
 msgid "Manage Resource Libraries"
 msgstr ""
 
 #. i18n: context: Action (manage_resources), Actions (Settings), ActionCollection (Menu)
-#: krita/kritamenu.action:1657
+#: krita/kritamenu.action:1667
 #, kde-format
 msgctxt "action"
 msgid "Manage Resources..."
 msgstr ""
 
 #. i18n: context: Action (manage_resources), Actions (Settings), ActionCollection (Menu)
-#: krita/kritamenu.action:1659
+#: krita/kritamenu.action:1669
 #, kde-format
 msgctxt "action"
 msgid "Manage Resources"
 msgstr ""
 
 #. i18n: context: Action (switch_application_language), Actions (Settings), ActionCollection (Menu)
-#: krita/kritamenu.action:1669
+#: krita/kritamenu.action:1679
 #, kde-format
 msgctxt "action"
 msgid "Switch Application &Language..."
 msgstr ""
 
 #. i18n: context: Action (switch_application_language), Actions (Settings), ActionCollection (Menu)
-#: krita/kritamenu.action:1671
+#: krita/kritamenu.action:1681
 #, kde-format
 msgctxt "action"
 msgid "Switch Application Language"
 msgstr ""
 
 #. i18n: context: Action (view_toggledockers), Actions (Settings), ActionCollection (Menu)
-#: krita/kritamenu.action:1679
+#: krita/kritamenu.action:1689
 #, kde-format
 msgctxt "action"
 msgid "&Show Dockers"
 msgstr ""
 
 #. i18n: context: Action (view_toggledockers), Actions (Settings), ActionCollection (Menu)
-#: krita/kritamenu.action:1681
+#: krita/kritamenu.action:1691
 #, kde-format
 msgctxt "action"
 msgid "Show Dockers"
 msgstr ""
 
 #. i18n: context: Action (view_toggledockertitlebars), Actions (Settings), ActionCollection (Menu)
-#: krita/kritamenu.action:1691
+#: krita/kritamenu.action:1701
 #, kde-format
 msgctxt "action"
 msgid "Sho&w Docker Titlebars"
 msgstr ""
 
 #. i18n: context: Action (view_toggledockertitlebars), Actions (Settings), ActionCollection (Menu)
-#: krita/kritamenu.action:1693
+#: krita/kritamenu.action:1703
 #, kde-format
 msgctxt "action"
 msgid "Show Docker Titlebars"
 msgstr ""
 
 #. i18n: context: Action (options_configure_toolbars), Actions (Settings), ActionCollection (Menu)
-#: krita/kritamenu.action:1703
+#: krita/kritamenu.action:1713
 #, kde-format
 msgctxt "action"
 msgid "Configure Tool&bars..."
 msgstr ""
 
 #. i18n: context: Action (options_configure_toolbars), Actions (Settings), ActionCollection (Menu)
-#: krita/kritamenu.action:1705
+#: krita/kritamenu.action:1715
 #, kde-format
 msgctxt "action"
 msgid "Configure Toolbars"
@@ -13728,35 +13738,35 @@ msgstr ""
 #. i18n: context: Action (settings_dockers_menu), Actions (Settings), ActionCollection (Menu)
 #. i18n: context: Action (settings_dockers_menu), Actions (Settings), ActionCollection (Menu)
 #. i18n: context: Action (settings_dockers_menu), Actions (Settings), ActionCollection (Menu)
-#: krita/kritamenu.action:1715 krita/kritamenu.action:1717
+#: krita/kritamenu.action:1725 krita/kritamenu.action:1727
 #, kde-format
 msgctxt "action"
 msgid "Dockers"
 msgstr ""
 
 #. i18n: context: Action (theme_menu), Actions (Settings), ActionCollection (Menu)
-#: krita/kritamenu.action:1725
+#: krita/kritamenu.action:1735
 #, kde-format
 msgctxt "action"
 msgid "&Themes"
 msgstr ""
 
 #. i18n: context: Action (theme_menu), Actions (Settings), ActionCollection (Menu)
-#: krita/kritamenu.action:1727
+#: krita/kritamenu.action:1737
 #, kde-format
 msgctxt "action"
 msgid "Themes"
 msgstr ""
 
 #. i18n: context: Action (style_menu), Actions (Settings), ActionCollection (Menu)
-#: krita/kritamenu.action:1735
+#: krita/kritamenu.action:1745
 #, kde-format
 msgctxt "action"
 msgid "&Styles"
 msgstr ""
 
 #. i18n: context: Action (style_menu), Actions (Settings), ActionCollection (Menu)
-#: krita/kritamenu.action:1737
+#: krita/kritamenu.action:1747
 #, kde-format
 msgctxt "action"
 msgid "Styles"
@@ -13766,196 +13776,196 @@ msgstr ""
 #. i18n: context: Action (settings_active_author), Actions (Settings), ActionCollection (Menu)
 #. i18n: context: Action (settings_active_author), Actions (Settings), ActionCollection (Menu)
 #. i18n: context: Action (settings_active_author), Actions (Settings), ActionCollection (Menu)
-#: krita/kritamenu.action:1745 krita/kritamenu.action:1747
+#: krita/kritamenu.action:1755 krita/kritamenu.action:1757
 #, kde-format
 msgctxt "action"
 msgid "Active Author Profile"
 msgstr ""
 
 #. i18n: context: Action (reset_configurations), Actions (Settings), ActionCollection (Menu)
-#: krita/kritamenu.action:1755
+#: krita/kritamenu.action:1765
 #, kde-format
 msgctxt "action"
 msgid "Reset All Settings"
 msgstr ""
 
 #. i18n: context: Action (reset_configurations), Actions (Settings), ActionCollection (Menu)
-#: krita/kritamenu.action:1757
+#: krita/kritamenu.action:1767
 #, kde-format
 msgctxt "action"
 msgid "Reset All Settings to Default"
 msgstr ""
 
 #. i18n: context: Action (options_configure_keybinding), Actions (Settings), ActionCollection (Menu)
-#: krita/kritamenu.action:1765
+#: krita/kritamenu.action:1775
 #, kde-format
 msgctxt "action"
 msgid "Configure S&hortcuts..."
 msgstr ""
 
 #. i18n: context: Action (options_configure_keybinding), Actions (Settings), ActionCollection (Menu)
-#: krita/kritamenu.action:1767
+#: krita/kritamenu.action:1777
 #, kde-format
 msgctxt "action"
 msgid "Configure Shortcuts"
 msgstr ""
 
 #. i18n: context: Action (window), Actions (Settings), ActionCollection (Menu)
-#: krita/kritamenu.action:1777
+#: krita/kritamenu.action:1787
 #, kde-format
 msgctxt "action"
 msgid "&Window"
 msgstr ""
 
 #. i18n: context: Actions (Help), ActionCollection (Menu)
-#: krita/kritamenu.action:1788
+#: krita/kritamenu.action:1798
 #, kde-format
 msgctxt "action"
 msgid "Help"
 msgstr ""
 
 #. i18n: context: Action (help_contents), Actions (Help), ActionCollection (Menu)
-#: krita/kritamenu.action:1791
+#: krita/kritamenu.action:1801
 #, kde-format
 msgctxt "action"
 msgid "Krita &Handbook"
 msgstr ""
 
 #. i18n: context: Action (help_contents), Actions (Help), ActionCollection (Menu)
-#: krita/kritamenu.action:1793
+#: krita/kritamenu.action:1803
 #, kde-format
 msgctxt "action"
 msgid "Krita Handbook"
 msgstr ""
 
 #. i18n: context: Action (help_report_bug), Actions (Help), ActionCollection (Menu)
-#: krita/kritamenu.action:1801
+#: krita/kritamenu.action:1811
 #, kde-format
 msgctxt "action"
 msgid "&Report Bug..."
 msgstr ""
 
 #. i18n: context: Action (help_report_bug), Actions (Help), ActionCollection (Menu)
-#: krita/kritamenu.action:1803
+#: krita/kritamenu.action:1813
 #, kde-format
 msgctxt "action"
 msgid "Report Bug"
 msgstr ""
 
 #. i18n: context: Action (help_about_app), Actions (Help), ActionCollection (Menu)
-#: krita/kritamenu.action:1811
+#: krita/kritamenu.action:1821
 #, kde-format
 msgctxt "action"
 msgid "&About Krita"
 msgstr ""
 
 #. i18n: context: Action (help_about_app), Actions (Help), ActionCollection (Menu)
-#: krita/kritamenu.action:1813
+#: krita/kritamenu.action:1823
 #, kde-format
 msgctxt "action"
 msgid "About Krita"
 msgstr ""
 
 #. i18n: context: Action (help_about_kde), Actions (Help), ActionCollection (Menu)
-#: krita/kritamenu.action:1821
+#: krita/kritamenu.action:1831
 #, kde-format
 msgctxt "action"
 msgid "About &KDE"
 msgstr ""
 
 #. i18n: context: Action (help_about_kde), Actions (Help), ActionCollection (Menu)
-#: krita/kritamenu.action:1823
+#: krita/kritamenu.action:1833
 #, kde-format
 msgctxt "action"
 msgid "About KDE"
 msgstr ""
 
 #. i18n: context: Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1832
+#: krita/kritamenu.action:1842
 #, kde-format
 msgctxt "action"
 msgid "Brushes and Stuff"
 msgstr ""
 
 #. i18n: context: Action (gradients), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1835
+#: krita/kritamenu.action:1845
 #, kde-format
 msgctxt "action"
 msgid "&Gradients"
 msgstr ""
 
 #. i18n: context: Action (gradients), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1837
+#: krita/kritamenu.action:1847
 #, kde-format
 msgctxt "action"
 msgid "Gradients"
 msgstr ""
 
 #. i18n: context: Action (patterns), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1845
+#: krita/kritamenu.action:1855
 #, kde-format
 msgctxt "action"
 msgid "&Patterns"
 msgstr ""
 
 #. i18n: context: Action (patterns), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1847
+#: krita/kritamenu.action:1857
 #, kde-format
 msgctxt "action"
 msgid "Patterns"
 msgstr ""
 
 #. i18n: context: Action (dual), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1855
+#: krita/kritamenu.action:1865
 #, kde-format
 msgctxt "action"
 msgid "&Color"
 msgstr ""
 
 #. i18n: context: Action (dual), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1857
+#: krita/kritamenu.action:1867
 #, kde-format
 msgctxt "action"
 msgid "Color"
 msgstr ""
 
 #. i18n: context: Action (chooseForegroundColor), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1865
+#: krita/kritamenu.action:1875
 #, kde-format
 msgctxt "action"
 msgid "&Choose Foreground Color"
 msgstr ""
 
 #. i18n: context: Action (chooseForegroundColor), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1867
+#: krita/kritamenu.action:1877
 #, kde-format
 msgctxt "action"
 msgid "Choose Foreground Color"
 msgstr ""
 
 #. i18n: context: Action (chooseBackgroundColor), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1875
+#: krita/kritamenu.action:1885
 #, kde-format
 msgctxt "action"
 msgid "&Choose Background Color"
 msgstr ""
 
 #. i18n: context: Action (chooseBackgroundColor), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1877
+#: krita/kritamenu.action:1887
 #, kde-format
 msgctxt "action"
 msgid "Choose Background Color"
 msgstr ""
 
 #. i18n: context: Action (paintops), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1885
+#: krita/kritamenu.action:1895
 #, kde-format
 msgctxt "action"
 msgid "&Painter's Tools"
 msgstr ""
 
 #. i18n: context: Action (paintops), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1887
+#: krita/kritamenu.action:1897
 #, kde-format
 msgctxt "action"
 msgid "Painter's Tools"
@@ -13965,7 +13975,7 @@ msgstr ""
 #. i18n: context: Action (composite_actions), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: Action (composite_actions), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: Action (composite_actions), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1895 krita/kritamenu.action:1897
+#: krita/kritamenu.action:1905 krita/kritamenu.action:1907
 #, kde-format
 msgctxt "action"
 msgid "Brush composite"
@@ -13975,7 +13985,7 @@ msgstr ""
 #. i18n: context: Action (brushslider1), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: Action (brushslider1), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: Action (brushslider1), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1905 krita/kritamenu.action:1907
+#: krita/kritamenu.action:1915 krita/kritamenu.action:1917
 #, kde-format
 msgctxt "action"
 msgid "Brush option slider 1"
@@ -13985,7 +13995,7 @@ msgstr ""
 #. i18n: context: Action (brushslider2), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: Action (brushslider2), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: Action (brushslider2), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1915 krita/kritamenu.action:1917
+#: krita/kritamenu.action:1925 krita/kritamenu.action:1927
 #, kde-format
 msgctxt "action"
 msgid "Brush option slider 2"
@@ -13995,7 +14005,7 @@ msgstr ""
 #. i18n: context: Action (brushslider3), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: Action (brushslider3), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: Action (brushslider3), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1925 krita/kritamenu.action:1927
+#: krita/kritamenu.action:1935 krita/kritamenu.action:1937
 #, kde-format
 msgctxt "action"
 msgid "Brush option slider 3"
@@ -14005,7 +14015,7 @@ msgstr ""
 #. i18n: context: Action (brushslider4), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: Action (brushslider4), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: Action (brushslider4), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1935 krita/kritamenu.action:1937
+#: krita/kritamenu.action:1945 krita/kritamenu.action:1947
 #, kde-format
 msgctxt "action"
 msgid "Brush option slider 4"
@@ -14015,21 +14025,21 @@ msgstr ""
 #. i18n: context: Action (mirror_actions), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: Action (mirror_actions), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: Action (mirror_actions), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1945 krita/kritamenu.action:1947
+#: krita/kritamenu.action:1955 krita/kritamenu.action:1957
 #, kde-format
 msgctxt "action"
 msgid "Mirror"
 msgstr ""
 
 #. i18n: context: Action (select_layout), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1955
+#: krita/kritamenu.action:1965
 #, kde-format
 msgctxt "action"
 msgid "Layouts"
 msgstr ""
 
 #. i18n: context: Action (select_layout), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1957
+#: krita/kritamenu.action:1967
 #, kde-format
 msgctxt "action"
 msgid "Select layout"
@@ -14039,7 +14049,7 @@ msgstr ""
 #. i18n: context: Action (workspaces), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: Action (workspaces), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: Action (workspaces), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1964 krita/kritamenu.action:1966
+#: krita/kritamenu.action:1974 krita/kritamenu.action:1976
 #, kde-format
 msgctxt "action"
 msgid "Workspaces"
@@ -14710,7 +14720,7 @@ msgstr ""
 #: libs/ui/animation/VideoImportDialog.ui:687
 #: libs/ui/animation/wdg_animationrenderer.ui:258
 #: libs/ui/animation/wdg_animationrenderer.ui:400
-#: libs/ui/forms/wdggeneralsettings.ui:351
+#: libs/ui/forms/wdggeneralsettings.ui:381
 #: libs/ui/forms/wdgnewimage.ui:234 libs/ui/forms/wdgnewimage.ui:253
 #: libs/ui/forms/wdgselectionoptions.ui:29
 #: libs/ui/forms/wdgselectionoptions.ui:45
@@ -14860,6 +14870,7 @@ msgstr ""
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, intWidth)
 #. i18n: ectx: property (suffix), widget (QSpinBox, intHeight)
+#. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, intZoomMarginSize)
 #. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, intHeight)
 #. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, intWidth)
 #. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, intRoundCornersX)
@@ -14892,8 +14903,9 @@ msgstr ""
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1352
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1355
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1421
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1185
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1193
 #: libs/ui/forms/wdgdisplaysettings.ui:356
+#: libs/ui/forms/wdggeneralsettings.ui:245
 #: libs/ui/forms/wdgrectangleconstraints.ui:86
 #: libs/ui/forms/wdgrectangleconstraints.ui:134
 #: libs/ui/forms/wdgrectangleconstraints.ui:184
@@ -17541,7 +17553,7 @@ msgstr ""
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:766
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:791
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:354
-#: libs/ui/dialogs/kis_dlg_preferences.cc:658
+#: libs/ui/dialogs/kis_dlg_preferences.cc:666
 #: libs/ui/input/kis_tablet_debugger.cpp:96
 #: libs/ui/kis_clipboard.cc:675 libs/ui/kis_custom_pattern.cc:131
 #: libs/ui/kis_filter_manager.cc:233 libs/ui/kis_filter_manager.cc:242
@@ -17747,8 +17759,8 @@ msgstr ""
 #. i18n: ectx: attribute (title), widget (QWidget, tab_hsx)
 #. i18n: ectx: property (text), widget (QLabel, lblCurrentRenderer)
 #: libs/resources/KisResourceStorage.h:116
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1527
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1531
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1535
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1539
 #: libs/ui/forms/wdgdisplaysettings.ui:173
 #: libs/ui/KoDocumentInfo.cpp:39 libs/widgets/KisDlgInternalColorSelector.cpp:322
 #: libs/widgets/WdgDlgInternalColorSelector.ui:89
@@ -17974,7 +17986,7 @@ msgstr ""
 #. i18n: ectx: attribute (title), widget (QWidget, tabResources)
 #. i18n: ectx: attribute (title), widget (QWidget, tab_4)
 #: libs/resourcewidgets/dbexplorer/WdgDbExplorer.ui:39
-#: libs/ui/forms/wdggeneralsettings.ui:1228
+#: libs/ui/forms/wdggeneralsettings.ui:1258
 #, kde-format
 msgid "Resources"
 msgstr ""
@@ -19458,8 +19470,8 @@ msgstr ""
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgDisplaySettings)
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_6)
 #: libs/ui/animation/VideoHDRMetadataOptionsDialog.ui:38
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1815
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1817
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1823
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1825
 #: libs/ui/forms/wdgcolorsettings.ui:147 libs/ui/forms/wdgdisplaysettings.ui:16
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:598
 #, kde-format
@@ -19555,8 +19567,8 @@ msgstr ""
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
 #. i18n: ectx: attribute (title), widget (QWidget, general)
 #: libs/ui/animation/VideoImportDialog.ui:34
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1785
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1787
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1793
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1795
 #: libs/ui/forms/wdgcolorsettings.ui:32 libs/ui/forms/wdggeneralsettings.ui:204
 #: libs/ui/forms/wdgperformancesettings.ui:50
 #: libs/ui/KoDocumentInfoDlg.cpp:92 libs/ui/KoDocumentInfoDlg.cpp:93
@@ -20644,10 +20656,10 @@ msgstr ""
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1425
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1428
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1431
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1100
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1104
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1108
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1190
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1112
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1116
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1198
 #: plugins/impex/webp/dlg_webp_import.ui:356
 #: plugins/impex/webp/dlg_webp_import.ui:369
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImagesWidget.cpp:44
@@ -20782,22 +20794,22 @@ msgstr ""
 msgid "On Middle-Click Drag"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:306
+#: libs/ui/dialogs/kis_dlg_preferences.cc:308
 #, kde-format
 msgid "Open default window"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:307
+#: libs/ui/dialogs/kis_dlg_preferences.cc:309
 #, kde-format
 msgid "Load previous session"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:308
+#: libs/ui/dialogs/kis_dlg_preferences.cc:310
 #, kde-format
 msgid "Show session manager"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:380
+#: libs/ui/dialogs/kis_dlg_preferences.cc:382
 #, kde-format
 msgctxt "@info resource folder"
 msgid ""
@@ -20812,20 +20824,20 @@ msgid ""
 "%2</p>"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:646
+#: libs/ui/dialogs/kis_dlg_preferences.cc:654
 #, kde-format
 msgid "Select a Background Image"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:658
+#: libs/ui/dialogs/kis_dlg_preferences.cc:666
 #: libs/ui/KisTemplateCreateDia.cpp:390
 #, kde-format
 msgid "%1 is not a valid image file!"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:761
-#: libs/ui/dialogs/kis_dlg_preferences.cc:870
-#: libs/ui/dialogs/kis_dlg_preferences.cc:952
+#: libs/ui/dialogs/kis_dlg_preferences.cc:769
+#: libs/ui/dialogs/kis_dlg_preferences.cc:878
+#: libs/ui/dialogs/kis_dlg_preferences.cc:960
 #, kde-format
 msgctxt ""
 "The number of the screen (ordinal) and shortened 'name' of the screen (model "
@@ -20833,217 +20845,217 @@ msgctxt ""
 msgid "Screen %1 (%2):"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:829
+#: libs/ui/dialogs/kis_dlg_preferences.cc:837
 #: libs/ui/widgets/kis_advanced_color_space_selector.cc:793
 #: libs/ui/widgets/kis_color_space_selector.cc:191
 #, kde-format
 msgid "Install Color Profiles"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1044
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1052
 #, kde-format
 msgid ""
 "Use tablet driver timestamps for brush speed (may cause severe artifacts "
 "when using WinTab tablet API)"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1046
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1054
 #, kde-format
 msgid "Use tablet driver timestamps for brush speed"
 msgstr ""
 
 #. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, intSwapSize)
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1154
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1162
 #: libs/ui/forms/wdgperformancesettings.ui:215
 #, kde-format
 msgid " GiB"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1175
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1183
 #, kde-format
 msgctxt "suffix for \"seconds\""
 msgid " sec"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1179
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1187
 #, kde-format
 msgid " fps"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1389
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1397
 #, kde-format
 msgctxt "canvas renderer"
 msgid "OpenGL"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1390
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1398
 #, kde-format
 msgctxt "canvas renderer"
 msgid "Software Renderer (very slow)"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1392
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1400
 #, kde-format
 msgctxt "canvas renderer"
 msgid "Direct3D 11 via ANGLE"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1394
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1402
 #, kde-format
 msgctxt "canvas renderer"
 msgid "OpenGL ES"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1401
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1409
 #, kde-format
 msgctxt "canvas renderer"
 msgid "Unknown"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1421
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1429
 #, kde-format
 msgctxt "canvas renderer"
 msgid "Auto (%1)"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1513
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1521
 #, kde-format
 msgid "Display Id: %1"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1514
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1522
 #, kde-format
 msgid "Display Name: %1 %2"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1515
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1523
 #, kde-format
 msgid "Min Luminance: %1"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1516
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1524
 #, kde-format
 msgid "Max Luminance: %1"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1517
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1525
 #, kde-format
 msgid "Max Full Frame Luminance: %1"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1518
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1526
 #, kde-format
 msgid "Red Primary: %1, %2"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1519
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1527
 #, kde-format
 msgid "Green Primary: %1, %2"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1520
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1528
 #, kde-format
 msgid "Blue Primary: %1, %2"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1521
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1529
 #, kde-format
 msgid "White Point: %1, %2"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1556
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1564
 #, kde-format
 msgid "Warning(s):"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1693
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1701
 #, kde-format
 msgid "WARNING: current display doesn't support HDR rendering"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1778
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1786
 #, kde-format
 msgid "Configure Krita"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1795
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1803
 #, kde-format
 msgid "Keyboard Shortcuts"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1797
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1805
 #: libs/widgetutils/xmlgui/KisShortcutsEditor_p.cpp:282
 #, kde-format
 msgid "Shortcuts"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1807
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1815
 #, kde-format
 msgid "Canvas Input Settings"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1808
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1816
 #, kde-format
 msgid "Canvas Input"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1825
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1833
 #: plugins/dockers/logdocker/LogDockerDock.cpp:191
 #, kde-format
 msgid "Color Management"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1827
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1835
 #, kde-format
 msgctxt "Label of color as in Color Management"
 msgid "Color"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1835
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1837
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1843
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1845
 #, kde-format
 msgid "Performance"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1845
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1853
 #, kde-format
 msgid "Tablet settings"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1847
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1855
 #, kde-format
 msgid "Tablet"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1855
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1863
 #, kde-format
 msgid "Canvas-only settings"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1857
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1865
 #, kde-format
 msgid "Canvas-only"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1865
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1867
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1873
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1875
 #, kde-format
 msgid "Pop-up Palette"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1875
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1883
 #, kde-format
 msgctxt "@title:tab Author page"
 msgid "Author"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1877
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1885
 #: libs/ui/KoDocumentInfoDlg.cpp:115 plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
 #, kde-format
 msgid "Author"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1884
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1892
 #, kde-format
 msgctxt "@action:button"
 msgid "Restore Defaults"
@@ -21879,7 +21891,7 @@ msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, grpPasteFrom)
 #. i18n: ectx: property (title), widget (QGroupBox, grpPasteBehaviour)
-#: libs/ui/forms/wdgcolorsettings.ui:69 libs/ui/forms/wdggeneralsettings.ui:1160
+#: libs/ui/forms/wdgcolorsettings.ui:69 libs/ui/forms/wdggeneralsettings.ui:1190
 #, kde-format
 msgid "When Pasting Into Krita From Other Applications"
 msgstr ""
@@ -22323,7 +22335,7 @@ msgstr ""
 #. i18n: ectx: attribute (title), widget (QWidget, Miscellaneous)
 #. i18n: ectx: attribute (title), widget (QWidget, tab_4)
 #: libs/ui/forms/wdgdisplaysettings.ui:615
-#: libs/ui/forms/wdggeneralsettings.ui:787
+#: libs/ui/forms/wdggeneralsettings.ui:817
 #, kde-format
 msgid "Miscellaneous"
 msgstr ""
@@ -22626,44 +22638,56 @@ msgstr ""
 msgid "Show on-canvas popup messages"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QLabel, lblZoomMarginSize)
+#: libs/ui/forms/wdggeneralsettings.ui:232
+#, kde-format
+msgid "Zoom Margin Size:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KisIntParseSpinBox, intZoomMarginSize)
+#: libs/ui/forms/wdggeneralsettings.ui:242
+#, kde-format
+msgid "Spacing between the image and the page when zoomed to fit, in pixels"
+msgstr ""
+
 #. i18n: ectx: property (title), widget (QGroupBox, m_chkHiDPI)
-#: libs/ui/forms/wdggeneralsettings.ui:233
+#: libs/ui/forms/wdggeneralsettings.ui:263
 #, kde-format
 msgid "Enable HiDPI support"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkHiDPIFractionalScaling)
-#: libs/ui/forms/wdggeneralsettings.ui:242
+#: libs/ui/forms/wdggeneralsettings.ui:272
 #, kde-format
 msgid "Enable fractional scale factor"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_16)
-#: libs/ui/forms/wdggeneralsettings.ui:249
+#: libs/ui/forms/wdggeneralsettings.ui:279
 #, kde-format
 msgid "<b>Note: Krita will need to be restarted for changes to take effect</b>"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: libs/ui/forms/wdggeneralsettings.ui:265
+#: libs/ui/forms/wdggeneralsettings.ui:295
 #, kde-format
 msgid "Multiple Document Mode:"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, m_cmbMDIType)
-#: libs/ui/forms/wdggeneralsettings.ui:285
+#: libs/ui/forms/wdggeneralsettings.ui:315
 #, kde-format
 msgid "Subwindows"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, m_cmbMDIType)
-#: libs/ui/forms/wdggeneralsettings.ui:290
+#: libs/ui/forms/wdggeneralsettings.ui:320
 #, kde-format
 msgid "Tabs"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: libs/ui/forms/wdggeneralsettings.ui:298
+#: libs/ui/forms/wdggeneralsettings.ui:328
 #, kde-format
 msgid "Background Image (overrides color):"
 msgstr ""
@@ -22672,7 +22696,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, clearBgImageButton)
 #. i18n: ectx: property (text), widget (QToolButton, m_bnClearLut)
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
-#: libs/ui/forms/wdggeneralsettings.ui:358
+#: libs/ui/forms/wdggeneralsettings.ui:388
 #: libs/ui/input/wintab/drawpile_tablettester/tablettest.ui:43
 #: plugins/dockers/lut/wdglut.ui:241 plugins/extensions/pykrita/plugin/krita/sceditor/mainwindow.ui:105
 #: plugins/python/scripter/ui_scripter/tabwidgets/outputwidget/clearaction.py:21
@@ -22681,210 +22705,210 @@ msgid "Clear"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: libs/ui/forms/wdggeneralsettings.ui:368
+#: libs/ui/forms/wdggeneralsettings.ui:398
 #, kde-format
 msgid "Window Background:"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, chkUseCustomFont)
-#: libs/ui/forms/wdggeneralsettings.ui:391
+#: libs/ui/forms/wdggeneralsettings.ui:421
 #, kde-format
 msgid "Use custom interface font"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: libs/ui/forms/wdggeneralsettings.ui:400
+#: libs/ui/forms/wdggeneralsettings.ui:430
 #: plugins/paintops/libpaintop/forms/wdgtextbrush.ui:29
 #, kde-format
 msgid "Font:"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, Tools)
-#: libs/ui/forms/wdggeneralsettings.ui:455
+#: libs/ui/forms/wdggeneralsettings.ui:485
 #: plugins/dockers/logdocker/LogDockerDock.cpp:135
 #, kde-format
 msgid "Tools"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
-#: libs/ui/forms/wdggeneralsettings.ui:461
+#: libs/ui/forms/wdggeneralsettings.ui:491
 #, kde-format
 msgid "Tool Options Location (needs restart)"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, m_radioToolOptionsInDocker)
-#: libs/ui/forms/wdggeneralsettings.ui:467
+#: libs/ui/forms/wdggeneralsettings.ui:497
 #, kde-format
 msgid "In Doc&ker"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, m_radioToolOptionsInToolbar)
-#: libs/ui/forms/wdggeneralsettings.ui:474
+#: libs/ui/forms/wdggeneralsettings.ui:504
 #, kde-format
 msgid "I&n Toolbar"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblFlowMode)
-#: libs/ui/forms/wdggeneralsettings.ui:487
+#: libs/ui/forms/wdggeneralsettings.ui:517
 #, kde-format
 msgid "Brush Flow Mode (needs restart):"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbFlowMode)
-#: libs/ui/forms/wdggeneralsettings.ui:495
+#: libs/ui/forms/wdggeneralsettings.ui:525
 #, kde-format
 msgid "Creamy (Krita 4.2+)"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbFlowMode)
-#: libs/ui/forms/wdggeneralsettings.ui:500
+#: libs/ui/forms/wdggeneralsettings.ui:530
 #, kde-format
 msgid "Hard (Krita 4.1 and earlier versions)"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkSwitchSelectionCtrlAlt)
-#: libs/ui/forms/wdggeneralsettings.ui:508
+#: libs/ui/forms/wdggeneralsettings.ui:538
 #, kde-format
 msgid "Switch Control/Alt Selection Modifiers"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkEnableTouch)
-#: libs/ui/forms/wdggeneralsettings.ui:515
+#: libs/ui/forms/wdggeneralsettings.ui:545
 #, kde-format
 msgid "Enable Touch Painting"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkEnableTranformToolAfterPaste)
-#: libs/ui/forms/wdggeneralsettings.ui:522
+#: libs/ui/forms/wdggeneralsettings.ui:552
 #, kde-format
 msgid "Activate transform tool after pasting"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkEnableTouchRotation)
-#: libs/ui/forms/wdggeneralsettings.ui:529
+#: libs/ui/forms/wdggeneralsettings.ui:559
 #, kde-format
 msgid "Enable Touch Rotation"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkEnableSmoothZooming)
-#: libs/ui/forms/wdggeneralsettings.ui:536
+#: libs/ui/forms/wdggeneralsettings.ui:566
 #, kde-format
 msgid "Enable Smooth Zooming"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, m_groupBoxKineticScrollingSettings)
-#: libs/ui/forms/wdggeneralsettings.ui:546
+#: libs/ui/forms/wdggeneralsettings.ui:576
 #, kde-format
 msgid "Kinetic Scrolling (needs restart)"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, labelKineticScrollingSensitivity)
-#: libs/ui/forms/wdggeneralsettings.ui:561
+#: libs/ui/forms/wdggeneralsettings.ui:591
 #, kde-format
 msgid "Sensitivity:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkKineticScrollingHideScrollbars)
-#: libs/ui/forms/wdggeneralsettings.ui:571
+#: libs/ui/forms/wdggeneralsettings.ui:601
 #, kde-format
 msgid "Hide docker scrollbars if kinetic scrolling is enabled (needs restart)"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
-#: libs/ui/forms/wdggeneralsettings.ui:598
+#: libs/ui/forms/wdggeneralsettings.ui:628
 #, kde-format
 msgid "File Handling"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, m_autosaveCheckBox)
-#: libs/ui/forms/wdggeneralsettings.ui:604
+#: libs/ui/forms/wdggeneralsettings.ui:634
 #, kde-format
 msgid "Enable Autosaving"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
-#: libs/ui/forms/wdggeneralsettings.ui:613
+#: libs/ui/forms/wdggeneralsettings.ui:643
 #, kde-format
 msgid "Autosave Interval:"
 msgstr ""
 
 #. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, m_autosaveSpinBox)
-#: libs/ui/forms/wdggeneralsettings.ui:620
+#: libs/ui/forms/wdggeneralsettings.ui:650
 #, kde-format
 msgctxt "Suffix: “Every x min”"
 msgid " min"
 msgstr ""
 
 #. i18n: ectx: property (prefix), widget (KisIntParseSpinBox, m_autosaveSpinBox)
-#: libs/ui/forms/wdggeneralsettings.ui:623
+#: libs/ui/forms/wdggeneralsettings.ui:653
 #, kde-format
 msgctxt "Prefix: “Every x min”"
 msgid "Every "
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkHideAutosaveFiles)
-#: libs/ui/forms/wdggeneralsettings.ui:642
+#: libs/ui/forms/wdggeneralsettings.ui:672
 #, kde-format
 msgid "Unnamed autosave files are hidden by default"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, m_backupFileCheckBox)
-#: libs/ui/forms/wdggeneralsettings.ui:655
+#: libs/ui/forms/wdggeneralsettings.ui:685
 #, kde-format
 msgid "Create a Backup File on Saving"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_13)
-#: libs/ui/forms/wdggeneralsettings.ui:664
+#: libs/ui/forms/wdggeneralsettings.ui:694
 #, kde-format
 msgid "Backup File Location"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbBackupFileLocation)
-#: libs/ui/forms/wdggeneralsettings.ui:672
+#: libs/ui/forms/wdggeneralsettings.ui:702
 #, kde-format
 msgid "Same Folder as Original File"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbBackupFileLocation)
-#: libs/ui/forms/wdggeneralsettings.ui:677
+#: libs/ui/forms/wdggeneralsettings.ui:707
 #, kde-format
 msgid "User Folder"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbBackupFileLocation)
-#: libs/ui/forms/wdggeneralsettings.ui:682
+#: libs/ui/forms/wdggeneralsettings.ui:712
 #, kde-format
 msgid "Temporary File Location"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
-#: libs/ui/forms/wdggeneralsettings.ui:690
+#: libs/ui/forms/wdggeneralsettings.ui:720
 #, kde-format
 msgid "Backup File Suffix:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLineEdit, txtBackupFileSuffix)
-#: libs/ui/forms/wdggeneralsettings.ui:697
+#: libs/ui/forms/wdggeneralsettings.ui:727
 #, kde-format
 msgid "~"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
-#: libs/ui/forms/wdggeneralsettings.ui:707
+#: libs/ui/forms/wdggeneralsettings.ui:737
 #, kde-format
 msgid "Number of Backup Files Kept:"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: libs/ui/forms/wdggeneralsettings.ui:727
+#: libs/ui/forms/wdggeneralsettings.ui:757
 #, kde-format
 msgid "KRA File Compression"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkZip64)
-#: libs/ui/forms/wdggeneralsettings.ui:733
+#: libs/ui/forms/wdggeneralsettings.ui:763
 #, kde-format
 msgid ""
 "<html><head/><body><p>Only use this option for <span style=\" font-"
@@ -22893,7 +22917,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkZip64)
-#: libs/ui/forms/wdggeneralsettings.ui:736
+#: libs/ui/forms/wdggeneralsettings.ui:766
 #, kde-format
 msgid ""
 "Use Zip64 (for very large files: cannot be opened in versions of Krita older "
@@ -22901,69 +22925,69 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkCompressKra)
-#: libs/ui/forms/wdggeneralsettings.ui:743
+#: libs/ui/forms/wdggeneralsettings.ui:773
 #, kde-format
 msgid "Compress .kra files more (slows loading/saving)"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkTrimKra)
-#: libs/ui/forms/wdggeneralsettings.ui:753
+#: libs/ui/forms/wdggeneralsettings.ui:783
 #, kde-format
 msgid "Trim files before saving"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkTrimFramesImport)
-#: libs/ui/forms/wdggeneralsettings.ui:763
+#: libs/ui/forms/wdggeneralsettings.ui:793
 #, kde-format
 msgid "Trim frames when importing animations"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_12)
-#: libs/ui/forms/wdggeneralsettings.ui:844
+#: libs/ui/forms/wdggeneralsettings.ui:874
 #, kde-format
 msgid "When Krita starts:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkSaveSessionOnQuit)
-#: libs/ui/forms/wdggeneralsettings.ui:864
+#: libs/ui/forms/wdggeneralsettings.ui:894
 #, kde-format
 msgid "Save session when Krita closes"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkConvertOnImport)
-#: libs/ui/forms/wdggeneralsettings.ui:871
+#: libs/ui/forms/wdggeneralsettings.ui:901
 #, kde-format
 msgid "On importing images as layers, convert to the image colorspace"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label)
 #. i18n: ectx: property (toolTip), widget (KisIntParseSpinBox, m_undoStackSize)
-#: libs/ui/forms/wdggeneralsettings.ui:884
-#: libs/ui/forms/wdggeneralsettings.ui:912
+#: libs/ui/forms/wdggeneralsettings.ui:914
+#: libs/ui/forms/wdggeneralsettings.ui:942
 #, kde-format
 msgid "Only applies to new or newly opened images."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: libs/ui/forms/wdggeneralsettings.ui:887
+#: libs/ui/forms/wdggeneralsettings.ui:917
 #, kde-format
 msgid "Undo stack size:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkShowRootLayer)
-#: libs/ui/forms/wdggeneralsettings.ui:947
+#: libs/ui/forms/wdggeneralsettings.ui:977
 #, kde-format
 msgid "Show root layer"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkUsageLogging)
-#: libs/ui/forms/wdggeneralsettings.ui:954
+#: libs/ui/forms/wdggeneralsettings.ui:984
 #, kde-format
 msgid "Enable Logging for bug reports"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, m_chkNativeFileDialog)
-#: libs/ui/forms/wdggeneralsettings.ui:985
+#: libs/ui/forms/wdggeneralsettings.ui:1015
 #, kde-format
 msgid ""
 "Warning: if you enable this setting and the file dialogs do weird stuff, do "
@@ -22971,68 +22995,68 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkNativeFileDialog)
-#: libs/ui/forms/wdggeneralsettings.ui:988
+#: libs/ui/forms/wdggeneralsettings.ui:1018
 #, kde-format
 msgid "Enable native file dialogs"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_18)
-#: libs/ui/forms/wdggeneralsettings.ui:1011
+#: libs/ui/forms/wdggeneralsettings.ui:1041
 #, kde-format
 msgid "(Warning: may not work correctly on some systems)"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_9)
-#: libs/ui/forms/wdggeneralsettings.ui:1021
+#: libs/ui/forms/wdggeneralsettings.ui:1051
 #, kde-format
 msgid "Maximum brush size:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, intMaxBrushSize)
-#: libs/ui/forms/wdggeneralsettings.ui:1043
+#: libs/ui/forms/wdggeneralsettings.ui:1073
 #, kde-format
 msgid "The maximum diameter of a brush in pixels."
 msgstr ""
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, intMaxBrushSize)
-#: libs/ui/forms/wdggeneralsettings.ui:1046
+#: libs/ui/forms/wdggeneralsettings.ui:1076
 #, kde-format
 msgctxt "pixel"
 msgid "px"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_10)
-#: libs/ui/forms/wdggeneralsettings.ui:1078
+#: libs/ui/forms/wdggeneralsettings.ui:1108
 #, kde-format
 msgid "(Needs restart)"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_5)
-#: libs/ui/forms/wdggeneralsettings.ui:1091
+#: libs/ui/forms/wdggeneralsettings.ui:1121
 #, kde-format
 msgid "Animation"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkAutoPin)
-#: libs/ui/forms/wdggeneralsettings.ui:1100
+#: libs/ui/forms/wdggeneralsettings.ui:1130
 #, kde-format
 msgid "Automatically pin new layers to timeline"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkAdaptivePlaybackRange)
-#: libs/ui/forms/wdggeneralsettings.ui:1110
+#: libs/ui/forms/wdggeneralsettings.ui:1140
 #, kde-format
 msgid "Adapt playback range to keyframes"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, chkForcedFontDPI)
-#: libs/ui/forms/wdggeneralsettings.ui:1120
+#: libs/ui/forms/wdggeneralsettings.ui:1150
 #, kde-format
 msgid "Font DPI Workaround"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_17)
-#: libs/ui/forms/wdggeneralsettings.ui:1135
+#: libs/ui/forms/wdggeneralsettings.ui:1165
 #, kde-format
 msgid ""
 "In some Krita versions before 5.0 text size could be dependent on the "
@@ -23050,7 +23074,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_17)
-#: libs/ui/forms/wdggeneralsettings.ui:1138
+#: libs/ui/forms/wdggeneralsettings.ui:1168
 #: plugins/python/comics_project_management_tools/comics_export_dialog.py:66
 #: plugins/python/comics_project_management_tools/comics_template_dialog.py:177
 #, kde-format
@@ -23058,7 +23082,7 @@ msgid "DPI:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, intForcedFontDPI)
-#: libs/ui/forms/wdggeneralsettings.ui:1147
+#: libs/ui/forms/wdggeneralsettings.ui:1177
 #, kde-format
 msgid ""
 "In some versions of Krita before 4.4.3 text size could be dependent on the "
@@ -23070,13 +23094,13 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, btnDownload)
-#: libs/ui/forms/wdggeneralsettings.ui:1166
+#: libs/ui/forms/wdggeneralsettings.ui:1196
 #, kde-format
 msgid "Prefer downloading the original source (this requires Internet access)"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblPasteContext)
-#: libs/ui/forms/wdggeneralsettings.ui:1179
+#: libs/ui/forms/wdggeneralsettings.ui:1209
 #, kde-format
 msgid ""
 "Some applications, like Google Chrome, provide multiple formats when pasting "
@@ -23084,13 +23108,13 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, btnLocal)
-#: libs/ui/forms/wdggeneralsettings.ui:1186
+#: libs/ui/forms/wdggeneralsettings.ui:1216
 #, kde-format
 msgid "Prefer a local copy (if available; metadata may be lost)"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, btnBitmap)
-#: libs/ui/forms/wdggeneralsettings.ui:1193
+#: libs/ui/forms/wdggeneralsettings.ui:1223
 #, kde-format
 msgid ""
 "Paste the attached sRGB bitmap (no filesystem or Internet access required, "
@@ -23098,13 +23122,13 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, btnAsk)
-#: libs/ui/forms/wdggeneralsettings.ui:1200
+#: libs/ui/forms/wdggeneralsettings.ui:1230
 #, kde-format
 msgid "Ask each time"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblPasteNote)
-#: libs/ui/forms/wdggeneralsettings.ui:1213
+#: libs/ui/forms/wdggeneralsettings.ui:1243
 #, kde-format
 msgid ""
 "Note: This applies to drops in the Info window, the canvas, and paste "
@@ -23112,13 +23136,13 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_14)
-#: libs/ui/forms/wdggeneralsettings.ui:1234
+#: libs/ui/forms/wdggeneralsettings.ui:1264
 #, kde-format
 msgid "Cache Location:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_15)
-#: libs/ui/forms/wdggeneralsettings.ui:1244
+#: libs/ui/forms/wdggeneralsettings.ui:1274
 #, kde-format
 msgid "Resource Folder:"
 msgstr ""
@@ -26820,7 +26844,7 @@ msgctxt "<color space> <image profile>"
 msgid "%1  %2"
 msgstr ""
 
-#: libs/ui/kis_zoom_manager.cc:320
+#: libs/ui/kis_zoom_manager.cc:323
 #, kde-format
 msgctxt "floating message about zoom"
 msgid "Zoom: %1 %"
@@ -28114,47 +28138,47 @@ msgstr ""
 msgid "Gamut Warnings turned off."
 msgstr ""
 
-#: libs/ui/KisViewManager.cpp:750
+#: libs/ui/KisViewManager.cpp:754
 #, kde-format
 msgid "Active Author Profile"
 msgstr ""
 
-#: libs/ui/KisViewManager.cpp:877
+#: libs/ui/KisViewManager.cpp:881
 #, kde-format
 msgid "%1 (Copy)"
 msgstr ""
 
-#: libs/ui/KisViewManager.cpp:1019 libs/ui/KisViewManager.cpp:1100
+#: libs/ui/KisViewManager.cpp:1023 libs/ui/KisViewManager.cpp:1104
 #, kde-format
 msgid "Alternative names exhausted, try manually saving with a higher number"
 msgstr ""
 
-#: libs/ui/KisViewManager.cpp:1019
+#: libs/ui/KisViewManager.cpp:1023
 #, kde-format
 msgctxt "@title:window"
 msgid "Couldn't save incremental version"
 msgstr ""
 
-#: libs/ui/KisViewManager.cpp:1100
+#: libs/ui/KisViewManager.cpp:1104
 #, kde-format
 msgctxt "@title:window"
 msgid "Couldn't save incremental backup"
 msgstr ""
 
-#: libs/ui/KisViewManager.cpp:1283
+#: libs/ui/KisViewManager.cpp:1287
 #, kde-format
 msgid ""
 "Going into Canvas-Only mode.\n"
 "Press %1 to go back."
 msgstr ""
 
-#: libs/ui/KisViewManager.cpp:1323
+#: libs/ui/KisViewManager.cpp:1327
 #, kde-format
 msgctxt "@title:window resource folder"
 msgid "Open Resource Folder"
 msgstr ""
 
-#: libs/ui/KisViewManager.cpp:1326
+#: libs/ui/KisViewManager.cpp:1330
 #, kde-format
 msgctxt "@info resource folder"
 msgid ""
@@ -28169,19 +28193,19 @@ msgid ""
 "%2</p>"
 msgstr ""
 
-#: libs/ui/KisViewManager.cpp:1340
+#: libs/ui/KisViewManager.cpp:1344
 #, kde-format
 msgctxt "@action:button resource folder"
 msgid "Open in &user AppData"
 msgstr ""
 
-#: libs/ui/KisViewManager.cpp:1341
+#: libs/ui/KisViewManager.cpp:1345
 #, kde-format
 msgctxt "@action:button resource folder"
 msgid "Open in &private app location"
 msgstr ""
 
-#: libs/ui/KisViewManager.cpp:1454 libs/ui/KisViewManager.cpp:1472
+#: libs/ui/KisViewManager.cpp:1458 libs/ui/KisViewManager.cpp:1476
 #, kde-format
 msgctxt "choice for author profile"
 msgid "Anonymous"
