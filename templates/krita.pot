@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-02-25 00:44+0000\n"
+"POT-Creation-Date: 2022-02-26 00:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -15157,7 +15157,7 @@ msgctxt "The category of filters that do not fit in a category. Noun."
 msgid "Other"
 msgstr ""
 
-#: libs/image/generator/kis_generator_layer.cpp:193
+#: libs/image/generator/kis_generator_layer.cpp:194
 #, kde-format
 msgid "Generator"
 msgstr ""
@@ -26064,25 +26064,25 @@ msgstr ""
 
 #: libs/ui/kis_canvas_controls_manager.cpp:287
 #, kde-format
-msgid "%1 %2%"
+msgid "Brush Opacity: %1%"
 msgstr ""
 
 #: libs/ui/kis_canvas_controls_manager.cpp:319
 #, kde-format
 msgctxt "Brush Option Flow"
-msgid "%1 %2%"
+msgid "Flow: %1%"
 msgstr ""
 
 #: libs/ui/kis_canvas_controls_manager.cpp:351
 #, kde-format
 msgctxt "Edge softness, Brush Option Fade"
-msgid "%1 %2"
+msgid "Fade: %1"
 msgstr ""
 
 #: libs/ui/kis_canvas_controls_manager.cpp:379
 #, kde-format
 msgctxt "Brush Option Scatter"
-msgid "%1 %2%"
+msgid "Scatter: %1%"
 msgstr ""
 
 #: libs/ui/kis_change_file_layer_command.h:22
@@ -27758,36 +27758,38 @@ msgctxt "@title:window"
 msgid "New Workspace..."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2509
+#: libs/ui/KisMainWindow.cpp:2510
 #, kde-format
+msgctxt "@item:inmenu opened document, %1=index %2=document path"
 msgid "&%1 %2"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2512
+#: libs/ui/KisMainWindow.cpp:2513
 #, kde-format
+msgctxt "@item:inmenu opened document, %1=index %2=document path"
 msgid "%1 %2"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2671
+#: libs/ui/KisMainWindow.cpp:2672
 #, kde-format
 msgid ""
 "The Krita LittleCMS color management plugin is not installed. Krita will "
 "quit now."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2687
+#: libs/ui/KisMainWindow.cpp:2688
 #, kde-format
 msgctxt "@title:window"
 msgid "Installation error"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2796
+#: libs/ui/KisMainWindow.cpp:2797
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Themes"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2850
+#: libs/ui/KisMainWindow.cpp:2851
 #, kde-format
 msgid "Expanding Spacer"
 msgstr ""
@@ -29345,7 +29347,7 @@ msgstr ""
 
 #: libs/ui/tool/kis_tool_paint.cc:675
 #, kde-format
-msgid "%1 %2 px"
+msgid "Brush Size: %1 px"
 msgstr ""
 
 #: libs/ui/tool/kis_tool_polyline_base.cpp:70
@@ -51061,19 +51063,19 @@ msgstr ""
 msgid "Show Guideline"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_line.cc:366
+#: plugins/tools/basictools/kis_tool_line.cc:372
 #, kde-format
 msgid "Length: %1 px"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_line.cc:384
+#: plugins/tools/basictools/kis_tool_line.cc:390
 #, kde-format
 msgid ""
 "Alt+Drag will move the origin of the currently displayed line around, Shift"
 "+Drag will force you to draw straight lines"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_line.h:105
+#: plugins/tools/basictools/kis_tool_line.h:106
 #, kde-format
 msgid "Line Tool"
 msgstr ""
@@ -51086,6 +51088,7 @@ msgstr ""
 
 #: plugins/tools/basictools/kis_tool_measure.cc:130
 #, kde-format
+msgctxt "%1=distance %2=unit of distance %3=angle in degrees"
 msgid ""
 "%1 %2\n"
 "%3°"
