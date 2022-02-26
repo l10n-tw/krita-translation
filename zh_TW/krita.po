@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-02-25 00:44+0000\n"
+"POT-Creation-Date: 2022-02-26 00:45+0000\n"
 "PO-Revision-Date: 2022-02-25 15:51+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
@@ -15179,7 +15179,7 @@ msgctxt "The category of filters that do not fit in a category. Noun."
 msgid "Other"
 msgstr "其他"
 
-#: libs/image/generator/kis_generator_layer.cpp:193
+#: libs/image/generator/kis_generator_layer.cpp:194
 #, kde-format
 msgid "Generator"
 msgstr "產生器"
@@ -26402,30 +26402,31 @@ msgstr "最近使用"
 
 #: libs/ui/kis_canvas_controls_manager.cpp:287
 #, fuzzy, kde-format
-#| msgid "%1 %2"
-msgid "%1 %2%"
-msgstr "%1 %2"
+#| msgid "Opacity: "
+msgid "Brush Opacity: %1%"
+msgstr "不透明度："
 
 #: libs/ui/kis_canvas_controls_manager.cpp:319
 #, fuzzy, kde-format
-#| msgid "%1 %2"
+#| msgid "Flow:"
 msgctxt "Brush Option Flow"
-msgid "%1 %2%"
-msgstr "%1 %2"
+msgid "Flow: %1%"
+msgstr "流量："
 
 #: libs/ui/kis_canvas_controls_manager.cpp:351
 #, fuzzy, kde-format
-#| msgid "%1 %2"
+#| msgctxt "video importer: video file statistics"
+#| msgid "Frames: %1"
 msgctxt "Edge softness, Brush Option Fade"
-msgid "%1 %2"
-msgstr "%1 %2"
+msgid "Fade: %1"
+msgstr "影格數：%1"
 
 #: libs/ui/kis_canvas_controls_manager.cpp:379
 #, fuzzy, kde-format
-#| msgid "%1 %2"
+#| msgid "Scatter"
 msgctxt "Brush Option Scatter"
-msgid "%1 %2%"
-msgstr "%1 %2"
+msgid "Scatter: %1%"
+msgstr "分散"
 
 #: libs/ui/kis_change_file_layer_command.h:22
 msgctxt "(qtundo-format)"
@@ -28226,36 +28227,40 @@ msgctxt "@title:window"
 msgid "New Workspace..."
 msgstr "新作業空間…"
 
-#: libs/ui/KisMainWindow.cpp:2509
-#, kde-format
+#: libs/ui/KisMainWindow.cpp:2510
+#, fuzzy, kde-format
+#| msgid "&%1 %2"
+msgctxt "@item:inmenu opened document, %1=index %2=document path"
 msgid "&%1 %2"
 msgstr "&%1 %2"
 
-#: libs/ui/KisMainWindow.cpp:2512
-#, kde-format
+#: libs/ui/KisMainWindow.cpp:2513
+#, fuzzy, kde-format
+#| msgid "%1 %2"
+msgctxt "@item:inmenu opened document, %1=index %2=document path"
 msgid "%1 %2"
 msgstr "%1 %2"
 
-#: libs/ui/KisMainWindow.cpp:2671
+#: libs/ui/KisMainWindow.cpp:2672
 #, kde-format
 msgid ""
 "The Krita LittleCMS color management plugin is not installed. Krita will "
 "quit now."
 msgstr "未安裝 Krita 的 LittleCMS 色彩管理外掛程式。Krita 將立即退出。"
 
-#: libs/ui/KisMainWindow.cpp:2687
+#: libs/ui/KisMainWindow.cpp:2688
 #, kde-format
 msgctxt "@title:window"
 msgid "Installation error"
 msgstr "安裝錯誤"
 
-#: libs/ui/KisMainWindow.cpp:2796
+#: libs/ui/KisMainWindow.cpp:2797
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Themes"
 msgstr "主題(&T)"
 
-#: libs/ui/KisMainWindow.cpp:2850
+#: libs/ui/KisMainWindow.cpp:2851
 #, kde-format
 msgid "Expanding Spacer"
 msgstr "擴張空白佔位符"
@@ -29836,9 +29841,10 @@ msgid "Color sampler does not work on this layer."
 msgstr "色彩取樣器不能在此圖層上使用。"
 
 #: libs/ui/tool/kis_tool_paint.cc:675
-#, kde-format
-msgid "%1 %2 px"
-msgstr "%1 %2 px"
+#, fuzzy, kde-format
+#| msgid "Brush size"
+msgid "Brush Size: %1 px"
+msgstr "筆刷大小"
 
 #: libs/ui/tool/kis_tool_polyline_base.cpp:70
 #: libs/ui/tool/kis_tool_rectangle_base.cpp:140
@@ -52190,12 +52196,12 @@ msgstr "顯示預覽"
 msgid "Show Guideline"
 msgstr "顯示引導線"
 
-#: plugins/tools/basictools/kis_tool_line.cc:366
+#: plugins/tools/basictools/kis_tool_line.cc:372
 #, kde-format
 msgid "Length: %1 px"
 msgstr "長度：%1 px"
 
-#: plugins/tools/basictools/kis_tool_line.cc:384
+#: plugins/tools/basictools/kis_tool_line.cc:390
 #, kde-format
 msgid ""
 "Alt+Drag will move the origin of the currently displayed line around, Shift"
@@ -52203,7 +52209,7 @@ msgid ""
 msgstr ""
 "Alt + 拖曳可移動目前顯示線條的基點，Shift + 拖曳將強制在特殊角度上繪製直線"
 
-#: plugins/tools/basictools/kis_tool_line.h:105
+#: plugins/tools/basictools/kis_tool_line.h:106
 #, kde-format
 msgid "Line Tool"
 msgstr "直線工具"
@@ -52215,7 +52221,11 @@ msgid "%1°"
 msgstr "%1°"
 
 #: plugins/tools/basictools/kis_tool_measure.cc:130
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "%1 %2\n"
+#| "%3°"
+msgctxt "%1=distance %2=unit of distance %3=angle in degrees"
 msgid ""
 "%1 %2\n"
 "%3°"
@@ -55180,6 +55190,33 @@ msgstr "縮放工具"
 msgctxt "action"
 msgid "Reference Images Tool"
 msgstr "參考圖工具"
+
+#, fuzzy, kde-format
+#~| msgid "%1 %2"
+#~ msgid "%1 %2%"
+#~ msgstr "%1 %2"
+
+#, fuzzy, kde-format
+#~| msgid "%1 %2"
+#~ msgctxt "Brush Option Flow"
+#~ msgid "%1 %2%"
+#~ msgstr "%1 %2"
+
+#, fuzzy, kde-format
+#~| msgid "%1 %2"
+#~ msgctxt "Edge softness, Brush Option Fade"
+#~ msgid "%1 %2"
+#~ msgstr "%1 %2"
+
+#, fuzzy, kde-format
+#~| msgid "%1 %2"
+#~ msgctxt "Brush Option Scatter"
+#~ msgid "%1 %2%"
+#~ msgstr "%1 %2"
+
+#, kde-format
+#~ msgid "%1 %2 px"
+#~ msgstr "%1 %2 px"
 
 #, kde-format
 #~ msgid "General:"
