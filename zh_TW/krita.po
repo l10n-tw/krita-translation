@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-02-26 00:45+0000\n"
-"PO-Revision-Date: 2022-02-25 15:51+0000\n"
+"PO-Revision-Date: 2022-02-26 07:36+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -12678,11 +12678,10 @@ msgstr "縮小"
 #. i18n: context: Action (toggle_zoom_to_fit), Actions (View), ActionCollection (Menu)
 #. i18n: context: Action (toggle_zoom_to_fit), Actions (View), ActionCollection (Menu)
 #: krita/kritamenu.action:752 krita/kritamenu.action:754
-#, fuzzy, kde-format
-#| msgid "Fit to Page"
+#, kde-format
 msgctxt "action"
 msgid "Toggle Zoom Fit to Page"
-msgstr "適合頁面大小"
+msgstr "切換縮放適合頁面大小"
 
 #. i18n: context: Action (rotate_canvas_right), Actions (View), ActionCollection (Menu)
 #: krita/kritamenu.action:762
@@ -22867,16 +22866,15 @@ msgstr "在畫布上顯示浮動訊息"
 
 #. i18n: ectx: property (text), widget (QLabel, lblZoomMarginSize)
 #: libs/ui/forms/wdggeneralsettings.ui:232
-#, fuzzy, kde-format
-#| msgid "Zoom Selector Size: "
+#, kde-format
 msgid "Zoom Margin Size:"
-msgstr "放大選色器大小："
+msgstr "縮放檢視邊界大小："
 
 #. i18n: ectx: property (toolTip), widget (KisIntParseSpinBox, intZoomMarginSize)
 #: libs/ui/forms/wdggeneralsettings.ui:242
 #, kde-format
 msgid "Spacing between the image and the page when zoomed to fit, in pixels"
-msgstr ""
+msgstr "縮放至符合影像大小時影像與檢視區域邊界的像素距離"
 
 #. i18n: ectx: property (title), widget (QGroupBox, m_chkHiDPI)
 #: libs/ui/forms/wdggeneralsettings.ui:263
@@ -26401,32 +26399,27 @@ msgid "Last Used"
 msgstr "最近使用"
 
 #: libs/ui/kis_canvas_controls_manager.cpp:287
-#, fuzzy, kde-format
-#| msgid "Opacity: "
+#, kde-format
 msgid "Brush Opacity: %1%"
-msgstr "不透明度："
+msgstr "筆刷不透明度：%1%"
 
 #: libs/ui/kis_canvas_controls_manager.cpp:319
-#, fuzzy, kde-format
-#| msgid "Flow:"
+#, kde-format
 msgctxt "Brush Option Flow"
 msgid "Flow: %1%"
-msgstr "流量："
+msgstr "流量：%1%"
 
 #: libs/ui/kis_canvas_controls_manager.cpp:351
-#, fuzzy, kde-format
-#| msgctxt "video importer: video file statistics"
-#| msgid "Frames: %1"
+#, kde-format
 msgctxt "Edge softness, Brush Option Fade"
 msgid "Fade: %1"
-msgstr "影格數：%1"
+msgstr "淡化：%1"
 
 #: libs/ui/kis_canvas_controls_manager.cpp:379
-#, fuzzy, kde-format
-#| msgid "Scatter"
+#, kde-format
 msgctxt "Brush Option Scatter"
 msgid "Scatter: %1%"
-msgstr "分散"
+msgstr "分散：%1%"
 
 #: libs/ui/kis_change_file_layer_command.h:22
 msgctxt "(qtundo-format)"
@@ -28228,15 +28221,13 @@ msgid "New Workspace..."
 msgstr "新作業空間…"
 
 #: libs/ui/KisMainWindow.cpp:2510
-#, fuzzy, kde-format
-#| msgid "&%1 %2"
+#, kde-format
 msgctxt "@item:inmenu opened document, %1=index %2=document path"
 msgid "&%1 %2"
 msgstr "&%1 %2"
 
 #: libs/ui/KisMainWindow.cpp:2513
-#, fuzzy, kde-format
-#| msgid "%1 %2"
+#, kde-format
 msgctxt "@item:inmenu opened document, %1=index %2=document path"
 msgid "%1 %2"
 msgstr "%1 %2"
@@ -29841,10 +29832,9 @@ msgid "Color sampler does not work on this layer."
 msgstr "色彩取樣器不能在此圖層上使用。"
 
 #: libs/ui/tool/kis_tool_paint.cc:675
-#, fuzzy, kde-format
-#| msgid "Brush size"
+#, kde-format
 msgid "Brush Size: %1 px"
-msgstr "筆刷大小"
+msgstr "筆刷大小：%1 px"
 
 #: libs/ui/tool/kis_tool_polyline_base.cpp:70
 #: libs/ui/tool/kis_tool_rectangle_base.cpp:140
@@ -52221,10 +52211,7 @@ msgid "%1°"
 msgstr "%1°"
 
 #: plugins/tools/basictools/kis_tool_measure.cc:130
-#, fuzzy, kde-format
-#| msgid ""
-#| "%1 %2\n"
-#| "%3°"
+#, kde-format
 msgctxt "%1=distance %2=unit of distance %3=angle in degrees"
 msgid ""
 "%1 %2\n"
