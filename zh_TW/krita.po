@@ -6,13 +6,14 @@
 # pan93412 <pan93412@gmail.com>, 2019, 2020, 2021.
 # Alvin Wong <alvin@alvinhc.com>, 2020, 2021, 2022.
 # BiseChen <bise.chen@gmail.com>, 2021.
+# Yi-Jyun Pan <pan93412@gmail.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-02-26 00:45+0000\n"
-"PO-Revision-Date: 2022-02-26 07:36+0000\n"
-"Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
+"PO-Revision-Date: 2022-03-01 08:07+0000\n"
+"Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -20,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.8.1\n"
+"X-Generator: Weblate 4.11\n"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
@@ -8079,7 +8080,7 @@ msgstr "搜尋動作"
 #, kde-format
 msgctxt "action"
 msgid "Open the command bar to search through actions."
-msgstr "彈出命令列以搜尋動作"
+msgstr "彈出命令列以搜尋動作。"
 
 #. i18n: context: Action (rename_composition), Actions (General), ActionCollection (Krita)
 #: krita/krita.action:207
@@ -17696,7 +17697,7 @@ msgstr "Krita 為第一次執行。需要一點時間初始化。"
 #: libs/resources/KisResourceLocator.cpp:958
 #, kde-format
 msgid "3. Could not create the resource location at %1."
-msgstr "3. 無法建立位於 %1 的資源位置"
+msgstr "3. 無法建立位於 %1 的資源位置。"
 
 #: libs/resources/KisResourceLocator.cpp:971
 #: libs/resources/KisResourceLocator.cpp:987
