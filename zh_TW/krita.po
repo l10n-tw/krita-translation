@@ -55192,106 +55192,64 @@ msgctxt "action"
 msgid "Reference Images Tool"
 msgstr "參考圖工具"
 
-#, fuzzy, kde-format
-#~| msgid "%1 %2"
-#~ msgid "%1 %2%"
-#~ msgstr "%1 %2"
-
-#, fuzzy, kde-format
-#~| msgid "%1 %2"
-#~ msgctxt "Brush Option Flow"
-#~ msgid "%1 %2%"
-#~ msgstr "%1 %2"
-
-#, fuzzy, kde-format
-#~| msgid "%1 %2"
-#~ msgctxt "Edge softness, Brush Option Fade"
-#~ msgid "%1 %2"
-#~ msgstr "%1 %2"
-
-#, fuzzy, kde-format
-#~| msgid "%1 %2"
-#~ msgctxt "Brush Option Scatter"
-#~ msgid "%1 %2%"
-#~ msgstr "%1 %2"
-
-#, kde-format
 #~ msgid "%1 %2 px"
 #~ msgstr "%1 %2 px"
 
-#, kde-format
 #~ msgid "General:"
 #~ msgstr "一般："
 
-#, kde-format
 #~ msgid "Animation:"
 #~ msgstr "動畫："
 
-#, kde-format
 #~ msgid "Swap File Location:"
 #~ msgstr "置換檔案位置："
 
-#, kde-format
 #~ msgid "Force Instant Preview in Transform Tool"
 #~ msgstr "強制變形工具使用即時預覽"
 
-#, kde-format
 #~ msgid "Force Instant Preview in Move Tool"
 #~ msgstr "強制移動工具使用即時預覽"
 
-#, kde-format
 #~ msgid "Force Instant Preview in Filters"
 #~ msgstr "強制濾鏡使用即時預覽"
 
-#, kde-format
 #~ msgid "Open Color Profile"
 #~ msgstr "開啟色彩特性檔案"
 
-#, kde-format
 #~ msgctxt "@title:window"
 #~ msgid "Select a swap directory"
 #~ msgstr "選擇交換檔案目錄"
 
-#, kde-format
 #~ msgid "Add new color profile:"
 #~ msgstr "新增新的色彩特性檔案："
 
-#, kde-format
 #~ msgid "Select the location where Krita writes its swap files."
 #~ msgstr "選擇 Krita 寫入置換檔案的位置。"
 
-#, kde-format
 #~ msgid "Display:"
 #~ msgstr "顯示："
 
-#, kde-format
 #~ msgid "Colorspace"
 #~ msgstr "色彩空間"
 
-#, kde-format
 #~ msgctxt "Color model"
 #~ msgid "&Model:"
 #~ msgstr "模型(&M)："
 
-#, kde-format
 #~ msgid "Profi&le:"
 #~ msgstr "特性檔案(&L)："
 
-#, kde-format
 #~ msgctxt "About <Profilename>"
 #~ msgid "About "
 #~ msgstr "關於 "
 
-#, kde-format
 #~ msgctxt "The Softness label in Fill tool options"
 #~ msgid "Softness:"
 #~ msgstr "柔和度："
 
-#, kde-format
 #~ msgid "Softness: "
 #~ msgstr "柔和度："
 
-#, kde-format
 #~ msgid ""
 #~ "The image data you are trying to paste has no color profile information. "
 #~ "How do you want to interpret these data? \n"
