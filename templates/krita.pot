@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-03-01 00:42+0000\n"
+"POT-Creation-Date: 2022-03-02 00:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -15880,12 +15880,12 @@ msgstr ""
 msgid "Satin (style)"
 msgstr ""
 
-#: libs/image/lazybrush/kis_colorize_mask.cpp:955
+#: libs/image/lazybrush/kis_colorize_mask.cpp:962
 msgctxt "(qtundo-format)"
 msgid "Change Key Stroke Color"
 msgstr ""
 
-#: libs/image/lazybrush/kis_colorize_mask.cpp:982
+#: libs/image/lazybrush/kis_colorize_mask.cpp:989
 msgctxt "(qtundo-format)"
 msgid "Remove Key Stroke"
 msgstr ""
@@ -28146,47 +28146,47 @@ msgstr ""
 msgid "Gamut Warnings turned off."
 msgstr ""
 
-#: libs/ui/KisViewManager.cpp:754
+#: libs/ui/KisViewManager.cpp:759
 #, kde-format
 msgid "Active Author Profile"
 msgstr ""
 
-#: libs/ui/KisViewManager.cpp:881
+#: libs/ui/KisViewManager.cpp:886
 #, kde-format
 msgid "%1 (Copy)"
 msgstr ""
 
-#: libs/ui/KisViewManager.cpp:1023 libs/ui/KisViewManager.cpp:1104
+#: libs/ui/KisViewManager.cpp:1028 libs/ui/KisViewManager.cpp:1109
 #, kde-format
 msgid "Alternative names exhausted, try manually saving with a higher number"
 msgstr ""
 
-#: libs/ui/KisViewManager.cpp:1023
+#: libs/ui/KisViewManager.cpp:1028
 #, kde-format
 msgctxt "@title:window"
 msgid "Couldn't save incremental version"
 msgstr ""
 
-#: libs/ui/KisViewManager.cpp:1104
+#: libs/ui/KisViewManager.cpp:1109
 #, kde-format
 msgctxt "@title:window"
 msgid "Couldn't save incremental backup"
 msgstr ""
 
-#: libs/ui/KisViewManager.cpp:1287
+#: libs/ui/KisViewManager.cpp:1292
 #, kde-format
 msgid ""
 "Going into Canvas-Only mode.\n"
 "Press %1 to go back."
 msgstr ""
 
-#: libs/ui/KisViewManager.cpp:1327
+#: libs/ui/KisViewManager.cpp:1332
 #, kde-format
 msgctxt "@title:window resource folder"
 msgid "Open Resource Folder"
 msgstr ""
 
-#: libs/ui/KisViewManager.cpp:1330
+#: libs/ui/KisViewManager.cpp:1335
 #, kde-format
 msgctxt "@info resource folder"
 msgid ""
@@ -28201,19 +28201,19 @@ msgid ""
 "%2</p>"
 msgstr ""
 
-#: libs/ui/KisViewManager.cpp:1344
+#: libs/ui/KisViewManager.cpp:1349
 #, kde-format
 msgctxt "@action:button resource folder"
 msgid "Open in &user AppData"
 msgstr ""
 
-#: libs/ui/KisViewManager.cpp:1345
+#: libs/ui/KisViewManager.cpp:1350
 #, kde-format
 msgctxt "@action:button resource folder"
 msgid "Open in &private app location"
 msgstr ""
 
-#: libs/ui/KisViewManager.cpp:1458 libs/ui/KisViewManager.cpp:1476
+#: libs/ui/KisViewManager.cpp:1463 libs/ui/KisViewManager.cpp:1481
 #, kde-format
 msgctxt "choice for author profile"
 msgid "Anonymous"
