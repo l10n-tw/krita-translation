@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-03-02 00:43+0000\n"
+"POT-Creation-Date: 2022-03-04 00:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -14897,12 +14897,12 @@ msgstr ""
 #: libs/ui/animation/wdg_animationrenderer.ui:196
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:753
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:757
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:965
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:972
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1185
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1356
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1359
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1425
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:960
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:967
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1178
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1347
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1350
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1414
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1193
 #: libs/ui/forms/wdgdisplaysettings.ui:356
 #: libs/ui/forms/wdggeneralsettings.ui:245
@@ -15287,13 +15287,13 @@ msgid "Imported Image"
 msgstr ""
 
 #: libs/image/kis_image.cc:656 libs/image/kis_layer_utils.cpp:1870
-#: libs/impex/KisExportCheckRegistry.cpp:118
+#: libs/impex/KisExportCheckRegistry.cpp:120
 #, kde-format
 msgid "Selection Mask"
 msgstr ""
 
 #: libs/image/kis_image.cc:716 libs/ui/KisDocument.cpp:2426
-#: plugins/impex/psd/psd_loader.cpp:162 plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:68
+#: plugins/impex/psd/psd_loader.cpp:190 plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:68
 #: plugins/python/comics_project_management_tools/comics_template_dialog.py:302
 #, kde-format
 msgid "Background"
@@ -15962,65 +15962,73 @@ msgid ""
 "the first layer</b> will be saved."
 msgstr ""
 
-#: libs/impex/KisExportCheckRegistry.cpp:98
+#: libs/impex/FillLayerTypeCheck.h:92
+#, kde-format
+msgctxt "image conversion warning"
+msgid ""
+"The image contains a Fill Layer of type <b>%1</b>, which is not supported, "
+"the layer will be converted to a paintlayer"
+msgstr ""
+
+#: libs/impex/KisExportCheckRegistry.cpp:100
 #: libs/ui/kis_layer_manager.cc:647
 #, kde-format
 msgid "Clone Layer"
 msgstr ""
 
-#: libs/impex/KisExportCheckRegistry.cpp:100
+#: libs/impex/KisExportCheckRegistry.cpp:102
 #: libs/ui/kis_layer_manager.cc:631 libs/ui/kis_node_manager.cpp:1514
 #, kde-format
 msgctxt "A group of layers"
 msgid "Group"
 msgstr ""
 
-#: libs/impex/KisExportCheckRegistry.cpp:102
+#: libs/impex/KisExportCheckRegistry.cpp:104
 #: libs/ui/kis_layer_manager.cc:956
 #, kde-format
 msgid "File Layer"
 msgstr ""
 
-#: libs/impex/KisExportCheckRegistry.cpp:104
+#: libs/impex/KisExportCheckRegistry.cpp:106
 #: libs/ui/kis_layer_manager.cc:660 plugins/impex/svg/kis_svg_import.cc:80
 #, kde-format
 msgid "Vector Layer"
 msgstr ""
 
-#: libs/impex/KisExportCheckRegistry.cpp:106
+#: libs/impex/KisExportCheckRegistry.cpp:108
 #: libs/ui/kis_layer_manager.cc:682
 #, kde-format
 msgid "Filter Layer"
 msgstr ""
 
-#: libs/impex/KisExportCheckRegistry.cpp:108
+#: libs/impex/KisExportCheckRegistry.cpp:110
 #, kde-format
 msgid "Generator Layer"
 msgstr ""
 
-#: libs/impex/KisExportCheckRegistry.cpp:110
+#: libs/impex/KisExportCheckRegistry.cpp:112
 #: libs/ui/kis_mask_manager.cc:274
 #, kde-format
 msgid "Colorize Mask"
 msgstr ""
 
-#: libs/impex/KisExportCheckRegistry.cpp:112
+#: libs/impex/KisExportCheckRegistry.cpp:114
 #: libs/ui/dialogs/kis_dlg_filter.cpp:218
 #: libs/ui/kis_mask_manager.cc:223
 #, kde-format
 msgid "Filter Mask"
 msgstr ""
 
-#: libs/impex/KisExportCheckRegistry.cpp:114
+#: libs/impex/KisExportCheckRegistry.cpp:116
 #: libs/ui/kis_mask_manager.cc:286
 #, kde-format
 msgid "Transform Mask"
 msgstr ""
 
-#: libs/impex/KisExportCheckRegistry.cpp:116
+#: libs/impex/KisExportCheckRegistry.cpp:118
 #: libs/ui/kis_mask_manager.cc:210 libs/ui/kis_node_manager.cpp:1294
 #: plugins/impex/libkra/kis_kra_load_visitor.cpp:213
-#: plugins/impex/psd/psd_loader.cpp:288 plugins/impex/tiff/kis_tiff_converter.cc:1296
+#: plugins/impex/psd/psd_loader.cpp:380 plugins/impex/tiff/kis_tiff_converter.cc:1296
 #: plugins/impex/xcf/kis_xcf_import.cpp:273
 #, kde-format
 msgid "Transparency Mask"
@@ -17511,18 +17519,18 @@ msgstr ""
 msgid "Untitled"
 msgstr ""
 
-#: libs/pigment/resources/KoStopGradient.cpp:372
+#: libs/pigment/resources/KoStopGradient.cpp:377
 #, kde-format
 msgid "SVG Gradient"
 msgstr ""
 
-#: libs/psd/psd_layer_section.cpp:381
+#: libs/psd/psd_layer_section.cpp:403
 #, kde-format
 msgctxt "Automatically created layer name when saving into PSD"
 msgid "Background"
 msgstr ""
 
-#: libs/psd/psd_layer_section.cpp:633 libs/psd/psd_layer_section.cpp:778
+#: libs/psd/psd_layer_section.cpp:710 libs/psd/psd_layer_section.cpp:860
 #, kde-format
 msgid "Unnamed Layer"
 msgstr ""
@@ -20644,23 +20652,23 @@ msgstr ""
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:789
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:797
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:800
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:927
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:962
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:969
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:976
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1107
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1110
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1176
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1179
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:924
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:957
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:964
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:971
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1100
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1103
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1169
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1172
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1175
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1182
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1189
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1192
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1311
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1314
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1353
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1429
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1432
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1435
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1185
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1302
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1305
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1344
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1418
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1421
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1424
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1108
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1112
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1116
@@ -20676,25 +20684,25 @@ msgstr ""
 msgid " %"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:910
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:907
 #: libs/ui/widgets/kis_cmb_contour.cpp:13
 #, kde-format
 msgid "Not Implemented Yet"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QListWidget, lstStyleSelector)
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:999
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:994
 #: libs/ui/layerstyles/wdglayerstyles.ui:52
 #, kde-format
 msgid "Inner Shadow"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1000
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:995
 #, kde-format
 msgid "Choke:"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1218
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1211
 #, kde-format
 msgctxt "layer styles parameter"
 msgid "Spread:"
@@ -41799,7 +41807,7 @@ msgstr ""
 msgid "Color Factors"
 msgstr ""
 
-#: plugins/generators/pattern/patterngenerator.cpp:111
+#: plugins/generators/pattern/patterngenerator.cpp:113
 #, kde-format
 msgid "&Pattern..."
 msgstr ""
@@ -43703,7 +43711,7 @@ msgstr ""
 msgid "Save as HDR image (Rec. 2020 PQ)"
 msgstr ""
 
-#: plugins/impex/psd/psd_export.cc:55
+#: plugins/impex/psd/psd_export.cc:56
 #, kde-format
 msgctxt "image conversion warning"
 msgid ""
@@ -43711,7 +43719,7 @@ msgid ""
 "from the image."
 msgstr ""
 
-#: plugins/impex/psd/psd_loader.cpp:149
+#: plugins/impex/psd/psd_loader.cpp:152
 #, kde-format
 msgid "Duotone Colormode Block"
 msgstr ""
