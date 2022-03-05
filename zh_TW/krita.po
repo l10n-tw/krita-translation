@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-03-04 00:43+0000\n"
-"PO-Revision-Date: 2022-03-01 09:43+0000\n"
+"PO-Revision-Date: 2022-03-05 07:04+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -16005,16 +16005,12 @@ msgstr ""
 "料會被儲存。"
 
 #: libs/impex/FillLayerTypeCheck.h:92
-#, fuzzy, kde-format
-#| msgctxt "Loading a .kra file"
-#| msgid ""
-#| "The file contains a clone layer that has an incorrect source node id. "
-#| "This layer will be converted into a paint layer."
+#, kde-format
 msgctxt "image conversion warning"
 msgid ""
 "The image contains a Fill Layer of type <b>%1</b>, which is not supported, "
 "the layer will be converted to a paintlayer"
-msgstr "此檔案包含有著錯誤來源節點 ID 的再製圖層。此圖層將轉成顏料圖層。"
+msgstr "此檔案包含有不支援的填充圖層類型「<b>%1</b>」。此圖層將轉成顏料圖層"
 
 #: libs/impex/KisExportCheckRegistry.cpp:100 libs/ui/kis_layer_manager.cc:647
 #, kde-format
