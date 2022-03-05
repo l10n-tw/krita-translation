@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-03-01 00:42+0000\n"
-"PO-Revision-Date: 2022-03-01 09:43+0000\n"
+"POT-Creation-Date: 2022-03-04 00:43+0000\n"
+"PO-Revision-Date: 2022-03-05 07:04+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -14919,12 +14919,12 @@ msgstr "大小"
 #: libs/ui/animation/wdg_animationrenderer.ui:196
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:753
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:757
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:965
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:972
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1185
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1356
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1359
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1425
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:960
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:967
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1178
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1347
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1350
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1414
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1193
 #: libs/ui/forms/wdgdisplaysettings.ui:356
 #: libs/ui/forms/wdggeneralsettings.ui:245
@@ -15317,13 +15317,13 @@ msgid "Imported Image"
 msgstr "匯入的影像"
 
 #: libs/image/kis_image.cc:656 libs/image/kis_layer_utils.cpp:1870
-#: libs/impex/KisExportCheckRegistry.cpp:118
+#: libs/impex/KisExportCheckRegistry.cpp:120
 #, kde-format
 msgid "Selection Mask"
 msgstr "選取區域遮罩"
 
 #: libs/image/kis_image.cc:716 libs/ui/KisDocument.cpp:2426
-#: plugins/impex/psd/psd_loader.cpp:162
+#: plugins/impex/psd/psd_loader.cpp:190
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:68
 #: plugins/python/comics_project_management_tools/comics_template_dialog.py:302
 #, kde-format
@@ -15914,12 +15914,12 @@ msgstr "覆蓋 (樣式)"
 msgid "Satin (style)"
 msgstr "光澤 (樣式)"
 
-#: libs/image/lazybrush/kis_colorize_mask.cpp:955
+#: libs/image/lazybrush/kis_colorize_mask.cpp:962
 msgctxt "(qtundo-format)"
 msgid "Change Key Stroke Color"
 msgstr "變更關鍵筆畫色彩"
 
-#: libs/image/lazybrush/kis_colorize_mask.cpp:982
+#: libs/image/lazybrush/kis_colorize_mask.cpp:989
 msgctxt "(qtundo-format)"
 msgid "Remove Key Stroke"
 msgstr "移除關鍵筆畫"
@@ -16004,59 +16004,67 @@ msgstr ""
 "此影像含有 <b>Exif</b> 中繼資料及多個圖層。只有在<b>第一個圖層內</b>的中繼資"
 "料會被儲存。"
 
-#: libs/impex/KisExportCheckRegistry.cpp:98 libs/ui/kis_layer_manager.cc:647
+#: libs/impex/FillLayerTypeCheck.h:92
+#, kde-format
+msgctxt "image conversion warning"
+msgid ""
+"The image contains a Fill Layer of type <b>%1</b>, which is not supported, "
+"the layer will be converted to a paintlayer"
+msgstr "此檔案包含有不支援的填充圖層類型「<b>%1</b>」。此圖層將轉成顏料圖層"
+
+#: libs/impex/KisExportCheckRegistry.cpp:100 libs/ui/kis_layer_manager.cc:647
 #, kde-format
 msgid "Clone Layer"
 msgstr "再製圖層"
 
-#: libs/impex/KisExportCheckRegistry.cpp:100 libs/ui/kis_layer_manager.cc:631
+#: libs/impex/KisExportCheckRegistry.cpp:102 libs/ui/kis_layer_manager.cc:631
 #: libs/ui/kis_node_manager.cpp:1514
 #, kde-format
 msgctxt "A group of layers"
 msgid "Group"
 msgstr "群組"
 
-#: libs/impex/KisExportCheckRegistry.cpp:102 libs/ui/kis_layer_manager.cc:956
+#: libs/impex/KisExportCheckRegistry.cpp:104 libs/ui/kis_layer_manager.cc:956
 #, kde-format
 msgid "File Layer"
 msgstr "檔案圖層"
 
-#: libs/impex/KisExportCheckRegistry.cpp:104 libs/ui/kis_layer_manager.cc:660
+#: libs/impex/KisExportCheckRegistry.cpp:106 libs/ui/kis_layer_manager.cc:660
 #: plugins/impex/svg/kis_svg_import.cc:80
 #, kde-format
 msgid "Vector Layer"
 msgstr "向量圖層"
 
-#: libs/impex/KisExportCheckRegistry.cpp:106 libs/ui/kis_layer_manager.cc:682
+#: libs/impex/KisExportCheckRegistry.cpp:108 libs/ui/kis_layer_manager.cc:682
 #, kde-format
 msgid "Filter Layer"
 msgstr "濾鏡圖層"
 
-#: libs/impex/KisExportCheckRegistry.cpp:108
+#: libs/impex/KisExportCheckRegistry.cpp:110
 #, kde-format
 msgid "Generator Layer"
 msgstr "產生器圖層"
 
-#: libs/impex/KisExportCheckRegistry.cpp:110 libs/ui/kis_mask_manager.cc:274
+#: libs/impex/KisExportCheckRegistry.cpp:112 libs/ui/kis_mask_manager.cc:274
 #, kde-format
 msgid "Colorize Mask"
 msgstr "著色遮罩"
 
-#: libs/impex/KisExportCheckRegistry.cpp:112
+#: libs/impex/KisExportCheckRegistry.cpp:114
 #: libs/ui/dialogs/kis_dlg_filter.cpp:218 libs/ui/kis_mask_manager.cc:223
 #, kde-format
 msgid "Filter Mask"
 msgstr "濾鏡遮罩"
 
-#: libs/impex/KisExportCheckRegistry.cpp:114 libs/ui/kis_mask_manager.cc:286
+#: libs/impex/KisExportCheckRegistry.cpp:116 libs/ui/kis_mask_manager.cc:286
 #, kde-format
 msgid "Transform Mask"
 msgstr "變形遮罩"
 
-#: libs/impex/KisExportCheckRegistry.cpp:116 libs/ui/kis_mask_manager.cc:210
+#: libs/impex/KisExportCheckRegistry.cpp:118 libs/ui/kis_mask_manager.cc:210
 #: libs/ui/kis_node_manager.cpp:1294
 #: plugins/impex/libkra/kis_kra_load_visitor.cpp:213
-#: plugins/impex/psd/psd_loader.cpp:288
+#: plugins/impex/psd/psd_loader.cpp:380
 #: plugins/impex/tiff/kis_tiff_converter.cc:1296
 #: plugins/impex/xcf/kis_xcf_import.cpp:273
 #, kde-format
@@ -17552,18 +17560,18 @@ msgstr "輸出"
 msgid "Untitled"
 msgstr "無標題"
 
-#: libs/pigment/resources/KoStopGradient.cpp:372
+#: libs/pigment/resources/KoStopGradient.cpp:377
 #, kde-format
 msgid "SVG Gradient"
 msgstr "SVG 漸變"
 
-#: libs/psd/psd_layer_section.cpp:381
+#: libs/psd/psd_layer_section.cpp:403
 #, kde-format
 msgctxt "Automatically created layer name when saving into PSD"
 msgid "Background"
 msgstr "背景"
 
-#: libs/psd/psd_layer_section.cpp:633 libs/psd/psd_layer_section.cpp:778
+#: libs/psd/psd_layer_section.cpp:710 libs/psd/psd_layer_section.cpp:860
 #, kde-format
 msgid "Unnamed Layer"
 msgstr "未命名圖層"
@@ -20789,23 +20797,23 @@ msgstr "已存在此名稱的圖層樣式庫。要覆蓋它嗎？"
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:789
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:797
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:800
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:927
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:962
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:969
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:976
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1107
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1110
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1176
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1179
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:924
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:957
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:964
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:971
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1100
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1103
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1169
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1172
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1175
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1182
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1189
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1192
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1311
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1314
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1353
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1429
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1432
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1435
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1185
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1302
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1305
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1344
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1418
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1421
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1424
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1108
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1112
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1116
@@ -20821,25 +20829,25 @@ msgstr "已存在此名稱的圖層樣式庫。要覆蓋它嗎？"
 msgid " %"
 msgstr " %"
 
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:910
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:907
 #: libs/ui/widgets/kis_cmb_contour.cpp:13
 #, kde-format
 msgid "Not Implemented Yet"
 msgstr "尚未實現"
 
 #. i18n: ectx: property (text), item, widget (QListWidget, lstStyleSelector)
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:999
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:994
 #: libs/ui/layerstyles/wdglayerstyles.ui:52
 #, kde-format
 msgid "Inner Shadow"
 msgstr "內部陰影"
 
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1000
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:995
 #, kde-format
 msgid "Choke:"
 msgstr "阻塞："
 
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1218
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1211
 #, kde-format
 msgctxt "layer styles parameter"
 msgid "Spread:"
@@ -28619,34 +28627,34 @@ msgstr "但螢幕校樣仍然關閉。"
 msgid "Gamut Warnings turned off."
 msgstr "已關閉色域警告。"
 
-#: libs/ui/KisViewManager.cpp:754
+#: libs/ui/KisViewManager.cpp:759
 #, kde-format
 msgid "Active Author Profile"
 msgstr "目前作者檔案"
 
-#: libs/ui/KisViewManager.cpp:881
+#: libs/ui/KisViewManager.cpp:886
 #, kde-format
 msgid "%1 (Copy)"
 msgstr "%1 (副本)"
 
-#: libs/ui/KisViewManager.cpp:1023 libs/ui/KisViewManager.cpp:1104
+#: libs/ui/KisViewManager.cpp:1028 libs/ui/KisViewManager.cpp:1109
 #, kde-format
 msgid "Alternative names exhausted, try manually saving with a higher number"
 msgstr "備用名稱數字已用盡，請手動輸入更大的數字儲存檔案"
 
-#: libs/ui/KisViewManager.cpp:1023
+#: libs/ui/KisViewManager.cpp:1028
 #, kde-format
 msgctxt "@title:window"
 msgid "Couldn't save incremental version"
 msgstr "無法儲存遞增版本"
 
-#: libs/ui/KisViewManager.cpp:1104
+#: libs/ui/KisViewManager.cpp:1109
 #, kde-format
 msgctxt "@title:window"
 msgid "Couldn't save incremental backup"
 msgstr "無法儲存遞增備份"
 
-#: libs/ui/KisViewManager.cpp:1287
+#: libs/ui/KisViewManager.cpp:1292
 #, kde-format
 msgid ""
 "Going into Canvas-Only mode.\n"
@@ -28655,13 +28663,13 @@ msgstr ""
 "即將切換為畫布獨佔模式。\n"
 "按下 %1 返回。"
 
-#: libs/ui/KisViewManager.cpp:1327
+#: libs/ui/KisViewManager.cpp:1332
 #, kde-format
 msgctxt "@title:window resource folder"
 msgid "Open Resource Folder"
 msgstr "開啟資源資料夾"
 
-#: libs/ui/KisViewManager.cpp:1330
+#: libs/ui/KisViewManager.cpp:1335
 #, kde-format
 msgctxt "@info resource folder"
 msgid ""
@@ -28684,19 +28692,19 @@ msgstr ""
 "<p><b>應用程式內部資料夾</b>：<br/>\n"
 "%2</p>"
 
-#: libs/ui/KisViewManager.cpp:1344
+#: libs/ui/KisViewManager.cpp:1349
 #, kde-format
 msgctxt "@action:button resource folder"
 msgid "Open in &user AppData"
 msgstr "開啟使用者 AppData (&U)"
 
-#: libs/ui/KisViewManager.cpp:1345
+#: libs/ui/KisViewManager.cpp:1350
 #, kde-format
 msgctxt "@action:button resource folder"
 msgid "Open in &private app location"
 msgstr "開啟應用程式內部資料夾(&P)"
 
-#: libs/ui/KisViewManager.cpp:1458 libs/ui/KisViewManager.cpp:1476
+#: libs/ui/KisViewManager.cpp:1463 libs/ui/KisViewManager.cpp:1481
 #, kde-format
 msgctxt "choice for author profile"
 msgid "Anonymous"
@@ -42589,7 +42597,7 @@ msgstr "連接線條："
 msgid "Color Factors"
 msgstr "色彩比例"
 
-#: plugins/generators/pattern/patterngenerator.cpp:111
+#: plugins/generators/pattern/patterngenerator.cpp:113
 #, kde-format
 msgid "&Pattern..."
 msgstr "圖案(&P)…"
@@ -44576,7 +44584,7 @@ msgstr "隔行交錯掃描"
 msgid "Save as HDR image (Rec. 2020 PQ)"
 msgstr "另存為 HDR 影像 (Rec. 2020 PQ)"
 
-#: plugins/impex/psd/psd_export.cc:55
+#: plugins/impex/psd/psd_export.cc:56
 #, kde-format
 msgctxt "image conversion warning"
 msgid ""
@@ -44584,7 +44592,7 @@ msgid ""
 "from the image."
 msgstr "此影像包含一個或多個與影像本身色彩模型不同的圖層。"
 
-#: plugins/impex/psd/psd_loader.cpp:149
+#: plugins/impex/psd/psd_loader.cpp:152
 #, kde-format
 msgid "Duotone Colormode Block"
 msgstr "雙色調色彩模式資料塊"
