@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-03-06 00:42+0000\n"
+"POT-Creation-Date: 2022-03-08 00:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -14957,8 +14957,8 @@ msgstr ""
 #: plugins/paintops/spray/kis_spray_shape_option.cpp:124
 #: plugins/paintops/spray/kis_sprayop_option.cpp:31
 #: plugins/tools/basictools/kis_tool_brush.cc:388
-#: plugins/tools/basictools/kis_tool_fill.cc:376
-#: plugins/tools/basictools/kis_tool_fill.cc:383
+#: plugins/tools/basictools/kis_tool_fill.cc:412
+#: plugins/tools/basictools/kis_tool_fill.cc:416
 #: plugins/tools/basictools/kis_tool_movetooloptionswidget.cpp:51
 #: plugins/tools/basictools/kis_tool_movetooloptionswidget.cpp:52
 #: plugins/tools/basictools/kis_tool_multihand.cpp:451
@@ -17514,7 +17514,7 @@ msgstr ""
 #: libs/pigment/resources/KoColorSet.cpp:1124
 #: libs/ui/actions/KisPasteActionFactories.cpp:300
 #: libs/ui/animation/KisDlgAnimationRenderer.cpp:345
-#: libs/ui/KisView.cpp:839 plugins/generators/seexpr/kis_wdg_seexpr.cpp:34
+#: libs/ui/KisView.cpp:845 plugins/generators/seexpr/kis_wdg_seexpr.cpp:34
 #, kde-format
 msgid "Untitled"
 msgstr ""
@@ -17586,7 +17586,7 @@ msgstr ""
 #: libs/ui/KisRemoteFileFetcher.cpp:35 libs/ui/KisRemoteFileFetcher.cpp:56
 #: libs/ui/KisRemoteFileFetcher.cpp:86 libs/ui/KisTemplateCreateDia.cpp:284
 #: libs/ui/KisTemplateCreateDia.cpp:390 libs/ui/KisView.cpp:589
-#: libs/ui/KisView.cpp:842 libs/ui/KisWelcomePageWidget.cpp:711
+#: libs/ui/KisView.cpp:848 libs/ui/KisWelcomePageWidget.cpp:711
 #: libs/ui/opengl/KisOpenGLCanvasRenderer.cpp:358
 #: libs/ui/widgets/kis_custom_image_widget.cc:293
 #: plugins/assistants/Assistants/kis_assistant_tool.cc:1301
@@ -20568,7 +20568,8 @@ msgstr ""
 #: plugins/paintops/tangentnormal/kis_tangent_tilt_option.cpp:39
 #: plugins/paintops/tangentnormal/kis_tangent_tilt_option.cpp:43
 #: plugins/tools/basictools/kis_tool_colorsampler.cc:398
-#: plugins/tools/basictools/kis_tool_fill.cc:362
+#: plugins/tools/basictools/kis_tool_fill.cc:389
+#: plugins/tools/basictools/kis_tool_fill.cc:399
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:262
 #: plugins/tools/svgtexttool/SvgTextEditor.cpp:1449
 #, no-c-format, kde-format
@@ -20859,7 +20860,7 @@ msgid "Screen %1 (%2):"
 msgstr ""
 
 #: libs/ui/dialogs/kis_dlg_preferences.cc:837
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:793
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:791
 #: libs/ui/widgets/kis_color_space_selector.cc:191
 #, kde-format
 msgid "Install Color Profiles"
@@ -21806,7 +21807,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton, radioPerceptual)
 #: libs/ui/forms/wdgapplyprofile.ui:100 libs/ui/forms/wdgcolorsettings.ui:183
 #: libs/ui/forms/wdgcolorsettings.ui:274 libs/ui/forms/wdgimageproperties.ui:298
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:485
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:483
 #: plugins/extensions/colorspaceconversion/wdgconvertcolorspace.ui:45
 #, kde-format
 msgid "Perceptual"
@@ -21841,7 +21842,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton, radioSaturation)
 #: libs/ui/forms/wdgapplyprofile.ui:120 libs/ui/forms/wdgcolorsettings.ui:193
 #: libs/ui/forms/wdgcolorsettings.ui:284 libs/ui/forms/wdgimageproperties.ui:308
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:494
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:492
 #: plugins/extensions/colorspaceconversion/wdgconvertcolorspace.ui:89
 #, kde-format
 msgctxt "ICC profile rendering intent"
@@ -21977,7 +21978,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbProofingIntent)
 #: libs/ui/forms/wdgcolorsettings.ui:188 libs/ui/forms/wdgcolorsettings.ui:279
 #: libs/ui/forms/wdgimageproperties.ui:303
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:488
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:486
 #, kde-format
 msgid "Relative Colorimetric"
 msgstr ""
@@ -21987,7 +21988,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbProofingIntent)
 #: libs/ui/forms/wdgcolorsettings.ui:198 libs/ui/forms/wdgcolorsettings.ui:289
 #: libs/ui/forms/wdgimageproperties.ui:313
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:491
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:489
 #, kde-format
 msgid "Absolute Colorimetric"
 msgstr ""
@@ -23207,6 +23208,7 @@ msgstr ""
 #: plugins/generators/pattern/wdgpatternoptions.ui:21
 #: plugins/paintops/libpaintop/kis_color_source_option.cpp:46
 #: plugins/paintops/libpaintop/kis_texture_option.cpp:54
+#: plugins/tools/basictools/kis_tool_fill.cc:440
 #, kde-format
 msgid "Pattern"
 msgstr ""
@@ -23245,7 +23247,6 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: libs/ui/forms/wdggeometryoptions.ui:120
-#: plugins/tools/basictools/kis_tool_fill.cc:389
 #, kde-format
 msgid "Rotate:"
 msgstr ""
@@ -23264,7 +23265,6 @@ msgstr ""
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:121
 #: plugins/paintops/libpaintop/forms/wdgtexturechooser.ui:76
 #: plugins/paintops/spray/wdgsprayoptions.ui:112
-#: plugins/tools/basictools/kis_tool_fill.cc:395
 #, kde-format
 msgid "Scale:"
 msgstr ""
@@ -24826,7 +24826,6 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, chkAntialiasing)
 #: libs/ui/forms/wdgselectionoptions.ui:185
 #: plugins/extensions/modify_selection/wdg_border_selection.ui:127
-#: plugins/tools/basictools/kis_tool_fill.cc:366
 #, kde-format
 msgid "Anti-aliasing"
 msgstr ""
@@ -24892,6 +24891,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, fillBox)
 #: libs/ui/forms/wdgstrokeselectionproperties.ui:96
 #: libs/ui/forms/wdgstrokeselectionproperties.ui:224
+#: plugins/tools/basictools/kis_tool_fill.cc:438
 #, kde-format
 msgid "Foreground color"
 msgstr ""
@@ -24900,6 +24900,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, fillBox)
 #: libs/ui/forms/wdgstrokeselectionproperties.ui:101
 #: libs/ui/forms/wdgstrokeselectionproperties.ui:214
+#: plugins/tools/basictools/kis_tool_fill.cc:439
 #, kde-format
 msgid "Background color"
 msgstr ""
@@ -28112,44 +28113,44 @@ msgstr ""
 msgid "Layer is invisible."
 msgstr ""
 
-#: libs/ui/KisView.cpp:843
+#: libs/ui/KisView.cpp:849
 #, kde-format
 msgid ""
 "<p>The document <b>'%1'</b> has been modified.</p><p>Do you want to save it?"
 "</p>"
 msgstr ""
 
-#: libs/ui/KisView.cpp:1032
+#: libs/ui/KisView.cpp:1038
 #, kde-format
 msgid "Soft Proofing doesn't work in floating point."
 msgstr ""
 
-#: libs/ui/KisView.cpp:1037
+#: libs/ui/KisView.cpp:1043
 #, kde-format
 msgid "Soft Proofing turned on."
 msgstr ""
 
-#: libs/ui/KisView.cpp:1039
+#: libs/ui/KisView.cpp:1045
 #, kde-format
 msgid "Soft Proofing turned off."
 msgstr ""
 
-#: libs/ui/KisView.cpp:1051
+#: libs/ui/KisView.cpp:1057
 #, kde-format
 msgid "Gamut Warnings don't work in floating point."
 msgstr ""
 
-#: libs/ui/KisView.cpp:1057
+#: libs/ui/KisView.cpp:1063
 #, kde-format
 msgid "Gamut Warnings turned on."
 msgstr ""
 
-#: libs/ui/KisView.cpp:1059
+#: libs/ui/KisView.cpp:1065
 #, kde-format
 msgid "But Soft Proofing is still off."
 msgstr ""
 
-#: libs/ui/KisView.cpp:1062
+#: libs/ui/KisView.cpp:1068
 #, kde-format
 msgid "Gamut Warnings turned off."
 msgstr ""
@@ -29923,7 +29924,7 @@ msgstr ""
 #: libs/ui/widgets/kis_advanced_color_space_selector.cc:365
 #, kde-format
 msgctxt "@info:tooltip"
-msgid "Estimated Gamma cannot be retrieved for YCrCb."
+msgid "Estimated Gamma cannot be retrieved for YCbCr."
 msgstr ""
 
 #: libs/ui/widgets/kis_advanced_color_space_selector.cc:371
@@ -30029,12 +30030,10 @@ msgid ""
 "lightness, red-green balance and yellow-blue balance. Chroma in this case is "
 "then a word indicating a special type of saturation, in these cases the "
 "saturation of Red and Blue, of which the desaturated equivalents are Green "
-"and Yellow respectively. It is available to open up certain images "
-"correctly, but Krita does not currently ship a profile for this due to lack "
-"of open source ICC profiles for YCrCb."
+"and Yellow respectively."
 msgstr ""
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:442
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:440
 #, kde-format
 msgctxt "When the selected Bitdepth is 8"
 msgid ""
@@ -30044,7 +30043,7 @@ msgid ""
 "intended for the web, or otherwise simple images."
 msgstr ""
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:448
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:446
 #, kde-format
 msgctxt "When the selected Bitdepth is 16"
 msgid ""
@@ -30058,7 +30057,7 @@ msgid ""
 "from 16 bit/channel to 8 bit/channel."
 msgstr ""
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:457
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:455
 #, kde-format
 msgctxt "When the selected Bitdepth is 16 bit float"
 msgid ""
@@ -30073,7 +30072,7 @@ msgid ""
 "bit if your computer slows down."
 msgstr ""
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:466
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:464
 #, kde-format
 msgctxt "When the selected Bitdepth is 32bit float"
 msgid ""
@@ -30087,7 +30086,7 @@ msgid ""
 "otherwise use 8 bit if your computer slows down."
 msgstr ""
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:475
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:473
 #, kde-format
 msgctxt ""
 "When the selected Bitdepth is 64bit float, but this isn't actually available "
@@ -30103,12 +30102,12 @@ msgid ""
 "otherwise use 8 bit if your computer slows down."
 msgstr ""
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:483
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:481
 #, kde-format
 msgid "The following conversion intents are possible: "
 msgstr ""
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:502
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:500
 #, kde-format
 msgctxt "These are Elle Stone's notes on her profiles that we ship."
 msgid ""
@@ -30119,7 +30118,7 @@ msgid ""
 "\">the full documentation</a> as well.</i></p>"
 msgstr ""
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:510
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:508
 #, kde-format
 msgctxt "From Elle's notes."
 msgid ""
@@ -30130,7 +30129,7 @@ msgid ""
 "source'.</p>"
 msgstr ""
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:518
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:516
 #, kde-format
 msgctxt "From Elle's notes."
 msgid ""
@@ -30140,7 +30139,7 @@ msgid ""
 "just barely outside the area of real colors humans can see</p>"
 msgstr ""
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:525
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:523
 #, kde-format
 msgctxt "From Elle's notes."
 msgid ""
@@ -30157,7 +30156,7 @@ msgid ""
 "to some of today's high-end wide gamut monitors.</p>"
 msgstr ""
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:539
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:537
 #, kde-format
 msgctxt "From Elle's notes."
 msgid ""
@@ -30175,7 +30174,7 @@ msgid ""
 "colors.</p>"
 msgstr ""
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:554
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:552
 #, kde-format
 msgctxt "From Elle's notes."
 msgid ""
@@ -30189,7 +30188,7 @@ msgid ""
 "be calculated from the spectral wavelengths, so I did.</p>"
 msgstr ""
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:567
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:565
 #, kde-format
 msgctxt "From Elle's notes."
 msgid ""
@@ -30200,7 +30199,7 @@ msgid ""
 "to actually edit images in the IdentityRGB working space.</p>"
 msgstr ""
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:575
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:573
 #, kde-format
 msgctxt "From Elle's notes."
 msgid ""
@@ -30221,7 +30220,7 @@ msgid ""
 "and cons of changing your workflow.</p>"
 msgstr ""
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:593
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:591
 #, kde-format
 msgctxt "From Elle's notes."
 msgid ""
@@ -30234,7 +30233,7 @@ msgid ""
 "working space than the exceedingly small sRGB color space.</p>"
 msgstr ""
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:602
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:600
 #, kde-format
 msgctxt "From Elle's notes."
 msgid ""
@@ -30255,7 +30254,7 @@ msgid ""
 "profile, and matrix profiles don't have perceptual intent tables.</p>"
 msgstr ""
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:618
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:616
 #, kde-format
 msgctxt "From Elle's notes."
 msgid ""
@@ -30268,7 +30267,7 @@ msgid ""
 "color space.</p>"
 msgstr ""
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:626
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:624
 #, kde-format
 msgctxt "From Elle's notes."
 msgid ""
@@ -30281,7 +30280,7 @@ msgid ""
 "internet, convert the image to the V2 Gray profile with the sRGB TRC.</p>"
 msgstr ""
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:634
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:632
 #, kde-format
 msgctxt "From Elle's notes."
 msgid ""
@@ -30292,7 +30291,7 @@ msgid ""
 "color spaces.</p>"
 msgstr ""
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:641
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:639
 #, kde-format
 msgctxt "From Elle's notes."
 msgid ""
@@ -30301,7 +30300,7 @@ msgid ""
 "Make sure you use the V4 versions for editing high bit depth images.</p>"
 msgstr ""
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:647
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:645
 #, kde-format
 msgctxt "From Elle's notes."
 msgid ""
@@ -30310,7 +30309,7 @@ msgid ""
 "gamma=1.8 TRC is not quite as close to being perceptually uniform.</p>"
 msgstr ""
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:652
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:650
 #, kde-format
 msgctxt "From Elle's notes."
 msgid ""
@@ -30323,7 +30322,7 @@ msgid ""
 "8-bit editing.</p>"
 msgstr ""
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:660
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:658
 #, kde-format
 msgctxt "From Elle's notes."
 msgid ""
@@ -30332,7 +30331,7 @@ msgid ""
 "showFoto, and GIMP 2.9.</p>"
 msgstr ""
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:665
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:663
 #, kde-format
 msgctxt "From Elle's notes."
 msgid ""
@@ -50885,157 +50884,194 @@ msgstr ""
 msgid "Ellipse Tool"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_fill.cc:120
+#: plugins/tools/basictools/kis_tool_fill.cc:114
 #, kde-format
 msgid "You cannot use this tool with the selected layer type"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_fill.cc:192
+#: plugins/tools/basictools/kis_tool_fill.cc:187
 msgctxt "(qtundo-format)"
 msgid "Flood Fill"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_fill.cc:345
+#: plugins/tools/basictools/kis_tool_fill.cc:388
 #, kde-format
-msgid "Fast mode:"
+msgctxt "The pattern 'scale' spinbox prefix in fill tool options"
+msgid "Scale: "
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_fill.cc:348
+#: plugins/tools/basictools/kis_tool_fill.cc:395
 #, kde-format
-msgid ""
-"Fills area faster, but does not take composition mode into account. "
-"Selections and other extended features will also be disabled."
+msgctxt "The 'threshold' spinbox prefix in fill tool options"
+msgid "Threshold: "
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_fill.cc:353
+#: plugins/tools/basictools/kis_tool_fill.cc:398
 #, kde-format
-msgctxt "The Threshold label in Fill tool options"
-msgid "Threshold:"
+msgctxt "The 'spread' spinbox prefix in fill tool options"
+msgid "Spread: "
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_fill.cc:359
-#, kde-format
-msgctxt "The Opacity Spread label in Fill tool options"
-msgid "Opacity Spread:"
-msgstr ""
-
-#: plugins/tools/basictools/kis_tool_fill.cc:369
-#, kde-format
-msgid "Smooths the jagged edges."
-msgstr ""
-
-#: plugins/tools/basictools/kis_tool_fill.cc:371
-#, kde-format
-msgid "Grow selection:"
-msgstr ""
-
-#: plugins/tools/basictools/kis_tool_fill.cc:378
-#, kde-format
-msgid "Feathering radius:"
-msgstr ""
-
-#: plugins/tools/basictools/kis_tool_fill.cc:385
-#, kde-format
-msgid "Use pattern:"
-msgstr ""
-
-#: plugins/tools/basictools/kis_tool_fill.cc:387
-#, kde-format
-msgid ""
-"When checked do not use the foreground color, but the pattern selected to "
-"fill with"
-msgstr ""
-
-#: plugins/tools/basictools/kis_tool_fill.cc:405
+#: plugins/tools/basictools/kis_tool_fill.cc:404
 #, kde-format
 msgctxt ""
-"This is a label before a combobox with different choices regarding which "
-"layers to take into considerationg when calculating the area to fill. "
-"Options together with the label are: /Sample current layer/ /Sample all "
-"layers/ /Sample color labeled layers/. Sample is a verb here and means "
-"something akin to 'take into account'."
-msgid "Sample:"
+"The 'use selection as boundary' checkbox in fill tool to use selection "
+"borders as boundary when filling"
+msgid "Use selection as boundary"
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_fill.cc:408
+#, kde-format
+msgctxt "The anti-alias checkbox in fill tool options"
+msgid "Anti-aliasing"
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_fill.cc:410
+#, kde-format
+msgctxt "The 'grow/shrink' spinbox prefix in fill tool options"
+msgid "Grow: "
 msgstr ""
 
 #: plugins/tools/basictools/kis_tool_fill.cc:414
 #, kde-format
-msgctxt ""
-"This is a string in tool options for Fill Tool to describe a combobox about "
-"a choice of color labels that a layer can be marked with. Those color labels "
-"will be used for calculating the area to fill."
-msgid "Labels used:"
+msgctxt "The 'feather' spinbox prefix in fill tool options"
+msgid "Feather: "
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_fill.cc:418
+#: plugins/tools/basictools/kis_tool_fill.cc:432
 #, kde-format
-msgid "Fill entire selection:"
+msgctxt "The 'reset' button in fill tool options"
+msgid "Reset"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_fill.cc:420
+#: plugins/tools/basictools/kis_tool_fill.cc:435
+#, kde-format
+msgid "Current selection"
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_fill.cc:436
+#, kde-format
+msgid "Contiguous region obtained from the layers"
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_fill.cc:441
+#, kde-format
+msgid "Set the scale of the pattern"
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_fill.cc:442
+#, kde-format
+msgid "Set the rotation of the pattern"
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_fill.cc:444
 #, kde-format
 msgid ""
-"When checked do not look at the current layer colors, but just fill all of "
-"the selected area"
+"Set how far the region should extend from the selected pixel in terms of "
+"color similarity"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_fill.cc:422
+#: plugins/tools/basictools/kis_tool_fill.cc:445
 #, kde-format
-msgctxt ""
-"Description for a checkbox in a Fill Tool to use selection borders as "
-"boundary when filling"
-msgid "Use selection as boundary:"
+msgid ""
+"Set how far the fully opaque portion of the region should extend.\n"
+"0% will make opaque only the pixels that are exactly equal to the selected "
+"pixel.\n"
+"100% will make opaque all the pixels in the region up to its boundary."
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_fill.cc:424
+#: plugins/tools/basictools/kis_tool_fill.cc:448
 #, kde-format
-msgctxt "Tooltip for 'Use selection as boundary' checkbox"
-msgid "When checked, use selection borders as boundary when filling"
+msgid ""
+"Set if the contour of the current selection should be treated as a boundary "
+"when obtaining the region"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_fill.cc:426
+#: plugins/tools/basictools/kis_tool_fill.cc:450
 #, kde-format
-msgctxt "The 'continuous fill' label in Fill tool options"
-msgid "Continuous Fill:"
+msgid "Smooth the jagged edges"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_fill.cc:428
+#: plugins/tools/basictools/kis_tool_fill.cc:451
 #, kde-format
-msgctxt "Continuous fill mode in fill tool options"
-msgid "Any region"
+msgid ""
+"Grow (positive values) or shrink (negative values) the region by the set "
+"amount"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_fill.cc:429
+#: plugins/tools/basictools/kis_tool_fill.cc:452
 #, kde-format
-msgctxt "Continuous fill mode in fill tool options"
-msgid "Similar regions"
+msgid "Blur the region by the set amount"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_fill.cc:550
+#: plugins/tools/basictools/kis_tool_fill.cc:454
 #, kde-format
-msgctxt ""
-"Option in fill tool: take only the current layer into account when "
-"calculating the area to fill"
-msgid "Current Layer"
+msgid "Obtain the region using the active layer"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_fill.cc:554
+#: plugins/tools/basictools/kis_tool_fill.cc:455
 #, kde-format
-msgctxt ""
-"Option in fill tool: take all layers (merged) into account when calculating "
-"the area to fill"
-msgid "All Layers"
+msgid "Obtain the region using a merged copy of all layers"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_fill.cc:557
+#: plugins/tools/basictools/kis_tool_fill.cc:456
 #, kde-format
-msgctxt ""
-"Option in fill tool: take all layers that were labeled with a color label "
-"(more precisely: all those layers merged) into account when calculating the "
-"area to fill"
-msgid "Color Labeled Layers"
+msgid ""
+"Obtain the region using a merged copy of the selected color-labeled layers"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_fill.h:160
+#: plugins/tools/basictools/kis_tool_fill.cc:458
+#, kde-format
+msgid "Fill regions of any color"
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_fill.cc:459
+#, kde-format
+msgid "Fill only regions similar in color to the initial region"
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_fill.cc:461
+#, kde-format
+msgid "Reset the options to their default values"
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_fill.cc:470
+#, kde-format
+msgctxt "The 'what to fill' section label in fill tool options"
+msgid "What to fill"
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_fill.cc:477
+#, kde-format
+msgctxt "The 'fill with' section label in fill tool options"
+msgid "Fill with"
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_fill.cc:488
+#, kde-format
+msgctxt "The 'region extent' section label in fill tool options"
+msgid "Region extent"
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_fill.cc:497
+#, kde-format
+msgctxt "The 'adjustments' section label in fill tool options"
+msgid "Adjustments"
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_fill.cc:506
+#, kde-format
+msgctxt "The 'reference' section label in fill tool options"
+msgid "Reference"
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_fill.cc:515
+#, kde-format
+msgctxt "The 'multiple fill' section label in fill tool options"
+msgid "Multiple fill"
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_fill.h:187
 #, kde-format
 msgid "Fill Tool"
 msgstr ""
