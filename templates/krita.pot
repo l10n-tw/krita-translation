@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-03-10 00:43+0000\n"
+"POT-Creation-Date: 2022-03-11 00:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -14922,8 +14922,8 @@ msgstr ""
 #: plugins/dockers/griddocker/grid_config_widget.ui:230
 #: plugins/dockers/griddocker/grid_config_widget.ui:444
 #: plugins/dockers/griddocker/grid_config_widget.ui:489
-#: plugins/dockers/recorder/recorder_export.ui:222
-#: plugins/dockers/recorder/recorder_export.ui:260
+#: plugins/dockers/recorder/recorder_export.ui:442
+#: plugins/dockers/recorder/recorder_export.ui:480
 #: plugins/filters/blur/kis_wdg_gaussian_blur.cpp:36
 #: plugins/filters/blur/kis_wdg_gaussian_blur.cpp:44
 #: plugins/generators/pattern/kis_wdg_pattern.cpp:40
@@ -18343,7 +18343,7 @@ msgstr ""
 #: libs/ui/input/kis_tool_invocation_action.cpp:43
 #: libs/ui/widgets/kis_canvas_drop.cpp:45
 #: plugins/dockers/gamutmask/forms/wdgGamutMaskChooser.ui:190
-#: plugins/dockers/recorder/recorder_export.ui:788
+#: plugins/dockers/recorder/recorder_export.ui:809
 #: plugins/dockers/recorder/recorder_snapshots_manager.ui:130
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:112
 #: plugins/generators/seexpr/wdgseexpr.ui:179
@@ -19494,7 +19494,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #. i18n: ectx: property (text), widget (QLabel, labelX)
 #: libs/ui/animation/VideoHDRMetadataOptionsDialog.ui:46
-#: libs/ui/kis_paintop_box.cc:297 plugins/dockers/recorder/recorder_export.ui:241
+#: libs/ui/kis_paintop_box.cc:297 plugins/dockers/recorder/recorder_export.ui:461
 #, kde-format
 msgid "x"
 msgstr ""
@@ -19681,7 +19681,11 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, exportDurationLabel)
 #. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: ectx: property (text), widget (QLabel, labelHoldFirstFrameSec)
+#. i18n: ectx: property (text), widget (QLabel, labelHoldLastFrameSec)
 #: libs/ui/animation/VideoImportDialog.ui:401
+#: plugins/dockers/recorder/recorder_export.ui:148
+#: plugins/dockers/recorder/recorder_export.ui:521
 #: plugins/paintops/libpaintop/sensors/SensorTimeConfiguration.ui:54
 #, kde-format
 msgid "Duration:"
@@ -19932,7 +19936,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #. i18n: ectx: property (text), widget (QLabel, labelResolution)
 #: libs/ui/animation/wdg_animationrenderer.ui:283
-#: plugins/dockers/recorder/recorder_export.ui:386
+#: plugins/dockers/recorder/recorder_export.ui:182
 #, kde-format
 msgid "Render as:"
 msgstr ""
@@ -24567,7 +24571,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QLabel, heightLabel)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, spinScaleHeight)
 #: libs/ui/forms/wdgrectangleconstraints.ui:83
-#: plugins/dockers/recorder/recorder_export.ui:254
+#: plugins/dockers/recorder/recorder_export.ui:474
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:222
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:247
 #, kde-format
@@ -24585,7 +24589,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QLabel, widthLabel)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, spinScaleWidth)
 #: libs/ui/forms/wdgrectangleconstraints.ui:131
-#: plugins/dockers/recorder/recorder_export.ui:216
+#: plugins/dockers/recorder/recorder_export.ui:436
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:272
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:320
 #, kde-format
@@ -25149,7 +25153,7 @@ msgstr ""
 #: libs/ui/imagesize/wdg_canvassize.ui:135
 #: libs/ui/imagesize/wdg_imagesize.ui:342
 #: libs/ui/imagesize/wdg_layersize.ui:142
-#: plugins/dockers/recorder/recorder_export.ui:444
+#: plugins/dockers/recorder/recorder_export.ui:359
 #: plugins/impex/webp/dlg_webp_import.ui:235
 #, kde-format
 msgid "Constrain proportions"
@@ -35775,7 +35779,7 @@ msgctxt "action"
 msgid "Export Timelapse..."
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:98
+#: plugins/dockers/recorder/recorder_export.cpp:101
 #, kde-format
 msgctxt ""
 "This text is displayed instead of path to external tool in case of external "
@@ -35783,93 +35787,93 @@ msgctxt ""
 msgid "[NOT FOUND]"
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:99
+#: plugins/dockers/recorder/recorder_export.cpp:102
 #, kde-format
 msgid ""
 "FFmpeg executable location couldn't be detected, please install it or select "
 "its location manually"
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:163
+#: plugins/dockers/recorder/recorder_export.cpp:166
 #, kde-format
 msgid "Abort encoding the timelapse video?"
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:235
+#: plugins/dockers/recorder/recorder_export.cpp:238
 #, kde-format
 msgctxt "Status for the export of the video record"
 msgid "Starting FFmpeg..."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QToolButton, btnExport)
-#: plugins/dockers/recorder/recorder_export.cpp:321
+#: plugins/dockers/recorder/recorder_export.cpp:341
 #: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:29
 #: plugins/dockers/storyboarddocker/wdgstoryboarddock.ui:21
 #, kde-format
 msgid "Export"
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:345
+#: plugins/dockers/recorder/recorder_export.cpp:370
 #, kde-format
 msgctxt "Can't export recording because nothing to export"
 msgid "No frames to export"
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:349
+#: plugins/dockers/recorder/recorder_export.cpp:374
 #, kde-format
 msgctxt "General information about recording"
 msgid "Recording info"
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:352
+#: plugins/dockers/recorder/recorder_export.cpp:377
 #, kde-format
 msgctxt "Pixel dimension suffix"
 msgid "px"
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:354
+#: plugins/dockers/recorder/recorder_export.cpp:379
 #, kde-format
 msgctxt "The suffix after number of frames"
 msgid "frame(s)"
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:405
+#: plugins/dockers/recorder/recorder_export.cpp:434
 #, kde-format
 msgctxt "Can't browse frames of recording because no frames have been recorded"
 msgid "No frames to browse."
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:479
+#: plugins/dockers/recorder/recorder_export.cpp:522
 #, kde-format
 msgid "Select FFmpeg Executable File"
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:525
+#: plugins/dockers/recorder/recorder_export.cpp:568
 #, kde-format
 msgid "Export Timelapse Video As"
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:541
+#: plugins/dockers/recorder/recorder_export.cpp:584
 #, kde-format
 msgid "The video file already exists. Do you wish to overwrite it?"
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:546
+#: plugins/dockers/recorder/recorder_export.cpp:589
 #, kde-format
 msgid "No frames to export."
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:573
+#: plugins/dockers/recorder/recorder_export.cpp:616
 #, kde-format
 msgid "The timelapse video is being encoded..."
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:586
+#: plugins/dockers/recorder/recorder_export.cpp:629
 #, kde-format
 msgid "Export failed. FFmpeg message:"
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:607
+#: plugins/dockers/recorder/recorder_export.cpp:650
 #, kde-format
 msgid ""
 "The recordings for this document will be deleted and you will not be able to "
@@ -35879,7 +35883,7 @@ msgid ""
 "Do you wish to continue?"
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:614
+#: plugins/dockers/recorder/recorder_export.cpp:657
 #: plugins/dockers/recorder/recorder_snapshots_manager.cpp:262
 #, kde-format
 msgctxt "Label title, Snapshot directory deleting is in progress"
@@ -35892,91 +35896,38 @@ msgstr ""
 msgid "Export Timelapse"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, labelTitleVideoDuration)
-#: plugins/dockers/recorder/recorder_export.ui:62
-#, kde-format
-msgid "Video duration:"
-msgstr ""
-
 #. i18n: ectx: property (toolTip), widget (QPushButton, buttonBrowseDirectory)
-#: plugins/dockers/recorder/recorder_export.ui:122
+#: plugins/dockers/recorder/recorder_export.ui:64
 #, kde-format
 msgid "Open record directory"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QCheckBox, checkResize)
+#: plugins/dockers/recorder/recorder_export.ui:116
+#, kde-format
+msgid "Resize:"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLabel, labelExportTo)
-#: plugins/dockers/recorder/recorder_export.ui:166
+#: plugins/dockers/recorder/recorder_export.ui:135
 #, kde-format
 msgid "Video location:"
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (QLabel, labelHoldLastFrameSec)
-#: plugins/dockers/recorder/recorder_export.ui:179
-#, kde-format
-msgid "The added duration for showing the last frame."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, labelHoldLastFrameSec)
-#: plugins/dockers/recorder/recorder_export.ui:182
-#, kde-format
-msgid "Hold last frame for:"
-msgstr ""
-
-#. i18n: ectx: property (suffix), widget (QSpinBox, spinCaptureInterval)
-#. i18n: ectx: property (suffix), widget (QSpinBox, spinLastFrameSec)
-#. i18n: ectx: property (suffix), widget (QSpinBox, spinFirstFrameSec)
-#: plugins/dockers/recorder/recorder_export.ui:306
-#: plugins/dockers/recorder/recorder_export.ui:637
-#: plugins/dockers/recorder/recorderdocker.ui:180
-#, kde-format
-msgctxt "Contraction of \"second\" for interval"
-msgid " sec."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: plugins/dockers/recorder/recorder_export.ui:334
-#, kde-format
-msgid "Show result on first frame for:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLineEdit, editFfmpegPath)
-#: plugins/dockers/recorder/recorder_export.ui:405
-#, kde-format
-msgid "ffmpeg"
-msgstr ""
-
 #. i18n: ectx: property (text), widget (QLabel, labelFfmpegLocation)
-#: plugins/dockers/recorder/recorder_export.ui:415
+#: plugins/dockers/recorder/recorder_export.ui:155
 #, kde-format
 msgid "FFmpeg:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, buttonBrowseExport)
-#: plugins/dockers/recorder/recorder_export.ui:461
+#: plugins/dockers/recorder/recorder_export.ui:168
 #, kde-format
 msgid "Select a file location for the exported timelapse video"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, checkResize)
-#: plugins/dockers/recorder/recorder_export.ui:499
-#, kde-format
-msgid "Resize:"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, buttonBrowseFfmpeg)
-#: plugins/dockers/recorder/recorder_export.ui:560
-#, kde-format
-msgid "Setup ffmpeg executable location"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, labelFps)
-#: plugins/dockers/recorder/recorder_export.ui:574
-#, kde-format
-msgid "Video FPS:"
-msgstr ""
-
 #. i18n: ectx: property (toolTip), widget (QLabel, labelFpsInput)
-#: plugins/dockers/recorder/recorder_export.ui:588
+#: plugins/dockers/recorder/recorder_export.ui:209
 #, kde-format
 msgid ""
 "The speed of reading the input stream.\n"
@@ -35985,61 +35936,132 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, labelFpsInput)
-#: plugins/dockers/recorder/recorder_export.ui:591
+#: plugins/dockers/recorder/recorder_export.ui:212
 #, kde-format
 msgctxt "Input FPS of recorded timelapses."
 msgid "Input FPS:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, buttonEditProfile)
-#: plugins/dockers/recorder/recorder_export.ui:622
+#: plugins/dockers/recorder/recorder_export.ui:243
 #, kde-format
 msgid "Edit video profile"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QLineEdit, editFfmpegPath)
+#: plugins/dockers/recorder/recorder_export.ui:256
+#, kde-format
+msgid "ffmpeg"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, resultPreviewCheckBox)
+#: plugins/dockers/recorder/recorder_export.ui:267
+#, kde-format
+msgid ""
+"Prepend a preview to the exported video.\n"
+"The preview will show the last frame of the video for the specified duration"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, resultPreviewCheckBox)
+#: plugins/dockers/recorder/recorder_export.ui:273
+#, kde-format
+msgid "Enable result preview"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, buttonBrowseFfmpeg)
+#: plugins/dockers/recorder/recorder_export.ui:280
+#, kde-format
+msgid "Setup ffmpeg executable location"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelFps)
+#: plugins/dockers/recorder/recorder_export.ui:343
+#, kde-format
+msgid "Video FPS:"
+msgstr ""
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, spinCaptureInterval)
+#. i18n: ectx: property (suffix), widget (QSpinBox, spinLastFrameSec)
+#: plugins/dockers/recorder/recorder_export.ui:384
+#: plugins/dockers/recorder/recorderdocker.ui:180
+#, kde-format
+msgctxt "Contraction of \"second\" for interval"
+msgid " sec."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QLabel, labelHoldLastFrameSec)
+#: plugins/dockers/recorder/recorder_export.ui:518
+#, kde-format
+msgid "The added duration for showing the last frame."
+msgstr ""
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, spinFirstFrameSec)
+#: plugins/dockers/recorder/recorder_export.ui:581
+#, kde-format
+msgid " sec."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, extendResultCheckBox)
+#: plugins/dockers/recorder/recorder_export.ui:609
+#, kde-format
+msgid "Extend the last frame in the exported video by the specified duration"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, extendResultCheckBox)
+#: plugins/dockers/recorder/recorder_export.ui:612
+#, kde-format
+msgid "Extend end result"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelTitleVideoDuration)
+#: plugins/dockers/recorder/recorder_export.ui:649
+#, kde-format
+msgid "Video duration:"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLabel, labelDone)
-#: plugins/dockers/recorder/recorder_export.ui:891
+#: plugins/dockers/recorder/recorder_export.ui:912
 #, kde-format
 msgctxt "Caption: Video exporting finished"
 msgid "Done!"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonWatchIt)
-#: plugins/dockers/recorder/recorder_export.ui:909
+#: plugins/dockers/recorder/recorder_export.ui:930
 #, kde-format
 msgctxt "Watch the video which is just created"
 msgid "Watch it!"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, labelWritten)
-#: plugins/dockers/recorder/recorder_export.ui:919
+#: plugins/dockers/recorder/recorder_export.ui:940
 #, kde-format
 msgid "The timelapse video has been written to:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonShowInFolder)
-#: plugins/dockers/recorder/recorder_export.ui:937
+#: plugins/dockers/recorder/recorder_export.ui:958
 #, kde-format
 msgctxt "Open the folder when the new created video is placed"
 msgid "Show in folder"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonRemoveSnapshots)
-#: plugins/dockers/recorder/recorder_export.ui:974
+#: plugins/dockers/recorder/recorder_export.ui:995
 #, kde-format
 msgctxt "Open the folder when the new created video is placed"
 msgid "Remove recordings"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonRestart)
-#: plugins/dockers/recorder/recorder_export.ui:1040
+#: plugins/dockers/recorder/recorder_export.ui:1061
 #, kde-format
 msgctxt "Button to restart the timelapse video configuring"
 msgid "Restart"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonDoneClose)
-#: plugins/dockers/recorder/recorder_export.ui:1047
+#: plugins/dockers/recorder/recorder_export.ui:1068
 #, kde-format
 msgctxt "Close dialog button"
 msgid "Close"
@@ -36513,17 +36535,17 @@ msgctxt "(qtundo-format)"
 msgid "Edit Storyboard Child"
 msgstr ""
 
-#: plugins/dockers/storyboarddocker/StoryboardDelegate.cpp:136
-#: plugins/dockers/storyboarddocker/StoryboardDelegate.cpp:305
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:921
+#: plugins/dockers/storyboarddocker/StoryboardDelegate.cpp:137
+#: plugins/dockers/storyboarddocker/StoryboardDelegate.cpp:311
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:922
 #, kde-format
 msgctxt "suffix in spin box in storyboard that means 'seconds'"
 msgid "s"
 msgstr ""
 
-#: plugins/dockers/storyboarddocker/StoryboardDelegate.cpp:141
-#: plugins/dockers/storyboarddocker/StoryboardDelegate.cpp:312
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:924
+#: plugins/dockers/storyboarddocker/StoryboardDelegate.cpp:142
+#: plugins/dockers/storyboarddocker/StoryboardDelegate.cpp:318
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:925
 #, kde-format
 msgctxt "suffix in spin box in storyboard that means 'frames'"
 msgid "f"
@@ -36554,14 +36576,14 @@ msgid "Freeze Keyframe Data"
 msgstr ""
 
 #: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:236
-#: plugins/dockers/storyboarddocker/StoryboardView.cpp:279
+#: plugins/dockers/storyboarddocker/StoryboardView.cpp:281
 #, kde-format
 msgctxt "Add new scene as the last storyboard"
 msgid "Add Scene"
 msgstr ""
 
 #: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:252
-#: plugins/dockers/storyboarddocker/StoryboardView.cpp:298
+#: plugins/dockers/storyboarddocker/StoryboardView.cpp:300
 #, kde-format
 msgctxt "Remove current scene from storyboards"
 msgid "Remove Scene"
@@ -36581,19 +36603,19 @@ msgctxt "default name for storyboard item"
 msgid "scene "
 msgstr ""
 
-#: plugins/dockers/storyboarddocker/StoryboardView.cpp:286
+#: plugins/dockers/storyboarddocker/StoryboardView.cpp:288
 #, kde-format
 msgctxt "Add scene after active scene"
 msgid "Add Scene After"
 msgstr ""
 
-#: plugins/dockers/storyboarddocker/StoryboardView.cpp:288
+#: plugins/dockers/storyboarddocker/StoryboardView.cpp:290
 #, kde-format
 msgctxt "Add scene before active scene"
 msgid "Add Scene Before"
 msgstr ""
 
-#: plugins/dockers/storyboarddocker/StoryboardView.cpp:291
+#: plugins/dockers/storyboarddocker/StoryboardView.cpp:293
 #, kde-format
 msgctxt "Duplicate current scene from storyboard docker"
 msgid "Duplicate Scene"
