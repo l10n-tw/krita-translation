@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-03-11 00:42+0000\n"
-"PO-Revision-Date: 2022-03-05 07:04+0000\n"
+"PO-Revision-Date: 2022-03-12 11:27+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -30423,12 +30423,10 @@ msgid "This is assumed to be the L * TRC. "
 msgstr "假設為 L * TRC。 "
 
 #: libs/ui/widgets/kis_advanced_color_space_selector.cc:365
-#, fuzzy, kde-format
-#| msgctxt "@info:tooltip"
-#| msgid "Estimated Gamma cannot be retrieved for YCrCb."
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Estimated Gamma cannot be retrieved for YCbCr."
-msgstr "無法為 YCrCb 色彩空間得出估算 gamma 值。"
+msgstr "無法為 YCbCr 色彩空間得出估算 gamma 值。"
 
 #: libs/ui/widgets/kis_advanced_color_space_selector.cc:371
 #, kde-format
@@ -30552,19 +30550,7 @@ msgstr ""
 "的階調響應曲線 (TRC) 假設為 L* TRC。"
 
 #: libs/ui/widgets/kis_advanced_color_space_selector.cc:429
-#, fuzzy, kde-format
-#| msgctxt "If the selected model is YCbCr"
-#| msgid ""
-#| "<b><a href=\"https://en.wikipedia.org/wiki/YCbCr\">YCbCr (Luma, Blue "
-#| "Chroma, Red Chroma)</a></b>, is a model designed for video encoding. It "
-#| "is based on human perception, meaning that it tries to encode the "
-#| "difference in lightness, red-green balance and yellow-blue balance. "
-#| "Chroma in this case is then a word indicating a special type of "
-#| "saturation, in these cases the saturation of Red and Blue, of which the "
-#| "desaturated equivalents are Green and Yellow respectively. It is "
-#| "available to open up certain images correctly, but Krita does not "
-#| "currently ship a profile for this due to lack of open source ICC profiles "
-#| "for YCrCb."
+#, kde-format
 msgctxt "If the selected model is YCbCr"
 msgid ""
 "<b><a href=\"https://en.wikipedia.org/wiki/YCbCr\">YCbCr (Luma, Blue Chroma, "
@@ -30578,9 +30564,7 @@ msgstr ""
 "<b><a href=\"https://en.wikipedia.org/wiki/YCbCr\">YCbCr (光度、藍色品、紅色"
 "品)</a></b>是一個用於影片編碼的色彩模型。它基於人類對色彩的感知原理將色彩以亮"
 "度、紅綠平衡以及黃藍平衡三個參數進行編碼。此模型中的色品是飽和度的一種特殊形"
-"式，其範圍的飽和端為紅和藍，不飽和端為綠和黃。由於缺少自由開源的 YCrCb ICC 設"
-"定檔，儘管 Krita 可以正常開啟某些此色彩模型的檔案，但不能在預設狀態下保證對其"
-"完全相容。"
+"式，其範圍的飽和端為紅和藍，不飽和端為綠和黃。"
 
 #: libs/ui/widgets/kis_advanced_color_space_selector.cc:440
 #, kde-format
@@ -36696,13 +36680,14 @@ msgid ""
 "Prepend a preview to the exported video.\n"
 "The preview will show the last frame of the video for the specified duration"
 msgstr ""
+"在匯出影片的開首加插預覧。\n"
+"預覧為按指定時長顯示最後一個影格的內容。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, resultPreviewCheckBox)
 #: plugins/dockers/recorder/recorder_export.ui:273
-#, fuzzy, kde-format
-#| msgid "Unable to open file"
+#, kde-format
 msgid "Enable result preview"
-msgstr "無法開啟檔案"
+msgstr "啟用完成品預覧"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, buttonBrowseFfmpeg)
 #: plugins/dockers/recorder/recorder_export.ui:280
@@ -36733,9 +36718,7 @@ msgstr "保持顯示最後一個影格的額外時長。"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, spinFirstFrameSec)
 #: plugins/dockers/recorder/recorder_export.ui:581
-#, fuzzy, kde-format
-#| msgctxt "Contraction of \"second\" for interval"
-#| msgid " sec."
+#, kde-format
 msgid " sec."
 msgstr " 秒"
 
@@ -36743,13 +36726,13 @@ msgstr " 秒"
 #: plugins/dockers/recorder/recorder_export.ui:609
 #, kde-format
 msgid "Extend the last frame in the exported video by the specified duration"
-msgstr ""
+msgstr "在匯出影片中延長顯示最後一個影格的時長"
 
 #. i18n: ectx: property (text), widget (QCheckBox, extendResultCheckBox)
 #: plugins/dockers/recorder/recorder_export.ui:612
 #, kde-format
 msgid "Extend end result"
-msgstr ""
+msgstr "延長顯示完成品"
 
 #. i18n: ectx: property (text), widget (QLabel, labelTitleVideoDuration)
 #: plugins/dockers/recorder/recorder_export.ui:649
@@ -44742,9 +44725,9 @@ msgid ""
 "stretch the image to its correct aspect ratio. In any case, this option "
 "guarantees that each output pixel corresponds to one RAW pixel.</p>"
 msgstr ""
-"<title>不拉伸或旋轉像素</title><p>對於富士 Super CCD 相機，以斜 45 度角顯示影"
-"像；對於採用了非方形象素的相機，不拉伸影像至正確的寬高比。此選項保證每個輸出"
-"像素能夠一一對應每個 RAW 像素。</p>"
+"<title>不拉伸或旋轉像素</title><p>對於富士 Super CCD 相機，以斜 45 "
+"度角顯示影像；對於採用了非方形像素的相機，不拉伸影像至正確的寬高比。"
+"此選項保證每個輸出像素能夠一一對應每個 RAW 像素。</p>"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:279
 #, kde-format
@@ -51892,13 +51875,9 @@ msgid "Distance:"
 msgstr "距離："
 
 #: plugins/tools/basictools/kis_tool_brush.cc:346
-#, fuzzy, kde-format
-#| msgctxt ""
-#| "./krita/data/bundles/Krita_3_Default_Resources.bundle:paintoppresets/"
-#| "Eraser_soft.kpp"
-#| msgid "Eraser soft"
+#, kde-format
 msgid "Eraser smoothing"
-msgstr "橡皮擦 - 軟"
+msgstr "橡皮擦平滑化"
 
 #: plugins/tools/basictools/kis_tool_brush.cc:369
 #, kde-format
@@ -52067,98 +52046,81 @@ msgid "Flood Fill"
 msgstr "浸漫填充"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:388
-#, fuzzy, kde-format
-#| msgid "Scale:"
+#, kde-format
 msgctxt "The pattern 'scale' spinbox prefix in fill tool options"
 msgid "Scale: "
 msgstr "縮放："
 
 #: plugins/tools/basictools/kis_tool_fill.cc:395
-#, fuzzy, kde-format
-#| msgctxt "Threshold label in Magnetic Selection's Tool options"
-#| msgid "Threshold: "
+#, kde-format
 msgctxt "The 'threshold' spinbox prefix in fill tool options"
 msgid "Threshold: "
 msgstr "閾值："
 
 #: plugins/tools/basictools/kis_tool_fill.cc:398
-#, fuzzy, kde-format
-#| msgid "Spread:"
+#, kde-format
 msgctxt "The 'spread' spinbox prefix in fill tool options"
 msgid "Spread: "
 msgstr "擴散幅度："
 
 #: plugins/tools/basictools/kis_tool_fill.cc:404
-#, fuzzy, kde-format
-#| msgctxt ""
-#| "Description for a checkbox in a Fill Tool to use selection borders as "
-#| "boundary when filling"
-#| msgid "Use selection as boundary:"
+#, kde-format
 msgctxt ""
 "The 'use selection as boundary' checkbox in fill tool to use selection "
 "borders as boundary when filling"
 msgid "Use selection as boundary"
-msgstr "以選取區域為界限："
+msgstr "以選取區域為界限"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:408
-#, fuzzy, kde-format
-#| msgid "Anti-aliasing"
+#, kde-format
 msgctxt "The anti-alias checkbox in fill tool options"
 msgid "Anti-aliasing"
 msgstr "反鋸齒"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:410
-#, fuzzy, kde-format
-#| msgctxt "Grow as in deform brush engine"
-#| msgid "Grow"
+#, kde-format
 msgctxt "The 'grow/shrink' spinbox prefix in fill tool options"
 msgid "Grow: "
-msgstr "擴張"
+msgstr "擴張："
 
 #: plugins/tools/basictools/kis_tool_fill.cc:414
-#, fuzzy, kde-format
-#| msgid "Feather radius:"
+#, kde-format
 msgctxt "The 'feather' spinbox prefix in fill tool options"
 msgid "Feather: "
-msgstr "羽化半徑："
+msgstr "羽化："
 
 #: plugins/tools/basictools/kis_tool_fill.cc:432
-#, fuzzy, kde-format
-#| msgid "Reset"
+#, kde-format
 msgctxt "The 'reset' button in fill tool options"
 msgid "Reset"
 msgstr "重設"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:435
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Invert current selection"
+#, kde-format
 msgid "Current selection"
-msgstr "反轉選取目前選取區域"
+msgstr "目前選取區域"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:436
 #, kde-format
 msgid "Contiguous region obtained from the layers"
-msgstr ""
+msgstr "從圖層檢取連續區域"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:441
-#, fuzzy, kde-format
-#| msgid "Set the blend mode for the layer"
+#, kde-format
 msgid "Set the scale of the pattern"
-msgstr "設定圖層的混色模式"
+msgstr "設定圖案的縮放"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:442
-#, fuzzy, kde-format
-#| msgid "Set the master opacity for the layer"
+#, kde-format
 msgid "Set the rotation of the pattern"
-msgstr "設定圖層的主體不透明度"
+msgstr "設定圖案的旋轉角度"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:444
-#, kde-format
+#, fuzzy, kde-format
 msgid ""
 "Set how far the region should extend from the selected pixel in terms of "
 "color similarity"
-msgstr ""
+msgstr "設定根據相似色從所選像素擴張應有的距離"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:445
 #, kde-format
