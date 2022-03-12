@@ -22,7 +22,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_koffice\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-03-10 00:54+0000\n"
+"POT-Creation-Date: 2022-03-12 00:54+0000\n"
 "PO-Revision-Date: 2021-10-23 11:25+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
@@ -405,7 +405,7 @@ msgctxt "Name"
 msgid "Comics Project Management Tools"
 msgstr "漫畫專案管理工具"
 
-#: plugins/python/comics_project_management_tools/kritapykrita_comics_project_management_tools.desktop:41
+#: plugins/python/comics_project_management_tools/kritapykrita_comics_project_management_tools.desktop:40
 msgctxt "Comment"
 msgid "Tools for managing comics."
 msgstr "管理漫畫的工具。"
@@ -415,7 +415,7 @@ msgctxt "Name"
 msgid "Document Tools"
 msgstr "檔案工具"
 
-#: plugins/python/documenttools/kritapykrita_documenttools.desktop:40
+#: plugins/python/documenttools/kritapykrita_documenttools.desktop:39
 msgctxt "Comment"
 msgid "Plugin to manipulate properties of selected documents"
 msgstr "用於修改所選檔案屬性的外掛程式"
@@ -425,7 +425,7 @@ msgctxt "Name"
 msgid "Export Layers"
 msgstr "匯出圖層"
 
-#: plugins/python/exportlayers/kritapykrita_exportlayers.desktop:40
+#: plugins/python/exportlayers/kritapykrita_exportlayers.desktop:39
 msgctxt "Comment"
 msgid "Plugin to export layers from a document"
 msgstr "用於從檔案匯出圖層的外掛程式"
@@ -435,7 +435,7 @@ msgctxt "Name"
 msgid "Filter Manager"
 msgstr "濾鏡管理器"
 
-#: plugins/python/filtermanager/kritapykrita_filtermanager.desktop:40
+#: plugins/python/filtermanager/kritapykrita_filtermanager.desktop:39
 msgctxt "Comment"
 msgid "Plugin to filters management"
 msgstr "用於管理濾鏡的外掛程式"
@@ -445,7 +445,7 @@ msgctxt "Name"
 msgid "Highpass Filter"
 msgstr "高通濾鏡"
 
-#: plugins/python/highpass/kritapykrita_highpass.desktop:37
+#: plugins/python/highpass/kritapykrita_highpass.desktop:36
 msgctxt "Comment"
 msgid "Highpass Filter, based on http://registry.gimp.org/node/7385"
 msgstr "高通濾鏡，基於 http://registry.gimp.org/node/7385"
@@ -455,7 +455,7 @@ msgctxt "Name"
 msgid "Krita Script Starter"
 msgstr "Krita 指令稿起步助手"
 
-#: plugins/python/krita_script_starter/kritapykrita_krita_script_starter.desktop:37
+#: plugins/python/krita_script_starter/kritapykrita_krita_script_starter.desktop:36
 msgctxt "Comment"
 msgid "Create the metadata and file structure for a new Krita script"
 msgstr "為新的 Krita 指令稿建立中繼資料和檔案建構體"
@@ -465,7 +465,7 @@ msgctxt "Name"
 msgid "Last Documents Docker"
 msgstr "「最近使用檔案」面板"
 
-#: plugins/python/lastdocumentsdocker/kritapykrita_lastdocumentsdocker.desktop:39
+#: plugins/python/lastdocumentsdocker/kritapykrita_lastdocumentsdocker.desktop:38
 msgctxt "Comment"
 msgid "A Python-based docker for show thumbnails to last ten documents"
 msgstr "基於 Python 的面板，用於顯示最近 10 個檔案的縮圖"
@@ -475,7 +475,7 @@ msgctxt "Name"
 msgid "Mixer Slider docker"
 msgstr "混色滑動條工具面板"
 
-#: plugins/python/mixer_slider_docker/kritapykrita_mixer_slider_docker.desktop:33
+#: plugins/python/mixer_slider_docker/kritapykrita_mixer_slider_docker.desktop:32
 msgctxt "Comment"
 msgid "A color slider."
 msgstr "色彩滑動條。"
@@ -485,7 +485,7 @@ msgctxt "Name"
 msgid "Palette docker"
 msgstr "「調色板」面板"
 
-#: plugins/python/palette_docker/kritapykrita_palette_docker.desktop:40
+#: plugins/python/palette_docker/kritapykrita_palette_docker.desktop:39
 msgctxt "Comment"
 msgid "A Python-based docker to edit color palettes."
 msgstr "基於 Python 的面板，用於編輯調色板。"
@@ -495,7 +495,7 @@ msgctxt "Name"
 msgid "Krita Photobash Images"
 msgstr "Krita Photobash 影像"
 
-#: plugins/python/photobash_images/kritapykrita_photobash_images.desktop:32
+#: plugins/python/photobash_images/kritapykrita_photobash_images.desktop:31
 msgctxt "Comment"
 msgid ""
 "A plugin to fetch images from a specified folder. Very useful for "
@@ -508,7 +508,7 @@ msgctxt "Name"
 msgid "Python Plugin Importer"
 msgstr "Python 外掛程式匯入工具"
 
-#: plugins/python/plugin_importer/kritapykrita_plugin_importer.desktop:37
+#: plugins/python/plugin_importer/kritapykrita_plugin_importer.desktop:36
 msgctxt "Comment"
 msgid "Imports Python plugins from zip files."
 msgstr "從 ZIP 檔案匯入 Python 外掛程式。"
@@ -518,7 +518,7 @@ msgctxt "Name"
 msgid "Quick Settings Docker"
 msgstr "「快速設定」面板"
 
-#: plugins/python/quick_settings_docker/kritapykrita_quick_settings_docker.desktop:40
+#: plugins/python/quick_settings_docker/kritapykrita_quick_settings_docker.desktop:39
 msgctxt "Comment"
 msgid "A Python-based docker for quickly changing brush size and opacity."
 msgstr "基於 Python 的面板，用於快速變更筆刷尺寸和不透明度。"
@@ -528,7 +528,7 @@ msgctxt "Name"
 msgid "Script Docker"
 msgstr "「指令稿」面板"
 
-#: plugins/python/scriptdocker/kritapykrita_scriptdocker.desktop:39
+#: plugins/python/scriptdocker/kritapykrita_scriptdocker.desktop:38
 msgctxt "Comment"
 msgid "A Python-based docker for create actions and point to Python scripts"
 msgstr "基於 Python 的面板，用於建立動作並指向 Python 指令稿"
@@ -538,7 +538,7 @@ msgctxt "Name"
 msgid "Scripter"
 msgstr "指令稿執行器"
 
-#: plugins/python/scripter/kritapykrita_scripter.desktop:38
+#: plugins/python/scripter/kritapykrita_scripter.desktop:37
 msgctxt "Comment"
 msgid "Plugin to execute ad-hoc Python code"
 msgstr "可直接執行 Python 指令的外掛程式"
@@ -548,7 +548,7 @@ msgctxt "Name"
 msgid "Selections Bag Docker"
 msgstr "「選取區域收藏」面板"
 
-#: plugins/python/selectionsbagdocker/kritapykrita_selectionsbagdocker.desktop:35
+#: plugins/python/selectionsbagdocker/kritapykrita_selectionsbagdocker.desktop:34
 msgctxt "Comment"
 msgid "A docker that allow to store a list of selections"
 msgstr "允許儲存多個選取區域的面板"
@@ -558,7 +558,7 @@ msgctxt "Name"
 msgid "Ten Brushes"
 msgstr "十大筆刷"
 
-#: plugins/python/tenbrushes/kritapykrita_tenbrushes.desktop:40
+#: plugins/python/tenbrushes/kritapykrita_tenbrushes.desktop:39
 msgctxt "Comment"
 msgid "Assign a brush preset to any of ten configurable shortcuts."
 msgstr "為十個快捷鍵指定可切換的筆刷預設。"
@@ -568,7 +568,7 @@ msgctxt "Name"
 msgid "Ten Scripts"
 msgstr "十大指令稿"
 
-#: plugins/python/tenscripts/kritapykrita_tenscripts.desktop:39
+#: plugins/python/tenscripts/kritapykrita_tenscripts.desktop:38
 msgctxt "Comment"
 msgid "Assign a Python script to any of ten configurable shortcuts."
 msgstr "為十個快捷鍵指定可執行的 Python 指令稿。"
