@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-03-17 00:42+0000\n"
-"PO-Revision-Date: 2022-03-12 11:27+0000\n"
+"PO-Revision-Date: 2022-03-18 07:31+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -35693,10 +35693,9 @@ msgid "Digital Colors Mixer"
 msgstr "數位混色器"
 
 #: plugins/dockers/digitalmixer/digitalmixer_dock.cc:142
-#, fuzzy, kde-format
-#| msgid "Reset to default"
+#, kde-format
 msgid "Return to default settings"
-msgstr "重設為預設值"
+msgstr "復原到預設設定"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, bnMaskNew)
 #: plugins/dockers/gamutmask/forms/wdgGamutMaskChooser.ui:52
@@ -52123,11 +52122,11 @@ msgid "Set the rotation of the pattern"
 msgstr "設定圖案的旋轉角度"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:444
-#, fuzzy, kde-format
+#, kde-format
 msgid ""
 "Set how far the region should extend from the selected pixel in terms of "
 "color similarity"
-msgstr "設定根據相似色從所選像素擴張應有的距離"
+msgstr "設定區域根據色彩相似度從所選像素擴張的程度"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:445
 #, kde-format
@@ -52137,110 +52136,100 @@ msgid ""
 "pixel.\n"
 "100% will make opaque all the pixels in the region up to its boundary."
 msgstr ""
+"設定區域中完全不透明的範圍的擴張程度。\n"
+"0% 表示只有與所選像素完全相同數值的像素才會填上不透明色。\n"
+"100% 表示一直到區域邊界的所有像素均會填上不透明色。"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:448
 #, kde-format
 msgid ""
 "Set if the contour of the current selection should be treated as a boundary "
 "when obtaining the region"
-msgstr ""
+msgstr "設定應否視目前選取區域為檢取區域的邊界"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:450
-#, fuzzy, kde-format
-#| msgid "Smooths the jagged edges."
+#, kde-format
 msgid "Smooth the jagged edges"
-msgstr "平滑化鋸齒狀的邊緣。"
+msgstr "平滑化鋸齒狀的邊緣"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:451
 #, kde-format
 msgid ""
 "Grow (positive values) or shrink (negative values) the region by the set "
 "amount"
-msgstr ""
+msgstr "按數值擴張或收縮區域 (正數為擴張，負數為收縮)"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:452
 #, kde-format
 msgid "Blur the region by the set amount"
-msgstr ""
+msgstr "按數值使區域變得模糊"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:454
 #, kde-format
 msgid "Obtain the region using the active layer"
-msgstr ""
+msgstr "以使用中圖層檢取區域"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:455
 #, kde-format
 msgid "Obtain the region using a merged copy of all layers"
-msgstr ""
+msgstr "以全部圖層合併的影像檢取區域"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:456
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Set the source for the selected clone layer(s)."
+#, kde-format
 msgid ""
 "Obtain the region using a merged copy of the selected color-labeled layers"
-msgstr "設定選取再製圖層的來源。"
+msgstr "按所選色彩標籤的圖層合併的影像檢取區域"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:458
-#, fuzzy, kde-format
-#| msgid "Fill area with background color"
+#, kde-format
 msgid "Fill regions of any color"
-msgstr "填充背景色到此區域"
+msgstr "填充任何色彩的區域"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:459
 #, kde-format
 msgid "Fill only regions similar in color to the initial region"
-msgstr ""
+msgstr "只填充與起始區域相似色彩的區域"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:461
-#, fuzzy, kde-format
-#| msgctxt "@info:tooltip"
-#| msgid "Reset to default value"
+#, kde-format
 msgid "Reset the options to their default values"
-msgstr "重設為預設值"
+msgstr "重設選項到其預設值"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:470
-#, fuzzy, kde-format
-#| msgid "Save to file"
+#, kde-format
 msgctxt "The 'what to fill' section label in fill tool options"
 msgid "What to fill"
-msgstr "存入檔案"
+msgstr "填充區域"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:477
-#, fuzzy, kde-format
-#| msgid "Pixel width"
+#, kde-format
 msgctxt "The 'fill with' section label in fill tool options"
 msgid "Fill with"
-msgstr "像素寬度"
+msgstr "填充內容"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:488
-#, fuzzy, kde-format
-#| msgid "Rendering Intent"
+#, kde-format
 msgctxt "The 'region extent' section label in fill tool options"
 msgid "Region extent"
-msgstr "繪製意圖"
+msgstr "區域範圍"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:497
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "HSV Adjustment"
+#, kde-format
 msgctxt "The 'adjustments' section label in fill tool options"
 msgid "Adjustments"
-msgstr "HSV 調整"
+msgstr "調整"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:506
-#, fuzzy, kde-format
-#| msgid "Text Reference"
+#, kde-format
 msgctxt "The 'reference' section label in fill tool options"
 msgid "Reference"
-msgstr "文字引用"
+msgstr "參照"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:515
-#, fuzzy, kde-format
-#| msgid "Multiplier:"
+#, kde-format
 msgctxt "The 'multiple fill' section label in fill tool options"
 msgid "Multiple fill"
-msgstr "倍數："
+msgstr "多重填充"
 
 #: plugins/tools/basictools/kis_tool_fill.h:187
 #, kde-format
