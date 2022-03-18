@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-03-11 00:42+0000\n"
+"POT-Creation-Date: 2022-03-17 00:42+0000\n"
 "PO-Revision-Date: 2022-03-12 11:27+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
@@ -14203,7 +14203,7 @@ msgctxt "PaintOp instant preview limitation"
 msgid "Brush Randomness recommended value 0.0"
 msgstr "筆刷隨機度建議值為 0.0"
 
-#: libs/brush/kis_brush.cpp:727
+#: libs/brush/kis_brush.cpp:729
 #, kde-format
 msgctxt "PaintOp instant preview limitation"
 msgid "Spacing > 0.5, consider disabling Instant Preview"
@@ -15420,7 +15420,7 @@ msgctxt "(qtundo-format)"
 msgid "Assign Profile"
 msgstr "指定特性檔案"
 
-#: libs/image/kis_image.cc:2459
+#: libs/image/kis_image.cc:2463
 msgctxt "(qtundo-format)"
 msgid "Crop Selections"
 msgstr "裁切選取區域"
@@ -19122,6 +19122,7 @@ msgstr "新增到此的 FFmpeg 的過濾選項將插入到源資料和 FFmpeg �
 #: libs/ui/animation/video_export_options_dialog.ui:369
 #: libs/widgetutils/xmlgui/kedittoolbar.cpp:671
 #: plugins/dockers/animation/KisOnionSkinsDocker.ui:99
+#: plugins/dockers/digitalmixer/digitalmixer_dock.cc:141
 #: plugins/filters/colorsfilters/wdg_hsv_adjustment.ui:239
 #: plugins/filters/colorsfilters/wdg_perchannel.ui:346
 #: plugins/tools/basictools/wdgmultihandtool.ui:192
@@ -27251,7 +27252,7 @@ msgctxt "<color space> <image profile>"
 msgid "%1  %2"
 msgstr "%1  %2"
 
-#: libs/ui/kis_zoom_manager.cc:323
+#: libs/ui/kis_zoom_manager.cc:326
 #, kde-format
 msgctxt "floating message about zoom"
 msgid "Zoom: %1 %"
@@ -35686,10 +35687,16 @@ msgstr "選取的圖層合成方案會被匯出，未選取的不被匯出。"
 msgid "Export checked compositions."
 msgstr "匯出選取的圖層合成方案。"
 
-#: plugins/dockers/digitalmixer/digitalmixer_dock.cc:34
+#: plugins/dockers/digitalmixer/digitalmixer_dock.cc:37
 #, kde-format
 msgid "Digital Colors Mixer"
 msgstr "數位混色器"
+
+#: plugins/dockers/digitalmixer/digitalmixer_dock.cc:142
+#, fuzzy, kde-format
+#| msgid "Reset to default"
+msgid "Return to default settings"
+msgstr "重設為預設值"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, bnMaskNew)
 #: plugins/dockers/gamutmask/forms/wdgGamutMaskChooser.ui:52
@@ -44725,9 +44732,9 @@ msgid ""
 "stretch the image to its correct aspect ratio. In any case, this option "
 "guarantees that each output pixel corresponds to one RAW pixel.</p>"
 msgstr ""
-"<title>不拉伸或旋轉像素</title><p>對於富士 Super CCD 相機，以斜 45 "
-"度角顯示影像；對於採用了非方形像素的相機，不拉伸影像至正確的寬高比。"
-"此選項保證每個輸出像素能夠一一對應每個 RAW 像素。</p>"
+"<title>不拉伸或旋轉像素</title><p>對於富士 Super CCD 相機，以斜 45 度角顯示影"
+"像；對於採用了非方形像素的相機，不拉伸影像至正確的寬高比。此選項保證每個輸出"
+"像素能夠一一對應每個 RAW 像素。</p>"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:279
 #, kde-format
