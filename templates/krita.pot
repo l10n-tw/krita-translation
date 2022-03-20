@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-03-19 00:42+0000\n"
+"POT-Creation-Date: 2022-03-20 00:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -26104,7 +26104,7 @@ msgstr ""
 #: libs/ui/input/KisTouchGestureAction.cpp:18
 #, kde-format
 msgid ""
-"The Touch Gestures actions launche a single action for the specified gesture"
+"The Touch Gestures actions launch a single action for the specified gesture"
 msgstr ""
 
 #: libs/ui/input/KisTouchGestureAction.cpp:23
