@@ -55370,23 +55370,18 @@ msgctxt "action"
 msgid "Reference Images Tool"
 msgstr "參考圖工具"
 
-#, kde-format
 #~ msgid "Enable Touch Rotation"
 #~ msgstr "啟用觸控螢幕旋轉手勢"
 
-#, kde-format
 #~ msgid "Hold last frame for:"
 #~ msgstr "最後影格保持時長："
 
-#, kde-format
 #~ msgid "Show result on first frame for:"
 #~ msgstr "在開首顯示完成品時長："
 
-#, kde-format
 #~ msgid "Fast mode:"
 #~ msgstr "快速模式："
 
-#, kde-format
 #~ msgid ""
 #~ "Fills area faster, but does not take composition mode into account. "
 #~ "Selections and other extended features will also be disabled."
@@ -55394,35 +55389,28 @@ msgstr "參考圖工具"
 #~ "填充區域更快，但不將圖層混合模式納入計算範圍。選取區域和其他擴充功能也將被"
 #~ "禁用。"
 
-#, kde-format
 #~ msgctxt "The Threshold label in Fill tool options"
 #~ msgid "Threshold:"
 #~ msgstr "閾值："
 
-#, kde-format
 #~ msgctxt "The Opacity Spread label in Fill tool options"
 #~ msgid "Opacity Spread:"
 #~ msgstr "不透明度擴散："
 
-#, kde-format
 #~ msgid "Grow selection:"
 #~ msgstr "擴大選取區域："
 
-#, kde-format
 #~ msgid "Feathering radius:"
 #~ msgstr "羽化半徑："
 
-#, kde-format
 #~ msgid "Use pattern:"
 #~ msgstr "使用圖案："
 
-#, kde-format
 #~ msgid ""
 #~ "When checked do not use the foreground color, but the pattern selected to "
 #~ "fill with"
 #~ msgstr "勾選時不使用前景色，而是使用所選圖案填充"
 
-#, kde-format
 #~ msgctxt ""
 #~ "This is a label before a combobox with different choices regarding which "
 #~ "layers to take into considerationg when calculating the area to fill. "
@@ -55432,7 +55420,6 @@ msgstr "參考圖工具"
 #~ msgid "Sample:"
 #~ msgstr "取樣："
 
-#, kde-format
 #~ msgctxt ""
 #~ "This is a string in tool options for Fill Tool to describe a combobox "
 #~ "about a choice of color labels that a layer can be marked with. Those "
@@ -55440,51 +55427,42 @@ msgstr "參考圖工具"
 #~ msgid "Labels used:"
 #~ msgstr "使用的標籤："
 
-#, kde-format
 #~ msgid "Fill entire selection:"
 #~ msgstr "填充整個選取區域："
 
-#, kde-format
 #~ msgid ""
 #~ "When checked do not look at the current layer colors, but just fill all "
 #~ "of the selected area"
 #~ msgstr "勾選時，直接填充整個選取區域，不將目前圖層色彩納入計算範圍"
 
-#, kde-format
 #~ msgctxt "Tooltip for 'Use selection as boundary' checkbox"
 #~ msgid "When checked, use selection borders as boundary when filling"
 #~ msgstr "勾選時，填充將以選取區域邊界為界限"
 
-#, kde-format
 #~ msgctxt "The 'continuous fill' label in Fill tool options"
 #~ msgid "Continuous Fill:"
 #~ msgstr "連續填充："
 
-#, kde-format
 #~ msgctxt "Continuous fill mode in fill tool options"
 #~ msgid "Any region"
 #~ msgstr "任何區域"
 
-#, kde-format
 #~ msgctxt "Continuous fill mode in fill tool options"
 #~ msgid "Similar regions"
 #~ msgstr "相似色彩區域"
 
-#, kde-format
 #~ msgctxt ""
 #~ "Option in fill tool: take only the current layer into account when "
 #~ "calculating the area to fill"
 #~ msgid "Current Layer"
 #~ msgstr "目前圖層"
 
-#, kde-format
 #~ msgctxt ""
 #~ "Option in fill tool: take all layers (merged) into account when "
 #~ "calculating the area to fill"
 #~ msgid "All Layers"
 #~ msgstr "所有圖層"
 
-#, kde-format
 #~ msgctxt ""
 #~ "Option in fill tool: take all layers that were labeled with a color label "
 #~ "(more precisely: all those layers merged) into account when calculating "
