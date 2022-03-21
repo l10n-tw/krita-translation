@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-03-20 00:45+0000\n"
-"PO-Revision-Date: 2022-03-18 07:31+0000\n"
+"PO-Revision-Date: 2022-03-21 15:39+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -25744,9 +25744,7 @@ msgid "Mouse Wheel"
 msgstr "滑鼠滾輪"
 
 #: libs/ui/input/config/kis_input_type_delegate.cpp:38
-#, fuzzy, kde-format
-#| msgctxt "Shortcut type"
-#| msgid "Gesture"
+#, kde-format
 msgid "Gesture"
 msgstr "手勢操作"
 
@@ -26182,93 +26180,84 @@ msgid "%1 + %2"
 msgstr "%1 + %2"
 
 #: libs/ui/input/kis_shortcut_configuration.cpp:408
-#, fuzzy, kde-format
-#| msgctxt "Shortcut type"
-#| msgid "Gesture"
+#, kde-format
 msgid "No Gesture"
-msgstr "手勢操作"
+msgstr "無手勢"
 
 #: libs/ui/input/kis_shortcut_configuration.cpp:410
-#, fuzzy, kde-format
-#| msgctxt "Shortcut type"
-#| msgid "Gesture"
+#, kde-format
 msgid "Max Gesture"
-msgstr "手勢操作"
+msgstr ""
 
 #: libs/ui/input/kis_shortcut_configuration.cpp:413
-#, fuzzy, kde-format
-#| msgid "Picture"
+#, kde-format
 msgid "Pinch Gesture"
-msgstr "圖片"
+msgstr "捏合手勢"
 
 #: libs/ui/input/kis_shortcut_configuration.cpp:415
-#, fuzzy, kde-format
-#| msgctxt "Shortcut type"
-#| msgid "Gesture"
+#, kde-format
 msgid "Pan Gesture"
-msgstr "手勢操作"
+msgstr "平移手勢"
 
 #: libs/ui/input/kis_shortcut_configuration.cpp:417
-#, fuzzy, kde-format
-#| msgid "Rotate hue"
+#, kde-format
 msgid "Rotate Gesture"
-msgstr "旋轉色相"
+msgstr "旋轉手勢"
 
 #: libs/ui/input/kis_shortcut_configuration.cpp:419
 #, kde-format
 msgid "Smart Zoom Gesture"
-msgstr ""
+msgstr "智慧縮放手勢"
 
 #: libs/ui/input/kis_shortcut_configuration.cpp:422
 #, kde-format
 msgid "One Finger Tap"
-msgstr ""
+msgstr "單指點選"
 
 #: libs/ui/input/kis_shortcut_configuration.cpp:424
 #, kde-format
 msgid "Two Finger Tap"
-msgstr ""
+msgstr "兩指點選"
 
 #: libs/ui/input/kis_shortcut_configuration.cpp:426
 #, kde-format
 msgid "Three Finger Tap"
-msgstr ""
+msgstr "三指點選"
 
 #: libs/ui/input/kis_shortcut_configuration.cpp:428
 #, kde-format
 msgid "Four Finger Tap"
-msgstr ""
+msgstr "四指點選"
 
 #: libs/ui/input/kis_shortcut_configuration.cpp:430
 #, kde-format
 msgid "Five Finger Tap"
-msgstr ""
+msgstr "五指點選"
 
 #: libs/ui/input/kis_shortcut_configuration.cpp:432
-#, fuzzy, kde-format
-#| msgid "On Click Drag"
+#, kde-format
 msgid "One Finger Drag"
-msgstr "點擊並拖曳捲動"
+msgstr "單指拖曳"
 
 #: libs/ui/input/kis_shortcut_configuration.cpp:434
 #, kde-format
 msgid "Two Finger Drag"
-msgstr ""
+msgstr "兩指拖曳"
 
 #: libs/ui/input/kis_shortcut_configuration.cpp:436
 #, kde-format
 msgid "Three Finger Drag"
-msgstr ""
+msgstr "三指拖曳"
 
 #: libs/ui/input/kis_shortcut_configuration.cpp:438
 #, kde-format
 msgid "Four Finger Drag"
-msgstr ""
+msgstr "四指拖曳"
 
 #: libs/ui/input/kis_shortcut_configuration.cpp:440
 #, kde-format
 msgid "Five Finger Drag"
-msgstr ""
+msgstr "五指拖曳"
 
 #: libs/ui/input/kis_tablet_debugger.cpp:97
 #, kde-format
@@ -26442,28 +26431,25 @@ msgid "Show the current tool's popup widget."
 msgstr "顯示目前工具的浮動畫具板或選單"
 
 #: libs/ui/input/KisTouchGestureAction.cpp:17
-#, fuzzy, kde-format
-#| msgid "Gestures"
+#, kde-format
 msgid "Touch Gestures"
-msgstr "手勢動作"
+msgstr "觸控手勢"
 
 #: libs/ui/input/KisTouchGestureAction.cpp:18
 #, kde-format
 msgid ""
 "The Touch Gestures actions launch a single action for the specified gesture"
-msgstr ""
+msgstr "觸控手勢動作允許為指定觸控手勢指派單一動作"
 
 #: libs/ui/input/KisTouchGestureAction.cpp:23
-#, fuzzy, kde-format
-#| msgid "Toggle Canvas Only"
+#, kde-format
 msgid "Toggle Canvas Only Mode"
 msgstr "切換畫布獨佔模式"
 
 #: libs/ui/input/KisTouchGestureAction.cpp:24
-#, fuzzy, kde-format
-#| msgid "Toggle Preview"
+#, kde-format
 msgid "Toggle Eraser"
-msgstr "切換預覽"
+msgstr "切換橡皮刷"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, TabletTest)
 #: libs/ui/input/wintab/drawpile_tablettester/tablettest.ui:18
