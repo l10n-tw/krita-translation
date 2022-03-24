@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-03-24 00:43+0000\n"
-"PO-Revision-Date: 2022-03-21 15:39+0000\n"
+"PO-Revision-Date: 2022-03-24 08:17+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -32531,10 +32531,9 @@ msgid "Fit Page Height"
 msgstr "適合頁面高度"
 
 #: libs/widgets/KoZoomWidget.cpp:124
-#, fuzzy, kde-format
-#| msgid "Pixelize"
+#, kde-format
 msgid "Pixel Size"
-msgstr "像素化"
+msgstr "像素大小"
 
 #: libs/widgets/KoZoomWidget.cpp:128
 #, kde-format
@@ -32542,6 +32541,8 @@ msgid ""
 "Map the displayed canvas size between pixel size or print size\n"
 "Current Mapping: %1"
 msgstr ""
+"設定畫布縮放比例為符合像素大小或列印大小。\n"
+"目前縮放比例：%1"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, txtFileName)
 #: libs/widgets/wdg_file_name_requester.ui:39
