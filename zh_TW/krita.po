@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-03-20 00:45+0000\n"
-"PO-Revision-Date: 2022-03-21 15:39+0000\n"
+"POT-Creation-Date: 2022-03-24 00:43+0000\n"
+"PO-Revision-Date: 2022-03-24 08:17+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -14191,13 +14191,13 @@ msgstr "鉛筆"
 msgid "Line"
 msgstr "線條"
 
-#: libs/brush/kis_auto_brush.cpp:392
+#: libs/brush/kis_auto_brush.cpp:427
 #, kde-format
 msgctxt "PaintOp instant preview limitation"
 msgid "Brush Density recommended value 100.0"
 msgstr "筆刷密度建議值為 100.0"
 
-#: libs/brush/kis_auto_brush.cpp:396
+#: libs/brush/kis_auto_brush.cpp:431
 #, kde-format
 msgctxt "PaintOp instant preview limitation"
 msgid "Brush Randomness recommended value 0.0"
@@ -14932,7 +14932,7 @@ msgstr "大小"
 #: libs/ui/forms/wdgrectangleconstraints.ui:134
 #: libs/ui/forms/wdgrectangleconstraints.ui:184
 #: libs/ui/forms/wdgrectangleconstraints.ui:226 libs/ui/kis_paintop_box.cc:285
-#: libs/ui/widgets/kis_lod_availability_widget.cpp:75
+#: libs/ui/widgets/kis_lod_availability_widget.cpp:73
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:434
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:674
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:767
@@ -17628,7 +17628,7 @@ msgstr "本機資源"
 #: libs/ui/KisTemplateCreateDia.cpp:284 libs/ui/KisTemplateCreateDia.cpp:390
 #: libs/ui/KisView.cpp:589 libs/ui/KisView.cpp:848
 #: libs/ui/KisWelcomePageWidget.cpp:711
-#: libs/ui/opengl/KisOpenGLCanvasRenderer.cpp:358
+#: libs/ui/opengl/KisOpenGLCanvasRenderer.cpp:347
 #: libs/ui/widgets/kis_custom_image_widget.cc:293
 #: plugins/assistants/Assistants/kis_assistant_tool.cc:1301
 #: plugins/assistants/Assistants/kis_assistant_tool.cc:1304
@@ -24709,7 +24709,7 @@ msgstr "啟用在背景產生快取"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_4)
 #: libs/ui/forms/wdgperformancesettings.ui:541
-#: libs/ui/widgets/kis_lod_availability_widget.cpp:140
+#: libs/ui/widgets/kis_lod_availability_widget.cpp:138
 #, kde-format
 msgid "Instant Preview"
 msgstr "即時預覽"
@@ -25554,7 +25554,7 @@ msgid "&Filter:"
 msgstr "縮放過濾(&F)："
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupPrintSize)
-#: libs/ui/imagesize/wdg_imagesize.ui:158
+#: libs/ui/imagesize/wdg_imagesize.ui:158 libs/widgets/KoZoomWidget.cpp:121
 #, kde-format
 msgid "Print Size"
 msgstr "列印大小"
@@ -29841,12 +29841,12 @@ msgstr "深度(&D)："
 msgid "Li&nk with Layer"
 msgstr "與圖層連結(&N)"
 
-#: libs/ui/opengl/kis_opengl.cpp:548
+#: libs/ui/opengl/kis_opengl.cpp:554
 #, kde-format
 msgid "The Intel graphics driver in use is known to have issues with OpenGL."
 msgstr "目前使用的 Intel 核芯顯示卡驅動程式對 OpenGL 的支援存有已知的問題。"
 
-#: libs/ui/opengl/kis_opengl.cpp:550
+#: libs/ui/opengl/kis_opengl.cpp:556
 #, kde-format
 msgid ""
 "Intel graphics drivers tend to have issues with OpenGL so ANGLE will be used "
@@ -29856,14 +29856,14 @@ msgstr ""
 "Intel 核芯顯示卡的驅動程式在 OpenGL 支援方面常常存在各種問題，因此預設將使用 "
 "ANGLE 繪製器。您可以手動切換成 OpenGL 模式，但是無法保證正常作業。"
 
-#: libs/ui/opengl/kis_opengl.cpp:950
+#: libs/ui/opengl/kis_opengl.cpp:956
 #, kde-format
 msgid ""
 "Preferred renderer doesn't support requested surface format. Another "
 "renderer has been selected."
 msgstr "首選繪製器不支援請求的表面格式。已選用另一個繪製器。"
 
-#: libs/ui/opengl/kis_opengl.cpp:952
+#: libs/ui/opengl/kis_opengl.cpp:958
 #, kde-format
 msgid "Preferred output format is not supported by available renderers"
 msgstr "可用繪製器不支援首選輸出格式"
@@ -29873,7 +29873,7 @@ msgstr "可用繪製器不支援首選輸出格式"
 msgid "OpenColorIO is disabled: image color space is not supported"
 msgstr "已停用 OpenColorIO：不支援影像色彩空間"
 
-#: libs/ui/opengl/KisOpenGLCanvasRenderer.cpp:359
+#: libs/ui/opengl/KisOpenGLCanvasRenderer.cpp:348
 #, kde-format
 msgid ""
 "Krita could not initialize the OpenGL canvas:\n"
@@ -29930,14 +29930,14 @@ msgstr "群組圖層不可編輯。"
 msgid "Local selection is locked."
 msgstr "局部選取區域已鎖定。"
 
-#: libs/ui/tool/kis_tool_freehand.cc:203
+#: libs/ui/tool/kis_tool_freehand.cc:198
 #, kde-format
 msgid ""
 "The brush tool cannot paint on this layer.  Please select a paint layer or "
 "mask."
 msgstr "筆刷工具無法在此圖層繪畫，請選取一個顏料圖層或者遮罩圖層。"
 
-#: libs/ui/tool/kis_tool_freehand.cc:208
+#: libs/ui/tool/kis_tool_freehand.cc:203
 #: libs/ui/tool/kis_tool_polyline_base.cpp:76
 #: libs/ui/tool/kis_tool_rectangle_base.cpp:146
 #: libs/ui/tool/KisToolOutlineBase.cpp:88
@@ -29948,12 +29948,12 @@ msgstr "筆刷工具無法在此圖層繪畫，請選取一個顏料圖層或者
 msgid "The MyPaint Brush Engine is not available for this colorspace"
 msgstr "MyPaint 筆刷引擎不支援這個色彩空間"
 
-#: libs/ui/tool/kis_tool_paint.cc:387
+#: libs/ui/tool/kis_tool_paint.cc:379
 #, kde-format
 msgid "Color sampler does not work on this layer."
 msgstr "色彩取樣器不能在此圖層上使用。"
 
-#: libs/ui/tool/kis_tool_paint.cc:675
+#: libs/ui/tool/kis_tool_paint.cc:667
 #, kde-format
 msgid "Brush Size: %1 px"
 msgstr "筆刷大小：%1 px"
@@ -31142,12 +31142,12 @@ msgstr "鎖定"
 msgid "Unlock (keep current settings)"
 msgstr "解除鎖定 (保留目前設定)"
 
-#: libs/ui/widgets/kis_cie_tongue_widget.cpp:674
+#: libs/ui/widgets/kis_cie_tongue_widget.cpp:658
 #, kde-format
 msgid "Uncalibrated color space"
 msgstr "未經校準的色彩空間"
 
-#: libs/ui/widgets/kis_cie_tongue_widget.cpp:680
+#: libs/ui/widgets/kis_cie_tongue_widget.cpp:664
 #, kde-format
 msgid "No profile available..."
 msgstr "無可用特性檔案…"
@@ -31245,24 +31245,24 @@ msgctxt "@label:slider"
 msgid "Instant preview threshold:"
 msgstr "即時預覽閾值："
 
-#: libs/ui/widgets/kis_lod_availability_widget.cpp:62
+#: libs/ui/widgets/kis_lod_availability_widget.cpp:60
 #, kde-format
 msgid "Enable after:"
 msgstr "啟用始於："
 
-#: libs/ui/widgets/kis_lod_availability_widget.cpp:140
+#: libs/ui/widgets/kis_lod_availability_widget.cpp:138
 #, kde-format
 msgid "(Instant Preview)*"
 msgstr "(即時預覽)*"
 
-#: libs/ui/widgets/kis_lod_availability_widget.cpp:146
+#: libs/ui/widgets/kis_lod_availability_widget.cpp:144
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
 "<p>Instant Preview Mode is disabled by the following options:<ul>%1</ul></p>"
 msgstr "<p>即時預覽模式根據下列選項的設定而被停用：<ul>%1</ul></p>"
 
-#: libs/ui/widgets/kis_lod_availability_widget.cpp:154
+#: libs/ui/widgets/kis_lod_availability_widget.cpp:152
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -31273,7 +31273,7 @@ msgstr ""
 "<p>即時預覽模式根據即時預覽閾值的設定值而被停用。請右鍵點選此處以變更該閾值。"
 "<ul><li>筆刷大小： %1</li><li>閾值： %2</li></ul></p>"
 
-#: libs/ui/widgets/kis_lod_availability_widget.cpp:163
+#: libs/ui/widgets/kis_lod_availability_widget.cpp:161
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -31283,7 +31283,7 @@ msgstr ""
 "<p>即時預覽的顯示效果可能與最終結果有所差異。如果遇到問題可停用下列選項：<ul>"
 "%1</ul></p>"
 
-#: libs/ui/widgets/kis_lod_availability_widget.cpp:168
+#: libs/ui/widgets/kis_lod_availability_widget.cpp:166
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "<p>Instant Preview Mode is available</p>"
@@ -31482,7 +31482,7 @@ msgctxt ""
 msgid "Color Labeled Layers"
 msgstr "符合色彩標籤的圖層"
 
-#: libs/ui/widgets/kis_tone_curve_widget.cpp:332
+#: libs/ui/widgets/kis_tone_curve_widget.cpp:319
 #, kde-format
 msgid "No tone curve available..."
 msgstr "無可用色調曲線…"
@@ -31527,8 +31527,8 @@ msgstr "跳前"
 msgid "Title"
 msgstr "標題"
 
-#: libs/ui/widgets/kis_wdg_generator.cpp:151
-#: libs/ui/widgets/kis_wdg_generator.cpp:163
+#: libs/ui/widgets/kis_wdg_generator.cpp:148
+#: libs/ui/widgets/kis_wdg_generator.cpp:160
 #, kde-format
 msgid "No configuration options."
 msgstr "無設定選項。"
@@ -32530,10 +32530,19 @@ msgstr "適合文字寬度"
 msgid "Fit Page Height"
 msgstr "適合頁面高度"
 
-#: libs/widgets/KoZoomWidget.cpp:67
+#: libs/widgets/KoZoomWidget.cpp:124
 #, kde-format
-msgid "Use same aspect as pixels"
-msgstr "使用相對於螢幕像素的縮放比例"
+msgid "Pixel Size"
+msgstr "像素大小"
+
+#: libs/widgets/KoZoomWidget.cpp:128
+#, kde-format
+msgid ""
+"Map the displayed canvas size between pixel size or print size\n"
+"Current Mapping: %1"
+msgstr ""
+"設定畫布縮放比例為符合像素大小或列印大小。\n"
+"目前縮放比例：%1"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, txtFileName)
 #: libs/widgets/wdg_file_name_requester.ui:39
@@ -55369,6 +55378,10 @@ msgstr "縮放工具"
 msgctxt "action"
 msgid "Reference Images Tool"
 msgstr "參考圖工具"
+
+#, kde-format
+#~ msgid "Use same aspect as pixels"
+#~ msgstr "使用相對於螢幕像素的縮放比例"
 
 #~ msgid "Enable Touch Rotation"
 #~ msgstr "啟用觸控螢幕旋轉手勢"
