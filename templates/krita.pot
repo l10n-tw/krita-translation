@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-03-25 00:42+0000\n"
+"POT-Creation-Date: 2022-03-26 00:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -17515,7 +17515,7 @@ msgstr ""
 #: libs/pigment/resources/KoColorSet.cpp:914
 #: libs/pigment/resources/KoColorSet.cpp:1124
 #: libs/ui/actions/KisPasteActionFactories.cpp:300
-#: libs/ui/animation/KisDlgAnimationRenderer.cpp:345
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:347
 #: libs/ui/KisView.cpp:845 plugins/generators/seexpr/kis_wdg_seexpr.cpp:34
 #, kde-format
 msgid "Untitled"
@@ -17551,13 +17551,13 @@ msgstr ""
 #: libs/resourcewidgets/KisStorageChooserWidget.cpp:167
 #: libs/ui/animation/KisAnimationRender.cpp:47
 #: libs/ui/animation/KisAnimationRender.cpp:99
-#: libs/ui/animation/KisDlgAnimationRenderer.cpp:524
-#: libs/ui/animation/KisDlgAnimationRenderer.cpp:528
-#: libs/ui/animation/KisDlgAnimationRenderer.cpp:536
-#: libs/ui/animation/KisDlgAnimationRenderer.cpp:540
-#: libs/ui/animation/KisDlgAnimationRenderer.cpp:546
-#: libs/ui/animation/KisDlgAnimationRenderer.cpp:549
-#: libs/ui/animation/KisDlgAnimationRenderer.cpp:556
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:526
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:534
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:538
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:544
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:547
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:554
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:568
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:65
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:178
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:285
@@ -18560,37 +18560,32 @@ msgctxt "spline filtering"
 msgid "spline"
 msgstr ""
 
-#: libs/ui/animation/KisDlgAnimationRenderer.cpp:524
-#, kde-format
-msgid "Please enter a file name to render to."
-msgstr ""
-
-#: libs/ui/animation/KisDlgAnimationRenderer.cpp:528
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:526
 #, kde-format
 msgid ""
-"<b>Krita can't find FFmpeg!</b><br>                <i>Krita depends on "
-"another free program called FFmpeg to turn frame-by-frame animations into "
-"video files. (<a href=\"https://www.ffmpeg.org\">www.ffmpeg.org</a>)</"
-"i><br><br>               To learn more about setting up Krita for rendering "
+"<b>Krita can't find FFmpeg!</b><br>             <i>Krita depends on another "
+"free program called FFmpeg to turn frame-by-frame animations into video "
+"files. (<a href=\"https://www.ffmpeg.org\">www.ffmpeg.org</a>)</"
+"i><br><br>            To learn more about setting up Krita for rendering "
 "animations, <a href=\"https://docs.krita.org/en/reference_manual/"
 "render_animation.html#setting-up-krita-for-exporting-animations\">please "
 "visit this section of our User Manual.</a>"
 msgstr ""
 
-#: libs/ui/animation/KisDlgAnimationRenderer.cpp:536
-#: libs/ui/animation/KisDlgAnimationRenderer.cpp:556
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:534
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:554
 #, kde-format
 msgid ""
 "The location of FFmpeg is invalid. Please select the correct location of the "
 "FFmpeg executable on your system."
 msgstr ""
 
-#: libs/ui/animation/KisDlgAnimationRenderer.cpp:540
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:538
 #, kde-format
 msgid "Please extract ffmpeg from the archive first."
 msgstr ""
 
-#: libs/ui/animation/KisDlgAnimationRenderer.cpp:547
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:545
 #, kde-format
 msgid ""
 "This is a source code archive. Please download the application archive "
@@ -18598,9 +18593,14 @@ msgid ""
 "ffmpeg file."
 msgstr ""
 
-#: libs/ui/animation/KisDlgAnimationRenderer.cpp:550
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:548
 #, kde-format
 msgid "This is a source code archive. Please install ffmpeg instead."
+msgstr ""
+
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:568
+#, kde-format
+msgid "Please enter a file name to render to."
 msgstr ""
 
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:40
@@ -31380,12 +31380,12 @@ msgstr ""
 msgid "Color name:"
 msgstr ""
 
-#: libs/widgets/kis_file_name_requester.cpp:76
+#: libs/widgets/kis_file_name_requester.cpp:81
 #, kde-format
 msgid "Select a file to load..."
 msgstr ""
 
-#: libs/widgets/kis_file_name_requester.cpp:80
+#: libs/widgets/kis_file_name_requester.cpp:85
 #, kde-format
 msgid "Select a directory to load..."
 msgstr ""
