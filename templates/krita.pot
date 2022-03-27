@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-03-26 00:42+0000\n"
+"POT-Creation-Date: 2022-03-27 00:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -14136,9 +14136,13 @@ msgctxt "The raw line data"
 msgid "Raw"
 msgstr ""
 
+#. i18n: ectx: property (text), item, widget (QComboBox, angularDistCombo)
+#. i18n: ectx: property (text), item, widget (QComboBox, radialDistCombo)
 #: libs/basicflakes/tools/KoPencilTool.cpp:302
 #: plugins/flake/pathshapes/spiral/SpiralShapeConfigWidget.cpp:16
 #: plugins/paintops/curvebrush/curve_paintop_plugin.cpp:29
+#: plugins/paintops/spray/wdgsprayoptions.ui:267
+#: plugins/paintops/spray/wdgsprayoptions.ui:362
 #, kde-format
 msgid "Curve"
 msgstr ""
@@ -14957,7 +14961,7 @@ msgstr ""
 #: plugins/paintops/spray/kis_spray_shape_option.cpp:49
 #: plugins/paintops/spray/kis_spray_shape_option.cpp:122
 #: plugins/paintops/spray/kis_spray_shape_option.cpp:124
-#: plugins/paintops/spray/kis_sprayop_option.cpp:31
+#: plugins/paintops/spray/kis_sprayop_option.cpp:32
 #: plugins/tools/basictools/kis_tool_brush.cc:463
 #: plugins/tools/basictools/kis_tool_fill.cc:400
 #: plugins/tools/basictools/kis_tool_fill.cc:404
@@ -15194,7 +15198,9 @@ msgstr ""
 msgid "Soft"
 msgstr ""
 
+#. i18n: ectx: property (text), item, widget (QComboBox, radialDistCombo)
 #: libs/image/kis_base_mask_generator.h:25
+#: plugins/paintops/spray/wdgsprayoptions.ui:352
 #, kde-format
 msgid "Gaussian"
 msgstr ""
@@ -20571,7 +20577,7 @@ msgstr ""
 #: plugins/paintops/spray/kis_spray_paintop_settings.cpp:164
 #: plugins/paintops/spray/kis_spray_shape_option.cpp:128
 #: plugins/paintops/spray/kis_spray_shape_option.cpp:130
-#: plugins/paintops/spray/kis_sprayop_option.cpp:51
+#: plugins/paintops/spray/kis_sprayop_option.cpp:60
 #: plugins/paintops/tangentnormal/kis_tangent_tilt_option.cpp:39
 #: plugins/paintops/tangentnormal/kis_tangent_tilt_option.cpp:43
 #: plugins/tools/basictools/kis_tool_colorsampler.cc:398
@@ -23265,7 +23271,7 @@ msgstr ""
 #: plugins/paintops/hairy/wdgbristleoptions.ui:134
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:121
 #: plugins/paintops/libpaintop/forms/wdgtexturechooser.ui:76
-#: plugins/paintops/spray/wdgsprayoptions.ui:112
+#: plugins/paintops/spray/wdgsprayoptions.ui:125
 #, kde-format
 msgid "Scale:"
 msgstr ""
@@ -29040,8 +29046,10 @@ msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbStyle)
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbGradientType)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBoxRadialDistribution)
 #: libs/ui/layerstyles/WdgGradientOverlay.ui:143
 #: libs/ui/layerstyles/WdgStroke.ui:236 libs/ui/widgets/KoFillConfigWidget.ui:247
+#: plugins/paintops/spray/wdgsprayoptions.ui:322
 #, kde-format
 msgid "Radial"
 msgstr ""
@@ -39872,7 +39880,7 @@ msgstr ""
 #: plugins/paintops/hatching/wdghatchingoptions.ui:53
 #: plugins/paintops/libpaintop/forms/wdgautobrush.ui:160
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:220
-#: plugins/paintops/spray/wdgsprayoptions.ui:96
+#: plugins/paintops/spray/wdgsprayoptions.ui:86
 #: plugins/tools/basictools/kis_tool_measure.cc:44
 #: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:100
 #, kde-format
@@ -42442,8 +42450,10 @@ msgid "Pressure"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox2)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBoxAngularDistribution)
 #: plugins/impex/brush/KisWdgOptionsBrush.h:37
 #: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:229
+#: plugins/paintops/spray/wdgsprayoptions.ui:237
 #, kde-format
 msgid "Angular"
 msgstr ""
@@ -42472,7 +42482,7 @@ msgstr ""
 #: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:219
 #: plugins/paintops/libpaintop/forms/wdgtextbrush.ui:152
 #: plugins/paintops/roundmarker/kis_roundmarker_option.ui:36
-#: plugins/paintops/spray/wdgsprayoptions.ui:132
+#: plugins/paintops/spray/wdgsprayoptions.ui:138
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:1966
 #, kde-format
 msgid "Spacing:"
@@ -46112,7 +46122,7 @@ msgstr ""
 #: plugins/paintops/libpaintop/forms/wdgautobrush.ui:170
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:89
 #: plugins/paintops/roundmarker/kis_roundmarker_option.ui:23
-#: plugins/paintops/spray/wdgsprayoptions.ui:44
+#: plugins/paintops/spray/wdgsprayoptions.ui:48
 #, kde-format
 msgid "Diameter:"
 msgstr ""
@@ -46602,7 +46612,6 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, jitterMoveBox)
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:53
-#: plugins/paintops/spray/wdgsprayoptions.ui:246
 #, kde-format
 msgid "Jitter Movement"
 msgstr ""
@@ -46610,7 +46619,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, aspectLbl)
 #. i18n: ectx: property (text), widget (QLabel, aspectLabel)
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:185
-#: plugins/paintops/spray/wdgsprayoptions.ui:70
+#: plugins/paintops/spray/wdgsprayoptions.ui:67
 #, kde-format
 msgid "Aspect ratio:"
 msgstr ""
@@ -48143,7 +48152,7 @@ msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: plugins/paintops/particle/kis_particle_paintop_settings.cpp:54
-#: plugins/paintops/spray/wdgsprayoptions.ui:183
+#: plugins/paintops/spray/wdgsprayoptions.ui:185
 #, kde-format
 msgid "Particles"
 msgstr ""
@@ -48228,7 +48237,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton, densityRadioButton)
 #: plugins/paintops/sketch/kis_density_option.cpp:11
 #: plugins/paintops/spray/kis_spray_paintop_settings.cpp:156
-#: plugins/paintops/spray/wdgsprayoptions.ui:198
+#: plugins/paintops/spray/wdgsprayoptions.ui:213
 #, kde-format
 msgid "Density"
 msgstr ""
@@ -48301,9 +48310,108 @@ msgstr ""
 msgid "Spray shape"
 msgstr ""
 
-#: plugins/paintops/spray/kis_sprayop_option.cpp:21
+#: plugins/paintops/spray/kis_sprayop_option.cpp:22
 #, kde-format
 msgid "Spray Area"
+msgstr ""
+
+#: plugins/paintops/spray/kis_sprayop_option.cpp:63
+#, kde-format
+msgid ""
+"Select how the particles are distributed as a function of the angle to the "
+"center of the spray area."
+msgstr ""
+
+#: plugins/paintops/spray/kis_sprayop_option.cpp:66
+#, kde-format
+msgid ""
+"Set a custom distribution of the particles.\n"
+"The horizontal axis represents the angle from 0 to 360 degrees.\n"
+"The vertical axis represents how probable it is for a particle ending at "
+"that angle.\n"
+"The higher the curve at a given angle, the more particles will end at that "
+"angle."
+msgstr ""
+
+#: plugins/paintops/spray/kis_sprayop_option.cpp:71
+#: plugins/paintops/spray/kis_sprayop_option.cpp:107
+#, kde-format
+msgid "Repeat: "
+msgstr ""
+
+#: plugins/paintops/spray/kis_sprayop_option.cpp:72
+#: plugins/paintops/spray/kis_sprayop_option.cpp:108
+#, kde-format
+msgctxt "Times symbol, like in 10x"
+msgid "x"
+msgstr ""
+
+#: plugins/paintops/spray/kis_sprayop_option.cpp:75
+#, kde-format
+msgid ""
+"Set how many times should the curve repeat from 0 degrees to 360 degrees."
+msgstr ""
+
+#: plugins/paintops/spray/kis_sprayop_option.cpp:78
+#, kde-format
+msgid ""
+"Select how the particles are distributed as a function of the distance from "
+"the center of the spray area."
+msgstr ""
+
+#: plugins/paintops/spray/kis_sprayop_option.cpp:81
+#, kde-format
+msgid ""
+"Activates the old behavior where the particles are more accumulated towards "
+"the center of the spray area."
+msgstr ""
+
+#: plugins/paintops/spray/kis_sprayop_option.cpp:83
+#, kde-format
+msgid "Standard deviation: "
+msgstr ""
+
+#: plugins/paintops/spray/kis_sprayop_option.cpp:87
+#, kde-format
+msgid ""
+"Set the standard deviation for the gaussian distribution.\n"
+"Lower values will make the particles concentrate towards the center of the "
+"spray area."
+msgstr ""
+
+#: plugins/paintops/spray/kis_sprayop_option.cpp:91
+#, kde-format
+msgid "Clustering amount: "
+msgstr ""
+
+#: plugins/paintops/spray/kis_sprayop_option.cpp:95
+#, kde-format
+msgid ""
+"Set how the particles should spread in the spray area.\n"
+" Positive values will make the particles concentrate towards the center of "
+"the spray area.\n"
+" Negative values will make the particles concentrate towards the border of "
+"the spray area.\n"
+" Values near 0 will make the particles spread more uniformly."
+msgstr ""
+
+#: plugins/paintops/spray/kis_sprayop_option.cpp:102
+#, kde-format
+msgid ""
+"Set a custom distribution of the particles.\n"
+"The horizontal axis represents the distance from the center to the border of "
+"the spray area.\n"
+"The vertical axis represents how probable it is for a particle ending at "
+"that distance.\n"
+"The higher the curve at a given distance, the more particles will end at "
+"that distance."
+msgstr ""
+
+#: plugins/paintops/spray/kis_sprayop_option.cpp:111
+#, kde-format
+msgid ""
+"Set how many times should the curve repeat from the center to the border of "
+"the spray area."
 msgstr ""
 
 #: plugins/paintops/spray/spray_paintop_plugin.cpp:27
@@ -48349,16 +48457,54 @@ msgstr ""
 msgid "Angle weight:"
 msgstr ""
 
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: plugins/paintops/spray/wdgsprayoptions.ui:33
+#, kde-format
+msgid "Area"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelJitter)
+#: plugins/paintops/spray/wdgsprayoptions.ui:151
+#, kde-format
+msgid "Jitter Movement:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: plugins/paintops/spray/wdgsprayoptions.ui:194
+#, kde-format
+msgid "Amount:"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QRadioButton, countRadioButton)
-#: plugins/paintops/spray/wdgsprayoptions.ui:218
+#: plugins/paintops/spray/wdgsprayoptions.ui:203
 #, kde-format
 msgid "Count"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, gaussianBox)
-#: plugins/paintops/spray/wdgsprayoptions.ui:266
+#. i18n: ectx: property (text), item, widget (QComboBox, angularDistCombo)
+#. i18n: ectx: property (text), item, widget (QComboBox, radialDistCombo)
+#: plugins/paintops/spray/wdgsprayoptions.ui:262
+#: plugins/paintops/spray/wdgsprayoptions.ui:347
 #, kde-format
-msgid "Gaussian distribution"
+msgid "Uniform"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, radialDistCombo)
+#: plugins/paintops/spray/wdgsprayoptions.ui:357
+#, kde-format
+msgid "Cluster"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, centerBiasedPolarDistanceBox)
+#: plugins/paintops/spray/wdgsprayoptions.ui:407
+#, kde-format
+msgid "Center-biased spread (legacy)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: plugins/paintops/spray/wdgsprayoptions.ui:432
+#, kde-format
+msgid "Distribution:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, proportionalBox)
