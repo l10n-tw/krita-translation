@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-03-29 00:44+0000\n"
-"PO-Revision-Date: 2022-03-24 08:17+0000\n"
+"PO-Revision-Date: 2022-03-30 08:44+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -18626,15 +18626,7 @@ msgid "spline"
 msgstr "樣條插值 (Spline)"
 
 #: libs/ui/animation/KisDlgAnimationRenderer.cpp:526
-#, fuzzy, kde-format
-#| msgid ""
-#| "<b>Krita can't find FFmpeg!</b><br>                <i>Krita depends on "
-#| "another free program called FFmpeg to turn frame-by-frame animations into "
-#| "video files. (<a href=\"https://www.ffmpeg.org\">www.ffmpeg.org</a>)</"
-#| "i><br><br>               To learn more about setting up Krita for "
-#| "rendering animations, <a href=\"https://docs.krita.org/en/"
-#| "reference_manual/render_animation.html#setting-up-krita-for-exporting-"
-#| "animations\">please visit this section of our User Manual.</a>"
+#, kde-format
 msgid ""
 "<b>Krita can't find FFmpeg!</b><br>             <i>Krita depends on another "
 "free program called FFmpeg to turn frame-by-frame animations into video "
@@ -18644,11 +18636,11 @@ msgid ""
 "render_animation.html#setting-up-krita-for-exporting-animations\">please "
 "visit this section of our User Manual.</a>"
 msgstr ""
-"<b>Krita 找不到 FFmpeg！</b><br><i>Krita 依靠另一個名為 FFmpeg 的自由軟體，以"
-"將影格動畫轉換為影片檔案。(<a href=\"https://www.ffmpeg.org\">www.ffmpeg."
-"org</a>)</i><br><br>如要進一步了解如何設定 Krita 來繪製動畫，<a href="
-"\"https://docs.krita.org/en/reference_manual/render_animation.html#setting-"
-"up-krita-for-exporting-animations\">請造訪使用者手冊。</a>"
+"<b>Krita 找不到 FFmpeg！</b><br><i>Krita 依靠另一個名為 FFmpeg "
+"的自由軟體，以將影格動畫轉換為影片檔案。(<a href=\"https://www.ffmpeg.org\""
+">www.ffmpeg.org</a>)</i><br><br>如要進一步了解如何設定 Krita 來繪製動畫，<a "
+"href=\"https://docs.krita.org/en/reference_manual/render_animation.html"
+"#setting-up-krita-for-exporting-animations\">請造訪使用者手冊。</a>"
 
 #: libs/ui/animation/KisDlgAnimationRenderer.cpp:534
 #: libs/ui/animation/KisDlgAnimationRenderer.cpp:554
@@ -49389,7 +49381,7 @@ msgstr "噴霧區域"
 msgid ""
 "Select how the particles are distributed as a function of the angle to the "
 "center of the spray area."
-msgstr ""
+msgstr "選取噴霧顆粒相對於噴霧區域中心的角度分佈函數。"
 
 #: plugins/paintops/spray/kis_sprayop_option.cpp:66
 #, kde-format
@@ -49411,11 +49403,10 @@ msgstr "循環："
 
 #: plugins/paintops/spray/kis_sprayop_option.cpp:72
 #: plugins/paintops/spray/kis_sprayop_option.cpp:108
-#, fuzzy, kde-format
-#| msgid "x"
+#, kde-format
 msgctxt "Times symbol, like in 10x"
 msgid "x"
-msgstr "x"
+msgstr "×"
 
 #: plugins/paintops/spray/kis_sprayop_option.cpp:75
 #, kde-format
