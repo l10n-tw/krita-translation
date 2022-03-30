@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-03-30 00:47+0000\n"
-"PO-Revision-Date: 2022-03-30 08:44+0000\n"
+"PO-Revision-Date: 2022-03-31 08:40+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -49393,11 +49393,14 @@ msgid ""
 "The higher the curve at a given angle, the more particles will end at that "
 "angle."
 msgstr ""
+"自訂噴霧顆粒分佈。\n"
+"水平軸為角度，範圍由 0 度至 360 度。\n"
+"垂直軸為顆粒落於相應角度的機率。\n"
+"曲線愈高，則較多顆粒會落於該角度。"
 
 #: plugins/paintops/spray/kis_sprayop_option.cpp:71
 #: plugins/paintops/spray/kis_sprayop_option.cpp:107
-#, fuzzy, kde-format
-#| msgid "Repeat:"
+#, kde-format
 msgid "Repeat: "
 msgstr "循環："
 
@@ -49412,28 +49415,26 @@ msgstr "×"
 #, kde-format
 msgid ""
 "Set how many times should the curve repeat from 0 degrees to 360 degrees."
-msgstr ""
+msgstr "設定曲線在 0 度與 360 度之間重覆的次數。"
 
 #: plugins/paintops/spray/kis_sprayop_option.cpp:78
 #, kde-format
 msgid ""
 "Select how the particles are distributed as a function of the distance from "
 "the center of the spray area."
-msgstr ""
+msgstr "選取噴霧顆粒相對於噴霧區域中心的距離分佈函數。"
 
 #: plugins/paintops/spray/kis_sprayop_option.cpp:81
 #, kde-format
 msgid ""
 "Activates the old behavior where the particles are more accumulated towards "
 "the center of the spray area."
-msgstr ""
+msgstr "啟用在舊版本中噴霧顆粒傾向群集於噴霧區域中心的行為。"
 
 #: plugins/paintops/spray/kis_sprayop_option.cpp:83
-#, fuzzy, kde-format
-#| msgctxt "EXIF: postprocessing - light source"
-#| msgid "Standard light A"
+#, kde-format
 msgid "Standard deviation: "
-msgstr "標準光 A"
+msgstr "標準差："
 
 #: plugins/paintops/spray/kis_sprayop_option.cpp:87
 #, kde-format
@@ -49442,12 +49443,13 @@ msgid ""
 "Lower values will make the particles concentrate towards the center of the "
 "spray area."
 msgstr ""
+"設定高斯分佈的標準差值。\n"
+"較低數值會使噴霧顆粒更集中於噴霧區域的中心。"
 
 #: plugins/paintops/spray/kis_sprayop_option.cpp:91
-#, fuzzy, kde-format
-#| msgid "Deform amount:"
+#, kde-format
 msgid "Clustering amount: "
-msgstr "扭曲量："
+msgstr "群集量："
 
 #: plugins/paintops/spray/kis_sprayop_option.cpp:95
 #, kde-format
@@ -49459,6 +49461,10 @@ msgid ""
 "the spray area.\n"
 " Values near 0 will make the particles spread more uniformly."
 msgstr ""
+"設定噴霧顆粒分佈。\n"
+"正數會使噴霧顆粒較集中於噴霧區域的中心部分。\n"
+"負數會使噴霧顆粒較集中於噴霧區域的外圍部分。\n"
+"接近 0 的值會使噴霧顆粒較平均分佈。"
 
 #: plugins/paintops/spray/kis_sprayop_option.cpp:102
 #, kde-format
@@ -49471,13 +49477,17 @@ msgid ""
 "The higher the curve at a given distance, the more particles will end at "
 "that distance."
 msgstr ""
+"自訂噴霧顆粒分佈。\n"
+"水平軸為與噴霧區域中心之間的距離，至噴霧區域邊界。\n"
+"垂直軸為顆粒落於相應距離的機率。\n"
+"曲線愈高，則較多顆粒會落於該距離。"
 
 #: plugins/paintops/spray/kis_sprayop_option.cpp:111
 #, kde-format
 msgid ""
 "Set how many times should the curve repeat from the center to the border of "
 "the spray area."
-msgstr ""
+msgstr "設定曲線在噴霧區域中心與其邊界之間重覆的次數。"
 
 #: plugins/paintops/spray/spray_paintop_plugin.cpp:27
 #, kde-format
@@ -49524,16 +49534,15 @@ msgstr "角度權重："
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: plugins/paintops/spray/wdgsprayoptions.ui:33
-#, kde-format
+#, fuzzy, kde-format
 msgid "Area"
-msgstr ""
+msgstr "噴霧區域"
 
 #. i18n: ectx: property (text), widget (QLabel, labelJitter)
 #: plugins/paintops/spray/wdgsprayoptions.ui:151
-#, fuzzy, kde-format
-#| msgid "Jitter Movement"
+#, kde-format
 msgid "Jitter Movement:"
-msgstr "抖動位移"
+msgstr "抖動位移："
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: plugins/paintops/spray/wdgsprayoptions.ui:194
@@ -49543,7 +49552,7 @@ msgstr "抖動位移"
 #| "the histogram (0%) or to the point selected in the method (100%)"
 #| msgid "Amount:"
 msgid "Amount:"
-msgstr "調色值："
+msgstr "噴霧量："
 
 #. i18n: ectx: property (text), widget (QRadioButton, countRadioButton)
 #: plugins/paintops/spray/wdgsprayoptions.ui:203
@@ -49555,30 +49564,28 @@ msgstr "數量"
 #. i18n: ectx: property (text), item, widget (QComboBox, radialDistCombo)
 #: plugins/paintops/spray/wdgsprayoptions.ui:262
 #: plugins/paintops/spray/wdgsprayoptions.ui:347
-#, fuzzy, kde-format
-#| msgid "Uniform random"
+#, kde-format
 msgid "Uniform"
-msgstr "筆尖隨機"
+msgstr "平均分佈"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, radialDistCombo)
 #: plugins/paintops/spray/wdgsprayoptions.ui:357
 #, fuzzy, kde-format
 #| msgid "Faster"
 msgid "Cluster"
-msgstr "較快"
+msgstr "群集"
 
 #. i18n: ectx: property (text), widget (QCheckBox, centerBiasedPolarDistanceBox)
 #: plugins/paintops/spray/wdgsprayoptions.ui:407
 #, kde-format
 msgid "Center-biased spread (legacy)"
-msgstr ""
+msgstr "中心群集 (舊有)"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: plugins/paintops/spray/wdgsprayoptions.ui:432
-#, fuzzy, kde-format
-#| msgid "Distribute"
+#, kde-format
 msgid "Distribution:"
-msgstr "分布"
+msgstr "分佈："
 
 #. i18n: ectx: property (text), widget (QCheckBox, proportionalBox)
 #: plugins/paintops/spray/wdgsprayshapeoptions.ui:158
@@ -49902,8 +49909,6 @@ msgid "Color profile:"
 msgstr "色彩特性檔案："
 
 #: plugins/python/colorspace/uicolorspace.py:129
-#, fuzzy
-#| msgid "The selected documents has been converted."
 msgid "The selected documents have been converted."
 msgstr "所選檔案已被轉換。"
 
