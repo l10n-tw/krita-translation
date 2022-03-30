@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-03-29 00:44+0000\n"
+"POT-Creation-Date: 2022-03-30 00:47+0000\n"
 "PO-Revision-Date: 2022-03-30 08:44+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
@@ -14207,7 +14207,7 @@ msgctxt "PaintOp instant preview limitation"
 msgid "Brush Randomness recommended value 0.0"
 msgstr "筆刷隨機度建議值為 0.0"
 
-#: libs/brush/kis_brush.cpp:729
+#: libs/brush/kis_brush.cpp:727
 #, kde-format
 msgctxt "PaintOp instant preview limitation"
 msgid "Spacing > 0.5, consider disabling Instant Preview"
@@ -14982,7 +14982,7 @@ msgstr "大小"
 #: plugins/paintops/spray/kis_spray_shape_option.cpp:122
 #: plugins/paintops/spray/kis_spray_shape_option.cpp:124
 #: plugins/paintops/spray/kis_sprayop_option.cpp:32
-#: plugins/tools/basictools/kis_tool_brush.cc:463
+#: plugins/tools/basictools/kis_tool_brush.cc:391
 #: plugins/tools/basictools/kis_tool_fill.cc:400
 #: plugins/tools/basictools/kis_tool_fill.cc:404
 #: plugins/tools/basictools/kis_tool_movetooloptionswidget.cpp:51
@@ -18636,11 +18636,11 @@ msgid ""
 "render_animation.html#setting-up-krita-for-exporting-animations\">please "
 "visit this section of our User Manual.</a>"
 msgstr ""
-"<b>Krita 找不到 FFmpeg！</b><br><i>Krita 依靠另一個名為 FFmpeg "
-"的自由軟體，以將影格動畫轉換為影片檔案。(<a href=\"https://www.ffmpeg.org\""
-">www.ffmpeg.org</a>)</i><br><br>如要進一步了解如何設定 Krita 來繪製動畫，<a "
-"href=\"https://docs.krita.org/en/reference_manual/render_animation.html"
-"#setting-up-krita-for-exporting-animations\">請造訪使用者手冊。</a>"
+"<b>Krita 找不到 FFmpeg！</b><br><i>Krita 依靠另一個名為 FFmpeg 的自由軟體，以"
+"將影格動畫轉換為影片檔案。(<a href=\"https://www.ffmpeg.org\">www.ffmpeg."
+"org</a>)</i><br><br>如要進一步了解如何設定 Krita 來繪製動畫，<a href="
+"\"https://docs.krita.org/en/reference_manual/render_animation.html#setting-"
+"up-krita-for-exporting-animations\">請造訪使用者手冊。</a>"
 
 #: libs/ui/animation/KisDlgAnimationRenderer.cpp:534
 #: libs/ui/animation/KisDlgAnimationRenderer.cpp:554
@@ -29938,14 +29938,14 @@ msgstr "群組圖層不可編輯。"
 msgid "Local selection is locked."
 msgstr "局部選取區域已鎖定。"
 
-#: libs/ui/tool/kis_tool_freehand.cc:198
+#: libs/ui/tool/kis_tool_freehand.cc:190
 #, kde-format
 msgid ""
 "The brush tool cannot paint on this layer.  Please select a paint layer or "
 "mask."
 msgstr "筆刷工具無法在此圖層繪畫，請選取一個顏料圖層或者遮罩圖層。"
 
-#: libs/ui/tool/kis_tool_freehand.cc:203
+#: libs/ui/tool/kis_tool_freehand.cc:195
 #: libs/ui/tool/kis_tool_polyline_base.cpp:76
 #: libs/ui/tool/kis_tool_rectangle_base.cpp:146
 #: libs/ui/tool/KisToolOutlineBase.cpp:88
@@ -49902,7 +49902,9 @@ msgid "Color profile:"
 msgstr "色彩特性檔案："
 
 #: plugins/python/colorspace/uicolorspace.py:129
-msgid "The selected documents has been converted."
+#, fuzzy
+#| msgid "The selected documents has been converted."
+msgid "The selected documents have been converted."
 msgstr "所選檔案已被轉換。"
 
 #: plugins/python/colorspace/uicolorspace.py:131
@@ -52130,137 +52132,88 @@ msgstr "選擇指令稿"
 msgid "Python files (*.py)"
 msgstr "Python 檔案 (*.py)"
 
-#: plugins/tools/basictools/kis_tool_brush.cc:58
+#: plugins/tools/basictools/kis_tool_brush.cc:57
 msgctxt "(qtundo-format)"
 msgid "Freehand Brush Stroke"
 msgstr "手繪筆刷筆畫"
 
-#: plugins/tools/basictools/kis_tool_brush.cc:139
+#: plugins/tools/basictools/kis_tool_brush.cc:180
 #, kde-format
 msgid "Sample count:"
 msgstr "取樣數："
 
-#: plugins/tools/basictools/kis_tool_brush.cc:150
+#: plugins/tools/basictools/kis_tool_brush.cc:191
 #, kde-format
 msgctxt ""
 "Label of Distance value in Freehand brush tool's Weighted Smoothing mode"
 msgid "Distance:"
 msgstr "距離："
 
-#: plugins/tools/basictools/kis_tool_brush.cc:346
-#, kde-format
-msgid "Eraser smoothing"
-msgstr "橡皮擦平滑化"
-
-#: plugins/tools/basictools/kis_tool_brush.cc:369
-#, kde-format
-msgid "Snap to Assistants"
-msgstr "吸附到輔助尺"
-
-#: plugins/tools/basictools/kis_tool_brush.cc:371
-#, kde-format
-msgid "You need to add Assistants before this tool will work."
-msgstr "此工具在新增輔助尺後才能作業。"
-
-#: plugins/tools/basictools/kis_tool_brush.cc:376
-#, kde-format
-msgid "Assistant Magnetism"
-msgstr "輔助尺磁性"
-
-#: plugins/tools/basictools/kis_tool_brush.cc:382
-#, kde-format
-msgid "Magnetism:"
-msgstr "磁性："
-
-#: plugins/tools/basictools/kis_tool_brush.cc:385
-#, kde-format
-msgid "Snap to Single Line"
-msgstr "吸附單一輔助尺："
-
-#: plugins/tools/basictools/kis_tool_brush.cc:388
-#, kde-format
-msgctxt "@info:tooltip"
-msgid ""
-"Make it only snap to a single assistant line, prevents snapping mess while "
-"using the infinite assistants."
-msgstr "只吸附至單一輔助尺，可避免在使用無限延伸輔助尺時吸附失靈。"
-
-#: plugins/tools/basictools/kis_tool_brush.cc:393
-#, kde-format
-msgid "Snap Eraser"
-msgstr "擦除模式時吸附"
-
-#: plugins/tools/basictools/kis_tool_brush.cc:396
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Enable snapping when using erasers"
-msgstr "在使用擦除模式時啟用吸附"
-
-#: plugins/tools/basictools/kis_tool_brush.cc:427
+#: plugins/tools/basictools/kis_tool_brush.cc:348
 #, kde-format
 msgctxt "@item:inlistbox Brush Smoothing"
 msgid "None"
 msgstr "無"
 
-#: plugins/tools/basictools/kis_tool_brush.cc:428
+#: plugins/tools/basictools/kis_tool_brush.cc:349
 #, kde-format
 msgctxt "@item:inlistbox Brush Smoothing"
 msgid "Basic"
 msgstr "基本"
 
-#: plugins/tools/basictools/kis_tool_brush.cc:429
+#: plugins/tools/basictools/kis_tool_brush.cc:350
 #, kde-format
 msgctxt "@item:inlistbox Brush Smoothing"
 msgid "Weighted"
 msgstr "權衡"
 
-#: plugins/tools/basictools/kis_tool_brush.cc:430
+#: plugins/tools/basictools/kis_tool_brush.cc:351
 #, kde-format
 msgctxt "@item:inlistbox Brush Smoothing"
 msgid "Stabilizer"
 msgstr "防抖"
 
-#: plugins/tools/basictools/kis_tool_brush.cc:431
+#: plugins/tools/basictools/kis_tool_brush.cc:353
 #, kde-format
 msgid "Brush Smoothing:"
 msgstr "筆刷平滑："
 
-#: plugins/tools/basictools/kis_tool_brush.cc:452
+#: plugins/tools/basictools/kis_tool_brush.cc:379
 #, kde-format
 msgid "Delay:"
 msgstr "延遲："
 
-#: plugins/tools/basictools/kis_tool_brush.cc:457
+#: plugins/tools/basictools/kis_tool_brush.cc:384
 #, kde-format
 msgid "Delay the brush stroke to make the line smoother"
 msgstr "延遲筆畫響應以平滑線條"
 
-#: plugins/tools/basictools/kis_tool_brush.cc:460
+#: plugins/tools/basictools/kis_tool_brush.cc:388
 #, kde-format
 msgid "Radius where the brush is blocked"
 msgstr "筆刷延遲的半徑大小"
 
-#: plugins/tools/basictools/kis_tool_brush.cc:466
+#: plugins/tools/basictools/kis_tool_brush.cc:395
 #, kde-format
 msgid "Finish line:"
 msgstr "筆末挑尖："
 
-#: plugins/tools/basictools/kis_tool_brush.cc:478
+#: plugins/tools/basictools/kis_tool_brush.cc:408
 #, kde-format
 msgid "Stabilize Sensors:"
 msgstr "穩定感測器："
 
-#: plugins/tools/basictools/kis_tool_brush.cc:486
+#: plugins/tools/basictools/kis_tool_brush.cc:417
 #, kde-format
 msgid "Stroke Ending:"
 msgstr "筆末跟隨："
 
-#: plugins/tools/basictools/kis_tool_brush.cc:492
+#: plugins/tools/basictools/kis_tool_brush.cc:424
 #, kde-format
 msgid "Smooth Pressure"
 msgstr "平滑壓力"
 
-#: plugins/tools/basictools/kis_tool_brush.cc:499
+#: plugins/tools/basictools/kis_tool_brush.cc:431
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -52268,12 +52221,56 @@ msgid ""
 "visually constant whatever zoom level is chosen"
 msgstr "按照畫布縮放比例縮放距離，使任意畫布縮放下的距離在視覺上一致"
 
-#: plugins/tools/basictools/kis_tool_brush.cc:503
+#: plugins/tools/basictools/kis_tool_brush.cc:436
 #, kde-format
 msgid "Scalable Distance"
 msgstr "隨檢視縮放距離"
 
-#: plugins/tools/basictools/kis_tool_brush.h:162
+#: plugins/tools/basictools/kis_tool_brush.cc:452
+#, kde-format
+msgid "Snap to Assistants"
+msgstr "吸附到輔助尺"
+
+#: plugins/tools/basictools/kis_tool_brush.cc:454
+#, kde-format
+msgid "You need to add Assistants before this tool will work."
+msgstr "此工具在新增輔助尺後才能作業。"
+
+#: plugins/tools/basictools/kis_tool_brush.cc:459
+#, kde-format
+msgid "Assistant Magnetism"
+msgstr "輔助尺磁性"
+
+#: plugins/tools/basictools/kis_tool_brush.cc:465
+#, kde-format
+msgid "Magnetism:"
+msgstr "磁性："
+
+#: plugins/tools/basictools/kis_tool_brush.cc:468
+#, kde-format
+msgid "Snap to Single Line"
+msgstr "吸附單一輔助尺："
+
+#: plugins/tools/basictools/kis_tool_brush.cc:471
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Make it only snap to a single assistant line, prevents snapping mess while "
+"using the infinite assistants."
+msgstr "只吸附至單一輔助尺，可避免在使用無限延伸輔助尺時吸附失靈。"
+
+#: plugins/tools/basictools/kis_tool_brush.cc:476
+#, kde-format
+msgid "Snap Eraser"
+msgstr "擦除模式時吸附"
+
+#: plugins/tools/basictools/kis_tool_brush.cc:479
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Enable snapping when using erasers"
+msgstr "在使用擦除模式時啟用吸附"
+
+#: plugins/tools/basictools/kis_tool_brush.h:137
 #, kde-format
 msgid "Freehand Brush Tool"
 msgstr "手繪筆刷工具"
@@ -55536,6 +55533,10 @@ msgstr "縮放工具"
 msgctxt "action"
 msgid "Reference Images Tool"
 msgstr "參考圖工具"
+
+#, kde-format
+#~ msgid "Eraser smoothing"
+#~ msgstr "橡皮擦平滑化"
 
 #, kde-format
 #~ msgid "Gaussian distribution"
