@@ -55595,15 +55595,12 @@ msgctxt "action"
 msgid "Reference Images Tool"
 msgstr "參考圖工具"
 
-#, kde-format
 #~ msgid "Eraser smoothing"
 #~ msgstr "橡皮擦平滑化"
 
-#, kde-format
 #~ msgid "Gaussian distribution"
 #~ msgstr "高斯分布"
 
-#, kde-format
 #~ msgid "Use same aspect as pixels"
 #~ msgstr "使用相對於螢幕像素的縮放比例"
 
