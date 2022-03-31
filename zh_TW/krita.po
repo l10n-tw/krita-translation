@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-03-31 00:41+0000\n"
-"PO-Revision-Date: 2022-03-31 08:45+0000\n"
+"PO-Revision-Date: 2022-04-01 06:40+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -49634,7 +49634,7 @@ msgctxt ""
 "where particles are biased towards the center of the spray area in the spray "
 "engine"
 msgid "Center-biased spread (legacy)"
-msgstr "中心群集 (舊有)"
+msgstr "中心群集 (舊版)"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: plugins/paintops/spray/wdgsprayoptions.ui:432
