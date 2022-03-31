@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-03-30 00:47+0000\n"
+"POT-Creation-Date: 2022-03-31 00:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -23262,7 +23262,6 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, ScaleLbl)
 #. i18n: ectx: property (text), widget (QLabel, lblDiameter)
 #. i18n: ectx: property (text), widget (QLabel, label)
-#. i18n: ectx: property (text), widget (QLabel, scaleLbl)
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #. i18n: ectx: property (title), widget (QGroupBox, gbScale)
 #: libs/ui/forms/wdggeometryoptions.ui:127
@@ -23271,7 +23270,6 @@ msgstr ""
 #: plugins/paintops/hairy/wdgbristleoptions.ui:134
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:121
 #: plugins/paintops/libpaintop/forms/wdgtexturechooser.ui:76
-#: plugins/paintops/spray/wdgsprayoptions.ui:125
 #, kde-format
 msgid "Scale:"
 msgstr ""
@@ -25854,84 +25852,79 @@ msgctxt "%1 = modifier keys in shortcut; %2 = mouse wheel buttons in shortcut"
 msgid "%1 + %2"
 msgstr ""
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:408
-#, kde-format
-msgid "No Gesture"
-msgstr ""
-
-#: libs/ui/input/kis_shortcut_configuration.cpp:410
-#, kde-format
-msgid "Max Gesture"
-msgstr ""
-
-#: libs/ui/input/kis_shortcut_configuration.cpp:413
+#: libs/ui/input/kis_shortcut_configuration.cpp:409
 #, kde-format
 msgid "Pinch Gesture"
 msgstr ""
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:415
+#: libs/ui/input/kis_shortcut_configuration.cpp:411
 #, kde-format
 msgid "Pan Gesture"
 msgstr ""
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:417
+#: libs/ui/input/kis_shortcut_configuration.cpp:413
 #, kde-format
 msgid "Rotate Gesture"
 msgstr ""
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:419
+#: libs/ui/input/kis_shortcut_configuration.cpp:415
 #, kde-format
 msgid "Smart Zoom Gesture"
 msgstr ""
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:422
+#: libs/ui/input/kis_shortcut_configuration.cpp:418
 #, kde-format
 msgid "One Finger Tap"
 msgstr ""
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:424
+#: libs/ui/input/kis_shortcut_configuration.cpp:420
 #, kde-format
 msgid "Two Finger Tap"
 msgstr ""
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:426
+#: libs/ui/input/kis_shortcut_configuration.cpp:422
 #, kde-format
 msgid "Three Finger Tap"
 msgstr ""
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:428
+#: libs/ui/input/kis_shortcut_configuration.cpp:424
 #, kde-format
 msgid "Four Finger Tap"
 msgstr ""
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:430
+#: libs/ui/input/kis_shortcut_configuration.cpp:426
 #, kde-format
 msgid "Five Finger Tap"
 msgstr ""
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:432
+#: libs/ui/input/kis_shortcut_configuration.cpp:428
 #, kde-format
 msgid "One Finger Drag"
 msgstr ""
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:434
+#: libs/ui/input/kis_shortcut_configuration.cpp:430
 #, kde-format
 msgid "Two Finger Drag"
 msgstr ""
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:436
+#: libs/ui/input/kis_shortcut_configuration.cpp:432
 #, kde-format
 msgid "Three Finger Drag"
 msgstr ""
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:438
+#: libs/ui/input/kis_shortcut_configuration.cpp:434
 #, kde-format
 msgid "Four Finger Drag"
 msgstr ""
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:440
+#: libs/ui/input/kis_shortcut_configuration.cpp:436
 #, kde-format
 msgid "Five Finger Drag"
+msgstr ""
+
+#: libs/ui/input/kis_shortcut_configuration.cpp:439
+#, kde-format
+msgid "No Gesture"
 msgstr ""
 
 #: libs/ui/input/kis_tablet_debugger.cpp:97
@@ -29046,10 +29039,8 @@ msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbStyle)
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbGradientType)
-#. i18n: ectx: property (title), widget (QGroupBox, groupBoxRadialDistribution)
 #: libs/ui/layerstyles/WdgGradientOverlay.ui:143
 #: libs/ui/layerstyles/WdgStroke.ui:236 libs/ui/widgets/KoFillConfigWidget.ui:247
-#: plugins/paintops/spray/wdgsprayoptions.ui:322
 #, kde-format
 msgid "Radial"
 msgstr ""
@@ -39880,7 +39871,6 @@ msgstr ""
 #: plugins/paintops/hatching/wdghatchingoptions.ui:53
 #: plugins/paintops/libpaintop/forms/wdgautobrush.ui:160
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:220
-#: plugins/paintops/spray/wdgsprayoptions.ui:86
 #: plugins/tools/basictools/kis_tool_measure.cc:44
 #: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:100
 #, kde-format
@@ -42450,10 +42440,8 @@ msgid "Pressure"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox2)
-#. i18n: ectx: property (title), widget (QGroupBox, groupBoxAngularDistribution)
 #: plugins/impex/brush/KisWdgOptionsBrush.h:37
 #: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:229
-#: plugins/paintops/spray/wdgsprayoptions.ui:237
 #, kde-format
 msgid "Angular"
 msgstr ""
@@ -42472,7 +42460,6 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, spacingLbl)
 #. i18n: ectx: property (text), widget (QLabel, lblSpacing)
 #. i18n: ectx: property (text), widget (QLabel, brushSpacingLabel)
-#. i18n: ectx: property (text), widget (QLabel, spacingLabel)
 #. i18n: ectx: property (text), widget (QLabel, label_11)
 #: plugins/impex/brush/wdg_export_gih.ui:31
 #: plugins/paintops/libpaintop/forms/wdgautobrush.ui:379
@@ -42482,7 +42469,6 @@ msgstr ""
 #: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:219
 #: plugins/paintops/libpaintop/forms/wdgtextbrush.ui:152
 #: plugins/paintops/roundmarker/kis_roundmarker_option.ui:36
-#: plugins/paintops/spray/wdgsprayoptions.ui:138
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:1966
 #, kde-format
 msgid "Spacing:"
@@ -46115,14 +46101,12 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, DiameterLbl)
 #. i18n: ectx: property (text), widget (QLabel, lblDiameter)
-#. i18n: ectx: property (text), widget (QLabel, diameterLabel)
 #. i18n: ectx: property (text), widget (QLabel, lineWidthLbl)
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #: plugins/paintops/gridbrush/wdggridoptions.ui:88
 #: plugins/paintops/libpaintop/forms/wdgautobrush.ui:170
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:89
 #: plugins/paintops/roundmarker/kis_roundmarker_option.ui:23
-#: plugins/paintops/spray/wdgsprayoptions.ui:48
 #, kde-format
 msgid "Diameter:"
 msgstr ""
@@ -46617,9 +46601,7 @@ msgid "Jitter Movement"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, aspectLbl)
-#. i18n: ectx: property (text), widget (QLabel, aspectLabel)
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:185
-#: plugins/paintops/spray/wdgsprayoptions.ui:67
 #, kde-format
 msgid "Aspect ratio:"
 msgstr ""
@@ -48150,9 +48132,7 @@ msgstr ""
 msgid "Radius Logarithmic:"
 msgstr ""
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: plugins/paintops/particle/kis_particle_paintop_settings.cpp:54
-#: plugins/paintops/spray/wdgsprayoptions.ui:185
 #, kde-format
 msgid "Particles"
 msgstr ""
@@ -48234,10 +48214,8 @@ msgstr ""
 msgid "Quick Brush"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QRadioButton, densityRadioButton)
 #: plugins/paintops/sketch/kis_density_option.cpp:11
 #: plugins/paintops/spray/kis_spray_paintop_settings.cpp:156
-#: plugins/paintops/spray/wdgsprayoptions.ui:213
 #, kde-format
 msgid "Density"
 msgstr ""
@@ -48388,11 +48366,11 @@ msgstr ""
 #, kde-format
 msgid ""
 "Set how the particles should spread in the spray area.\n"
-" Positive values will make the particles concentrate towards the center of "
+"Positive values will make the particles concentrate towards the center of "
 "the spray area.\n"
-" Negative values will make the particles concentrate towards the border of "
+"Negative values will make the particles concentrate towards the border of "
 "the spray area.\n"
-" Values near 0 will make the particles spread more uniformly."
+"Values near 0 will make the particles spread more uniformly."
 msgstr ""
 
 #: plugins/paintops/spray/kis_sprayop_option.cpp:102
@@ -48460,25 +48438,94 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: plugins/paintops/spray/wdgsprayoptions.ui:33
 #, kde-format
+msgctxt ""
+"Name of the group of options related to the spay area in the spray engine"
 msgid "Area"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, diameterLabel)
+#: plugins/paintops/spray/wdgsprayoptions.ui:48
+#, kde-format
+msgctxt "Label for the diameter of the spray area in the spray engine"
+msgid "Diameter:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, aspectLabel)
+#: plugins/paintops/spray/wdgsprayoptions.ui:67
+#, kde-format
+msgctxt "Label for the aspect ratio of the spray area in the spray engine"
+msgid "Aspect ratio:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, rotationLbl)
+#: plugins/paintops/spray/wdgsprayoptions.ui:86
+#, kde-format
+msgctxt "Label for the angle of the spray area in the spray engine"
+msgid "Angle:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, scaleLbl)
+#: plugins/paintops/spray/wdgsprayoptions.ui:125
+#, kde-format
+msgctxt "Label for the scale of the spray area in the spray engine"
+msgid "Scale:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, spacingLabel)
+#: plugins/paintops/spray/wdgsprayoptions.ui:138
+#, kde-format
+msgctxt "Label for the spacing of the spray area in the spray engine"
+msgid "Spacing:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, labelJitter)
 #: plugins/paintops/spray/wdgsprayoptions.ui:151
 #, kde-format
+msgctxt "Label for the jitter movement of the spray area in the spray engine"
 msgid "Jitter Movement:"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: plugins/paintops/spray/wdgsprayoptions.ui:185
+#, kde-format
+msgctxt ""
+"Name of the group of options related to the spay particles in the spray "
+"engine"
+msgid "Particles"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: plugins/paintops/spray/wdgsprayoptions.ui:194
 #, kde-format
+msgctxt "Label for the amount of particles in the spray engine"
 msgid "Amount:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, countRadioButton)
 #: plugins/paintops/spray/wdgsprayoptions.ui:203
 #, kde-format
+msgctxt ""
+"Check box to indicate that the user should set the exact number of particles "
+"in the spray engine"
 msgid "Count"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, densityRadioButton)
+#: plugins/paintops/spray/wdgsprayoptions.ui:213
+#, kde-format
+msgctxt ""
+"Check box to indicate that the user should set the number of particles in "
+"terms of density relative to the spray area in the spray engine"
+msgid "Density"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBoxAngularDistribution)
+#: plugins/paintops/spray/wdgsprayoptions.ui:237
+#, kde-format
+msgctxt ""
+"Name of the group of options related to the angular distribution of "
+"particles in the spray engine"
+msgid "Angular"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, angularDistCombo)
@@ -48487,6 +48534,15 @@ msgstr ""
 #: plugins/paintops/spray/wdgsprayoptions.ui:347
 #, kde-format
 msgid "Uniform"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBoxRadialDistribution)
+#: plugins/paintops/spray/wdgsprayoptions.ui:322
+#, kde-format
+msgctxt ""
+"Name of the group of options related to the radial distribution of particles "
+"in the spray engine"
+msgid "Radial"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, radialDistCombo)
@@ -48498,12 +48554,17 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, centerBiasedPolarDistanceBox)
 #: plugins/paintops/spray/wdgsprayoptions.ui:407
 #, kde-format
+msgctxt ""
+"Check box to indicate that the radial distribution should use the old method "
+"where particles are biased towards the center of the spray area in the spray "
+"engine"
 msgid "Center-biased spread (legacy)"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: plugins/paintops/spray/wdgsprayoptions.ui:432
 #, kde-format
+msgctxt "Label for the distribution of particles in the spray engine"
 msgid "Distribution:"
 msgstr ""
 
