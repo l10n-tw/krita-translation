@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-03-24 00:43+0000\n"
-"PO-Revision-Date: 2022-03-24 08:17+0000\n"
+"POT-Creation-Date: 2022-03-31 00:41+0000\n"
+"PO-Revision-Date: 2022-03-31 08:45+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -14154,9 +14154,13 @@ msgctxt "The raw line data"
 msgid "Raw"
 msgstr "原始"
 
+#. i18n: ectx: property (text), item, widget (QComboBox, angularDistCombo)
+#. i18n: ectx: property (text), item, widget (QComboBox, radialDistCombo)
 #: libs/basicflakes/tools/KoPencilTool.cpp:302
 #: plugins/flake/pathshapes/spiral/SpiralShapeConfigWidget.cpp:16
 #: plugins/paintops/curvebrush/curve_paintop_plugin.cpp:29
+#: plugins/paintops/spray/wdgsprayoptions.ui:267
+#: plugins/paintops/spray/wdgsprayoptions.ui:362
 #, kde-format
 msgid "Curve"
 msgstr "曲線"
@@ -14203,7 +14207,7 @@ msgctxt "PaintOp instant preview limitation"
 msgid "Brush Randomness recommended value 0.0"
 msgstr "筆刷隨機度建議值為 0.0"
 
-#: libs/brush/kis_brush.cpp:729
+#: libs/brush/kis_brush.cpp:727
 #, kde-format
 msgctxt "PaintOp instant preview limitation"
 msgid "Spacing > 0.5, consider disabling Instant Preview"
@@ -14977,10 +14981,10 @@ msgstr "大小"
 #: plugins/paintops/spray/kis_spray_shape_option.cpp:49
 #: plugins/paintops/spray/kis_spray_shape_option.cpp:122
 #: plugins/paintops/spray/kis_spray_shape_option.cpp:124
-#: plugins/paintops/spray/kis_sprayop_option.cpp:31
-#: plugins/tools/basictools/kis_tool_brush.cc:463
-#: plugins/tools/basictools/kis_tool_fill.cc:412
-#: plugins/tools/basictools/kis_tool_fill.cc:416
+#: plugins/paintops/spray/kis_sprayop_option.cpp:32
+#: plugins/tools/basictools/kis_tool_brush.cc:391
+#: plugins/tools/basictools/kis_tool_fill.cc:400
+#: plugins/tools/basictools/kis_tool_fill.cc:404
 #: plugins/tools/basictools/kis_tool_movetooloptionswidget.cpp:51
 #: plugins/tools/basictools/kis_tool_movetooloptionswidget.cpp:52
 #: plugins/tools/basictools/kis_tool_multihand.cpp:451
@@ -15214,7 +15218,9 @@ msgstr "預設"
 msgid "Soft"
 msgstr "柔和"
 
+#. i18n: ectx: property (text), item, widget (QComboBox, radialDistCombo)
 #: libs/image/kis_base_mask_generator.h:25
+#: plugins/paintops/spray/wdgsprayoptions.ui:352
 #, kde-format
 msgid "Gaussian"
 msgstr "高斯"
@@ -17554,7 +17560,7 @@ msgstr "輸出"
 #: libs/pigment/resources/KoColorSet.cpp:914
 #: libs/pigment/resources/KoColorSet.cpp:1124
 #: libs/ui/actions/KisPasteActionFactories.cpp:300
-#: libs/ui/animation/KisDlgAnimationRenderer.cpp:345 libs/ui/KisView.cpp:845
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:347 libs/ui/KisView.cpp:845
 #: plugins/generators/seexpr/kis_wdg_seexpr.cpp:34
 #, kde-format
 msgid "Untitled"
@@ -17590,13 +17596,13 @@ msgstr "本機資源"
 #: libs/resourcewidgets/KisStorageChooserWidget.cpp:167
 #: libs/ui/animation/KisAnimationRender.cpp:47
 #: libs/ui/animation/KisAnimationRender.cpp:99
-#: libs/ui/animation/KisDlgAnimationRenderer.cpp:524
-#: libs/ui/animation/KisDlgAnimationRenderer.cpp:528
-#: libs/ui/animation/KisDlgAnimationRenderer.cpp:536
-#: libs/ui/animation/KisDlgAnimationRenderer.cpp:540
-#: libs/ui/animation/KisDlgAnimationRenderer.cpp:546
-#: libs/ui/animation/KisDlgAnimationRenderer.cpp:549
-#: libs/ui/animation/KisDlgAnimationRenderer.cpp:556
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:526
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:534
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:538
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:544
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:547
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:554
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:568
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:65
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:178
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:285
@@ -17632,7 +17638,7 @@ msgstr "本機資源"
 #: libs/ui/widgets/kis_custom_image_widget.cc:293
 #: plugins/assistants/Assistants/kis_assistant_tool.cc:1301
 #: plugins/assistants/Assistants/kis_assistant_tool.cc:1304
-#: plugins/dockers/gamutmask/gamutmask_dock.cpp:304
+#: plugins/dockers/gamutmask/gamutmask_dock.cpp:295
 #: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:175
 #: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:178
 #: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:187
@@ -18619,18 +18625,13 @@ msgctxt "spline filtering"
 msgid "spline"
 msgstr "樣條插值 (Spline)"
 
-#: libs/ui/animation/KisDlgAnimationRenderer.cpp:524
-#, kde-format
-msgid "Please enter a file name to render to."
-msgstr "請輸入繪製目標檔案的名稱。"
-
-#: libs/ui/animation/KisDlgAnimationRenderer.cpp:528
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:526
 #, kde-format
 msgid ""
-"<b>Krita can't find FFmpeg!</b><br>                <i>Krita depends on "
-"another free program called FFmpeg to turn frame-by-frame animations into "
-"video files. (<a href=\"https://www.ffmpeg.org\">www.ffmpeg.org</a>)</"
-"i><br><br>               To learn more about setting up Krita for rendering "
+"<b>Krita can't find FFmpeg!</b><br>             <i>Krita depends on another "
+"free program called FFmpeg to turn frame-by-frame animations into video "
+"files. (<a href=\"https://www.ffmpeg.org\">www.ffmpeg.org</a>)</"
+"i><br><br>            To learn more about setting up Krita for rendering "
 "animations, <a href=\"https://docs.krita.org/en/reference_manual/"
 "render_animation.html#setting-up-krita-for-exporting-animations\">please "
 "visit this section of our User Manual.</a>"
@@ -18641,20 +18642,20 @@ msgstr ""
 "\"https://docs.krita.org/en/reference_manual/render_animation.html#setting-"
 "up-krita-for-exporting-animations\">請造訪使用者手冊。</a>"
 
-#: libs/ui/animation/KisDlgAnimationRenderer.cpp:536
-#: libs/ui/animation/KisDlgAnimationRenderer.cpp:556
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:534
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:554
 #, kde-format
 msgid ""
 "The location of FFmpeg is invalid. Please select the correct location of the "
 "FFmpeg executable on your system."
 msgstr "指定的 FFmpeg 的位置無效。請在系統中選擇 FFmpeg 可執行檔案的正確位置。"
 
-#: libs/ui/animation/KisDlgAnimationRenderer.cpp:540
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:538
 #, kde-format
 msgid "Please extract ffmpeg from the archive first."
 msgstr "請先從壓縮檔中解壓縮 FFmpeg。"
 
-#: libs/ui/animation/KisDlgAnimationRenderer.cpp:547
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:545
 #, kde-format
 msgid ""
 "This is a source code archive. Please download the application archive "
@@ -18664,10 +18665,15 @@ msgstr ""
 "此為原始碼封裝。請下載應用程式壓縮檔 ('Windows 組建')，將其壓縮檔後提供已解壓"
 "縮的 FFmpeg 檔案的路徑。"
 
-#: libs/ui/animation/KisDlgAnimationRenderer.cpp:550
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:548
 #, kde-format
 msgid "This is a source code archive. Please install ffmpeg instead."
 msgstr "此為原始碼封裝。請改為安裝 FFmpeg。"
+
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:568
+#, kde-format
+msgid "Please enter a file name to render to."
+msgstr "請輸入繪製目標檔案的名稱。"
 
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:40
 #, kde-format
@@ -19673,8 +19679,8 @@ msgstr "匯入影片動畫"
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1791
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1793
 #: libs/ui/forms/wdgcolorsettings.ui:32 libs/ui/forms/wdggeneralsettings.ui:204
-#: libs/ui/forms/wdgperformancesettings.ui:50 libs/ui/KoDocumentInfoDlg.cpp:92
-#: libs/ui/KoDocumentInfoDlg.cpp:93
+#: libs/ui/forms/wdgperformancesettings.ui:50 libs/ui/KoDocumentInfoDlg.cpp:91
+#: libs/ui/KoDocumentInfoDlg.cpp:92
 #: plugins/dockers/logdocker/LogDockerDock.cpp:119
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.ui:49
 #: plugins/impex/webp/dlg_webp_export.ui:31
@@ -20715,12 +20721,12 @@ msgstr "圖層屬性"
 #: plugins/paintops/spray/kis_spray_paintop_settings.cpp:164
 #: plugins/paintops/spray/kis_spray_shape_option.cpp:128
 #: plugins/paintops/spray/kis_spray_shape_option.cpp:130
-#: plugins/paintops/spray/kis_sprayop_option.cpp:51
+#: plugins/paintops/spray/kis_sprayop_option.cpp:60
 #: plugins/paintops/tangentnormal/kis_tangent_tilt_option.cpp:39
 #: plugins/paintops/tangentnormal/kis_tangent_tilt_option.cpp:43
 #: plugins/tools/basictools/kis_tool_colorsampler.cc:398
-#: plugins/tools/basictools/kis_tool_fill.cc:389
-#: plugins/tools/basictools/kis_tool_fill.cc:399
+#: plugins/tools/basictools/kis_tool_fill.cc:377
+#: plugins/tools/basictools/kis_tool_fill.cc:387
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:262
 #: plugins/tools/svgtexttool/SvgTextEditor.cpp:1449
 #, no-c-format, kde-format
@@ -21224,7 +21230,7 @@ msgid "Author"
 msgstr "作者檔案"
 
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1883
-#: libs/ui/KoDocumentInfoDlg.cpp:115
+#: libs/ui/KoDocumentInfoDlg.cpp:114
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
 #, kde-format
 msgid "Author"
@@ -23457,7 +23463,7 @@ msgstr "背景色"
 #: plugins/generators/pattern/wdgpatternoptions.ui:21
 #: plugins/paintops/libpaintop/kis_color_source_option.cpp:46
 #: plugins/paintops/libpaintop/kis_texture_option.cpp:54
-#: plugins/tools/basictools/kis_tool_fill.cc:440
+#: plugins/tools/basictools/kis_tool_fill.cc:428
 #, kde-format
 msgid "Pattern"
 msgstr "圖案"
@@ -23504,7 +23510,6 @@ msgstr "旋轉："
 #. i18n: ectx: property (text), widget (QLabel, ScaleLbl)
 #. i18n: ectx: property (text), widget (QLabel, lblDiameter)
 #. i18n: ectx: property (text), widget (QLabel, label)
-#. i18n: ectx: property (text), widget (QLabel, scaleLbl)
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #. i18n: ectx: property (title), widget (QGroupBox, gbScale)
 #: libs/ui/forms/wdggeometryoptions.ui:127
@@ -23513,7 +23518,6 @@ msgstr "旋轉："
 #: plugins/paintops/hairy/wdgbristleoptions.ui:134
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:121
 #: plugins/paintops/libpaintop/forms/wdgtexturechooser.ui:76
-#: plugins/paintops/spray/wdgsprayoptions.ui:112
 #, kde-format
 msgid "Scale:"
 msgstr "縮放："
@@ -25209,7 +25213,7 @@ msgstr "線條："
 #. i18n: ectx: property (text), item, widget (QComboBox, fillBox)
 #: libs/ui/forms/wdgstrokeselectionproperties.ui:96
 #: libs/ui/forms/wdgstrokeselectionproperties.ui:224
-#: plugins/tools/basictools/kis_tool_fill.cc:438
+#: plugins/tools/basictools/kis_tool_fill.cc:426
 #, kde-format
 msgid "Foreground color"
 msgstr "前景色"
@@ -25218,7 +25222,7 @@ msgstr "前景色"
 #. i18n: ectx: property (text), item, widget (QComboBox, fillBox)
 #: libs/ui/forms/wdgstrokeselectionproperties.ui:101
 #: libs/ui/forms/wdgstrokeselectionproperties.ui:214
-#: plugins/tools/basictools/kis_tool_fill.cc:439
+#: plugins/tools/basictools/kis_tool_fill.cc:427
 #, kde-format
 msgid "Background color"
 msgstr "背景色"
@@ -25881,68 +25885,68 @@ msgstr "正常"
 msgid "Snap"
 msgstr "吸附"
 
-#: libs/ui/input/kis_gamma_exposure_action.cpp:61
+#: libs/ui/input/kis_gamma_exposure_action.cpp:63
 #, kde-format
 msgid "Exposure and Gamma"
 msgstr "曝光和 Gamma"
 
-#: libs/ui/input/kis_gamma_exposure_action.cpp:62
+#: libs/ui/input/kis_gamma_exposure_action.cpp:64
 #, kde-format
 msgid ""
 "The <i>Exposure and Gamma</i> action changes the display mode of the canvas."
 msgstr "<i>曝光和 Gamma </i>操作變更畫布的顯示模式。"
 
-#: libs/ui/input/kis_gamma_exposure_action.cpp:65
+#: libs/ui/input/kis_gamma_exposure_action.cpp:67
 #, kde-format
 msgid "Exposure Mode"
 msgstr "曝光模式"
 
-#: libs/ui/input/kis_gamma_exposure_action.cpp:66
+#: libs/ui/input/kis_gamma_exposure_action.cpp:68
 #, kde-format
 msgid "Gamma Mode"
 msgstr "Gamma 模式"
 
-#: libs/ui/input/kis_gamma_exposure_action.cpp:68
+#: libs/ui/input/kis_gamma_exposure_action.cpp:70
 #, kde-format
 msgid "Exposure +0.5"
 msgstr "曝光 +0.5"
 
-#: libs/ui/input/kis_gamma_exposure_action.cpp:69
+#: libs/ui/input/kis_gamma_exposure_action.cpp:71
 #, kde-format
 msgid "Exposure -0.5"
 msgstr "曝光 -0.5"
 
-#: libs/ui/input/kis_gamma_exposure_action.cpp:70
+#: libs/ui/input/kis_gamma_exposure_action.cpp:72
 #, kde-format
 msgid "Gamma +0.5"
 msgstr "Gamma +0.5"
 
-#: libs/ui/input/kis_gamma_exposure_action.cpp:71
+#: libs/ui/input/kis_gamma_exposure_action.cpp:73
 #, kde-format
 msgid "Gamma -0.5"
 msgstr "Gamma -0.5"
 
-#: libs/ui/input/kis_gamma_exposure_action.cpp:73
+#: libs/ui/input/kis_gamma_exposure_action.cpp:75
 #, kde-format
 msgid "Exposure +0.2"
 msgstr "曝光 +0.2"
 
-#: libs/ui/input/kis_gamma_exposure_action.cpp:74
+#: libs/ui/input/kis_gamma_exposure_action.cpp:76
 #, kde-format
 msgid "Exposure -0.2"
 msgstr "曝光 -0.2"
 
-#: libs/ui/input/kis_gamma_exposure_action.cpp:75
+#: libs/ui/input/kis_gamma_exposure_action.cpp:77
 #, kde-format
 msgid "Gamma +0.2"
 msgstr "Gamma +0.2"
 
-#: libs/ui/input/kis_gamma_exposure_action.cpp:76
+#: libs/ui/input/kis_gamma_exposure_action.cpp:78
 #, kde-format
 msgid "Gamma -0.2"
 msgstr "Gamma -0.2"
 
-#: libs/ui/input/kis_gamma_exposure_action.cpp:78
+#: libs/ui/input/kis_gamma_exposure_action.cpp:80
 #, kde-format
 msgid "Reset Exposure and Gamma"
 msgstr "重設曝光和 Gamma"
@@ -25982,37 +25986,37 @@ msgstr "向上平移"
 msgid "Pan Down"
 msgstr "向下平移"
 
-#: libs/ui/input/kis_rotate_canvas_action.cpp:38
+#: libs/ui/input/kis_rotate_canvas_action.cpp:39
 #, kde-format
 msgid "Rotate Canvas"
 msgstr "旋轉畫布"
 
-#: libs/ui/input/kis_rotate_canvas_action.cpp:39
+#: libs/ui/input/kis_rotate_canvas_action.cpp:40
 #, kde-format
 msgid "The <i>Rotate Canvas</i> action rotates the canvas."
 msgstr "<b>旋轉畫布</b>操作用於對畫布檢視進行旋轉。"
 
-#: libs/ui/input/kis_rotate_canvas_action.cpp:42
+#: libs/ui/input/kis_rotate_canvas_action.cpp:43
 #, kde-format
 msgid "Rotate Mode"
 msgstr "旋轉模式"
 
-#: libs/ui/input/kis_rotate_canvas_action.cpp:43
+#: libs/ui/input/kis_rotate_canvas_action.cpp:44
 #, kde-format
 msgid "Discrete Rotate Mode"
 msgstr "非連續旋轉模式"
 
-#: libs/ui/input/kis_rotate_canvas_action.cpp:44
+#: libs/ui/input/kis_rotate_canvas_action.cpp:45
 #, kde-format
 msgid "Rotate Left"
 msgstr "向左旋轉"
 
-#: libs/ui/input/kis_rotate_canvas_action.cpp:45
+#: libs/ui/input/kis_rotate_canvas_action.cpp:46
 #, kde-format
 msgid "Rotate Right"
 msgstr "向右旋轉"
 
-#: libs/ui/input/kis_rotate_canvas_action.cpp:46
+#: libs/ui/input/kis_rotate_canvas_action.cpp:47
 #, kde-format
 msgid "Reset Rotation"
 msgstr "重設旋轉"
@@ -26179,85 +26183,80 @@ msgctxt "%1 = modifier keys in shortcut; %2 = mouse wheel buttons in shortcut"
 msgid "%1 + %2"
 msgstr "%1 + %2"
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:408
-#, kde-format
-msgid "No Gesture"
-msgstr "無手勢"
-
-#: libs/ui/input/kis_shortcut_configuration.cpp:410
-#, kde-format
-msgid "Max Gesture"
-msgstr ""
-
-#: libs/ui/input/kis_shortcut_configuration.cpp:413
+#: libs/ui/input/kis_shortcut_configuration.cpp:409
 #, kde-format
 msgid "Pinch Gesture"
 msgstr "捏合手勢"
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:415
+#: libs/ui/input/kis_shortcut_configuration.cpp:411
 #, kde-format
 msgid "Pan Gesture"
 msgstr "平移手勢"
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:417
+#: libs/ui/input/kis_shortcut_configuration.cpp:413
 #, kde-format
 msgid "Rotate Gesture"
 msgstr "旋轉手勢"
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:419
+#: libs/ui/input/kis_shortcut_configuration.cpp:415
 #, kde-format
 msgid "Smart Zoom Gesture"
 msgstr "智慧縮放手勢"
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:422
+#: libs/ui/input/kis_shortcut_configuration.cpp:418
 #, kde-format
 msgid "One Finger Tap"
 msgstr "單指點選"
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:424
+#: libs/ui/input/kis_shortcut_configuration.cpp:420
 #, kde-format
 msgid "Two Finger Tap"
 msgstr "兩指點選"
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:426
+#: libs/ui/input/kis_shortcut_configuration.cpp:422
 #, kde-format
 msgid "Three Finger Tap"
 msgstr "三指點選"
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:428
+#: libs/ui/input/kis_shortcut_configuration.cpp:424
 #, kde-format
 msgid "Four Finger Tap"
 msgstr "四指點選"
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:430
+#: libs/ui/input/kis_shortcut_configuration.cpp:426
 #, kde-format
 msgid "Five Finger Tap"
 msgstr "五指點選"
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:432
+#: libs/ui/input/kis_shortcut_configuration.cpp:428
 #, kde-format
 msgid "One Finger Drag"
 msgstr "單指拖曳"
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:434
+#: libs/ui/input/kis_shortcut_configuration.cpp:430
 #, kde-format
 msgid "Two Finger Drag"
 msgstr "兩指拖曳"
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:436
+#: libs/ui/input/kis_shortcut_configuration.cpp:432
 #, kde-format
 msgid "Three Finger Drag"
 msgstr "三指拖曳"
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:438
+#: libs/ui/input/kis_shortcut_configuration.cpp:434
 #, kde-format
 msgid "Four Finger Drag"
 msgstr "四指拖曳"
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:440
+#: libs/ui/input/kis_shortcut_configuration.cpp:436
 #, kde-format
 msgid "Five Finger Drag"
 msgstr "五指拖曳"
+
+#: libs/ui/input/kis_shortcut_configuration.cpp:439
+#, kde-format
+msgid "No Gesture"
+msgstr "無手勢"
 
 #: libs/ui/input/kis_tablet_debugger.cpp:97
 #, kde-format
@@ -26343,62 +26342,62 @@ msgstr "啟動相連選取區域工具"
 msgid "Activate Freehand Selection Tool"
 msgstr "啟動手繪選取區域工具"
 
-#: libs/ui/input/kis_zoom_action.cpp:105
+#: libs/ui/input/kis_zoom_action.cpp:106
 #, kde-format
 msgid "Zoom Canvas"
 msgstr "縮放畫布"
 
-#: libs/ui/input/kis_zoom_action.cpp:106
+#: libs/ui/input/kis_zoom_action.cpp:107
 #, kde-format
 msgid "The <i>Zoom Canvas</i> action zooms the canvas."
 msgstr "<b>縮放畫布</b>操作用作縮放畫布的檢視。"
 
-#: libs/ui/input/kis_zoom_action.cpp:109
+#: libs/ui/input/kis_zoom_action.cpp:110
 #, kde-format
 msgid "Zoom Mode"
 msgstr "縮放模式"
 
-#: libs/ui/input/kis_zoom_action.cpp:110
+#: libs/ui/input/kis_zoom_action.cpp:111
 #, kde-format
 msgid "Discrete Zoom Mode"
 msgstr "非連續縮放模式"
 
-#: libs/ui/input/kis_zoom_action.cpp:111
+#: libs/ui/input/kis_zoom_action.cpp:112
 #, kde-format
 msgid "Relative Zoom Mode"
 msgstr "相對縮放模式"
 
-#: libs/ui/input/kis_zoom_action.cpp:112
+#: libs/ui/input/kis_zoom_action.cpp:113
 #, kde-format
 msgid "Relative Discrete Zoom Mode"
 msgstr "相對非連續縮放模式"
 
-#: libs/ui/input/kis_zoom_action.cpp:113
+#: libs/ui/input/kis_zoom_action.cpp:114
 #, kde-format
 msgid "Zoom In"
 msgstr "放大"
 
-#: libs/ui/input/kis_zoom_action.cpp:114
+#: libs/ui/input/kis_zoom_action.cpp:115
 #, kde-format
 msgid "Zoom Out"
 msgstr "縮小"
 
-#: libs/ui/input/kis_zoom_action.cpp:115
+#: libs/ui/input/kis_zoom_action.cpp:116
 #, kde-format
 msgid "Reset Zoom to 100%"
 msgstr "重設縮放為 100%"
 
-#: libs/ui/input/kis_zoom_action.cpp:116
+#: libs/ui/input/kis_zoom_action.cpp:117
 #, kde-format
 msgid "Fit to Page"
 msgstr "適合頁面大小"
 
-#: libs/ui/input/kis_zoom_action.cpp:117
+#: libs/ui/input/kis_zoom_action.cpp:118
 #, kde-format
 msgid "Fit to Width"
 msgstr "適合寬度"
 
-#: libs/ui/input/kis_zoom_action.cpp:118
+#: libs/ui/input/kis_zoom_action.cpp:119
 #, kde-format
 msgid "Fit to Height"
 msgstr "適合高度"
@@ -26562,47 +26561,47 @@ msgstr ""
 msgid "Favorites"
 msgstr "首選"
 
-#: libs/ui/kis_control_frame.cpp:68
+#: libs/ui/kis_control_frame.cpp:63
 #, kde-format
 msgid "Fill Patterns"
 msgstr "圖案填充"
 
-#: libs/ui/kis_control_frame.cpp:72
+#: libs/ui/kis_control_frame.cpp:67
 #, kde-format
 msgid "Fill Gradients"
 msgstr "填充漸變"
 
-#: libs/ui/kis_control_frame.cpp:82
+#: libs/ui/kis_control_frame.cpp:77
 #, kde-format
 msgid "&Patterns"
 msgstr "圖案(&P)"
 
-#: libs/ui/kis_control_frame.cpp:89
+#: libs/ui/kis_control_frame.cpp:84
 #, kde-format
 msgid "&Gradients"
 msgstr "漸變(&G)"
 
-#: libs/ui/kis_control_frame.cpp:104
+#: libs/ui/kis_control_frame.cpp:99
 #, kde-format
 msgid "&Choose foreground and background colors"
 msgstr "選取前景色和背景色(&C)"
 
-#: libs/ui/kis_control_frame.cpp:119
+#: libs/ui/kis_control_frame.cpp:114
 #, kde-format
 msgid "&Painter's Tools"
 msgstr "繪畫工具(&P)"
 
-#: libs/ui/kis_control_frame.cpp:124
+#: libs/ui/kis_control_frame.cpp:119
 #, kde-format
 msgid "&Open Foreground color selector"
 msgstr "開啟前景色選取工具(&O)"
 
-#: libs/ui/kis_control_frame.cpp:129
+#: libs/ui/kis_control_frame.cpp:124
 #, kde-format
 msgid "&Open Background color selector"
 msgstr "開啟背景色選取工具"
 
-#: libs/ui/kis_control_frame.cpp:190 libs/ui/KisApplication.cpp:347
+#: libs/ui/kis_control_frame.cpp:185 libs/ui/KisApplication.cpp:347
 #: plugins/dockers/patterndocker/patterndocker_dock.cpp:20
 #: plugins/extensions/resourcemanager/dlg_embed_tags.cpp:65
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:242
@@ -26610,12 +26609,12 @@ msgstr "開啟背景色選取工具"
 msgid "Patterns"
 msgstr "圖案"
 
-#: libs/ui/kis_control_frame.cpp:193 libs/ui/kis_control_frame.cpp:194
+#: libs/ui/kis_control_frame.cpp:188 libs/ui/kis_control_frame.cpp:189
 #, kde-format
 msgid "Custom Pattern"
 msgstr "自訂圖案"
 
-#: libs/ui/kis_control_frame.cpp:240 libs/ui/KisApplication.cpp:332
+#: libs/ui/kis_control_frame.cpp:235 libs/ui/KisApplication.cpp:332
 #: libs/ui/KisApplication.cpp:333
 #: plugins/extensions/resourcemanager/dlg_embed_tags.cpp:63
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:245
@@ -27352,7 +27351,7 @@ msgctxt "<color space> <image profile>"
 msgid "%1  %2"
 msgstr "%1  %2"
 
-#: libs/ui/kis_zoom_manager.cc:326
+#: libs/ui/kis_zoom_manager.cc:318
 #, kde-format
 msgctxt "floating message about zoom"
 msgid "Zoom: %1 %"
@@ -27841,7 +27840,7 @@ msgid "An unspecified error occurred."
 msgstr "發生意外錯誤。"
 
 #: libs/ui/KisImportExportErrorCode.cpp:24
-#: libs/ui/KisImportExportErrorCode.cpp:164
+#: libs/ui/KisImportExportErrorCode.cpp:184
 #, kde-format
 msgid "The action has been completed successfully."
 msgstr "操作已成功完成。"
@@ -27921,72 +27920,72 @@ msgstr "無法開啟檔案進行讀取。原因：%1"
 msgid "Cannot open file for writing. Reason: %1"
 msgstr "無法開啟檔案進行寫入。原因：%1"
 
-#: libs/ui/KisImportExportErrorCode.cpp:119
+#: libs/ui/KisImportExportErrorCode.cpp:139
 #, kde-format
 msgid "Unexpected error. Please contact developers."
 msgstr "意外錯誤。請聯絡開發人員。"
 
-#: libs/ui/KisImportExportErrorCode.cpp:128
+#: libs/ui/KisImportExportErrorCode.cpp:148
 #, kde-format
 msgid "The file doesn't exist."
 msgstr "檔案不存在。"
 
-#: libs/ui/KisImportExportErrorCode.cpp:130
+#: libs/ui/KisImportExportErrorCode.cpp:150
 #, kde-format
 msgid "Permission denied: Krita is not allowed to read the file."
 msgstr "沒有權限：該檔案不允許 Krita 進行讀寫。"
 
-#: libs/ui/KisImportExportErrorCode.cpp:132
+#: libs/ui/KisImportExportErrorCode.cpp:152
 #, kde-format
 msgid "The file format cannot be parsed."
 msgstr "無法解析檔案格式。"
 
-#: libs/ui/KisImportExportErrorCode.cpp:134
+#: libs/ui/KisImportExportErrorCode.cpp:154
 #, kde-format
 msgid "The file format contains unsupported features."
 msgstr "檔案格式包含不支援的功能。"
 
-#: libs/ui/KisImportExportErrorCode.cpp:136
+#: libs/ui/KisImportExportErrorCode.cpp:156
 #, kde-format
 msgid "The file format contains unsupported color space."
 msgstr "檔案格式包含不支援的色彩空間。"
 
-#: libs/ui/KisImportExportErrorCode.cpp:138
+#: libs/ui/KisImportExportErrorCode.cpp:158
 #, kde-format
 msgid "Error occurred while reading from the file."
 msgstr "讀取檔案時發生錯誤。"
 
-#: libs/ui/KisImportExportErrorCode.cpp:142
+#: libs/ui/KisImportExportErrorCode.cpp:162
 #, kde-format
 msgid "The file cannot be created."
 msgstr "無法建立檔案。"
 
-#: libs/ui/KisImportExportErrorCode.cpp:144
+#: libs/ui/KisImportExportErrorCode.cpp:164
 #, kde-format
 msgid "Permission denied: Krita is not allowed to write to the file."
 msgstr "沒有權限：該檔案不允許 Krita 進行讀寫。"
 
-#: libs/ui/KisImportExportErrorCode.cpp:146
+#: libs/ui/KisImportExportErrorCode.cpp:166
 #, kde-format
 msgid "There is not enough disk space left to save the file."
 msgstr "沒有足夠的磁碟空間儲存檔案。"
 
-#: libs/ui/KisImportExportErrorCode.cpp:148
+#: libs/ui/KisImportExportErrorCode.cpp:168
 #, kde-format
 msgid "Error occurred while writing to the file."
 msgstr "寫入檔案時發生錯誤。"
 
-#: libs/ui/KisImportExportErrorCode.cpp:150
+#: libs/ui/KisImportExportErrorCode.cpp:170
 #, kde-format
 msgid "Krita does not support this file format."
 msgstr "Krita 不支援此檔案格式。"
 
-#: libs/ui/KisImportExportErrorCode.cpp:154
+#: libs/ui/KisImportExportErrorCode.cpp:174
 #, kde-format
 msgid "The action was cancelled by the user."
 msgstr "操作已由使用者取消。"
 
-#: libs/ui/KisImportExportErrorCode.cpp:158
+#: libs/ui/KisImportExportErrorCode.cpp:178
 #: plugins/impex/libkra/kra_converter.cpp:379
 #: plugins/impex/libkra/kra_converter.cpp:408
 #, kde-format
@@ -28384,7 +28383,7 @@ msgctxt "A temporary action that actives a layer or mask"
 msgid "Activate %1"
 msgstr "切換到 %1"
 
-#: libs/ui/KisOpenPane.cpp:171
+#: libs/ui/KisOpenPane.cpp:170
 #, kde-format
 msgid "Open Existing Document"
 msgstr "開啟現存檔案"
@@ -28733,34 +28732,34 @@ msgstr "但螢幕校樣仍然關閉。"
 msgid "Gamut Warnings turned off."
 msgstr "已關閉色域警告。"
 
-#: libs/ui/KisViewManager.cpp:759
+#: libs/ui/KisViewManager.cpp:740
 #, kde-format
 msgid "Active Author Profile"
 msgstr "目前作者檔案"
 
-#: libs/ui/KisViewManager.cpp:886
+#: libs/ui/KisViewManager.cpp:867
 #, kde-format
 msgid "%1 (Copy)"
 msgstr "%1 (副本)"
 
-#: libs/ui/KisViewManager.cpp:1028 libs/ui/KisViewManager.cpp:1109
+#: libs/ui/KisViewManager.cpp:1009 libs/ui/KisViewManager.cpp:1090
 #, kde-format
 msgid "Alternative names exhausted, try manually saving with a higher number"
 msgstr "備用名稱數字已用盡，請手動輸入更大的數字儲存檔案"
 
-#: libs/ui/KisViewManager.cpp:1028
+#: libs/ui/KisViewManager.cpp:1009
 #, kde-format
 msgctxt "@title:window"
 msgid "Couldn't save incremental version"
 msgstr "無法儲存遞增版本"
 
-#: libs/ui/KisViewManager.cpp:1109
+#: libs/ui/KisViewManager.cpp:1090
 #, kde-format
 msgctxt "@title:window"
 msgid "Couldn't save incremental backup"
 msgstr "無法儲存遞增備份"
 
-#: libs/ui/KisViewManager.cpp:1292
+#: libs/ui/KisViewManager.cpp:1273
 #, kde-format
 msgid ""
 "Going into Canvas-Only mode.\n"
@@ -28769,13 +28768,13 @@ msgstr ""
 "即將切換為畫布獨佔模式。\n"
 "按下 %1 返回。"
 
-#: libs/ui/KisViewManager.cpp:1332
+#: libs/ui/KisViewManager.cpp:1313
 #, kde-format
 msgctxt "@title:window resource folder"
 msgid "Open Resource Folder"
 msgstr "開啟資源資料夾"
 
-#: libs/ui/KisViewManager.cpp:1335
+#: libs/ui/KisViewManager.cpp:1316
 #, kde-format
 msgctxt "@info resource folder"
 msgid ""
@@ -28798,19 +28797,19 @@ msgstr ""
 "<p><b>應用程式內部資料夾</b>：<br/>\n"
 "%2</p>"
 
-#: libs/ui/KisViewManager.cpp:1349
+#: libs/ui/KisViewManager.cpp:1330
 #, kde-format
 msgctxt "@action:button resource folder"
 msgid "Open in &user AppData"
 msgstr "開啟使用者 AppData (&U)"
 
-#: libs/ui/KisViewManager.cpp:1350
+#: libs/ui/KisViewManager.cpp:1331
 #, kde-format
 msgctxt "@action:button resource folder"
 msgid "Open in &private app location"
 msgstr "開啟應用程式內部資料夾(&P)"
 
-#: libs/ui/KisViewManager.cpp:1463 libs/ui/KisViewManager.cpp:1481
+#: libs/ui/KisViewManager.cpp:1444 libs/ui/KisViewManager.cpp:1462
 #, kde-format
 msgctxt "choice for author profile"
 msgid "Anonymous"
@@ -28859,52 +28858,52 @@ msgstr "更新時發生錯誤"
 msgid "Restart is required."
 msgstr "需要重新啟動。"
 
-#: libs/ui/KoDocumentInfoDlg.cpp:74
+#: libs/ui/KoDocumentInfoDlg.cpp:73
 #, kde-format
 msgid "Document Information"
 msgstr "檔案資訊"
 
-#: libs/ui/KoDocumentInfoDlg.cpp:116
+#: libs/ui/KoDocumentInfoDlg.cpp:115
 #, kde-format
 msgid "Last saved by"
 msgstr "上次修改者"
 
-#: libs/ui/KoDocumentInfoDlg.cpp:171
+#: libs/ui/KoDocumentInfoDlg.cpp:170
 #, kde-format
 msgid "Use ';' (Example: Office;KDE;Calligra)"
 msgstr "使用「;」(如：Office;KDE;Calligra)"
 
-#: libs/ui/KoDocumentInfoDlg.cpp:297
+#: libs/ui/KoDocumentInfoDlg.cpp:296
 #, kde-format
 msgid "%1 week"
 msgid_plural "%1 weeks"
 msgstr[0] "%1 周"
 
-#: libs/ui/KoDocumentInfoDlg.cpp:298 libs/ui/KoDocumentInfoDlg.cpp:300
+#: libs/ui/KoDocumentInfoDlg.cpp:297 libs/ui/KoDocumentInfoDlg.cpp:299
 #, kde-format
 msgid "%1 day"
 msgid_plural "%1 days"
 msgstr[0] "%1 天"
 
-#: libs/ui/KoDocumentInfoDlg.cpp:301 libs/ui/KoDocumentInfoDlg.cpp:303
+#: libs/ui/KoDocumentInfoDlg.cpp:300 libs/ui/KoDocumentInfoDlg.cpp:302
 #, kde-format
 msgid "%1 hour"
 msgid_plural "%1 hours"
 msgstr[0] "%1 小時"
 
-#: libs/ui/KoDocumentInfoDlg.cpp:304 libs/ui/KoDocumentInfoDlg.cpp:306
+#: libs/ui/KoDocumentInfoDlg.cpp:303 libs/ui/KoDocumentInfoDlg.cpp:305
 #, kde-format
 msgid "%1 minute"
 msgid_plural "%1 minutes"
 msgstr[0] "%1 分鐘"
 
-#: libs/ui/KoDocumentInfoDlg.cpp:307 libs/ui/KoDocumentInfoDlg.cpp:309
+#: libs/ui/KoDocumentInfoDlg.cpp:306 libs/ui/KoDocumentInfoDlg.cpp:308
 #, kde-format
 msgid "%1 second"
 msgid_plural "%1 seconds"
 msgstr[0] "%1 秒"
 
-#: libs/ui/KoDocumentInfoDlg.cpp:315
+#: libs/ui/KoDocumentInfoDlg.cpp:314
 #, kde-format
 msgctxt "major time unit and minor time unit"
 msgid "%1 and %2"
@@ -29930,14 +29929,14 @@ msgstr "群組圖層不可編輯。"
 msgid "Local selection is locked."
 msgstr "局部選取區域已鎖定。"
 
-#: libs/ui/tool/kis_tool_freehand.cc:198
+#: libs/ui/tool/kis_tool_freehand.cc:190
 #, kde-format
 msgid ""
 "The brush tool cannot paint on this layer.  Please select a paint layer or "
 "mask."
 msgstr "筆刷工具無法在此圖層繪畫，請選取一個顏料圖層或者遮罩圖層。"
 
-#: libs/ui/tool/kis_tool_freehand.cc:203
+#: libs/ui/tool/kis_tool_freehand.cc:195
 #: libs/ui/tool/kis_tool_polyline_base.cpp:76
 #: libs/ui/tool/kis_tool_rectangle_base.cpp:146
 #: libs/ui/tool/KisToolOutlineBase.cpp:88
@@ -32037,12 +32036,12 @@ msgstr "%1："
 msgid "Color name:"
 msgstr "色彩名稱："
 
-#: libs/widgets/kis_file_name_requester.cpp:76
+#: libs/widgets/kis_file_name_requester.cpp:81
 #, kde-format
 msgid "Select a file to load..."
 msgstr "選擇要載入的檔案…"
 
-#: libs/widgets/kis_file_name_requester.cpp:80
+#: libs/widgets/kis_file_name_requester.cpp:85
 #, kde-format
 msgid "Select a directory to load..."
 msgstr "選擇要載入的目錄…"
@@ -35842,22 +35841,22 @@ msgstr "編輯該色域遮罩"
 msgid "Gamut Masks"
 msgstr "色域遮罩"
 
-#: plugins/dockers/gamutmask/gamutmask_dock.cpp:137
+#: plugins/dockers/gamutmask/gamutmask_dock.cpp:128
 #, kde-format
 msgid "Could not open gamut mask for editing."
 msgstr "無法開啟色域遮罩進行編輯。"
 
-#: plugins/dockers/gamutmask/gamutmask_dock.cpp:138
+#: plugins/dockers/gamutmask/gamutmask_dock.cpp:129
 #, kde-format
 msgid "The editor template was not found."
 msgstr "找不到該編輯器範本。"
 
-#: plugins/dockers/gamutmask/gamutmask_dock.cpp:273
+#: plugins/dockers/gamutmask/gamutmask_dock.cpp:264
 #, kde-format
 msgid "Saving of gamut mask '%1' was aborted."
 msgstr "已中止儲存色域遮罩「%1」。"
 
-#: plugins/dockers/gamutmask/gamutmask_dock.cpp:274
+#: plugins/dockers/gamutmask/gamutmask_dock.cpp:265
 #, kde-format
 msgid ""
 "<p>The mask template is invalid.</p><p>Please check that:<ul><li>your "
@@ -35868,17 +35867,17 @@ msgstr ""
 "「maskShapesLayer」的向量圖層</li><li>該「maskShapesLayer」中是否包含一個以上"
 "的向量形狀</li></ul></p>"
 
-#: plugins/dockers/gamutmask/gamutmask_dock.cpp:320
+#: plugins/dockers/gamutmask/gamutmask_dock.cpp:311
 #, kde-format
 msgid "Gamut mask <b>'%1'</b> has been modified."
 msgstr "色域遮罩<b>「%1」</b>已被變更。"
 
-#: plugins/dockers/gamutmask/gamutmask_dock.cpp:321
+#: plugins/dockers/gamutmask/gamutmask_dock.cpp:312
 #, kde-format
 msgid "Do you want to save it?"
 msgstr "要將其儲存嗎？"
 
-#: plugins/dockers/gamutmask/gamutmask_dock.cpp:573
+#: plugins/dockers/gamutmask/gamutmask_dock.cpp:564
 #, kde-format
 msgid "Are you sure you want to delete mask <b>'%1'</b>?"
 msgstr "確定要刪除遮罩<b>「%1」</b>嗎？"
@@ -36474,7 +36473,7 @@ msgstr "變更檢視所用的黑點及白點"
 msgid "Overview"
 msgstr "總覽圖"
 
-#: plugins/dockers/overview/overviewdocker_dock.cpp:165
+#: plugins/dockers/overview/overviewdocker_dock.cpp:156
 #, kde-format
 msgctxt "Make the controls in the overview docker auto-hide or always visible"
 msgid "Pin navigation controls"
@@ -40656,7 +40655,6 @@ msgstr "旋轉："
 #: plugins/paintops/hatching/wdghatchingoptions.ui:53
 #: plugins/paintops/libpaintop/forms/wdgautobrush.ui:160
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:220
-#: plugins/paintops/spray/wdgsprayoptions.ui:96
 #: plugins/tools/basictools/kis_tool_measure.cc:44
 #: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:100
 #, kde-format
@@ -43249,7 +43247,6 @@ msgstr "等級"
 #. i18n: ectx: property (text), widget (QLabel, spacingLbl)
 #. i18n: ectx: property (text), widget (QLabel, lblSpacing)
 #. i18n: ectx: property (text), widget (QLabel, brushSpacingLabel)
-#. i18n: ectx: property (text), widget (QLabel, spacingLabel)
 #. i18n: ectx: property (text), widget (QLabel, label_11)
 #: plugins/impex/brush/wdg_export_gih.ui:31
 #: plugins/paintops/libpaintop/forms/wdgautobrush.ui:379
@@ -43259,7 +43256,6 @@ msgstr "等級"
 #: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:219
 #: plugins/paintops/libpaintop/forms/wdgtextbrush.ui:152
 #: plugins/paintops/roundmarker/kis_roundmarker_option.ui:36
-#: plugins/paintops/spray/wdgsprayoptions.ui:132
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:1966
 #, kde-format
 msgid "Spacing:"
@@ -47101,14 +47097,12 @@ msgstr "按筆壓細分"
 
 #. i18n: ectx: property (text), widget (QLabel, DiameterLbl)
 #. i18n: ectx: property (text), widget (QLabel, lblDiameter)
-#. i18n: ectx: property (text), widget (QLabel, diameterLabel)
 #. i18n: ectx: property (text), widget (QLabel, lineWidthLbl)
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #: plugins/paintops/gridbrush/wdggridoptions.ui:88
 #: plugins/paintops/libpaintop/forms/wdgautobrush.ui:170
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:89
 #: plugins/paintops/roundmarker/kis_roundmarker_option.ui:23
-#: plugins/paintops/spray/wdgsprayoptions.ui:44
 #, kde-format
 msgid "Diameter:"
 msgstr "直徑："
@@ -47598,15 +47592,12 @@ msgstr "尖峰數："
 
 #. i18n: ectx: property (text), widget (QCheckBox, jitterMoveBox)
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:53
-#: plugins/paintops/spray/wdgsprayoptions.ui:246
 #, kde-format
 msgid "Jitter Movement"
 msgstr "抖動位移"
 
 #. i18n: ectx: property (text), widget (QLabel, aspectLbl)
-#. i18n: ectx: property (text), widget (QLabel, aspectLabel)
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:185
-#: plugins/paintops/spray/wdgsprayoptions.ui:70
 #, kde-format
 msgid "Aspect ratio:"
 msgstr "寬高比："
@@ -49202,9 +49193,7 @@ msgstr "自訂"
 msgid "Radius Logarithmic:"
 msgstr "半徑 (對數)："
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: plugins/paintops/particle/kis_particle_paintop_settings.cpp:54
-#: plugins/paintops/spray/wdgsprayoptions.ui:183
 #, kde-format
 msgid "Particles"
 msgstr "粒子"
@@ -49286,10 +49275,8 @@ msgstr "距離 Y 比例："
 msgid "Quick Brush"
 msgstr "快速筆刷"
 
-#. i18n: ectx: property (text), widget (QRadioButton, densityRadioButton)
 #: plugins/paintops/sketch/kis_density_option.cpp:11
 #: plugins/paintops/spray/kis_spray_paintop_settings.cpp:156
-#: plugins/paintops/spray/wdgsprayoptions.ui:198
 #, kde-format
 msgid "Density"
 msgstr "密度"
@@ -49362,10 +49349,123 @@ msgstr "形狀動態"
 msgid "Spray shape"
 msgstr "噴霧形狀"
 
-#: plugins/paintops/spray/kis_sprayop_option.cpp:21
+#: plugins/paintops/spray/kis_sprayop_option.cpp:22
 #, kde-format
 msgid "Spray Area"
 msgstr "噴霧區域"
+
+#: plugins/paintops/spray/kis_sprayop_option.cpp:63
+#, kde-format
+msgid ""
+"Select how the particles are distributed as a function of the angle to the "
+"center of the spray area."
+msgstr "選取噴霧顆粒相對於噴霧區域中心的角度分佈函數。"
+
+#: plugins/paintops/spray/kis_sprayop_option.cpp:66
+#, kde-format
+msgid ""
+"Set a custom distribution of the particles.\n"
+"The horizontal axis represents the angle from 0 to 360 degrees.\n"
+"The vertical axis represents how probable it is for a particle ending at "
+"that angle.\n"
+"The higher the curve at a given angle, the more particles will end at that "
+"angle."
+msgstr ""
+"自訂噴霧顆粒分佈。\n"
+"水平軸為角度，範圍由 0 度至 360 度。\n"
+"垂直軸為顆粒落於相應角度的機率。\n"
+"曲線愈高，則較多顆粒會落於該角度。"
+
+#: plugins/paintops/spray/kis_sprayop_option.cpp:71
+#: plugins/paintops/spray/kis_sprayop_option.cpp:107
+#, kde-format
+msgid "Repeat: "
+msgstr "循環："
+
+#: plugins/paintops/spray/kis_sprayop_option.cpp:72
+#: plugins/paintops/spray/kis_sprayop_option.cpp:108
+#, kde-format
+msgctxt "Times symbol, like in 10x"
+msgid "x"
+msgstr "×"
+
+#: plugins/paintops/spray/kis_sprayop_option.cpp:75
+#, kde-format
+msgid ""
+"Set how many times should the curve repeat from 0 degrees to 360 degrees."
+msgstr "設定曲線在 0 度與 360 度之間重覆的次數。"
+
+#: plugins/paintops/spray/kis_sprayop_option.cpp:78
+#, kde-format
+msgid ""
+"Select how the particles are distributed as a function of the distance from "
+"the center of the spray area."
+msgstr "選取噴霧顆粒相對於噴霧區域中心的距離分佈函數。"
+
+#: plugins/paintops/spray/kis_sprayop_option.cpp:81
+#, kde-format
+msgid ""
+"Activates the old behavior where the particles are more accumulated towards "
+"the center of the spray area."
+msgstr "啟用在舊版本中噴霧顆粒傾向群集於噴霧區域中心的行為。"
+
+#: plugins/paintops/spray/kis_sprayop_option.cpp:83
+#, kde-format
+msgid "Standard deviation: "
+msgstr "標準差："
+
+#: plugins/paintops/spray/kis_sprayop_option.cpp:87
+#, kde-format
+msgid ""
+"Set the standard deviation for the gaussian distribution.\n"
+"Lower values will make the particles concentrate towards the center of the "
+"spray area."
+msgstr ""
+"設定高斯分佈的標準差值。\n"
+"較低數值會使噴霧顆粒更集中於噴霧區域的中心。"
+
+#: plugins/paintops/spray/kis_sprayop_option.cpp:91
+#, kde-format
+msgid "Clustering amount: "
+msgstr "群集量："
+
+#: plugins/paintops/spray/kis_sprayop_option.cpp:95
+#, kde-format
+msgid ""
+"Set how the particles should spread in the spray area.\n"
+"Positive values will make the particles concentrate towards the center of "
+"the spray area.\n"
+"Negative values will make the particles concentrate towards the border of "
+"the spray area.\n"
+"Values near 0 will make the particles spread more uniformly."
+msgstr ""
+"設定噴霧顆粒分佈。\n"
+"正數會使噴霧顆粒較集中於噴霧區域的中心部分。\n"
+"負數會使噴霧顆粒較集中於噴霧區域的外圍部分。\n"
+"接近 0 的值會使噴霧顆粒較平均分佈。"
+
+#: plugins/paintops/spray/kis_sprayop_option.cpp:102
+#, kde-format
+msgid ""
+"Set a custom distribution of the particles.\n"
+"The horizontal axis represents the distance from the center to the border of "
+"the spray area.\n"
+"The vertical axis represents how probable it is for a particle ending at "
+"that distance.\n"
+"The higher the curve at a given distance, the more particles will end at "
+"that distance."
+msgstr ""
+"自訂噴霧顆粒分佈。\n"
+"水平軸為與噴霧區域中心之間的距離，至噴霧區域邊界。\n"
+"垂直軸為顆粒落於相應距離的機率。\n"
+"曲線愈高，則較多顆粒會落於該距離。"
+
+#: plugins/paintops/spray/kis_sprayop_option.cpp:111
+#, kde-format
+msgid ""
+"Set how many times should the curve repeat from the center to the border of "
+"the spray area."
+msgstr "設定曲線在噴霧區域中心與其邊界之間重覆的次數。"
 
 #: plugins/paintops/spray/spray_paintop_plugin.cpp:27
 #, kde-format
@@ -49410,17 +49510,138 @@ msgstr "跟隨游標權重："
 msgid "Angle weight:"
 msgstr "角度權重："
 
-#. i18n: ectx: property (text), widget (QRadioButton, countRadioButton)
-#: plugins/paintops/spray/wdgsprayoptions.ui:218
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: plugins/paintops/spray/wdgsprayoptions.ui:33
 #, kde-format
-msgid "Count"
-msgstr "數量"
+msgctxt ""
+"Name of the group of options related to the spay area in the spray engine"
+msgid "Area"
+msgstr "噴霧區域"
 
-#. i18n: ectx: property (text), widget (QCheckBox, gaussianBox)
-#: plugins/paintops/spray/wdgsprayoptions.ui:266
+#. i18n: ectx: property (text), widget (QLabel, diameterLabel)
+#: plugins/paintops/spray/wdgsprayoptions.ui:48
 #, kde-format
-msgid "Gaussian distribution"
-msgstr "高斯分布"
+msgctxt "Label for the diameter of the spray area in the spray engine"
+msgid "Diameter:"
+msgstr "直徑："
+
+#. i18n: ectx: property (text), widget (QLabel, aspectLabel)
+#: plugins/paintops/spray/wdgsprayoptions.ui:67
+#, kde-format
+msgctxt "Label for the aspect ratio of the spray area in the spray engine"
+msgid "Aspect ratio:"
+msgstr "寬高比："
+
+#. i18n: ectx: property (text), widget (QLabel, rotationLbl)
+#: plugins/paintops/spray/wdgsprayoptions.ui:86
+#, kde-format
+msgctxt "Label for the angle of the spray area in the spray engine"
+msgid "Angle:"
+msgstr "角度："
+
+#. i18n: ectx: property (text), widget (QLabel, scaleLbl)
+#: plugins/paintops/spray/wdgsprayoptions.ui:125
+#, kde-format
+msgctxt "Label for the scale of the spray area in the spray engine"
+msgid "Scale:"
+msgstr "縮放："
+
+#. i18n: ectx: property (text), widget (QLabel, spacingLabel)
+#: plugins/paintops/spray/wdgsprayoptions.ui:138
+#, kde-format
+msgctxt "Label for the spacing of the spray area in the spray engine"
+msgid "Spacing:"
+msgstr "間距："
+
+#. i18n: ectx: property (text), widget (QLabel, labelJitter)
+#: plugins/paintops/spray/wdgsprayoptions.ui:151
+#, kde-format
+msgctxt "Label for the jitter movement of the spray area in the spray engine"
+msgid "Jitter Movement:"
+msgstr "抖動位移："
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: plugins/paintops/spray/wdgsprayoptions.ui:185
+#, kde-format
+msgctxt ""
+"Name of the group of options related to the spay particles in the spray "
+"engine"
+msgid "Particles"
+msgstr "噴霧顆粒"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: plugins/paintops/spray/wdgsprayoptions.ui:194
+#, kde-format
+msgctxt "Label for the amount of particles in the spray engine"
+msgid "Amount:"
+msgstr "噴霧量："
+
+#. i18n: ectx: property (text), widget (QRadioButton, countRadioButton)
+#: plugins/paintops/spray/wdgsprayoptions.ui:203
+#, kde-format
+msgctxt ""
+"Check box to indicate that the user should set the exact number of particles "
+"in the spray engine"
+msgid "Count"
+msgstr "顆粒數量"
+
+#. i18n: ectx: property (text), widget (QRadioButton, densityRadioButton)
+#: plugins/paintops/spray/wdgsprayoptions.ui:213
+#, kde-format
+msgctxt ""
+"Check box to indicate that the user should set the number of particles in "
+"terms of density relative to the spray area in the spray engine"
+msgid "Density"
+msgstr "顆粒密度"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBoxAngularDistribution)
+#: plugins/paintops/spray/wdgsprayoptions.ui:237
+#, kde-format
+msgctxt ""
+"Name of the group of options related to the angular distribution of "
+"particles in the spray engine"
+msgid "Angular"
+msgstr "角度分佈"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, angularDistCombo)
+#. i18n: ectx: property (text), item, widget (QComboBox, radialDistCombo)
+#: plugins/paintops/spray/wdgsprayoptions.ui:262
+#: plugins/paintops/spray/wdgsprayoptions.ui:347
+#, kde-format
+msgid "Uniform"
+msgstr "平均分佈"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBoxRadialDistribution)
+#: plugins/paintops/spray/wdgsprayoptions.ui:322
+#, kde-format
+msgctxt ""
+"Name of the group of options related to the radial distribution of particles "
+"in the spray engine"
+msgid "Radial"
+msgstr "放射分佈"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, radialDistCombo)
+#: plugins/paintops/spray/wdgsprayoptions.ui:357
+#, kde-format
+msgid "Cluster"
+msgstr "群集"
+
+#. i18n: ectx: property (text), widget (QCheckBox, centerBiasedPolarDistanceBox)
+#: plugins/paintops/spray/wdgsprayoptions.ui:407
+#, kde-format
+msgctxt ""
+"Check box to indicate that the radial distribution should use the old method "
+"where particles are biased towards the center of the spray area in the spray "
+"engine"
+msgid "Center-biased spread (legacy)"
+msgstr "中心群集 (舊有)"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: plugins/paintops/spray/wdgsprayoptions.ui:432
+#, kde-format
+msgctxt "Label for the distribution of particles in the spray engine"
+msgid "Distribution:"
+msgstr "顆粒分佈："
 
 #. i18n: ectx: property (text), widget (QCheckBox, proportionalBox)
 #: plugins/paintops/spray/wdgsprayshapeoptions.ui:158
@@ -49744,7 +49965,7 @@ msgid "Color profile:"
 msgstr "色彩特性檔案："
 
 #: plugins/python/colorspace/uicolorspace.py:129
-msgid "The selected documents has been converted."
+msgid "The selected documents have been converted."
 msgstr "所選檔案已被轉換。"
 
 #: plugins/python/colorspace/uicolorspace.py:131
@@ -51972,137 +52193,88 @@ msgstr "選擇指令稿"
 msgid "Python files (*.py)"
 msgstr "Python 檔案 (*.py)"
 
-#: plugins/tools/basictools/kis_tool_brush.cc:58
+#: plugins/tools/basictools/kis_tool_brush.cc:57
 msgctxt "(qtundo-format)"
 msgid "Freehand Brush Stroke"
 msgstr "手繪筆刷筆畫"
 
-#: plugins/tools/basictools/kis_tool_brush.cc:139
+#: plugins/tools/basictools/kis_tool_brush.cc:180
 #, kde-format
 msgid "Sample count:"
 msgstr "取樣數："
 
-#: plugins/tools/basictools/kis_tool_brush.cc:150
+#: plugins/tools/basictools/kis_tool_brush.cc:191
 #, kde-format
 msgctxt ""
 "Label of Distance value in Freehand brush tool's Weighted Smoothing mode"
 msgid "Distance:"
 msgstr "距離："
 
-#: plugins/tools/basictools/kis_tool_brush.cc:346
-#, kde-format
-msgid "Eraser smoothing"
-msgstr "橡皮擦平滑化"
-
-#: plugins/tools/basictools/kis_tool_brush.cc:369
-#, kde-format
-msgid "Snap to Assistants"
-msgstr "吸附到輔助尺"
-
-#: plugins/tools/basictools/kis_tool_brush.cc:371
-#, kde-format
-msgid "You need to add Assistants before this tool will work."
-msgstr "此工具在新增輔助尺後才能作業。"
-
-#: plugins/tools/basictools/kis_tool_brush.cc:376
-#, kde-format
-msgid "Assistant Magnetism"
-msgstr "輔助尺磁性"
-
-#: plugins/tools/basictools/kis_tool_brush.cc:382
-#, kde-format
-msgid "Magnetism:"
-msgstr "磁性："
-
-#: plugins/tools/basictools/kis_tool_brush.cc:385
-#, kde-format
-msgid "Snap to Single Line"
-msgstr "吸附單一輔助尺："
-
-#: plugins/tools/basictools/kis_tool_brush.cc:388
-#, kde-format
-msgctxt "@info:tooltip"
-msgid ""
-"Make it only snap to a single assistant line, prevents snapping mess while "
-"using the infinite assistants."
-msgstr "只吸附至單一輔助尺，可避免在使用無限延伸輔助尺時吸附失靈。"
-
-#: plugins/tools/basictools/kis_tool_brush.cc:393
-#, kde-format
-msgid "Snap Eraser"
-msgstr "擦除模式時吸附"
-
-#: plugins/tools/basictools/kis_tool_brush.cc:396
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Enable snapping when using erasers"
-msgstr "在使用擦除模式時啟用吸附"
-
-#: plugins/tools/basictools/kis_tool_brush.cc:427
+#: plugins/tools/basictools/kis_tool_brush.cc:348
 #, kde-format
 msgctxt "@item:inlistbox Brush Smoothing"
 msgid "None"
 msgstr "無"
 
-#: plugins/tools/basictools/kis_tool_brush.cc:428
+#: plugins/tools/basictools/kis_tool_brush.cc:349
 #, kde-format
 msgctxt "@item:inlistbox Brush Smoothing"
 msgid "Basic"
 msgstr "基本"
 
-#: plugins/tools/basictools/kis_tool_brush.cc:429
+#: plugins/tools/basictools/kis_tool_brush.cc:350
 #, kde-format
 msgctxt "@item:inlistbox Brush Smoothing"
 msgid "Weighted"
 msgstr "權衡"
 
-#: plugins/tools/basictools/kis_tool_brush.cc:430
+#: plugins/tools/basictools/kis_tool_brush.cc:351
 #, kde-format
 msgctxt "@item:inlistbox Brush Smoothing"
 msgid "Stabilizer"
 msgstr "防抖"
 
-#: plugins/tools/basictools/kis_tool_brush.cc:431
+#: plugins/tools/basictools/kis_tool_brush.cc:353
 #, kde-format
 msgid "Brush Smoothing:"
 msgstr "筆刷平滑："
 
-#: plugins/tools/basictools/kis_tool_brush.cc:452
+#: plugins/tools/basictools/kis_tool_brush.cc:379
 #, kde-format
 msgid "Delay:"
 msgstr "延遲："
 
-#: plugins/tools/basictools/kis_tool_brush.cc:457
+#: plugins/tools/basictools/kis_tool_brush.cc:384
 #, kde-format
 msgid "Delay the brush stroke to make the line smoother"
 msgstr "延遲筆畫響應以平滑線條"
 
-#: plugins/tools/basictools/kis_tool_brush.cc:460
+#: plugins/tools/basictools/kis_tool_brush.cc:388
 #, kde-format
 msgid "Radius where the brush is blocked"
 msgstr "筆刷延遲的半徑大小"
 
-#: plugins/tools/basictools/kis_tool_brush.cc:466
+#: plugins/tools/basictools/kis_tool_brush.cc:395
 #, kde-format
 msgid "Finish line:"
 msgstr "筆末挑尖："
 
-#: plugins/tools/basictools/kis_tool_brush.cc:478
+#: plugins/tools/basictools/kis_tool_brush.cc:408
 #, kde-format
 msgid "Stabilize Sensors:"
 msgstr "穩定感測器："
 
-#: plugins/tools/basictools/kis_tool_brush.cc:486
+#: plugins/tools/basictools/kis_tool_brush.cc:417
 #, kde-format
 msgid "Stroke Ending:"
 msgstr "筆末跟隨："
 
-#: plugins/tools/basictools/kis_tool_brush.cc:492
+#: plugins/tools/basictools/kis_tool_brush.cc:424
 #, kde-format
 msgid "Smooth Pressure"
 msgstr "平滑壓力"
 
-#: plugins/tools/basictools/kis_tool_brush.cc:499
+#: plugins/tools/basictools/kis_tool_brush.cc:431
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -52110,12 +52282,56 @@ msgid ""
 "visually constant whatever zoom level is chosen"
 msgstr "按照畫布縮放比例縮放距離，使任意畫布縮放下的距離在視覺上一致"
 
-#: plugins/tools/basictools/kis_tool_brush.cc:503
+#: plugins/tools/basictools/kis_tool_brush.cc:436
 #, kde-format
 msgid "Scalable Distance"
 msgstr "隨檢視縮放距離"
 
-#: plugins/tools/basictools/kis_tool_brush.h:162
+#: plugins/tools/basictools/kis_tool_brush.cc:452
+#, kde-format
+msgid "Snap to Assistants"
+msgstr "吸附到輔助尺"
+
+#: plugins/tools/basictools/kis_tool_brush.cc:454
+#, kde-format
+msgid "You need to add Assistants before this tool will work."
+msgstr "此工具在新增輔助尺後才能作業。"
+
+#: plugins/tools/basictools/kis_tool_brush.cc:459
+#, kde-format
+msgid "Assistant Magnetism"
+msgstr "輔助尺磁性"
+
+#: plugins/tools/basictools/kis_tool_brush.cc:465
+#, kde-format
+msgid "Magnetism:"
+msgstr "磁性："
+
+#: plugins/tools/basictools/kis_tool_brush.cc:468
+#, kde-format
+msgid "Snap to Single Line"
+msgstr "吸附單一輔助尺："
+
+#: plugins/tools/basictools/kis_tool_brush.cc:471
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Make it only snap to a single assistant line, prevents snapping mess while "
+"using the infinite assistants."
+msgstr "只吸附至單一輔助尺，可避免在使用無限延伸輔助尺時吸附失靈。"
+
+#: plugins/tools/basictools/kis_tool_brush.cc:476
+#, kde-format
+msgid "Snap Eraser"
+msgstr "擦除模式時吸附"
+
+#: plugins/tools/basictools/kis_tool_brush.cc:479
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Enable snapping when using erasers"
+msgstr "在使用擦除模式時啟用吸附"
+
+#: plugins/tools/basictools/kis_tool_brush.h:137
 #, kde-format
 msgid "Freehand Brush Tool"
 msgstr "手繪筆刷工具"
@@ -52150,35 +52366,35 @@ msgstr "繪製橢圓"
 msgid "Ellipse Tool"
 msgstr "橢圓工具"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:114
+#: plugins/tools/basictools/kis_tool_fill.cc:102
 #, kde-format
 msgid "You cannot use this tool with the selected layer type"
 msgstr "不能在選定的圖層類型上使用此工具"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:187
+#: plugins/tools/basictools/kis_tool_fill.cc:175
 msgctxt "(qtundo-format)"
 msgid "Flood Fill"
 msgstr "浸漫填充"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:388
+#: plugins/tools/basictools/kis_tool_fill.cc:376
 #, kde-format
 msgctxt "The pattern 'scale' spinbox prefix in fill tool options"
 msgid "Scale: "
 msgstr "縮放："
 
-#: plugins/tools/basictools/kis_tool_fill.cc:395
+#: plugins/tools/basictools/kis_tool_fill.cc:383
 #, kde-format
 msgctxt "The 'threshold' spinbox prefix in fill tool options"
 msgid "Threshold: "
 msgstr "閾值："
 
-#: plugins/tools/basictools/kis_tool_fill.cc:398
+#: plugins/tools/basictools/kis_tool_fill.cc:386
 #, kde-format
 msgctxt "The 'spread' spinbox prefix in fill tool options"
 msgid "Spread: "
 msgstr "擴散幅度："
 
-#: plugins/tools/basictools/kis_tool_fill.cc:404
+#: plugins/tools/basictools/kis_tool_fill.cc:392
 #, kde-format
 msgctxt ""
 "The 'use selection as boundary' checkbox in fill tool to use selection "
@@ -52186,58 +52402,58 @@ msgctxt ""
 msgid "Use selection as boundary"
 msgstr "以選取區域為界限"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:408
+#: plugins/tools/basictools/kis_tool_fill.cc:396
 #, kde-format
 msgctxt "The anti-alias checkbox in fill tool options"
 msgid "Anti-aliasing"
 msgstr "反鋸齒"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:410
+#: plugins/tools/basictools/kis_tool_fill.cc:398
 #, kde-format
 msgctxt "The 'grow/shrink' spinbox prefix in fill tool options"
 msgid "Grow: "
 msgstr "擴張："
 
-#: plugins/tools/basictools/kis_tool_fill.cc:414
+#: plugins/tools/basictools/kis_tool_fill.cc:402
 #, kde-format
 msgctxt "The 'feather' spinbox prefix in fill tool options"
 msgid "Feather: "
 msgstr "羽化："
 
-#: plugins/tools/basictools/kis_tool_fill.cc:432
+#: plugins/tools/basictools/kis_tool_fill.cc:420
 #, kde-format
 msgctxt "The 'reset' button in fill tool options"
 msgid "Reset"
 msgstr "重設"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:435
+#: plugins/tools/basictools/kis_tool_fill.cc:423
 #, kde-format
 msgid "Current selection"
 msgstr "目前選取區域"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:436
+#: plugins/tools/basictools/kis_tool_fill.cc:424
 #, kde-format
 msgid "Contiguous region obtained from the layers"
 msgstr "從圖層檢取連續區域"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:441
+#: plugins/tools/basictools/kis_tool_fill.cc:429
 #, kde-format
 msgid "Set the scale of the pattern"
 msgstr "設定圖案的縮放"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:442
+#: plugins/tools/basictools/kis_tool_fill.cc:430
 #, kde-format
 msgid "Set the rotation of the pattern"
 msgstr "設定圖案的旋轉角度"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:444
+#: plugins/tools/basictools/kis_tool_fill.cc:432
 #, kde-format
 msgid ""
 "Set how far the region should extend from the selected pixel in terms of "
 "color similarity"
 msgstr "設定區域根據色彩相似度從所選像素擴張的程度"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:445
+#: plugins/tools/basictools/kis_tool_fill.cc:433
 #, kde-format
 msgid ""
 "Set how far the fully opaque portion of the region should extend.\n"
@@ -52249,92 +52465,92 @@ msgstr ""
 "0% 表示只有與所選像素完全相同數值的像素才會填上不透明色。\n"
 "100% 表示一直到區域邊界的所有像素均會填上不透明色。"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:448
+#: plugins/tools/basictools/kis_tool_fill.cc:436
 #, kde-format
 msgid ""
 "Set if the contour of the current selection should be treated as a boundary "
 "when obtaining the region"
 msgstr "設定應否視目前選取區域為檢取區域的邊界"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:450
+#: plugins/tools/basictools/kis_tool_fill.cc:438
 #, kde-format
 msgid "Smooth the jagged edges"
 msgstr "平滑化鋸齒狀的邊緣"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:451
+#: plugins/tools/basictools/kis_tool_fill.cc:439
 #, kde-format
 msgid ""
 "Grow (positive values) or shrink (negative values) the region by the set "
 "amount"
 msgstr "按數值擴張或收縮區域 (正數為擴張，負數為收縮)"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:452
+#: plugins/tools/basictools/kis_tool_fill.cc:440
 #, kde-format
 msgid "Blur the region by the set amount"
 msgstr "按數值使區域變得模糊"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:454
+#: plugins/tools/basictools/kis_tool_fill.cc:442
 #, kde-format
 msgid "Obtain the region using the active layer"
 msgstr "以使用中圖層檢取區域"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:455
+#: plugins/tools/basictools/kis_tool_fill.cc:443
 #, kde-format
 msgid "Obtain the region using a merged copy of all layers"
 msgstr "以全部圖層合併的影像檢取區域"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:456
+#: plugins/tools/basictools/kis_tool_fill.cc:444
 #, kde-format
 msgid ""
 "Obtain the region using a merged copy of the selected color-labeled layers"
 msgstr "按所選色彩標籤的圖層合併的影像檢取區域"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:458
+#: plugins/tools/basictools/kis_tool_fill.cc:446
 #, kde-format
 msgid "Fill regions of any color"
 msgstr "填充任何色彩的區域"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:459
+#: plugins/tools/basictools/kis_tool_fill.cc:447
 #, kde-format
 msgid "Fill only regions similar in color to the initial region"
 msgstr "只填充與起始區域相似色彩的區域"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:461
+#: plugins/tools/basictools/kis_tool_fill.cc:449
 #, kde-format
 msgid "Reset the options to their default values"
 msgstr "重設選項到其預設值"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:470
+#: plugins/tools/basictools/kis_tool_fill.cc:458
 #, kde-format
 msgctxt "The 'what to fill' section label in fill tool options"
 msgid "What to fill"
 msgstr "填充區域"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:477
+#: plugins/tools/basictools/kis_tool_fill.cc:465
 #, kde-format
 msgctxt "The 'fill with' section label in fill tool options"
 msgid "Fill with"
 msgstr "填充內容"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:488
+#: plugins/tools/basictools/kis_tool_fill.cc:476
 #, kde-format
 msgctxt "The 'region extent' section label in fill tool options"
 msgid "Region extent"
 msgstr "區域範圍"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:497
+#: plugins/tools/basictools/kis_tool_fill.cc:485
 #, kde-format
 msgctxt "The 'adjustments' section label in fill tool options"
 msgid "Adjustments"
 msgstr "調整"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:506
+#: plugins/tools/basictools/kis_tool_fill.cc:494
 #, kde-format
 msgctxt "The 'reference' section label in fill tool options"
 msgid "Reference"
 msgstr "參照"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:515
+#: plugins/tools/basictools/kis_tool_fill.cc:503
 #, kde-format
 msgctxt "The 'multiple fill' section label in fill tool options"
 msgid "Multiple fill"
@@ -53045,7 +53261,7 @@ msgstr "按住 Ctrl 以從中心調整大小。"
 msgid "Press ALT to rotate in 45 degree steps."
 msgstr "按下 Alt 以 45 度為單位旋轉。"
 
-#: plugins/tools/defaulttool/defaulttool/ShapeShearStrategy.cpp:179
+#: plugins/tools/defaulttool/defaulttool/ShapeShearStrategy.cpp:180
 msgctxt "(qtundo-format)"
 msgid "Shear"
 msgstr "切變"
@@ -55379,7 +55595,12 @@ msgctxt "action"
 msgid "Reference Images Tool"
 msgstr "參考圖工具"
 
-#, kde-format
+#~ msgid "Eraser smoothing"
+#~ msgstr "橡皮擦平滑化"
+
+#~ msgid "Gaussian distribution"
+#~ msgstr "高斯分布"
+
 #~ msgid "Use same aspect as pixels"
 #~ msgstr "使用相對於螢幕像素的縮放比例"
 
