@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-03-31 00:41+0000\n"
-"PO-Revision-Date: 2022-03-31 08:40+0000\n"
+"PO-Revision-Date: 2022-03-31 08:45+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -49430,14 +49430,7 @@ msgid "Clustering amount: "
 msgstr "群集量："
 
 #: plugins/paintops/spray/kis_sprayop_option.cpp:95
-#, fuzzy, kde-format
-#| msgid ""
-#| "Set how the particles should spread in the spray area.\n"
-#| " Positive values will make the particles concentrate towards the center "
-#| "of the spray area.\n"
-#| " Negative values will make the particles concentrate towards the border "
-#| "of the spray area.\n"
-#| " Values near 0 will make the particles spread more uniformly."
+#, kde-format
 msgid ""
 "Set how the particles should spread in the spray area.\n"
 "Positive values will make the particles concentrate towards the center of "
@@ -49519,7 +49512,7 @@ msgstr "角度權重："
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: plugins/paintops/spray/wdgsprayoptions.ui:33
-#, fuzzy, kde-format
+#, kde-format
 msgctxt ""
 "Name of the group of options related to the spay area in the spray engine"
 msgid "Area"
@@ -49527,102 +49520,88 @@ msgstr "噴霧區域"
 
 #. i18n: ectx: property (text), widget (QLabel, diameterLabel)
 #: plugins/paintops/spray/wdgsprayoptions.ui:48
-#, fuzzy, kde-format
-#| msgid "Diameter:"
+#, kde-format
 msgctxt "Label for the diameter of the spray area in the spray engine"
 msgid "Diameter:"
 msgstr "直徑："
 
 #. i18n: ectx: property (text), widget (QLabel, aspectLabel)
 #: plugins/paintops/spray/wdgsprayoptions.ui:67
-#, fuzzy, kde-format
-#| msgid "Aspect ratio:"
+#, kde-format
 msgctxt "Label for the aspect ratio of the spray area in the spray engine"
 msgid "Aspect ratio:"
 msgstr "寬高比："
 
 #. i18n: ectx: property (text), widget (QLabel, rotationLbl)
 #: plugins/paintops/spray/wdgsprayoptions.ui:86
-#, fuzzy, kde-format
-#| msgid "Angle:"
+#, kde-format
 msgctxt "Label for the angle of the spray area in the spray engine"
 msgid "Angle:"
 msgstr "角度："
 
 #. i18n: ectx: property (text), widget (QLabel, scaleLbl)
 #: plugins/paintops/spray/wdgsprayoptions.ui:125
-#, fuzzy, kde-format
-#| msgid "Scale:"
+#, kde-format
 msgctxt "Label for the scale of the spray area in the spray engine"
 msgid "Scale:"
 msgstr "縮放："
 
 #. i18n: ectx: property (text), widget (QLabel, spacingLabel)
 #: plugins/paintops/spray/wdgsprayoptions.ui:138
-#, fuzzy, kde-format
-#| msgid "Spacing:"
+#, kde-format
 msgctxt "Label for the spacing of the spray area in the spray engine"
 msgid "Spacing:"
 msgstr "間距："
 
 #. i18n: ectx: property (text), widget (QLabel, labelJitter)
 #: plugins/paintops/spray/wdgsprayoptions.ui:151
-#, fuzzy, kde-format
-#| msgid "Jitter Movement:"
+#, kde-format
 msgctxt "Label for the jitter movement of the spray area in the spray engine"
 msgid "Jitter Movement:"
 msgstr "抖動位移："
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: plugins/paintops/spray/wdgsprayoptions.ui:185
-#, fuzzy, kde-format
-#| msgid "Particles"
+#, kde-format
 msgctxt ""
 "Name of the group of options related to the spay particles in the spray "
 "engine"
 msgid "Particles"
-msgstr "粒子"
+msgstr "噴霧顆粒"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: plugins/paintops/spray/wdgsprayoptions.ui:194
-#, fuzzy, kde-format
-#| msgctxt ""
-#| "How much the midtone point used in auto levels is close to the center of "
-#| "the histogram (0%) or to the point selected in the method (100%)"
-#| msgid "Amount:"
+#, kde-format
 msgctxt "Label for the amount of particles in the spray engine"
 msgid "Amount:"
 msgstr "噴霧量："
 
 #. i18n: ectx: property (text), widget (QRadioButton, countRadioButton)
 #: plugins/paintops/spray/wdgsprayoptions.ui:203
-#, fuzzy, kde-format
-#| msgid "Count"
+#, kde-format
 msgctxt ""
 "Check box to indicate that the user should set the exact number of particles "
 "in the spray engine"
 msgid "Count"
-msgstr "數量"
+msgstr "顆粒數量"
 
 #. i18n: ectx: property (text), widget (QRadioButton, densityRadioButton)
 #: plugins/paintops/spray/wdgsprayoptions.ui:213
-#, fuzzy, kde-format
-#| msgid "Density"
+#, kde-format
 msgctxt ""
 "Check box to indicate that the user should set the number of particles in "
 "terms of density relative to the spray area in the spray engine"
 msgid "Density"
-msgstr "密度"
+msgstr "顆粒密度"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBoxAngularDistribution)
 #: plugins/paintops/spray/wdgsprayoptions.ui:237
-#, fuzzy, kde-format
-#| msgid "Angular"
+#, kde-format
 msgctxt ""
 "Name of the group of options related to the angular distribution of "
 "particles in the spray engine"
 msgid "Angular"
-msgstr "壓感筆角度"
+msgstr "角度分佈"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, angularDistCombo)
 #. i18n: ectx: property (text), item, widget (QComboBox, radialDistCombo)
@@ -49634,25 +49613,22 @@ msgstr "平均分佈"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBoxRadialDistribution)
 #: plugins/paintops/spray/wdgsprayoptions.ui:322
-#, fuzzy, kde-format
-#| msgid "Radial"
+#, kde-format
 msgctxt ""
 "Name of the group of options related to the radial distribution of particles "
 "in the spray engine"
 msgid "Radial"
-msgstr "放射"
+msgstr "放射分佈"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, radialDistCombo)
 #: plugins/paintops/spray/wdgsprayoptions.ui:357
-#, fuzzy, kde-format
-#| msgid "Faster"
+#, kde-format
 msgid "Cluster"
 msgstr "群集"
 
 #. i18n: ectx: property (text), widget (QCheckBox, centerBiasedPolarDistanceBox)
 #: plugins/paintops/spray/wdgsprayoptions.ui:407
-#, fuzzy, kde-format
-#| msgid "Center-biased spread (legacy)"
+#, kde-format
 msgctxt ""
 "Check box to indicate that the radial distribution should use the old method "
 "where particles are biased towards the center of the spray area in the spray "
@@ -49662,11 +49638,10 @@ msgstr "中心群集 (舊有)"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: plugins/paintops/spray/wdgsprayoptions.ui:432
-#, fuzzy, kde-format
-#| msgid "Distribution:"
+#, kde-format
 msgctxt "Label for the distribution of particles in the spray engine"
 msgid "Distribution:"
-msgstr "分佈："
+msgstr "顆粒分佈："
 
 #. i18n: ectx: property (text), widget (QCheckBox, proportionalBox)
 #: plugins/paintops/spray/wdgsprayshapeoptions.ui:158
