@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-03-31 00:41+0000\n"
-"PO-Revision-Date: 2022-03-31 08:45+0000\n"
+"POT-Creation-Date: 2022-04-01 00:47+0000\n"
+"PO-Revision-Date: 2022-04-01 06:41+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -14154,13 +14154,9 @@ msgctxt "The raw line data"
 msgid "Raw"
 msgstr "原始"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, angularDistCombo)
-#. i18n: ectx: property (text), item, widget (QComboBox, radialDistCombo)
 #: libs/basicflakes/tools/KoPencilTool.cpp:302
 #: plugins/flake/pathshapes/spiral/SpiralShapeConfigWidget.cpp:16
 #: plugins/paintops/curvebrush/curve_paintop_plugin.cpp:29
-#: plugins/paintops/spray/wdgsprayoptions.ui:267
-#: plugins/paintops/spray/wdgsprayoptions.ui:362
 #, kde-format
 msgid "Curve"
 msgstr "曲線"
@@ -15218,9 +15214,7 @@ msgstr "預設"
 msgid "Soft"
 msgstr "柔和"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, radialDistCombo)
 #: libs/image/kis_base_mask_generator.h:25
-#: plugins/paintops/spray/wdgsprayoptions.ui:352
 #, kde-format
 msgid "Gaussian"
 msgstr "高斯"
@@ -17566,7 +17560,7 @@ msgstr "輸出"
 msgid "Untitled"
 msgstr "無標題"
 
-#: libs/pigment/resources/KoStopGradient.cpp:377
+#: libs/pigment/resources/KoStopGradient.cpp:372
 #, kde-format
 msgid "SVG Gradient"
 msgstr "SVG 漸變"
@@ -17609,9 +17603,9 @@ msgstr "本機資源"
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:579
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:600
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:607
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:708
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:766
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:791
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:676
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:716
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:776
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:354
 #: libs/ui/dialogs/kis_dlg_preferences.cc:664
 #: libs/ui/input/kis_tablet_debugger.cpp:96 libs/ui/kis_clipboard.cc:675
@@ -18889,27 +18883,27 @@ msgstr "FFmpeg 無效！"
 msgid "No FFMpeg found!"
 msgstr "找不到 FFmpeg！"
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:708
-#, kde-format
-msgid "No video stream could be found!"
-msgstr "找不到影片流！"
-
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:766
-#, kde-format
-msgid "Failed to load video information"
-msgstr "無法載入影片資訊"
-
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:791
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:676
 #, kde-format
 msgid "Your FFMpeg version does not support this format"
 msgstr "您的 FFmpeg 版本不支援此格式"
 
-#: libs/ui/animation/KisFFMpegWrapper.cpp:305
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:716
+#, kde-format
+msgid "No video stream could be found!"
+msgstr "找不到影片流！"
+
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:776
+#, kde-format
+msgid "Failed to load video information"
+msgstr "無法載入影片資訊"
+
+#: libs/ui/animation/KisFFMpegWrapper.cpp:329
 #, kde-format
 msgid "FFMpeg Crashed"
 msgstr "FFmpeg 當掉了"
 
-#: libs/ui/animation/KisFFMpegWrapper.cpp:518
+#: libs/ui/animation/KisFFMpegWrapper.cpp:535
 #, kde-format
 msgctxt "Video information probing dialog. arg1: frame number."
 msgid "Loading video data... %1 frames examined."
@@ -26402,7 +26396,7 @@ msgstr "適合寬度"
 msgid "Fit to Height"
 msgstr "適合高度"
 
-#: libs/ui/input/kis_zoom_and_rotate_action.cpp:33
+#: libs/ui/input/kis_zoom_and_rotate_action.cpp:34
 #, kde-format
 msgid "Zoom and Rotate Canvas"
 msgstr "縮放及旋轉畫布"
@@ -49608,8 +49602,18 @@ msgstr "角度分佈"
 #: plugins/paintops/spray/wdgsprayoptions.ui:262
 #: plugins/paintops/spray/wdgsprayoptions.ui:347
 #, kde-format
+msgctxt "Uniform distribution in spray engine"
 msgid "Uniform"
 msgstr "平均分佈"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, angularDistCombo)
+#. i18n: ectx: property (text), item, widget (QComboBox, radialDistCombo)
+#: plugins/paintops/spray/wdgsprayoptions.ui:267
+#: plugins/paintops/spray/wdgsprayoptions.ui:362
+#, kde-format
+msgctxt "Custom curve based distribution in spray engine"
+msgid "Curve"
+msgstr "自訂曲線"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBoxRadialDistribution)
 #: plugins/paintops/spray/wdgsprayoptions.ui:322
@@ -49621,8 +49625,16 @@ msgid "Radial"
 msgstr "放射分佈"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, radialDistCombo)
+#: plugins/paintops/spray/wdgsprayoptions.ui:352
+#, kde-format
+msgctxt "Gaussian distribution in spray engine"
+msgid "Gaussian"
+msgstr "高斯分佈"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, radialDistCombo)
 #: plugins/paintops/spray/wdgsprayoptions.ui:357
 #, kde-format
+msgctxt "Clustering based distribution in spray engine"
 msgid "Cluster"
 msgstr "群集"
 
@@ -49634,7 +49646,7 @@ msgctxt ""
 "where particles are biased towards the center of the spray area in the spray "
 "engine"
 msgid "Center-biased spread (legacy)"
-msgstr "中心群集 (舊有)"
+msgstr "中心群集 (舊版)"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: plugins/paintops/spray/wdgsprayoptions.ui:432
