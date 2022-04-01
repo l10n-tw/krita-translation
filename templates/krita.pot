@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-03-31 00:41+0000\n"
+"POT-Creation-Date: 2022-04-01 00:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -14136,13 +14136,9 @@ msgctxt "The raw line data"
 msgid "Raw"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (QComboBox, angularDistCombo)
-#. i18n: ectx: property (text), item, widget (QComboBox, radialDistCombo)
 #: libs/basicflakes/tools/KoPencilTool.cpp:302
 #: plugins/flake/pathshapes/spiral/SpiralShapeConfigWidget.cpp:16
 #: plugins/paintops/curvebrush/curve_paintop_plugin.cpp:29
-#: plugins/paintops/spray/wdgsprayoptions.ui:267
-#: plugins/paintops/spray/wdgsprayoptions.ui:362
 #, kde-format
 msgid "Curve"
 msgstr ""
@@ -15198,9 +15194,7 @@ msgstr ""
 msgid "Soft"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (QComboBox, radialDistCombo)
 #: libs/image/kis_base_mask_generator.h:25
-#: plugins/paintops/spray/wdgsprayoptions.ui:352
 #, kde-format
 msgid "Gaussian"
 msgstr ""
@@ -17527,7 +17521,7 @@ msgstr ""
 msgid "Untitled"
 msgstr ""
 
-#: libs/pigment/resources/KoStopGradient.cpp:377
+#: libs/pigment/resources/KoStopGradient.cpp:372
 #, kde-format
 msgid "SVG Gradient"
 msgstr ""
@@ -17570,9 +17564,9 @@ msgstr ""
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:579
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:600
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:607
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:708
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:766
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:791
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:676
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:716
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:776
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:354
 #: libs/ui/dialogs/kis_dlg_preferences.cc:664
 #: libs/ui/input/kis_tablet_debugger.cpp:96
@@ -18814,27 +18808,27 @@ msgstr ""
 msgid "No FFMpeg found!"
 msgstr ""
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:708
-#, kde-format
-msgid "No video stream could be found!"
-msgstr ""
-
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:766
-#, kde-format
-msgid "Failed to load video information"
-msgstr ""
-
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:791
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:676
 #, kde-format
 msgid "Your FFMpeg version does not support this format"
 msgstr ""
 
-#: libs/ui/animation/KisFFMpegWrapper.cpp:305
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:716
+#, kde-format
+msgid "No video stream could be found!"
+msgstr ""
+
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:776
+#, kde-format
+msgid "Failed to load video information"
+msgstr ""
+
+#: libs/ui/animation/KisFFMpegWrapper.cpp:329
 #, kde-format
 msgid "FFMpeg Crashed"
 msgstr ""
 
-#: libs/ui/animation/KisFFMpegWrapper.cpp:518
+#: libs/ui/animation/KisFFMpegWrapper.cpp:535
 #, kde-format
 msgctxt "Video information probing dialog. arg1: frame number."
 msgid "Loading video data... %1 frames examined."
@@ -26069,7 +26063,7 @@ msgstr ""
 msgid "Fit to Height"
 msgstr ""
 
-#: libs/ui/input/kis_zoom_and_rotate_action.cpp:33
+#: libs/ui/input/kis_zoom_and_rotate_action.cpp:34
 #, kde-format
 msgid "Zoom and Rotate Canvas"
 msgstr ""
@@ -48533,7 +48527,17 @@ msgstr ""
 #: plugins/paintops/spray/wdgsprayoptions.ui:262
 #: plugins/paintops/spray/wdgsprayoptions.ui:347
 #, kde-format
+msgctxt "Uniform distribution in spray engine"
 msgid "Uniform"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, angularDistCombo)
+#. i18n: ectx: property (text), item, widget (QComboBox, radialDistCombo)
+#: plugins/paintops/spray/wdgsprayoptions.ui:267
+#: plugins/paintops/spray/wdgsprayoptions.ui:362
+#, kde-format
+msgctxt "Custom curve based distribution in spray engine"
+msgid "Curve"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBoxRadialDistribution)
@@ -48546,8 +48550,16 @@ msgid "Radial"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, radialDistCombo)
+#: plugins/paintops/spray/wdgsprayoptions.ui:352
+#, kde-format
+msgctxt "Gaussian distribution in spray engine"
+msgid "Gaussian"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, radialDistCombo)
 #: plugins/paintops/spray/wdgsprayoptions.ui:357
 #, kde-format
+msgctxt "Clustering based distribution in spray engine"
 msgid "Cluster"
 msgstr ""
 
