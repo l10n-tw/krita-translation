@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-04-01 00:47+0000\n"
-"PO-Revision-Date: 2022-04-01 06:40+0000\n"
+"PO-Revision-Date: 2022-04-01 06:41+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -49601,8 +49601,7 @@ msgstr "角度分佈"
 #. i18n: ectx: property (text), item, widget (QComboBox, radialDistCombo)
 #: plugins/paintops/spray/wdgsprayoptions.ui:262
 #: plugins/paintops/spray/wdgsprayoptions.ui:347
-#, fuzzy, kde-format
-#| msgid "Uniform"
+#, kde-format
 msgctxt "Uniform distribution in spray engine"
 msgid "Uniform"
 msgstr "平均分佈"
@@ -49611,11 +49610,10 @@ msgstr "平均分佈"
 #. i18n: ectx: property (text), item, widget (QComboBox, radialDistCombo)
 #: plugins/paintops/spray/wdgsprayoptions.ui:267
 #: plugins/paintops/spray/wdgsprayoptions.ui:362
-#, fuzzy, kde-format
-#| msgid "Curve"
+#, kde-format
 msgctxt "Custom curve based distribution in spray engine"
 msgid "Curve"
-msgstr "曲線"
+msgstr "自訂曲線"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBoxRadialDistribution)
 #: plugins/paintops/spray/wdgsprayoptions.ui:322
@@ -49628,16 +49626,14 @@ msgstr "放射分佈"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, radialDistCombo)
 #: plugins/paintops/spray/wdgsprayoptions.ui:352
-#, fuzzy, kde-format
-#| msgid "Gaussian"
+#, kde-format
 msgctxt "Gaussian distribution in spray engine"
 msgid "Gaussian"
-msgstr "高斯"
+msgstr "高斯分佈"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, radialDistCombo)
 #: plugins/paintops/spray/wdgsprayoptions.ui:357
-#, fuzzy, kde-format
-#| msgid "Cluster"
+#, kde-format
 msgctxt "Clustering based distribution in spray engine"
 msgid "Cluster"
 msgstr "群集"
