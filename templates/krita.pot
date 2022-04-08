@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-04-07 00:42+0000\n"
+"POT-Creation-Date: 2022-04-08 00:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -14516,7 +14516,7 @@ msgstr ""
 msgid "%1 Options"
 msgstr ""
 
-#: libs/flake/KoToolManager.cpp:546
+#: libs/flake/KoToolManager.cpp:545
 #, kde-format
 msgid "Active tool: %1"
 msgstr ""
@@ -15078,7 +15078,7 @@ msgid "Node Rename"
 msgstr ""
 
 #: libs/image/commands_new/kis_image_resize_command.cpp:16
-#: libs/image/kis_image.cc:820
+#: libs/image/kis_image.cc:824
 msgctxt "(qtundo-format)"
 msgid "Resize Image"
 msgstr ""
@@ -15283,115 +15283,115 @@ msgstr ""
 msgid "Pass Through"
 msgstr ""
 
-#: libs/image/kis_image.cc:350
+#: libs/image/kis_image.cc:354
 #, kde-format
 msgid "Imported Image"
 msgstr ""
 
-#: libs/image/kis_image.cc:656 libs/image/kis_layer_utils.cpp:1870
+#: libs/image/kis_image.cc:660 libs/image/kis_layer_utils.cpp:1870
 #: libs/impex/KisExportCheckRegistry.cpp:120
 #, kde-format
 msgid "Selection Mask"
 msgstr ""
 
-#: libs/image/kis_image.cc:716 libs/ui/KisDocument.cpp:2426
+#: libs/image/kis_image.cc:720 libs/ui/KisDocument.cpp:2426
 #: plugins/impex/psd/psd_loader.cpp:190 plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:68
 #: plugins/python/comics_project_management_tools/comics_template_dialog.py:302
 #, kde-format
 msgid "Background"
 msgstr ""
 
-#: libs/image/kis_image.cc:720 libs/ui/kis_layer_manager.cc:618
+#: libs/image/kis_image.cc:724 libs/ui/kis_layer_manager.cc:618
 #, kde-format
 msgid "Paint Layer"
 msgstr ""
 
-#: libs/image/kis_image.cc:819
+#: libs/image/kis_image.cc:823
 msgctxt "(qtundo-format)"
 msgid "Crop Image"
 msgstr ""
 
-#: libs/image/kis_image.cc:914
+#: libs/image/kis_image.cc:918
 msgctxt "(qtundo-format)"
 msgid "Crop Layer"
 msgstr ""
 
-#: libs/image/kis_image.cc:915
+#: libs/image/kis_image.cc:919
 msgctxt "(qtundo-format)"
 msgid "Crop Mask"
 msgstr ""
 
-#: libs/image/kis_image.cc:952
+#: libs/image/kis_image.cc:956
 msgctxt "(qtundo-format)"
 msgid "Scale Image"
 msgstr ""
 
-#: libs/image/kis_image.cc:953
+#: libs/image/kis_image.cc:957
 msgctxt "(qtundo-format)"
 msgid "Change Image Resolution"
 msgstr ""
 
-#: libs/image/kis_image.cc:1000
+#: libs/image/kis_image.cc:1004
 msgctxt "(qtundo-format)"
 msgid "Scale Layer"
 msgstr ""
 
-#: libs/image/kis_image.cc:1125
+#: libs/image/kis_image.cc:1129
 msgctxt "(qtundo-format)"
 msgid "Rotate Image"
 msgstr ""
 
-#: libs/image/kis_image.cc:1131
+#: libs/image/kis_image.cc:1135
 msgctxt "(qtundo-format)"
 msgid "Rotate Mask"
 msgstr ""
 
-#: libs/image/kis_image.cc:1133
+#: libs/image/kis_image.cc:1137
 msgctxt "(qtundo-format)"
 msgid "Rotate Layer"
 msgstr ""
 
-#: libs/image/kis_image.cc:1214
+#: libs/image/kis_image.cc:1218
 msgctxt "(qtundo-format)"
 msgid "Shear Mask"
 msgstr ""
 
-#: libs/image/kis_image.cc:1217
+#: libs/image/kis_image.cc:1221
 msgctxt "(qtundo-format)"
 msgid "Shear Layer"
 msgstr ""
 
-#: libs/image/kis_image.cc:1224
+#: libs/image/kis_image.cc:1228
 msgctxt "(qtundo-format)"
 msgid "Shear Image"
 msgstr ""
 
-#: libs/image/kis_image.cc:1242
+#: libs/image/kis_image.cc:1246
 msgctxt "(qtundo-format)"
 msgid "Convert Layer Color Space"
 msgstr ""
 
-#: libs/image/kis_image.cc:1293
+#: libs/image/kis_image.cc:1297
 msgctxt "(qtundo-format)"
 msgid "Convert Image Color Space"
 msgstr ""
 
-#: libs/image/kis_image.cc:1294
+#: libs/image/kis_image.cc:1298
 msgctxt "(qtundo-format)"
 msgid "Convert Projection Color Space"
 msgstr ""
 
-#: libs/image/kis_image.cc:1352
+#: libs/image/kis_image.cc:1356
 msgctxt "(qtundo-format)"
 msgid "Assign Profile to Layer"
 msgstr ""
 
-#: libs/image/kis_image.cc:1393
+#: libs/image/kis_image.cc:1397
 msgctxt "(qtundo-format)"
 msgid "Assign Profile"
 msgstr ""
 
-#: libs/image/kis_image.cc:2463
+#: libs/image/kis_image.cc:2467
 msgctxt "(qtundo-format)"
 msgid "Crop Selections"
 msgstr ""
@@ -26218,47 +26218,47 @@ msgstr ""
 msgid "Favorites"
 msgstr ""
 
-#: libs/ui/kis_control_frame.cpp:63
+#: libs/ui/kis_control_frame.cpp:62
 #, kde-format
 msgid "Fill Patterns"
 msgstr ""
 
-#: libs/ui/kis_control_frame.cpp:67
+#: libs/ui/kis_control_frame.cpp:66
 #, kde-format
 msgid "Fill Gradients"
 msgstr ""
 
-#: libs/ui/kis_control_frame.cpp:77
+#: libs/ui/kis_control_frame.cpp:76
 #, kde-format
 msgid "&Patterns"
 msgstr ""
 
-#: libs/ui/kis_control_frame.cpp:84
+#: libs/ui/kis_control_frame.cpp:83
 #, kde-format
 msgid "&Gradients"
 msgstr ""
 
-#: libs/ui/kis_control_frame.cpp:99
+#: libs/ui/kis_control_frame.cpp:98
 #, kde-format
 msgid "&Choose foreground and background colors"
 msgstr ""
 
-#: libs/ui/kis_control_frame.cpp:114
+#: libs/ui/kis_control_frame.cpp:113
 #, kde-format
 msgid "&Painter's Tools"
 msgstr ""
 
-#: libs/ui/kis_control_frame.cpp:119
+#: libs/ui/kis_control_frame.cpp:118
 #, kde-format
 msgid "&Open Foreground color selector"
 msgstr ""
 
-#: libs/ui/kis_control_frame.cpp:124
+#: libs/ui/kis_control_frame.cpp:123
 #, kde-format
 msgid "&Open Background color selector"
 msgstr ""
 
-#: libs/ui/kis_control_frame.cpp:185 libs/ui/KisApplication.cpp:347
+#: libs/ui/kis_control_frame.cpp:184 libs/ui/KisApplication.cpp:347
 #: plugins/dockers/patterndocker/patterndocker_dock.cpp:20
 #: plugins/extensions/resourcemanager/dlg_embed_tags.cpp:65
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:242
@@ -26266,12 +26266,12 @@ msgstr ""
 msgid "Patterns"
 msgstr ""
 
-#: libs/ui/kis_control_frame.cpp:188 libs/ui/kis_control_frame.cpp:189
+#: libs/ui/kis_control_frame.cpp:187 libs/ui/kis_control_frame.cpp:188
 #, kde-format
 msgid "Custom Pattern"
 msgstr ""
 
-#: libs/ui/kis_control_frame.cpp:235 libs/ui/KisApplication.cpp:332
+#: libs/ui/kis_control_frame.cpp:234 libs/ui/KisApplication.cpp:332
 #: libs/ui/KisApplication.cpp:333 plugins/extensions/resourcemanager/dlg_embed_tags.cpp:63
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:245
 #, kde-format
@@ -29456,12 +29456,12 @@ msgstr ""
 msgid "The MyPaint Brush Engine is not available for this colorspace"
 msgstr ""
 
-#: libs/ui/tool/kis_tool_paint.cc:379
+#: libs/ui/tool/kis_tool_paint.cc:378
 #, kde-format
 msgid "Color sampler does not work on this layer."
 msgstr ""
 
-#: libs/ui/tool/kis_tool_paint.cc:667
+#: libs/ui/tool/kis_tool_paint.cc:666
 #, kde-format
 msgid "Brush Size: %1 px"
 msgstr ""
@@ -30830,33 +30830,33 @@ msgstr ""
 msgid "No tone curve available..."
 msgstr ""
 
-#: libs/ui/widgets/kis_transport_controls.cpp:28
+#: libs/ui/widgets/kis_transport_controls.cpp:27
 #, kde-format
 msgid "Skip Back"
 msgstr ""
 
-#: libs/ui/widgets/kis_transport_controls.cpp:37
+#: libs/ui/widgets/kis_transport_controls.cpp:36
 #, kde-format
 msgid "Back"
 msgstr ""
 
-#: libs/ui/widgets/kis_transport_controls.cpp:46
+#: libs/ui/widgets/kis_transport_controls.cpp:45
 #: plugins/python/scripter/ui_scripter/tabwidgets/debuggerwidget/stopaction.py:21
 #, kde-format
 msgid "Stop"
 msgstr ""
 
-#: libs/ui/widgets/kis_transport_controls.cpp:55
+#: libs/ui/widgets/kis_transport_controls.cpp:54
 #, kde-format
 msgid "Play/Pause"
 msgstr ""
 
-#: libs/ui/widgets/kis_transport_controls.cpp:64
+#: libs/ui/widgets/kis_transport_controls.cpp:63
 #, kde-format
 msgid "Forward"
 msgstr ""
 
-#: libs/ui/widgets/kis_transport_controls.cpp:73
+#: libs/ui/widgets/kis_transport_controls.cpp:72
 #, kde-format
 msgid "Skip Forward"
 msgstr ""
@@ -43167,7 +43167,7 @@ msgstr ""
 
 #: plugins/impex/libkra/kis_kra_load_visitor.cpp:149
 #: plugins/impex/libkra/kis_kra_loader.cpp:1011
-#: plugins/impex/libkra/kis_kra_loader.cpp:1381
+#: plugins/impex/libkra/kis_kra_loader.cpp:1380
 #, kde-format
 msgctxt "@title:window"
 msgid "File not found"
@@ -43332,7 +43332,7 @@ msgid ""
 "Do you want to locate it manually?"
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:1376
+#: plugins/impex/libkra/kis_kra_loader.cpp:1375
 #, kde-format
 msgctxt "@info"
 msgid ""
