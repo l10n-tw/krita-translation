@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-04-09 00:43+0000\n"
+"POT-Creation-Date: 2022-04-12 00:41+0000\n"
 "PO-Revision-Date: 2022-04-11 08:29+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
@@ -18191,7 +18191,7 @@ msgid "Failed to import the resource."
 msgstr "無法匯入資源。"
 
 #: libs/resourcewidgets/KisResourceUserOperations.cpp:86
-#: libs/resourcewidgets/KisResourceUserOperations.cpp:210
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:211
 #, kde-format
 msgctxt "@title:window"
 msgid "Rename the resource?"
@@ -18266,21 +18266,21 @@ msgctxt "Warning message"
 msgid "Failed to add the resource."
 msgstr "無法加入資源。"
 
-#: libs/resourcewidgets/KisResourceUserOperations.cpp:190
-#: libs/resourcewidgets/KisResourceUserOperations.cpp:223
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:191
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:224
 #, kde-format
 msgctxt "@title:window"
 msgid "Failed to overwrite the resource"
 msgstr "覆寫資源失敗"
 
-#: libs/resourcewidgets/KisResourceUserOperations.cpp:190
-#: libs/resourcewidgets/KisResourceUserOperations.cpp:223
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:191
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:224
 #, kde-format
 msgctxt "Warning message"
 msgid "Failed to overwrite the resource."
 msgstr "無法覆寫資源。"
 
-#: libs/resourcewidgets/KisResourceUserOperations.cpp:211
+#: libs/resourcewidgets/KisResourceUserOperations.cpp:212
 #, kde-format
 msgctxt "Question in a dialog/messagebox"
 msgid ""
