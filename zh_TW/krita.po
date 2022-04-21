@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-04-21 00:42+0000\n"
-"PO-Revision-Date: 2022-04-14 15:15+0000\n"
+"PO-Revision-Date: 2022-04-22 10:15+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -26643,25 +26643,22 @@ msgid "This pattern already exists. Do you want to overwrite it?"
 msgstr "已有這個圖案。您確定要覆寫它嗎？"
 
 #: libs/ui/kis_file_layer.cpp:132
-#, fuzzy, kde-format
-#| msgid "No file name specified"
+#, kde-format
 msgctxt "placeholder test for a warning when not file is set in the file layer"
 msgid "<No file name is set>"
-msgstr "未指定檔案名"
+msgstr "【未設定檔案名】"
 
 #: libs/ui/kis_file_layer.cpp:137
-#, fuzzy, kde-format
-#| msgid "File not found"
+#, kde-format
 msgctxt "a tooltip shown when a file layer cannot find its linked file"
 msgid "Linked file not found: %1"
-msgstr "無法找到檔案"
+msgstr "找不到已連結的檔案「%1」"
 
 #: libs/ui/kis_file_layer.cpp:140
-#, fuzzy, kde-format
-#| msgid "Failed to load video information"
+#, kde-format
 msgctxt "a tooltip shown when a file layer cannot load its linked file"
 msgid "Failed to load linked file: %1"
-msgstr "無法載入影片資訊"
+msgstr "無法載入已連結檔案「%1」"
 
 #: libs/ui/kis_filter_manager.cc:189
 #, kde-format
@@ -54681,7 +54678,7 @@ msgstr "力學筆刷工具"
 #| msgid "Activate Fill Tool"
 msgctxt "action"
 msgid "Enclose and Fill Tool"
-msgstr "啟動填充工具"
+msgstr "閉合填充工具"
 
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:240
 #, fuzzy
@@ -54689,11 +54686,10 @@ msgstr "啟動填充工具"
 #| msgid "Flood Fill"
 msgctxt "(qtundo-format)"
 msgid "Enclose and Fill"
-msgstr "浸漫填充"
+msgstr "閉合填充"
 
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:364
-#, fuzzy, kde-format
-#| msgid "Invert"
+#, kde-format
 msgctxt "The 'invert' checkbox in enclose and fill tool"
 msgid "Invert"
 msgstr "反轉"
@@ -54703,45 +54699,35 @@ msgstr "反轉"
 #| msgid "Include translator's comments"
 msgctxt "The 'include contour regions' checkbox in enclose and fill tool"
 msgid "Include contour regions"
-msgstr "包含翻譯人員的注釋"
+msgstr "包含邊緣範圍"
 
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:375
 #, fuzzy, kde-format
 #| msgid "Include Audio"
 msgctxt "The 'include surrounding regions' checkbox in enclose and fill tool"
 msgid "Include surrounding regions"
-msgstr "包含音訊"
+msgstr "包含環繞範圍"
 
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:385
-#, fuzzy, kde-format
-#| msgctxt "The pattern 'scale' spinbox prefix in fill tool options"
-#| msgid "Scale: "
+#, kde-format
 msgctxt "The pattern 'scale' spinbox prefix in enclose and fill tool options"
 msgid "Scale: "
 msgstr "縮放："
 
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:392
-#, fuzzy, kde-format
-#| msgctxt "The 'threshold' spinbox prefix in fill tool options"
-#| msgid "Threshold: "
+#, kde-format
 msgctxt "The 'threshold' spinbox prefix in enclose and fill tool options"
 msgid "Threshold: "
 msgstr "閾值："
 
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:395
-#, fuzzy, kde-format
-#| msgctxt "The 'spread' spinbox prefix in fill tool options"
-#| msgid "Spread: "
+#, kde-format
 msgctxt "The 'spread' spinbox prefix in enclose and fill tool options"
 msgid "Spread: "
 msgstr "擴散幅度："
 
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:401
-#, fuzzy, kde-format
-#| msgctxt ""
-#| "The 'use selection as boundary' checkbox in fill tool to use selection "
-#| "borders as boundary when filling"
-#| msgid "Use selection as boundary"
+#, kde-format
 msgctxt ""
 "The 'use selection as boundary' checkbox in enclose and fill tool to use "
 "selection borders as boundary when filling"
@@ -54749,58 +54735,50 @@ msgid "Use selection as boundary"
 msgstr "以選取區域為界限"
 
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:405
-#, fuzzy, kde-format
-#| msgid "Anti-aliasing"
+#, kde-format
 msgctxt "The anti-alias checkbox in enclose and fill tool options"
 msgid "Anti-aliasing"
 msgstr "反鋸齒"
 
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:407
-#, fuzzy, kde-format
-#| msgctxt "The 'grow/shrink' spinbox prefix in fill tool options"
-#| msgid "Grow: "
+#, kde-format
 msgctxt "The 'grow/shrink' spinbox prefix in enclose and fill tool options"
 msgid "Grow: "
 msgstr "擴張："
 
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:411
-#, fuzzy, kde-format
-#| msgctxt "The 'feather' spinbox prefix in fill tool options"
-#| msgid "Feather: "
+#, kde-format
 msgctxt "The 'feather' spinbox prefix in enclose and fill tool options"
 msgid "Feather: "
 msgstr "羽化："
 
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:425
-#, fuzzy, kde-format
-#| msgid "Reset"
+#, kde-format
 msgctxt "The 'reset' button in enclose and fill tool options"
 msgid "Reset"
 msgstr "重設"
 
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:430
-#, fuzzy, kde-format
-#| msgctxt "(qtundo-format)"
-#| msgid "Draw Bezier Curve"
+#, kde-format
 msgid "Bezier Curve"
-msgstr "繪製貝茲曲線"
+msgstr "貝茲曲線"
 
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:431
-#, kde-format
+#, fuzzy, kde-format
 msgid "Lasso"
-msgstr ""
+msgstr "套索"
 
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:434
-#, kde-format
+#, fuzzy, kde-format
 msgid "Check this option to fill all the regions except the selected ones"
-msgstr ""
+msgstr "核取此選項以填充除已選取範圍外的所有範圍"
 
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:435
-#, kde-format
+#, fuzzy, kde-format
 msgid ""
 "Check this option to also fill the shapes that touch the contour of the "
 "enclosing region"
-msgstr ""
+msgstr "核取此選項以填充觸碰到範圍邊緣的形狀"
 
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:436
 #, kde-format
