@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-04-21 00:42+0000\n"
+"POT-Creation-Date: 2022-04-22 00:43+0000\n"
 "PO-Revision-Date: 2022-04-22 10:15+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
@@ -27170,7 +27170,7 @@ msgstr "100%"
 msgid "Zoom to 100%"
 msgstr "縮放至 100%"
 
-#: libs/ui/kis_popup_palette.cpp:846
+#: libs/ui/kis_popup_palette.cpp:855
 #, kde-format
 msgid ""
 "Click to swap foreground and background colors.\n"
@@ -27179,7 +27179,7 @@ msgstr ""
 "左鍵點擊：交換前景色和背景色\n"
 "右鍵點擊：將前景色和背景色設定為黑色和白色"
 
-#: libs/ui/kis_popup_palette.cpp:951
+#: libs/ui/kis_popup_palette.cpp:992
 #, kde-format
 msgid ""
 "There are no tags available to show in this popup. To add presets, you need "
