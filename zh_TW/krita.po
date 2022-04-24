@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-04-22 00:43+0000\n"
-"PO-Revision-Date: 2022-04-22 10:15+0000\n"
+"PO-Revision-Date: 2022-04-25 08:15+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -54678,7 +54678,7 @@ msgstr "力學筆刷工具"
 #| msgid "Activate Fill Tool"
 msgctxt "action"
 msgid "Enclose and Fill Tool"
-msgstr "閉合填充工具"
+msgstr "圍圈填充工具"
 
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:240
 #, fuzzy
@@ -54686,7 +54686,7 @@ msgstr "閉合填充工具"
 #| msgid "Flood Fill"
 msgctxt "(qtundo-format)"
 msgid "Enclose and Fill"
-msgstr "閉合填充"
+msgstr "圍圈填充"
 
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:364
 #, kde-format
@@ -54695,18 +54695,16 @@ msgid "Invert"
 msgstr "反轉"
 
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:369
-#, fuzzy, kde-format
-#| msgid "Include translator's comments"
+#, kde-format
 msgctxt "The 'include contour regions' checkbox in enclose and fill tool"
 msgid "Include contour regions"
-msgstr "包含邊緣範圍"
+msgstr "包含輪廓區域"
 
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:375
-#, fuzzy, kde-format
-#| msgid "Include Audio"
+#, kde-format
 msgctxt "The 'include surrounding regions' checkbox in enclose and fill tool"
 msgid "Include surrounding regions"
-msgstr "包含環繞範圍"
+msgstr "包含週邊區域"
 
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:385
 #, kde-format
@@ -54778,12 +54776,12 @@ msgstr "核取此選項以填充除已選取範圍外的所有範圍"
 msgid ""
 "Check this option to also fill the shapes that touch the contour of the "
 "enclosing region"
-msgstr "核取此選項以填充觸碰到範圍邊緣的形狀"
+msgstr "核取此選項以填充觸碰到圍圈區域輪廓的形狀"
 
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:436
-#, kde-format
+#, fuzzy, kde-format
 msgid "Check this option to also fill the surrounding regions"
-msgstr ""
+msgstr "核取此選項以填充週邊區域"
 
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:466
 #, fuzzy, kde-format
@@ -54791,119 +54789,103 @@ msgstr ""
 #| msgid "Sens&ing method type:"
 msgctxt "The 'enclosing method' section label in enclose and fill tool options"
 msgid "Enclosing method"
-msgstr "感光方式類型(&I)："
+msgstr "圍圈方式"
 
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:473
-#, fuzzy, kde-format
-#| msgctxt "The 'what to fill' section label in fill tool options"
-#| msgid "What to fill"
+#, kde-format
 msgctxt "The 'what to fill' section label in enclose and fill tool options"
 msgid "What to fill"
 msgstr "填充區域"
 
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:484
-#, fuzzy, kde-format
-#| msgctxt "The 'fill with' section label in fill tool options"
-#| msgid "Fill with"
+#, kde-format
 msgctxt "The 'fill with' section label in enclose and fill tool options"
 msgid "Fill with"
 msgstr "填充內容"
 
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:495
-#, fuzzy, kde-format
-#| msgctxt "The 'region extent' section label in fill tool options"
-#| msgid "Region extent"
+#, kde-format
 msgctxt "The 'region extent' section label in enclose and fill tool options"
 msgid "Region extent"
 msgstr "區域範圍"
 
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:504
-#, fuzzy, kde-format
-#| msgctxt "The 'adjustments' section label in fill tool options"
-#| msgid "Adjustments"
+#, kde-format
 msgctxt "The 'adjustments' section label in enclose and fill tool options"
 msgid "Adjustments"
 msgstr "調整"
 
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:513
-#, fuzzy, kde-format
-#| msgctxt "The 'reference' section label in fill tool options"
-#| msgid "Reference"
+#, kde-format
 msgctxt "The 'reference' section label in enclose and fill tool options"
 msgid "Reference"
 msgstr "參照"
 
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:705
-#, fuzzy, kde-format
-#| msgctxt "Continuous fill mode in fill tool options"
-#| msgid "Any region"
+#, kde-format
 msgctxt "Region selection method in enclose and fill tool"
 msgid "All regions"
-msgstr "任何區域"
+msgstr "所有區域"
 
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:708
-#, fuzzy, kde-format
-#| msgid "Fill regions of any color"
+#, kde-format
 msgctxt "Region selection method in enclose and fill tool"
 msgid "Regions of a specific color"
-msgstr "填充任何色彩的區域"
+msgstr "特定色彩的區域"
 
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:711
-#, fuzzy, kde-format
-#| msgid "Transparent"
+#, kde-format
 msgctxt "Region selection method in enclose and fill tool"
 msgid "Transparent regions"
-msgstr "透明"
+msgstr "透明區域"
 
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:714
 #, kde-format
 msgctxt "Region selection method in enclose and fill tool"
 msgid "Regions of a specific color or transparent"
-msgstr ""
+msgstr "特定色彩或透明區域"
 
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:717
-#, fuzzy, kde-format
-#| msgid "Fill regions of any color"
+#, kde-format
 msgctxt "Region selection method in enclose and fill tool"
 msgid "All regions except those of a specific color"
-msgstr "填充任何色彩的區域"
+msgstr "除特定色彩以外的區域"
 
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:720
 #, kde-format
 msgctxt "Region selection method in enclose and fill tool"
 msgid "All regions except the transparent ones"
-msgstr ""
+msgstr "除透明以外的區域"
 
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:723
 #, kde-format
 msgctxt "Region selection method in enclose and fill tool"
 msgid "All regions except those of a specific color or transparent"
-msgstr ""
+msgstr "除特定色彩或透明以外的區域"
 
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:726
 #, kde-format
 msgctxt "Region selection method in enclose and fill tool"
 msgid "Regions surrounded by a specific color"
-msgstr ""
+msgstr "被特定色彩圍繞的區域"
 
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:729
-#, fuzzy, kde-format
-#| msgid "1. Foreground to Transparent"
+#, kde-format
 msgctxt "Region selection method in enclose and fill tool"
 msgid "Regions surrounded by transparent"
-msgstr "1. 前景色漸變至透明"
+msgstr "被透明色圍繞的區域"
 
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:732
 #, kde-format
 msgctxt "Region selection method in enclose and fill tool"
 msgid "Regions surrounded by a specific color or transparent"
-msgstr ""
+msgstr "被持定色彩或透明圍繞的區域"
 
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFillFactory.h:23
 #, fuzzy, kde-format
 #| msgid "Activate Fill Tool"
 msgid "Enclose and Fill Tool"
-msgstr "啟動填充工具"
+msgstr "圍圈填充工具"
 
 #: plugins/tools/tool_lazybrush/kis_tool_lazy_brush.cpp:49
 msgctxt "(qtundo-format)"
