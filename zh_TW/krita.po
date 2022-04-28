@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-04-28 00:42+0000\n"
-"PO-Revision-Date: 2022-04-25 08:23+0000\n"
+"PO-Revision-Date: 2022-04-28 15:39+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -8587,11 +8587,10 @@ msgstr "交換前景色和背景色"
 
 #. i18n: context: Action (toggle_brush_outline), Actions (Painting), ActionCollection (Krita)
 #: krita/krita.action:699
-#, fuzzy, kde-format
-#| msgid "Tilt Outline"
+#, kde-format
 msgctxt "action"
 msgid "Toggle Brush Outline"
-msgstr "傾斜度輪廓"
+msgstr "切換顯示筆刷輪廓"
 
 #. i18n: context: Action (toggle_brush_outline), Actions (Painting), ActionCollection (Krita)
 #: krita/krita.action:701
@@ -8600,7 +8599,7 @@ msgctxt "action"
 msgid ""
 "Disable the brush outline, or enable the previously used brush outline shape "
 "if already disabled"
-msgstr ""
+msgstr "停用或啟用顯示筆刷輪廓"
 
 #. i18n: context: Action (selection_tool_mode_add), Actions (Painting), ActionCollection (Krita)
 #. i18n: context: Action (selection_tool_mode_add), Actions (Painting), ActionCollection (Krita)
@@ -39668,12 +39667,9 @@ msgid "Comment"
 msgstr "注釋"
 
 #: plugins/extensions/qmic/kis_qmic_interface.cpp:191
-#, fuzzy
-#| msgctxt "(qtundo-format)"
-#| msgid "Gmic filter"
 msgctxt "(qtundo-format)"
 msgid "G'MIC filter"
-msgstr "Gmic 濾鏡"
+msgstr "G'MIC 濾鏡"
 
 #: plugins/extensions/qmic/QMic.cpp:53
 #, kde-format
@@ -48784,7 +48780,7 @@ msgstr "銳利度"
 #: plugins/paintops/libpaintop/kis_pressure_sharpness_option_widget.cpp:26
 #, kde-format
 msgid "Align the brush preview outline to the pixel grid"
-msgstr ""
+msgstr "將筆刷預覧對齊到像素格線"
 
 #: plugins/paintops/libpaintop/kis_pressure_sharpness_option_widget.cpp:30
 #, kde-format
