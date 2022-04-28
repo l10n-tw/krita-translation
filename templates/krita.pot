@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-04-27 00:43+0000\n"
+"POT-Creation-Date: 2022-04-28 00:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -18431,63 +18431,63 @@ msgstr ""
 msgid "Undelete"
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:144
+#: libs/ui/actions/kis_selection_action_factories.cpp:145
 msgctxt "(qtundo-format)"
 msgid "Select All"
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:220
+#: libs/ui/actions/kis_selection_action_factories.cpp:221
 #: libs/ui/KisView.cpp:661
 msgctxt "(qtundo-format)"
 msgid "Flood Fill Layer"
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:368
+#: libs/ui/actions/kis_selection_action_factories.cpp:376
 msgctxt "(qtundo-format)"
 msgid "Cut"
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:369
+#: libs/ui/actions/kis_selection_action_factories.cpp:377
 msgctxt "(qtundo-format)"
 msgid "Copy"
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:454
+#: libs/ui/actions/kis_selection_action_factories.cpp:462
 msgctxt "(qtundo-format)"
 msgid "Copy Merged"
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:471
+#: libs/ui/actions/kis_selection_action_factories.cpp:479
 #, kde-format
 msgctxt "floating message"
 msgid "Selection is already in a vector format "
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:496
-#: libs/ui/actions/kis_selection_action_factories.cpp:516
+#: libs/ui/actions/kis_selection_action_factories.cpp:504
+#: libs/ui/actions/kis_selection_action_factories.cpp:524
 msgctxt "(qtundo-format)"
 msgid "Convert to Vector Selection"
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:511
+#: libs/ui/actions/kis_selection_action_factories.cpp:519
 #, kde-format
 msgctxt "floating message"
 msgid "Selection is already in a raster format "
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:557
+#: libs/ui/actions/kis_selection_action_factories.cpp:565
 #, kde-format
 msgctxt "floating message"
 msgid "The shape already belongs to a selection"
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:563
+#: libs/ui/actions/kis_selection_action_factories.cpp:571
 msgctxt "(qtundo-format)"
 msgid "Convert shapes to vector selection"
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:616
-#: libs/ui/actions/kis_selection_action_factories.cpp:675
+#: libs/ui/actions/kis_selection_action_factories.cpp:624
+#: libs/ui/actions/kis_selection_action_factories.cpp:683
 #: plugins/tools/tool_polyline/kis_tool_polyline.cc:49
 msgctxt "(qtundo-format)"
 msgid "Draw Polyline"
@@ -21344,7 +21344,6 @@ msgstr ""
 
 #: libs/ui/dialogs/KisDlgSavePreset.cpp:79
 #: plugins/generators/seexpr/kis_wdg_seexpr_presets_save.cpp:74
-#: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:316
 #, kde-format
 msgid "Copy"
 msgstr ""
@@ -25689,11 +25688,13 @@ msgid "The <i>Rotate Canvas</i> action rotates the canvas."
 msgstr ""
 
 #: libs/ui/input/kis_rotate_canvas_action.cpp:43
+#: libs/ui/input/kis_zoom_and_rotate_action.cpp:39
 #, kde-format
 msgid "Rotate Mode"
 msgstr ""
 
 #: libs/ui/input/kis_rotate_canvas_action.cpp:44
+#: libs/ui/input/kis_zoom_and_rotate_action.cpp:40
 #, kde-format
 msgid "Discrete Rotate Mode"
 msgstr ""
@@ -26093,7 +26094,7 @@ msgstr ""
 msgid "Fit to Height"
 msgstr ""
 
-#: libs/ui/input/kis_zoom_and_rotate_action.cpp:34
+#: libs/ui/input/kis_zoom_and_rotate_action.cpp:37
 #, kde-format
 msgid "Zoom and Rotate Canvas"
 msgstr ""
@@ -35472,7 +35473,7 @@ msgstr ""
 msgid "&Add"
 msgstr ""
 
-#: plugins/dockers/layerdocker/NodeDelegate.cpp:1223
+#: plugins/dockers/layerdocker/NodeDelegate.cpp:1221
 #, kde-format
 msgid "%1 %"
 msgstr ""
@@ -52224,16 +52225,6 @@ msgstr ""
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:298
 #, kde-format
 msgid "Reference Image Actions"
-msgstr ""
-
-#: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:314
-#, kde-format
-msgid "Cut"
-msgstr ""
-
-#: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:318
-#, kde-format
-msgid "Paste"
 msgstr ""
 
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.h:87
