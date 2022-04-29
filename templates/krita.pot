@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-04-28 00:42+0000\n"
+"POT-Creation-Date: 2022-04-29 00:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -17538,7 +17538,7 @@ msgstr ""
 #: libs/pigment/resources/KoColorSet.cpp:839
 #: libs/pigment/resources/KoColorSet.cpp:916
 #: libs/pigment/resources/KoColorSet.cpp:1126
-#: libs/ui/actions/KisPasteActionFactories.cpp:300
+#: libs/ui/actions/KisPasteActionFactories.cpp:306
 #: libs/ui/animation/KisDlgAnimationRenderer.cpp:348
 #: libs/ui/KisView.cpp:845 plugins/generators/seexpr/kis_wdg_seexpr.cpp:34
 #, kde-format
@@ -17594,7 +17594,7 @@ msgstr ""
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:354
 #: libs/ui/dialogs/kis_dlg_preferences.cc:664
 #: libs/ui/input/kis_tablet_debugger.cpp:96
-#: libs/ui/kis_clipboard.cc:674 libs/ui/kis_custom_pattern.cc:131
+#: libs/ui/kis_clipboard.cc:676 libs/ui/kis_custom_pattern.cc:131
 #: libs/ui/kis_filter_manager.cc:233 libs/ui/kis_filter_manager.cc:242
 #: libs/ui/kis_layer_manager.cc:314 libs/ui/kis_layer_manager.cc:964
 #: libs/ui/kis_node_manager.cpp:1218 libs/ui/kis_node_manager.cpp:1281
@@ -17608,7 +17608,7 @@ msgstr ""
 #: libs/ui/KisMainWindow.cpp:1814 libs/ui/KisMainWindow.cpp:1823
 #: libs/ui/KisMainWindow.cpp:1962 libs/ui/KisMainWindow.cpp:2023
 #: libs/ui/KisMainWindow.cpp:2044 libs/ui/KisPart.cpp:569
-#: libs/ui/KisPart.cpp:572 libs/ui/KisReferenceImage.cpp:180
+#: libs/ui/KisPart.cpp:572 libs/ui/KisReferenceImage.cpp:175
 #: libs/ui/KisRemoteFileFetcher.cpp:35 libs/ui/KisRemoteFileFetcher.cpp:56
 #: libs/ui/KisRemoteFileFetcher.cpp:86 libs/ui/KisTemplateCreateDia.cpp:284
 #: libs/ui/KisTemplateCreateDia.cpp:390 libs/ui/KisView.cpp:589
@@ -18498,18 +18498,18 @@ msgctxt "(qtundo-format)"
 msgid "Paste shapes"
 msgstr ""
 
-#: libs/ui/actions/KisPasteActionFactories.cpp:235
-#: libs/ui/actions/KisPasteActionFactories.cpp:307
+#: libs/ui/actions/KisPasteActionFactories.cpp:244
+#: libs/ui/actions/KisPasteActionFactories.cpp:313
 #, kde-format
 msgid "(pasted)"
 msgstr ""
 
-#: libs/ui/actions/KisPasteActionFactories.cpp:305
+#: libs/ui/actions/KisPasteActionFactories.cpp:311
 #, kde-format
 msgid "Pasted"
 msgstr ""
 
-#: libs/ui/actions/KisPasteActionFactories.cpp:357
+#: libs/ui/actions/KisPasteActionFactories.cpp:363
 msgctxt "(qtundo-format)"
 msgid "Paste Style"
 msgstr ""
@@ -20546,7 +20546,7 @@ msgstr ""
 #: libs/ui/widgets/gradient/KisSegmentGradientEditor.cpp:162
 #: libs/ui/widgets/kis_custom_image_widget.cc:100
 #: libs/ui/widgets/KisAutoLevelsWidget.cpp:16
-#: libs/widgets/kis_color_input.cpp:146 libs/widgets/kis_color_input.cpp:189
+#: libs/widgets/kis_color_input.cpp:148 libs/widgets/kis_color_input.cpp:191
 #: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:246
 #: plugins/dockers/animation/KisOnionSkinsDocker.cpp:47
 #: plugins/dockers/layerdocker/LayerBox.cpp:200
@@ -26237,7 +26237,7 @@ msgctxt "(qtundo-format)"
 msgid "Change File Layer"
 msgstr ""
 
-#: libs/ui/kis_clipboard.cc:675 libs/ui/KisView.cpp:590
+#: libs/ui/kis_clipboard.cc:677 libs/ui/KisView.cpp:590
 #, kde-format
 msgid ""
 "Could not open %2.\n"
@@ -28086,12 +28086,12 @@ msgid ""
 "Reason: %2"
 msgstr ""
 
-#: libs/ui/KisReferenceImage.cpp:118
+#: libs/ui/KisReferenceImage.cpp:113
 msgctxt "(qtundo-format)"
 msgid "Set saturation"
 msgstr ""
 
-#: libs/ui/KisReferenceImage.cpp:180
+#: libs/ui/KisReferenceImage.cpp:175
 #, kde-format
 msgid "Could not load %1."
 msgstr ""
@@ -31415,12 +31415,12 @@ msgstr ""
 msgid "Thickness:"
 msgstr ""
 
-#: libs/widgets/kis_color_input.cpp:48
+#: libs/widgets/kis_color_input.cpp:50
 #, kde-format
 msgid "%1:"
 msgstr ""
 
-#: libs/widgets/kis_color_input.cpp:371 libs/widgets/KoEditColorSetDialog.cpp:159
+#: libs/widgets/kis_color_input.cpp:373 libs/widgets/KoEditColorSetDialog.cpp:159
 #, kde-format
 msgid "Color name:"
 msgstr ""
