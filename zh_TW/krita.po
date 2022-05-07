@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-05-07 00:43+0000\n"
-"PO-Revision-Date: 2022-04-28 15:39+0000\n"
+"PO-Revision-Date: 2022-05-08 05:38+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -16344,12 +16344,10 @@ msgid "Animated PNG Image"
 msgstr "動態 PNG 影像"
 
 #: libs/koplugin/KisMimeDatabase.cpp:344
-#, fuzzy, kde-format
-#| msgctxt "description of a file type"
-#| msgid "JP2 Image"
+#, kde-format
 msgctxt "description of a file type"
 msgid "JPEG-XL Image"
-msgstr "JP2 影像"
+msgstr "JPEG-XL 影像"
 
 #: libs/libkis/Document.cpp:927 libs/ui/KisMainWindow.cpp:1954
 #: libs/ui/KisMainWindow.cpp:2037
@@ -22891,14 +22889,13 @@ msgstr "游標"
 #: libs/ui/forms/wdggeneralsettings.ui:61
 #, kde-format
 msgid "Brush Cursor Icon:"
-msgstr ""
+msgstr "筆刷游標圖示："
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
 #: libs/ui/forms/wdggeneralsettings.ui:83
-#, fuzzy, kde-format
-#| msgid "Outline Shape:"
+#, kde-format
 msgid "Brush Outline Shape:"
-msgstr "輪廓形狀："
+msgstr "筆刷輪廓形狀："
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: libs/ui/forms/wdggeneralsettings.ui:111
@@ -22924,45 +22921,39 @@ msgstr "使用有效輪廓大小"
 
 #. i18n: ectx: property (title), widget (QGroupBox, m_chkSeparateEraserCursor)
 #: libs/ui/forms/wdggeneralsettings.ui:174
-#, fuzzy, kde-format
-#| msgid "Unlock (restore settings from preset)"
+#, kde-format
 msgid "Use separate settings for eraser"
-msgstr "解除鎖定 (復原預設設定)"
+msgstr "為橡皮擦選用個別設定"
 
 #. i18n: ectx: property (text), widget (QLabel, label_19)
 #: libs/ui/forms/wdggeneralsettings.ui:213
-#, fuzzy, kde-format
-#| msgid "Eraser smoothing"
+#, kde-format
 msgid "Eraser Cursor Icon:"
-msgstr "橡皮擦平滑化"
+msgstr "橡皮擦游標圖示："
 
 #. i18n: ectx: property (text), widget (QLabel, label_20)
 #: libs/ui/forms/wdggeneralsettings.ui:229
-#, fuzzy, kde-format
-#| msgid "Outline Shape:"
+#, kde-format
 msgid "Eraser Outline Shape:"
-msgstr "輪廓形狀："
+msgstr "橡皮擦輪廓形狀："
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_6)
 #: libs/ui/forms/wdggeneralsettings.ui:245
-#, fuzzy, kde-format
-#| msgid "While painting..."
+#, kde-format
 msgid "While painting with an eraser..."
-msgstr "在繪畫時…"
+msgstr "在使用橡皮擦時…"
 
 #. i18n: ectx: property (text), widget (QLabel, label_21)
 #: libs/ui/forms/wdggeneralsettings.ui:290
 #, kde-format
 msgid "Eraser Outline Color:"
-msgstr ""
+msgstr "橡皮擦輪廓色彩："
 
 #. i18n: ectx: property (text), widget (QLabel, label_11)
 #: libs/ui/forms/wdggeneralsettings.ui:316
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Toggle Brush Outline"
+#, kde-format
 msgid "Brush Outline Color:"
-msgstr "切換顯示筆刷輪廓"
+msgstr "筆刷輪廓色彩："
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_3)
 #: libs/ui/forms/wdggeneralsettings.ui:324
@@ -44095,7 +44086,7 @@ msgstr "使用作者檔案資料簽名"
 #| msgctxt "Saving .kra file error message"
 #| msgid "Could not save image profile."
 msgid "Unable to read the image profile."
-msgstr "無法儲存影像特性檔案。"
+msgstr "無法讀取影像特性檔案。"
 
 #: plugins/impex/jxl/JPEGXLImport.cpp:256
 #, kde-format
@@ -44103,40 +44094,40 @@ msgid "JPEG-XL encoded profile not implemented"
 msgstr ""
 
 #: plugins/impex/jxl/JPEGXLImport.cpp:300
-#, kde-format
+#, fuzzy, kde-format
 msgid "JPEG-XL image is animated, but cannot retrieve animation frame header."
-msgstr ""
+msgstr "JPEG-XL 影像為動畫，但未能讀取動畫影格標頭資訊。"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:22
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:28
-#, kde-format
+#, fuzzy, kde-format
 msgid "Default (only for low quality)"
-msgstr ""
+msgstr "預設 (只適用於低品質)"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:23
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:29
 #, fuzzy, kde-format
 #| msgid "No Scaling"
 msgid "No downsampling"
-msgstr "無縮放"
+msgstr "無下降取樣"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:24
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:30
-#, kde-format
+#, fuzzy, kde-format
 msgid "2x2 downsampling"
-msgstr ""
+msgstr "2x2 下降取樣"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:25
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:31
-#, kde-format
+#, fuzzy, kde-format
 msgid "4x4 downsampling"
-msgstr ""
+msgstr "4x4 下降取樣"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:26
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:32
-#, kde-format
+#, fuzzy, kde-format
 msgid "8x8 downsampling"
-msgstr ""
+msgstr "8x8 下降取樣"
 
 #. i18n: ectx: property (text), widget (QLabel, lblNone1)
 #. i18n: ectx: property (text), widget (QLabel, lblNone)
@@ -44160,9 +44151,9 @@ msgstr ""
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:489
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:539
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:657
-#, kde-format
+#, fuzzy, kde-format
 msgid "Default (encoder chooses)"
-msgstr ""
+msgstr "預設 (由編碼器選取)"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:37
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:43
@@ -44176,7 +44167,7 @@ msgstr ""
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:132
 #, kde-format
 msgid "Disabled"
-msgstr "已禁用"
+msgstr "停用"
 
 #. i18n: ectx: property (text), widget (QCheckBox, lossless)
 #. i18n: ectx: property (text), widget (QCheckBox, dithering)
@@ -44210,66 +44201,66 @@ msgid "Enabled"
 msgstr "啟用"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:55
-#, kde-format
+#, fuzzy, kde-format
 msgid "VarDCT mode (e.g. for photographic images)"
-msgstr ""
+msgstr "VarDCT 模式 (例如適用於攝影類影像）"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:56
-#, kde-format
+#, fuzzy, kde-format
 msgid "Modular mode (e.g. for lossless images)"
-msgstr ""
+msgstr "模組化模式 (例如適用於無損影像)"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:67
 #, fuzzy, kde-format
 #| msgid "Vertical border:"
 msgid "Scanline order"
-msgstr "垂直邊界："
+msgstr "掃描線順序"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:68
 #, fuzzy, kde-format
 #| msgctxt "Action to center the selected stop in the segment gradient editor"
 #| msgid "Center stop"
 msgid "Center-first order"
-msgstr "停駐點置中"
+msgstr "中間開首順序"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:92
-#, kde-format
+#, fuzzy, kde-format
 msgid "64x64 lower resolution pass"
-msgstr ""
+msgstr "64x64 較低解像度處理"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:93
-#, kde-format
+#, fuzzy, kde-format
 msgid "512x512 + 64x64 lower resolution passes"
-msgstr ""
+msgstr "512x512 + 64x64 較低解像度處理"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:104
-#, kde-format
+#, fuzzy, kde-format
 msgid "128"
-msgstr ""
+msgstr "128"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:105
 #, fuzzy, kde-format
 #| msgid "255"
 msgid "256"
-msgstr "255"
+msgstr "256"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:106
-#, kde-format
+#, fuzzy, kde-format
 msgid "512"
-msgstr ""
+msgstr "512"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:107
-#, kde-format
+#, fuzzy, kde-format
 msgid "1024"
-msgstr ""
+msgstr "1024"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:112
-#, kde-format
+#, fuzzy, kde-format
 msgid "Zero"
-msgstr ""
+msgstr "零"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:113
-#, kde-format
+#, fuzzy, kde-format
 msgid "Left"
 msgstr "左側"
 
@@ -44781,7 +44772,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, lblModularPredictor)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:621
 #: plugins/impex/tiff/kis_wdg_options_tiff.ui:81
-#, kde-format
+#, fuzzy, kde-format
 msgid "Predictor"
 msgstr "色塊預測機制"
 
