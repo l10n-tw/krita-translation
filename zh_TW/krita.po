@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-04-28 00:42+0000\n"
-"PO-Revision-Date: 2022-04-28 15:39+0000\n"
+"POT-Creation-Date: 2022-05-08 00:44+0000\n"
+"PO-Revision-Date: 2022-05-09 13:36+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -14760,7 +14760,7 @@ msgstr "縮小(&M)"
 #: libs/ui/animation/VideoImportDialog.ui:687
 #: libs/ui/animation/wdg_animationrenderer.ui:258
 #: libs/ui/animation/wdg_animationrenderer.ui:400
-#: libs/ui/forms/wdggeneralsettings.ui:381 libs/ui/forms/wdgnewimage.ui:234
+#: libs/ui/forms/wdggeneralsettings.ui:510 libs/ui/forms/wdgnewimage.ui:234
 #: libs/ui/forms/wdgnewimage.ui:253 libs/ui/forms/wdgselectionoptions.ui:29
 #: libs/ui/forms/wdgselectionoptions.ui:45
 #: libs/ui/forms/wdgselectionoptions.ui:61
@@ -14941,9 +14941,9 @@ msgstr "大小"
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1347
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1350
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1414
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1191
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1246
 #: libs/ui/forms/wdgdisplaysettings.ui:356
-#: libs/ui/forms/wdggeneralsettings.ui:245
+#: libs/ui/forms/wdggeneralsettings.ui:374
 #: libs/ui/forms/wdgrectangleconstraints.ui:86
 #: libs/ui/forms/wdgrectangleconstraints.ui:134
 #: libs/ui/forms/wdgrectangleconstraints.ui:184
@@ -16343,6 +16343,12 @@ msgctxt "description of a file type"
 msgid "Animated PNG Image"
 msgstr "動態 PNG 影像"
 
+#: libs/koplugin/KisMimeDatabase.cpp:344
+#, kde-format
+msgctxt "description of a file type"
+msgid "JPEG-XL Image"
+msgstr "JPEG-XL 影像"
+
 #: libs/libkis/Document.cpp:927 libs/ui/KisMainWindow.cpp:1954
 #: libs/ui/KisMainWindow.cpp:2037
 #, kde-format
@@ -17577,7 +17583,7 @@ msgstr "輸出"
 #: libs/pigment/resources/KoColorSet.cpp:839
 #: libs/pigment/resources/KoColorSet.cpp:916
 #: libs/pigment/resources/KoColorSet.cpp:1126
-#: libs/ui/actions/KisPasteActionFactories.cpp:300
+#: libs/ui/actions/KisPasteActionFactories.cpp:306
 #: libs/ui/animation/KisDlgAnimationRenderer.cpp:348 libs/ui/KisView.cpp:845
 #: plugins/generators/seexpr/kis_wdg_seexpr.cpp:34
 #, kde-format
@@ -17631,8 +17637,8 @@ msgstr "本機資源"
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:716
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:776
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:354
-#: libs/ui/dialogs/kis_dlg_preferences.cc:664
-#: libs/ui/input/kis_tablet_debugger.cpp:96 libs/ui/kis_clipboard.cc:674
+#: libs/ui/dialogs/kis_dlg_preferences.cc:719
+#: libs/ui/input/kis_tablet_debugger.cpp:96 libs/ui/kis_clipboard.cc:676
 #: libs/ui/kis_custom_pattern.cc:131 libs/ui/kis_filter_manager.cc:233
 #: libs/ui/kis_filter_manager.cc:242 libs/ui/kis_layer_manager.cc:314
 #: libs/ui/kis_layer_manager.cc:964 libs/ui/kis_node_manager.cpp:1218
@@ -17647,12 +17653,12 @@ msgstr "本機資源"
 #: libs/ui/KisMainWindow.cpp:1823 libs/ui/KisMainWindow.cpp:1962
 #: libs/ui/KisMainWindow.cpp:2023 libs/ui/KisMainWindow.cpp:2044
 #: libs/ui/KisPart.cpp:569 libs/ui/KisPart.cpp:572
-#: libs/ui/KisReferenceImage.cpp:180 libs/ui/KisRemoteFileFetcher.cpp:35
+#: libs/ui/KisReferenceImage.cpp:175 libs/ui/KisRemoteFileFetcher.cpp:35
 #: libs/ui/KisRemoteFileFetcher.cpp:56 libs/ui/KisRemoteFileFetcher.cpp:86
 #: libs/ui/KisTemplateCreateDia.cpp:284 libs/ui/KisTemplateCreateDia.cpp:390
 #: libs/ui/KisView.cpp:589 libs/ui/KisView.cpp:848
 #: libs/ui/KisWelcomePageWidget.cpp:711
-#: libs/ui/opengl/KisOpenGLCanvasRenderer.cpp:347
+#: libs/ui/opengl/KisOpenGLCanvasRenderer.cpp:349
 #: libs/ui/widgets/kis_custom_image_widget.cc:293
 #: plugins/assistants/Assistants/kis_assistant_tool.cc:1301
 #: plugins/assistants/Assistants/kis_assistant_tool.cc:1304
@@ -17836,8 +17842,8 @@ msgstr "MD5 雜湊值"
 #. i18n: ectx: attribute (title), widget (QWidget, tab_hsx)
 #. i18n: ectx: property (text), widget (QLabel, lblCurrentRenderer)
 #: libs/resources/KisResourceStorage.h:116
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1533
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1537
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1588
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1592
 #: libs/ui/forms/wdgdisplaysettings.ui:173 libs/ui/KoDocumentInfo.cpp:39
 #: libs/widgets/KisDlgInternalColorSelector.cpp:322
 #: libs/widgets/WdgDlgInternalColorSelector.ui:89
@@ -17993,9 +17999,15 @@ msgstr "縮圖"
 
 #. i18n: ectx: property (text), widget (QPushButton, bnDelete)
 #. i18n: ectx: property (text), widget (QPushButton, deleteAllAssistantsButton)
+#. i18n: ectx: property (text), widget (QLabel, lblBest)
+#. i18n: ectx: property (text), widget (QLabel, lblBest2)
+#. i18n: ectx: property (text), widget (QLabel, lblMaximumDegradation)
 #: libs/resources/KisTagModel.cpp:121 libs/resources/KisTagModel.cpp:294
 #: libs/ui/widgets/kis_paintop_presets_editor.cpp:592
 #: plugins/assistants/Assistants/AssistantsToolOptions.ui:325
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:496
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:546
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:647
 #: plugins/tools/defaulttool/referenceimagestool/WdgToolOptions.ui:220
 #, kde-format
 msgid "All"
@@ -18063,7 +18075,7 @@ msgstr "儲存空間"
 #. i18n: ectx: attribute (title), widget (QWidget, tabResources)
 #. i18n: ectx: attribute (title), widget (QWidget, tab_4)
 #: libs/resourcewidgets/dbexplorer/WdgDbExplorer.ui:39
-#: libs/ui/forms/wdggeneralsettings.ui:1251
+#: libs/ui/forms/wdggeneralsettings.ui:1380
 #, kde-format
 msgid "Resources"
 msgstr "資源"
@@ -18555,18 +18567,18 @@ msgctxt "(qtundo-format)"
 msgid "Paste shapes"
 msgstr "貼上形狀"
 
-#: libs/ui/actions/KisPasteActionFactories.cpp:235
-#: libs/ui/actions/KisPasteActionFactories.cpp:307
+#: libs/ui/actions/KisPasteActionFactories.cpp:244
+#: libs/ui/actions/KisPasteActionFactories.cpp:313
 #, kde-format
 msgid "(pasted)"
 msgstr "(已貼上)"
 
-#: libs/ui/actions/KisPasteActionFactories.cpp:305
+#: libs/ui/actions/KisPasteActionFactories.cpp:311
 #, kde-format
 msgid "Pasted"
 msgstr "已貼上"
 
-#: libs/ui/actions/KisPasteActionFactories.cpp:357
+#: libs/ui/actions/KisPasteActionFactories.cpp:363
 msgctxt "(qtundo-format)"
 msgid "Paste Style"
 msgstr "貼上樣式"
@@ -19145,7 +19157,7 @@ msgstr "新增到此的 FFmpeg 的過濾選項將插入到源資料和 FFmpeg �
 #: libs/widgetutils/xmlgui/kedittoolbar.cpp:668
 #: plugins/dockers/animation/KisOnionSkinsDocker.ui:99
 #: plugins/dockers/digitalmixer/digitalmixer_dock.cc:141
-#: plugins/filters/colorsfilters/wdg_hsv_adjustment.ui:239
+#: plugins/filters/colorsfilters/wdg_hsv_adjustment.ui:337
 #: plugins/filters/colorsfilters/wdg_perchannel.ui:346
 #: plugins/tools/basictools/wdgmultihandtool.ui:192
 #: plugins/tools/tool_transform2/kis_tool_transform.cc:136
@@ -19594,8 +19606,8 @@ msgstr "主顯示器："
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgDisplaySettings)
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_6)
 #: libs/ui/animation/VideoHDRMetadataOptionsDialog.ui:38
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1821
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1823
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1876
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1878
 #: libs/ui/forms/wdgcolorsettings.ui:147 libs/ui/forms/wdgdisplaysettings.ui:16
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:598
 #, kde-format
@@ -19692,13 +19704,14 @@ msgstr "匯入影片動畫"
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
 #. i18n: ectx: attribute (title), widget (QWidget, general)
 #: libs/ui/animation/VideoImportDialog.ui:34
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1791
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1793
-#: libs/ui/forms/wdgcolorsettings.ui:32 libs/ui/forms/wdggeneralsettings.ui:204
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1846
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1848
+#: libs/ui/forms/wdgcolorsettings.ui:32 libs/ui/forms/wdggeneralsettings.ui:333
 #: libs/ui/forms/wdgperformancesettings.ui:50 libs/ui/KoDocumentInfoDlg.cpp:91
 #: libs/ui/KoDocumentInfoDlg.cpp:92
 #: plugins/dockers/logdocker/LogDockerDock.cpp:119
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.ui:49
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:31
 #: plugins/impex/webp/dlg_webp_export.ui:31
 #: plugins/python/comics_project_management_tools/comics_export_dialog.py:263
 #, kde-format
@@ -19777,9 +19790,11 @@ msgstr "0"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: attribute (title), widget (QWidget, tab_3)
+#. i18n: ectx: attribute (title), widget (QWidget, metadata)
 #: libs/ui/animation/VideoImportDialog.ui:197
 #: plugins/dockers/logdocker/LogDockerDock.cpp:187
 #: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:262
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:714
 #, kde-format
 msgid "Metadata"
 msgstr "中繼資料"
@@ -19870,6 +19885,7 @@ msgstr ""
 #. i18n: ectx: attribute (title), widget (QWidget, advanced)
 #: libs/ui/animation/VideoImportDialog.ui:532
 #: libs/ui/forms/wdgperformancesettings.ui:251
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:149
 #: plugins/impex/webp/dlg_webp_export.ui:148
 #: plugins/impex/webp/dlg_webp_import.ui:304
 #, kde-format
@@ -20677,6 +20693,9 @@ msgstr "圖層屬性"
 #. i18n: ectx: property (suffix), widget (KisSliderSpinBox, nearLossless)
 #. i18n: ectx: property (suffix), widget (KisSliderSpinBox, qMin)
 #. i18n: ectx: property (suffix), widget (KisSliderSpinBox, qMax)
+#. i18n: ectx: property (suffix), widget (KisSliderSpinBox, channelColorsGlobalPercent)
+#. i18n: ectx: property (suffix), widget (KisSliderSpinBox, channelColorsGroupPercent)
+#. i18n: ectx: property (suffix), widget (KisSliderSpinBox, modularMATreeLearningPercent)
 #. i18n: ectx: property (suffix), widget (KisDoubleParseSpinBox, spbScaleWidth)
 #. i18n: ectx: property (suffix), widget (KisDoubleParseSpinBox, spbScaleHeight)
 #: libs/ui/dialogs/kis_dlg_layer_properties.cc:97
@@ -20690,7 +20709,7 @@ msgstr "圖層屬性"
 #: libs/ui/widgets/gradient/KisSegmentGradientEditor.cpp:162
 #: libs/ui/widgets/kis_custom_image_widget.cc:100
 #: libs/ui/widgets/KisAutoLevelsWidget.cpp:16
-#: libs/widgets/kis_color_input.cpp:146 libs/widgets/kis_color_input.cpp:189
+#: libs/widgets/kis_color_input.cpp:147 libs/widgets/kis_color_input.cpp:190
 #: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:246
 #: plugins/dockers/animation/KisOnionSkinsDocker.cpp:47
 #: plugins/dockers/layerdocker/LayerBox.cpp:200
@@ -20705,6 +20724,9 @@ msgstr "圖層屬性"
 #: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:49
 #: plugins/impex/jpeg/kis_jpeg_export.cc:217
 #: plugins/impex/jpeg/kis_jpeg_export.cc:219
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:470
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:520
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:668
 #: plugins/impex/tiff/kis_wdg_options_tiff.ui:314
 #: plugins/impex/webp/dlg_webp_export.ui:79
 #: plugins/impex/webp/dlg_webp_export.ui:320
@@ -20844,10 +20866,10 @@ msgstr "已存在此名稱的圖層樣式庫。要覆蓋它嗎？"
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1418
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1421
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1424
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1106
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1110
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1114
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1196
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1161
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1165
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1169
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1251
 #: plugins/impex/webp/dlg_webp_import.ui:356
 #: plugins/impex/webp/dlg_webp_import.ui:369
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImagesWidget.cpp:44
@@ -20895,17 +20917,17 @@ msgctxt "@title:window"
 msgid "Multiple Paste Sources Detected"
 msgstr "偵測到多個貼上來源"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:183
+#: libs/ui/dialogs/kis_dlg_preferences.cc:185
 #, kde-format
 msgid "No Cursor"
 msgstr "無游標"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:184
+#: libs/ui/dialogs/kis_dlg_preferences.cc:186
 #, kde-format
 msgid "Tool Icon"
 msgstr "工具圖示"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:185
+#: libs/ui/dialogs/kis_dlg_preferences.cc:187
 #: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:188
 #: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:222
 #: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:256
@@ -20914,90 +20936,99 @@ msgstr "工具圖示"
 msgid "Arrow"
 msgstr "箭頭"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:186
+#: libs/ui/dialogs/kis_dlg_preferences.cc:188
 #, kde-format
 msgid "Small Circle"
 msgstr "小圓圈"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbDecor)
-#: libs/ui/dialogs/kis_dlg_preferences.cc:187
+#: libs/ui/dialogs/kis_dlg_preferences.cc:189
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:461
 #, kde-format
 msgid "Crosshair"
 msgstr "十字線"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:188
+#: libs/ui/dialogs/kis_dlg_preferences.cc:190
 #, kde-format
 msgid "Triangle Righthanded"
 msgstr "三角形 (慣用右手)"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:189
+#: libs/ui/dialogs/kis_dlg_preferences.cc:191
 #, kde-format
 msgid "Triangle Lefthanded"
 msgstr "三角形 (慣用左手)"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:190
+#: libs/ui/dialogs/kis_dlg_preferences.cc:192
 #, kde-format
 msgid "Black Pixel"
 msgstr "黑色像素"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:191
+#: libs/ui/dialogs/kis_dlg_preferences.cc:193
 #, kde-format
 msgid "White Pixel"
 msgstr "白色像素"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:195
+#: libs/ui/dialogs/kis_dlg_preferences.cc:196
 #, kde-format
 msgctxt "Display options label to not DISPLAY brush outline"
 msgid "No Outline"
 msgstr "不顯示輪廓"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:196
+#: libs/ui/dialogs/kis_dlg_preferences.cc:197
 #, kde-format
 msgid "Circle Outline"
 msgstr "圓形輪廓"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:197
+#: libs/ui/dialogs/kis_dlg_preferences.cc:198
 #, kde-format
 msgid "Preview Outline"
 msgstr "預覽輪廓"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:198
+#: libs/ui/dialogs/kis_dlg_preferences.cc:199
 #, kde-format
 msgid "Tilt Outline"
 msgstr "傾斜度輪廓"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:268
+#. i18n: ectx: property (text), widget (QPushButton, bnEraser)
+#. i18n: ectx: property (text), widget (QCheckBox, eraserBox)
+#: libs/ui/dialogs/kis_dlg_preferences.cc:223
+#: plugins/paintops/libpaintop/forms/wdgCompositeOpOption.ui:88
+#: plugins/paintops/mypaint/wdgmypaintoptions.ui:41
+#, kde-format
+msgid "Eraser"
+msgstr "擦除模式"
+
+#: libs/ui/dialogs/kis_dlg_preferences.cc:297
 #, kde-format
 msgid "On Touch Drag"
 msgstr "以觸控螢幕拖曳捲動"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:269
+#: libs/ui/dialogs/kis_dlg_preferences.cc:298
 #, kde-format
 msgid "On Click Drag"
 msgstr "點擊並拖曳捲動"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:270
+#: libs/ui/dialogs/kis_dlg_preferences.cc:299
 #, kde-format
 msgid "On Middle-Click Drag"
 msgstr "按住中間鍵拖曳捲動"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:307
+#: libs/ui/dialogs/kis_dlg_preferences.cc:336
 #, kde-format
 msgid "Open default window"
 msgstr "開啟預設視窗"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:308
+#: libs/ui/dialogs/kis_dlg_preferences.cc:337
 #, kde-format
 msgid "Load previous session"
 msgstr "載入上一次工作階段"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:309
+#: libs/ui/dialogs/kis_dlg_preferences.cc:338
 #, kde-format
 msgid "Show session manager"
 msgstr "顯示工作階段管理器"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:381
+#: libs/ui/dialogs/kis_dlg_preferences.cc:410
 #, kde-format
 msgctxt "@info resource folder"
 msgid ""
@@ -21020,20 +21051,20 @@ msgstr ""
 "<p><b>應用程式內部資料夾</b> (<a href=\"copyprivate\">複製</a>)：<br/>\n"
 "%2</p>"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:652
+#: libs/ui/dialogs/kis_dlg_preferences.cc:707
 #, kde-format
 msgid "Select a Background Image"
 msgstr "選擇背景影像"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:664
+#: libs/ui/dialogs/kis_dlg_preferences.cc:719
 #: libs/ui/KisTemplateCreateDia.cpp:390
 #, kde-format
 msgid "%1 is not a valid image file!"
 msgstr "%1 不是有效的影像檔案！"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:767
-#: libs/ui/dialogs/kis_dlg_preferences.cc:876
-#: libs/ui/dialogs/kis_dlg_preferences.cc:958
+#: libs/ui/dialogs/kis_dlg_preferences.cc:822
+#: libs/ui/dialogs/kis_dlg_preferences.cc:931
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1013
 #, kde-format
 msgctxt ""
 "The number of the screen (ordinal) and shortened 'name' of the screen (model "
@@ -21041,14 +21072,14 @@ msgctxt ""
 msgid "Screen %1 (%2):"
 msgstr "顯示器 %1 (%2)："
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:835
+#: libs/ui/dialogs/kis_dlg_preferences.cc:890
 #: libs/ui/widgets/kis_advanced_color_space_selector.cc:791
 #: libs/ui/widgets/kis_color_space_selector.cc:191
 #, kde-format
 msgid "Install Color Profiles"
 msgstr "安裝色彩特性檔案"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1050
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1105
 #, kde-format
 msgid ""
 "Use tablet driver timestamps for brush speed (may cause severe artifacts "
@@ -21057,204 +21088,204 @@ msgstr ""
 "以數位板驅動程式提供的筆跡時間戳記來計算筆刷速度 (使用 WinTab 時可能會產生大"
 "量雜訊)"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1052
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1107
 #, kde-format
 msgid "Use tablet driver timestamps for brush speed"
 msgstr "以數位板驅動程式提供的筆跡時間戳記來計算筆刷速度"
 
 #. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, intSwapSize)
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1160
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1215
 #: libs/ui/forms/wdgperformancesettings.ui:215
 #, kde-format
 msgid " GiB"
 msgstr " GiB"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1181
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1236
 #, kde-format
 msgctxt "suffix for \"seconds\""
 msgid " sec"
 msgstr " 秒"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1185
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1240
 #, kde-format
 msgid " fps"
 msgstr " fps"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1395
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1450
 #, kde-format
 msgctxt "canvas renderer"
 msgid "OpenGL"
 msgstr "OpenGL"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1396
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1451
 #, kde-format
 msgctxt "canvas renderer"
 msgid "Software Renderer (very slow)"
 msgstr "軟體繪製器 (非常慢)"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1398
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1453
 #, kde-format
 msgctxt "canvas renderer"
 msgid "Direct3D 11 via ANGLE"
 msgstr "通過 ANGLE 實現的 Direct3D 11"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1400
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1455
 #, kde-format
 msgctxt "canvas renderer"
 msgid "OpenGL ES"
 msgstr "OpenGL ES"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1407
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1462
 #, kde-format
 msgctxt "canvas renderer"
 msgid "Unknown"
 msgstr "未知"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1427
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1482
 #, kde-format
 msgctxt "canvas renderer"
 msgid "Auto (%1)"
 msgstr "自動 (%1)"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1519
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1574
 #, kde-format
 msgid "Display Id: %1"
 msgstr "顯示器 ID：%1"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1520
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1575
 #, kde-format
 msgid "Display Name: %1 %2"
 msgstr "顯示器名稱：%1 %2"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1521
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1576
 #, kde-format
 msgid "Min Luminance: %1"
 msgstr "最小光度：%1"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1522
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1577
 #, kde-format
 msgid "Max Luminance: %1"
 msgstr "最大光度：%1"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1523
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1578
 #, kde-format
 msgid "Max Full Frame Luminance: %1"
 msgstr "最大全影格光度：%1"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1524
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1579
 #, kde-format
 msgid "Red Primary: %1, %2"
 msgstr "紅基色：%1, %2"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1525
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1580
 #, kde-format
 msgid "Green Primary: %1, %2"
 msgstr "綠基色：%1, %2"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1526
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1581
 #, kde-format
 msgid "Blue Primary: %1, %2"
 msgstr "藍基色：%1, %2"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1527
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1582
 #, kde-format
 msgid "White Point: %1, %2"
 msgstr "白點：%1, %2"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1562
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1617
 #, kde-format
 msgid "Warning(s):"
 msgstr "警告："
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1699
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1754
 #, kde-format
 msgid "WARNING: current display doesn't support HDR rendering"
 msgstr "警告：目前顯示器不支援 HDR 繪製"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1784
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1839
 #, kde-format
 msgid "Configure Krita"
 msgstr "設定 Krita"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1801
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1856
 #, kde-format
 msgid "Keyboard Shortcuts"
 msgstr "鍵盤快捷鍵"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1803
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1858
 #: libs/widgetutils/xmlgui/KisShortcutsEditor_p.cpp:282
 #, kde-format
 msgid "Shortcuts"
 msgstr "快捷鍵"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1813
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1868
 #, kde-format
 msgid "Canvas Input Settings"
 msgstr "畫布輸入設定"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1814
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1869
 #, kde-format
 msgid "Canvas Input"
 msgstr "畫布輸入"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1831
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1886
 #: plugins/dockers/logdocker/LogDockerDock.cpp:191
 #, kde-format
 msgid "Color Management"
 msgstr "色彩管理"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1833
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1888
 #, kde-format
 msgctxt "Label of color as in Color Management"
 msgid "Color"
 msgstr "色彩"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1841
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1843
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1896
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1898
 #, kde-format
 msgid "Performance"
 msgstr "效能"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1851
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1906
 #, kde-format
 msgid "Tablet settings"
 msgstr "數位板設定"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1853
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1908
 #, kde-format
 msgid "Tablet"
 msgstr "數位板"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1861
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1916
 #, kde-format
 msgid "Canvas-only settings"
 msgstr "畫布獨佔模式設定"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1863
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1918
 #, kde-format
 msgid "Canvas-only"
 msgstr "畫布獨佔模式"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1871
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1873
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1926
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1928
 #, kde-format
 msgid "Pop-up Palette"
 msgstr "浮動畫具板"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1881
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1936
 #, kde-format
 msgctxt "@title:tab Author page"
 msgid "Author"
 msgstr "作者檔案"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1883
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1938
 #: libs/ui/KoDocumentInfoDlg.cpp:114
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
 #, kde-format
 msgid "Author"
 msgstr "作者"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1890
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1945
 #, kde-format
 msgctxt "@action:button"
 msgid "Restore Defaults"
@@ -22140,7 +22171,7 @@ msgstr "新影像使用預設色彩模型："
 #. i18n: ectx: property (title), widget (QGroupBox, grpPasteFrom)
 #. i18n: ectx: property (title), widget (QGroupBox, grpPasteBehaviour)
 #: libs/ui/forms/wdgcolorsettings.ui:69
-#: libs/ui/forms/wdggeneralsettings.ui:1183
+#: libs/ui/forms/wdggeneralsettings.ui:1312
 #, kde-format
 msgid "When Pasting Into Krita From Other Applications"
 msgstr "從其他應用程式貼上至 Krita 時"
@@ -22601,7 +22632,7 @@ msgstr "起始顯示比例："
 #. i18n: ectx: attribute (title), widget (QWidget, Miscellaneous)
 #. i18n: ectx: attribute (title), widget (QWidget, tab_4)
 #: libs/ui/forms/wdgdisplaysettings.ui:615
-#: libs/ui/forms/wdggeneralsettings.ui:810
+#: libs/ui/forms/wdggeneralsettings.ui:939
 #, kde-format
 msgid "Miscellaneous"
 msgstr "其他"
@@ -22857,14 +22888,14 @@ msgstr "游標"
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: libs/ui/forms/wdggeneralsettings.ui:61
 #, kde-format
-msgid "Cursor Shape:"
-msgstr "游標形狀："
+msgid "Brush Cursor Icon:"
+msgstr "筆刷游標圖示："
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
 #: libs/ui/forms/wdggeneralsettings.ui:83
 #, kde-format
-msgid "Outline Shape:"
-msgstr "輪廓形狀："
+msgid "Brush Outline Shape:"
+msgstr "筆刷輪廓形狀："
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: libs/ui/forms/wdggeneralsettings.ui:111
@@ -22873,91 +22904,125 @@ msgid "While painting..."
 msgstr "在繪畫時…"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_showOutlinePainting)
+#. i18n: ectx: property (text), widget (QCheckBox, m_showEraserOutlinePainting)
 #: libs/ui/forms/wdggeneralsettings.ui:141
+#: libs/ui/forms/wdggeneralsettings.ui:260
 #, kde-format
 msgid "Show outline"
 msgstr "顯示輪廓"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_changeBrushOutline)
+#. i18n: ectx: property (text), widget (QCheckBox, m_changeEraserBrushOutline)
 #: libs/ui/forms/wdggeneralsettings.ui:148
+#: libs/ui/forms/wdggeneralsettings.ui:267
 #, kde-format
 msgid "Use effective outline size"
 msgstr "使用有效輪廓大小"
 
-#. i18n: ectx: property (text), widget (QLabel, label_11)
-#: libs/ui/forms/wdggeneralsettings.ui:161
+#. i18n: ectx: property (title), widget (QGroupBox, m_chkSeparateEraserCursor)
+#: libs/ui/forms/wdggeneralsettings.ui:174
 #, kde-format
-msgid "Cursor Color:"
-msgstr "游標色彩："
+msgid "Use separate settings for eraser"
+msgstr "為橡皮擦選用個別設定"
+
+#. i18n: ectx: property (text), widget (QLabel, label_19)
+#: libs/ui/forms/wdggeneralsettings.ui:213
+#, kde-format
+msgid "Eraser Cursor Icon:"
+msgstr "橡皮擦游標圖示："
+
+#. i18n: ectx: property (text), widget (QLabel, label_20)
+#: libs/ui/forms/wdggeneralsettings.ui:229
+#, kde-format
+msgid "Eraser Outline Shape:"
+msgstr "橡皮擦輪廓形狀："
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_6)
+#: libs/ui/forms/wdggeneralsettings.ui:245
+#, kde-format
+msgid "While painting with an eraser..."
+msgstr "在使用橡皮擦時…"
+
+#. i18n: ectx: property (text), widget (QLabel, label_21)
+#: libs/ui/forms/wdggeneralsettings.ui:290
+#, kde-format
+msgid "Eraser Outline Color:"
+msgstr "橡皮擦輪廓色彩："
+
+#. i18n: ectx: property (text), widget (QLabel, label_11)
+#: libs/ui/forms/wdggeneralsettings.ui:316
+#, kde-format
+msgid "Brush Outline Color:"
+msgstr "筆刷輪廓色彩："
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_3)
-#: libs/ui/forms/wdggeneralsettings.ui:195
+#: libs/ui/forms/wdggeneralsettings.ui:324
 #, kde-format
 msgid "Window"
 msgstr "視窗"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkRubberBand)
-#: libs/ui/forms/wdggeneralsettings.ui:216
+#: libs/ui/forms/wdggeneralsettings.ui:345
 #, kde-format
 msgid "Don't show contents when moving sub-windows"
 msgstr "移動子視窗時不顯示內容"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkCanvasMessages)
-#: libs/ui/forms/wdggeneralsettings.ui:223
+#: libs/ui/forms/wdggeneralsettings.ui:352
 #, kde-format
 msgid "Show on-canvas popup messages"
 msgstr "在畫布上顯示浮動訊息"
 
 #. i18n: ectx: property (text), widget (QLabel, lblZoomMarginSize)
-#: libs/ui/forms/wdggeneralsettings.ui:232
+#: libs/ui/forms/wdggeneralsettings.ui:361
 #, kde-format
 msgid "Zoom Margin Size:"
 msgstr "縮放檢視邊界大小："
 
 #. i18n: ectx: property (toolTip), widget (KisIntParseSpinBox, intZoomMarginSize)
-#: libs/ui/forms/wdggeneralsettings.ui:242
+#: libs/ui/forms/wdggeneralsettings.ui:371
 #, kde-format
 msgid "Spacing between the image and the page when zoomed to fit, in pixels"
 msgstr "縮放至符合影像大小時影像與檢視區域邊界的像素距離"
 
 #. i18n: ectx: property (title), widget (QGroupBox, m_chkHiDPI)
-#: libs/ui/forms/wdggeneralsettings.ui:263
+#: libs/ui/forms/wdggeneralsettings.ui:392
 #, kde-format
 msgid "Enable HiDPI support"
 msgstr "啟用高解析度螢幕 (HiDPI) 支援"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkHiDPIFractionalScaling)
-#: libs/ui/forms/wdggeneralsettings.ui:272
+#: libs/ui/forms/wdggeneralsettings.ui:401
 #, kde-format
 msgid "Enable fractional scale factor"
 msgstr "啟用非整數縮放比例"
 
 #. i18n: ectx: property (text), widget (QLabel, label_16)
-#: libs/ui/forms/wdggeneralsettings.ui:279
+#: libs/ui/forms/wdggeneralsettings.ui:408
 #, kde-format
 msgid "<b>Note: Krita will need to be restarted for changes to take effect</b>"
 msgstr "<b>提示：變更下述設定後必須重新啟動程式才能生效</b>"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: libs/ui/forms/wdggeneralsettings.ui:295
+#: libs/ui/forms/wdggeneralsettings.ui:424
 #, kde-format
 msgid "Multiple Document Mode:"
 msgstr "多檔案模式："
 
 #. i18n: ectx: property (text), item, widget (QComboBox, m_cmbMDIType)
-#: libs/ui/forms/wdggeneralsettings.ui:315
+#: libs/ui/forms/wdggeneralsettings.ui:444
 #, kde-format
 msgid "Subwindows"
 msgstr "子視窗"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, m_cmbMDIType)
-#: libs/ui/forms/wdggeneralsettings.ui:320
+#: libs/ui/forms/wdggeneralsettings.ui:449
 #, kde-format
 msgid "Tabs"
 msgstr "分頁"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: libs/ui/forms/wdggeneralsettings.ui:328
+#: libs/ui/forms/wdggeneralsettings.ui:457
 #, kde-format
 msgid "Background Image (overrides color):"
 msgstr "背景影像 (無視視窗背景色彩)："
@@ -22966,7 +23031,7 @@ msgstr "背景影像 (無視視窗背景色彩)："
 #. i18n: ectx: property (text), widget (QPushButton, clearBgImageButton)
 #. i18n: ectx: property (text), widget (QToolButton, m_bnClearLut)
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
-#: libs/ui/forms/wdggeneralsettings.ui:388
+#: libs/ui/forms/wdggeneralsettings.ui:517
 #: libs/ui/input/wintab/drawpile_tablettester/tablettest.ui:43
 #: plugins/dockers/lut/wdglut.ui:241
 #: plugins/extensions/pykrita/plugin/krita/sceditor/mainwindow.ui:105
@@ -22976,204 +23041,204 @@ msgid "Clear"
 msgstr "清除"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: libs/ui/forms/wdggeneralsettings.ui:398
+#: libs/ui/forms/wdggeneralsettings.ui:527
 #, kde-format
 msgid "Window Background:"
 msgstr "視窗背景色彩："
 
 #. i18n: ectx: property (title), widget (QGroupBox, chkUseCustomFont)
-#: libs/ui/forms/wdggeneralsettings.ui:421
+#: libs/ui/forms/wdggeneralsettings.ui:550
 #, kde-format
 msgid "Use custom interface font"
 msgstr "自訂使用者介面字型"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: libs/ui/forms/wdggeneralsettings.ui:430
+#: libs/ui/forms/wdggeneralsettings.ui:559
 #: plugins/paintops/libpaintop/forms/wdgtextbrush.ui:29
 #, kde-format
 msgid "Font:"
 msgstr "字型："
 
 #. i18n: ectx: attribute (title), widget (QWidget, Tools)
-#: libs/ui/forms/wdggeneralsettings.ui:485
+#: libs/ui/forms/wdggeneralsettings.ui:614
 #: plugins/dockers/logdocker/LogDockerDock.cpp:135
 #, kde-format
 msgid "Tools"
 msgstr "工具"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
-#: libs/ui/forms/wdggeneralsettings.ui:491
+#: libs/ui/forms/wdggeneralsettings.ui:620
 #, kde-format
 msgid "Tool Options Location (needs restart)"
 msgstr "工具選項位置 (需要重啟程式)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, m_radioToolOptionsInDocker)
-#: libs/ui/forms/wdggeneralsettings.ui:497
+#: libs/ui/forms/wdggeneralsettings.ui:626
 #, kde-format
 msgid "In Doc&ker"
 msgstr "在工具面板中(&K)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, m_radioToolOptionsInToolbar)
-#: libs/ui/forms/wdggeneralsettings.ui:504
+#: libs/ui/forms/wdggeneralsettings.ui:633
 #, kde-format
 msgid "I&n Toolbar"
 msgstr "在工具列內(&N)"
 
 #. i18n: ectx: property (text), widget (QLabel, lblFlowMode)
-#: libs/ui/forms/wdggeneralsettings.ui:517
+#: libs/ui/forms/wdggeneralsettings.ui:646
 #, kde-format
 msgid "Brush Flow Mode (needs restart):"
 msgstr "筆刷流量模式 (需要重啟程式)："
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbFlowMode)
-#: libs/ui/forms/wdggeneralsettings.ui:525
+#: libs/ui/forms/wdggeneralsettings.ui:654
 #, kde-format
 msgid "Creamy (Krita 4.2+)"
 msgstr "軟滑 (Krita 4.2 以及之後版本)"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbFlowMode)
-#: libs/ui/forms/wdggeneralsettings.ui:530
+#: libs/ui/forms/wdggeneralsettings.ui:659
 #, kde-format
 msgid "Hard (Krita 4.1 and earlier versions)"
 msgstr "堅硬 (Krita 4.1 以及之前版本)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkSwitchSelectionCtrlAlt)
-#: libs/ui/forms/wdggeneralsettings.ui:538
+#: libs/ui/forms/wdggeneralsettings.ui:667
 #, kde-format
 msgid "Switch Control/Alt Selection Modifiers"
 msgstr "在使用選取區域工具時交換 Ctrl 與 Alt 組合鍵的作用"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkEnableTouch)
-#: libs/ui/forms/wdggeneralsettings.ui:545
+#: libs/ui/forms/wdggeneralsettings.ui:674
 #, kde-format
 msgid "Enable Touch Painting"
 msgstr "啟用以手指在觸控螢幕上繪畫"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkEnableTranformToolAfterPaste)
-#: libs/ui/forms/wdggeneralsettings.ui:552
+#: libs/ui/forms/wdggeneralsettings.ui:681
 #, kde-format
 msgid "Activate transform tool after pasting"
 msgstr "在貼上後自動切換到變形工具"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkEnableSmoothZooming)
-#: libs/ui/forms/wdggeneralsettings.ui:559
+#: libs/ui/forms/wdggeneralsettings.ui:688
 #, kde-format
 msgid "Enable Smooth Zooming"
 msgstr "啟用平滑縮放"
 
 #. i18n: ectx: property (title), widget (QGroupBox, m_groupBoxKineticScrollingSettings)
-#: libs/ui/forms/wdggeneralsettings.ui:569
+#: libs/ui/forms/wdggeneralsettings.ui:698
 #, kde-format
 msgid "Kinetic Scrolling (needs restart)"
 msgstr "拖曳捲動 (需要重啟程式)"
 
 #. i18n: ectx: property (text), widget (QLabel, labelKineticScrollingSensitivity)
-#: libs/ui/forms/wdggeneralsettings.ui:584
+#: libs/ui/forms/wdggeneralsettings.ui:713
 #, kde-format
 msgid "Sensitivity:"
 msgstr "靈敏度："
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkKineticScrollingHideScrollbars)
-#: libs/ui/forms/wdggeneralsettings.ui:594
+#: libs/ui/forms/wdggeneralsettings.ui:723
 #, kde-format
 msgid "Hide docker scrollbars if kinetic scrolling is enabled (needs restart)"
 msgstr "啟用拖曳捲動時，隱藏工具面板的捲動軸 (需要重啟程式)"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
-#: libs/ui/forms/wdggeneralsettings.ui:621
+#: libs/ui/forms/wdggeneralsettings.ui:750
 #, kde-format
 msgid "File Handling"
 msgstr "檔案處理"
 
 #. i18n: ectx: property (title), widget (QGroupBox, m_autosaveCheckBox)
-#: libs/ui/forms/wdggeneralsettings.ui:627
+#: libs/ui/forms/wdggeneralsettings.ui:756
 #, kde-format
 msgid "Enable Autosaving"
 msgstr "啟用自動儲存"
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
-#: libs/ui/forms/wdggeneralsettings.ui:636
+#: libs/ui/forms/wdggeneralsettings.ui:765
 #, kde-format
 msgid "Autosave Interval:"
 msgstr "自動儲存間隔："
 
 #. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, m_autosaveSpinBox)
-#: libs/ui/forms/wdggeneralsettings.ui:643
+#: libs/ui/forms/wdggeneralsettings.ui:772
 #, kde-format
 msgctxt "Suffix: “Every x min”"
 msgid " min"
 msgstr " 分鐘"
 
 #. i18n: ectx: property (prefix), widget (KisIntParseSpinBox, m_autosaveSpinBox)
-#: libs/ui/forms/wdggeneralsettings.ui:646
+#: libs/ui/forms/wdggeneralsettings.ui:775
 #, kde-format
 msgctxt "Prefix: “Every x min”"
 msgid "Every "
 msgstr "每隔 "
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkHideAutosaveFiles)
-#: libs/ui/forms/wdggeneralsettings.ui:665
+#: libs/ui/forms/wdggeneralsettings.ui:794
 #, kde-format
 msgid "Unnamed autosave files are hidden by default"
 msgstr "預設隱藏未命名的自動儲存檔案"
 
 #. i18n: ectx: property (title), widget (QGroupBox, m_backupFileCheckBox)
-#: libs/ui/forms/wdggeneralsettings.ui:678
+#: libs/ui/forms/wdggeneralsettings.ui:807
 #, kde-format
 msgid "Create a Backup File on Saving"
 msgstr "儲存時建立備份檔案"
 
 #. i18n: ectx: property (text), widget (QLabel, label_13)
-#: libs/ui/forms/wdggeneralsettings.ui:687
+#: libs/ui/forms/wdggeneralsettings.ui:816
 #, kde-format
 msgid "Backup File Location"
 msgstr "備份檔案位置"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbBackupFileLocation)
-#: libs/ui/forms/wdggeneralsettings.ui:695
+#: libs/ui/forms/wdggeneralsettings.ui:824
 #, kde-format
 msgid "Same Folder as Original File"
 msgstr "與原始檔案相同資料夾"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbBackupFileLocation)
-#: libs/ui/forms/wdggeneralsettings.ui:700
+#: libs/ui/forms/wdggeneralsettings.ui:829
 #, kde-format
 msgid "User Folder"
 msgstr "使用者資料夾"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbBackupFileLocation)
-#: libs/ui/forms/wdggeneralsettings.ui:705
+#: libs/ui/forms/wdggeneralsettings.ui:834
 #, kde-format
 msgid "Temporary File Location"
 msgstr "暫存位置"
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
-#: libs/ui/forms/wdggeneralsettings.ui:713
+#: libs/ui/forms/wdggeneralsettings.ui:842
 #, kde-format
 msgid "Backup File Suffix:"
 msgstr "備份檔案後綴："
 
 #. i18n: ectx: property (text), widget (QLineEdit, txtBackupFileSuffix)
-#: libs/ui/forms/wdggeneralsettings.ui:720
+#: libs/ui/forms/wdggeneralsettings.ui:849
 #, kde-format
 msgid "~"
 msgstr "~"
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
-#: libs/ui/forms/wdggeneralsettings.ui:730
+#: libs/ui/forms/wdggeneralsettings.ui:859
 #, kde-format
 msgid "Number of Backup Files Kept:"
 msgstr "保留的備份檔案數目："
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: libs/ui/forms/wdggeneralsettings.ui:750
+#: libs/ui/forms/wdggeneralsettings.ui:879
 #, kde-format
 msgid "KRA File Compression"
 msgstr "KRA 檔案壓縮"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkZip64)
-#: libs/ui/forms/wdggeneralsettings.ui:756
+#: libs/ui/forms/wdggeneralsettings.ui:885
 #, kde-format
 msgid ""
 "<html><head/><body><p>Only use this option for <span style=\" font-"
@@ -23184,7 +23249,7 @@ msgstr ""
 "\">非常</span> 大的檔案——大於 4 GiB。</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkZip64)
-#: libs/ui/forms/wdggeneralsettings.ui:759
+#: libs/ui/forms/wdggeneralsettings.ui:888
 #, kde-format
 msgid ""
 "Use Zip64 (for very large files: cannot be opened in versions of Krita older "
@@ -23192,69 +23257,69 @@ msgid ""
 msgstr "使用 Zip64 (針對體積非常大的檔案，無法在低於 Krita 4.2.0 的版本中開啟)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkCompressKra)
-#: libs/ui/forms/wdggeneralsettings.ui:766
+#: libs/ui/forms/wdggeneralsettings.ui:895
 #, kde-format
 msgid "Compress .kra files more (slows loading/saving)"
 msgstr "提高 .kra 檔案的壓縮率 (載入及儲存的速度會變慢)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkTrimKra)
-#: libs/ui/forms/wdggeneralsettings.ui:776
+#: libs/ui/forms/wdggeneralsettings.ui:905
 #, kde-format
 msgid "Trim files before saving"
 msgstr "儲存前裁剪檔案"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkTrimFramesImport)
-#: libs/ui/forms/wdggeneralsettings.ui:786
+#: libs/ui/forms/wdggeneralsettings.ui:915
 #, kde-format
 msgid "Trim frames when importing animations"
 msgstr "匯入動畫時裁剪影格"
 
 #. i18n: ectx: property (text), widget (QLabel, label_12)
-#: libs/ui/forms/wdggeneralsettings.ui:867
+#: libs/ui/forms/wdggeneralsettings.ui:996
 #, kde-format
 msgid "When Krita starts:"
 msgstr "當 Krita 啟動時："
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkSaveSessionOnQuit)
-#: libs/ui/forms/wdggeneralsettings.ui:887
+#: libs/ui/forms/wdggeneralsettings.ui:1016
 #, kde-format
 msgid "Save session when Krita closes"
 msgstr "關閉 Krita 時儲存工作階段"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkConvertOnImport)
-#: libs/ui/forms/wdggeneralsettings.ui:894
+#: libs/ui/forms/wdggeneralsettings.ui:1023
 #, kde-format
 msgid "On importing images as layers, convert to the image colorspace"
 msgstr "匯入影像為圖層時，將其轉換成目標影像的色彩空間"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label)
 #. i18n: ectx: property (toolTip), widget (KisIntParseSpinBox, m_undoStackSize)
-#: libs/ui/forms/wdggeneralsettings.ui:907
-#: libs/ui/forms/wdggeneralsettings.ui:935
+#: libs/ui/forms/wdggeneralsettings.ui:1036
+#: libs/ui/forms/wdggeneralsettings.ui:1064
 #, kde-format
 msgid "Only applies to new or newly opened images."
 msgstr "僅套用於新建立或者新開啟的影像。"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: libs/ui/forms/wdggeneralsettings.ui:910
+#: libs/ui/forms/wdggeneralsettings.ui:1039
 #, kde-format
 msgid "Undo stack size:"
 msgstr "復原次數上限："
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkShowRootLayer)
-#: libs/ui/forms/wdggeneralsettings.ui:970
+#: libs/ui/forms/wdggeneralsettings.ui:1099
 #, kde-format
 msgid "Show root layer"
 msgstr "顯示根圖層"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkUsageLogging)
-#: libs/ui/forms/wdggeneralsettings.ui:977
+#: libs/ui/forms/wdggeneralsettings.ui:1106
 #, kde-format
 msgid "Enable Logging for bug reports"
 msgstr "啟用供錯誤報告用的紀錄"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, m_chkNativeFileDialog)
-#: libs/ui/forms/wdggeneralsettings.ui:1008
+#: libs/ui/forms/wdggeneralsettings.ui:1137
 #, kde-format
 msgid ""
 "Warning: if you enable this setting and the file dialogs do weird stuff, do "
@@ -23263,68 +23328,68 @@ msgstr ""
 "警告：如果啟用此選項後開啟/儲存檔案對話框不能正常運作，請勿為此提交錯誤報告。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkNativeFileDialog)
-#: libs/ui/forms/wdggeneralsettings.ui:1011
+#: libs/ui/forms/wdggeneralsettings.ui:1140
 #, kde-format
 msgid "Enable native file dialogs"
 msgstr "使用系統原生開啟/儲存檔案對話框"
 
 #. i18n: ectx: property (text), widget (QLabel, label_18)
-#: libs/ui/forms/wdggeneralsettings.ui:1034
+#: libs/ui/forms/wdggeneralsettings.ui:1163
 #, kde-format
 msgid "(Warning: may not work correctly on some systems)"
 msgstr "(警告：在某些系統上可能會出錯)"
 
 #. i18n: ectx: property (text), widget (QLabel, label_9)
-#: libs/ui/forms/wdggeneralsettings.ui:1044
+#: libs/ui/forms/wdggeneralsettings.ui:1173
 #, kde-format
 msgid "Maximum brush size:"
 msgstr "筆刷最大大小："
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, intMaxBrushSize)
-#: libs/ui/forms/wdggeneralsettings.ui:1066
+#: libs/ui/forms/wdggeneralsettings.ui:1195
 #, kde-format
 msgid "The maximum diameter of a brush in pixels."
 msgstr "筆刷的最大直徑，以像素為單位。"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, intMaxBrushSize)
-#: libs/ui/forms/wdggeneralsettings.ui:1069
+#: libs/ui/forms/wdggeneralsettings.ui:1198
 #, kde-format
 msgctxt "pixel"
 msgid "px"
 msgstr "px"
 
 #. i18n: ectx: property (text), widget (QLabel, label_10)
-#: libs/ui/forms/wdggeneralsettings.ui:1101
+#: libs/ui/forms/wdggeneralsettings.ui:1230
 #, kde-format
 msgid "(Needs restart)"
 msgstr "(需要重啟程式)"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_5)
-#: libs/ui/forms/wdggeneralsettings.ui:1114
+#: libs/ui/forms/wdggeneralsettings.ui:1243
 #, kde-format
 msgid "Animation"
 msgstr "動畫"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkAutoPin)
-#: libs/ui/forms/wdggeneralsettings.ui:1123
+#: libs/ui/forms/wdggeneralsettings.ui:1252
 #, kde-format
 msgid "Automatically pin new layers to timeline"
 msgstr "自動釘選新圖層至時間軸"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkAdaptivePlaybackRange)
-#: libs/ui/forms/wdggeneralsettings.ui:1133
+#: libs/ui/forms/wdggeneralsettings.ui:1262
 #, kde-format
 msgid "Adapt playback range to keyframes"
 msgstr "將重播範圍調整至關鍵影格"
 
 #. i18n: ectx: property (title), widget (QGroupBox, chkForcedFontDPI)
-#: libs/ui/forms/wdggeneralsettings.ui:1143
+#: libs/ui/forms/wdggeneralsettings.ui:1272
 #, kde-format
 msgid "Font DPI Workaround"
 msgstr "字型 DPI 應急修正方法"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_17)
-#: libs/ui/forms/wdggeneralsettings.ui:1158
+#: libs/ui/forms/wdggeneralsettings.ui:1287
 #, kde-format
 msgid ""
 "In some Krita versions before 5.0 text size could be dependent on the "
@@ -23352,7 +23417,7 @@ msgstr ""
 "檔案以 Krita 5.0 儲存後，將無需再次作出轉換。"
 
 #. i18n: ectx: property (text), widget (QLabel, label_17)
-#: libs/ui/forms/wdggeneralsettings.ui:1161
+#: libs/ui/forms/wdggeneralsettings.ui:1290
 #: plugins/python/comics_project_management_tools/comics_export_dialog.py:66
 #: plugins/python/comics_project_management_tools/comics_template_dialog.py:177
 #, kde-format
@@ -23360,7 +23425,7 @@ msgid "DPI:"
 msgstr "DPI："
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, intForcedFontDPI)
-#: libs/ui/forms/wdggeneralsettings.ui:1170
+#: libs/ui/forms/wdggeneralsettings.ui:1299
 #, kde-format
 msgid ""
 "In some versions of Krita before 4.4.3 text size could be dependent on the "
@@ -23378,13 +23443,13 @@ msgstr ""
 "用此 DPI 解析度作文字顯示。"
 
 #. i18n: ectx: property (text), widget (QRadioButton, btnDownload)
-#: libs/ui/forms/wdggeneralsettings.ui:1189
+#: libs/ui/forms/wdggeneralsettings.ui:1318
 #, kde-format
 msgid "Prefer downloading the original source (this requires Internet access)"
 msgstr "偏好下載原始檔案 (需要網路連線)"
 
 #. i18n: ectx: property (text), widget (QLabel, lblPasteContext)
-#: libs/ui/forms/wdggeneralsettings.ui:1202
+#: libs/ui/forms/wdggeneralsettings.ui:1331
 #, kde-format
 msgid ""
 "Some applications, like Google Chrome, provide multiple formats when pasting "
@@ -23393,13 +23458,13 @@ msgstr ""
 "某些應用程式 (例如 Google Chrome) 提供多種在貼上或拖放時可供使用的影像格式。"
 
 #. i18n: ectx: property (text), widget (QRadioButton, btnLocal)
-#: libs/ui/forms/wdggeneralsettings.ui:1209
+#: libs/ui/forms/wdggeneralsettings.ui:1338
 #, kde-format
 msgid "Prefer a local copy (if available; metadata may be lost)"
 msgstr "偏好本機副本 (當可用時；或會遺失中繼資料)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, btnBitmap)
-#: libs/ui/forms/wdggeneralsettings.ui:1216
+#: libs/ui/forms/wdggeneralsettings.ui:1345
 #, kde-format
 msgid ""
 "Paste the attached sRGB bitmap (no filesystem or Internet access required, "
@@ -23408,13 +23473,13 @@ msgstr ""
 "貼上已附上的 sRGB 點陣圖 (不需要存取檔案系統或網路連線，但可能會遺失中繼資料)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, btnAsk)
-#: libs/ui/forms/wdggeneralsettings.ui:1223
+#: libs/ui/forms/wdggeneralsettings.ui:1352
 #, kde-format
 msgid "Ask each time"
 msgstr "每次詢問"
 
 #. i18n: ectx: property (text), widget (QLabel, lblPasteNote)
-#: libs/ui/forms/wdggeneralsettings.ui:1236
+#: libs/ui/forms/wdggeneralsettings.ui:1365
 #, kde-format
 msgid ""
 "Note: This applies to drops in the Info window, the canvas, and paste "
@@ -23422,13 +23487,13 @@ msgid ""
 msgstr "提示：這將套用到拖放進資訊視窗、畫布上的影像，以及貼上動作。"
 
 #. i18n: ectx: property (text), widget (QLabel, label_14)
-#: libs/ui/forms/wdggeneralsettings.ui:1257
+#: libs/ui/forms/wdggeneralsettings.ui:1386
 #, kde-format
 msgid "Cache Location:"
 msgstr "快取位置："
 
 #. i18n: ectx: property (text), widget (QLabel, label_15)
-#: libs/ui/forms/wdggeneralsettings.ui:1267
+#: libs/ui/forms/wdggeneralsettings.ui:1396
 #, kde-format
 msgid "Resource Folder:"
 msgstr "資源目錄："
@@ -26572,7 +26637,7 @@ msgctxt "(qtundo-format)"
 msgid "Change File Layer"
 msgstr "變更檔案圖層"
 
-#: libs/ui/kis_clipboard.cc:675 libs/ui/KisView.cpp:590
+#: libs/ui/kis_clipboard.cc:677 libs/ui/KisView.cpp:590
 #, kde-format
 msgid ""
 "Could not open %2.\n"
@@ -28554,12 +28619,12 @@ msgstr ""
 "建立檔案\n"
 "原因：%2"
 
-#: libs/ui/KisReferenceImage.cpp:118
+#: libs/ui/KisReferenceImage.cpp:113
 msgctxt "(qtundo-format)"
 msgid "Set saturation"
 msgstr "設定飽和度"
 
-#: libs/ui/KisReferenceImage.cpp:180
+#: libs/ui/KisReferenceImage.cpp:175
 #, kde-format
 msgid "Could not load %1."
 msgstr "無法載入 %1。"
@@ -29915,7 +29980,7 @@ msgstr "可用繪製器不支援首選輸出格式"
 msgid "OpenColorIO is disabled: image color space is not supported"
 msgstr "已停用 OpenColorIO：不支援影像色彩空間"
 
-#: libs/ui/opengl/KisOpenGLCanvasRenderer.cpp:348
+#: libs/ui/opengl/KisOpenGLCanvasRenderer.cpp:350
 #, kde-format
 msgid ""
 "Krita could not initialize the OpenGL canvas:\n"
@@ -29972,14 +30037,14 @@ msgstr "群組圖層不可編輯。"
 msgid "Local selection is locked."
 msgstr "局部選取區域已鎖定。"
 
-#: libs/ui/tool/kis_tool_freehand.cc:192
+#: libs/ui/tool/kis_tool_freehand.cc:205
 #, kde-format
 msgid ""
 "The brush tool cannot paint on this layer.  Please select a paint layer or "
 "mask."
 msgstr "筆刷工具無法在此圖層繪畫，請選取一個顏料圖層或者遮罩圖層。"
 
-#: libs/ui/tool/kis_tool_freehand.cc:197
+#: libs/ui/tool/kis_tool_freehand.cc:210
 #: libs/ui/tool/kis_tool_polyline_base.cpp:76
 #: libs/ui/tool/kis_tool_rectangle_base.cpp:146
 #: libs/ui/tool/KisToolOutlineBase.cpp:91
@@ -29992,12 +30057,12 @@ msgstr "筆刷工具無法在此圖層繪畫，請選取一個顏料圖層或者
 msgid "The MyPaint Brush Engine is not available for this colorspace"
 msgstr "MyPaint 筆刷引擎不支援這個色彩空間"
 
-#: libs/ui/tool/kis_tool_paint.cc:379
+#: libs/ui/tool/kis_tool_paint.cc:384
 #, kde-format
 msgid "Color sampler does not work on this layer."
 msgstr "色彩取樣器不能在此圖層上使用。"
 
-#: libs/ui/tool/kis_tool_paint.cc:678
+#: libs/ui/tool/kis_tool_paint.cc:683
 #, kde-format
 msgid "Brush Size: %1 px"
 msgstr "筆刷大小：%1 px"
@@ -31347,8 +31412,6 @@ msgstr "x%1"
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: libs/ui/widgets/kis_paintop_preset_icon_library.cpp:23
 #: libs/widgets/KisSpinboxHSXSelector.cpp:34
-#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:58
-#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:59
 #: plugins/paintops/libpaintop/forms/wdgcoloroptions.ui:42
 #, kde-format
 msgid "Hue:"
@@ -31357,8 +31420,6 @@ msgstr "色相："
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: libs/ui/widgets/kis_paintop_preset_icon_library.cpp:27
 #: libs/widgets/KisSpinboxHSXSelector.cpp:35
-#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:58
-#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:59
 #: plugins/paintops/libpaintop/forms/wdgcoloroptions.ui:62
 #, kde-format
 msgid "Saturation:"
@@ -32071,12 +32132,12 @@ msgstr "終點記號"
 msgid "Thickness:"
 msgstr "粗細："
 
-#: libs/widgets/kis_color_input.cpp:48
+#: libs/widgets/kis_color_input.cpp:50
 #, kde-format
 msgid "%1:"
 msgstr "%1："
 
-#: libs/widgets/kis_color_input.cpp:371
+#: libs/widgets/kis_color_input.cpp:372
 #: libs/widgets/KoEditColorSetDialog.cpp:159
 #, kde-format
 msgid "Color name:"
@@ -32224,28 +32285,22 @@ msgstr "空格"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: libs/widgets/KisSpinboxHSXSelector.cpp:65
-#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:64
 #: plugins/paintops/libpaintop/forms/wdgcoloroptions.ui:82
 #, kde-format
 msgid "Value:"
 msgstr "明度："
 
 #: libs/widgets/KisSpinboxHSXSelector.cpp:68
-#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:66
 #, kde-format
 msgid "Lightness:"
 msgstr "亮度："
 
 #: libs/widgets/KisSpinboxHSXSelector.cpp:71
-#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:68
 #, kde-format
 msgid "Intensity:"
 msgstr "強度："
 
 #: libs/widgets/KisSpinboxHSXSelector.cpp:74
-#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:70
-#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:72
-#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:73
 #, kde-format
 msgid "Luma:"
 msgstr "光度："
@@ -36184,7 +36239,7 @@ msgstr "切換鎖定與可見性(&T)"
 msgid "&Add"
 msgstr "新增(&A)"
 
-#: plugins/dockers/layerdocker/NodeDelegate.cpp:1221
+#: plugins/dockers/layerdocker/NodeDelegate.cpp:1225
 #, kde-format
 msgid "%1 %"
 msgstr "%1 %"
@@ -37502,7 +37557,7 @@ msgid ""
 "provided."
 msgstr "請輸入正確的範圍。您提供的影格範圍內沒有任何面板。"
 
-#: plugins/dockers/storyboarddocker/StoryboardModel.cpp:1264
+#: plugins/dockers/storyboarddocker/StoryboardModel.cpp:1267
 #, kde-format
 msgctxt "default name for storyboard item"
 msgid "scene "
@@ -39150,6 +39205,7 @@ msgstr "都柏林核心"
 #. i18n: ectx: property (text), widget (QCheckBox, exif)
 #: plugins/extensions/metadataeditor/kis_meta_data_editor.cc:162
 #: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:274
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:735
 #: plugins/metadata/exif/kis_exif_io.h:28
 #, kde-format
 msgid "Exif"
@@ -40823,19 +40879,7 @@ msgstr "去色(&D)…"
 msgid "Desaturate"
 msgstr "去色"
 
-#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:72
-#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:73
-#, kde-format
-msgid "Green-Red:"
-msgstr "綠-紅："
-
-#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:72
-#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:73
-#, kde-format
-msgid "Yellow-Blue:"
-msgstr "黃-藍："
-
-#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:82
+#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:252
 #, kde-format
 msgid "&HSV Adjustment..."
 msgstr "&HSV 調整…"
@@ -40947,68 +40991,68 @@ msgstr "最小值(&M)"
 msgid "M&ax"
 msgstr "最大值(&A)"
 
-#. i18n: ectx: property (text), widget (QLabel, lblType)
-#: plugins/filters/colorsfilters/wdg_hsv_adjustment.ui:49
+#. i18n: ectx: property (text), widget (QLabel, typeLabel)
+#: plugins/filters/colorsfilters/wdg_hsv_adjustment.ui:36
 #, kde-format
 msgid "&Type:"
 msgstr "類型(&T)："
 
-#. i18n: ectx: property (text), widget (QCheckBox, chkColorize)
-#: plugins/filters/colorsfilters/wdg_hsv_adjustment.ui:62
-#, kde-format
-msgid "&Colorize"
-msgstr "著色(&C)"
-
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbType)
-#: plugins/filters/colorsfilters/wdg_hsv_adjustment.ui:73
+#: plugins/filters/colorsfilters/wdg_hsv_adjustment.ui:59
 #, kde-format
 msgid "Hue/Saturation/Value"
 msgstr "色相/飽和度/明度(HSV)"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbType)
-#: plugins/filters/colorsfilters/wdg_hsv_adjustment.ui:78
+#: plugins/filters/colorsfilters/wdg_hsv_adjustment.ui:64
 #, kde-format
 msgid "Hue/Saturation/Lightness"
 msgstr "色相/飽和度/亮度(HSL)"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbType)
-#: plugins/filters/colorsfilters/wdg_hsv_adjustment.ui:83
+#: plugins/filters/colorsfilters/wdg_hsv_adjustment.ui:69
 #, kde-format
 msgid "Hue/Saturation/Intensity"
 msgstr "色相/飽和度/強度(HSI)"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbType)
-#: plugins/filters/colorsfilters/wdg_hsv_adjustment.ui:88
+#: plugins/filters/colorsfilters/wdg_hsv_adjustment.ui:74
 #, kde-format
 msgid "Hue/Saturation/Luma"
 msgstr "色相/飽和度/光度(HSY)"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbType)
-#: plugins/filters/colorsfilters/wdg_hsv_adjustment.ui:93
+#: plugins/filters/colorsfilters/wdg_hsv_adjustment.ui:79
 #, kde-format
 msgid "Blue Chroma/Red Chroma/Luma"
 msgstr "藍色品/紅色品/光度"
 
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: plugins/filters/colorsfilters/wdg_hsv_adjustment.ui:124
-#, kde-format
-msgid "&Value:"
-msgstr "明度(&V)："
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: plugins/filters/colorsfilters/wdg_hsv_adjustment.ui:171
-#, kde-format
-msgid "&Saturation:"
-msgstr "飽和度(&S)："
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: plugins/filters/colorsfilters/wdg_hsv_adjustment.ui:193
+#. i18n: ectx: property (text), widget (QLabel, hLabel)
+#: plugins/filters/colorsfilters/wdg_hsv_adjustment.ui:93
 #, kde-format
 msgid "&Hue:"
 msgstr "色相(&H)："
 
+#. i18n: ectx: property (text), widget (QLabel, sLabel)
+#: plugins/filters/colorsfilters/wdg_hsv_adjustment.ui:157
+#, kde-format
+msgid "&Saturation:"
+msgstr "飽和度(&S)："
+
+#. i18n: ectx: property (text), widget (QLabel, vLabel)
+#: plugins/filters/colorsfilters/wdg_hsv_adjustment.ui:221
+#, kde-format
+msgid "&Value:"
+msgstr "明度(&V)："
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkColorize)
+#: plugins/filters/colorsfilters/wdg_hsv_adjustment.ui:281
+#, kde-format
+msgid "&Colorize"
+msgstr "著色(&C)"
+
 #. i18n: ectx: property (text), widget (QCheckBox, chkCompatibilityMode)
-#: plugins/filters/colorsfilters/wdg_hsv_adjustment.ui:246
+#: plugins/filters/colorsfilters/wdg_hsv_adjustment.ui:305
 #, kde-format
 msgid "Legacy mode (before Krita 4.3)"
 msgstr "舊版相容模式 (Krita 4.3 之前)"
@@ -43972,19 +44016,23 @@ msgid "Optimize"
 msgstr "最佳化"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
 #: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:268
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:729
 #, kde-format
 msgid "Formats:"
 msgstr "格式："
 
 #. i18n: ectx: property (text), widget (QCheckBox, iptc)
 #: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:284
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:742
 #, kde-format
 msgid "IPTC"
 msgstr "IPTC"
 
 #. i18n: ectx: property (text), widget (QCheckBox, xmp)
 #: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:294
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:749
 #: plugins/metadata/xmp/kis_xmp_io.h:26
 #, kde-format
 msgid "XMP"
@@ -44001,7 +44049,9 @@ msgstr ""
 "圖層的中繼資料。</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkMetaData)
+#. i18n: ectx: property (title), widget (QGroupBox, chkMetadata)
 #: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:336
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:720
 #, kde-format
 msgid "Store Document Metadata"
 msgstr "儲存檔案中繼資料"
@@ -44028,6 +44078,825 @@ msgstr ""
 #, kde-format
 msgid "Sign with Author Profile Data"
 msgstr "使用作者檔案資料簽名"
+
+#: plugins/impex/jxl/JPEGXLImport.cpp:244
+#, fuzzy, kde-format
+#| msgctxt "Saving .kra file error message"
+#| msgid "Could not save image profile."
+msgctxt "JPEG-XL errors"
+msgid "Unable to read the image profile."
+msgstr "無法讀取影像色彩特性。"
+
+#: plugins/impex/jxl/JPEGXLImport.cpp:256
+#, fuzzy, kde-format
+msgctxt "JPEG-XL errors"
+msgid "JPEG-XL encoded profile not implemented"
+msgstr "未支援 JPEG-XL 內嵌碥碼色彩特性"
+
+#: plugins/impex/jxl/JPEGXLImport.cpp:300
+#, fuzzy, kde-format
+msgctxt "JPEG-XL errors"
+msgid "JPEG-XL image is animated, but cannot retrieve animation frame header."
+msgstr "JPEG-XL 影像為動畫，但未能讀取動畫影格標頭資料。"
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:22
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:28
+#, fuzzy, kde-format
+msgctxt "JPEG-XL encoder options"
+msgid "Default (only for low quality)"
+msgstr "預設 (只適用於低品質)"
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:23
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:29
+#, fuzzy, kde-format
+#| msgid "No Scaling"
+msgctxt "JPEG-XL encoder options"
+msgid "No downsampling"
+msgstr "無下降取樣"
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:24
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:30
+#, fuzzy, kde-format
+msgctxt "JPEG-XL encoder options"
+msgid "2x2 downsampling"
+msgstr "2x2 下降取樣"
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:25
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:31
+#, fuzzy, kde-format
+msgctxt "JPEG-XL encoder options"
+msgid "4x4 downsampling"
+msgstr "4x4 下降取樣"
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:26
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:32
+#, fuzzy, kde-format
+msgctxt "JPEG-XL encoder options"
+msgid "8x8 downsampling"
+msgstr "8x8 下降取樣"
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:36
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:42
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:48
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:54
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:60
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:66
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:72
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:78
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:84
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:90
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:97
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:103
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:111
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:131
+#, fuzzy, kde-format
+msgctxt "JPEG-XL encoder options"
+msgid "Default (encoder chooses)"
+msgstr "預設 (由編碼器選取)"
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:37
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:43
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:49
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:61
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:73
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:79
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:85
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:91
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:98
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:132
+#, kde-format
+msgctxt "JPEG-XL encoder options"
+msgid "Disabled"
+msgstr "停用"
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:38
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:44
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:50
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:62
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:74
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:80
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:86
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:99
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:133
+#, kde-format
+msgctxt "JPEG-XL encoder options"
+msgid "Enabled"
+msgstr "啟用"
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:55
+#, fuzzy, kde-format
+msgctxt "JPEG-XL encoder options"
+msgid "VarDCT mode (e.g. for photographic images)"
+msgstr "VarDCT 模式 (例如相片適用)"
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:56
+#, fuzzy, kde-format
+msgctxt "JPEG-XL encoder options"
+msgid "Modular mode (e.g. for lossless images)"
+msgstr "模組化模式 (例如無損影像適用)"
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:67
+#, fuzzy, kde-format
+#| msgid "Vertical border:"
+msgctxt "JPEG-XL encoder options"
+msgid "Scanline order"
+msgstr "掃描線順序"
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:68
+#, fuzzy, kde-format
+#| msgctxt "Action to center the selected stop in the segment gradient editor"
+#| msgid "Center stop"
+msgctxt "JPEG-XL encoder options"
+msgid "Center-first order"
+msgstr "中間開首順序"
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:92
+#, fuzzy, kde-format
+msgctxt "JPEG-XL encoder options"
+msgid "64x64 lower resolution pass"
+msgstr "64x64 較低解像度處理"
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:93
+#, fuzzy, kde-format
+msgctxt "JPEG-XL encoder options"
+msgid "512x512 + 64x64 lower resolution passes"
+msgstr "512x512 + 64x64 較低解像度處理"
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:104
+#, fuzzy, kde-format
+msgctxt "JPEG-XL encoder options"
+msgid "128"
+msgstr "128"
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:105
+#, fuzzy, kde-format
+#| msgid "255"
+msgctxt "JPEG-XL encoder options"
+msgid "256"
+msgstr "256"
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:106
+#, fuzzy, kde-format
+msgctxt "JPEG-XL encoder options"
+msgid "512"
+msgstr "512"
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:107
+#, fuzzy, kde-format
+msgctxt "JPEG-XL encoder options"
+msgid "1024"
+msgstr "1024"
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:112
+#, fuzzy, kde-format
+msgctxt "JPEG-XL encoder options"
+msgid "Zero"
+msgstr "零"
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:113
+#, kde-format
+msgctxt "JPEG-XL encoder options"
+msgid "Left"
+msgstr "左 (Left)"
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:114
+#, fuzzy, kde-format
+#| msgctxt "toolbar position string"
+#| msgid "Top"
+msgctxt "JPEG-XL encoder options"
+msgid "Top"
+msgstr "上 (Top)"
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:115
+#, fuzzy, kde-format
+msgctxt "JPEG-XL encoder options"
+msgid "Avg0"
+msgstr "平均 0 (Avg0)"
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:116
+#, fuzzy, kde-format
+#| msgid "Select"
+msgctxt "JPEG-XL encoder options"
+msgid "Select"
+msgstr "選取 (Select)"
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:117
+#, fuzzy, kde-format
+#| msgid "Gradient"
+msgctxt "JPEG-XL encoder options"
+msgid "Gradient"
+msgstr "斜率 (Gradient)"
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:118
+#, fuzzy, kde-format
+#| msgctxt "@item:inlistbox Brush Smoothing"
+#| msgid "Weighted"
+msgctxt "JPEG-XL encoder options"
+msgid "Weighted"
+msgstr "權衡 (Weighted)"
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:119
+#, fuzzy, kde-format
+#| msgid "Top Right"
+msgctxt "JPEG-XL encoder options"
+msgid "Top right"
+msgstr "右上 (Top right)"
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:120
+#, fuzzy, kde-format
+#| msgctxt "action"
+#| msgid "Move left"
+msgctxt "JPEG-XL encoder options"
+msgid "Top left"
+msgstr "左上 (Top left)"
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:121
+#, fuzzy, kde-format
+#| msgid "Left indent"
+msgctxt "JPEG-XL encoder options"
+msgid "Left left"
+msgstr "左左 (Left left)"
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:122
+#, fuzzy, kde-format
+msgctxt "JPEG-XL encoder options"
+msgid "Avg1"
+msgstr "平均 1 (Avg1)"
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:123
+#, fuzzy, kde-format
+msgctxt "JPEG-XL encoder options"
+msgid "Avg2"
+msgstr "平均 2 (Avg2)"
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:124
+#, fuzzy, kde-format
+msgctxt "JPEG-XL encoder options"
+msgid "Avg3"
+msgstr "平均 3 (Avg3)"
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:125
+#, fuzzy, kde-format
+msgctxt "JPEG-XL encoder options"
+msgid "Toptop predictive average"
+msgstr "上上預測平均 (Toptop predictive average)"
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:126
+#, fuzzy, kde-format
+#| msgctxt "action"
+#| msgid "Gradient editing"
+msgctxt "JPEG-XL encoder options"
+msgid "Gradient + Weighted"
+msgstr "斜率 + 權衡 (Gradient + Weighted)"
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:127
+#, fuzzy, kde-format
+#| msgctxt "action"
+#| msgid "Escape in all directions"
+msgctxt "JPEG-XL encoder options"
+msgid "Use all predictors"
+msgstr "全部混合"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, haveAnimation)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:37
+#, kde-format
+msgid "If this is not enabled, only the first frame will be saved."
+msgstr "如不啟用此選項，則只會儲存首個影格。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, haveAnimation)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:40
+#, kde-format
+msgid "Save as animated JPEG-XL"
+msgstr "以動畫 JPEG-XL 儲存"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:47
+#, kde-format
+msgid "Encoding options"
+msgstr "編碼選項"
+
+#. i18n: ectx: property (text), widget (QCheckBox, lossless)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:53
+#, kde-format
+msgid "Lossless encoding"
+msgstr "無損壓縮編碼"
+
+#. i18n: ectx: property (text), widget (QLabel, lblTradeoff)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:60
+#: plugins/impex/webp/dlg_webp_export.ui:92
+#, kde-format
+msgid "Tradeoff"
+msgstr "平衡取捨"
+
+#. i18n: ectx: property (text), widget (QLabel, lblFaster)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:69
+#: plugins/impex/webp/dlg_webp_export.ui:101
+#, kde-format
+msgid "Faster"
+msgstr "較快"
+
+#. i18n: ectx: property (text), widget (QLabel, lblSlowerBetter)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:76
+#: plugins/impex/webp/dlg_webp_export.ui:108
+#, kde-format
+msgid "Slower/Better"
+msgstr "較慢/較佳"
+
+#. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, effort)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:86
+#, fuzzy, kde-format
+msgid ""
+"Sets encoder effort/speed level without affecting decoding speed. Valid "
+"values are, from faster to slower speed: 1:lightning 2:thunder 3:falcon 4:"
+"cheetah 5:hare 6:wombat 7:squirrel 8:kitten 9:tortoise. Default: squirrel "
+"(7). "
+msgstr ""
+"設定在不影響解碼速度的前提下，編碼時運算力與速度之間的平衡取捨。可用的選項由"
+"快至慢排列為:\n"
+"1:lightning 2:thunder 3:falcon 4:cheetah 5:hare 6:wombat 7:squirrel 8:kitten "
+"9:tortoise\n"
+"預設為 squirrel (7)。"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:104
+#, kde-format
+msgid "Decoding speed"
+msgstr "解碼速度"
+
+#. i18n: ectx: property (text), widget (QLabel, lblSlowest)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:113
+#, kde-format
+msgid "Slowest/Best quality"
+msgstr "最慢/最高畫質"
+
+#. i18n: ectx: property (text), widget (QLabel, lblSlowerBetter2)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:120
+#, fuzzy, kde-format
+msgid "Fastest/Slight quality loss"
+msgstr "最快/小量畫質下降"
+
+#. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, decodingSpeed)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:130
+#, fuzzy, kde-format
+msgid ""
+"Sets the decoding speed tier for the provided options. Minimum is 0 (slowest "
+"to decode, best quality/density), and maximum is 4 (fastest to decode, at "
+"the cost of some quality/density). Default is 0."
+msgstr ""
+"設定相對於所選編碼選項的解碼速度級別。\n"
+"最低為 0 (解碼最慢，但品質/密度最佳)，而最高為 4 (解碼最快，但會損失品質/密"
+"度)。\n"
+"預設為 0。"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, lblFilterType)
+#. i18n: ectx: property (toolTip), widget (QComboBox, filterType)
+#. i18n: ectx: property (toolTip), widget (QLabel, lblResampling)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:200
+#: plugins/impex/webp/dlg_webp_export.ui:376
+#: plugins/impex/webp/dlg_webp_export.ui:386
+#, kde-format
+msgid ""
+"0 = Simple, 1 = Strong. Only used if Filter Strength is higher than 0 or "
+"Auto Adjust Filter is enabled."
+msgstr ""
+"0 = 簡單，1 = 強。只在「過濾強度」高於 0 或「自動調整過濾」已啟用時才有效。"
+
+#. i18n: ectx: property (text), widget (QLabel, lblResampling)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:203
+#, fuzzy, kde-format
+#| msgid "Color channels in color"
+msgctxt "Filter options specifically for WebP"
+msgid "Color channel resampling"
+msgstr "為色彩通道重新取樣"
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, resampling)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:210
+#, fuzzy, kde-format
+msgid ""
+"Sets resampling option. If enabled, the image's color channels are "
+"downsampled before compression, and upsampled to original size in the "
+"decoder."
+msgstr ""
+"設定重新取樣選項。如啟用，影像的色彩通道將在壓縮前被下降取樣，而在解碼時再上"
+"升取樣至原來的大小。"
+
+#. i18n: ectx: property (text), widget (QLabel, lblAlphaResampling)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:217
+#, fuzzy, kde-format
+#| msgid "Alpha Plane Compression"
+msgid "Alpha channel resampling"
+msgstr "Alpha 通度重新取樣"
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, extraChannelResampling)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:224
+#, fuzzy, kde-format
+msgid ""
+"Sets resampling option. If enabled, the image's alpha channel is downsampled "
+"before compression, and upsampled to original size in the decoder."
+msgstr ""
+"設定重新取樣選項。如啟用，影像的 Alpha 通道將在壓縮前被下降取樣，而在解碼時再"
+"上升取樣至原來的大小。"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, lblTargetSize)
+#. i18n: ectx: property (toolTip), widget (QSpinBox, targetSize)
+#. i18n: ectx: property (toolTip), widget (QLabel, lblPhotonNoise)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:231
+#: plugins/impex/webp/dlg_webp_export.ui:217
+#: plugins/impex/webp/dlg_webp_export.ui:233
+#, kde-format
+msgid ""
+"If non-zero, sets the desired target size in bytes. Takes precedence over "
+"the compression parameters."
+msgstr "如數值非零，則設定目標預期檔案大小。比壓縮設定參數更優先。"
+
+#. i18n: ectx: property (text), widget (QLabel, lblPhotonNoise)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:234
+#, fuzzy, kde-format
+msgid "Photon noise"
+msgstr "光子雜訊"
+
+#. i18n: ectx: property (toolTip), widget (QSpinBox, photonNoise)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:247
+#, fuzzy, kde-format
+msgid ""
+"Adds noise to the image emulating photographic film noise, the higher the "
+"given number, the grainier the image will be. As an example, a value of 100 "
+"gives low noise whereas a value of 3200 gives a lot of noise. The default "
+"value is 0."
+msgstr ""
+"為影像加入模擬相片底片的雜點。數值愈高，雜點顆粒愈大。\n"
+"舉個例，數值 100 會產生小量雜點，而數值 1000 會產生大量雜點。\n"
+"預設值為 0。"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, lblTargetPSNR)
+#. i18n: ectx: property (toolTip), widget (KisDoubleParseUnitSpinBox, targetPSNR)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:257
+#: plugins/impex/webp/dlg_webp_export.ui:246
+#: plugins/impex/webp/dlg_webp_export.ui:262
+#, kde-format
+msgid ""
+"If non-zero, specifies the minimal distortion to try to achieve. Takes "
+"precedence over Target Size."
+msgstr "如數值非零，則設定希望達到的最低失真程度。比「目標大小」設定更優先。"
+
+#. i18n: ectx: property (text), widget (QLabel, lblTargetPSNR)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:260
+#, fuzzy, kde-format
+#| msgid "Generate"
+msgid "Generate dots"
+msgstr "產生斑點 (dots)"
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, dots)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:267
+#, fuzzy, kde-format
+#| msgid "Enable background cache generation"
+msgid "Enables or disables dots generation."
+msgstr "啟用或停用斑點 (dots) 的產生。"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:274
+#, fuzzy, kde-format
+#| msgctxt "(qtundo-format)"
+#| msgid "Reverse paths"
+msgid "Generate patches"
+msgstr "產生圖案區塊 (patches)"
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, patches)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:281
+#, fuzzy, kde-format
+#| msgid "Enable background cache generation"
+msgid "Enables or disables patches generation."
+msgstr "啟用或停用圖案區塊 (patches) 的產生。"
+
+#. i18n: ectx: property (text), widget (QLabel, lblEpf)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:288
+#, fuzzy, kde-format
+#| msgctxt "Filter options specifically for WebP"
+#| msgid "Preprocessing Filter"
+msgid "Edge preserving filter"
+msgstr "邊緣保留過濾"
+
+#. i18n: ectx: property (text), widget (QLabel, lblMax)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:297
+#, kde-format
+msgid "Maximum strength"
+msgstr "最大強度"
+
+#. i18n: ectx: property (text), widget (QLabel, lblNone1)
+#. i18n: ectx: property (text), widget (QLabel, lblNone)
+#. i18n: ectx: property (text), widget (QLabel, lblNone2)
+#. i18n: ectx: property (text), widget (QLabel, lblNoDegradation)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:307
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:489
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:539
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:657
+#, kde-format
+msgid "Default (encoder chooses)"
+msgstr "預設 (由編碼器選取)"
+
+#. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, epf)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:314
+#, fuzzy, kde-format
+msgid ""
+"Edge preserving filter level, -1 to 3. Use -1 for the default (encoder "
+"chooses), 0 to 3 to set a strength."
+msgstr ""
+"邊緣保留過濾器的級別，由 -1 至 3。-1 為預設 (由編碼器選取)，0 至 3 設定強度。"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, lblSNSStrength)
+#. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, snsStrength)
+#. i18n: ectx: property (toolTip), widget (QLabel, lblGaborishFilter)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:329
+#: plugins/impex/webp/dlg_webp_export.ui:307
+#: plugins/impex/webp/dlg_webp_export.ui:317
+#, kde-format
+msgid "Spatial Noise Shaping: 0 = off, 100 = maximum."
+msgstr "空間雜訊整形 (SNS)：0 = 停用，100 = 最高。"
+
+#. i18n: ectx: property (text), widget (QLabel, lblGaborishFilter)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:332
+#, fuzzy, kde-format
+msgid "Gaborish filter"
+msgstr "Gaborish 過濾"
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, gaborish)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:339
+#, fuzzy, kde-format
+msgid "Enables or disables the gaborish filter."
+msgstr "啟用或停用「類 Garbor」(Garborish) 過濾器。"
+
+#. i18n: ectx: property (text), widget (QLabel, lbModularEncoding)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:346
+#, fuzzy, kde-format
+#| msgid "Start Recording"
+msgid "Modular encoding"
+msgstr "模組化編碼"
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, modular)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:353
+#, fuzzy, kde-format
+#| msgid "Enable Touch Painting"
+msgid "Enables modular encoding."
+msgstr "啟用模組化編碼。"
+
+#. i18n: ectx: property (text), widget (QLabel, lblKeepInvisible)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:360
+#, kde-format
+msgid "Keep color of invisible pixels"
+msgstr "保留不可見像素的色彩值"
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, keepInvisible)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:367
+#, kde-format
+msgid "Enables or disables preserving color of invisible pixels."
+msgstr "啟用或停用保留不可見像素的色彩值。"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, lblFilterStrength)
+#. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, filterStrength)
+#. i18n: ectx: property (toolTip), widget (QLabel, lblGroupOrder)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:374
+#: plugins/impex/webp/dlg_webp_export.ui:330
+#: plugins/impex/webp/dlg_webp_export.ui:340
+#, kde-format
+msgid "Filter strength: 0 = off, 100 = strongest."
+msgstr "過濾強度：0 = 停用，100 = 最強。"
+
+#. i18n: ectx: property (text), widget (QLabel, lblGroupOrder)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:377
+#, fuzzy, kde-format
+#| msgctxt "action"
+#| msgid "Group Layer"
+msgctxt "Filter options specifically for WebP"
+msgid "Group order"
+msgstr "群組順序"
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, groupOrder)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:384
+#, fuzzy, kde-format
+msgid ""
+"Determines the order in which 256x256 regions are stored in the codestream "
+"for progressive rendering."
+msgstr "決定在編碼流中存放各 256x256 區塊的排列順序，以支援漸進式算繪。"
+
+#. i18n: ectx: property (text), widget (QLabel, lblJPEGReconCFL)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:391
+#, fuzzy, kde-format
+msgid "Chroma-from-luma"
+msgstr "由光度產生色調 (Chroma-from-luma)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:398
+#, fuzzy, kde-format
+#| msgctxt "(qtundo-format)"
+#| msgid "Change parameter"
+msgid "VarDCT parameters"
+msgstr "VarDCT 參數"
+
+#. i18n: ectx: property (text), widget (QLabel, lblProgressiveAC)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:404
+#, fuzzy, kde-format
+#| msgid "Subpixel precision"
+msgid "Spectral progression"
+msgstr "波譜漸進模式"
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, progressiveAC)
+#. i18n: ectx: property (toolTip), widget (QComboBox, qProgressiveAC)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:411
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:428
+#, fuzzy, kde-format
+msgid ""
+"Set the progressive mode for the AC coefficients of VarDCT, using spectral "
+"progression from the DCT coefficients."
+msgstr "設定 VarDCT 中 AC 係數的漸進模式，根據 DCT 係數的波譜進展。"
+
+#. i18n: ectx: property (text), widget (QLabel, lblQProgressiveAC)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:421
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "h264 tune option name, check simplescreenrecorder for standard "
+#| "translations"
+#| msgid "animation"
+msgid "Quantization"
+msgstr "量化"
+
+#. i18n: ectx: property (text), widget (QLabel, lblProgressiveDC)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:435
+#, fuzzy, kde-format
+#| msgid "X resolution:"
+msgid "Low resolution DC"
+msgstr "低解析度 DC"
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, progressiveDC)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:442
+#, fuzzy, kde-format
+msgid "Set the progressive mode using lower-resolution DC images for VarDCT. "
+msgstr "設定以 VarDCT 的較低解析度 DC 影像作漸進模式。"
+
+#. i18n: ectx: property (title), widget (QGroupBox, modularEncodingParameters)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:452
+#, fuzzy, kde-format
+#| msgctxt "(qtundo-format)"
+#| msgid "Change parameter"
+msgid "Modular parameters"
+msgstr "模組參數"
+
+#. i18n: ectx: property (text), widget (QLabel, lblChannelColorsGlobalPercent)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:458
+#, fuzzy, kde-format
+#| msgid "Global Pattern"
+msgid "Global channel palette range"
+msgstr "全域通道調色板範圍"
+
+#. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, channelColorsGlobalPercent)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:467
+#, fuzzy, kde-format
+msgid ""
+"Use Global channel palette if the amount of colors is smaller than this "
+"percentage of range. Use 0-100 to set an explicit percentage, -1 to use the "
+"encoder default. Used for modular encoding."
+msgstr ""
+"色彩數目低於這個百分比時，將使用全域通道調色板。使用 0 至 100 設定百分比值，"
+"而設定為 -1 則使用編碼器預設值。適用於模組化編碼。"
+
+#. i18n: ectx: property (text), widget (QLabel, lblChannelColorsGroupPercent)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:508
+#, fuzzy, kde-format
+#| msgid "Load a palette"
+msgid "Local channel palette range"
+msgstr "每通度調色板範圍"
+
+#. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, channelColorsGroupPercent)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:517
+#, fuzzy, kde-format
+msgid ""
+"Use Local (per-group) channel palette if the amount of colors is smaller "
+"than this percentage of range. Use 0-100 to set an explicit percentage, -1 "
+"to use the encoder default. Used for modular encoding."
+msgstr ""
+"色彩數目低於這個百分比時，將使用每通道 (按群組) 調色板。使用 0 至 100 設定百"
+"分比值，而設定為 -1 則使用編碼器預設值。適用於模組化編碼。"
+
+#. i18n: ectx: property (text), widget (QLabel, lblPaletteColors)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:558
+#, fuzzy, kde-format
+msgid "Use color palette for ... colors or less"
+msgstr "色彩數目低於指定值時使用調色板"
+
+#. i18n: ectx: property (toolTip), widget (QSpinBox, paletteColors)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:571
+#, fuzzy, kde-format
+msgid ""
+"Use color palette if amount of colors is smaller than or equal to this "
+"amount, or -1 to use the encoder default. Used for modular encoding."
+msgstr ""
+"色彩數目低於此值時，將使用調色板，或可將此值設定為 -1 以使用編碼器預設值。適"
+"用於模組化編碼。"
+
+#. i18n: ectx: property (text), widget (QLabel, lblLossyPalette)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:593
+#, fuzzy, kde-format
+#| msgid "Load a palette"
+msgctxt "Filter options specifically for WebP"
+msgid "Delta palette"
+msgstr "差值調色板"
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, lossyPalette)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:600
+#, fuzzy, kde-format
+msgid "Enables or disables delta palette. Used in modular mode. "
+msgstr "啟用或停用差值調色板 (delta palette)。適用於模組化編碼。"
+
+#. i18n: ectx: property (text), widget (QLabel, lblModularGroupSize)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:607
+#, fuzzy, kde-format
+#| msgid "Drop size"
+msgid "Group size"
+msgstr "群組大小"
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, modularGroupSize)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:614
+#, fuzzy, kde-format
+msgid "Group size for modular encoding."
+msgstr "模組化編碼使用的群組大小。"
+
+#. i18n: ectx: property (text), widget (QLabel, lblPredictor)
+#. i18n: ectx: property (text), widget (QLabel, lblModularPredictor)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:621
+#: plugins/impex/tiff/kis_wdg_options_tiff.ui:81
+#, fuzzy, kde-format
+msgid "Predictor"
+msgstr "色塊預測機制"
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, modularPredictor)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:628
+#, fuzzy, kde-format
+msgid "Predictor for modular encoding."
+msgstr "模組化編碼使用的預測機制。"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, lblPartitionLimit)
+#. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, partitionLimit)
+#. i18n: ectx: property (toolTip), widget (QLabel, lblModularMATreeLearningPercent)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:635
+#: plugins/impex/webp/dlg_webp_export.ui:579
+#: plugins/impex/webp/dlg_webp_export.ui:608
+#, kde-format
+msgid ""
+"Quality degradation allowed to fit the 512KB limit on prediction modes "
+"coding (0 = no degradation, 100 = maximum possible degradation)."
+msgstr ""
+"為符合預測模式編碼的 512 KB 限制而容許的品質下降 (0 = 無品質下降，100 = 最大"
+"品質下降)。"
+
+#. i18n: ectx: property (text), widget (QLabel, lblModularMATreeLearningPercent)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:638
+#, fuzzy, kde-format
+msgid "Pixels for MA tree learning"
+msgstr "供 MA 樹學習用的像素"
+
+#. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, modularMATreeLearningPercent)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:665
+#, fuzzy, kde-format
+msgid ""
+"Fraction of pixels used to learn MA trees as a percentage. -1 = default, 0 = "
+"no MA and fast decode, 50 = default value, 100 = all. Higher values use more "
+"encoder memory.\n"
+msgstr ""
+"按百分比取用一部分像素供 MA 樹學習。-1 為使用預設，0 為不使用 MA 及快速解碼，"
+"50 為預設值，100 為全部。數值愈大，則編碼器的記憶體使用量愈高。"
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, responsive)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:686
+#, fuzzy, kde-format
+msgid "Enables or disables progressive encoding for modular mode."
+msgstr "啟用或停用適用於模組化編碼模式的漸進式編碼。"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, lblShowCompressed)
+#. i18n: ectx: property (toolTip), widget (QCheckBox, showCompressed)
+#. i18n: ectx: property (toolTip), widget (QLabel, lblResponsive)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:693
+#: plugins/impex/webp/dlg_webp_export.ui:529
+#: plugins/impex/webp/dlg_webp_export.ui:539
+#, kde-format
+msgid ""
+"If enabled, export the compressed picture back. In-loop filtering is not "
+"applied."
+msgstr "如啟用，則匯出已壓縮的影像，不套用迴路過濾。"
+
+#. i18n: ectx: property (text), widget (QLabel, lblResponsive)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:696
+#, fuzzy, kde-format
+#| msgctxt "A progressive jpeg file can be displayed while loading."
+#| msgid "Progressive"
+msgid "Progressive encoding"
+msgstr "漸進式編碼"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:759
+#, fuzzy, kde-format
+#| msgctxt "JPEG metadata filter"
+#| msgid "Filters:"
+msgid "Filters:"
+msgstr "過濾器："
 
 #: plugins/impex/libkra/kis_kra_load_visitor.cpp:139
 #, kde-format
@@ -45741,12 +46610,6 @@ msgstr "Lempel-Ziv & Welch 編碼 (LZW)"
 msgid "Pixar Log"
 msgstr "Pixar Log 編碼"
 
-#. i18n: ectx: property (text), widget (QLabel, lblPredictor)
-#: plugins/impex/tiff/kis_wdg_options_tiff.ui:81
-#, kde-format
-msgid "Predictor"
-msgstr "色塊預測機制"
-
 #. i18n: ectx: property (toolTip), widget (KComboBox, kComboBoxPredictor)
 #: plugins/impex/tiff/kis_wdg_options_tiff.ui:91
 #, kde-format
@@ -45995,24 +46858,6 @@ msgstr ""
 "如啟用無損壓縮：0 = 最快但檔案較大，100 = 較慢但壓縮較佳。\n"
 "不啟用無損壓縮：0 = 檔案最小，100 = 檔案最大。"
 
-#. i18n: ectx: property (text), widget (QLabel, lblTradeoff)
-#: plugins/impex/webp/dlg_webp_export.ui:92
-#, kde-format
-msgid "Tradeoff"
-msgstr "平衡取捨"
-
-#. i18n: ectx: property (text), widget (QLabel, lblFaster)
-#: plugins/impex/webp/dlg_webp_export.ui:101
-#, kde-format
-msgid "Faster"
-msgstr "較快"
-
-#. i18n: ectx: property (text), widget (QLabel, lblSlowerBetter)
-#: plugins/impex/webp/dlg_webp_export.ui:108
-#, kde-format
-msgid "Slower/Better"
-msgstr "較慢/較佳"
-
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, tradeoff)
 #: plugins/impex/webp/dlg_webp_export.ui:118
 #, kde-format
@@ -46027,16 +46872,6 @@ msgstr "品質與速度之間的平衡取捨 (0 = 較快，6 = 較慢/較佳)"
 msgid "Dithering"
 msgstr "抖色 (Dithering)"
 
-#. i18n: ectx: property (toolTip), widget (QLabel, lblTargetSize)
-#. i18n: ectx: property (toolTip), widget (QSpinBox, targetSize)
-#: plugins/impex/webp/dlg_webp_export.ui:217
-#: plugins/impex/webp/dlg_webp_export.ui:233
-#, kde-format
-msgid ""
-"If non-zero, sets the desired target size in bytes. Takes precedence over "
-"the compression parameters."
-msgstr "如數值非零，則設定目標預期檔案大小。比壓縮設定參數更優先。"
-
 #. i18n: ectx: property (text), widget (QLabel, lblTargetSize)
 #: plugins/impex/webp/dlg_webp_export.ui:220
 #, kde-format
@@ -46048,16 +46883,6 @@ msgstr "目標大小"
 #, kde-format
 msgid " kB"
 msgstr " kB"
-
-#. i18n: ectx: property (toolTip), widget (QLabel, lblTargetPSNR)
-#. i18n: ectx: property (toolTip), widget (KisDoubleParseUnitSpinBox, targetPSNR)
-#: plugins/impex/webp/dlg_webp_export.ui:246
-#: plugins/impex/webp/dlg_webp_export.ui:262
-#, kde-format
-msgid ""
-"If non-zero, specifies the minimal distortion to try to achieve. Takes "
-"precedence over Target Size."
-msgstr "如數值非零，則設定希望達到的最低失真程度。比「目標大小」設定更優先。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblTargetPSNR)
 #: plugins/impex/webp/dlg_webp_export.ui:249
@@ -46079,27 +46904,11 @@ msgstr "最高分段數 (1 至 4)。"
 msgid "Segments"
 msgstr "分段數"
 
-#. i18n: ectx: property (toolTip), widget (QLabel, lblSNSStrength)
-#. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, snsStrength)
-#: plugins/impex/webp/dlg_webp_export.ui:307
-#: plugins/impex/webp/dlg_webp_export.ui:317
-#, kde-format
-msgid "Spatial Noise Shaping: 0 = off, 100 = maximum."
-msgstr "空間雜訊整形 (SNS)：0 = 停用，100 = 最高。"
-
 #. i18n: ectx: property (text), widget (QLabel, lblSNSStrength)
 #: plugins/impex/webp/dlg_webp_export.ui:310
 #, kde-format
 msgid "SNS Strength"
 msgstr "SNS 強度"
-
-#. i18n: ectx: property (toolTip), widget (QLabel, lblFilterStrength)
-#. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, filterStrength)
-#: plugins/impex/webp/dlg_webp_export.ui:330
-#: plugins/impex/webp/dlg_webp_export.ui:340
-#, kde-format
-msgid "Filter strength: 0 = off, 100 = strongest."
-msgstr "過濾強度：0 = 停用，100 = 最強。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblFilterStrength)
 #: plugins/impex/webp/dlg_webp_export.ui:333
@@ -46122,17 +46931,6 @@ msgstr "過濾銳利度：0 = 停用，7 = 最不銳利。"
 msgctxt "Filter options specifically for WebP"
 msgid "Filter Sharpness"
 msgstr "過濾銳利度"
-
-#. i18n: ectx: property (toolTip), widget (QLabel, lblFilterType)
-#. i18n: ectx: property (toolTip), widget (QComboBox, filterType)
-#: plugins/impex/webp/dlg_webp_export.ui:376
-#: plugins/impex/webp/dlg_webp_export.ui:386
-#, kde-format
-msgid ""
-"0 = Simple, 1 = Strong. Only used if Filter Strength is higher than 0 or "
-"Auto Adjust Filter is enabled."
-msgstr ""
-"0 = 簡單，1 = 強。只在「過濾強度」高於 0 或「自動調整過濾」已啟用時才有效。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblFilterType)
 #: plugins/impex/webp/dlg_webp_export.ui:379
@@ -46204,16 +47002,6 @@ msgstr "熵值分析 (Entropy-analysis passes) 次數 (1 至 10)。"
 msgid "Entropy Passes"
 msgstr "熵值分析次數"
 
-#. i18n: ectx: property (toolTip), widget (QLabel, lblShowCompressed)
-#. i18n: ectx: property (toolTip), widget (QCheckBox, showCompressed)
-#: plugins/impex/webp/dlg_webp_export.ui:529
-#: plugins/impex/webp/dlg_webp_export.ui:539
-#, kde-format
-msgid ""
-"If enabled, export the compressed picture back. In-loop filtering is not "
-"applied."
-msgstr "如啟用，則匯出已壓縮的影像，不套用迴路過濾。"
-
 #. i18n: ectx: property (text), widget (QLabel, lblShowCompressed)
 #: plugins/impex/webp/dlg_webp_export.ui:532
 #, kde-format
@@ -46242,18 +47030,6 @@ msgstr "log2(符記分區數目) 於 0 至 3 之間。預設為 0 以使得漸�
 #, kde-format
 msgid "Partitions"
 msgstr "分區數目"
-
-#. i18n: ectx: property (toolTip), widget (QLabel, lblPartitionLimit)
-#. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, partitionLimit)
-#: plugins/impex/webp/dlg_webp_export.ui:579
-#: plugins/impex/webp/dlg_webp_export.ui:608
-#, kde-format
-msgid ""
-"Quality degradation allowed to fit the 512KB limit on prediction modes "
-"coding (0 = no degradation, 100 = maximum possible degradation)."
-msgstr ""
-"為符合預測模式編碼的 512 KB 限制而容許的品質下降 (0 = 無品質下降，100 = 最大"
-"品質下降)。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblPartitionLimit)
 #: plugins/impex/webp/dlg_webp_export.ui:582
@@ -47710,14 +48486,6 @@ msgstr "已選取："
 #, kde-format
 msgid "Turn the preset into an Eraser preset (overrides the blending mode)"
 msgstr "把該預設轉變為擦除預設 (覆蓋原本混色模式)"
-
-#. i18n: ectx: property (text), widget (QPushButton, bnEraser)
-#. i18n: ectx: property (text), widget (QCheckBox, eraserBox)
-#: plugins/paintops/libpaintop/forms/wdgCompositeOpOption.ui:88
-#: plugins/paintops/mypaint/wdgmypaintoptions.ui:41
-#, kde-format
-msgid "Eraser"
-msgstr "擦除模式"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: plugins/paintops/libpaintop/forms/wdgCompositeOpOption.ui:116
@@ -55870,3218 +56638,3 @@ msgstr "縮放工具"
 msgctxt "action"
 msgid "Reference Images Tool"
 msgstr "參考圖工具"
-
-#, kde-format
-#~ msgid "Sorry, this output mode is not implemented yet."
-#~ msgstr "對不起，此輸出模式尚未實現。"
-
-#, kde-format
-#~ msgid "G'Mic failed, reason:"
-#~ msgstr "G'Mic 操作失敗，原因為："
-
-#, kde-format
-#~ msgid "Cut"
-#~ msgstr "剪下"
-
-#, kde-format
-#~ msgid "Paste"
-#~ msgstr "貼上"
-
-#~ msgid "Eraser smoothing"
-#~ msgstr "橡皮擦平滑化"
-
-#~ msgid "Gaussian distribution"
-#~ msgstr "高斯分布"
-
-#~ msgid "Use same aspect as pixels"
-#~ msgstr "使用相對於螢幕像素的縮放比例"
-
-#~ msgid "Enable Touch Rotation"
-#~ msgstr "啟用觸控螢幕旋轉手勢"
-
-#~ msgid "Hold last frame for:"
-#~ msgstr "最後影格保持時長："
-
-#~ msgid "Show result on first frame for:"
-#~ msgstr "在開首顯示完成品時長："
-
-#~ msgid "Fast mode:"
-#~ msgstr "快速模式："
-
-#~ msgid ""
-#~ "Fills area faster, but does not take composition mode into account. "
-#~ "Selections and other extended features will also be disabled."
-#~ msgstr ""
-#~ "填充區域更快，但不將圖層混合模式納入計算範圍。選取區域和其他擴充功能也將被"
-#~ "禁用。"
-
-#~ msgctxt "The Threshold label in Fill tool options"
-#~ msgid "Threshold:"
-#~ msgstr "閾值："
-
-#~ msgctxt "The Opacity Spread label in Fill tool options"
-#~ msgid "Opacity Spread:"
-#~ msgstr "不透明度擴散："
-
-#~ msgid "Grow selection:"
-#~ msgstr "擴大選取區域："
-
-#~ msgid "Feathering radius:"
-#~ msgstr "羽化半徑："
-
-#~ msgid "Use pattern:"
-#~ msgstr "使用圖案："
-
-#~ msgid ""
-#~ "When checked do not use the foreground color, but the pattern selected to "
-#~ "fill with"
-#~ msgstr "勾選時不使用前景色，而是使用所選圖案填充"
-
-#~ msgctxt ""
-#~ "This is a label before a combobox with different choices regarding which "
-#~ "layers to take into considerationg when calculating the area to fill. "
-#~ "Options together with the label are: /Sample current layer/ /Sample all "
-#~ "layers/ /Sample color labeled layers/. Sample is a verb here and means "
-#~ "something akin to 'take into account'."
-#~ msgid "Sample:"
-#~ msgstr "取樣："
-
-#~ msgctxt ""
-#~ "This is a string in tool options for Fill Tool to describe a combobox "
-#~ "about a choice of color labels that a layer can be marked with. Those "
-#~ "color labels will be used for calculating the area to fill."
-#~ msgid "Labels used:"
-#~ msgstr "使用的標籤："
-
-#~ msgid "Fill entire selection:"
-#~ msgstr "填充整個選取區域："
-
-#~ msgid ""
-#~ "When checked do not look at the current layer colors, but just fill all "
-#~ "of the selected area"
-#~ msgstr "勾選時，直接填充整個選取區域，不將目前圖層色彩納入計算範圍"
-
-#~ msgctxt "Tooltip for 'Use selection as boundary' checkbox"
-#~ msgid "When checked, use selection borders as boundary when filling"
-#~ msgstr "勾選時，填充將以選取區域邊界為界限"
-
-#~ msgctxt "The 'continuous fill' label in Fill tool options"
-#~ msgid "Continuous Fill:"
-#~ msgstr "連續填充："
-
-#~ msgctxt "Continuous fill mode in fill tool options"
-#~ msgid "Similar regions"
-#~ msgstr "相似色彩區域"
-
-#~ msgctxt ""
-#~ "Option in fill tool: take only the current layer into account when "
-#~ "calculating the area to fill"
-#~ msgid "Current Layer"
-#~ msgstr "目前圖層"
-
-#~ msgctxt ""
-#~ "Option in fill tool: take all layers (merged) into account when "
-#~ "calculating the area to fill"
-#~ msgid "All Layers"
-#~ msgstr "所有圖層"
-
-#~ msgctxt ""
-#~ "Option in fill tool: take all layers that were labeled with a color label "
-#~ "(more precisely: all those layers merged) into account when calculating "
-#~ "the area to fill"
-#~ msgid "Color Labeled Layers"
-#~ msgstr "符合色彩標籤的圖層"
-
-#~ msgid "%1 %2 px"
-#~ msgstr "%1 %2 px"
-
-#~ msgid "General:"
-#~ msgstr "一般："
-
-#~ msgid "Animation:"
-#~ msgstr "動畫："
-
-#~ msgid "Swap File Location:"
-#~ msgstr "置換檔案位置："
-
-#~ msgid "Force Instant Preview in Transform Tool"
-#~ msgstr "強制變形工具使用即時預覽"
-
-#~ msgid "Force Instant Preview in Move Tool"
-#~ msgstr "強制移動工具使用即時預覽"
-
-#~ msgid "Force Instant Preview in Filters"
-#~ msgstr "強制濾鏡使用即時預覽"
-
-#~ msgid "Open Color Profile"
-#~ msgstr "開啟色彩特性檔案"
-
-#~ msgctxt "@title:window"
-#~ msgid "Select a swap directory"
-#~ msgstr "選擇交換檔案目錄"
-
-#~ msgid "Add new color profile:"
-#~ msgstr "新增新的色彩特性檔案："
-
-#~ msgid "Select the location where Krita writes its swap files."
-#~ msgstr "選擇 Krita 寫入置換檔案的位置。"
-
-#~ msgid "Display:"
-#~ msgstr "顯示："
-
-#~ msgid "Colorspace"
-#~ msgstr "色彩空間"
-
-#~ msgctxt "Color model"
-#~ msgid "&Model:"
-#~ msgstr "模型(&M)："
-
-#~ msgid "Profi&le:"
-#~ msgstr "特性檔案(&L)："
-
-#~ msgctxt "About <Profilename>"
-#~ msgid "About "
-#~ msgstr "關於 "
-
-#~ msgctxt "The Softness label in Fill tool options"
-#~ msgid "Softness:"
-#~ msgstr "柔和度："
-
-#~ msgid "Softness: "
-#~ msgstr "柔和度："
-
-#~ msgid ""
-#~ "The image data you are trying to paste has no color profile information. "
-#~ "How do you want to interpret these data? \n"
-#~ "\n"
-#~ " As Web (sRGB) -  Use standard colors that are displayed from computer "
-#~ "monitors.  This is the most common way that images are stored. \n"
-#~ "\n"
-#~ "As on Monitor - If you know a bit about color management and want to use "
-#~ "your monitor to determine the color profile.\n"
-#~ "\n"
-#~ msgstr ""
-#~ "正在貼上的影像資料未包含色彩特性資訊。要如何解析這些資料？\n"
-#~ "\n"
-#~ "按網路規範 - 使用符合網路影像規範的 sRGB 色彩空間。這是儲存影像的通用方"
-#~ "式。\n"
-#~ "\n"
-#~ "按顯示器所見 - 面向熟悉色彩管理的使用者，用本機顯示器的色彩特性檔案來作為"
-#~ "其色彩空間。\n"
-#~ "\n"
-
-#~ msgid "0/0"
-#~ msgstr "0/0"
-
-#~ msgid ""
-#~ "\"Mirror View Around Cursor\" only works while hovering over the viewport."
-#~ msgstr "「以游標為中心鏡像顯示」需要游標位於畫布上才能運作。"
-
-#~ msgid "Change the color of the line/border"
-#~ msgstr "變更線條/邊框色彩"
-
-#~ msgctxt "Label of Brightness value in brush settings"
-#~ msgid "Value"
-#~ msgstr "明度"
-
-#~ msgid "Experiment option"
-#~ msgstr "實驗選項"
-
-#~ msgid ""
-#~ "The mixing option mixes the paint on the brush with that on the canvas."
-#~ msgstr "混色選項會將筆刷的顏料與畫布上的顏料混合。"
-
-#~ msgctxt "action"
-#~ msgid "&Brightness/Contrast curve..."
-#~ msgstr "亮度/對比度曲線(&B)…"
-
-#~ msgctxt "action"
-#~ msgid "Brightness/Contrast curve"
-#~ msgstr "亮度/對比度曲線"
-
-#~ msgctxt "The Threshold label in Fill tool options"
-#~ msgid "Threshold: "
-#~ msgstr "閾值："
-
-#~ msgid "New name for ASL storage"
-#~ msgstr "ASL 儲存空間的新名稱"
-
-#~ msgid ""
-#~ "The old filename is taken.\n"
-#~ "New name:"
-#~ msgstr ""
-#~ "舊檔名已被取走。\n"
-#~ "新名稱："
-
-#~ msgctxt "New layer style"
-#~ msgid "&New..."
-#~ msgstr "建立(&N)…"
-
-#~ msgctxt "@title:window"
-#~ msgid "New Gamut Mask..."
-#~ msgstr "新色域遮罩…"
-
-#~ msgctxt "@title:window"
-#~ msgid "Invalid Name"
-#~ msgstr "名稱無效"
-
-#~ msgid "Please enter a name"
-#~ msgstr "請輸入名稱"
-
-#~ msgid "Import Bundles..."
-#~ msgstr "匯入資源包…"
-
-#~ msgid "Import Brushes..."
-#~ msgstr "匯入筆刷…"
-
-#~ msgid "Import Gradients..."
-#~ msgstr "匯入漸變…"
-
-#~ msgid "Import Palettes..."
-#~ msgstr "匯入調色板…"
-
-#~ msgid "Import Patterns..."
-#~ msgstr "匯入圖案…"
-
-#~ msgid "Import Presets..."
-#~ msgstr "匯入預設…"
-
-#~ msgid "Import Workspaces..."
-#~ msgstr "匯入作業空間…"
-
-#~ msgid "Create Resource Bundle..."
-#~ msgstr "建立資源包…"
-
-#~ msgid "Could not create the new bundle."
-#~ msgstr "無法建立資源包。"
-
-#~ msgid "Import Brushes"
-#~ msgstr "匯入筆刷"
-
-#~ msgid "Import Presets"
-#~ msgstr "匯入預設"
-
-#~ msgid "Import Gradients"
-#~ msgstr "匯入漸變"
-
-#~ msgid "Import Patterns"
-#~ msgstr "匯入圖案"
-
-#~ msgid "Import Palettes"
-#~ msgstr "匯入調色板"
-
-#~ msgid "Import Workspaces"
-#~ msgstr "匯入作業空間"
-
-#~ msgid "Could not save %1"
-#~ msgstr "無法儲存 %1"
-
-#~ msgctxt "Error message when saving a .kra file"
-#~ msgid "Could not save resource %1 to the kra file."
-#~ msgstr "無法儲存資源 %1 到 KRA 檔案。"
-
-#~ msgid "Could not add storage %1 to the cache database"
-#~ msgstr "無法新增 %1 儲存空間至快取資料庫"
-
-#~ msgctxt "@info mouse position (x, y)"
-#~ msgid "%1, %2"
-#~ msgstr "%1, %2"
-
-#~ msgctxt "action"
-#~ msgid "Add a new &Group Layer"
-#~ msgstr "新增群組圖層(&G)"
-
-#~ msgctxt "action"
-#~ msgid "Add a new &Clone Layer"
-#~ msgstr "新增再製圖層(&C)"
-
-#~ msgctxt "action"
-#~ msgid "Add a new &Transparency Mask"
-#~ msgstr "新增透明度遮罩(&T)"
-
-#~ msgctxt "action"
-#~ msgid "Add a new &Filter Mask..."
-#~ msgstr "新增濾鏡遮罩(&F)…"
-
-#~ msgctxt "action"
-#~ msgid "Add a new &Colorize Mask"
-#~ msgstr "新增著色遮罩(&M)"
-
-#~ msgctxt "action"
-#~ msgid "Add a new &Transform Mask"
-#~ msgstr "新增變形遮罩(&T)"
-
-#~ msgctxt "action"
-#~ msgid "Add a new &Paint Layer"
-#~ msgstr "新增顏料圖層(&P)"
-
-#~ msgctxt "action"
-#~ msgid "to &Paint Layer"
-#~ msgstr "為顏料圖層(&P)"
-
-#~ msgctxt "action"
-#~ msgid "to &Selection Mask"
-#~ msgstr "為選取區域遮罩(&S)"
-
-#~ msgctxt "Warning message"
-#~ msgid ""
-#~ "The filename %1 is already used for a resource %2, so adding a resource "
-#~ "with name %3 failed."
-#~ msgstr ""
-#~ "檔案名稱「%1」已被資源「%2」使用，因此無法加入一個名為「%3」的資源。"
-
-#~ msgctxt "Warning message"
-#~ msgid ""
-#~ "The filename %1 is already in use, so adding a resource with name %2 "
-#~ "failed."
-#~ msgstr "檔案名稱「%1」已被使用，因此無法加入一個名為「%2」的資源。"
-
-#~ msgctxt "action"
-#~ msgid "Group"
-#~ msgstr "組合"
-
-#~ msgctxt "action"
-#~ msgid "Group Layer"
-#~ msgstr "群組圖層"
-
-#~ msgctxt "action"
-#~ msgid "Clone Layer"
-#~ msgstr "再製圖層"
-
-#~ msgctxt "action"
-#~ msgid "Filter Layer"
-#~ msgstr "濾鏡圖層"
-
-#~ msgctxt "action"
-#~ msgid "Fill Layer"
-#~ msgstr "填充圖層"
-
-#~ msgctxt "action"
-#~ msgid "File Layer"
-#~ msgstr "檔案圖層"
-
-#~ msgctxt "action"
-#~ msgid "&Transparency Mask"
-#~ msgstr "透明度遮罩(&T)"
-
-#~ msgctxt "action"
-#~ msgid "Transparency Mask"
-#~ msgstr "透明度遮罩"
-
-#~ msgctxt "action"
-#~ msgid "Filter Mask"
-#~ msgstr "濾鏡遮罩"
-
-#~ msgctxt "action"
-#~ msgid "&Colorize Mask"
-#~ msgstr "著色遮罩(&C)"
-
-#~ msgctxt "action"
-#~ msgid "Colorize Mask"
-#~ msgstr "著色遮罩"
-
-#~ msgctxt "action"
-#~ msgid "&Transform Mask"
-#~ msgstr "變形遮罩(&T)"
-
-#~ msgctxt "action"
-#~ msgid "Transform Mask"
-#~ msgstr "變形遮罩"
-
-#~ msgctxt "action"
-#~ msgid "Paint Layer"
-#~ msgstr "顏料圖層"
-
-#~ msgid "Add a group"
-#~ msgstr "新增群組"
-
-#~ msgid "Delete this group"
-#~ msgstr "刪除此群組"
-
-#~ msgid "Palette settings"
-#~ msgstr "調色板設定"
-
-#~ msgid "Group settings"
-#~ msgstr "群組設定"
-
-#~ msgid "Column count"
-#~ msgstr "列數"
-
-#~ msgid "Row count"
-#~ msgstr "行數"
-
-#~ msgctxt "Label for line edit to set a palette name."
-#~ msgid "Name"
-#~ msgstr "名稱"
-
-#~ msgctxt "Renaming swatch group"
-#~ msgid "New name"
-#~ msgstr "新名稱"
-
-#~ msgctxt "@title:dialog"
-#~ msgid "Add a Color"
-#~ msgstr "新增色彩"
-
-#~ msgid "ID"
-#~ msgstr "編碼"
-
-#~ msgctxt "Spot color"
-#~ msgid "Spot"
-#~ msgstr "印刷專色"
-
-#~ msgctxt "Name for default group"
-#~ msgid "Default"
-#~ msgstr "預設"
-
-#~ msgctxt "Part of a default name for a color"
-#~ msgid "Color"
-#~ msgstr "色彩"
-
-#~ msgid "Add a color"
-#~ msgstr "新增色彩"
-
-#~ msgid "Delete color"
-#~ msgstr "刪除色彩"
-
-#~ msgid "Modify this spot"
-#~ msgstr "修改此格"
-
-#~ msgid "Edit this palette"
-#~ msgstr "編輯此調色板"
-
-#~ msgid "Save this palette"
-#~ msgstr "儲存此調色板"
-
-#~ msgctxt "Question in a dialog/messagebox"
-#~ msgid ""
-#~ "This name is already used for another resource. Do you want to use the "
-#~ "same name for multiple resources?"
-#~ msgstr "這個名稱已被另一項資源使用。你想要多項資源使用相同的名稱嗎？"
-
-#~ msgid "Could not save preset under name %1, it already exists."
-#~ msgstr "無法儲存筆刷預設作名稱 %1：檔案已存在。"
-
-#~ msgid "Could not update preset %1."
-#~ msgstr "無法更新筆刷預設 %1。"
-
-#~ msgctxt "Warning message"
-#~ msgid "Adding the session to the database failed."
-#~ msgstr "將工作階段加入到資料庫時失敗。"
-
-#~ msgctxt "@title:window"
-#~ msgid "Couldn't add the session"
-#~ msgstr "無法加入工作階段"
-
-#~ msgctxt "Warning about not being able to rename a session"
-#~ msgid "Renaming the session failed."
-#~ msgstr "重新命名工作階段失敗。"
-
-#~ msgid "Clean Up"
-#~ msgstr "清理"
-
-#~ msgctxt "floating message when cannot copy from a node"
-#~ msgid "Cannot copy pixels from this type of layer "
-#~ msgstr "無法從此類型的圖層複製像素"
-
-#~ msgctxt "floating message when copying empty selection"
-#~ msgid "Selection is empty: no pixels were copied "
-#~ msgstr "選取區域為空：未複製任何像素"
-
-#~ msgctxt "action"
-#~ msgid "Filters"
-#~ msgstr "濾鏡"
-
-#~ msgid "Export Directory: "
-#~ msgstr "匯出目錄："
-
-#~ msgid ""
-#~ "Please enter correct range. The first frame should be less than or equal "
-#~ "to the last frame."
-#~ msgstr "請輸入正確的範圍。第一個影格應該小於或等於最後一個影格。"
-
-#~ msgid "Frame number of first item to render:"
-#~ msgstr "要繪製之第一個項目的影格編號："
-
-#~ msgid "Frame number of last item to render:"
-#~ msgstr "要繪製之最後一個項目的影格編號："
-
-#~ msgid "Rows per page :"
-#~ msgstr "每頁行數："
-
-#~ msgid "Columns per page :"
-#~ msgstr "每頁列數："
-
-#~ msgid "Specify Layout Using SVG file "
-#~ msgstr "使用 SVG 檔案指定版面配置"
-
-#~ msgid "SVG file for specifying layout :"
-#~ msgstr "用來指定版面配置的 SVG 檔案："
-
-#~ msgid "Export File Name : "
-#~ msgstr "匯出檔名："
-
-#~ msgid "SVG file base name : "
-#~ msgstr "SVG 檔案名根據："
-
-#~ msgctxt "Prefix. Part of 'Every # cell/s horizontally"
-#~ msgid "Every "
-#~ msgstr "每 "
-
-#~ msgctxt "Prefix. Part of 'Every # cell/s vertically"
-#~ msgid "Every "
-#~ msgstr "每 "
-
-#~ msgctxt "Suffix. Part of 'Every # cell/s horizontally"
-#~ msgid " cells horizontally"
-#~ msgstr " 格 (水平)"
-
-#~ msgctxt "Suffix. Part of 'Every # cell/s horizontally"
-#~ msgid " cell vertically"
-#~ msgstr " 格 (垂直)"
-
-#~ msgctxt "Suffix. Part of 'Every # cell/s horizontally"
-#~ msgid " cells vertically"
-#~ msgstr " 格 (垂直)"
-
-#~ msgctxt "Autobrush Label"
-#~ msgid "Auto"
-#~ msgstr "自動"
-
-#~ msgid "Loading Plugins Exiv/IO..."
-#~ msgstr "正在載入 Exiv 和輸入輸出外掛程式…"
-
-#~ msgctxt "description of a file type"
-#~ msgid "JP2 Image"
-#~ msgstr "JP2 影像"
-
-#~ msgctxt "action"
-#~ msgid "Database Explorer"
-#~ msgstr "資料庫瀏覽器"
-
-#~ msgctxt "@info:tooltip"
-#~ msgid ""
-#~ "<p>Filter results cannot be saved for the <b>All Presets</b> view. In "
-#~ "this view, pressing <b>Enter</b> or clearing the filter box will restore "
-#~ "all items. Create and/or switch to a different tag if you want to save "
-#~ "filtered resources into named sets.</p>"
-#~ msgstr ""
-#~ "<p>不能儲存 <b>全部</b> 檢視的過濾結果。這個檢視中，按下 <b>Enter</b> 或清"
-#~ "空過濾框皆會還原所有項目。若要將過濾過的資源儲存至命名過的集合，請建立"
-#~ "及 / 或切換至不同的標籤。</p>"
-
-#~ msgctxt "@info:tooltip"
-#~ msgid ""
-#~ "<p>Pressing <b>Enter</b> or clicking the <b>Save</b> button will save the "
-#~ "changes.</p>"
-#~ msgstr "<p>按下 <b>Enter</b> 或點選「<b>儲存</b>」按鈕儲存變更。</p>"
-
-#~ msgid "dd/MM/yyyy"
-#~ msgstr "yyyy 年 MM 月 dd 日"
-
-#~ msgctxt "metadata editor page"
-#~ msgid "Exif"
-#~ msgstr "Exif"
-
-#~ msgid "No store backend"
-#~ msgstr "無資料存儲後端程式"
-
-#~ msgid "Disable all vector optimizations (for AMD CPUs)"
-#~ msgstr "停用所有 CPU 向量最佳化 (針對 AMD CPU)"
-
-#~ msgid "lblThumbnail"
-#~ msgstr "lblThumbnail"
-
-#~ msgid "xyz"
-#~ msgstr "xyz"
-
-#~ msgid "KSqueezedTextLabel"
-#~ msgstr "KSqueezedTextLabel"
-
-#~ msgctxt "Error message when saving a .kra file"
-#~ msgid "Could not save palettes."
-#~ msgstr "無法儲存調色板。"
-
-#~ msgid "Clear the colors of the popup palette"
-#~ msgstr "清除浮動畫具板上的色彩"
-
-#~ msgid "percent (%)"
-#~ msgstr "百分數 (%)"
-
-#~ msgid "Delete Backup Files"
-#~ msgstr "刪除備份檔案"
-
-#~ msgctxt "action"
-#~ msgid "Move selection to previous frame"
-#~ msgstr "移動選取項目到上一影格"
-
-#, fuzzy
-#~| msgid "Number of Palette Presets:"
-#~ msgid "Number of Palette Presets:"
-#~ msgstr "浮動畫具板預設個數："
-
-#~ msgctxt "Autofocus metering mode"
-#~ msgid "Spot"
-#~ msgstr "單焦點"
-
-#~ msgctxt "Photos of landscapes"
-#~ msgid "Landscape"
-#~ msgstr "風景"
-
-#~ msgctxt "Photos of people"
-#~ msgid "Portrait"
-#~ msgstr "人像"
-
-#, fuzzy
-#~| msgctxt "Label of Color Depth in Color Space Selector dialogue"
-#~| msgid "Depth:"
-#~ msgid "Depth:"
-#~ msgstr "色彩深度："
-
-#~ msgid "Attach to Toolbar"
-#~ msgstr "嵌入到工具列"
-
-#~ msgid "Detach from Toolbar"
-#~ msgstr "與工具列分離"
-
-#, fuzzy
-#~| msgid "Triangle"
-#~ msgid "Spinning Triangle"
-#~ msgstr "三角波"
-
-#~ msgid "Reverse Values"
-#~ msgstr "反轉數值"
-
-#~ msgid "Sort by Value (Even Distribution)"
-#~ msgstr "依明度排序 (平均分佈)"
-
-#~ msgid "Mirror Segment"
-#~ msgstr "鏡像片段"
-
-#~ msgid "Remove Segment"
-#~ msgstr "移除片段"
-
-#~ msgid "Work Recursively"
-#~ msgstr "以遞迴方式作業"
-
-#, fuzzy
-#~| msgctxt "action"
-#~| msgid "&File Layer..."
-#~ msgid "File details..."
-#~ msgstr "檔案圖層(&F)…"
-
-#, fuzzy
-#~| msgid "Export options:"
-#~ msgid "Export Options"
-#~ msgstr "匯出選項："
-
-#~ msgid "Multiply Alpha"
-#~ msgstr "相乘透明度"
-
-#~ msgid "Subtract Alpha"
-#~ msgstr "減去透明度"
-
-#, fuzzy
-#~| msgid "Edit presets"
-#~ msgctxt "resource type"
-#~ msgid "paintoppresets"
-#~ msgstr "編輯預設"
-
-#, fuzzy
-#~| msgctxt "default prefix for the saved gradient"
-#~| msgid "gradient"
-#~ msgctxt "resource type"
-#~ msgid "gradients"
-#~ msgstr "漸變"
-
-#, fuzzy
-#~| msgid "Palettes"
-#~ msgctxt "resource type"
-#~ msgid "palettes"
-#~ msgstr "調色板"
-
-#, fuzzy
-#~| msgid "Workspaces"
-#~ msgctxt "resource type"
-#~ msgid "workspaces"
-#~ msgstr "作業空間"
-
-#, fuzzy
-#~| msgid "Window layouts"
-#~ msgctxt "resource type"
-#~ msgid "windowlayouts"
-#~ msgstr "視窗版面配置"
-
-#, fuzzy
-#~| msgid "Sessions"
-#~ msgctxt "resource type"
-#~ msgid "sessions"
-#~ msgstr "工作階段"
-
-#, fuzzy
-#~| msgid "Gamut masks"
-#~ msgctxt "resource type"
-#~ msgid "gamutmasks"
-#~ msgstr "色域遮罩"
-
-#, fuzzy
-#~| msgid "SeExpr Scripts"
-#~ msgctxt "resource type"
-#~ msgid "seexpr_scripts"
-#~ msgstr "SeExpr 指令稿"
-
-#, fuzzy
-#~| msgctxt "Layer name for translation of template"
-#~| msgid "Effect"
-#~ msgctxt "resource type"
-#~ msgid "ko_effects"
-#~ msgstr "效果"
-
-#, fuzzy
-#~| msgid "Task sets"
-#~ msgctxt "resource type"
-#~ msgid "tasksets"
-#~ msgstr "作業集合"
-
-#, fuzzy
-#~| msgid "Layer Styles"
-#~ msgctxt "resource type"
-#~ msgid "layerstyles"
-#~ msgstr "圖層樣式"
-
-#~ msgid "Embedded svg shape"
-#~ msgstr "內嵌的 SVG 形狀"
-
-#~ msgid "Fetching palette..."
-#~ msgstr "正在讀取調色板…"
-
-#~ msgid "Encoding frames..."
-#~ msgstr "正在編碼動畫影格…"
-
-#~ msgid "The <i>Show Popup Palette</i> displays the popup palette."
-#~ msgstr "<b>顯示浮動畫具板</b>操作用於在畫布上顯示浮動畫具板。"
-
-#, fuzzy
-#~| msgid "Import Bundles"
-#~ msgid "Import a Bundle"
-#~ msgstr "匯入資源包"
-
-#~ msgctxt "In bundle manager; press button to import a bundle"
-#~ msgid "Import"
-#~ msgstr "匯入"
-
-#~ msgctxt "In bundle manager; press button to create a new bundle"
-#~ msgid "Create"
-#~ msgstr "建立"
-
-#~ msgid "Bundle Name"
-#~ msgstr "資源包名稱"
-
-#~ msgid "New name for the bundle"
-#~ msgstr "資源包的新名稱"
-
-#~ msgid ""
-#~ "The old filename %1 is taken.\n"
-#~ "New name:"
-#~ msgstr ""
-#~ "舊名稱 %1 已被取走。\n"
-#~ "新名稱："
-
-#~ msgctxt "action"
-#~ msgid "Reset Krita Configurations"
-#~ msgstr "重設 Krita 設定"
-
-#~ msgid "&Color"
-#~ msgstr "色彩(&C)"
-
-#~ msgctxt "action"
-#~ msgid "Hello"
-#~ msgstr "你好"
-
-#~ msgctxt "action"
-#~ msgid "Say Hello World"
-#~ msgstr "說你好世界"
-
-#~ msgid "Test"
-#~ msgstr "測試"
-
-#~ msgid "Hello! This is Krita version %s"
-#~ msgstr "你好，此 Krita 軟體的版本是 %s"
-
-#~ msgid "Hello"
-#~ msgstr "你好"
-
-#~ msgctxt "action"
-#~ msgid "&Manage Resources..."
-#~ msgstr "管理資源(&M)…"
-
-#~ msgid "The chosen file's location could not be found. Does it exist?"
-#~ msgstr "找不到選取檔案的位置。檔案是否確實存在？"
-
-#~ msgid "background"
-#~ msgstr "背景"
-
-#~ msgctxt "floating message in layer manager"
-#~ msgid "Layer is locked "
-#~ msgid_plural "Layers are locked"
-#~ msgstr[0] "已鎖定圖層"
-
-#~ msgctxt "action"
-#~ msgid "Add opacity keyframe"
-#~ msgstr "新增不透明度關鍵影格"
-
-#~ msgctxt "action"
-#~ msgid "Remove opacity keyframe"
-#~ msgstr "移除不透明度關鍵影格"
-
-#~ msgctxt "action"
-#~ msgid "Removes keyframe to control layer opacity"
-#~ msgstr "移除用來控制圖層不透明度的關鍵影格"
-
-#~ msgid "Krita cannot find any brush presets! Krita will quit now."
-#~ msgstr "Krita 找不到任何筆刷預設！Krita 將立即退出。"
-
-#~ msgid "You did not assign a script to that action"
-#~ msgstr "未對該操作指定指令稿"
-
-#~ msgid "Add to Toolbar"
-#~ msgstr "新增到工具列"
-
-#~ msgid "Configure Shortcut..."
-#~ msgstr "設定快捷鍵..."
-
-#~ msgctxt "@info:tooltip"
-#~ msgid ""
-#~ "<p>Enter search terms here to add resources to, or remove them from, the "
-#~ "current tag view.</p><p>To filter based on the partial, case insensitive "
-#~ "name of a resource:<br/><tt>partialname</tt> or <tt>!partialname</tt></"
-#~ "p><p>To include or exclude other tag sets:<br/><tt>[Tagname]</tt> or <tt>!"
-#~ "[Tagname]</tt></p><p>For case sensitive and full name matching in-/"
-#~ "exclusion:<br/><tt>\"ExactMatch\"</tt> or <tt>!\"ExactMatch\"</tt></p>"
-#~ msgstr ""
-#~ "在搜尋框輸入條件後，目前標籤檢視中的資源會據此顯示或隱藏。<p>條件只需部分"
-#~ "匹配資源名稱，不區分大小寫：<br/><tt>名稱的一部分</tt> 或者 <tt>!名稱的一"
-#~ "部分</tt></p><p>包含或排除某個標籤的資源：<br/><tt>[標籤名稱]</tt> 或者 "
-#~ "<tt>![標籤名稱]</tt></p><p>條件必需完全匹配資源名稱，區分大小寫：<br/><tt>"
-#~ "\"完全一致的名稱\"</tt> 或者 <tt>!\"完全一致的名稱\"</tt></p>"
-
-#~ msgid "G'Mic-Qt Integration"
-#~ msgstr "G'Mic-Qt 整合"
-
-#~ msgid ""
-#~ "Krita cannot find the gmic-qt plugin. You can set the location of the "
-#~ "gmic-qt plugin in Settings/Configure Krita."
-#~ msgstr ""
-#~ "Krita 無法找到 gmic-qt 外掛程式。請在設定/設定 Krita 中指定 gmic-qt 外掛程"
-#~ "式的位置。"
-
-#~ msgid ""
-#~ "<html><head/><body><p>Select the location of the G'Mic-Qt plugin. You can "
-#~ "download the plugin from the <a href=\"https://gmic.eu/\"><span style=\" "
-#~ "text-decoration: underline; color:#2980b9;\">G'Mic website</span></a>. "
-#~ "Make sure you download the special version for Krita, not the standalone "
-#~ "or the GIMP version.</p></body></html>"
-#~ msgstr ""
-#~ "<html><head/><body><p>選擇 G'Mic-Qt 外掛程式的位置。你可以從 <a href="
-#~ "\"https://gmic.eu/\"><span style=\" text-decoration: underline; color:"
-#~ "#2980b9;\">G'Mic 網站</span></a> 下載該外掛程式。請確保下載的是為 Krita 提"
-#~ "供的特製版本，而不是獨立版本或 GIMP 版本。</p></body></html>"
-
-#~ msgid "Plugin:"
-#~ msgstr "外掛程式："
-
-#~ msgid "Sinusoidale"
-#~ msgstr "正弦波"
-
-#~ msgctxt "action"
-#~ msgid "Color Picker"
-#~ msgstr "拾色器"
-
-#~ msgid "Color Picker:"
-#~ msgstr "拾色器："
-
-#~ msgid "Color Picker"
-#~ msgstr "拾色器"
-
-#~ msgctxt "The value number each channel of picked color listed in a table"
-#~ msgid "Value"
-#~ msgstr "數值"
-
-#~ msgid "Pick a Color"
-#~ msgstr "拾取色彩"
-
-#~ msgctxt "action"
-#~ msgid "Create object"
-#~ msgstr "建立物件"
-
-#~ msgctxt "action"
-#~ msgid "Pattern editing"
-#~ msgstr "圖案編輯"
-
-#~ msgctxt "action"
-#~ msgid "Review"
-#~ msgstr "檢查"
-
-#~ msgctxt "action"
-#~ msgid "Vector Image Tool"
-#~ msgstr "向量影像工具"
-
-#~ msgctxt "action"
-#~ msgid "Vector Image (EMF/WMF/SVM/SVG) tool"
-#~ msgstr "向量影像 (EMF/WMF/SVM/SVG) 工具"
-
-#~ msgctxt "action"
-#~ msgid "Gradient Editing Tool"
-#~ msgstr "漸變編輯工具"
-
-#~ msgctxt "action"
-#~ msgid "Gradient editing"
-#~ msgstr "漸變編輯"
-
-#~ msgid "Set the angle of the light source"
-#~ msgstr "設定光源角度"
-
-#~ msgid "˚"
-#~ msgstr "˚"
-
-#~ msgid "Rotation: "
-#~ msgstr "旋轉："
-
-#~ msgid "Azimuth"
-#~ msgstr "方位角"
-
-#~ msgctxt "Angle for the gradient"
-#~ msgid "Angle: "
-#~ msgstr "角度："
-
-#~ msgctxt "action"
-#~ msgid "Ras&terize Layer"
-#~ msgstr "柵格化圖層(&T)"
-
-#~ msgctxt "action"
-#~ msgid "Rasterize Layer"
-#~ msgstr "點陣化圖層"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Rasterize Layer"
-#~ msgstr "柵格化圖層"
-
-#~ msgid ""
-#~ "Enable news to get the latest \n"
-#~ "feeds from Krita team here.\n"
-#~ "This needs internet to retrieve\n"
-#~ "information from the\n"
-#~ "krita.org website."
-#~ msgstr ""
-#~ "啟用新聞後，就可以在這裡\n"
-#~ "取得 Krita 的最新動態。\n"
-#~ "需要有網路連線，才能從\n"
-#~ "krita.org 網站擷取資訊。"
-
-#~ msgid "Check for updates"
-#~ msgstr "檢查更新"
-
-#~ msgid "Gradient:"
-#~ msgstr "漸變："
-
-#~ msgid "Color Mode:"
-#~ msgstr "色彩映射模式："
-
-#~ msgctxt "@info:tooltip"
-#~ msgid "Collapse Docker"
-#~ msgstr "收合工具面板"
-
-#~ msgid "Zoom time"
-#~ msgstr "縮放時間"
-
-#~ msgid "Zoom values"
-#~ msgstr "縮放值"
-
-#~ msgid "Hold value"
-#~ msgstr "保持數值"
-
-#~ msgid "Custom interpolation"
-#~ msgstr "自訂插值"
-
-#~ msgid "Sharp node"
-#~ msgstr "銳利節點"
-
-#~ msgid "Smooth node"
-#~ msgstr "平滑節點"
-
-#~ msgid "Show control points"
-#~ msgstr "顯示控制點"
-
-#~ msgid "Outline Selection"
-#~ msgstr "輪廓選取區域"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Select by Outline"
-#~ msgstr "按輪廓建立選取區域"
-
-#~ msgid "Outline Selection Tool"
-#~ msgstr "輪廓選取區域工具"
-
-#~ msgctxt "action"
-#~ msgid "Outline Selection Tool"
-#~ msgstr "輪廓選取區域工具"
-
-#~ msgid "Macros"
-#~ msgstr "巨集"
-
-#~ msgid ""
-#~ "Please restart Krita and activate the plugins in <em>Settings -> "
-#~ "Configure Krita -> Python Plugin Manager</em>."
-#~ msgstr ""
-#~ "請重新啟動 Krita 並在 <strong>設定 -> 設定 krita-> Python 外掛程式管理器</"
-#~ "strong> 處啟動外掛程式。"
-
-#~ msgid "Import successful"
-#~ msgstr "匯入成功"
-
-#~ msgid "Action file"
-#~ msgstr "操作檔案"
-
-#, fuzzy
-#~| msgid "Export directory"
-#~ msgctxt "A folder where recordings are stored"
-#~ msgid "Snapshots directory:"
-#~ msgstr "匯出目錄"
-
-#~ msgctxt ""
-#~ "It appears in the checkbox next to the filter box in resources dockers; "
-#~ "must be short."
-#~ msgid "filter by tag"
-#~ msgstr "依標籤過濾"
-
-#~ msgctxt "@info:tooltip"
-#~ msgid "%1"
-#~ msgstr "%1"
-
-#~ msgid "Compiler:"
-#~ msgstr "編譯器："
-
-#~ msgid "JPEG 2000 Export Options"
-#~ msgstr "JPEG 2000 匯出選項"
-
-#~ msgid "Select Normal Blending Mode"
-#~ msgstr "選擇正常混色模式"
-
-#~ msgid "Select Dissolve Blending Mode"
-#~ msgstr "選擇溶解混色模式"
-
-#~ msgid "Select Behind Blending Mode"
-#~ msgstr "選擇背後混色模式"
-
-#~ msgid "Select Clear Blending Mode"
-#~ msgstr "選擇透明混色模式"
-
-#~ msgid "Select Darken Blending Mode"
-#~ msgstr "選擇變暗混色模式"
-
-#~ msgid "Select Multiply Blending Mode"
-#~ msgstr "選擇相乘混色模式"
-
-#~ msgid "Select Color Burn Blending Mode"
-#~ msgstr "選擇顏色加深混色模式"
-
-#~ msgid "Select Linear Burn Blending Mode"
-#~ msgstr "選擇線性加深混色模式"
-
-#~ msgid "Select Lighten Blending Mode"
-#~ msgstr "選擇變亮混色模式"
-
-#~ msgid "Select Screen Blending Mode"
-#~ msgstr "選擇濾色混色模式"
-
-#~ msgid "Select Color Dodge Blending Mode"
-#~ msgstr "選擇顏色減淡混色模式"
-
-#~ msgid "Select Linear Dodge Blending Mode"
-#~ msgstr "選擇線性減淡混色模式"
-
-#~ msgid "Select Overlay Blending Mode"
-#~ msgstr "選擇疊加混色模式"
-
-#~ msgid "Select Hard Overlay Blending Mode"
-#~ msgstr "選擇強疊加混色模式"
-
-#~ msgid "Select Soft Light Blending Mode"
-#~ msgstr "選擇柔光混色模式"
-
-#~ msgid "Select Hard Light Blending Mode"
-#~ msgstr "選擇強光混色模式"
-
-#~ msgid "Select Vivid Light Blending Mode"
-#~ msgstr "選擇亮光混色模式"
-
-#~ msgid "Select Linear Light Blending Mode"
-#~ msgstr "選擇線性光混色模式"
-
-#~ msgid "Select Pin Light Blending Mode"
-#~ msgstr "選擇點光混色模式"
-
-#~ msgid "Select Hard Mix Blending Mode"
-#~ msgstr "選擇實色混合混色模式"
-
-#~ msgid "Select Difference Blending Mode"
-#~ msgstr "選擇差值混色模式"
-
-#~ msgid "Select Exclusion Blending Mode"
-#~ msgstr "選擇排除混色模式"
-
-#~ msgid "Select Hue Blending Mode"
-#~ msgstr "選擇色相混色模式"
-
-#~ msgid "Select Saturation Blending Mode"
-#~ msgstr "選擇飽和度混色模式"
-
-#~ msgid "Select Color Blending Mode"
-#~ msgstr "選擇顏色混色模式"
-
-#~ msgid "Select Luminosity Blending Mode"
-#~ msgstr "選擇光度混色模式"
-
-#~ msgctxt "action"
-#~ msgid "Copy to Clipboard"
-#~ msgstr "複製到剪貼簿"
-
-#~ msgctxt "action"
-#~ msgid "Cut to Clipboard"
-#~ msgstr "剪下到剪貼簿"
-
-#~ msgctxt "action"
-#~ msgid "Paste from Clipboard"
-#~ msgstr "從剪貼簿貼上"
-
-#~ msgctxt "action"
-#~ msgid "Copy Columns to Clipboard"
-#~ msgstr "將列複製到剪貼簿"
-
-#~ msgctxt "action"
-#~ msgid "Cut Columns to Clipboard"
-#~ msgstr "將列剪下到剪貼簿"
-
-#~ msgctxt "action"
-#~ msgid "Paste Columns from Clipboard"
-#~ msgstr "從剪貼簿貼上列"
-
-#~ msgctxt "action"
-#~ msgid "&Transform Mask..."
-#~ msgstr "變形遮罩(&T)…"
-
-#~ msgctxt "action"
-#~ msgid "to &File Layer"
-#~ msgstr "為檔案圖層(&F)"
-
-#~ msgctxt "action"
-#~ msgid "Properties"
-#~ msgstr "屬性"
-
-#, fuzzy
-#~| msgctxt "action"
-#~| msgid "&Properties..."
-#~ msgctxt "Menu text of Image Properties"
-#~ msgid "&Properties..."
-#~ msgstr "屬性(&P)…"
-
-#~ msgctxt "The display/screen we got from Qt"
-#~ msgid "Screen %1:"
-#~ msgstr "螢幕 %1："
-
-#, fuzzy
-#~| msgid "Transparency Mask"
-#~ msgid "Transpareny Mask"
-#~ msgstr "透明度遮罩"
-
-#, fuzzy
-#~| msgid "Lines"
-#~ msgctxt "Line label in Multigrid pattern options"
-#~ msgid "Lines"
-#~ msgstr "直線"
-
-#, fuzzy
-#~| msgid "Color:"
-#~ msgid "Color: "
-#~ msgstr "顏色："
-
-#~ msgid "Audio channel file %1 doesn't exist!"
-#~ msgstr "聲道檔案 %1 不存在。"
-
-#~ msgid "KisDitherWidget"
-#~ msgstr "KisDitherWidget"
-
-#~ msgid "Colors:"
-#~ msgstr "顏色："
-
-#, fuzzy
-#~| msgctxt "HSV Value"
-#~| msgid "Value"
-#~ msgctxt "HSV Value"
-#~ msgid "HSV Value"
-#~ msgstr "明度"
-
-#~ msgctxt "action"
-#~ msgid "Lock"
-#~ msgstr "鎖定"
-
-#~ msgid "Defor&m Layer"
-#~ msgstr "扭曲圖層(&M)"
-
-#, fuzzy
-#~| msgid "Preview"
-#~ msgctxt "The Granularity value for Preview"
-#~ msgid "Preview"
-#~ msgstr "預覽"
-
-#~ msgid "GBR"
-#~ msgstr "GBR"
-
-#~ msgctxt "action"
-#~ msgid "Previous frame"
-#~ msgstr "上一影格"
-
-#~ msgctxt "action"
-#~ msgid "Next frame"
-#~ msgstr "下一影格"
-
-#, fuzzy
-#~| msgid "Blur"
-#~ msgctxt "The category of blur filters, like gaussian blur. Verb."
-#~ msgid "Blur,"
-#~ msgstr "模糊"
-
-#~ msgid "Play Speed:"
-#~ msgstr "播放速度："
-
-#~ msgid "Frame Rate:"
-#~ msgstr "影格速率："
-
-#~ msgid "Preview modified layer"
-#~ msgstr "預覽已調整圖層"
-
-#~ msgid "Pr&eview"
-#~ msgstr "預覽(&E)"
-
-#~ msgid "Show original layer"
-#~ msgstr "顯示原始圖層"
-
-#~ msgid "Ori&ginal"
-#~ msgstr "原始(&G)"
-
-#~ msgid "1 : 1"
-#~ msgstr "1 : 1"
-
-#~ msgid "Update preview"
-#~ msgstr "更新預覽"
-
-#~ msgid "Automatically update the preview whenever the filter settings change"
-#~ msgstr "濾鏡設定變化時自動更新預覽"
-
-#~ msgid "&Autoupdate"
-#~ msgstr "自動更新(&A)"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Add transform keyframe"
-#~ msgstr "新增變形關鍵影格"
-
-#~ msgid "Previous Key Frame"
-#~ msgstr "上一關鍵影格"
-
-#~ msgid "Next Key Frame"
-#~ msgstr "下一關鍵影格"
-
-#~ msgid "First Frame"
-#~ msgstr "首影格"
-
-#~ msgid "Play / Stop"
-#~ msgstr "播放/停止"
-
-#~ msgid "Timeline"
-#~ msgstr "時間軸"
-
-#~ msgctxt "action"
-#~ msgid "Similar Selection Tool"
-#~ msgstr "相似顏色選取區域工具"
-
-#~ msgctxt "action"
-#~ msgid "Edit connection points"
-#~ msgstr "編輯連結點"
-
-#~ msgctxt "action"
-#~ msgid "%"
-#~ msgstr "%"
-
-#~ msgctxt "action"
-#~ msgid "Align to left edge"
-#~ msgstr "左邊緣對齊"
-
-#~ msgctxt "action"
-#~ msgid "Align to horizontal center"
-#~ msgstr "水平居中對齊"
-
-#~ msgctxt "action"
-#~ msgid "Align to right edge"
-#~ msgstr "右邊緣對齊"
-
-#~ msgctxt "action"
-#~ msgid "Align to top edge"
-#~ msgstr "上邊緣對齊"
-
-#~ msgctxt "action"
-#~ msgid "Align to vertical center"
-#~ msgstr "垂直居中對齊"
-
-#~ msgctxt "action"
-#~ msgid "Align to bottom edge"
-#~ msgstr "下邊緣對齊"
-
-#~ msgctxt "action"
-#~ msgid "Escape in all directions"
-#~ msgstr "可全方向超出"
-
-#~ msgctxt "action"
-#~ msgid "Escape in horizontal directions"
-#~ msgstr "可在水平方向超出"
-
-#~ msgctxt "action"
-#~ msgid "Escape in vertical directions"
-#~ msgstr "可在垂直方向超出"
-
-#~ msgctxt "action"
-#~ msgid "Escape in left direction"
-#~ msgstr "可向左超出"
-
-#~ msgctxt "action"
-#~ msgid "Escape in right direction"
-#~ msgstr "可向右超出"
-
-#~ msgctxt "action"
-#~ msgid "Escape in up direction"
-#~ msgstr "可向上超出"
-
-#~ msgctxt "action"
-#~ msgid "Escape in down direction"
-#~ msgstr "可向下超出"
-
-#~ msgctxt "action"
-#~ msgid "&New"
-#~ msgstr "建立(&N)"
-
-#~ msgctxt "action"
-#~ msgid "Reload"
-#~ msgstr "重新載入"
-
-#~ msgctxt "action"
-#~ msgid "&Print..."
-#~ msgstr "列印(&P)…"
-
-#~ msgctxt "action"
-#~ msgid "Print document"
-#~ msgstr "列印檔案"
-
-#~ msgctxt "action"
-#~ msgid "Print Previe&w"
-#~ msgstr "列印預覽(&W)"
-
-#~ msgctxt "action"
-#~ msgid "Show a print preview of document"
-#~ msgstr "顯示檔案的列印預覽"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change Connection"
-#~ msgstr "變更連結"
-
-#~ msgid "Tie"
-#~ msgstr "聯結"
-
-#~ msgid "A connection between two other shapes"
-#~ msgstr "其他兩個形狀之間的聯結"
-
-#~ msgctxt "Page size"
-#~ msgid "ISO A3"
-#~ msgstr "ISO A3"
-
-#~ msgctxt "Page size"
-#~ msgid "ISO A4"
-#~ msgstr "ISO A4"
-
-#~ msgctxt "Page size"
-#~ msgid "ISO A5"
-#~ msgstr "ISO A5"
-
-#~ msgctxt "Page size"
-#~ msgid "US Legal"
-#~ msgstr "US Legal"
-
-#~ msgctxt "Page size"
-#~ msgid "Screen"
-#~ msgstr "螢幕"
-
-#~ msgctxt "Page size"
-#~ msgid "Custom"
-#~ msgstr "自訂"
-
-#~ msgctxt "Page size"
-#~ msgid "ISO B5"
-#~ msgstr "ISO B5"
-
-#~ msgctxt "Page size"
-#~ msgid "US Executive"
-#~ msgstr "US Executive"
-
-#~ msgctxt "Page size"
-#~ msgid "ISO A0"
-#~ msgstr "ISO A0"
-
-#~ msgctxt "Page size"
-#~ msgid "ISO A1"
-#~ msgstr "ISO A1"
-
-#~ msgctxt "Page size"
-#~ msgid "ISO A2"
-#~ msgstr "ISO A2"
-
-#~ msgctxt "Page size"
-#~ msgid "ISO A6"
-#~ msgstr "ISO A6"
-
-#~ msgctxt "Page size"
-#~ msgid "ISO A7"
-#~ msgstr "ISO A7"
-
-#~ msgctxt "Page size"
-#~ msgid "ISO A8"
-#~ msgstr "ISO A8"
-
-#~ msgctxt "Page size"
-#~ msgid "ISO A9"
-#~ msgstr "ISO A9"
-
-#~ msgctxt "Page size"
-#~ msgid "ISO B0"
-#~ msgstr "ISO B0"
-
-#~ msgctxt "Page size"
-#~ msgid "ISO B1"
-#~ msgstr "ISO B1"
-
-#~ msgctxt "Page size"
-#~ msgid "ISO B10"
-#~ msgstr "ISO B10"
-
-#~ msgctxt "Page size"
-#~ msgid "ISO B2"
-#~ msgstr "ISO B2"
-
-#~ msgctxt "Page size"
-#~ msgid "ISO B3"
-#~ msgstr "ISO B3"
-
-#~ msgctxt "Page size"
-#~ msgid "ISO B4"
-#~ msgstr "ISO B4"
-
-#~ msgctxt "Page size"
-#~ msgid "ISO B6"
-#~ msgstr "ISO B6"
-
-#~ msgctxt "Page size"
-#~ msgid "ISO C5"
-#~ msgstr "ISO C5"
-
-#~ msgctxt "Page size"
-#~ msgid "US Common 10"
-#~ msgstr "US Common 10"
-
-#~ msgctxt "Page size"
-#~ msgid "ISO DL"
-#~ msgstr "ISO DL"
-
-#~ msgctxt "Page size"
-#~ msgid "US Folio"
-#~ msgstr "US Folio"
-
-#~ msgctxt "Page size"
-#~ msgid "US Ledger"
-#~ msgstr "US Ledger"
-
-#~ msgctxt "Page size"
-#~ msgid "US Tabloid"
-#~ msgstr "US Tabloid"
-
-#~ msgid "Cannot export to the specified file"
-#~ msgstr "無法匯出到指定檔案"
-
-#~ msgid ""
-#~ "You will lose all changes made since your last save\n"
-#~ "Do you want to continue?"
-#~ msgstr ""
-#~ "將放棄上次儲存之後的所有改變\n"
-#~ "要繼續嗎？"
-
-#~ msgid "Error: Could not reload this document"
-#~ msgstr "錯誤：無法重新載入此檔案"
-
-#~ msgid "%1 unsaved document (%2)"
-#~ msgstr "%1 未儲存的檔案 (%2)"
-
-#~ msgid "Ne&w..."
-#~ msgstr "建立(&W)…"
-
-#~ msgid "Page Layout"
-#~ msgstr "頁面版面配置"
-
-#~ msgid "Page"
-#~ msgstr "頁"
-
-#~ msgid "Apply to document"
-#~ msgstr "套用到檔案"
-
-#~ msgid "Left Edge:"
-#~ msgstr "左邊緣："
-
-#~ msgid "Right Edge:"
-#~ msgstr "右邊緣："
-
-#~ msgid "Binding Edge:"
-#~ msgstr "裝訂邊界："
-
-#~ msgid "Page Edge:"
-#~ msgstr "頁邊距："
-
-#~ msgid "Facing Pages:"
-#~ msgstr "並排頁面："
-
-#~ msgid "Facing pages"
-#~ msgstr "並排頁面"
-
-#~ msgid "Page spread"
-#~ msgstr "跨頁"
-
-#~ msgid "&Unit:"
-#~ msgstr "單元(&U)："
-
-#~ msgid "&Follow style:"
-#~ msgstr "跟隨樣式(&F)："
-
-#~ msgid "Po&rtrait"
-#~ msgstr "縱向(&R)"
-
-#~ msgid "Facing pages:"
-#~ msgstr "並排頁面："
-
-#~ msgid "Single sided"
-#~ msgstr "單面"
-
-#~ msgid "&Text direction:"
-#~ msgstr "文字方向(&T)："
-
-#~ msgid "&Binding edge:"
-#~ msgstr "裝訂邊界(&B)："
-
-#~ msgid "Pa&ge edge:"
-#~ msgstr "頁邊距(&G)："
-
-#~ msgid "Botto&m:"
-#~ msgstr "底部(&M)："
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Add text range"
-#~ msgstr "新增文字範圍"
-
-#~ msgid "ArtisticTextShape"
-#~ msgstr "藝術字形狀"
-
-#~ msgid "A shape which shows a single text line"
-#~ msgstr "顯示單行文字的形狀"
-
-#~ msgid "Click to change cursor position."
-#~ msgstr "點擊以變更游標位置。"
-
-#~ msgid "Click to select text shape."
-#~ msgstr "點擊以選取文字形狀。"
-
-#~ msgid "Double click to put text on path."
-#~ msgstr "雙擊以將文字沿路徑放置。"
-
-#~ msgid "Drag handle to change start offset."
-#~ msgstr "拖曳控制柄以調整起點偏移。"
-
-#~ msgid "Press escape to finish editing."
-#~ msgstr "按下 Esc 以完成編輯"
-
-#~ msgid "Press return to finish editing."
-#~ msgstr "按Enter以完成編輯。"
-
-#~ msgid "Text Properties"
-#~ msgstr "文字屬性"
-
-#~ msgid "Text On Path"
-#~ msgstr "沿路徑編排文字"
-
-#~ msgid "Artistic text editing"
-#~ msgstr "藝術字編輯"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Attach Path"
-#~ msgstr "依附路徑"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change text anchor"
-#~ msgstr "變更文字錨點"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change font"
-#~ msgstr "變更字型"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change Text Offset"
-#~ msgstr "變更文字偏移"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Detach Path"
-#~ msgstr "脫離路徑"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Remove text range"
-#~ msgstr "刪除文字範圍"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Accept change"
-#~ msgstr "套用變更"
-
-#~ msgctxt "Disable Shrink To Fit"
-#~ msgid "Disable"
-#~ msgstr "禁用"
-
-#~ msgctxt "(qtundo-format) Enable/Disable Grow To Fit Width"
-#~ msgid "%1 Grow To Fit Width"
-#~ msgstr "%1 擴大以適合寬度"
-
-#~ msgctxt "(qtundo-format) Enable/Disable Grow To Fit Height"
-#~ msgid "%1 Grow To Fit Height"
-#~ msgstr "%1 擴大以適合高度"
-
-#~ msgctxt "(qtundo-format) Enable/Disable Shrink To Fit"
-#~ msgid "%1 Shrink To Fit"
-#~ msgstr "%1 縮小以適應"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change List Level"
-#~ msgstr "變更列表級別"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Reject change"
-#~ msgstr "放棄變更"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Show Changes"
-#~ msgstr "顯示變更"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Hide Changes"
-#~ msgstr "隱藏變更"
-
-#~ msgid "Accept"
-#~ msgstr "套用"
-
-#~ msgid "Reject"
-#~ msgstr "放棄"
-
-#~ msgid "Change Log"
-#~ msgstr "變更列表"
-
-#~ msgid "Configure bibliography"
-#~ msgstr "變更參考文獻"
-
-#~ msgid "Formatting of bibliography entries"
-#~ msgstr "格式化參考文獻項"
-
-#~ msgid "Prefix:"
-#~ msgstr "前綴："
-
-#~ msgid "Suffix:"
-#~ msgstr "後綴："
-
-#~ msgid "Number entries"
-#~ msgstr "編號項"
-
-#~ msgid "Sort"
-#~ msgstr "排序"
-
-#~ msgid "Sort by position"
-#~ msgstr "按位置排序"
-
-#~ msgid "Sort keys"
-#~ msgstr "排序關鍵字"
-
-#~ msgid "Add sort key"
-#~ msgstr "新增排序關鍵字"
-
-#~ msgid "Sort algorithm:"
-#~ msgstr "排序演算法："
-
-#~ msgid "Alphanumeric"
-#~ msgstr "字母數字順序"
-
-#~ msgid "This is a line of inserted text."
-#~ msgstr "這是一行已插入文字。"
-
-#~ msgid "This is a line of deleted text."
-#~ msgstr "這是一行已刪除文字。"
-
-#~ msgid "This is a line of text whose format has been changed."
-#~ msgstr "這是一行變更過格式的文字。"
-
-#~ msgid "Configure Change Tracking"
-#~ msgstr "設定變更跟蹤"
-
-#~ msgid "Saving Format"
-#~ msgstr "儲存格式"
-
-#~ msgid "ODF 1.2"
-#~ msgstr "ODF 1.2"
-
-#~ msgid "DeltaXML (Experimental)"
-#~ msgstr "DeltaXML (試驗性)"
-
-#~ msgid "Author Name"
-#~ msgstr "作者姓名"
-
-#~ msgid "Change Visualization Settings"
-#~ msgstr "變更可視化設定"
-
-#~ msgid "Insertions"
-#~ msgstr "插入物件"
-
-#~ msgid ""
-#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
-#~ "REC-html40/strict.dtd\">\n"
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
-#~ "css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-"
-#~ "size:9pt; font-weight:400; font-style:normal;\">\n"
-#~ "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-"
-#~ "left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span "
-#~ "style=\" font-family:'MS Shell Dlg 2'; font-size:11pt; font-weight:600; "
-#~ "text-decoration: underline;\">Preview</span></p>\n"
-#~ "<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:0px; "
-#~ "margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; "
-#~ "text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:12pt; font-"
-#~ "weight:600;\"></p>\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
-#~ "family:'MS Shell Dlg 2'; font-weight:600;\">Inserted Text</span></p>\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
-#~ "family:'MS Shell Dlg 2'; font-size:8pt;\">This is a line of text before "
-#~ "the inserted text. This is a line of inserted text. This is a line after "
-#~ "the inserted text.</span></p>\n"
-#~ "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
-#~ "margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; "
-#~ "font-family:'MS Shell Dlg 2';\"></p>\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
-#~ "family:'MS Shell Dlg 2'; font-weight:600;\">Deleted Text</span></p>\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
-#~ "family:'MS Shell Dlg 2'; font-size:8pt;\">This is a line of text before "
-#~ "the deleted text. This is a line of deleted text. This is a line after "
-#~ "the deleted text.</span></p>\n"
-#~ "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
-#~ "margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; "
-#~ "font-family:'MS Shell Dlg 2';\"></p>\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
-#~ "family:'MS Shell Dlg 2'; font-weight:600;\">Formatted Text</span></p>\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
-#~ "family:'MS Shell Dlg 2'; font-size:8pt;\">This is a line of text before "
-#~ "the format-change text. This is a line of text whose format has been "
-#~ "changed. This is a line of text after the format-change text.</span></p></"
-#~ "body></html>"
-#~ msgstr ""
-#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
-#~ "REC-html40/strict.dtd\">\n"
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
-#~ "css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-"
-#~ "size:9pt; font-weight:400; font-style:normal;\">\n"
-#~ "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-"
-#~ "left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span "
-#~ "style=\" font-family:'MS Shell Dlg 2'; font-size:11pt; font-weight:600; "
-#~ "text-decoration: underline;\">預覽</span></p>\n"
-#~ "<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:0px; "
-#~ "margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; "
-#~ "text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:12pt; font-"
-#~ "weight:600;\"></p>\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
-#~ "family:'MS Shell Dlg 2'; font-weight:600;\">插入的文字</span></p>\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
-#~ "family:'MS Shell Dlg 2'; font-size:8pt;\">這是位於已插入文字之前的一行文"
-#~ "字。這是一行已插入文字。這是位於已插入文字之後的一行文字。</span></p>\n"
-#~ "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
-#~ "margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; "
-#~ "font-family:'MS Shell Dlg 2';\"></p>\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
-#~ "family:'MS Shell Dlg 2'; font-weight:600;\">已刪除文字</span></p>\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
-#~ "family:'MS Shell Dlg 2'; font-size:8pt;\">這是位於已刪除文字之前的一行文"
-#~ "字。這是一行已刪除文字。這是位於已刪除文字之後的一行文字。</span></p>\n"
-#~ "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
-#~ "margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; "
-#~ "font-family:'MS Shell Dlg 2';\"></p>\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
-#~ "family:'MS Shell Dlg 2'; font-weight:600;\">已格式化文字</span></p>\n"
-#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
-#~ "family:'MS Shell Dlg 2'; font-size:8pt;\">這是位於被變更格式文字之前的一行"
-#~ "文字。這是一行被變更格式的文字。這是位於被變更格式文字之後的文字。</"
-#~ "span></p></body></html>"
-
-#~ msgid "Deletions"
-#~ msgstr "刪除物件"
-
-#~ msgid "Format Changes"
-#~ msgstr "格式變更"
-
-#~ msgid "Change Tracking Options"
-#~ msgstr "變更追蹤選項"
-
-#~ msgid "Configure Settings"
-#~ msgstr "設定設定"
-
-#~ msgid "Record Changes"
-#~ msgstr "記錄變更"
-
-#~ msgctxt "Name of the style"
-#~ msgid "Name:"
-#~ msgstr "名稱："
-
-#~ msgid "Next style:"
-#~ msgstr "下一個樣式："
-
-#~ msgid "Parent style:"
-#~ msgstr "父樣式："
-
-#~ msgid "Include in table of contents"
-#~ msgstr "包含在目錄中"
-
-#~ msgid "Small Caps"
-#~ msgstr "小型大寫字母"
-
-#~ msgid "Uppercase"
-#~ msgstr "大寫字母"
-
-#~ msgid "Lowercase"
-#~ msgstr "小寫字母"
-
-#~ msgid "Capitalize"
-#~ msgstr "字首大寫"
-
-#~ msgid "Superscript"
-#~ msgstr "上標"
-
-#~ msgid "Subscript"
-#~ msgstr "下標"
-
-#~ msgid "Text color:"
-#~ msgstr "文字顏色："
-
-#~ msgid "Background color:"
-#~ msgstr "背景色："
-
-#~ msgid "Underlining:"
-#~ msgstr "下劃線："
-
-#~ msgid "Strikethrough:"
-#~ msgstr "刪除線："
-
-#~ msgctxt "Character position"
-#~ msgid "Position:"
-#~ msgstr "位置："
-
-#~ msgid "Used Styles"
-#~ msgstr "已使用的樣式"
-
-#~ msgid "Unused Styles"
-#~ msgstr "未使用的樣式"
-
-#~ msgid "Text Shadow"
-#~ msgstr "文字陰影"
-
-#~ msgid "Automatic hyphenation"
-#~ msgstr "自動斷字"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Font"
-#~ msgstr "字型"
-
-#~ msgid "Insert"
-#~ msgstr "插入"
-
-#~ msgctxt "Close dialog"
-#~ msgid "Close"
-#~ msgstr "關閉"
-
-#~ msgid "No Bullet"
-#~ msgstr "無符號"
-
-#~ msgctxt "Automatic horizontal alignment"
-#~ msgid "Auto"
-#~ msgstr "動作"
-
-#~ msgctxt "Text alignment"
-#~ msgid "Left"
-#~ msgstr "左側"
-
-#~ msgctxt "Text alignment"
-#~ msgid "Right"
-#~ msgstr "右側"
-
-#~ msgctxt "Text alignment"
-#~ msgid "Centered"
-#~ msgstr "居中對齊"
-
-#~ msgctxt "Tab follows the bullet or number"
-#~ msgid "Tab Stop"
-#~ msgstr "定位點"
-
-#~ msgctxt "None"
-#~ msgid "Nothing"
-#~ msgstr "無"
-
-#~ msgid "Select a list image"
-#~ msgstr "選擇列表影像"
-
-#~ msgid "Alignment:"
-#~ msgstr "對齊"
-
-#~ msgid "Display Levels:"
-#~ msgstr "顯示級別："
-
-#~ msgid "Bullet/Number followed by"
-#~ msgstr "項目符號/編號跟隨"
-
-#~ msgid " cm"
-#~ msgstr " cm"
-
-#~ msgid "at"
-#~ msgstr "於"
-
-#~ msgid "Aligned at"
-#~ msgstr "對齊於"
-
-#~ msgid "Indented at"
-#~ msgstr "縮排於"
-
-#~ msgid "Custom character:"
-#~ msgstr "自訂字元："
-
-#~ msgid "Restart numbering at this paragraph"
-#~ msgstr "在此段落重新開始編號"
-
-#~ msgid "Letter Synchronization"
-#~ msgstr "字母同步"
-
-#~ msgid "Insert Image"
-#~ msgstr "插入影像"
-
-#~ msgid "Whole Word"
-#~ msgstr "整個單詞"
-
-#~ msgid "Drop caps:"
-#~ msgstr "首字下沉："
-
-#~ msgid "Distance to paragraph:"
-#~ msgstr "段落間距："
-
-#~ msgid "Number of characters:"
-#~ msgstr "字元數："
-
-#~ msgid "Indent/Spacing"
-#~ msgstr "縮排/間距"
-
-#~ msgid "General Layout"
-#~ msgstr "一般版面配置"
-
-#~ msgid "Bullets/Numbers"
-#~ msgstr "項目符號/編號"
-
-#~ msgid "Decorations"
-#~ msgstr "修飾"
-
-#~ msgid "Drop Caps"
-#~ msgstr "首字下沉"
-
-#~ msgctxt "Line spacing value"
-#~ msgid "Single"
-#~ msgstr "單倍"
-
-#~ msgctxt "Line spacing value"
-#~ msgid "1.5 Lines"
-#~ msgstr "1.5 倍"
-
-#~ msgctxt "Line spacing value"
-#~ msgid "Double"
-#~ msgstr "雙倍"
-
-#~ msgctxt "Line spacing type"
-#~ msgid "Proportional"
-#~ msgstr "按比例"
-
-#~ msgctxt "Line spacing type"
-#~ msgid "Additional"
-#~ msgstr "附加"
-
-#~ msgctxt "Line spacing type"
-#~ msgid "At least"
-#~ msgstr "至少"
-
-#~ msgid "<p><ul><li><b>Single</b>: The normal linespacing</li></ul></p> "
-#~ msgstr "<p><ul><li><b>單倍</b>：常見的行距</li></ul></p> "
-
-#~ msgid "Indent"
-#~ msgstr "縮排"
-
-#~ msgid "First Line:"
-#~ msgstr "首行："
-
-#~ msgid "Auto-infer from text size"
-#~ msgstr "根據文字大小自動推斷"
-
-#~ msgid "Use Font Metrics:"
-#~ msgstr "使用字型度量標準："
-
-#~ msgid "Paragraph Space"
-#~ msgstr "段落間距"
-
-#~ msgid "Before:"
-#~ msgstr "段前："
-
-#~ msgid "After:"
-#~ msgstr "段後："
-
-#~ msgid "Alignment"
-#~ msgstr "對齊"
-
-#~ msgid "Left"
-#~ msgstr "左側"
-
-#~ msgid "Right"
-#~ msgstr "右側"
-
-#~ msgid "Justify"
-#~ msgstr "兩端對齊"
-
-#~ msgid "Behavior at End of Frame/Page"
-#~ msgstr "邊框/頁面末段行為"
-
-#~ msgid "Keep lines together"
-#~ msgstr "保持行尾一致"
-
-#~ msgid "Insert break before paragraph"
-#~ msgstr "在段落前插入分隔符"
-
-#~ msgid "Insert break after paragraph"
-#~ msgstr "在段落後插入分隔符"
-
-#~ msgid "Leave at least this many lines (orphans):"
-#~ msgstr "最低保留行數 (孤行)："
-
-#~ msgid "Paragraph Format"
-#~ msgstr "段落格式"
-
-#~ msgid "Insert a table"
-#~ msgstr "插入表格"
-
-#~ msgid "Section name"
-#~ msgstr "章節名稱"
-
-#~ msgid "Configure sections"
-#~ msgstr "設定章節"
-
-#~ msgid "Invalid characters or section with such name exists."
-#~ msgstr "無效字元，或已存在同名章節。"
-
-#~ msgid "Section name:"
-#~ msgstr "章節名稱："
-
-#~ msgid "Split sections"
-#~ msgstr "分割章節"
-
-#~ msgid "Insert paragraph..."
-#~ msgstr "插入段落…"
-
-#~ msgid "before start of section:"
-#~ msgstr "在章節之前："
-
-#~ msgid "after end of section:"
-#~ msgstr "在章節之後："
-
-#~ msgid "Change font format"
-#~ msgstr "變更字型格式"
-
-#~ msgid ""
-#~ "Other insertions from \"References\"  below and in \"Add Shape\" docker"
-#~ msgstr "來自下方 「參考圖」  和 「新增形狀」 工具面板的其他插入物件"
-
-#~ msgid "Change paragraph format"
-#~ msgstr "變更段落格式"
-
-#~ msgid "Change List Level"
-#~ msgstr "變更列表級別"
-
-#~ msgid "Change the level the list is at"
-#~ msgstr "變更列表所在的級別"
-
-#~ msgid "Set Border Color..."
-#~ msgstr "設定邊框顏色…"
-
-#~ msgctxt "No border - has to fit in 48pixels"
-#~ msgid "None"
-#~ msgstr "無"
-
-#~ msgid "No Border"
-#~ msgstr "無邊框"
-
-#~ msgid "Create a new style inheriting the current style"
-#~ msgstr "建立一個繼承目前樣式的新樣式"
-
-#~ msgid "New Style"
-#~ msgstr "建立樣式"
-
-#~ msgid "Another style named '%1' already exist. Please choose another name."
-#~ msgstr "名稱為「%1」的樣式已存在，請另選名稱。"
-
-#~ msgid "Paragraph"
-#~ msgstr "段落"
-
-#~ msgid "Character"
-#~ msgstr "字元"
-
-#~ msgid "Style Manager"
-#~ msgstr "樣式管理器"
-
-#~ msgid "Save Changes"
-#~ msgstr "儲存變更"
-
-#~ msgid ""
-#~ "You have changes that are not applied. What do you want to do with those "
-#~ "changes?"
-#~ msgstr "有尚未套用的變動。要如何處理這些變動？"
-
-#~ msgid ""
-#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
-#~ "REC-html40/strict.dtd\">\n"
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
-#~ "css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'DejaVu Sans'; font-size:9pt; "
-#~ "font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
-#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">It is possible to "
-#~ "assign a named style to text and alter the style properties to change all "
-#~ "text with that style.</p>\n"
-#~ "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
-#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Applying a style change "
-#~ "will reformat all text that previously got the named style assigned to "
-#~ "it. Use the Styles docker to apply styles to text.</p></body></html>"
-#~ msgstr ""
-#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
-#~ "REC-html40/strict.dtd\">\n"
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
-#~ "css\">\n"
-#~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'DejaVu Sans'; font-size:9pt; "
-#~ "font-weight:400; font-style:normal;\">\n"
-#~ "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
-#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">可以為文字指定一個帶有名"
-#~ "稱的樣式，然後以該樣式來改變所有文字。</p>\n"
-#~ "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
-#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">套用樣式變化時所有文字之"
-#~ "前的樣式會被格式化。使用樣式工具面板來套用樣式到文字。</p></body></html>"
-
-#~ msgid "Create a new style with the current properties"
-#~ msgstr "以目前屬性建立新樣式"
-
-#~ msgid "New style"
-#~ msgstr "建立樣式"
-
-#~ msgid "Insert Table"
-#~ msgstr "插入表格"
-
-#~ msgid "Columns and rows"
-#~ msgstr "行數和列數"
-
-#~ msgid "Number of columns:"
-#~ msgstr "列數："
-
-#~ msgid "Number of rows:"
-#~ msgstr "行數："
-
-#~ msgid "Width strategy"
-#~ msgstr "寬度策略"
-
-#~ msgid "Fixed column width:"
-#~ msgstr "固定列寬："
-
-#~ msgid "Fit to contents"
-#~ msgstr "適合內容大小"
-
-#~ msgid "Fit to available surrounding"
-#~ msgstr "適應周圍空間"
-
-#~ msgid "Table of Contents - Configure"
-#~ msgstr "目錄 - 設定"
-
-#~ msgid "Table Title"
-#~ msgstr "表格標題"
-
-#~ msgid "Use outline"
-#~ msgstr "使用輪廓"
-
-#~ msgid "Use styles"
-#~ msgstr "使用樣式"
-
-#~ msgid "Configure"
-#~ msgstr "設定"
-
-#~ msgid "Tab 1"
-#~ msgstr "標籤 1"
-
-#~ msgid "CheckBox"
-#~ msgstr "選框"
-
-#~ msgid "Tab 2"
-#~ msgstr "標籤 2"
-
-#~ msgid "Level %1"
-#~ msgstr "第 %1 級"
-
-#~ msgid "Level"
-#~ msgstr "級別"
-
-#~ msgid "Style"
-#~ msgstr "樣式"
-
-#~ msgid "Table of Contents - Configure Styles"
-#~ msgstr "目錄 - 設定樣式"
-
-#~ msgid "Disabled"
-#~ msgstr "已禁用"
-
-#~ msgid "Table Of Contents"
-#~ msgstr "目錄"
-
-#~ msgid "Contents"
-#~ msgstr "內容"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change List"
-#~ msgstr "變更列表"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change Styles"
-#~ msgstr "變更樣式"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Delete"
-#~ msgstr "刪除"
-
-#~ msgid "Key Press"
-#~ msgstr "按鍵操作"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Text"
-#~ msgstr "文字"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Delete Column"
-#~ msgstr "刪除列"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Delete Row"
-#~ msgstr "刪除行"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Insert Footnote"
-#~ msgstr "插入腳註"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Insert Endnote"
-#~ msgstr "插入尾注"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Insert Column Right"
-#~ msgstr "在右側插入列"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Insert Column Left"
-#~ msgstr "在左側插入列"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Insert Row Below"
-#~ msgstr "在下方插入行"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Insert Row Above"
-#~ msgstr "在上方插入行"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change List Numbering"
-#~ msgstr "變更列表編號"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "New Section"
-#~ msgstr "建立章節："
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Formatting"
-#~ msgstr "格式設定"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Direct Paragraph Formatting"
-#~ msgstr "直接段落樣式"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Rename Section"
-#~ msgstr "重新命名章節"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Adjust Column Width"
-#~ msgstr "調整列寬"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Split sections startings"
-#~ msgstr "分割章節開頭"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Split sections endings"
-#~ msgstr "分割章節結尾"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Paste As Text"
-#~ msgstr "貼上為文字"
-
-#~ msgid "Index Reference"
-#~ msgstr "索引引用"
-
-#~ msgid "Please create an index to reference first."
-#~ msgstr "請先建立要引用的索引。"
-
-#~ msgid "Select the index you want to reference"
-#~ msgstr "選擇想要引用的索引"
-
-#~ msgctxt "new numbered section name"
-#~ msgid "New section %1"
-#~ msgstr "建立章節 %1"
-
-#~ msgctxt "Underline Style"
-#~ msgid "None"
-#~ msgstr "無"
-
-#~ msgctxt "Underline Style"
-#~ msgid "Single"
-#~ msgstr "單倍"
-
-#~ msgctxt "Underline Style"
-#~ msgid "Double"
-#~ msgstr "雙倍"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "New Paragraph"
-#~ msgstr "新段落"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Add Bookmark"
-#~ msgstr "新增書籤"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Add Annotation"
-#~ msgstr "新增批註"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Insert Index"
-#~ msgstr "插入索引"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Insert Break"
-#~ msgstr "插入分隔符"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Insert Table"
-#~ msgstr "插入表格"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Merge Cells"
-#~ msgstr "合併儲存格"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Adjust Table Width"
-#~ msgstr "調整表格寬度"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change Border Formatting"
-#~ msgstr "變更邊框格式"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Insert Table Of Contents"
-#~ msgstr "插入目錄"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify Table Of Contents"
-#~ msgstr "編輯目錄"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Insert Bibliography"
-#~ msgstr "插入參考文獻"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Add Citation"
-#~ msgstr "新增引用"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Typing"
-#~ msgstr "輸入"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Bold"
-#~ msgstr "粗體"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Italic"
-#~ msgstr "斜體"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Underline"
-#~ msgstr "下劃線"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Strike Out"
-#~ msgstr "刪除線"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change Alignment"
-#~ msgstr "變更對齊"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Set Vertical Alignment"
-#~ msgstr "設定垂直對齊"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Decrease Indent"
-#~ msgstr "減小縮排"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Increase Indent"
-#~ msgstr "增大縮排"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Decrease font size"
-#~ msgstr "縮小字型"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Increase font size"
-#~ msgstr "增大字型"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Set Font"
-#~ msgstr "設定字型"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Set Font Size"
-#~ msgstr "設定字型大小"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Set Text Color"
-#~ msgstr "設定文字顏色"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Set Character Style"
-#~ msgstr "設定字元樣式"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Set Paragraph Style"
-#~ msgstr "設定段落樣式"
-
-#~ msgctxt "Text list-style"
-#~ msgid "None"
-#~ msgstr "無"
-
-#~ msgid "Small Bullet"
-#~ msgstr "小符號"
-
-#~ msgid "Square Bullet"
-#~ msgstr "方形符號"
-
-#~ msgid "Rhombus Bullet"
-#~ msgstr "菱形符號"
-
-#~ msgid "Check Mark Bullet"
-#~ msgstr "打勾符號"
-
-#~ msgid "Rightwards Arrow Bullet"
-#~ msgstr "向右箭頭符號"
-
-#~ msgid "Arabic"
-#~ msgstr "阿拉伯語"
-
-#~ msgid "Lower Alphabetical"
-#~ msgstr "按字母順序降序"
-
-#~ msgid "Upper Alphabetical"
-#~ msgstr "按字母順序升序"
-
-#~ msgid "Lower Roman"
-#~ msgstr "小寫羅馬字母"
-
-#~ msgid "Upper Roman"
-#~ msgstr "大寫羅馬字母"
-
-#~ msgid "Large Bullet"
-#~ msgstr "大符號"
-
-#~ msgid "Ballot X Bullet"
-#~ msgstr "投票 X 項目符號"
-
-#~ msgid "Rightwards Arrow Head Bullet"
-#~ msgstr "向右箭頭頭部項目符號"
-
-#~ msgid "Bengali"
-#~ msgstr "孟加拉語"
-
-#~ msgid "Gujarati"
-#~ msgstr "古吉拉特語"
-
-#~ msgid "Gurumukhi"
-#~ msgstr "錫克教文"
-
-#~ msgid "Kannada"
-#~ msgstr "坎那達語"
-
-#~ msgid "Malayalam"
-#~ msgstr "馬拉雅拉姆語"
-
-#~ msgid "Oriya"
-#~ msgstr "奧里雅語"
-
-#~ msgid "Tamil"
-#~ msgstr "泰米爾語"
-
-#~ msgid "Telugu"
-#~ msgstr "泰盧固語"
-
-#~ msgid "Tibetan"
-#~ msgstr "藏語"
-
-#~ msgid "Thai"
-#~ msgstr "泰語"
-
-#~ msgid "Abjad"
-#~ msgstr "子音音素字母"
-
-#~ msgid "AbjadMinor"
-#~ msgstr "子音音素字母附加符號"
-
-#~ msgid "ArabicAlphabet"
-#~ msgstr "阿拉伯字母"
-
-#~ msgid "A shape that shows text"
-#~ msgstr "顯示文字的形狀"
-
-#~ msgid "Text Shape"
-#~ msgstr "文字形狀"
-
-#~ msgid "Variable"
-#~ msgstr "變數"
-
-#~ msgid "Insertion"
-#~ msgstr "插入物件"
-
-#~ msgid "Deletion"
-#~ msgstr "刪除物件"
-
-#~ msgid "Ctrl+click to go to link "
-#~ msgstr "Ctrl + 單擊跳轉到連結"
-
-#~ msgid "Ctrl+click to go to the note "
-#~ msgstr "Ctrl + 單擊跳轉到注釋"
-
-#~ msgid "Ctrl+click to go to the note reference"
-#~ msgstr "Ctrl + 單擊跳轉到注釋引用"
-
-#~ msgid "follows along"
-#~ msgstr "跟隨"
-
-#~ msgid "Press shift to not resize this"
-#~ msgstr "按住 Shift 以不調整此大小"
-
-#~ msgid "Table"
-#~ msgstr "表格"
-
-#~ msgid "Autocorrection"
-#~ msgstr "自動更正"
-
-#~ msgid "Text editing"
-#~ msgstr "文字編輯"
-
-#~ msgid "Escape Direction"
-#~ msgstr "可超出方向"
-
-#~ msgid "Drag to edit connection."
-#~ msgstr "拖曳以編輯連結。"
-
-#~ msgid "Double click connection or press delete to remove it."
-#~ msgstr "雙擊連結點或按下 Delete 以移除它。"
-
-#~ msgid "Click to edit connection points."
-#~ msgstr "點擊編輯連結點。"
-
-#~ msgid ""
-#~ "Drag to move connection point. Double click connection or press delete to "
-#~ "remove it."
-#~ msgstr "拖曳以移動連結點。雙擊連結點或按下 Delete 以移除它。"
-
-#~ msgid "Double click connection point or press delete to remove it."
-#~ msgstr "雙擊連結點或按下 Delete 以移除它。"
-
-#~ msgid "Double click to add connection point."
-#~ msgstr "雙擊以新增連結點。"
-
-#~ msgid "Drag to create new connection."
-#~ msgstr "拖曳以建立新連結。"
-
-#~ msgid "Connection Point"
-#~ msgstr "連結點"
-
-#~ msgid "Connect shapes"
-#~ msgstr "連結形狀"
-
-#~ msgid ""
-#~ "An autosaved file exists for this document.\n"
-#~ "Do you want to open the autosaved file instead?"
-#~ msgstr ""
-#~ "此檔案另有一個自動儲存的檔案。\n"
-#~ "要開啟自動儲存的檔案嗎？"
-
-#~ msgctxt "action"
-#~ msgid "Path editing"
-#~ msgstr "路徑編輯"
-
-#~ msgid "Limit to current layer:"
-#~ msgstr "僅限目前圖層："
-
-#~ msgid "Limit to current layer"
-#~ msgstr "限制在目前圖層"
-
-#~ msgid "Allow only one instance of Krita"
-#~ msgstr "只允許一個 Krita 實例"
-
-#~ msgid "Use Color as Mask"
-#~ msgstr "把顏色用作遮罩"
-
-#~ msgid ""
-#~ "The location of FFmpeg is unknown. Please install FFmpeg first: Krita "
-#~ "cannot render animations without FFmpeg. (<a href=\"https://www.ffmpeg.org"
-#~ "\">www.ffmpeg.org</a>)"
-#~ msgstr ""
-#~ "找不到 FFMpeg 的位置。請首先安裝 FFmpeg，因為 Krita 必須依靠 FFmpeg 繪製動"
-#~ "畫。(<a href=\"https://www.ffmpeg.org\">www.ffmpeg.org</a>)"
-
-#~ msgctxt "action"
-#~ msgid "Toggle Assistant"
-#~ msgstr "切換輔助尺"
-
-#~ msgid "Loading Plugins for Krita/Tool..."
-#~ msgstr "正在載入 Krita 工具的外掛程式…"
-
-#~ msgid "Loading Plugins for Krita/Dock..."
-#~ msgstr "正在載入 Krita 工具面板的外掛程式…"
-
-#~ msgid "-30°"
-#~ msgstr "-30°"
-
-#~ msgid "30°"
-#~ msgstr "30°"
-
-#, fuzzy
-#~| msgid "Invalid"
-#~ msgctxt "@title:window"
-#~ msgid "Name invalid"
-#~ msgstr "無效"
-
-#~ msgctxt "action"
-#~ msgid "Cleanup removed files..."
-#~ msgstr "清理已移除的檔案…"
-
-#~ msgid "Cleanup resource files"
-#~ msgstr "清理資來源檔案"
-
-#~ msgid "Permanently delete session %1?"
-#~ msgstr "要永久刪除工作階段 %1 嗎？"
-
-#~ msgid ""
-#~ "Use trilinear filtering when zooming. Disabling this may improve painting "
-#~ "performance."
-#~ msgstr "將三線性過濾用於縮放。禁用此選項可能提升繪圖效能。"
-
-#~ msgid "Colorsets"
-#~ msgstr "顏色集合"
-
-#~ msgid "File name"
-#~ msgstr "檔案名"
-
-#~ msgid "current brush"
-#~ msgstr "目前筆刷"
-
-#~ msgid "Loading Brush Presets..."
-#~ msgstr "正在載入筆刷預設…"
-
-#~ msgid "Loading Brushes..."
-#~ msgstr "正在載入筆刷…"
-
-#~ msgid "Loading Bundles..."
-#~ msgstr "正在載入資源包…"
-
-#~ msgid "Workspace"
-#~ msgstr "作業空間"
-
-#~ msgid "Workspace %1"
-#~ msgstr "作業空間 %1"
-
-#~ msgctxt "Default file name for a new palette"
-#~ msgid "New Palette"
-#~ msgstr "新調色板"
-
-#~ msgid "Can't Import Palette"
-#~ msgstr "無法匯入調色板"
-
-#~ msgid ""
-#~ "Can't import palette: there's already imported with the same filename"
-#~ msgstr "無法匯入調色板：已存在相同檔案名的調色板"
-
-#~ msgid "Saving palette failed"
-#~ msgstr "儲存調色板失敗"
-
-#~ msgid ""
-#~ "Failed to save global palette file. Please set it to non-global, or you "
-#~ "will lose the file when you close Krita"
-#~ msgstr ""
-#~ "無法儲存為全域調色板檔案。請將其設為非全域，否則在關閉 Krita 是將遺失該檔"
-#~ "案"
-
-#~ msgid ""
-#~ "The following resources had mismatching MD5 sums. They may have gotten "
-#~ "corrupted, for example, during download."
-#~ msgstr "下列資源的 MD5 和值不一致。它們有可能已在下載等過程中損壞。"
-
-#~ msgid "Window Layout %1"
-#~ msgstr "視窗版面配置 %1"
-
-#~ msgid "Change the filling pattern"
-#~ msgstr "變更填充紋理"
-
-#~ msgid " [READONLY]"
-#~ msgstr " [唯讀檔案]"
-
-#~ msgid "Unable to undelete tag"
-#~ msgstr "無法復原刪除標籤"
-
-#~ msgid ""
-#~ "<qt>The tag you are trying to undelete already exists in tag list."
-#~ "<br>Please enter a new, unique name for it.</qt>"
-#~ msgstr ""
-#~ "<qt>正在復原刪除的標籤名稱已存在於標籤列表中。<br>請輸入一個新的，唯一的名"
-#~ "稱。</qt>"
-
-#~ msgid "Tag was not undeleted."
-#~ msgstr "標記未被復原刪除。"
-
-#~ msgctxt "@info:tooltip"
-#~ msgid ""
-#~ "<qt>Save the currently filtered set as the new members of the current tag."
-#~ "</qt>"
-#~ msgstr "<qt>儲存篩選結果到目前標籤</qt>"
-
-#~ msgid "Clear undelete list"
-#~ msgstr "清空復原刪除列表"
-
-#~ msgid "Taskset %1"
-#~ msgstr "操作集合 %1"
-
-#~ msgid "Manage Resource Bundles"
-#~ msgstr "管理資源包"
-
-#~ msgid "Couldn't add bundle \"%1\" to resource server"
-#~ msgstr "無法將資源包「%1」新增到資源伺服器"
-
-#~ msgid "Bundle \"%1\" doesn't exist!"
-#~ msgstr "資源包「%1」不存在！"
-
-#~ msgid "Inactive Bundles"
-#~ msgstr "未啟動的資源包"
-
-#~ msgid "&Edit bundle..."
-#~ msgstr "編輯資源包(&E)…"
-
-#~ msgctxt ""
-#~ "Auto-generated layer style collection name for embedded styles "
-#~ "(collection)"
-#~ msgid "<%1> (embedded)"
-#~ msgstr "<%1> (內嵌)"
-
-#~ msgid "Gaussian blur"
-#~ msgstr "高斯模糊"
-
-#~ msgid "Color Matrix"
-#~ msgstr "顏色矩陣"
-
-#~ msgid "Apply color matrix"
-#~ msgstr "套用顏色矩陣"
-
-#~ msgid "Saturate colors"
-#~ msgstr "提高色彩飽和度"
-
-#~ msgid "Luminance to alpha"
-#~ msgstr "光度轉為透明度"
-
-#~ msgid "Saturate value"
-#~ msgstr "提高明度飽和度"
-
-#~ msgid "Component transfer"
-#~ msgstr "分量轉移"
-
-#~ msgid "Identity"
-#~ msgstr "恆等式"
-
-#~ msgid "Discrete"
-#~ msgstr "離散式"
-
-#~ msgid "Gamma"
-#~ msgstr "Gamma"
-
-#~ msgid "Values"
-#~ msgstr "數值"
-
-#~ msgid "Slope"
-#~ msgstr "斜率"
-
-#~ msgid "Intercept"
-#~ msgstr "截距"
-
-#~ msgid "Amplitude"
-#~ msgstr "幅度"
-
-#~ msgid "Exponent"
-#~ msgstr "指數"
-
-#~ msgid "Composite"
-#~ msgstr "複合"
-
-#~ msgid "Operation"
-#~ msgstr "操作"
-
-#~ msgctxt "blending mode"
-#~ msgid "Over"
-#~ msgstr "上方"
-
-#~ msgctxt "blending mode"
-#~ msgid "In"
-#~ msgstr "內部"
-
-#~ msgctxt "blending mode"
-#~ msgid "Out"
-#~ msgstr "外部"
-
-#~ msgctxt "blending mode"
-#~ msgid "Atop"
-#~ msgstr "頂部"
-
-#~ msgctxt "blending mode"
-#~ msgid "Xor"
-#~ msgstr "異或"
-
-#~ msgctxt "blending mode"
-#~ msgid "Arithmetic"
-#~ msgstr "數學運算"
-
-#~ msgid "Convolve Matrix"
-#~ msgstr "卷積矩陣"
-
-#~ msgid "Wrap"
-#~ msgstr "環繞"
-
-#~ msgid "Edge mode:"
-#~ msgstr "邊緣模式："
-
-#~ msgid "Kernel size:"
-#~ msgstr "核心大小："
-
-#~ msgid "Bias:"
-#~ msgstr "偏移："
-
-#~ msgid "Edit kernel"
-#~ msgstr "編輯核心"
-
-#~ msgid "Flood fill"
-#~ msgstr "浸漫填充"
-
-#~ msgid "Flood color"
-#~ msgstr "浸漫顏色"
-
-#~ msgid "Select image..."
-#~ msgstr "選擇影像…"
-
-#~ msgid "Select image"
-#~ msgstr "選擇影像"
-
-#~ msgid "Merge"
-#~ msgstr "合併"
-
-#~ msgid "Morphology"
-#~ msgstr "形態"
-
-#~ msgid "Dilate"
-#~ msgstr "膨脹"
-
-#~ msgid "Operator:"
-#~ msgstr "運算符："
-
-#~ msgid "Radius x:"
-#~ msgstr "半徑 x："
-
-#~ msgid "dx"
-#~ msgstr "dx"
-
-#~ msgid "dy"
-#~ msgstr "dy"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Add filter effect"
-#~ msgstr "新增濾鏡效果"
-
-#~ msgid "Add effect to current filter stack"
-#~ msgstr "新增效果到目前濾鏡組"
-
-#~ msgid "Add to filter presets"
-#~ msgstr "新增到濾鏡預設"
-
-#~ msgid "Remove filter preset"
-#~ msgstr "移除濾鏡預設"
-
-#~ msgid "Effect name"
-#~ msgstr "效果名稱"
-
-#~ msgid "Please enter a name for the filter effect"
-#~ msgstr "請輸入濾鏡效果的名稱"
-
-#~ msgid "Effects and Connections"
-#~ msgstr "效果和連結"
-
-#~ msgid "Filter Presets"
-#~ msgstr "濾鏡預設"
-
-#~ msgid "Effect Properties"
-#~ msgstr "效果屬性"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Remove filter effect"
-#~ msgstr "移除濾鏡效果"
-
-#~ msgid "View and edit filter"
-#~ msgstr "查看和編輯濾鏡"
-
-#~ msgid "Remove filter from object"
-#~ msgstr "移除物件濾鏡"
-
-#~ msgid "Add Filter"
-#~ msgstr "新增濾鏡"
-
-#~ msgid "W:"
-#~ msgstr "寬："
-
-#~ msgid "H:"
-#~ msgstr "高："
-
-#~ msgid "Effect Region"
-#~ msgstr "效果區域"
-
-#~ msgid "Filter effects editing"
-#~ msgstr "濾鏡效果編輯"
-
-#~ msgid "Tiled"
-#~ msgstr "平鋪"
-
-#~ msgid "Stretched"
-#~ msgstr "拉伸"
-
-#~ msgid "Top Right"
-#~ msgstr "右上"
-
-#~ msgid "Bottom Left"
-#~ msgstr "左下"
-
-#~ msgid "Bottom"
-#~ msgstr "底部"
-
-#~ msgid "Bottom Right"
-#~ msgstr "右下"
-
-#~ msgid "Reference Point:"
-#~ msgstr "參照點："
-
-#~ msgid "Reference Point Offset"
-#~ msgstr "參照點偏移"
-
-#~ msgid "Tile Offset"
-#~ msgstr "平鋪偏移"
-
-#~ msgid "New Frame"
-#~ msgstr "建立影格"
-
-#~ msgid "Copy Frame"
-#~ msgstr "複製影格"
-
-#~ msgid "Remove Frame"
-#~ msgstr "刪除影格"
-
-#~ msgid "Remove Frames"
-#~ msgstr "刪除多影格"
-
-#~ msgid ""
-#~ "WARNING: This file contains information about your system and the\n"
-#~ "images you have been working with.\n"
-#~ "\n"
-#~ "If you have problems with Krita, the Krita developers might ask\n"
-#~ "you to share this file with them. The information in this file is\n"
-#~ "not shared automatically with the Krita developers in any way. You\n"
-#~ "can disable logging to this file in Krita's Configure Krita Dialog.\n"
-#~ "\n"
-#~ "Please review the contents of this file before sharing this file with\n"
-#~ "anyone.\n"
-#~ "\n"
-#~ msgstr ""
-#~ "警告：本檔案包含你的系統資訊和你正在處理的影像。\n"
-#~ "\n"
-#~ "如果你在使用 Krita 時遇到了問題，Krita 的開發人員可能會請你向他們分享本檔"
-#~ "案。本檔案所含資訊不會以任何方式自動分享給 Krita 的開發人員。你可以在 "
-#~ "Krita 的「設定 Krita」對話框中停用紀錄以停止寫入本檔案。\n"
-#~ "\n"
-#~ "請在與其他人分享本檔案之前檢查其中的內容。\n"
-#~ "\n"
-
-#~ msgid "Show Decorations"
-#~ msgstr "顯示原始輪廓"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Convert Image Type"
-#~ msgstr "轉換影像類型"
-
-#~ msgid ""
-#~ "<html><head/><body><p><span style=\" font-weight:600;\">Note:</span> This "
-#~ "changes only the colorspace of the rendered image. To convert the "
-#~ "colorspace of the layers, use Convert Image Colorspace.</p></body></html>"
-#~ msgstr ""
-#~ "<html><head/><body><p><span style=\" font-weight:600;\">提示</span>：此選"
-#~ "項僅變更已繪製影像本身的色彩空間。如需轉換其中圖層的色彩空間，應使用「轉換"
-#~ "影像色彩空間」。</p></body></html>"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Convert Layer Type"
-#~ msgstr "轉換圖層類型"
-
-#~ msgid ""
-#~ "Use to set the size from which the Automatic Precision Setting should "
-#~ "begin. The Precision will remain 5 before this value."
-#~ msgstr "用於設定自動精度開始生效的筆刷大小。精度在達到此值之前將保持為 5 。"
-
-#~ msgid "Starting Brush Size:"
-#~ msgstr "筆刷全精度大小："
-
-#~ msgid ""
-#~ "This determines every interval after which the precision should change. "
-#~ "For example: if the delta value is set to be 15.00, after every 15 pts "
-#~ "change in the size of brush, the precision will change."
-#~ msgstr ""
-#~ "此選項控制精度每次變化的前後間隔。例如，當增量設為 15.00 時，筆刷每發生 "
-#~ "15 點 (pts) 的大小變化，精度隨之發生變化。"
-
-#~ msgid "Delta :"
-#~ msgstr "精度遞減區間："
-
-#~ msgid ""
-#~ "Use to set the size from which the Automatic Precision Setting should "
-#~ "begin. \n"
-#~ "The Precision will remain 5 before this value."
-#~ msgstr ""
-#~ "用於設定自動精度開始生效的筆刷大小。\n"
-#~ "精度在達到此值之前將保持為 5 。"
-
-#~ msgid ""
-#~ "Use to set the interval at which the Automatic Precision will change. \n"
-#~ "The Precision will decrease as brush size increases."
-#~ msgstr ""
-#~ "用於設定自動精度的變化間隔\n"
-#~ "筆刷越大，精度越低。"
-
-#~ msgid "Precision: %1"
-#~ msgstr "精度：%1"
-
-#~ msgid "Hide Window Scrollbars"
-#~ msgstr "隱藏視窗滾動條"
-
-#~ msgid ""
-#~ "Created image \"%1\", %2 * %3 pixels, %4 dpi. Color model: %6 %5 (%7). "
-#~ "Layers: %8"
-#~ msgstr ""
-#~ "已建立影像 \"%1\"，%2 * %3 像素，%4 dpi。色彩模型：%6 %5 (%7)。圖層數：%8"
-
-#~ msgid "Draw path"
-#~ msgstr "繪製路徑"
-
-#~ msgid "Freehand path"
-#~ msgstr "手繪路徑"
-
-#~ msgid "Create object"
-#~ msgstr "建立物件"
-
-#~ msgid "Diff"
-#~ msgstr "差別"
-
-#~ msgid "Export Layer"
-#~ msgstr "匯出圖層"
-
-#~ msgid "To layers"
-#~ msgstr "到圖層"
-
-#~ msgid "To images"
-#~ msgstr "到影像"
-
-#~ msgid "Bad MIME type"
-#~ msgstr "無效的 MIME 類型"
-
-#~ msgid "Format not recognized"
-#~ msgstr "無法識別格式"
-
-#~ msgid "Not implemented"
-#~ msgstr "尚未實現"
-
-#~ msgid "Invalid file format"
-#~ msgstr "無效的檔案格式"
-
-#~ msgid "Internal error"
-#~ msgstr "內部錯誤"
-
-#~ msgid "Cancelled by user"
-#~ msgstr "已被使用者取消"
-
-#~ msgid "Unsupported file version"
-#~ msgstr "不支援的檔案版本"
