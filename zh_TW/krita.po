@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-05-08 00:44+0000\n"
-"PO-Revision-Date: 2022-05-09 13:36+0000\n"
+"PO-Revision-Date: 2022-05-10 08:38+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -31704,7 +31704,7 @@ msgstr "調整單色調對比度"
 #, kde-format
 msgctxt "Use different black and white points for each channel in auto levels"
 msgid "Adjust per channel contrast"
-msgstr "調整每通度對比度"
+msgstr "調整每通道對比度"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: libs/ui/widgets/KisAutoLevelsWidget.ui:83
@@ -44149,7 +44149,7 @@ msgstr "8x8 下降取樣"
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:103
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:111
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:131
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "Default (encoder chooses)"
 msgstr "預設 (由編碼器選取)"
@@ -44214,13 +44214,13 @@ msgstr "中間開首順序"
 #, fuzzy, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "64x64 lower resolution pass"
-msgstr "64x64 較低解像度處理"
+msgstr "啟用 64x64 低解析度處理流程"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:93
 #, fuzzy, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "512x512 + 64x64 lower resolution passes"
-msgstr "512x512 + 64x64 較低解像度處理"
+msgstr "啟用 512x512 及 64x64 低解析度處理流程"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:104
 #, fuzzy, kde-format
@@ -44485,7 +44485,7 @@ msgstr ""
 #, fuzzy, kde-format
 #| msgid "Alpha Plane Compression"
 msgid "Alpha channel resampling"
-msgstr "Alpha 通度重新取樣"
+msgstr "Alpha (透明度) 通道重新取樣"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, extraChannelResampling)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:224
@@ -44763,7 +44763,7 @@ msgstr ""
 #, fuzzy, kde-format
 #| msgid "Load a palette"
 msgid "Local channel palette range"
-msgstr "每通度調色板範圍"
+msgstr "每通道調色板範圍"
 
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, channelColorsGroupPercent)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:517
@@ -46951,19 +46951,19 @@ msgstr "自動調整過濾強度"
 msgid ""
 "Algorithm for encoding the alpha plane (0 = None, 1 = compressed with WebP "
 "lossless). Default is 1."
-msgstr "Alpha (透明度) 通度平面壓縮方法 (0 = 無，1 = WebP 無損壓縮)"
+msgstr "Alpha (透明度) 通道平面壓縮方法 (0 = 無，1 = WebP 無損壓縮)。預設為 1。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblAlphaCompression)
 #: plugins/impex/webp/dlg_webp_export.ui:410
 #, kde-format
 msgid "Alpha Plane Compression"
-msgstr "Alpha 通度平面壓縮"
+msgstr "Alpha 通道平面壓縮"
 
 #. i18n: ectx: property (text), widget (QLabel, lblAlphaFiltering)
 #: plugins/impex/webp/dlg_webp_export.ui:420
 #, kde-format
 msgid "Predictive Filtering for Alpha Plane"
-msgstr "Alpha (透明度) 通度平面的預測性過濾"
+msgstr "Alpha (透明度) 通道平面的預測性過濾"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbPreviewMode)
 #. i18n: ectx: property (text), widget (QLabel, lblFast)
