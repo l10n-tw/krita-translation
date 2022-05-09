@@ -44444,8 +44444,8 @@ msgid ""
 "the cost of some quality/density). Default is 0."
 msgstr ""
 "設定相對於所選編碼選項的解碼速度級別。\n"
-"最低為 0 (解碼最慢，但品質/密度最佳)，而最高為 4 "
-"(解碼最快，但會損失品質/密度)。\n"
+"最低為 0 (解碼最慢，但品質/密度最佳)，而最高為 4 (解碼最快，但會損失品質/密"
+"度)。\n"
 "預設為 0。"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblFilterType)
@@ -44476,7 +44476,8 @@ msgid ""
 "Sets resampling option. If enabled, the image's color channels are "
 "downsampled before compression, and upsampled to original size in the "
 "decoder."
-msgstr "設定重新取樣選項。如啟用，影像的色彩通道將在壓縮前被下降取樣，而在解碼時再上"
+msgstr ""
+"設定重新取樣選項。如啟用，影像的色彩通道將在壓縮前被下降取樣，而在解碼時再上"
 "升取樣至原來的大小。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblAlphaResampling)
@@ -44492,8 +44493,9 @@ msgstr "Alpha 通度重新取樣"
 msgid ""
 "Sets resampling option. If enabled, the image's alpha channel is downsampled "
 "before compression, and upsampled to original size in the decoder."
-msgstr "設定重新取樣選項。如啟用，影像的 Alpha "
-"通道將在壓縮前被下降取樣，而在解碼時再上升取樣至原來的大小。"
+msgstr ""
+"設定重新取樣選項。如啟用，影像的 Alpha 通道將在壓縮前被下降取樣，而在解碼時再"
+"上升取樣至原來的大小。"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblTargetSize)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, targetSize)
@@ -44598,7 +44600,8 @@ msgstr "預設 (由編碼器選取)"
 msgid ""
 "Edge preserving filter level, -1 to 3. Use -1 for the default (encoder "
 "chooses), 0 to 3 to set a strength."
-msgstr "邊緣保留過濾器的級別，由 -1 至 3。-1 為預設 (由編碼器選取)，0 至 3 設定強度。"
+msgstr ""
+"邊緣保留過濾器的級別，由 -1 至 3。-1 為預設 (由編碼器選取)，0 至 3 設定強度。"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblSNSStrength)
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, snsStrength)
@@ -44751,7 +44754,8 @@ msgid ""
 "Use Global channel palette if the amount of colors is smaller than this "
 "percentage of range. Use 0-100 to set an explicit percentage, -1 to use the "
 "encoder default. Used for modular encoding."
-msgstr "色彩數目低於這個百分比時，將使用全域通道調色板。使用 0 至 100 設定百分比值，"
+msgstr ""
+"色彩數目低於這個百分比時，將使用全域通道調色板。使用 0 至 100 設定百分比值，"
 "而設定為 -1 則使用編碼器預設值。適用於模組化編碼。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblChannelColorsGroupPercent)
@@ -44769,8 +44773,8 @@ msgid ""
 "than this percentage of range. Use 0-100 to set an explicit percentage, -1 "
 "to use the encoder default. Used for modular encoding."
 msgstr ""
-"色彩數目低於這個百分比時，將使用每通道 (按群組) 調色板。使用 0 至 100 "
-"設定百分比值，而設定為 -1 則使用編碼器預設值。適用於模組化編碼。"
+"色彩數目低於這個百分比時，將使用每通道 (按群組) 調色板。使用 0 至 100 設定百"
+"分比值，而設定為 -1 則使用編碼器預設值。適用於模組化編碼。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblPaletteColors)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:558
@@ -44784,8 +44788,9 @@ msgstr "色彩數目低於指定值時使用調色板"
 msgid ""
 "Use color palette if amount of colors is smaller than or equal to this "
 "amount, or -1 to use the encoder default. Used for modular encoding."
-msgstr "色彩數目低於此值時，將使用調色板，或可將此值設定為 -1 "
-"以使用編碼器預設值。適用於模組化編碼。"
+msgstr ""
+"色彩數目低於此值時，將使用調色板，或可將此值設定為 -1 以使用編碼器預設值。適"
+"用於模組化編碼。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblLossyPalette)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:593
