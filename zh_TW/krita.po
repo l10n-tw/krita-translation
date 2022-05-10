@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-05-08 00:44+0000\n"
+"POT-Creation-Date: 2022-05-10 00:42+0000\n"
 "PO-Revision-Date: 2022-05-10 08:38+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
@@ -18005,9 +18005,9 @@ msgstr "縮圖"
 #: libs/resources/KisTagModel.cpp:121 libs/resources/KisTagModel.cpp:294
 #: libs/ui/widgets/kis_paintop_presets_editor.cpp:592
 #: plugins/assistants/Assistants/AssistantsToolOptions.ui:325
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:496
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:546
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:647
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:481
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:531
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:629
 #: plugins/tools/defaulttool/referenceimagestool/WdgToolOptions.ui:220
 #, kde-format
 msgid "All"
@@ -19794,7 +19794,7 @@ msgstr "0"
 #: libs/ui/animation/VideoImportDialog.ui:197
 #: plugins/dockers/logdocker/LogDockerDock.cpp:187
 #: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:262
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:714
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:693
 #, kde-format
 msgid "Metadata"
 msgstr "中繼資料"
@@ -20724,9 +20724,9 @@ msgstr "圖層屬性"
 #: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:49
 #: plugins/impex/jpeg/kis_jpeg_export.cc:217
 #: plugins/impex/jpeg/kis_jpeg_export.cc:219
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:470
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:520
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:668
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:455
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:505
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:650
 #: plugins/impex/tiff/kis_wdg_options_tiff.ui:314
 #: plugins/impex/webp/dlg_webp_export.ui:79
 #: plugins/impex/webp/dlg_webp_export.ui:320
@@ -27151,8 +27151,8 @@ msgstr "選擇作業空間"
 msgid "Brush composite"
 msgstr "筆刷分量"
 
-#: libs/ui/kis_paintop_box.cc:1269 libs/ui/kis_paintop_box.cc:1291
-#: libs/ui/kis_paintop_box.cc:1305
+#: libs/ui/kis_paintop_box.cc:1279 libs/ui/kis_paintop_box.cc:1301
+#: libs/ui/kis_paintop_box.cc:1315
 #, kde-format
 msgid ""
 "%1\n"
@@ -30062,7 +30062,7 @@ msgstr "MyPaint 筆刷引擎不支援這個色彩空間"
 msgid "Color sampler does not work on this layer."
 msgstr "色彩取樣器不能在此圖層上使用。"
 
-#: libs/ui/tool/kis_tool_paint.cc:683
+#: libs/ui/tool/kis_tool_paint.cc:671
 #, kde-format
 msgid "Brush Size: %1 px"
 msgstr "筆刷大小：%1 px"
@@ -33274,12 +33274,20 @@ msgstr "秒 (s)"
 msgid "Toggle Preview"
 msgstr "切換預覽"
 
-#: libs/widgetutils/KoFileDialog.cpp:254
+#: libs/widgetutils/KoFileDialog.cpp:240
 #, kde-format
 msgid "Save As:"
 msgstr "另存為："
 
-#: libs/widgetutils/KoFileDialog.cpp:448
+#: libs/widgetutils/KoFileDialog.cpp:319
+#, kde-format
+msgid ""
+"The selected file name does not have a file extension that Krita "
+"understands.\n"
+"Make sure the file name ends in '.%1' for example."
+msgstr ""
+
+#: libs/widgetutils/KoFileDialog.cpp:486
 #, kde-format
 msgid "All supported formats"
 msgstr "所有支援的格式"
@@ -39205,7 +39213,7 @@ msgstr "都柏林核心"
 #. i18n: ectx: property (text), widget (QCheckBox, exif)
 #: plugins/extensions/metadataeditor/kis_meta_data_editor.cc:162
 #: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:274
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:735
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:714
 #: plugins/metadata/exif/kis_exif_io.h:28
 #, kde-format
 msgid "Exif"
@@ -44018,21 +44026,21 @@ msgstr "最佳化"
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
 #: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:268
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:729
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:708
 #, kde-format
 msgid "Formats:"
 msgstr "格式："
 
 #. i18n: ectx: property (text), widget (QCheckBox, iptc)
 #: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:284
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:742
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:721
 #, kde-format
 msgid "IPTC"
 msgstr "IPTC"
 
 #. i18n: ectx: property (text), widget (QCheckBox, xmp)
 #: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:294
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:749
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:728
 #: plugins/metadata/xmp/kis_xmp_io.h:26
 #, kde-format
 msgid "XMP"
@@ -44051,7 +44059,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, chkMetaData)
 #. i18n: ectx: property (title), widget (QGroupBox, chkMetadata)
 #: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:336
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:720
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:699
 #, kde-format
 msgid "Store Document Metadata"
 msgstr "儲存檔案中繼資料"
@@ -44135,6 +44143,10 @@ msgctxt "JPEG-XL encoder options"
 msgid "8x8 downsampling"
 msgstr "8x8 下降取樣"
 
+#. i18n: ectx: property (text), widget (QLabel, lblNone1)
+#. i18n: ectx: property (text), widget (QLabel, lblNone)
+#. i18n: ectx: property (text), widget (QLabel, lblNone2)
+#. i18n: ectx: property (text), widget (QLabel, lblNoDegradation)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:36
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:42
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:48
@@ -44149,6 +44161,10 @@ msgstr "8x8 下降取樣"
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:103
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:111
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:131
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:298
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:474
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:524
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:639
 #, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "Default (encoder chooses)"
@@ -44448,29 +44464,16 @@ msgstr ""
 "度)。\n"
 "預設為 0。"
 
-#. i18n: ectx: property (toolTip), widget (QLabel, lblFilterType)
-#. i18n: ectx: property (toolTip), widget (QComboBox, filterType)
-#. i18n: ectx: property (toolTip), widget (QLabel, lblResampling)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:200
-#: plugins/impex/webp/dlg_webp_export.ui:376
-#: plugins/impex/webp/dlg_webp_export.ui:386
-#, kde-format
-msgid ""
-"0 = Simple, 1 = Strong. Only used if Filter Strength is higher than 0 or "
-"Auto Adjust Filter is enabled."
-msgstr ""
-"0 = 簡單，1 = 強。只在「過濾強度」高於 0 或「自動調整過濾」已啟用時才有效。"
-
 #. i18n: ectx: property (text), widget (QLabel, lblResampling)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:203
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:200
 #, fuzzy, kde-format
 #| msgid "Color channels in color"
-msgctxt "Filter options specifically for WebP"
+msgctxt "JPEG-XL encoder options"
 msgid "Color channel resampling"
 msgstr "為色彩通道重新取樣"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, resampling)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:210
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:207
 #, fuzzy, kde-format
 msgid ""
 "Sets resampling option. If enabled, the image's color channels are "
@@ -44481,14 +44484,14 @@ msgstr ""
 "升取樣至原來的大小。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblAlphaResampling)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:217
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:214
 #, fuzzy, kde-format
 #| msgid "Alpha Plane Compression"
 msgid "Alpha channel resampling"
 msgstr "Alpha (透明度) 通道重新取樣"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, extraChannelResampling)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:224
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:221
 #, fuzzy, kde-format
 msgid ""
 "Sets resampling option. If enabled, the image's alpha channel is downsampled "
@@ -44497,26 +44500,15 @@ msgstr ""
 "設定重新取樣選項。如啟用，影像的 Alpha 通道將在壓縮前被下降取樣，而在解碼時再"
 "上升取樣至原來的大小。"
 
-#. i18n: ectx: property (toolTip), widget (QLabel, lblTargetSize)
-#. i18n: ectx: property (toolTip), widget (QSpinBox, targetSize)
-#. i18n: ectx: property (toolTip), widget (QLabel, lblPhotonNoise)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:231
-#: plugins/impex/webp/dlg_webp_export.ui:217
-#: plugins/impex/webp/dlg_webp_export.ui:233
-#, kde-format
-msgid ""
-"If non-zero, sets the desired target size in bytes. Takes precedence over "
-"the compression parameters."
-msgstr "如數值非零，則設定目標預期檔案大小。比壓縮設定參數更優先。"
-
 #. i18n: ectx: property (text), widget (QLabel, lblPhotonNoise)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:234
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:228
 #, fuzzy, kde-format
+msgctxt "JPEG-XL encoder options"
 msgid "Photon noise"
 msgstr "光子雜訊"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, photonNoise)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:247
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:241
 #, fuzzy, kde-format
 msgid ""
 "Adds noise to the image emulating photographic film noise, the higher the "
@@ -44528,48 +44520,39 @@ msgstr ""
 "舉個例，數值 100 會產生小量雜點，而數值 1000 會產生大量雜點。\n"
 "預設值為 0。"
 
-#. i18n: ectx: property (toolTip), widget (QLabel, lblTargetPSNR)
-#. i18n: ectx: property (toolTip), widget (KisDoubleParseUnitSpinBox, targetPSNR)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:257
-#: plugins/impex/webp/dlg_webp_export.ui:246
-#: plugins/impex/webp/dlg_webp_export.ui:262
-#, kde-format
-msgid ""
-"If non-zero, specifies the minimal distortion to try to achieve. Takes "
-"precedence over Target Size."
-msgstr "如數值非零，則設定希望達到的最低失真程度。比「目標大小」設定更優先。"
-
-#. i18n: ectx: property (text), widget (QLabel, lblTargetPSNR)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:260
+#. i18n: ectx: property (text), widget (QLabel, lblDots)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:251
 #, fuzzy, kde-format
 #| msgid "Generate"
+msgctxt "JPEG-XL encoder options"
 msgid "Generate dots"
 msgstr "產生斑點 (dots)"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, dots)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:267
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:258
 #, fuzzy, kde-format
 #| msgid "Enable background cache generation"
 msgid "Enables or disables dots generation."
 msgstr "啟用或停用斑點 (dots) 的產生。"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:274
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:265
 #, fuzzy, kde-format
 #| msgctxt "(qtundo-format)"
 #| msgid "Reverse paths"
+msgctxt "JPEG-XL encoder options"
 msgid "Generate patches"
 msgstr "產生圖案區塊 (patches)"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, patches)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:281
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:272
 #, fuzzy, kde-format
 #| msgid "Enable background cache generation"
 msgid "Enables or disables patches generation."
 msgstr "啟用或停用圖案區塊 (patches) 的產生。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblEpf)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:288
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:279
 #, fuzzy, kde-format
 #| msgctxt "Filter options specifically for WebP"
 #| msgid "Preprocessing Filter"
@@ -44577,25 +44560,13 @@ msgid "Edge preserving filter"
 msgstr "邊緣保留過濾"
 
 #. i18n: ectx: property (text), widget (QLabel, lblMax)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:297
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:288
 #, kde-format
 msgid "Maximum strength"
 msgstr "最大強度"
 
-#. i18n: ectx: property (text), widget (QLabel, lblNone1)
-#. i18n: ectx: property (text), widget (QLabel, lblNone)
-#. i18n: ectx: property (text), widget (QLabel, lblNone2)
-#. i18n: ectx: property (text), widget (QLabel, lblNoDegradation)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:307
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:489
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:539
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:657
-#, kde-format
-msgid "Default (encoder chooses)"
-msgstr "預設 (由編碼器選取)"
-
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, epf)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:314
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:305
 #, fuzzy, kde-format
 msgid ""
 "Edge preserving filter level, -1 to 3. Use -1 for the default (encoder "
@@ -44603,75 +44574,57 @@ msgid ""
 msgstr ""
 "邊緣保留過濾器的級別，由 -1 至 3。-1 為預設 (由編碼器選取)，0 至 3 設定強度。"
 
-#. i18n: ectx: property (toolTip), widget (QLabel, lblSNSStrength)
-#. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, snsStrength)
-#. i18n: ectx: property (toolTip), widget (QLabel, lblGaborishFilter)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:329
-#: plugins/impex/webp/dlg_webp_export.ui:307
-#: plugins/impex/webp/dlg_webp_export.ui:317
-#, kde-format
-msgid "Spatial Noise Shaping: 0 = off, 100 = maximum."
-msgstr "空間雜訊整形 (SNS)：0 = 停用，100 = 最高。"
-
 #. i18n: ectx: property (text), widget (QLabel, lblGaborishFilter)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:332
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:320
 #, fuzzy, kde-format
+msgctxt "JPEG-XL encoder options"
 msgid "Gaborish filter"
 msgstr "Gaborish 過濾"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, gaborish)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:339
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:327
 #, fuzzy, kde-format
 msgid "Enables or disables the gaborish filter."
 msgstr "啟用或停用「類 Garbor」(Garborish) 過濾器。"
 
 #. i18n: ectx: property (text), widget (QLabel, lbModularEncoding)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:346
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:334
 #, fuzzy, kde-format
 #| msgid "Start Recording"
+msgctxt "JPEG-XL encoder options"
 msgid "Modular encoding"
 msgstr "模組化編碼"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, modular)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:353
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:341
 #, fuzzy, kde-format
 #| msgid "Enable Touch Painting"
 msgid "Enables modular encoding."
 msgstr "啟用模組化編碼。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblKeepInvisible)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:360
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:348
 #, kde-format
 msgid "Keep color of invisible pixels"
 msgstr "保留不可見像素的色彩值"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, keepInvisible)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:367
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:355
 #, kde-format
 msgid "Enables or disables preserving color of invisible pixels."
 msgstr "啟用或停用保留不可見像素的色彩值。"
 
-#. i18n: ectx: property (toolTip), widget (QLabel, lblFilterStrength)
-#. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, filterStrength)
-#. i18n: ectx: property (toolTip), widget (QLabel, lblGroupOrder)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:374
-#: plugins/impex/webp/dlg_webp_export.ui:330
-#: plugins/impex/webp/dlg_webp_export.ui:340
-#, kde-format
-msgid "Filter strength: 0 = off, 100 = strongest."
-msgstr "過濾強度：0 = 停用，100 = 最強。"
-
 #. i18n: ectx: property (text), widget (QLabel, lblGroupOrder)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:377
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:362
 #, fuzzy, kde-format
 #| msgctxt "action"
 #| msgid "Group Layer"
-msgctxt "Filter options specifically for WebP"
+msgctxt "JPEG-XL encoder options"
 msgid "Group order"
 msgstr "群組順序"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, groupOrder)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:384
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:369
 #, fuzzy, kde-format
 msgid ""
 "Determines the order in which 256x256 regions are stored in the codestream "
@@ -44679,13 +44632,14 @@ msgid ""
 msgstr "決定在編碼流中存放各 256x256 區塊的排列順序，以支援漸進式算繪。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblJPEGReconCFL)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:391
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:376
 #, fuzzy, kde-format
+msgctxt "JPEG-XL encoder options"
 msgid "Chroma-from-luma"
 msgstr "由光度產生色調 (Chroma-from-luma)"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:398
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:383
 #, fuzzy, kde-format
 #| msgctxt "(qtundo-format)"
 #| msgid "Change parameter"
@@ -44693,7 +44647,7 @@ msgid "VarDCT parameters"
 msgstr "VarDCT 參數"
 
 #. i18n: ectx: property (text), widget (QLabel, lblProgressiveAC)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:404
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:389
 #, fuzzy, kde-format
 #| msgid "Subpixel precision"
 msgid "Spectral progression"
@@ -44701,8 +44655,8 @@ msgstr "波譜漸進模式"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, progressiveAC)
 #. i18n: ectx: property (toolTip), widget (QComboBox, qProgressiveAC)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:411
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:428
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:396
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:413
 #, fuzzy, kde-format
 msgid ""
 "Set the progressive mode for the AC coefficients of VarDCT, using spectral "
@@ -44710,7 +44664,7 @@ msgid ""
 msgstr "設定 VarDCT 中 AC 係數的漸進模式，根據 DCT 係數的波譜進展。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblQProgressiveAC)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:421
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:406
 #, fuzzy, kde-format
 #| msgctxt ""
 #| "h264 tune option name, check simplescreenrecorder for standard "
@@ -44720,20 +44674,20 @@ msgid "Quantization"
 msgstr "量化"
 
 #. i18n: ectx: property (text), widget (QLabel, lblProgressiveDC)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:435
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:420
 #, fuzzy, kde-format
 #| msgid "X resolution:"
 msgid "Low resolution DC"
 msgstr "低解析度 DC"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, progressiveDC)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:442
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:427
 #, fuzzy, kde-format
 msgid "Set the progressive mode using lower-resolution DC images for VarDCT. "
 msgstr "設定以 VarDCT 的較低解析度 DC 影像作漸進模式。"
 
 #. i18n: ectx: property (title), widget (QGroupBox, modularEncodingParameters)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:452
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:437
 #, fuzzy, kde-format
 #| msgctxt "(qtundo-format)"
 #| msgid "Change parameter"
@@ -44741,14 +44695,14 @@ msgid "Modular parameters"
 msgstr "模組參數"
 
 #. i18n: ectx: property (text), widget (QLabel, lblChannelColorsGlobalPercent)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:458
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:443
 #, fuzzy, kde-format
 #| msgid "Global Pattern"
 msgid "Global channel palette range"
 msgstr "全域通道調色板範圍"
 
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, channelColorsGlobalPercent)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:467
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:452
 #, fuzzy, kde-format
 msgid ""
 "Use Global channel palette if the amount of colors is smaller than this "
@@ -44759,14 +44713,14 @@ msgstr ""
 "而設定為 -1 則使用編碼器預設值。適用於模組化編碼。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblChannelColorsGroupPercent)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:508
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:493
 #, fuzzy, kde-format
 #| msgid "Load a palette"
 msgid "Local channel palette range"
 msgstr "每通道調色板範圍"
 
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, channelColorsGroupPercent)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:517
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:502
 #, fuzzy, kde-format
 msgid ""
 "Use Local (per-group) channel palette if the amount of colors is smaller "
@@ -44777,13 +44731,13 @@ msgstr ""
 "分比值，而設定為 -1 則使用編碼器預設值。適用於模組化編碼。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblPaletteColors)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:558
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:543
 #, fuzzy, kde-format
 msgid "Use color palette for ... colors or less"
 msgstr "色彩數目低於指定值時使用調色板"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, paletteColors)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:571
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:556
 #, fuzzy, kde-format
 msgid ""
 "Use color palette if amount of colors is smaller than or equal to this "
@@ -44793,68 +44747,54 @@ msgstr ""
 "用於模組化編碼。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblLossyPalette)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:593
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:578
 #, fuzzy, kde-format
 #| msgid "Load a palette"
-msgctxt "Filter options specifically for WebP"
+msgctxt "JPEG-XL encoder options"
 msgid "Delta palette"
 msgstr "差值調色板"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, lossyPalette)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:600
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:585
 #, fuzzy, kde-format
 msgid "Enables or disables delta palette. Used in modular mode. "
 msgstr "啟用或停用差值調色板 (delta palette)。適用於模組化編碼。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblModularGroupSize)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:607
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:592
 #, fuzzy, kde-format
 #| msgid "Drop size"
+msgctxt "JPEG-XL encoder options"
 msgid "Group size"
 msgstr "群組大小"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, modularGroupSize)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:614
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:599
 #, fuzzy, kde-format
 msgid "Group size for modular encoding."
 msgstr "模組化編碼使用的群組大小。"
 
-#. i18n: ectx: property (text), widget (QLabel, lblPredictor)
 #. i18n: ectx: property (text), widget (QLabel, lblModularPredictor)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:621
-#: plugins/impex/tiff/kis_wdg_options_tiff.ui:81
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:606
 #, fuzzy, kde-format
+msgctxt "JPEG-XL encoder options"
 msgid "Predictor"
 msgstr "色塊預測機制"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, modularPredictor)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:628
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:613
 #, fuzzy, kde-format
 msgid "Predictor for modular encoding."
 msgstr "模組化編碼使用的預測機制。"
 
-#. i18n: ectx: property (toolTip), widget (QLabel, lblPartitionLimit)
-#. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, partitionLimit)
-#. i18n: ectx: property (toolTip), widget (QLabel, lblModularMATreeLearningPercent)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:635
-#: plugins/impex/webp/dlg_webp_export.ui:579
-#: plugins/impex/webp/dlg_webp_export.ui:608
-#, kde-format
-msgid ""
-"Quality degradation allowed to fit the 512KB limit on prediction modes "
-"coding (0 = no degradation, 100 = maximum possible degradation)."
-msgstr ""
-"為符合預測模式編碼的 512 KB 限制而容許的品質下降 (0 = 無品質下降，100 = 最大"
-"品質下降)。"
-
 #. i18n: ectx: property (text), widget (QLabel, lblModularMATreeLearningPercent)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:638
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:620
 #, fuzzy, kde-format
 msgid "Pixels for MA tree learning"
 msgstr "供 MA 樹學習用的像素"
 
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, modularMATreeLearningPercent)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:665
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:647
 #, fuzzy, kde-format
 msgid ""
 "Fraction of pixels used to learn MA trees as a percentage. -1 = default, 0 = "
@@ -44865,25 +44805,13 @@ msgstr ""
 "50 為預設值，100 為全部。數值愈大，則編碼器的記憶體使用量愈高。"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, responsive)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:686
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:668
 #, fuzzy, kde-format
 msgid "Enables or disables progressive encoding for modular mode."
 msgstr "啟用或停用適用於模組化編碼模式的漸進式編碼。"
 
-#. i18n: ectx: property (toolTip), widget (QLabel, lblShowCompressed)
-#. i18n: ectx: property (toolTip), widget (QCheckBox, showCompressed)
-#. i18n: ectx: property (toolTip), widget (QLabel, lblResponsive)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:693
-#: plugins/impex/webp/dlg_webp_export.ui:529
-#: plugins/impex/webp/dlg_webp_export.ui:539
-#, kde-format
-msgid ""
-"If enabled, export the compressed picture back. In-loop filtering is not "
-"applied."
-msgstr "如啟用，則匯出已壓縮的影像，不套用迴路過濾。"
-
 #. i18n: ectx: property (text), widget (QLabel, lblResponsive)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:696
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:675
 #, fuzzy, kde-format
 #| msgctxt "A progressive jpeg file can be displayed while loading."
 #| msgid "Progressive"
@@ -44891,10 +44819,11 @@ msgid "Progressive encoding"
 msgstr "漸進式編碼"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:759
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:738
 #, fuzzy, kde-format
 #| msgctxt "JPEG metadata filter"
 #| msgid "Filters:"
+msgctxt "JPEG-XL metadata options"
 msgid "Filters:"
 msgstr "過濾器："
 
@@ -46610,6 +46539,13 @@ msgstr "Lempel-Ziv & Welch 編碼 (LZW)"
 msgid "Pixar Log"
 msgstr "Pixar Log 編碼"
 
+#. i18n: ectx: property (text), widget (QLabel, lblPredictor)
+#: plugins/impex/tiff/kis_wdg_options_tiff.ui:81
+#, fuzzy, kde-format
+msgctxt "TIFF encoder options"
+msgid "Predictor"
+msgstr "色塊預測機制"
+
 #. i18n: ectx: property (toolTip), widget (KComboBox, kComboBoxPredictor)
 #: plugins/impex/tiff/kis_wdg_options_tiff.ui:91
 #, kde-format
@@ -46872,6 +46808,16 @@ msgstr "品質與速度之間的平衡取捨 (0 = 較快，6 = 較慢/較佳)"
 msgid "Dithering"
 msgstr "抖色 (Dithering)"
 
+#. i18n: ectx: property (toolTip), widget (QLabel, lblTargetSize)
+#. i18n: ectx: property (toolTip), widget (QSpinBox, targetSize)
+#: plugins/impex/webp/dlg_webp_export.ui:217
+#: plugins/impex/webp/dlg_webp_export.ui:233
+#, kde-format
+msgid ""
+"If non-zero, sets the desired target size in bytes. Takes precedence over "
+"the compression parameters."
+msgstr "如數值非零，則設定目標預期檔案大小。比壓縮設定參數更優先。"
+
 #. i18n: ectx: property (text), widget (QLabel, lblTargetSize)
 #: plugins/impex/webp/dlg_webp_export.ui:220
 #, kde-format
@@ -46883,6 +46829,16 @@ msgstr "目標大小"
 #, kde-format
 msgid " kB"
 msgstr " kB"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, lblTargetPSNR)
+#. i18n: ectx: property (toolTip), widget (KisDoubleParseUnitSpinBox, targetPSNR)
+#: plugins/impex/webp/dlg_webp_export.ui:246
+#: plugins/impex/webp/dlg_webp_export.ui:262
+#, kde-format
+msgid ""
+"If non-zero, specifies the minimal distortion to try to achieve. Takes "
+"precedence over Target Size."
+msgstr "如數值非零，則設定希望達到的最低失真程度。比「目標大小」設定更優先。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblTargetPSNR)
 #: plugins/impex/webp/dlg_webp_export.ui:249
@@ -46904,11 +46860,27 @@ msgstr "最高分段數 (1 至 4)。"
 msgid "Segments"
 msgstr "分段數"
 
+#. i18n: ectx: property (toolTip), widget (QLabel, lblSNSStrength)
+#. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, snsStrength)
+#: plugins/impex/webp/dlg_webp_export.ui:307
+#: plugins/impex/webp/dlg_webp_export.ui:317
+#, kde-format
+msgid "Spatial Noise Shaping: 0 = off, 100 = maximum."
+msgstr "空間雜訊整形 (SNS)：0 = 停用，100 = 最高。"
+
 #. i18n: ectx: property (text), widget (QLabel, lblSNSStrength)
 #: plugins/impex/webp/dlg_webp_export.ui:310
 #, kde-format
 msgid "SNS Strength"
 msgstr "SNS 強度"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, lblFilterStrength)
+#. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, filterStrength)
+#: plugins/impex/webp/dlg_webp_export.ui:330
+#: plugins/impex/webp/dlg_webp_export.ui:340
+#, kde-format
+msgid "Filter strength: 0 = off, 100 = strongest."
+msgstr "過濾強度：0 = 停用，100 = 最強。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblFilterStrength)
 #: plugins/impex/webp/dlg_webp_export.ui:333
@@ -46932,6 +46904,17 @@ msgctxt "Filter options specifically for WebP"
 msgid "Filter Sharpness"
 msgstr "過濾銳利度"
 
+#. i18n: ectx: property (toolTip), widget (QLabel, lblFilterType)
+#. i18n: ectx: property (toolTip), widget (QComboBox, filterType)
+#: plugins/impex/webp/dlg_webp_export.ui:376
+#: plugins/impex/webp/dlg_webp_export.ui:386
+#, kde-format
+msgid ""
+"0 = Simple, 1 = Strong. Only used if Filter Strength is higher than 0 or "
+"Auto Adjust Filter is enabled."
+msgstr ""
+"0 = 簡單，1 = 強。只在「過濾強度」高於 0 或「自動調整過濾」已啟用時才有效。"
+
 #. i18n: ectx: property (text), widget (QLabel, lblFilterType)
 #: plugins/impex/webp/dlg_webp_export.ui:379
 #, kde-format
@@ -46951,7 +46934,8 @@ msgstr "自動調整過濾強度"
 msgid ""
 "Algorithm for encoding the alpha plane (0 = None, 1 = compressed with WebP "
 "lossless). Default is 1."
-msgstr "Alpha (透明度) 通道平面壓縮方法 (0 = 無，1 = WebP 無損壓縮)。預設為 1。"
+msgstr ""
+"Alpha (透明度) 通道平面壓縮方法 (0 = 無，1 = WebP 無損壓縮)。預設為 1。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblAlphaCompression)
 #: plugins/impex/webp/dlg_webp_export.ui:410
@@ -47002,6 +46986,16 @@ msgstr "熵值分析 (Entropy-analysis passes) 次數 (1 至 10)。"
 msgid "Entropy Passes"
 msgstr "熵值分析次數"
 
+#. i18n: ectx: property (toolTip), widget (QLabel, lblShowCompressed)
+#. i18n: ectx: property (toolTip), widget (QCheckBox, showCompressed)
+#: plugins/impex/webp/dlg_webp_export.ui:529
+#: plugins/impex/webp/dlg_webp_export.ui:539
+#, kde-format
+msgid ""
+"If enabled, export the compressed picture back. In-loop filtering is not "
+"applied."
+msgstr "如啟用，則匯出已壓縮的影像，不套用迴路過濾。"
+
 #. i18n: ectx: property (text), widget (QLabel, lblShowCompressed)
 #: plugins/impex/webp/dlg_webp_export.ui:532
 #, kde-format
@@ -47030,6 +47024,18 @@ msgstr "log2(符記分區數目) 於 0 至 3 之間。預設為 0 以使得漸�
 #, kde-format
 msgid "Partitions"
 msgstr "分區數目"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, lblPartitionLimit)
+#. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, partitionLimit)
+#: plugins/impex/webp/dlg_webp_export.ui:579
+#: plugins/impex/webp/dlg_webp_export.ui:608
+#, kde-format
+msgid ""
+"Quality degradation allowed to fit the 512KB limit on prediction modes "
+"coding (0 = no degradation, 100 = maximum possible degradation)."
+msgstr ""
+"為符合預測模式編碼的 512 KB 限制而容許的品質下降 (0 = 無品質下降，100 = 最大"
+"品質下降)。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblPartitionLimit)
 #: plugins/impex/webp/dlg_webp_export.ui:582
@@ -56638,3 +56644,7 @@ msgstr "縮放工具"
 msgctxt "action"
 msgid "Reference Images Tool"
 msgstr "參考圖工具"
+
+#, kde-format
+#~ msgid "Default (encoder chooses)"
+#~ msgstr "預設 (由編碼器選取)"
