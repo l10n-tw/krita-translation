@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-05-10 00:42+0000\n"
-"PO-Revision-Date: 2022-05-10 08:38+0000\n"
+"PO-Revision-Date: 2022-05-10 12:13+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -33286,6 +33286,8 @@ msgid ""
 "understands.\n"
 "Make sure the file name ends in '.%1' for example."
 msgstr ""
+"所選檔案名稱不含 Krita 能理解的副檔名。\n"
+"舉個例，請確認檔案名稱以「.%1」結尾。"
 
 #: libs/widgetutils/KoFileDialog.cpp:486
 #, kde-format
@@ -44088,60 +44090,57 @@ msgid "Sign with Author Profile Data"
 msgstr "使用作者檔案資料簽名"
 
 #: plugins/impex/jxl/JPEGXLImport.cpp:244
-#, fuzzy, kde-format
-#| msgctxt "Saving .kra file error message"
-#| msgid "Could not save image profile."
+#, kde-format
 msgctxt "JPEG-XL errors"
 msgid "Unable to read the image profile."
 msgstr "無法讀取影像色彩特性。"
 
 #: plugins/impex/jxl/JPEGXLImport.cpp:256
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "JPEG-XL errors"
 msgid "JPEG-XL encoded profile not implemented"
-msgstr "未支援 JPEG-XL 內嵌碥碼色彩特性"
+msgstr "未支援 JPEG-XL 內嵌碥碼的色彩特性"
 
 #: plugins/impex/jxl/JPEGXLImport.cpp:300
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "JPEG-XL errors"
 msgid "JPEG-XL image is animated, but cannot retrieve animation frame header."
 msgstr "JPEG-XL 影像為動畫，但未能讀取動畫影格標頭資料。"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:22
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:28
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "Default (only for low quality)"
 msgstr "預設 (只適用於低品質)"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:23
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:29
-#, fuzzy, kde-format
-#| msgid "No Scaling"
+#, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "No downsampling"
 msgstr "無下降取樣"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:24
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:30
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "2x2 downsampling"
-msgstr "2x2 下降取樣"
+msgstr "2×2 下降取樣"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:25
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:31
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "4x4 downsampling"
-msgstr "4x4 下降取樣"
+msgstr "4×4 下降取樣"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:26
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:32
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "8x8 downsampling"
-msgstr "8x8 下降取樣"
+msgstr "8×8 下降取樣"
 
 #. i18n: ectx: property (text), widget (QLabel, lblNone1)
 #. i18n: ectx: property (text), widget (QLabel, lblNone)
@@ -44200,71 +44199,67 @@ msgid "Enabled"
 msgstr "啟用"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:55
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "VarDCT mode (e.g. for photographic images)"
 msgstr "VarDCT 模式 (例如相片適用)"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:56
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "Modular mode (e.g. for lossless images)"
 msgstr "模組化模式 (例如無損影像適用)"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:67
-#, fuzzy, kde-format
-#| msgid "Vertical border:"
+#, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "Scanline order"
 msgstr "掃描線順序"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:68
-#, fuzzy, kde-format
-#| msgctxt "Action to center the selected stop in the segment gradient editor"
-#| msgid "Center stop"
+#, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "Center-first order"
 msgstr "中間開首順序"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:92
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "64x64 lower resolution pass"
-msgstr "啟用 64x64 低解析度處理流程"
+msgstr "啟用 64×64 低解析度處理流程"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:93
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "512x512 + 64x64 lower resolution passes"
-msgstr "啟用 512x512 及 64x64 低解析度處理流程"
+msgstr "啟用 512×512 及 64×64 低解析度處理流程"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:104
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "128"
 msgstr "128"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:105
-#, fuzzy, kde-format
-#| msgid "255"
+#, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "256"
 msgstr "256"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:106
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "512"
 msgstr "512"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:107
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "1024"
 msgstr "1024"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:112
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "Zero"
 msgstr "零"
@@ -44273,105 +44268,91 @@ msgstr "零"
 #, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "Left"
-msgstr "左 (Left)"
+msgstr "左方 (Left)"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:114
-#, fuzzy, kde-format
-#| msgctxt "toolbar position string"
-#| msgid "Top"
+#, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "Top"
-msgstr "上 (Top)"
+msgstr "上方 (Top)"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:115
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "Avg0"
 msgstr "平均 0 (Avg0)"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:116
-#, fuzzy, kde-format
-#| msgid "Select"
+#, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "Select"
 msgstr "選取 (Select)"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:117
-#, fuzzy, kde-format
-#| msgid "Gradient"
+#, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "Gradient"
-msgstr "斜率 (Gradient)"
+msgstr "梯度 (Gradient)"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:118
-#, fuzzy, kde-format
-#| msgctxt "@item:inlistbox Brush Smoothing"
-#| msgid "Weighted"
+#, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "Weighted"
 msgstr "權衡 (Weighted)"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:119
-#, fuzzy, kde-format
-#| msgid "Top Right"
+#, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "Top right"
-msgstr "右上 (Top right)"
+msgstr "右上方 (Top right)"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:120
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Move left"
+#, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "Top left"
-msgstr "左上 (Top left)"
+msgstr "左上方 (Top left)"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:121
-#, fuzzy, kde-format
-#| msgid "Left indent"
+#, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "Left left"
-msgstr "左左 (Left left)"
+msgstr "左左方 (Left left)"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:122
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "Avg1"
 msgstr "平均 1 (Avg1)"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:123
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "Avg2"
 msgstr "平均 2 (Avg2)"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:124
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "Avg3"
 msgstr "平均 3 (Avg3)"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:125
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "Toptop predictive average"
-msgstr "上上預測平均 (Toptop predictive average)"
+msgstr "上上方預測平均 (Toptop predictive average)"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:126
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Gradient editing"
+#, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "Gradient + Weighted"
-msgstr "斜率 + 權衡 (Gradient + Weighted)"
+msgstr "梯度 + 權衡 (Gradient + Weighted)"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:127
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Escape in all directions"
+#, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "Use all predictors"
-msgstr "全部混合"
+msgstr "使用全部預測機制"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, haveAnimation)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:37
@@ -44420,7 +44401,7 @@ msgstr "較慢/較佳"
 
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, effort)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:86
-#, fuzzy, kde-format
+#, kde-format
 msgid ""
 "Sets encoder effort/speed level without affecting decoding speed. Valid "
 "values are, from faster to slower speed: 1:lightning 2:thunder 3:falcon 4:"
@@ -44431,7 +44412,8 @@ msgstr ""
 "快至慢排列為:\n"
 "1:lightning 2:thunder 3:falcon 4:cheetah 5:hare 6:wombat 7:squirrel 8:kitten "
 "9:tortoise\n"
-"預設為 squirrel (7)。"
+"(1:閃電 2:轟雷 3:猛隼 4:獵豹 5:野兔 6:袋熊 7:松鼠 8:小貓 9:烏龜)\n"
+"預設為松鼠 squirrel (7)。"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:104
@@ -44447,69 +44429,65 @@ msgstr "最慢/最高畫質"
 
 #. i18n: ectx: property (text), widget (QLabel, lblSlowerBetter2)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:120
-#, fuzzy, kde-format
+#, kde-format
 msgid "Fastest/Slight quality loss"
-msgstr "最快/小量畫質下降"
+msgstr "最快/稍微畫質下降"
 
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, decodingSpeed)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:130
-#, fuzzy, kde-format
+#, kde-format
 msgid ""
 "Sets the decoding speed tier for the provided options. Minimum is 0 (slowest "
 "to decode, best quality/density), and maximum is 4 (fastest to decode, at "
 "the cost of some quality/density). Default is 0."
 msgstr ""
 "設定相對於所選編碼選項的解碼速度級別。\n"
-"最低為 0 (解碼最慢，但品質/密度最佳)，而最高為 4 (解碼最快，但會損失品質/密"
-"度)。\n"
+"最低為 0 (解碼最慢，但品質/密度最佳)，而最高為 4 "
+"(解碼最快，但會損失部分品質/密度)。\n"
 "預設為 0。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblResampling)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:200
-#, fuzzy, kde-format
-#| msgid "Color channels in color"
+#, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "Color channel resampling"
-msgstr "為色彩通道重新取樣"
+msgstr "色彩通道重新取樣"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, resampling)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:207
-#, fuzzy, kde-format
+#, kde-format
 msgid ""
 "Sets resampling option. If enabled, the image's color channels are "
 "downsampled before compression, and upsampled to original size in the "
 "decoder."
-msgstr ""
-"設定重新取樣選項。如啟用，影像的色彩通道將在壓縮前被下降取樣，而在解碼時再上"
+msgstr "設定重新取樣選項。如啟用，影像的色彩通道將在壓縮前被下降取樣，而在解碼時再上"
 "升取樣至原來的大小。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblAlphaResampling)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:214
-#, fuzzy, kde-format
-#| msgid "Alpha Plane Compression"
+#, kde-format
 msgid "Alpha channel resampling"
-msgstr "Alpha (透明度) 通道重新取樣"
+msgstr "Alpha 通道重新取樣"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, extraChannelResampling)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:221
-#, fuzzy, kde-format
+#, kde-format
 msgid ""
 "Sets resampling option. If enabled, the image's alpha channel is downsampled "
 "before compression, and upsampled to original size in the decoder."
-msgstr ""
-"設定重新取樣選項。如啟用，影像的 Alpha 通道將在壓縮前被下降取樣，而在解碼時再"
-"上升取樣至原來的大小。"
+msgstr "設定重新取樣選項。如啟用，影像的 Alpha (透明度) "
+"通道將在壓縮前被下降取樣，而在解碼時再上升取樣至原來的大小。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblPhotonNoise)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:228
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "Photon noise"
 msgstr "光子雜訊"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, photonNoise)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:241
-#, fuzzy, kde-format
+#, kde-format
 msgid ""
 "Adds noise to the image emulating photographic film noise, the higher the "
 "given number, the grainier the image will be. As an example, a value of 100 "
@@ -44517,45 +44495,38 @@ msgid ""
 "value is 0."
 msgstr ""
 "為影像加入模擬相片底片的雜點。數值愈高，雜點顆粒愈大。\n"
-"舉個例，數值 100 會產生小量雜點，而數值 1000 會產生大量雜點。\n"
+"舉例說，數值 100 會產生小量雜點，而數值 1000 會產生大量雜點。\n"
 "預設值為 0。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblDots)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:251
-#, fuzzy, kde-format
-#| msgid "Generate"
+#, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "Generate dots"
 msgstr "產生斑點 (dots)"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, dots)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:258
-#, fuzzy, kde-format
-#| msgid "Enable background cache generation"
+#, kde-format
 msgid "Enables or disables dots generation."
 msgstr "啟用或停用斑點 (dots) 的產生。"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:265
-#, fuzzy, kde-format
-#| msgctxt "(qtundo-format)"
-#| msgid "Reverse paths"
+#, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "Generate patches"
 msgstr "產生圖案區塊 (patches)"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, patches)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:272
-#, fuzzy, kde-format
-#| msgid "Enable background cache generation"
+#, kde-format
 msgid "Enables or disables patches generation."
 msgstr "啟用或停用圖案區塊 (patches) 的產生。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblEpf)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:279
-#, fuzzy, kde-format
-#| msgctxt "Filter options specifically for WebP"
-#| msgid "Preprocessing Filter"
+#, kde-format
 msgid "Edge preserving filter"
 msgstr "邊緣保留過濾"
 
@@ -44567,38 +44538,36 @@ msgstr "最大強度"
 
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, epf)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:305
-#, fuzzy, kde-format
+#, kde-format
 msgid ""
 "Edge preserving filter level, -1 to 3. Use -1 for the default (encoder "
 "chooses), 0 to 3 to set a strength."
-msgstr ""
-"邊緣保留過濾器的級別，由 -1 至 3。-1 為預設 (由編碼器選取)，0 至 3 設定強度。"
+msgstr "邊緣保留過濾器的級別，由 -1 至 3。-1 為使用預設 (由編碼器選取)，0 至 3 "
+"設定強度。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblGaborishFilter)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:320
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "Gaborish filter"
 msgstr "Gaborish 過濾"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, gaborish)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:327
-#, fuzzy, kde-format
+#, kde-format
 msgid "Enables or disables the gaborish filter."
 msgstr "啟用或停用「類 Garbor」(Garborish) 過濾器。"
 
 #. i18n: ectx: property (text), widget (QLabel, lbModularEncoding)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:334
-#, fuzzy, kde-format
-#| msgid "Start Recording"
+#, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "Modular encoding"
 msgstr "模組化編碼"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, modular)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:341
-#, fuzzy, kde-format
-#| msgid "Enable Touch Painting"
+#, kde-format
 msgid "Enables modular encoding."
 msgstr "啟用模組化編碼。"
 
@@ -44616,48 +44585,43 @@ msgstr "啟用或停用保留不可見像素的色彩值。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblGroupOrder)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:362
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Group Layer"
+#, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "Group order"
 msgstr "群組順序"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, groupOrder)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:369
-#, fuzzy, kde-format
+#, kde-format
 msgid ""
 "Determines the order in which 256x256 regions are stored in the codestream "
 "for progressive rendering."
-msgstr "決定在編碼流中存放各 256x256 區塊的排列順序，以支援漸進式算繪。"
+msgstr "決定在編碼流中存放各 256×256 區塊的排列順序，以支援漸進式算繪。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblJPEGReconCFL)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:376
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "Chroma-from-luma"
 msgstr "由光度產生色調 (Chroma-from-luma)"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:383
-#, fuzzy, kde-format
-#| msgctxt "(qtundo-format)"
-#| msgid "Change parameter"
+#, kde-format
 msgid "VarDCT parameters"
 msgstr "VarDCT 參數"
 
 #. i18n: ectx: property (text), widget (QLabel, lblProgressiveAC)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:389
-#, fuzzy, kde-format
-#| msgid "Subpixel precision"
+#, kde-format
 msgid "Spectral progression"
-msgstr "波譜漸進模式"
+msgstr "波譜進展模式"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, progressiveAC)
 #. i18n: ectx: property (toolTip), widget (QComboBox, qProgressiveAC)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:396
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:413
-#, fuzzy, kde-format
+#, kde-format
 msgid ""
 "Set the progressive mode for the AC coefficients of VarDCT, using spectral "
 "progression from the DCT coefficients."
@@ -44665,164 +44629,147 @@ msgstr "設定 VarDCT 中 AC 係數的漸進模式，根據 DCT 係數的波譜�
 
 #. i18n: ectx: property (text), widget (QLabel, lblQProgressiveAC)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:406
-#, fuzzy, kde-format
-#| msgctxt ""
-#| "h264 tune option name, check simplescreenrecorder for standard "
-#| "translations"
-#| msgid "animation"
+#, kde-format
 msgid "Quantization"
 msgstr "量化"
 
 #. i18n: ectx: property (text), widget (QLabel, lblProgressiveDC)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:420
-#, fuzzy, kde-format
-#| msgid "X resolution:"
+#, kde-format
 msgid "Low resolution DC"
 msgstr "低解析度 DC"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, progressiveDC)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:427
-#, fuzzy, kde-format
+#, kde-format
 msgid "Set the progressive mode using lower-resolution DC images for VarDCT. "
 msgstr "設定以 VarDCT 的較低解析度 DC 影像作漸進模式。"
 
 #. i18n: ectx: property (title), widget (QGroupBox, modularEncodingParameters)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:437
-#, fuzzy, kde-format
-#| msgctxt "(qtundo-format)"
-#| msgid "Change parameter"
+#, kde-format
 msgid "Modular parameters"
 msgstr "模組參數"
 
 #. i18n: ectx: property (text), widget (QLabel, lblChannelColorsGlobalPercent)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:443
-#, fuzzy, kde-format
-#| msgid "Global Pattern"
+#, kde-format
 msgid "Global channel palette range"
 msgstr "全域通道調色板範圍"
 
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, channelColorsGlobalPercent)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:452
-#, fuzzy, kde-format
+#, kde-format
 msgid ""
 "Use Global channel palette if the amount of colors is smaller than this "
 "percentage of range. Use 0-100 to set an explicit percentage, -1 to use the "
 "encoder default. Used for modular encoding."
-msgstr ""
-"色彩數目低於這個百分比時，將使用全域通道調色板。使用 0 至 100 設定百分比值，"
+msgstr "色彩數目低於這個百分比時，將使用全域通道調色板。使用 0 至 100 設定百分比值，"
 "而設定為 -1 則使用編碼器預設值。適用於模組化編碼。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblChannelColorsGroupPercent)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:493
-#, fuzzy, kde-format
-#| msgid "Load a palette"
+#, kde-format
 msgid "Local channel palette range"
 msgstr "每通道調色板範圍"
 
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, channelColorsGroupPercent)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:502
-#, fuzzy, kde-format
+#, kde-format
 msgid ""
 "Use Local (per-group) channel palette if the amount of colors is smaller "
 "than this percentage of range. Use 0-100 to set an explicit percentage, -1 "
 "to use the encoder default. Used for modular encoding."
 msgstr ""
-"色彩數目低於這個百分比時，將使用每通道 (按群組) 調色板。使用 0 至 100 設定百"
-"分比值，而設定為 -1 則使用編碼器預設值。適用於模組化編碼。"
+"色彩數目低於這個百分比時，將使用每通道 (按群組) 調色板。使用 0 至 100 "
+"設定百分比值，而設定為 -1 則使用編碼器預設值。適用於模組化編碼。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblPaletteColors)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:543
-#, fuzzy, kde-format
+#, kde-format
 msgid "Use color palette for ... colors or less"
 msgstr "色彩數目低於指定值時使用調色板"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, paletteColors)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:556
-#, fuzzy, kde-format
+#, kde-format
 msgid ""
 "Use color palette if amount of colors is smaller than or equal to this "
 "amount, or -1 to use the encoder default. Used for modular encoding."
-msgstr ""
-"色彩數目低於此值時，將使用調色板，或可將此值設定為 -1 以使用編碼器預設值。適"
-"用於模組化編碼。"
+msgstr "色彩數目低於此值時，將使用調色板，或可將此值設定為 -1 "
+"以使用編碼器預設值。適用於模組化編碼。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblLossyPalette)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:578
-#, fuzzy, kde-format
-#| msgid "Load a palette"
+#, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "Delta palette"
 msgstr "差值調色板"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, lossyPalette)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:585
-#, fuzzy, kde-format
+#, kde-format
 msgid "Enables or disables delta palette. Used in modular mode. "
 msgstr "啟用或停用差值調色板 (delta palette)。適用於模組化編碼。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblModularGroupSize)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:592
-#, fuzzy, kde-format
-#| msgid "Drop size"
+#, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "Group size"
 msgstr "群組大小"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, modularGroupSize)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:599
-#, fuzzy, kde-format
+#, kde-format
 msgid "Group size for modular encoding."
 msgstr "模組化編碼使用的群組大小。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblModularPredictor)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:606
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "Predictor"
-msgstr "色塊預測機制"
+msgstr "預測機制"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, modularPredictor)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:613
-#, fuzzy, kde-format
+#, kde-format
 msgid "Predictor for modular encoding."
 msgstr "模組化編碼使用的預測機制。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblModularMATreeLearningPercent)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:620
-#, fuzzy, kde-format
+#, kde-format
 msgid "Pixels for MA tree learning"
 msgstr "供 MA 樹學習用的像素"
 
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, modularMATreeLearningPercent)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:647
-#, fuzzy, kde-format
+#, kde-format
 msgid ""
 "Fraction of pixels used to learn MA trees as a percentage. -1 = default, 0 = "
 "no MA and fast decode, 50 = default value, 100 = all. Higher values use more "
 "encoder memory.\n"
 msgstr ""
-"按百分比取用一部分像素供 MA 樹學習。-1 為使用預設，0 為不使用 MA 及快速解碼，"
-"50 為預設值，100 為全部。數值愈大，則編碼器的記憶體使用量愈高。"
+"按百分比取用一部分像素供 MA 樹學習用。-1 為使用預設，0 為不使用 MA "
+"及快速解碼，50 為預設值，100 為全部。數值愈大，則編碼器的記憶體使用量愈高。"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, responsive)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:668
-#, fuzzy, kde-format
+#, kde-format
 msgid "Enables or disables progressive encoding for modular mode."
 msgstr "啟用或停用適用於模組化編碼模式的漸進式編碼。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblResponsive)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:675
-#, fuzzy, kde-format
-#| msgctxt "A progressive jpeg file can be displayed while loading."
-#| msgid "Progressive"
+#, kde-format
 msgid "Progressive encoding"
 msgstr "漸進式編碼"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:738
-#, fuzzy, kde-format
-#| msgctxt "JPEG metadata filter"
-#| msgid "Filters:"
+#, kde-format
 msgctxt "JPEG-XL metadata options"
 msgid "Filters:"
 msgstr "過濾器："
@@ -46541,7 +46488,7 @@ msgstr "Pixar Log 編碼"
 
 #. i18n: ectx: property (text), widget (QLabel, lblPredictor)
 #: plugins/impex/tiff/kis_wdg_options_tiff.ui:81
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "TIFF encoder options"
 msgid "Predictor"
 msgstr "色塊預測機制"
