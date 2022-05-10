@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-05-10 00:42+0000\n"
-"PO-Revision-Date: 2022-05-10 12:13+0000\n"
+"PO-Revision-Date: 2022-05-10 12:19+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -44753,7 +44753,7 @@ msgid ""
 "encoder memory.\n"
 msgstr ""
 "按百分比取用一部分像素供 MA 樹學習用。-1 為使用預設，0 為不使用 MA "
-"及快速解碼，50 為預設值，100 為全部。數值愈大，則編碼器的記憶體使用量愈高。"
+"及快速解碼，50 為預設值，100 為全部。數值愈大，則編碼器的記憶體使用量愈高。\n"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, responsive)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:668
