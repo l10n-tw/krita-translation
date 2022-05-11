@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-05-10 00:42+0000\n"
+"POT-Creation-Date: 2022-05-11 00:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -15475,7 +15475,6 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (KisCompositeOpComboBox, cmbComposite)
 #: libs/image/kis_layer.cc:283 libs/ui/widgets/kis_cmb_composite.cc:66
 #: plugins/dockers/layerdocker/WdgLayerBox.ui:56
-#: plugins/paintops/experiment/kis_experimentop_option.cpp:38
 #: plugins/paintops/libpaintop/kis_compositeop_option.cpp:20
 #, kde-format
 msgid "Blending Mode"
@@ -17965,9 +17964,9 @@ msgstr ""
 #: libs/resources/KisTagModel.cpp:121 libs/resources/KisTagModel.cpp:294
 #: libs/ui/widgets/kis_paintop_presets_editor.cpp:592
 #: plugins/assistants/Assistants/AssistantsToolOptions.ui:325
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:481
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:531
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:629
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:489
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:541
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:640
 #: plugins/tools/defaulttool/referenceimagestool/WdgToolOptions.ui:220
 #, kde-format
 msgid "All"
@@ -19690,7 +19689,7 @@ msgstr ""
 #: libs/ui/animation/VideoImportDialog.ui:197
 #: plugins/dockers/logdocker/LogDockerDock.cpp:187
 #: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:262
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:693
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:705
 #, kde-format
 msgid "Metadata"
 msgstr ""
@@ -19778,7 +19777,7 @@ msgstr ""
 #. i18n: ectx: attribute (title), widget (QWidget, advanced)
 #: libs/ui/animation/VideoImportDialog.ui:532
 #: libs/ui/forms/wdgperformancesettings.ui:251
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:149
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:153
 #: plugins/impex/webp/dlg_webp_export.ui:148
 #: plugins/impex/webp/dlg_webp_import.ui:304
 #, kde-format
@@ -20580,9 +20579,9 @@ msgstr ""
 #: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:49
 #: plugins/impex/jpeg/kis_jpeg_export.cc:217
 #: plugins/impex/jpeg/kis_jpeg_export.cc:219
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:455
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:505
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:650
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:463
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:515
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:662
 #: plugins/impex/tiff/kis_wdg_options_tiff.ui:314
 #: plugins/impex/webp/dlg_webp_export.ui:79
 #: plugins/impex/webp/dlg_webp_export.ui:320
@@ -37025,7 +37024,7 @@ msgstr ""
 
 #: plugins/dockers/svgcollectiondocker/SvgSymbolCollectionDocker.cpp:156
 #, kde-format
-msgid "Vector Libraries"
+msgid "Symbol Libraries"
 msgstr ""
 
 #: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:78
@@ -38452,7 +38451,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, exif)
 #: plugins/extensions/metadataeditor/kis_meta_data_editor.cc:162
 #: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:274
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:714
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:726
 #: plugins/metadata/exif/kis_exif_io.h:28
 #, kde-format
 msgid "Exif"
@@ -43197,21 +43196,21 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
 #: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:268
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:708
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:720
 #, kde-format
 msgid "Formats:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, iptc)
 #: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:284
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:721
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:733
 #, kde-format
 msgid "IPTC"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, xmp)
 #: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:294
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:728
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:740
 #: plugins/metadata/xmp/kis_xmp_io.h:26
 #, kde-format
 msgid "XMP"
@@ -43228,7 +43227,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, chkMetaData)
 #. i18n: ectx: property (title), widget (QGroupBox, chkMetadata)
 #: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:336
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:699
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:711
 #, kde-format
 msgid "Store Document Metadata"
 msgstr ""
@@ -43325,10 +43324,10 @@ msgstr ""
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:103
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:111
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:131
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:298
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:474
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:524
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:639
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:304
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:482
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:534
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:650
 #, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "Default (encoder chooses)"
@@ -43565,51 +43564,52 @@ msgid "Slower/Better"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, effort)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:86
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:88
 #, kde-format
 msgid ""
-"Sets encoder effort/speed level without affecting decoding speed. Valid "
-"values are, from faster to slower speed: 1:lightning 2:thunder 3:falcon 4:"
-"cheetah 5:hare 6:wombat 7:squirrel 8:kitten 9:tortoise. Default: squirrel "
-"(7). "
+"Sets encoder effort/speed level without affecting decoding speed.\n"
+"Valid values are, from faster to slower speed: 1:lightning 2:thunder 3:"
+"falcon 4:cheetah 5:hare 6:wombat 7:squirrel 8:kitten 9:tortoise.\n"
+"Default: squirrel (7)."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:104
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:106
 #, kde-format
 msgid "Decoding speed"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblSlowest)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:113
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:115
 #, kde-format
 msgid "Slowest/Best quality"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblSlowerBetter2)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:120
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:122
 #, kde-format
 msgid "Fastest/Slight quality loss"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, decodingSpeed)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:130
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:134
 #, kde-format
 msgid ""
-"Sets the decoding speed tier for the provided options. Minimum is 0 (slowest "
-"to decode, best quality/density), and maximum is 4 (fastest to decode, at "
-"the cost of some quality/density). Default is 0."
+"Sets the decoding speed tier for the provided options.\n"
+"Minimum is 0 (slowest to decode, best quality/density), and maximum is 4 "
+"(fastest to decode, at the cost of some quality/density).\n"
+"Default is 0."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblResampling)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:200
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:204
 #, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "Color channel resampling"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, resampling)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:207
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:211
 #, kde-format
 msgid ""
 "Sets resampling option. If enabled, the image's color channels are "
@@ -43618,13 +43618,13 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblAlphaResampling)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:214
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:218
 #, kde-format
 msgid "Alpha channel resampling"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, extraChannelResampling)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:221
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:225
 #, kde-format
 msgid ""
 "Sets resampling option. If enabled, the image's alpha channel is downsampled "
@@ -43632,62 +43632,63 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblPhotonNoise)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:228
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:232
 #, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "Photon noise"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, photonNoise)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:241
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:247
 #, kde-format
 msgid ""
 "Adds noise to the image emulating photographic film noise, the higher the "
-"given number, the grainier the image will be. As an example, a value of 100 "
-"gives low noise whereas a value of 3200 gives a lot of noise. The default "
-"value is 0."
+"given number, the grainier the image will be.\n"
+"As an example, a value of 100 gives low noise whereas a value of 3200 gives "
+"a lot of noise.\n"
+"The default value is 0."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblDots)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:251
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:257
 #, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "Generate dots"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, dots)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:258
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:264
 #, kde-format
 msgid "Enables or disables dots generation."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:265
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:271
 #, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "Generate patches"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, patches)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:272
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:278
 #, kde-format
 msgid "Enables or disables patches generation."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblEpf)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:279
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:285
 #, kde-format
 msgid "Edge preserving filter"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblMax)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:288
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:294
 #, kde-format
 msgid "Maximum strength"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, epf)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:305
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:311
 #, kde-format
 msgid ""
 "Edge preserving filter level, -1 to 3. Use -1 for the default (encoder "
@@ -43695,52 +43696,52 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblGaborishFilter)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:320
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:326
 #, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "Gaborish filter"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, gaborish)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:327
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:333
 #, kde-format
 msgid "Enables or disables the gaborish filter."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lbModularEncoding)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:334
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:340
 #, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "Modular encoding"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, modular)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:341
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:347
 #, kde-format
 msgid "Enables modular encoding."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblKeepInvisible)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:348
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:354
 #, kde-format
 msgid "Keep color of invisible pixels"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, keepInvisible)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:355
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:361
 #, kde-format
 msgid "Enables or disables preserving color of invisible pixels."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblGroupOrder)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:362
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:368
 #, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "Group order"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, groupOrder)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:369
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:375
 #, kde-format
 msgid ""
 "Determines the order in which 256x256 regions are stored in the codestream "
@@ -43748,28 +43749,28 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblJPEGReconCFL)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:376
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:382
 #, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "Chroma-from-luma"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:383
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:389
 #, kde-format
 msgid "VarDCT parameters"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblProgressiveAC)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:389
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:395
 #, kde-format
 msgid "Spectral progression"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, progressiveAC)
 #. i18n: ectx: property (toolTip), widget (QComboBox, qProgressiveAC)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:396
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:413
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:402
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:419
 #, kde-format
 msgid ""
 "Set the progressive mode for the AC coefficients of VarDCT, using spectral "
@@ -43777,141 +43778,144 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblQProgressiveAC)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:406
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:412
 #, kde-format
 msgid "Quantization"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblProgressiveDC)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:420
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:426
 #, kde-format
 msgid "Low resolution DC"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, progressiveDC)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:427
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:433
 #, kde-format
-msgid "Set the progressive mode using lower-resolution DC images for VarDCT. "
+msgid "Set the progressive mode using lower-resolution DC images for VarDCT."
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, modularEncodingParameters)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:437
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:443
 #, kde-format
 msgid "Modular parameters"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblChannelColorsGlobalPercent)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:443
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:449
 #, kde-format
 msgid "Global channel palette range"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, channelColorsGlobalPercent)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:452
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:460
 #, kde-format
 msgid ""
 "Use Global channel palette if the amount of colors is smaller than this "
-"percentage of range. Use 0-100 to set an explicit percentage, -1 to use the "
-"encoder default. Used for modular encoding."
+"percentage of range.\n"
+"Use 0-100 to set an explicit percentage, -1 to use the encoder default.\n"
+"Used for modular encoding."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblChannelColorsGroupPercent)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:493
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:501
 #, kde-format
 msgid "Local channel palette range"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, channelColorsGroupPercent)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:502
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:512
 #, kde-format
 msgid ""
 "Use Local (per-group) channel palette if the amount of colors is smaller "
-"than this percentage of range. Use 0-100 to set an explicit percentage, -1 "
-"to use the encoder default. Used for modular encoding."
+"than this percentage of range.\n"
+"Use 0-100 to set an explicit percentage, -1 to use the encoder default.\n"
+"Used for modular encoding."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblPaletteColors)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:543
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:553
 #, kde-format
 msgid "Use color palette for ... colors or less"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, paletteColors)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:556
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:567
 #, kde-format
 msgid ""
 "Use color palette if amount of colors is smaller than or equal to this "
-"amount, or -1 to use the encoder default. Used for modular encoding."
+"amount, or -1 to use the encoder default.\n"
+"Used for modular encoding."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblLossyPalette)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:578
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:589
 #, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "Delta palette"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, lossyPalette)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:585
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:596
 #, kde-format
-msgid "Enables or disables delta palette. Used in modular mode. "
+msgid "Enables or disables delta palette. Used in modular mode."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblModularGroupSize)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:592
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:603
 #, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "Group size"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, modularGroupSize)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:599
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:610
 #, kde-format
 msgid "Group size for modular encoding."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblModularPredictor)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:606
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:617
 #, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "Predictor"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, modularPredictor)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:613
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:624
 #, kde-format
 msgid "Predictor for modular encoding."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblModularMATreeLearningPercent)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:620
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:631
 #, kde-format
 msgid "Pixels for MA tree learning"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, modularMATreeLearningPercent)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:647
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:659
 #, kde-format
 msgid ""
-"Fraction of pixels used to learn MA trees as a percentage. -1 = default, 0 = "
-"no MA and fast decode, 50 = default value, 100 = all. Higher values use more "
-"encoder memory.\n"
+"Fraction of pixels used to learn MA trees as a percentage.\n"
+"-1 = default, 0 = no MA and fast decode, 50 = default value, 100 = all.\n"
+"Higher values use more encoder memory."
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, responsive)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:668
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:680
 #, kde-format
 msgid "Enables or disables progressive encoding for modular mode."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblResponsive)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:675
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:687
 #, kde-format
 msgid "Progressive encoding"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:738
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:750
 #, kde-format
 msgctxt "JPEG-XL metadata options"
 msgid "Filters:"
@@ -46745,6 +46749,11 @@ msgstr ""
 #: plugins/paintops/experiment/kis_experiment_paintop_settings.cpp:203
 #, kde-format
 msgid "Hard Edge"
+msgstr ""
+
+#: plugins/paintops/experiment/kis_experimentop_option.cpp:38
+#, kde-format
+msgid "Experiment Option"
 msgstr ""
 
 #: plugins/paintops/experiment/kis_experimentop_option.cpp:138
