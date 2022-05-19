@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-05-18 00:43+0000\n"
-"PO-Revision-Date: 2022-05-13 11:15+0000\n"
+"PO-Revision-Date: 2022-05-19 17:53+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -31307,14 +31307,9 @@ msgstr ""
 "框。"
 
 #: libs/ui/widgets/kis_custom_image_widget.cc:438
-#, fuzzy, kde-format
-#| msgid ""
-#| "Could not save\n"
-#| "%1"
+#, kde-format
 msgid "Could not save %1."
-msgstr ""
-"無法儲存\n"
-"%1"
+msgstr "無法儲存「%1」。"
 
 #: libs/ui/widgets/kis_custom_image_widget.cc:541
 #, kde-format
@@ -36239,10 +36234,9 @@ msgid "Thumbnail Size"
 msgstr "縮圖大小"
 
 #: plugins/dockers/layerdocker/LayerBox.cpp:335
-#, fuzzy, kde-format
-#| msgid "Orientation"
+#, kde-format
 msgid "Tree Indentation"
-msgstr "方向"
+msgstr "樹狀層級縮排"
 
 #: plugins/dockers/layerdocker/LayerBox.cpp:910
 msgctxt "(qtundo-format)"
