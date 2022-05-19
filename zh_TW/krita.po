@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-05-11 00:43+0000\n"
-"PO-Revision-Date: 2022-05-11 07:54+0000\n"
+"POT-Creation-Date: 2022-05-18 00:43+0000\n"
+"PO-Revision-Date: 2022-05-19 17:53+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -11778,7 +11778,7 @@ msgstr "匯入/匯出(&I)"
 msgid "Import"
 msgstr "匯入"
 
-#: krita/krita5.xmlgui:214 plugins/dockers/layerdocker/LayerBox.cpp:1139
+#: krita/krita5.xmlgui:214 plugins/dockers/layerdocker/LayerBox.cpp:1163
 #, kde-format
 msgid "&Convert"
 msgstr "轉換(&C)"
@@ -11786,14 +11786,14 @@ msgstr "轉換(&C)"
 #. i18n: ectx: property (text), widget (QPushButton, bnSelect)
 #: krita/krita5.xmlgui:225 krita/krita5.xmlgui:296
 #: libs/ui/imagesize/imagesize.xmlgui:12
-#: plugins/dockers/layerdocker/LayerBox.cpp:1113
+#: plugins/dockers/layerdocker/LayerBox.cpp:1137
 #: plugins/extensions/colorrange/wdg_colorrange.ui:134
 #: plugins/extensions/modify_selection/modify_selection.xmlgui:4
 #, kde-format
 msgid "&Select"
 msgstr "選取(&S)"
 
-#: krita/krita5.xmlgui:233 plugins/dockers/layerdocker/LayerBox.cpp:1119
+#: krita/krita5.xmlgui:233 plugins/dockers/layerdocker/LayerBox.cpp:1143
 #, kde-format
 msgctxt "A group of layers"
 msgid "&Group"
@@ -11814,7 +11814,7 @@ msgstr "變形全部圖層(&A)"
 msgid "S&plit"
 msgstr "分割(&P)"
 
-#: krita/krita5.xmlgui:273 plugins/dockers/layerdocker/LayerBox.cpp:1146
+#: krita/krita5.xmlgui:273 plugins/dockers/layerdocker/LayerBox.cpp:1170
 #, kde-format
 msgid "S&plit Alpha"
 msgstr "分割 Alpha (透明度) (&P)"
@@ -14081,13 +14081,13 @@ msgctxt "action"
 msgid "Workspaces"
 msgstr "作業空間"
 
-#: krita/main.cc:511
+#: krita/main.cc:515
 #, kde-format
 msgctxt "@title:window"
 msgid "Fatal Error"
 msgstr "嚴重錯誤"
 
-#: krita/main.cc:511
+#: krita/main.cc:515
 #, kde-format
 msgid ""
 "Krita does not support the Wayland platform. Use XWayland to run Krita on "
@@ -14096,14 +14096,14 @@ msgstr ""
 "Krita 不支援 Wayland 平台。如您希望在 Wayland 上執行 Krita，請使用 XWayland。"
 "Krita 現在會退出。"
 
-#: krita/main.cc:614 libs/ui/KisApplication.cpp:406
+#: krita/main.cc:618 libs/ui/KisApplication.cpp:406
 #: libs/ui/KisApplication.cpp:671
 #, kde-format
 msgctxt "@title:window"
 msgid "Krita: Warning"
 msgstr "Krita：警告"
 
-#: krita/main.cc:615
+#: krita/main.cc:619
 #, kde-format
 msgid ""
 "You are running an unsupported version of Windows: %1.\n"
@@ -14114,12 +14114,12 @@ msgstr ""
 "我們不建議這樣做，請勿為此報告問題。\n"
 "請升級到下列支援的 Windows 版本之一：Windows 7、8、8.1、10。"
 
-#: krita/main.cc:637 krita/main.cc:642
+#: krita/main.cc:641 krita/main.cc:646
 #, kde-format
 msgid "Krita Tablet Support"
 msgstr "Krita 數位板支援"
 
-#: krita/main.cc:638
+#: krita/main.cc:642
 #, kde-format
 msgid ""
 "Cannot load WinTab driver and no Windows Ink pen devices are found. If you "
@@ -14129,7 +14129,7 @@ msgstr ""
 "無法載入 WinTab 驅動程式，且未發現 Windows Ink 手寫筆裝置。如果數位板已連接，"
 "請確保其驅動程式已正確安裝。"
 
-#: krita/main.cc:643
+#: krita/main.cc:647
 #, kde-format
 msgid ""
 "Cannot load WinTab driver. If you have a drawing tablet, please make sure "
@@ -14526,9 +14526,9 @@ msgstr "儲存到 html 失敗"
 msgid "Cannot save %1 to html"
 msgstr "無法將 %1 儲存到 html"
 
-#: libs/flake/KoMarkerCollection.cpp:68
+#: libs/flake/KoMarkerCollection.cpp:67
 #: libs/flake/resources/KoSvgSymbolCollectionResource.cpp:126
-#: libs/ui/flake/kis_shape_layer.cc:552
+#: libs/ui/flake/kis_shape_layer.cc:551
 #, kde-format
 msgid ""
 "Parsing error in the main document at line %1, column %2\n"
@@ -14537,12 +14537,12 @@ msgstr ""
 "在主檔案的第 %1 行第 %2 列發生解析錯誤\n"
 "錯誤訊息：%3"
 
-#: libs/flake/KoPathShapeFactory.cpp:25
+#: libs/flake/KoPathShapeFactory.cpp:23
 #, kde-format
 msgid "Simple path shape"
 msgstr "簡單路徑形狀"
 
-#: libs/flake/KoPathShapeFactory.cpp:27
+#: libs/flake/KoPathShapeFactory.cpp:25
 #, kde-format
 msgid "A simple path shape"
 msgstr "一個簡單路徑形狀"
@@ -14557,7 +14557,7 @@ msgstr "%1的選項"
 msgid "Active tool: %1"
 msgstr "使用中工具：%1"
 
-#: libs/flake/svg/SvgParser.cpp:1773
+#: libs/flake/svg/SvgParser.cpp:1776
 #, kde-format
 msgctxt "warning while loading SVG text"
 msgid ""
@@ -14568,47 +14568,47 @@ msgstr ""
 "文件內含有由 Krita 4.x 建立的向量文字。當您儲存文件時，這些文字物件將會被轉換"
 "為 Krita 5 格式而不再兼容 Krita 4.x 版本"
 
-#: libs/flake/text/KoSvgTextShape.cpp:572
+#: libs/flake/text/KoSvgTextShape.cpp:571
 #, kde-format
 msgctxt "Text label in SVG Text Tool"
 msgid "Text"
 msgstr "文字"
 
-#: libs/flake/text/KoSvgTextShape.cpp:574
-#: libs/flake/text/KoSvgTextShape.cpp:582
+#: libs/flake/text/KoSvgTextShape.cpp:573
+#: libs/flake/text/KoSvgTextShape.cpp:581
 #, kde-format
 msgid "SVG Text Shape"
 msgstr "SVG 文字形狀"
 
-#: libs/flake/text/KoSvgTextShape.cpp:580
+#: libs/flake/text/KoSvgTextShape.cpp:579
 #, kde-format
 msgid "SVG Text"
 msgstr "SVG 文字"
 
-#: libs/flake/text/KoSvgTextShape.cpp:594
-#: libs/flake/text/KoSvgTextShape.cpp:609
+#: libs/flake/text/KoSvgTextShape.cpp:593
+#: libs/flake/text/KoSvgTextShape.cpp:608
 #, kde-format
 msgctxt "Default text for the text shape"
 msgid "<text>Placeholder Text</text>"
 msgstr "<text>佔位文字</text>"
 
-#: libs/flake/text/KoSvgTextShapeMarkupConverter.cpp:134
+#: libs/flake/text/KoSvgTextShapeMarkupConverter.cpp:133
 #, kde-format
 msgid "More than one 'text' node found!"
 msgstr "找到多個 \"文字\" 節點！"
 
-#: libs/flake/text/KoSvgTextShapeMarkupConverter.cpp:143
+#: libs/flake/text/KoSvgTextShapeMarkupConverter.cpp:142
 #, kde-format
 msgid "Unknown node of type '%1' found!"
 msgstr "找到類型為「%1」的未知節點！"
 
-#: libs/flake/text/KoSvgTextShapeMarkupConverter.cpp:149
+#: libs/flake/text/KoSvgTextShapeMarkupConverter.cpp:148
 #, kde-format
 msgid "No 'text' node found!"
 msgstr "找不到 \"文字\" 節點！"
 
-#: libs/flake/text/KoSvgTextShapeMarkupConverter.cpp:357
-#: libs/flake/text/KoSvgTextShapeMarkupConverter.cpp:726
+#: libs/flake/text/KoSvgTextShapeMarkupConverter.cpp:356
+#: libs/flake/text/KoSvgTextShapeMarkupConverter.cpp:725
 #, kde-format
 msgid "Unknown error writing SVG text element"
 msgstr "寫入 SVG 文字元素時發生未知錯誤"
@@ -15022,7 +15022,7 @@ msgstr " px"
 #: libs/image/brushengine/kis_standard_uniform_properties_factory.h:19
 #: libs/image/kis_keyframe_channel.cpp:26 libs/image/kis_layer.cc:278
 #: libs/widgets/KoColorPopupAction.cpp:85
-#: plugins/dockers/layerdocker/LayerBox.cpp:197
+#: plugins/dockers/layerdocker/LayerBox.cpp:198
 #: plugins/paintops/hairy/wdghairyeoptions.ui:301
 #: plugins/paintops/hairy/wdgInkOptions.ui:62
 #: plugins/paintops/libpaintop/kis_pressure_flow_opacity_option.cpp:19
@@ -15340,7 +15340,7 @@ msgstr "匯入的影像"
 msgid "Selection Mask"
 msgstr "選取區域遮罩"
 
-#: libs/image/kis_image.cc:720 libs/ui/KisDocument.cpp:2426
+#: libs/image/kis_image.cc:720 libs/ui/KisDocument.cpp:2425
 #: plugins/impex/psd/psd_loader.cpp:190
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:68
 #: plugins/python/comics_project_management_tools/comics_template_dialog.py:302
@@ -16348,7 +16348,7 @@ msgctxt "description of a file type"
 msgid "JPEG-XL Image"
 msgstr "JPEG-XL 影像"
 
-#: libs/libkis/Document.cpp:927 libs/ui/KisMainWindow.cpp:1954
+#: libs/libkis/Document.cpp:926 libs/ui/KisMainWindow.cpp:1954
 #: libs/ui/KisMainWindow.cpp:2037
 #, kde-format
 msgid "Import frames"
@@ -17644,9 +17644,9 @@ msgstr "本機資源"
 #: libs/ui/kis_node_manager.cpp:1281 libs/ui/KisApplication.cpp:970
 #: libs/ui/KisApplication.cpp:973 libs/ui/KisApplication.cpp:989
 #: libs/ui/KisApplication.cpp:1021 libs/ui/KisApplication.cpp:1035
-#: libs/ui/KisApplication.cpp:1063 libs/ui/KisDocument.cpp:917
-#: libs/ui/KisDocument.cpp:925 libs/ui/KisDocument.cpp:1782
-#: libs/ui/KisDocument.cpp:1825 libs/ui/KisDocument.cpp:1833
+#: libs/ui/KisApplication.cpp:1063 libs/ui/KisDocument.cpp:916
+#: libs/ui/KisDocument.cpp:924 libs/ui/KisDocument.cpp:1781
+#: libs/ui/KisDocument.cpp:1824 libs/ui/KisDocument.cpp:1832
 #: libs/ui/KisMainWindow.cpp:994 libs/ui/KisMainWindow.cpp:1120
 #: libs/ui/KisMainWindow.cpp:1218 libs/ui/KisMainWindow.cpp:1814
 #: libs/ui/KisMainWindow.cpp:1823 libs/ui/KisMainWindow.cpp:1962
@@ -17658,7 +17658,7 @@ msgstr "本機資源"
 #: libs/ui/KisView.cpp:589 libs/ui/KisView.cpp:848
 #: libs/ui/KisWelcomePageWidget.cpp:711
 #: libs/ui/opengl/KisOpenGLCanvasRenderer.cpp:349
-#: libs/ui/widgets/kis_custom_image_widget.cc:293
+#: libs/ui/widgets/kis_custom_image_widget.cc:294
 #: plugins/assistants/Assistants/kis_assistant_tool.cc:1301
 #: plugins/assistants/Assistants/kis_assistant_tool.cc:1304
 #: plugins/dockers/gamutmask/gamutmask_dock.cpp:295
@@ -17843,7 +17843,7 @@ msgstr "MD5 雜湊值"
 #: libs/resources/KisResourceStorage.h:116
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1588
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1592
-#: libs/ui/forms/wdgdisplaysettings.ui:173 libs/ui/KoDocumentInfo.cpp:39
+#: libs/ui/forms/wdgdisplaysettings.ui:173 libs/ui/KoDocumentInfo.cpp:36
 #: libs/widgets/KisDlgInternalColorSelector.cpp:322
 #: libs/widgets/WdgDlgInternalColorSelector.ui:89
 #: plugins/python/channels2layers/channels2layers.py:853
@@ -17969,7 +17969,7 @@ msgstr "圖層樣式"
 
 #: libs/resources/KisStorageModel.cpp:421
 #: libs/resourcewidgets/dbexplorer/DlgDbExplorer.cpp:67
-#: libs/widgets/KoConfigAuthorPage.cpp:89
+#: libs/widgets/KoConfigAuthorPage.cpp:91
 #: plugins/extensions/metadataeditor/kis_meta_data_model.cpp:97
 #: plugins/python/filtermanager/components/filtermanagertreemodel.py:18
 #: plugins/python/scripter/ui_scripter/tabwidgets/debuggerwidget/debuggertable.py:16
@@ -20706,12 +20706,12 @@ msgstr "圖層屬性"
 #: libs/ui/widgets/gradient/KisGradientColorEditor.cpp:100
 #: libs/ui/widgets/gradient/KisSegmentGradientEditor.cpp:159
 #: libs/ui/widgets/gradient/KisSegmentGradientEditor.cpp:162
-#: libs/ui/widgets/kis_custom_image_widget.cc:100
+#: libs/ui/widgets/kis_custom_image_widget.cc:101
 #: libs/ui/widgets/KisAutoLevelsWidget.cpp:16
 #: libs/widgets/kis_color_input.cpp:147 libs/widgets/kis_color_input.cpp:190
 #: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:246
 #: plugins/dockers/animation/KisOnionSkinsDocker.cpp:47
-#: plugins/dockers/layerdocker/LayerBox.cpp:200
+#: plugins/dockers/layerdocker/LayerBox.cpp:201
 #: plugins/filters/halftone/KisHalftoneConfigPageWidget.cpp:47
 #: plugins/filters/halftone/KisHalftoneConfigPageWidget.cpp:51
 #: plugins/filters/halftone/KisHalftoneConfigPageWidget.cpp:54
@@ -20927,10 +20927,10 @@ msgid "Tool Icon"
 msgstr "工具圖示"
 
 #: libs/ui/dialogs/kis_dlg_preferences.cc:187
-#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:188
-#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:222
-#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:256
-#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:290
+#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:187
+#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:221
+#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:255
+#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:289
 #, kde-format
 msgid "Arrow"
 msgstr "箭頭"
@@ -21613,7 +21613,7 @@ msgstr "重新命名工作階段"
 msgid "New name:"
 msgstr "新名稱："
 
-#: libs/ui/flake/kis_shape_controller.cpp:197
+#: libs/ui/flake/kis_shape_controller.cpp:196
 #, kde-format
 msgid "Vector Layer %1"
 msgstr "向量圖層 %1"
@@ -25508,13 +25508,13 @@ msgid "Resize Canvas"
 msgstr "調整畫布大小"
 
 #: libs/ui/imagesize/dlg_imagesize.cc:41
-#: libs/ui/widgets/kis_custom_image_widget.cc:57
+#: libs/ui/widgets/kis_custom_image_widget.cc:58
 #, kde-format
 msgid "Pixels/Inch"
 msgstr "像素/英寸"
 
 #: libs/ui/imagesize/dlg_imagesize.cc:47
-#: libs/ui/widgets/kis_custom_image_widget.cc:63
+#: libs/ui/widgets/kis_custom_image_widget.cc:64
 #, kde-format
 msgid "Pixels/Centimeter"
 msgstr "像素/公分"
@@ -27096,13 +27096,13 @@ msgctxt "(qtundo-format)"
 msgid "Quick Ungroup"
 msgstr "快速拆散群組"
 
-#: libs/ui/kis_node_model.cpp:499
+#: libs/ui/kis_node_model.cpp:524
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Disabled: masks on pass-through groups are not supported!"
 msgstr "已停用：不支援在穿透群組使用遮罩！"
 
-#: libs/ui/kis_node_model.cpp:501
+#: libs/ui/kis_node_model.cpp:526
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Disabled: cloning pass-through groups is not supported!"
@@ -27590,6 +27590,7 @@ msgstr "檔案圖層"
 #: libs/ui/KisApplication.cpp:660 libs/ui/KisApplication.cpp:665
 #: libs/ui/KisApplication.cpp:836 libs/ui/KisApplication.cpp:850
 #: libs/ui/KisApplication.cpp:855
+#: libs/ui/widgets/kis_custom_image_widget.cc:437
 #, kde-format
 msgctxt "@title:window"
 msgid "Krita:Warning"
@@ -27817,28 +27818,28 @@ msgctxt "(qtundo-format)"
 msgid "Clone Document"
 msgstr "再製文件"
 
-#: libs/ui/KisDocument.cpp:713
+#: libs/ui/KisDocument.cpp:712
 #, kde-format
 msgid "%1 cannot be written to. Please save under a different name."
 msgstr "無法寫入 %1 。請以不同的名稱儲存。"
 
-#: libs/ui/KisDocument.cpp:776
+#: libs/ui/KisDocument.cpp:775
 #, kde-format
 msgid "Exporting Document..."
 msgstr "正在匯出檔案…"
 
-#: libs/ui/KisDocument.cpp:777
+#: libs/ui/KisDocument.cpp:776
 #, kde-format
 msgid "Saving Document..."
 msgstr "正在儲存檔案…"
 
-#: libs/ui/KisDocument.cpp:912
+#: libs/ui/KisDocument.cpp:911
 #, kde-format
 msgctxt "%1 --- failing file name, %2 --- error message"
 msgid "Error during saving %1: %2"
 msgstr "儲存%1 時出錯： %2"
 
-#: libs/ui/KisDocument.cpp:918
+#: libs/ui/KisDocument.cpp:917
 #, kde-format
 msgid ""
 "Could not save %1.\n"
@@ -27847,7 +27848,7 @@ msgstr ""
 "無法儲存 %1。\n"
 "原因：%2"
 
-#: libs/ui/KisDocument.cpp:927
+#: libs/ui/KisDocument.cpp:926
 #, kde-format
 msgctxt ""
 "dialog box shown to the user if there were warnings while saving the "
@@ -27859,38 +27860,38 @@ msgstr ""
 "已儲存 %1 但檔案不完整。\n"
 "儲存檔案時遇到以下問題："
 
-#: libs/ui/KisDocument.cpp:963
+#: libs/ui/KisDocument.cpp:962
 #, kde-format
 msgid "Finished saving %1"
 msgstr "完成儲存 %1"
 
-#: libs/ui/KisDocument.cpp:1341
+#: libs/ui/KisDocument.cpp:1340
 #, kde-format
 msgid "Autosaving... %1"
 msgstr "正在自動儲存… %1"
 
-#: libs/ui/KisDocument.cpp:1349
+#: libs/ui/KisDocument.cpp:1348
 #, kde-format
 msgid "Autosaving..."
 msgstr "正在自動儲存…"
 
-#: libs/ui/KisDocument.cpp:1355
+#: libs/ui/KisDocument.cpp:1354
 #, kde-format
 msgid "Autosaving postponed: document is busy..."
 msgstr "自動儲存已推遲：檔案正在被佔用…"
 
-#: libs/ui/KisDocument.cpp:1460
+#: libs/ui/KisDocument.cpp:1459
 #, kde-format
 msgctxt "%1 --- failing file name, %2 --- error message"
 msgid "Error during autosaving %1: %2"
 msgstr "自動儲存 %1 時出錯：%2"
 
-#: libs/ui/KisDocument.cpp:1474
+#: libs/ui/KisDocument.cpp:1473
 #, kde-format
 msgid "Finished autosaving %1"
 msgstr "完成自動儲存 %1"
 
-#: libs/ui/KisDocument.cpp:1716
+#: libs/ui/KisDocument.cpp:1715
 #, kde-format
 msgid ""
 "Malformed Path\n"
@@ -27899,17 +27900,17 @@ msgstr ""
 "路徑格式錯誤\n"
 "%1"
 
-#: libs/ui/KisDocument.cpp:1782
+#: libs/ui/KisDocument.cpp:1781
 #, kde-format
 msgid "File %1 does not exist."
 msgstr "檔案 %1 不存在。"
 
-#: libs/ui/KisDocument.cpp:1811
+#: libs/ui/KisDocument.cpp:1810
 #, kde-format
 msgid "Opening document"
 msgstr "正在開啟檔案"
 
-#: libs/ui/KisDocument.cpp:1826
+#: libs/ui/KisDocument.cpp:1825
 #, kde-format
 msgid ""
 "Could not open %2.\n"
@@ -27918,23 +27919,23 @@ msgstr ""
 "無法開啟 %2。\n"
 "原因：%1"
 
-#: libs/ui/KisDocument.cpp:1834
+#: libs/ui/KisDocument.cpp:1833
 #, kde-format
 msgid "There were problems opening %1"
 msgstr "開啟 %1 時遇到了一些問題"
 
-#: libs/ui/KisDocument.cpp:1963
+#: libs/ui/KisDocument.cpp:1962
 #, kde-format
 msgid "Not Saved"
 msgstr "未儲存"
 
-#: libs/ui/KisDocument.cpp:2433
+#: libs/ui/KisDocument.cpp:2432
 #, kde-format
 msgctxt "Name of automatically created background color fill layer"
 msgid "Background Fill"
 msgstr "背景色填充"
 
-#: libs/ui/KisDocument.cpp:2487
+#: libs/ui/KisDocument.cpp:2486
 #, kde-format
 msgctxt ""
 "progress dialog message when the user closes the document that is being saved"
@@ -28093,8 +28094,8 @@ msgid "The action was cancelled by the user."
 msgstr "操作已由使用者取消。"
 
 #: libs/ui/KisImportExportErrorCode.cpp:178
-#: plugins/impex/libkra/kra_converter.cpp:379
-#: plugins/impex/libkra/kra_converter.cpp:408
+#: plugins/impex/libkra/kra_converter.cpp:378
+#: plugins/impex/libkra/kra_converter.cpp:407
 #, kde-format
 msgid "Unknown error."
 msgstr "未知錯誤。"
@@ -28839,34 +28840,34 @@ msgstr "但螢幕校樣仍然關閉。"
 msgid "Gamut Warnings turned off."
 msgstr "已關閉色域警告。"
 
-#: libs/ui/KisViewManager.cpp:741
+#: libs/ui/KisViewManager.cpp:740
 #, kde-format
 msgid "Active Author Profile"
 msgstr "目前作者檔案"
 
-#: libs/ui/KisViewManager.cpp:871
+#: libs/ui/KisViewManager.cpp:870
 #, kde-format
 msgid "%1 (Copy)"
 msgstr "%1 (副本)"
 
-#: libs/ui/KisViewManager.cpp:1013 libs/ui/KisViewManager.cpp:1094
+#: libs/ui/KisViewManager.cpp:1012 libs/ui/KisViewManager.cpp:1093
 #, kde-format
 msgid "Alternative names exhausted, try manually saving with a higher number"
 msgstr "備用名稱數字已用盡，請手動輸入更大的數字儲存檔案"
 
-#: libs/ui/KisViewManager.cpp:1013
+#: libs/ui/KisViewManager.cpp:1012
 #, kde-format
 msgctxt "@title:window"
 msgid "Couldn't save incremental version"
 msgstr "無法儲存遞增版本"
 
-#: libs/ui/KisViewManager.cpp:1094
+#: libs/ui/KisViewManager.cpp:1093
 #, kde-format
 msgctxt "@title:window"
 msgid "Couldn't save incremental backup"
 msgstr "無法儲存遞增備份"
 
-#: libs/ui/KisViewManager.cpp:1277
+#: libs/ui/KisViewManager.cpp:1276
 #, kde-format
 msgid ""
 "Going into Canvas-Only mode.\n"
@@ -28875,13 +28876,13 @@ msgstr ""
 "即將切換為畫布獨佔模式。\n"
 "按下 %1 返回。"
 
-#: libs/ui/KisViewManager.cpp:1317
+#: libs/ui/KisViewManager.cpp:1316
 #, kde-format
 msgctxt "@title:window resource folder"
 msgid "Open Resource Folder"
 msgstr "開啟資源資料夾"
 
-#: libs/ui/KisViewManager.cpp:1320
+#: libs/ui/KisViewManager.cpp:1319
 #, kde-format
 msgctxt "@info resource folder"
 msgid ""
@@ -28904,19 +28905,19 @@ msgstr ""
 "<p><b>應用程式內部資料夾</b>：<br/>\n"
 "%2</p>"
 
-#: libs/ui/KisViewManager.cpp:1334
+#: libs/ui/KisViewManager.cpp:1333
 #, kde-format
 msgctxt "@action:button resource folder"
 msgid "Open in &user AppData"
 msgstr "開啟使用者 AppData (&U)"
 
-#: libs/ui/KisViewManager.cpp:1335
+#: libs/ui/KisViewManager.cpp:1334
 #, kde-format
 msgctxt "@action:button resource folder"
 msgid "Open in &private app location"
 msgstr "開啟應用程式內部資料夾(&P)"
 
-#: libs/ui/KisViewManager.cpp:1448 libs/ui/KisViewManager.cpp:1466
+#: libs/ui/KisViewManager.cpp:1447 libs/ui/KisViewManager.cpp:1465
 #, kde-format
 msgctxt "choice for author profile"
 msgid "Anonymous"
@@ -31284,12 +31285,12 @@ msgstr "無標籤"
 msgid "Select a Color Space"
 msgstr "選擇色彩空間"
 
-#: libs/ui/widgets/kis_custom_image_widget.cc:118
+#: libs/ui/widgets/kis_custom_image_widget.cc:119
 #, kde-format
 msgid "&Create"
 msgstr "建立(&C)"
 
-#: libs/ui/widgets/kis_custom_image_widget.cc:294
+#: libs/ui/widgets/kis_custom_image_widget.cc:295
 #, kde-format
 msgid ""
 "Linear gamma RGB color spaces are not supposed to be used in 8-bit integer "
@@ -31305,7 +31306,12 @@ msgstr ""
 "點擊「確定」建立 8 位元整數線性 RGB 色彩空間，或者點擊「取消」回到設定對話"
 "框。"
 
-#: libs/ui/widgets/kis_custom_image_widget.cc:535
+#: libs/ui/widgets/kis_custom_image_widget.cc:438
+#, kde-format
+msgid "Could not save %1."
+msgstr "無法儲存「%1」。"
+
+#: libs/ui/widgets/kis_custom_image_widget.cc:541
 #, kde-format
 msgctxt ""
 "arg1: width. arg2: height. arg3: colorspace name. arg4: size of a channel in "
@@ -31429,7 +31435,7 @@ msgstr "飽和度："
 msgid "Mid-gray level:"
 msgstr "中間灰亮度："
 
-#: libs/ui/widgets/kis_paintop_presets_chooser_popup.cpp:43
+#: libs/ui/widgets/kis_paintop_presets_chooser_popup.cpp:44
 #: libs/ui/widgets/kis_paintop_presets_editor.cpp:125
 #: plugins/dockers/gamutmask/KisGamutMaskChooser.cpp:160
 #, kde-format
@@ -31437,21 +31443,21 @@ msgctxt "@title Which elements to display (e.g., thumbnails or details)"
 msgid "Display"
 msgstr "顯示方式"
 
-#: libs/ui/widgets/kis_paintop_presets_chooser_popup.cpp:49
+#: libs/ui/widgets/kis_paintop_presets_chooser_popup.cpp:50
 #: libs/ui/widgets/kis_paintop_presets_editor.cpp:131
 #: plugins/dockers/gamutmask/KisGamutMaskChooser.cpp:168
 #, kde-format
 msgid "Thumbnails"
 msgstr "縮圖"
 
-#: libs/ui/widgets/kis_paintop_presets_chooser_popup.cpp:54
+#: libs/ui/widgets/kis_paintop_presets_chooser_popup.cpp:55
 #: libs/ui/widgets/kis_paintop_presets_editor.cpp:136
 #: plugins/dockers/gamutmask/KisGamutMaskChooser.cpp:174
 #, kde-format
 msgid "Details"
 msgstr "詳細資料"
 
-#: libs/ui/widgets/kis_paintop_presets_chooser_popup.cpp:72
+#: libs/ui/widgets/kis_paintop_presets_chooser_popup.cpp:73
 #: libs/ui/widgets/kis_paintop_presets_editor.cpp:155
 #: libs/widgets/KoToolBoxDocker.cpp:136
 #: libs/widgetutils/xmlgui/ktoolbar.cpp:321
@@ -31906,41 +31912,41 @@ msgstr "交換前景色和背景色"
 msgid "Background color selector"
 msgstr "選取背景色"
 
-#: libs/ui/widgets/KoFillConfigWidget.cpp:272
+#: libs/ui/widgets/KoFillConfigWidget.cpp:271
 #, kde-format
 msgid "Change the filling color"
 msgstr "變更填充色彩"
 
-#: libs/ui/widgets/KoFillConfigWidget.cpp:305
+#: libs/ui/widgets/KoFillConfigWidget.cpp:304
 #, kde-format
 msgid "Change filling gradient"
 msgstr "變更填充漸變"
 
-#: libs/ui/widgets/KoFillConfigWidget.cpp:654
+#: libs/ui/widgets/KoFillConfigWidget.cpp:653
 #, kde-format
 msgctxt "default prefix for the saved gradient"
 msgid "gradient"
 msgstr "漸變"
 
-#: libs/ui/widgets/KoFillConfigWidget.cpp:663
+#: libs/ui/widgets/KoFillConfigWidget.cpp:662
 #, kde-format
 msgctxt "@title:window"
 msgid "Save Gradient"
 msgstr "儲存漸變"
 
-#: libs/ui/widgets/KoFillConfigWidget.cpp:664
+#: libs/ui/widgets/KoFillConfigWidget.cpp:663
 #, kde-format
 msgid "Enter gradient name:"
 msgstr "輸入漸變名稱："
 
-#: libs/ui/widgets/KoFillConfigWidget.cpp:671
+#: libs/ui/widgets/KoFillConfigWidget.cpp:670
 #: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:204
 #, kde-format
 msgctxt "@title:window"
 msgid "Name Already Exists"
 msgstr "名稱已存在"
 
-#: libs/ui/widgets/KoFillConfigWidget.cpp:672
+#: libs/ui/widgets/KoFillConfigWidget.cpp:671
 #: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:205
 #, kde-format
 msgid "The name '%1' already exists, do you wish to overwrite it?"
@@ -32319,17 +32325,17 @@ msgstr "最近："
 msgid "Choose palette"
 msgstr "選擇調色板"
 
-#: libs/widgets/KoConfigAuthorPage.cpp:65
+#: libs/widgets/KoConfigAuthorPage.cpp:67
 #, kde-format
 msgid "Add new author profile (starts out as a copy of current)"
 msgstr "新增作者檔案 (基於目前檔案建立)"
 
-#: libs/widgets/KoConfigAuthorPage.cpp:69
+#: libs/widgets/KoConfigAuthorPage.cpp:71
 #, kde-format
 msgid "Delete the author profile"
 msgstr "刪除作者檔案"
 
-#: libs/widgets/KoConfigAuthorPage.cpp:78
+#: libs/widgets/KoConfigAuthorPage.cpp:80
 #, kde-format
 msgctxt ""
 "This is a list of suggestions for positions an artist can take, comma-"
@@ -32344,56 +32350,56 @@ msgstr ""
 "譯員,封面畫師,概念畫師,勾線畫師,畫師,校對員,排版設計師,排字員,上色畫師,設計"
 "師,紋理畫師,像素畫師,像素動畫師,修圖員,藝術家,藝術總監,作家,作者,助理,其他"
 
-#: libs/widgets/KoConfigAuthorPage.cpp:86
+#: libs/widgets/KoConfigAuthorPage.cpp:88
 #: plugins/python/comics_project_management_tools/comics_export_dialog.py:312
 #: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:343
 #, kde-format
 msgid "Email"
 msgstr "電子信箱"
 
-#: libs/widgets/KoConfigAuthorPage.cpp:86
+#: libs/widgets/KoConfigAuthorPage.cpp:88
 #, kde-format
 msgid "Fax"
 msgstr "傳真"
 
-#: libs/widgets/KoConfigAuthorPage.cpp:86
+#: libs/widgets/KoConfigAuthorPage.cpp:88
 #: plugins/python/comics_project_management_tools/comics_export_dialog.py:312
 #: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:343
 #, kde-format
 msgid "Homepage"
 msgstr "首頁"
 
-#: libs/widgets/KoConfigAuthorPage.cpp:86
+#: libs/widgets/KoConfigAuthorPage.cpp:88
 #, kde-format
 msgid "Post Address"
 msgstr "郵寄地址"
 
-#: libs/widgets/KoConfigAuthorPage.cpp:86
+#: libs/widgets/KoConfigAuthorPage.cpp:88
 #, kde-format
 msgid "Telephone"
 msgstr "電話"
 
-#: libs/widgets/KoConfigAuthorPage.cpp:89
+#: libs/widgets/KoConfigAuthorPage.cpp:91
 #, kde-format
 msgid "Entry"
 msgstr "條目"
 
-#: libs/widgets/KoConfigAuthorPage.cpp:93
+#: libs/widgets/KoConfigAuthorPage.cpp:95
 #, kde-format
 msgid "Anonymous"
 msgstr "匿名"
 
-#: libs/widgets/KoConfigAuthorPage.cpp:277
+#: libs/widgets/KoConfigAuthorPage.cpp:279
 #, kde-format
 msgid "Name (not duplicate or blank name):"
 msgstr "名稱(不能重複或是為空)："
 
-#: libs/widgets/KoConfigAuthorPage.cpp:277
+#: libs/widgets/KoConfigAuthorPage.cpp:279
 #, kde-format
 msgid "Name of Profile"
 msgstr "作者檔案名稱"
 
-#: libs/widgets/KoConfigAuthorPage.cpp:330
+#: libs/widgets/KoConfigAuthorPage.cpp:332
 #, kde-format
 msgid "New Contact Info"
 msgstr "建立聯絡資料"
@@ -34224,7 +34230,7 @@ msgstr "橢圓輔助尺"
 #. i18n: ectx: property (text), item, widget (QComboBox, shapeBox)
 #. i18n: ectx: property (text), item, widget (QComboBox, shapeCBox)
 #: plugins/assistants/Assistants/EllipseAssistant.cc:183
-#: plugins/flake/pathshapes/ellipse/EllipseShapeFactory.cpp:22
+#: plugins/flake/pathshapes/ellipse/EllipseShapeFactory.cpp:21
 #: plugins/paintops/gridbrush/wdggridbrushshapeoptions.ui:41
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:262
 #: plugins/paintops/spray/wdgsprayshapeoptions.ui:70
@@ -36002,7 +36008,7 @@ msgstr "確定要刪除遮罩<b>「%1」</b>嗎？"
 #. i18n: ectx: property (text), item, widget (KComboBox, cbShape)
 #: plugins/dockers/griddocker/grid_config_widget.cpp:52
 #: plugins/filters/blur/wdgblur.ui:81
-#: plugins/flake/pathshapes/rectangle/RectangleShapeFactory.cpp:24
+#: plugins/flake/pathshapes/rectangle/RectangleShapeFactory.cpp:23
 #: plugins/paintops/gridbrush/wdggridbrushshapeoptions.ui:46
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:267
 #: plugins/paintops/spray/wdgsprayshapeoptions.ui:75
@@ -36210,45 +36216,50 @@ msgstr "歷史記錄"
 msgid "Layers"
 msgstr "圖層"
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:240
+#: plugins/dockers/layerdocker/LayerBox.cpp:241
 #, kde-format
 msgid "&Show Global Selection Mask"
 msgstr "顯示全域選取區域遮罩(&S)"
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:243
+#: plugins/dockers/layerdocker/LayerBox.cpp:244
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
 "Shows global selection as a usual selection mask in <b>Layers</b> docker"
 msgstr "把全域選取區域作為一個通常選取區域遮罩顯示在<b>圖層</b>工具面板"
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:306
+#: plugins/dockers/layerdocker/LayerBox.cpp:307
 #, kde-format
 msgid "Thumbnail Size"
 msgstr "縮圖大小"
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:891
+#: plugins/dockers/layerdocker/LayerBox.cpp:335
+#, kde-format
+msgid "Tree Indentation"
+msgstr "樹狀層級縮排"
+
+#: plugins/dockers/layerdocker/LayerBox.cpp:910
 msgctxt "(qtundo-format)"
 msgid "Quick Selection Mask"
 msgstr "快速選取區域遮罩"
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:913
+#: plugins/dockers/layerdocker/LayerBox.cpp:932
 msgctxt "(qtundo-format)"
 msgid "Cancel Quick Selection Mask"
 msgstr "取消快速選取區域遮罩"
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:1123
+#: plugins/dockers/layerdocker/LayerBox.cpp:1147
 #, kde-format
 msgid "&Toggle Locks && Visibility"
 msgstr "切換鎖定與可見性(&T)"
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:1130
-#: plugins/dockers/layerdocker/LayerBox.cpp:1151
+#: plugins/dockers/layerdocker/LayerBox.cpp:1154
+#: plugins/dockers/layerdocker/LayerBox.cpp:1175
 #, kde-format
 msgid "&Add"
 msgstr "新增(&A)"
 
-#: plugins/dockers/layerdocker/NodeDelegate.cpp:1225
+#: plugins/dockers/layerdocker/NodeDelegate.cpp:1183
 #, kde-format
 msgid "%1 %"
 msgstr "%1 %"
@@ -42299,71 +42310,71 @@ msgstr "結束角度："
 msgid "Close ellipse"
 msgstr "閉合橢圓"
 
-#: plugins/flake/pathshapes/ellipse/EllipseShapeFactory.cpp:24
+#: plugins/flake/pathshapes/ellipse/EllipseShapeFactory.cpp:23
 #, kde-format
 msgid "An ellipse"
 msgstr "橢圓"
 
-#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:27
+#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:26
 #, kde-format
 msgid "An enhanced path shape"
 msgstr "增強路徑形狀"
 
-#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:29
+#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:28
 #, kde-format
 msgid "An enhanced path"
 msgstr "增強路徑"
 
-#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:152
+#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:151
 #, kde-format
 msgid "Cross"
 msgstr "交叉"
 
-#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:154
+#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:153
 #, kde-format
 msgid "A cross"
 msgstr "交叉"
 
-#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:190
-#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:224
-#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:258
-#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:292
+#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:189
+#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:223
+#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:257
+#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:291
 #, kde-format
 msgid "An arrow"
 msgstr "箭頭"
 
-#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:369
+#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:368
 #, kde-format
 msgid "Callout"
 msgstr "文字框"
 
-#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:371
+#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:370
 #, kde-format
 msgid "A callout"
 msgstr "文字框"
 
-#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:415
-#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:417
+#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:414
+#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:416
 #, kde-format
 msgid "Smiley"
 msgstr "表情符號"
 
-#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:495
+#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:494
 #, kde-format
 msgid "Circular Arrow"
 msgstr "圓形箭頭"
 
-#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:497
+#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:496
 #, kde-format
 msgid "A circular-arrow"
 msgstr "圓形箭頭"
 
-#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:540
+#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:539
 #, kde-format
 msgid "Gearhead"
 msgstr "齒輪"
 
-#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:542
+#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:541
 #, kde-format
 msgid "A gearhead"
 msgstr "齒輪"
@@ -42391,7 +42402,7 @@ msgstr "邊角半徑 x："
 msgid "Corner radius y:"
 msgstr "邊角半徑 y："
 
-#: plugins/flake/pathshapes/rectangle/RectangleShapeFactory.cpp:26
+#: plugins/flake/pathshapes/rectangle/RectangleShapeFactory.cpp:25
 #, kde-format
 msgid "A rectangle"
 msgstr "矩形"
@@ -42474,48 +42485,48 @@ msgstr "內徑："
 msgid "Outer radius:"
 msgstr "外徑："
 
-#: plugins/flake/pathshapes/star/StarShapeFactory.cpp:26
+#: plugins/flake/pathshapes/star/StarShapeFactory.cpp:25
 #, kde-format
 msgid "A star shape"
 msgstr "星形形狀"
 
-#: plugins/flake/pathshapes/star/StarShapeFactory.cpp:28
-#: plugins/flake/pathshapes/star/StarShapeFactory.cpp:40
+#: plugins/flake/pathshapes/star/StarShapeFactory.cpp:27
+#: plugins/flake/pathshapes/star/StarShapeFactory.cpp:39
 #, kde-format
 msgid "A star"
 msgstr "星形"
 
-#: plugins/flake/pathshapes/star/StarShapeFactory.cpp:38
+#: plugins/flake/pathshapes/star/StarShapeFactory.cpp:37
 #, kde-format
 msgid "Star"
 msgstr "星形"
 
-#: plugins/flake/pathshapes/star/StarShapeFactory.cpp:52
+#: plugins/flake/pathshapes/star/StarShapeFactory.cpp:51
 #, kde-format
 msgid "Flower"
 msgstr "花形"
 
-#: plugins/flake/pathshapes/star/StarShapeFactory.cpp:54
+#: plugins/flake/pathshapes/star/StarShapeFactory.cpp:53
 #, kde-format
 msgid "A flower"
 msgstr "花形"
 
-#: plugins/flake/pathshapes/star/StarShapeFactory.cpp:69
+#: plugins/flake/pathshapes/star/StarShapeFactory.cpp:68
 #, kde-format
 msgid "Pentagon"
 msgstr "五邊形"
 
-#: plugins/flake/pathshapes/star/StarShapeFactory.cpp:71
+#: plugins/flake/pathshapes/star/StarShapeFactory.cpp:70
 #, kde-format
 msgid "A pentagon"
 msgstr "五邊形"
 
-#: plugins/flake/pathshapes/star/StarShapeFactory.cpp:85
+#: plugins/flake/pathshapes/star/StarShapeFactory.cpp:84
 #, kde-format
 msgid "Hexagon"
 msgstr "六邊形"
 
-#: plugins/flake/pathshapes/star/StarShapeFactory.cpp:87
+#: plugins/flake/pathshapes/star/StarShapeFactory.cpp:86
 #, kde-format
 msgid "A hexagon"
 msgstr "六邊形"
@@ -44784,7 +44795,7 @@ msgstr "漸進式編碼"
 #, kde-format
 msgctxt "JPEG-XL metadata options"
 msgid "Filters:"
-msgstr "過濾器："
+msgstr "過濾工具："
 
 #: plugins/impex/libkra/kis_kra_load_visitor.cpp:139
 #, kde-format
@@ -44808,8 +44819,8 @@ msgstr ""
 "是否選擇其他位置？"
 
 #: plugins/impex/libkra/kis_kra_load_visitor.cpp:149
-#: plugins/impex/libkra/kis_kra_loader.cpp:1011
-#: plugins/impex/libkra/kis_kra_loader.cpp:1380
+#: plugins/impex/libkra/kis_kra_loader.cpp:1012
+#: plugins/impex/libkra/kis_kra_loader.cpp:1381
 #, kde-format
 msgctxt "@title:window"
 msgid "File not found"
@@ -44905,22 +44916,22 @@ msgstr ""
 msgid "unknown keyframe channel type: %1 in %2"
 msgstr "未知的關鍵影格通道類型：%1 在 %2 中"
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:207
+#: plugins/impex/libkra/kis_kra_loader.cpp:206
 #, kde-format
 msgid "Image does not have a name."
 msgstr "影像沒有名稱。"
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:212
+#: plugins/impex/libkra/kis_kra_loader.cpp:211
 #, kde-format
 msgid "Image does not specify a width."
 msgstr "影像未指定寬度。"
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:218
+#: plugins/impex/libkra/kis_kra_loader.cpp:217
 #, kde-format
 msgid "Image does not specify a height."
 msgstr "影像未指定高度。"
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:268
+#: plugins/impex/libkra/kis_kra_loader.cpp:267
 #, kde-format
 msgid "Image specifies an unsupported color model: %1."
 msgstr "影像指定了一個不支援的色彩模型：%1 。"
@@ -44944,27 +44955,27 @@ msgctxt "Warning message on loading a .kra file"
 msgid "Embedded resource cannot be imported. The filename of the resource: %1"
 msgstr "未能匯入已嵌入的資源。資源名稱為：%1"
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:815
+#: plugins/impex/libkra/kis_kra_loader.cpp:816
 #, kde-format
 msgid "Layer %1 specifies an unsupported color model: %2."
 msgstr "圖層 %1 指定了一個不支援的色彩模型：%2"
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:843
+#: plugins/impex/libkra/kis_kra_loader.cpp:844
 #, kde-format
 msgid "Layer %1 has an unsupported type."
 msgstr "圖層 %1 含有不支援的類型。"
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:877
+#: plugins/impex/libkra/kis_kra_loader.cpp:878
 #, kde-format
 msgid "Layer %1 has an unsupported type: %2."
 msgstr "圖層 %1 含有不支援的類型：%2 。"
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:884
+#: plugins/impex/libkra/kis_kra_loader.cpp:885
 #, kde-format
 msgid "Failure loading layer %1 of type: %2."
 msgstr "載入類型為：%2 的圖層 %1 時出錯。"
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:1006
+#: plugins/impex/libkra/kis_kra_loader.cpp:1007
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -44982,7 +44993,7 @@ msgstr ""
 "\n"
 "要手動定位該檔案嗎？"
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:1375
+#: plugins/impex/libkra/kis_kra_loader.cpp:1376
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -45187,32 +45198,32 @@ msgctxt "Saving .kra file error message"
 msgid "Could not save assistants."
 msgstr "無法儲存輔助尺。"
 
-#: plugins/impex/libkra/kra_converter.cpp:77
+#: plugins/impex/libkra/kra_converter.cpp:76
 #, kde-format
 msgid "Not a valid Krita file"
 msgstr "無效的 Krita 檔案"
 
-#: plugins/impex/libkra/kra_converter.cpp:95
+#: plugins/impex/libkra/kra_converter.cpp:94
 #, kde-format
 msgid "Invalid document: no file 'maindoc.xml'."
 msgstr "無效檔案：沒有「maindoc.xml」檔案。"
 
-#: plugins/impex/libkra/kra_converter.cpp:151
+#: plugins/impex/libkra/kra_converter.cpp:150
 #, kde-format
 msgid "Could not create the file for saving"
 msgstr "無法建立要儲存的檔案"
 
-#: plugins/impex/libkra/kra_converter.cpp:224
+#: plugins/impex/libkra/kra_converter.cpp:223
 #, kde-format
 msgid "Not able to write '%1'. Partition full?"
 msgstr "無法寫入「%1」。請檢查分區是否已滿。"
 
-#: plugins/impex/libkra/kra_converter.cpp:315
+#: plugins/impex/libkra/kra_converter.cpp:314
 #, kde-format
 msgid "Could not find %1"
 msgstr "無法找到 %1"
 
-#: plugins/impex/libkra/kra_converter.cpp:327
+#: plugins/impex/libkra/kra_converter.cpp:326
 #, kde-format
 msgid ""
 "Parsing error in %1 at line %2, column %3\n"
@@ -45221,22 +45232,22 @@ msgstr ""
 "在 %1 的第 %2 行第 %3 列發生解析錯誤\n"
 "錯誤訊息：%4"
 
-#: plugins/impex/libkra/kra_converter.cpp:345
+#: plugins/impex/libkra/kra_converter.cpp:344
 #, kde-format
 msgid "The format is not supported or the file is corrupted"
 msgstr "檔案格式不支援或者檔案已損壞"
 
-#: plugins/impex/libkra/kra_converter.cpp:356
+#: plugins/impex/libkra/kra_converter.cpp:355
 #, kde-format
 msgid "The file is too new for this version of Krita (%1)."
 msgstr "此檔案對此版 Krita 而言格式太新 (%1)。"
 
-#: plugins/impex/libkra/kra_converter.cpp:362
+#: plugins/impex/libkra/kra_converter.cpp:361
 #, kde-format
 msgid "The file has no layers."
 msgstr "檔案沒有圖層。"
 
-#: plugins/impex/libkra/kra_converter.cpp:395
+#: plugins/impex/libkra/kra_converter.cpp:394
 #, kde-format
 msgid "The file does not contain an image."
 msgstr "檔案不包含影像。"
@@ -54669,7 +54680,7 @@ msgctxt "action"
 msgid "Similar Color Selection Tool"
 msgstr "相似色彩選取區域工具"
 
-#: plugins/tools/svgtexttool/SvgTextChangeCommand.cpp:28
+#: plugins/tools/svgtexttool/SvgTextChangeCommand.cpp:27
 msgctxt "(qtundo-format)"
 msgid "Change SvgTextTool"
 msgstr "調整 SVG 文字工具"
@@ -54745,7 +54756,7 @@ msgid "Line height"
 msgstr "行高"
 
 #: plugins/tools/svgtexttool/SvgTextEditor.cpp:1458
-#: plugins/tools/svgtexttool/SvgTextTool.cpp:205
+#: plugins/tools/svgtexttool/SvgTextTool.cpp:204
 #, kde-format
 msgid "Letter Spacing"
 msgstr "字距"
@@ -55046,32 +55057,32 @@ msgctxt "action"
 msgid "Kerning"
 msgstr "字距調整 (Kerning)"
 
-#: plugins/tools/svgtexttool/SvgTextTool.cpp:134
+#: plugins/tools/svgtexttool/SvgTextTool.cpp:133
 #, kde-format
 msgid "Create new texts with..."
 msgstr "建立新文字自…"
 
-#: plugins/tools/svgtexttool/SvgTextTool.cpp:171
+#: plugins/tools/svgtexttool/SvgTextTool.cpp:170
 #, kde-format
 msgid "Anchor text to the left."
 msgstr "將文字錨定到左側。"
 
-#: plugins/tools/svgtexttool/SvgTextTool.cpp:180
+#: plugins/tools/svgtexttool/SvgTextTool.cpp:179
 #, kde-format
 msgid "Anchor text to the middle."
 msgstr "將文字錨定到中間。"
 
-#: plugins/tools/svgtexttool/SvgTextTool.cpp:189
+#: plugins/tools/svgtexttool/SvgTextTool.cpp:188
 #, kde-format
 msgid "Anchor text to the right."
 msgstr "將文字錨定到右側。"
 
-#: plugins/tools/svgtexttool/SvgTextTool.cpp:219
+#: plugins/tools/svgtexttool/SvgTextTool.cpp:218
 #, kde-format
 msgid "Edit Text"
 msgstr "編輯文字"
 
-#: plugins/tools/svgtexttool/SvgTextTool.cpp:255
+#: plugins/tools/svgtexttool/SvgTextTool.cpp:254
 #, kde-format
 msgctxt "@title:window"
 msgid "Krita - Edit Text"
