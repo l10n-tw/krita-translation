@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-05-20 00:43+0000\n"
-"PO-Revision-Date: 2022-05-19 17:53+0000\n"
+"PO-Revision-Date: 2022-05-20 08:50+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -36234,8 +36234,7 @@ msgid "Thumbnail Size"
 msgstr "縮圖大小"
 
 #: plugins/dockers/layerdocker/LayerBox.cpp:335
-#, fuzzy, kde-format
-#| msgid "Tree Indentation"
+#, kde-format
 msgctxt "@item:inmenu Layers Docker settings, slider"
 msgid "Tree Indentation"
 msgstr "樹狀層級縮排"
