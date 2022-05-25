@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-05-25 00:42+0000\n"
-"PO-Revision-Date: 2022-05-20 08:50+0000\n"
+"PO-Revision-Date: 2022-05-25 07:28+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.11\n"
+"X-Generator: Weblate 4.12.2\n"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
@@ -7312,9 +7312,7 @@ msgstr "垂直居中"
 
 #. i18n: context: iconText @ Action (object_group), Actions (Interaction Tool), ActionCollection (Tools)
 #: krita/data/actions/InteractionTool.action:66
-#, fuzzy, kde-format
-#| msgctxt "Group in the context of Vector Interaction Tool"
-#| msgid "Group"
+#, kde-format
 msgctxt "action"
 msgid "Group"
 msgstr "群組"
@@ -8309,9 +8307,7 @@ msgstr "反轉選取目前選取區域"
 
 #. i18n: context: iconText @ Action (invert_selection), Actions (General), ActionCollection (Krita)
 #: krita/krita.action:246
-#, fuzzy, kde-format
-#| msgctxt "(qtundo-format)"
-#| msgid "Invert Selection"
+#, kde-format
 msgctxt "action"
 msgid "Invert Selection"
 msgstr "反轉選取"
@@ -9121,12 +9117,10 @@ msgstr ""
 
 #. i18n: context: iconText @ Action (show-global-selection-mask), Actions (Painting), ActionCollection (Krita)
 #: krita/krita.action:884
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "&Show Global Selection Mask"
+#, kde-format
 msgctxt "action"
 msgid "Show Global Selection Mask"
-msgstr "顯示全域選取區域遮罩(&S)"
+msgstr "顯示全域選取區域遮罩"
 
 #. i18n: context: text @ Actions (Filters), ActionCollection (Krita)
 #. i18n: context: text @ Actions (Filters), ActionCollection (Krita)
@@ -11081,12 +11075,10 @@ msgstr "新增群組圖層"
 
 #. i18n: context: iconText @ Action (add_new_group_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2447
-#, fuzzy, kde-format
-#| msgctxt "(qtundo-format)"
-#| msgid "Crop Layer"
+#, kde-format
 msgctxt "action"
 msgid "Group Layer"
-msgstr "裁切圖層"
+msgstr "群組圖層"
 
 #. i18n: context: text @ Action (add_new_clone_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2456
@@ -11104,8 +11096,7 @@ msgstr "新增再製圖層"
 
 #. i18n: context: iconText @ Action (add_new_clone_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2459
-#, fuzzy, kde-format
-#| msgid "Clone Layer"
+#, kde-format
 msgctxt "action"
 msgid "Clone Layer"
 msgstr "再製圖層"
@@ -11126,8 +11117,7 @@ msgstr "新增向量圖層"
 
 #. i18n: context: iconText @ Action (add_new_shape_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2471
-#, fuzzy, kde-format
-#| msgid "Vector Layer"
+#, kde-format
 msgctxt "action"
 msgid "Vector Layer"
 msgstr "向量圖層"
@@ -11148,8 +11138,7 @@ msgstr "新增濾鏡圖層"
 
 #. i18n: context: iconText @ Action (add_new_adjustment_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2483
-#, fuzzy, kde-format
-#| msgid "Filter Layer"
+#, kde-format
 msgctxt "action"
 msgid "Filter Layer"
 msgstr "濾鏡圖層"
@@ -11170,8 +11159,7 @@ msgstr "新增填充圖層"
 
 #. i18n: context: iconText @ Action (add_new_fill_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2495
-#, fuzzy, kde-format
-#| msgid "Fill Layer"
+#, kde-format
 msgctxt "action"
 msgid "Fill Layer"
 msgstr "填充圖層"
@@ -11192,8 +11180,7 @@ msgstr "新增檔案圖層"
 
 #. i18n: context: iconText @ Action (add_new_file_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2507
-#, fuzzy, kde-format
-#| msgid "File Layer"
+#, kde-format
 msgctxt "action"
 msgid "File Layer"
 msgstr "檔案圖層"
@@ -11214,8 +11201,7 @@ msgstr "新增透明度遮罩"
 
 #. i18n: context: iconText @ Action (add_new_transparency_mask), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2519
-#, fuzzy, kde-format
-#| msgid "Transparency Mask"
+#, kde-format
 msgctxt "action"
 msgid "Transparency Mask"
 msgstr "透明度遮罩"
@@ -11236,8 +11222,7 @@ msgstr "新增濾鏡遮罩"
 
 #. i18n: context: iconText @ Action (add_new_filter_mask), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2531
-#, fuzzy, kde-format
-#| msgid "Filter Mask"
+#, kde-format
 msgctxt "action"
 msgid "Filter Mask"
 msgstr "濾鏡遮罩"
@@ -11258,8 +11243,7 @@ msgstr "新增著色遮罩"
 
 #. i18n: context: iconText @ Action (add_new_colorize_mask), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2543
-#, fuzzy, kde-format
-#| msgid "Colorize Mask"
+#, kde-format
 msgctxt "action"
 msgid "Colorize Mask"
 msgstr "著色遮罩"
@@ -11280,8 +11264,7 @@ msgstr "新增變形遮罩"
 
 #. i18n: context: iconText @ Action (add_new_transform_mask), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2555
-#, fuzzy, kde-format
-#| msgid "Transform Mask"
+#, kde-format
 msgctxt "action"
 msgid "Transform Mask"
 msgstr "變形遮罩"
@@ -11302,11 +11285,10 @@ msgstr "新增局部選取區域"
 
 #. i18n: context: iconText @ Action (add_new_selection_mask), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2567
-#, fuzzy, kde-format
-#| msgid "Scale Selection"
+#, kde-format
 msgctxt "action"
 msgid "Local Selection"
-msgstr "縮放選取區域"
+msgstr "局部選取區域"
 
 #. i18n: context: text @ Action (isolate_active_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2576
@@ -11394,9 +11376,7 @@ msgstr "切換單一圖層顯示，以暫時隱藏目前圖層及子圖層以外
 
 #. i18n: context: iconText @ Action (toggle_layer_soloing), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2627
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Toggle Layer Soloing"
+#, kde-format
 msgctxt "action"
 msgid "Toggle layer soloing"
 msgstr "切換單一圖層顯示"
@@ -11451,8 +11431,7 @@ msgstr "新增顏料圖層"
 
 #. i18n: context: iconText @ Action (add_new_paint_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2663
-#, fuzzy, kde-format
-#| msgid "Paint Layer"
+#, kde-format
 msgctxt "action"
 msgid "Paint Layer"
 msgstr "顏料圖層"
@@ -11813,9 +11792,7 @@ msgstr "將圖層儲存為新影像並引用該影像。"
 
 #. i18n: context: iconText @ Action (convert_to_file_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2915
-#, fuzzy, kde-format
-#| msgctxt "(qtundo-format)"
-#| msgid "Convert to a file layer"
+#, kde-format
 msgctxt "action"
 msgid "Convert to File Layer"
 msgstr "轉成檔案圖層"
@@ -12589,12 +12566,10 @@ msgstr "設定選取再製圖層的來源。"
 
 #. i18n: context: iconText @ Action (set-copy-from), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:3475
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Set Copy F&rom..."
+#, kde-format
 msgctxt "action"
 msgid "Set Copy From"
-msgstr "設定再製來源(&R)…"
+msgstr "設定再製來源"
 
 #. i18n: ectx: property (title), widget (QMenu, menuFile)
 #: krita/krita5.xmlgui:9 libs/widgetutils/xmlgui/ui_standards.xmlgui:5
@@ -12779,8 +12754,7 @@ msgstr "建立檔案"
 
 #. i18n: context: iconText @ Action (file_new), Actions (File), ActionCollection (Menu)
 #: krita/kritamenu.action:10
-#, fuzzy, kde-format
-#| msgid "New"
+#, kde-format
 msgctxt "action"
 msgid "New"
 msgstr "建立"
@@ -12801,8 +12775,7 @@ msgstr "開啟現存檔案"
 
 #. i18n: context: iconText @ Action (file_open), Actions (File), ActionCollection (Menu)
 #: krita/kritamenu.action:22
-#, fuzzy, kde-format
-#| msgid "Open"
+#, kde-format
 msgctxt "action"
 msgid "Open"
 msgstr "開啟"
@@ -12823,12 +12796,10 @@ msgstr "開啟最近使用過的檔案"
 
 #. i18n: context: iconText @ Action (file_open_recent), Actions (File), ActionCollection (Menu)
 #: krita/kritamenu.action:34
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Open &Recent"
+#, kde-format
 msgctxt "action"
 msgid "Open Recent"
-msgstr "開啟最近檔案(&R)"
+msgstr "開啟最近檔案"
 
 #. i18n: context: text @ Action (file_save), Actions (File), ActionCollection (Menu)
 #: krita/kritamenu.action:43
@@ -12863,8 +12834,7 @@ msgstr "以新名稱儲存檔案"
 
 #. i18n: context: iconText @ Action (file_save_as), Actions (File), ActionCollection (Menu)
 #: krita/kritamenu.action:58
-#, fuzzy, kde-format
-#| msgid "Save As"
+#, kde-format
 msgctxt "action"
 msgid "Save As"
 msgstr "另存為"
@@ -12885,8 +12855,7 @@ msgstr "開啟工作階段管理器"
 
 #. i18n: context: iconText @ Action (file_sessions), Actions (File), ActionCollection (Menu)
 #: krita/kritamenu.action:70
-#, fuzzy, kde-format
-#| msgid "Sessions"
+#, kde-format
 msgctxt "action"
 msgid "Sessions"
 msgstr "工作階段"
@@ -12995,8 +12964,7 @@ msgstr "將動畫繪製為 GIF、影像序列或影片"
 #. i18n: context: iconText @ Action (render_animation), Actions (File), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (render_animation_again), Actions (File), ActionCollection (Menu)
 #: krita/kritamenu.action:144 krita/kritamenu.action:156
-#, fuzzy, kde-format
-#| msgid "Render Animation"
+#, kde-format
 msgctxt "action"
 msgid "Render Animation"
 msgstr "繪製動畫"
@@ -13150,12 +13118,10 @@ msgstr "退出應用程式"
 
 #. i18n: context: iconText @ Action (file_quit), Actions (File), ActionCollection (Menu)
 #: krita/kritamenu.action:252
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "&Quit"
+#, kde-format
 msgctxt "action"
 msgid "Quit"
-msgstr "退出(&Q)"
+msgstr "退出"
 
 #. i18n: context: text @ Actions (Edit), ActionCollection (Menu)
 #: krita/kritamenu.action:262
@@ -13214,9 +13180,7 @@ msgstr "將選取內容剪下到剪貼簿"
 
 #. i18n: context: iconText @ Action (edit_cut), Actions (Edit), ActionCollection (Menu)
 #: krita/kritamenu.action:292
-#, fuzzy, kde-format
-#| msgctxt "(qtundo-format)"
-#| msgid "Cut"
+#, kde-format
 msgctxt "action"
 msgid "Cut"
 msgstr "剪下"
@@ -13237,8 +13201,7 @@ msgstr "將選取內容複製到剪貼簿"
 
 #. i18n: context: iconText @ Action (edit_copy), Actions (Edit), ActionCollection (Menu)
 #: krita/kritamenu.action:304
-#, fuzzy, kde-format
-#| msgid "Copy"
+#, kde-format
 msgctxt "action"
 msgid "Copy"
 msgstr "複製"
@@ -13327,12 +13290,10 @@ msgstr "貼上剪貼簿內容"
 
 #. i18n: context: iconText @ Action (edit_paste), Actions (Edit), ActionCollection (Menu)
 #: krita/kritamenu.action:364
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "&Paste"
+#, kde-format
 msgctxt "action"
 msgid "Paste"
-msgstr "貼上(&P)"
+msgstr "貼上"
 
 #. i18n: context: text @ Action (paste_at), Actions (Edit), ActionCollection (Menu)
 #: krita/kritamenu.action:373
@@ -13633,12 +13594,10 @@ msgstr "僅顯示畫布或整個視窗"
 
 #. i18n: context: iconText @ Action (view_show_canvas_only), Actions (View), ActionCollection (Menu)
 #: krita/kritamenu.action:619
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "&Show Canvas Only"
+#, kde-format
 msgctxt "action"
 msgid "Show Canvas Only"
-msgstr "僅顯示畫布(&S)"
+msgstr "僅顯示畫布"
 
 #. i18n: context: text @ Action (fullscreen), Actions (View), ActionCollection (Menu)
 #: krita/kritamenu.action:628
@@ -13656,12 +13615,10 @@ msgstr "全螢幕顯示視窗"
 
 #. i18n: context: iconText @ Action (fullscreen), Actions (View), ActionCollection (Menu)
 #: krita/kritamenu.action:631
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "F&ull Screen Mode"
+#, kde-format
 msgctxt "action"
 msgid "Full Screen Mode"
-msgstr "全螢幕模式(&U)"
+msgstr "全螢幕模式"
 
 #. i18n: context: text @ Action (view_detached_canvas), Actions (View), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (view_detached_canvas), Actions (View), ActionCollection (Menu)
@@ -13896,7 +13853,8 @@ msgid ""
 "The rulers show the horizontal and vertical positions of the mouse on the "
 "image and can be used to position your mouse at the right place on the "
 "canvas. <p>Uncheck this to hide the rulers.</p>"
-msgstr ""
+msgstr "尺標可顯示游標在影像的垂直及水平位置，以便讓您將游標放置到畫布上合適的位置。<"
+"p>取消核取此項以隱藏尺標。</p>"
 
 #. i18n: context: toolTip @ Action (view_ruler), Actions (View), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (view_ruler), Actions (View), ActionCollection (Menu)
@@ -13928,7 +13886,7 @@ msgctxt "action"
 msgid ""
 "The rulers will track current mouse position and show it on screen. It can "
 "cause suptle performance slowdown"
-msgstr ""
+msgstr "尺標可以追蹤游標的位置並將其顯示在畫面上。這可能會使效能稍為下降。"
 
 #. i18n: context: text @ Action (view_show_guides), Actions (View), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (view_show_guides), Actions (View), ActionCollection (Menu)
@@ -13997,12 +13955,10 @@ msgstr "顯示或隱藏狀態列"
 
 #. i18n: context: iconText @ Action (showStatusBar), Actions (View), ActionCollection (Menu)
 #: krita/kritamenu.action:861
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Show Status &Bar"
+#, kde-format
 msgctxt "action"
 msgid "Show Status Bar"
-msgstr "顯示狀態列(&B)"
+msgstr "顯示狀態列"
 
 #. i18n: context: text @ Action (view_pixel_grid), Actions (View), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (view_pixel_grid), Actions (View), ActionCollection (Menu)
@@ -14255,12 +14211,10 @@ msgstr "變更影像的背景色"
 
 #. i18n: context: iconText @ Action (image_color), Actions (Image), ActionCollection (Menu)
 #: krita/kritamenu.action:1068
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "&Image Background Color and Transparency..."
+#, kde-format
 msgctxt "action"
 msgid "Image Background Color and Transparency"
-msgstr "影像背景色與透明度(&I)…"
+msgstr "影像背景色與透明度"
 
 #. i18n: context: text @ Action (imagecolorspaceconversion), Actions (Image), ActionCollection (Menu)
 #: krita/kritamenu.action:1077
@@ -15082,9 +15036,7 @@ msgstr "管理資源庫"
 
 #. i18n: context: iconText @ Action (manage_bundles), Actions (Settings), ActionCollection (Menu)
 #: krita/kritamenu.action:1658
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Manage Resource Libraries"
+#, kde-format
 msgctxt "action"
 msgid "Manage Resources Libraries"
 msgstr "管理資源庫"
@@ -15250,12 +15202,10 @@ msgstr "將所有設定重設為預設值"
 
 #. i18n: context: iconText @ Action (reset_configurations), Actions (Settings), ActionCollection (Menu)
 #: krita/kritamenu.action:1768
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Reset All Settings"
+#, kde-format
 msgctxt "action"
 msgid "Reset Settings"
-msgstr "重設所有設定"
+msgstr "重設設定"
 
 #. i18n: context: text @ Action (options_configure_keybinding), Actions (Settings), ActionCollection (Menu)
 #: krita/kritamenu.action:1775
@@ -56434,7 +56384,7 @@ msgstr "變更字元大小、字型、粗體、斜體等。"
 #, kde-format
 msgctxt "action"
 msgid "Change the attributes of the currently selected characters."
-msgstr ""
+msgstr "更改所選字元的屬性。"
 
 #. i18n: context: iconText @ Action (svg_insert_special_character), Actions (Text Tool), ActionCollection (SVG Tools)
 #. i18n: context: text @ Action (svg_insert_special_character), Actions (Text Tool), ActionCollection (SVG Tools)
@@ -56456,12 +56406,10 @@ msgstr "插入鍵盤上沒有的符號或字元"
 
 #. i18n: context: whatsThis @ Action (svg_insert_special_character), Actions (Text Tool), ActionCollection (SVG Tools)
 #: plugins/tools/svgtexttool/SvgTextTool.action:60
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Insert one or more symbols or characters not found on the keyboard"
+#, kde-format
 msgctxt "action"
 msgid "Insert one or more symbols or characters not found on the keyboard."
-msgstr "插入鍵盤上沒有的符號或字元"
+msgstr "插入鍵盤上沒有的符號或字元。"
 
 #. i18n: context: iconText @ Action (svg_align_justified), Actions (Text Tool), ActionCollection (SVG Tools)
 #. i18n: context: toolTip @ Action (svg_align_justified), Actions (Text Tool), ActionCollection (SVG Tools)
