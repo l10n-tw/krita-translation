@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-05-25 00:42+0000\n"
+"POT-Creation-Date: 2022-05-26 00:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -13874,7 +13874,7 @@ msgstr ""
 msgctxt "action"
 msgid ""
 "The rulers will track current mouse position and show it on screen. It can "
-"cause suptle performance slowdown"
+"cause subtle performance slowdown"
 msgstr ""
 
 #. i18n: context: text @ Action (view_show_guides), Actions (View), ActionCollection (Menu)
@@ -47264,7 +47264,7 @@ msgstr ""
 #. i18n: ectx: property (suffix), widget (QSpinBox, targetSize)
 #: plugins/impex/webp/dlg_webp_export.ui:236
 #, kde-format
-msgid " kB"
+msgid " B"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblTargetPSNR)
