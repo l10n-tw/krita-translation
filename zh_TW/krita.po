@@ -58312,7 +58312,3 @@ msgstr "縮放工具"
 msgctxt "action"
 msgid "Reference Images Tool"
 msgstr "參考圖工具"
-
-#, kde-format
-#~ msgid " kB"
-#~ msgstr " kB"
