@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-05-25 00:42+0000\n"
-"PO-Revision-Date: 2022-05-25 07:28+0000\n"
+"POT-Creation-Date: 2022-05-26 00:42+0000\n"
+"PO-Revision-Date: 2022-05-26 08:58+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -13886,7 +13886,7 @@ msgstr "尺標追蹤游標位置"
 msgctxt "action"
 msgid ""
 "The rulers will track current mouse position and show it on screen. It can "
-"cause suptle performance slowdown"
+"cause subtle performance slowdown"
 msgstr "尺標可以追蹤游標的位置並將其顯示在畫面上。這可能會使效能稍為下降。"
 
 #. i18n: context: text @ Action (view_show_guides), Actions (View), ActionCollection (Menu)
@@ -48282,8 +48282,8 @@ msgstr "目標大小"
 #. i18n: ectx: property (suffix), widget (QSpinBox, targetSize)
 #: plugins/impex/webp/dlg_webp_export.ui:236
 #, kde-format
-msgid " kB"
-msgstr " kB"
+msgid " B"
+msgstr " B"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblTargetPSNR)
 #. i18n: ectx: property (toolTip), widget (KisDoubleParseUnitSpinBox, targetPSNR)
