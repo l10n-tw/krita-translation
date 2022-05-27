@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-05-27 00:42+0000\n"
-"PO-Revision-Date: 2022-05-26 08:58+0000\n"
+"PO-Revision-Date: 2022-05-27 14:36+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -35840,16 +35840,14 @@ msgid "Perspective"
 msgstr "透視"
 
 #: plugins/assistants/Assistants/PerspectiveEllipseAssistant.cc:328
-#, fuzzy, kde-format
-#| msgid "Perspective assistant"
+#, kde-format
 msgid "Perspective Ellipse assistant"
-msgstr "透視輔助尺"
+msgstr "透視橢圓輔助尺"
 
 #: plugins/assistants/Assistants/PerspectiveEllipseAssistant.cc:683
-#, fuzzy, kde-format
-#| msgid "Perspective"
+#, kde-format
 msgid "Perspective Ellipse"
-msgstr "透視"
+msgstr "透視橢圓"
 
 #: plugins/assistants/Assistants/RulerAssistant.cc:25
 #, kde-format
