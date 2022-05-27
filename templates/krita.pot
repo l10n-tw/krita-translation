@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-05-26 00:42+0000\n"
+"POT-Creation-Date: 2022-05-27 00:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -35126,6 +35126,16 @@ msgstr ""
 msgid "Perspective"
 msgstr ""
 
+#: plugins/assistants/Assistants/PerspectiveEllipseAssistant.cc:328
+#, kde-format
+msgid "Perspective Ellipse assistant"
+msgstr ""
+
+#: plugins/assistants/Assistants/PerspectiveEllipseAssistant.cc:683
+#, kde-format
+msgid "Perspective Ellipse"
+msgstr ""
+
 #: plugins/assistants/Assistants/RulerAssistant.cc:25
 #, kde-format
 msgid "Ruler assistant"
@@ -40416,7 +40426,7 @@ msgctxt "@title:column"
 msgid "Comment"
 msgstr ""
 
-#: plugins/extensions/qmic/kis_qmic_interface.cpp:191
+#: plugins/extensions/qmic/kis_qmic_interface.cpp:287
 msgctxt "(qtundo-format)"
 msgid "G'MIC filter"
 msgstr ""
