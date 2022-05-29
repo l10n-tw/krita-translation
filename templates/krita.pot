@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-05-27 00:42+0000\n"
+"POT-Creation-Date: 2022-05-29 00:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -12710,7 +12710,7 @@ msgid "&Help"
 msgstr ""
 
 #: krita/krita5.xmlgui:402 libs/ui/kis_file_layer.cpp:127
-#: plugins/python/scripter/uicontroller.py:93
+#: plugins/python/scripter/uicontroller.py:94
 #: plugins/tools/svgtexttool/svgtexttool.xmlgui:71
 #, kde-format
 msgid "File"
@@ -52965,14 +52965,14 @@ msgid "Script {0}"
 msgstr ""
 
 #: plugins/python/scripter/debugcontroller.py:63
-#: plugins/python/scripter/ui_scripter/actions/debugaction/debugaction.py:32
 #: plugins/python/scripter/ui_scripter/actions/debugaction/debugaction.py:34
+#: plugins/python/scripter/ui_scripter/actions/debugaction/debugaction.py:36
 #: plugins/python/scripter/ui_scripter/tabwidgets/debuggerwidget/debuggerwidget.py:16
 msgid "Debugger"
 msgstr ""
 
 #: plugins/python/scripter/scripter.py:20
-#: plugins/python/scripter/uicontroller.py:85
+#: plugins/python/scripter/uicontroller.py:86
 msgid "Scripter"
 msgstr ""
 
@@ -52980,11 +52980,11 @@ msgstr ""
 msgid "Do you want to save the current document?"
 msgstr ""
 
-#: plugins/python/scripter/ui_scripter/actions/debugaction/debugaction.py:21
+#: plugins/python/scripter/ui_scripter/actions/debugaction/debugaction.py:22
 msgid "Debug"
 msgstr ""
 
-#: plugins/python/scripter/ui_scripter/actions/debugaction/debugaction.py:22
+#: plugins/python/scripter/ui_scripter/actions/debugaction/debugaction.py:23
 msgid "Debug Ctrl+D"
 msgstr ""
 
@@ -53016,33 +53016,33 @@ msgstr ""
 msgid "Open files with .py extension"
 msgstr ""
 
-#: plugins/python/scripter/ui_scripter/actions/reloadaction/reloadaction.py:21
+#: plugins/python/scripter/ui_scripter/actions/reloadaction/reloadaction.py:22
 msgid "Reload File"
 msgstr ""
 
-#: plugins/python/scripter/ui_scripter/actions/reloadaction/reloadaction.py:25
+#: plugins/python/scripter/ui_scripter/actions/reloadaction/reloadaction.py:26
 msgid "Reload File Alt+R"
 msgstr ""
 
-#: plugins/python/scripter/ui_scripter/actions/reloadaction/reloadaction.py:38
+#: plugins/python/scripter/ui_scripter/actions/reloadaction/reloadaction.py:39
 msgid "No existing document"
 msgstr ""
 
-#: plugins/python/scripter/ui_scripter/actions/reloadaction/reloadaction.py:39
+#: plugins/python/scripter/ui_scripter/actions/reloadaction/reloadaction.py:40
 msgid "Please specify a document by opening it before reloading"
 msgstr ""
 
-#: plugins/python/scripter/ui_scripter/actions/runaction/runaction.py:34
-#: plugins/python/scripter/ui_scripter/actions/runaction/runaction.py:56
+#: plugins/python/scripter/ui_scripter/actions/runaction/runaction.py:35
+#: plugins/python/scripter/ui_scripter/actions/runaction/runaction.py:57
 #: plugins/python/scripter/ui_scripter/tabwidgets/outputwidget/outputwidget.py:16
 msgid "Output"
 msgstr ""
 
-#: plugins/python/scripter/ui_scripter/actions/runaction/runaction.py:38
+#: plugins/python/scripter/ui_scripter/actions/runaction/runaction.py:39
 msgid "Run"
 msgstr ""
 
-#: plugins/python/scripter/ui_scripter/actions/runaction/runaction.py:39
+#: plugins/python/scripter/ui_scripter/actions/runaction/runaction.py:40
 msgid "Run Ctrl+R"
 msgstr ""
 
@@ -53076,11 +53076,11 @@ msgstr ""
 msgid "Value"
 msgstr ""
 
-#: plugins/python/scripter/ui_scripter/tabwidgets/debuggerwidget/stepaction.py:21
+#: plugins/python/scripter/ui_scripter/tabwidgets/debuggerwidget/stepaction.py:22
 msgid "Step Over"
 msgstr ""
 
-#: plugins/python/scripter/uicontroller.py:164
+#: plugins/python/scripter/uicontroller.py:165
 msgid "Error Running Script"
 msgstr ""
 
