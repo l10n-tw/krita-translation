@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-06-03 00:43+0000\n"
-"PO-Revision-Date: 2022-05-27 14:36+0000\n"
+"PO-Revision-Date: 2022-06-03 08:09+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -15578,10 +15578,9 @@ msgstr ""
 "無法載入 WinTab 驅動程式。如果您的數位板已連接，請確保其驅動程式已正確安裝。"
 
 #: libs/basicflakes/tools/KoCreatePathTool.cpp:544
-#, fuzzy, kde-format
-#| msgid "Patch Options"
+#, kde-format
 msgid "Path options"
-msgstr "色塊選項"
+msgstr "路徑選項"
 
 #: libs/basicflakes/tools/KoCreatePathTool.cpp:546
 #, kde-format
@@ -15589,10 +15588,9 @@ msgid "Autosmooth curve"
 msgstr "自動平滑曲線"
 
 #: libs/basicflakes/tools/KoCreatePathTool.cpp:550
-#, fuzzy, kde-format
-#| msgid "Activate angle snap:"
+#, kde-format
 msgid "Activate angle snap"
-msgstr "啟動角度吸附："
+msgstr "啟動角度吸附"
 
 #. i18n: ectx: property (text), widget (QLabel, lblPrecision)
 #: libs/basicflakes/tools/KoPencilTool.cpp:299
@@ -26430,8 +26428,7 @@ msgstr "高度"
 
 #. i18n: ectx: property (prefix), widget (KisIntParseSpinBox, intHeight)
 #: libs/ui/forms/wdgrectangleconstraints.ui:101
-#, fuzzy, kde-format
-#| msgid "Height:"
+#, kde-format
 msgid "Height: "
 msgstr "高度："
 
@@ -26444,8 +26441,7 @@ msgstr "寬高比"
 
 #. i18n: ectx: property (prefix), widget (KisDoubleParseSpinBox, doubleRatio)
 #: libs/ui/forms/wdgrectangleconstraints.ui:137
-#, fuzzy, kde-format
-#| msgid "Ratio:"
+#, kde-format
 msgid "Ratio: "
 msgstr "寬高比："
 
@@ -26457,8 +26453,7 @@ msgstr "矩形邊緣的水平半徑"
 
 #. i18n: ectx: property (prefix), widget (KisIntParseSpinBox, intRoundCornersX)
 #: libs/ui/forms/wdgrectangleconstraints.ui:181
-#, fuzzy, kde-format
-#| msgid "Round X:"
+#, kde-format
 msgid "Round X: "
 msgstr "圓角 X："
 
@@ -26470,8 +26465,7 @@ msgstr "矩形邊緣的垂直半徑"
 
 #. i18n: ectx: property (prefix), widget (KisIntParseSpinBox, intRoundCornersY)
 #: libs/ui/forms/wdgrectangleconstraints.ui:203
-#, fuzzy, kde-format
-#| msgid "Round Y:"
+#, kde-format
 msgid "Round Y: "
 msgstr "圓角 Y："
 
@@ -29210,7 +29204,7 @@ msgstr "正在儲存檔案…"
 msgid ""
 "Could not start saving %1. Wait until the current save operation has "
 "finished."
-msgstr ""
+msgstr "不可開始儲存「%1」。請待目前進行中的儲存操作完成後再重試。"
 
 #: libs/ui/KisDocument.cpp:911
 #, kde-format
@@ -29480,10 +29474,9 @@ msgid "Unknown error."
 msgstr "未知錯誤。"
 
 #: libs/ui/KisImportExportErrorCode.cpp:182
-#, fuzzy, kde-format
-#| msgid "Image Bounds"
+#, kde-format
 msgid "Image is busy."
-msgstr "影像邊框"
+msgstr "影像正被佔用。"
 
 #: libs/ui/KisImportExportFilter.cpp:151
 #, kde-format
@@ -32941,31 +32934,25 @@ msgid "Anti-aliasing"
 msgstr "反鋸齒"
 
 #: libs/ui/widgets/kis_selection_options.cc:181
-#, fuzzy, kde-format
-#| msgctxt "The 'grow/shrink' spinbox prefix in fill tool options"
-#| msgid "Grow: "
+#, kde-format
 msgctxt "The 'grow/shrink' spinbox prefix in selection tools options"
 msgid "Grow: "
 msgstr "擴張："
 
 #: libs/ui/widgets/kis_selection_options.cc:187
-#, fuzzy, kde-format
-#| msgctxt "The 'feather' spinbox prefix in fill tool options"
-#| msgid "Feather: "
+#, kde-format
 msgctxt "The 'feather' spinbox prefix in selection tools options"
 msgid "Feather: "
 msgstr "羽化："
 
 #: libs/ui/widgets/kis_selection_options.cc:206
-#, fuzzy, kde-format
-#| msgid "Pixel Selection"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Pixel Selection"
 msgstr "像素選取區域"
 
 #: libs/ui/widgets/kis_selection_options.cc:208
-#, fuzzy, kde-format
-#| msgid "Vector Selection"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Vector Selection"
 msgstr "向量選取區域"
@@ -33014,68 +33001,54 @@ msgstr "平滑化鋸齒狀的邊緣"
 
 #: libs/ui/widgets/kis_selection_options.cc:224
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:280
-#, fuzzy, kde-format
-#| msgid ""
-#| "Grow (positive values) or shrink (negative values) the region by the set "
-#| "amount"
+#, kde-format
 msgid ""
 "Grow (positive values) or shrink (negative values) the selection by the set "
 "amount"
-msgstr "按數值擴張或收縮區域 (正數為擴張，負數為收縮)"
+msgstr "按數值擴張或收縮選取區域 (正數為擴張，負數為收縮)"
 
 #: libs/ui/widgets/kis_selection_options.cc:227
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:282
-#, fuzzy, kde-format
-#| msgid "Blur the region by the set amount"
+#, kde-format
 msgid "Blur the selection by the set amount"
-msgstr "按數值使區域變得模糊"
+msgstr "按數值使選取區域變得模糊"
 
 #: libs/ui/widgets/kis_selection_options.cc:230
-#, fuzzy, kde-format
-#| msgid "Obtain the region using the active layer"
+#, kde-format
 msgid "Make the selection using the active layer"
-msgstr "以使用中圖層檢取區域"
+msgstr "以使用中圖層製成選取區域"
 
 #: libs/ui/widgets/kis_selection_options.cc:232
-#, fuzzy, kde-format
-#| msgid "Obtain the region using a merged copy of all layers"
+#, kde-format
 msgid "Make the selection using a merged copy of all layers"
-msgstr "以全部圖層合併的影像檢取區域"
+msgstr "以全部圖層合併的影像製成選取區域"
 
 #: libs/ui/widgets/kis_selection_options.cc:234
-#, fuzzy, kde-format
-#| msgid ""
-#| "Obtain the region using a merged copy of the selected color-labeled layers"
+#, kde-format
 msgid ""
 "Make the selection using a merged copy of the selected color-labeled layers"
-msgstr "按所選色彩標籤的圖層合併的影像檢取區域"
+msgstr "按所選色彩標籤的圖層合併的影像製成選取區域"
 
 #: libs/ui/widgets/kis_selection_options.cc:243
-#, fuzzy, kde-format
-#| msgid "Mode"
+#, kde-format
 msgctxt "The 'mode' section label in selection tools options"
 msgid "Mode"
 msgstr "模式"
 
 #: libs/ui/widgets/kis_selection_options.cc:250
-#, fuzzy, kde-format
-#| msgid "Action"
+#, kde-format
 msgctxt "The 'action' section label in selection tools options"
 msgid "Action"
 msgstr "操作"
 
 #: libs/ui/widgets/kis_selection_options.cc:257
-#, fuzzy, kde-format
-#| msgctxt "The 'adjustments' section label in fill tool options"
-#| msgid "Adjustments"
+#, kde-format
 msgctxt "The 'adjustments' section label in selection tools options"
 msgid "Adjustments"
 msgstr "調整"
 
 #: libs/ui/widgets/kis_selection_options.cc:268
-#, fuzzy, kde-format
-#| msgctxt "The 'reference' section label in fill tool options"
-#| msgid "Reference"
+#, kde-format
 msgctxt "The 'reference' section label in selection tools options"
 msgid "Reference"
 msgstr "參照"
@@ -55942,27 +55915,19 @@ msgid "Select Contiguous Area"
 msgstr "選取相連區域"
 
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:238
-#, fuzzy, kde-format
-#| msgctxt "The 'threshold' spinbox prefix in fill tool options"
-#| msgid "Threshold: "
+#, kde-format
 msgctxt "The 'threshold' spinbox prefix in contiguous selection tool options"
 msgid "Threshold: "
 msgstr "閾值："
 
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:243
-#, fuzzy, kde-format
-#| msgctxt "The 'spread' spinbox prefix in fill tool options"
-#| msgid "Spread: "
+#, kde-format
 msgctxt "The 'spread' spinbox prefix in contiguous selection tool options"
 msgid "Spread: "
 msgstr "擴散幅度："
 
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:249
-#, fuzzy, kde-format
-#| msgctxt ""
-#| "The 'use selection as boundary' checkbox in fill tool to use selection "
-#| "borders as boundary when filling"
-#| msgid "Use selection as boundary"
+#, kde-format
 msgctxt ""
 "The 'use selection as boundary' checkbox in contiguous selection tool to use "
 "selection borders as boundary when filling"
@@ -55970,66 +55935,49 @@ msgid "Use selection as boundary"
 msgstr "以選取區域為界限"
 
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:256
-#, fuzzy, kde-format
-#| msgctxt "The 'grow/shrink' spinbox prefix in fill tool options"
-#| msgid "Grow: "
+#, kde-format
 msgctxt "The 'grow/shrink' spinbox prefix in contiguous selection tool options"
 msgid "Grow: "
 msgstr "擴張："
 
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:262
-#, fuzzy, kde-format
-#| msgctxt "The 'feather' spinbox prefix in fill tool options"
-#| msgid "Feather: "
+#, kde-format
 msgctxt "The 'feather' spinbox prefix in contiguous selection tool options"
 msgid "Feather: "
 msgstr "羽化："
 
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:268
-#, fuzzy, kde-format
-#| msgid ""
-#| "Set how far the region should extend from the selected pixel in terms of "
-#| "color similarity"
+#, kde-format
 msgid ""
 "Set how far the selection should extend from the selected pixel in terms of "
 "color similarity"
-msgstr "設定區域根據色彩相似度從所選像素擴張的程度"
+msgstr "設定選取區域根據色彩相似度從所選像素擴張的程度"
 
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:271
-#, fuzzy, kde-format
-#| msgid ""
-#| "Set how far the fully opaque portion of the region should extend.\n"
-#| "0% will make opaque only the pixels that are exactly equal to the "
-#| "selected pixel.\n"
-#| "100% will make opaque all the pixels in the region up to its boundary."
+#, kde-format
 msgid ""
 "Set how far the fully opaque portion of the selection should extend.\n"
 "0% will make the selection opaque only where the pixels are exactly equal to "
 "the selected pixel.\n"
 "100% will make all the selection opaque up to its boundary."
 msgstr ""
-"設定區域中完全不透明的範圍的擴張程度。\n"
-"0% 表示只有與所選像素完全相同數值的像素才會填上不透明色。\n"
-"100% 表示一直到區域邊界的所有像素均會填上不透明色。"
+"設定選取區域中完全不透明的範圍的擴張程度。\n"
+"0% 表示只有與所選像素完全相同數值的像素才會作完全不透明選取。\n"
+"100% 表示一直到區域邊界的所有像素均會作完全不透明選取。"
 
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:276
-#, fuzzy, kde-format
-#| msgid ""
-#| "Set if the contour of the current selection should be treated as a "
-#| "boundary when obtaining the region"
+#, kde-format
 msgid ""
 "Set if the contour of the current selection should be treated as a boundary "
 "when obtaining the new one"
-msgstr "設定應否視目前選取區域為檢取區域的邊界"
+msgstr "設定應否視目前選取區域為新選取區域的邊界"
 
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:289
-#, fuzzy, kde-format
-#| msgctxt "The 'region extent' section label in fill tool options"
-#| msgid "Region extent"
+#, kde-format
 msgctxt ""
 "The 'selection extent' section label in contiguous selection tool options"
 msgid "Selection extent"
-msgstr "區域範圍"
+msgstr "選取區域範圍"
 
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.h:70
 #, kde-format
@@ -56128,29 +56076,22 @@ msgid "Select Similar Color"
 msgstr "按相似色彩建立選取區域"
 
 #: plugins/tools/selectiontools/kis_tool_select_similar.cc:429
-#, fuzzy, kde-format
-#| msgctxt "The 'threshold' spinbox prefix in fill tool options"
-#| msgid "Threshold: "
+#, kde-format
 msgctxt "The 'threshold' spinbox prefix in similar selection tool options"
 msgid "Threshold: "
 msgstr "閾值："
 
 #: plugins/tools/selectiontools/kis_tool_select_similar.cc:433
-#, fuzzy, kde-format
-#| msgid ""
-#| "Set how far the region should extend from the selected pixel in terms of "
-#| "color similarity"
+#, kde-format
 msgid "Set how far the selection should extend in terms of color similarity"
-msgstr "設定區域根據色彩相似度從所選像素擴張的程度"
+msgstr "設定選取區域根據色彩相似度擴張的程度"
 
 #: plugins/tools/selectiontools/kis_tool_select_similar.cc:440
-#, fuzzy, kde-format
-#| msgctxt "The 'region extent' section label in fill tool options"
-#| msgid "Region extent"
+#, kde-format
 msgctxt ""
 "The 'selection extent' section label in similar selection tool options"
 msgid "Selection extent"
-msgstr "區域範圍"
+msgstr "選取區域範圍"
 
 #: plugins/tools/selectiontools/kis_tool_select_similar.h:52
 #, kde-format
@@ -56221,23 +56162,19 @@ msgid "Filter Radius: "
 msgstr "過濾半徑："
 
 #: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:740
-#, fuzzy, kde-format
-#| msgctxt "The 'threshold' spinbox prefix in fill tool options"
-#| msgid "Threshold: "
+#, kde-format
 msgctxt "Threshold in Magnetic Selection's Tool options"
 msgid "Threshold: "
 msgstr "閾值："
 
 #: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:748
-#, fuzzy, kde-format
-#| msgid "Search Radius: "
+#, kde-format
 msgctxt "Search Radius in Magnetic Selection's Tool options"
 msgid "Search Radius: "
 msgstr "搜尋半徑："
 
 #: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:757
-#, fuzzy, kde-format
-#| msgid "Anchor Gap: "
+#, kde-format
 msgctxt "Anchor Gap in Magnetic Selection's Tool options"
 msgid "Anchor Gap: "
 msgstr "錨點間距："
@@ -56293,11 +56230,10 @@ msgid "Discard Selection"
 msgstr "取消選取區域"
 
 #: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:791
-#, fuzzy, kde-format
-#| msgid "Patch Options"
+#, kde-format
 msgctxt "The 'path options' section label in magnetic selection's tool options"
 msgid "Path options"
-msgstr "色塊選項"
+msgstr "路徑選項"
 
 #: plugins/tools/selectiontools/KisToolSelectMagnetic.h:102
 #, kde-format
