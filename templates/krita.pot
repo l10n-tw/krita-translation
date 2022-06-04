@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-06-03 00:43+0000\n"
+"POT-Creation-Date: 2022-06-04 00:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -16733,7 +16733,7 @@ msgstr ""
 msgid "Selection Mask"
 msgstr ""
 
-#: libs/image/kis_image.cc:720 libs/ui/KisDocument.cpp:2428
+#: libs/image/kis_image.cc:720 libs/ui/KisDocument.cpp:2433
 #: plugins/impex/psd/psd_loader.cpp:190 plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:68
 #: plugins/python/comics_project_management_tools/comics_template_dialog.py:302
 #, kde-format
@@ -19027,9 +19027,9 @@ msgstr ""
 #: libs/ui/KisApplication.cpp:970 libs/ui/KisApplication.cpp:973
 #: libs/ui/KisApplication.cpp:989 libs/ui/KisApplication.cpp:1021
 #: libs/ui/KisApplication.cpp:1035 libs/ui/KisApplication.cpp:1063
-#: libs/ui/KisDocument.cpp:916 libs/ui/KisDocument.cpp:924
-#: libs/ui/KisDocument.cpp:1784 libs/ui/KisDocument.cpp:1827
-#: libs/ui/KisDocument.cpp:1835 libs/ui/KisMainWindow.cpp:993
+#: libs/ui/KisDocument.cpp:917 libs/ui/KisDocument.cpp:925
+#: libs/ui/KisDocument.cpp:1785 libs/ui/KisDocument.cpp:1828
+#: libs/ui/KisDocument.cpp:1836 libs/ui/KisMainWindow.cpp:993
 #: libs/ui/KisMainWindow.cpp:1119 libs/ui/KisMainWindow.cpp:1218
 #: libs/ui/KisMainWindow.cpp:1814 libs/ui/KisMainWindow.cpp:1823
 #: libs/ui/KisMainWindow.cpp:1962 libs/ui/KisMainWindow.cpp:2023
@@ -28211,22 +28211,22 @@ msgctxt "option category"
 msgid "Masked Brush"
 msgstr ""
 
-#: libs/ui/kis_popup_palette.cpp:151
+#: libs/ui/kis_popup_palette.cpp:153
 #, kde-format
 msgid "Clear color history"
 msgstr ""
 
-#: libs/ui/kis_popup_palette.cpp:174
+#: libs/ui/kis_popup_palette.cpp:176
 #, kde-format
 msgid "Mirror Canvas"
 msgstr ""
 
-#: libs/ui/kis_popup_palette.cpp:183
+#: libs/ui/kis_popup_palette.cpp:185
 #, kde-format
 msgid "Canvas Only"
 msgstr ""
 
-#: libs/ui/kis_popup_palette.cpp:187 plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:47
+#: libs/ui/kis_popup_palette.cpp:189 plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:47
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:48
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:69
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:78
@@ -28264,19 +28264,19 @@ msgstr ""
 msgid "100%"
 msgstr ""
 
-#: libs/ui/kis_popup_palette.cpp:190
+#: libs/ui/kis_popup_palette.cpp:192
 #, kde-format
 msgid "Zoom to 100%"
 msgstr ""
 
-#: libs/ui/kis_popup_palette.cpp:855
+#: libs/ui/kis_popup_palette.cpp:859
 #, kde-format
 msgid ""
 "Click to swap foreground and background colors.\n"
 "Right click to set to black and white."
 msgstr ""
 
-#: libs/ui/kis_popup_palette.cpp:992
+#: libs/ui/kis_popup_palette.cpp:996
 #, kde-format
 msgid ""
 "There are no tags available to show in this popup. To add presets, you need "
@@ -28752,42 +28752,42 @@ msgctxt "(qtundo-format)"
 msgid "Clone Document"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:708
+#: libs/ui/KisDocument.cpp:709
 #, kde-format
 msgid "%1 cannot be written to. Please save under a different name."
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:771
+#: libs/ui/KisDocument.cpp:772
 #, kde-format
 msgid "Exporting Document..."
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:772
+#: libs/ui/KisDocument.cpp:773
 #, kde-format
 msgid "Saving Document..."
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:782
+#: libs/ui/KisDocument.cpp:783
 #, kde-format
 msgid ""
 "Could not start saving %1. Wait until the current save operation has "
 "finished."
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:911
+#: libs/ui/KisDocument.cpp:912
 #, kde-format
 msgctxt "%1 --- failing file name, %2 --- error message"
 msgid "Error during saving %1: %2"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:917
+#: libs/ui/KisDocument.cpp:918
 #, kde-format
 msgid ""
 "Could not save %1.\n"
 "Reason: %2"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:926
+#: libs/ui/KisDocument.cpp:927
 #, kde-format
 msgctxt ""
 "dialog box shown to the user if there were warnings while saving the "
@@ -28797,78 +28797,78 @@ msgid ""
 "The following problems were encountered when saving:"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:962
+#: libs/ui/KisDocument.cpp:963
 #, kde-format
 msgid "Finished saving %1"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1343
+#: libs/ui/KisDocument.cpp:1344
 #, kde-format
 msgid "Autosaving... %1"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1351
+#: libs/ui/KisDocument.cpp:1352
 #, kde-format
 msgid "Autosaving..."
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1357
+#: libs/ui/KisDocument.cpp:1358
 #, kde-format
 msgid "Autosaving postponed: document is busy..."
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1462
+#: libs/ui/KisDocument.cpp:1463
 #, kde-format
 msgctxt "%1 --- failing file name, %2 --- error message"
 msgid "Error during autosaving %1: %2"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1476
+#: libs/ui/KisDocument.cpp:1477
 #, kde-format
 msgid "Finished autosaving %1"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1718
+#: libs/ui/KisDocument.cpp:1719
 #, kde-format
 msgid ""
 "Malformed Path\n"
 "%1"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1784
+#: libs/ui/KisDocument.cpp:1785
 #, kde-format
 msgid "File %1 does not exist."
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1813
+#: libs/ui/KisDocument.cpp:1814
 #, kde-format
 msgid "Opening document"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1828
+#: libs/ui/KisDocument.cpp:1829
 #, kde-format
 msgid ""
 "Could not open %2.\n"
 "Reason: %1"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1836
+#: libs/ui/KisDocument.cpp:1837
 #, kde-format
 msgid "There were problems opening %1"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1965
+#: libs/ui/KisDocument.cpp:1966
 #, kde-format
 msgid "Not Saved"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:2435
+#: libs/ui/KisDocument.cpp:2440
 #, kde-format
 msgctxt "Name of automatically created background color fill layer"
 msgid "Background Fill"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:2489
+#: libs/ui/KisDocument.cpp:2496
 #, kde-format
 msgctxt ""
 "progress dialog message when the user closes the document that is being saved"
