@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-06-04 00:43+0000\n"
+"POT-Creation-Date: 2022-06-06 00:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -35128,7 +35128,7 @@ msgstr ""
 msgid "Perspective Ellipse assistant"
 msgstr ""
 
-#: plugins/assistants/Assistants/PerspectiveEllipseAssistant.cc:683
+#: plugins/assistants/Assistants/PerspectiveEllipseAssistant.cc:722
 #, kde-format
 msgid "Perspective Ellipse"
 msgstr ""
@@ -35148,7 +35148,7 @@ msgstr ""
 msgid "Spline assistant"
 msgstr ""
 
-#: plugins/assistants/Assistants/SplineAssistant.cc:222
+#: plugins/assistants/Assistants/SplineAssistant.cc:223
 #, kde-format
 msgctxt "A type of drawing assistants"
 msgid "Spline"
