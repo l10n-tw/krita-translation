@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-06-09 00:46+0000\n"
-"PO-Revision-Date: 2022-06-03 08:09+0000\n"
+"PO-Revision-Date: 2022-06-09 08:47+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -31315,7 +31315,7 @@ msgstr "與圖層連結(&N)"
 msgid ""
 "Texture buffers are explicitly disabled on ANGLE renderer due to performance "
 "issues."
-msgstr ""
+msgstr "使用 ANGLE 繪製器時，紋理緩衝區因效能問題而會被強制停用。"
 
 #: libs/ui/opengl/kis_opengl.cpp:596
 #, kde-format
