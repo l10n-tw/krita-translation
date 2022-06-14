@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-06-09 00:46+0000\n"
-"PO-Revision-Date: 2022-06-09 08:47+0000\n"
+"POT-Creation-Date: 2022-06-14 00:45+0000\n"
+"PO-Revision-Date: 2022-06-14 14:02+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -10791,7 +10791,7 @@ msgstr "新增數值關鍵影格"
 #, kde-format
 msgctxt "action"
 msgid "Adds keyframe to control scalar property"
-msgstr "加入關鍵影格來數值屬性"
+msgstr "加入關鍵影格以控制數值屬性"
 
 #. i18n: context: text @ Action (remove_scalar_keyframe), Actions (Animation), ActionCollection (Krita)
 #: krita/krita.action:2201
@@ -19082,7 +19082,7 @@ msgstr "本機資源"
 #: libs/ui/KisTemplateCreateDia.cpp:284 libs/ui/KisTemplateCreateDia.cpp:390
 #: libs/ui/KisView.cpp:585 libs/ui/KisView.cpp:844
 #: libs/ui/KisWelcomePageWidget.cpp:711
-#: libs/ui/opengl/KisOpenGLCanvasRenderer.cpp:320
+#: libs/ui/opengl/KisOpenGLCanvasRenderer.cpp:319
 #: libs/ui/widgets/kis_custom_image_widget.cc:294
 #: plugins/assistants/Assistants/kis_assistant_tool.cc:1301
 #: plugins/assistants/Assistants/kis_assistant_tool.cc:1304
@@ -31349,7 +31349,7 @@ msgstr "可用繪製器不支援首選輸出格式"
 msgid "OpenColorIO is disabled: image color space is not supported"
 msgstr "已停用 OpenColorIO：不支援影像色彩空間"
 
-#: libs/ui/opengl/KisOpenGLCanvasRenderer.cpp:321
+#: libs/ui/opengl/KisOpenGLCanvasRenderer.cpp:320
 #, kde-format
 msgid ""
 "Krita could not initialize the OpenGL canvas:\n"
@@ -31467,7 +31467,7 @@ msgstr ""
 "Y：%2 px"
 
 #: libs/ui/tool/kis_tool_utils.cpp:149 libs/ui/tool/kis_tool_utils.cpp:161
-#: plugins/dockers/animation/KisAnimUtils.cpp:75
+#: plugins/dockers/animation/KisAnimUtils.cpp:79
 msgctxt "(qtundo-format)"
 msgid "Clear"
 msgstr "清空"
@@ -36915,30 +36915,30 @@ msgctxt "@item:inmenu"
 msgid "Change audio (%1)..."
 msgstr "變更音訊 (%1)…"
 
-#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1594
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1593
 #, kde-format
 msgctxt "@title:window"
 msgid "Insert or Remove Hold Frames"
 msgstr "插入或移除保持影格"
 
-#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1595
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1594
 #, kde-format
 msgctxt "@label:spinbox"
 msgid "Enter number of frames"
 msgstr "輸入影格數"
 
-#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1702
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1701
 #, kde-format
 msgid "Edit Frames:"
 msgstr "編輯影格："
 
-#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1729
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1728
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Keyframes"
 msgstr "關鍵影格"
 
-#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1737
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1736
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Hold Frames"
@@ -37006,34 +37006,34 @@ msgctxt "(qtundo-format)"
 msgid "Add Keyframe"
 msgstr "新增關鍵影格"
 
-#: plugins/dockers/animation/KisAnimUtils.cpp:127
+#: plugins/dockers/animation/KisAnimUtils.cpp:131
 msgctxt "(qtundo-format)"
 msgid "Remove Keyframe"
 msgid_plural "Remove Keyframes"
 msgstr[0] "移除關鍵影格"
 
-#: plugins/dockers/animation/KisAnimUtils.cpp:300
+#: plugins/dockers/animation/KisAnimUtils.cpp:304
 #, kde-format
 msgctxt "(qtundo-format)"
 msgid "Move Keyframe"
 msgid_plural "Move %1 Keyframes"
 msgstr[0] "移動 %1 個關鍵影格"
 
-#: plugins/dockers/animation/KisAnimUtils.cpp:304
+#: plugins/dockers/animation/KisAnimUtils.cpp:308
 #, kde-format
 msgctxt "(qtundo-format) Copy one or several keyframes"
 msgid "Copy Keyframe"
 msgid_plural "Copy %1 Keyframes"
 msgstr[0] "複製 %1 個關鍵影格"
 
-#: plugins/dockers/animation/KisAnimUtils.cpp:377
+#: plugins/dockers/animation/KisAnimUtils.cpp:381
 #, kde-format
 msgctxt "(qtundo-format)"
 msgid "Clone Keyframe"
 msgid_plural "Clone %1 Keyframes"
 msgstr[0] "再製 %1 個關鍵影格"
 
-#: plugins/dockers/animation/KisAnimUtils.cpp:408
+#: plugins/dockers/animation/KisAnimUtils.cpp:412
 msgctxt "(qtundo-format)"
 msgid "Make clones Unique"
 msgstr "使再製項目唯一"
@@ -42159,7 +42159,7 @@ msgstr "八邊形 (8)"
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #: plugins/filters/blur/wdg_gaussian_blur.ui:72
 #: plugins/filters/blur/wdgblur.ui:33
-#: plugins/filters/convertheightnormalmap/kis_wdg_convert_height_to_normal_map.cpp:42
+#: plugins/filters/convertheightnormalmap/kis_wdg_convert_height_to_normal_map.cpp:49
 #: plugins/filters/edgedetection/kis_wdg_edge_detection.cpp:40
 #, kde-format
 msgid "Vertical Radius:"
@@ -42169,7 +42169,7 @@ msgstr "垂直半徑："
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: plugins/filters/blur/wdg_gaussian_blur.ui:82
 #: plugins/filters/blur/wdgblur.ui:124
-#: plugins/filters/convertheightnormalmap/kis_wdg_convert_height_to_normal_map.cpp:37
+#: plugins/filters/convertheightnormalmap/kis_wdg_convert_height_to_normal_map.cpp:44
 #: plugins/filters/edgedetection/kis_wdg_edge_detection.cpp:35
 #, kde-format
 msgid "Horizontal Radius:"
@@ -42609,18 +42609,23 @@ msgid "Height to Normal Map"
 msgstr "高度貼圖轉法線貼圖"
 
 #: plugins/filters/convertheightnormalmap/kis_wdg_convert_height_to_normal_map.cpp:21
+#, kde-format
+msgid "Height to Normal Map does not work on this colorspace."
+msgstr "高度貼圖轉法線貼圖不適用於此色彩空間。"
+
+#: plugins/filters/convertheightnormalmap/kis_wdg_convert_height_to_normal_map.cpp:28
 #: plugins/filters/edgedetection/kis_wdg_edge_detection.cpp:20
 #, kde-format
 msgid "Prewitt"
 msgstr "Prewitt"
 
-#: plugins/filters/convertheightnormalmap/kis_wdg_convert_height_to_normal_map.cpp:21
+#: plugins/filters/convertheightnormalmap/kis_wdg_convert_height_to_normal_map.cpp:28
 #: plugins/filters/edgedetection/kis_wdg_edge_detection.cpp:20
 #, kde-format
 msgid "Simple"
 msgstr "簡單"
 
-#: plugins/filters/convertheightnormalmap/kis_wdg_convert_height_to_normal_map.cpp:21
+#: plugins/filters/convertheightnormalmap/kis_wdg_convert_height_to_normal_map.cpp:28
 #: plugins/filters/edgedetection/kis_wdg_edge_detection.cpp:20
 #, kde-format
 msgid "Sobel"
