@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-06-14 00:45+0000\n"
-"PO-Revision-Date: 2022-06-09 08:47+0000\n"
+"PO-Revision-Date: 2022-06-14 14:02+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -10791,7 +10791,7 @@ msgstr "新增數值關鍵影格"
 #, kde-format
 msgctxt "action"
 msgid "Adds keyframe to control scalar property"
-msgstr "加入關鍵影格來數值屬性"
+msgstr "加入關鍵影格以控制數值屬性"
 
 #. i18n: context: text @ Action (remove_scalar_keyframe), Actions (Animation), ActionCollection (Krita)
 #: krita/krita.action:2201
@@ -42609,10 +42609,9 @@ msgid "Height to Normal Map"
 msgstr "高度貼圖轉法線貼圖"
 
 #: plugins/filters/convertheightnormalmap/kis_wdg_convert_height_to_normal_map.cpp:21
-#, fuzzy, kde-format
-#| msgid "Color sampler does not work on this layer."
+#, kde-format
 msgid "Height to Normal Map does not work on this colorspace."
-msgstr "色彩取樣器不能在此圖層上使用。"
+msgstr "高度貼圖轉法線貼圖不適用於此色彩空間。"
 
 #: plugins/filters/convertheightnormalmap/kis_wdg_convert_height_to_normal_map.cpp:28
 #: plugins/filters/edgedetection/kis_wdg_edge_detection.cpp:20
