@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-06-18 00:42+0000\n"
-"PO-Revision-Date: 2022-06-14 14:02+0000\n"
+"PO-Revision-Date: 2022-06-19 12:53+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -15661,11 +15661,9 @@ msgid "Spacing > 0.5, consider disabling Instant Preview"
 msgstr "間距大於 0.5 時應考慮停用即時預覽"
 
 #: libs/brush/KisBrushTypeMetaDataFixup.cpp:31
-#, fuzzy, kde-format
-#| msgctxt "Error message when saving a .kra file"
-#| msgid "Could not save animation meta data."
+#, kde-format
 msgid "Could not access brush tip metadata"
-msgstr "無法儲存動畫中繼資料。"
+msgstr "無法存取筆尖的中繼資料。"
 
 #: libs/command/kundo2group.cpp:359 libs/command/kundo2stack.cpp:1142
 #, kde-format
@@ -37340,16 +37338,14 @@ msgid "Select a Directory"
 msgstr "選擇資料夾"
 
 #: plugins/dockers/compositiondocker/compositiondocker_dock.cpp:264
-#, fuzzy, kde-format
-#| msgid "Export Composition"
+#, kde-format
 msgid "Exporting Compositions..."
-msgstr "匯出方案"
+msgstr "正在匯出合成方案……"
 
 #: plugins/dockers/compositiondocker/compositiondocker_dock.cpp:290
-#, fuzzy, kde-format
-#| msgid "Export Composition"
+#, kde-format
 msgid "Exporting composition: %1..."
-msgstr "匯出方案"
+msgstr "正在匯出合成方案：%1……"
 
 #: plugins/dockers/compositiondocker/compositiondocker_dock.cpp:449
 #, kde-format
