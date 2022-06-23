@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-06-21 00:43+0000\n"
+"POT-Creation-Date: 2022-06-23 00:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -15622,19 +15622,19 @@ msgstr ""
 msgid "Line"
 msgstr ""
 
-#: libs/brush/kis_auto_brush.cpp:437
+#: libs/brush/kis_auto_brush.cpp:449
 #, kde-format
 msgctxt "PaintOp instant preview limitation"
 msgid "Brush Density recommended value 100.0"
 msgstr ""
 
-#: libs/brush/kis_auto_brush.cpp:441
+#: libs/brush/kis_auto_brush.cpp:453
 #, kde-format
 msgctxt "PaintOp instant preview limitation"
 msgid "Brush Randomness recommended value 0.0"
 msgstr ""
 
-#: libs/brush/kis_brush.cpp:730
+#: libs/brush/kis_brush.cpp:736
 #, kde-format
 msgctxt "PaintOp instant preview limitation"
 msgid "Spacing > 0.5, consider disabling Instant Preview"
@@ -45468,8 +45468,8 @@ msgid ""
 msgstr ""
 
 #: plugins/impex/libkra/kis_kra_load_visitor.cpp:149
-#: plugins/impex/libkra/kis_kra_loader.cpp:1012
-#: plugins/impex/libkra/kis_kra_loader.cpp:1381
+#: plugins/impex/libkra/kis_kra_loader.cpp:1025
+#: plugins/impex/libkra/kis_kra_loader.cpp:1394
 #, kde-format
 msgctxt "@title:window"
 msgid "File not found"
@@ -45602,27 +45602,34 @@ msgctxt "Warning message on loading a .kra file"
 msgid "Embedded resource cannot be imported. The filename of the resource: %1"
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:816
+#: plugins/impex/libkra/kis_kra_loader.cpp:776
+#, kde-format
+msgid ""
+"Two global selection masks in active state found. \"%1\" is kept active, "
+"\"%2\" is deactivated"
+msgstr ""
+
+#: plugins/impex/libkra/kis_kra_loader.cpp:829
 #, kde-format
 msgid "Layer %1 specifies an unsupported color model: %2."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:844
+#: plugins/impex/libkra/kis_kra_loader.cpp:857
 #, kde-format
 msgid "Layer %1 has an unsupported type."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:878
+#: plugins/impex/libkra/kis_kra_loader.cpp:891
 #, kde-format
 msgid "Layer %1 has an unsupported type: %2."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:885
+#: plugins/impex/libkra/kis_kra_loader.cpp:898
 #, kde-format
 msgid "Failure loading layer %1 of type: %2."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:1007
+#: plugins/impex/libkra/kis_kra_loader.cpp:1020
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -45634,7 +45641,7 @@ msgid ""
 "Do you want to locate it manually?"
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:1376
+#: plugins/impex/libkra/kis_kra_loader.cpp:1389
 #, kde-format
 msgctxt "@info"
 msgid ""
