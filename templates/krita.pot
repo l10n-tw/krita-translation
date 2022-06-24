@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-06-23 00:42+0000\n"
+"POT-Creation-Date: 2022-06-24 00:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -35820,6 +35820,7 @@ msgstr ""
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1222
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1252
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1282
+#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:226
 #: plugins/filters/colorsfilters/virtual_channel_info.cpp:29
 #: plugins/paintops/libpaintop/kis_pressure_hsv_option.cpp:11
 #, kde-format
@@ -35835,6 +35836,7 @@ msgstr ""
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1229
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1259
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1289
+#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:227
 #: plugins/filters/colorsfilters/virtual_channel_info.cpp:33
 #: plugins/paintops/hairy/wdghairyeoptions.ui:314
 #: plugins/paintops/hairy/wdgInkOptions.ui:75
@@ -35885,6 +35887,8 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, csl_hsyY)
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1296
+#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:230
+#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:234
 #, kde-format
 msgid "Luma"
 msgstr ""
@@ -41594,7 +41598,33 @@ msgstr ""
 msgid "Desaturate"
 msgstr ""
 
-#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:252
+#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:228
+#: plugins/python/scripter/ui_scripter/tabwidgets/debuggerwidget/debuggertable.py:16
+#, kde-format
+msgid "Value"
+msgstr ""
+
+#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:229
+#, kde-format
+msgid "Lightness"
+msgstr ""
+
+#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:231
+#, kde-format
+msgid "Intensity"
+msgstr ""
+
+#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:232
+#, kde-format
+msgid "Yellow-Blue"
+msgstr ""
+
+#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:233
+#, kde-format
+msgid "Green-Red"
+msgstr ""
+
+#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:254
 #, kde-format
 msgid "&HSV Adjustment..."
 msgstr ""
@@ -53112,10 +53142,6 @@ msgstr ""
 
 #: plugins/python/scripter/ui_scripter/tabwidgets/debuggerwidget/debuggertable.py:16
 msgid "Scope"
-msgstr ""
-
-#: plugins/python/scripter/ui_scripter/tabwidgets/debuggerwidget/debuggertable.py:16
-msgid "Value"
 msgstr ""
 
 #: plugins/python/scripter/ui_scripter/tabwidgets/debuggerwidget/stepaction.py:22
