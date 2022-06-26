@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-06-26 00:43+0000\n"
-"PO-Revision-Date: 2022-06-19 12:53+0000\n"
+"PO-Revision-Date: 2022-06-26 17:51+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -42395,30 +42395,24 @@ msgid "Value"
 msgstr "明度"
 
 #: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:229
-#, fuzzy, kde-format
-#| msgctxt "Lightness value in Lab color model"
-#| msgid "Lightness"
+#, kde-format
 msgid "Lightness"
 msgstr "亮度"
 
 #: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:231
-#, fuzzy, kde-format
-#| msgctxt "Blending mode - Intensity HSI"
-#| msgid "Intensity"
+#, kde-format
 msgid "Intensity"
 msgstr "強度"
 
 #: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:232
-#, fuzzy, kde-format
-#| msgid "Yellow"
+#, kde-format
 msgid "Yellow-Blue"
-msgstr "黃"
+msgstr "黃、藍"
 
 #: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:233
-#, fuzzy, kde-format
-#| msgid "Green"
+#, kde-format
 msgid "Green-Red"
-msgstr "綠"
+msgstr "綠、紅"
 
 #: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:254
 #, kde-format
@@ -46517,7 +46511,8 @@ msgstr "未能匯入已嵌入的資源。資源名稱為：%1"
 msgid ""
 "Two global selection masks in active state found. \"%1\" is kept active, "
 "\"%2\" is deactivated"
-msgstr ""
+msgstr "找到兩個在已啟用狀態的全域選取區域遮罩。「%1」將保持啟用，而「%1」會被取消啟"
+"用"
 
 #: plugins/impex/libkra/kis_kra_loader.cpp:829
 #, kde-format
