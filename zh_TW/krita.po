@@ -46511,7 +46511,8 @@ msgstr "未能匯入已嵌入的資源。資源名稱為：%1"
 msgid ""
 "Two global selection masks in active state found. \"%1\" is kept active, "
 "\"%2\" is deactivated"
-msgstr "找到兩個在已啟用狀態的全域選取區域遮罩。「%1」將保持啟用，而「%2」會被取消啟"
+msgstr ""
+"找到兩個在已啟用狀態的全域選取區域遮罩。「%1」將保持啟用，而「%2」會被取消啟"
 "用"
 
 #: plugins/impex/libkra/kis_kra_loader.cpp:829
