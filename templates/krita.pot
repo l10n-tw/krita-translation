@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-06-25 00:45+0000\n"
+"POT-Creation-Date: 2022-06-26 00:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -35126,7 +35126,7 @@ msgstr ""
 msgid "Perspective Ellipse assistant"
 msgstr ""
 
-#: plugins/assistants/Assistants/PerspectiveEllipseAssistant.cc:722
+#: plugins/assistants/Assistants/PerspectiveEllipseAssistant.cc:724
 #, kde-format
 msgid "Perspective Ellipse"
 msgstr ""
@@ -35167,7 +35167,7 @@ msgstr ""
 msgid "Vanishing Point assistant"
 msgstr ""
 
-#: plugins/assistants/Assistants/VanishingPointAssistant.cc:384
+#: plugins/assistants/Assistants/VanishingPointAssistant.cc:383
 #, kde-format
 msgid "Vanishing Point"
 msgstr ""
