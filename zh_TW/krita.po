@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-06-18 00:42+0000\n"
+"POT-Creation-Date: 2022-06-26 00:43+0000\n"
 "PO-Revision-Date: 2022-06-19 12:53+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
@@ -15642,19 +15642,19 @@ msgstr "鉛筆"
 msgid "Line"
 msgstr "線條"
 
-#: libs/brush/kis_auto_brush.cpp:437
+#: libs/brush/kis_auto_brush.cpp:449
 #, kde-format
 msgctxt "PaintOp instant preview limitation"
 msgid "Brush Density recommended value 100.0"
 msgstr "筆刷密度建議值為 100.0"
 
-#: libs/brush/kis_auto_brush.cpp:441
+#: libs/brush/kis_auto_brush.cpp:453
 #, kde-format
 msgctxt "PaintOp instant preview limitation"
 msgid "Brush Randomness recommended value 0.0"
 msgstr "筆刷隨機度建議值為 0.0"
 
-#: libs/brush/kis_brush.cpp:730
+#: libs/brush/kis_brush.cpp:736
 #, kde-format
 msgctxt "PaintOp instant preview limitation"
 msgid "Spacing > 0.5, consider disabling Instant Preview"
@@ -19101,7 +19101,7 @@ msgstr "本機資源"
 #: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:436
 #: plugins/extensions/imagesplit/imagesplit.cpp:74
 #: plugins/extensions/imagesplit/imagesplit.cpp:76
-#: plugins/extensions/qmic/QMic.cpp:53 plugins/extensions/qmic/QMic.cpp:79
+#: plugins/extensions/qmic/QMic.cpp:54 plugins/extensions/qmic/QMic.cpp:79
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:186
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:191
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:214
@@ -30151,17 +30151,17 @@ msgstr "使用此範本"
 msgid "You cannot drag and drop colors on the selected layer type."
 msgstr "不能將色塊拖放到選定的圖層類型上。"
 
-#: libs/ui/KisView.cpp:639 libs/ui/tool/kis_tool.cc:666
+#: libs/ui/KisView.cpp:639 libs/ui/tool/kis_tool.cc:658
 #, kde-format
 msgid "Layer is locked and invisible."
 msgstr "圖層已鎖定且不可見。"
 
-#: libs/ui/KisView.cpp:641 libs/ui/tool/kis_tool.cc:668
+#: libs/ui/KisView.cpp:641 libs/ui/tool/kis_tool.cc:660
 #, kde-format
 msgid "Layer is locked."
 msgstr "圖層已鎖定。"
 
-#: libs/ui/KisView.cpp:643 libs/ui/tool/kis_tool.cc:670
+#: libs/ui/KisView.cpp:643 libs/ui/tool/kis_tool.cc:662
 #, kde-format
 msgid "Layer is invisible."
 msgstr "圖層不可見。"
@@ -30208,34 +30208,34 @@ msgstr "但螢幕校樣仍然關閉。"
 msgid "Gamut Warnings turned off."
 msgstr "已關閉色域警告。"
 
-#: libs/ui/KisViewManager.cpp:740
+#: libs/ui/KisViewManager.cpp:741
 #, kde-format
 msgid "Active Author Profile"
 msgstr "目前作者檔案"
 
-#: libs/ui/KisViewManager.cpp:870
+#: libs/ui/KisViewManager.cpp:871
 #, kde-format
 msgid "%1 (Copy)"
 msgstr "%1 (副本)"
 
-#: libs/ui/KisViewManager.cpp:1012 libs/ui/KisViewManager.cpp:1093
+#: libs/ui/KisViewManager.cpp:1013 libs/ui/KisViewManager.cpp:1094
 #, kde-format
 msgid "Alternative names exhausted, try manually saving with a higher number"
 msgstr "備用名稱數字已用盡，請手動輸入更大的數字儲存檔案"
 
-#: libs/ui/KisViewManager.cpp:1012
+#: libs/ui/KisViewManager.cpp:1013
 #, kde-format
 msgctxt "@title:window"
 msgid "Couldn't save incremental version"
 msgstr "無法儲存遞增版本"
 
-#: libs/ui/KisViewManager.cpp:1093
+#: libs/ui/KisViewManager.cpp:1094
 #, kde-format
 msgctxt "@title:window"
 msgid "Couldn't save incremental backup"
 msgstr "無法儲存遞增備份"
 
-#: libs/ui/KisViewManager.cpp:1276
+#: libs/ui/KisViewManager.cpp:1277
 #, kde-format
 msgid ""
 "Going into Canvas-Only mode.\n"
@@ -30244,13 +30244,13 @@ msgstr ""
 "即將切換為畫布獨佔模式。\n"
 "按下 %1 返回。"
 
-#: libs/ui/KisViewManager.cpp:1316
+#: libs/ui/KisViewManager.cpp:1317
 #, kde-format
 msgctxt "@title:window resource folder"
 msgid "Open Resource Folder"
 msgstr "開啟資源資料夾"
 
-#: libs/ui/KisViewManager.cpp:1319
+#: libs/ui/KisViewManager.cpp:1320
 #, kde-format
 msgctxt "@info resource folder"
 msgid ""
@@ -30273,19 +30273,19 @@ msgstr ""
 "<p><b>應用程式內部資料夾</b>：<br/>\n"
 "%2</p>"
 
-#: libs/ui/KisViewManager.cpp:1333
+#: libs/ui/KisViewManager.cpp:1334
 #, kde-format
 msgctxt "@action:button resource folder"
 msgid "Open in &user AppData"
 msgstr "開啟使用者 AppData (&U)"
 
-#: libs/ui/KisViewManager.cpp:1334
+#: libs/ui/KisViewManager.cpp:1335
 #, kde-format
 msgctxt "@action:button resource folder"
 msgid "Open in &private app location"
 msgstr "開啟應用程式內部資料夾(&P)"
 
-#: libs/ui/KisViewManager.cpp:1447 libs/ui/KisViewManager.cpp:1465
+#: libs/ui/KisViewManager.cpp:1448 libs/ui/KisViewManager.cpp:1466
 #, kde-format
 msgctxt "choice for author profile"
 msgid "Anonymous"
@@ -31392,22 +31392,22 @@ msgstr "選取動作"
 msgid "Transform"
 msgstr "變形"
 
-#: libs/ui/tool/kis_tool.cc:572
+#: libs/ui/tool/kis_tool.cc:564
 #, kde-format
 msgid "No options"
 msgstr "無選項"
 
-#: libs/ui/tool/kis_tool.cc:672
+#: libs/ui/tool/kis_tool.cc:664
 #, kde-format
 msgid "Layer can be painted in Wash Mode only."
 msgstr "此圖層只能在沖刷模式下進行繪製。"
 
-#: libs/ui/tool/kis_tool.cc:674
+#: libs/ui/tool/kis_tool.cc:666
 #, kde-format
 msgid "Group not editable."
 msgstr "群組圖層不可編輯。"
 
-#: libs/ui/tool/kis_tool.cc:689
+#: libs/ui/tool/kis_tool.cc:681
 #, kde-format
 msgid "Local selection is locked."
 msgstr "局部選取區域已鎖定。"
@@ -31432,12 +31432,12 @@ msgstr "筆刷工具無法在此圖層繪畫，請選取一個顏料圖層或者
 msgid "The MyPaint Brush Engine is not available for this colorspace"
 msgstr "MyPaint 筆刷引擎不支援這個色彩空間"
 
-#: libs/ui/tool/kis_tool_paint.cc:384
+#: libs/ui/tool/kis_tool_paint.cc:425
 #, kde-format
 msgid "Color sampler does not work on this layer."
 msgstr "色彩取樣器不能在此圖層上使用。"
 
-#: libs/ui/tool/kis_tool_paint.cc:671
+#: libs/ui/tool/kis_tool_paint.cc:712
 #, kde-format
 msgid "Brush Size: %1 px"
 msgstr "筆刷大小：%1 px"
@@ -34720,12 +34720,12 @@ msgstr "秒 (s)"
 msgid "Toggle Preview"
 msgstr "切換預覽"
 
-#: libs/widgetutils/KoFileDialog.cpp:240
+#: libs/widgetutils/KoFileDialog.cpp:243
 #, kde-format
 msgid "Save As:"
 msgstr "另存為："
 
-#: libs/widgetutils/KoFileDialog.cpp:319
+#: libs/widgetutils/KoFileDialog.cpp:324
 #, kde-format
 msgid ""
 "The selected file name does not have a file extension that Krita "
@@ -34735,7 +34735,7 @@ msgstr ""
 "所選檔案名稱不含 Krita 能理解的副檔名。\n"
 "舉個例，請確認檔案名稱以「.%1」結尾。"
 
-#: libs/widgetutils/KoFileDialog.cpp:487
+#: libs/widgetutils/KoFileDialog.cpp:504
 #, kde-format
 msgid "All supported formats"
 msgstr "所有支援的格式"
@@ -35838,7 +35838,7 @@ msgstr "透視"
 msgid "Perspective Ellipse assistant"
 msgstr "透視橢圓輔助尺"
 
-#: plugins/assistants/Assistants/PerspectiveEllipseAssistant.cc:722
+#: plugins/assistants/Assistants/PerspectiveEllipseAssistant.cc:724
 #, kde-format
 msgid "Perspective Ellipse"
 msgstr "透視橢圓"
@@ -35879,7 +35879,7 @@ msgstr "兩點透視"
 msgid "Vanishing Point assistant"
 msgstr "消失點輔助尺"
 
-#: plugins/assistants/Assistants/VanishingPointAssistant.cc:384
+#: plugins/assistants/Assistants/VanishingPointAssistant.cc:383
 #, kde-format
 msgid "Vanishing Point"
 msgstr "消失點"
@@ -36538,6 +36538,7 @@ msgstr "要顯示的 HSV 滑動條"
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1222
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1252
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1282
+#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:226
 #: plugins/filters/colorsfilters/virtual_channel_info.cpp:29
 #: plugins/paintops/libpaintop/kis_pressure_hsv_option.cpp:11
 #, kde-format
@@ -36553,6 +36554,7 @@ msgstr "色相"
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1229
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1259
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1289
+#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:227
 #: plugins/filters/colorsfilters/virtual_channel_info.cpp:33
 #: plugins/paintops/hairy/wdghairyeoptions.ui:314
 #: plugins/paintops/hairy/wdgInkOptions.ui:75
@@ -36603,6 +36605,8 @@ msgstr "要顯示的 HSY' 滑動條"
 
 #. i18n: ectx: property (text), widget (QCheckBox, csl_hsyY)
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1296
+#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:230
+#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:234
 #, kde-format
 msgid "Luma"
 msgstr "光度"
@@ -41221,12 +41225,12 @@ msgctxt "@title:column"
 msgid "Comment"
 msgstr "注釋"
 
-#: plugins/extensions/qmic/kis_qmic_interface.cpp:232
+#: plugins/extensions/qmic/kis_qmic_interface.cpp:239
 msgctxt "(qtundo-format)"
 msgid "G'MIC filter"
 msgstr "G'MIC 濾鏡"
 
-#: plugins/extensions/qmic/QMic.cpp:53
+#: plugins/extensions/qmic/QMic.cpp:54
 #, kde-format
 msgid "The GMic plugin is not installed or could not be loaded."
 msgstr "G'MIC 外掛程式並未安裝或不能載入。"
@@ -42384,7 +42388,39 @@ msgstr "去色(&D)…"
 msgid "Desaturate"
 msgstr "去色"
 
-#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:252
+#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:228
+#: plugins/python/scripter/ui_scripter/tabwidgets/debuggerwidget/debuggertable.py:16
+#, kde-format
+msgid "Value"
+msgstr "明度"
+
+#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:229
+#, fuzzy, kde-format
+#| msgctxt "Lightness value in Lab color model"
+#| msgid "Lightness"
+msgid "Lightness"
+msgstr "亮度"
+
+#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:231
+#, fuzzy, kde-format
+#| msgctxt "Blending mode - Intensity HSI"
+#| msgid "Intensity"
+msgid "Intensity"
+msgstr "強度"
+
+#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:232
+#, fuzzy, kde-format
+#| msgid "Yellow"
+msgid "Yellow-Blue"
+msgstr "黃"
+
+#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:233
+#, fuzzy, kde-format
+#| msgid "Green"
+msgid "Green-Red"
+msgstr "綠"
+
+#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:254
 #, kde-format
 msgid "&HSV Adjustment..."
 msgstr "&HSV 調整…"
@@ -46340,8 +46376,8 @@ msgstr ""
 "是否選擇其他位置？"
 
 #: plugins/impex/libkra/kis_kra_load_visitor.cpp:149
-#: plugins/impex/libkra/kis_kra_loader.cpp:1012
-#: plugins/impex/libkra/kis_kra_loader.cpp:1381
+#: plugins/impex/libkra/kis_kra_loader.cpp:1025
+#: plugins/impex/libkra/kis_kra_loader.cpp:1394
 #, kde-format
 msgctxt "@title:window"
 msgid "File not found"
@@ -46476,27 +46512,34 @@ msgctxt "Warning message on loading a .kra file"
 msgid "Embedded resource cannot be imported. The filename of the resource: %1"
 msgstr "未能匯入已嵌入的資源。資源名稱為：%1"
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:816
+#: plugins/impex/libkra/kis_kra_loader.cpp:776
+#, kde-format
+msgid ""
+"Two global selection masks in active state found. \"%1\" is kept active, "
+"\"%2\" is deactivated"
+msgstr ""
+
+#: plugins/impex/libkra/kis_kra_loader.cpp:829
 #, kde-format
 msgid "Layer %1 specifies an unsupported color model: %2."
 msgstr "圖層 %1 指定了一個不支援的色彩模型：%2"
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:844
+#: plugins/impex/libkra/kis_kra_loader.cpp:857
 #, kde-format
 msgid "Layer %1 has an unsupported type."
 msgstr "圖層 %1 含有不支援的類型。"
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:878
+#: plugins/impex/libkra/kis_kra_loader.cpp:891
 #, kde-format
 msgid "Layer %1 has an unsupported type: %2."
 msgstr "圖層 %1 含有不支援的類型：%2 。"
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:885
+#: plugins/impex/libkra/kis_kra_loader.cpp:898
 #, kde-format
 msgid "Failure loading layer %1 of type: %2."
 msgstr "載入類型為：%2 的圖層 %1 時出錯。"
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:1007
+#: plugins/impex/libkra/kis_kra_loader.cpp:1020
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -46514,7 +46557,7 @@ msgstr ""
 "\n"
 "要手動定位該檔案嗎？"
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:1376
+#: plugins/impex/libkra/kis_kra_loader.cpp:1389
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -54277,10 +54320,6 @@ msgstr "字型："
 #: plugins/python/scripter/ui_scripter/tabwidgets/debuggerwidget/debuggertable.py:16
 msgid "Scope"
 msgstr "範圍"
-
-#: plugins/python/scripter/ui_scripter/tabwidgets/debuggerwidget/debuggertable.py:16
-msgid "Value"
-msgstr "明度"
 
 #: plugins/python/scripter/ui_scripter/tabwidgets/debuggerwidget/stepaction.py:22
 msgid "Step Over"
