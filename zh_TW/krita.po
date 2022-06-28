@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-06-28 00:42+0000\n"
-"PO-Revision-Date: 2022-06-26 17:59+0000\n"
+"PO-Revision-Date: 2022-06-28 12:08+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -17242,7 +17242,7 @@ msgstr "光影"
 #, kde-format
 msgctxt "Layer name for translation of template"
 msgid "Filter"
-msgstr "過濾"
+msgstr "濾鏡"
 
 #: libs/image/KisTranslateLayerNamesVisitor.cpp:65
 #, kde-format
@@ -19892,7 +19892,7 @@ msgstr "無法建立標籤"
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "<p>Enter search terms to filter by name</p>"
-msgstr "<p>輸入搜尋關鍵字以按名稱過濾</p>"
+msgstr "<p>輸入搜尋關鍵字以按名稱篩選</p>"
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, lneFilterText)
 #: libs/resourcewidgets/KisTagFilterWidget.cpp:53
@@ -19907,7 +19907,7 @@ msgctxt ""
 "It appears in the checkbox next to the filter box in resources dockers; must "
 "be short."
 msgid "Filter in Tag"
-msgstr "標籤中過濾"
+msgstr "標籤中篩選"
 
 #: libs/resourcewidgets/KisTagToolButton.cpp:56
 #, kde-format
@@ -20583,7 +20583,7 @@ msgstr "自訂設定："
 msgid ""
 "Add any ffmpeg filtering options here. It will be put between source and "
 "destination streams of the ffmpeg"
-msgstr "新增到此的 FFmpeg 的過濾選項將插入到源資料和 FFmpeg 的目標流之間"
+msgstr "加在這裡的 FFmpeg 過濾選項，將被插入到源資料流和 FFmpeg 的目標流之間"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnResetCustomLine)
 #. i18n: ectx: property (text), widget (QPushButton, resetOriginButton)
@@ -32760,17 +32760,17 @@ msgstr "無設定選項"
 #: libs/ui/widgets/kis_layer_filter_widget.cpp:42
 #, kde-format
 msgid "Filter by name..."
-msgstr "依名稱過濾…"
+msgstr "依名稱篩選…"
 
 #: libs/ui/widgets/kis_layer_filter_widget.cpp:59
 #, kde-format
 msgid "Filter by color label..."
-msgstr "依色彩標籤過濾…"
+msgstr "依色彩標籤篩選…"
 
 #: libs/ui/widgets/kis_layer_filter_widget.cpp:81
 #, kde-format
 msgid "Reset Filters"
-msgstr "重設過濾器"
+msgstr "重設篩選器"
 
 #: libs/ui/widgets/kis_lod_availability_widget.cpp:28
 #, kde-format
@@ -35016,7 +35016,7 @@ msgstr "可用的操作(&V)："
 #, kde-format
 msgctxt "Filter as in showing only matching items"
 msgid "Filter"
-msgstr "過濾"
+msgstr "篩選"
 
 #: libs/widgetutils/xmlgui/kedittoolbar.cpp:1026
 #, kde-format
@@ -35026,7 +35026,7 @@ msgstr "目前操作(&E)："
 #: libs/widgetutils/xmlgui/kedittoolbar.cpp:1042
 #, kde-format
 msgid "Filter"
-msgstr "過濾"
+msgstr "篩選"
 
 #: libs/widgetutils/xmlgui/kedittoolbar.cpp:1183
 #, kde-format
@@ -37073,7 +37073,7 @@ msgstr "洋蔥皮檢視選項"
 #: plugins/dockers/animation/KisOnionSkinsDocker.ui:54
 #, kde-format
 msgid "Filter Onion Skins by Frame Color"
-msgstr "按色彩過濾影格"
+msgstr "按色彩篩選影格"
 
 #. i18n: ectx: property (text), widget (QToolButton, btnShowHide)
 #. i18n: ectx: property (text), widget (QToolButton, btnAddField)
