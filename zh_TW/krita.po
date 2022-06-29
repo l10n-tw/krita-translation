@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-06-29 00:43+0000\n"
-"PO-Revision-Date: 2022-06-28 12:08+0000\n"
+"PO-Revision-Date: 2022-06-29 09:10+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -13741,12 +13741,10 @@ msgstr "以游標為中心鏡像顯示"
 #. i18n: context: iconText @ Action (mirror_canvas_around_canvas), Actions (View), ActionCollection (Menu)
 #: krita/kritamenu.action:716 krita/kritamenu.action:718
 #: krita/kritamenu.action:719
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Mirror View Around Cursor"
+#, kde-format
 msgctxt "action"
 msgid "Mirror View Around Canvas"
-msgstr "以游標為中心鏡像顯示"
+msgstr "以畫布為中心鏡像顯示"
 
 #. i18n: context: text @ Action (zoom_to_100pct), Actions (View), ActionCollection (Menu)
 #: krita/kritamenu.action:726
@@ -28300,10 +28298,9 @@ msgid "Mirror View Around Cursor"
 msgstr "以游標為中心鏡像顯示"
 
 #: libs/ui/kis_mirror_manager.cpp:48
-#, fuzzy, kde-format
-#| msgid "Mirror View Around Cursor"
+#, kde-format
 msgid "Mirror View Around Canvas"
-msgstr "以游標為中心鏡像顯示"
+msgstr "以畫布為中心鏡像顯示"
 
 #: libs/ui/kis_node_manager.cpp:453
 #, kde-format
@@ -45689,7 +45686,7 @@ msgstr "JPEG-XL 影像為動畫，但未能讀取動畫影格標頭資料。"
 #, kde-format
 msgctxt "JPEG-XL errors"
 msgid "The animation declares a frame rate of more than 240 FPS."
-msgstr ""
+msgstr "這個動畫所標示的影格速率高於 240 FPS。"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:22
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:28
@@ -48056,50 +48053,43 @@ msgstr "輸入「%1」的首選解析度 (PPI)"
 
 #: plugins/impex/tiff/kis_dlg_options_tiff.cpp:38
 #: plugins/impex/tiff/kis_dlg_options_tiff.cpp:58
-#, fuzzy, kde-format
-#| msgid "None"
+#, kde-format
 msgctxt "TIFF options"
 msgid "None"
 msgstr "無"
 
 #: plugins/impex/tiff/kis_dlg_options_tiff.cpp:40
-#, fuzzy, kde-format
-#| msgid "JPEG DCT Compression"
+#, kde-format
 msgctxt "TIFF options"
 msgid "JPEG DCT compression"
 msgstr "JPEG DCT 壓縮編碼"
 
 #: plugins/impex/tiff/kis_dlg_options_tiff.cpp:42
-#, fuzzy, kde-format
-#| msgid "Deflate (ZIP)"
+#, kde-format
 msgctxt "TIFF options"
 msgid "Deflate (ZIP)"
 msgstr "Deflate 編碼 (ZIP)"
 
 #: plugins/impex/tiff/kis_dlg_options_tiff.cpp:45
-#, fuzzy, kde-format
-#| msgid "Lempel-Ziv & Welch (LZW)"
+#, kde-format
 msgctxt "TIFF options"
 msgid "Lempel-Ziv & Welch"
 msgstr "Lempel-Ziv & Welch 編碼 (LZW)"
 
 #: plugins/impex/tiff/kis_dlg_options_tiff.cpp:47
-#, fuzzy, kde-format
-#| msgid "Pixar Log"
+#, kde-format
 msgctxt "TIFF options"
 msgid "Pixar Log"
 msgstr "Pixar Log 編碼"
 
 #: plugins/impex/tiff/kis_dlg_options_tiff.cpp:60
-#, fuzzy, kde-format
-#| msgid "Horizontal Differencing"
+#, kde-format
 msgctxt "TIFF options"
 msgid "Horizontal Differencing"
 msgstr "水平差分法"
 
 #: plugins/impex/tiff/kis_dlg_options_tiff.cpp:63
-#, fuzzy, kde-format
-#| msgid "Floating Point Horizontal Differencing"
+#, kde-format
 msgctxt "TIFF options"
 msgid "Floating Point Horizontal Differencing"
 msgstr "浮點水平差分法"
@@ -48112,13 +48102,16 @@ msgid ""
 "coefficient quantization and/or Huffman coding tables. Please upgrade your "
 "version of libjpeg-turbo and try again."
 msgstr ""
+"這個 TIFF 檔案以 JPEG 壓縮方式保存，但 libjpeg-turbo 未能載入其 coefficient "
+"quantization 及/或 Huffman coding 查找表。請先更新 libjpeg-turbo "
+"程式庫的版本，然後再重試。"
 
 #: plugins/impex/tiff/kis_tiff_import.cc:1120
 #: plugins/impex/tiff/kis_tiff_import.cc:1303
 #, kde-format
 msgctxt "TIFF"
 msgid "Subsampled YCbCr TIFF files compressed with JPEG cannot be loaded."
-msgstr ""
+msgstr "無法載入經 YCbCr 色度採樣並以 JPEG 壓縮的檔案。"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, KisWdgOptionsTIFF)
 #. i18n: ectx: property (title), widget (QGroupBox, tiffOptions)
