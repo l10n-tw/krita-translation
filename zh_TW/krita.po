@@ -58492,12 +58492,10 @@ msgctxt "action"
 msgid "Reference Images Tool"
 msgstr "參考圖工具"
 
-#, kde-format
 #~ msgctxt ""
 #~ "The 'include surrounding regions' checkbox in enclose and fill tool"
 #~ msgid "Include surrounding regions"
 #~ msgstr "包含週邊區域"
 
-#, kde-format
 #~ msgid "Check this option to also fill the surrounding regions"
 #~ msgstr "核取此選項以填充週邊區域"
