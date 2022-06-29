@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-06-28 00:42+0000\n"
+"POT-Creation-Date: 2022-06-29 00:43+0000\n"
 "PO-Revision-Date: 2022-06-28 12:08+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
@@ -9514,8 +9514,8 @@ msgstr "模糊(&B)…"
 #. i18n: context: iconText @ Action (blur_filters), Actions (Filter), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (krita_filter_blur), Actions (Filters), ActionCollection (Krita)
 #. i18n: context: iconText @ Action (krita_filter_blur), Actions (Filters), ActionCollection (Krita)
-#: krita/krita.action:1138 krita/krita.action:1139 krita/kritamenu.action:1549
-#: krita/kritamenu.action:1551 krita/kritamenu.action:1552
+#: krita/krita.action:1138 krita/krita.action:1139 krita/kritamenu.action:1559
+#: krita/kritamenu.action:1561 krita/kritamenu.action:1562
 #, kde-format
 msgctxt "action"
 msgid "Blur"
@@ -12602,12 +12602,12 @@ msgstr "檢視(&V)"
 msgid "&Canvas"
 msgstr "畫布(&C)"
 
-#: krita/krita5.xmlgui:123
+#: krita/krita5.xmlgui:124
 #, kde-format
 msgid "&Snap To"
 msgstr "吸附(&S)"
 
-#: krita/krita5.xmlgui:146
+#: krita/krita5.xmlgui:147
 #: plugins/extensions/colorspaceconversion/colorspaceconversion.xmlgui:4
 #: plugins/extensions/offsetimage/offsetimage.xmlgui:5
 #: plugins/extensions/rotateimage/rotateimage.xmlgui:4
@@ -12616,44 +12616,44 @@ msgstr "吸附(&S)"
 msgid "&Image"
 msgstr "影像(&I)"
 
-#: krita/krita5.xmlgui:161 krita/krita5.xmlgui:245 krita/krita5.xmlgui:261
+#: krita/krita5.xmlgui:162 krita/krita5.xmlgui:246 krita/krita5.xmlgui:262
 #: plugins/extensions/rotateimage/rotateimage.xmlgui:5
 #: plugins/extensions/rotateimage/rotateimage.xmlgui:18
 #, kde-format
 msgid "&Rotate"
 msgstr "旋轉(&R)"
 
-#: krita/krita5.xmlgui:183 plugins/extensions/layersplit/layersplit.xmlgui:4
+#: krita/krita5.xmlgui:184 plugins/extensions/layersplit/layersplit.xmlgui:4
 #: plugins/extensions/waveletdecompose/waveletdecompose.xmlgui:4
 #, kde-format
 msgid "&Layer"
 msgstr "圖層(&L)"
 
-#: krita/krita5.xmlgui:189
+#: krita/krita5.xmlgui:190
 #, kde-format
 msgctxt "New layer"
 msgid "&New"
 msgstr "建立(&N)"
 
-#: krita/krita5.xmlgui:199
+#: krita/krita5.xmlgui:200
 #, kde-format
 msgid "&Import/Export"
 msgstr "匯入/匯出(&I)"
 
 #. i18n: ectx: property (text), widget (QPushButton, addPresetButton)
-#: krita/krita5.xmlgui:206
+#: krita/krita5.xmlgui:207
 #: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:68
 #, kde-format
 msgid "Import"
 msgstr "匯入"
 
-#: krita/krita5.xmlgui:214 plugins/dockers/layerdocker/LayerBox.cpp:1165
+#: krita/krita5.xmlgui:215 plugins/dockers/layerdocker/LayerBox.cpp:1165
 #, kde-format
 msgid "&Convert"
 msgstr "轉換(&C)"
 
 #. i18n: ectx: property (text), widget (QPushButton, bnSelect)
-#: krita/krita5.xmlgui:225 krita/krita5.xmlgui:296
+#: krita/krita5.xmlgui:226 krita/krita5.xmlgui:297
 #: libs/ui/imagesize/imagesize.xmlgui:12
 #: plugins/dockers/layerdocker/LayerBox.cpp:1139
 #: plugins/extensions/colorrange/wdg_colorrange.ui:134
@@ -12662,71 +12662,71 @@ msgstr "轉換(&C)"
 msgid "&Select"
 msgstr "選取(&S)"
 
-#: krita/krita5.xmlgui:233 plugins/dockers/layerdocker/LayerBox.cpp:1145
+#: krita/krita5.xmlgui:234 plugins/dockers/layerdocker/LayerBox.cpp:1145
 #, kde-format
 msgctxt "A group of layers"
 msgid "&Group"
 msgstr "群組(&G)"
 
-#: krita/krita5.xmlgui:239
+#: krita/krita5.xmlgui:240
 #, kde-format
 msgid "&Transform"
 msgstr "變形(&T)"
 
-#: krita/krita5.xmlgui:256
+#: krita/krita5.xmlgui:257
 #, kde-format
 msgid "Transform &All Layers"
 msgstr "變形全部圖層(&A)"
 
-#: krita/krita5.xmlgui:271
+#: krita/krita5.xmlgui:272
 #, kde-format
 msgid "S&plit"
 msgstr "分割(&P)"
 
-#: krita/krita5.xmlgui:273 plugins/dockers/layerdocker/LayerBox.cpp:1172
+#: krita/krita5.xmlgui:274 plugins/dockers/layerdocker/LayerBox.cpp:1172
 #, kde-format
 msgid "S&plit Alpha"
 msgstr "分割 Alpha (透明度) (&P)"
 
-#: krita/krita5.xmlgui:318
+#: krita/krita5.xmlgui:319
 #, kde-format
 msgid "Select &Opaque"
 msgstr "選取不透明區域(&O)"
 
-#: krita/krita5.xmlgui:333
+#: krita/krita5.xmlgui:334
 #, kde-format
 msgid "Filte&r"
 msgstr "濾鏡(&R)"
 
-#: krita/krita5.xmlgui:354 libs/widgetutils/xmlgui/ui_standards.xmlgui:144
+#: krita/krita5.xmlgui:355 libs/widgetutils/xmlgui/ui_standards.xmlgui:144
 #, kde-format
 msgid "&Tools"
 msgstr "工具(&T)"
 
-#: krita/krita5.xmlgui:355
+#: krita/krita5.xmlgui:356
 #, kde-format
 msgid "Scripts"
 msgstr "指令稿"
 
-#: krita/krita5.xmlgui:358 plugins/tools/svgtexttool/svgtexttool.xmlgui:64
+#: krita/krita5.xmlgui:359 plugins/tools/svgtexttool/svgtexttool.xmlgui:64
 #, kde-format
 msgid "Setti&ngs"
 msgstr "設定(&N)"
 
-#: krita/krita5.xmlgui:384 libs/widgetutils/xmlgui/khelpmenu.cpp:132
+#: krita/krita5.xmlgui:385 libs/widgetutils/xmlgui/khelpmenu.cpp:132
 #: libs/widgetutils/xmlgui/ui_standards.xmlgui:177
 #, kde-format
 msgid "&Help"
 msgstr "說明(&H)"
 
-#: krita/krita5.xmlgui:402 libs/ui/kis_file_layer.cpp:127
+#: krita/krita5.xmlgui:403 libs/ui/kis_file_layer.cpp:127
 #: plugins/python/scripter/uicontroller.py:94
 #: plugins/tools/svgtexttool/svgtexttool.xmlgui:71
 #, kde-format
 msgid "File"
 msgstr "檔案"
 
-#: krita/krita5.xmlgui:411
+#: krita/krita5.xmlgui:412
 #, kde-format
 msgid "Brushes and Stuff"
 msgstr "筆刷及其他工具"
@@ -13517,8 +13517,8 @@ msgstr "刪除關鍵影格"
 #. i18n: context: text @ Actions (Window), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (window), Actions (Settings), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (window), Actions (Settings), ActionCollection (Menu)
-#: krita/kritamenu.action:575 krita/kritamenu.action:1789
-#: krita/kritamenu.action:1790
+#: krita/kritamenu.action:575 krita/kritamenu.action:1799
+#: krita/kritamenu.action:1800
 #, kde-format
 msgctxt "action"
 msgid "Window"
@@ -13733,8 +13733,23 @@ msgctxt "action"
 msgid "Mirror View Around Cursor"
 msgstr "以游標為中心鏡像顯示"
 
+#. i18n: context: text @ Action (mirror_canvas_around_canvas), Actions (View), ActionCollection (Menu)
+#. i18n: context: toolTip @ Action (mirror_canvas_around_canvas), Actions (View), ActionCollection (Menu)
+#. i18n: context: iconText @ Action (mirror_canvas_around_canvas), Actions (View), ActionCollection (Menu)
+#. i18n: context: text @ Action (mirror_canvas_around_canvas), Actions (View), ActionCollection (Menu)
+#. i18n: context: toolTip @ Action (mirror_canvas_around_canvas), Actions (View), ActionCollection (Menu)
+#. i18n: context: iconText @ Action (mirror_canvas_around_canvas), Actions (View), ActionCollection (Menu)
+#: krita/kritamenu.action:716 krita/kritamenu.action:718
+#: krita/kritamenu.action:719
+#, fuzzy, kde-format
+#| msgctxt "action"
+#| msgid "Mirror View Around Cursor"
+msgctxt "action"
+msgid "Mirror View Around Canvas"
+msgstr "以游標為中心鏡像顯示"
+
 #. i18n: context: text @ Action (zoom_to_100pct), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:716
+#: krita/kritamenu.action:726
 #, kde-format
 msgctxt "action"
 msgid "&Reset zoom"
@@ -13744,35 +13759,35 @@ msgstr "重設縮放(&R)"
 #. i18n: context: iconText @ Action (zoom_to_100pct), Actions (View), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (zoom_to_100pct), Actions (View), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (zoom_to_100pct), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:718 krita/kritamenu.action:719
+#: krita/kritamenu.action:728 krita/kritamenu.action:729
 #, kde-format
 msgctxt "action"
 msgid "Reset zoom"
 msgstr "重設縮放"
 
 #. i18n: context: text @ Action (view_zoom_in), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:728
+#: krita/kritamenu.action:738
 #, kde-format
 msgctxt "action"
 msgid "Zoom &In"
 msgstr "放大(&I)"
 
 #. i18n: context: toolTip @ Action (view_zoom_in), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:730
+#: krita/kritamenu.action:740
 #, kde-format
 msgctxt "action"
 msgid "Zoom In"
 msgstr "放大"
 
 #. i18n: context: text @ Action (view_zoom_out), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:740
+#: krita/kritamenu.action:750
 #, kde-format
 msgctxt "action"
 msgid "Zoom &Out"
 msgstr "縮小(&O)"
 
 #. i18n: context: toolTip @ Action (view_zoom_out), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:742
+#: krita/kritamenu.action:752
 #, kde-format
 msgctxt "action"
 msgid "Zoom Out"
@@ -13784,15 +13799,15 @@ msgstr "縮小"
 #. i18n: context: text @ Action (toggle_zoom_to_fit), Actions (View), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (toggle_zoom_to_fit), Actions (View), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (toggle_zoom_to_fit), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:752 krita/kritamenu.action:754
-#: krita/kritamenu.action:755
+#: krita/kritamenu.action:762 krita/kritamenu.action:764
+#: krita/kritamenu.action:765
 #, kde-format
 msgctxt "action"
 msgid "Toggle Zoom Fit to Page"
 msgstr "切換縮放適合頁面大小"
 
 #. i18n: context: text @ Action (rotate_canvas_right), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:762
+#: krita/kritamenu.action:772
 #, kde-format
 msgctxt "action"
 msgid "Rotate &Canvas Right"
@@ -13802,14 +13817,14 @@ msgstr "向右旋轉畫布(&C)"
 #. i18n: context: iconText @ Action (rotate_canvas_right), Actions (View), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (rotate_canvas_right), Actions (View), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (rotate_canvas_right), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:764 krita/kritamenu.action:765
+#: krita/kritamenu.action:774 krita/kritamenu.action:775
 #, kde-format
 msgctxt "action"
 msgid "Rotate Canvas Right"
 msgstr "向右旋轉畫布"
 
 #. i18n: context: text @ Action (rotate_canvas_left), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:774
+#: krita/kritamenu.action:784
 #, kde-format
 msgctxt "action"
 msgid "Rotate Canvas &Left"
@@ -13819,7 +13834,7 @@ msgstr "向左旋轉畫布(&L)"
 #. i18n: context: iconText @ Action (rotate_canvas_left), Actions (View), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (rotate_canvas_left), Actions (View), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (rotate_canvas_left), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:776 krita/kritamenu.action:777
+#: krita/kritamenu.action:786 krita/kritamenu.action:787
 #, kde-format
 msgctxt "action"
 msgid "Rotate Canvas Left"
@@ -13831,22 +13846,22 @@ msgstr "向左旋轉畫布"
 #. i18n: context: text @ Action (reset_canvas_rotation), Actions (View), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (reset_canvas_rotation), Actions (View), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (reset_canvas_rotation), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:786 krita/kritamenu.action:788
-#: krita/kritamenu.action:789
+#: krita/kritamenu.action:796 krita/kritamenu.action:798
+#: krita/kritamenu.action:799
 #, kde-format
 msgctxt "action"
 msgid "Reset Canvas Rotation"
 msgstr "重設畫布旋轉"
 
 #. i18n: context: text @ Action (view_ruler), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:798
+#: krita/kritamenu.action:808
 #, kde-format
 msgctxt "action"
 msgid "Show &Rulers"
 msgstr "顯示尺標(&R)"
 
 #. i18n: context: whatsThis @ Action (view_ruler), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:799
+#: krita/kritamenu.action:809
 #, kde-format
 msgctxt "action"
 msgid ""
@@ -13861,7 +13876,7 @@ msgstr ""
 #. i18n: context: iconText @ Action (view_ruler), Actions (View), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (view_ruler), Actions (View), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (view_ruler), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:800 krita/kritamenu.action:801
+#: krita/kritamenu.action:810 krita/kritamenu.action:811
 #, kde-format
 msgctxt "action"
 msgid "Show Rulers"
@@ -13873,15 +13888,15 @@ msgstr "顯示尺標"
 #. i18n: context: text @ Action (rulers_track_mouse), Actions (View), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (rulers_track_mouse), Actions (View), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (rulers_track_mouse), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:810 krita/kritamenu.action:812
-#: krita/kritamenu.action:813
+#: krita/kritamenu.action:820 krita/kritamenu.action:822
+#: krita/kritamenu.action:823
 #, kde-format
 msgctxt "action"
 msgid "Rulers Track Pointer"
 msgstr "尺標追蹤游標位置"
 
 #. i18n: context: whatsThis @ Action (rulers_track_mouse), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:811
+#: krita/kritamenu.action:821
 #, kde-format
 msgctxt "action"
 msgid ""
@@ -13893,14 +13908,14 @@ msgstr "尺標可以追蹤游標的位置並將其顯示在畫面上。這可能
 #. i18n: context: iconText @ Action (view_show_guides), Actions (View), ActionCollection (Menu)
 #. i18n: context: text @ Action (view_show_guides), Actions (View), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (view_show_guides), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:822 krita/kritamenu.action:825
+#: krita/kritamenu.action:832 krita/kritamenu.action:835
 #, kde-format
 msgctxt "action"
 msgid "Show Guides"
 msgstr "顯示參考線"
 
 #. i18n: context: toolTip @ Action (view_show_guides), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:824
+#: krita/kritamenu.action:834
 #, kde-format
 msgctxt "action"
 msgid "Show or hide guides"
@@ -13910,14 +13925,14 @@ msgstr "顯示或隱藏參考線"
 #. i18n: context: iconText @ Action (view_lock_guides), Actions (View), ActionCollection (Menu)
 #. i18n: context: text @ Action (view_lock_guides), Actions (View), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (view_lock_guides), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:834 krita/kritamenu.action:837
+#: krita/kritamenu.action:844 krita/kritamenu.action:847
 #, kde-format
 msgctxt "action"
 msgid "Lock Guides"
 msgstr "鎖定參考線"
 
 #. i18n: context: toolTip @ Action (view_lock_guides), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:836
+#: krita/kritamenu.action:846
 #, kde-format
 msgctxt "action"
 msgid "Lock or unlock guides"
@@ -13927,35 +13942,35 @@ msgstr "鎖定或解鎖參考線"
 #. i18n: context: iconText @ Action (view_snap_to_guides), Actions (View), ActionCollection (Menu)
 #. i18n: context: text @ Action (view_snap_to_guides), Actions (View), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (view_snap_to_guides), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:846 krita/kritamenu.action:849
+#: krita/kritamenu.action:856 krita/kritamenu.action:859
 #, kde-format
 msgctxt "action"
 msgid "Snap to Guides"
 msgstr "吸附參考線"
 
 #. i18n: context: toolTip @ Action (view_snap_to_guides), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:848
+#: krita/kritamenu.action:858
 #, kde-format
 msgctxt "action"
 msgid "Snap cursor to guides position"
 msgstr "將滑鼠指標吸附到參考線"
 
 #. i18n: context: text @ Action (showStatusBar), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:858
+#: krita/kritamenu.action:868
 #, kde-format
 msgctxt "action"
 msgid "Show Status &Bar"
 msgstr "顯示狀態列(&B)"
 
 #. i18n: context: toolTip @ Action (showStatusBar), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:860
+#: krita/kritamenu.action:870
 #, kde-format
 msgctxt "action"
 msgid "Show or hide the status bar"
 msgstr "顯示或隱藏狀態列"
 
 #. i18n: context: iconText @ Action (showStatusBar), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:861
+#: krita/kritamenu.action:871
 #, kde-format
 msgctxt "action"
 msgid "Show Status Bar"
@@ -13967,15 +13982,15 @@ msgstr "顯示狀態列"
 #. i18n: context: text @ Action (view_pixel_grid), Actions (View), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (view_pixel_grid), Actions (View), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (view_pixel_grid), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:870 krita/kritamenu.action:872
-#: krita/kritamenu.action:873
+#: krita/kritamenu.action:880 krita/kritamenu.action:882
+#: krita/kritamenu.action:883
 #, kde-format
 msgctxt "action"
 msgid "Show Pixel Grid"
 msgstr "顯示像素格線"
 
 #. i18n: context: text @ Action (view_grid), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:882
+#: krita/kritamenu.action:892
 #, kde-format
 msgctxt "action"
 msgid "Show &Grid"
@@ -13985,7 +14000,7 @@ msgstr "顯示格線(&G)"
 #. i18n: context: iconText @ Action (view_grid), Actions (View), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (view_grid), Actions (View), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (view_grid), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:884 krita/kritamenu.action:885
+#: krita/kritamenu.action:894 krita/kritamenu.action:895
 #, kde-format
 msgctxt "action"
 msgid "Show Grid"
@@ -13997,8 +14012,8 @@ msgstr "顯示格線"
 #. i18n: context: text @ Action (view_snap_to_grid), Actions (View), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (view_snap_to_grid), Actions (View), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (view_snap_to_grid), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:894 krita/kritamenu.action:896
-#: krita/kritamenu.action:897
+#: krita/kritamenu.action:904 krita/kritamenu.action:906
+#: krita/kritamenu.action:907
 #, kde-format
 msgctxt "action"
 msgid "Snap To Grid"
@@ -14010,8 +14025,8 @@ msgstr "吸附到格線"
 #. i18n: context: text @ Action (show_snap_options_popup), Actions (View), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (show_snap_options_popup), Actions (View), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (show_snap_options_popup), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:905 krita/kritamenu.action:907
-#: krita/kritamenu.action:908
+#: krita/kritamenu.action:915 krita/kritamenu.action:917
+#: krita/kritamenu.action:918
 #, kde-format
 msgctxt "action"
 msgid "Show Snap Options Popup"
@@ -14023,8 +14038,8 @@ msgstr "浮動顯示吸附選項"
 #. i18n: context: text @ Action (view_snap_orthogonal), Actions (View), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (view_snap_orthogonal), Actions (View), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (view_snap_orthogonal), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:917 krita/kritamenu.action:919
-#: krita/kritamenu.action:920
+#: krita/kritamenu.action:927 krita/kritamenu.action:929
+#: krita/kritamenu.action:930
 #, kde-format
 msgctxt "action"
 msgid "Snap Orthogonal"
@@ -14036,8 +14051,8 @@ msgstr "吸附正切線"
 #. i18n: context: text @ Action (view_snap_node), Actions (View), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (view_snap_node), Actions (View), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (view_snap_node), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:929 krita/kritamenu.action:931
-#: krita/kritamenu.action:932
+#: krita/kritamenu.action:939 krita/kritamenu.action:941
+#: krita/kritamenu.action:942
 #, kde-format
 msgctxt "action"
 msgid "Snap Node"
@@ -14049,8 +14064,8 @@ msgstr "吸附節點"
 #. i18n: context: text @ Action (view_snap_extension), Actions (View), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (view_snap_extension), Actions (View), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (view_snap_extension), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:941 krita/kritamenu.action:943
-#: krita/kritamenu.action:944
+#: krita/kritamenu.action:951 krita/kritamenu.action:953
+#: krita/kritamenu.action:954
 #, kde-format
 msgctxt "action"
 msgid "Snap Extension"
@@ -14062,8 +14077,8 @@ msgstr "吸附延長線"
 #. i18n: context: text @ Action (view_snap_to_pixel), Actions (View), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (view_snap_to_pixel), Actions (View), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (view_snap_to_pixel), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:953 krita/kritamenu.action:955
-#: krita/kritamenu.action:956
+#: krita/kritamenu.action:963 krita/kritamenu.action:965
+#: krita/kritamenu.action:966
 #, kde-format
 msgctxt "action"
 msgid "Snap Pixel"
@@ -14075,8 +14090,8 @@ msgstr "吸附像素"
 #. i18n: context: text @ Action (view_snap_intersection), Actions (View), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (view_snap_intersection), Actions (View), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (view_snap_intersection), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:964 krita/kritamenu.action:966
-#: krita/kritamenu.action:967
+#: krita/kritamenu.action:974 krita/kritamenu.action:976
+#: krita/kritamenu.action:977
 #, kde-format
 msgctxt "action"
 msgid "Snap Intersection"
@@ -14088,8 +14103,8 @@ msgstr "吸附交點"
 #. i18n: context: text @ Action (view_snap_bounding_box), Actions (View), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (view_snap_bounding_box), Actions (View), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (view_snap_bounding_box), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:976 krita/kritamenu.action:978
-#: krita/kritamenu.action:979
+#: krita/kritamenu.action:986 krita/kritamenu.action:988
+#: krita/kritamenu.action:989
 #, kde-format
 msgctxt "action"
 msgid "Snap Bounding Box"
@@ -14101,8 +14116,8 @@ msgstr "吸附邊框"
 #. i18n: context: text @ Action (view_snap_image_bounds), Actions (View), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (view_snap_image_bounds), Actions (View), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (view_snap_image_bounds), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:988 krita/kritamenu.action:990
-#: krita/kritamenu.action:991
+#: krita/kritamenu.action:998 krita/kritamenu.action:1000
+#: krita/kritamenu.action:1001
 #, kde-format
 msgctxt "action"
 msgid "Snap Image Bounds"
@@ -14114,15 +14129,15 @@ msgstr "吸附影像邊框"
 #. i18n: context: text @ Action (view_snap_image_center), Actions (View), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (view_snap_image_center), Actions (View), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (view_snap_image_center), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:1000 krita/kritamenu.action:1002
-#: krita/kritamenu.action:1003
+#: krita/kritamenu.action:1010 krita/kritamenu.action:1012
+#: krita/kritamenu.action:1013
 #, kde-format
 msgctxt "action"
 msgid "Snap Image Center"
 msgstr "吸附影像中心"
 
 #. i18n: context: text @ Action (view_toggle_painting_assistants), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:1011
+#: krita/kritamenu.action:1021
 #, kde-format
 msgctxt "action"
 msgid "S&how Painting Assistants"
@@ -14132,14 +14147,14 @@ msgstr "顯示繪畫輔助尺(&H)"
 #. i18n: context: iconText @ Action (view_toggle_painting_assistants), Actions (View), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (view_toggle_painting_assistants), Actions (View), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (view_toggle_painting_assistants), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:1013 krita/kritamenu.action:1014
+#: krita/kritamenu.action:1023 krita/kritamenu.action:1024
 #, kde-format
 msgctxt "action"
 msgid "Show Painting Assistants"
 msgstr "顯示繪畫輔助尺"
 
 #. i18n: context: text @ Action (view_toggle_assistant_previews), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:1023
+#: krita/kritamenu.action:1033
 #, kde-format
 msgctxt "action"
 msgid "Show &Assistant Previews"
@@ -14149,14 +14164,14 @@ msgstr "顯示輔助尺預覽(&A)"
 #. i18n: context: iconText @ Action (view_toggle_assistant_previews), Actions (View), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (view_toggle_assistant_previews), Actions (View), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (view_toggle_assistant_previews), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:1025 krita/kritamenu.action:1026
+#: krita/kritamenu.action:1035 krita/kritamenu.action:1036
 #, kde-format
 msgctxt "action"
 msgid "Show Assistant Previews"
 msgstr "顯示輔助尺預覽"
 
 #. i18n: context: text @ Action (view_toggle_reference_images), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:1036
+#: krita/kritamenu.action:1046
 #, kde-format
 msgctxt "action"
 msgid "S&how Reference Images"
@@ -14166,21 +14181,21 @@ msgstr "顯示參考圖(&H)"
 #. i18n: context: iconText @ Action (view_toggle_reference_images), Actions (View), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (view_toggle_reference_images), Actions (View), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (view_toggle_reference_images), Actions (View), ActionCollection (Menu)
-#: krita/kritamenu.action:1038 krita/kritamenu.action:1039
+#: krita/kritamenu.action:1048 krita/kritamenu.action:1049
 #, kde-format
 msgctxt "action"
 msgid "Show Reference Images"
 msgstr "顯示參考圖"
 
 #. i18n: context: text @ Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1050
+#: krita/kritamenu.action:1060
 #, kde-format
 msgctxt "action"
 msgid "Image"
 msgstr "影像"
 
 #. i18n: context: text @ Action (image_properties), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1053
+#: krita/kritamenu.action:1063
 #, kde-format
 msgctxt "Image Properties"
 msgid "&Properties..."
@@ -14190,35 +14205,35 @@ msgstr "屬性(&P)…"
 #. i18n: context: iconText @ Action (image_properties), Actions (Image), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (image_properties), Actions (Image), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (image_properties), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1055 krita/kritamenu.action:1056
+#: krita/kritamenu.action:1065 krita/kritamenu.action:1066
 #, kde-format
 msgctxt "Image Properties"
 msgid "Properties"
 msgstr "屬性"
 
 #. i18n: context: text @ Action (image_color), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1065
+#: krita/kritamenu.action:1075
 #, kde-format
 msgctxt "action"
 msgid "&Image Background Color and Transparency..."
 msgstr "影像背景色與透明度(&I)…"
 
 #. i18n: context: toolTip @ Action (image_color), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1067
+#: krita/kritamenu.action:1077
 #, kde-format
 msgctxt "action"
 msgid "Change the background color of the image"
 msgstr "變更影像的背景色"
 
 #. i18n: context: iconText @ Action (image_color), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1068
+#: krita/kritamenu.action:1078
 #, kde-format
 msgctxt "action"
 msgid "Image Background Color and Transparency"
 msgstr "影像背景色與透明度"
 
 #. i18n: context: text @ Action (imagecolorspaceconversion), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1077
+#: krita/kritamenu.action:1087
 #, kde-format
 msgctxt "action"
 msgid "&Convert Image Color Space..."
@@ -14228,14 +14243,14 @@ msgstr "轉換影像色彩空間(&C)…"
 #. i18n: context: iconText @ Action (imagecolorspaceconversion), Actions (Image), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (imagecolorspaceconversion), Actions (Image), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (imagecolorspaceconversion), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1079 krita/kritamenu.action:1080
+#: krita/kritamenu.action:1089 krita/kritamenu.action:1090
 #, kde-format
 msgctxt "action"
 msgid "Convert Image Color Space"
 msgstr "轉換影像色彩空間"
 
 #. i18n: context: text @ Action (trim_to_image), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1089
+#: krita/kritamenu.action:1099
 #, kde-format
 msgctxt "action"
 msgid "&Trim to Image Size"
@@ -14245,14 +14260,14 @@ msgstr "修剪至影像大小(&T)"
 #. i18n: context: iconText @ Action (trim_to_image), Actions (Image), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (trim_to_image), Actions (Image), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (trim_to_image), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1091 krita/kritamenu.action:1092
+#: krita/kritamenu.action:1101 krita/kritamenu.action:1102
 #, kde-format
 msgctxt "action"
 msgid "Trim to Image Size"
 msgstr "修剪至影像大小"
 
 #. i18n: context: text @ Action (resizeimagetolayer), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1101
+#: krita/kritamenu.action:1111
 #, kde-format
 msgctxt "action"
 msgid "Trim to Current &Layer"
@@ -14262,14 +14277,14 @@ msgstr "修剪至目前圖層(&L)"
 #. i18n: context: iconText @ Action (resizeimagetolayer), Actions (Image), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (resizeimagetolayer), Actions (Image), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (resizeimagetolayer), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1103 krita/kritamenu.action:1104
+#: krita/kritamenu.action:1113 krita/kritamenu.action:1114
 #, kde-format
 msgctxt "action"
 msgid "Trim to Current Layer"
 msgstr "修剪至目前圖層"
 
 #. i18n: context: text @ Action (resizeimagetoselection), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1113
+#: krita/kritamenu.action:1123
 #, kde-format
 msgctxt "action"
 msgid "Trim to S&election"
@@ -14279,14 +14294,14 @@ msgstr "修剪至選取區域(&E)"
 #. i18n: context: iconText @ Action (resizeimagetoselection), Actions (Image), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (resizeimagetoselection), Actions (Image), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (resizeimagetoselection), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1115 krita/kritamenu.action:1116
+#: krita/kritamenu.action:1125 krita/kritamenu.action:1126
 #, kde-format
 msgctxt "action"
 msgid "Trim to Selection"
 msgstr "修剪至選取區域"
 
 #. i18n: context: text @ Action (rotateimage), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1125
+#: krita/kritamenu.action:1135
 #, kde-format
 msgctxt "action"
 msgid "&Rotate Image..."
@@ -14296,14 +14311,14 @@ msgstr "旋轉影像(&R)…"
 #. i18n: context: iconText @ Action (rotateimage), Actions (Image), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (rotateimage), Actions (Image), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (rotateimage), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1127 krita/kritamenu.action:1128
+#: krita/kritamenu.action:1137 krita/kritamenu.action:1138
 #, kde-format
 msgctxt "action"
 msgid "Rotate Image"
 msgstr "旋轉影像"
 
 #. i18n: context: text @ Action (rotateImageCW90), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1137
+#: krita/kritamenu.action:1147
 #, kde-format
 msgctxt "action"
 msgid "Rotate &Image 90° to the Right"
@@ -14313,14 +14328,14 @@ msgstr "將影像向右旋轉 90°(&I)"
 #. i18n: context: iconText @ Action (rotateImageCW90), Actions (Image), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (rotateImageCW90), Actions (Image), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (rotateImageCW90), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1139 krita/kritamenu.action:1140
+#: krita/kritamenu.action:1149 krita/kritamenu.action:1150
 #, kde-format
 msgctxt "action"
 msgid "Rotate Image 90° to the Right"
 msgstr "將影像向右旋轉 90°"
 
 #. i18n: context: text @ Action (rotateImageCCW90), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1149
+#: krita/kritamenu.action:1159
 #, kde-format
 msgctxt "action"
 msgid "Rotate Image &90° to the Left"
@@ -14330,14 +14345,14 @@ msgstr "將影像向左旋轉 &90°"
 #. i18n: context: iconText @ Action (rotateImageCCW90), Actions (Image), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (rotateImageCCW90), Actions (Image), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (rotateImageCCW90), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1151 krita/kritamenu.action:1152
+#: krita/kritamenu.action:1161 krita/kritamenu.action:1162
 #, kde-format
 msgctxt "action"
 msgid "Rotate Image 90° to the Left"
 msgstr "將影像向左旋轉 90°"
 
 #. i18n: context: text @ Action (rotateImage180), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1161
+#: krita/kritamenu.action:1171
 #, kde-format
 msgctxt "action"
 msgid "Rotate Image &180°"
@@ -14347,14 +14362,14 @@ msgstr "旋轉影像 &180°"
 #. i18n: context: iconText @ Action (rotateImage180), Actions (Image), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (rotateImage180), Actions (Image), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (rotateImage180), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1163 krita/kritamenu.action:1164
+#: krita/kritamenu.action:1173 krita/kritamenu.action:1174
 #, kde-format
 msgctxt "action"
 msgid "Rotate Image 180°"
 msgstr "旋轉影像 180°"
 
 #. i18n: context: text @ Action (shearimage), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1173
+#: krita/kritamenu.action:1183
 #, kde-format
 msgctxt "action"
 msgid "&Shear Image..."
@@ -14364,14 +14379,14 @@ msgstr "切變影像(&S)…"
 #. i18n: context: iconText @ Action (shearimage), Actions (Image), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (shearimage), Actions (Image), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (shearimage), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1175 krita/kritamenu.action:1176
+#: krita/kritamenu.action:1185 krita/kritamenu.action:1186
 #, kde-format
 msgctxt "action"
 msgid "Shear Image"
 msgstr "切變影像"
 
 #. i18n: context: text @ Action (mirrorImageHorizontal), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1185
+#: krita/kritamenu.action:1195
 #, kde-format
 msgctxt "action"
 msgid "&Mirror Image Horizontally"
@@ -14381,14 +14396,14 @@ msgstr "水平翻轉影像(&M)"
 #. i18n: context: iconText @ Action (mirrorImageHorizontal), Actions (Image), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (mirrorImageHorizontal), Actions (Image), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (mirrorImageHorizontal), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1187 krita/kritamenu.action:1188
+#: krita/kritamenu.action:1197 krita/kritamenu.action:1198
 #, kde-format
 msgctxt "action"
 msgid "Mirror Image Horizontally"
 msgstr "水平鏡像影像"
 
 #. i18n: context: text @ Action (mirrorImageVertical), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1197
+#: krita/kritamenu.action:1207
 #, kde-format
 msgctxt "action"
 msgid "Mirror Image &Vertically"
@@ -14398,14 +14413,14 @@ msgstr "垂直翻轉影像(&V)"
 #. i18n: context: iconText @ Action (mirrorImageVertical), Actions (Image), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (mirrorImageVertical), Actions (Image), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (mirrorImageVertical), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1199 krita/kritamenu.action:1200
+#: krita/kritamenu.action:1209 krita/kritamenu.action:1210
 #, kde-format
 msgctxt "action"
 msgid "Mirror Image Vertically"
 msgstr "垂直鏡像影像"
 
 #. i18n: context: text @ Action (imagesize), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1209
+#: krita/kritamenu.action:1219
 #, kde-format
 msgctxt "action"
 msgid "Scale Image To &New Size..."
@@ -14415,14 +14430,14 @@ msgstr "縮放影像至新尺寸(&N)…"
 #. i18n: context: iconText @ Action (imagesize), Actions (Image), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (imagesize), Actions (Image), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (imagesize), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1211 krita/kritamenu.action:1212
+#: krita/kritamenu.action:1221 krita/kritamenu.action:1222
 #, kde-format
 msgctxt "action"
 msgid "Scale Image To New Size"
 msgstr "縮放影像至新尺寸"
 
 #. i18n: context: text @ Action (offsetimage), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1221
+#: krita/kritamenu.action:1231
 #, kde-format
 msgctxt "action"
 msgid "&Offset Image..."
@@ -14432,14 +14447,14 @@ msgstr "平移影像(&O)…"
 #. i18n: context: iconText @ Action (offsetimage), Actions (Image), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (offsetimage), Actions (Image), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (offsetimage), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1223 krita/kritamenu.action:1224
+#: krita/kritamenu.action:1233 krita/kritamenu.action:1234
 #, kde-format
 msgctxt "action"
 msgid "Offset Image"
 msgstr "平移影像"
 
 #. i18n: context: text @ Action (canvassize), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1233
+#: krita/kritamenu.action:1243
 #, kde-format
 msgctxt "action"
 msgid "R&esize Canvas..."
@@ -14449,14 +14464,14 @@ msgstr "調整畫布大小(&E)…"
 #. i18n: context: iconText @ Action (canvassize), Actions (Image), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (canvassize), Actions (Image), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (canvassize), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1235 krita/kritamenu.action:1236
+#: krita/kritamenu.action:1245 krita/kritamenu.action:1246
 #, kde-format
 msgctxt "action"
 msgid "Resize Canvas"
 msgstr "調整畫布大小"
 
 #. i18n: context: text @ Action (imagesplit), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1245
+#: krita/kritamenu.action:1255
 #, kde-format
 msgctxt "action"
 msgid "Im&age Split "
@@ -14466,14 +14481,14 @@ msgstr "分割影像(&A)"
 #. i18n: context: iconText @ Action (imagesplit), Actions (Image), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (imagesplit), Actions (Image), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (imagesplit), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1247 krita/kritamenu.action:1248
+#: krita/kritamenu.action:1257 krita/kritamenu.action:1258
 #, kde-format
 msgctxt "action"
 msgid "Image Split"
 msgstr "分割影像"
 
 #. i18n: context: text @ Action (separate), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1257
+#: krita/kritamenu.action:1267
 #, kde-format
 msgctxt "action"
 msgid "Separate Ima&ge..."
@@ -14483,21 +14498,21 @@ msgstr "分離影像(&G)…"
 #. i18n: context: iconText @ Action (separate), Actions (Image), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (separate), Actions (Image), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (separate), Actions (Image), ActionCollection (Menu)
-#: krita/kritamenu.action:1259 krita/kritamenu.action:1260
+#: krita/kritamenu.action:1269 krita/kritamenu.action:1270
 #, kde-format
 msgctxt "action"
 msgid "Separate Image"
 msgstr "分離影像"
 
 #. i18n: context: text @ Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1270
+#: krita/kritamenu.action:1280
 #, kde-format
 msgctxt "action"
 msgid "Select"
 msgstr "選取"
 
 #. i18n: context: text @ Action (select_all), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1273
+#: krita/kritamenu.action:1283
 #, kde-format
 msgctxt "action"
 msgid "Select &All"
@@ -14507,14 +14522,14 @@ msgstr "全部選取(&A)"
 #. i18n: context: iconText @ Action (select_all), Actions (Select), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (select_all), Actions (Select), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (select_all), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1275 krita/kritamenu.action:1276
+#: krita/kritamenu.action:1285 krita/kritamenu.action:1286
 #, kde-format
 msgctxt "action"
 msgid "Select All"
 msgstr "全部選取"
 
 #. i18n: context: text @ Action (deselect), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1285
+#: krita/kritamenu.action:1295
 #, kde-format
 msgctxt "action"
 msgid "&Deselect"
@@ -14524,14 +14539,14 @@ msgstr "取消選取(&D)"
 #. i18n: context: iconText @ Action (deselect), Actions (Select), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (deselect), Actions (Select), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (deselect), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1287 krita/kritamenu.action:1288
+#: krita/kritamenu.action:1297 krita/kritamenu.action:1298
 #, kde-format
 msgctxt "action"
 msgid "Deselect"
 msgstr "取消選取"
 
 #. i18n: context: text @ Action (reselect), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1297
+#: krita/kritamenu.action:1307
 #, kde-format
 msgctxt "action"
 msgid "&Reselect"
@@ -14541,14 +14556,14 @@ msgstr "重新選取(&R)"
 #. i18n: context: iconText @ Action (reselect), Actions (Select), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (reselect), Actions (Select), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (reselect), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1299 krita/kritamenu.action:1300
+#: krita/kritamenu.action:1309 krita/kritamenu.action:1310
 #, kde-format
 msgctxt "action"
 msgid "Reselect"
 msgstr "重新選取"
 
 #. i18n: context: text @ Action (convert_to_vector_selection), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1309
+#: krita/kritamenu.action:1319
 #, kde-format
 msgctxt "action"
 msgid "&Convert to Vector Selection"
@@ -14558,14 +14573,14 @@ msgstr "轉成向量選取區域(&C)"
 #. i18n: context: iconText @ Action (convert_to_vector_selection), Actions (Select), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (convert_to_vector_selection), Actions (Select), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (convert_to_vector_selection), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1311 krita/kritamenu.action:1312
+#: krita/kritamenu.action:1321 krita/kritamenu.action:1322
 #, kde-format
 msgctxt "action"
 msgid "Convert to Vector Selection"
 msgstr "轉成向量選取區域"
 
 #. i18n: context: text @ Action (convert_to_raster_selection), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1321
+#: krita/kritamenu.action:1331
 #, kde-format
 msgctxt "action"
 msgid "&Convert to Raster Selection"
@@ -14575,7 +14590,7 @@ msgstr "轉成點陣選取區域(&C)"
 #. i18n: context: iconText @ Action (convert_to_raster_selection), Actions (Select), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (convert_to_raster_selection), Actions (Select), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (convert_to_raster_selection), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1323 krita/kritamenu.action:1324
+#: krita/kritamenu.action:1333 krita/kritamenu.action:1334
 #, kde-format
 msgctxt "action"
 msgid "Convert to Raster Selection"
@@ -14587,15 +14602,15 @@ msgstr "轉成點陣選取區域"
 #. i18n: context: text @ Action (edit_selection), Actions (Select), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (edit_selection), Actions (Select), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (edit_selection), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1333 krita/kritamenu.action:1335
-#: krita/kritamenu.action:1336
+#: krita/kritamenu.action:1343 krita/kritamenu.action:1345
+#: krita/kritamenu.action:1346
 #, kde-format
 msgctxt "action"
 msgid "Edit Selection"
 msgstr "編輯選取區域"
 
 #. i18n: context: text @ Action (convert_shapes_to_vector_selection), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1345
+#: krita/kritamenu.action:1355
 #, kde-format
 msgctxt "action"
 msgid "Convert Shapes to &Vector Selection"
@@ -14605,14 +14620,14 @@ msgstr "轉換形狀為向量選取區域(&V)"
 #. i18n: context: iconText @ Action (convert_shapes_to_vector_selection), Actions (Select), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (convert_shapes_to_vector_selection), Actions (Select), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (convert_shapes_to_vector_selection), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1347 krita/kritamenu.action:1348
+#: krita/kritamenu.action:1357 krita/kritamenu.action:1358
 #, kde-format
 msgctxt "action"
 msgid "Convert Shapes to Vector Selection"
 msgstr "轉換形狀為向量選取區域"
 
 #. i18n: context: text @ Action (featherselection), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1357
+#: krita/kritamenu.action:1367
 #, kde-format
 msgctxt "action"
 msgid "&Feather Selection..."
@@ -14622,14 +14637,14 @@ msgstr "羽化選取區域(&F)…"
 #. i18n: context: iconText @ Action (featherselection), Actions (Select), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (featherselection), Actions (Select), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (featherselection), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1359 krita/kritamenu.action:1360
+#: krita/kritamenu.action:1369 krita/kritamenu.action:1370
 #, kde-format
 msgctxt "action"
 msgid "Feather Selection"
 msgstr "羽化選取區域"
 
 #. i18n: context: text @ Action (toggle_display_selection), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1369
+#: krita/kritamenu.action:1379
 #, kde-format
 msgctxt "action"
 msgid "Dis&play Selection"
@@ -14639,14 +14654,14 @@ msgstr "顯示選取區域(&P)"
 #. i18n: context: iconText @ Action (toggle_display_selection), Actions (Select), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (toggle_display_selection), Actions (Select), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (toggle_display_selection), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1371 krita/kritamenu.action:1372
+#: krita/kritamenu.action:1381 krita/kritamenu.action:1382
 #, kde-format
 msgctxt "action"
 msgid "Display Selection"
 msgstr "顯示選取區域"
 
 #. i18n: context: text @ Action (selectionscale), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1381
+#: krita/kritamenu.action:1391
 #, kde-format
 msgctxt "action"
 msgid "Sca&le..."
@@ -14656,14 +14671,14 @@ msgstr "縮放(&L)…"
 #. i18n: context: iconText @ Action (selectionscale), Actions (Select), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (selectionscale), Actions (Select), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (selectionscale), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1383 krita/kritamenu.action:1384
+#: krita/kritamenu.action:1393 krita/kritamenu.action:1394
 #, kde-format
 msgctxt "action"
 msgid "Scale"
 msgstr "縮放"
 
 #. i18n: context: text @ Action (colorrange), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1393
+#: krita/kritamenu.action:1403
 #, kde-format
 msgctxt "action"
 msgid "S&elect from Color Range..."
@@ -14673,14 +14688,14 @@ msgstr "從色彩範圍選取(&E)…"
 #. i18n: context: iconText @ Action (colorrange), Actions (Select), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (colorrange), Actions (Select), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (colorrange), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1395 krita/kritamenu.action:1396
+#: krita/kritamenu.action:1405 krita/kritamenu.action:1406
 #, kde-format
 msgctxt "action"
 msgid "Select from Color Range"
 msgstr "從色彩範圍選取"
 
 #. i18n: context: text @ Action (selectopaque), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1405
+#: krita/kritamenu.action:1415
 #, kde-format
 msgctxt "action"
 msgid "Select &Opaque (Replace)"
@@ -14690,14 +14705,14 @@ msgstr "選取不透明區域 (取代) (&O)"
 #. i18n: context: iconText @ Action (selectopaque), Actions (Select), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (selectopaque), Actions (Select), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (selectopaque), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1407 krita/kritamenu.action:1408
+#: krita/kritamenu.action:1417 krita/kritamenu.action:1418
 #, kde-format
 msgctxt "action"
 msgid "Select Opaque"
 msgstr "選取不透明區域"
 
 #. i18n: context: text @ Action (selectopaque_add), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1417
+#: krita/kritamenu.action:1427
 #, kde-format
 msgctxt "action"
 msgid "Select Opaque (&Add)"
@@ -14707,14 +14722,14 @@ msgstr "選取不透明區域 (新增) (&A)"
 #. i18n: context: iconText @ Action (selectopaque_add), Actions (Select), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (selectopaque_add), Actions (Select), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (selectopaque_add), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1419 krita/kritamenu.action:1420
+#: krita/kritamenu.action:1429 krita/kritamenu.action:1430
 #, kde-format
 msgctxt "action"
 msgid "Select Opaque (Add)"
 msgstr "選取不透明區域 (新增)"
 
 #. i18n: context: text @ Action (selectopaque_subtract), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1429
+#: krita/kritamenu.action:1439
 #, kde-format
 msgctxt "action"
 msgid "Select Opaque (&Subtract)"
@@ -14724,14 +14739,14 @@ msgstr "選取不透明區域 (減去) (&S)"
 #. i18n: context: iconText @ Action (selectopaque_subtract), Actions (Select), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (selectopaque_subtract), Actions (Select), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (selectopaque_subtract), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1431 krita/kritamenu.action:1432
+#: krita/kritamenu.action:1441 krita/kritamenu.action:1442
 #, kde-format
 msgctxt "action"
 msgid "Select Opaque (Subtract)"
 msgstr "選取不透明區域 (減去)"
 
 #. i18n: context: text @ Action (selectopaque_intersect), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1441
+#: krita/kritamenu.action:1451
 #, kde-format
 msgctxt "action"
 msgid "Select Opaque (&Intersect)"
@@ -14741,14 +14756,14 @@ msgstr "選取不透明區域 (相交) (&I)"
 #. i18n: context: iconText @ Action (selectopaque_intersect), Actions (Select), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (selectopaque_intersect), Actions (Select), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (selectopaque_intersect), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1443 krita/kritamenu.action:1444
+#: krita/kritamenu.action:1453 krita/kritamenu.action:1454
 #, kde-format
 msgctxt "action"
 msgid "Select Opaque (Intersect)"
 msgstr "選取不透明區域 (相交)"
 
 #. i18n: context: text @ Action (growselection), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1453
+#: krita/kritamenu.action:1463
 #, kde-format
 msgctxt "action"
 msgid "&Grow Selection..."
@@ -14758,14 +14773,14 @@ msgstr "擴大選取區域(&G)…"
 #. i18n: context: iconText @ Action (growselection), Actions (Select), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (growselection), Actions (Select), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (growselection), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1455 krita/kritamenu.action:1456
+#: krita/kritamenu.action:1465 krita/kritamenu.action:1466
 #, kde-format
 msgctxt "action"
 msgid "Grow Selection"
 msgstr "擴大選取區域"
 
 #. i18n: context: text @ Action (shrinkselection), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1465
+#: krita/kritamenu.action:1475
 #, kde-format
 msgctxt "action"
 msgid "S&hrink Selection..."
@@ -14775,14 +14790,14 @@ msgstr "縮小選取區域(&H)…"
 #. i18n: context: iconText @ Action (shrinkselection), Actions (Select), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (shrinkselection), Actions (Select), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (shrinkselection), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1467 krita/kritamenu.action:1468
+#: krita/kritamenu.action:1477 krita/kritamenu.action:1478
 #, kde-format
 msgctxt "action"
 msgid "Shrink Selection"
 msgstr "縮小選取區域"
 
 #. i18n: context: text @ Action (borderselection), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1477
+#: krita/kritamenu.action:1487
 #, kde-format
 msgctxt "action"
 msgid "&Border Selection..."
@@ -14792,14 +14807,14 @@ msgstr "邊框化選取區域(&B)…"
 #. i18n: context: iconText @ Action (borderselection), Actions (Select), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (borderselection), Actions (Select), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (borderselection), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1479 krita/kritamenu.action:1480
+#: krita/kritamenu.action:1489 krita/kritamenu.action:1490
 #, kde-format
 msgctxt "action"
 msgid "Border Selection"
 msgstr "邊框化選取區域"
 
 #. i18n: context: text @ Action (smoothselection), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1489
+#: krita/kritamenu.action:1499
 #, kde-format
 msgctxt "action"
 msgid "S&mooth"
@@ -14809,21 +14824,21 @@ msgstr "平滑化(&M)"
 #. i18n: context: iconText @ Action (smoothselection), Actions (Select), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (smoothselection), Actions (Select), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (smoothselection), Actions (Select), ActionCollection (Menu)
-#: krita/kritamenu.action:1491 krita/kritamenu.action:1492
+#: krita/kritamenu.action:1501 krita/kritamenu.action:1502
 #, kde-format
 msgctxt "action"
 msgid "Smooth"
 msgstr "平滑化"
 
 #. i18n: context: text @ Actions (Filter), ActionCollection (Menu)
-#: krita/kritamenu.action:1502
+#: krita/kritamenu.action:1512
 #, kde-format
 msgctxt "action"
 msgid "Filter"
 msgstr "濾鏡"
 
 #. i18n: context: text @ Action (filter_apply_again), Actions (Filter), ActionCollection (Menu)
-#: krita/kritamenu.action:1505
+#: krita/kritamenu.action:1515
 #, kde-format
 msgctxt "action"
 msgid "&Apply Filter Again"
@@ -14833,14 +14848,14 @@ msgstr "再次套用濾鏡(&A)"
 #. i18n: context: iconText @ Action (filter_apply_again), Actions (Filter), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (filter_apply_again), Actions (Filter), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (filter_apply_again), Actions (Filter), ActionCollection (Menu)
-#: krita/kritamenu.action:1507 krita/kritamenu.action:1508
+#: krita/kritamenu.action:1517 krita/kritamenu.action:1518
 #, kde-format
 msgctxt "action"
 msgid "Apply Filter Again"
 msgstr "再次套用濾鏡"
 
 #. i18n: context: text @ Action (filter_apply_reprompt), Actions (Filter), ActionCollection (Menu)
-#: krita/kritamenu.action:1517
+#: krita/kritamenu.action:1527
 #, kde-format
 msgctxt "action"
 msgid "Apply Filter Again (Reprompt)"
@@ -14850,7 +14865,7 @@ msgstr "再次套用濾鏡 (顯示濾鏡設定)"
 #. i18n: context: iconText @ Action (filter_apply_reprompt), Actions (Filter), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (filter_apply_reprompt), Actions (Filter), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (filter_apply_reprompt), Actions (Filter), ActionCollection (Menu)
-#: krita/kritamenu.action:1519 krita/kritamenu.action:1520
+#: krita/kritamenu.action:1529 krita/kritamenu.action:1530
 #, kde-format
 msgctxt "action"
 msgid "Reapply Last Used Filter with Prompt for Configuration"
@@ -14862,8 +14877,8 @@ msgstr "再次套用濾鏡，並顯示濾鏡設定以供修改"
 #. i18n: context: text @ Action (adjust_filters), Actions (Filter), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (adjust_filters), Actions (Filter), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (adjust_filters), Actions (Filter), ActionCollection (Menu)
-#: krita/kritamenu.action:1529 krita/kritamenu.action:1531
-#: krita/kritamenu.action:1532
+#: krita/kritamenu.action:1539 krita/kritamenu.action:1541
+#: krita/kritamenu.action:1542
 #, kde-format
 msgctxt "action"
 msgid "Adjust"
@@ -14875,8 +14890,8 @@ msgstr "影像調整"
 #. i18n: context: text @ Action (artistic_filters), Actions (Filter), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (artistic_filters), Actions (Filter), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (artistic_filters), Actions (Filter), ActionCollection (Menu)
-#: krita/kritamenu.action:1539 krita/kritamenu.action:1541
-#: krita/kritamenu.action:1542
+#: krita/kritamenu.action:1549 krita/kritamenu.action:1551
+#: krita/kritamenu.action:1552
 #, kde-format
 msgctxt "action"
 msgid "Artistic"
@@ -14888,8 +14903,8 @@ msgstr "藝術效果"
 #. i18n: context: text @ Action (color_filters), Actions (Filter), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (color_filters), Actions (Filter), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (color_filters), Actions (Filter), ActionCollection (Menu)
-#: krita/kritamenu.action:1559 krita/kritamenu.action:1561
-#: krita/kritamenu.action:1562
+#: krita/kritamenu.action:1569 krita/kritamenu.action:1571
+#: krita/kritamenu.action:1572
 #, kde-format
 msgctxt "action"
 msgid "Colors"
@@ -14901,8 +14916,8 @@ msgstr "色彩"
 #. i18n: context: text @ Action (edge_filters), Actions (Filter), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (edge_filters), Actions (Filter), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (edge_filters), Actions (Filter), ActionCollection (Menu)
-#: krita/kritamenu.action:1569 krita/kritamenu.action:1571
-#: krita/kritamenu.action:1572
+#: krita/kritamenu.action:1579 krita/kritamenu.action:1581
+#: krita/kritamenu.action:1582
 #, kde-format
 msgctxt "action"
 msgid "Edge Detection"
@@ -14914,8 +14929,8 @@ msgstr "邊緣檢測"
 #. i18n: context: text @ Action (enhance_filters), Actions (Filter), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (enhance_filters), Actions (Filter), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (enhance_filters), Actions (Filter), ActionCollection (Menu)
-#: krita/kritamenu.action:1579 krita/kritamenu.action:1581
-#: krita/kritamenu.action:1582
+#: krita/kritamenu.action:1589 krita/kritamenu.action:1591
+#: krita/kritamenu.action:1592
 #, kde-format
 msgctxt "action"
 msgid "Enhance"
@@ -14927,8 +14942,8 @@ msgstr "影像增強"
 #. i18n: context: text @ Action (emboss_filters), Actions (Filter), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (emboss_filters), Actions (Filter), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (emboss_filters), Actions (Filter), ActionCollection (Menu)
-#: krita/kritamenu.action:1589 krita/kritamenu.action:1591
-#: krita/kritamenu.action:1592
+#: krita/kritamenu.action:1599 krita/kritamenu.action:1601
+#: krita/kritamenu.action:1602
 #, kde-format
 msgctxt "action"
 msgid "Emboss"
@@ -14940,8 +14955,8 @@ msgstr "浮雕"
 #. i18n: context: text @ Action (map_filters), Actions (Filter), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (map_filters), Actions (Filter), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (map_filters), Actions (Filter), ActionCollection (Menu)
-#: krita/kritamenu.action:1599 krita/kritamenu.action:1601
-#: krita/kritamenu.action:1602
+#: krita/kritamenu.action:1609 krita/kritamenu.action:1611
+#: krita/kritamenu.action:1612
 #, kde-format
 msgctxt "action"
 msgid "Map"
@@ -14953,15 +14968,15 @@ msgstr "映射"
 #. i18n: context: text @ Action (other_filters), Actions (Filter), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (other_filters), Actions (Filter), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (other_filters), Actions (Filter), ActionCollection (Menu)
-#: krita/kritamenu.action:1609 krita/kritamenu.action:1611
-#: krita/kritamenu.action:1612
+#: krita/kritamenu.action:1619 krita/kritamenu.action:1621
+#: krita/kritamenu.action:1622
 #, kde-format
 msgctxt "action"
 msgid "Other"
 msgstr "其他"
 
 #. i18n: context: text @ Action (QMic), Actions (Filter), ActionCollection (Menu)
-#: krita/kritamenu.action:1619
+#: krita/kritamenu.action:1629
 #, kde-format
 msgctxt "action"
 msgid "Start G'MIC-Qt"
@@ -14971,14 +14986,14 @@ msgstr "啟動 G'MIC-Qt"
 #. i18n: context: iconText @ Action (QMic), Actions (Filter), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (QMic), Actions (Filter), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (QMic), Actions (Filter), ActionCollection (Menu)
-#: krita/kritamenu.action:1621 krita/kritamenu.action:1622
+#: krita/kritamenu.action:1631 krita/kritamenu.action:1632
 #, kde-format
 msgctxt "action"
 msgid "Start G'Mic-Qt"
 msgstr "啟動 G'MIC-Qt"
 
 #. i18n: context: text @ Action (QMicAgain), Actions (Filter), ActionCollection (Menu)
-#: krita/kritamenu.action:1629
+#: krita/kritamenu.action:1639
 #, kde-format
 msgctxt "action"
 msgid "Re-apply the last G'MIC filter"
@@ -14988,7 +15003,7 @@ msgstr "重新套用上次的 G'MIC 濾鏡"
 #. i18n: context: iconText @ Action (QMicAgain), Actions (Filter), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (QMicAgain), Actions (Filter), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (QMicAgain), Actions (Filter), ActionCollection (Menu)
-#: krita/kritamenu.action:1631 krita/kritamenu.action:1632
+#: krita/kritamenu.action:1641 krita/kritamenu.action:1642
 #, kde-format
 msgctxt "action"
 msgid "Apply the last G'Mic-Qt action again"
@@ -14998,14 +15013,14 @@ msgstr "重新套用上次的 G'Mic-Qt 操作"
 #. i18n: context: iconText @ Action (svg_settings), Actions (Text Tool), ActionCollection (SVG Tools)
 #. i18n: context: text @ Actions (Settings), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (svg_settings), Actions (Text Tool), ActionCollection (SVG Tools)
-#: krita/kritamenu.action:1640 plugins/tools/svgtexttool/SvgTextTool.action:236
+#: krita/kritamenu.action:1650 plugins/tools/svgtexttool/SvgTextTool.action:236
 #, kde-format
 msgctxt "action"
 msgid "Settings"
 msgstr "設定"
 
 #. i18n: context: text @ Action (options_configure), Actions (Settings), ActionCollection (Menu)
-#: krita/kritamenu.action:1643
+#: krita/kritamenu.action:1653
 #, kde-format
 msgctxt "action"
 msgid "&Configure Krita..."
@@ -15015,35 +15030,35 @@ msgstr "設定 Krita (&C)…"
 #. i18n: context: iconText @ Action (options_configure), Actions (Settings), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (options_configure), Actions (Settings), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (options_configure), Actions (Settings), ActionCollection (Menu)
-#: krita/kritamenu.action:1645 krita/kritamenu.action:1646
+#: krita/kritamenu.action:1655 krita/kritamenu.action:1656
 #, kde-format
 msgctxt "action"
 msgid "Configure Krita"
 msgstr "設定 Krita"
 
 #. i18n: context: text @ Action (manage_bundles), Actions (Settings), ActionCollection (Menu)
-#: krita/kritamenu.action:1655
+#: krita/kritamenu.action:1665
 #, kde-format
 msgctxt "action"
 msgid "&Manage Resource Libraries..."
 msgstr "管理資源庫(&M)…"
 
 #. i18n: context: toolTip @ Action (manage_bundles), Actions (Settings), ActionCollection (Menu)
-#: krita/kritamenu.action:1657
+#: krita/kritamenu.action:1667
 #, kde-format
 msgctxt "action"
 msgid "Manage Resource Libraries"
 msgstr "管理資源庫"
 
 #. i18n: context: iconText @ Action (manage_bundles), Actions (Settings), ActionCollection (Menu)
-#: krita/kritamenu.action:1658
+#: krita/kritamenu.action:1668
 #, kde-format
 msgctxt "action"
 msgid "Manage Resources Libraries"
 msgstr "管理資源庫"
 
 #. i18n: context: text @ Action (manage_resources), Actions (Settings), ActionCollection (Menu)
-#: krita/kritamenu.action:1667
+#: krita/kritamenu.action:1677
 #, kde-format
 msgctxt "action"
 msgid "Manage Resources..."
@@ -15053,14 +15068,14 @@ msgstr "管理資源…"
 #. i18n: context: iconText @ Action (manage_resources), Actions (Settings), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (manage_resources), Actions (Settings), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (manage_resources), Actions (Settings), ActionCollection (Menu)
-#: krita/kritamenu.action:1669 krita/kritamenu.action:1670
+#: krita/kritamenu.action:1679 krita/kritamenu.action:1680
 #, kde-format
 msgctxt "action"
 msgid "Manage Resources"
 msgstr "管理資源"
 
 #. i18n: context: text @ Action (switch_application_language), Actions (Settings), ActionCollection (Menu)
-#: krita/kritamenu.action:1679
+#: krita/kritamenu.action:1689
 #, kde-format
 msgctxt "action"
 msgid "Switch Application &Language..."
@@ -15070,14 +15085,14 @@ msgstr "切換應用程式語言(&L)…"
 #. i18n: context: iconText @ Action (switch_application_language), Actions (Settings), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (switch_application_language), Actions (Settings), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (switch_application_language), Actions (Settings), ActionCollection (Menu)
-#: krita/kritamenu.action:1681 krita/kritamenu.action:1682
+#: krita/kritamenu.action:1691 krita/kritamenu.action:1692
 #, kde-format
 msgctxt "action"
 msgid "Switch Application Language"
 msgstr "切換應用程式語言"
 
 #. i18n: context: text @ Action (view_toggledockers), Actions (Settings), ActionCollection (Menu)
-#: krita/kritamenu.action:1689
+#: krita/kritamenu.action:1699
 #, kde-format
 msgctxt "action"
 msgid "&Show Dockers"
@@ -15087,14 +15102,14 @@ msgstr "顯示工具面板(&S)"
 #. i18n: context: iconText @ Action (view_toggledockers), Actions (Settings), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (view_toggledockers), Actions (Settings), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (view_toggledockers), Actions (Settings), ActionCollection (Menu)
-#: krita/kritamenu.action:1691 krita/kritamenu.action:1692
+#: krita/kritamenu.action:1701 krita/kritamenu.action:1702
 #, kde-format
 msgctxt "action"
 msgid "Show Dockers"
 msgstr "顯示工具面板"
 
 #. i18n: context: text @ Action (view_toggledockertitlebars), Actions (Settings), ActionCollection (Menu)
-#: krita/kritamenu.action:1701
+#: krita/kritamenu.action:1711
 #, kde-format
 msgctxt "action"
 msgid "Sho&w Docker Titlebars"
@@ -15104,14 +15119,14 @@ msgstr "顯示工具面板的標題列(&W)"
 #. i18n: context: iconText @ Action (view_toggledockertitlebars), Actions (Settings), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (view_toggledockertitlebars), Actions (Settings), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (view_toggledockertitlebars), Actions (Settings), ActionCollection (Menu)
-#: krita/kritamenu.action:1703 krita/kritamenu.action:1704
+#: krita/kritamenu.action:1713 krita/kritamenu.action:1714
 #, kde-format
 msgctxt "action"
 msgid "Show Docker Titlebars"
 msgstr "顯示工具面板的標題列"
 
 #. i18n: context: text @ Action (options_configure_toolbars), Actions (Settings), ActionCollection (Menu)
-#: krita/kritamenu.action:1713
+#: krita/kritamenu.action:1723
 #, kde-format
 msgctxt "action"
 msgid "Configure Tool&bars..."
@@ -15121,7 +15136,7 @@ msgstr "設定工具列(&B)…"
 #. i18n: context: iconText @ Action (options_configure_toolbars), Actions (Settings), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (options_configure_toolbars), Actions (Settings), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (options_configure_toolbars), Actions (Settings), ActionCollection (Menu)
-#: krita/kritamenu.action:1715 krita/kritamenu.action:1716
+#: krita/kritamenu.action:1725 krita/kritamenu.action:1726
 #, kde-format
 msgctxt "action"
 msgid "Configure Toolbars"
@@ -15133,15 +15148,15 @@ msgstr "設定工具列"
 #. i18n: context: text @ Action (settings_dockers_menu), Actions (Settings), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (settings_dockers_menu), Actions (Settings), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (settings_dockers_menu), Actions (Settings), ActionCollection (Menu)
-#: krita/kritamenu.action:1725 krita/kritamenu.action:1727
-#: krita/kritamenu.action:1728
+#: krita/kritamenu.action:1735 krita/kritamenu.action:1737
+#: krita/kritamenu.action:1738
 #, kde-format
 msgctxt "action"
 msgid "Dockers"
 msgstr "工具面板"
 
 #. i18n: context: text @ Action (theme_menu), Actions (Settings), ActionCollection (Menu)
-#: krita/kritamenu.action:1735
+#: krita/kritamenu.action:1745
 #, kde-format
 msgctxt "action"
 msgid "&Themes"
@@ -15151,14 +15166,14 @@ msgstr "主題(&T)"
 #. i18n: context: iconText @ Action (theme_menu), Actions (Settings), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (theme_menu), Actions (Settings), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (theme_menu), Actions (Settings), ActionCollection (Menu)
-#: krita/kritamenu.action:1737 krita/kritamenu.action:1738
+#: krita/kritamenu.action:1747 krita/kritamenu.action:1748
 #, kde-format
 msgctxt "action"
 msgid "Themes"
 msgstr "主題"
 
 #. i18n: context: text @ Action (style_menu), Actions (Settings), ActionCollection (Menu)
-#: krita/kritamenu.action:1745
+#: krita/kritamenu.action:1755
 #, kde-format
 msgctxt "action"
 msgid "&Styles"
@@ -15168,7 +15183,7 @@ msgstr "樣式(&S)"
 #. i18n: context: iconText @ Action (style_menu), Actions (Settings), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (style_menu), Actions (Settings), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (style_menu), Actions (Settings), ActionCollection (Menu)
-#: krita/kritamenu.action:1747 krita/kritamenu.action:1748
+#: krita/kritamenu.action:1757 krita/kritamenu.action:1758
 #, kde-format
 msgctxt "action"
 msgid "Styles"
@@ -15180,36 +15195,36 @@ msgstr "樣式"
 #. i18n: context: text @ Action (settings_active_author), Actions (Settings), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (settings_active_author), Actions (Settings), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (settings_active_author), Actions (Settings), ActionCollection (Menu)
-#: krita/kritamenu.action:1755 krita/kritamenu.action:1757
-#: krita/kritamenu.action:1758
+#: krita/kritamenu.action:1765 krita/kritamenu.action:1767
+#: krita/kritamenu.action:1768
 #, kde-format
 msgctxt "action"
 msgid "Active Author Profile"
 msgstr "目前作者檔案"
 
 #. i18n: context: text @ Action (reset_configurations), Actions (Settings), ActionCollection (Menu)
-#: krita/kritamenu.action:1765
+#: krita/kritamenu.action:1775
 #, kde-format
 msgctxt "action"
 msgid "Reset All Settings"
 msgstr "重設所有設定"
 
 #. i18n: context: toolTip @ Action (reset_configurations), Actions (Settings), ActionCollection (Menu)
-#: krita/kritamenu.action:1767
+#: krita/kritamenu.action:1777
 #, kde-format
 msgctxt "action"
 msgid "Reset All Settings to Default"
 msgstr "將所有設定重設為預設值"
 
 #. i18n: context: iconText @ Action (reset_configurations), Actions (Settings), ActionCollection (Menu)
-#: krita/kritamenu.action:1768
+#: krita/kritamenu.action:1778
 #, kde-format
 msgctxt "action"
 msgid "Reset Settings"
 msgstr "重設設定"
 
 #. i18n: context: text @ Action (options_configure_keybinding), Actions (Settings), ActionCollection (Menu)
-#: krita/kritamenu.action:1775
+#: krita/kritamenu.action:1785
 #, kde-format
 msgctxt "action"
 msgid "Configure S&hortcuts..."
@@ -15219,28 +15234,28 @@ msgstr "設定快捷鍵(&H)…"
 #. i18n: context: iconText @ Action (options_configure_keybinding), Actions (Settings), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (options_configure_keybinding), Actions (Settings), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (options_configure_keybinding), Actions (Settings), ActionCollection (Menu)
-#: krita/kritamenu.action:1777 krita/kritamenu.action:1778
+#: krita/kritamenu.action:1787 krita/kritamenu.action:1788
 #, kde-format
 msgctxt "action"
 msgid "Configure Shortcuts"
 msgstr "設定快捷鍵"
 
 #. i18n: context: text @ Action (window), Actions (Settings), ActionCollection (Menu)
-#: krita/kritamenu.action:1787
+#: krita/kritamenu.action:1797
 #, kde-format
 msgctxt "action"
 msgid "&Window"
 msgstr "視窗(&W)"
 
 #. i18n: context: text @ Actions (Help), ActionCollection (Menu)
-#: krita/kritamenu.action:1798
+#: krita/kritamenu.action:1808
 #, kde-format
 msgctxt "action"
 msgid "Help"
 msgstr "說明"
 
 #. i18n: context: text @ Action (help_contents), Actions (Help), ActionCollection (Menu)
-#: krita/kritamenu.action:1801
+#: krita/kritamenu.action:1811
 #, kde-format
 msgctxt "action"
 msgid "Krita &Handbook"
@@ -15250,14 +15265,14 @@ msgstr "Krita 使用手冊(&H)"
 #. i18n: context: iconText @ Action (help_contents), Actions (Help), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (help_contents), Actions (Help), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (help_contents), Actions (Help), ActionCollection (Menu)
-#: krita/kritamenu.action:1803 krita/kritamenu.action:1804
+#: krita/kritamenu.action:1813 krita/kritamenu.action:1814
 #, kde-format
 msgctxt "action"
 msgid "Krita Handbook"
 msgstr "Krita 使用手冊"
 
 #. i18n: context: text @ Action (help_report_bug), Actions (Help), ActionCollection (Menu)
-#: krita/kritamenu.action:1811
+#: krita/kritamenu.action:1821
 #, kde-format
 msgctxt "action"
 msgid "&Report Bug..."
@@ -15267,14 +15282,14 @@ msgstr "回報錯誤(&R)…"
 #. i18n: context: iconText @ Action (help_report_bug), Actions (Help), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (help_report_bug), Actions (Help), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (help_report_bug), Actions (Help), ActionCollection (Menu)
-#: krita/kritamenu.action:1813 krita/kritamenu.action:1814
+#: krita/kritamenu.action:1823 krita/kritamenu.action:1824
 #, kde-format
 msgctxt "action"
 msgid "Report Bug"
 msgstr "回報錯誤"
 
 #. i18n: context: text @ Action (help_about_app), Actions (Help), ActionCollection (Menu)
-#: krita/kritamenu.action:1821
+#: krita/kritamenu.action:1831
 #, kde-format
 msgctxt "action"
 msgid "&About Krita"
@@ -15284,14 +15299,14 @@ msgstr "關於 Krita(&A)"
 #. i18n: context: iconText @ Action (help_about_app), Actions (Help), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (help_about_app), Actions (Help), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (help_about_app), Actions (Help), ActionCollection (Menu)
-#: krita/kritamenu.action:1823 krita/kritamenu.action:1824
+#: krita/kritamenu.action:1833 krita/kritamenu.action:1834
 #, kde-format
 msgctxt "action"
 msgid "About Krita"
 msgstr "關於 Krita"
 
 #. i18n: context: text @ Action (help_about_kde), Actions (Help), ActionCollection (Menu)
-#: krita/kritamenu.action:1831
+#: krita/kritamenu.action:1841
 #, kde-format
 msgctxt "action"
 msgid "About &KDE"
@@ -15301,21 +15316,21 @@ msgstr "關於 KDE(&K)"
 #. i18n: context: iconText @ Action (help_about_kde), Actions (Help), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (help_about_kde), Actions (Help), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (help_about_kde), Actions (Help), ActionCollection (Menu)
-#: krita/kritamenu.action:1833 krita/kritamenu.action:1834
+#: krita/kritamenu.action:1843 krita/kritamenu.action:1844
 #, kde-format
 msgctxt "action"
 msgid "About KDE"
 msgstr "關於 KDE"
 
 #. i18n: context: text @ Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1842
+#: krita/kritamenu.action:1852
 #, kde-format
 msgctxt "action"
 msgid "Brushes and Stuff"
 msgstr "筆刷和其他工具"
 
 #. i18n: context: text @ Action (gradients), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1845
+#: krita/kritamenu.action:1855
 #, kde-format
 msgctxt "action"
 msgid "&Gradients"
@@ -15325,14 +15340,14 @@ msgstr "漸變(&G)"
 #. i18n: context: iconText @ Action (gradients), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (gradients), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (gradients), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1847 krita/kritamenu.action:1848
+#: krita/kritamenu.action:1857 krita/kritamenu.action:1858
 #, kde-format
 msgctxt "action"
 msgid "Gradients"
 msgstr "漸變"
 
 #. i18n: context: text @ Action (patterns), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1855
+#: krita/kritamenu.action:1865
 #, kde-format
 msgctxt "action"
 msgid "&Patterns"
@@ -15342,14 +15357,14 @@ msgstr "圖案(&P)"
 #. i18n: context: iconText @ Action (patterns), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (patterns), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (patterns), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1857 krita/kritamenu.action:1858
+#: krita/kritamenu.action:1867 krita/kritamenu.action:1868
 #, kde-format
 msgctxt "action"
 msgid "Patterns"
 msgstr "圖案"
 
 #. i18n: context: text @ Action (dual), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1865
+#: krita/kritamenu.action:1875
 #, kde-format
 msgctxt "action"
 msgid "&Color"
@@ -15359,14 +15374,14 @@ msgstr "色彩(&C)"
 #. i18n: context: iconText @ Action (dual), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (dual), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (dual), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1867 krita/kritamenu.action:1868
+#: krita/kritamenu.action:1877 krita/kritamenu.action:1878
 #, kde-format
 msgctxt "action"
 msgid "Color"
 msgstr "色彩"
 
 #. i18n: context: text @ Action (chooseForegroundColor), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1875
+#: krita/kritamenu.action:1885
 #, kde-format
 msgctxt "action"
 msgid "&Choose Foreground Color"
@@ -15376,14 +15391,14 @@ msgstr "選取前景色(&C)"
 #. i18n: context: iconText @ Action (chooseForegroundColor), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (chooseForegroundColor), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (chooseForegroundColor), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1877 krita/kritamenu.action:1878
+#: krita/kritamenu.action:1887 krita/kritamenu.action:1888
 #, kde-format
 msgctxt "action"
 msgid "Choose Foreground Color"
 msgstr "選取前景色"
 
 #. i18n: context: text @ Action (chooseBackgroundColor), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1885
+#: krita/kritamenu.action:1895
 #, kde-format
 msgctxt "action"
 msgid "&Choose Background Color"
@@ -15393,14 +15408,14 @@ msgstr "最取背景色(&C)"
 #. i18n: context: iconText @ Action (chooseBackgroundColor), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (chooseBackgroundColor), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (chooseBackgroundColor), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1887 krita/kritamenu.action:1888
+#: krita/kritamenu.action:1897 krita/kritamenu.action:1898
 #, kde-format
 msgctxt "action"
 msgid "Choose Background Color"
 msgstr "選取背景色"
 
 #. i18n: context: text @ Action (paintops), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1895
+#: krita/kritamenu.action:1905
 #, kde-format
 msgctxt "action"
 msgid "&Painter's Tools"
@@ -15410,7 +15425,7 @@ msgstr "繪畫工具(&P)"
 #. i18n: context: iconText @ Action (paintops), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (paintops), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (paintops), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1897 krita/kritamenu.action:1898
+#: krita/kritamenu.action:1907 krita/kritamenu.action:1908
 #, kde-format
 msgctxt "action"
 msgid "Painter's Tools"
@@ -15422,8 +15437,8 @@ msgstr "繪畫工具"
 #. i18n: context: text @ Action (composite_actions), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (composite_actions), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (composite_actions), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1905 krita/kritamenu.action:1907
-#: krita/kritamenu.action:1908
+#: krita/kritamenu.action:1915 krita/kritamenu.action:1917
+#: krita/kritamenu.action:1918
 #, kde-format
 msgctxt "action"
 msgid "Brush composite"
@@ -15435,8 +15450,8 @@ msgstr "筆刷分量"
 #. i18n: context: text @ Action (brushslider1), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (brushslider1), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (brushslider1), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1915 krita/kritamenu.action:1917
-#: krita/kritamenu.action:1918
+#: krita/kritamenu.action:1925 krita/kritamenu.action:1927
+#: krita/kritamenu.action:1928
 #, kde-format
 msgctxt "action"
 msgid "Brush option slider 1"
@@ -15448,8 +15463,8 @@ msgstr "筆刷選項滑動條 1"
 #. i18n: context: text @ Action (brushslider2), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (brushslider2), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (brushslider2), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1925 krita/kritamenu.action:1927
-#: krita/kritamenu.action:1928
+#: krita/kritamenu.action:1935 krita/kritamenu.action:1937
+#: krita/kritamenu.action:1938
 #, kde-format
 msgctxt "action"
 msgid "Brush option slider 2"
@@ -15461,8 +15476,8 @@ msgstr "筆刷選項滑動條 2"
 #. i18n: context: text @ Action (brushslider3), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (brushslider3), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (brushslider3), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1935 krita/kritamenu.action:1937
-#: krita/kritamenu.action:1938
+#: krita/kritamenu.action:1945 krita/kritamenu.action:1947
+#: krita/kritamenu.action:1948
 #, kde-format
 msgctxt "action"
 msgid "Brush option slider 3"
@@ -15474,8 +15489,8 @@ msgstr "筆刷選項滑動條 3"
 #. i18n: context: text @ Action (brushslider4), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (brushslider4), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (brushslider4), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1945 krita/kritamenu.action:1947
-#: krita/kritamenu.action:1948
+#: krita/kritamenu.action:1955 krita/kritamenu.action:1957
+#: krita/kritamenu.action:1958
 #, kde-format
 msgctxt "action"
 msgid "Brush option slider 4"
@@ -15487,22 +15502,22 @@ msgstr "筆刷選項滑動條 4"
 #. i18n: context: text @ Action (mirror_actions), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (mirror_actions), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (mirror_actions), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1955 krita/kritamenu.action:1957
-#: krita/kritamenu.action:1958
+#: krita/kritamenu.action:1965 krita/kritamenu.action:1967
+#: krita/kritamenu.action:1968
 #, kde-format
 msgctxt "action"
 msgid "Mirror"
 msgstr "鏡像繪畫"
 
 #. i18n: context: text @ Action (select_layout), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1965
+#: krita/kritamenu.action:1975
 #, kde-format
 msgctxt "action"
 msgid "Layouts"
 msgstr "版面配置"
 
 #. i18n: context: toolTip @ Action (select_layout), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1967
+#: krita/kritamenu.action:1977
 #, kde-format
 msgctxt "action"
 msgid "Select layout"
@@ -15514,8 +15529,8 @@ msgstr "選擇版面配置"
 #. i18n: context: text @ Action (workspaces), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (workspaces), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (workspaces), Actions (BrushesAndStuff), ActionCollection (Menu)
-#: krita/kritamenu.action:1974 krita/kritamenu.action:1976
-#: krita/kritamenu.action:1977
+#: krita/kritamenu.action:1984 krita/kritamenu.action:1986
+#: krita/kritamenu.action:1987
 #, kde-format
 msgctxt "action"
 msgid "Workspaces"
@@ -16370,7 +16385,7 @@ msgstr "大小"
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1350
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1414
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1246
-#: libs/ui/forms/wdgdisplaysettings.ui:345
+#: libs/ui/forms/wdgdisplaysettings.ui:373
 #: libs/ui/forms/wdggeneralsettings.ui:374
 #: libs/ui/forms/wdgrectangleconstraints.ui:59
 #: libs/ui/forms/wdgrectangleconstraints.ui:98
@@ -16708,7 +16723,7 @@ msgstr "複製影像中的像素。保留所有原始細節，但可能伴有鋸
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbSmoothingType)
 #: libs/image/kis_filter_strategy.h:108
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:123
-#: libs/ui/canvas/kis_canvas_controller.cpp:302
+#: libs/ui/canvas/kis_canvas_controller.cpp:321
 #: libs/ui/widgets/KoFillConfigWidget.ui:416
 #, kde-format
 msgid "Bilinear"
@@ -16770,7 +16785,7 @@ msgstr "匯入的影像"
 msgid "Selection Mask"
 msgstr "選取區域遮罩"
 
-#: libs/image/kis_image.cc:720 libs/ui/KisDocument.cpp:2471
+#: libs/image/kis_image.cc:720 libs/ui/KisDocument.cpp:2475
 #: plugins/impex/psd/psd_loader.cpp:190
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:68
 #: plugins/python/comics_project_management_tools/comics_template_dialog.py:302
@@ -17518,7 +17533,7 @@ msgstr "變形遮罩"
 #: libs/ui/kis_node_manager.cpp:1294
 #: plugins/impex/libkra/kis_kra_load_visitor.cpp:214
 #: plugins/impex/psd/psd_loader.cpp:380
-#: plugins/impex/tiff/kis_tiff_converter.cc:1296
+#: plugins/impex/tiff/kis_tiff_import.cc:541
 #: plugins/impex/xcf/kis_xcf_import.cpp:273
 #, kde-format
 msgid "Transparency Mask"
@@ -19074,9 +19089,9 @@ msgstr "本機資源"
 #: libs/ui/kis_node_manager.cpp:1281 libs/ui/KisApplication.cpp:973
 #: libs/ui/KisApplication.cpp:976 libs/ui/KisApplication.cpp:992
 #: libs/ui/KisApplication.cpp:1024 libs/ui/KisApplication.cpp:1038
-#: libs/ui/KisApplication.cpp:1066 libs/ui/KisDocument.cpp:919
-#: libs/ui/KisDocument.cpp:927 libs/ui/KisDocument.cpp:1823
-#: libs/ui/KisDocument.cpp:1866 libs/ui/KisDocument.cpp:1874
+#: libs/ui/KisApplication.cpp:1066 libs/ui/KisDocument.cpp:923
+#: libs/ui/KisDocument.cpp:931 libs/ui/KisDocument.cpp:1827
+#: libs/ui/KisDocument.cpp:1870 libs/ui/KisDocument.cpp:1878
 #: libs/ui/KisMainWindow.cpp:993 libs/ui/KisMainWindow.cpp:1119
 #: libs/ui/KisMainWindow.cpp:1218 libs/ui/KisMainWindow.cpp:1814
 #: libs/ui/KisMainWindow.cpp:1823 libs/ui/KisMainWindow.cpp:1962
@@ -19273,7 +19288,7 @@ msgstr "MD5 雜湊值"
 #: libs/resources/KisResourceStorage.h:116
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1584
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1588
-#: libs/ui/forms/wdgdisplaysettings.ui:175 libs/ui/KoDocumentInfo.cpp:36
+#: libs/ui/forms/wdgdisplaysettings.ui:203 libs/ui/KoDocumentInfo.cpp:36
 #: libs/widgets/KisDlgInternalColorSelector.cpp:322
 #: libs/widgets/WdgDlgInternalColorSelector.ui:89
 #: plugins/python/channels2layers/channels2layers.py:853
@@ -19552,7 +19567,7 @@ msgstr "資料庫版本"
 #: libs/resourcewidgets/dbexplorer/WdgDbExplorer.ui:126
 #: libs/resourcewidgets/dbexplorer/WdgDbExplorer.ui:140
 #: libs/resourcewidgets/dbexplorer/WdgDbExplorer.ui:154
-#: libs/ui/forms/wdgdisplaysettings.ui:255
+#: libs/ui/forms/wdgdisplaysettings.ui:283
 #: libs/ui/forms/wdgimageproperties.ui:414 libs/ui/forms/wdgnewimage.ui:305
 #: plugins/dockers/lut/wdglut.ui:358
 #: plugins/extensions/resourcemanager/wdgdlgcreatebundle.ui:374
@@ -21043,8 +21058,8 @@ msgstr "主顯示器："
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgDisplaySettings)
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_6)
 #: libs/ui/animation/VideoHDRMetadataOptionsDialog.ui:38
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1868
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1870
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1871
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1873
 #: libs/ui/forms/wdgcolorsettings.ui:147 libs/ui/forms/wdgdisplaysettings.ui:24
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:598
 #, kde-format
@@ -21141,8 +21156,8 @@ msgstr "匯入影片動畫"
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
 #. i18n: ectx: attribute (title), widget (QWidget, general)
 #: libs/ui/animation/VideoImportDialog.ui:34
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1838
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1840
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1841
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1843
 #: libs/ui/forms/wdgcolorsettings.ui:32 libs/ui/forms/wdggeneralsettings.ui:333
 #: libs/ui/forms/wdgperformancesettings.ui:50 libs/ui/KoDocumentInfoDlg.cpp:91
 #: libs/ui/KoDocumentInfoDlg.cpp:92
@@ -21694,24 +21709,24 @@ msgid "Horizontal mirroring: %1 "
 msgstr "畫布鏡像顯示：%1"
 
 #: libs/ui/canvas/kis_canvas_controller.cpp:171
-#: libs/ui/canvas/kis_canvas_controller.cpp:290
+#: libs/ui/canvas/kis_canvas_controller.cpp:309
 #, kde-format
 msgid "OFF"
 msgstr "關閉"
 
 #: libs/ui/canvas/kis_canvas_controller.cpp:171
-#: libs/ui/canvas/kis_canvas_controller.cpp:290
+#: libs/ui/canvas/kis_canvas_controller.cpp:309
 #, kde-format
 msgid "ON"
 msgstr "開啟"
 
-#: libs/ui/canvas/kis_canvas_controller.cpp:208
+#: libs/ui/canvas/kis_canvas_controller.cpp:227
 #, kde-format
 msgctxt "floating message about rotation"
 msgid "Rotation: %1° "
 msgstr "旋轉：%1°"
 
-#: libs/ui/canvas/kis_canvas_controller.cpp:255
+#: libs/ui/canvas/kis_canvas_controller.cpp:274
 #, kde-format
 msgid ""
 "You are activating wrap-around mode, but have not enabled OpenGL.\n"
@@ -21720,24 +21735,24 @@ msgstr ""
 "您已進入四方連續環繞模式，但 OpenGL 未被啟用。\n"
 "啟用 OpenGL 後影像環繞模式的效果才能顯示。"
 
-#: libs/ui/canvas/kis_canvas_controller.cpp:289
+#: libs/ui/canvas/kis_canvas_controller.cpp:308
 #, kde-format
 msgid "Instant Preview Mode: %1"
 msgstr "即時預覽模式：%1"
 
-#: libs/ui/canvas/kis_canvas_controller.cpp:296
+#: libs/ui/canvas/kis_canvas_controller.cpp:315
 #, kde-format
 msgid "Instant Preview is only supported with OpenGL activated"
 msgstr "即時預覽只在 OpenGL 啟用時可用"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbFilterMode)
-#: libs/ui/canvas/kis_canvas_controller.cpp:302
-#: libs/ui/forms/wdgdisplaysettings.ui:136
+#: libs/ui/canvas/kis_canvas_controller.cpp:321
+#: libs/ui/forms/wdgdisplaysettings.ui:164
 #, kde-format
 msgid "Nearest Neighbour"
 msgstr "最近相鄰"
 
-#: libs/ui/canvas/kis_canvas_controller.cpp:303
+#: libs/ui/canvas/kis_canvas_controller.cpp:322
 #, kde-format
 msgid ""
 "Instant Preview is supported\n"
@@ -21748,7 +21763,7 @@ msgstr ""
 "三線性過濾或高品質過濾模式下有效。\n"
 "目前模式為%1"
 
-#: libs/ui/canvas/kis_canvas_controller.cpp:307
+#: libs/ui/canvas/kis_canvas_controller.cpp:326
 #, kde-format
 msgid ""
 "Failed activating Instant Preview mode!\n"
@@ -22134,7 +22149,7 @@ msgstr "圖層屬性"
 #. i18n: ectx: property (suffix), widget (KisDoubleParseSpinBox, spbScaleWidth)
 #. i18n: ectx: property (suffix), widget (KisDoubleParseSpinBox, spbScaleHeight)
 #: libs/ui/dialogs/kis_dlg_layer_properties.cc:97
-#: libs/ui/forms/wdgdisplaysettings.ui:561 libs/ui/kis_paintop_box.cc:267
+#: libs/ui/forms/wdgdisplaysettings.ui:589 libs/ui/kis_paintop_box.cc:267
 #: libs/ui/kis_paintop_box.cc:275 libs/ui/layerstyles/wdgInnerGlow.ui:220
 #: libs/ui/layerstyles/wdgInnerGlow.ui:322
 #: libs/ui/layerstyles/wdgInnerGlow.ui:351
@@ -22162,7 +22177,7 @@ msgstr "圖層屬性"
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:463
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:515
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:662
-#: plugins/impex/tiff/kis_wdg_options_tiff.ui:314
+#: plugins/impex/tiff/kis_wdg_options_tiff.ui:277
 #: plugins/impex/webp/dlg_webp_export.ui:79
 #: plugins/impex/webp/dlg_webp_export.ui:320
 #: plugins/impex/webp/dlg_webp_export.ui:343
@@ -22627,100 +22642,100 @@ msgstr "藍基色：%1, %2"
 msgid "White Point: %1, %2"
 msgstr "白點：%1, %2"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1613
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1612
 #, kde-format
 msgid "Warning(s):"
 msgstr "警告："
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1746
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1749
 #, kde-format
 msgid "WARNING: current display doesn't support HDR rendering"
 msgstr "警告：目前顯示器不支援 HDR 繪製"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1831
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1834
 #, kde-format
 msgid "Configure Krita"
 msgstr "設定 Krita"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1848
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1851
 #, kde-format
 msgid "Keyboard Shortcuts"
 msgstr "鍵盤快捷鍵"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1850
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1853
 #: libs/widgetutils/xmlgui/KisShortcutsEditor_p.cpp:282
 #, kde-format
 msgid "Shortcuts"
 msgstr "快捷鍵"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1860
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1863
 #, kde-format
 msgid "Canvas Input Settings"
 msgstr "畫布輸入設定"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1861
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1864
 #, kde-format
 msgid "Canvas Input"
 msgstr "畫布輸入"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1878
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1881
 #: plugins/dockers/logdocker/LogDockerDock.cpp:191
 #, kde-format
 msgid "Color Management"
 msgstr "色彩管理"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1880
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1883
 #, kde-format
 msgctxt "Label of color as in Color Management"
 msgid "Color"
 msgstr "色彩"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1888
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1890
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1891
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1893
 #, kde-format
 msgid "Performance"
 msgstr "效能"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1898
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1901
 #, kde-format
 msgid "Tablet settings"
 msgstr "數位板設定"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1900
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1903
 #, kde-format
 msgid "Tablet"
 msgstr "數位板"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1908
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1911
 #, kde-format
 msgid "Canvas-only settings"
 msgstr "畫布獨佔模式設定"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1910
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1913
 #, kde-format
 msgid "Canvas-only"
 msgstr "畫布獨佔模式"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1918
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1920
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1921
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1923
 #, kde-format
 msgid "Pop-up Palette"
 msgstr "浮動畫具板"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1928
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1931
 #, kde-format
 msgctxt "@title:tab Author page"
 msgid "Author"
 msgstr "作者檔案"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1930
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1933
 #: libs/ui/KoDocumentInfoDlg.cpp:114
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
 #, kde-format
 msgid "Author"
 msgstr "作者"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1937
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1940
 #, kde-format
 msgctxt "@action:button"
 msgid "Restore Defaults"
@@ -23889,43 +23904,43 @@ msgid "Canvas &Graphics Acceleration"
 msgstr "畫布圖形加速(&G)"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: libs/ui/forms/wdgdisplaysettings.ui:86
+#: libs/ui/forms/wdgdisplaysettings.ui:111
 #, kde-format
 msgid "Scaling Mode:"
 msgstr "檢視縮放演算法："
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
-#: libs/ui/forms/wdgdisplaysettings.ui:96
+#: libs/ui/forms/wdgdisplaysettings.ui:121
 #, kde-format
 msgid "Current Renderer:"
 msgstr "目前繪製器："
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbFilterMode)
-#: libs/ui/forms/wdgdisplaysettings.ui:141
+#: libs/ui/forms/wdgdisplaysettings.ui:169
 #, kde-format
 msgid "Bilinear Filtering"
 msgstr "雙線性"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbFilterMode)
-#: libs/ui/forms/wdgdisplaysettings.ui:146
+#: libs/ui/forms/wdgdisplaysettings.ui:174
 #, kde-format
 msgid "Trilinear Filtering"
 msgstr "三線性"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbFilterMode)
-#: libs/ui/forms/wdgdisplaysettings.ui:151
+#: libs/ui/forms/wdgdisplaysettings.ui:179
 #, kde-format
 msgid "High Quality Filtering"
 msgstr "高品質"
 
 #. i18n: ectx: property (text), widget (QLabel, lblPreferredRenderer)
-#: libs/ui/forms/wdgdisplaysettings.ui:165
+#: libs/ui/forms/wdgdisplaysettings.ui:193
 #, kde-format
 msgid "Preferred Renderer (needs restart):"
 msgstr "首選繪製器 (需要重啟程式)："
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkUseTextureBuffer)
-#: libs/ui/forms/wdgdisplaysettings.ui:188
+#: libs/ui/forms/wdgdisplaysettings.ui:216
 #, kde-format
 msgid ""
 "<html><head/><body><p>Use Texture Buffering. This can be faster on some GPU/"
@@ -23937,61 +23952,61 @@ msgstr ""
 "</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkUseTextureBuffer)
-#: libs/ui/forms/wdgdisplaysettings.ui:191
+#: libs/ui/forms/wdgdisplaysettings.ui:219
 #, kde-format
 msgid "Use texture buffer"
 msgstr "啟用紋理緩衝區"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tabHDR)
-#: libs/ui/forms/wdgdisplaysettings.ui:205
+#: libs/ui/forms/wdgdisplaysettings.ui:233
 #, kde-format
 msgid "HDR Settings"
 msgstr "HDR 設定"
 
 #. i18n: ectx: property (text), widget (QLabel, lblCurrentDisplayFormat)
-#: libs/ui/forms/wdgdisplaysettings.ui:211
+#: libs/ui/forms/wdgdisplaysettings.ui:239
 #, kde-format
 msgid "Current Display Format"
 msgstr "目前顯示格式"
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
-#: libs/ui/forms/wdgdisplaysettings.ui:218
+#: libs/ui/forms/wdgdisplaysettings.ui:246
 #, kde-format
 msgid "Display Format:"
 msgstr "顯示格式："
 
 #. i18n: ectx: property (text), widget (QLabel, lblCurrentRootSurfaceFormat)
-#: libs/ui/forms/wdgdisplaysettings.ui:225
+#: libs/ui/forms/wdgdisplaysettings.ui:253
 #, kde-format
 msgid "Current Surface Value"
 msgstr "目前表面參數"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: libs/ui/forms/wdgdisplaysettings.ui:232
+#: libs/ui/forms/wdgdisplaysettings.ui:260
 #, kde-format
 msgid "Current Output Format:"
 msgstr "目前輸出格式："
 
 #. i18n: ectx: property (text), widget (QLabel, label_9)
-#: libs/ui/forms/wdgdisplaysettings.ui:242
+#: libs/ui/forms/wdgdisplaysettings.ui:270
 #, kde-format
 msgid "Preferred Output Format:"
 msgstr "首選輸出格式："
 
 #. i18n: ectx: property (text), widget (QLabel, lblHDRWarning)
-#: libs/ui/forms/wdgdisplaysettings.ui:271
+#: libs/ui/forms/wdgdisplaysettings.ui:299
 #, kde-format
 msgid "HDR Warning.................................."
 msgstr "HDR 警告.................................."
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_3)
-#: libs/ui/forms/wdgdisplaysettings.ui:295
+#: libs/ui/forms/wdgdisplaysettings.ui:323
 #, kde-format
 msgid "Grid Settings"
 msgstr "格線設定"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: libs/ui/forms/wdgdisplaysettings.ui:307
+#: libs/ui/forms/wdgdisplaysettings.ui:335
 #, kde-format
 msgid "Transparency Checkerboard:"
 msgstr "透明度棋盤色彩："
@@ -24000,7 +24015,7 @@ msgstr "透明度棋盤色彩："
 #. i18n: ectx: property (text), widget (QLabel, brushSizeLabel)
 #. i18n: ectx: property (text), widget (QLabel, lblSize)
 #. i18n: ectx: property (text), widget (QLabel, labelSize)
-#: libs/ui/forms/wdgdisplaysettings.ui:338 libs/ui/kis_paintop_box.cc:254
+#: libs/ui/forms/wdgdisplaysettings.ui:366 libs/ui/kis_paintop_box.cc:254
 #: libs/ui/kis_paintop_box.cc:260
 #: plugins/generators/screentone/KisScreentoneConfigWidget.ui:414
 #: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:185
@@ -24010,13 +24025,13 @@ msgid "Size:"
 msgstr "大小："
 
 #. i18n: ectx: property (text), widget (QLabel, lblCanvasBorderColor)
-#: libs/ui/forms/wdgdisplaysettings.ui:374
+#: libs/ui/forms/wdgdisplaysettings.ui:402
 #, kde-format
 msgid "Canvas Border Color:"
 msgstr "畫布外周色彩："
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: libs/ui/forms/wdgdisplaysettings.ui:431
+#: libs/ui/forms/wdgdisplaysettings.ui:459
 #, kde-format
 msgid "Selection Overlay:"
 msgstr "選取區域遮罩色彩："
@@ -24025,7 +24040,7 @@ msgstr "選取區域遮罩色彩："
 #. i18n: ectx: property (text), widget (QLabel, opacityLbl)
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #. i18n: ectx: property (text), widget (QLabel, opacityLabel)
-#: libs/ui/forms/wdgdisplaysettings.ui:478 libs/ui/kis_paintop_box.cc:252
+#: libs/ui/forms/wdgdisplaysettings.ui:506 libs/ui/kis_paintop_box.cc:252
 #: libs/ui/kis_paintop_box.cc:258
 #: plugins/dockers/layerdocker/WdgLayerBox.ui:107
 #: plugins/filters/noisefilter/wdgnoiseoptions.ui:56
@@ -24036,63 +24051,63 @@ msgid "Opacity:"
 msgstr "不透明度："
 
 #. i18n: ectx: property (text), widget (QLabel, lblCanvasBorderColor_2)
-#: libs/ui/forms/wdgdisplaysettings.ui:507
+#: libs/ui/forms/wdgdisplaysettings.ui:535
 #, kde-format
 msgid "Pixel Grid:"
 msgstr "像素格線："
 
 #. i18n: ectx: property (text), widget (QLabel, gridThresholdLabel)
-#: libs/ui/forms/wdgdisplaysettings.ui:554
+#: libs/ui/forms/wdgdisplaysettings.ui:582
 #, kde-format
 msgid "Start showing at:"
 msgstr "起始顯示比例："
 
 #. i18n: ectx: attribute (title), widget (QWidget, Miscellaneous)
 #. i18n: ectx: attribute (title), widget (QWidget, tab_4)
-#: libs/ui/forms/wdgdisplaysettings.ui:604
+#: libs/ui/forms/wdgdisplaysettings.ui:632
 #: libs/ui/forms/wdggeneralsettings.ui:939
 #, kde-format
 msgid "Miscellaneous"
 msgstr "其他"
 
 #. i18n: ectx: property (text), widget (QCheckBox, hideScrollbars)
-#: libs/ui/forms/wdgdisplaysettings.ui:623
+#: libs/ui/forms/wdgdisplaysettings.ui:651
 #, kde-format
 msgid "Hide Canvas Scrollbars"
 msgstr "隱藏畫布捲動軸"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkCurveAntialiasing)
-#: libs/ui/forms/wdgdisplaysettings.ui:633
+#: libs/ui/forms/wdgdisplaysettings.ui:661
 #, kde-format
 msgid "Enable curve anti-aliasing"
 msgstr "啟用曲線反鋸齒"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkHidePopups)
-#: libs/ui/forms/wdgdisplaysettings.ui:640
+#: libs/ui/forms/wdgdisplaysettings.ui:668
 #, kde-format
 msgid "Hide layer thumbnail popup"
 msgstr "隱藏圖層浮動縮圖"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkChannelsAsColor)
-#: libs/ui/forms/wdgdisplaysettings.ui:647
+#: libs/ui/forms/wdgdisplaysettings.ui:675
 #, kde-format
 msgid "Color channels in color"
 msgstr "顯示單一色彩通道時為其著色"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkSelectionOutlineAntialiasing)
-#: libs/ui/forms/wdgdisplaysettings.ui:657
+#: libs/ui/forms/wdgdisplaysettings.ui:685
 #, kde-format
 msgid "Enable selection outline anti-aliasing"
 msgstr "啟用選取區域輪廓反鋸齒"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkMoving)
-#: libs/ui/forms/wdgdisplaysettings.ui:664
+#: libs/ui/forms/wdgdisplaysettings.ui:692
 #, kde-format
 msgid "If checked, the checkers will move when scrolling the canvas."
 msgstr "勾選後棋盤格背景將隨畫布捲動。"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkMoving)
-#: libs/ui/forms/wdgdisplaysettings.ui:667
+#: libs/ui/forms/wdgdisplaysettings.ui:695
 #, kde-format
 msgid ""
 "Determines whether the checks will stay put or whether they will scroll "
@@ -24100,7 +24115,7 @@ msgid ""
 msgstr "控制棋盤格背景應始終保持靜止還是隨畫布捲動"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkMoving)
-#: libs/ui/forms/wdgdisplaysettings.ui:670
+#: libs/ui/forms/wdgdisplaysettings.ui:698
 #, kde-format
 msgid "&Move checkers when scrolling"
 msgstr "捲動時移動棋盤格背景(&M)"
@@ -26708,15 +26723,11 @@ msgstr "inch"
 #. i18n: ectx: property (text), widget (QToolButton, btnNoFill)
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbGradientRepeat)
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbDecor)
-#. i18n: ectx: property (text), item, widget (KComboBox, kComboBoxCompressionType)
-#. i18n: ectx: property (text), item, widget (KComboBox, kComboBoxPredictor)
 #. i18n: ectx: property (text), widget (QLabel, lblNone)
 #: libs/ui/forms/wdgstrokeselectionproperties.ui:204
 #: libs/ui/widgets/KoFillConfigWidget.ui:41
 #: libs/ui/widgets/KoFillConfigWidget.ui:275
 #: plugins/filters/halftone/KisHalftoneConfigPageWidget.cpp:36
-#: plugins/impex/tiff/kis_wdg_options_tiff.ui:53
-#: plugins/impex/tiff/kis_wdg_options_tiff.ui:98
 #: plugins/impex/webp/dlg_webp_export.ui:439
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:441
 #, kde-format
@@ -28288,6 +28299,12 @@ msgstr "鏡像顯示"
 msgid "Mirror View Around Cursor"
 msgstr "以游標為中心鏡像顯示"
 
+#: libs/ui/kis_mirror_manager.cpp:48
+#, fuzzy, kde-format
+#| msgid "Mirror View Around Cursor"
+msgid "Mirror View Around Canvas"
+msgstr "以游標為中心鏡像顯示"
+
 #: libs/ui/kis_node_manager.cpp:453
 #, kde-format
 msgid "Layer is locked"
@@ -29196,13 +29213,13 @@ msgid ""
 "finished."
 msgstr "不可開始儲存「%1」。請待目前進行中的儲存操作完成後再重試。"
 
-#: libs/ui/KisDocument.cpp:914
+#: libs/ui/KisDocument.cpp:918
 #, kde-format
 msgctxt "%1 --- failing file name, %2 --- error message"
 msgid "Error during saving %1: %2"
 msgstr "儲存%1 時出錯： %2"
 
-#: libs/ui/KisDocument.cpp:920
+#: libs/ui/KisDocument.cpp:924
 #, kde-format
 msgid ""
 "Could not save %1.\n"
@@ -29211,7 +29228,7 @@ msgstr ""
 "無法儲存 %1。\n"
 "原因：%2"
 
-#: libs/ui/KisDocument.cpp:929
+#: libs/ui/KisDocument.cpp:933
 #, kde-format
 msgctxt ""
 "dialog box shown to the user if there were warnings while saving the "
@@ -29223,38 +29240,38 @@ msgstr ""
 "已儲存 %1 但檔案不完整。\n"
 "儲存檔案時遇到以下問題："
 
-#: libs/ui/KisDocument.cpp:947
+#: libs/ui/KisDocument.cpp:951
 #, kde-format
 msgid "Finished saving %1"
 msgstr "完成儲存 %1"
 
-#: libs/ui/KisDocument.cpp:1352
+#: libs/ui/KisDocument.cpp:1356
 #, kde-format
 msgid "Autosaving... %1"
 msgstr "正在自動儲存… %1"
 
-#: libs/ui/KisDocument.cpp:1360
+#: libs/ui/KisDocument.cpp:1364
 #, kde-format
 msgid "Autosaving..."
 msgstr "正在自動儲存…"
 
-#: libs/ui/KisDocument.cpp:1366
+#: libs/ui/KisDocument.cpp:1370
 #, kde-format
 msgid "Autosaving postponed: document is busy..."
 msgstr "自動儲存已推遲：檔案正在被佔用…"
 
-#: libs/ui/KisDocument.cpp:1501
+#: libs/ui/KisDocument.cpp:1505
 #, kde-format
 msgctxt "%1 --- failing file name, %2 --- error message"
 msgid "Error during autosaving %1: %2"
 msgstr "自動儲存 %1 時出錯：%2"
 
-#: libs/ui/KisDocument.cpp:1515
+#: libs/ui/KisDocument.cpp:1519
 #, kde-format
 msgid "Finished autosaving %1"
 msgstr "完成自動儲存 %1"
 
-#: libs/ui/KisDocument.cpp:1757
+#: libs/ui/KisDocument.cpp:1761
 #, kde-format
 msgid ""
 "Malformed Path\n"
@@ -29263,17 +29280,17 @@ msgstr ""
 "路徑格式錯誤\n"
 "%1"
 
-#: libs/ui/KisDocument.cpp:1823
+#: libs/ui/KisDocument.cpp:1827
 #, kde-format
 msgid "File %1 does not exist."
 msgstr "檔案 %1 不存在。"
 
-#: libs/ui/KisDocument.cpp:1852
+#: libs/ui/KisDocument.cpp:1856
 #, kde-format
 msgid "Opening document"
 msgstr "正在開啟檔案"
 
-#: libs/ui/KisDocument.cpp:1867
+#: libs/ui/KisDocument.cpp:1871
 #, kde-format
 msgid ""
 "Could not open %2.\n"
@@ -29282,23 +29299,23 @@ msgstr ""
 "無法開啟 %2。\n"
 "原因：%1"
 
-#: libs/ui/KisDocument.cpp:1875
+#: libs/ui/KisDocument.cpp:1879
 #, kde-format
 msgid "There were problems opening %1"
 msgstr "開啟 %1 時遇到了一些問題"
 
-#: libs/ui/KisDocument.cpp:2004
+#: libs/ui/KisDocument.cpp:2008
 #, kde-format
 msgid "Not Saved"
 msgstr "未儲存"
 
-#: libs/ui/KisDocument.cpp:2478
+#: libs/ui/KisDocument.cpp:2482
 #, kde-format
 msgctxt "Name of automatically created background color fill layer"
 msgid "Background Fill"
 msgstr "背景色填充"
 
-#: libs/ui/KisDocument.cpp:2534
+#: libs/ui/KisDocument.cpp:2538
 #, kde-format
 msgctxt ""
 "progress dialog message when the user closes the document that is being saved"
@@ -29601,7 +29618,7 @@ msgid "Error: cannot save this image as a %1."
 msgstr "錯誤：無法將此影像儲存為 %1。"
 
 #: libs/ui/KisImportExportManager.cpp:542
-#: libs/ui/KisImportExportManager.cpp:591
+#: libs/ui/KisImportExportManager.cpp:585
 #, kde-format
 msgid "Reasons:"
 msgstr "原因："
@@ -29612,37 +29629,37 @@ msgctxt "@title:window"
 msgid "Krita: Export Error"
 msgstr "Krita：匯出錯誤"
 
-#: libs/ui/KisImportExportManager.cpp:573
+#: libs/ui/KisImportExportManager.cpp:567
 #, kde-format
 msgctxt "Keep the extra space at the end of the sentence, please"
 msgid "Warning: saving as a %1 will lose information from your image.    "
 msgstr "警告：儲存為 %1 將遺失影像中的資訊。    "
 
-#: libs/ui/KisImportExportManager.cpp:585
+#: libs/ui/KisImportExportManager.cpp:579
 #, kde-format
 msgid "You will lose information when saving this image as a %1."
 msgstr "將此影像儲存為 %1 時將遺失資訊。"
 
-#: libs/ui/KisImportExportManager.cpp:588
+#: libs/ui/KisImportExportManager.cpp:582
 #, kde-format
 msgid "Reason:"
 msgstr "原因："
 
 #. i18n: ectx: attribute (title), widget (QWidget, textureOptionsTab)
-#: libs/ui/KisImportExportManager.cpp:606
+#: libs/ui/KisImportExportManager.cpp:600
 #: plugins/paintops/libpaintop/forms/wdgtexturechooser.ui:57
 #, kde-format
 msgid "Options"
 msgstr "選項"
 
 #. i18n: ectx: property (title), widget (QGroupBox, scale)
-#: libs/ui/KisImportExportManager.cpp:614
+#: libs/ui/KisImportExportManager.cpp:608
 #: plugins/impex/webp/dlg_webp_import.ui:173
 #, kde-format
 msgid "Resize"
 msgstr "調整大小"
 
-#: libs/ui/KisImportExportManager.cpp:620
+#: libs/ui/KisImportExportManager.cpp:614
 #, kde-format
 msgid "Also save your image as a Krita file."
 msgstr "請將影像另存為 Krita 格式檔案。"
@@ -30893,7 +30910,7 @@ msgstr "圖層挖空陰影(&U)"
 #: libs/ui/layerstyles/wdgdropshadow.ui:50
 #: libs/ui/layerstyles/wdgInnerGlow.ui:279
 #: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:75
-#: plugins/impex/tiff/kis_wdg_options_tiff.ui:273
+#: plugins/impex/tiff/kis_wdg_options_tiff.ui:236
 #: plugins/impex/webp/dlg_webp_export.ui:68
 #, kde-format
 msgid "Quality"
@@ -33399,41 +33416,41 @@ msgstr "交換前景色和背景色"
 msgid "Background color selector"
 msgstr "選取背景色"
 
-#: libs/ui/widgets/KoFillConfigWidget.cpp:271
+#: libs/ui/widgets/KoFillConfigWidget.cpp:260
 #, kde-format
 msgid "Change the filling color"
 msgstr "變更填充色彩"
 
-#: libs/ui/widgets/KoFillConfigWidget.cpp:304
+#: libs/ui/widgets/KoFillConfigWidget.cpp:293
 #, kde-format
 msgid "Change filling gradient"
 msgstr "變更填充漸變"
 
-#: libs/ui/widgets/KoFillConfigWidget.cpp:653
+#: libs/ui/widgets/KoFillConfigWidget.cpp:637
 #, kde-format
 msgctxt "default prefix for the saved gradient"
 msgid "gradient"
 msgstr "漸變"
 
-#: libs/ui/widgets/KoFillConfigWidget.cpp:662
+#: libs/ui/widgets/KoFillConfigWidget.cpp:646
 #, kde-format
 msgctxt "@title:window"
 msgid "Save Gradient"
 msgstr "儲存漸變"
 
-#: libs/ui/widgets/KoFillConfigWidget.cpp:663
+#: libs/ui/widgets/KoFillConfigWidget.cpp:647
 #, kde-format
 msgid "Enter gradient name:"
 msgstr "輸入漸變名稱："
 
-#: libs/ui/widgets/KoFillConfigWidget.cpp:670
+#: libs/ui/widgets/KoFillConfigWidget.cpp:654
 #: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:204
 #, kde-format
 msgctxt "@title:window"
 msgid "Name Already Exists"
 msgstr "名稱已存在"
 
-#: libs/ui/widgets/KoFillConfigWidget.cpp:671
+#: libs/ui/widgets/KoFillConfigWidget.cpp:655
 #: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:205
 #, kde-format
 msgid "The name '%1' already exists, do you wish to overwrite it?"
@@ -45013,7 +45030,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkLossless)
 #: plugins/impex/exr/exr_export_widget.ui:27
 #: plugins/impex/heif/WdgHeifExport.ui:148
-#: plugins/impex/tiff/kis_wdg_options_tiff.ui:181
+#: plugins/impex/tiff/kis_wdg_options_tiff.ui:144
 #, kde-format
 msgid ""
 "This option will merge all layers. It is advisable to check this option, "
@@ -45024,7 +45041,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, flatten)
 #. i18n: ectx: property (text), widget (QCheckBox, chkFlatten)
 #: plugins/impex/exr/exr_export_widget.ui:30
-#: plugins/impex/tiff/kis_wdg_options_tiff.ui:184
+#: plugins/impex/tiff/kis_wdg_options_tiff.ui:147
 #, kde-format
 msgid "Flatten the &image"
 msgstr "平整影像(&I)"
@@ -45525,7 +45542,7 @@ msgstr "<html><head/><body><p>用於取代透明像素的背景色。</p></body>
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkSaveProfile)
 #: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:132
-#: plugins/impex/tiff/kis_wdg_options_tiff.ui:194
+#: plugins/impex/tiff/kis_wdg_options_tiff.ui:157
 #, kde-format
 msgid "Save ICC Profile"
 msgstr "儲存 ICC 特性檔案"
@@ -45650,23 +45667,29 @@ msgstr ""
 msgid "Sign with Author Profile Data"
 msgstr "使用作者檔案資料簽名"
 
-#: plugins/impex/jxl/JPEGXLImport.cpp:244
+#: plugins/impex/jxl/JPEGXLImport.cpp:245
 #, kde-format
 msgctxt "JPEG-XL errors"
 msgid "Unable to read the image profile."
 msgstr "無法讀取影像色彩特性。"
 
-#: plugins/impex/jxl/JPEGXLImport.cpp:256
+#: plugins/impex/jxl/JPEGXLImport.cpp:257
 #, kde-format
 msgctxt "JPEG-XL errors"
 msgid "JPEG-XL encoded profile not implemented"
 msgstr "未支援 JPEG-XL 內嵌碥碼的色彩特性"
 
-#: plugins/impex/jxl/JPEGXLImport.cpp:300
+#: plugins/impex/jxl/JPEGXLImport.cpp:292
 #, kde-format
 msgctxt "JPEG-XL errors"
 msgid "JPEG-XL image is animated, but cannot retrieve animation frame header."
 msgstr "JPEG-XL 影像為動畫，但未能讀取動畫影格標頭資料。"
+
+#: plugins/impex/jxl/JPEGXLImport.cpp:320
+#, kde-format
+msgctxt "JPEG-XL errors"
+msgid "The animation declares a frame rate of more than 240 FPS."
+msgstr ""
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:22
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:28
@@ -46904,14 +46927,14 @@ msgstr "嵌入 sRGB 特性檔案"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, alpha)
 #: plugins/impex/png/kis_wdg_options_png.ui:73
-#: plugins/impex/tiff/kis_wdg_options_tiff.ui:164
+#: plugins/impex/tiff/kis_wdg_options_tiff.ui:127
 #, kde-format
 msgid "Disable to get smaller files if your image has no transparency"
 msgstr "如果影像不含透明區域，取消勾選此項可減小檔案體積"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, alpha)
 #: plugins/impex/png/kis_wdg_options_png.ui:77
-#: plugins/impex/tiff/kis_wdg_options_tiff.ui:168
+#: plugins/impex/tiff/kis_wdg_options_tiff.ui:131
 #, kde-format
 msgid ""
 "<p>The Portable Network Graphics (PNG) file format allows transparency in "
@@ -46965,14 +46988,14 @@ msgstr "使用作者檔案資料簽名"
 #: plugins/impex/png/kis_wdg_options_png.ui:186
 #: plugins/impex/qimageio/kis_wdg_options_qimageio.ui:42
 #: plugins/impex/qimageio/kis_wdg_options_qimageio.ui:62
-#: plugins/impex/tiff/kis_wdg_options_tiff.ui:376
-#: plugins/impex/tiff/kis_wdg_options_tiff.ui:395
-#: plugins/impex/tiff/kis_wdg_options_tiff.ui:409
-#: plugins/impex/tiff/kis_wdg_options_tiff.ui:429
-#: plugins/impex/tiff/kis_wdg_options_tiff.ui:488
-#: plugins/impex/tiff/kis_wdg_options_tiff.ui:507
-#: plugins/impex/tiff/kis_wdg_options_tiff.ui:521
-#: plugins/impex/tiff/kis_wdg_options_tiff.ui:541
+#: plugins/impex/tiff/kis_wdg_options_tiff.ui:339
+#: plugins/impex/tiff/kis_wdg_options_tiff.ui:358
+#: plugins/impex/tiff/kis_wdg_options_tiff.ui:372
+#: plugins/impex/tiff/kis_wdg_options_tiff.ui:392
+#: plugins/impex/tiff/kis_wdg_options_tiff.ui:451
+#: plugins/impex/tiff/kis_wdg_options_tiff.ui:470
+#: plugins/impex/tiff/kis_wdg_options_tiff.ui:484
+#: plugins/impex/tiff/kis_wdg_options_tiff.ui:504
 #, kde-format
 msgid ""
 "<p>Adjust the compression time. Better compression takes longer.\n"
@@ -47029,10 +47052,10 @@ msgstr "嘗試儲存為索引 PNG"
 #. i18n: ectx: property (toolTip), widget (KisDoubleSliderSpinBox, compressionLevel)
 #: plugins/impex/png/kis_wdg_options_png.ui:144
 #: plugins/impex/png/kis_wdg_options_png.ui:182
-#: plugins/impex/tiff/kis_wdg_options_tiff.ui:372
-#: plugins/impex/tiff/kis_wdg_options_tiff.ui:425
-#: plugins/impex/tiff/kis_wdg_options_tiff.ui:484
-#: plugins/impex/tiff/kis_wdg_options_tiff.ui:537
+#: plugins/impex/tiff/kis_wdg_options_tiff.ui:335
+#: plugins/impex/tiff/kis_wdg_options_tiff.ui:388
+#: plugins/impex/tiff/kis_wdg_options_tiff.ui:447
+#: plugins/impex/tiff/kis_wdg_options_tiff.ui:500
 #, kde-format
 msgid "Note: the compression level does not change the quality of the result"
 msgstr "提示：此編碼方式的壓縮率不影響畫質"
@@ -48031,6 +48054,72 @@ msgstr "匯入 SVG"
 msgid "Enter preferred resolution (PPI) for \"%1\""
 msgstr "輸入「%1」的首選解析度 (PPI)"
 
+#: plugins/impex/tiff/kis_dlg_options_tiff.cpp:38
+#: plugins/impex/tiff/kis_dlg_options_tiff.cpp:58
+#, fuzzy, kde-format
+#| msgid "None"
+msgctxt "TIFF options"
+msgid "None"
+msgstr "無"
+
+#: plugins/impex/tiff/kis_dlg_options_tiff.cpp:40
+#, fuzzy, kde-format
+#| msgid "JPEG DCT Compression"
+msgctxt "TIFF options"
+msgid "JPEG DCT compression"
+msgstr "JPEG DCT 壓縮編碼"
+
+#: plugins/impex/tiff/kis_dlg_options_tiff.cpp:42
+#, fuzzy, kde-format
+#| msgid "Deflate (ZIP)"
+msgctxt "TIFF options"
+msgid "Deflate (ZIP)"
+msgstr "Deflate 編碼 (ZIP)"
+
+#: plugins/impex/tiff/kis_dlg_options_tiff.cpp:45
+#, fuzzy, kde-format
+#| msgid "Lempel-Ziv & Welch (LZW)"
+msgctxt "TIFF options"
+msgid "Lempel-Ziv & Welch"
+msgstr "Lempel-Ziv & Welch 編碼 (LZW)"
+
+#: plugins/impex/tiff/kis_dlg_options_tiff.cpp:47
+#, fuzzy, kde-format
+#| msgid "Pixar Log"
+msgctxt "TIFF options"
+msgid "Pixar Log"
+msgstr "Pixar Log 編碼"
+
+#: plugins/impex/tiff/kis_dlg_options_tiff.cpp:60
+#, fuzzy, kde-format
+#| msgid "Horizontal Differencing"
+msgctxt "TIFF options"
+msgid "Horizontal Differencing"
+msgstr "水平差分法"
+
+#: plugins/impex/tiff/kis_dlg_options_tiff.cpp:63
+#, fuzzy, kde-format
+#| msgid "Floating Point Horizontal Differencing"
+msgctxt "TIFF options"
+msgid "Floating Point Horizontal Differencing"
+msgstr "浮點水平差分法"
+
+#: plugins/impex/tiff/kis_tiff_import.cc:1017
+#, kde-format
+msgctxt "TIFF errors"
+msgid ""
+"This TIFF file is compressed with JPEG, but libjpeg-turbo could not load its "
+"coefficient quantization and/or Huffman coding tables. Please upgrade your "
+"version of libjpeg-turbo and try again."
+msgstr ""
+
+#: plugins/impex/tiff/kis_tiff_import.cc:1120
+#: plugins/impex/tiff/kis_tiff_import.cc:1303
+#, kde-format
+msgctxt "TIFF"
+msgid "Subsampled YCbCr TIFF files compressed with JPEG cannot be loaded."
+msgstr ""
+
 #. i18n: ectx: property (windowTitle), widget (QWidget, KisWdgOptionsTIFF)
 #. i18n: ectx: property (title), widget (QGroupBox, tiffOptions)
 #: plugins/impex/tiff/kis_wdg_options_tiff.ui:30
@@ -48045,155 +48134,119 @@ msgstr "TIFF 選項"
 msgid "Compression type"
 msgstr "壓縮類型"
 
-#. i18n: ectx: property (text), item, widget (KComboBox, kComboBoxCompressionType)
-#: plugins/impex/tiff/kis_wdg_options_tiff.ui:58
-#, kde-format
-msgid "JPEG DCT Compression"
-msgstr "JPEG DCT 壓縮編碼"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, kComboBoxCompressionType)
-#: plugins/impex/tiff/kis_wdg_options_tiff.ui:63
-#, kde-format
-msgid "Deflate (ZIP)"
-msgstr "Deflate 編碼 (ZIP)"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, kComboBoxCompressionType)
-#: plugins/impex/tiff/kis_wdg_options_tiff.ui:68
-#, kde-format
-msgid "Lempel-Ziv & Welch (LZW)"
-msgstr "Lempel-Ziv & Welch 編碼 (LZW)"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, kComboBoxCompressionType)
-#: plugins/impex/tiff/kis_wdg_options_tiff.ui:73
-#, kde-format
-msgid "Pixar Log"
-msgstr "Pixar Log 編碼"
-
 #. i18n: ectx: property (text), widget (QLabel, lblPredictor)
-#: plugins/impex/tiff/kis_wdg_options_tiff.ui:81
+#: plugins/impex/tiff/kis_wdg_options_tiff.ui:56
 #, kde-format
 msgctxt "TIFF encoder options"
 msgid "Predictor"
 msgstr "色塊預測機制"
 
-#. i18n: ectx: property (toolTip), widget (KComboBox, kComboBoxPredictor)
-#: plugins/impex/tiff/kis_wdg_options_tiff.ui:91
+#. i18n: ectx: property (toolTip), widget (QComboBox, kComboBoxPredictor)
+#: plugins/impex/tiff/kis_wdg_options_tiff.ui:69
 #, kde-format
 msgid ""
 "Using a predictor can improve the compression (mostly for LZW and deflate.)"
 msgstr "使用色塊預測演算法可提高壓縮率 (主要用於 LZW 和 deflate 演算法)。"
 
-#. i18n: ectx: property (text), item, widget (KComboBox, kComboBoxPredictor)
-#: plugins/impex/tiff/kis_wdg_options_tiff.ui:103
-#, kde-format
-msgid "Horizontal Differencing"
-msgstr "水平差分法"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, kComboBoxPredictor)
-#: plugins/impex/tiff/kis_wdg_options_tiff.ui:108
-#, kde-format
-msgid "Floating Point Horizontal Differencing"
-msgstr "浮點水平差分法"
-
 #. i18n: ectx: property (title), widget (QGroupBox, chkPhotoshop)
-#: plugins/impex/tiff/kis_wdg_options_tiff.ui:116
+#: plugins/impex/tiff/kis_wdg_options_tiff.ui:79
 #, kde-format
 msgid "Save layers as Photoshop"
 msgstr "將圖層儲存為 Photoshop 格式"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: plugins/impex/tiff/kis_wdg_options_tiff.ui:125
+#: plugins/impex/tiff/kis_wdg_options_tiff.ui:88
 #, kde-format
 msgid "Layer compression"
 msgstr "圖層壓縮"
 
-#. i18n: ectx: property (text), item, widget (KComboBox, kComboBoxPSDCompressionType)
-#: plugins/impex/tiff/kis_wdg_options_tiff.ui:136
+#. i18n: ectx: property (text), item, widget (QComboBox, kComboBoxPSDCompressionType)
+#: plugins/impex/tiff/kis_wdg_options_tiff.ui:99
 #, kde-format
 msgid "RLE"
 msgstr "RLE"
 
-#. i18n: ectx: property (text), item, widget (KComboBox, kComboBoxPSDCompressionType)
-#: plugins/impex/tiff/kis_wdg_options_tiff.ui:141
+#. i18n: ectx: property (text), item, widget (QComboBox, kComboBoxPSDCompressionType)
+#: plugins/impex/tiff/kis_wdg_options_tiff.ui:104
 #, kde-format
 msgid "ZIP"
 msgstr "ZIP"
 
 #. i18n: ectx: property (text), widget (QCheckBox, alpha)
-#: plugins/impex/tiff/kis_wdg_options_tiff.ui:171
+#: plugins/impex/tiff/kis_wdg_options_tiff.ui:134
 #, kde-format
 msgid "Store alpha &channel (transparency)"
 msgstr "儲存 Alpha 通道 (透明度) (&C)"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBoxJPEG)
-#: plugins/impex/tiff/kis_wdg_options_tiff.ui:267
+#: plugins/impex/tiff/kis_wdg_options_tiff.ui:230
 #, kde-format
 msgid "JPEG Compression Options"
 msgstr "JPEG 壓縮選項"
 
 #. i18n: ectx: property (text), widget (QLabel, lblSmallest)
-#: plugins/impex/tiff/kis_wdg_options_tiff.ui:288
+#: plugins/impex/tiff/kis_wdg_options_tiff.ui:251
 #, kde-format
 msgid "Smallest"
 msgstr "檔案最小"
 
 #. i18n: ectx: property (text), widget (QLabel, lblBest)
-#: plugins/impex/tiff/kis_wdg_options_tiff.ui:298
+#: plugins/impex/tiff/kis_wdg_options_tiff.ui:261
 #: plugins/impex/webp/dlg_webp_export.ui:446
 #, kde-format
 msgid "Best"
 msgstr "品質最好"
 
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, qualityLevel)
-#: plugins/impex/tiff/kis_wdg_options_tiff.ui:311
+#: plugins/impex/tiff/kis_wdg_options_tiff.ui:274
 #, kde-format
 msgid ""
 "These settings determine how much information is lost during compression"
 msgstr "此滑動條控制壓縮時影像資訊的損失程度"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBoxDeflate)
-#: plugins/impex/tiff/kis_wdg_options_tiff.ui:366
+#: plugins/impex/tiff/kis_wdg_options_tiff.ui:329
 #, kde-format
 msgid "Deflate Compression Options"
 msgstr "Deflate 壓縮選項"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: plugins/impex/tiff/kis_wdg_options_tiff.ui:379
-#: plugins/impex/tiff/kis_wdg_options_tiff.ui:491
+#: plugins/impex/tiff/kis_wdg_options_tiff.ui:342
+#: plugins/impex/tiff/kis_wdg_options_tiff.ui:454
 #, kde-format
 msgid "Compress:"
 msgstr "壓縮："
 
 #. i18n: ectx: property (text), widget (QLabel, lblFast)
-#: plugins/impex/tiff/kis_wdg_options_tiff.ui:398
+#: plugins/impex/tiff/kis_wdg_options_tiff.ui:361
 #, kde-format
 msgctxt "save the file quickly, but do not compress very well"
 msgid "Fast"
 msgstr "過程最快"
 
 #. i18n: ectx: property (text), widget (QLabel, lblSmall)
-#: plugins/impex/tiff/kis_wdg_options_tiff.ui:412
+#: plugins/impex/tiff/kis_wdg_options_tiff.ui:375
 #, kde-format
 msgctxt "make the file small, at the price of a longer saving time"
 msgid "Small"
 msgstr "檔案最小"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBoxPixarLog)
-#: plugins/impex/tiff/kis_wdg_options_tiff.ui:478
+#: plugins/impex/tiff/kis_wdg_options_tiff.ui:441
 #, kde-format
 msgid "Pixar Log Compression Options"
 msgstr "Pixar Log 壓縮選項"
 
 #. i18n: ectx: property (text), widget (QLabel, lblFast_2)
-#: plugins/impex/tiff/kis_wdg_options_tiff.ui:510
+#: plugins/impex/tiff/kis_wdg_options_tiff.ui:473
 #, kde-format
 msgctxt "save quickly, but do not compress a lot"
 msgid "Fast"
 msgstr "過程最快"
 
 #. i18n: ectx: property (text), widget (QLabel, lblSmall_2)
-#: plugins/impex/tiff/kis_wdg_options_tiff.ui:524
+#: plugins/impex/tiff/kis_wdg_options_tiff.ui:487
 #, kde-format
 msgctxt "make a very small file, but take a long time saving"
 msgid "Small"
