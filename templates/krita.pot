@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-06-29 00:43+0000\n"
+"POT-Creation-Date: 2022-06-30 00:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -15647,7 +15647,7 @@ msgctxt "PaintOp instant preview limitation"
 msgid "Brush Randomness recommended value 0.0"
 msgstr ""
 
-#: libs/brush/kis_brush.cpp:736
+#: libs/brush/kis_brush.cpp:755
 #, kde-format
 msgctxt "PaintOp instant preview limitation"
 msgid "Spacing > 0.5, consider disabling Instant Preview"
@@ -16514,7 +16514,7 @@ msgctxt "(qtundo-format)"
 msgid "Composition Mode Change"
 msgstr ""
 
-#: libs/image/commands/kis_node_opacity_command.cpp:14
+#: libs/image/commands/kis_node_opacity_command.cpp:21
 msgctxt "(qtundo-format)"
 msgid "Opacity Change"
 msgstr ""
@@ -20303,12 +20303,12 @@ msgstr ""
 msgid "Failed to load video information"
 msgstr ""
 
-#: libs/ui/animation/KisFFMpegWrapper.cpp:329
+#: libs/ui/animation/KisFFMpegWrapper.cpp:332
 #, kde-format
 msgid "FFMpeg Crashed"
 msgstr ""
 
-#: libs/ui/animation/KisFFMpegWrapper.cpp:535
+#: libs/ui/animation/KisFFMpegWrapper.cpp:538
 #, kde-format
 msgctxt "Video information probing dialog. arg1: frame number."
 msgid "Loading video data... %1 frames examined."
