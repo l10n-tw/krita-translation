@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-07-02 00:44+0000\n"
-"PO-Revision-Date: 2022-06-29 09:10+0000\n"
+"PO-Revision-Date: 2022-07-02 08:40+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -24919,23 +24919,21 @@ msgstr "提示：這將套用到拖放進資訊視窗、畫布上的影像，以
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_51)
 #: libs/ui/forms/wdggeneralsettings.ui:1375
-#, fuzzy, kde-format
-#| msgctxt "@option:check"
-#| msgid "Automatic color axis adjustments"
+#, kde-format
 msgid "Automatic layer suffixes"
-msgstr "自動色軸調整"
+msgstr "自動附加圖層名後綴"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkRenameMergedLayers)
 #: libs/ui/forms/wdggeneralsettings.ui:1381
 #, kde-format
 msgid "Add \"Merged\" to merged group layers"
-msgstr ""
+msgstr "在合併群組圖層後加上「已合併」後綴"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkRenamePastedLayers)
 #: libs/ui/forms/wdggeneralsettings.ui:1388
 #, kde-format
 msgid "Add \"(pasted)\" to pasted layers"
-msgstr ""
+msgstr "在貼上圖層後加上「(已貼上)」後綴"
 
 #. i18n: ectx: property (text), widget (QLabel, label_14)
 #: libs/ui/forms/wdggeneralsettings.ui:1409
@@ -51020,15 +51018,13 @@ msgid "Value"
 msgstr "明度"
 
 #: plugins/paintops/libpaintop/kis_pressure_hsv_option.cpp:75
-#, fuzzy, kde-format
-#| msgid "Lower value "
+#, kde-format
 msgctxt "Lower HSV brightness"
 msgid "Lower value "
 msgstr "降低明度"
 
 #: plugins/paintops/libpaintop/kis_pressure_hsv_option.cpp:87
-#, fuzzy, kde-format
-#| msgid "Higher value"
+#, kde-format
 msgctxt "Higher HSV brightness"
 msgid "Higher value"
 msgstr "提高明度"
@@ -54368,11 +54364,9 @@ msgid "Scope"
 msgstr "範圍"
 
 #: plugins/python/scripter/ui_scripter/tabwidgets/debuggerwidget/debuggertable.py:16
-#, fuzzy
-#| msgid "Value"
 msgctxt "Value in DebuggerTable"
 msgid "Value"
-msgstr "明度"
+msgstr "數值"
 
 #: plugins/python/scripter/ui_scripter/tabwidgets/debuggerwidget/stepaction.py:22
 msgid "Step Over"
