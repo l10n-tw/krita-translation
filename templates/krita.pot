@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-07-02 00:44+0000\n"
+"POT-Creation-Date: 2022-07-03 00:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -18982,9 +18982,9 @@ msgstr ""
 #: libs/pigment/resources/KoColorSet.cpp:839
 #: libs/pigment/resources/KoColorSet.cpp:916
 #: libs/pigment/resources/KoColorSet.cpp:1126
-#: libs/ui/actions/KisPasteActionFactories.cpp:309
+#: libs/ui/actions/KisPasteActionFactories.cpp:333
 #: libs/ui/animation/KisDlgAnimationRenderer.cpp:348
-#: libs/ui/KisView.cpp:841 plugins/generators/seexpr/kis_wdg_seexpr.cpp:34
+#: libs/ui/KisView.cpp:956 plugins/generators/seexpr/kis_wdg_seexpr.cpp:34
 #, kde-format
 msgid "Untitled"
 msgstr ""
@@ -19038,7 +19038,7 @@ msgstr ""
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:354
 #: libs/ui/dialogs/kis_dlg_preferences.cc:735
 #: libs/ui/input/kis_tablet_debugger.cpp:96
-#: libs/ui/kis_clipboard.cc:682 libs/ui/kis_custom_pattern.cc:131
+#: libs/ui/kis_clipboard.cc:744 libs/ui/kis_custom_pattern.cc:131
 #: libs/ui/kis_filter_manager.cc:234 libs/ui/kis_filter_manager.cc:243
 #: libs/ui/kis_layer_manager.cc:314 libs/ui/kis_layer_manager.cc:964
 #: libs/ui/kis_node_manager.cpp:1218 libs/ui/kis_node_manager.cpp:1281
@@ -19055,8 +19055,8 @@ msgstr ""
 #: libs/ui/KisPart.cpp:556 libs/ui/KisReferenceImage.cpp:175
 #: libs/ui/KisRemoteFileFetcher.cpp:35 libs/ui/KisRemoteFileFetcher.cpp:56
 #: libs/ui/KisRemoteFileFetcher.cpp:86 libs/ui/KisTemplateCreateDia.cpp:284
-#: libs/ui/KisTemplateCreateDia.cpp:390 libs/ui/KisView.cpp:585
-#: libs/ui/KisView.cpp:844 libs/ui/KisWelcomePageWidget.cpp:711
+#: libs/ui/KisTemplateCreateDia.cpp:390 libs/ui/KisView.cpp:677
+#: libs/ui/KisView.cpp:959 libs/ui/KisWelcomePageWidget.cpp:711
 #: libs/ui/opengl/KisOpenGLCanvasRenderer.cpp:320
 #: libs/ui/widgets/kis_custom_image_widget.cc:293
 #: plugins/assistants/Assistants/kis_assistant_tool.cc:1333
@@ -19895,7 +19895,7 @@ msgid "Select All"
 msgstr ""
 
 #: libs/ui/actions/kis_selection_action_factories.cpp:221
-#: libs/ui/KisView.cpp:657
+#: libs/ui/KisView.cpp:772
 msgctxt "(qtundo-format)"
 msgid "Flood Fill Layer"
 msgstr ""
@@ -19956,18 +19956,19 @@ msgctxt "(qtundo-format)"
 msgid "Paste shapes"
 msgstr ""
 
-#: libs/ui/actions/KisPasteActionFactories.cpp:244
-#: libs/ui/actions/KisPasteActionFactories.cpp:316
+#: libs/ui/actions/KisPasteActionFactories.cpp:260
+#: libs/ui/actions/KisPasteActionFactories.cpp:340
+#: libs/ui/KisView.cpp:593
 #, kde-format
 msgid "(pasted)"
 msgstr ""
 
-#: libs/ui/actions/KisPasteActionFactories.cpp:314
+#: libs/ui/actions/KisPasteActionFactories.cpp:338
 #, kde-format
 msgid "Pasted"
 msgstr ""
 
-#: libs/ui/actions/KisPasteActionFactories.cpp:369
+#: libs/ui/actions/KisPasteActionFactories.cpp:393
 msgctxt "(qtundo-format)"
 msgid "Paste Style"
 msgstr ""
@@ -27682,7 +27683,7 @@ msgctxt "(qtundo-format)"
 msgid "Change File Layer"
 msgstr ""
 
-#: libs/ui/kis_clipboard.cc:683 libs/ui/KisView.cpp:586
+#: libs/ui/kis_clipboard.cc:745 libs/ui/KisView.cpp:678
 #, kde-format
 msgid ""
 "Could not open %2.\n"
@@ -29705,64 +29706,64 @@ msgstr ""
 msgid "Use This Template"
 msgstr ""
 
-#: libs/ui/KisView.cpp:631
+#: libs/ui/KisView.cpp:746
 #, kde-format
 msgid "You cannot drag and drop colors on the selected layer type."
 msgstr ""
 
-#: libs/ui/KisView.cpp:639 libs/ui/tool/kis_tool.cc:671
+#: libs/ui/KisView.cpp:754 libs/ui/tool/kis_tool.cc:671
 #, kde-format
 msgid "Layer is locked and invisible."
 msgstr ""
 
-#: libs/ui/KisView.cpp:641 libs/ui/tool/kis_tool.cc:673
+#: libs/ui/KisView.cpp:756 libs/ui/tool/kis_tool.cc:673
 #, kde-format
 msgid "Layer is locked."
 msgstr ""
 
-#: libs/ui/KisView.cpp:643 libs/ui/tool/kis_tool.cc:675
+#: libs/ui/KisView.cpp:758 libs/ui/tool/kis_tool.cc:675
 #, kde-format
 msgid "Layer is invisible."
 msgstr ""
 
-#: libs/ui/KisView.cpp:845
+#: libs/ui/KisView.cpp:960
 #, kde-format
 msgid ""
 "<p>The document <b>'%1'</b> has been modified.</p><p>Do you want to save it?"
 "</p>"
 msgstr ""
 
-#: libs/ui/KisView.cpp:1034
+#: libs/ui/KisView.cpp:1149
 #, kde-format
 msgid "Soft Proofing doesn't work in floating point."
 msgstr ""
 
-#: libs/ui/KisView.cpp:1039
+#: libs/ui/KisView.cpp:1154
 #, kde-format
 msgid "Soft Proofing turned on."
 msgstr ""
 
-#: libs/ui/KisView.cpp:1041
+#: libs/ui/KisView.cpp:1156
 #, kde-format
 msgid "Soft Proofing turned off."
 msgstr ""
 
-#: libs/ui/KisView.cpp:1053
+#: libs/ui/KisView.cpp:1168
 #, kde-format
 msgid "Gamut Warnings don't work in floating point."
 msgstr ""
 
-#: libs/ui/KisView.cpp:1059
+#: libs/ui/KisView.cpp:1174
 #, kde-format
 msgid "Gamut Warnings turned on."
 msgstr ""
 
-#: libs/ui/KisView.cpp:1061
+#: libs/ui/KisView.cpp:1176
 #, kde-format
 msgid "But Soft Proofing is still off."
 msgstr ""
 
-#: libs/ui/KisView.cpp:1064
+#: libs/ui/KisView.cpp:1179
 #, kde-format
 msgid "Gamut Warnings turned off."
 msgstr ""
