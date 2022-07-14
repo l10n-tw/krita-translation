@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-07-13 00:44+0000\n"
+"POT-Creation-Date: 2022-07-14 00:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -19122,45 +19122,45 @@ msgid "Could not add %1 to the database"
 msgstr ""
 
 #: libs/resources/KisResourceLocator.cpp:864
-#: libs/resources/KisResourceLocator.cpp:1204
+#: libs/resources/KisResourceLocator.cpp:1209
 #, kde-format
 msgid "Could not remove storage %1 from the database"
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:969
+#: libs/resources/KisResourceLocator.cpp:974
 #, kde-format
 msgid ""
 "Krita is running for the first time. Initialization will take some time."
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:976
+#: libs/resources/KisResourceLocator.cpp:981
 #, kde-format
 msgid "3. Could not create the resource location at %1."
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:989
-#: libs/resources/KisResourceLocator.cpp:1005
+#: libs/resources/KisResourceLocator.cpp:994
+#: libs/resources/KisResourceLocator.cpp:1010
 #, kde-format
 msgid "Could not copy resource %1 to %2"
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:1001
+#: libs/resources/KisResourceLocator.cpp:1006
 #, kde-format
 msgid "Installing the resources from bundle %1."
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:1023
+#: libs/resources/KisResourceLocator.cpp:1028
 #, kde-format
 msgid "Initializing the resources."
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:1057
+#: libs/resources/KisResourceLocator.cpp:1062
 #, kde-format
 msgid "Temporary Resources"
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:1180
-#: libs/resources/KisResourceLocator.cpp:1186
+#: libs/resources/KisResourceLocator.cpp:1185
+#: libs/resources/KisResourceLocator.cpp:1191
 #, kde-format
 msgid "Could not synchronize %1 with the database"
 msgstr ""
@@ -25431,7 +25431,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QToolButton, bnSaveMask)
 #: libs/ui/forms/wdgpaintopsettings.ui:188
 #: libs/ui/KisMainWindow.cpp:972 libs/ui/widgets/kis_workspace_chooser.cpp:111
-#: libs/ui/widgets/kis_workspace_chooser.cpp:189
+#: libs/ui/widgets/kis_workspace_chooser.cpp:190
 #: plugins/dockers/gamutmask/forms/wdgGamutMaskChooser.ui:232
 #: plugins/generators/seexpr/wdgseexpr.ui:172
 #: plugins/paintops/libpaintop/kis_clipboard_brush_widget.cpp:164
@@ -32512,12 +32512,12 @@ msgstr ""
 msgid "Insert name"
 msgstr ""
 
-#: libs/ui/widgets/kis_workspace_chooser.cpp:183
+#: libs/ui/widgets/kis_workspace_chooser.cpp:184
 #, kde-format
 msgid "File name already in use. Saving will overwrite the original Workspace."
 msgstr ""
 
-#: libs/ui/widgets/kis_workspace_chooser.cpp:184
+#: libs/ui/widgets/kis_workspace_chooser.cpp:185
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings.cpp:145
 #: plugins/paintops/libpaintop/kis_clipboard_brush_widget.cpp:162
 #: plugins/paintops/libpaintop/kis_custom_brush_widget.cpp:137
@@ -32525,23 +32525,23 @@ msgstr ""
 msgid "Overwrite"
 msgstr ""
 
-#: libs/ui/widgets/kis_workspace_chooser.cpp:188
+#: libs/ui/widgets/kis_workspace_chooser.cpp:189
 #, kde-format
 msgid "Save current workspace."
 msgstr ""
 
-#: libs/ui/widgets/kis_workspace_chooser.cpp:231
+#: libs/ui/widgets/kis_workspace_chooser.cpp:232
 #, kde-format
 msgid "Window Layout"
 msgstr ""
 
-#: libs/ui/widgets/kis_workspace_chooser.cpp:257
+#: libs/ui/widgets/kis_workspace_chooser.cpp:258
 #, kde-format
 msgid ""
 "File name already in use. Saving will overwrite the original window layout."
 msgstr ""
 
-#: libs/ui/widgets/kis_workspace_chooser.cpp:260
+#: libs/ui/widgets/kis_workspace_chooser.cpp:261
 #, kde-format
 msgid "Save current window layout."
 msgstr ""
@@ -37441,19 +37441,19 @@ msgstr ""
 msgid "Load a palette"
 msgstr ""
 
-#: plugins/dockers/palettedocker/palettedocker_dock.cpp:220
+#: plugins/dockers/palettedocker/palettedocker_dock.cpp:216
 #, kde-format
 msgid "Export Palette"
 msgstr ""
 
-#: plugins/dockers/palettedocker/palettedocker_dock.cpp:366
+#: plugins/dockers/palettedocker/palettedocker_dock.cpp:362
 #, kde-format
 msgctxt "@tooltip"
 msgid ""
 "Save palette explicitly, will also happen automatically on exiting Krita."
 msgstr ""
 
-#: plugins/dockers/palettedocker/palettedocker_dock.cpp:368
+#: plugins/dockers/palettedocker/palettedocker_dock.cpp:364
 #, kde-format
 msgctxt "@tooltip"
 msgid "Saving for document palettes is done by saving the document."
