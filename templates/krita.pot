@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-07-20 00:43+0000\n"
+"POT-Creation-Date: 2022-07-21 00:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -19735,27 +19735,27 @@ msgid "Tag options"
 msgstr ""
 
 #: libs/resourcewidgets/KisTagChooserWidget.cpp:136
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:255
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:257
 #, kde-format
 msgctxt "Dialog title"
 msgid "Can't rename the tag"
 msgstr ""
 
 #: libs/resourcewidgets/KisTagChooserWidget.cpp:136
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:227
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:255
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:229
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:257
 #, kde-format
 msgctxt "Dialog message"
 msgid "You can't use this name for your custom tags."
 msgstr ""
 
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:145
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:147
 #, kde-format
 msgctxt "Dialog title"
 msgid "Remove existing tag with that name?"
 msgstr ""
 
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:147
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:149
 #, kde-format
 msgctxt ""
 "Dialog message (the arguments are both somewhat user readable nouns or "
@@ -19768,7 +19768,7 @@ msgid ""
 "Tag's unique name: %2"
 msgstr ""
 
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:215
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:217
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:112
 #, kde-format
 msgctxt ""
@@ -19777,28 +19777,28 @@ msgctxt ""
 msgid "Restore previous tag"
 msgstr ""
 
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:216
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:218
 #, kde-format
 msgctxt ""
 "Option in a dialog to use existing tag with its old assigned resources"
 msgid "Use existing tag"
 msgstr ""
 
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:218
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:220
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:109
 #, kde-format
 msgctxt "Dialog title"
 msgid "Overwrite tag?"
 msgstr ""
 
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:219
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:221
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:110
 #, kde-format
 msgctxt "Question to the user in a dialog about creating a tag"
 msgid "A tag with this unique name already exists. Do you want to replace it?"
 msgstr ""
 
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:220
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:222
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:111
 #, kde-format
 msgctxt ""
@@ -19813,7 +19813,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QToolButton, bnCancelMaskEdit)
 #. i18n: ectx: property (text), widget (QPushButton, buttonCancel)
 #. i18n: ectx: property (text), widget (QPushButton, buttonCancelExport)
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:221
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:223
 #: libs/ui/dialogs/kis_delayed_save_dialog.cpp:50
 #: libs/ui/dialogs/KisAsyncAnimationRenderDialogBase.cpp:154
 #: libs/ui/dialogs/KisRecoverNamedAutosaveDialog.ui:60
@@ -19831,7 +19831,7 @@ msgstr ""
 msgid "Cancel"
 msgstr ""
 
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:227
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:229
 #, kde-format
 msgctxt "Dialog title"
 msgid "Can't create the tag"
@@ -22060,7 +22060,7 @@ msgstr ""
 #: plugins/paintops/spray/kis_sprayop_option.cpp:60
 #: plugins/paintops/tangentnormal/kis_tangent_tilt_option.cpp:39
 #: plugins/paintops/tangentnormal/kis_tangent_tilt_option.cpp:43
-#: plugins/tools/basictools/kis_tool_colorsampler.cc:273
+#: plugins/tools/basictools/kis_tool_colorsampler.cc:279
 #: plugins/tools/basictools/kis_tool_fill.cc:359
 #: plugins/tools/basictools/kis_tool_fill.cc:369
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:244
@@ -44848,25 +44848,25 @@ msgstr ""
 msgid "Sign with Author Profile Data"
 msgstr ""
 
-#: plugins/impex/jxl/JPEGXLImport.cpp:245
+#: plugins/impex/jxl/JPEGXLImport.cpp:246
 #, kde-format
 msgctxt "JPEG-XL errors"
 msgid "Unable to read the image profile."
 msgstr ""
 
-#: plugins/impex/jxl/JPEGXLImport.cpp:257
+#: plugins/impex/jxl/JPEGXLImport.cpp:258
 #, kde-format
 msgctxt "JPEG-XL errors"
 msgid "JPEG-XL encoded profile not implemented"
 msgstr ""
 
-#: plugins/impex/jxl/JPEGXLImport.cpp:292
+#: plugins/impex/jxl/JPEGXLImport.cpp:293
 #, kde-format
 msgctxt "JPEG-XL errors"
 msgid "JPEG-XL image is animated, but cannot retrieve animation frame header."
 msgstr ""
 
-#: plugins/impex/jxl/JPEGXLImport.cpp:320
+#: plugins/impex/jxl/JPEGXLImport.cpp:321
 #, kde-format
 msgctxt "JPEG-XL errors"
 msgid "The animation declares a frame rate of more than 240 FPS."
@@ -53608,7 +53608,7 @@ msgstr ""
 msgid "Freehand Brush Tool"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_colorsampler.cc:90
+#: plugins/tools/basictools/kis_tool_colorsampler.cc:96
 #, kde-format
 msgid "Cannot write to palette file %1. Maybe it is read-only."
 msgstr ""
