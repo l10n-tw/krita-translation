@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-07-21 00:42+0000\n"
-"PO-Revision-Date: 2022-07-02 08:40+0000\n"
+"PO-Revision-Date: 2022-07-22 13:31+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -37730,33 +37730,28 @@ msgid "Tree Indentation"
 msgstr "樹狀層級縮排"
 
 #: plugins/dockers/layerdocker/LayerBox.cpp:360
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Display Selection"
+#, kde-format
 msgctxt "@item:inmenu Layers Docker settings, checkbox"
 msgid "Display Subtitles"
-msgstr "顯示選取區域"
+msgstr "顯示副標題"
 
 #: plugins/dockers/layerdocker/LayerBox.cpp:361
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Select Behind Blending Mode"
+#, kde-format
 msgctxt "@item:tooltip"
 msgid "Layer opacity and blending mode"
-msgstr "選擇下置混色模式"
+msgstr "圖層不透明度及混色模式"
 
 #: plugins/dockers/layerdocker/LayerBox.cpp:370
-#, fuzzy, kde-format
-#| msgid "Line Opacity"
+#, kde-format
 msgctxt "@item:inmenu Layers Docker settings, slider"
 msgid "Subtitle Opacity"
-msgstr "線條不透明度"
+msgstr "副標題不透明度"
 
 #: plugins/dockers/layerdocker/LayerBox.cpp:386
 #, kde-format
 msgctxt "@item:inmenu Layers Docker settings, checkbox"
 msgid "Inline Subtitles"
-msgstr ""
+msgstr "行內副標題"
 
 #: plugins/dockers/layerdocker/LayerBox.cpp:951
 msgctxt "(qtundo-format)"
@@ -41384,17 +41379,12 @@ msgid "Create Resource Bundle"
 msgstr "建立資源包"
 
 #: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:296
-#, fuzzy, kde-format
-#| msgctxt "Warning message"
-#| msgid ""
-#| "More than one resources share the same file name '%1'. Please export them "
-#| "in separate bundles."
+#, kde-format
 msgctxt "Warning message"
 msgid ""
 "More than one resource share the same file name '%1'. Please export them in "
 "separate bundles."
-msgstr ""
-"多於一項資源使用了相同的檔案名稱「%1」。請分別將它們匯出為獨立的資源包。"
+msgstr "多於一項資源使用了相同的檔案名稱「%1」。請分別將它們匯出為獨立的資源包。"
 
 #: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:374
 #, kde-format
