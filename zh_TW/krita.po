@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-07-02 00:44+0000\n"
+"POT-Creation-Date: 2022-07-21 00:42+0000\n"
 "PO-Revision-Date: 2022-07-02 08:40+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
@@ -12647,7 +12647,7 @@ msgstr "匯入/匯出(&I)"
 msgid "Import"
 msgstr "匯入"
 
-#: krita/krita5.xmlgui:215 plugins/dockers/layerdocker/LayerBox.cpp:1165
+#: krita/krita5.xmlgui:215 plugins/dockers/layerdocker/LayerBox.cpp:1204
 #, kde-format
 msgid "&Convert"
 msgstr "轉換(&C)"
@@ -12655,14 +12655,14 @@ msgstr "轉換(&C)"
 #. i18n: ectx: property (text), widget (QPushButton, bnSelect)
 #: krita/krita5.xmlgui:226 krita/krita5.xmlgui:297
 #: libs/ui/imagesize/imagesize.xmlgui:12
-#: plugins/dockers/layerdocker/LayerBox.cpp:1139
+#: plugins/dockers/layerdocker/LayerBox.cpp:1178
 #: plugins/extensions/colorrange/wdg_colorrange.ui:134
 #: plugins/extensions/modify_selection/modify_selection.xmlgui:4
 #, kde-format
 msgid "&Select"
 msgstr "選取(&S)"
 
-#: krita/krita5.xmlgui:234 plugins/dockers/layerdocker/LayerBox.cpp:1145
+#: krita/krita5.xmlgui:234 plugins/dockers/layerdocker/LayerBox.cpp:1184
 #, kde-format
 msgctxt "A group of layers"
 msgid "&Group"
@@ -12683,7 +12683,7 @@ msgstr "變形全部圖層(&A)"
 msgid "S&plit"
 msgstr "分割(&P)"
 
-#: krita/krita5.xmlgui:274 plugins/dockers/layerdocker/LayerBox.cpp:1172
+#: krita/krita5.xmlgui:274 plugins/dockers/layerdocker/LayerBox.cpp:1211
 #, kde-format
 msgid "S&plit Alpha"
 msgstr "分割 Alpha (透明度) (&P)"
@@ -12719,7 +12719,7 @@ msgstr "設定(&N)"
 msgid "&Help"
 msgstr "說明(&H)"
 
-#: krita/krita5.xmlgui:403 libs/ui/kis_file_layer.cpp:127
+#: krita/krita5.xmlgui:403 libs/ui/kis_file_layer.cpp:126
 #: plugins/python/scripter/uicontroller.py:94
 #: plugins/tools/svgtexttool/svgtexttool.xmlgui:71
 #, kde-format
@@ -15982,7 +15982,7 @@ msgstr "無法將 %1 儲存到 html"
 
 #: libs/flake/KoMarkerCollection.cpp:67
 #: libs/flake/resources/KoSvgSymbolCollectionResource.cpp:126
-#: libs/ui/flake/kis_shape_layer.cc:551
+#: libs/ui/flake/kis_shape_layer.cc:560
 #, kde-format
 msgid ""
 "Parsing error in the main document at line %1, column %2\n"
@@ -16438,8 +16438,8 @@ msgstr "大小"
 #: plugins/paintops/spray/kis_spray_shape_option.cpp:124
 #: plugins/paintops/spray/kis_sprayop_option.cpp:32
 #: plugins/tools/basictools/kis_tool_brush.cc:391
-#: plugins/tools/basictools/kis_tool_fill.cc:381
-#: plugins/tools/basictools/kis_tool_fill.cc:385
+#: plugins/tools/basictools/kis_tool_fill.cc:382
+#: plugins/tools/basictools/kis_tool_fill.cc:386
 #: plugins/tools/basictools/kis_tool_movetooloptionswidget.cpp:51
 #: plugins/tools/basictools/kis_tool_movetooloptionswidget.cpp:52
 #: plugins/tools/basictools/kis_tool_multihand.cpp:451
@@ -16450,8 +16450,8 @@ msgstr "大小"
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:142
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:250
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:275
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:383
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:387
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:384
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:388
 #: plugins/tools/tool_lazybrush/kis_tool_lazy_brush_options_widget.cpp:106
 #: plugins/tools/tool_lazybrush/kis_tool_lazy_brush_options_widget.cpp:116
 #: plugins/tools/tool_smart_patch/kis_tool_smart_patch_options_widget.ui:134
@@ -16463,9 +16463,9 @@ msgstr " px"
 
 #. i18n: ectx: property (text), widget (QCheckBox, opacityCBox)
 #: libs/image/brushengine/kis_standard_uniform_properties_factory.h:19
-#: libs/image/kis_keyframe_channel.cpp:26 libs/image/kis_layer.cc:278
+#: libs/image/kis_keyframe_channel.cpp:26 libs/image/kis_layer.cc:276
 #: libs/widgets/KoColorPopupAction.cpp:85
-#: plugins/dockers/layerdocker/LayerBox.cpp:200
+#: plugins/dockers/layerdocker/LayerBox.cpp:201
 #: plugins/paintops/hairy/wdghairyeoptions.ui:301
 #: plugins/paintops/hairy/wdgInkOptions.ui:62
 #: plugins/paintops/libpaintop/kis_pressure_flow_opacity_option.cpp:19
@@ -16680,7 +16680,7 @@ msgstr "柔和"
 msgid "Gaussian"
 msgstr "高斯"
 
-#: libs/image/kis_clone_layer.cpp:315
+#: libs/image/kis_clone_layer.cpp:320
 #, kde-format
 msgid "Copy From"
 msgstr "再製來源"
@@ -16937,14 +16937,14 @@ msgstr "旋轉 (Y)"
 msgid "Rotation (Z)"
 msgstr "旋轉 (Z)"
 
-#: libs/image/kis_layer.cc:278 libs/widgets/KoZoomAction.cpp:215
+#: libs/image/kis_layer.cc:276 libs/widgets/KoZoomAction.cpp:215
 #: libs/widgets/KoZoomAction.cpp:226 libs/widgets/KoZoomMode.cpp:13
 #, kde-format
 msgid "%1%"
 msgstr "%1%"
 
 #. i18n: ectx: property (toolTip), widget (KisCompositeOpComboBox, cmbComposite)
-#: libs/image/kis_layer.cc:283 libs/ui/widgets/kis_cmb_composite.cc:66
+#: libs/image/kis_layer.cc:281 libs/ui/widgets/kis_cmb_composite.cc:66
 #: plugins/dockers/layerdocker/WdgLayerBox.ui:56
 #: plugins/paintops/libpaintop/kis_compositeop_option.cpp:20
 #, kde-format
@@ -19025,8 +19025,8 @@ msgstr "輸出"
 #: libs/pigment/resources/KoColorSet.cpp:839
 #: libs/pigment/resources/KoColorSet.cpp:916
 #: libs/pigment/resources/KoColorSet.cpp:1126
-#: libs/ui/actions/KisPasteActionFactories.cpp:309
-#: libs/ui/animation/KisDlgAnimationRenderer.cpp:348 libs/ui/KisView.cpp:841
+#: libs/ui/actions/KisPasteActionFactories.cpp:333
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:348 libs/ui/KisView.cpp:955
 #: plugins/generators/seexpr/kis_wdg_seexpr.cpp:34
 #, kde-format
 msgid "Untitled"
@@ -19037,13 +19037,13 @@ msgstr "無標題"
 msgid "SVG Gradient"
 msgstr "SVG 漸變"
 
-#: libs/psd/psd_layer_section.cpp:403
+#: libs/psd/psd_layer_section.cpp:413
 #, kde-format
 msgctxt "Automatically created layer name when saving into PSD"
 msgid "Background"
 msgstr "背景"
 
-#: libs/psd/psd_layer_section.cpp:710 libs/psd/psd_layer_section.cpp:858
+#: libs/psd/psd_layer_section.cpp:725 libs/psd/psd_layer_section.cpp:873
 #, kde-format
 msgid "Unnamed Layer"
 msgstr "未命名圖層"
@@ -19080,7 +19080,7 @@ msgstr "本機資源"
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:776
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:354
 #: libs/ui/dialogs/kis_dlg_preferences.cc:735
-#: libs/ui/input/kis_tablet_debugger.cpp:96 libs/ui/kis_clipboard.cc:682
+#: libs/ui/input/kis_tablet_debugger.cpp:96 libs/ui/kis_clipboard.cc:744
 #: libs/ui/kis_custom_pattern.cc:131 libs/ui/kis_filter_manager.cc:234
 #: libs/ui/kis_filter_manager.cc:243 libs/ui/kis_layer_manager.cc:314
 #: libs/ui/kis_layer_manager.cc:964 libs/ui/kis_node_manager.cpp:1218
@@ -19098,7 +19098,7 @@ msgstr "本機資源"
 #: libs/ui/KisReferenceImage.cpp:175 libs/ui/KisRemoteFileFetcher.cpp:35
 #: libs/ui/KisRemoteFileFetcher.cpp:56 libs/ui/KisRemoteFileFetcher.cpp:86
 #: libs/ui/KisTemplateCreateDia.cpp:284 libs/ui/KisTemplateCreateDia.cpp:390
-#: libs/ui/KisView.cpp:585 libs/ui/KisView.cpp:844
+#: libs/ui/KisView.cpp:676 libs/ui/KisView.cpp:958
 #: libs/ui/KisWelcomePageWidget.cpp:711
 #: libs/ui/opengl/KisOpenGLCanvasRenderer.cpp:320
 #: libs/ui/widgets/kis_custom_image_widget.cc:293
@@ -19126,9 +19126,6 @@ msgstr "本機資源"
 #: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:413
 #: plugins/filters/colorsfilters/kis_multichannel_filter_base.cpp:352
 #: plugins/filters/levelfilter/KisLevelsConfigWidget.cpp:163
-#: plugins/tools/basictools/kis_tool_colorsampler.cc:162
-#: plugins/tools/basictools/kis_tool_colorsampler.cc:167
-#: plugins/tools/basictools/kis_tool_colorsampler.cc:225
 #: plugins/tools/defaulttool/referenceimagestool/KisReferenceImageCollection.cpp:95
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:131
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:166
@@ -19166,45 +19163,45 @@ msgid "Could not add %1 to the database"
 msgstr "無法新增 %1 至資料庫"
 
 #: libs/resources/KisResourceLocator.cpp:864
-#: libs/resources/KisResourceLocator.cpp:1204
+#: libs/resources/KisResourceLocator.cpp:1209
 #, kde-format
 msgid "Could not remove storage %1 from the database"
 msgstr "無法從資料庫移除 %1 儲存空間"
 
-#: libs/resources/KisResourceLocator.cpp:969
+#: libs/resources/KisResourceLocator.cpp:974
 #, kde-format
 msgid ""
 "Krita is running for the first time. Initialization will take some time."
 msgstr "Krita 為第一次執行。需要一點時間初始化。"
 
-#: libs/resources/KisResourceLocator.cpp:976
+#: libs/resources/KisResourceLocator.cpp:981
 #, kde-format
 msgid "3. Could not create the resource location at %1."
 msgstr "3. 無法建立位於 %1 的資源位置。"
 
-#: libs/resources/KisResourceLocator.cpp:989
-#: libs/resources/KisResourceLocator.cpp:1005
+#: libs/resources/KisResourceLocator.cpp:994
+#: libs/resources/KisResourceLocator.cpp:1010
 #, kde-format
 msgid "Could not copy resource %1 to %2"
 msgstr "無法複製 %1 資源至 %2"
 
-#: libs/resources/KisResourceLocator.cpp:1001
+#: libs/resources/KisResourceLocator.cpp:1006
 #, kde-format
 msgid "Installing the resources from bundle %1."
 msgstr "正在從 %1 資源包安裝資源。"
 
-#: libs/resources/KisResourceLocator.cpp:1023
+#: libs/resources/KisResourceLocator.cpp:1028
 #, kde-format
 msgid "Initializing the resources."
 msgstr "正在初始化資源。"
 
-#: libs/resources/KisResourceLocator.cpp:1057
+#: libs/resources/KisResourceLocator.cpp:1062
 #, kde-format
 msgid "Temporary Resources"
 msgstr "暫存資源"
 
-#: libs/resources/KisResourceLocator.cpp:1180
-#: libs/resources/KisResourceLocator.cpp:1186
+#: libs/resources/KisResourceLocator.cpp:1185
+#: libs/resources/KisResourceLocator.cpp:1191
 #, kde-format
 msgid "Could not synchronize %1 with the database"
 msgstr "無法與資料庫同步 %1"
@@ -19795,27 +19792,27 @@ msgid "Tag options"
 msgstr "標籤選項"
 
 #: libs/resourcewidgets/KisTagChooserWidget.cpp:136
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:255
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:257
 #, kde-format
 msgctxt "Dialog title"
 msgid "Can't rename the tag"
 msgstr "不能重新命名標籤"
 
 #: libs/resourcewidgets/KisTagChooserWidget.cpp:136
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:227
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:255
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:229
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:257
 #, kde-format
 msgctxt "Dialog message"
 msgid "You can't use this name for your custom tags."
 msgstr "您不能為自訂標籤選用這個名稱。"
 
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:145
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:147
 #, kde-format
 msgctxt "Dialog title"
 msgid "Remove existing tag with that name?"
 msgstr "要移除目前在使用該名稱的標籤嗎？"
 
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:147
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:149
 #, kde-format
 msgctxt ""
 "Dialog message (the arguments are both somewhat user readable nouns or "
@@ -19832,7 +19829,7 @@ msgstr ""
 "將會移除的標籤：%1\n"
 "標籤的辨識名稱：%2"
 
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:215
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:217
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:112
 #, kde-format
 msgctxt ""
@@ -19841,28 +19838,28 @@ msgctxt ""
 msgid "Restore previous tag"
 msgstr "還原先前標籤"
 
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:216
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:218
 #, kde-format
 msgctxt ""
 "Option in a dialog to use existing tag with its old assigned resources"
 msgid "Use existing tag"
 msgstr "使用現存標籤"
 
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:218
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:220
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:109
 #, kde-format
 msgctxt "Dialog title"
 msgid "Overwrite tag?"
 msgstr "覆蓋標籤嗎？"
 
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:219
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:221
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:110
 #, kde-format
 msgctxt "Question to the user in a dialog about creating a tag"
 msgid "A tag with this unique name already exists. Do you want to replace it?"
 msgstr "已存在使用此辨識名稱的標籤。要取代它嗎？"
 
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:220
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:222
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:111
 #, kde-format
 msgctxt ""
@@ -19877,7 +19874,7 @@ msgstr "取代 (覆蓋) 標籤"
 #. i18n: ectx: property (toolTip), widget (QToolButton, bnCancelMaskEdit)
 #. i18n: ectx: property (text), widget (QPushButton, buttonCancel)
 #. i18n: ectx: property (text), widget (QPushButton, buttonCancelExport)
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:221
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:223
 #: libs/ui/dialogs/kis_delayed_save_dialog.cpp:50
 #: libs/ui/dialogs/KisAsyncAnimationRenderDialogBase.cpp:154
 #: libs/ui/dialogs/KisRecoverNamedAutosaveDialog.ui:60
@@ -19895,7 +19892,7 @@ msgstr "取代 (覆蓋) 標籤"
 msgid "Cancel"
 msgstr "取消"
 
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:227
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:229
 #, kde-format
 msgctxt "Dialog title"
 msgid "Can't create the tag"
@@ -19956,7 +19953,7 @@ msgid "Select All"
 msgstr "全部選取"
 
 #: libs/ui/actions/kis_selection_action_factories.cpp:221
-#: libs/ui/KisView.cpp:657
+#: libs/ui/KisView.cpp:771
 msgctxt "(qtundo-format)"
 msgid "Flood Fill Layer"
 msgstr "浸漫填充圖層"
@@ -20017,18 +20014,18 @@ msgctxt "(qtundo-format)"
 msgid "Paste shapes"
 msgstr "貼上形狀"
 
-#: libs/ui/actions/KisPasteActionFactories.cpp:244
-#: libs/ui/actions/KisPasteActionFactories.cpp:316
+#: libs/ui/actions/KisPasteActionFactories.cpp:260
+#: libs/ui/actions/KisPasteActionFactories.cpp:340 libs/ui/KisView.cpp:592
 #, kde-format
 msgid "(pasted)"
 msgstr "(已貼上)"
 
-#: libs/ui/actions/KisPasteActionFactories.cpp:314
+#: libs/ui/actions/KisPasteActionFactories.cpp:338
 #, kde-format
 msgid "Pasted"
 msgstr "已貼上"
 
-#: libs/ui/actions/KisPasteActionFactories.cpp:369
+#: libs/ui/actions/KisPasteActionFactories.cpp:393
 msgctxt "(qtundo-format)"
 msgid "Paste Style"
 msgstr "貼上樣式"
@@ -22147,8 +22144,9 @@ msgstr "圖層屬性"
 #. i18n: ectx: property (suffix), widget (KisDoubleParseSpinBox, spbScaleWidth)
 #. i18n: ectx: property (suffix), widget (KisDoubleParseSpinBox, spbScaleHeight)
 #: libs/ui/dialogs/kis_dlg_layer_properties.cc:97
-#: libs/ui/forms/wdgdisplaysettings.ui:589 libs/ui/kis_paintop_box.cc:267
-#: libs/ui/kis_paintop_box.cc:275 libs/ui/layerstyles/wdgInnerGlow.ui:220
+#: libs/ui/forms/wdgdisplaysettings.ui:589 libs/ui/kis_node_model.cpp:545
+#: libs/ui/kis_paintop_box.cc:267 libs/ui/kis_paintop_box.cc:275
+#: libs/ui/layerstyles/wdgInnerGlow.ui:220
 #: libs/ui/layerstyles/wdgInnerGlow.ui:322
 #: libs/ui/layerstyles/wdgInnerGlow.ui:351
 #: libs/ui/widgets/gradient/KisGradientColorEditor.cpp:93
@@ -22160,7 +22158,7 @@ msgstr "圖層屬性"
 #: libs/widgets/kis_color_input.cpp:147 libs/widgets/kis_color_input.cpp:190
 #: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:246
 #: plugins/dockers/animation/KisOnionSkinsDocker.cpp:47
-#: plugins/dockers/layerdocker/LayerBox.cpp:203
+#: plugins/dockers/layerdocker/LayerBox.cpp:204
 #: plugins/filters/halftone/KisHalftoneConfigPageWidget.cpp:47
 #: plugins/filters/halftone/KisHalftoneConfigPageWidget.cpp:51
 #: plugins/filters/halftone/KisHalftoneConfigPageWidget.cpp:54
@@ -22210,13 +22208,13 @@ msgstr "圖層屬性"
 #: plugins/paintops/spray/kis_sprayop_option.cpp:60
 #: plugins/paintops/tangentnormal/kis_tangent_tilt_option.cpp:39
 #: plugins/paintops/tangentnormal/kis_tangent_tilt_option.cpp:43
-#: plugins/tools/basictools/kis_tool_colorsampler.cc:398
-#: plugins/tools/basictools/kis_tool_fill.cc:358
-#: plugins/tools/basictools/kis_tool_fill.cc:368
+#: plugins/tools/basictools/kis_tool_colorsampler.cc:279
+#: plugins/tools/basictools/kis_tool_fill.cc:359
+#: plugins/tools/basictools/kis_tool_fill.cc:369
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:244
 #: plugins/tools/svgtexttool/SvgTextEditor.cpp:1449
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:360
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:370
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:361
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:371
 #, no-c-format, kde-format
 msgid "%"
 msgstr "%"
@@ -23072,12 +23070,12 @@ msgctxt "(qtundo-format)"
 msgid "Clear Vector Selection"
 msgstr "清空向量選取區域"
 
-#: libs/ui/flake/KisReferenceImagesLayer.cpp:22
+#: libs/ui/flake/KisReferenceImagesLayer.cpp:23
 msgctxt "(qtundo-format)"
 msgid "Add reference image"
 msgstr "新增參考圖"
 
-#: libs/ui/flake/KisReferenceImagesLayer.cpp:124
+#: libs/ui/flake/KisReferenceImagesLayer.cpp:121
 #, kde-format
 msgid "Reference images"
 msgstr "參考圖"
@@ -24994,8 +24992,8 @@ msgstr "背景色"
 #: plugins/generators/pattern/wdgpatternoptions.ui:21
 #: plugins/paintops/libpaintop/kis_color_source_option.cpp:46
 #: plugins/paintops/libpaintop/kis_texture_option.cpp:54
-#: plugins/tools/basictools/kis_tool_fill.cc:417
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:416
+#: plugins/tools/basictools/kis_tool_fill.cc:418
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:417
 #, kde-format
 msgid "Pattern"
 msgstr "圖案"
@@ -25016,7 +25014,7 @@ msgstr "無輪廓"
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbOutline)
 #: libs/ui/forms/wdggeometryoptions.ui:101
 #: plugins/paintops/roundmarker/kis_roundmarker_option.cpp:29
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:410
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:411
 #, kde-format
 msgid "Brush"
 msgstr "筆刷"
@@ -25700,7 +25698,7 @@ msgstr "目前筆刷預設"
 #. i18n: ectx: property (toolTip), widget (QToolButton, bnSaveMask)
 #: libs/ui/forms/wdgpaintopsettings.ui:188 libs/ui/KisMainWindow.cpp:972
 #: libs/ui/widgets/kis_workspace_chooser.cpp:111
-#: libs/ui/widgets/kis_workspace_chooser.cpp:189
+#: libs/ui/widgets/kis_workspace_chooser.cpp:190
 #: plugins/dockers/gamutmask/forms/wdgGamutMaskChooser.ui:232
 #: plugins/generators/seexpr/wdgseexpr.ui:172
 #: plugins/paintops/libpaintop/kis_clipboard_brush_widget.cpp:164
@@ -26685,8 +26683,8 @@ msgstr "線條："
 #. i18n: ectx: property (text), item, widget (QComboBox, fillBox)
 #: libs/ui/forms/wdgstrokeselectionproperties.ui:96
 #: libs/ui/forms/wdgstrokeselectionproperties.ui:224
-#: plugins/tools/basictools/kis_tool_fill.cc:415
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:414
+#: plugins/tools/basictools/kis_tool_fill.cc:416
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:415
 #, kde-format
 msgid "Foreground color"
 msgstr "前景色"
@@ -26695,8 +26693,8 @@ msgstr "前景色"
 #. i18n: ectx: property (text), item, widget (QComboBox, fillBox)
 #: libs/ui/forms/wdgstrokeselectionproperties.ui:101
 #: libs/ui/forms/wdgstrokeselectionproperties.ui:214
-#: plugins/tools/basictools/kis_tool_fill.cc:416
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:415
+#: plugins/tools/basictools/kis_tool_fill.cc:417
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:416
 #, kde-format
 msgid "Background color"
 msgstr "背景色"
@@ -28019,7 +28017,7 @@ msgctxt "(qtundo-format)"
 msgid "Change File Layer"
 msgstr "變更檔案圖層"
 
-#: libs/ui/kis_clipboard.cc:683 libs/ui/KisView.cpp:586
+#: libs/ui/kis_clipboard.cc:745 libs/ui/KisView.cpp:677
 #, kde-format
 msgid ""
 "Could not open %2.\n"
@@ -28104,19 +28102,19 @@ msgstr "新增到預製圖案"
 msgid "This pattern already exists. Do you want to overwrite it?"
 msgstr "已有這個圖案。您確定要覆寫它嗎？"
 
-#: libs/ui/kis_file_layer.cpp:132
+#: libs/ui/kis_file_layer.cpp:131
 #, kde-format
 msgctxt "placeholder test for a warning when not file is set in the file layer"
 msgid "<No file name is set>"
 msgstr "【未設定檔案名】"
 
-#: libs/ui/kis_file_layer.cpp:137
+#: libs/ui/kis_file_layer.cpp:136
 #, kde-format
 msgctxt "a tooltip shown when a file layer cannot find its linked file"
 msgid "Linked file not found: %1"
 msgstr "找不到已連結的檔案「%1」"
 
-#: libs/ui/kis_file_layer.cpp:140
+#: libs/ui/kis_file_layer.cpp:139
 #, kde-format
 msgctxt "a tooltip shown when a file layer cannot load its linked file"
 msgid "Failed to load linked file: %1"
@@ -28223,7 +28221,7 @@ msgstr "轉成檔案圖層"
 msgid "New Filter Layer"
 msgstr "建立濾鏡圖層"
 
-#: libs/ui/kis_layer_manager.cc:731 libs/ui/kis_mimedata.cpp:342
+#: libs/ui/kis_layer_manager.cc:731 libs/ui/kis_mimedata.cpp:310
 #, kde-format
 msgid "Fill Layer"
 msgstr "填充圖層"
@@ -30177,64 +30175,64 @@ msgstr "無可用圖片。"
 msgid "Use This Template"
 msgstr "使用此範本"
 
-#: libs/ui/KisView.cpp:631
+#: libs/ui/KisView.cpp:745
 #, kde-format
 msgid "You cannot drag and drop colors on the selected layer type."
 msgstr "不能將色塊拖放到選定的圖層類型上。"
 
-#: libs/ui/KisView.cpp:639 libs/ui/tool/kis_tool.cc:671
+#: libs/ui/KisView.cpp:753 libs/ui/tool/kis_tool.cc:671
 #, kde-format
 msgid "Layer is locked and invisible."
 msgstr "圖層已鎖定且不可見。"
 
-#: libs/ui/KisView.cpp:641 libs/ui/tool/kis_tool.cc:673
+#: libs/ui/KisView.cpp:755 libs/ui/tool/kis_tool.cc:673
 #, kde-format
 msgid "Layer is locked."
 msgstr "圖層已鎖定。"
 
-#: libs/ui/KisView.cpp:643 libs/ui/tool/kis_tool.cc:675
+#: libs/ui/KisView.cpp:757 libs/ui/tool/kis_tool.cc:675
 #, kde-format
 msgid "Layer is invisible."
 msgstr "圖層不可見。"
 
-#: libs/ui/KisView.cpp:845
+#: libs/ui/KisView.cpp:959
 #, kde-format
 msgid ""
 "<p>The document <b>'%1'</b> has been modified.</p><p>Do you want to save it?"
 "</p>"
 msgstr "<p>檔案 <b>「%1」</b> 已被修改。</p><p>要儲存它嗎？</p>"
 
-#: libs/ui/KisView.cpp:1034
+#: libs/ui/KisView.cpp:1148
 #, kde-format
 msgid "Soft Proofing doesn't work in floating point."
 msgstr "螢幕校樣不支援浮點位深度。"
 
-#: libs/ui/KisView.cpp:1039
+#: libs/ui/KisView.cpp:1153
 #, kde-format
 msgid "Soft Proofing turned on."
 msgstr "已啟用螢幕校樣。"
 
-#: libs/ui/KisView.cpp:1041
+#: libs/ui/KisView.cpp:1155
 #, kde-format
 msgid "Soft Proofing turned off."
 msgstr "已關閉螢幕校樣。"
 
-#: libs/ui/KisView.cpp:1053
+#: libs/ui/KisView.cpp:1167
 #, kde-format
 msgid "Gamut Warnings don't work in floating point."
 msgstr "色域警告不支援浮點色深。"
 
-#: libs/ui/KisView.cpp:1059
+#: libs/ui/KisView.cpp:1173
 #, kde-format
 msgid "Gamut Warnings turned on."
 msgstr "已啟用色域警告。"
 
-#: libs/ui/KisView.cpp:1061
+#: libs/ui/KisView.cpp:1175
 #, kde-format
 msgid "But Soft Proofing is still off."
 msgstr "但螢幕校樣仍然關閉。"
 
-#: libs/ui/KisView.cpp:1064
+#: libs/ui/KisView.cpp:1178
 #, kde-format
 msgid "Gamut Warnings turned off."
 msgstr "已關閉色域警告。"
@@ -31454,7 +31452,7 @@ msgstr "筆刷工具無法在此圖層繪畫，請選取一個顏料圖層或者
 #: libs/ui/tool/kis_tool_polyline_base.cpp:76
 #: libs/ui/tool/kis_tool_rectangle_base.cpp:164
 #: libs/ui/tool/KisToolOutlineBase.cpp:91
-#: plugins/tools/basictools/kis_tool_line.cc:175
+#: plugins/tools/basictools/kis_tool_line.cc:201
 #: plugins/tools/basictools/kis_tool_path.cc:70
 #: plugins/tools/basictools/kis_tool_pencil.cc:53
 #: plugins/tools/tool_enclose_and_fill/subtools/KisPathEnclosingProducer.cpp:105
@@ -31463,12 +31461,7 @@ msgstr "筆刷工具無法在此圖層繪畫，請選取一個顏料圖層或者
 msgid "The MyPaint Brush Engine is not available for this colorspace"
 msgstr "MyPaint 筆刷引擎不支援這個色彩空間"
 
-#: libs/ui/tool/kis_tool_paint.cc:431
-#, kde-format
-msgid "Color sampler does not work on this layer."
-msgstr "色彩取樣器不能在此圖層上使用。"
-
-#: libs/ui/tool/kis_tool_paint.cc:718
+#: libs/ui/tool/kis_tool_paint.cc:569
 #, kde-format
 msgid "Brush Size: %1 px"
 msgstr "筆刷大小：%1 px"
@@ -31493,7 +31486,7 @@ msgstr ""
 "高：%2 px"
 
 #: libs/ui/tool/kis_tool_rectangle_base.cpp:293
-#: plugins/tools/basictools/kis_tool_line.cc:252
+#: plugins/tools/basictools/kis_tool_line.cc:282
 #: plugins/tools/basictools/kis_tool_multihand.cpp:499
 #, kde-format
 msgid ""
@@ -31508,6 +31501,11 @@ msgstr ""
 msgctxt "(qtundo-format)"
 msgid "Clear"
 msgstr "清空"
+
+#: libs/ui/tool/KisAsyncColorSamplerHelper.cpp:291
+#, kde-format
+msgid "Color sampler does not work on this layer."
+msgstr "色彩取樣器不能在此圖層上使用。"
 
 #: libs/ui/tool/KisToolPaintFactoryBase.cpp:27
 #, kde-format
@@ -32950,7 +32948,7 @@ msgid "No Preview for this engine"
 msgstr "此引擎沒有預覽"
 
 #: libs/ui/widgets/kis_selection_options.cc:177
-#: plugins/tools/basictools/kis_tool_fill.cc:377
+#: plugins/tools/basictools/kis_tool_fill.cc:378
 #, kde-format
 msgctxt "The anti-alias checkbox in fill tool options"
 msgid "Anti-aliasing"
@@ -33016,8 +33014,8 @@ msgid "Symmetric Difference"
 msgstr "對稱差異"
 
 #: libs/ui/widgets/kis_selection_options.cc:222
-#: plugins/tools/basictools/kis_tool_fill.cc:427
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:426
+#: plugins/tools/basictools/kis_tool_fill.cc:428
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:427
 #, kde-format
 msgid "Smooth the jagged edges"
 msgstr "平滑化鋸齒狀的邊緣"
@@ -33162,12 +33160,12 @@ msgstr "無設定選項。"
 msgid "Insert name"
 msgstr "新作業空間名稱"
 
-#: libs/ui/widgets/kis_workspace_chooser.cpp:183
+#: libs/ui/widgets/kis_workspace_chooser.cpp:184
 #, kde-format
 msgid "File name already in use. Saving will overwrite the original Workspace."
 msgstr "檔名已在使用。儲存將會覆蓋原本的工作空間。"
 
-#: libs/ui/widgets/kis_workspace_chooser.cpp:184
+#: libs/ui/widgets/kis_workspace_chooser.cpp:185
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings.cpp:145
 #: plugins/paintops/libpaintop/kis_clipboard_brush_widget.cpp:162
 #: plugins/paintops/libpaintop/kis_custom_brush_widget.cpp:137
@@ -33175,23 +33173,23 @@ msgstr "檔名已在使用。儲存將會覆蓋原本的工作空間。"
 msgid "Overwrite"
 msgstr "覆蓋"
 
-#: libs/ui/widgets/kis_workspace_chooser.cpp:188
+#: libs/ui/widgets/kis_workspace_chooser.cpp:189
 #, kde-format
 msgid "Save current workspace."
 msgstr "儲存目前工作空間。"
 
-#: libs/ui/widgets/kis_workspace_chooser.cpp:231
+#: libs/ui/widgets/kis_workspace_chooser.cpp:232
 #, kde-format
 msgid "Window Layout"
 msgstr "視窗版面配置"
 
-#: libs/ui/widgets/kis_workspace_chooser.cpp:257
+#: libs/ui/widgets/kis_workspace_chooser.cpp:258
 #, kde-format
 msgid ""
 "File name already in use. Saving will overwrite the original window layout."
 msgstr "檔名已在使用。儲存將會覆蓋原本的視窗佈局。"
 
-#: libs/ui/widgets/kis_workspace_chooser.cpp:260
+#: libs/ui/widgets/kis_workspace_chooser.cpp:261
 #, kde-format
 msgid "Save current window layout."
 msgstr "儲存目前的視窗佈局。"
@@ -35669,7 +35667,7 @@ msgstr "儲存輔助尺集合"
 msgid "Concentric Ellipse assistant"
 msgstr "同心橢圓輔助尺"
 
-#: plugins/assistants/Assistants/ConcentricEllipseAssistant.cc:217
+#: plugins/assistants/Assistants/ConcentricEllipseAssistant.cc:221
 #, kde-format
 msgid "Concentric Ellipse"
 msgstr "同心橢圓"
@@ -35696,12 +35694,12 @@ msgstr "橢圓輔助尺"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, shapeBox)
 #. i18n: ectx: property (text), item, widget (QComboBox, shapeCBox)
-#: plugins/assistants/Assistants/EllipseAssistant.cc:183
+#: plugins/assistants/Assistants/EllipseAssistant.cc:197
 #: plugins/flake/pathshapes/ellipse/EllipseShapeFactory.cpp:21
 #: plugins/paintops/gridbrush/wdggridbrushshapeoptions.ui:41
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:262
 #: plugins/paintops/spray/wdgsprayshapeoptions.ui:70
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:407
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:408
 #, kde-format
 msgid "Ellipse"
 msgstr "橢圓"
@@ -35711,7 +35709,7 @@ msgstr "橢圓"
 msgid "Fish Eye Point assistant"
 msgstr "魚眼透視輔助尺"
 
-#: plugins/assistants/Assistants/FisheyePointAssistant.cc:226
+#: plugins/assistants/Assistants/FisheyePointAssistant.cc:232
 #, kde-format
 msgid "Fish Eye Point"
 msgstr "魚眼透視"
@@ -35721,7 +35719,7 @@ msgstr "魚眼透視"
 msgid "Infinite Ruler assistant"
 msgstr "無限直線輔助尺"
 
-#: plugins/assistants/Assistants/InfiniteRulerAssistant.cc:260
+#: plugins/assistants/Assistants/InfiniteRulerAssistant.cc:265
 #, kde-format
 msgid "Infinite Ruler"
 msgstr "無限直線"
@@ -35840,7 +35838,7 @@ msgstr "輔助尺工具"
 msgid "Parallel Ruler assistant"
 msgstr "平行線輔助尺"
 
-#: plugins/assistants/Assistants/ParallelRulerAssistant.cc:233
+#: plugins/assistants/Assistants/ParallelRulerAssistant.cc:238
 #, kde-format
 msgid "Parallel Ruler"
 msgstr "平行線"
@@ -35852,7 +35850,7 @@ msgstr "透視輔助尺"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, perspectiveTransformButton)
 #. i18n: ectx: property (text), widget (QToolButton, perspectiveTransformButton)
-#: plugins/assistants/Assistants/PerspectiveAssistant.cc:375
+#: plugins/assistants/Assistants/PerspectiveAssistant.cc:380
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:152
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:155
 #, kde-format
@@ -35864,7 +35862,7 @@ msgstr "透視"
 msgid "Perspective Ellipse assistant"
 msgstr "透視橢圓輔助尺"
 
-#: plugins/assistants/Assistants/PerspectiveEllipseAssistant.cc:631
+#: plugins/assistants/Assistants/PerspectiveEllipseAssistant.cc:637
 #, kde-format
 msgid "Perspective Ellipse"
 msgstr "透視橢圓"
@@ -35874,7 +35872,7 @@ msgstr "透視橢圓"
 msgid "Ruler assistant"
 msgstr "直線輔助尺"
 
-#: plugins/assistants/Assistants/RulerAssistant.cc:339
+#: plugins/assistants/Assistants/RulerAssistant.cc:345
 #, kde-format
 msgid "Ruler"
 msgstr "直線"
@@ -35884,7 +35882,7 @@ msgstr "直線"
 msgid "Spline assistant"
 msgstr "樣條曲線輔助尺"
 
-#: plugins/assistants/Assistants/SplineAssistant.cc:223
+#: plugins/assistants/Assistants/SplineAssistant.cc:229
 #, kde-format
 msgctxt "A type of drawing assistants"
 msgid "Spline"
@@ -35895,7 +35893,7 @@ msgstr "樣條曲線 (Spline)"
 msgid "Two point assistant"
 msgstr "兩點透視輔助尺"
 
-#: plugins/assistants/Assistants/TwoPointAssistant.cc:541
+#: plugins/assistants/Assistants/TwoPointAssistant.cc:547
 #, kde-format
 msgid "2 Point Perspective"
 msgstr "兩點透視"
@@ -35905,7 +35903,7 @@ msgstr "兩點透視"
 msgid "Vanishing Point assistant"
 msgstr "消失點輔助尺"
 
-#: plugins/assistants/Assistants/VanishingPointAssistant.cc:359
+#: plugins/assistants/Assistants/VanishingPointAssistant.cc:364
 #, kde-format
 msgid "Vanishing Point"
 msgstr "消失點"
@@ -37504,18 +37502,18 @@ msgstr "確定要刪除遮罩<b>「%1」</b>嗎？"
 #: plugins/paintops/gridbrush/wdggridbrushshapeoptions.ui:46
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:267
 #: plugins/paintops/spray/wdgsprayshapeoptions.ui:75
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:406
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:407
 #, kde-format
 msgid "Rectangle"
 msgstr "矩形"
 
 #: plugins/dockers/griddocker/grid_config_widget.cpp:53
-#: plugins/dockers/griddocker/grid_config_widget.cpp:341
+#: plugins/dockers/griddocker/grid_config_widget.cpp:346
 #, kde-format
 msgid "Isometric"
 msgstr "等角格線"
 
-#: plugins/dockers/griddocker/grid_config_widget.cpp:343
+#: plugins/dockers/griddocker/grid_config_widget.cpp:348
 #, kde-format
 msgid "Isometric (requires OpenGL)"
 msgstr "等角格線 (需要 OpenGL)"
@@ -37708,51 +37706,80 @@ msgstr "歷史記錄"
 msgid "Layers"
 msgstr "圖層"
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:243
+#: plugins/dockers/layerdocker/LayerBox.cpp:244
 #, kde-format
 msgid "&Show Global Selection Mask"
 msgstr "顯示全域選取區域遮罩(&S)"
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:246
+#: plugins/dockers/layerdocker/LayerBox.cpp:247
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
 "Shows global selection as a usual selection mask in <b>Layers</b> docker"
 msgstr "把全域選取區域作為一個通常選取區域遮罩顯示在<b>圖層</b>工具面板"
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:309
+#: plugins/dockers/layerdocker/LayerBox.cpp:310
 #, kde-format
 msgid "Thumbnail Size"
 msgstr "縮圖大小"
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:337
+#: plugins/dockers/layerdocker/LayerBox.cpp:338
 #, kde-format
 msgctxt "@item:inmenu Layers Docker settings, slider"
 msgid "Tree Indentation"
 msgstr "樹狀層級縮排"
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:912
+#: plugins/dockers/layerdocker/LayerBox.cpp:360
+#, fuzzy, kde-format
+#| msgctxt "action"
+#| msgid "Display Selection"
+msgctxt "@item:inmenu Layers Docker settings, checkbox"
+msgid "Display Subtitles"
+msgstr "顯示選取區域"
+
+#: plugins/dockers/layerdocker/LayerBox.cpp:361
+#, fuzzy, kde-format
+#| msgctxt "action"
+#| msgid "Select Behind Blending Mode"
+msgctxt "@item:tooltip"
+msgid "Layer opacity and blending mode"
+msgstr "選擇下置混色模式"
+
+#: plugins/dockers/layerdocker/LayerBox.cpp:370
+#, fuzzy, kde-format
+#| msgid "Line Opacity"
+msgctxt "@item:inmenu Layers Docker settings, slider"
+msgid "Subtitle Opacity"
+msgstr "線條不透明度"
+
+#: plugins/dockers/layerdocker/LayerBox.cpp:386
+#, kde-format
+msgctxt "@item:inmenu Layers Docker settings, checkbox"
+msgid "Inline Subtitles"
+msgstr ""
+
+#: plugins/dockers/layerdocker/LayerBox.cpp:951
 msgctxt "(qtundo-format)"
 msgid "Quick Selection Mask"
 msgstr "快速選取區域遮罩"
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:934
+#: plugins/dockers/layerdocker/LayerBox.cpp:973
 msgctxt "(qtundo-format)"
 msgid "Cancel Quick Selection Mask"
 msgstr "取消快速選取區域遮罩"
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:1149
+#: plugins/dockers/layerdocker/LayerBox.cpp:1188
 #, kde-format
 msgid "&Toggle Locks && Visibility"
 msgstr "切換鎖定與可見性(&T)"
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:1156
-#: plugins/dockers/layerdocker/LayerBox.cpp:1177
+#: plugins/dockers/layerdocker/LayerBox.cpp:1195
+#: plugins/dockers/layerdocker/LayerBox.cpp:1216
 #, kde-format
 msgid "&Add"
 msgstr "新增(&A)"
 
-#: plugins/dockers/layerdocker/NodeDelegate.cpp:1184
+#: plugins/dockers/layerdocker/NodeDelegate.cpp:1228
 #, kde-format
 msgid "%1 %"
 msgstr "%1 %"
@@ -38131,19 +38158,19 @@ msgstr "儲存目前調色板"
 msgid "Load a palette"
 msgstr "載入調色板"
 
-#: plugins/dockers/palettedocker/palettedocker_dock.cpp:220
+#: plugins/dockers/palettedocker/palettedocker_dock.cpp:216
 #, kde-format
 msgid "Export Palette"
 msgstr "匯出調色板"
 
-#: plugins/dockers/palettedocker/palettedocker_dock.cpp:366
+#: plugins/dockers/palettedocker/palettedocker_dock.cpp:362
 #, kde-format
 msgctxt "@tooltip"
 msgid ""
 "Save palette explicitly, will also happen automatically on exiting Krita."
 msgstr "手動儲存調色板。在關閉 Krita 時調色板也會自動儲存。"
 
-#: plugins/dockers/palettedocker/palettedocker_dock.cpp:368
+#: plugins/dockers/palettedocker/palettedocker_dock.cpp:364
 #, kde-format
 msgctxt "@tooltip"
 msgid "Saving for document palettes is done by saving the document."
@@ -41357,10 +41384,14 @@ msgid "Create Resource Bundle"
 msgstr "建立資源包"
 
 #: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:296
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Warning message"
+#| msgid ""
+#| "More than one resources share the same file name '%1'. Please export them "
+#| "in separate bundles."
 msgctxt "Warning message"
 msgid ""
-"More than one resources share the same file name '%1'. Please export them in "
+"More than one resource share the same file name '%1'. Please export them in "
 "separate bundles."
 msgstr ""
 "多於一項資源使用了相同的檔案名稱「%1」。請分別將它們匯出為獨立的資源包。"
@@ -45662,25 +45693,25 @@ msgstr ""
 msgid "Sign with Author Profile Data"
 msgstr "使用作者檔案資料簽名"
 
-#: plugins/impex/jxl/JPEGXLImport.cpp:245
+#: plugins/impex/jxl/JPEGXLImport.cpp:246
 #, kde-format
 msgctxt "JPEG-XL errors"
 msgid "Unable to read the image profile."
 msgstr "無法讀取影像色彩特性。"
 
-#: plugins/impex/jxl/JPEGXLImport.cpp:257
+#: plugins/impex/jxl/JPEGXLImport.cpp:258
 #, kde-format
 msgctxt "JPEG-XL errors"
 msgid "JPEG-XL encoded profile not implemented"
 msgstr "未支援 JPEG-XL 內嵌碥碼的色彩特性"
 
-#: plugins/impex/jxl/JPEGXLImport.cpp:292
+#: plugins/impex/jxl/JPEGXLImport.cpp:293
 #, kde-format
 msgctxt "JPEG-XL errors"
 msgid "JPEG-XL image is animated, but cannot retrieve animation frame header."
 msgstr "JPEG-XL 影像為動畫，但未能讀取動畫影格標頭資料。"
 
-#: plugins/impex/jxl/JPEGXLImport.cpp:320
+#: plugins/impex/jxl/JPEGXLImport.cpp:321
 #, kde-format
 msgctxt "JPEG-XL errors"
 msgid "The animation declares a frame rate of more than 240 FPS."
@@ -54713,6 +54744,7 @@ msgid "Scalable Distance"
 msgstr "隨檢視縮放距離"
 
 #: plugins/tools/basictools/kis_tool_brush.cc:452
+#: plugins/tools/basictools/kis_tool_line.cc:100
 #, kde-format
 msgid "Snap to Assistants"
 msgstr "吸附到輔助尺"
@@ -54746,6 +54778,7 @@ msgid ""
 msgstr "只吸附至單一輔助尺，可避免在使用無限延伸輔助尺時吸附失靈。"
 
 #: plugins/tools/basictools/kis_tool_brush.cc:476
+#: plugins/tools/basictools/kis_tool_line.cc:103
 #, kde-format
 msgid "Snap Eraser"
 msgstr "擦除模式時吸附"
@@ -54761,22 +54794,12 @@ msgstr "在使用擦除模式時啟用吸附"
 msgid "Freehand Brush Tool"
 msgstr "手繪筆刷工具"
 
-#: plugins/tools/basictools/kis_tool_colorsampler.cc:162
-#, kde-format
-msgid "Cannot sample a color as no layer is active."
-msgstr "無法取樣色彩，因為沒有使用中的圖層。"
-
-#: plugins/tools/basictools/kis_tool_colorsampler.cc:167
-#, kde-format
-msgid "Cannot sample a color as the active layer is not visible."
-msgstr "無法取樣色彩，因為使用中圖層不可見。"
-
-#: plugins/tools/basictools/kis_tool_colorsampler.cc:225
+#: plugins/tools/basictools/kis_tool_colorsampler.cc:96
 #, kde-format
 msgid "Cannot write to palette file %1. Maybe it is read-only."
 msgstr "無法寫入調色板檔案 %1。它可能是唯讀檔案。"
 
-#: plugins/tools/basictools/kis_tool_colorsampler.h:137
+#: plugins/tools/basictools/kis_tool_colorsampler.h:122
 #, kde-format
 msgid "Color Sampler Tool"
 msgstr "色彩取樣器工具"
@@ -54802,25 +54825,25 @@ msgctxt "(qtundo-format)"
 msgid "Flood Fill"
 msgstr "浸漫填充"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:357
+#: plugins/tools/basictools/kis_tool_fill.cc:358
 #, kde-format
 msgctxt "The pattern 'scale' spinbox prefix in fill tool options"
 msgid "Scale: "
 msgstr "縮放："
 
-#: plugins/tools/basictools/kis_tool_fill.cc:364
+#: plugins/tools/basictools/kis_tool_fill.cc:365
 #, kde-format
 msgctxt "The 'threshold' spinbox prefix in fill tool options"
 msgid "Threshold: "
 msgstr "閾值："
 
-#: plugins/tools/basictools/kis_tool_fill.cc:367
+#: plugins/tools/basictools/kis_tool_fill.cc:368
 #, kde-format
 msgctxt "The 'spread' spinbox prefix in fill tool options"
 msgid "Spread: "
 msgstr "擴散幅度："
 
-#: plugins/tools/basictools/kis_tool_fill.cc:373
+#: plugins/tools/basictools/kis_tool_fill.cc:374
 #, kde-format
 msgctxt ""
 "The 'use selection as boundary' checkbox in fill tool to use selection "
@@ -54828,56 +54851,56 @@ msgctxt ""
 msgid "Use selection as boundary"
 msgstr "以選取區域為界限"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:379
+#: plugins/tools/basictools/kis_tool_fill.cc:380
 #, kde-format
 msgctxt "The 'grow/shrink' spinbox prefix in fill tool options"
 msgid "Grow: "
 msgstr "擴張："
 
-#: plugins/tools/basictools/kis_tool_fill.cc:383
+#: plugins/tools/basictools/kis_tool_fill.cc:384
 #, kde-format
 msgctxt "The 'feather' spinbox prefix in fill tool options"
 msgid "Feather: "
 msgstr "羽化："
 
-#: plugins/tools/basictools/kis_tool_fill.cc:409
+#: plugins/tools/basictools/kis_tool_fill.cc:410
 #, kde-format
 msgctxt "The 'reset' button in fill tool options"
 msgid "Reset"
 msgstr "重設"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:412
+#: plugins/tools/basictools/kis_tool_fill.cc:413
 #, kde-format
 msgid "Current selection"
 msgstr "目前選取區域"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:413
+#: plugins/tools/basictools/kis_tool_fill.cc:414
 #, kde-format
 msgid "Contiguous region obtained from the layers"
 msgstr "從圖層檢取連續區域"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:418
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:417
+#: plugins/tools/basictools/kis_tool_fill.cc:419
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:418
 #, kde-format
 msgid "Set the scale of the pattern"
 msgstr "設定圖案的縮放"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:419
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:418
+#: plugins/tools/basictools/kis_tool_fill.cc:420
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:419
 #, kde-format
 msgid "Set the rotation of the pattern"
 msgstr "設定圖案的旋轉角度"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:421
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:420
+#: plugins/tools/basictools/kis_tool_fill.cc:422
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:421
 #, kde-format
 msgid ""
 "Set how far the region should extend from the selected pixel in terms of "
 "color similarity"
 msgstr "設定區域根據色彩相似度從所選像素擴張的程度"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:422
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:421
+#: plugins/tools/basictools/kis_tool_fill.cc:423
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:422
 #, kde-format
 msgid ""
 "Set how far the fully opaque portion of the region should extend.\n"
@@ -54889,94 +54912,94 @@ msgstr ""
 "0% 表示只有與所選像素完全相同數值的像素才會填上不透明色。\n"
 "100% 表示一直到區域邊界的所有像素均會填上不透明色。"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:425
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:424
+#: plugins/tools/basictools/kis_tool_fill.cc:426
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:425
 #, kde-format
 msgid ""
 "Set if the contour of the current selection should be treated as a boundary "
 "when obtaining the region"
 msgstr "設定應否視目前選取區域為檢取區域的邊界"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:428
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:427
+#: plugins/tools/basictools/kis_tool_fill.cc:429
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:428
 #, kde-format
 msgid ""
 "Grow (positive values) or shrink (negative values) the region by the set "
 "amount"
 msgstr "按數值擴張或收縮區域 (正數為擴張，負數為收縮)"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:429
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:428
+#: plugins/tools/basictools/kis_tool_fill.cc:430
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:429
 #, kde-format
 msgid "Blur the region by the set amount"
 msgstr "按數值使區域變得模糊"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:431
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:430
+#: plugins/tools/basictools/kis_tool_fill.cc:432
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:431
 #, kde-format
 msgid "Obtain the region using the active layer"
 msgstr "以使用中圖層檢取區域"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:432
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:431
+#: plugins/tools/basictools/kis_tool_fill.cc:433
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:432
 #, kde-format
 msgid "Obtain the region using a merged copy of all layers"
 msgstr "以全部圖層合併的影像檢取區域"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:433
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:432
+#: plugins/tools/basictools/kis_tool_fill.cc:434
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:433
 #, kde-format
 msgid ""
 "Obtain the region using a merged copy of the selected color-labeled layers"
 msgstr "按所選色彩標籤的圖層合併的影像檢取區域"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:435
+#: plugins/tools/basictools/kis_tool_fill.cc:436
 #, kde-format
 msgid "Fill regions of any color"
 msgstr "填充任何色彩的區域"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:436
+#: plugins/tools/basictools/kis_tool_fill.cc:437
 #, kde-format
 msgid "Fill only regions similar in color to the initial region"
 msgstr "只填充與起始區域相似色彩的區域"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:438
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:434
+#: plugins/tools/basictools/kis_tool_fill.cc:439
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:435
 #, kde-format
 msgid "Reset the options to their default values"
 msgstr "重設選項到其預設值"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:447
+#: plugins/tools/basictools/kis_tool_fill.cc:448
 #, kde-format
 msgctxt "The 'what to fill' section label in fill tool options"
 msgid "What to fill"
 msgstr "填充區域"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:454
+#: plugins/tools/basictools/kis_tool_fill.cc:455
 #, kde-format
 msgctxt "The 'fill with' section label in fill tool options"
 msgid "Fill with"
 msgstr "填充內容"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:465
+#: plugins/tools/basictools/kis_tool_fill.cc:466
 #, kde-format
 msgctxt "The 'region extent' section label in fill tool options"
 msgid "Region extent"
 msgstr "區域範圍"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:474
+#: plugins/tools/basictools/kis_tool_fill.cc:475
 #, kde-format
 msgctxt "The 'adjustments' section label in fill tool options"
 msgid "Adjustments"
 msgstr "調整"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:483
+#: plugins/tools/basictools/kis_tool_fill.cc:484
 #, kde-format
 msgctxt "The 'reference' section label in fill tool options"
 msgid "Reference"
 msgstr "參照"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:492
+#: plugins/tools/basictools/kis_tool_fill.cc:493
 #, kde-format
 msgctxt "The 'multiple fill' section label in fill tool options"
 msgid "Multiple fill"
@@ -55029,12 +55052,12 @@ msgstr "顯示預覽"
 msgid "Show Guideline"
 msgstr "顯示引導線"
 
-#: plugins/tools/basictools/kis_tool_line.cc:372
+#: plugins/tools/basictools/kis_tool_line.cc:430
 #, kde-format
 msgid "Length: %1 px"
 msgstr "長度：%1 px"
 
-#: plugins/tools/basictools/kis_tool_line.cc:390
+#: plugins/tools/basictools/kis_tool_line.cc:448
 #, kde-format
 msgid ""
 "Alt+Drag will move the origin of the currently displayed line around, Shift"
@@ -55042,7 +55065,7 @@ msgid ""
 msgstr ""
 "Alt + 拖曳可移動目前顯示線條的基點，Shift + 拖曳將強制在特殊角度上繪製直線"
 
-#: plugins/tools/basictools/kis_tool_line.h:106
+#: plugins/tools/basictools/kis_tool_line.h:113
 #, kde-format
 msgid "Line Tool"
 msgstr "直線工具"
@@ -57267,25 +57290,25 @@ msgctxt "The 'include contour regions' checkbox in enclose and fill tool"
 msgid "Include contour regions"
 msgstr "包含輪廓區域"
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:359
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:360
 #, kde-format
 msgctxt "The pattern 'scale' spinbox prefix in enclose and fill tool options"
 msgid "Scale: "
 msgstr "縮放："
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:366
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:367
 #, kde-format
 msgctxt "The 'threshold' spinbox prefix in enclose and fill tool options"
 msgid "Threshold: "
 msgstr "閾值："
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:369
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:370
 #, kde-format
 msgctxt "The 'spread' spinbox prefix in enclose and fill tool options"
 msgid "Spread: "
 msgstr "擴散幅度："
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:375
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:376
 #, kde-format
 msgctxt ""
 "The 'use selection as boundary' checkbox in enclose and fill tool to use "
@@ -57293,143 +57316,143 @@ msgctxt ""
 msgid "Use selection as boundary"
 msgstr "以選取區域為界限"
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:379
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:380
 #, kde-format
 msgctxt "The anti-alias checkbox in enclose and fill tool options"
 msgid "Anti-aliasing"
 msgstr "反鋸齒"
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:381
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:382
 #, kde-format
 msgctxt "The 'grow/shrink' spinbox prefix in enclose and fill tool options"
 msgid "Grow: "
 msgstr "擴張："
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:385
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:386
 #, kde-format
 msgctxt "The 'feather' spinbox prefix in enclose and fill tool options"
 msgid "Feather: "
 msgstr "羽化："
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:403
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:404
 #, kde-format
 msgctxt "The 'reset' button in enclose and fill tool options"
 msgid "Reset"
 msgstr "重設"
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:408
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:409
 #, kde-format
 msgid "Bezier Curve"
 msgstr "貝茲曲線"
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:409
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:410
 #, kde-format
 msgid "Lasso"
 msgstr "套索"
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:412
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:413
 #, kde-format
 msgid "Check this option to fill all the regions except the selected ones"
 msgstr "核取此選項以填充除已選取區域外的所有區域"
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:413
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:414
 #, kde-format
 msgid ""
 "Check this option to also fill the shapes that touch the contour of the "
 "enclosing region"
 msgstr "核取此選項以填充觸碰到閉合區域輪廓的形狀"
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:443
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:444
 #, kde-format
 msgctxt "The 'enclosing method' section label in enclose and fill tool options"
 msgid "Enclosing method"
 msgstr "閉合區域圍住方式"
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:450
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:451
 #, kde-format
 msgctxt "The 'what to fill' section label in enclose and fill tool options"
 msgid "What to fill"
 msgstr "填充區域"
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:460
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:461
 #, kde-format
 msgctxt "The 'fill with' section label in enclose and fill tool options"
 msgid "Fill with"
 msgstr "填充內容"
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:471
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:472
 #, kde-format
 msgctxt "The 'region extent' section label in enclose and fill tool options"
 msgid "Region extent"
 msgstr "區域範圍"
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:480
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:481
 #, kde-format
 msgctxt "The 'adjustments' section label in enclose and fill tool options"
 msgid "Adjustments"
 msgstr "調整"
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:489
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:490
 #, kde-format
 msgctxt "The 'reference' section label in enclose and fill tool options"
 msgid "Reference"
 msgstr "參照"
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:682
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:683
 #, kde-format
 msgctxt "Region selection method in enclose and fill tool"
 msgid "All regions"
 msgstr "所有區域"
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:685
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:686
 #, kde-format
 msgctxt "Region selection method in enclose and fill tool"
 msgid "Regions of a specific color"
 msgstr "特定色彩的區域"
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:688
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:689
 #, kde-format
 msgctxt "Region selection method in enclose and fill tool"
 msgid "Transparent regions"
 msgstr "透明區域"
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:691
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:692
 #, kde-format
 msgctxt "Region selection method in enclose and fill tool"
 msgid "Regions of a specific color or transparent"
 msgstr "特定色彩或透明區域"
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:694
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:695
 #, kde-format
 msgctxt "Region selection method in enclose and fill tool"
 msgid "All regions except those of a specific color"
 msgstr "除特定色彩以外的所有區域"
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:697
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:698
 #, kde-format
 msgctxt "Region selection method in enclose and fill tool"
 msgid "All regions except the transparent ones"
 msgstr "除透明以外的所有區域"
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:700
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:701
 #, kde-format
 msgctxt "Region selection method in enclose and fill tool"
 msgid "All regions except those of a specific color or transparent"
 msgstr "除特定色彩或透明以外的所有區域"
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:703
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:704
 #, kde-format
 msgctxt "Region selection method in enclose and fill tool"
 msgid "Regions surrounded by a specific color"
 msgstr "被特定色彩圍繞的區域"
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:706
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:707
 #, kde-format
 msgctxt "Region selection method in enclose and fill tool"
 msgid "Regions surrounded by transparent"
 msgstr "被透明圍繞的區域"
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:709
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:710
 #, kde-format
 msgctxt "Region selection method in enclose and fill tool"
 msgid "Regions surrounded by a specific color or transparent"
@@ -58496,6 +58519,14 @@ msgstr "縮放工具"
 msgctxt "action"
 msgid "Reference Images Tool"
 msgstr "參考圖工具"
+
+#, kde-format
+#~ msgid "Cannot sample a color as no layer is active."
+#~ msgstr "無法取樣色彩，因為沒有使用中的圖層。"
+
+#, kde-format
+#~ msgid "Cannot sample a color as the active layer is not visible."
+#~ msgstr "無法取樣色彩，因為使用中圖層不可見。"
 
 #~ msgctxt ""
 #~ "The 'include surrounding regions' checkbox in enclose and fill tool"
