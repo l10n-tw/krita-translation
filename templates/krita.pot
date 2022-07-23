@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-07-21 00:42+0000\n"
+"POT-Creation-Date: 2022-07-23 00:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -19397,7 +19397,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, lblBest)
 #. i18n: ectx: property (text), widget (QLabel, lblBest2)
 #. i18n: ectx: property (text), widget (QLabel, lblMaximumDegradation)
-#: libs/resources/KisTagModel.cpp:121 libs/resources/KisTagModel.cpp:294
+#: libs/resources/KisTagModel.cpp:121 libs/resources/KisTagModel.cpp:299
 #: libs/ui/widgets/kis_paintop_presets_editor.cpp:592
 #: plugins/assistants/Assistants/AssistantsToolOptions.ui:325
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:489
@@ -19408,17 +19408,17 @@ msgstr ""
 msgid "All"
 msgstr ""
 
-#: libs/resources/KisTagModel.cpp:148 libs/resources/KisTagModel.cpp:304
+#: libs/resources/KisTagModel.cpp:149 libs/resources/KisTagModel.cpp:309
 #, kde-format
 msgid "All Untagged"
 msgstr ""
 
-#: libs/resources/KisTagModel.cpp:297
+#: libs/resources/KisTagModel.cpp:302
 #, kde-format
 msgid "All Resources"
 msgstr ""
 
-#: libs/resources/KisTagModel.cpp:307
+#: libs/resources/KisTagModel.cpp:312
 #, kde-format
 msgid "All Untagged Resources"
 msgstr ""
@@ -19450,7 +19450,7 @@ msgid "Resources Cache Database Explorer"
 msgstr ""
 
 #: libs/resourcewidgets/dbexplorer/DlgDbExplorer.cpp:69
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:53
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:54
 #: libs/resourcewidgets/KisTagToolButton.cpp:54
 #, kde-format
 msgid "Tag"
@@ -19729,33 +19729,33 @@ msgid ""
 "bundle."
 msgstr ""
 
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:66
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:69
 #, kde-format
 msgid "Tag options"
 msgstr ""
 
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:136
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:257
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:140
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:295
 #, kde-format
 msgctxt "Dialog title"
 msgid "Can't rename the tag"
 msgstr ""
 
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:136
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:229
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:257
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:140
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:267
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:295
 #, kde-format
 msgctxt "Dialog message"
 msgid "You can't use this name for your custom tags."
 msgstr ""
 
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:147
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:151
 #, kde-format
 msgctxt "Dialog title"
 msgid "Remove existing tag with that name?"
 msgstr ""
 
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:149
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:153
 #, kde-format
 msgctxt ""
 "Dialog message (the arguments are both somewhat user readable nouns or "
@@ -19768,7 +19768,7 @@ msgid ""
 "Tag's unique name: %2"
 msgstr ""
 
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:217
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:255
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:112
 #, kde-format
 msgctxt ""
@@ -19777,28 +19777,28 @@ msgctxt ""
 msgid "Restore previous tag"
 msgstr ""
 
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:218
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:256
 #, kde-format
 msgctxt ""
 "Option in a dialog to use existing tag with its old assigned resources"
 msgid "Use existing tag"
 msgstr ""
 
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:220
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:258
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:109
 #, kde-format
 msgctxt "Dialog title"
 msgid "Overwrite tag?"
 msgstr ""
 
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:221
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:259
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:110
 #, kde-format
 msgctxt "Question to the user in a dialog about creating a tag"
 msgid "A tag with this unique name already exists. Do you want to replace it?"
 msgstr ""
 
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:222
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:260
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:111
 #, kde-format
 msgctxt ""
@@ -19813,7 +19813,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QToolButton, bnCancelMaskEdit)
 #. i18n: ectx: property (text), widget (QPushButton, buttonCancel)
 #. i18n: ectx: property (text), widget (QPushButton, buttonCancelExport)
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:223
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:261
 #: libs/ui/dialogs/kis_delayed_save_dialog.cpp:50
 #: libs/ui/dialogs/KisAsyncAnimationRenderDialogBase.cpp:154
 #: libs/ui/dialogs/KisRecoverNamedAutosaveDialog.ui:60
@@ -19831,7 +19831,7 @@ msgstr ""
 msgid "Cancel"
 msgstr ""
 
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:229
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:267
 #, kde-format
 msgctxt "Dialog title"
 msgid "Can't create the tag"
@@ -32453,7 +32453,7 @@ msgctxt "@info:tooltip"
 msgid "Symmetric Difference (%1)"
 msgstr ""
 
-#: libs/ui/widgets/kis_tone_curve_widget.cpp:319
+#: libs/ui/widgets/kis_tone_curve_widget.cpp:318
 #, kde-format
 msgid "No tone curve available..."
 msgstr ""
