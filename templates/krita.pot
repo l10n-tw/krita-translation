@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-07-23 00:42+0000\n"
+"POT-Creation-Date: 2022-07-26 00:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -32766,41 +32766,41 @@ msgstr ""
 msgid "Background color selector"
 msgstr ""
 
-#: libs/ui/widgets/KoFillConfigWidget.cpp:260
+#: libs/ui/widgets/KoFillConfigWidget.cpp:262
 #, kde-format
 msgid "Change the filling color"
 msgstr ""
 
-#: libs/ui/widgets/KoFillConfigWidget.cpp:293
+#: libs/ui/widgets/KoFillConfigWidget.cpp:295
 #, kde-format
 msgid "Change filling gradient"
 msgstr ""
 
-#: libs/ui/widgets/KoFillConfigWidget.cpp:637
+#: libs/ui/widgets/KoFillConfigWidget.cpp:639
 #, kde-format
 msgctxt "default prefix for the saved gradient"
 msgid "gradient"
 msgstr ""
 
-#: libs/ui/widgets/KoFillConfigWidget.cpp:646
+#: libs/ui/widgets/KoFillConfigWidget.cpp:648
 #, kde-format
 msgctxt "@title:window"
 msgid "Save Gradient"
 msgstr ""
 
-#: libs/ui/widgets/KoFillConfigWidget.cpp:647
+#: libs/ui/widgets/KoFillConfigWidget.cpp:649
 #, kde-format
 msgid "Enter gradient name:"
 msgstr ""
 
-#: libs/ui/widgets/KoFillConfigWidget.cpp:654
+#: libs/ui/widgets/KoFillConfigWidget.cpp:656
 #: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:204
 #, kde-format
 msgctxt "@title:window"
 msgid "Name Already Exists"
 msgstr ""
 
-#: libs/ui/widgets/KoFillConfigWidget.cpp:655
+#: libs/ui/widgets/KoFillConfigWidget.cpp:657
 #: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:205
 #, kde-format
 msgid "The name '%1' already exists, do you wish to overwrite it?"
