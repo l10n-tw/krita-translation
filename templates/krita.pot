@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-07-26 00:43+0000\n"
+"POT-Creation-Date: 2022-07-27 00:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -16751,8 +16751,8 @@ msgstr ""
 msgid "Selection Mask"
 msgstr ""
 
-#: libs/image/kis_image.cc:720 libs/ui/KisDocument.cpp:2475
-#: plugins/impex/psd/psd_loader.cpp:190 plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:68
+#: libs/image/kis_image.cc:720 libs/ui/KisDocument.cpp:2477
+#: plugins/impex/psd/psd_loader.cpp:189 plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:68
 #: plugins/python/comics_project_management_tools/comics_template_dialog.py:302
 #, kde-format
 msgid "Background"
@@ -17492,7 +17492,7 @@ msgstr ""
 #: libs/impex/KisExportCheckRegistry.cpp:118
 #: libs/ui/kis_mask_manager.cc:210 libs/ui/kis_node_manager.cpp:1294
 #: plugins/impex/libkra/kis_kra_load_visitor.cpp:214
-#: plugins/impex/psd/psd_loader.cpp:380 plugins/impex/tiff/kis_tiff_import.cc:541
+#: plugins/impex/psd/psd_loader.cpp:379 plugins/impex/tiff/kis_tiff_import.cc:541
 #: plugins/impex/xcf/kis_xcf_import.cpp:273
 #, kde-format
 msgid "Transparency Mask"
@@ -17748,7 +17748,7 @@ msgctxt "description of a file type"
 msgid "JPEG-XL Image"
 msgstr ""
 
-#: libs/libkis/Document.cpp:951 libs/ui/KisMainWindow.cpp:1954
+#: libs/libkis/Document.cpp:954 libs/ui/KisMainWindow.cpp:1954
 #: libs/ui/KisMainWindow.cpp:2037
 #, kde-format
 msgid "Import frames"
@@ -19045,9 +19045,9 @@ msgstr ""
 #: libs/ui/KisApplication.cpp:973 libs/ui/KisApplication.cpp:976
 #: libs/ui/KisApplication.cpp:992 libs/ui/KisApplication.cpp:1024
 #: libs/ui/KisApplication.cpp:1038 libs/ui/KisApplication.cpp:1066
-#: libs/ui/KisDocument.cpp:923 libs/ui/KisDocument.cpp:931
-#: libs/ui/KisDocument.cpp:1827 libs/ui/KisDocument.cpp:1870
-#: libs/ui/KisDocument.cpp:1878 libs/ui/KisMainWindow.cpp:993
+#: libs/ui/KisDocument.cpp:925 libs/ui/KisDocument.cpp:933
+#: libs/ui/KisDocument.cpp:1829 libs/ui/KisDocument.cpp:1872
+#: libs/ui/KisDocument.cpp:1880 libs/ui/KisMainWindow.cpp:993
 #: libs/ui/KisMainWindow.cpp:1119 libs/ui/KisMainWindow.cpp:1218
 #: libs/ui/KisMainWindow.cpp:1814 libs/ui/KisMainWindow.cpp:1823
 #: libs/ui/KisMainWindow.cpp:1962 libs/ui/KisMainWindow.cpp:2023
@@ -19886,63 +19886,63 @@ msgstr ""
 msgid "Undelete"
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:145
+#: libs/ui/actions/kis_selection_action_factories.cpp:146
 msgctxt "(qtundo-format)"
 msgid "Select All"
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:221
+#: libs/ui/actions/kis_selection_action_factories.cpp:222
 #: libs/ui/KisView.cpp:771
 msgctxt "(qtundo-format)"
 msgid "Flood Fill Layer"
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:375
+#: libs/ui/actions/kis_selection_action_factories.cpp:376
 msgctxt "(qtundo-format)"
 msgid "Cut"
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:376
+#: libs/ui/actions/kis_selection_action_factories.cpp:377
 msgctxt "(qtundo-format)"
 msgid "Copy"
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:461
+#: libs/ui/actions/kis_selection_action_factories.cpp:462
 msgctxt "(qtundo-format)"
 msgid "Copy Merged"
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:478
+#: libs/ui/actions/kis_selection_action_factories.cpp:479
 #, kde-format
 msgctxt "floating message"
 msgid "Selection is already in a vector format "
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:503
-#: libs/ui/actions/kis_selection_action_factories.cpp:523
+#: libs/ui/actions/kis_selection_action_factories.cpp:504
+#: libs/ui/actions/kis_selection_action_factories.cpp:524
 msgctxt "(qtundo-format)"
 msgid "Convert to Vector Selection"
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:518
+#: libs/ui/actions/kis_selection_action_factories.cpp:519
 #, kde-format
 msgctxt "floating message"
 msgid "Selection is already in a raster format "
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:564
+#: libs/ui/actions/kis_selection_action_factories.cpp:565
 #, kde-format
 msgctxt "floating message"
 msgid "The shape already belongs to a selection"
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:570
+#: libs/ui/actions/kis_selection_action_factories.cpp:571
 msgctxt "(qtundo-format)"
 msgid "Convert shapes to vector selection"
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:623
-#: libs/ui/actions/kis_selection_action_factories.cpp:682
+#: libs/ui/actions/kis_selection_action_factories.cpp:624
+#: libs/ui/actions/kis_selection_action_factories.cpp:683
 #: plugins/tools/tool_polyline/kis_tool_polyline.cc:49
 msgctxt "(qtundo-format)"
 msgid "Draw Polyline"
@@ -27881,7 +27881,7 @@ msgstr ""
 msgid "New Filter Layer"
 msgstr ""
 
-#: libs/ui/kis_layer_manager.cc:731 libs/ui/kis_mimedata.cpp:310
+#: libs/ui/kis_layer_manager.cc:731 libs/ui/kis_mimedata.cpp:313
 #, kde-format
 msgid "Fill Layer"
 msgstr ""
@@ -28773,42 +28773,42 @@ msgctxt "(qtundo-format)"
 msgid "Clone Document"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:711
+#: libs/ui/KisDocument.cpp:713
 #, kde-format
 msgid "%1 cannot be written to. Please save under a different name."
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:774
+#: libs/ui/KisDocument.cpp:776
 #, kde-format
 msgid "Exporting Document..."
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:775
+#: libs/ui/KisDocument.cpp:777
 #, kde-format
 msgid "Saving Document..."
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:785
+#: libs/ui/KisDocument.cpp:787
 #, kde-format
 msgid ""
 "Could not start saving %1. Wait until the current save operation has "
 "finished."
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:918
+#: libs/ui/KisDocument.cpp:920
 #, kde-format
 msgctxt "%1 --- failing file name, %2 --- error message"
 msgid "Error during saving %1: %2"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:924
+#: libs/ui/KisDocument.cpp:926
 #, kde-format
 msgid ""
 "Could not save %1.\n"
 "Reason: %2"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:933
+#: libs/ui/KisDocument.cpp:935
 #, kde-format
 msgctxt ""
 "dialog box shown to the user if there were warnings while saving the "
@@ -28818,78 +28818,78 @@ msgid ""
 "The following problems were encountered when saving:"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:951
+#: libs/ui/KisDocument.cpp:953
 #, kde-format
 msgid "Finished saving %1"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1356
+#: libs/ui/KisDocument.cpp:1358
 #, kde-format
 msgid "Autosaving... %1"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1364
+#: libs/ui/KisDocument.cpp:1366
 #, kde-format
 msgid "Autosaving..."
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1370
+#: libs/ui/KisDocument.cpp:1372
 #, kde-format
 msgid "Autosaving postponed: document is busy..."
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1505
+#: libs/ui/KisDocument.cpp:1507
 #, kde-format
 msgctxt "%1 --- failing file name, %2 --- error message"
 msgid "Error during autosaving %1: %2"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1519
+#: libs/ui/KisDocument.cpp:1521
 #, kde-format
 msgid "Finished autosaving %1"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1761
+#: libs/ui/KisDocument.cpp:1763
 #, kde-format
 msgid ""
 "Malformed Path\n"
 "%1"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1827
+#: libs/ui/KisDocument.cpp:1829
 #, kde-format
 msgid "File %1 does not exist."
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1856
+#: libs/ui/KisDocument.cpp:1858
 #, kde-format
 msgid "Opening document"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1871
+#: libs/ui/KisDocument.cpp:1873
 #, kde-format
 msgid ""
 "Could not open %2.\n"
 "Reason: %1"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1879
+#: libs/ui/KisDocument.cpp:1881
 #, kde-format
 msgid "There were problems opening %1"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:2008
+#: libs/ui/KisDocument.cpp:2010
 #, kde-format
 msgid "Not Saved"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:2482
+#: libs/ui/KisDocument.cpp:2484
 #, kde-format
 msgctxt "Name of automatically created background color fill layer"
 msgid "Background Fill"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:2538
+#: libs/ui/KisDocument.cpp:2540
 #, kde-format
 msgctxt ""
 "progress dialog message when the user closes the document that is being saved"
@@ -29775,37 +29775,37 @@ msgstr ""
 msgid "%1 (Copy)"
 msgstr ""
 
-#: libs/ui/KisViewManager.cpp:1013 libs/ui/KisViewManager.cpp:1094
+#: libs/ui/KisViewManager.cpp:1014 libs/ui/KisViewManager.cpp:1095
 #, kde-format
 msgid "Alternative names exhausted, try manually saving with a higher number"
 msgstr ""
 
-#: libs/ui/KisViewManager.cpp:1013
+#: libs/ui/KisViewManager.cpp:1014
 #, kde-format
 msgctxt "@title:window"
 msgid "Couldn't save incremental version"
 msgstr ""
 
-#: libs/ui/KisViewManager.cpp:1094
+#: libs/ui/KisViewManager.cpp:1095
 #, kde-format
 msgctxt "@title:window"
 msgid "Couldn't save incremental backup"
 msgstr ""
 
-#: libs/ui/KisViewManager.cpp:1277
+#: libs/ui/KisViewManager.cpp:1278
 #, kde-format
 msgid ""
 "Going into Canvas-Only mode.\n"
 "Press %1 to go back."
 msgstr ""
 
-#: libs/ui/KisViewManager.cpp:1317
+#: libs/ui/KisViewManager.cpp:1318
 #, kde-format
 msgctxt "@title:window resource folder"
 msgid "Open Resource Folder"
 msgstr ""
 
-#: libs/ui/KisViewManager.cpp:1320
+#: libs/ui/KisViewManager.cpp:1321
 #, kde-format
 msgctxt "@info resource folder"
 msgid ""
@@ -29820,19 +29820,19 @@ msgid ""
 "%2</p>"
 msgstr ""
 
-#: libs/ui/KisViewManager.cpp:1334
+#: libs/ui/KisViewManager.cpp:1335
 #, kde-format
 msgctxt "@action:button resource folder"
 msgid "Open in &user AppData"
 msgstr ""
 
-#: libs/ui/KisViewManager.cpp:1335
+#: libs/ui/KisViewManager.cpp:1336
 #, kde-format
 msgctxt "@action:button resource folder"
 msgid "Open in &private app location"
 msgstr ""
 
-#: libs/ui/KisViewManager.cpp:1448 libs/ui/KisViewManager.cpp:1466
+#: libs/ui/KisViewManager.cpp:1449 libs/ui/KisViewManager.cpp:1467
 #, kde-format
 msgctxt "choice for author profile"
 msgid "Anonymous"
@@ -45539,8 +45539,8 @@ msgid ""
 msgstr ""
 
 #: plugins/impex/libkra/kis_kra_load_visitor.cpp:149
-#: plugins/impex/libkra/kis_kra_loader.cpp:1025
-#: plugins/impex/libkra/kis_kra_loader.cpp:1394
+#: plugins/impex/libkra/kis_kra_loader.cpp:1024
+#: plugins/impex/libkra/kis_kra_loader.cpp:1393
 #, kde-format
 msgctxt "@title:window"
 msgid "File not found"
@@ -45673,34 +45673,34 @@ msgctxt "Warning message on loading a .kra file"
 msgid "Embedded resource cannot be imported. The filename of the resource: %1"
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:776
+#: plugins/impex/libkra/kis_kra_loader.cpp:775
 #, kde-format
 msgid ""
 "Two global selection masks in active state found. \"%1\" is kept active, "
 "\"%2\" is deactivated"
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:829
+#: plugins/impex/libkra/kis_kra_loader.cpp:828
 #, kde-format
 msgid "Layer %1 specifies an unsupported color model: %2."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:857
+#: plugins/impex/libkra/kis_kra_loader.cpp:856
 #, kde-format
 msgid "Layer %1 has an unsupported type."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:891
+#: plugins/impex/libkra/kis_kra_loader.cpp:890
 #, kde-format
 msgid "Layer %1 has an unsupported type: %2."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:898
+#: plugins/impex/libkra/kis_kra_loader.cpp:897
 #, kde-format
 msgid "Failure loading layer %1 of type: %2."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:1020
+#: plugins/impex/libkra/kis_kra_loader.cpp:1019
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -45712,7 +45712,7 @@ msgid ""
 "Do you want to locate it manually?"
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:1389
+#: plugins/impex/libkra/kis_kra_loader.cpp:1388
 #, kde-format
 msgctxt "@info"
 msgid ""
