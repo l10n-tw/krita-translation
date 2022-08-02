@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-07-27 00:44+0000\n"
+"POT-Creation-Date: 2022-08-02 00:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -19056,7 +19056,7 @@ msgstr ""
 #: libs/ui/KisRemoteFileFetcher.cpp:35 libs/ui/KisRemoteFileFetcher.cpp:56
 #: libs/ui/KisRemoteFileFetcher.cpp:86 libs/ui/KisTemplateCreateDia.cpp:284
 #: libs/ui/KisTemplateCreateDia.cpp:390 libs/ui/KisView.cpp:676
-#: libs/ui/KisView.cpp:958 libs/ui/KisWelcomePageWidget.cpp:711
+#: libs/ui/KisView.cpp:958 libs/ui/KisWelcomePageWidget.cpp:708
 #: libs/ui/opengl/KisOpenGLCanvasRenderer.cpp:320
 #: libs/ui/widgets/kis_custom_image_widget.cc:293
 #: plugins/assistants/Assistants/kis_assistant_tool.cc:1333
@@ -19067,8 +19067,8 @@ msgstr ""
 #: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:187
 #: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:214
 #: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:219
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:426
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:436
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:427
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:437
 #: plugins/extensions/imagesplit/imagesplit.cpp:74
 #: plugins/extensions/imagesplit/imagesplit.cpp:76
 #: plugins/extensions/qmic/QMic.cpp:54 plugins/extensions/qmic/QMic.cpp:79
@@ -22950,7 +22950,7 @@ msgid "Show details"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, labelNoFeed)
-#: libs/ui/forms/KisWelcomePage.ui:455 libs/ui/KisWelcomePageWidget.cpp:398
+#: libs/ui/forms/KisWelcomePage.ui:455 libs/ui/KisWelcomePageWidget.cpp:395
 #, kde-format
 msgid ""
 "You can <a href=\"ignored\" style=\"color: COLOR_PLACEHOLDER; text-"
@@ -22965,43 +22965,43 @@ msgid "Community"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, manualLink)
-#: libs/ui/forms/KisWelcomePage.ui:647 libs/ui/KisWelcomePageWidget.cpp:384
+#: libs/ui/forms/KisWelcomePage.ui:647 libs/ui/KisWelcomePageWidget.cpp:381
 #, kde-format
 msgid "User Manual"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, gettingStartedLink)
-#: libs/ui/forms/KisWelcomePage.ui:737 libs/ui/KisWelcomePageWidget.cpp:381
+#: libs/ui/forms/KisWelcomePage.ui:737 libs/ui/KisWelcomePageWidget.cpp:378
 #, kde-format
 msgid "Getting Started"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, userCommunityLink)
-#: libs/ui/forms/KisWelcomePage.ui:824 libs/ui/KisWelcomePageWidget.cpp:378
+#: libs/ui/forms/KisWelcomePage.ui:824 libs/ui/KisWelcomePageWidget.cpp:375
 #, kde-format
 msgid "User Community"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, kritaWebsiteLink)
-#: libs/ui/forms/KisWelcomePage.ui:911 libs/ui/KisWelcomePageWidget.cpp:390
+#: libs/ui/forms/KisWelcomePage.ui:911 libs/ui/KisWelcomePageWidget.cpp:387
 #, kde-format
 msgid "Krita Website"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, sourceCodeLink)
-#: libs/ui/forms/KisWelcomePage.ui:1001 libs/ui/KisWelcomePageWidget.cpp:393
+#: libs/ui/forms/KisWelcomePage.ui:1001 libs/ui/KisWelcomePageWidget.cpp:390
 #, kde-format
 msgid "Source Code"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, supportKritaLink)
-#: libs/ui/forms/KisWelcomePage.ui:1088 libs/ui/KisWelcomePageWidget.cpp:387
+#: libs/ui/forms/KisWelcomePage.ui:1088 libs/ui/KisWelcomePageWidget.cpp:384
 #, kde-format
 msgid "Support Krita"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, poweredByKDELink)
-#: libs/ui/forms/KisWelcomePage.ui:1178 libs/ui/KisWelcomePageWidget.cpp:396
+#: libs/ui/forms/KisWelcomePage.ui:1178 libs/ui/KisWelcomePageWidget.cpp:393
 #, kde-format
 msgid "Powered by KDE"
 msgstr ""
@@ -23019,7 +23019,7 @@ msgid "Start"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, devBuildLabel)
-#: libs/ui/forms/KisWelcomePage.ui:1428 libs/ui/KisWelcomePageWidget.cpp:625
+#: libs/ui/forms/KisWelcomePage.ui:1428 libs/ui/KisWelcomePageWidget.cpp:622
 #, kde-format
 msgid "DEV BUILD"
 msgstr ""
@@ -29860,22 +29860,22 @@ msgstr ""
 msgid "English news is always up to date."
 msgstr ""
 
-#: libs/ui/KisWelcomePageWidget.cpp:420
+#: libs/ui/KisWelcomePageWidget.cpp:417
 #, kde-format
 msgid "Get your Krita Supporter Badge here!"
 msgstr ""
 
-#: libs/ui/KisWelcomePageWidget.cpp:730
+#: libs/ui/KisWelcomePageWidget.cpp:727
 #, kde-format
 msgid "New version of Krita is available."
 msgstr ""
 
-#: libs/ui/KisWelcomePageWidget.cpp:759
+#: libs/ui/KisWelcomePageWidget.cpp:756
 #, kde-format
 msgid "An error occurred during the update"
 msgstr ""
 
-#: libs/ui/KisWelcomePageWidget.cpp:765
+#: libs/ui/KisWelcomePageWidget.cpp:762
 #, kde-format
 msgid "Restart is required."
 msgstr ""
@@ -38296,7 +38296,7 @@ msgstr ""
 
 #: plugins/dockers/storyboarddocker/StoryboardDelegate.cpp:137
 #: plugins/dockers/storyboarddocker/StoryboardDelegate.cpp:311
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:922
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:923
 #, kde-format
 msgctxt "suffix in spin box in storyboard that means 'seconds'"
 msgid "s"
@@ -38304,7 +38304,7 @@ msgstr ""
 
 #: plugins/dockers/storyboarddocker/StoryboardDelegate.cpp:142
 #: plugins/dockers/storyboarddocker/StoryboardDelegate.cpp:318
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:925
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:926
 #, kde-format
 msgctxt "suffix in spin box in storyboard that means 'frames'"
 msgid "f"
@@ -38348,8 +38348,8 @@ msgctxt "Remove current scene from storyboards"
 msgid "Remove Scene"
 msgstr ""
 
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:426
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:436
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:427
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:437
 #, kde-format
 msgid ""
 "Please enter correct range. There are no panels in the range of frames "
