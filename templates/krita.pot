@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-08-02 00:44+0000\n"
+"POT-Creation-Date: 2022-08-04 00:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -19397,7 +19397,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, lblBest)
 #. i18n: ectx: property (text), widget (QLabel, lblBest2)
 #. i18n: ectx: property (text), widget (QLabel, lblMaximumDegradation)
-#: libs/resources/KisTagModel.cpp:121 libs/resources/KisTagModel.cpp:299
+#: libs/resources/KisTagModel.cpp:121 libs/resources/KisTagModel.cpp:300
 #: libs/ui/widgets/kis_paintop_presets_editor.cpp:592
 #: plugins/assistants/Assistants/AssistantsToolOptions.ui:325
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:489
@@ -19408,17 +19408,17 @@ msgstr ""
 msgid "All"
 msgstr ""
 
-#: libs/resources/KisTagModel.cpp:149 libs/resources/KisTagModel.cpp:309
+#: libs/resources/KisTagModel.cpp:149 libs/resources/KisTagModel.cpp:310
 #, kde-format
 msgid "All Untagged"
 msgstr ""
 
-#: libs/resources/KisTagModel.cpp:302
+#: libs/resources/KisTagModel.cpp:303
 #, kde-format
 msgid "All Resources"
 msgstr ""
 
-#: libs/resources/KisTagModel.cpp:312
+#: libs/resources/KisTagModel.cpp:313
 #, kde-format
 msgid "All Untagged Resources"
 msgstr ""
@@ -19735,27 +19735,27 @@ msgid "Tag options"
 msgstr ""
 
 #: libs/resourcewidgets/KisTagChooserWidget.cpp:140
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:295
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:301
 #, kde-format
 msgctxt "Dialog title"
 msgid "Can't rename the tag"
 msgstr ""
 
 #: libs/resourcewidgets/KisTagChooserWidget.cpp:140
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:267
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:295
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:273
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:301
 #, kde-format
 msgctxt "Dialog message"
 msgid "You can't use this name for your custom tags."
 msgstr ""
 
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:151
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:153
 #, kde-format
 msgctxt "Dialog title"
 msgid "Remove existing tag with that name?"
 msgstr ""
 
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:153
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:155
 #, kde-format
 msgctxt ""
 "Dialog message (the arguments are both somewhat user readable nouns or "
@@ -19768,7 +19768,7 @@ msgid ""
 "Tag's unique name: %2"
 msgstr ""
 
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:255
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:261
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:112
 #, kde-format
 msgctxt ""
@@ -19777,28 +19777,28 @@ msgctxt ""
 msgid "Restore previous tag"
 msgstr ""
 
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:256
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:262
 #, kde-format
 msgctxt ""
 "Option in a dialog to use existing tag with its old assigned resources"
 msgid "Use existing tag"
 msgstr ""
 
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:258
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:264
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:109
 #, kde-format
 msgctxt "Dialog title"
 msgid "Overwrite tag?"
 msgstr ""
 
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:259
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:265
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:110
 #, kde-format
 msgctxt "Question to the user in a dialog about creating a tag"
 msgid "A tag with this unique name already exists. Do you want to replace it?"
 msgstr ""
 
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:260
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:266
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:111
 #, kde-format
 msgctxt ""
@@ -19813,7 +19813,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QToolButton, bnCancelMaskEdit)
 #. i18n: ectx: property (text), widget (QPushButton, buttonCancel)
 #. i18n: ectx: property (text), widget (QPushButton, buttonCancelExport)
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:261
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:267
 #: libs/ui/dialogs/kis_delayed_save_dialog.cpp:50
 #: libs/ui/dialogs/KisAsyncAnimationRenderDialogBase.cpp:154
 #: libs/ui/dialogs/KisRecoverNamedAutosaveDialog.ui:60
@@ -19831,7 +19831,7 @@ msgstr ""
 msgid "Cancel"
 msgstr ""
 
-#: libs/resourcewidgets/KisTagChooserWidget.cpp:267
+#: libs/resourcewidgets/KisTagChooserWidget.cpp:273
 #, kde-format
 msgctxt "Dialog title"
 msgid "Can't create the tag"
@@ -19886,63 +19886,63 @@ msgstr ""
 msgid "Undelete"
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:146
+#: libs/ui/actions/kis_selection_action_factories.cpp:149
 msgctxt "(qtundo-format)"
 msgid "Select All"
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:222
+#: libs/ui/actions/kis_selection_action_factories.cpp:225
 #: libs/ui/KisView.cpp:771
 msgctxt "(qtundo-format)"
 msgid "Flood Fill Layer"
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:376
+#: libs/ui/actions/kis_selection_action_factories.cpp:343
 msgctxt "(qtundo-format)"
 msgid "Cut"
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:377
+#: libs/ui/actions/kis_selection_action_factories.cpp:344
 msgctxt "(qtundo-format)"
 msgid "Copy"
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:462
+#: libs/ui/actions/kis_selection_action_factories.cpp:429
 msgctxt "(qtundo-format)"
 msgid "Copy Merged"
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:479
+#: libs/ui/actions/kis_selection_action_factories.cpp:446
 #, kde-format
 msgctxt "floating message"
 msgid "Selection is already in a vector format "
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:504
-#: libs/ui/actions/kis_selection_action_factories.cpp:524
+#: libs/ui/actions/kis_selection_action_factories.cpp:471
+#: libs/ui/actions/kis_selection_action_factories.cpp:491
 msgctxt "(qtundo-format)"
 msgid "Convert to Vector Selection"
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:519
+#: libs/ui/actions/kis_selection_action_factories.cpp:486
 #, kde-format
 msgctxt "floating message"
 msgid "Selection is already in a raster format "
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:565
+#: libs/ui/actions/kis_selection_action_factories.cpp:532
 #, kde-format
 msgctxt "floating message"
 msgid "The shape already belongs to a selection"
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:571
+#: libs/ui/actions/kis_selection_action_factories.cpp:538
 msgctxt "(qtundo-format)"
 msgid "Convert shapes to vector selection"
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:624
-#: libs/ui/actions/kis_selection_action_factories.cpp:683
+#: libs/ui/actions/kis_selection_action_factories.cpp:591
+#: libs/ui/actions/kis_selection_action_factories.cpp:650
 #: plugins/tools/tool_polyline/kis_tool_polyline.cc:49
 msgctxt "(qtundo-format)"
 msgid "Draw Polyline"
