@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-08-04 00:43+0000\n"
+"POT-Creation-Date: 2022-08-05 00:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -19897,52 +19897,52 @@ msgctxt "(qtundo-format)"
 msgid "Flood Fill Layer"
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:343
+#: libs/ui/actions/kis_selection_action_factories.cpp:344
 msgctxt "(qtundo-format)"
 msgid "Cut"
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:344
+#: libs/ui/actions/kis_selection_action_factories.cpp:345
 msgctxt "(qtundo-format)"
 msgid "Copy"
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:429
+#: libs/ui/actions/kis_selection_action_factories.cpp:430
 msgctxt "(qtundo-format)"
 msgid "Copy Merged"
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:446
+#: libs/ui/actions/kis_selection_action_factories.cpp:447
 #, kde-format
 msgctxt "floating message"
 msgid "Selection is already in a vector format "
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:471
-#: libs/ui/actions/kis_selection_action_factories.cpp:491
+#: libs/ui/actions/kis_selection_action_factories.cpp:472
+#: libs/ui/actions/kis_selection_action_factories.cpp:492
 msgctxt "(qtundo-format)"
 msgid "Convert to Vector Selection"
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:486
+#: libs/ui/actions/kis_selection_action_factories.cpp:487
 #, kde-format
 msgctxt "floating message"
 msgid "Selection is already in a raster format "
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:532
+#: libs/ui/actions/kis_selection_action_factories.cpp:533
 #, kde-format
 msgctxt "floating message"
 msgid "The shape already belongs to a selection"
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:538
+#: libs/ui/actions/kis_selection_action_factories.cpp:539
 msgctxt "(qtundo-format)"
 msgid "Convert shapes to vector selection"
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:591
-#: libs/ui/actions/kis_selection_action_factories.cpp:650
+#: libs/ui/actions/kis_selection_action_factories.cpp:592
+#: libs/ui/actions/kis_selection_action_factories.cpp:651
 #: plugins/tools/tool_polyline/kis_tool_polyline.cc:49
 msgctxt "(qtundo-format)"
 msgid "Draw Polyline"
@@ -29131,29 +29131,29 @@ msgid ""
 "different location."
 msgstr ""
 
-#: libs/ui/KisImportExportManager.cpp:274
+#: libs/ui/KisImportExportManager.cpp:277
 #, kde-format
 msgctxt "@title:window"
 msgid "Open Audio"
 msgstr ""
 
-#: libs/ui/KisImportExportManager.cpp:373
+#: libs/ui/KisImportExportManager.cpp:376
 #, kde-format
 msgid "Opening document..."
 msgstr ""
 
-#: libs/ui/KisImportExportManager.cpp:438
+#: libs/ui/KisImportExportManager.cpp:441
 #, kde-format
 msgid "Saving document..."
 msgstr ""
 
-#: libs/ui/KisImportExportManager.cpp:527
+#: libs/ui/KisImportExportManager.cpp:530
 #, kde-format
 msgctxt "image conversion warning"
 msgid "The image contains <b>assistants</b>. The assistants will not be saved."
 msgstr ""
 
-#: libs/ui/KisImportExportManager.cpp:530
+#: libs/ui/KisImportExportManager.cpp:533
 #, kde-format
 msgctxt "image conversion warning"
 msgid ""
@@ -29161,13 +29161,13 @@ msgid ""
 "saved."
 msgstr ""
 
-#: libs/ui/KisImportExportManager.cpp:533
+#: libs/ui/KisImportExportManager.cpp:536
 #, kde-format
 msgctxt "image conversion warning"
 msgid "The image contains <b>guides</b>. The guides will not be saved."
 msgstr ""
 
-#: libs/ui/KisImportExportManager.cpp:536
+#: libs/ui/KisImportExportManager.cpp:539
 #, kde-format
 msgctxt "image conversion warning"
 msgid ""
@@ -29175,54 +29175,54 @@ msgid ""
 "will not be saved."
 msgstr ""
 
-#: libs/ui/KisImportExportManager.cpp:541
+#: libs/ui/KisImportExportManager.cpp:544
 #, kde-format
 msgid "Error: cannot save this image as a %1."
 msgstr ""
 
-#: libs/ui/KisImportExportManager.cpp:542
-#: libs/ui/KisImportExportManager.cpp:585
+#: libs/ui/KisImportExportManager.cpp:545
+#: libs/ui/KisImportExportManager.cpp:588
 #, kde-format
 msgid "Reasons:"
 msgstr ""
 
-#: libs/ui/KisImportExportManager.cpp:550
+#: libs/ui/KisImportExportManager.cpp:553
 #, kde-format
 msgctxt "@title:window"
 msgid "Krita: Export Error"
 msgstr ""
 
-#: libs/ui/KisImportExportManager.cpp:567
+#: libs/ui/KisImportExportManager.cpp:570
 #, kde-format
 msgctxt "Keep the extra space at the end of the sentence, please"
 msgid "Warning: saving as a %1 will lose information from your image.    "
 msgstr ""
 
-#: libs/ui/KisImportExportManager.cpp:579
+#: libs/ui/KisImportExportManager.cpp:582
 #, kde-format
 msgid "You will lose information when saving this image as a %1."
 msgstr ""
 
-#: libs/ui/KisImportExportManager.cpp:582
+#: libs/ui/KisImportExportManager.cpp:585
 #, kde-format
 msgid "Reason:"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, textureOptionsTab)
-#: libs/ui/KisImportExportManager.cpp:600
+#: libs/ui/KisImportExportManager.cpp:603
 #: plugins/paintops/libpaintop/forms/wdgtexturechooser.ui:57
 #, kde-format
 msgid "Options"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, scale)
-#: libs/ui/KisImportExportManager.cpp:608
+#: libs/ui/KisImportExportManager.cpp:611
 #: plugins/impex/webp/dlg_webp_import.ui:173
 #, kde-format
 msgid "Resize"
 msgstr ""
 
-#: libs/ui/KisImportExportManager.cpp:614
+#: libs/ui/KisImportExportManager.cpp:617
 #, kde-format
 msgid "Also save your image as a Krita file."
 msgstr ""
