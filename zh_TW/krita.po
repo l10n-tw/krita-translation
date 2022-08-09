@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-08-07 00:43+0000\n"
-"PO-Revision-Date: 2022-07-22 13:31+0000\n"
+"PO-Revision-Date: 2022-08-09 16:05+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -27025,7 +27025,7 @@ msgstr "縮放過濾(&F)："
 #: libs/ui/imagesize/wdg_imagesize.ui:158 libs/widgets/KoZoomWidget.cpp:121
 #, kde-format
 msgid "Print Size"
-msgstr "列印大小"
+msgstr "列印尺寸"
 
 #. i18n: ectx: property (text), widget (QLabel, lblPrintHeight)
 #: libs/ui/imagesize/wdg_imagesize.ui:167
@@ -29161,7 +29161,7 @@ msgstr "要新增至現存檔案或新檔案的檔案圖層"
 #: libs/ui/KisApplicationArguments.cpp:99
 #, kde-format
 msgid "A location that overrides the configured location for Krita's resources"
-msgstr ""
+msgstr "指定路徑以覆寫已設定的 Krita 資源資料夾路徑選項"
 
 #: libs/ui/KisApplicationArguments.cpp:100
 #, kde-format
@@ -29848,16 +29848,12 @@ msgid "New Workspace..."
 msgstr "新作業空間…"
 
 #: libs/ui/KisMainWindow.cpp:2508
-#, fuzzy, kde-format
-#| msgctxt "@item:inmenu opened document, %1=index %2=document path"
-#| msgid "&%1 %2"
+#, kde-format
 msgid "&%1 %2"
 msgstr "&%1 %2"
 
 #: libs/ui/KisMainWindow.cpp:2511
-#, fuzzy, kde-format
-#| msgctxt "@item:inmenu opened document, %1=index %2=document path"
-#| msgid "%1 %2"
+#, kde-format
 msgid "%1 %2"
 msgstr "%1 %2"
 
@@ -34106,7 +34102,7 @@ msgstr "適合頁面高度"
 #: libs/widgets/KoZoomWidget.cpp:124
 #, kde-format
 msgid "Pixel Size"
-msgstr "像素大小"
+msgstr "像素尺寸"
 
 #: libs/widgets/KoZoomWidget.cpp:128
 #, kde-format
@@ -34114,7 +34110,7 @@ msgid ""
 "Map the displayed canvas size between pixel size or print size\n"
 "Current Mapping: %1"
 msgstr ""
-"設定畫布縮放比例為符合像素大小或列印大小。\n"
+"設定畫布縮放比例為符合像素尺寸或列印尺寸。\n"
 "目前縮放比例：%1"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, txtFileName)
@@ -37733,12 +37729,10 @@ msgid "Tree Indentation"
 msgstr "樹狀層級縮排"
 
 #: plugins/dockers/layerdocker/LayerBox.cpp:361
-#, fuzzy, kde-format
-#| msgctxt "@item:inmenu Layers Docker settings, slider"
-#| msgid "Subtitle Opacity"
+#, kde-format
 msgctxt "@item:inmenu Layers Docker settings, combobox"
 msgid "Subtitle Style"
-msgstr "副標題不透明度"
+msgstr "副標題樣式"
 
 #: plugins/dockers/layerdocker/LayerBox.cpp:363
 #, kde-format
@@ -37749,50 +37743,46 @@ msgid ""
 "Balanced: Show both opacity and blending mode if either are changed.\n"
 "Detailed: Show both opacity and blending mode even if unchanged."
 msgstr ""
+"無：不顯示。\n"
+"簡單：顯示已變更的不透明度值或混色模式。\n"
+"平衡：如不透明度值或混色模式已變更，即同時顯示兩者。\n"
+"詳細：一律顯示不透明度值和混色模式。"
 
 #: plugins/dockers/layerdocker/LayerBox.cpp:368
-#, fuzzy, kde-format
-#| msgid "None"
+#, kde-format
 msgctxt "@item:inlistbox Layer Docker subtitle style"
 msgid "None"
 msgstr "無"
 
 #: plugins/dockers/layerdocker/LayerBox.cpp:369
-#, fuzzy, kde-format
-#| msgid "Simple"
+#, kde-format
 msgctxt "@item:inlistbox Layer Docker subtitle style"
 msgid "Simple"
 msgstr "簡單"
 
 #: plugins/dockers/layerdocker/LayerBox.cpp:370
-#, fuzzy, kde-format
-#| msgid "Color Balance"
+#, kde-format
 msgctxt "@item:inlistbox Layer Docker subtitle style"
 msgid "Balanced"
-msgstr "色彩平衡"
+msgstr "平衡"
 
 #: plugins/dockers/layerdocker/LayerBox.cpp:371
-#, fuzzy, kde-format
-#| msgid "Details"
+#, kde-format
 msgctxt "@item:inlistbox Layer Docker subtitle style"
 msgid "Detailed"
-msgstr "詳細資料"
+msgstr "詳細"
 
 #: plugins/dockers/layerdocker/LayerBox.cpp:384
-#, fuzzy, kde-format
-#| msgctxt "@item:inmenu Layers Docker settings, slider"
-#| msgid "Subtitle Opacity"
+#, kde-format
 msgctxt "@item:tooltip"
 msgid "Subtitle text opacity"
 msgstr "副標題不透明度"
 
 #: plugins/dockers/layerdocker/LayerBox.cpp:402
-#, fuzzy, kde-format
-#| msgctxt "spline filtering"
-#| msgid "spline"
+#, kde-format
 msgctxt "@item:inmenu Layers Docker settings, checkbox"
 msgid "Inline"
-msgstr "樣條插值 (Spline)"
+msgstr "單行顯示"
 
 #: plugins/dockers/layerdocker/LayerBox.cpp:404
 #, kde-format
@@ -37801,6 +37791,8 @@ msgid ""
 "If enabled, show subtitles beside layer names.\n"
 "If disabled, show below layer names (when enough space)."
 msgstr ""
+"啟用時，副標題將與圖層名稱同行顯示。\n"
+"停用時，副標題將顯示於圖層名稱之下 (如空間充足)。"
 
 #: plugins/dockers/layerdocker/LayerBox.cpp:971
 msgctxt "(qtundo-format)"
