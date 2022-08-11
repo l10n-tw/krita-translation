@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-08-10 00:44+0000\n"
-"PO-Revision-Date: 2022-08-09 16:05+0000\n"
+"PO-Revision-Date: 2022-08-11 09:13+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -24943,10 +24943,9 @@ msgstr "資源目錄："
 
 #. i18n: ectx: property (text), widget (QLabel, m_lblWritableWarning)
 #: libs/ui/forms/wdggeneralsettings.ui:1476
-#, fuzzy, kde-format
-#| msgid "2. The resource location at %1 is not writable."
+#, kde-format
 msgid "Warning: this location is not writable."
-msgstr "2. 位於 %1 的資源位置無法寫入。"
+msgstr "警告：此位置無法寫入。"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgGeometryOptions)
 #: libs/ui/forms/wdggeometryoptions.ui:18
