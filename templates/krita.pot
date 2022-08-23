@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-08-19 00:43+0000\n"
+"POT-Creation-Date: 2022-08-23 00:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -27871,7 +27871,7 @@ msgstr ""
 msgid "New Filter Layer"
 msgstr ""
 
-#: libs/ui/kis_layer_manager.cc:731 libs/ui/kis_mimedata.cpp:312
+#: libs/ui/kis_layer_manager.cc:731 libs/ui/kis_mimedata.cpp:313
 #, kde-format
 msgid "Fill Layer"
 msgstr ""
@@ -31420,67 +31420,67 @@ msgstr ""
 msgid "Choose a color"
 msgstr ""
 
-#: libs/ui/widgets/gradient/KisStopGradientEditor.cpp:35
+#: libs/ui/widgets/gradient/KisStopGradientEditor.cpp:36
 #, kde-format
 msgctxt "Button to select previous stop in the stop gradient editor"
 msgid "Select previous stop"
 msgstr ""
 
-#: libs/ui/widgets/gradient/KisStopGradientEditor.cpp:39
+#: libs/ui/widgets/gradient/KisStopGradientEditor.cpp:40
 #, kde-format
 msgctxt "Button to select next stop in the stop gradient editor"
 msgid "Select next stop"
 msgstr ""
 
-#: libs/ui/widgets/gradient/KisStopGradientEditor.cpp:43
+#: libs/ui/widgets/gradient/KisStopGradientEditor.cpp:44
 #, kde-format
 msgctxt "Button to edit the selected stop color in the stop gradient editor"
 msgid "Edit stop"
 msgstr ""
 
-#: libs/ui/widgets/gradient/KisStopGradientEditor.cpp:47
+#: libs/ui/widgets/gradient/KisStopGradientEditor.cpp:48
 #, kde-format
 msgctxt "Button to delete the selected stop in the stop gradient editor"
 msgid "Delete stop"
 msgstr ""
 
-#: libs/ui/widgets/gradient/KisStopGradientEditor.cpp:51
+#: libs/ui/widgets/gradient/KisStopGradientEditor.cpp:52
 #, kde-format
 msgctxt "Button to flip the stops in the stop gradient editor"
 msgid "Flip gradient"
 msgstr ""
 
-#: libs/ui/widgets/gradient/KisStopGradientEditor.cpp:55
+#: libs/ui/widgets/gradient/KisStopGradientEditor.cpp:56
 #, kde-format
 msgctxt "Button to sort the stops by value in the stop gradient editor"
 msgid "Sort stops by value"
 msgstr ""
 
-#: libs/ui/widgets/gradient/KisStopGradientEditor.cpp:59
+#: libs/ui/widgets/gradient/KisStopGradientEditor.cpp:60
 #, kde-format
 msgctxt "Button to sort the stops by hue in the stop gradient editor"
 msgid "Sort stops by hue"
 msgstr ""
 
-#: libs/ui/widgets/gradient/KisStopGradientEditor.cpp:63
+#: libs/ui/widgets/gradient/KisStopGradientEditor.cpp:64
 #, kde-format
 msgctxt "Button to evenly distribute the stops in the stop gradient editor"
 msgid "Distribute stops evenly"
 msgstr ""
 
-#: libs/ui/widgets/gradient/KisStopGradientEditor.cpp:191
+#: libs/ui/widgets/gradient/KisStopGradientEditor.cpp:192
 #, kde-format
 msgctxt "Text that indicates the selected stop in the stop gradient editor"
 msgid "Stop #%1"
 msgstr ""
 
-#: libs/ui/widgets/gradient/KisStopGradientEditor.cpp:228
+#: libs/ui/widgets/gradient/KisStopGradientEditor.cpp:230
 #, kde-format
 msgctxt "Text that indicates no stop is selected in the stop gradient editor"
 msgid "No stop selected"
 msgstr ""
 
-#: libs/ui/widgets/gradient/KisStopGradientEditor.cpp:449
+#: libs/ui/widgets/gradient/KisStopGradientEditor.cpp:451
 #, kde-format
 msgctxt "Title for the gradient stop editor"
 msgid "Edit Stop"
