@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-09-09 00:44+0000\n"
+"POT-Creation-Date: 2022-09-14 00:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -27230,61 +27230,61 @@ msgstr ""
 msgid "Select Multiple Layer Mode"
 msgstr ""
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:244
+#: libs/ui/input/kis_shortcut_configuration.cpp:261
 #, kde-format
 msgctxt "Separator in the list of mouse buttons for shortcut"
 msgid " + "
 msgstr ""
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:249
+#: libs/ui/input/kis_shortcut_configuration.cpp:266
 #, kde-format
 msgctxt "Left Mouse Button"
 msgid "Left"
 msgstr ""
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:258
+#: libs/ui/input/kis_shortcut_configuration.cpp:275
 #, kde-format
 msgctxt "Right Mouse Button"
 msgid "Right"
 msgstr ""
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:266
+#: libs/ui/input/kis_shortcut_configuration.cpp:283
 #, kde-format
 msgctxt "Middle Mouse Button"
 msgid "Middle"
 msgstr ""
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:274
+#: libs/ui/input/kis_shortcut_configuration.cpp:291
 #, kde-format
 msgctxt "Mouse Back Button"
 msgid "Back"
 msgstr ""
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:282
+#: libs/ui/input/kis_shortcut_configuration.cpp:299
 #, kde-format
 msgctxt "Mouse Forward Button"
 msgid "Forward"
 msgstr ""
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:290
+#: libs/ui/input/kis_shortcut_configuration.cpp:307
 #, kde-format
 msgctxt "Mouse Task Button"
 msgid "Task"
 msgstr ""
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:297
+#: libs/ui/input/kis_shortcut_configuration.cpp:314
 #, kde-format
 msgctxt "Mouse Button"
 msgid "Mouse %1"
 msgstr ""
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:303
+#: libs/ui/input/kis_shortcut_configuration.cpp:320
 #, kde-format
 msgctxt "No mouse buttons for shortcut"
 msgid "None"
 msgstr ""
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:309
+#: libs/ui/input/kis_shortcut_configuration.cpp:326
 #, kde-format
 msgctxt ""
 "%1 = List of mouse buttons for shortcut. Plural form is chosen upon the "
@@ -27294,156 +27294,156 @@ msgid_plural "%1 Buttons"
 msgstr[0] ""
 msgstr[1] ""
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:321
+#: libs/ui/input/kis_shortcut_configuration.cpp:338
 #, kde-format
 msgctxt "Separator in the list of keys for shortcut"
 msgid " + "
 msgstr ""
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:326
+#: libs/ui/input/kis_shortcut_configuration.cpp:343
 #, kde-format
 msgctxt "Ctrl key"
 msgid "Ctrl"
 msgstr ""
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:330
+#: libs/ui/input/kis_shortcut_configuration.cpp:347
 #, kde-format
 msgctxt "Meta key"
 msgid "Meta"
 msgstr ""
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:334
+#: libs/ui/input/kis_shortcut_configuration.cpp:351
 #, kde-format
 msgctxt "Alt key"
 msgid "Alt"
 msgstr ""
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:338
+#: libs/ui/input/kis_shortcut_configuration.cpp:355
 #, kde-format
 msgctxt "Shift key"
 msgid "Shift"
 msgstr ""
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:350
+#: libs/ui/input/kis_shortcut_configuration.cpp:367
 #, kde-format
 msgctxt "No keys for shortcut"
 msgid "None"
 msgstr ""
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:360
+#: libs/ui/input/kis_shortcut_configuration.cpp:377
 #, kde-format
 msgid "Mouse Wheel Up"
 msgstr ""
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:364
+#: libs/ui/input/kis_shortcut_configuration.cpp:381
 #, kde-format
 msgid "Mouse Wheel Down"
 msgstr ""
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:368
+#: libs/ui/input/kis_shortcut_configuration.cpp:385
 #, kde-format
 msgid "Mouse Wheel Left"
 msgstr ""
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:372
+#: libs/ui/input/kis_shortcut_configuration.cpp:389
 #, kde-format
 msgid "Mouse Wheel Right"
 msgstr ""
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:376
+#: libs/ui/input/kis_shortcut_configuration.cpp:393
 #, kde-format
 msgid "Trackpad Pan"
 msgstr ""
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:380
+#: libs/ui/input/kis_shortcut_configuration.cpp:397
 #, kde-format
 msgctxt "No mouse wheel buttons for shortcut"
 msgid "None"
 msgstr ""
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:392
+#: libs/ui/input/kis_shortcut_configuration.cpp:409
 #, kde-format
 msgctxt "%1 = modifier keys in shortcut; %2 = mouse buttons in shortcut"
 msgid "%1 + %2"
 msgstr ""
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:408
+#: libs/ui/input/kis_shortcut_configuration.cpp:425
 #, kde-format
 msgctxt "%1 = modifier keys in shortcut; %2 = mouse wheel buttons in shortcut"
 msgid "%1 + %2"
 msgstr ""
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:422
+#: libs/ui/input/kis_shortcut_configuration.cpp:439
 #, kde-format
 msgid "Pinch Gesture"
 msgstr ""
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:424
+#: libs/ui/input/kis_shortcut_configuration.cpp:441
 #, kde-format
 msgid "Pan Gesture"
 msgstr ""
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:426
+#: libs/ui/input/kis_shortcut_configuration.cpp:443
 #, kde-format
 msgid "Rotate Gesture"
 msgstr ""
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:428
+#: libs/ui/input/kis_shortcut_configuration.cpp:445
 #, kde-format
 msgid "Smart Zoom Gesture"
 msgstr ""
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:431
+#: libs/ui/input/kis_shortcut_configuration.cpp:448
 #, kde-format
 msgid "One Finger Tap"
 msgstr ""
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:433
+#: libs/ui/input/kis_shortcut_configuration.cpp:450
 #, kde-format
 msgid "Two Finger Tap"
 msgstr ""
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:435
+#: libs/ui/input/kis_shortcut_configuration.cpp:452
 #, kde-format
 msgid "Three Finger Tap"
 msgstr ""
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:437
+#: libs/ui/input/kis_shortcut_configuration.cpp:454
 #, kde-format
 msgid "Four Finger Tap"
 msgstr ""
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:439
+#: libs/ui/input/kis_shortcut_configuration.cpp:456
 #, kde-format
 msgid "Five Finger Tap"
 msgstr ""
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:441
+#: libs/ui/input/kis_shortcut_configuration.cpp:458
 #, kde-format
 msgid "One Finger Drag"
 msgstr ""
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:443
+#: libs/ui/input/kis_shortcut_configuration.cpp:460
 #, kde-format
 msgid "Two Finger Drag"
 msgstr ""
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:445
+#: libs/ui/input/kis_shortcut_configuration.cpp:462
 #, kde-format
 msgid "Three Finger Drag"
 msgstr ""
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:447
+#: libs/ui/input/kis_shortcut_configuration.cpp:464
 #, kde-format
 msgid "Four Finger Drag"
 msgstr ""
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:449
+#: libs/ui/input/kis_shortcut_configuration.cpp:466
 #, kde-format
 msgid "Five Finger Drag"
 msgstr ""
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:452
+#: libs/ui/input/kis_shortcut_configuration.cpp:469
 #, kde-format
 msgid "No Gesture"
 msgstr ""
