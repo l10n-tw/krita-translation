@@ -58615,62 +58615,48 @@ msgctxt "action"
 msgid "Reference Images Tool"
 msgstr "參考圖工具"
 
-#, kde-format
 #~ msgid "Lossless compression"
 #~ msgstr "無損壓縮"
 
-#, kde-format
 #~ msgid "Information"
 #~ msgstr "資訊"
 
-#, kde-format
 #~ msgid "Flip vertically"
 #~ msgstr "垂直翻轉"
 
-#, kde-format
 #~ msgid "Bypass filtering"
 #~ msgstr "跳過過濾"
 
-#, kde-format
 #~ msgid "Use faster pointwise upsampling"
 #~ msgstr "使用較快的逐點式上升採樣"
 
-#, kde-format
 #~ msgid "Use multithreaded decoding"
 #~ msgstr "使用多執行緒解碼"
 
-#, kde-format
 #~ msgid "Color planes: "
 #~ msgstr "色彩通道平面："
 
-#, kde-format
 #~ msgid "Alpha plane: "
 #~ msgstr "Alpha 通道平面："
 
-#, kde-format
 #~ msgid "Cache Location:"
 #~ msgstr "快取位置："
 
-#, kde-format
 #~ msgctxt "@item:inmenu Layers Docker settings, checkbox"
 #~ msgid "Display Subtitles"
 #~ msgstr "顯示副標題"
 
-#, kde-format
 #~ msgctxt "@item:tooltip"
 #~ msgid "Layer opacity and blending mode"
 #~ msgstr "圖層不透明度及混色模式"
 
-#, kde-format
 #~ msgctxt "@item:inmenu Layers Docker settings, checkbox"
 #~ msgid "Inline Subtitles"
 #~ msgstr "行內副標題"
 
-#, kde-format
 #~ msgid "Cannot sample a color as no layer is active."
 #~ msgstr "無法取樣色彩，因為沒有使用中的圖層。"
 
-#, kde-format
 #~ msgid "Cannot sample a color as the active layer is not visible."
 #~ msgstr "無法取樣色彩，因為使用中圖層不可見。"
 
