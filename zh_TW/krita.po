@@ -17535,8 +17535,9 @@ msgid ""
 "The image is animated with a frame duration in <b>fractions of a "
 "millisecond</b>. The format cannot represent this, and the frame duration "
 "will be rounded to the nearest millisecond."
-msgstr "此影像包含了影格時長為<b>非整數毫秒</b>的動畫。目標檔案格式不能表達此影格時長"
-"，因此影格時長將會被四捨五入至最近毫秒。"
+msgstr ""
+"此影像包含了影格時長為<b>非整數毫秒</b>的動畫。目標檔案格式不能表達此影格時"
+"長，因此影格時長將會被四捨五入至最近毫秒。"
 
 #: libs/impex/KisExportCheckRegistry.cpp:104 libs/ui/kis_layer_manager.cc:647
 #, kde-format
@@ -24007,8 +24008,8 @@ msgid ""
 "<html><head/><body><p>This should be enabled if you see any artifacts while "
 "using assistants.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>如使用輔助尺時出現畫布繪製問題 "
-"(例如黑色方塊)，應啟用此選項。</p></body></html>"
+"<html><head/><body><p>如使用輔助尺時出現畫布繪製問題 (例如黑色方塊)，應啟用此"
+"選項。</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkLargePixmapCache)
 #: libs/ui/forms/wdgdisplaysettings.ui:235
@@ -31460,7 +31461,8 @@ msgstr ""
 msgid ""
 "Shape selection does not fully support wraparound mode. Please use pixel "
 "selection instead"
-msgstr "形狀選取區域工具在連續環繞模式下不能完全正常運作，請改用像素選取區域工具"
+msgstr ""
+"形狀選取區域工具在連續環繞模式下不能完全正常運作，請改用像素選取區域工具"
 
 #: libs/ui/tool/kis_selection_tool_helper.cpp:346
 #, kde-format
