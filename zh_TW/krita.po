@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-09-14 00:43+0000\n"
-"PO-Revision-Date: 2022-08-11 09:13+0000\n"
+"PO-Revision-Date: 2022-09-14 10:25+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -12598,11 +12598,9 @@ msgid "&View"
 msgstr "檢視(&V)"
 
 #: krita/krita5.xmlgui:86
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Wrap Around Mode"
+#, kde-format
 msgid "Wrap Around Mode Direction"
-msgstr "四方連續環繞模式"
+msgstr "連續環繞模式方向"
 
 #: krita/krita5.xmlgui:96
 #, kde-format
@@ -13649,7 +13647,7 @@ msgstr "在獨立視窗顯示畫布"
 #, kde-format
 msgctxt "action"
 msgid "&Wrap Around Mode"
-msgstr "四方連續環繞模式(&W)"
+msgstr "連續環繞模式(&W)"
 
 #. i18n: context: toolTip @ Action (wrap_around_mode), Actions (View), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (wrap_around_mode), Actions (View), ActionCollection (Menu)
@@ -13659,7 +13657,7 @@ msgstr "四方連續環繞模式(&W)"
 #, kde-format
 msgctxt "action"
 msgid "Wrap Around Mode"
-msgstr "四方連續環繞模式"
+msgstr "連續環繞模式"
 
 #. i18n: context: text @ Action (wrap_around_hv_axis), Actions (View), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (wrap_around_hv_axis), Actions (View), ActionCollection (Menu)
@@ -13669,12 +13667,10 @@ msgstr "四方連續環繞模式"
 #. i18n: context: iconText @ Action (wrap_around_hv_axis), Actions (View), ActionCollection (Menu)
 #: krita/kritamenu.action:664 krita/kritamenu.action:666
 #: krita/kritamenu.action:667
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Wrap Around Mode"
+#, kde-format
 msgctxt "action"
 msgid "Wrap Around Both Directions"
-msgstr "四方連續環繞模式"
+msgstr "四方連續環繞"
 
 #. i18n: context: text @ Action (wrap_around_h_axis), Actions (View), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (wrap_around_h_axis), Actions (View), ActionCollection (Menu)
@@ -13684,12 +13680,10 @@ msgstr "四方連續環繞模式"
 #. i18n: context: iconText @ Action (wrap_around_h_axis), Actions (View), ActionCollection (Menu)
 #: krita/kritamenu.action:676 krita/kritamenu.action:678
 #: krita/kritamenu.action:679
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Mirror Horizontally"
+#, kde-format
 msgctxt "action"
 msgid "Wrap Around Horizontally"
-msgstr "水平翻轉"
+msgstr "水平連續環繞"
 
 #. i18n: context: text @ Action (wrap_around_v_axis), Actions (View), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (wrap_around_v_axis), Actions (View), ActionCollection (Menu)
@@ -13699,12 +13693,10 @@ msgstr "水平翻轉"
 #. i18n: context: iconText @ Action (wrap_around_v_axis), Actions (View), ActionCollection (Menu)
 #: krita/kritamenu.action:688 krita/kritamenu.action:690
 #: krita/kritamenu.action:691
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Mirror Vertically"
+#, kde-format
 msgctxt "action"
 msgid "Wrap Around Vertically"
-msgstr "垂直翻轉"
+msgstr "垂直連續環繞"
 
 #. i18n: context: text @ Action (level_of_detail_mode), Actions (View), ActionCollection (Menu)
 #: krita/kritamenu.action:700
@@ -17206,7 +17198,7 @@ msgstr "反鋸齒化選取區域"
 #: libs/image/kis_selection_filters.cpp:1169
 msgctxt "(qtundo-format)"
 msgid "Grow Selection Until Darkest Pixel"
-msgstr ""
+msgstr "擴大選取區域至最暗的像素"
 
 #: libs/image/kis_switch_time_stroke_strategy.cpp:32
 msgctxt "(qtundo-format)"
@@ -17543,7 +17535,8 @@ msgid ""
 "The image is animated with a frame duration in <b>fractions of a "
 "millisecond</b>. The format cannot represent this, and the frame duration "
 "will be rounded to the nearest millisecond."
-msgstr ""
+msgstr "此影像包含了影格時長為<b>非整數毫秒</b>的動畫。目標檔案格式不能表達此影格時長"
+"，因此影格時長將會被四捨五入至最近毫秒。"
 
 #: libs/impex/KisExportCheckRegistry.cpp:104 libs/ui/kis_layer_manager.cc:647
 #, kde-format
@@ -21784,7 +21777,7 @@ msgid ""
 "You are activating wrap-around mode, but have not enabled OpenGL.\n"
 "To visualize wrap-around mode, enable OpenGL."
 msgstr ""
-"您已進入四方連續環繞模式，但 OpenGL 未被啟用。\n"
+"您已進入連續環繞模式，但 OpenGL 未被啟用。\n"
 "啟用 OpenGL 後影像環繞模式的效果才能顯示。"
 
 #: libs/ui/canvas/kis_canvas_controller.cpp:340
@@ -24009,21 +24002,19 @@ msgstr "目前繪製器："
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkLargePixmapCache)
 #: libs/ui/forms/wdgdisplaysettings.ui:232
-#, fuzzy, kde-format
-#| msgid ""
-#| "<html><head/><body><p>Use the tilt of the tablet to determine the normals."
-#| "</p></body></html>"
+#, kde-format
 msgid ""
 "<html><head/><body><p>This should be enabled if you see any artifacts while "
 "using assistants.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>使用數位板的壓感筆傾斜度決定法線。</p></body></html>"
+"<html><head/><body><p>如使用輔助尺時出現畫布繪製問題 "
+"(例如黑色方塊)，應啟用此選項。</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkLargePixmapCache)
 #: libs/ui/forms/wdgdisplaysettings.ui:235
 #, kde-format
 msgid "Use large pixmap cache"
-msgstr ""
+msgstr "使用加大 pixmap 影像快取"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tabHDR)
 #: libs/ui/forms/wdgdisplaysettings.ui:249
@@ -31469,8 +31460,7 @@ msgstr ""
 msgid ""
 "Shape selection does not fully support wraparound mode. Please use pixel "
 "selection instead"
-msgstr ""
-"形狀選取區域工具在四方連續環繞模式下不能完全正常運作，請改用像素選取區域工具"
+msgstr "形狀選取區域工具在連續環繞模式下不能完全正常運作，請改用像素選取區域工具"
 
 #: libs/ui/tool/kis_selection_tool_helper.cpp:346
 #, kde-format
@@ -33096,7 +33086,7 @@ msgstr "按數值擴張或收縮選取區域 (正數為擴張，負數為收縮)
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:456
 #, kde-format
 msgid "Stop growing at the darkest and/or most opaque pixels"
-msgstr ""
+msgstr "當到達最暗或最不透明的像素時停止擴大"
 
 #: libs/ui/widgets/kis_selection_options.cc:240
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:410
@@ -48462,10 +48452,9 @@ msgstr "隨機抖色 (Pseudo-random dithering)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, haveAnimation)
 #: plugins/impex/webp/kis_wdg_options_webp.ui:37
-#, fuzzy, kde-format
-#| msgid "Save as animated JPEG-XL"
+#, kde-format
 msgid "Save as animated WebP"
-msgstr "以動畫 JPEG-XL 儲存"
+msgstr "以動畫 WebP 儲存"
 
 #. i18n: ectx: property (text), widget (QLabel, lblPreset)
 #: plugins/impex/webp/kis_wdg_options_webp.ui:50
@@ -48887,9 +48876,7 @@ msgstr "品質上限"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
 #: plugins/impex/webp/kis_wdg_options_webp.ui:829
-#, fuzzy, kde-format
-#| msgctxt "JPEG metadata filter"
-#| msgid "Filters:"
+#, kde-format
 msgctxt "WebP metadata options"
 msgid "Filters:"
 msgstr "過濾工具："
@@ -51507,18 +51494,14 @@ msgid "Direction Filter"
 msgstr "方向過濾"
 
 #: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:71
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Snap Pixel"
+#, kde-format
 msgid "Snap To Pixel"
-msgstr "吸附像素"
+msgstr "吸附到像素"
 
 #: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:78
-#, fuzzy, kde-format
-#| msgctxt "Context: dynamic sensors"
-#| msgid "PressureIn"
+#, kde-format
 msgid "Pressure Gain"
-msgstr "壓力 (最大值)"
+msgstr "壓力增強"
 
 #: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:85
 #, kde-format
@@ -51576,10 +51559,9 @@ msgid "Offset By Speed"
 msgstr "依速度偏移"
 
 #: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:140
-#, fuzzy, kde-format
-#| msgid "Offset By Speed"
+#, kde-format
 msgid "Offset by Speed Filter"
-msgstr "依速度偏移"
+msgstr "依速度偏移過濾器"
 
 #: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:146
 #, kde-format
@@ -51587,10 +51569,9 @@ msgid "Offset By Random"
 msgstr "隨機偏移"
 
 #: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:152
-#, fuzzy, kde-format
-#| msgid "Dabs Per Actual Radius"
+#, kde-format
 msgid "Dabs Per Basic Radius"
-msgstr "每實際半徑的印跡數目"
+msgstr "每基本半徑的印跡數目"
 
 #: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:158
 #, kde-format
@@ -54962,10 +54943,9 @@ msgid "Contiguous region obtained from the layers"
 msgstr "從圖層檢取連續區域"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:557
-#, fuzzy, kde-format
-#| msgid "Fill only regions similar in color to the initial region"
+#, kde-format
 msgid "All the regions similar to the pixel you clicked on"
-msgstr "只填充與起始區域相似色彩的區域"
+msgstr "所有與所點選像素相似的區域"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:562
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:445
@@ -54983,20 +54963,19 @@ msgstr "設定圖案的旋轉角度"
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:391
 #, kde-format
 msgid "Select pixels similar to the one you clicked on"
-msgstr ""
+msgstr "選取與所點選像素相似的像素"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:566
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:393
 #, kde-format
 msgid "Select all pixels until a specific boundary color"
-msgstr ""
+msgstr "選取所有像素直至指定的邊界色彩"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:567
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:394
-#, fuzzy, kde-format
-#| msgid "Background color"
+#, kde-format
 msgid "Boundary color"
-msgstr "背景色"
+msgstr "邊界色彩"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:568
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:448
