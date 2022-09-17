@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-09-16 00:42+0000\n"
+"POT-Creation-Date: 2022-09-17 00:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -12643,21 +12643,21 @@ msgstr ""
 msgid "Import"
 msgstr ""
 
-#: krita/krita5.xmlgui:221 plugins/dockers/layerdocker/LayerBox.cpp:1224
+#: krita/krita5.xmlgui:221 plugins/dockers/layerdocker/LayerBox.cpp:1230
 #, kde-format
 msgid "&Convert"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, bnSelect)
 #: krita/krita5.xmlgui:232 krita/krita5.xmlgui:303 libs/ui/imagesize/imagesize.xmlgui:12
-#: plugins/dockers/layerdocker/LayerBox.cpp:1198
+#: plugins/dockers/layerdocker/LayerBox.cpp:1204
 #: plugins/extensions/colorrange/wdg_colorrange.ui:134
 #: plugins/extensions/modify_selection/modify_selection.xmlgui:4
 #, kde-format
 msgid "&Select"
 msgstr ""
 
-#: krita/krita5.xmlgui:240 plugins/dockers/layerdocker/LayerBox.cpp:1204
+#: krita/krita5.xmlgui:240 plugins/dockers/layerdocker/LayerBox.cpp:1210
 #, kde-format
 msgctxt "A group of layers"
 msgid "&Group"
@@ -12678,7 +12678,7 @@ msgstr ""
 msgid "S&plit"
 msgstr ""
 
-#: krita/krita5.xmlgui:280 plugins/dockers/layerdocker/LayerBox.cpp:1231
+#: krita/krita5.xmlgui:280 plugins/dockers/layerdocker/LayerBox.cpp:1237
 #, kde-format
 msgid "S&plit Alpha"
 msgstr ""
@@ -15614,65 +15614,65 @@ msgid ""
 "the tablet driver is properly installed."
 msgstr ""
 
-#: libs/basicflakes/tools/KoCreatePathTool.cpp:544
+#: libs/basicflakes/tools/KoCreatePathTool.cpp:542
 #, kde-format
 msgid "Path options"
 msgstr ""
 
-#: libs/basicflakes/tools/KoCreatePathTool.cpp:546
+#: libs/basicflakes/tools/KoCreatePathTool.cpp:544
 #, kde-format
 msgid "Autosmooth curve"
 msgstr ""
 
-#: libs/basicflakes/tools/KoCreatePathTool.cpp:550
+#: libs/basicflakes/tools/KoCreatePathTool.cpp:548
 #, kde-format
 msgid "Activate angle snap"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblPrecision)
-#: libs/basicflakes/tools/KoPencilTool.cpp:299
+#: libs/basicflakes/tools/KoPencilTool.cpp:297
 #: plugins/paintops/libpaintop/forms/wdgbrushchooser.ui:105
 #, kde-format
 msgid "Precision:"
 msgstr ""
 
-#: libs/basicflakes/tools/KoPencilTool.cpp:301
+#: libs/basicflakes/tools/KoPencilTool.cpp:299
 #, kde-format
 msgctxt "The raw line data"
 msgid "Raw"
 msgstr ""
 
-#: libs/basicflakes/tools/KoPencilTool.cpp:302
+#: libs/basicflakes/tools/KoPencilTool.cpp:300
 #: plugins/flake/pathshapes/spiral/SpiralShapeConfigWidget.cpp:16
 #: plugins/paintops/curvebrush/curve_paintop_plugin.cpp:29
 #, kde-format
 msgid "Curve"
 msgstr ""
 
-#: libs/basicflakes/tools/KoPencilTool.cpp:303
+#: libs/basicflakes/tools/KoPencilTool.cpp:301
 #, kde-format
 msgid "Straight"
 msgstr ""
 
-#: libs/basicflakes/tools/KoPencilTool.cpp:312
-#: libs/basicflakes/tools/KoPencilTool.cpp:318
+#: libs/basicflakes/tools/KoPencilTool.cpp:310
+#: libs/basicflakes/tools/KoPencilTool.cpp:316
 #, kde-format
 msgid "Optimize"
 msgstr ""
 
-#: libs/basicflakes/tools/KoPencilTool.cpp:324
+#: libs/basicflakes/tools/KoPencilTool.cpp:322
 #, kde-format
 msgid "Exactness:"
 msgstr ""
 
-#: libs/basicflakes/tools/KoPencilTool.cpp:357
-#: libs/basicflakes/tools/KoPencilTool.cpp:358
+#: libs/basicflakes/tools/KoPencilTool.cpp:355
+#: libs/basicflakes/tools/KoPencilTool.cpp:356
 #, kde-format
 msgid "Pencil"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, shapeCBox)
-#: libs/basicflakes/tools/KoPencilTool.cpp:363
+#: libs/basicflakes/tools/KoPencilTool.cpp:361
 #: plugins/flake/pathshapes/spiral/SpiralShapeConfigWidget.cpp:17
 #: plugins/paintops/gridbrush/wdggridbrushshapeoptions.ui:51
 #, kde-format
@@ -16004,7 +16004,7 @@ msgstr ""
 msgid "Cannot save %1 to html"
 msgstr ""
 
-#: libs/flake/KoMarkerCollection.cpp:67 libs/flake/resources/KoSvgSymbolCollectionResource.cpp:126
+#: libs/flake/KoMarkerCollection.cpp:67 libs/flake/resources/KoSvgSymbolCollectionResource.cpp:123
 #: libs/ui/flake/kis_shape_layer.cc:560
 #, kde-format
 msgid ""
@@ -16041,25 +16041,25 @@ msgid ""
 "longer be compatible with Krita 4.x"
 msgstr ""
 
-#: libs/flake/text/KoSvgTextShape.cpp:571
+#: libs/flake/text/KoSvgTextShape.cpp:566
 #, kde-format
 msgctxt "Text label in SVG Text Tool"
 msgid "Text"
 msgstr ""
 
-#: libs/flake/text/KoSvgTextShape.cpp:573
-#: libs/flake/text/KoSvgTextShape.cpp:581
+#: libs/flake/text/KoSvgTextShape.cpp:568
+#: libs/flake/text/KoSvgTextShape.cpp:576
 #, kde-format
 msgid "SVG Text Shape"
 msgstr ""
 
-#: libs/flake/text/KoSvgTextShape.cpp:579
+#: libs/flake/text/KoSvgTextShape.cpp:574
 #, kde-format
 msgid "SVG Text"
 msgstr ""
 
-#: libs/flake/text/KoSvgTextShape.cpp:593
-#: libs/flake/text/KoSvgTextShape.cpp:608
+#: libs/flake/text/KoSvgTextShape.cpp:588
+#: libs/flake/text/KoSvgTextShape.cpp:603
 #, kde-format
 msgctxt "Default text for the text shape"
 msgid "<text>Placeholder Text</text>"
@@ -16457,7 +16457,7 @@ msgstr ""
 #: plugins/paintops/spray/kis_spray_shape_option.cpp:122
 #: plugins/paintops/spray/kis_spray_shape_option.cpp:124
 #: plugins/paintops/spray/kis_sprayop_option.cpp:32
-#: plugins/tools/basictools/kis_tool_brush.cc:391
+#: plugins/tools/basictools/kis_tool_brush.cc:390
 #: plugins/tools/basictools/kis_tool_fill.cc:517
 #: plugins/tools/basictools/kis_tool_fill.cc:528
 #: plugins/tools/basictools/kis_tool_movetooloptionswidget.cpp:51
@@ -16485,8 +16485,8 @@ msgstr ""
 #: libs/image/brushengine/kis_standard_uniform_properties_factory.h:19
 #: libs/image/kis_keyframe_channel.cpp:26
 #: libs/image/kis_layer.cc:276 libs/widgets/KoColorPopupAction.cpp:85
-#: plugins/dockers/layerdocker/LayerBox.cpp:201
-#: plugins/dockers/layerdocker/LayerBox.cpp:382
+#: plugins/dockers/layerdocker/LayerBox.cpp:207
+#: plugins/dockers/layerdocker/LayerBox.cpp:388
 #: plugins/paintops/hairy/wdghairyeoptions.ui:301
 #: plugins/paintops/hairy/wdgInkOptions.ui:62
 #: plugins/paintops/libpaintop/kis_pressure_flow_opacity_option.cpp:19
@@ -17889,7 +17889,7 @@ msgid "Invalid value."
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, alphaGroupBox)
-#: libs/pigment/colorspaces/KoAlphaColorSpace.cpp:78
+#: libs/pigment/colorspaces/KoAlphaColorSpace.cpp:79
 #: libs/pigment/colorspaces/KoLabColorSpace.cpp:36
 #: libs/pigment/colorspaces/KoRgbU8ColorSpace.cpp:38
 #: plugins/color/lcms2engine/colorspaces/cmyk_f32/CmykF32ColorSpace.cpp:31
@@ -19269,7 +19269,7 @@ msgstr ""
 #: libs/resources/KisResourceModel.cpp:135
 #: libs/ui/imagesize/imagesize.xmlgui:4 plugins/extensions/imagesplit/imagesplit.xmlgui:4
 #: plugins/extensions/separate_channels/imageseparate.xmlgui:4
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:404
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:401
 #: plugins/paintops/spray/wdgsprayshapeoptions.ui:90
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:400
 #, kde-format
@@ -19345,7 +19345,7 @@ msgstr ""
 
 #: libs/resources/KisResourceStorage.h:128
 #: plugins/extensions/metadataeditor/kis_meta_data_model.cpp:47
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:400
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:397
 #, kde-format
 msgid "Invalid"
 msgstr ""
@@ -19645,7 +19645,7 @@ msgid "Storage Resources"
 msgstr ""
 
 #: libs/resourcewidgets/KisResourceItemChooser.cpp:230
-#: libs/ui/KisMainWindow.cpp:2496 plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:612
+#: libs/ui/KisMainWindow.cpp:2496 plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:609
 #, kde-format
 msgctxt "@title:window"
 msgid "Choose File to Add"
@@ -22072,8 +22072,8 @@ msgstr ""
 #: libs/widgets/kis_color_input.cpp:147 libs/widgets/kis_color_input.cpp:190
 #: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:246
 #: plugins/dockers/animation/KisOnionSkinsDocker.cpp:47
-#: plugins/dockers/layerdocker/LayerBox.cpp:204
-#: plugins/dockers/layerdocker/LayerBox.cpp:383
+#: plugins/dockers/layerdocker/LayerBox.cpp:210
+#: plugins/dockers/layerdocker/LayerBox.cpp:389
 #: plugins/filters/halftone/KisHalftoneConfigPageWidget.cpp:47
 #: plugins/filters/halftone/KisHalftoneConfigPageWidget.cpp:51
 #: plugins/filters/halftone/KisHalftoneConfigPageWidget.cpp:54
@@ -25314,7 +25314,7 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, grpClipboard)
 #. i18n: ectx: property (text), widget (QPushButton, clipboardButton)
 #: libs/ui/forms/wdgnewimage.ui:284 plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:94
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:366
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:363
 #, kde-format
 msgid "Clipboard"
 msgstr ""
@@ -27946,7 +27946,7 @@ msgstr ""
 msgid "New Filter Layer"
 msgstr ""
 
-#: libs/ui/kis_layer_manager.cc:731 libs/ui/kis_mimedata.cpp:313
+#: libs/ui/kis_layer_manager.cc:731 libs/ui/kis_mimedata.cpp:314
 #, kde-format
 msgid "Fill Layer"
 msgstr ""
@@ -28259,8 +28259,8 @@ msgstr ""
 msgid "Brush composite"
 msgstr ""
 
-#: libs/ui/kis_paintop_box.cc:1286 libs/ui/kis_paintop_box.cc:1308
-#: libs/ui/kis_paintop_box.cc:1322
+#: libs/ui/kis_paintop_box.cc:1290 libs/ui/kis_paintop_box.cc:1312
+#: libs/ui/kis_paintop_box.cc:1326
 #, kde-format
 msgid ""
 "%1\n"
@@ -28494,7 +28494,7 @@ msgstr ""
 msgid "Ants"
 msgstr ""
 
-#: libs/ui/kis_statusbar.cc:380 plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:402
+#: libs/ui/kis_statusbar.cc:380 plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:399
 #, kde-format
 msgid "Mask"
 msgstr ""
@@ -37057,42 +37057,42 @@ msgstr ""
 msgid "Undo History"
 msgstr ""
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:158
+#: plugins/dockers/layerdocker/LayerBox.cpp:159
 #: plugins/python/comics_project_management_tools/comics_export_dialog.py:249
 #, kde-format
 msgid "Layers"
 msgstr ""
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:244
+#: plugins/dockers/layerdocker/LayerBox.cpp:250
 #, kde-format
 msgid "&Show Global Selection Mask"
 msgstr ""
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:247
+#: plugins/dockers/layerdocker/LayerBox.cpp:253
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
 "Shows global selection as a usual selection mask in <b>Layers</b> docker"
 msgstr ""
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:310
+#: plugins/dockers/layerdocker/LayerBox.cpp:316
 #, kde-format
 msgid "Thumbnail Size"
 msgstr ""
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:338
+#: plugins/dockers/layerdocker/LayerBox.cpp:344
 #, kde-format
 msgctxt "@item:inmenu Layers Docker settings, slider"
 msgid "Tree Indentation"
 msgstr ""
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:361
+#: plugins/dockers/layerdocker/LayerBox.cpp:367
 #, kde-format
 msgctxt "@item:inmenu Layers Docker settings, combobox"
 msgid "Subtitle Style"
 msgstr ""
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:363
+#: plugins/dockers/layerdocker/LayerBox.cpp:369
 #, kde-format
 msgctxt "@item:tooltip"
 msgid ""
@@ -37102,43 +37102,43 @@ msgid ""
 "Detailed: Show both opacity and blending mode even if unchanged."
 msgstr ""
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:368
+#: plugins/dockers/layerdocker/LayerBox.cpp:374
 #, kde-format
 msgctxt "@item:inlistbox Layer Docker subtitle style"
 msgid "None"
 msgstr ""
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:369
+#: plugins/dockers/layerdocker/LayerBox.cpp:375
 #, kde-format
 msgctxt "@item:inlistbox Layer Docker subtitle style"
 msgid "Simple"
 msgstr ""
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:370
+#: plugins/dockers/layerdocker/LayerBox.cpp:376
 #, kde-format
 msgctxt "@item:inlistbox Layer Docker subtitle style"
 msgid "Balanced"
 msgstr ""
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:371
+#: plugins/dockers/layerdocker/LayerBox.cpp:377
 #, kde-format
 msgctxt "@item:inlistbox Layer Docker subtitle style"
 msgid "Detailed"
 msgstr ""
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:384
+#: plugins/dockers/layerdocker/LayerBox.cpp:390
 #, kde-format
 msgctxt "@item:tooltip"
 msgid "Subtitle text opacity"
 msgstr ""
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:402
+#: plugins/dockers/layerdocker/LayerBox.cpp:408
 #, kde-format
 msgctxt "@item:inmenu Layers Docker settings, checkbox"
 msgid "Inline"
 msgstr ""
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:404
+#: plugins/dockers/layerdocker/LayerBox.cpp:410
 #, kde-format
 msgctxt "@item:tooltip"
 msgid ""
@@ -37146,28 +37146,28 @@ msgid ""
 "If disabled, show below layer names (when enough space)."
 msgstr ""
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:971
+#: plugins/dockers/layerdocker/LayerBox.cpp:977
 msgctxt "(qtundo-format)"
 msgid "Quick Selection Mask"
 msgstr ""
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:993
+#: plugins/dockers/layerdocker/LayerBox.cpp:999
 msgctxt "(qtundo-format)"
 msgid "Cancel Quick Selection Mask"
 msgstr ""
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:1208
+#: plugins/dockers/layerdocker/LayerBox.cpp:1214
 #, kde-format
 msgid "&Toggle Locks && Visibility"
 msgstr ""
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:1215
-#: plugins/dockers/layerdocker/LayerBox.cpp:1236
+#: plugins/dockers/layerdocker/LayerBox.cpp:1221
+#: plugins/dockers/layerdocker/LayerBox.cpp:1242
 #, kde-format
 msgid "&Add"
 msgstr ""
 
-#: plugins/dockers/layerdocker/NodeDelegate.cpp:1228
+#: plugins/dockers/layerdocker/NodeDelegate.cpp:1224
 #, kde-format
 msgid "%1 %"
 msgstr ""
@@ -38442,14 +38442,14 @@ msgid "Freeze Keyframe Data"
 msgstr ""
 
 #: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:236
-#: plugins/dockers/storyboarddocker/StoryboardView.cpp:283
+#: plugins/dockers/storyboarddocker/StoryboardView.cpp:290
 #, kde-format
 msgctxt "Add new scene as the last storyboard"
 msgid "Add Scene"
 msgstr ""
 
 #: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:252
-#: plugins/dockers/storyboarddocker/StoryboardView.cpp:302
+#: plugins/dockers/storyboarddocker/StoryboardView.cpp:309
 #, kde-format
 msgctxt "Remove current scene from storyboards"
 msgid "Remove Scene"
@@ -38469,19 +38469,19 @@ msgctxt "default name for storyboard item"
 msgid "scene "
 msgstr ""
 
-#: plugins/dockers/storyboarddocker/StoryboardView.cpp:290
+#: plugins/dockers/storyboarddocker/StoryboardView.cpp:297
 #, kde-format
 msgctxt "Add scene after active scene"
 msgid "Add Scene After"
 msgstr ""
 
-#: plugins/dockers/storyboarddocker/StoryboardView.cpp:292
+#: plugins/dockers/storyboarddocker/StoryboardView.cpp:299
 #, kde-format
 msgctxt "Add scene before active scene"
 msgid "Add Scene Before"
 msgstr ""
 
-#: plugins/dockers/storyboarddocker/StoryboardView.cpp:295
+#: plugins/dockers/storyboarddocker/StoryboardView.cpp:302
 #, kde-format
 msgctxt "Duplicate current scene from storyboard docker"
 msgid "Duplicate Scene"
@@ -42283,7 +42283,7 @@ msgstr ""
 #. i18n: ectx: property (windowTitle), widget (QWidget, GradientMapFilterConfigWidget)
 #: plugins/filters/gradientmap/KisGradientMapFilter.h:27
 #: plugins/filters/gradientmap/KisGradientMapFilterConfigWidget.ui:14
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:226
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:223
 #, kde-format
 msgid "Gradient Map"
 msgstr ""
@@ -44429,7 +44429,7 @@ msgstr ""
 msgid "Unknown error: %1"
 msgstr ""
 
-#: plugins/impex/heif/HeifExport.cpp:555
+#: plugins/impex/heif/HeifExport.cpp:489
 #, kde-format
 msgctxt "@tooltip"
 msgid ""
@@ -44437,7 +44437,7 @@ msgid ""
 "colorfulness will be halved in both dimensions."
 msgstr ""
 
-#: plugins/impex/heif/HeifExport.cpp:556
+#: plugins/impex/heif/HeifExport.cpp:490
 #, kde-format
 msgctxt "@tooltip"
 msgid ""
@@ -44445,26 +44445,26 @@ msgid ""
 "colorfulness will be halved horizontally."
 msgstr ""
 
-#: plugins/impex/heif/HeifExport.cpp:557
+#: plugins/impex/heif/HeifExport.cpp:491
 #, kde-format
 msgctxt "@tooltip"
 msgid ""
 "Both brightness and colorfulness of the image will be at full resolution."
 msgstr ""
 
-#: plugins/impex/heif/HeifExport.cpp:570
+#: plugins/impex/heif/HeifExport.cpp:504
 #, kde-format
 msgctxt "Color space name"
 msgid "Rec 2100 HLG"
 msgstr ""
 
-#: plugins/impex/heif/HeifExport.cpp:570
+#: plugins/impex/heif/HeifExport.cpp:504
 #, kde-format
 msgctxt "Color space name"
 msgid "Rec 2100 PQ"
 msgstr ""
 
-#: plugins/impex/heif/HeifExport.cpp:571
+#: plugins/impex/heif/HeifExport.cpp:505
 #, kde-format
 msgctxt "@tooltip"
 msgid ""
@@ -44473,7 +44473,7 @@ msgid ""
 "for HDR images where the absolute brightness is important."
 msgstr ""
 
-#: plugins/impex/heif/HeifExport.cpp:573
+#: plugins/impex/heif/HeifExport.cpp:507
 #, kde-format
 msgctxt "@tooltip"
 msgid ""
@@ -44482,13 +44482,13 @@ msgid ""
 "not understand HDR."
 msgstr ""
 
-#: plugins/impex/heif/HeifExport.cpp:579
+#: plugins/impex/heif/HeifExport.cpp:513
 #, kde-format
 msgctxt "Color space option plus transfer function name"
 msgid "Keep colorants, encode PQ"
 msgstr ""
 
-#: plugins/impex/heif/HeifExport.cpp:580
+#: plugins/impex/heif/HeifExport.cpp:514
 #, kde-format
 msgctxt "@tooltip"
 msgid ""
@@ -44497,13 +44497,13 @@ msgid ""
 "where the absolute brightness is important."
 msgstr ""
 
-#: plugins/impex/heif/HeifExport.cpp:584
+#: plugins/impex/heif/HeifExport.cpp:518
 #, kde-format
 msgctxt "Color space option plus transfer function name"
 msgid "Keep colorants, encode HLG"
 msgstr ""
 
-#: plugins/impex/heif/HeifExport.cpp:585
+#: plugins/impex/heif/HeifExport.cpp:519
 #, kde-format
 msgctxt "@tooltip"
 msgid ""
@@ -44511,13 +44511,13 @@ msgid ""
 "curve. Recommended for images intended for screens which cannot understand PQ"
 msgstr ""
 
-#: plugins/impex/heif/HeifExport.cpp:589
+#: plugins/impex/heif/HeifExport.cpp:523
 #, kde-format
 msgctxt "Color space option plus transfer function name"
 msgid "Keep colorants, encode SMPTE ST 428"
 msgstr ""
 
-#: plugins/impex/heif/HeifExport.cpp:590
+#: plugins/impex/heif/HeifExport.cpp:524
 #, kde-format
 msgctxt "@tooltip"
 msgid ""
@@ -44526,13 +44526,13 @@ msgid ""
 "is there to reverse that"
 msgstr ""
 
-#: plugins/impex/heif/HeifExport.cpp:595
+#: plugins/impex/heif/HeifExport.cpp:529
 #, kde-format
 msgctxt "Color space option"
 msgid "No changes, clip"
 msgstr ""
 
-#: plugins/impex/heif/HeifExport.cpp:596
+#: plugins/impex/heif/HeifExport.cpp:530
 #, kde-format
 msgctxt "@tooltip"
 msgid ""
@@ -49289,7 +49289,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, stampButton)
 #: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:81
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:349
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:346
 #, kde-format
 msgid "Stamp"
 msgstr ""
@@ -49792,7 +49792,7 @@ msgstr ""
 msgid "Creates a brush tip from the image in the clipboard."
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:200
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:197
 #, kde-format
 msgid ""
 "Reloads Spacing from file\n"
@@ -49800,25 +49800,25 @@ msgid ""
 "Sets Rotation to 0.0"
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:206
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:203
 #, kde-format
 msgctxt "@label:slider"
 msgid "Neutral point: "
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:212
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:209
 #, kde-format
 msgctxt "@label:slider"
 msgid "Brightness: "
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:218
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:215
 #, kde-format
 msgctxt "@label:slider"
 msgid "Contrast: "
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:220
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:217
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -49828,35 +49828,35 @@ msgid ""
 " Contrast: 0%"
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:223
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:220
 #, kde-format
 msgid "Alpha Mask"
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:224
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:221
 #, kde-format
 msgid "Color Image"
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:225
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:222
 #, kde-format
 msgid "Lightness Map"
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:227
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:224
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
 "Luminosity of the brush tip image is used as alpha channel for the stroke"
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:228
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:225
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The brush tip image is painted as it is"
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:229
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:226
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -49865,7 +49865,7 @@ msgid ""
 "the final stroke"
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:230
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:227
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -49873,17 +49873,17 @@ msgid ""
 "channel of the brush tip image is used as alpha for the final stroke"
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:406
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:403
 #, kde-format
 msgid "Animated Mask"
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:415
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:412
 #, kde-format
 msgid "Animated Image"
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:468
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:465
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -49892,19 +49892,19 @@ msgid ""
 "lighter than neutral point — lighter."
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:469
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:466
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Brightness correction for the brush"
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:470
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:467
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Contrast correction for the brush"
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:488
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:485
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -49912,7 +49912,7 @@ msgid ""
 "\"Mask\" mode."
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:491
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:488
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -49920,7 +49920,7 @@ msgid ""
 "The brush will work in \"Mask\" mode."
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:527
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:524
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -53545,83 +53545,83 @@ msgctxt "(qtundo-format)"
 msgid "Freehand Brush Stroke"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_brush.cc:180
+#: plugins/tools/basictools/kis_tool_brush.cc:179
 #, kde-format
 msgid "Sample count:"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_brush.cc:191
+#: plugins/tools/basictools/kis_tool_brush.cc:190
 #, kde-format
 msgctxt ""
 "Label of Distance value in Freehand brush tool's Weighted Smoothing mode"
 msgid "Distance:"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_brush.cc:348
+#: plugins/tools/basictools/kis_tool_brush.cc:347
 #, kde-format
 msgctxt "@item:inlistbox Brush Smoothing"
 msgid "None"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_brush.cc:349
+#: plugins/tools/basictools/kis_tool_brush.cc:348
 #, kde-format
 msgctxt "@item:inlistbox Brush Smoothing"
 msgid "Basic"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_brush.cc:350
+#: plugins/tools/basictools/kis_tool_brush.cc:349
 #, kde-format
 msgctxt "@item:inlistbox Brush Smoothing"
 msgid "Weighted"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_brush.cc:351
+#: plugins/tools/basictools/kis_tool_brush.cc:350
 #, kde-format
 msgctxt "@item:inlistbox Brush Smoothing"
 msgid "Stabilizer"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_brush.cc:353
+#: plugins/tools/basictools/kis_tool_brush.cc:352
 #, kde-format
 msgid "Brush Smoothing:"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_brush.cc:379
+#: plugins/tools/basictools/kis_tool_brush.cc:378
 #, kde-format
 msgid "Delay:"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_brush.cc:384
+#: plugins/tools/basictools/kis_tool_brush.cc:383
 #, kde-format
 msgid "Delay the brush stroke to make the line smoother"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_brush.cc:388
+#: plugins/tools/basictools/kis_tool_brush.cc:387
 #, kde-format
 msgid "Radius where the brush is blocked"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_brush.cc:395
+#: plugins/tools/basictools/kis_tool_brush.cc:394
 #, kde-format
 msgid "Finish line:"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_brush.cc:408
+#: plugins/tools/basictools/kis_tool_brush.cc:407
 #, kde-format
 msgid "Stabilize Sensors:"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_brush.cc:417
+#: plugins/tools/basictools/kis_tool_brush.cc:416
 #, kde-format
 msgid "Stroke Ending:"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_brush.cc:424
+#: plugins/tools/basictools/kis_tool_brush.cc:423
 #, kde-format
 msgid "Smooth Pressure"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_brush.cc:431
+#: plugins/tools/basictools/kis_tool_brush.cc:430
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -53629,38 +53629,38 @@ msgid ""
 "visually constant whatever zoom level is chosen"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_brush.cc:436
+#: plugins/tools/basictools/kis_tool_brush.cc:435
 #, kde-format
 msgid "Scalable Distance"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_brush.cc:452
+#: plugins/tools/basictools/kis_tool_brush.cc:451
 #: plugins/tools/basictools/kis_tool_line.cc:100
 #, kde-format
 msgid "Snap to Assistants"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_brush.cc:454
+#: plugins/tools/basictools/kis_tool_brush.cc:453
 #, kde-format
 msgid "You need to add Assistants before this tool will work."
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_brush.cc:459
+#: plugins/tools/basictools/kis_tool_brush.cc:458
 #, kde-format
 msgid "Assistant Magnetism"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_brush.cc:465
+#: plugins/tools/basictools/kis_tool_brush.cc:464
 #, kde-format
 msgid "Magnetism:"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_brush.cc:468
+#: plugins/tools/basictools/kis_tool_brush.cc:467
 #, kde-format
 msgid "Snap to Single Line"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_brush.cc:471
+#: plugins/tools/basictools/kis_tool_brush.cc:470
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -53668,13 +53668,13 @@ msgid ""
 "using the infinite assistants."
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_brush.cc:476
+#: plugins/tools/basictools/kis_tool_brush.cc:475
 #: plugins/tools/basictools/kis_tool_line.cc:103
 #, kde-format
 msgid "Snap Eraser"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_brush.cc:479
+#: plugins/tools/basictools/kis_tool_brush.cc:478
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Enable snapping when using erasers"
@@ -53999,13 +53999,13 @@ msgstr ""
 msgid "Measure Tool"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_move.cc:280
+#: plugins/tools/basictools/kis_tool_move.cc:281
 #, kde-format
 msgctxt "floating message in move tool"
 msgid "X: %1 px, Y: %2 px"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_move.cc:328
+#: plugins/tools/basictools/kis_tool_move.cc:329
 #, kde-format
 msgctxt "floating message in move tool"
 msgid "Selected area has no pixels"
@@ -54257,9 +54257,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QRadioButton, radioFirstLayer)
 #: plugins/tools/basictools/wdgmovetool.ui:46
 #, kde-format
-msgid ""
-"Move the first layer with visible content at the place where you click. This "
-"will also select that layer in the layerbox."
+msgid "Move the first layer with visible content at the place where you click."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioFirstLayer)
@@ -54895,13 +54893,13 @@ msgctxt "action"
 msgid "Calligraphy: decrease angle"
 msgstr ""
 
-#: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyTool.cpp:426
+#: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyTool.cpp:425
 #, kde-format
 msgctxt "Object name of Calligraphy"
 msgid "Calligraphy"
 msgstr ""
 
-#: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyTool.cpp:427
+#: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyTool.cpp:426
 #, kde-format
 msgctxt "Tool Option title of Calligraphy"
 msgid "Calligraphy"
@@ -55389,7 +55387,7 @@ msgid "Line height"
 msgstr ""
 
 #: plugins/tools/svgtexttool/SvgTextEditor.cpp:1458
-#: plugins/tools/svgtexttool/SvgTextTool.cpp:204
+#: plugins/tools/svgtexttool/SvgTextTool.cpp:205
 #, kde-format
 msgid "Letter Spacing"
 msgstr ""
@@ -55780,32 +55778,32 @@ msgctxt "action"
 msgid "Kerning"
 msgstr ""
 
-#: plugins/tools/svgtexttool/SvgTextTool.cpp:133
+#: plugins/tools/svgtexttool/SvgTextTool.cpp:134
 #, kde-format
 msgid "Create new texts with..."
 msgstr ""
 
-#: plugins/tools/svgtexttool/SvgTextTool.cpp:170
+#: plugins/tools/svgtexttool/SvgTextTool.cpp:171
 #, kde-format
 msgid "Anchor text to the left."
 msgstr ""
 
-#: plugins/tools/svgtexttool/SvgTextTool.cpp:179
+#: plugins/tools/svgtexttool/SvgTextTool.cpp:180
 #, kde-format
 msgid "Anchor text to the middle."
 msgstr ""
 
-#: plugins/tools/svgtexttool/SvgTextTool.cpp:188
+#: plugins/tools/svgtexttool/SvgTextTool.cpp:189
 #, kde-format
 msgid "Anchor text to the right."
 msgstr ""
 
-#: plugins/tools/svgtexttool/SvgTextTool.cpp:218
+#: plugins/tools/svgtexttool/SvgTextTool.cpp:219
 #, kde-format
 msgid "Edit Text"
 msgstr ""
 
-#: plugins/tools/svgtexttool/SvgTextTool.cpp:254
+#: plugins/tools/svgtexttool/SvgTextTool.cpp:255
 #, kde-format
 msgctxt "@title:window"
 msgid "Krita - Edit Text"
@@ -55972,19 +55970,19 @@ msgstr ""
 msgid "Lock Ratio"
 msgstr ""
 
-#: plugins/tools/tool_crop/kis_tool_crop.cc:247
+#: plugins/tools/tool_crop/kis_tool_crop.cc:253
 #, kde-format
 msgid "Crop Tool Actions"
 msgstr ""
 
-#: plugins/tools/tool_crop/kis_tool_crop.cc:716
+#: plugins/tools/tool_crop/kis_tool_crop.cc:722
 #, kde-format
 msgid ""
 "X: %1\n"
 "Y: %2"
 msgstr ""
 
-#: plugins/tools/tool_crop/kis_tool_crop.cc:721
+#: plugins/tools/tool_crop/kis_tool_crop.cc:727
 #, kde-format
 msgid ""
 "Width: %1\n"
@@ -56595,24 +56593,24 @@ msgstr ""
 msgid "Apply"
 msgstr ""
 
-#: plugins/tools/tool_transform2/kis_tool_transform.cc:363
+#: plugins/tools/tool_transform2/kis_tool_transform.cc:376
 #, kde-format
 msgid "Transform Tool Actions"
 msgstr ""
 
-#: plugins/tools/tool_transform2/kis_tool_transform.cc:841
+#: plugins/tools/tool_transform2/kis_tool_transform.cc:854
 #, kde-format
 msgctxt "floating message in transformation tool"
 msgid "Layer type cannot use the transform tool"
 msgstr ""
 
-#: plugins/tools/tool_transform2/kis_tool_transform.cc:848
+#: plugins/tools/tool_transform2/kis_tool_transform.cc:861
 #, kde-format
 msgctxt "floating message in transformation tool"
 msgid "Layer type cannot use the transform tool. Use transform mask instead."
 msgstr ""
 
-#: plugins/tools/tool_transform2/kis_tool_transform.cc:868
+#: plugins/tools/tool_transform2/kis_tool_transform.cc:881
 #, kde-format
 msgctxt "floating message in transformation tool"
 msgid ""
@@ -56620,20 +56618,20 @@ msgid ""
 "transformation."
 msgstr ""
 
-#: plugins/tools/tool_transform2/kis_tool_transform.cc:885
+#: plugins/tools/tool_transform2/kis_tool_transform.cc:898
 #, kde-format
 msgctxt "floating message in transformation tool"
 msgid "Selections are not used when editing transform masks "
 msgstr ""
 
-#: plugins/tools/tool_transform2/kis_tool_transform.cc:966
-#: plugins/tools/tool_transform2/kis_tool_transform.cc:1003
+#: plugins/tools/tool_transform2/kis_tool_transform.cc:979
+#: plugins/tools/tool_transform2/kis_tool_transform.cc:1016
 #, kde-format
 msgctxt "floating message in transformation tool"
 msgid "Cannot transform empty layer "
 msgstr ""
 
-#: plugins/tools/tool_transform2/kis_tool_transform.cc:991
+#: plugins/tools/tool_transform2/kis_tool_transform.cc:1004
 #, kde-format
 msgctxt "floating message in transformation tool"
 msgid ""
