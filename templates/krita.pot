@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-09-24 00:43+0000\n"
+"POT-Creation-Date: 2022-09-26 00:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -19047,10 +19047,10 @@ msgstr ""
 msgid "Out"
 msgstr ""
 
-#: libs/pigment/resources/KoColorSet.cpp:496
-#: libs/pigment/resources/KoColorSet.cpp:839
-#: libs/pigment/resources/KoColorSet.cpp:916
-#: libs/pigment/resources/KoColorSet.cpp:1128
+#: libs/pigment/resources/KoColorSet.cpp:489
+#: libs/pigment/resources/KoColorSet.cpp:832
+#: libs/pigment/resources/KoColorSet.cpp:909
+#: libs/pigment/resources/KoColorSet.cpp:1121
 #: libs/ui/actions/KisPasteActionFactories.cpp:333
 #: libs/ui/animation/KisDlgAnimationRenderer.cpp:348
 #: libs/ui/KisView.cpp:1134 plugins/generators/seexpr/kis_wdg_seexpr.cpp:34
@@ -19143,9 +19143,9 @@ msgstr ""
 #: plugins/extensions/qmic/QMic.cpp:54 plugins/extensions/qmic/QMic.cpp:79
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:186
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:191
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:214
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:284
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:289
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:218
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:293
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:298
 #: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:295
 #: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:374
 #: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:381
@@ -22176,7 +22176,7 @@ msgid "Could not load layer style library %1."
 msgstr ""
 
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:367
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:231
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:237
 #, kde-format
 msgctxt "@title:window"
 msgid "Warning"
@@ -29177,7 +29177,7 @@ msgid "Layers/Masks"
 msgstr ""
 
 #: libs/ui/KisMainWindow.cpp:1851 plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:181
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:277
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:286
 #, kde-format
 msgid "You don't have any resource bundles enabled."
 msgstr ""
@@ -29191,7 +29191,7 @@ msgid ""
 msgstr ""
 
 #: libs/ui/KisMainWindow.cpp:1865 plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:191
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:289
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:298
 #, kde-format
 msgid ""
 "\n"
@@ -40430,7 +40430,7 @@ msgid "Create Bundle"
 msgstr ""
 
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:185
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:283
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:292
 #, kde-format
 msgid ""
 "\n"
@@ -40449,19 +40449,19 @@ msgstr ""
 msgid "Select the bundle"
 msgstr ""
 
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:215
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:219
 #, kde-format
 msgid "Could not load bundle %1."
 msgstr ""
 
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:232
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:238
 #, kde-format
 msgid ""
 "There is already a bundle with this name installed. Do you want to overwrite "
 "it?"
 msgstr ""
 
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:331
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:340
 #, kde-format
 msgctxt ""
 "In bundle manager; press button to deactivate the bundle (remove resources "
@@ -40469,7 +40469,7 @@ msgctxt ""
 msgid "Deactivate"
 msgstr ""
 
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:335
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:344
 #, kde-format
 msgctxt ""
 "In bundle manager; press button to activate the bundle (add resources from "
