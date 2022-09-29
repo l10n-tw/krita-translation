@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-09-26 00:43+0000\n"
+"POT-Creation-Date: 2022-09-29 00:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -12643,21 +12643,21 @@ msgstr ""
 msgid "Import"
 msgstr ""
 
-#: krita/krita5.xmlgui:221 plugins/dockers/layerdocker/LayerBox.cpp:1241
+#: krita/krita5.xmlgui:221 plugins/dockers/layerdocker/LayerBox.cpp:1230
 #, kde-format
 msgid "&Convert"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, bnSelect)
 #: krita/krita5.xmlgui:232 krita/krita5.xmlgui:303 libs/ui/imagesize/imagesize.xmlgui:12
-#: plugins/dockers/layerdocker/LayerBox.cpp:1215
+#: plugins/dockers/layerdocker/LayerBox.cpp:1204
 #: plugins/extensions/colorrange/wdg_colorrange.ui:134
 #: plugins/extensions/modify_selection/modify_selection.xmlgui:4
 #, kde-format
 msgid "&Select"
 msgstr ""
 
-#: krita/krita5.xmlgui:240 plugins/dockers/layerdocker/LayerBox.cpp:1221
+#: krita/krita5.xmlgui:240 plugins/dockers/layerdocker/LayerBox.cpp:1210
 #, kde-format
 msgctxt "A group of layers"
 msgid "&Group"
@@ -12678,7 +12678,7 @@ msgstr ""
 msgid "S&plit"
 msgstr ""
 
-#: krita/krita5.xmlgui:280 plugins/dockers/layerdocker/LayerBox.cpp:1248
+#: krita/krita5.xmlgui:280 plugins/dockers/layerdocker/LayerBox.cpp:1237
 #, kde-format
 msgid "S&plit Alpha"
 msgstr ""
@@ -16484,7 +16484,7 @@ msgstr ""
 #: libs/image/kis_keyframe_channel.cpp:26
 #: libs/image/kis_layer.cc:276 libs/widgets/KoColorPopupAction.cpp:85
 #: plugins/dockers/layerdocker/LayerBox.cpp:207
-#: plugins/dockers/layerdocker/LayerBox.cpp:389
+#: plugins/dockers/layerdocker/LayerBox.cpp:388
 #: plugins/paintops/hairy/wdghairyeoptions.ui:301
 #: plugins/paintops/hairy/wdgInkOptions.ui:62
 #: plugins/paintops/libpaintop/kis_pressure_flow_opacity_option.cpp:19
@@ -22061,7 +22061,7 @@ msgstr ""
 #: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:246
 #: plugins/dockers/animation/KisOnionSkinsDocker.cpp:47
 #: plugins/dockers/layerdocker/LayerBox.cpp:210
-#: plugins/dockers/layerdocker/LayerBox.cpp:390
+#: plugins/dockers/layerdocker/LayerBox.cpp:389
 #: plugins/filters/halftone/KisHalftoneConfigPageWidget.cpp:47
 #: plugins/filters/halftone/KisHalftoneConfigPageWidget.cpp:51
 #: plugins/filters/halftone/KisHalftoneConfigPageWidget.cpp:54
@@ -36023,13 +36023,21 @@ msgstr ""
 msgid "Frames dropped:\t%1%"
 msgstr ""
 
-#: plugins/dockers/animation/KisAnimTimelineFramesModel.cpp:688
+#: plugins/dockers/animation/KisAnimTimelineFramesModel.cpp:689
 #, kde-format
 msgid "Dropped frames are not available in this Krita instance"
 msgstr ""
 
-#: plugins/dockers/animation/KisAnimTimelineFramesModel.cpp:888
-#: plugins/dockers/animation/KisAnimTimelineFramesModel.cpp:936
+#: plugins/dockers/animation/KisAnimTimelineFramesModel.cpp:870
+#, kde-format
+msgctxt "(qtundo-format)"
+msgid "Add blank frame"
+msgid_plural "Add %1 blank frames"
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugins/dockers/animation/KisAnimTimelineFramesModel.cpp:915
+#: plugins/dockers/animation/KisAnimTimelineFramesModel.cpp:963
 #, kde-format
 msgctxt "(qtundo-format)"
 msgid "Insert frame"
@@ -36077,42 +36085,42 @@ msgctxt "@info:tooltip"
 msgid "Zoom Timeline. Hold down and drag left or right."
 msgstr ""
 
-#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:831
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:832
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Open audio..."
 msgstr ""
 
-#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:834
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:835
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Change audio (%1)..."
 msgstr ""
 
-#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1573
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1574
 #, kde-format
 msgctxt "@title:window"
 msgid "Insert or Remove Hold Frames"
 msgstr ""
 
-#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1574
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1575
 #, kde-format
 msgctxt "@label:spinbox"
 msgid "Enter number of frames"
 msgstr ""
 
-#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1681
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1682
 #, kde-format
 msgid "Edit Frames:"
 msgstr ""
 
-#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1708
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1709
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Keyframes"
 msgstr ""
 
-#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1716
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1717
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Hold Frames"
@@ -36855,24 +36863,24 @@ msgid ""
 "Shows global selection as a usual selection mask in <b>Layers</b> docker"
 msgstr ""
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:317
+#: plugins/dockers/layerdocker/LayerBox.cpp:316
 #, kde-format
 msgid "Thumbnail Size"
 msgstr ""
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:345
+#: plugins/dockers/layerdocker/LayerBox.cpp:344
 #, kde-format
 msgctxt "@item:inmenu Layers Docker settings, slider"
 msgid "Tree Indentation"
 msgstr ""
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:368
+#: plugins/dockers/layerdocker/LayerBox.cpp:367
 #, kde-format
 msgctxt "@item:inmenu Layers Docker settings, combobox"
 msgid "Subtitle Style"
 msgstr ""
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:370
+#: plugins/dockers/layerdocker/LayerBox.cpp:369
 #, kde-format
 msgctxt "@item:tooltip"
 msgid ""
@@ -36882,43 +36890,43 @@ msgid ""
 "Detailed: Show both opacity and blending mode even if unchanged."
 msgstr ""
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:375
+#: plugins/dockers/layerdocker/LayerBox.cpp:374
 #, kde-format
 msgctxt "@item:inlistbox Layer Docker subtitle style"
 msgid "None"
 msgstr ""
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:376
+#: plugins/dockers/layerdocker/LayerBox.cpp:375
 #, kde-format
 msgctxt "@item:inlistbox Layer Docker subtitle style"
 msgid "Simple"
 msgstr ""
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:377
+#: plugins/dockers/layerdocker/LayerBox.cpp:376
 #, kde-format
 msgctxt "@item:inlistbox Layer Docker subtitle style"
 msgid "Balanced"
 msgstr ""
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:378
+#: plugins/dockers/layerdocker/LayerBox.cpp:377
 #, kde-format
 msgctxt "@item:inlistbox Layer Docker subtitle style"
 msgid "Detailed"
 msgstr ""
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:391
+#: plugins/dockers/layerdocker/LayerBox.cpp:390
 #, kde-format
 msgctxt "@item:tooltip"
 msgid "Subtitle text opacity"
 msgstr ""
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:409
+#: plugins/dockers/layerdocker/LayerBox.cpp:408
 #, kde-format
 msgctxt "@item:inmenu Layers Docker settings, checkbox"
 msgid "Inline"
 msgstr ""
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:411
+#: plugins/dockers/layerdocker/LayerBox.cpp:410
 #, kde-format
 msgctxt "@item:tooltip"
 msgid ""
@@ -36926,23 +36934,23 @@ msgid ""
 "If disabled, show below layer names (when enough space)."
 msgstr ""
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:980
+#: plugins/dockers/layerdocker/LayerBox.cpp:977
 msgctxt "(qtundo-format)"
 msgid "Quick Selection Mask"
 msgstr ""
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:1002
+#: plugins/dockers/layerdocker/LayerBox.cpp:999
 msgctxt "(qtundo-format)"
 msgid "Cancel Quick Selection Mask"
 msgstr ""
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:1225
+#: plugins/dockers/layerdocker/LayerBox.cpp:1214
 #, kde-format
 msgid "&Toggle Locks && Visibility"
 msgstr ""
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:1232
-#: plugins/dockers/layerdocker/LayerBox.cpp:1253
+#: plugins/dockers/layerdocker/LayerBox.cpp:1221
+#: plugins/dockers/layerdocker/LayerBox.cpp:1242
 #, kde-format
 msgid "&Add"
 msgstr ""
