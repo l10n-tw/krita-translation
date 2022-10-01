@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-09-30 00:41+0000\n"
+"POT-Creation-Date: 2022-10-01 00:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -32169,133 +32169,129 @@ msgid "Vector Selection"
 msgstr ""
 
 #: libs/ui/widgets/kis_selection_options.cc:222
-#: libs/ui/widgets/kis_selection_options.cc:460
+#: libs/ui/widgets/kis_selection_options.cc:458
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Replace"
 msgstr ""
 
 #: libs/ui/widgets/kis_selection_options.cc:224
-#: libs/ui/widgets/kis_selection_options.cc:475
+#: libs/ui/widgets/kis_selection_options.cc:473
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Intersect"
 msgstr ""
 
 #: libs/ui/widgets/kis_selection_options.cc:226
-#: libs/ui/widgets/kis_selection_options.cc:465
+#: libs/ui/widgets/kis_selection_options.cc:463
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Add"
 msgstr ""
 
 #: libs/ui/widgets/kis_selection_options.cc:228
-#: libs/ui/widgets/kis_selection_options.cc:470
+#: libs/ui/widgets/kis_selection_options.cc:468
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Subtract"
 msgstr ""
 
 #: libs/ui/widgets/kis_selection_options.cc:230
-#: libs/ui/widgets/kis_selection_options.cc:480
+#: libs/ui/widgets/kis_selection_options.cc:478
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Symmetric Difference"
 msgstr ""
 
 #: libs/ui/widgets/kis_selection_options.cc:233
-#: plugins/tools/basictools/kis_tool_fill.cc:579
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:456
 #, kde-format
-msgid "Smooth the jagged edges"
+msgid "Smooths the edges of the selection"
 msgstr ""
 
 #: libs/ui/widgets/kis_selection_options.cc:235
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:411
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:408
 #, kde-format
-msgid ""
-"Grow (positive values) or shrink (negative values) the selection by the set "
-"amount"
+msgid "Grow or shrink the selection by the set amount"
 msgstr ""
 
-#: libs/ui/widgets/kis_selection_options.cc:238
-#: plugins/tools/basictools/kis_tool_fill.cc:581
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:458
+#: libs/ui/widgets/kis_selection_options.cc:237
+#: plugins/tools/basictools/kis_tool_fill.cc:579
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:456
 #, kde-format
 msgid "Stop growing at the darkest and/or most opaque pixels"
 msgstr ""
 
-#: libs/ui/widgets/kis_selection_options.cc:240
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:413
+#: libs/ui/widgets/kis_selection_options.cc:239
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:409
 #, kde-format
 msgid "Blur the selection by the set amount"
 msgstr ""
 
-#: libs/ui/widgets/kis_selection_options.cc:243
+#: libs/ui/widgets/kis_selection_options.cc:242
 #, kde-format
-msgid "Make the selection using the active layer"
+msgid "Select regions found from the active layer"
 msgstr ""
 
-#: libs/ui/widgets/kis_selection_options.cc:245
+#: libs/ui/widgets/kis_selection_options.cc:244
 #, kde-format
-msgid "Make the selection using a merged copy of all layers"
+msgid "Select regions found from the merging of all layers"
 msgstr ""
 
-#: libs/ui/widgets/kis_selection_options.cc:247
+#: libs/ui/widgets/kis_selection_options.cc:246
 #, kde-format
 msgid ""
-"Make the selection using a merged copy of the selected color-labeled layers"
+"Select regions found from the merging of layers with specific color labels"
 msgstr ""
 
-#: libs/ui/widgets/kis_selection_options.cc:256
+#: libs/ui/widgets/kis_selection_options.cc:254
 #, kde-format
 msgctxt "The 'mode' section label in selection tools options"
 msgid "Mode"
 msgstr ""
 
-#: libs/ui/widgets/kis_selection_options.cc:263
+#: libs/ui/widgets/kis_selection_options.cc:261
 #, kde-format
 msgctxt "The 'action' section label in selection tools options"
 msgid "Action"
 msgstr ""
 
-#: libs/ui/widgets/kis_selection_options.cc:270
+#: libs/ui/widgets/kis_selection_options.cc:268
 #, kde-format
 msgctxt "The 'adjustments' section label in selection tools options"
 msgid "Adjustments"
 msgstr ""
 
-#: libs/ui/widgets/kis_selection_options.cc:281
+#: libs/ui/widgets/kis_selection_options.cc:279
 #, kde-format
 msgctxt "The 'reference' section label in selection tools options"
 msgid "Reference"
 msgstr ""
 
-#: libs/ui/widgets/kis_selection_options.cc:461
+#: libs/ui/widgets/kis_selection_options.cc:459
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Replace (%1)"
 msgstr ""
 
-#: libs/ui/widgets/kis_selection_options.cc:466
+#: libs/ui/widgets/kis_selection_options.cc:464
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Add (%1)"
 msgstr ""
 
-#: libs/ui/widgets/kis_selection_options.cc:471
+#: libs/ui/widgets/kis_selection_options.cc:469
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Subtract (%1)"
 msgstr ""
 
-#: libs/ui/widgets/kis_selection_options.cc:476
+#: libs/ui/widgets/kis_selection_options.cc:474
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Intersect (%1)"
 msgstr ""
 
-#: libs/ui/widgets/kis_selection_options.cc:482
+#: libs/ui/widgets/kis_selection_options.cc:480
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Symmetric Difference (%1)"
@@ -53572,17 +53568,17 @@ msgstr ""
 
 #: plugins/tools/basictools/kis_tool_fill.cc:560
 #, kde-format
-msgid "Current selection"
+msgid "Fill the active selection, or the entire canvas"
 msgstr ""
 
 #: plugins/tools/basictools/kis_tool_fill.cc:561
 #, kde-format
-msgid "Contiguous region obtained from the layers"
+msgid "Fill a contiguous region"
 msgstr ""
 
 #: plugins/tools/basictools/kis_tool_fill.cc:562
 #, kde-format
-msgid "All the regions similar to the pixel you clicked on"
+msgid "Fill all regions of a similar color"
 msgstr ""
 
 #: plugins/tools/basictools/kis_tool_fill.cc:567
@@ -53598,15 +53594,13 @@ msgid "Set the rotation of the pattern"
 msgstr ""
 
 #: plugins/tools/basictools/kis_tool_fill.cc:570
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:394
 #, kde-format
-msgid "Select pixels similar to the one you clicked on"
+msgid "Fill regions similar in color to the clicked region"
 msgstr ""
 
 #: plugins/tools/basictools/kis_tool_fill.cc:571
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:396
 #, kde-format
-msgid "Select all pixels until a specific boundary color"
+msgid "Fill all regions until a specific boundary color"
 msgstr ""
 
 #: plugins/tools/basictools/kis_tool_fill.cc:572
@@ -53619,111 +53613,115 @@ msgstr ""
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:450
 #, kde-format
 msgid ""
-"Set how far the region should extend from the selected pixel in terms of "
-"color similarity"
+"Set the color similarity tolerance of the fill. Increasing threshold "
+"increases the range of similar colors to be filled."
 msgstr ""
 
 #: plugins/tools/basictools/kis_tool_fill.cc:574
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:451
 #, kde-format
 msgid ""
-"Set how far the fully opaque portion of the region should extend.\n"
-"0% will make opaque only the pixels that are exactly equal to the selected "
-"pixel.\n"
-"100% will make opaque all the pixels in the region up to its boundary."
+"Set the extent of the opaque portion of the fill. Decreasing spread "
+"decreases opacity of fill areas depending on color similarity."
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_fill.cc:575
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:452
+#, kde-format
+msgid ""
+"Set if the contour of the active selection should be treated as a boundary "
+"when filling the region"
 msgstr ""
 
 #: plugins/tools/basictools/kis_tool_fill.cc:577
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:454
 #, kde-format
-msgid ""
-"Set if the contour of the current selection should be treated as a boundary "
-"when obtaining the region"
+msgid "Smooths the edges of the fill"
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_fill.cc:578
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:455
+#, kde-format
+msgid "Grow or shrink the fill by the set amount"
 msgstr ""
 
 #: plugins/tools/basictools/kis_tool_fill.cc:580
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:457
 #, kde-format
-msgid ""
-"Grow (positive values) or shrink (negative values) the region by the set "
-"amount"
+msgid "Blur the fill by the set amount"
 msgstr ""
 
 #: plugins/tools/basictools/kis_tool_fill.cc:582
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:459
 #, kde-format
-msgid "Blur the region by the set amount"
+msgid "Fill regions found from the active layer"
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_fill.cc:583
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:460
+#, kde-format
+msgid "Fill regions found from the merging of all layers"
 msgstr ""
 
 #: plugins/tools/basictools/kis_tool_fill.cc:584
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:461
 #, kde-format
-msgid "Obtain the region using the active layer"
-msgstr ""
-
-#: plugins/tools/basictools/kis_tool_fill.cc:585
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:462
-#, kde-format
-msgid "Obtain the region using a merged copy of all layers"
+msgid ""
+"Fill regions found from the merging of layers with specific color labels"
 msgstr ""
 
 #: plugins/tools/basictools/kis_tool_fill.cc:586
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:463
 #, kde-format
-msgid ""
-"Obtain the region using a merged copy of the selected color-labeled layers"
+msgid "Dragging will fill regions of any color"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_fill.cc:588
+#: plugins/tools/basictools/kis_tool_fill.cc:587
 #, kde-format
-msgid "Fill regions of any color"
+msgid ""
+"Dragging will fill only regions similar in color to the initial region "
+"(useful for filling line-art)"
 msgstr ""
 
 #: plugins/tools/basictools/kis_tool_fill.cc:589
-#, kde-format
-msgid "Fill only regions similar in color to the initial region"
-msgstr ""
-
-#: plugins/tools/basictools/kis_tool_fill.cc:591
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:465
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:463
 #, kde-format
 msgid "Reset the options to their default values"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_fill.cc:600
+#: plugins/tools/basictools/kis_tool_fill.cc:598
 #, kde-format
-msgctxt "The 'what to fill' section label in fill tool options"
-msgid "What to fill"
+msgctxt "The 'fill mode' section label in fill tool options"
+msgid "Fill mode"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_fill.cc:607
+#: plugins/tools/basictools/kis_tool_fill.cc:605
 #, kde-format
-msgctxt "The 'fill with' section label in fill tool options"
-msgid "Fill with"
+msgctxt "The 'fill source' section label in fill tool options"
+msgid "Fill source"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_fill.cc:618
+#: plugins/tools/basictools/kis_tool_fill.cc:616
 #, kde-format
-msgctxt "The 'region extent' section label in fill tool options"
-msgid "Region extent"
+msgctxt "The 'fill extent' section label in fill tool options"
+msgid "Fill extent"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_fill.cc:630
+#: plugins/tools/basictools/kis_tool_fill.cc:628
 #, kde-format
 msgctxt "The 'adjustments' section label in fill tool options"
 msgid "Adjustments"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_fill.cc:639
+#: plugins/tools/basictools/kis_tool_fill.cc:637
 #, kde-format
 msgctxt "The 'reference' section label in fill tool options"
 msgid "Reference"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_fill.cc:648
+#: plugins/tools/basictools/kis_tool_fill.cc:646
 #, kde-format
-msgctxt "The 'multiple fill' section label in fill tool options"
-msgid "Multiple fill"
+msgctxt "The 'drag-fill mode' section label in fill tool options"
+msgid "Drag-fill mode"
 msgstr ""
 
 #: plugins/tools/basictools/kis_tool_fill.h:219
@@ -54763,30 +54761,39 @@ msgctxt "The 'feather' spinbox prefix in contiguous selection tool options"
 msgid "Feather: "
 msgstr ""
 
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:394
+#, kde-format
+msgid "Select regions similar in color to the clicked region"
+msgstr ""
+
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:396
+#, kde-format
+msgid "Select all regions until a specific boundary color"
+msgstr ""
+
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:399
+#: plugins/tools/selectiontools/kis_tool_select_similar.cc:465
 #, kde-format
 msgid ""
-"Set how far the selection should extend from the selected pixel in terms of "
-"color similarity"
+"Set the color similarity tolerance of the selection. Increasing threshold "
+"increases the range of similar colors to be selected."
 msgstr ""
 
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:402
 #, kde-format
 msgid ""
-"Set how far the fully opaque portion of the selection should extend.\n"
-"0% will make the selection opaque only where the pixels are exactly equal to "
-"the selected pixel.\n"
-"100% will make all the selection opaque up to its boundary."
+"Set the extent of the opaque portion of the selection. Decreasing spread "
+"decreases opacity of selection areas depending on color similarity."
 msgstr ""
 
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:407
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:405
 #, kde-format
 msgid ""
-"Set if the contour of the current selection should be treated as a boundary "
-"when obtaining the new one"
+"Set if the contour of the active selection should be treated as a boundary "
+"when making a new selection"
 msgstr ""
 
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:420
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:416
 #, kde-format
 msgctxt ""
 "The 'selection extent' section label in contiguous selection tool options"
@@ -54893,11 +54900,6 @@ msgstr ""
 #, kde-format
 msgctxt "The 'threshold' spinbox prefix in similar selection tool options"
 msgid "Threshold: "
-msgstr ""
-
-#: plugins/tools/selectiontools/kis_tool_select_similar.cc:465
-#, kde-format
-msgid "Set how far the selection should extend in terms of color similarity"
 msgstr ""
 
 #: plugins/tools/selectiontools/kis_tool_select_similar.cc:472
@@ -56046,110 +56048,109 @@ msgstr ""
 
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:442
 #, kde-format
-msgid "Check this option to fill all the regions except the selected ones"
+msgid "Enable to fill opposite regions instead"
 msgstr ""
 
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:443
 #, kde-format
 msgid ""
-"Check this option to also fill the shapes that touch the contour of the "
-"enclosing region"
+"Enable to also fill shapes that touch the contour of the enclosing region"
 msgstr ""
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:474
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:472
 #, kde-format
 msgctxt "The 'enclosing method' section label in enclose and fill tool options"
 msgid "Enclosing method"
 msgstr ""
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:481
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:479
 #, kde-format
-msgctxt "The 'what to fill' section label in enclose and fill tool options"
-msgid "What to fill"
+msgctxt "The 'target regions' section label in enclose and fill tool options"
+msgid "Target regions"
 msgstr ""
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:491
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:489
 #, kde-format
-msgctxt "The 'fill with' section label in enclose and fill tool options"
-msgid "Fill with"
+msgctxt "The 'fill source' section label in enclose and fill tool options"
+msgid "Fill source"
 msgstr ""
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:502
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:500
 #, kde-format
-msgctxt "The 'region extent' section label in enclose and fill tool options"
-msgid "Region extent"
+msgctxt "The 'fill extent' section label in enclose and fill tool options"
+msgid "Fill extent"
 msgstr ""
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:511
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:509
 #, kde-format
 msgctxt "The 'adjustments' section label in enclose and fill tool options"
 msgid "Adjustments"
 msgstr ""
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:520
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:518
 #, kde-format
 msgctxt "The 'reference' section label in enclose and fill tool options"
 msgid "Reference"
 msgstr ""
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:716
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:714
 #, kde-format
 msgctxt "Region selection method in enclose and fill tool"
-msgid "All regions"
+msgid "All"
 msgstr ""
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:719
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:717
 #, kde-format
 msgctxt "Region selection method in enclose and fill tool"
-msgid "Regions of a specific color"
+msgid "Specific color"
 msgstr ""
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:722
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:720
 #, kde-format
 msgctxt "Region selection method in enclose and fill tool"
-msgid "Transparent regions"
+msgid "Transparency"
 msgstr ""
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:725
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:723
 #, kde-format
 msgctxt "Region selection method in enclose and fill tool"
-msgid "Regions of a specific color or transparent"
+msgid "Specific color or transparency"
 msgstr ""
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:728
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:726
 #, kde-format
 msgctxt "Region selection method in enclose and fill tool"
-msgid "All regions except those of a specific color"
+msgid "All, excluding a specific color"
 msgstr ""
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:731
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:729
 #, kde-format
 msgctxt "Region selection method in enclose and fill tool"
-msgid "All regions except the transparent ones"
+msgid "All, excluding transparency"
 msgstr ""
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:734
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:732
 #, kde-format
 msgctxt "Region selection method in enclose and fill tool"
-msgid "All regions except those of a specific color or transparent"
+msgid "All, excluding a specific color or transparency"
 msgstr ""
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:737
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:735
 #, kde-format
 msgctxt "Region selection method in enclose and fill tool"
-msgid "Regions surrounded by a specific color"
+msgid "Any surrounded by a specific color"
 msgstr ""
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:740
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:738
 #, kde-format
 msgctxt "Region selection method in enclose and fill tool"
-msgid "Regions surrounded by transparent"
+msgid "Any surrounded by transparency"
 msgstr ""
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:743
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:741
 #, kde-format
 msgctxt "Region selection method in enclose and fill tool"
-msgid "Regions surrounded by a specific color or transparent"
+msgid "Any surrounded by a specific color or transparency"
 msgstr ""
 
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFillFactory.h:23
