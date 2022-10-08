@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-10-05 00:44+0000\n"
-"PO-Revision-Date: 2022-09-14 10:25+0000\n"
+"PO-Revision-Date: 2022-10-09 13:58+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.12.2\n"
+"X-Generator: Weblate 4.14.1\n"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
@@ -16828,8 +16828,7 @@ msgstr "選取區域遮罩"
 
 #: libs/image/kis_image.cc:750 libs/ui/KisDocument.cpp:2469
 #: plugins/impex/psd/psd_loader.cpp:189
-#, fuzzy, kde-format
-#| msgid "Background"
+#, kde-format
 msgctxt "Name for the bottom-most layer in the layerstack"
 msgid "Background"
 msgstr "背景"
@@ -24369,9 +24368,9 @@ msgstr "在貼上後自動切換到變形工具"
 
 #. i18n: ectx: property (text), widget (QLabel, lblZoomSteps)
 #: libs/ui/forms/wdggeneralsettings.ui:700
-#, kde-format
+#, fuzzy, kde-format
 msgid "Zoom steps between powers of 2"
-msgstr ""
+msgstr "縮放階級為 2 的冪"
 
 #. i18n: ectx: property (title), widget (QGroupBox, m_groupBoxKineticScrollingSettings)
 #: libs/ui/forms/wdggeneralsettings.ui:722
@@ -32854,14 +32853,14 @@ msgstr "對稱差異"
 #, fuzzy, kde-format
 #| msgid "Set line width of actual selection"
 msgid "Smooths the edges of the selection"
-msgstr "為實際選取區域設定描邊寬度"
+msgstr "平滑化選取區域的邊緣"
 
 #: libs/ui/widgets/kis_selection_options.cc:235
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:408
 #, fuzzy, kde-format
 #| msgid "Blur the selection by the set amount"
 msgid "Grow or shrink the selection by the set amount"
-msgstr "按數值使選取區域變得模糊"
+msgstr "按數值擴大或縮小選取區域"
 
 #: libs/ui/widgets/kis_selection_options.cc:237
 #: plugins/tools/basictools/kis_tool_fill.cc:579
@@ -32880,19 +32879,19 @@ msgstr "按數值使選取區域變得模糊"
 #, fuzzy, kde-format
 #| msgid "Obtain the region using the active layer"
 msgid "Select regions found from the active layer"
-msgstr "以使用中圖層檢取區域"
+msgstr "選取在使用中圖層找出的區域"
 
 #: libs/ui/widgets/kis_selection_options.cc:244
 #, fuzzy, kde-format
 #| msgid "Obtain the region using a merged copy of all layers"
 msgid "Select regions found from the merging of all layers"
-msgstr "以全部圖層合併的影像檢取區域"
+msgstr "選取在全部圖層合併的影像中找出的區域"
 
 #: libs/ui/widgets/kis_selection_options.cc:246
-#, kde-format
+#, fuzzy, kde-format
 msgid ""
 "Select regions found from the merging of layers with specific color labels"
-msgstr ""
+msgstr "選取按指定色彩標籤圖層合併的影像中找出的區域"
 
 #: libs/ui/widgets/kis_selection_options.cc:254
 #, kde-format
@@ -36741,13 +36740,11 @@ msgid "Dropped frames are not available in this Krita instance"
 msgstr "此 Krita 實體不支援拋棄的影格"
 
 #: plugins/dockers/animation/KisAnimTimelineFramesModel.cpp:870
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Add blank frame"
+#, kde-format
 msgctxt "(qtundo-format)"
 msgid "Add blank frame"
 msgid_plural "Add %1 blank frames"
-msgstr[0] "新增空白影格"
+msgstr[0] "新增 %1 個空白影格"
 
 #: plugins/dockers/animation/KisAnimTimelineFramesModel.cpp:915
 #: plugins/dockers/animation/KisAnimTimelineFramesModel.cpp:963
@@ -38332,10 +38329,9 @@ msgstr "在匯出影片中延長顯示最後一個影格的時長"
 
 #. i18n: ectx: property (text), widget (QCheckBox, extendResultCheckBox)
 #: plugins/dockers/recorder/recorder_export.ui:351
-#, fuzzy, kde-format
-#| msgid "Extend end result"
+#, kde-format
 msgid "Extend result for:"
-msgstr "延長顯示完成品"
+msgstr "延長顯示完成品："
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, buttonBrowseExport)
 #: plugins/dockers/recorder/recorder_export.ui:360
@@ -38361,10 +38357,9 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, resultPreviewCheckBox)
 #: plugins/dockers/recorder/recorder_export.ui:409
-#, fuzzy, kde-format
-#| msgid "Enable result preview"
+#, kde-format
 msgid "Enable preview for:"
-msgstr "啟用完成品預覧"
+msgstr "啟用完成品預覧："
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, buttonBrowseFfmpeg)
 #: plugins/dockers/recorder/recorder_export.ui:537
@@ -38432,11 +38427,10 @@ msgstr "移除錄影檔"
 
 #. i18n: ectx: property (text), widget (QLabel, labelRenderTimeTitle)
 #: plugins/dockers/recorder/recorder_export.ui:1026
-#, fuzzy, kde-format
-#| msgid "Render as:"
+#, kde-format
 msgctxt "How long it took to render the video"
 msgid "Render time:"
-msgstr "繪製為："
+msgstr "匯出已使用時間："
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonRestart)
 #: plugins/dockers/recorder/recorder_export.ui:1053
@@ -38603,7 +38597,7 @@ msgstr "選擇錄影檔目錄…"
 #: plugins/dockers/recorder/recorderdocker.ui:155
 #, kde-format
 msgid "Capture interval:"
-msgstr "擷取區間："
+msgstr "擷取間隔："
 
 #. i18n: ectx: property (text), widget (QLabel, labelQuality)
 #: plugins/dockers/recorder/recorderdocker.ui:199
@@ -38814,7 +38808,7 @@ msgstr ""
 msgid ""
 "Low performance warning. The recorder is not able to write all the frames in "
 "time. Try increasing the capture interval."
-msgstr ""
+msgstr "效能過低警告：錄影工具未能在有限時間內寫出所有影格。請嘗試提高擷取間隔。"
 
 #: plugins/dockers/smallcolorselector/smallcolorselector_dock.cc:37
 #, kde-format
@@ -38851,9 +38845,7 @@ msgid "Snapshot Docker"
 msgstr "快照工具面板"
 
 #: plugins/dockers/specificcolorselector/kis_specific_color_selector_widget.cc:70
-#, fuzzy, kde-format
-#| msgctxt "Blending mode - category HSY"
-#| msgid "HSY"
+#, kde-format
 msgid "HSY"
 msgstr "HSY"
 
@@ -47049,10 +47041,9 @@ msgstr "使用作者檔案資料簽名"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkDownsample)
 #: plugins/impex/png/kis_wdg_options_png.ui:214
-#, fuzzy, kde-format
-#| msgid "Force convert to sRGB"
+#, kde-format
 msgid "Force convert to 8 bits/channel"
-msgstr "強制轉成 sRGB"
+msgstr "強制轉成 8 位元/每通道"
 
 #: plugins/impex/psd/psd_export.cc:56
 #, kde-format
@@ -49021,15 +49012,13 @@ msgid "Hard"
 msgstr "硬邊"
 
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:68
-#, fuzzy, kde-format
-#| msgid "Background"
+#, kde-format
 msgctxt "Background painting color"
 msgid "Background"
-msgstr "背景"
+msgstr "背景色"
 
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:68
-#, fuzzy, kde-format
-#| msgid "Foreground"
+#, kde-format
 msgctxt "Foreground painting color"
 msgid "Foreground"
 msgstr "前景色"
@@ -54767,23 +54756,19 @@ msgid "Reset"
 msgstr "重設"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:560
-#, fuzzy, kde-format
-#| msgid "Blur the selection by the set amount"
+#, kde-format
 msgid "Fill the active selection, or the entire canvas"
-msgstr "按數值使選取區域變得模糊"
+msgstr "填充目前選取區域或整個畫布"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:561
-#, fuzzy, kde-format
-#| msgctxt "The 'include contour regions' checkbox in enclose and fill tool"
-#| msgid "Include contour regions"
+#, kde-format
 msgid "Fill a contiguous region"
-msgstr "包含輪廓區域"
+msgstr "填充連續區域"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:562
-#, fuzzy, kde-format
-#| msgid "Fill regions of any color"
+#, kde-format
 msgid "Fill all regions of a similar color"
-msgstr "填充任何色彩的區域"
+msgstr "填充任何色彩近似的區域"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:567
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:447
@@ -54798,16 +54783,14 @@ msgid "Set the rotation of the pattern"
 msgstr "設定圖案的旋轉角度"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:570
-#, fuzzy, kde-format
-#| msgid "Fill only regions similar in color to the initial region"
+#, kde-format
 msgid "Fill regions similar in color to the clicked region"
-msgstr "只填充與起始區域相似色彩的區域"
+msgstr "填充與所點選區域相似色彩的區域"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:571
-#, fuzzy, kde-format
-#| msgid "Select all pixels until a specific boundary color"
+#, kde-format
 msgid "Fill all regions until a specific boundary color"
-msgstr "選取所有像素直至指定的邊界色彩"
+msgstr "填充所有區域直至指定的邊界色彩"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:572
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:397
@@ -54817,11 +54800,11 @@ msgstr "邊界色彩"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:573
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:450
-#, kde-format
+#, fuzzy, kde-format
 msgid ""
 "Set the color similarity tolerance of the fill. Increasing threshold "
 "increases the range of similar colors to be filled."
-msgstr ""
+msgstr "設定填充近似色相容度。提高閾值將填充更多相似色。"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:574
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:451
