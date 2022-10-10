@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-10-05 00:44+0000\n"
-"PO-Revision-Date: 2022-10-09 13:58+0000\n"
+"PO-Revision-Date: 2022-10-11 16:24+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -24370,7 +24370,7 @@ msgstr "在貼上後自動切換到變形工具"
 #: libs/ui/forms/wdggeneralsettings.ui:700
 #, fuzzy, kde-format
 msgid "Zoom steps between powers of 2"
-msgstr "縮放階級為 2 的冪"
+msgstr "縮放階級在 2 的乘冪之間的分級數目"
 
 #. i18n: ectx: property (title), widget (QGroupBox, m_groupBoxKineticScrollingSettings)
 #: libs/ui/forms/wdggeneralsettings.ui:722
@@ -32850,17 +32850,15 @@ msgid "Symmetric Difference"
 msgstr "對稱差異"
 
 #: libs/ui/widgets/kis_selection_options.cc:233
-#, fuzzy, kde-format
-#| msgid "Set line width of actual selection"
+#, kde-format
 msgid "Smooths the edges of the selection"
 msgstr "平滑化選取區域的邊緣"
 
 #: libs/ui/widgets/kis_selection_options.cc:235
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:408
-#, fuzzy, kde-format
-#| msgid "Blur the selection by the set amount"
+#, kde-format
 msgid "Grow or shrink the selection by the set amount"
-msgstr "按數值擴大或縮小選取區域"
+msgstr "按指定值擴大或縮小選取區域"
 
 #: libs/ui/widgets/kis_selection_options.cc:237
 #: plugins/tools/basictools/kis_tool_fill.cc:579
@@ -32873,7 +32871,7 @@ msgstr "當到達最暗或最不透明的像素時停止擴大"
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:409
 #, kde-format
 msgid "Blur the selection by the set amount"
-msgstr "按數值使選取區域變得模糊"
+msgstr "按指定值使選取區域變得模糊"
 
 #: libs/ui/widgets/kis_selection_options.cc:242
 #, fuzzy, kde-format
@@ -54816,35 +54814,31 @@ msgstr ""
 
 #: plugins/tools/basictools/kis_tool_fill.cc:575
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:452
-#, fuzzy, kde-format
-#| msgid ""
-#| "Set if the contour of the current selection should be treated as a "
-#| "boundary when obtaining the region"
+#, kde-format
 msgid ""
 "Set if the contour of the active selection should be treated as a boundary "
 "when filling the region"
-msgstr "設定應否視目前選取區域為檢取區域的邊界"
+msgstr "設定應否視使用中選取區域為填充區域的邊界"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:577
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:454
 #, fuzzy, kde-format
 #| msgid "Smooth the jagged edges"
 msgid "Smooths the edges of the fill"
-msgstr "平滑化鋸齒狀的邊緣"
+msgstr "平滑化填充的邊緣"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:578
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:455
 #, fuzzy, kde-format
 #| msgid "Blur the region by the set amount"
 msgid "Grow or shrink the fill by the set amount"
-msgstr "按數值使區域變得模糊"
+msgstr "按指定值擴大或縮小填充"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:580
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:457
-#, fuzzy, kde-format
-#| msgid "Blur the region by the set amount"
+#, kde-format
 msgid "Blur the fill by the set amount"
-msgstr "按數值使區域變得模糊"
+msgstr "按指定值使填充變得模糊"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:582
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:459
