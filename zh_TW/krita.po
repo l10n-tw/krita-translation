@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-10-05 00:44+0000\n"
-"PO-Revision-Date: 2022-10-11 16:24+0000\n"
+"PO-Revision-Date: 2022-10-15 10:24+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -54852,7 +54852,7 @@ msgstr "以使用中圖層檢取區域"
 #, fuzzy, kde-format
 #| msgid "Obtain the region using a merged copy of all layers"
 msgid "Fill regions found from the merging of all layers"
-msgstr "以全部圖層合併的影像檢取區域"
+msgstr "填充在全部圖層合併的影像中找出的區域"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:584
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:461
