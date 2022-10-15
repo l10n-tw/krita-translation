@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-09-14 00:43+0000\n"
-"PO-Revision-Date: 2022-09-14 10:25+0000\n"
+"POT-Creation-Date: 2022-10-05 00:44+0000\n"
+"PO-Revision-Date: 2022-10-15 10:24+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.12.2\n"
+"X-Generator: Weblate 4.14.1\n"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
@@ -12652,7 +12652,7 @@ msgstr "匯入/匯出(&I)"
 msgid "Import"
 msgstr "匯入"
 
-#: krita/krita5.xmlgui:221 plugins/dockers/layerdocker/LayerBox.cpp:1224
+#: krita/krita5.xmlgui:221 plugins/dockers/layerdocker/LayerBox.cpp:1230
 #, kde-format
 msgid "&Convert"
 msgstr "轉換(&C)"
@@ -12660,14 +12660,14 @@ msgstr "轉換(&C)"
 #. i18n: ectx: property (text), widget (QPushButton, bnSelect)
 #: krita/krita5.xmlgui:232 krita/krita5.xmlgui:303
 #: libs/ui/imagesize/imagesize.xmlgui:12
-#: plugins/dockers/layerdocker/LayerBox.cpp:1198
+#: plugins/dockers/layerdocker/LayerBox.cpp:1204
 #: plugins/extensions/colorrange/wdg_colorrange.ui:134
 #: plugins/extensions/modify_selection/modify_selection.xmlgui:4
 #, kde-format
 msgid "&Select"
 msgstr "選取(&S)"
 
-#: krita/krita5.xmlgui:240 plugins/dockers/layerdocker/LayerBox.cpp:1204
+#: krita/krita5.xmlgui:240 plugins/dockers/layerdocker/LayerBox.cpp:1210
 #, kde-format
 msgctxt "A group of layers"
 msgid "&Group"
@@ -12688,7 +12688,7 @@ msgstr "變形全部圖層(&A)"
 msgid "S&plit"
 msgstr "分割(&P)"
 
-#: krita/krita5.xmlgui:280 plugins/dockers/layerdocker/LayerBox.cpp:1231
+#: krita/krita5.xmlgui:280 plugins/dockers/layerdocker/LayerBox.cpp:1237
 #, kde-format
 msgid "S&plit Alpha"
 msgstr "分割 Alpha (透明度) (&P)"
@@ -15634,65 +15634,65 @@ msgid ""
 msgstr ""
 "無法載入 WinTab 驅動程式。如果您的數位板已連接，請確保其驅動程式已正確安裝。"
 
-#: libs/basicflakes/tools/KoCreatePathTool.cpp:544
+#: libs/basicflakes/tools/KoCreatePathTool.cpp:542
 #, kde-format
 msgid "Path options"
 msgstr "路徑選項"
 
-#: libs/basicflakes/tools/KoCreatePathTool.cpp:546
+#: libs/basicflakes/tools/KoCreatePathTool.cpp:544
 #, kde-format
 msgid "Autosmooth curve"
 msgstr "自動平滑曲線"
 
-#: libs/basicflakes/tools/KoCreatePathTool.cpp:550
+#: libs/basicflakes/tools/KoCreatePathTool.cpp:548
 #, kde-format
 msgid "Activate angle snap"
 msgstr "啟動角度吸附"
 
 #. i18n: ectx: property (text), widget (QLabel, lblPrecision)
-#: libs/basicflakes/tools/KoPencilTool.cpp:299
+#: libs/basicflakes/tools/KoPencilTool.cpp:297
 #: plugins/paintops/libpaintop/forms/wdgbrushchooser.ui:105
 #, kde-format
 msgid "Precision:"
 msgstr "精度："
 
-#: libs/basicflakes/tools/KoPencilTool.cpp:301
+#: libs/basicflakes/tools/KoPencilTool.cpp:299
 #, kde-format
 msgctxt "The raw line data"
 msgid "Raw"
 msgstr "原始"
 
-#: libs/basicflakes/tools/KoPencilTool.cpp:302
+#: libs/basicflakes/tools/KoPencilTool.cpp:300
 #: plugins/flake/pathshapes/spiral/SpiralShapeConfigWidget.cpp:16
 #: plugins/paintops/curvebrush/curve_paintop_plugin.cpp:29
 #, kde-format
 msgid "Curve"
 msgstr "曲線"
 
-#: libs/basicflakes/tools/KoPencilTool.cpp:303
+#: libs/basicflakes/tools/KoPencilTool.cpp:301
 #, kde-format
 msgid "Straight"
 msgstr "直線"
 
-#: libs/basicflakes/tools/KoPencilTool.cpp:312
-#: libs/basicflakes/tools/KoPencilTool.cpp:318
+#: libs/basicflakes/tools/KoPencilTool.cpp:310
+#: libs/basicflakes/tools/KoPencilTool.cpp:316
 #, kde-format
 msgid "Optimize"
 msgstr "最佳化"
 
-#: libs/basicflakes/tools/KoPencilTool.cpp:324
+#: libs/basicflakes/tools/KoPencilTool.cpp:322
 #, kde-format
 msgid "Exactness:"
 msgstr "精度："
 
-#: libs/basicflakes/tools/KoPencilTool.cpp:357
-#: libs/basicflakes/tools/KoPencilTool.cpp:358
+#: libs/basicflakes/tools/KoPencilTool.cpp:355
+#: libs/basicflakes/tools/KoPencilTool.cpp:356
 #, kde-format
 msgid "Pencil"
 msgstr "鉛筆"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, shapeCBox)
-#: libs/basicflakes/tools/KoPencilTool.cpp:363
+#: libs/basicflakes/tools/KoPencilTool.cpp:361
 #: plugins/flake/pathshapes/spiral/SpiralShapeConfigWidget.cpp:17
 #: plugins/paintops/gridbrush/wdggridbrushshapeoptions.ui:51
 #, kde-format
@@ -16025,7 +16025,7 @@ msgid "Cannot save %1 to html"
 msgstr "無法將 %1 儲存到 html"
 
 #: libs/flake/KoMarkerCollection.cpp:67
-#: libs/flake/resources/KoSvgSymbolCollectionResource.cpp:126
+#: libs/flake/resources/KoSvgSymbolCollectionResource.cpp:123
 #: libs/ui/flake/kis_shape_layer.cc:560
 #, kde-format
 msgid ""
@@ -16066,25 +16066,25 @@ msgstr ""
 "文件內含有由 Krita 4.x 建立的向量文字。當您儲存文件時，這些文字物件將會被轉換"
 "為 Krita 5 格式而不再兼容 Krita 4.x 版本"
 
-#: libs/flake/text/KoSvgTextShape.cpp:571
+#: libs/flake/text/KoSvgTextShape.cpp:566
 #, kde-format
 msgctxt "Text label in SVG Text Tool"
 msgid "Text"
 msgstr "文字"
 
-#: libs/flake/text/KoSvgTextShape.cpp:573
-#: libs/flake/text/KoSvgTextShape.cpp:581
+#: libs/flake/text/KoSvgTextShape.cpp:568
+#: libs/flake/text/KoSvgTextShape.cpp:576
 #, kde-format
 msgid "SVG Text Shape"
 msgstr "SVG 文字形狀"
 
-#: libs/flake/text/KoSvgTextShape.cpp:579
+#: libs/flake/text/KoSvgTextShape.cpp:574
 #, kde-format
 msgid "SVG Text"
 msgstr "SVG 文字"
 
-#: libs/flake/text/KoSvgTextShape.cpp:593
-#: libs/flake/text/KoSvgTextShape.cpp:608
+#: libs/flake/text/KoSvgTextShape.cpp:588
+#: libs/flake/text/KoSvgTextShape.cpp:603
 #, kde-format
 msgctxt "Default text for the text shape"
 msgid "<text>Placeholder Text</text>"
@@ -16398,7 +16398,6 @@ msgstr "大小"
 #. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, intHeight)
 #. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, intRoundCornersX)
 #. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, intRoundCornersY)
-#. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, intCheckSize)
 #. i18n: ectx: property (suffix), widget (QSpinBox, patchRadius)
 #. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, radius)
 #. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, intX)
@@ -16427,7 +16426,6 @@ msgstr "大小"
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1346
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1410
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1298
-#: libs/ui/forms/wdgdisplaysettings.ui:389
 #: libs/ui/forms/wdggeneralsettings.ui:374
 #: libs/ui/forms/wdgrectangleconstraints.ui:59
 #: libs/ui/forms/wdgrectangleconstraints.ui:98
@@ -16447,8 +16445,8 @@ msgstr "大小"
 #: plugins/dockers/griddocker/grid_config_widget.ui:230
 #: plugins/dockers/griddocker/grid_config_widget.ui:444
 #: plugins/dockers/griddocker/grid_config_widget.ui:489
-#: plugins/dockers/recorder/recorder_export.ui:442
-#: plugins/dockers/recorder/recorder_export.ui:480
+#: plugins/dockers/recorder/recorder_export.ui:448
+#: plugins/dockers/recorder/recorder_export.ui:486
 #: plugins/filters/blur/kis_wdg_gaussian_blur.cpp:36
 #: plugins/filters/blur/kis_wdg_gaussian_blur.cpp:44
 #: plugins/generators/pattern/kis_wdg_pattern.cpp:40
@@ -16481,21 +16479,21 @@ msgstr "大小"
 #: plugins/paintops/spray/kis_spray_shape_option.cpp:122
 #: plugins/paintops/spray/kis_spray_shape_option.cpp:124
 #: plugins/paintops/spray/kis_sprayop_option.cpp:32
-#: plugins/tools/basictools/kis_tool_brush.cc:391
-#: plugins/tools/basictools/kis_tool_fill.cc:517
-#: plugins/tools/basictools/kis_tool_fill.cc:528
+#: plugins/tools/basictools/kis_tool_brush.cc:390
+#: plugins/tools/basictools/kis_tool_fill.cc:522
+#: plugins/tools/basictools/kis_tool_fill.cc:533
 #: plugins/tools/basictools/kis_tool_movetooloptionswidget.cpp:51
 #: plugins/tools/basictools/kis_tool_movetooloptionswidget.cpp:52
 #: plugins/tools/basictools/kis_tool_multihand.cpp:451
 #: plugins/tools/basictools/wdgcolorsampler.ui:186
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:381
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:387
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:384
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:390
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:117
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:142
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:250
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:275
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:404
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:415
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:406
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:417
 #: plugins/tools/tool_lazybrush/kis_tool_lazy_brush_options_widget.cpp:106
 #: plugins/tools/tool_lazybrush/kis_tool_lazy_brush_options_widget.cpp:116
 #: plugins/tools/tool_smart_patch/kis_tool_smart_patch_options_widget.ui:134
@@ -16509,8 +16507,8 @@ msgstr " px"
 #: libs/image/brushengine/kis_standard_uniform_properties_factory.h:19
 #: libs/image/kis_keyframe_channel.cpp:26 libs/image/kis_layer.cc:276
 #: libs/widgets/KoColorPopupAction.cpp:85
-#: plugins/dockers/layerdocker/LayerBox.cpp:201
-#: plugins/dockers/layerdocker/LayerBox.cpp:382
+#: plugins/dockers/layerdocker/LayerBox.cpp:207
+#: plugins/dockers/layerdocker/LayerBox.cpp:388
 #: plugins/paintops/hairy/wdghairyeoptions.ui:301
 #: plugins/paintops/hairy/wdgInkOptions.ui:62
 #: plugins/paintops/libpaintop/kis_pressure_flow_opacity_option.cpp:19
@@ -16811,7 +16809,7 @@ msgstr ""
 msgid "Mitchell"
 msgstr "Mitchell 演算法"
 
-#: libs/image/kis_group_layer.cc:327
+#: libs/image/kis_group_layer.cc:330
 #: libs/image/kis_layer_properties_icons.cpp:26
 #, kde-format
 msgid "Pass Through"
@@ -16830,9 +16828,8 @@ msgstr "選取區域遮罩"
 
 #: libs/image/kis_image.cc:750 libs/ui/KisDocument.cpp:2469
 #: plugins/impex/psd/psd_loader.cpp:189
-#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:68
-#: plugins/python/comics_project_management_tools/comics_template_dialog.py:302
 #, kde-format
+msgctxt "Name for the bottom-most layer in the layerstack"
 msgid "Background"
 msgstr "背景"
 
@@ -16982,8 +16979,8 @@ msgstr "旋轉 (Y)"
 msgid "Rotation (Z)"
 msgstr "旋轉 (Z)"
 
-#: libs/image/kis_layer.cc:276 libs/widgets/KoZoomAction.cpp:215
-#: libs/widgets/KoZoomAction.cpp:226 libs/widgets/KoZoomMode.cpp:13
+#: libs/image/kis_layer.cc:276 libs/widgets/KoZoomAction.cpp:195
+#: libs/widgets/KoZoomAction.cpp:206 libs/widgets/KoZoomMode.cpp:13
 #, kde-format
 msgid "%1%"
 msgstr "%1%"
@@ -17138,8 +17135,8 @@ msgid "Processing"
 msgstr "正在處理"
 
 #: libs/image/kis_psd_layer_style.cpp:104
-#: libs/ui/KisApplicationArguments.cpp:378 libs/ui/KisMainWindow.cpp:1346
-#: libs/ui/KisMainWindow.cpp:1626 libs/ui/KisMainWindow.cpp:1639
+#: libs/ui/KisApplicationArguments.cpp:378 libs/ui/KisMainWindow.cpp:1352
+#: libs/ui/KisMainWindow.cpp:1632 libs/ui/KisMainWindow.cpp:1645
 #: plugins/impex/libkra/kis_kra_saver.cpp:90
 #, kde-format
 msgid "Unnamed"
@@ -17592,7 +17589,7 @@ msgstr "變形遮罩"
 #: libs/ui/kis_node_manager.cpp:1294
 #: plugins/impex/libkra/kis_kra_load_visitor.cpp:214
 #: plugins/impex/psd/psd_loader.cpp:379
-#: plugins/impex/tiff/kis_tiff_import.cc:541
+#: plugins/impex/tiff/kis_tiff_import.cc:544
 #: plugins/impex/xcf/kis_xcf_import.cpp:273
 #, kde-format
 msgid "Transparency Mask"
@@ -17852,8 +17849,8 @@ msgctxt "description of a file type"
 msgid "JPEG-XL Image"
 msgstr "JPEG-XL 影像"
 
-#: libs/libkis/Document.cpp:954 libs/ui/KisMainWindow.cpp:1988
-#: libs/ui/KisMainWindow.cpp:2071
+#: libs/libkis/Document.cpp:960 libs/ui/KisMainWindow.cpp:1996
+#: libs/ui/KisMainWindow.cpp:2079
 #, kde-format
 msgid "Import frames"
 msgstr "匯入影格"
@@ -17934,7 +17931,7 @@ msgid "Invalid value."
 msgstr "無效值。"
 
 #. i18n: ectx: property (title), widget (QGroupBox, alphaGroupBox)
-#: libs/pigment/colorspaces/KoAlphaColorSpace.cpp:78
+#: libs/pigment/colorspaces/KoAlphaColorSpace.cpp:79
 #: libs/pigment/colorspaces/KoLabColorSpace.cpp:36
 #: libs/pigment/colorspaces/KoRgbU8ColorSpace.cpp:38
 #: plugins/color/lcms2engine/colorspaces/cmyk_f32/CmykF32ColorSpace.cpp:31
@@ -18666,428 +18663,440 @@ msgstr "覆蓋"
 
 #: libs/pigment/KoCompositeOpRegistry.cpp:113
 #, kde-format
+msgctxt "Blending mode - Lambert Lighting (Linear)"
+msgid "Lambert Lighting (Linear)"
+msgstr ""
+
+#: libs/pigment/KoCompositeOpRegistry.cpp:114
+#, kde-format
+msgctxt "Blending mode - Lambert Lighting (Gamma 2.2)"
+msgid "Lambert Lighting (Gamma 2.2)"
+msgstr ""
+
+#: libs/pigment/KoCompositeOpRegistry.cpp:115
+#, kde-format
 msgctxt "Blending mode - Erase"
 msgid "Erase"
 msgstr "擦除"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:114
+#: libs/pigment/KoCompositeOpRegistry.cpp:116
 #, kde-format
 msgctxt "Blending mode - Alpha Darken"
 msgid "Alpha Darken"
 msgstr "Alpha 變暗"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:115
+#: libs/pigment/KoCompositeOpRegistry.cpp:117
 #, kde-format
 msgctxt "Blending mode - Hard Mix"
 msgid "Hard Mix"
 msgstr "實色混合"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:116
+#: libs/pigment/KoCompositeOpRegistry.cpp:118
 #, kde-format
 msgctxt "Blending mode - Hard Mix (Photoshop)"
 msgid "Hard Mix (Photoshop)"
 msgstr "實色混合 (Photoshop)"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:117
+#: libs/pigment/KoCompositeOpRegistry.cpp:119
 #, kde-format
 msgctxt "Blending mode - Hard Mix Softer (Photoshop)"
 msgid "Hard Mix Softer (Photoshop)"
 msgstr "實色混合 - 更柔和 (Photoshop)"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:118
+#: libs/pigment/KoCompositeOpRegistry.cpp:120
 #, kde-format
 msgctxt "Blending mode - Grain Merge"
 msgid "Grain Merge"
 msgstr "相加變深"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:119
+#: libs/pigment/KoCompositeOpRegistry.cpp:121
 #, kde-format
 msgctxt "Blending mode - Grain Extract"
 msgid "Grain Extract"
 msgstr "減去變亮"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:120
+#: libs/pigment/KoCompositeOpRegistry.cpp:122
 #, kde-format
 msgctxt "Blending mode - Parallel"
 msgid "Parallel"
 msgstr "平行"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:121
+#: libs/pigment/KoCompositeOpRegistry.cpp:123
 #, kde-format
 msgctxt "Blending mode - Allanon"
 msgid "Allanon"
 msgstr "相加減半"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:122
+#: libs/pigment/KoCompositeOpRegistry.cpp:124
 #, kde-format
 msgctxt "Blending mode - Geometric Mean"
 msgid "Geometric Mean"
 msgstr "幾何平均"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:123
+#: libs/pigment/KoCompositeOpRegistry.cpp:125
 #, kde-format
 msgctxt "Blending mode - Destination Atop"
 msgid "Destination Atop"
 msgstr "目標頂部"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:124
+#: libs/pigment/KoCompositeOpRegistry.cpp:126
 #, kde-format
 msgctxt "Blending mode - Destination In"
 msgid "Destination In"
 msgstr "目標內部"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:125
+#: libs/pigment/KoCompositeOpRegistry.cpp:127
 #, kde-format
 msgctxt "Blending mode - Hard Overlay"
 msgid "Hard Overlay"
 msgstr "實光覆蓋"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:126
+#: libs/pigment/KoCompositeOpRegistry.cpp:128
 #, kde-format
 msgctxt "Blending mode - Interpolation"
 msgid "Interpolation"
 msgstr "插值"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:127
+#: libs/pigment/KoCompositeOpRegistry.cpp:129
 #, kde-format
 msgctxt "Blending mode - Interpolation - 2X"
 msgid "Interpolation - 2X"
 msgstr "插值兩次"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:128
+#: libs/pigment/KoCompositeOpRegistry.cpp:130
 #, kde-format
 msgctxt "Blending mode - Penumbra A"
 msgid "Penumbra A"
 msgstr "半影 A"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:129
+#: libs/pigment/KoCompositeOpRegistry.cpp:131
 #, kde-format
 msgctxt "Blending mode - Penumbra B"
 msgid "Penumbra B"
 msgstr "半影 B"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:130
+#: libs/pigment/KoCompositeOpRegistry.cpp:132
 #, kde-format
 msgctxt "Blending mode - Penumbra C"
 msgid "Penumbra C"
 msgstr "半影 C"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:131
+#: libs/pigment/KoCompositeOpRegistry.cpp:133
 #, kde-format
 msgctxt "Blending mode - Penumbra D"
 msgid "Penumbra D"
 msgstr "半影 D"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:133
+#: libs/pigment/KoCompositeOpRegistry.cpp:135
 #, kde-format
 msgctxt "Blending mode - Bumpmap"
 msgid "Bumpmap"
 msgstr "凹凸貼圖"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:134
+#: libs/pigment/KoCompositeOpRegistry.cpp:136
 #, kde-format
 msgctxt "Blending mode - Combine Normal Map"
 msgid "Combine Normal Map"
 msgstr "合併法線貼圖"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:135
+#: libs/pigment/KoCompositeOpRegistry.cpp:137
 #, kde-format
 msgctxt "Blending mode - Dissolve"
 msgid "Dissolve"
 msgstr "溶解"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:136
+#: libs/pigment/KoCompositeOpRegistry.cpp:138
 #, kde-format
 msgctxt "Blending mode - Copy Red"
 msgid "Copy Red"
 msgstr "複製紅色通道"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:137
+#: libs/pigment/KoCompositeOpRegistry.cpp:139
 #, kde-format
 msgctxt "Blending mode - Copy Green"
 msgid "Copy Green"
 msgstr "複製綠色通道"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:138
+#: libs/pigment/KoCompositeOpRegistry.cpp:140
 #, kde-format
 msgctxt "Blending mode - Copy Blue"
 msgid "Copy Blue"
 msgstr "複製藍色通道"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:139
+#: libs/pigment/KoCompositeOpRegistry.cpp:141
 #, kde-format
 msgctxt "Blending mode - Copy"
 msgid "Copy"
 msgstr "複製"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:140
+#: libs/pigment/KoCompositeOpRegistry.cpp:142
 #, kde-format
 msgctxt "Blending mode - Tangent Normalmap"
 msgid "Tangent Normalmap"
 msgstr "切線空間法線貼圖"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:142
+#: libs/pigment/KoCompositeOpRegistry.cpp:144
 #, kde-format
 msgctxt "Blending mode - Color HSY"
 msgid "Color"
 msgstr "色彩"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:143
+#: libs/pigment/KoCompositeOpRegistry.cpp:145
 #, kde-format
 msgctxt "Blending mode - Hue HSY"
 msgid "Hue"
 msgstr "色相"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:144
+#: libs/pigment/KoCompositeOpRegistry.cpp:146
 #, kde-format
 msgctxt "Blending mode - Saturation HSY"
 msgid "Saturation"
 msgstr "飽和度"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:145
+#: libs/pigment/KoCompositeOpRegistry.cpp:147
 #, kde-format
 msgctxt "Blending mode - Luminosity HSY"
 msgid "Luminosity"
 msgstr "光度"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:146
+#: libs/pigment/KoCompositeOpRegistry.cpp:148
 #, kde-format
 msgctxt "Blending mode - Decrease Saturation HSY"
 msgid "Decrease Saturation"
 msgstr "降低飽和度"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:147
+#: libs/pigment/KoCompositeOpRegistry.cpp:149
 #, kde-format
 msgctxt "Blending mode - Increase Saturation HSY"
 msgid "Increase Saturation"
 msgstr "提高飽和度"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:148
+#: libs/pigment/KoCompositeOpRegistry.cpp:150
 #, kde-format
 msgctxt "Blending mode - Decrease Luminosity HSY"
 msgid "Decrease Luminosity"
 msgstr "降低光度"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:149
+#: libs/pigment/KoCompositeOpRegistry.cpp:151
 #, kde-format
 msgctxt "Blending mode - Increase Luminosity HSY"
 msgid "Increase Luminosity"
 msgstr "提高光度"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:151
+#: libs/pigment/KoCompositeOpRegistry.cpp:153
 #, kde-format
 msgctxt "Blending mode - Color HSI"
 msgid "Color HSI"
 msgstr "色彩 HSI"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:152
+#: libs/pigment/KoCompositeOpRegistry.cpp:154
 #, kde-format
 msgctxt "Blending mode - Hue HSI"
 msgid "Hue HSI"
 msgstr "色相 HSI"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:153
+#: libs/pigment/KoCompositeOpRegistry.cpp:155
 #, kde-format
 msgctxt "Blending mode - Saturation HSI"
 msgid "Saturation HSI"
 msgstr "飽和度 HSI"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:154
+#: libs/pigment/KoCompositeOpRegistry.cpp:156
 #, kde-format
 msgctxt "Blending mode - Intensity HSI"
 msgid "Intensity"
 msgstr "強度"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:155
+#: libs/pigment/KoCompositeOpRegistry.cpp:157
 #, kde-format
 msgctxt "Blending mode - Decrease Saturation HSI"
 msgid "Decrease Saturation HSI"
 msgstr "降低飽和度 HSI"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:156
+#: libs/pigment/KoCompositeOpRegistry.cpp:158
 #, kde-format
 msgctxt "Blending mode - Increase Saturation HSI"
 msgid "Increase Saturation HSI"
 msgstr "提高飽和度 HSI"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:157
+#: libs/pigment/KoCompositeOpRegistry.cpp:159
 #, kde-format
 msgctxt "Blending mode - Decrease Intensity"
 msgid "Decrease Intensity"
 msgstr "降低強度"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:158
+#: libs/pigment/KoCompositeOpRegistry.cpp:160
 #, kde-format
 msgctxt "Blending mode - Increase Intensity"
 msgid "Increase Intensity"
 msgstr "提高強度"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:160
+#: libs/pigment/KoCompositeOpRegistry.cpp:162
 #, kde-format
 msgctxt "Blending mode - Color HSL"
 msgid "Color HSL"
 msgstr "色彩 HSL"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:161
+#: libs/pigment/KoCompositeOpRegistry.cpp:163
 #, kde-format
 msgctxt "Blending mode - Hue HSL"
 msgid "Hue HSL"
 msgstr "色相 HSL"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:162
+#: libs/pigment/KoCompositeOpRegistry.cpp:164
 #, kde-format
 msgctxt "Blending mode - Saturation HSL"
 msgid "Saturation HSL"
 msgstr "飽和度 HSL"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:163
+#: libs/pigment/KoCompositeOpRegistry.cpp:165
 #, kde-format
 msgctxt "Blending mode - Lightness HSI"
 msgid "Lightness"
 msgstr "亮度"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:164
+#: libs/pigment/KoCompositeOpRegistry.cpp:166
 #, kde-format
 msgctxt "Blending mode - Decrease Saturation HSL"
 msgid "Decrease Saturation HSL"
 msgstr "降低飽和度 HSL"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:165
+#: libs/pigment/KoCompositeOpRegistry.cpp:167
 #, kde-format
 msgctxt "Blending mode - Increase Saturation HSL"
 msgid "Increase Saturation HSL"
 msgstr "提高飽和度 HSL"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:166
+#: libs/pigment/KoCompositeOpRegistry.cpp:168
 #, kde-format
 msgctxt "Blending mode - Decrease Lightness"
 msgid "Decrease Lightness"
 msgstr "降低亮度"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:167
+#: libs/pigment/KoCompositeOpRegistry.cpp:169
 #, kde-format
 msgctxt "Blending mode - Increase Lightness"
 msgid "Increase Lightness"
 msgstr "提高亮度"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:169
+#: libs/pigment/KoCompositeOpRegistry.cpp:171
 #, kde-format
 msgctxt "Blending mode - Color HSV"
 msgid "Color HSV"
 msgstr "色彩 HSV"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:170
+#: libs/pigment/KoCompositeOpRegistry.cpp:172
 #, kde-format
 msgctxt "Blending mode - Hue HSV"
 msgid "Hue HSV"
 msgstr "色相 HSV"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:171
+#: libs/pigment/KoCompositeOpRegistry.cpp:173
 #, kde-format
 msgctxt "Blending mode - Saturation HSV"
 msgid "Saturation HSV"
 msgstr "飽和度 HSV"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:172
+#: libs/pigment/KoCompositeOpRegistry.cpp:174
 #, kde-format
 msgctxt "Blending mode - Value HSV"
 msgid "Value"
 msgstr "明度"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:173
+#: libs/pigment/KoCompositeOpRegistry.cpp:175
 #, kde-format
 msgctxt "Blending mode - Decrease Saturation HSV"
 msgid "Decrease Saturation HSV"
 msgstr "降低飽和度 HSV"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:174
+#: libs/pigment/KoCompositeOpRegistry.cpp:176
 #, kde-format
 msgctxt "Blending mode - Increase Saturation HSV"
 msgid "Increase Saturation HSV"
 msgstr "提高飽和度 HSV"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:175
+#: libs/pigment/KoCompositeOpRegistry.cpp:177
 #, kde-format
 msgctxt "Blending mode - Decrease Value HSV"
 msgid "Decrease Value"
 msgstr "降低明度"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:176
+#: libs/pigment/KoCompositeOpRegistry.cpp:178
 #, kde-format
 msgctxt "Blending mode - Increase Value HSV"
 msgid "Increase Value"
 msgstr "提高明度"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:178
+#: libs/pigment/KoCompositeOpRegistry.cpp:180
 #, kde-format
 msgctxt "Blending mode - Reflect"
 msgid "Reflect"
 msgstr "反射"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:179
+#: libs/pigment/KoCompositeOpRegistry.cpp:181
 #, kde-format
 msgctxt "Blending mode - Glow"
 msgid "Glow"
 msgstr "發光"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:180
+#: libs/pigment/KoCompositeOpRegistry.cpp:182
 #, kde-format
 msgctxt "Blending mode - Freeze"
 msgid "Freeze"
 msgstr "凍結"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:181
+#: libs/pigment/KoCompositeOpRegistry.cpp:183
 #, kde-format
 msgctxt "Blending mode - Heat"
 msgid "Heat"
 msgstr "加熱"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:182
+#: libs/pigment/KoCompositeOpRegistry.cpp:184
 #, kde-format
 msgctxt "Blending mode - Glow-Heat"
 msgid "Glow-Heat"
 msgstr "發光-加熱"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:183
+#: libs/pigment/KoCompositeOpRegistry.cpp:185
 #, kde-format
 msgctxt "Blending mode - Heat-Glow"
 msgid "Heat-Glow"
 msgstr "加熱-發光"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:184
+#: libs/pigment/KoCompositeOpRegistry.cpp:186
 #, kde-format
 msgctxt "Blending mode - Reflect-Freeze"
 msgid "Reflect-Freeze"
 msgstr "反射-凍結"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:185
+#: libs/pigment/KoCompositeOpRegistry.cpp:187
 #, kde-format
 msgctxt "Blending mode - Freeze-Reflect"
 msgid "Freeze-Reflect"
 msgstr "凍結-反射"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:186
+#: libs/pigment/KoCompositeOpRegistry.cpp:188
 #, kde-format
 msgctxt "Blending mode - Heat-Glow & Freeze-Reflect Hybrid"
 msgid "Heat-Glow & Freeze-Reflect Hybrid"
 msgstr "加熱-發光 與 凍結-反射混合"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:210
+#: libs/pigment/KoCompositeOpRegistry.cpp:212
 #, kde-format
 msgid "In"
 msgstr "輸入"
 
-#: libs/pigment/KoCompositeOpRegistry.cpp:212
+#: libs/pigment/KoCompositeOpRegistry.cpp:214
 #, kde-format
 msgid "Out"
 msgstr "輸出"
 
-#: libs/pigment/resources/KoColorSet.cpp:496
-#: libs/pigment/resources/KoColorSet.cpp:839
-#: libs/pigment/resources/KoColorSet.cpp:916
-#: libs/pigment/resources/KoColorSet.cpp:1128
+#: libs/pigment/resources/KoColorSet.cpp:489
+#: libs/pigment/resources/KoColorSet.cpp:832
+#: libs/pigment/resources/KoColorSet.cpp:909
+#: libs/pigment/resources/KoColorSet.cpp:1121
 #: libs/ui/actions/KisPasteActionFactories.cpp:333
-#: libs/ui/animation/KisDlgAnimationRenderer.cpp:348 libs/ui/KisView.cpp:1136
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:348 libs/ui/KisView.cpp:1134
 #: plugins/generators/seexpr/kis_wdg_seexpr.cpp:34
 #, kde-format
 msgid "Untitled"
@@ -19114,7 +19123,7 @@ msgstr "未命名圖層"
 msgid "Unparsed Resource Block"
 msgstr "未解析的資源資料塊"
 
-#: libs/resources/KisFolderStorage.cpp:279
+#: libs/resources/KisFolderStorage.cpp:278
 #, kde-format
 msgid "Local Resources"
 msgstr "本機資源"
@@ -19151,15 +19160,15 @@ msgstr "本機資源"
 #: libs/ui/KisApplication.cpp:1062 libs/ui/KisDocument.cpp:925
 #: libs/ui/KisDocument.cpp:933 libs/ui/KisDocument.cpp:1837
 #: libs/ui/KisDocument.cpp:1880 libs/ui/KisDocument.cpp:1888
-#: libs/ui/KisMainWindow.cpp:1019 libs/ui/KisMainWindow.cpp:1145
-#: libs/ui/KisMainWindow.cpp:1244 libs/ui/KisMainWindow.cpp:1848
-#: libs/ui/KisMainWindow.cpp:1857 libs/ui/KisMainWindow.cpp:1996
-#: libs/ui/KisMainWindow.cpp:2057 libs/ui/KisMainWindow.cpp:2078
+#: libs/ui/KisMainWindow.cpp:1025 libs/ui/KisMainWindow.cpp:1151
+#: libs/ui/KisMainWindow.cpp:1250 libs/ui/KisMainWindow.cpp:1856
+#: libs/ui/KisMainWindow.cpp:1865 libs/ui/KisMainWindow.cpp:2004
+#: libs/ui/KisMainWindow.cpp:2065 libs/ui/KisMainWindow.cpp:2086
 #: libs/ui/KisPart.cpp:553 libs/ui/KisPart.cpp:556
 #: libs/ui/KisReferenceImage.cpp:175 libs/ui/KisRemoteFileFetcher.cpp:35
 #: libs/ui/KisRemoteFileFetcher.cpp:56 libs/ui/KisRemoteFileFetcher.cpp:86
 #: libs/ui/KisTemplateCreateDia.cpp:284 libs/ui/KisTemplateCreateDia.cpp:390
-#: libs/ui/KisView.cpp:681 libs/ui/KisView.cpp:1139
+#: libs/ui/KisView.cpp:681 libs/ui/KisView.cpp:1137
 #: libs/ui/KisWelcomePageWidget.cpp:709
 #: libs/ui/opengl/KisOpenGLCanvasRenderer.cpp:331
 #: libs/ui/widgets/kis_custom_image_widget.cc:292
@@ -19178,9 +19187,9 @@ msgstr "本機資源"
 #: plugins/extensions/qmic/QMic.cpp:54 plugins/extensions/qmic/QMic.cpp:79
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:186
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:191
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:214
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:284
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:289
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:218
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:293
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:298
 #: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:295
 #: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:374
 #: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:381
@@ -19191,8 +19200,8 @@ msgstr "本機資源"
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:129
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:164
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:185
-#: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:217
-#: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:226
+#: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:220
+#: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:231
 #: plugins/tools/svgtexttool/SvgTextEditor.cpp:1120
 #: plugins/tools/tool_transform2/kis_free_transform_strategy_gsl_helpers.cpp:436
 #, kde-format
@@ -19208,61 +19217,61 @@ msgid ""
 msgstr ""
 "資源資料庫綱要已變更。Krita 會先備份您的資料庫，然後再建立一個新的資料庫。"
 
-#: libs/resources/KisResourceLocator.cpp:90
+#: libs/resources/KisResourceLocator.cpp:91
 #, kde-format
 msgid "1. Could not create the resource location at %1."
 msgstr "1. 無法建立位於 %1 的資源位置。"
 
-#: libs/resources/KisResourceLocator.cpp:97
+#: libs/resources/KisResourceLocator.cpp:98
 #, kde-format
 msgid "2. The resource location at %1 is not writable."
 msgstr "2. 位於 %1 的資源位置無法寫入。"
 
-#: libs/resources/KisResourceLocator.cpp:822
+#: libs/resources/KisResourceLocator.cpp:817
 #, kde-format
 msgid "Could not add %1 to the database"
 msgstr "無法新增 %1 至資料庫"
 
-#: libs/resources/KisResourceLocator.cpp:866
-#: libs/resources/KisResourceLocator.cpp:1213
+#: libs/resources/KisResourceLocator.cpp:861
+#: libs/resources/KisResourceLocator.cpp:1208
 #, kde-format
 msgid "Could not remove storage %1 from the database"
 msgstr "無法從資料庫移除 %1 儲存空間"
 
-#: libs/resources/KisResourceLocator.cpp:978
+#: libs/resources/KisResourceLocator.cpp:973
 #, kde-format
 msgid ""
 "Krita is running for the first time. Initialization will take some time."
 msgstr "Krita 為第一次執行。需要一點時間初始化。"
 
-#: libs/resources/KisResourceLocator.cpp:985
+#: libs/resources/KisResourceLocator.cpp:980
 #, kde-format
 msgid "3. Could not create the resource location at %1."
 msgstr "3. 無法建立位於 %1 的資源位置。"
 
-#: libs/resources/KisResourceLocator.cpp:998
-#: libs/resources/KisResourceLocator.cpp:1014
+#: libs/resources/KisResourceLocator.cpp:993
+#: libs/resources/KisResourceLocator.cpp:1009
 #, kde-format
 msgid "Could not copy resource %1 to %2"
 msgstr "無法複製 %1 資源至 %2"
 
-#: libs/resources/KisResourceLocator.cpp:1010
+#: libs/resources/KisResourceLocator.cpp:1005
 #, kde-format
 msgid "Installing the resources from bundle %1."
 msgstr "正在從 %1 資源包安裝資源。"
 
-#: libs/resources/KisResourceLocator.cpp:1032
+#: libs/resources/KisResourceLocator.cpp:1027
 #, kde-format
 msgid "Initializing the resources."
 msgstr "正在初始化資源。"
 
-#: libs/resources/KisResourceLocator.cpp:1066
+#: libs/resources/KisResourceLocator.cpp:1061
 #, kde-format
 msgid "Temporary Resources"
 msgstr "暫存資源"
 
-#: libs/resources/KisResourceLocator.cpp:1189
-#: libs/resources/KisResourceLocator.cpp:1195
+#: libs/resources/KisResourceLocator.cpp:1184
+#: libs/resources/KisResourceLocator.cpp:1190
 #, kde-format
 msgid "Could not synchronize %1 with the database"
 msgstr "無法與資料庫同步 %1"
@@ -19303,7 +19312,7 @@ msgstr "工具提示"
 #: libs/resources/KisResourceModel.cpp:135 libs/ui/imagesize/imagesize.xmlgui:4
 #: plugins/extensions/imagesplit/imagesplit.xmlgui:4
 #: plugins/extensions/separate_channels/imageseparate.xmlgui:4
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:404
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:401
 #: plugins/paintops/spray/wdgsprayshapeoptions.ui:90
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:400
 #, kde-format
@@ -19340,11 +19349,9 @@ msgid "md5sum"
 msgstr "MD5 雜湊值"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_hsx)
-#. i18n: ectx: property (text), widget (QLabel, lblCurrentRenderer)
 #: libs/resources/KisResourceStorage.h:116
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1640
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1644
-#: libs/ui/forms/wdgdisplaysettings.ui:196 libs/ui/KoDocumentInfo.cpp:37
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1644 libs/ui/KoDocumentInfo.cpp:37
 #: libs/widgets/KisDlgInternalColorSelector.cpp:322
 #: libs/widgets/WdgDlgInternalColorSelector.ui:89
 #: plugins/python/channels2layers/channels2layers.py:853
@@ -19379,7 +19386,7 @@ msgstr "記憶體"
 
 #: libs/resources/KisResourceStorage.h:128
 #: plugins/extensions/metadataeditor/kis_meta_data_model.cpp:47
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:400
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:397
 #, kde-format
 msgid "Invalid"
 msgstr "無效"
@@ -19582,7 +19589,7 @@ msgstr "儲存空間"
 #. i18n: ectx: attribute (title), widget (QWidget, tabResources)
 #. i18n: ectx: attribute (title), widget (QWidget, tab_4)
 #: libs/resourcewidgets/dbexplorer/WdgDbExplorer.ui:39
-#: libs/ui/forms/wdggeneralsettings.ui:1403
+#: libs/ui/forms/wdggeneralsettings.ui:1427
 #, kde-format
 msgid "Resources"
 msgstr "資源"
@@ -19616,14 +19623,12 @@ msgstr "資料庫版本"
 #. i18n: ectx: property (text), widget (QLabel, lblKritaVersion)
 #. i18n: ectx: property (text), widget (QLabel, lblCreationDate)
 #. i18n: ectx: property (text), widget (QLabel, lblDescription)
-#. i18n: ectx: property (text), widget (QLabel, lblHDRWarningIcon)
 #. i18n: ectx: property (text), widget (QLabel, lblPreview)
 #. i18n: ectx: property (text), widget (QLabel, m_lblOcioVersion)
 #. i18n: ectx: property (text), widget (QLabel, lblSaveLocation)
 #: libs/resourcewidgets/dbexplorer/WdgDbExplorer.ui:126
 #: libs/resourcewidgets/dbexplorer/WdgDbExplorer.ui:140
 #: libs/resourcewidgets/dbexplorer/WdgDbExplorer.ui:154
-#: libs/ui/forms/wdgdisplaysettings.ui:299
 #: libs/ui/forms/wdgimageproperties.ui:414 libs/ui/forms/wdgnewimage.ui:305
 #: plugins/dockers/lut/wdglut.ui:358
 #: plugins/extensions/resourcemanager/wdgdlgcreatebundle.ui:374
@@ -19679,8 +19684,8 @@ msgid "Storage Resources"
 msgstr "資源收藏"
 
 #: libs/resourcewidgets/KisResourceItemChooser.cpp:230
-#: libs/ui/KisMainWindow.cpp:2488
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:612
+#: libs/ui/KisMainWindow.cpp:2496
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:609
 #, kde-format
 msgctxt "@title:window"
 msgid "Choose File to Add"
@@ -19944,7 +19949,7 @@ msgstr "取代 (覆蓋) 標籤"
 #: libs/ui/widgets/kis_canvas_drop.cpp:45
 #: plugins/dockers/compositiondocker/compositiondocker_dock.cpp:265
 #: plugins/dockers/gamutmask/forms/wdgGamutMaskChooser.ui:190
-#: plugins/dockers/recorder/recorder_export.ui:809
+#: plugins/dockers/recorder/recorder_export.ui:823
 #: plugins/dockers/recorder/recorder_snapshots_manager.ui:130
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:112
 #: plugins/generators/seexpr/wdgseexpr.ui:179
@@ -20019,52 +20024,52 @@ msgctxt "(qtundo-format)"
 msgid "Flood Fill Layer"
 msgstr "浸漫填充圖層"
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:344
+#: libs/ui/actions/kis_selection_action_factories.cpp:346
 msgctxt "(qtundo-format)"
 msgid "Cut"
 msgstr "剪下"
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:345
+#: libs/ui/actions/kis_selection_action_factories.cpp:347
 msgctxt "(qtundo-format)"
 msgid "Copy"
 msgstr "複製"
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:430
+#: libs/ui/actions/kis_selection_action_factories.cpp:432
 msgctxt "(qtundo-format)"
 msgid "Copy Merged"
 msgstr "合併複製"
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:447
+#: libs/ui/actions/kis_selection_action_factories.cpp:449
 #, kde-format
 msgctxt "floating message"
 msgid "Selection is already in a vector format "
 msgstr "選取區域已是向量格式"
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:472
-#: libs/ui/actions/kis_selection_action_factories.cpp:492
+#: libs/ui/actions/kis_selection_action_factories.cpp:474
+#: libs/ui/actions/kis_selection_action_factories.cpp:494
 msgctxt "(qtundo-format)"
 msgid "Convert to Vector Selection"
 msgstr "轉成向量選取區域"
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:487
+#: libs/ui/actions/kis_selection_action_factories.cpp:489
 #, kde-format
 msgctxt "floating message"
 msgid "Selection is already in a raster format "
 msgstr "選取區域已是點陣格式"
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:533
+#: libs/ui/actions/kis_selection_action_factories.cpp:535
 #, kde-format
 msgctxt "floating message"
 msgid "The shape already belongs to a selection"
 msgstr "此形狀已屬於一個選取區域"
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:539
+#: libs/ui/actions/kis_selection_action_factories.cpp:541
 msgctxt "(qtundo-format)"
 msgid "Convert shapes to vector selection"
 msgstr "轉換形狀為向量選取區域"
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:592
-#: libs/ui/actions/kis_selection_action_factories.cpp:651
+#: libs/ui/actions/kis_selection_action_factories.cpp:594
+#: libs/ui/actions/kis_selection_action_factories.cpp:653
 #: plugins/tools/tool_polyline/kis_tool_polyline.cc:49
 msgctxt "(qtundo-format)"
 msgid "Draw Polyline"
@@ -20126,7 +20131,7 @@ msgid "Failed to render animation frames! Output files are incomplete."
 msgstr "動畫影格繪製失敗！輸出檔案不完整。"
 
 #: libs/ui/animation/KisDlgAnimationRenderer.cpp:52
-#: libs/ui/KisMainWindow.cpp:2098
+#: libs/ui/KisMainWindow.cpp:2106
 #, kde-format
 msgid "Render Animation"
 msgstr "繪製動畫"
@@ -21109,12 +21114,11 @@ msgstr "主顯示器："
 
 #. i18n: ectx: property (title), widget (QGroupBox, grpCustomDisplay)
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
-#. i18n: ectx: property (windowTitle), widget (QWidget, WdgDisplaySettings)
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_6)
 #: libs/ui/animation/VideoHDRMetadataOptionsDialog.ui:38
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1932
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1934
-#: libs/ui/forms/wdgcolorsettings.ui:147 libs/ui/forms/wdgdisplaysettings.ui:24
+#: libs/ui/forms/wdgcolorsettings.ui:147
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:598
 #, kde-format
 msgid "Display"
@@ -21124,7 +21128,7 @@ msgstr "顯示"
 #. i18n: ectx: property (text), widget (QLabel, labelX)
 #: libs/ui/animation/VideoHDRMetadataOptionsDialog.ui:46
 #: libs/ui/kis_paintop_box.cc:297
-#: plugins/dockers/recorder/recorder_export.ui:461
+#: plugins/dockers/recorder/recorder_export.ui:467
 #, kde-format
 msgid "x"
 msgstr "x"
@@ -21332,11 +21336,7 @@ msgstr "開始於："
 
 #. i18n: ectx: property (text), widget (QLabel, exportDurationLabel)
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#. i18n: ectx: property (text), widget (QLabel, labelHoldFirstFrameSec)
-#. i18n: ectx: property (text), widget (QLabel, labelHoldLastFrameSec)
 #: libs/ui/animation/VideoImportDialog.ui:401
-#: plugins/dockers/recorder/recorder_export.ui:148
-#: plugins/dockers/recorder/recorder_export.ui:521
 #: plugins/paintops/libpaintop/sensors/SensorTimeConfiguration.ui:54
 #, kde-format
 msgid "Duration:"
@@ -21580,7 +21580,7 @@ msgstr "FF&mpeg："
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #. i18n: ectx: property (text), widget (QLabel, labelResolution)
 #: libs/ui/animation/wdg_animationrenderer.ui:283
-#: plugins/dockers/recorder/recorder_export.ui:182
+#: plugins/dockers/recorder/recorder_export.ui:524
 #, kde-format
 msgid "Render as:"
 msgstr "繪製為："
@@ -21791,9 +21791,7 @@ msgstr "即時預覽模式：%1"
 msgid "Instant Preview is only supported with OpenGL activated"
 msgstr "即時預覽只在 OpenGL 啟用時可用"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, cmbFilterMode)
 #: libs/ui/canvas/kis_canvas_controller.cpp:353
-#: libs/ui/forms/wdgdisplaysettings.ui:141
 #, kde-format
 msgid "Nearest Neighbour"
 msgstr "最近相鄰"
@@ -22161,7 +22159,7 @@ msgid "Numerical"
 msgstr "按數字順序"
 
 #: libs/ui/dialogs/kis_dlg_import_image_sequence.cpp:137
-#: libs/ui/KisMainWindow.cpp:1113
+#: libs/ui/KisMainWindow.cpp:1119
 #, kde-format
 msgid "Import Images"
 msgstr "匯入影像"
@@ -22179,7 +22177,6 @@ msgstr "圖層屬性"
 #. i18n: ectx: property (suffix), widget (KisSliderSpinBox, intChoke)
 #. i18n: ectx: property (suffix), widget (KisSliderSpinBox, intRange)
 #. i18n: ectx: property (suffix), widget (KisSliderSpinBox, intJitter)
-#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, pixelGridDrawingThresholdBox)
 #. i18n: ectx: property (suffix), widget (KisSliderSpinBox, qualityLevel)
 #. i18n: ectx: property (suffix), widget (KisDoubleSliderSpinBox, quality)
 #. i18n: ectx: property (suffix), widget (KisSliderSpinBox, snsStrength)
@@ -22195,9 +22192,9 @@ msgstr "圖層屬性"
 #. i18n: ectx: property (suffix), widget (KisDoubleParseSpinBox, spbScaleWidth)
 #. i18n: ectx: property (suffix), widget (KisDoubleParseSpinBox, spbScaleHeight)
 #: libs/ui/dialogs/kis_dlg_layer_properties.cc:97
-#: libs/ui/forms/wdgdisplaysettings.ui:605 libs/ui/kis_node_model.cpp:568
-#: libs/ui/kis_node_model.cpp:571 libs/ui/kis_paintop_box.cc:267
-#: libs/ui/kis_paintop_box.cc:275 libs/ui/layerstyles/wdgInnerGlow.ui:220
+#: libs/ui/kis_node_model.cpp:568 libs/ui/kis_node_model.cpp:571
+#: libs/ui/kis_paintop_box.cc:267 libs/ui/kis_paintop_box.cc:275
+#: libs/ui/layerstyles/wdgInnerGlow.ui:220
 #: libs/ui/layerstyles/wdgInnerGlow.ui:322
 #: libs/ui/layerstyles/wdgInnerGlow.ui:351
 #: libs/ui/widgets/gradient/KisGradientColorEditor.cpp:93
@@ -22206,11 +22203,11 @@ msgstr "圖層屬性"
 #: libs/ui/widgets/gradient/KisSegmentGradientEditor.cpp:162
 #: libs/ui/widgets/kis_custom_image_widget.cc:99
 #: libs/ui/widgets/KisAutoLevelsWidget.cpp:16
-#: libs/widgets/kis_color_input.cpp:147 libs/widgets/kis_color_input.cpp:190
+#: libs/widgets/kis_color_input.cpp:148 libs/widgets/kis_color_input.cpp:191
 #: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:246
 #: plugins/dockers/animation/KisOnionSkinsDocker.cpp:47
-#: plugins/dockers/layerdocker/LayerBox.cpp:204
-#: plugins/dockers/layerdocker/LayerBox.cpp:383
+#: plugins/dockers/layerdocker/LayerBox.cpp:210
+#: plugins/dockers/layerdocker/LayerBox.cpp:389
 #: plugins/filters/halftone/KisHalftoneConfigPageWidget.cpp:47
 #: plugins/filters/halftone/KisHalftoneConfigPageWidget.cpp:51
 #: plugins/filters/halftone/KisHalftoneConfigPageWidget.cpp:54
@@ -22261,12 +22258,12 @@ msgstr "圖層屬性"
 #: plugins/paintops/tangentnormal/kis_tangent_tilt_option.cpp:39
 #: plugins/paintops/tangentnormal/kis_tangent_tilt_option.cpp:43
 #: plugins/tools/basictools/kis_tool_colorsampler.cc:279
-#: plugins/tools/basictools/kis_tool_fill.cc:485
-#: plugins/tools/basictools/kis_tool_fill.cc:502
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:367
+#: plugins/tools/basictools/kis_tool_fill.cc:490
+#: plugins/tools/basictools/kis_tool_fill.cc:507
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:370
 #: plugins/tools/svgtexttool/SvgTextEditor.cpp:1449
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:380
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:390
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:382
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:392
 #, no-c-format, kde-format
 msgid "%"
 msgstr "%"
@@ -22300,7 +22297,7 @@ msgctxt "@title:window"
 msgid "Enter new style name"
 msgstr "輸入新樣式名稱"
 
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:275 libs/ui/KisMainWindow.cpp:2499
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:275 libs/ui/KisMainWindow.cpp:2507
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Name:"
@@ -22324,7 +22321,7 @@ msgid "Could not load layer style library %1."
 msgstr "無法載入圖層樣式庫 %1。"
 
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:367
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:231
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:237
 #, kde-format
 msgctxt "@title:window"
 msgid "Warning"
@@ -22840,7 +22837,7 @@ msgstr ""
 "\n"
 "繪製已取消。"
 
-#: libs/ui/dialogs/KisAsyncAnimationRenderDialogBase.cpp:315
+#: libs/ui/dialogs/KisAsyncAnimationRenderDialogBase.cpp:332
 #, kde-format
 msgid ""
 "\n"
@@ -22855,7 +22852,7 @@ msgstr ""
 "同時儲存影格數已被限制為 %1\n"
 "\n"
 
-#: libs/ui/dialogs/KisAsyncAnimationRenderDialogBase.cpp:319
+#: libs/ui/dialogs/KisAsyncAnimationRenderDialogBase.cpp:336
 #, kde-format
 msgid ""
 "%1\n"
@@ -23665,7 +23662,7 @@ msgstr "新影像使用預設色彩模型："
 #. i18n: ectx: property (title), widget (QGroupBox, grpPasteFrom)
 #. i18n: ectx: property (title), widget (QGroupBox, grpPasteBehaviour)
 #: libs/ui/forms/wdgcolorsettings.ui:69
-#: libs/ui/forms/wdggeneralsettings.ui:1312
+#: libs/ui/forms/wdggeneralsettings.ui:1336
 #, kde-format
 msgid "When Pasting Into Krita From Other Applications"
 msgstr "從其他應用程式貼上至 Krita 時"
@@ -23934,251 +23931,6 @@ msgstr "用作圖案(&P)"
 #, kde-format
 msgid "&Add to Predefined Patterns"
 msgstr "新增到預製圖案(&A)"
-
-#. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: libs/ui/forms/wdgdisplaysettings.ui:46
-#, kde-format
-msgid "Canvas Acceleration"
-msgstr "畫布加速"
-
-#. i18n: ectx: property (title), widget (QGroupBox, grpOpenGL)
-#: libs/ui/forms/wdgdisplaysettings.ui:58
-#, kde-format
-msgid "Canvas &Graphics Acceleration"
-msgstr "畫布圖形加速(&G)"
-
-#. i18n: ectx: property (toolTip), widget (QCheckBox, chkUseTextureBuffer)
-#: libs/ui/forms/wdgdisplaysettings.ui:73
-#, kde-format
-msgid ""
-"<html><head/><body><p>Use Texture Buffering. This can be faster on some GPU/"
-"Driver combinations (like Intel) or broken on some others (like AMD/Radeon)."
-"</p></body></html>"
-msgstr ""
-"<html><head/><body><p>啟用紋理緩衝區。在某些 GPU/驅動程式組合下面速度更快 "
-"(如 Intel 核芯顯示卡)，但在別的情況下 (如 AMD/Radeon 顯示卡) 可能會造成問題。"
-"</p></body></html>"
-
-#. i18n: ectx: property (text), widget (QCheckBox, chkUseTextureBuffer)
-#: libs/ui/forms/wdgdisplaysettings.ui:76
-#, kde-format
-msgid "Use texture buffer"
-msgstr "啟用紋理緩衝區"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, cmbFilterMode)
-#: libs/ui/forms/wdgdisplaysettings.ui:146
-#, kde-format
-msgid "Bilinear Filtering"
-msgstr "雙線性"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, cmbFilterMode)
-#: libs/ui/forms/wdgdisplaysettings.ui:151
-#, kde-format
-msgid "Trilinear Filtering"
-msgstr "三線性"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, cmbFilterMode)
-#: libs/ui/forms/wdgdisplaysettings.ui:156
-#, kde-format
-msgid "High Quality Filtering"
-msgstr "高品質"
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: libs/ui/forms/wdgdisplaysettings.ui:170
-#, kde-format
-msgid "Scaling Mode:"
-msgstr "檢視縮放演算法："
-
-#. i18n: ectx: property (text), widget (QLabel, lblPreferredRenderer)
-#: libs/ui/forms/wdgdisplaysettings.ui:186
-#, kde-format
-msgid "Preferred Renderer (needs restart):"
-msgstr "首選繪製器 (需要重啟程式)："
-
-#. i18n: ectx: property (text), widget (QLabel, label_6)
-#: libs/ui/forms/wdgdisplaysettings.ui:203
-#, kde-format
-msgid "Current Renderer:"
-msgstr "目前繪製器："
-
-#. i18n: ectx: property (toolTip), widget (QCheckBox, chkLargePixmapCache)
-#: libs/ui/forms/wdgdisplaysettings.ui:232
-#, kde-format
-msgid ""
-"<html><head/><body><p>This should be enabled if you see any artifacts while "
-"using assistants.</p></body></html>"
-msgstr ""
-"<html><head/><body><p>如使用輔助尺時出現畫布繪製問題 (例如黑色方塊)，應啟用此"
-"選項。</p></body></html>"
-
-#. i18n: ectx: property (text), widget (QCheckBox, chkLargePixmapCache)
-#: libs/ui/forms/wdgdisplaysettings.ui:235
-#, kde-format
-msgid "Use large pixmap cache"
-msgstr "使用加大 pixmap 影像快取"
-
-#. i18n: ectx: attribute (title), widget (QWidget, tabHDR)
-#: libs/ui/forms/wdgdisplaysettings.ui:249
-#, kde-format
-msgid "HDR Settings"
-msgstr "HDR 設定"
-
-#. i18n: ectx: property (text), widget (QLabel, lblCurrentDisplayFormat)
-#: libs/ui/forms/wdgdisplaysettings.ui:255
-#, kde-format
-msgid "Current Display Format"
-msgstr "目前顯示格式"
-
-#. i18n: ectx: property (text), widget (QLabel, label_7)
-#: libs/ui/forms/wdgdisplaysettings.ui:262
-#, kde-format
-msgid "Display Format:"
-msgstr "顯示格式："
-
-#. i18n: ectx: property (text), widget (QLabel, lblCurrentRootSurfaceFormat)
-#: libs/ui/forms/wdgdisplaysettings.ui:269
-#, kde-format
-msgid "Current Surface Value"
-msgstr "目前表面參數"
-
-#. i18n: ectx: property (text), widget (QLabel, label_5)
-#: libs/ui/forms/wdgdisplaysettings.ui:276
-#, kde-format
-msgid "Current Output Format:"
-msgstr "目前輸出格式："
-
-#. i18n: ectx: property (text), widget (QLabel, label_9)
-#: libs/ui/forms/wdgdisplaysettings.ui:286
-#, kde-format
-msgid "Preferred Output Format:"
-msgstr "首選輸出格式："
-
-#. i18n: ectx: property (text), widget (QLabel, lblHDRWarning)
-#: libs/ui/forms/wdgdisplaysettings.ui:315
-#, kde-format
-msgid "HDR Warning.................................."
-msgstr "HDR 警告.................................."
-
-#. i18n: ectx: attribute (title), widget (QWidget, tab_3)
-#: libs/ui/forms/wdgdisplaysettings.ui:339
-#, kde-format
-msgid "Grid Settings"
-msgstr "格線設定"
-
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: libs/ui/forms/wdgdisplaysettings.ui:351
-#, kde-format
-msgid "Transparency Checkerboard:"
-msgstr "透明度棋盤色彩："
-
-#. i18n: ectx: property (text), widget (QLabel, lblCheckSize)
-#. i18n: ectx: property (text), widget (QLabel, brushSizeLabel)
-#. i18n: ectx: property (text), widget (QLabel, lblSize)
-#. i18n: ectx: property (text), widget (QLabel, labelSize)
-#: libs/ui/forms/wdgdisplaysettings.ui:382 libs/ui/kis_paintop_box.cc:254
-#: libs/ui/kis_paintop_box.cc:260
-#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:414
-#: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:185
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:2007
-#, kde-format
-msgid "Size:"
-msgstr "大小："
-
-#. i18n: ectx: property (text), widget (QLabel, lblCanvasBorderColor)
-#: libs/ui/forms/wdgdisplaysettings.ui:418
-#, kde-format
-msgid "Canvas Border Color:"
-msgstr "畫布外周色彩："
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: libs/ui/forms/wdgdisplaysettings.ui:475
-#, kde-format
-msgid "Selection Overlay:"
-msgstr "選取區域遮罩色彩："
-
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#. i18n: ectx: property (text), widget (QLabel, opacityLbl)
-#. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#. i18n: ectx: property (text), widget (QLabel, opacityLabel)
-#: libs/ui/forms/wdgdisplaysettings.ui:522 libs/ui/kis_paintop_box.cc:252
-#: libs/ui/kis_paintop_box.cc:258
-#: plugins/dockers/layerdocker/WdgLayerBox.ui:107
-#: plugins/filters/noisefilter/wdgnoiseoptions.ui:56
-#: plugins/filters/randompickfilter/wdgrandompickoptions.ui:57
-#: plugins/paintops/mypaint/wdgmypaintoptions.ui:126
-#, kde-format
-msgid "Opacity:"
-msgstr "不透明度："
-
-#. i18n: ectx: property (text), widget (QLabel, lblCanvasBorderColor_2)
-#: libs/ui/forms/wdgdisplaysettings.ui:551
-#, kde-format
-msgid "Pixel Grid:"
-msgstr "像素格線："
-
-#. i18n: ectx: property (text), widget (QLabel, gridThresholdLabel)
-#: libs/ui/forms/wdgdisplaysettings.ui:598
-#, kde-format
-msgid "Start showing at:"
-msgstr "起始顯示比例："
-
-#. i18n: ectx: attribute (title), widget (QWidget, Miscellaneous)
-#. i18n: ectx: attribute (title), widget (QWidget, tab_4)
-#: libs/ui/forms/wdgdisplaysettings.ui:648
-#: libs/ui/forms/wdggeneralsettings.ui:939
-#, kde-format
-msgid "Miscellaneous"
-msgstr "其他"
-
-#. i18n: ectx: property (text), widget (QCheckBox, hideScrollbars)
-#: libs/ui/forms/wdgdisplaysettings.ui:667
-#, kde-format
-msgid "Hide Canvas Scrollbars"
-msgstr "隱藏畫布捲動軸"
-
-#. i18n: ectx: property (text), widget (QCheckBox, chkCurveAntialiasing)
-#: libs/ui/forms/wdgdisplaysettings.ui:677
-#, kde-format
-msgid "Enable curve anti-aliasing"
-msgstr "啟用曲線反鋸齒"
-
-#. i18n: ectx: property (text), widget (QCheckBox, chkHidePopups)
-#: libs/ui/forms/wdgdisplaysettings.ui:684
-#, kde-format
-msgid "Hide layer thumbnail popup"
-msgstr "隱藏圖層浮動縮圖"
-
-#. i18n: ectx: property (text), widget (QCheckBox, chkChannelsAsColor)
-#: libs/ui/forms/wdgdisplaysettings.ui:691
-#, kde-format
-msgid "Color channels in color"
-msgstr "顯示單一色彩通道時為其著色"
-
-#. i18n: ectx: property (text), widget (QCheckBox, chkSelectionOutlineAntialiasing)
-#: libs/ui/forms/wdgdisplaysettings.ui:701
-#, kde-format
-msgid "Enable selection outline anti-aliasing"
-msgstr "啟用選取區域輪廓反鋸齒"
-
-#. i18n: ectx: property (toolTip), widget (QCheckBox, chkMoving)
-#: libs/ui/forms/wdgdisplaysettings.ui:708
-#, kde-format
-msgid "If checked, the checkers will move when scrolling the canvas."
-msgstr "勾選後棋盤格背景將隨畫布捲動。"
-
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, chkMoving)
-#: libs/ui/forms/wdgdisplaysettings.ui:711
-#, kde-format
-msgid ""
-"Determines whether the checks will stay put or whether they will scroll "
-"together with the canvas"
-msgstr "控制棋盤格背景應始終保持靜止還是隨畫布捲動"
-
-#. i18n: ectx: property (text), widget (QCheckBox, chkMoving)
-#: libs/ui/forms/wdgdisplaysettings.ui:714
-#, kde-format
-msgid "&Move checkers when scrolling"
-msgstr "捲動時移動棋盤格背景(&M)"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: libs/ui/forms/wdgdlgfilelayer.ui:35
@@ -24614,124 +24366,124 @@ msgstr "啟用以手指在觸控螢幕上繪畫"
 msgid "Activate transform tool after pasting"
 msgstr "在貼上後自動切換到變形工具"
 
-#. i18n: ectx: property (text), widget (QCheckBox, chkEnableSmoothZooming)
-#: libs/ui/forms/wdggeneralsettings.ui:688
-#, kde-format
-msgid "Enable Smooth Zooming"
-msgstr "啟用平滑縮放"
+#. i18n: ectx: property (text), widget (QLabel, lblZoomSteps)
+#: libs/ui/forms/wdggeneralsettings.ui:700
+#, fuzzy, kde-format
+msgid "Zoom steps between powers of 2"
+msgstr "縮放階級在 2 的乘冪之間的分級數目"
 
 #. i18n: ectx: property (title), widget (QGroupBox, m_groupBoxKineticScrollingSettings)
-#: libs/ui/forms/wdggeneralsettings.ui:698
+#: libs/ui/forms/wdggeneralsettings.ui:722
 #, kde-format
 msgid "Kinetic Scrolling (needs restart)"
 msgstr "拖曳捲動 (需要重啟程式)"
 
 #. i18n: ectx: property (text), widget (QLabel, labelKineticScrollingSensitivity)
-#: libs/ui/forms/wdggeneralsettings.ui:713
+#: libs/ui/forms/wdggeneralsettings.ui:737
 #, kde-format
 msgid "Sensitivity:"
 msgstr "靈敏度："
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkKineticScrollingHideScrollbars)
-#: libs/ui/forms/wdggeneralsettings.ui:723
+#: libs/ui/forms/wdggeneralsettings.ui:747
 #, kde-format
 msgid "Hide docker scrollbars if kinetic scrolling is enabled (needs restart)"
 msgstr "啟用拖曳捲動時，隱藏工具面板的捲動軸 (需要重啟程式)"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
-#: libs/ui/forms/wdggeneralsettings.ui:750
+#: libs/ui/forms/wdggeneralsettings.ui:774
 #, kde-format
 msgid "File Handling"
 msgstr "檔案處理"
 
 #. i18n: ectx: property (title), widget (QGroupBox, m_autosaveCheckBox)
-#: libs/ui/forms/wdggeneralsettings.ui:756
+#: libs/ui/forms/wdggeneralsettings.ui:780
 #, kde-format
 msgid "Enable Autosaving"
 msgstr "啟用自動儲存"
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
-#: libs/ui/forms/wdggeneralsettings.ui:765
+#: libs/ui/forms/wdggeneralsettings.ui:789
 #, kde-format
 msgid "Autosave Interval:"
 msgstr "自動儲存間隔："
 
 #. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, m_autosaveSpinBox)
-#: libs/ui/forms/wdggeneralsettings.ui:772
+#: libs/ui/forms/wdggeneralsettings.ui:796
 #, kde-format
 msgctxt "Suffix: “Every x min”"
 msgid " min"
 msgstr " 分鐘"
 
 #. i18n: ectx: property (prefix), widget (KisIntParseSpinBox, m_autosaveSpinBox)
-#: libs/ui/forms/wdggeneralsettings.ui:775
+#: libs/ui/forms/wdggeneralsettings.ui:799
 #, kde-format
 msgctxt "Prefix: “Every x min”"
 msgid "Every "
 msgstr "每隔 "
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkHideAutosaveFiles)
-#: libs/ui/forms/wdggeneralsettings.ui:794
+#: libs/ui/forms/wdggeneralsettings.ui:818
 #, kde-format
 msgid "Unnamed autosave files are hidden by default"
 msgstr "預設隱藏未命名的自動儲存檔案"
 
 #. i18n: ectx: property (title), widget (QGroupBox, m_backupFileCheckBox)
-#: libs/ui/forms/wdggeneralsettings.ui:807
+#: libs/ui/forms/wdggeneralsettings.ui:831
 #, kde-format
 msgid "Create a Backup File on Saving"
 msgstr "儲存時建立備份檔案"
 
 #. i18n: ectx: property (text), widget (QLabel, label_13)
-#: libs/ui/forms/wdggeneralsettings.ui:816
+#: libs/ui/forms/wdggeneralsettings.ui:840
 #, kde-format
 msgid "Backup File Location"
 msgstr "備份檔案位置"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbBackupFileLocation)
-#: libs/ui/forms/wdggeneralsettings.ui:824
+#: libs/ui/forms/wdggeneralsettings.ui:848
 #, kde-format
 msgid "Same Folder as Original File"
 msgstr "與原始檔案相同資料夾"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbBackupFileLocation)
-#: libs/ui/forms/wdggeneralsettings.ui:829
+#: libs/ui/forms/wdggeneralsettings.ui:853
 #, kde-format
 msgid "User Folder"
 msgstr "使用者資料夾"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbBackupFileLocation)
-#: libs/ui/forms/wdggeneralsettings.ui:834
+#: libs/ui/forms/wdggeneralsettings.ui:858
 #, kde-format
 msgid "Temporary File Location"
 msgstr "暫存位置"
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
-#: libs/ui/forms/wdggeneralsettings.ui:842
+#: libs/ui/forms/wdggeneralsettings.ui:866
 #, kde-format
 msgid "Backup File Suffix:"
 msgstr "備份檔案後綴："
 
 #. i18n: ectx: property (text), widget (QLineEdit, txtBackupFileSuffix)
-#: libs/ui/forms/wdggeneralsettings.ui:849
+#: libs/ui/forms/wdggeneralsettings.ui:873
 #, kde-format
 msgid "~"
 msgstr "~"
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
-#: libs/ui/forms/wdggeneralsettings.ui:859
+#: libs/ui/forms/wdggeneralsettings.ui:883
 #, kde-format
 msgid "Number of Backup Files Kept:"
 msgstr "保留的備份檔案數目："
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: libs/ui/forms/wdggeneralsettings.ui:879
+#: libs/ui/forms/wdggeneralsettings.ui:903
 #, kde-format
 msgid "KRA File Compression"
 msgstr "KRA 檔案壓縮"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkZip64)
-#: libs/ui/forms/wdggeneralsettings.ui:885
+#: libs/ui/forms/wdggeneralsettings.ui:909
 #, kde-format
 msgid ""
 "<html><head/><body><p>Only use this option for <span style=\" font-"
@@ -24742,7 +24494,7 @@ msgstr ""
 "\">非常</span> 大的檔案——大於 4 GiB。</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkZip64)
-#: libs/ui/forms/wdggeneralsettings.ui:888
+#: libs/ui/forms/wdggeneralsettings.ui:912
 #, kde-format
 msgid ""
 "Use Zip64 (for very large files: cannot be opened in versions of Krita older "
@@ -24750,69 +24502,75 @@ msgid ""
 msgstr "使用 Zip64 (針對體積非常大的檔案，無法在低於 Krita 4.2.0 的版本中開啟)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkCompressKra)
-#: libs/ui/forms/wdggeneralsettings.ui:895
+#: libs/ui/forms/wdggeneralsettings.ui:919
 #, kde-format
 msgid "Compress .kra files more (slows loading/saving)"
 msgstr "提高 .kra 檔案的壓縮率 (載入及儲存的速度會變慢)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkTrimKra)
-#: libs/ui/forms/wdggeneralsettings.ui:905
+#: libs/ui/forms/wdggeneralsettings.ui:929
 #, kde-format
 msgid "Trim files before saving"
 msgstr "儲存前裁剪檔案"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkTrimFramesImport)
-#: libs/ui/forms/wdggeneralsettings.ui:915
+#: libs/ui/forms/wdggeneralsettings.ui:939
 #, kde-format
 msgid "Trim frames when importing animations"
 msgstr "匯入動畫時裁剪影格"
 
+#. i18n: ectx: attribute (title), widget (QWidget, Miscellaneous)
+#: libs/ui/forms/wdggeneralsettings.ui:963
+#, kde-format
+msgid "Miscellaneous"
+msgstr "其他"
+
 #. i18n: ectx: property (text), widget (QLabel, label_12)
-#: libs/ui/forms/wdggeneralsettings.ui:996
+#: libs/ui/forms/wdggeneralsettings.ui:1020
 #, kde-format
 msgid "When Krita starts:"
 msgstr "當 Krita 啟動時："
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkSaveSessionOnQuit)
-#: libs/ui/forms/wdggeneralsettings.ui:1016
+#: libs/ui/forms/wdggeneralsettings.ui:1040
 #, kde-format
 msgid "Save session when Krita closes"
 msgstr "關閉 Krita 時儲存工作階段"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkConvertOnImport)
-#: libs/ui/forms/wdggeneralsettings.ui:1023
+#: libs/ui/forms/wdggeneralsettings.ui:1047
 #, kde-format
 msgid "On importing images as layers, convert to the image colorspace"
 msgstr "匯入影像為圖層時，將其轉換成目標影像的色彩空間"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label)
 #. i18n: ectx: property (toolTip), widget (KisIntParseSpinBox, m_undoStackSize)
-#: libs/ui/forms/wdggeneralsettings.ui:1036
-#: libs/ui/forms/wdggeneralsettings.ui:1064
+#: libs/ui/forms/wdggeneralsettings.ui:1060
+#: libs/ui/forms/wdggeneralsettings.ui:1088
 #, kde-format
 msgid "Only applies to new or newly opened images."
 msgstr "僅套用於新建立或者新開啟的影像。"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: libs/ui/forms/wdggeneralsettings.ui:1039
+#: libs/ui/forms/wdggeneralsettings.ui:1063
 #, kde-format
 msgid "Undo stack size:"
 msgstr "復原次數上限："
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkShowRootLayer)
-#: libs/ui/forms/wdggeneralsettings.ui:1099
+#: libs/ui/forms/wdggeneralsettings.ui:1123
 #, kde-format
 msgid "Show root layer"
 msgstr "顯示根圖層"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkUsageLogging)
-#: libs/ui/forms/wdggeneralsettings.ui:1106
+#: libs/ui/forms/wdggeneralsettings.ui:1130
 #, kde-format
 msgid "Enable Logging for bug reports"
 msgstr "啟用供錯誤報告用的紀錄"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, m_chkNativeFileDialog)
-#: libs/ui/forms/wdggeneralsettings.ui:1137
+#: libs/ui/forms/wdggeneralsettings.ui:1161
 #, kde-format
 msgid ""
 "Warning: if you enable this setting and the file dialogs do weird stuff, do "
@@ -24821,68 +24579,68 @@ msgstr ""
 "警告：如果啟用此選項後開啟/儲存檔案對話框不能正常運作，請勿為此提交錯誤報告。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkNativeFileDialog)
-#: libs/ui/forms/wdggeneralsettings.ui:1140
+#: libs/ui/forms/wdggeneralsettings.ui:1164
 #, kde-format
 msgid "Enable native file dialogs"
 msgstr "使用系統原生開啟/儲存檔案對話框"
 
 #. i18n: ectx: property (text), widget (QLabel, label_18)
-#: libs/ui/forms/wdggeneralsettings.ui:1163
+#: libs/ui/forms/wdggeneralsettings.ui:1187
 #, kde-format
 msgid "(Warning: may not work correctly on some systems)"
 msgstr "(警告：在某些系統上可能會出錯)"
 
 #. i18n: ectx: property (text), widget (QLabel, label_9)
-#: libs/ui/forms/wdggeneralsettings.ui:1173
+#: libs/ui/forms/wdggeneralsettings.ui:1197
 #, kde-format
 msgid "Maximum brush size:"
 msgstr "筆刷最大大小："
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, intMaxBrushSize)
-#: libs/ui/forms/wdggeneralsettings.ui:1195
+#: libs/ui/forms/wdggeneralsettings.ui:1219
 #, kde-format
 msgid "The maximum diameter of a brush in pixels."
 msgstr "筆刷的最大直徑，以像素為單位。"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, intMaxBrushSize)
-#: libs/ui/forms/wdggeneralsettings.ui:1198
+#: libs/ui/forms/wdggeneralsettings.ui:1222
 #, kde-format
 msgctxt "pixel"
 msgid "px"
 msgstr "px"
 
 #. i18n: ectx: property (text), widget (QLabel, label_10)
-#: libs/ui/forms/wdggeneralsettings.ui:1230
+#: libs/ui/forms/wdggeneralsettings.ui:1254
 #, kde-format
 msgid "(Needs restart)"
 msgstr "(需要重啟程式)"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_5)
-#: libs/ui/forms/wdggeneralsettings.ui:1243
+#: libs/ui/forms/wdggeneralsettings.ui:1267
 #, kde-format
 msgid "Animation"
 msgstr "動畫"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkAutoPin)
-#: libs/ui/forms/wdggeneralsettings.ui:1252
+#: libs/ui/forms/wdggeneralsettings.ui:1276
 #, kde-format
 msgid "Automatically pin new layers to timeline"
 msgstr "自動釘選新圖層至時間軸"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkAdaptivePlaybackRange)
-#: libs/ui/forms/wdggeneralsettings.ui:1262
+#: libs/ui/forms/wdggeneralsettings.ui:1286
 #, kde-format
 msgid "Adapt playback range to keyframes"
 msgstr "將重播範圍調整至關鍵影格"
 
 #. i18n: ectx: property (title), widget (QGroupBox, chkForcedFontDPI)
-#: libs/ui/forms/wdggeneralsettings.ui:1272
+#: libs/ui/forms/wdggeneralsettings.ui:1296
 #, kde-format
 msgid "Font DPI Workaround"
 msgstr "字型 DPI 應急修正方法"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_17)
-#: libs/ui/forms/wdggeneralsettings.ui:1287
+#: libs/ui/forms/wdggeneralsettings.ui:1311
 #, kde-format
 msgid ""
 "In some Krita versions before 5.0 text size could be dependent on the "
@@ -24910,7 +24668,7 @@ msgstr ""
 "檔案以 Krita 5.0 儲存後，將無需再次作出轉換。"
 
 #. i18n: ectx: property (text), widget (QLabel, label_17)
-#: libs/ui/forms/wdggeneralsettings.ui:1290
+#: libs/ui/forms/wdggeneralsettings.ui:1314
 #: plugins/python/comics_project_management_tools/comics_export_dialog.py:66
 #: plugins/python/comics_project_management_tools/comics_template_dialog.py:177
 #, kde-format
@@ -24918,7 +24676,7 @@ msgid "DPI:"
 msgstr "DPI："
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, intForcedFontDPI)
-#: libs/ui/forms/wdggeneralsettings.ui:1299
+#: libs/ui/forms/wdggeneralsettings.ui:1323
 #, kde-format
 msgid ""
 "In some versions of Krita before 4.4.3 text size could be dependent on the "
@@ -24936,13 +24694,13 @@ msgstr ""
 "用此 DPI 解析度作文字顯示。"
 
 #. i18n: ectx: property (text), widget (QRadioButton, btnDownload)
-#: libs/ui/forms/wdggeneralsettings.ui:1318
+#: libs/ui/forms/wdggeneralsettings.ui:1342
 #, kde-format
 msgid "Prefer downloading the original source (this requires Internet access)"
 msgstr "偏好下載原始檔案 (需要網路連線)"
 
 #. i18n: ectx: property (text), widget (QLabel, lblPasteContext)
-#: libs/ui/forms/wdggeneralsettings.ui:1331
+#: libs/ui/forms/wdggeneralsettings.ui:1355
 #, kde-format
 msgid ""
 "Some applications, like Google Chrome, provide multiple formats when pasting "
@@ -24951,13 +24709,13 @@ msgstr ""
 "某些應用程式 (例如 Google Chrome) 提供多種在貼上或拖放時可供使用的影像格式。"
 
 #. i18n: ectx: property (text), widget (QRadioButton, btnLocal)
-#: libs/ui/forms/wdggeneralsettings.ui:1338
+#: libs/ui/forms/wdggeneralsettings.ui:1362
 #, kde-format
 msgid "Prefer a local copy (if available; metadata may be lost)"
 msgstr "偏好本機副本 (當可用時；或會遺失中繼資料)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, btnBitmap)
-#: libs/ui/forms/wdggeneralsettings.ui:1345
+#: libs/ui/forms/wdggeneralsettings.ui:1369
 #, kde-format
 msgid ""
 "Paste the attached sRGB bitmap (no filesystem or Internet access required, "
@@ -24966,13 +24724,13 @@ msgstr ""
 "貼上已附上的 sRGB 點陣圖 (不需要存取檔案系統或網路連線，但可能會遺失中繼資料)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, btnAsk)
-#: libs/ui/forms/wdggeneralsettings.ui:1352
+#: libs/ui/forms/wdggeneralsettings.ui:1376
 #, kde-format
 msgid "Ask each time"
 msgstr "每次詢問"
 
 #. i18n: ectx: property (text), widget (QLabel, lblPasteNote)
-#: libs/ui/forms/wdggeneralsettings.ui:1365
+#: libs/ui/forms/wdggeneralsettings.ui:1389
 #, kde-format
 msgid ""
 "Note: This applies to drops in the Info window, the canvas, and paste "
@@ -24980,31 +24738,31 @@ msgid ""
 msgstr "提示：這將套用到拖放進資訊視窗、畫布上的影像，以及貼上動作。"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_51)
-#: libs/ui/forms/wdggeneralsettings.ui:1375
+#: libs/ui/forms/wdggeneralsettings.ui:1399
 #, kde-format
 msgid "Automatic layer suffixes"
 msgstr "自動附加圖層名後綴"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkRenameMergedLayers)
-#: libs/ui/forms/wdggeneralsettings.ui:1381
+#: libs/ui/forms/wdggeneralsettings.ui:1405
 #, kde-format
 msgid "Add \"Merged\" to merged group layers"
 msgstr "在合併群組圖層後加上「已合併」後綴"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkRenamePastedLayers)
-#: libs/ui/forms/wdggeneralsettings.ui:1388
+#: libs/ui/forms/wdggeneralsettings.ui:1412
 #, kde-format
 msgid "Add \"(pasted)\" to pasted layers"
 msgstr "在貼上圖層後加上「(已貼上)」後綴"
 
 #. i18n: ectx: property (text), widget (QLabel, label_15)
-#: libs/ui/forms/wdggeneralsettings.ui:1409
+#: libs/ui/forms/wdggeneralsettings.ui:1433
 #, kde-format
 msgid "Resource Folder:"
 msgstr "資源目錄："
 
 #. i18n: ectx: property (text), widget (QLabel, m_lblWritableWarning)
-#: libs/ui/forms/wdggeneralsettings.ui:1476
+#: libs/ui/forms/wdggeneralsettings.ui:1500
 #, kde-format
 msgid "Warning: this location is not writable."
 msgstr "警告：此位置無法寫入。"
@@ -25056,8 +24814,8 @@ msgstr "背景色"
 #: plugins/generators/pattern/wdgpatternoptions.ui:21
 #: plugins/paintops/libpaintop/kis_color_source_option.cpp:46
 #: plugins/paintops/libpaintop/kis_texture_option.cpp:54
-#: plugins/tools/basictools/kis_tool_fill.cc:561
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:444
+#: plugins/tools/basictools/kis_tool_fill.cc:566
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:446
 #, kde-format
 msgid "Pattern"
 msgstr "圖案"
@@ -25078,7 +24836,7 @@ msgstr "無輪廓"
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbOutline)
 #: libs/ui/forms/wdggeometryoptions.ui:101
 #: plugins/paintops/roundmarker/kis_roundmarker_option.cpp:29
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:438
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:440
 #, kde-format
 msgid "Brush"
 msgstr "筆刷"
@@ -25571,7 +25329,7 @@ msgstr "縱向"
 #. i18n: ectx: property (text), widget (QPushButton, clipboardButton)
 #: libs/ui/forms/wdgnewimage.ui:284
 #: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:94
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:366
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:363
 #, kde-format
 msgid "Clipboard"
 msgstr "剪貼簿"
@@ -25758,7 +25516,7 @@ msgstr "目前筆刷預設"
 
 #. i18n: ectx: property (text), widget (QPushButton, updateBrushNameButton)
 #. i18n: ectx: property (toolTip), widget (QToolButton, bnSaveMask)
-#: libs/ui/forms/wdgpaintopsettings.ui:188 libs/ui/KisMainWindow.cpp:998
+#: libs/ui/forms/wdgpaintopsettings.ui:188 libs/ui/KisMainWindow.cpp:1004
 #: libs/ui/widgets/kis_workspace_chooser.cpp:111
 #: libs/ui/widgets/kis_workspace_chooser.cpp:190
 #: plugins/dockers/gamutmask/forms/wdgGamutMaskChooser.ui:232
@@ -26481,7 +26239,7 @@ msgstr "工具圖示："
 #. i18n: ectx: property (toolTip), widget (QLabel, widthLabel)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, spinScaleWidth)
 #: libs/ui/forms/wdgrectangleconstraints.ui:56
-#: plugins/dockers/recorder/recorder_export.ui:436
+#: plugins/dockers/recorder/recorder_export.ui:442
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:272
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:320
 #, kde-format
@@ -26500,7 +26258,7 @@ msgstr "寬度："
 #. i18n: ectx: property (toolTip), widget (QLabel, heightLabel)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, spinScaleHeight)
 #: libs/ui/forms/wdgrectangleconstraints.ui:95
-#: plugins/dockers/recorder/recorder_export.ui:474
+#: plugins/dockers/recorder/recorder_export.ui:480
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:222
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:247
 #, kde-format
@@ -26745,8 +26503,8 @@ msgstr "線條："
 #. i18n: ectx: property (text), item, widget (QComboBox, fillBox)
 #: libs/ui/forms/wdgstrokeselectionproperties.ui:96
 #: libs/ui/forms/wdgstrokeselectionproperties.ui:224
-#: plugins/tools/basictools/kis_tool_fill.cc:559
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:442
+#: plugins/tools/basictools/kis_tool_fill.cc:564
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:444
 #, kde-format
 msgid "Foreground color"
 msgstr "前景色"
@@ -26755,8 +26513,8 @@ msgstr "前景色"
 #. i18n: ectx: property (text), item, widget (QComboBox, fillBox)
 #: libs/ui/forms/wdgstrokeselectionproperties.ui:101
 #: libs/ui/forms/wdgstrokeselectionproperties.ui:214
-#: plugins/tools/basictools/kis_tool_fill.cc:560
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:443
+#: plugins/tools/basictools/kis_tool_fill.cc:565
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:445
 #, kde-format
 msgid "Background color"
 msgstr "背景色"
@@ -27011,7 +26769,7 @@ msgstr "保持寬高比"
 #: libs/ui/imagesize/wdg_canvassize.ui:135
 #: libs/ui/imagesize/wdg_imagesize.ui:342
 #: libs/ui/imagesize/wdg_layersize.ui:142
-#: plugins/dockers/recorder/recorder_export.ui:359
+#: plugins/dockers/recorder/recorder_export.ui:316
 #, kde-format
 msgid "Constrain proportions"
 msgstr "保持寬高比"
@@ -28277,7 +28035,7 @@ msgstr "轉成檔案圖層"
 msgid "New Filter Layer"
 msgstr "建立濾鏡圖層"
 
-#: libs/ui/kis_layer_manager.cc:731 libs/ui/kis_mimedata.cpp:313
+#: libs/ui/kis_layer_manager.cc:731 libs/ui/kis_mimedata.cpp:314
 #, kde-format
 msgid "Fill Layer"
 msgstr "填充圖層"
@@ -28570,12 +28328,35 @@ msgstr "編輯筆刷選項"
 msgid "Choose brush preset"
 msgstr "選擇筆刷預設"
 
+#. i18n: ectx: property (text), widget (QLabel, opacityLbl)
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#. i18n: ectx: property (text), widget (QLabel, opacityLabel)
+#: libs/ui/kis_paintop_box.cc:252 libs/ui/kis_paintop_box.cc:258
+#: plugins/dockers/layerdocker/WdgLayerBox.ui:107
+#: plugins/filters/noisefilter/wdgnoiseoptions.ui:56
+#: plugins/filters/randompickfilter/wdgrandompickoptions.ui:57
+#: plugins/paintops/mypaint/wdgmypaintoptions.ui:126
+#, kde-format
+msgid "Opacity:"
+msgstr "不透明度："
+
 #. i18n: ectx: property (text), widget (QLabel, lblFlow)
 #: libs/ui/kis_paintop_box.cc:253 libs/ui/kis_paintop_box.cc:259
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:1985
 #, kde-format
 msgid "Flow:"
 msgstr "流量："
+
+#. i18n: ectx: property (text), widget (QLabel, brushSizeLabel)
+#. i18n: ectx: property (text), widget (QLabel, lblSize)
+#. i18n: ectx: property (text), widget (QLabel, labelSize)
+#: libs/ui/kis_paintop_box.cc:254 libs/ui/kis_paintop_box.cc:260
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:414
+#: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:185
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:2007
+#, kde-format
+msgid "Size:"
+msgstr "大小："
 
 #: libs/ui/kis_paintop_box.cc:255 libs/ui/kis_paintop_box.cc:261
 #, kde-format
@@ -28592,8 +28373,8 @@ msgstr "選擇作業空間"
 msgid "Brush composite"
 msgstr "筆刷分量"
 
-#: libs/ui/kis_paintop_box.cc:1286 libs/ui/kis_paintop_box.cc:1308
-#: libs/ui/kis_paintop_box.cc:1322
+#: libs/ui/kis_paintop_box.cc:1260 libs/ui/kis_paintop_box.cc:1282
+#: libs/ui/kis_paintop_box.cc:1296
 #, kde-format
 msgid ""
 "%1\n"
@@ -28870,7 +28651,7 @@ msgid "Ants"
 msgstr "螞蟻線"
 
 #: libs/ui/kis_statusbar.cc:380
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:402
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:399
 #, kde-format
 msgid "Mask"
 msgstr "遮罩"
@@ -29765,44 +29546,44 @@ msgctxt "@action:inmenu"
 msgid "Wor&kspace"
 msgstr "作業空間(&K)"
 
-#: libs/ui/KisMainWindow.cpp:575
+#: libs/ui/KisMainWindow.cpp:581
 #: plugins/tools/svgtexttool/SvgTextEditor.cpp:314
 #, kde-format
 msgid "Show %1 Toolbar"
 msgstr "顯示%1工具列"
 
-#: libs/ui/KisMainWindow.cpp:577
+#: libs/ui/KisMainWindow.cpp:583
 #: plugins/tools/svgtexttool/SvgTextEditor.cpp:316
 #, kde-format
 msgid "Hide %1 Toolbar"
 msgstr "隱藏%1工具列"
 
-#: libs/ui/KisMainWindow.cpp:961
+#: libs/ui/KisMainWindow.cpp:967
 #, kde-format
 msgid "Write Protected"
 msgstr "防寫"
 
-#: libs/ui/KisMainWindow.cpp:965
+#: libs/ui/KisMainWindow.cpp:971
 #, kde-format
 msgid "Recovered"
 msgstr "已復原"
 
-#: libs/ui/KisMainWindow.cpp:995
+#: libs/ui/KisMainWindow.cpp:1001
 #, kde-format
 msgid "Save as %1"
 msgstr "另存為 %1"
 
-#: libs/ui/KisMainWindow.cpp:1019
+#: libs/ui/KisMainWindow.cpp:1025
 #, kde-format
 msgid "The file %1 does not exist."
 msgstr "檔案 %1 不存在。"
 
-#: libs/ui/KisMainWindow.cpp:1113
+#: libs/ui/KisMainWindow.cpp:1119
 #, kde-format
 msgid "Open Images"
 msgstr "開啟影像"
 
-#: libs/ui/KisMainWindow.cpp:1245
+#: libs/ui/KisMainWindow.cpp:1251
 #, kde-format
 msgid ""
 "You are saving a file while the image is still rendering. The saved file may "
@@ -29814,45 +29595,45 @@ msgstr ""
 "\n"
 "請選擇一個原始檔案不會被覆蓋掉的位置！"
 
-#: libs/ui/KisMainWindow.cpp:1301
+#: libs/ui/KisMainWindow.cpp:1307
 #, kde-format
 msgid "Exporting"
 msgstr "正在匯出"
 
-#: libs/ui/KisMainWindow.cpp:1301
+#: libs/ui/KisMainWindow.cpp:1307
 #, kde-format
 msgid "Saving As"
 msgstr "正在儲存為"
 
-#: libs/ui/KisMainWindow.cpp:1605
+#: libs/ui/KisMainWindow.cpp:1611
 #: libs/widgetutils/config/kstandardaction_p.h:29
 #, kde-format
 msgid "Create new document"
 msgstr "建立檔案"
 
-#: libs/ui/KisMainWindow.cpp:1629
+#: libs/ui/KisMainWindow.cpp:1635
 #, kde-format
 msgid "Custom Document"
 msgstr "自訂檔案"
 
-#: libs/ui/KisMainWindow.cpp:1641
+#: libs/ui/KisMainWindow.cpp:1647
 #, kde-format
 msgid "Create from Clipboard"
 msgstr "從剪貼簿建立"
 
-#: libs/ui/KisMainWindow.cpp:1817
+#: libs/ui/KisMainWindow.cpp:1825
 #, kde-format
 msgid "Layers/Masks"
 msgstr "圖層/遮罩"
 
-#: libs/ui/KisMainWindow.cpp:1843
+#: libs/ui/KisMainWindow.cpp:1851
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:181
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:277
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:286
 #, kde-format
 msgid "You don't have any resource bundles enabled."
 msgstr "您沒有啟用任何資源包"
 
-#: libs/ui/KisMainWindow.cpp:1847
+#: libs/ui/KisMainWindow.cpp:1855
 #, kde-format
 msgid ""
 "\n"
@@ -29862,9 +29643,9 @@ msgstr ""
 "\n"
 "無可用的筆刷預設。在繼續之前請先啟用一個含有筆刷預設的資源包。\n"
 
-#: libs/ui/KisMainWindow.cpp:1857
+#: libs/ui/KisMainWindow.cpp:1865
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:191
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:289
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:298
 #, kde-format
 msgid ""
 "\n"
@@ -29873,7 +29654,7 @@ msgstr ""
 "\n"
 "只有您在本機的資源可用。"
 
-#: libs/ui/KisMainWindow.cpp:1996 libs/ui/KisMainWindow.cpp:2078
+#: libs/ui/KisMainWindow.cpp:2004 libs/ui/KisMainWindow.cpp:2086
 #, kde-format
 msgid ""
 "Could not finish import animation:\n"
@@ -29882,59 +29663,59 @@ msgstr ""
 "無法完成匯入動畫：\n"
 "%1"
 
-#: libs/ui/KisMainWindow.cpp:2057
+#: libs/ui/KisMainWindow.cpp:2065
 #, kde-format
 msgid "Failed to create new document. Animation import aborted."
 msgstr "無法建立新文件。已終止匯入動畫。"
 
-#: libs/ui/KisMainWindow.cpp:2479
+#: libs/ui/KisMainWindow.cpp:2487
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Import Workspace..."
 msgstr "匯入作業空間(&I)…"
 
-#: libs/ui/KisMainWindow.cpp:2494
+#: libs/ui/KisMainWindow.cpp:2502
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&New Workspace..."
 msgstr "新作業空間(&N)…"
 
-#: libs/ui/KisMainWindow.cpp:2498
+#: libs/ui/KisMainWindow.cpp:2506
 #, kde-format
 msgctxt "@title:window"
 msgid "New Workspace..."
 msgstr "新作業空間…"
 
-#: libs/ui/KisMainWindow.cpp:2542
+#: libs/ui/KisMainWindow.cpp:2550
 #, kde-format
 msgid "&%1 %2"
 msgstr "&%1 %2"
 
-#: libs/ui/KisMainWindow.cpp:2545
+#: libs/ui/KisMainWindow.cpp:2553
 #, kde-format
 msgid "%1 %2"
 msgstr "%1 %2"
 
-#: libs/ui/KisMainWindow.cpp:2704
+#: libs/ui/KisMainWindow.cpp:2712
 #, kde-format
 msgid ""
 "The Krita LittleCMS color management plugin is not installed. Krita will "
 "quit now."
 msgstr "未安裝 Krita 的 LittleCMS 色彩管理外掛程式。Krita 將立即退出。"
 
-#: libs/ui/KisMainWindow.cpp:2720
+#: libs/ui/KisMainWindow.cpp:2728
 #, kde-format
 msgctxt "@title:window"
 msgid "Installation error"
 msgstr "安裝錯誤"
 
-#: libs/ui/KisMainWindow.cpp:2829
+#: libs/ui/KisMainWindow.cpp:2837
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Themes"
 msgstr "主題(&T)"
 
-#: libs/ui/KisMainWindow.cpp:2883
+#: libs/ui/KisMainWindow.cpp:2891
 #, kde-format
 msgid "Expanding Spacer"
 msgstr "擴張空白佔位符"
@@ -30252,44 +30033,44 @@ msgstr "圖層已鎖定。"
 msgid "Layer is invisible."
 msgstr "圖層不可見。"
 
-#: libs/ui/KisView.cpp:1140
+#: libs/ui/KisView.cpp:1138
 #, kde-format
 msgid ""
 "<p>The document <b>'%1'</b> has been modified.</p><p>Do you want to save it?"
 "</p>"
 msgstr "<p>檔案 <b>「%1」</b> 已被修改。</p><p>要儲存它嗎？</p>"
 
-#: libs/ui/KisView.cpp:1329
+#: libs/ui/KisView.cpp:1327
 #, kde-format
 msgid "Soft Proofing doesn't work in floating point."
 msgstr "螢幕校樣不支援浮點位深度。"
 
-#: libs/ui/KisView.cpp:1334
+#: libs/ui/KisView.cpp:1332
 #, kde-format
 msgid "Soft Proofing turned on."
 msgstr "已啟用螢幕校樣。"
 
-#: libs/ui/KisView.cpp:1336
+#: libs/ui/KisView.cpp:1334
 #, kde-format
 msgid "Soft Proofing turned off."
 msgstr "已關閉螢幕校樣。"
 
-#: libs/ui/KisView.cpp:1348
+#: libs/ui/KisView.cpp:1346
 #, kde-format
 msgid "Gamut Warnings don't work in floating point."
 msgstr "色域警告不支援浮點色深。"
 
-#: libs/ui/KisView.cpp:1354
+#: libs/ui/KisView.cpp:1352
 #, kde-format
 msgid "Gamut Warnings turned on."
 msgstr "已啟用色域警告。"
 
-#: libs/ui/KisView.cpp:1356
+#: libs/ui/KisView.cpp:1354
 #, kde-format
 msgid "But Soft Proofing is still off."
 msgstr "但螢幕校樣仍然關閉。"
 
-#: libs/ui/KisView.cpp:1359
+#: libs/ui/KisView.cpp:1357
 #, kde-format
 msgid "Gamut Warnings turned off."
 msgstr "已關閉色域警告。"
@@ -30330,13 +30111,13 @@ msgstr ""
 "即將切換為畫布獨佔模式。\n"
 "按下 %1 返回。"
 
-#: libs/ui/KisViewManager.cpp:1333
+#: libs/ui/KisViewManager.cpp:1335
 #, kde-format
 msgctxt "@title:window resource folder"
 msgid "Open Resource Folder"
 msgstr "開啟資源資料夾"
 
-#: libs/ui/KisViewManager.cpp:1337
+#: libs/ui/KisViewManager.cpp:1339
 #, kde-format
 msgctxt "@info resource folder"
 msgid ""
@@ -30359,19 +30140,19 @@ msgstr ""
 "<p><b>應用程式內部資料夾</b>：<br/>\n"
 "%2</p>"
 
-#: libs/ui/KisViewManager.cpp:1352
+#: libs/ui/KisViewManager.cpp:1354
 #, kde-format
 msgctxt "@action:button resource folder"
 msgid "Open in &user AppData"
 msgstr "開啟使用者 AppData (&U)"
 
-#: libs/ui/KisViewManager.cpp:1353
+#: libs/ui/KisViewManager.cpp:1355
 #, kde-format
 msgctxt "@action:button resource folder"
 msgid "Open in &private app location"
 msgstr "開啟應用程式內部資料夾(&P)"
 
-#: libs/ui/KisViewManager.cpp:1467 libs/ui/KisViewManager.cpp:1485
+#: libs/ui/KisViewManager.cpp:1469 libs/ui/KisViewManager.cpp:1487
 #, kde-format
 msgctxt "choice for author profile"
 msgid "Anonymous"
@@ -31473,7 +31254,7 @@ msgstr "選取動作"
 #: libs/ui/tool/kis_selection_tool_helper.cpp:374
 #: plugins/generators/pattern/wdgpatternoptions.ui:51
 #: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1834
-#: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:304
+#: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:309
 #, kde-format
 msgid "Transform"
 msgstr "變形"
@@ -33003,7 +32784,7 @@ msgid "No Preview for this engine"
 msgstr "此引擎沒有預覽"
 
 #: libs/ui/widgets/kis_selection_options.cc:179
-#: plugins/tools/basictools/kis_tool_fill.cc:511
+#: plugins/tools/basictools/kis_tool_fill.cc:516
 #, kde-format
 msgctxt "The anti-alias checkbox in fill tool options"
 msgid "Anti-aliasing"
@@ -33034,133 +32815,131 @@ msgid "Vector Selection"
 msgstr "向量選取區域"
 
 #: libs/ui/widgets/kis_selection_options.cc:222
-#: libs/ui/widgets/kis_selection_options.cc:460
+#: libs/ui/widgets/kis_selection_options.cc:458
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Replace"
 msgstr "取代"
 
 #: libs/ui/widgets/kis_selection_options.cc:224
-#: libs/ui/widgets/kis_selection_options.cc:475
+#: libs/ui/widgets/kis_selection_options.cc:473
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Intersect"
 msgstr "相交"
 
 #: libs/ui/widgets/kis_selection_options.cc:226
-#: libs/ui/widgets/kis_selection_options.cc:465
+#: libs/ui/widgets/kis_selection_options.cc:463
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Add"
 msgstr "新增"
 
 #: libs/ui/widgets/kis_selection_options.cc:228
-#: libs/ui/widgets/kis_selection_options.cc:470
+#: libs/ui/widgets/kis_selection_options.cc:468
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Subtract"
 msgstr "減去"
 
 #: libs/ui/widgets/kis_selection_options.cc:230
-#: libs/ui/widgets/kis_selection_options.cc:480
+#: libs/ui/widgets/kis_selection_options.cc:478
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Symmetric Difference"
 msgstr "對稱差異"
 
 #: libs/ui/widgets/kis_selection_options.cc:233
-#: plugins/tools/basictools/kis_tool_fill.cc:574
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:454
 #, kde-format
-msgid "Smooth the jagged edges"
-msgstr "平滑化鋸齒狀的邊緣"
+msgid "Smooths the edges of the selection"
+msgstr "平滑化選取區域的邊緣"
 
 #: libs/ui/widgets/kis_selection_options.cc:235
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:408
 #, kde-format
-msgid ""
-"Grow (positive values) or shrink (negative values) the selection by the set "
-"amount"
-msgstr "按數值擴張或收縮選取區域 (正數為擴張，負數為收縮)"
+msgid "Grow or shrink the selection by the set amount"
+msgstr "按指定值擴大或縮小選取區域"
 
-#: libs/ui/widgets/kis_selection_options.cc:238
-#: plugins/tools/basictools/kis_tool_fill.cc:576
+#: libs/ui/widgets/kis_selection_options.cc:237
+#: plugins/tools/basictools/kis_tool_fill.cc:579
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:456
 #, kde-format
 msgid "Stop growing at the darkest and/or most opaque pixels"
 msgstr "當到達最暗或最不透明的像素時停止擴大"
 
-#: libs/ui/widgets/kis_selection_options.cc:240
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:410
+#: libs/ui/widgets/kis_selection_options.cc:239
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:409
 #, kde-format
 msgid "Blur the selection by the set amount"
-msgstr "按數值使選取區域變得模糊"
+msgstr "按指定值使選取區域變得模糊"
 
-#: libs/ui/widgets/kis_selection_options.cc:243
-#, kde-format
-msgid "Make the selection using the active layer"
-msgstr "以使用中圖層製成選取區域"
+#: libs/ui/widgets/kis_selection_options.cc:242
+#, fuzzy, kde-format
+#| msgid "Obtain the region using the active layer"
+msgid "Select regions found from the active layer"
+msgstr "選取在使用中圖層找出的區域"
 
-#: libs/ui/widgets/kis_selection_options.cc:245
-#, kde-format
-msgid "Make the selection using a merged copy of all layers"
-msgstr "以全部圖層合併的影像製成選取區域"
+#: libs/ui/widgets/kis_selection_options.cc:244
+#, fuzzy, kde-format
+#| msgid "Obtain the region using a merged copy of all layers"
+msgid "Select regions found from the merging of all layers"
+msgstr "選取在全部圖層合併的影像中找出的區域"
 
-#: libs/ui/widgets/kis_selection_options.cc:247
-#, kde-format
+#: libs/ui/widgets/kis_selection_options.cc:246
+#, fuzzy, kde-format
 msgid ""
-"Make the selection using a merged copy of the selected color-labeled layers"
-msgstr "按所選色彩標籤的圖層合併的影像製成選取區域"
+"Select regions found from the merging of layers with specific color labels"
+msgstr "選取按指定色彩標籤圖層合併的影像中找出的區域"
 
-#: libs/ui/widgets/kis_selection_options.cc:256
+#: libs/ui/widgets/kis_selection_options.cc:254
 #, kde-format
 msgctxt "The 'mode' section label in selection tools options"
 msgid "Mode"
 msgstr "模式"
 
-#: libs/ui/widgets/kis_selection_options.cc:263
+#: libs/ui/widgets/kis_selection_options.cc:261
 #, kde-format
 msgctxt "The 'action' section label in selection tools options"
 msgid "Action"
 msgstr "操作"
 
-#: libs/ui/widgets/kis_selection_options.cc:270
+#: libs/ui/widgets/kis_selection_options.cc:268
 #, kde-format
 msgctxt "The 'adjustments' section label in selection tools options"
 msgid "Adjustments"
 msgstr "調整"
 
-#: libs/ui/widgets/kis_selection_options.cc:281
+#: libs/ui/widgets/kis_selection_options.cc:279
 #, kde-format
 msgctxt "The 'reference' section label in selection tools options"
 msgid "Reference"
 msgstr "參照"
 
-#: libs/ui/widgets/kis_selection_options.cc:461
+#: libs/ui/widgets/kis_selection_options.cc:459
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Replace (%1)"
 msgstr "取代 (%1)"
 
-#: libs/ui/widgets/kis_selection_options.cc:466
+#: libs/ui/widgets/kis_selection_options.cc:464
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Add (%1)"
 msgstr "新增 (%1)"
 
-#: libs/ui/widgets/kis_selection_options.cc:471
+#: libs/ui/widgets/kis_selection_options.cc:469
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Subtract (%1)"
 msgstr "減去 (%1)"
 
-#: libs/ui/widgets/kis_selection_options.cc:476
+#: libs/ui/widgets/kis_selection_options.cc:474
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Intersect (%1)"
 msgstr "相交 (%1)"
 
-#: libs/ui/widgets/kis_selection_options.cc:482
+#: libs/ui/widgets/kis_selection_options.cc:480
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Symmetric Difference (%1)"
@@ -33710,12 +33489,12 @@ msgstr "終點記號"
 msgid "Thickness:"
 msgstr "粗細："
 
-#: libs/widgets/kis_color_input.cpp:50
+#: libs/widgets/kis_color_input.cpp:51
 #, kde-format
 msgid "%1:"
 msgstr "%1："
 
-#: libs/widgets/kis_color_input.cpp:372
+#: libs/widgets/kis_color_input.cpp:373
 #: libs/widgets/KoEditColorSetDialog.cpp:159
 #, kde-format
 msgid "Color name:"
@@ -33807,6 +33586,7 @@ msgstr "輸入 Web 色彩的十六進位制碼。只能使用 sRGB 空間的色�
 #: libs/widgets/KisDlgInternalColorSelector.cpp:310
 #: plugins/dockers/advancedcolorselector/kis_color_selector_settings.cpp:65
 #: plugins/dockers/advancedcolorselector/kis_color_selector_settings.cpp:74
+#: plugins/dockers/specificcolorselector/kis_specific_color_selector_widget.cc:67
 #, kde-format
 msgid "HSV"
 msgstr "HSV"
@@ -33816,6 +33596,7 @@ msgstr "HSV"
 #: plugins/dockers/advancedcolorselector/kis_color_selector_settings.cpp:66
 #: plugins/dockers/advancedcolorselector/kis_color_selector_settings.cpp:75
 #: plugins/dockers/artisticcolorselector/forms/wdgARCSSettings.ui:75
+#: plugins/dockers/specificcolorselector/kis_specific_color_selector_widget.cc:68
 #, kde-format
 msgid "HSL"
 msgstr "HSL"
@@ -33825,6 +33606,7 @@ msgstr "HSL"
 #: plugins/dockers/advancedcolorselector/kis_color_selector_settings.cpp:67
 #: plugins/dockers/advancedcolorselector/kis_color_selector_settings.cpp:76
 #: plugins/dockers/artisticcolorselector/forms/wdgARCSSettings.ui:85
+#: plugins/dockers/specificcolorselector/kis_specific_color_selector_widget.cc:69
 #, kde-format
 msgid "HSI"
 msgstr "HSI"
@@ -35761,7 +35543,7 @@ msgstr "橢圓輔助尺"
 #: plugins/paintops/gridbrush/wdggridbrushshapeoptions.ui:41
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:262
 #: plugins/paintops/spray/wdgsprayshapeoptions.ui:70
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:435
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:437
 #, kde-format
 msgid "Ellipse"
 msgstr "橢圓"
@@ -36950,13 +36732,20 @@ msgstr "真實 FPS：%1"
 msgid "Frames dropped:\t%1%"
 msgstr "拋棄的影格：%1%"
 
-#: plugins/dockers/animation/KisAnimTimelineFramesModel.cpp:688
+#: plugins/dockers/animation/KisAnimTimelineFramesModel.cpp:689
 #, kde-format
 msgid "Dropped frames are not available in this Krita instance"
 msgstr "此 Krita 實體不支援拋棄的影格"
 
-#: plugins/dockers/animation/KisAnimTimelineFramesModel.cpp:888
-#: plugins/dockers/animation/KisAnimTimelineFramesModel.cpp:936
+#: plugins/dockers/animation/KisAnimTimelineFramesModel.cpp:870
+#, kde-format
+msgctxt "(qtundo-format)"
+msgid "Add blank frame"
+msgid_plural "Add %1 blank frames"
+msgstr[0] "新增 %1 個空白影格"
+
+#: plugins/dockers/animation/KisAnimTimelineFramesModel.cpp:915
+#: plugins/dockers/animation/KisAnimTimelineFramesModel.cpp:963
 #, kde-format
 msgctxt "(qtundo-format)"
 msgid "Insert frame"
@@ -37003,42 +36792,42 @@ msgctxt "@info:tooltip"
 msgid "Zoom Timeline. Hold down and drag left or right."
 msgstr "縮放時間軸：按住並左右拖曳。"
 
-#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:831
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:832
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Open audio..."
 msgstr "開啟音訊…"
 
-#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:834
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:835
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Change audio (%1)..."
 msgstr "變更音訊 (%1)…"
 
-#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1573
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1574
 #, kde-format
 msgctxt "@title:window"
 msgid "Insert or Remove Hold Frames"
 msgstr "插入或移除保持影格"
 
-#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1574
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1575
 #, kde-format
 msgctxt "@label:spinbox"
 msgid "Enter number of frames"
 msgstr "輸入影格數"
 
-#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1681
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1682
 #, kde-format
 msgid "Edit Frames:"
 msgstr "編輯影格："
 
-#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1708
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1709
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Keyframes"
 msgstr "關鍵影格"
 
-#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1716
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1717
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Hold Frames"
@@ -37564,7 +37353,7 @@ msgstr "確定要刪除遮罩<b>「%1」</b>嗎？"
 #: plugins/paintops/gridbrush/wdggridbrushshapeoptions.ui:46
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:267
 #: plugins/paintops/spray/wdgsprayshapeoptions.ui:75
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:434
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:436
 #, kde-format
 msgid "Rectangle"
 msgstr "矩形"
@@ -37762,42 +37551,42 @@ msgstr "每一組筆畫達到此數值後，Krita 會把後來的筆畫拆開為
 msgid "Undo History"
 msgstr "歷史記錄"
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:158
+#: plugins/dockers/layerdocker/LayerBox.cpp:159
 #: plugins/python/comics_project_management_tools/comics_export_dialog.py:249
 #, kde-format
 msgid "Layers"
 msgstr "圖層"
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:244
+#: plugins/dockers/layerdocker/LayerBox.cpp:250
 #, kde-format
 msgid "&Show Global Selection Mask"
 msgstr "顯示全域選取區域遮罩(&S)"
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:247
+#: plugins/dockers/layerdocker/LayerBox.cpp:253
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
 "Shows global selection as a usual selection mask in <b>Layers</b> docker"
 msgstr "把全域選取區域作為一個通常選取區域遮罩顯示在<b>圖層</b>工具面板"
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:310
+#: plugins/dockers/layerdocker/LayerBox.cpp:316
 #, kde-format
 msgid "Thumbnail Size"
 msgstr "縮圖大小"
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:338
+#: plugins/dockers/layerdocker/LayerBox.cpp:344
 #, kde-format
 msgctxt "@item:inmenu Layers Docker settings, slider"
 msgid "Tree Indentation"
 msgstr "樹狀層級縮排"
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:361
+#: plugins/dockers/layerdocker/LayerBox.cpp:367
 #, kde-format
 msgctxt "@item:inmenu Layers Docker settings, combobox"
 msgid "Subtitle Style"
 msgstr "副標題樣式"
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:363
+#: plugins/dockers/layerdocker/LayerBox.cpp:369
 #, kde-format
 msgctxt "@item:tooltip"
 msgid ""
@@ -37811,43 +37600,43 @@ msgstr ""
 "平衡：如不透明度值或混色模式已變更，即同時顯示兩者。\n"
 "詳細：一律顯示不透明度值和混色模式。"
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:368
+#: plugins/dockers/layerdocker/LayerBox.cpp:374
 #, kde-format
 msgctxt "@item:inlistbox Layer Docker subtitle style"
 msgid "None"
 msgstr "無"
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:369
+#: plugins/dockers/layerdocker/LayerBox.cpp:375
 #, kde-format
 msgctxt "@item:inlistbox Layer Docker subtitle style"
 msgid "Simple"
 msgstr "簡單"
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:370
+#: plugins/dockers/layerdocker/LayerBox.cpp:376
 #, kde-format
 msgctxt "@item:inlistbox Layer Docker subtitle style"
 msgid "Balanced"
 msgstr "平衡"
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:371
+#: plugins/dockers/layerdocker/LayerBox.cpp:377
 #, kde-format
 msgctxt "@item:inlistbox Layer Docker subtitle style"
 msgid "Detailed"
 msgstr "詳細"
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:384
+#: plugins/dockers/layerdocker/LayerBox.cpp:390
 #, kde-format
 msgctxt "@item:tooltip"
 msgid "Subtitle text opacity"
 msgstr "副標題不透明度"
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:402
+#: plugins/dockers/layerdocker/LayerBox.cpp:408
 #, kde-format
 msgctxt "@item:inmenu Layers Docker settings, checkbox"
 msgid "Inline"
 msgstr "單行顯示"
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:404
+#: plugins/dockers/layerdocker/LayerBox.cpp:410
 #, kde-format
 msgctxt "@item:tooltip"
 msgid ""
@@ -37857,28 +37646,28 @@ msgstr ""
 "啟用時，副標題將與圖層名稱同行顯示。\n"
 "停用時，副標題將顯示於圖層名稱之下 (如空間充足)。"
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:971
+#: plugins/dockers/layerdocker/LayerBox.cpp:977
 msgctxt "(qtundo-format)"
 msgid "Quick Selection Mask"
 msgstr "快速選取區域遮罩"
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:993
+#: plugins/dockers/layerdocker/LayerBox.cpp:999
 msgctxt "(qtundo-format)"
 msgid "Cancel Quick Selection Mask"
 msgstr "取消快速選取區域遮罩"
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:1208
+#: plugins/dockers/layerdocker/LayerBox.cpp:1214
 #, kde-format
 msgid "&Toggle Locks && Visibility"
 msgstr "切換鎖定與可見性(&T)"
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:1215
-#: plugins/dockers/layerdocker/LayerBox.cpp:1236
+#: plugins/dockers/layerdocker/LayerBox.cpp:1221
+#: plugins/dockers/layerdocker/LayerBox.cpp:1242
 #, kde-format
 msgid "&Add"
 msgstr "新增(&A)"
 
-#: plugins/dockers/layerdocker/NodeDelegate.cpp:1228
+#: plugins/dockers/layerdocker/NodeDelegate.cpp:1224
 #, kde-format
 msgid "%1 %"
 msgstr "%1 %"
@@ -38357,7 +38146,7 @@ msgctxt "action"
 msgid "Export Timelapse..."
 msgstr "匯出縮時影片…"
 
-#: plugins/dockers/recorder/recorder_export.cpp:101
+#: plugins/dockers/recorder/recorder_export.cpp:104
 #, kde-format
 msgctxt ""
 "This text is displayed instead of path to external tool in case of external "
@@ -38365,7 +38154,7 @@ msgctxt ""
 msgid "[NOT FOUND]"
 msgstr "[找不到]"
 
-#: plugins/dockers/recorder/recorder_export.cpp:102
+#: plugins/dockers/recorder/recorder_export.cpp:105
 #, kde-format
 msgid ""
 "FFmpeg executable location couldn't be detected, please install it or select "
@@ -38373,19 +38162,19 @@ msgid ""
 msgstr ""
 "未能檢測到 FFmpeg 執行檔的位置。請先安裝其軟體套件或手動選擇執行檔的位置"
 
-#: plugins/dockers/recorder/recorder_export.cpp:166
+#: plugins/dockers/recorder/recorder_export.cpp:169
 #, kde-format
 msgid "Abort encoding the timelapse video?"
 msgstr "是否中止縮時影片的編碼程序？"
 
-#: plugins/dockers/recorder/recorder_export.cpp:238
+#: plugins/dockers/recorder/recorder_export.cpp:241
 #, kde-format
 msgctxt "Status for the export of the video record"
 msgid "Starting FFmpeg..."
 msgstr "正在啟動 FFmpeg……"
 
 #. i18n: ectx: property (text), widget (QToolButton, btnExport)
-#: plugins/dockers/recorder/recorder_export.cpp:341
+#: plugins/dockers/recorder/recorder_export.cpp:343
 #: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:29
 #: plugins/dockers/storyboarddocker/wdgstoryboarddock.ui:21
 #, kde-format
@@ -38447,12 +38236,12 @@ msgstr "沒有要匯出的影格。"
 msgid "The timelapse video is being encoded..."
 msgstr "正在編碼縮時影片……"
 
-#: plugins/dockers/recorder/recorder_export.cpp:629
+#: plugins/dockers/recorder/recorder_export.cpp:631
 #, kde-format
 msgid "Export failed. FFmpeg message:"
 msgstr "匯出失敗。FFmpeg 訊息："
 
-#: plugins/dockers/recorder/recorder_export.cpp:650
+#: plugins/dockers/recorder/recorder_export.cpp:652
 #, kde-format
 msgid ""
 "The recordings for this document will be deleted and you will not be able to "
@@ -38466,7 +38255,7 @@ msgstr ""
 "\n"
 "是否繼續？"
 
-#: plugins/dockers/recorder/recorder_export.cpp:657
+#: plugins/dockers/recorder/recorder_export.cpp:659
 #: plugins/dockers/recorder/recorder_snapshots_manager.cpp:262
 #, kde-format
 msgctxt "Label title, Snapshot directory deleting is in progress"
@@ -38485,32 +38274,17 @@ msgstr "匯出縮時影片"
 msgid "Open record directory"
 msgstr "開啟錄影目錄"
 
-#. i18n: ectx: property (text), widget (QCheckBox, checkResize)
-#: plugins/dockers/recorder/recorder_export.ui:116
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, spinCaptureInterval)
+#. i18n: ectx: property (suffix), widget (QSpinBox, spinLastFrameSec)
+#: plugins/dockers/recorder/recorder_export.ui:201
+#: plugins/dockers/recorder/recorderdocker.ui:183
 #, kde-format
-msgid "Resize:"
-msgstr "調整大小："
-
-#. i18n: ectx: property (text), widget (QLabel, labelExportTo)
-#: plugins/dockers/recorder/recorder_export.ui:135
-#, kde-format
-msgid "Video location:"
-msgstr "影片位置："
-
-#. i18n: ectx: property (text), widget (QLabel, labelFfmpegLocation)
-#: plugins/dockers/recorder/recorder_export.ui:155
-#, kde-format
-msgid "FFmpeg:"
-msgstr "FFmpeg："
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, buttonBrowseExport)
-#: plugins/dockers/recorder/recorder_export.ui:168
-#, kde-format
-msgid "Select a file location for the exported timelapse video"
-msgstr "請選擇要匯出縮時影片的檔案位置"
+msgctxt "Contraction of \"second\" for interval"
+msgid " sec."
+msgstr " 秒"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelFpsInput)
-#: plugins/dockers/recorder/recorder_export.ui:209
+#: plugins/dockers/recorder/recorder_export.ui:230
 #, kde-format
 msgid ""
 "The speed of reading the input stream.\n"
@@ -38521,26 +38295,56 @@ msgstr ""
 "例子：如希望縮時錄影以兩倍速度播放，應將此設定為影片 FPS 的兩倍。"
 
 #. i18n: ectx: property (text), widget (QLabel, labelFpsInput)
-#: plugins/dockers/recorder/recorder_export.ui:212
+#: plugins/dockers/recorder/recorder_export.ui:233
 #, kde-format
 msgctxt "Input FPS of recorded timelapses."
 msgid "Input FPS:"
 msgstr "輸入 FPS："
 
+#. i18n: ectx: property (text), widget (QLabel, labelFps)
+#: plugins/dockers/recorder/recorder_export.ui:259
+#, kde-format
+msgid "Video FPS:"
+msgstr "影片 FPS："
+
 #. i18n: ectx: property (toolTip), widget (QPushButton, buttonEditProfile)
-#: plugins/dockers/recorder/recorder_export.ui:243
+#: plugins/dockers/recorder/recorder_export.ui:290
 #, kde-format
 msgid "Edit video profile"
 msgstr "編輯影片設定檔"
 
 #. i18n: ectx: property (text), widget (QLineEdit, editFfmpegPath)
-#: plugins/dockers/recorder/recorder_export.ui:256
+#: plugins/dockers/recorder/recorder_export.ui:303
 #, kde-format
 msgid "ffmpeg"
 msgstr "FFmpeg"
 
+#. i18n: ectx: property (toolTip), widget (QCheckBox, extendResultCheckBox)
+#: plugins/dockers/recorder/recorder_export.ui:348
+#, kde-format
+msgid "Extend the last frame in the exported video by the specified duration"
+msgstr "在匯出影片中延長顯示最後一個影格的時長"
+
+#. i18n: ectx: property (text), widget (QCheckBox, extendResultCheckBox)
+#: plugins/dockers/recorder/recorder_export.ui:351
+#, kde-format
+msgid "Extend result for:"
+msgstr "延長顯示完成品："
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, buttonBrowseExport)
+#: plugins/dockers/recorder/recorder_export.ui:360
+#, kde-format
+msgid "Select a file location for the exported timelapse video"
+msgstr "請選擇要匯出縮時影片的檔案位置"
+
+#. i18n: ectx: property (text), widget (QLabel, labelExportTo)
+#: plugins/dockers/recorder/recorder_export.ui:374
+#, kde-format
+msgid "Video location:"
+msgstr "影片位置："
+
 #. i18n: ectx: property (toolTip), widget (QCheckBox, resultPreviewCheckBox)
-#: plugins/dockers/recorder/recorder_export.ui:267
+#: plugins/dockers/recorder/recorder_export.ui:403
 #, kde-format
 msgid ""
 "Prepend a preview to the exported video.\n"
@@ -38550,105 +38354,91 @@ msgstr ""
 "預覧為按指定時長顯示最後一個影格的內容。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, resultPreviewCheckBox)
-#: plugins/dockers/recorder/recorder_export.ui:273
+#: plugins/dockers/recorder/recorder_export.ui:409
 #, kde-format
-msgid "Enable result preview"
-msgstr "啟用完成品預覧"
+msgid "Enable preview for:"
+msgstr "啟用完成品預覧："
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, buttonBrowseFfmpeg)
-#: plugins/dockers/recorder/recorder_export.ui:280
+#: plugins/dockers/recorder/recorder_export.ui:537
 #, kde-format
 msgid "Setup ffmpeg executable location"
 msgstr "設定 FFmpeg 可執行檔的位置"
 
-#. i18n: ectx: property (text), widget (QLabel, labelFps)
-#: plugins/dockers/recorder/recorder_export.ui:343
-#, kde-format
-msgid "Video FPS:"
-msgstr "影片 FPS："
-
-#. i18n: ectx: property (suffix), widget (QSpinBox, spinCaptureInterval)
-#. i18n: ectx: property (suffix), widget (QSpinBox, spinLastFrameSec)
-#: plugins/dockers/recorder/recorder_export.ui:384
-#: plugins/dockers/recorder/recorderdocker.ui:180
-#, kde-format
-msgctxt "Contraction of \"second\" for interval"
-msgid " sec."
-msgstr " 秒"
-
-#. i18n: ectx: property (toolTip), widget (QLabel, labelHoldLastFrameSec)
-#: plugins/dockers/recorder/recorder_export.ui:518
-#, kde-format
-msgid "The added duration for showing the last frame."
-msgstr "保持顯示最後一個影格的額外時長。"
-
 #. i18n: ectx: property (suffix), widget (QSpinBox, spinFirstFrameSec)
-#: plugins/dockers/recorder/recorder_export.ui:581
+#: plugins/dockers/recorder/recorder_export.ui:559
 #, kde-format
 msgid " sec."
 msgstr " 秒"
 
-#. i18n: ectx: property (toolTip), widget (QCheckBox, extendResultCheckBox)
-#: plugins/dockers/recorder/recorder_export.ui:609
+#. i18n: ectx: property (text), widget (QLabel, labelFfmpegLocation)
+#: plugins/dockers/recorder/recorder_export.ui:587
 #, kde-format
-msgid "Extend the last frame in the exported video by the specified duration"
-msgstr "在匯出影片中延長顯示最後一個影格的時長"
+msgid "FFmpeg:"
+msgstr "FFmpeg："
 
-#. i18n: ectx: property (text), widget (QCheckBox, extendResultCheckBox)
-#: plugins/dockers/recorder/recorder_export.ui:612
+#. i18n: ectx: property (text), widget (QCheckBox, checkResize)
+#: plugins/dockers/recorder/recorder_export.ui:624
 #, kde-format
-msgid "Extend end result"
-msgstr "延長顯示完成品"
+msgid "Resize:"
+msgstr "調整大小："
 
 #. i18n: ectx: property (text), widget (QLabel, labelTitleVideoDuration)
-#: plugins/dockers/recorder/recorder_export.ui:649
+#: plugins/dockers/recorder/recorder_export.ui:663
 #, kde-format
 msgid "Video duration:"
 msgstr "影片長度："
 
 #. i18n: ectx: property (text), widget (QLabel, labelDone)
-#: plugins/dockers/recorder/recorder_export.ui:912
+#: plugins/dockers/recorder/recorder_export.ui:913
 #, kde-format
 msgctxt "Caption: Video exporting finished"
 msgid "Done!"
 msgstr "完成！"
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonWatchIt)
-#: plugins/dockers/recorder/recorder_export.ui:930
+#: plugins/dockers/recorder/recorder_export.ui:931
 #, kde-format
 msgctxt "Watch the video which is just created"
 msgid "Watch it!"
 msgstr "觀看！"
 
 #. i18n: ectx: property (text), widget (QLabel, labelWritten)
-#: plugins/dockers/recorder/recorder_export.ui:940
+#: plugins/dockers/recorder/recorder_export.ui:941
 #, kde-format
 msgid "The timelapse video has been written to:"
 msgstr "縮時影片已經寫入至："
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonShowInFolder)
-#: plugins/dockers/recorder/recorder_export.ui:958
+#: plugins/dockers/recorder/recorder_export.ui:959
 #, kde-format
 msgctxt "Open the folder when the new created video is placed"
 msgid "Show in folder"
 msgstr "在資料夾顯示"
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonRemoveSnapshots)
-#: plugins/dockers/recorder/recorder_export.ui:995
+#: plugins/dockers/recorder/recorder_export.ui:996
 #, kde-format
 msgctxt "Open the folder when the new created video is placed"
 msgid "Remove recordings"
 msgstr "移除錄影檔"
 
+#. i18n: ectx: property (text), widget (QLabel, labelRenderTimeTitle)
+#: plugins/dockers/recorder/recorder_export.ui:1026
+#, kde-format
+msgctxt "How long it took to render the video"
+msgid "Render time:"
+msgstr "匯出已使用時間："
+
 #. i18n: ectx: property (text), widget (QPushButton, buttonRestart)
-#: plugins/dockers/recorder/recorder_export.ui:1061
+#: plugins/dockers/recorder/recorder_export.ui:1053
 #, kde-format
 msgctxt "Button to restart the timelapse video configuring"
 msgid "Restart"
 msgstr "重新開始"
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonDoneClose)
-#: plugins/dockers/recorder/recorder_export.ui:1068
+#: plugins/dockers/recorder/recorder_export.ui:1060
 #, kde-format
 msgctxt "Close dialog button"
 msgid "Close"
@@ -38805,49 +38595,49 @@ msgstr "選擇錄影檔目錄…"
 #: plugins/dockers/recorder/recorderdocker.ui:155
 #, kde-format
 msgid "Capture interval:"
-msgstr "擷取區間："
+msgstr "擷取間隔："
 
 #. i18n: ectx: property (text), widget (QLabel, labelQuality)
-#: plugins/dockers/recorder/recorderdocker.ui:193
+#: plugins/dockers/recorder/recorderdocker.ui:199
 #, kde-format
 msgctxt "Compression quality"
 msgid "Quality:"
 msgstr "品質："
 
 #. i18n: ectx: property (text), widget (QLabel, labelResolution)
-#: plugins/dockers/recorder/recorderdocker.ui:219
+#: plugins/dockers/recorder/recorderdocker.ui:225
 #, kde-format
 msgctxt "Resolution for recorded frames"
 msgid "Resolution:"
 msgstr "解析度："
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboResolution)
-#: plugins/dockers/recorder/recorderdocker.ui:242
+#: plugins/dockers/recorder/recorderdocker.ui:248
 #, kde-format
 msgid "Original"
 msgstr "原始"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboResolution)
-#: plugins/dockers/recorder/recorderdocker.ui:247
+#: plugins/dockers/recorder/recorderdocker.ui:253
 #, kde-format
 msgid "Half"
 msgstr "一半"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboResolution)
-#: plugins/dockers/recorder/recorderdocker.ui:252
+#: plugins/dockers/recorder/recorderdocker.ui:258
 #, kde-format
 msgid "Quarter"
 msgstr "四分之一"
 
 #. i18n: ectx: property (text), widget (QLabel, labelFormat)
-#: plugins/dockers/recorder/recorderdocker.ui:260
+#: plugins/dockers/recorder/recorderdocker.ui:266
 #, kde-format
 msgctxt "File format for recorded frames (PNG/JPG)"
 msgid "Format:"
 msgstr "檔案格式："
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, checkBoxRecordIsolateMode)
-#: plugins/dockers/recorder/recorderdocker.ui:299
+#: plugins/dockers/recorder/recorderdocker.ui:305
 #, kde-format
 msgid ""
 "Record frames when Isolate Layer or Isolate Group mode is active.\n"
@@ -38858,7 +38648,7 @@ msgstr ""
 "視乎縮時影片的速率設定，有可能會導致輸出的影片出現閃爍現象。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, checkBoxRecordIsolateMode)
-#: plugins/dockers/recorder/recorderdocker.ui:302
+#: plugins/dockers/recorder/recorderdocker.ui:308
 #, kde-format
 msgctxt "Record when Isolate Layer mode is active"
 msgid "Record in isolate mode"
@@ -38866,31 +38656,31 @@ msgstr "在單獨模式錄影"
 
 #. i18n: Tooltip for check box
 #. i18n: ectx: property (toolTip), widget (QCheckBox, checkBoxAutoRecord)
-#: plugins/dockers/recorder/recorderdocker.ui:309
+#: plugins/dockers/recorder/recorderdocker.ui:315
 #, kde-format
 msgid "Start recording after creating a new image or opening an existing one."
 msgstr "於建立或開啟影像後開始錄影。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, checkBoxAutoRecord)
-#: plugins/dockers/recorder/recorderdocker.ui:312
+#: plugins/dockers/recorder/recorderdocker.ui:318
 #, kde-format
 msgid "Record automatically"
 msgstr "自動錄影"
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonRecordToggle)
-#: plugins/dockers/recorder/recorderdocker.ui:331
+#: plugins/dockers/recorder/recorderdocker.ui:337
 #, kde-format
 msgid "Record"
 msgstr "錄影"
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonExport)
-#: plugins/dockers/recorder/recorderdocker.ui:354
+#: plugins/dockers/recorder/recorderdocker.ui:360
 #, kde-format
 msgid "Export..."
 msgstr "匯出…"
 
 #. i18n: ectx: property (text), widget (QLabel, labelUnsupportedColorSpace)
-#: plugins/dockers/recorder/recorderdocker.ui:364
+#: plugins/dockers/recorder/recorderdocker.ui:370
 #, kde-format
 msgid ""
 "⚠ Unsupported color space.\n"
@@ -38899,13 +38689,13 @@ msgstr ""
 "⚠ 不支援的色彩空間。\n"
 "只支援「RGB/Alpha (8 位元)」。"
 
-#: plugins/dockers/recorder/recorderdocker_dock.cpp:103
+#: plugins/dockers/recorder/recorderdocker_dock.cpp:110
 #, kde-format
 msgctxt "Title for label. JPEG Quality level"
 msgid "Quality:"
 msgstr "品質："
 
-#: plugins/dockers/recorder/recorderdocker_dock.cpp:104
+#: plugins/dockers/recorder/recorderdocker_dock.cpp:111
 #, kde-format
 msgctxt "@tooltip"
 msgid ""
@@ -38916,13 +38706,13 @@ msgstr ""
 "較大的數值會產生較大的檔案，而影像質素亦會更高。不影響 CPU 使用率。\n"
 "不建議設定為低於 50，因為這會產生大量雜訊。"
 
-#: plugins/dockers/recorder/recorderdocker_dock.cpp:112
+#: plugins/dockers/recorder/recorderdocker_dock.cpp:119
 #, kde-format
 msgctxt "Title for label. PNG Compression level"
 msgid "Compression:"
 msgstr "壓縮："
 
-#: plugins/dockers/recorder/recorderdocker_dock.cpp:113
+#: plugins/dockers/recorder/recorderdocker_dock.cpp:120
 #, kde-format
 msgctxt "@tooltip"
 msgid ""
@@ -38935,13 +38725,13 @@ msgstr ""
 "不建議設定壓縮為 0，因為這會耗用大量儲存空間。\n"
 "不建𧫛設定高於 3，因為這會大幅拖慢效能。"
 
-#: plugins/dockers/recorder/recorderdocker_dock.cpp:146
+#: plugins/dockers/recorder/recorderdocker_dock.cpp:153
 #, kde-format
 msgctxt "Use original resolution for the frames when recording the canvas"
 msgid "Original"
 msgstr "原始"
 
-#: plugins/dockers/recorder/recorderdocker_dock.cpp:147
+#: plugins/dockers/recorder/recorderdocker_dock.cpp:154
 #, kde-format
 msgctxt ""
 "Use the resolution two times smaller than the original resolution for the "
@@ -38949,7 +38739,7 @@ msgctxt ""
 msgid "Half"
 msgstr "一半"
 
-#: plugins/dockers/recorder/recorderdocker_dock.cpp:148
+#: plugins/dockers/recorder/recorderdocker_dock.cpp:155
 #, kde-format
 msgctxt ""
 "Use the resolution four times smaller than the original resolution for the "
@@ -38957,52 +38747,52 @@ msgctxt ""
 msgid "Quarter"
 msgstr "四分之一"
 
-#: plugins/dockers/recorder/recorderdocker_dock.cpp:181
+#: plugins/dockers/recorder/recorderdocker_dock.cpp:188
 #, kde-format
 msgctxt "Stop recording the canvas"
 msgid "Stop"
 msgstr "停止"
 
-#: plugins/dockers/recorder/recorderdocker_dock.cpp:182
+#: plugins/dockers/recorder/recorderdocker_dock.cpp:189
 #, kde-format
 msgctxt "Start recording the canvas"
 msgid "Record"
 msgstr "錄影"
 
-#: plugins/dockers/recorder/recorderdocker_dock.cpp:204
+#: plugins/dockers/recorder/recorderdocker_dock.cpp:213
 #, kde-format
 msgctxt "Recording symbol"
 msgid "REC"
 msgstr "REC"
 
-#: plugins/dockers/recorder/recorderdocker_dock.cpp:205
+#: plugins/dockers/recorder/recorderdocker_dock.cpp:214
 #, kde-format
 msgid "Recorder is active"
 msgstr "正在錄影"
 
-#: plugins/dockers/recorder/recorderdocker_dock.cpp:205
+#: plugins/dockers/recorder/recorderdocker_dock.cpp:214
 #, kde-format
 msgid "Recorder is paused"
 msgstr "錄影暫停"
 
-#: plugins/dockers/recorder/recorderdocker_dock.cpp:210
+#: plugins/dockers/recorder/recorderdocker_dock.cpp:227
 #, kde-format
 msgctxt "Title of the docker"
 msgid "Recorder"
 msgstr "錄影工具"
 
-#: plugins/dockers/recorder/recorderdocker_dock.cpp:385
+#: plugins/dockers/recorder/recorderdocker_dock.cpp:403
 #, kde-format
 msgid "Select a Directory for Recordings"
 msgstr "請選擇錄影檔的存放目錄"
 
-#: plugins/dockers/recorder/recorderdocker_dock.cpp:465
+#: plugins/dockers/recorder/recorderdocker_dock.cpp:483
 #, kde-format
 msgctxt "@title:window"
 msgid "Recorder"
 msgstr "錄影工具"
 
-#: plugins/dockers/recorder/recorderdocker_dock.cpp:466
+#: plugins/dockers/recorder/recorderdocker_dock.cpp:484
 #, kde-format
 msgid ""
 "The recorder has been stopped due to failure while writing a frame. Please "
@@ -39010,6 +38800,13 @@ msgid ""
 msgstr ""
 "錄影工具因為寫入影格失敗，已經停止錄影。請先檢查可用儲存空間大小，然後再重新"
 "開始錄影。"
+
+#: plugins/dockers/recorder/recorderdocker_dock.cpp:489
+#, kde-format
+msgid ""
+"Low performance warning. The recorder is not able to write all the frames in "
+"time. Try increasing the capture interval."
+msgstr "效能過低警告：錄影工具未能在有限時間內寫出所有影格。請嘗試提高擷取間隔。"
 
 #: plugins/dockers/smallcolorselector/smallcolorselector_dock.cc:37
 #, kde-format
@@ -39044,6 +38841,11 @@ msgstr "移除選取快照"
 #, kde-format
 msgid "Snapshot Docker"
 msgstr "快照工具面板"
+
+#: plugins/dockers/specificcolorselector/kis_specific_color_selector_widget.cc:70
+#, kde-format
+msgid "HSY"
+msgstr "HSY"
 
 #: plugins/dockers/specificcolorselector/specificcolorselector_dock.cc:22
 #, kde-format
@@ -39181,14 +38983,14 @@ msgid "Freeze Keyframe Data"
 msgstr "凍結關鍵影格資料"
 
 #: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:236
-#: plugins/dockers/storyboarddocker/StoryboardView.cpp:283
+#: plugins/dockers/storyboarddocker/StoryboardView.cpp:290
 #, kde-format
 msgctxt "Add new scene as the last storyboard"
 msgid "Add Scene"
 msgstr "加入場景"
 
 #: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:252
-#: plugins/dockers/storyboarddocker/StoryboardView.cpp:302
+#: plugins/dockers/storyboarddocker/StoryboardView.cpp:309
 #, kde-format
 msgctxt "Remove current scene from storyboards"
 msgid "Remove Scene"
@@ -39208,19 +39010,19 @@ msgctxt "default name for storyboard item"
 msgid "scene "
 msgstr "場景"
 
-#: plugins/dockers/storyboarddocker/StoryboardView.cpp:290
+#: plugins/dockers/storyboarddocker/StoryboardView.cpp:297
 #, kde-format
 msgctxt "Add scene after active scene"
 msgid "Add Scene After"
 msgstr "加入場景到後方"
 
-#: plugins/dockers/storyboarddocker/StoryboardView.cpp:292
+#: plugins/dockers/storyboarddocker/StoryboardView.cpp:299
 #, kde-format
 msgctxt "Add scene before active scene"
 msgid "Add Scene Before"
 msgstr "加入場景到前方"
 
-#: plugins/dockers/storyboarddocker/StoryboardView.cpp:295
+#: plugins/dockers/storyboarddocker/StoryboardView.cpp:302
 #, kde-format
 msgctxt "Duplicate current scene from storyboard docker"
 msgid "Duplicate Scene"
@@ -41301,13 +41103,13 @@ msgstr ""
 msgid "Python Plugin Manager"
 msgstr "Python 外掛程式管理器"
 
-#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:129
+#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:131
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Unable to find the module specified <application>%1</application>"
 msgstr "無法找到指定的 <application>%1</application> 模組"
 
-#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:152
+#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:154
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -41317,13 +41119,13 @@ msgstr ""
 "<p>指定版本的外掛程式包含對於下述依賴程式無效的格式 <application>%1</"
 "application>：<icode>%2</icode>。已跳過</p>"
 
-#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:179
+#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:181
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "<title>Dependency check</title>"
 msgstr "<title>依賴程式檢查</title>"
 
-#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:210
+#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:212
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -41335,13 +41137,13 @@ msgstr ""
 "PEP396 <code>__version__</code> 屬性。此模組未停用，但無法保證能按照預期運"
 "作。</p>"
 
-#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:224
+#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:226
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "<p><application>%1</application>: Unexpected module's version format"
 msgstr "<p><application>%1</application>：未知的模組版本格式"
 
-#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:237
+#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:239
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -41351,20 +41153,20 @@ msgstr ""
 "<p><application>%1</application>：未找到合適的版本。需要的版本是 %2 %3，但只"
 "找到了 %4</p>"
 
-#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:252
+#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:254
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
 "<p>Failure on module load <application>%1</application>:</p><pre>%2</pre>"
 msgstr "<p>載入模組 <application>%1</application> 失敗：</p><pre>%2</pre>"
 
-#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:360
+#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:365
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Internal engine failure"
 msgstr "內部引擎錯誤"
 
-#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:364
+#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:369
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Module not loaded:<br/>%1"
@@ -41423,7 +41225,7 @@ msgid "Create Bundle"
 msgstr "建立新資源包"
 
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:185
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:283
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:292
 #, kde-format
 msgid ""
 "\n"
@@ -41445,19 +41247,19 @@ msgstr "選擇要匯入的資源庫"
 msgid "Select the bundle"
 msgstr "請選擇資源包"
 
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:215
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:219
 #, kde-format
 msgid "Could not load bundle %1."
 msgstr "無法載入資源包 %1。"
 
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:232
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:238
 #, kde-format
 msgid ""
 "There is already a bundle with this name installed. Do you want to overwrite "
 "it?"
 msgstr "已存在此名稱的資源包。要覆蓋它嗎？"
 
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:331
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:340
 #, kde-format
 msgctxt ""
 "In bundle manager; press button to deactivate the bundle (remove resources "
@@ -41465,7 +41267,7 @@ msgctxt ""
 msgid "Deactivate"
 msgstr "停用"
 
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:335
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:344
 #, kde-format
 msgctxt ""
 "In bundle manager; press button to activate the bundle (add resources from "
@@ -41515,7 +41317,7 @@ msgid "Do you want to overwrite the existing bundle?"
 msgstr "您確定要覆寫現存的資源包嗎？"
 
 #: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:414
-#: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:217
+#: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:220
 #, kde-format
 msgid "Could not open '%1' for saving."
 msgstr "無法開啟「%1」以進行儲存。"
@@ -43072,7 +42874,7 @@ msgstr "漸變映射(&G)…"
 #. i18n: ectx: property (windowTitle), widget (QWidget, GradientMapFilterConfigWidget)
 #: plugins/filters/gradientmap/KisGradientMapFilter.h:27
 #: plugins/filters/gradientmap/KisGradientMapFilterConfigWidget.ui:14
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:226
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:223
 #, kde-format
 msgid "Gradient Map"
 msgstr "漸變映射"
@@ -45230,7 +45032,7 @@ msgstr "於文件中找不到色彩特性檔案。"
 msgid "Unknown error: %1"
 msgstr "未知錯誤：%1"
 
-#: plugins/impex/heif/HeifExport.cpp:555
+#: plugins/impex/heif/HeifExport.cpp:512
 #, kde-format
 msgctxt "@tooltip"
 msgid ""
@@ -45239,7 +45041,7 @@ msgid ""
 msgstr ""
 "影像的亮度解析度會全部保留，而影像的色彩解析度在水平和垂直方向均會減半。"
 
-#: plugins/impex/heif/HeifExport.cpp:556
+#: plugins/impex/heif/HeifExport.cpp:513
 #, kde-format
 msgctxt "@tooltip"
 msgid ""
@@ -45247,26 +45049,26 @@ msgid ""
 "colorfulness will be halved horizontally."
 msgstr "影像的亮度解析度會全部保留，而影像的色彩解析度在水平方向會減半。"
 
-#: plugins/impex/heif/HeifExport.cpp:557
+#: plugins/impex/heif/HeifExport.cpp:514
 #, kde-format
 msgctxt "@tooltip"
 msgid ""
 "Both brightness and colorfulness of the image will be at full resolution."
 msgstr "影像的亮度和色彩解析度均會全部保留。"
 
-#: plugins/impex/heif/HeifExport.cpp:570
+#: plugins/impex/heif/HeifExport.cpp:527
 #, kde-format
 msgctxt "Color space name"
 msgid "Rec 2100 HLG"
 msgstr "Rec 2100 HLG"
 
-#: plugins/impex/heif/HeifExport.cpp:570
+#: plugins/impex/heif/HeifExport.cpp:527
 #, kde-format
 msgctxt "Color space name"
 msgid "Rec 2100 PQ"
 msgstr "Rec 2100 PQ"
 
-#: plugins/impex/heif/HeifExport.cpp:571
+#: plugins/impex/heif/HeifExport.cpp:528
 #, kde-format
 msgctxt "@tooltip"
 msgid ""
@@ -45277,7 +45079,7 @@ msgstr ""
 "影像會先轉換成 Rec 2020 線性，然後以「感知量化」(perceptual quantizer) 曲線 "
 "(亦稱 SMPTE 2048 曲線) 作出編碼。建議重視絕對亮度的 HDR 影像使用。"
 
-#: plugins/impex/heif/HeifExport.cpp:573
+#: plugins/impex/heif/HeifExport.cpp:530
 #, kde-format
 msgctxt "@tooltip"
 msgid ""
@@ -45288,13 +45090,13 @@ msgstr ""
 "影像會先轉換成 Rec 2020 線性，然後以 Hybrid Log Gamma 曲線作出編碼。建議可能"
 "會用於不支援 HDR 的顯示器上的 HDR 影像使用。"
 
-#: plugins/impex/heif/HeifExport.cpp:579
+#: plugins/impex/heif/HeifExport.cpp:536
 #, kde-format
 msgctxt "Color space option plus transfer function name"
 msgid "Keep colorants, encode PQ"
 msgstr "保留色彩，為 PQ 編碼"
 
-#: plugins/impex/heif/HeifExport.cpp:580
+#: plugins/impex/heif/HeifExport.cpp:537
 #, kde-format
 msgctxt "@tooltip"
 msgid ""
@@ -45305,13 +45107,13 @@ msgstr ""
 "影像會先被線性化，然後以「感知量化」(perceptual quantizer) 曲線 (亦稱 SMPTE "
 "2048 曲線) 作出編碼。建議重視絕對亮度的 HDR 影像使用。"
 
-#: plugins/impex/heif/HeifExport.cpp:584
+#: plugins/impex/heif/HeifExport.cpp:541
 #, kde-format
 msgctxt "Color space option plus transfer function name"
 msgid "Keep colorants, encode HLG"
 msgstr "保留色彩，為 HLG 編碼"
 
-#: plugins/impex/heif/HeifExport.cpp:585
+#: plugins/impex/heif/HeifExport.cpp:542
 #, kde-format
 msgctxt "@tooltip"
 msgid ""
@@ -45321,13 +45123,13 @@ msgstr ""
 "影像會先被線性化，然後以 Hybrid Log Gamma 曲線作出編碼。建議用於不支援 PQ 的"
 "顯示器上的影像使用。"
 
-#: plugins/impex/heif/HeifExport.cpp:589
+#: plugins/impex/heif/HeifExport.cpp:546
 #, kde-format
 msgctxt "Color space option plus transfer function name"
 msgid "Keep colorants, encode SMPTE ST 428"
 msgstr "保留色彩，為 SMPTE ST 428 編碼"
 
-#: plugins/impex/heif/HeifExport.cpp:590
+#: plugins/impex/heif/HeifExport.cpp:547
 #, kde-format
 msgctxt "@tooltip"
 msgid ""
@@ -45338,13 +45140,13 @@ msgstr ""
 "影像會先被線性化，然後以 SMPTE ST 428 作出編碼。Krita 一般會以線性浮點格式開"
 "啟這些影像，而此選項可用作還原這項操作。"
 
-#: plugins/impex/heif/HeifExport.cpp:595
+#: plugins/impex/heif/HeifExport.cpp:552
 #, kde-format
 msgctxt "Color space option"
 msgid "No changes, clip"
 msgstr "不轉換，削值"
 
-#: plugins/impex/heif/HeifExport.cpp:596
+#: plugins/impex/heif/HeifExport.cpp:553
 #, kde-format
 msgctxt "@tooltip"
 msgid ""
@@ -45640,7 +45442,7 @@ msgstr "漸進式"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkForceSRGB)
 #: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:38
-#: plugins/impex/png/kis_wdg_options_png.ui:100
+#: plugins/impex/png/kis_wdg_options_png.ui:105
 #, kde-format
 msgid "Force convert to sRGB"
 msgstr "強制轉成 sRGB"
@@ -45653,7 +45455,7 @@ msgstr "透明像素填充色彩："
 
 #. i18n: ectx: property (toolTip), widget (KisColorButton, bnTransparencyFillColor)
 #: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:110
-#: plugins/impex/png/kis_wdg_options_png.ui:66
+#: plugins/impex/png/kis_wdg_options_png.ui:77
 #, kde-format
 msgid ""
 "<html><head/><body><p>Background color to replace transparent pixels with.</"
@@ -47026,74 +46828,27 @@ msgstr "解析度："
 msgid "PNG Options"
 msgstr "PNG 選項"
 
-#. i18n: ectx: property (toolTip), widget (QCheckBox, chkSRGB)
+#. i18n: ectx: property (text), widget (QLabel, label_4)
 #: plugins/impex/png/kis_wdg_options_png.ui:44
 #, kde-format
-msgid ""
-"<html><head/><body><p><span style=\" font-weight:600;\">PNG</span> files "
-"have <span style=\" font-style:italic;\">two</span> options to save <span "
-"style=\" font-weight:600;\">sRGB</span> information: as a tag or as an "
-"explicit profile. For use with in websites, <span style=\" font-style:italic;"
-"\">disable</span> this option. For interchange with other applications, "
-"<span style=\" font-style:italic;\">enable</span> this option.</p></body></"
-"html>"
-msgstr ""
-"<html><head/><body><p><span style=\" font-weight:600;\">PNG</span> 檔案有"
-"<span style=\" font-style:italic;\">兩種</span>儲存<span style=\" font-"
-"weight:600;\">sRGB</span>資料的方式：標記色彩空間標籤或將特性檔案直接嵌入到檔"
-"案中。如果影像用於網路，請<span style=\" font-style:italic;\">停用</span>此選"
-"項。如影像用於與其他應用程式交換，則<span style=\" font-style:italic;\">啟用"
-"</span>此選項。</p></body></html>"
+msgid "Transparent color: "
+msgstr "透明像素色彩："
 
-#. i18n: ectx: property (text), widget (QCheckBox, chkSRGB)
-#: plugins/impex/png/kis_wdg_options_png.ui:47
+#. i18n: ectx: property (toolTip), widget (QLabel, label_2)
+#. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, compressionLevelDeflate)
+#. i18n: ectx: property (toolTip), widget (QLabel, label_3)
+#. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, compressionLevelPixarLog)
+#. i18n: ectx: property (toolTip), widget (KisDoubleSliderSpinBox, compressionLevel)
+#. i18n: ectx: property (toolTip), widget (QLabel, textLabel1)
+#: plugins/impex/png/kis_wdg_options_png.ui:54
+#: plugins/impex/png/kis_wdg_options_png.ui:160
+#: plugins/impex/tiff/kis_wdg_options_tiff.ui:335
+#: plugins/impex/tiff/kis_wdg_options_tiff.ui:388
+#: plugins/impex/tiff/kis_wdg_options_tiff.ui:447
+#: plugins/impex/tiff/kis_wdg_options_tiff.ui:500
 #, kde-format
-msgid "Embed sRGB profile"
-msgstr "嵌入 sRGB 特性檔案"
-
-#. i18n: ectx: property (toolTip), widget (QCheckBox, alpha)
-#: plugins/impex/png/kis_wdg_options_png.ui:73
-#: plugins/impex/tiff/kis_wdg_options_tiff.ui:127
-#, kde-format
-msgid "Disable to get smaller files if your image has no transparency"
-msgstr "如果影像不含透明區域，取消勾選此項可減小檔案體積"
-
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, alpha)
-#: plugins/impex/png/kis_wdg_options_png.ui:77
-#: plugins/impex/tiff/kis_wdg_options_tiff.ui:131
-#, kde-format
-msgid ""
-"<p>The Portable Network Graphics (PNG) file format allows transparency in "
-"your image to be stored by saving an alpha channel.\n"
-"You can uncheck the box if you are not using transparency and you want to "
-"make the resulting file smaller .<br>Always saving the alpha channel is "
-"recommended.</p>"
-msgstr ""
-"<p>便攜網路圖形 (PNG) 檔案格式可以將影像的透明度存放到一個 Alpha 通道之內。\n"
-"如果您不需要保留透明度，可取消勾選此選項以減小檔案體積。<br>建議始終儲存 "
-"Alpha 通道。</p>"
-
-#. i18n: ectx: property (text), widget (QCheckBox, alpha)
-#: plugins/impex/png/kis_wdg_options_png.ui:80
-#, kde-format
-msgid "Store alpha channel (transparency)"
-msgstr "儲存 Alpha 通道 (透明度)"
-
-#. i18n: ectx: property (toolTip), widget (QCheckBox, chkAuthor)
-#: plugins/impex/png/kis_wdg_options_png.ui:90
-#, kde-format
-msgid ""
-"<html><head/><body><p>Save author nickname and the first contact information "
-"of the author profile into the png, if possible.</p></body></html>"
-msgstr ""
-"<html><head/><body><p>嘗試按照作者檔案資料將作者的暱稱和首個聯絡方式新增到 "
-"PNG 檔案。</p></body></html>"
-
-#. i18n: ectx: property (text), widget (QCheckBox, chkAuthor)
-#: plugins/impex/png/kis_wdg_options_png.ui:93
-#, kde-format
-msgid "Sign with author data"
-msgstr "使用作者檔案資料簽名"
+msgid "Note: the compression level does not change the quality of the result"
+msgstr "提示：此編碼方式的壓縮率不影響畫質"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, label_2)
 #. i18n: ectx: property (whatsThis), widget (QLabel, lblFast)
@@ -47105,13 +46860,13 @@ msgstr "使用作者檔案資料簽名"
 #. i18n: ectx: property (whatsThis), widget (KisSliderSpinBox, compressionLevelPixarLog)
 #. i18n: ectx: property (whatsThis), widget (QLabel, textLabel3)
 #. i18n: ectx: property (whatsThis), widget (QLabel, textLabel2)
+#. i18n: ectx: property (whatsThis), widget (KisDoubleSliderSpinBox, compressionLevel)
 #. i18n: ectx: property (whatsThis), widget (QLabel, textLabel4_2)
 #. i18n: ectx: property (whatsThis), widget (QLabel, textLabel1)
-#. i18n: ectx: property (whatsThis), widget (KisDoubleSliderSpinBox, compressionLevel)
-#: plugins/impex/png/kis_wdg_options_png.ui:108
-#: plugins/impex/png/kis_wdg_options_png.ui:148
-#: plugins/impex/png/kis_wdg_options_png.ui:172
-#: plugins/impex/png/kis_wdg_options_png.ui:186
+#: plugins/impex/png/kis_wdg_options_png.ui:58
+#: plugins/impex/png/kis_wdg_options_png.ui:95
+#: plugins/impex/png/kis_wdg_options_png.ui:140
+#: plugins/impex/png/kis_wdg_options_png.ui:164
 #: plugins/impex/qimageio/kis_wdg_options_qimageio.ui:42
 #: plugins/impex/qimageio/kis_wdg_options_qimageio.ui:62
 #: plugins/impex/tiff/kis_wdg_options_tiff.ui:339
@@ -47131,15 +46886,8 @@ msgstr ""
 "<p>調整壓縮速度。壓縮率愈大耗時愈久。\n"
 "<br>提示：此編碼方式的壓縮率不影響畫質。</p>"
 
-#. i18n: ectx: property (text), widget (QLabel, textLabel4_2)
-#: plugins/impex/png/kis_wdg_options_png.ui:111
-#, kde-format
-msgctxt "The compression will take a long time; saving the file will be slow."
-msgid "Small File Size"
-msgstr "較小檔案體積"
-
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkMetaData)
-#: plugins/impex/png/kis_wdg_options_png.ui:121
+#: plugins/impex/png/kis_wdg_options_png.ui:84
 #, kde-format
 msgid ""
 "<html><head/><body><p>Store information like keywords, title and subject and "
@@ -47149,13 +46897,20 @@ msgstr ""
 "訊。</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkMetaData)
-#: plugins/impex/png/kis_wdg_options_png.ui:124
+#: plugins/impex/png/kis_wdg_options_png.ui:87
 #, kde-format
 msgid "Store Metadata"
 msgstr "儲存中繼資料"
 
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: plugins/impex/png/kis_wdg_options_png.ui:98
+#, kde-format
+msgctxt "The file will save fast but will not be compressed a lot"
+msgid "Large file size"
+msgstr "較大檔案體積"
+
 #. i18n: ectx: property (toolTip), widget (QCheckBox, tryToSaveAsIndexed)
-#: plugins/impex/png/kis_wdg_options_png.ui:131
+#: plugins/impex/png/kis_wdg_options_png.ui:112
 #, kde-format
 msgid ""
 "Indexed PNG images are smaller. If you enabled this option, your image will "
@@ -47165,54 +46920,19 @@ msgstr ""
 "行性。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, tryToSaveAsIndexed)
-#: plugins/impex/png/kis_wdg_options_png.ui:134
+#: plugins/impex/png/kis_wdg_options_png.ui:115
 #, kde-format
 msgid "Save as indexed PNG, if possible"
 msgstr "嘗試儲存為索引 PNG"
 
-#. i18n: ectx: property (toolTip), widget (QLabel, label_2)
-#. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, compressionLevelDeflate)
-#. i18n: ectx: property (toolTip), widget (QLabel, label_3)
-#. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, compressionLevelPixarLog)
-#. i18n: ectx: property (toolTip), widget (QLabel, textLabel1)
-#. i18n: ectx: property (toolTip), widget (KisDoubleSliderSpinBox, compressionLevel)
-#: plugins/impex/png/kis_wdg_options_png.ui:144
-#: plugins/impex/png/kis_wdg_options_png.ui:182
-#: plugins/impex/tiff/kis_wdg_options_tiff.ui:335
-#: plugins/impex/tiff/kis_wdg_options_tiff.ui:388
-#: plugins/impex/tiff/kis_wdg_options_tiff.ui:447
-#: plugins/impex/tiff/kis_wdg_options_tiff.ui:500
-#, kde-format
-msgid "Note: the compression level does not change the quality of the result"
-msgstr "提示：此編碼方式的壓縮率不影響畫質"
-
-#. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: plugins/impex/png/kis_wdg_options_png.ui:151
-#, kde-format
-msgid "Compression (Lossless): "
-msgstr "壓縮率 (無損)："
-
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: plugins/impex/png/kis_wdg_options_png.ui:161
-#, kde-format
-msgid "Transparent color: "
-msgstr "透明像素色彩："
-
-#. i18n: ectx: property (text), widget (QLabel, textLabel3)
-#: plugins/impex/png/kis_wdg_options_png.ui:175
-#, kde-format
-msgctxt "The file will save fast but will not be compressed a lot"
-msgid "Large file size"
-msgstr "較大檔案體積"
-
 #. i18n: ectx: property (toolTip), widget (QCheckBox, interlacing)
-#: plugins/impex/png/kis_wdg_options_png.ui:193
+#: plugins/impex/png/kis_wdg_options_png.ui:125
 #, kde-format
 msgid "Use interlacing when publishing on the Internet."
 msgstr "影像用於網際網路時可使用隔行交錯掃描。"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, interlacing)
-#: plugins/impex/png/kis_wdg_options_png.ui:197
+#: plugins/impex/png/kis_wdg_options_png.ui:129
 #, kde-format
 msgid ""
 "<p>Interlacing is useful if you intend to publish your image on the Internet."
@@ -47224,16 +46944,104 @@ msgstr ""
 "以此方式儲存的影像可讓網頁瀏覽器一邊下載一邊顯示已下載到的部分。</p>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, interlacing)
-#: plugins/impex/png/kis_wdg_options_png.ui:200
+#: plugins/impex/png/kis_wdg_options_png.ui:132
 #, kde-format
 msgid "Interlacing"
 msgstr "隔行交錯掃描"
 
+#. i18n: ectx: property (text), widget (QLabel, textLabel4_2)
+#: plugins/impex/png/kis_wdg_options_png.ui:143
+#, kde-format
+msgctxt "The compression will take a long time; saving the file will be slow."
+msgid "Small File Size"
+msgstr "較小檔案體積"
+
 #. i18n: ectx: property (text), widget (QCheckBox, chkSaveAsHDR)
-#: plugins/impex/png/kis_wdg_options_png.ui:207
+#: plugins/impex/png/kis_wdg_options_png.ui:153
 #, kde-format
 msgid "Save as HDR image (Rec. 2020 PQ)"
 msgstr "另存為 HDR 影像 (Rec. 2020 PQ)"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: plugins/impex/png/kis_wdg_options_png.ui:167
+#, kde-format
+msgid "Compression (Lossless): "
+msgstr "壓縮率 (無損)："
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, alpha)
+#: plugins/impex/png/kis_wdg_options_png.ui:177
+#: plugins/impex/tiff/kis_wdg_options_tiff.ui:127
+#, kde-format
+msgid "Disable to get smaller files if your image has no transparency"
+msgstr "如果影像不含透明區域，取消勾選此項可減小檔案體積"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, alpha)
+#: plugins/impex/png/kis_wdg_options_png.ui:181
+#: plugins/impex/tiff/kis_wdg_options_tiff.ui:131
+#, kde-format
+msgid ""
+"<p>The Portable Network Graphics (PNG) file format allows transparency in "
+"your image to be stored by saving an alpha channel.\n"
+"You can uncheck the box if you are not using transparency and you want to "
+"make the resulting file smaller .<br>Always saving the alpha channel is "
+"recommended.</p>"
+msgstr ""
+"<p>便攜網路圖形 (PNG) 檔案格式可以將影像的透明度存放到一個 Alpha 通道之內。\n"
+"如果您不需要保留透明度，可取消勾選此選項以減小檔案體積。<br>建議始終儲存 "
+"Alpha 通道。</p>"
+
+#. i18n: ectx: property (text), widget (QCheckBox, alpha)
+#: plugins/impex/png/kis_wdg_options_png.ui:184
+#, kde-format
+msgid "Store alpha channel (transparency)"
+msgstr "儲存 Alpha 通道 (透明度)"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, chkSRGB)
+#: plugins/impex/png/kis_wdg_options_png.ui:194
+#, kde-format
+msgid ""
+"<html><head/><body><p><span style=\" font-weight:600;\">PNG</span> files "
+"have <span style=\" font-style:italic;\">two</span> options to save <span "
+"style=\" font-weight:600;\">sRGB</span> information: as a tag or as an "
+"explicit profile. For use with in websites, <span style=\" font-style:italic;"
+"\">disable</span> this option. For interchange with other applications, "
+"<span style=\" font-style:italic;\">enable</span> this option.</p></body></"
+"html>"
+msgstr ""
+"<html><head/><body><p><span style=\" font-weight:600;\">PNG</span> 檔案有"
+"<span style=\" font-style:italic;\">兩種</span>儲存<span style=\" font-"
+"weight:600;\">sRGB</span>資料的方式：標記色彩空間標籤或將特性檔案直接嵌入到檔"
+"案中。如果影像用於網路，請<span style=\" font-style:italic;\">停用</span>此選"
+"項。如影像用於與其他應用程式交換，則<span style=\" font-style:italic;\">啟用"
+"</span>此選項。</p></body></html>"
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkSRGB)
+#: plugins/impex/png/kis_wdg_options_png.ui:197
+#, kde-format
+msgid "Embed sRGB profile"
+msgstr "嵌入 sRGB 特性檔案"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, chkAuthor)
+#: plugins/impex/png/kis_wdg_options_png.ui:204
+#, kde-format
+msgid ""
+"<html><head/><body><p>Save author nickname and the first contact information "
+"of the author profile into the png, if possible.</p></body></html>"
+msgstr ""
+"<html><head/><body><p>嘗試按照作者檔案資料將作者的暱稱和首個聯絡方式新增到 "
+"PNG 檔案。</p></body></html>"
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkAuthor)
+#: plugins/impex/png/kis_wdg_options_png.ui:207
+#, kde-format
+msgid "Sign with author data"
+msgstr "使用作者檔案資料簽名"
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkDownsample)
+#: plugins/impex/png/kis_wdg_options_png.ui:214
+#, kde-format
+msgid "Force convert to 8 bits/channel"
+msgstr "強制轉成 8 位元/每通道"
 
 #: plugins/impex/psd/psd_export.cc:56
 #, kde-format
@@ -48223,7 +48031,7 @@ msgctxt "TIFF options"
 msgid "Floating Point Horizontal Differencing"
 msgstr "浮點水平差分法"
 
-#: plugins/impex/tiff/kis_tiff_import.cc:1017
+#: plugins/impex/tiff/kis_tiff_import.cc:1020
 #, kde-format
 msgctxt "TIFF errors"
 msgid ""
@@ -48235,8 +48043,8 @@ msgstr ""
 "quantization 及/或 Huffman coding 查找表。請先更新 libjpeg-turbo 程式庫的版"
 "本，然後再重試。"
 
-#: plugins/impex/tiff/kis_tiff_import.cc:1120
-#: plugins/impex/tiff/kis_tiff_import.cc:1303
+#: plugins/impex/tiff/kis_tiff_import.cc:1123
+#: plugins/impex/tiff/kis_tiff_import.cc:1306
 #, kde-format
 msgctxt "TIFF"
 msgid "Subsampled YCbCr TIFF files compressed with JPEG cannot be loaded."
@@ -49203,6 +49011,13 @@ msgstr "硬邊"
 
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:68
 #, kde-format
+msgctxt "Background painting color"
+msgid "Background"
+msgstr "背景色"
+
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:68
+#, kde-format
+msgctxt "Foreground painting color"
 msgid "Foreground"
 msgstr "前景色"
 
@@ -50344,7 +50159,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, stampButton)
 #: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:81
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:349
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:346
 #, kde-format
 msgid "Stamp"
 msgstr "印章"
@@ -50874,7 +50689,7 @@ msgstr ""
 msgid "Creates a brush tip from the image in the clipboard."
 msgstr "從剪貼簿中的影像建立筆尖。"
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:200
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:197
 #, kde-format
 msgid ""
 "Reloads Spacing from file\n"
@@ -50885,25 +50700,25 @@ msgstr ""
 "設定縮放為 1.0\n"
 "設定旋轉為 0.0"
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:206
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:203
 #, kde-format
 msgctxt "@label:slider"
 msgid "Neutral point: "
 msgstr "中性點："
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:212
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:209
 #, kde-format
 msgctxt "@label:slider"
 msgid "Brightness: "
 msgstr "亮度："
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:218
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:215
 #, kde-format
 msgctxt "@label:slider"
 msgid "Contrast: "
 msgstr "對比度："
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:220
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:217
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -50917,35 +50732,35 @@ msgstr ""
 " 亮度：0%\n"
 " 對比度：0%"
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:223
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:220
 #, kde-format
 msgid "Alpha Mask"
 msgstr "透明度遮罩"
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:224
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:221
 #, kde-format
 msgid "Color Image"
 msgstr "為影像上色"
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:225
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:222
 #, kde-format
 msgid "Lightness Map"
 msgstr "亮度映射"
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:227
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:224
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
 "Luminosity of the brush tip image is used as alpha channel for the stroke"
 msgstr "筆尖光度將用作筆跡的 Alpha (透明度) 通道"
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:228
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:225
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The brush tip image is painted as it is"
 msgstr "筆尖影像將會照原樣繪出"
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:229
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:226
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -50956,7 +50771,7 @@ msgstr ""
 "筆尖光度將用作調整筆刷色彩的亮度。筆尖影像的 Alpha (透明度) 通道將用作筆跡的 "
 "Alpha。"
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:230
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:227
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -50966,17 +50781,17 @@ msgstr ""
 "筆尖亮度將映射到使用中的漸變色階。筆尖影像的 Alpha (透明度) 通道將用作筆跡的 "
 "Alpha。"
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:406
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:403
 #, kde-format
 msgid "Animated Mask"
 msgstr "動畫遮罩"
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:415
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:412
 #, kde-format
 msgid "Animated Image"
 msgstr "動畫影像"
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:468
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:465
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -50987,19 +50802,19 @@ msgstr ""
 "不影刷色彩的筆尖光度數值。所有比中性點暗的像素將繪出較暗的色彩，而比中性點亮"
 "的像素則將繪出較亮的色彩。"
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:469
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:466
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Brightness correction for the brush"
 msgstr "校正筆刷亮度"
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:470
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:467
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Contrast correction for the brush"
 msgstr "校正比刷的對比度"
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:488
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:485
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -51007,7 +50822,7 @@ msgid ""
 "\"Mask\" mode."
 msgstr "選取的筆尖沒有色彩通道。筆刷將以「遮罩」模式運作。"
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:491
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:488
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -51016,7 +50831,7 @@ msgid ""
 msgstr ""
 "所選的筆刷引擎不支援「色彩」或「亮度」模式。筆刷將會以「遮罩」模式運作。"
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:527
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:524
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -53652,6 +53467,10 @@ msgstr "頁邊距"
 msgid "Bleeds"
 msgstr "出血"
 
+#: plugins/python/comics_project_management_tools/comics_template_dialog.py:302
+msgid "Background"
+msgstr "背景"
+
 #: plugins/python/comics_project_management_tools/comics_template_dialog.py:320
 msgid "Creating template"
 msgstr "正在建立範本"
@@ -54692,12 +54511,12 @@ msgstr "十大指令稿"
 msgid "Assign ten scripts to ten shortcuts."
 msgstr "為十個快捷鍵指定十個指令稿。"
 
-#: plugins/python/tenscripts/tenscripts.py:53
+#: plugins/python/tenscripts/tenscripts.py:56
 #, python-brace-format
 msgid "Execute Script {num}"
 msgstr "執行指令稿 {num}"
 
-#: plugins/python/tenscripts/tenscripts.py:81
+#: plugins/python/tenscripts/tenscripts.py:84
 #, python-brace-format
 msgid "Script {0} executed"
 msgstr "已執行指令稿 {0}"
@@ -54719,83 +54538,83 @@ msgctxt "(qtundo-format)"
 msgid "Freehand Brush Stroke"
 msgstr "手繪筆刷筆畫"
 
-#: plugins/tools/basictools/kis_tool_brush.cc:180
+#: plugins/tools/basictools/kis_tool_brush.cc:179
 #, kde-format
 msgid "Sample count:"
 msgstr "取樣數："
 
-#: plugins/tools/basictools/kis_tool_brush.cc:191
+#: plugins/tools/basictools/kis_tool_brush.cc:190
 #, kde-format
 msgctxt ""
 "Label of Distance value in Freehand brush tool's Weighted Smoothing mode"
 msgid "Distance:"
 msgstr "距離："
 
-#: plugins/tools/basictools/kis_tool_brush.cc:348
+#: plugins/tools/basictools/kis_tool_brush.cc:347
 #, kde-format
 msgctxt "@item:inlistbox Brush Smoothing"
 msgid "None"
 msgstr "無"
 
-#: plugins/tools/basictools/kis_tool_brush.cc:349
+#: plugins/tools/basictools/kis_tool_brush.cc:348
 #, kde-format
 msgctxt "@item:inlistbox Brush Smoothing"
 msgid "Basic"
 msgstr "基本"
 
-#: plugins/tools/basictools/kis_tool_brush.cc:350
+#: plugins/tools/basictools/kis_tool_brush.cc:349
 #, kde-format
 msgctxt "@item:inlistbox Brush Smoothing"
 msgid "Weighted"
 msgstr "權衡"
 
-#: plugins/tools/basictools/kis_tool_brush.cc:351
+#: plugins/tools/basictools/kis_tool_brush.cc:350
 #, kde-format
 msgctxt "@item:inlistbox Brush Smoothing"
 msgid "Stabilizer"
 msgstr "防抖"
 
-#: plugins/tools/basictools/kis_tool_brush.cc:353
+#: plugins/tools/basictools/kis_tool_brush.cc:352
 #, kde-format
 msgid "Brush Smoothing:"
 msgstr "筆刷平滑："
 
-#: plugins/tools/basictools/kis_tool_brush.cc:379
+#: plugins/tools/basictools/kis_tool_brush.cc:378
 #, kde-format
 msgid "Delay:"
 msgstr "延遲："
 
-#: plugins/tools/basictools/kis_tool_brush.cc:384
+#: plugins/tools/basictools/kis_tool_brush.cc:383
 #, kde-format
 msgid "Delay the brush stroke to make the line smoother"
 msgstr "延遲筆畫響應以平滑線條"
 
-#: plugins/tools/basictools/kis_tool_brush.cc:388
+#: plugins/tools/basictools/kis_tool_brush.cc:387
 #, kde-format
 msgid "Radius where the brush is blocked"
 msgstr "筆刷延遲的半徑大小"
 
-#: plugins/tools/basictools/kis_tool_brush.cc:395
+#: plugins/tools/basictools/kis_tool_brush.cc:394
 #, kde-format
 msgid "Finish line:"
 msgstr "筆末挑尖："
 
-#: plugins/tools/basictools/kis_tool_brush.cc:408
+#: plugins/tools/basictools/kis_tool_brush.cc:407
 #, kde-format
 msgid "Stabilize Sensors:"
 msgstr "穩定感測器："
 
-#: plugins/tools/basictools/kis_tool_brush.cc:417
+#: plugins/tools/basictools/kis_tool_brush.cc:416
 #, kde-format
 msgid "Stroke Ending:"
 msgstr "筆末跟隨："
 
-#: plugins/tools/basictools/kis_tool_brush.cc:424
+#: plugins/tools/basictools/kis_tool_brush.cc:423
 #, kde-format
 msgid "Smooth Pressure"
 msgstr "平滑壓力"
 
-#: plugins/tools/basictools/kis_tool_brush.cc:431
+#: plugins/tools/basictools/kis_tool_brush.cc:430
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -54803,38 +54622,38 @@ msgid ""
 "visually constant whatever zoom level is chosen"
 msgstr "按照畫布縮放比例縮放距離，使任意畫布縮放下的距離在視覺上一致"
 
-#: plugins/tools/basictools/kis_tool_brush.cc:436
+#: plugins/tools/basictools/kis_tool_brush.cc:435
 #, kde-format
 msgid "Scalable Distance"
 msgstr "隨檢視縮放距離"
 
-#: plugins/tools/basictools/kis_tool_brush.cc:452
+#: plugins/tools/basictools/kis_tool_brush.cc:451
 #: plugins/tools/basictools/kis_tool_line.cc:100
 #, kde-format
 msgid "Snap to Assistants"
 msgstr "吸附到輔助尺"
 
-#: plugins/tools/basictools/kis_tool_brush.cc:454
+#: plugins/tools/basictools/kis_tool_brush.cc:453
 #, kde-format
 msgid "You need to add Assistants before this tool will work."
 msgstr "此工具在新增輔助尺後才能作業。"
 
-#: plugins/tools/basictools/kis_tool_brush.cc:459
+#: plugins/tools/basictools/kis_tool_brush.cc:458
 #, kde-format
 msgid "Assistant Magnetism"
 msgstr "輔助尺磁性"
 
-#: plugins/tools/basictools/kis_tool_brush.cc:465
+#: plugins/tools/basictools/kis_tool_brush.cc:464
 #, kde-format
 msgid "Magnetism:"
 msgstr "磁性："
 
-#: plugins/tools/basictools/kis_tool_brush.cc:468
+#: plugins/tools/basictools/kis_tool_brush.cc:467
 #, kde-format
 msgid "Snap to Single Line"
 msgstr "吸附單一輔助尺："
 
-#: plugins/tools/basictools/kis_tool_brush.cc:471
+#: plugins/tools/basictools/kis_tool_brush.cc:470
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -54842,13 +54661,13 @@ msgid ""
 "using the infinite assistants."
 msgstr "只吸附至單一輔助尺，可避免在使用無限延伸輔助尺時吸附失靈。"
 
-#: plugins/tools/basictools/kis_tool_brush.cc:476
+#: plugins/tools/basictools/kis_tool_brush.cc:475
 #: plugins/tools/basictools/kis_tool_line.cc:103
 #, kde-format
 msgid "Snap Eraser"
 msgstr "擦除模式時吸附"
 
-#: plugins/tools/basictools/kis_tool_brush.cc:479
+#: plugins/tools/basictools/kis_tool_brush.cc:478
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Enable snapping when using erasers"
@@ -54879,36 +54698,36 @@ msgstr "繪製橢圓"
 msgid "Ellipse Tool"
 msgstr "橢圓工具"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:107
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:156
+#: plugins/tools/basictools/kis_tool_fill.cc:109
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:157
 #, kde-format
 msgid "You cannot use this tool with the selected layer type"
 msgstr "不能在選定的圖層類型上使用此工具"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:218
+#: plugins/tools/basictools/kis_tool_fill.cc:220
 msgctxt "(qtundo-format)"
 msgid "Flood Fill"
 msgstr "浸漫填充"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:484
+#: plugins/tools/basictools/kis_tool_fill.cc:489
 #, kde-format
 msgctxt "The pattern 'scale' spinbox prefix in fill tool options"
 msgid "Scale: "
 msgstr "縮放："
 
-#: plugins/tools/basictools/kis_tool_fill.cc:498
+#: plugins/tools/basictools/kis_tool_fill.cc:503
 #, kde-format
 msgctxt "The 'threshold' spinbox prefix in fill tool options"
 msgid "Threshold: "
 msgstr "閾值："
 
-#: plugins/tools/basictools/kis_tool_fill.cc:501
+#: plugins/tools/basictools/kis_tool_fill.cc:506
 #, kde-format
 msgctxt "The 'spread' spinbox prefix in fill tool options"
 msgid "Spread: "
 msgstr "擴散幅度："
 
-#: plugins/tools/basictools/kis_tool_fill.cc:507
+#: plugins/tools/basictools/kis_tool_fill.cc:512
 #, kde-format
 msgctxt ""
 "The 'use selection as boundary' checkbox in fill tool to use selection "
@@ -54916,184 +54735,194 @@ msgctxt ""
 msgid "Use selection as boundary"
 msgstr "以選取區域為界限"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:515
+#: plugins/tools/basictools/kis_tool_fill.cc:520
 #, kde-format
 msgctxt "The 'grow/shrink' spinbox prefix in fill tool options"
 msgid "Grow: "
 msgstr "擴張："
 
-#: plugins/tools/basictools/kis_tool_fill.cc:526
+#: plugins/tools/basictools/kis_tool_fill.cc:531
 #, kde-format
 msgctxt "The 'feather' spinbox prefix in fill tool options"
 msgid "Feather: "
 msgstr "羽化："
 
-#: plugins/tools/basictools/kis_tool_fill.cc:552
+#: plugins/tools/basictools/kis_tool_fill.cc:557
 #, kde-format
 msgctxt "The 'reset' button in fill tool options"
 msgid "Reset"
 msgstr "重設"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:555
+#: plugins/tools/basictools/kis_tool_fill.cc:560
 #, kde-format
-msgid "Current selection"
-msgstr "目前選取區域"
+msgid "Fill the active selection, or the entire canvas"
+msgstr "填充目前選取區域或整個畫布"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:556
+#: plugins/tools/basictools/kis_tool_fill.cc:561
 #, kde-format
-msgid "Contiguous region obtained from the layers"
-msgstr "從圖層檢取連續區域"
-
-#: plugins/tools/basictools/kis_tool_fill.cc:557
-#, kde-format
-msgid "All the regions similar to the pixel you clicked on"
-msgstr "所有與所點選像素相似的區域"
+msgid "Fill a contiguous region"
+msgstr "填充連續區域"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:562
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:445
+#, kde-format
+msgid "Fill all regions of a similar color"
+msgstr "填充任何色彩近似的區域"
+
+#: plugins/tools/basictools/kis_tool_fill.cc:567
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:447
 #, kde-format
 msgid "Set the scale of the pattern"
 msgstr "設定圖案的縮放"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:563
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:446
+#: plugins/tools/basictools/kis_tool_fill.cc:568
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:448
 #, kde-format
 msgid "Set the rotation of the pattern"
 msgstr "設定圖案的旋轉角度"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:565
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:391
+#: plugins/tools/basictools/kis_tool_fill.cc:570
 #, kde-format
-msgid "Select pixels similar to the one you clicked on"
-msgstr "選取與所點選像素相似的像素"
+msgid "Fill regions similar in color to the clicked region"
+msgstr "填充與所點選區域相似色彩的區域"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:566
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:393
+#: plugins/tools/basictools/kis_tool_fill.cc:571
 #, kde-format
-msgid "Select all pixels until a specific boundary color"
-msgstr "選取所有像素直至指定的邊界色彩"
+msgid "Fill all regions until a specific boundary color"
+msgstr "填充所有區域直至指定的邊界色彩"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:567
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:394
+#: plugins/tools/basictools/kis_tool_fill.cc:572
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:397
 #, kde-format
 msgid "Boundary color"
 msgstr "邊界色彩"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:568
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:448
-#, kde-format
+#: plugins/tools/basictools/kis_tool_fill.cc:573
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:450
+#, fuzzy, kde-format
 msgid ""
-"Set how far the region should extend from the selected pixel in terms of "
-"color similarity"
-msgstr "設定區域根據色彩相似度從所選像素擴張的程度"
+"Set the color similarity tolerance of the fill. Increasing threshold "
+"increases the range of similar colors to be filled."
+msgstr "設定填充近似色相容度。提高閾值將填充更多相似色。"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:569
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:449
+#: plugins/tools/basictools/kis_tool_fill.cc:574
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:451
 #, kde-format
 msgid ""
-"Set how far the fully opaque portion of the region should extend.\n"
-"0% will make opaque only the pixels that are exactly equal to the selected "
-"pixel.\n"
-"100% will make opaque all the pixels in the region up to its boundary."
+"Set the extent of the opaque portion of the fill. Decreasing spread "
+"decreases opacity of fill areas depending on color similarity."
 msgstr ""
-"設定區域中完全不透明的範圍的擴張程度。\n"
-"0% 表示只有與所選像素完全相同數值的像素才會填上不透明色。\n"
-"100% 表示一直到區域邊界的所有像素均會填上不透明色。"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:572
+#: plugins/tools/basictools/kis_tool_fill.cc:575
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:452
 #, kde-format
 msgid ""
-"Set if the contour of the current selection should be treated as a boundary "
-"when obtaining the region"
-msgstr "設定應否視目前選取區域為檢取區域的邊界"
-
-#: plugins/tools/basictools/kis_tool_fill.cc:575
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:455
-#, kde-format
-msgid ""
-"Grow (positive values) or shrink (negative values) the region by the set "
-"amount"
-msgstr "按數值擴張或收縮區域 (正數為擴張，負數為收縮)"
+"Set if the contour of the active selection should be treated as a boundary "
+"when filling the region"
+msgstr "設定應否視使用中選取區域為填充區域的邊界"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:577
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:457
-#, kde-format
-msgid "Blur the region by the set amount"
-msgstr "按數值使區域變得模糊"
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:454
+#, fuzzy, kde-format
+#| msgid "Smooth the jagged edges"
+msgid "Smooths the edges of the fill"
+msgstr "平滑化填充的邊緣"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:579
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:459
-#, kde-format
-msgid "Obtain the region using the active layer"
-msgstr "以使用中圖層檢取區域"
+#: plugins/tools/basictools/kis_tool_fill.cc:578
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:455
+#, fuzzy, kde-format
+#| msgid "Blur the region by the set amount"
+msgid "Grow or shrink the fill by the set amount"
+msgstr "按指定值擴大或縮小填充"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:580
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:460
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:457
 #, kde-format
-msgid "Obtain the region using a merged copy of all layers"
-msgstr "以全部圖層合併的影像檢取區域"
+msgid "Blur the fill by the set amount"
+msgstr "按指定值使填充變得模糊"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:581
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:461
-#, kde-format
-msgid ""
-"Obtain the region using a merged copy of the selected color-labeled layers"
-msgstr "按所選色彩標籤的圖層合併的影像檢取區域"
+#: plugins/tools/basictools/kis_tool_fill.cc:582
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:459
+#, fuzzy, kde-format
+#| msgid "Obtain the region using the active layer"
+msgid "Fill regions found from the active layer"
+msgstr "以使用中圖層檢取區域"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:583
-#, kde-format
-msgid "Fill regions of any color"
-msgstr "填充任何色彩的區域"
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:460
+#, fuzzy, kde-format
+#| msgid "Obtain the region using a merged copy of all layers"
+msgid "Fill regions found from the merging of all layers"
+msgstr "填充在全部圖層合併的影像中找出的區域"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:584
-#, kde-format
-msgid "Fill only regions similar in color to the initial region"
-msgstr "只填充與起始區域相似色彩的區域"
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:461
+#, fuzzy, kde-format
+#| msgctxt "Region selection method in enclose and fill tool"
+#| msgid "All regions except those of a specific color"
+msgid ""
+"Fill regions found from the merging of layers with specific color labels"
+msgstr "除特定色彩以外的所有區域"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:586
+#, fuzzy, kde-format
+#| msgid "Fill regions of any color"
+msgid "Dragging will fill regions of any color"
+msgstr "填充任何色彩的區域"
+
+#: plugins/tools/basictools/kis_tool_fill.cc:587
+#, fuzzy, kde-format
+#| msgid "Fill only regions similar in color to the initial region"
+msgid ""
+"Dragging will fill only regions similar in color to the initial region "
+"(useful for filling line-art)"
+msgstr "只填充與起始區域相似色彩的區域"
+
+#: plugins/tools/basictools/kis_tool_fill.cc:589
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:463
 #, kde-format
 msgid "Reset the options to their default values"
 msgstr "重設選項到其預設值"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:595
-#, kde-format
-msgctxt "The 'what to fill' section label in fill tool options"
-msgid "What to fill"
-msgstr "填充區域"
+#: plugins/tools/basictools/kis_tool_fill.cc:598
+#, fuzzy, kde-format
+#| msgid "Simple mode"
+msgctxt "The 'fill mode' section label in fill tool options"
+msgid "Fill mode"
+msgstr "簡單模式"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:602
-#, kde-format
-msgctxt "The 'fill with' section label in fill tool options"
-msgid "Fill with"
-msgstr "填充內容"
+#: plugins/tools/basictools/kis_tool_fill.cc:605
+#, fuzzy, kde-format
+#| msgid "All Resources"
+msgctxt "The 'fill source' section label in fill tool options"
+msgid "Fill source"
+msgstr "所有資源"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:613
-#, kde-format
-msgctxt "The 'region extent' section label in fill tool options"
-msgid "Region extent"
-msgstr "區域範圍"
+#: plugins/tools/basictools/kis_tool_fill.cc:616
+#, fuzzy, kde-format
+#| msgid "File extension:"
+msgctxt "The 'fill extent' section label in fill tool options"
+msgid "Fill extent"
+msgstr "檔案副檔名："
 
-#: plugins/tools/basictools/kis_tool_fill.cc:625
+#: plugins/tools/basictools/kis_tool_fill.cc:628
 #, kde-format
 msgctxt "The 'adjustments' section label in fill tool options"
 msgid "Adjustments"
 msgstr "調整"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:634
+#: plugins/tools/basictools/kis_tool_fill.cc:637
 #, kde-format
 msgctxt "The 'reference' section label in fill tool options"
 msgid "Reference"
 msgstr "參照"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:643
+#: plugins/tools/basictools/kis_tool_fill.cc:646
 #, kde-format
-msgctxt "The 'multiple fill' section label in fill tool options"
-msgid "Multiple fill"
-msgstr "多重填充"
+msgctxt "The 'drag-fill mode' section label in fill tool options"
+msgid "Drag-fill mode"
+msgstr ""
 
-#: plugins/tools/basictools/kis_tool_fill.h:218
+#: plugins/tools/basictools/kis_tool_fill.h:219
 #, kde-format
 msgid "Fill Tool"
 msgstr "填充工具"
@@ -55179,13 +55008,13 @@ msgstr ""
 msgid "Measure Tool"
 msgstr "測量工具"
 
-#: plugins/tools/basictools/kis_tool_move.cc:280
+#: plugins/tools/basictools/kis_tool_move.cc:281
 #, kde-format
 msgctxt "floating message in move tool"
 msgid "X: %1 px, Y: %2 px"
 msgstr "X：%1 px， Y：%2 px"
 
-#: plugins/tools/basictools/kis_tool_move.cc:328
+#: plugins/tools/basictools/kis_tool_move.cc:329
 #, kde-format
 msgctxt "floating message in move tool"
 msgid "Selected area has no pixels"
@@ -55443,10 +55272,11 @@ msgstr "移動目前圖層(&M)"
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, radioFirstLayer)
 #: plugins/tools/basictools/wdgmovetool.ui:46
-#, kde-format
-msgid ""
-"Move the first layer with visible content at the place where you click. This "
-"will also select that layer in the layerbox."
+#, fuzzy, kde-format
+#| msgid ""
+#| "Move the first layer with visible content at the place where you click. "
+#| "This will also select that layer in the layerbox."
+msgid "Move the first layer with visible content at the place where you click."
 msgstr "移動在點擊位置有可見內容的第一個圖層，同時在圖層工具面板中選取該圖層。"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioFirstLayer)
@@ -55850,17 +55680,17 @@ msgstr "無法開啟「%1」。"
 msgid "Could not load reference images from '%1'."
 msgstr "無法載入來自「%1」的參考圖。"
 
-#: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:200
+#: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:202
 #, kde-format
 msgid "Save Reference Images"
 msgstr "儲存參考圖"
 
-#: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:226
+#: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:231
 #, kde-format
 msgid "Failed to save reference images."
 msgstr "儲存參考圖失敗。"
 
-#: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:301
+#: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:306
 #, kde-format
 msgid "Reference Image Actions"
 msgstr "參考圖動作"
@@ -56095,13 +55925,13 @@ msgctxt "action"
 msgid "Calligraphy: decrease angle"
 msgstr "西方書法：減小角度"
 
-#: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyTool.cpp:426
+#: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyTool.cpp:425
 #, kde-format
 msgctxt "Object name of Calligraphy"
 msgid "Calligraphy"
 msgstr "西方書法工具"
 
-#: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyTool.cpp:427
+#: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyTool.cpp:426
 #, kde-format
 msgctxt "Tool Option title of Calligraphy"
 msgid "Calligraphy"
@@ -56112,30 +55942,30 @@ msgstr "西方書法選項"
 msgid "Calligraphy"
 msgstr "西方書法"
 
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:57
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:58
 #, kde-format
 msgid "Contiguous Area Selection"
 msgstr "相連區域選取區域"
 
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:107
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:223
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:109
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:226
 msgctxt "(qtundo-format)"
 msgid "Select Contiguous Area"
 msgstr "選取相連區域"
 
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:361
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:364
 #, kde-format
 msgctxt "The 'threshold' spinbox prefix in contiguous selection tool options"
 msgid "Threshold: "
 msgstr "閾值："
 
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:366
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:369
 #, kde-format
 msgctxt "The 'spread' spinbox prefix in contiguous selection tool options"
 msgid "Spread: "
 msgstr "擴散幅度："
 
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:372
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:375
 #, kde-format
 msgctxt ""
 "The 'use selection as boundary' checkbox in contiguous selection tool to use "
@@ -56143,52 +55973,63 @@ msgctxt ""
 msgid "Use selection as boundary"
 msgstr "以選取區域為界限"
 
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:379
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:382
 #, kde-format
 msgctxt "The 'grow/shrink' spinbox prefix in contiguous selection tool options"
 msgid "Grow: "
 msgstr "擴張："
 
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:385
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:388
 #, kde-format
 msgctxt "The 'feather' spinbox prefix in contiguous selection tool options"
 msgid "Feather: "
 msgstr "羽化："
 
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:394
+#, fuzzy, kde-format
+#| msgid "Fill only regions similar in color to the initial region"
+msgid "Select regions similar in color to the clicked region"
+msgstr "只填充與起始區域相似色彩的區域"
+
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:396
-#, kde-format
-msgid ""
-"Set how far the selection should extend from the selected pixel in terms of "
-"color similarity"
-msgstr "設定選取區域根據色彩相似度從所選像素擴張的程度"
+#, fuzzy, kde-format
+#| msgid "Select all pixels until a specific boundary color"
+msgid "Select all regions until a specific boundary color"
+msgstr "選取所有像素直至指定的邊界色彩"
 
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:399
+#: plugins/tools/selectiontools/kis_tool_select_similar.cc:465
 #, kde-format
 msgid ""
-"Set how far the fully opaque portion of the selection should extend.\n"
-"0% will make the selection opaque only where the pixels are exactly equal to "
-"the selected pixel.\n"
-"100% will make all the selection opaque up to its boundary."
+"Set the color similarity tolerance of the selection. Increasing threshold "
+"increases the range of similar colors to be selected."
 msgstr ""
-"設定選取區域中完全不透明的範圍的擴張程度。\n"
-"0% 表示只有與所選像素完全相同數值的像素才會作完全不透明選取。\n"
-"100% 表示一直到區域邊界的所有像素均會作完全不透明選取。"
 
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:404
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:402
 #, kde-format
 msgid ""
-"Set if the contour of the current selection should be treated as a boundary "
-"when obtaining the new one"
+"Set the extent of the opaque portion of the selection. Decreasing spread "
+"decreases opacity of selection areas depending on color similarity."
+msgstr ""
+
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:405
+#, fuzzy, kde-format
+#| msgid ""
+#| "Set if the contour of the current selection should be treated as a "
+#| "boundary when obtaining the new one"
+msgid ""
+"Set if the contour of the active selection should be treated as a boundary "
+"when making a new selection"
 msgstr "設定應否視目前選取區域為新選取區域的邊界"
 
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:417
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:416
 #, kde-format
 msgctxt ""
 "The 'selection extent' section label in contiguous selection tool options"
 msgid "Selection extent"
 msgstr "選取區域範圍"
 
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.h:94
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.h:95
 #, kde-format
 msgid "Contiguous Selection Tool"
 msgstr "相連選取區域工具"
@@ -56273,36 +56114,31 @@ msgstr "按矩形建立選取區域"
 msgid "Rectangular Selection Tool"
 msgstr "矩形選取區域工具"
 
-#: plugins/tools/selectiontools/kis_tool_select_similar.cc:84
+#: plugins/tools/selectiontools/kis_tool_select_similar.cc:85
 #, kde-format
 msgid "Similar Color Selection"
 msgstr "相似色彩選取區域"
 
-#: plugins/tools/selectiontools/kis_tool_select_similar.cc:136
-#: plugins/tools/selectiontools/kis_tool_select_similar.cc:424
+#: plugins/tools/selectiontools/kis_tool_select_similar.cc:138
+#: plugins/tools/selectiontools/kis_tool_select_similar.cc:427
 msgctxt "(qtundo-format)"
 msgid "Select Similar Color"
 msgstr "按相似色彩建立選取區域"
 
-#: plugins/tools/selectiontools/kis_tool_select_similar.cc:458
+#: plugins/tools/selectiontools/kis_tool_select_similar.cc:461
 #, kde-format
 msgctxt "The 'threshold' spinbox prefix in similar selection tool options"
 msgid "Threshold: "
 msgstr "閾值："
 
-#: plugins/tools/selectiontools/kis_tool_select_similar.cc:462
-#, kde-format
-msgid "Set how far the selection should extend in terms of color similarity"
-msgstr "設定選取區域根據色彩相似度擴張的程度"
-
-#: plugins/tools/selectiontools/kis_tool_select_similar.cc:469
+#: plugins/tools/selectiontools/kis_tool_select_similar.cc:472
 #, kde-format
 msgctxt ""
 "The 'selection extent' section label in similar selection tool options"
 msgid "Selection extent"
 msgstr "選取區域範圍"
 
-#: plugins/tools/selectiontools/kis_tool_select_similar.h:56
+#: plugins/tools/selectiontools/kis_tool_select_similar.h:57
 #, kde-format
 msgid "Similar Color Selection Tool"
 msgstr "相似色彩選取區域工具"
@@ -56592,7 +56428,7 @@ msgid "Line height"
 msgstr "行高"
 
 #: plugins/tools/svgtexttool/SvgTextEditor.cpp:1458
-#: plugins/tools/svgtexttool/SvgTextTool.cpp:204
+#: plugins/tools/svgtexttool/SvgTextTool.cpp:205
 #, kde-format
 msgid "Letter Spacing"
 msgstr "字距"
@@ -56983,32 +56819,32 @@ msgctxt "action"
 msgid "Kerning"
 msgstr "字距調整 (Kerning)"
 
-#: plugins/tools/svgtexttool/SvgTextTool.cpp:133
+#: plugins/tools/svgtexttool/SvgTextTool.cpp:134
 #, kde-format
 msgid "Create new texts with..."
 msgstr "建立新文字自…"
 
-#: plugins/tools/svgtexttool/SvgTextTool.cpp:170
+#: plugins/tools/svgtexttool/SvgTextTool.cpp:171
 #, kde-format
 msgid "Anchor text to the left."
 msgstr "將文字錨定到左側。"
 
-#: plugins/tools/svgtexttool/SvgTextTool.cpp:179
+#: plugins/tools/svgtexttool/SvgTextTool.cpp:180
 #, kde-format
 msgid "Anchor text to the middle."
 msgstr "將文字錨定到中間。"
 
-#: plugins/tools/svgtexttool/SvgTextTool.cpp:188
+#: plugins/tools/svgtexttool/SvgTextTool.cpp:189
 #, kde-format
 msgid "Anchor text to the right."
 msgstr "將文字錨定到右側。"
 
-#: plugins/tools/svgtexttool/SvgTextTool.cpp:218
+#: plugins/tools/svgtexttool/SvgTextTool.cpp:219
 #, kde-format
 msgid "Edit Text"
 msgstr "編輯文字"
 
-#: plugins/tools/svgtexttool/SvgTextTool.cpp:254
+#: plugins/tools/svgtexttool/SvgTextTool.cpp:255
 #, kde-format
 msgctxt "@title:window"
 msgid "Krita - Edit Text"
@@ -57177,12 +57013,12 @@ msgstr "鎖定高度"
 msgid "Lock Ratio"
 msgstr "鎖定長寬比"
 
-#: plugins/tools/tool_crop/kis_tool_crop.cc:247
+#: plugins/tools/tool_crop/kis_tool_crop.cc:253
 #, kde-format
 msgid "Crop Tool Actions"
 msgstr "裁切工具動作"
 
-#: plugins/tools/tool_crop/kis_tool_crop.cc:716
+#: plugins/tools/tool_crop/kis_tool_crop.cc:722
 #, kde-format
 msgid ""
 "X: %1\n"
@@ -57191,7 +57027,7 @@ msgstr ""
 "X：%1\n"
 "Y：%2"
 
-#: plugins/tools/tool_crop/kis_tool_crop.cc:721
+#: plugins/tools/tool_crop/kis_tool_crop.cc:727
 #, kde-format
 msgid ""
 "Width: %1\n"
@@ -57368,42 +57204,42 @@ msgctxt "action"
 msgid "Enclose and Fill Tool"
 msgstr "閉合區域填充工具"
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:246
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:247
 msgctxt "(qtundo-format)"
 msgid "Enclose and Fill"
 msgstr "閉合區域填充"
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:359
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:361
 #, kde-format
 msgctxt "The 'invert' checkbox in enclose and fill tool"
 msgid "Invert"
 msgstr "反轉"
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:364
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:366
 #, kde-format
 msgctxt "The 'include contour regions' checkbox in enclose and fill tool"
 msgid "Include contour regions"
 msgstr "包含輪廓區域"
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:379
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:381
 #, kde-format
 msgctxt "The pattern 'scale' spinbox prefix in enclose and fill tool options"
 msgid "Scale: "
 msgstr "縮放："
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:386
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:388
 #, kde-format
 msgctxt "The 'threshold' spinbox prefix in enclose and fill tool options"
 msgid "Threshold: "
 msgstr "閾值："
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:389
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:391
 #, kde-format
 msgctxt "The 'spread' spinbox prefix in enclose and fill tool options"
 msgid "Spread: "
 msgstr "擴散幅度："
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:395
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:397
 #, kde-format
 msgctxt ""
 "The 'use selection as boundary' checkbox in enclose and fill tool to use "
@@ -57411,50 +57247,52 @@ msgctxt ""
 msgid "Use selection as boundary"
 msgstr "以選取區域為界限"
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:399
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:401
 #, kde-format
 msgctxt "The anti-alias checkbox in enclose and fill tool options"
 msgid "Anti-aliasing"
 msgstr "反鋸齒"
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:402
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:404
 #, kde-format
 msgctxt "The 'grow/shrink' spinbox prefix in enclose and fill tool options"
 msgid "Grow: "
 msgstr "擴張："
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:413
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:415
 #, kde-format
 msgctxt "The 'feather' spinbox prefix in enclose and fill tool options"
 msgid "Feather: "
 msgstr "羽化："
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:431
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:433
 #, kde-format
 msgctxt "The 'reset' button in enclose and fill tool options"
 msgid "Reset"
 msgstr "重設"
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:436
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:438
 #, kde-format
 msgid "Bezier Curve"
 msgstr "貝茲曲線"
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:437
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:439
 #, kde-format
 msgid "Lasso"
 msgstr "套索"
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:440
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:442
 #, kde-format
-msgid "Check this option to fill all the regions except the selected ones"
-msgstr "核取此選項以填充除已選取區域外的所有區域"
+msgid "Enable to fill opposite regions instead"
+msgstr ""
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:441
-#, kde-format
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:443
+#, fuzzy, kde-format
+#| msgid ""
+#| "Check this option to also fill the shapes that touch the contour of the "
+#| "enclosing region"
 msgid ""
-"Check this option to also fill the shapes that touch the contour of the "
-"enclosing region"
+"Enable to also fill shapes that touch the contour of the enclosing region"
 msgstr "核取此選項以填充觸碰到閉合區域輪廓的形狀"
 
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:472
@@ -57464,22 +57302,26 @@ msgid "Enclosing method"
 msgstr "閉合區域圍住方式"
 
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:479
-#, kde-format
-msgctxt "The 'what to fill' section label in enclose and fill tool options"
-msgid "What to fill"
-msgstr "填充區域"
+#, fuzzy, kde-format
+#| msgctxt "Region selection method in enclose and fill tool"
+#| msgid "Transparent regions"
+msgctxt "The 'target regions' section label in enclose and fill tool options"
+msgid "Target regions"
+msgstr "透明區域"
 
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:489
-#, kde-format
-msgctxt "The 'fill with' section label in enclose and fill tool options"
-msgid "Fill with"
-msgstr "填充內容"
+#, fuzzy, kde-format
+#| msgid "All Resources"
+msgctxt "The 'fill source' section label in enclose and fill tool options"
+msgid "Fill source"
+msgstr "所有資源"
 
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:500
-#, kde-format
-msgctxt "The 'region extent' section label in enclose and fill tool options"
-msgid "Region extent"
-msgstr "區域範圍"
+#, fuzzy, kde-format
+#| msgid "File extension:"
+msgctxt "The 'fill extent' section label in enclose and fill tool options"
+msgid "Fill extent"
+msgstr "檔案副檔名："
 
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:509
 #, kde-format
@@ -57494,63 +57336,78 @@ msgid "Reference"
 msgstr "參照"
 
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:714
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "All"
 msgctxt "Region selection method in enclose and fill tool"
-msgid "All regions"
-msgstr "所有區域"
+msgid "All"
+msgstr "全部"
 
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:717
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Specific Color Selector"
 msgctxt "Region selection method in enclose and fill tool"
-msgid "Regions of a specific color"
-msgstr "特定色彩的區域"
+msgid "Specific color"
+msgstr "量化選色器"
 
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:720
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Transparent"
 msgctxt "Region selection method in enclose and fill tool"
-msgid "Transparent regions"
-msgstr "透明區域"
+msgid "Transparency"
+msgstr "透明"
 
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:723
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Region selection method in enclose and fill tool"
+#| msgid "Regions of a specific color or transparent"
 msgctxt "Region selection method in enclose and fill tool"
-msgid "Regions of a specific color or transparent"
+msgid "Specific color or transparency"
 msgstr "特定色彩或透明區域"
 
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:726
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Region selection method in enclose and fill tool"
+#| msgid "Regions of a specific color"
 msgctxt "Region selection method in enclose and fill tool"
-msgid "All regions except those of a specific color"
-msgstr "除特定色彩以外的所有區域"
+msgid "All, excluding a specific color"
+msgstr "特定色彩的區域"
 
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:729
 #, kde-format
 msgctxt "Region selection method in enclose and fill tool"
-msgid "All regions except the transparent ones"
-msgstr "除透明以外的所有區域"
+msgid "All, excluding transparency"
+msgstr ""
 
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:732
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Region selection method in enclose and fill tool"
+#| msgid "Regions of a specific color or transparent"
 msgctxt "Region selection method in enclose and fill tool"
-msgid "All regions except those of a specific color or transparent"
-msgstr "除特定色彩或透明以外的所有區域"
+msgid "All, excluding a specific color or transparency"
+msgstr "特定色彩或透明區域"
 
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:735
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Region selection method in enclose and fill tool"
+#| msgid "Regions surrounded by a specific color"
 msgctxt "Region selection method in enclose and fill tool"
-msgid "Regions surrounded by a specific color"
+msgid "Any surrounded by a specific color"
 msgstr "被特定色彩圍繞的區域"
 
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:738
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Region selection method in enclose and fill tool"
+#| msgid "Regions surrounded by transparent"
 msgctxt "Region selection method in enclose and fill tool"
-msgid "Regions surrounded by transparent"
+msgid "Any surrounded by transparency"
 msgstr "被透明圍繞的區域"
 
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:741
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Region selection method in enclose and fill tool"
+#| msgid "Regions surrounded by a specific color or transparent"
 msgctxt "Region selection method in enclose and fill tool"
-msgid "Regions surrounded by a specific color or transparent"
+msgid "Any surrounded by a specific color or transparency"
 msgstr "被持定色彩或透明圍繞的區域"
 
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFillFactory.h:23
@@ -57807,24 +57664,24 @@ msgstr "逆時針旋轉 90 度"
 msgid "Apply"
 msgstr "套用"
 
-#: plugins/tools/tool_transform2/kis_tool_transform.cc:363
+#: plugins/tools/tool_transform2/kis_tool_transform.cc:376
 #, kde-format
 msgid "Transform Tool Actions"
 msgstr "變形工具動作"
 
-#: plugins/tools/tool_transform2/kis_tool_transform.cc:841
+#: plugins/tools/tool_transform2/kis_tool_transform.cc:854
 #, kde-format
 msgctxt "floating message in transformation tool"
 msgid "Layer type cannot use the transform tool"
 msgstr "圖層類型不支援變形工具"
 
-#: plugins/tools/tool_transform2/kis_tool_transform.cc:848
+#: plugins/tools/tool_transform2/kis_tool_transform.cc:861
 #, kde-format
 msgctxt "floating message in transformation tool"
 msgid "Layer type cannot use the transform tool. Use transform mask instead."
 msgstr "圖層類型不支援變形工具，請改用變形遮罩。"
 
-#: plugins/tools/tool_transform2/kis_tool_transform.cc:868
+#: plugins/tools/tool_transform2/kis_tool_transform.cc:881
 #, kde-format
 msgctxt "floating message in transformation tool"
 msgid ""
@@ -57832,20 +57689,20 @@ msgid ""
 "transformation."
 msgstr "圖層含有帶變形遮罩的子圖層。在進行變形操作前，請先停用這些變形遮罩。"
 
-#: plugins/tools/tool_transform2/kis_tool_transform.cc:885
+#: plugins/tools/tool_transform2/kis_tool_transform.cc:898
 #, kde-format
 msgctxt "floating message in transformation tool"
 msgid "Selections are not used when editing transform masks "
 msgstr "編輯變形遮罩時，選取區域不被使用"
 
-#: plugins/tools/tool_transform2/kis_tool_transform.cc:966
-#: plugins/tools/tool_transform2/kis_tool_transform.cc:1003
+#: plugins/tools/tool_transform2/kis_tool_transform.cc:979
+#: plugins/tools/tool_transform2/kis_tool_transform.cc:1016
 #, kde-format
 msgctxt "floating message in transformation tool"
 msgid "Cannot transform empty layer "
 msgstr "無法對空圖層進行變形操作"
 
-#: plugins/tools/tool_transform2/kis_tool_transform.cc:991
+#: plugins/tools/tool_transform2/kis_tool_transform.cc:1004
 #, kde-format
 msgctxt "floating message in transformation tool"
 msgid ""
@@ -58614,6 +58471,297 @@ msgstr "縮放工具"
 msgctxt "action"
 msgid "Reference Images Tool"
 msgstr "參考圖工具"
+
+#, kde-format
+#~ msgid "Canvas Acceleration"
+#~ msgstr "畫布加速"
+
+#, kde-format
+#~ msgid "Canvas &Graphics Acceleration"
+#~ msgstr "畫布圖形加速(&G)"
+
+#, kde-format
+#~ msgid ""
+#~ "<html><head/><body><p>Use Texture Buffering. This can be faster on some "
+#~ "GPU/Driver combinations (like Intel) or broken on some others (like AMD/"
+#~ "Radeon).</p></body></html>"
+#~ msgstr ""
+#~ "<html><head/><body><p>啟用紋理緩衝區。在某些 GPU/驅動程式組合下面速度更快 "
+#~ "(如 Intel 核芯顯示卡)，但在別的情況下 (如 AMD/Radeon 顯示卡) 可能會造成問"
+#~ "題。</p></body></html>"
+
+#, kde-format
+#~ msgid "Use texture buffer"
+#~ msgstr "啟用紋理緩衝區"
+
+#, kde-format
+#~ msgid "Bilinear Filtering"
+#~ msgstr "雙線性"
+
+#, kde-format
+#~ msgid "Trilinear Filtering"
+#~ msgstr "三線性"
+
+#, kde-format
+#~ msgid "High Quality Filtering"
+#~ msgstr "高品質"
+
+#, kde-format
+#~ msgid "Scaling Mode:"
+#~ msgstr "檢視縮放演算法："
+
+#, kde-format
+#~ msgid "Preferred Renderer (needs restart):"
+#~ msgstr "首選繪製器 (需要重啟程式)："
+
+#, kde-format
+#~ msgid "Current Renderer:"
+#~ msgstr "目前繪製器："
+
+#, kde-format
+#~ msgid ""
+#~ "<html><head/><body><p>This should be enabled if you see any artifacts "
+#~ "while using assistants.</p></body></html>"
+#~ msgstr ""
+#~ "<html><head/><body><p>如使用輔助尺時出現畫布繪製問題 (例如黑色方塊)，應啟"
+#~ "用此選項。</p></body></html>"
+
+#, kde-format
+#~ msgid "Use large pixmap cache"
+#~ msgstr "使用加大 pixmap 影像快取"
+
+#, kde-format
+#~ msgid "HDR Settings"
+#~ msgstr "HDR 設定"
+
+#, kde-format
+#~ msgid "Current Display Format"
+#~ msgstr "目前顯示格式"
+
+#, kde-format
+#~ msgid "Display Format:"
+#~ msgstr "顯示格式："
+
+#, kde-format
+#~ msgid "Current Surface Value"
+#~ msgstr "目前表面參數"
+
+#, kde-format
+#~ msgid "Current Output Format:"
+#~ msgstr "目前輸出格式："
+
+#, kde-format
+#~ msgid "Preferred Output Format:"
+#~ msgstr "首選輸出格式："
+
+#, kde-format
+#~ msgid "HDR Warning.................................."
+#~ msgstr "HDR 警告.................................."
+
+#, kde-format
+#~ msgid "Grid Settings"
+#~ msgstr "格線設定"
+
+#, kde-format
+#~ msgid "Transparency Checkerboard:"
+#~ msgstr "透明度棋盤色彩："
+
+#, kde-format
+#~ msgid "Canvas Border Color:"
+#~ msgstr "畫布外周色彩："
+
+#, kde-format
+#~ msgid "Selection Overlay:"
+#~ msgstr "選取區域遮罩色彩："
+
+#, kde-format
+#~ msgid "Pixel Grid:"
+#~ msgstr "像素格線："
+
+#, kde-format
+#~ msgid "Start showing at:"
+#~ msgstr "起始顯示比例："
+
+#, kde-format
+#~ msgid "Hide Canvas Scrollbars"
+#~ msgstr "隱藏畫布捲動軸"
+
+#, kde-format
+#~ msgid "Enable curve anti-aliasing"
+#~ msgstr "啟用曲線反鋸齒"
+
+#, kde-format
+#~ msgid "Hide layer thumbnail popup"
+#~ msgstr "隱藏圖層浮動縮圖"
+
+#, kde-format
+#~ msgid "Color channels in color"
+#~ msgstr "顯示單一色彩通道時為其著色"
+
+#, kde-format
+#~ msgid "Enable selection outline anti-aliasing"
+#~ msgstr "啟用選取區域輪廓反鋸齒"
+
+#, kde-format
+#~ msgid "If checked, the checkers will move when scrolling the canvas."
+#~ msgstr "勾選後棋盤格背景將隨畫布捲動。"
+
+#, kde-format
+#~ msgid ""
+#~ "Determines whether the checks will stay put or whether they will scroll "
+#~ "together with the canvas"
+#~ msgstr "控制棋盤格背景應始終保持靜止還是隨畫布捲動"
+
+#, kde-format
+#~ msgid "&Move checkers when scrolling"
+#~ msgstr "捲動時移動棋盤格背景(&M)"
+
+#, kde-format
+#~ msgid "Enable Smooth Zooming"
+#~ msgstr "啟用平滑縮放"
+
+#, kde-format
+#~ msgid ""
+#~ "Grow (positive values) or shrink (negative values) the selection by the "
+#~ "set amount"
+#~ msgstr "按數值擴張或收縮選取區域 (正數為擴張，負數為收縮)"
+
+#, kde-format
+#~ msgid "Make the selection using the active layer"
+#~ msgstr "以使用中圖層製成選取區域"
+
+#, kde-format
+#~ msgid "Make the selection using a merged copy of all layers"
+#~ msgstr "以全部圖層合併的影像製成選取區域"
+
+#, kde-format
+#~ msgid ""
+#~ "Make the selection using a merged copy of the selected color-labeled "
+#~ "layers"
+#~ msgstr "按所選色彩標籤的圖層合併的影像製成選取區域"
+
+#, kde-format
+#~ msgid "The added duration for showing the last frame."
+#~ msgstr "保持顯示最後一個影格的額外時長。"
+
+#, kde-format
+#~ msgid "Current selection"
+#~ msgstr "目前選取區域"
+
+#, kde-format
+#~ msgid "Contiguous region obtained from the layers"
+#~ msgstr "從圖層檢取連續區域"
+
+#, kde-format
+#~ msgid "All the regions similar to the pixel you clicked on"
+#~ msgstr "所有與所點選像素相似的區域"
+
+#, kde-format
+#~ msgid "Select pixels similar to the one you clicked on"
+#~ msgstr "選取與所點選像素相似的像素"
+
+#, kde-format
+#~ msgid ""
+#~ "Set how far the region should extend from the selected pixel in terms of "
+#~ "color similarity"
+#~ msgstr "設定區域根據色彩相似度從所選像素擴張的程度"
+
+#, kde-format
+#~ msgid ""
+#~ "Set how far the fully opaque portion of the region should extend.\n"
+#~ "0% will make opaque only the pixels that are exactly equal to the "
+#~ "selected pixel.\n"
+#~ "100% will make opaque all the pixels in the region up to its boundary."
+#~ msgstr ""
+#~ "設定區域中完全不透明的範圍的擴張程度。\n"
+#~ "0% 表示只有與所選像素完全相同數值的像素才會填上不透明色。\n"
+#~ "100% 表示一直到區域邊界的所有像素均會填上不透明色。"
+
+#, kde-format
+#~ msgid ""
+#~ "Grow (positive values) or shrink (negative values) the region by the set "
+#~ "amount"
+#~ msgstr "按數值擴張或收縮區域 (正數為擴張，負數為收縮)"
+
+#, kde-format
+#~ msgid ""
+#~ "Obtain the region using a merged copy of the selected color-labeled layers"
+#~ msgstr "按所選色彩標籤的圖層合併的影像檢取區域"
+
+#, kde-format
+#~ msgctxt "The 'what to fill' section label in fill tool options"
+#~ msgid "What to fill"
+#~ msgstr "填充區域"
+
+#, kde-format
+#~ msgctxt "The 'fill with' section label in fill tool options"
+#~ msgid "Fill with"
+#~ msgstr "填充內容"
+
+#, kde-format
+#~ msgctxt "The 'region extent' section label in fill tool options"
+#~ msgid "Region extent"
+#~ msgstr "區域範圍"
+
+#, kde-format
+#~ msgctxt "The 'multiple fill' section label in fill tool options"
+#~ msgid "Multiple fill"
+#~ msgstr "多重填充"
+
+#, kde-format
+#~ msgid ""
+#~ "Set how far the selection should extend from the selected pixel in terms "
+#~ "of color similarity"
+#~ msgstr "設定選取區域根據色彩相似度從所選像素擴張的程度"
+
+#, kde-format
+#~ msgid ""
+#~ "Set how far the fully opaque portion of the selection should extend.\n"
+#~ "0% will make the selection opaque only where the pixels are exactly equal "
+#~ "to the selected pixel.\n"
+#~ "100% will make all the selection opaque up to its boundary."
+#~ msgstr ""
+#~ "設定選取區域中完全不透明的範圍的擴張程度。\n"
+#~ "0% 表示只有與所選像素完全相同數值的像素才會作完全不透明選取。\n"
+#~ "100% 表示一直到區域邊界的所有像素均會作完全不透明選取。"
+
+#, kde-format
+#~ msgid "Set how far the selection should extend in terms of color similarity"
+#~ msgstr "設定選取區域根據色彩相似度擴張的程度"
+
+#, kde-format
+#~ msgid "Check this option to fill all the regions except the selected ones"
+#~ msgstr "核取此選項以填充除已選取區域外的所有區域"
+
+#, kde-format
+#~ msgctxt "The 'what to fill' section label in enclose and fill tool options"
+#~ msgid "What to fill"
+#~ msgstr "填充區域"
+
+#, kde-format
+#~ msgctxt "The 'fill with' section label in enclose and fill tool options"
+#~ msgid "Fill with"
+#~ msgstr "填充內容"
+
+#, kde-format
+#~ msgctxt "The 'region extent' section label in enclose and fill tool options"
+#~ msgid "Region extent"
+#~ msgstr "區域範圍"
+
+#, kde-format
+#~ msgctxt "Region selection method in enclose and fill tool"
+#~ msgid "All regions"
+#~ msgstr "所有區域"
+
+#, kde-format
+#~ msgctxt "Region selection method in enclose and fill tool"
+#~ msgid "All regions except the transparent ones"
+#~ msgstr "除透明以外的所有區域"
+
+#, kde-format
+#~ msgctxt "Region selection method in enclose and fill tool"
+#~ msgid "All regions except those of a specific color or transparent"
+#~ msgstr "除特定色彩或透明以外的所有區域"
 
 #~ msgid "Lossless compression"
 #~ msgstr "無損壓縮"
