@@ -54871,7 +54871,8 @@ msgstr "設定填充近似色的相容度。提高閾值將填充更廣泛的相
 msgid ""
 "Set the extent of the opaque portion of the fill. Decreasing spread "
 "decreases opacity of fill areas depending on color similarity."
-msgstr "設定填充的不透明範圍。減少擴散幅度將根據色彩相似度降低填充區域的不透明度。"
+msgstr ""
+"設定填充的不透明範圍。減少擴散幅度將根據色彩相似度降低填充區域的不透明度。"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:575
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:452
@@ -55338,7 +55339,8 @@ msgstr "移動有內容的圖層(&V)"
 msgid ""
 "Move the group containing the first layer that contains visible content. "
 "Shortcut: ctrl-shift-click."
-msgstr "移動在點擊位置下第一個有可見內容的圖層所在的群組圖層。快捷鍵：Ctrl + Shift + "
+msgstr ""
+"移動在點擊位置下第一個有可見內容的圖層所在的群組圖層。快捷鍵：Ctrl + Shift + "
 "點擊。"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioGroup)
@@ -56054,8 +56056,9 @@ msgstr "設定選取近似色的相容度。提高閾值將選取更廣泛的相
 msgid ""
 "Set the extent of the opaque portion of the selection. Decreasing spread "
 "decreases opacity of selection areas depending on color similarity."
-msgstr "設定選取區域的不透明範圍。減少擴散幅度將根據色彩相似度降低選取區域的不透明度"
-"。"
+msgstr ""
+"設定選取區域的不透明範圍。減少擴散幅度將根據色彩相似度降低選取區域的不透明"
+"度。"
 
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:405
 #, kde-format
