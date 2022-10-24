@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-10-19 00:44+0000\n"
-"PO-Revision-Date: 2022-10-23 09:21+0000\n"
+"POT-Creation-Date: 2022-10-24 00:46+0000\n"
+"PO-Revision-Date: 2022-10-24 11:32+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -16445,6 +16445,7 @@ msgstr "大小"
 #. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, intHeight)
 #. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, intRoundCornersX)
 #. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, intRoundCornersY)
+#. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, intCheckSize)
 #. i18n: ectx: property (suffix), widget (QSpinBox, patchRadius)
 #. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, radius)
 #. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, intX)
@@ -16473,6 +16474,7 @@ msgstr "大小"
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1346
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1410
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1306
+#: libs/ui/forms/wdgdisplaysettings.ui:389
 #: libs/ui/forms/wdggeneralsettings.ui:374
 #: libs/ui/forms/wdgrectangleconstraints.ui:59
 #: libs/ui/forms/wdgrectangleconstraints.ui:98
@@ -19396,9 +19398,11 @@ msgid "md5sum"
 msgstr "MD5 雜湊值"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_hsx)
+#. i18n: ectx: property (text), widget (QLabel, lblCurrentRenderer)
 #: libs/resources/KisResourceStorage.h:116
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1648
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1652 libs/ui/KoDocumentInfo.cpp:37
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1652
+#: libs/ui/forms/wdgdisplaysettings.ui:196 libs/ui/KoDocumentInfo.cpp:37
 #: libs/widgets/KisDlgInternalColorSelector.cpp:322
 #: libs/widgets/WdgDlgInternalColorSelector.ui:89
 #: plugins/python/channels2layers/channels2layers.py:853
@@ -19670,12 +19674,14 @@ msgstr "資料庫版本"
 #. i18n: ectx: property (text), widget (QLabel, lblKritaVersion)
 #. i18n: ectx: property (text), widget (QLabel, lblCreationDate)
 #. i18n: ectx: property (text), widget (QLabel, lblDescription)
+#. i18n: ectx: property (text), widget (QLabel, lblHDRWarningIcon)
 #. i18n: ectx: property (text), widget (QLabel, lblPreview)
 #. i18n: ectx: property (text), widget (QLabel, m_lblOcioVersion)
 #. i18n: ectx: property (text), widget (QLabel, lblSaveLocation)
 #: libs/resourcewidgets/dbexplorer/WdgDbExplorer.ui:126
 #: libs/resourcewidgets/dbexplorer/WdgDbExplorer.ui:140
 #: libs/resourcewidgets/dbexplorer/WdgDbExplorer.ui:154
+#: libs/ui/forms/wdgdisplaysettings.ui:299
 #: libs/ui/forms/wdgimageproperties.ui:414 libs/ui/forms/wdgnewimage.ui:305
 #: plugins/dockers/lut/wdglut.ui:358
 #: plugins/extensions/resourcemanager/wdgdlgcreatebundle.ui:374
@@ -21161,11 +21167,12 @@ msgstr "主顯示器："
 
 #. i18n: ectx: property (title), widget (QGroupBox, grpCustomDisplay)
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#. i18n: ectx: property (windowTitle), widget (QWidget, WdgDisplaySettings)
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_6)
 #: libs/ui/animation/VideoHDRMetadataOptionsDialog.ui:38
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1940
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1942
-#: libs/ui/forms/wdgcolorsettings.ui:147
+#: libs/ui/forms/wdgcolorsettings.ui:147 libs/ui/forms/wdgdisplaysettings.ui:24
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:598
 #, kde-format
 msgid "Display"
@@ -21838,7 +21845,9 @@ msgstr "即時預覽模式：%1"
 msgid "Instant Preview is only supported with OpenGL activated"
 msgstr "即時預覽只在 OpenGL 啟用時可用"
 
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbFilterMode)
 #: libs/ui/canvas/kis_canvas_controller.cpp:353
+#: libs/ui/forms/wdgdisplaysettings.ui:141
 #, kde-format
 msgid "Nearest Neighbour"
 msgstr "最近相鄰"
@@ -22224,6 +22233,7 @@ msgstr "圖層屬性"
 #. i18n: ectx: property (suffix), widget (KisSliderSpinBox, intChoke)
 #. i18n: ectx: property (suffix), widget (KisSliderSpinBox, intRange)
 #. i18n: ectx: property (suffix), widget (KisSliderSpinBox, intJitter)
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, pixelGridDrawingThresholdBox)
 #. i18n: ectx: property (suffix), widget (KisSliderSpinBox, qualityLevel)
 #. i18n: ectx: property (suffix), widget (KisDoubleSliderSpinBox, quality)
 #. i18n: ectx: property (suffix), widget (KisSliderSpinBox, snsStrength)
@@ -22239,9 +22249,9 @@ msgstr "圖層屬性"
 #. i18n: ectx: property (suffix), widget (KisDoubleParseSpinBox, spbScaleWidth)
 #. i18n: ectx: property (suffix), widget (KisDoubleParseSpinBox, spbScaleHeight)
 #: libs/ui/dialogs/kis_dlg_layer_properties.cc:97
-#: libs/ui/kis_node_model.cpp:568 libs/ui/kis_node_model.cpp:571
-#: libs/ui/kis_paintop_box.cc:267 libs/ui/kis_paintop_box.cc:275
-#: libs/ui/layerstyles/wdgInnerGlow.ui:220
+#: libs/ui/forms/wdgdisplaysettings.ui:605 libs/ui/kis_node_model.cpp:568
+#: libs/ui/kis_node_model.cpp:571 libs/ui/kis_paintop_box.cc:267
+#: libs/ui/kis_paintop_box.cc:275 libs/ui/layerstyles/wdgInnerGlow.ui:220
 #: libs/ui/layerstyles/wdgInnerGlow.ui:322
 #: libs/ui/layerstyles/wdgInnerGlow.ui:351
 #: libs/ui/widgets/gradient/KisGradientColorEditor.cpp:93
@@ -23979,6 +23989,251 @@ msgstr "用作圖案(&P)"
 msgid "&Add to Predefined Patterns"
 msgstr "新增到預製圖案(&A)"
 
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: libs/ui/forms/wdgdisplaysettings.ui:46
+#, kde-format
+msgid "Canvas Acceleration"
+msgstr "畫布加速"
+
+#. i18n: ectx: property (title), widget (QGroupBox, grpOpenGL)
+#: libs/ui/forms/wdgdisplaysettings.ui:58
+#, kde-format
+msgid "Canvas &Graphics Acceleration"
+msgstr "畫布圖形加速(&G)"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, chkUseTextureBuffer)
+#: libs/ui/forms/wdgdisplaysettings.ui:73
+#, kde-format
+msgid ""
+"<html><head/><body><p>Use Texture Buffering. This can be faster on some GPU/"
+"Driver combinations (like Intel) or broken on some others (like AMD/Radeon)."
+"</p></body></html>"
+msgstr ""
+"<html><head/><body><p>啟用紋理緩衝區。在某些 GPU/驅動程式組合下面速度更快 "
+"(如 Intel 核芯顯示卡)，但在別的情況下 (如 AMD/Radeon 顯示卡) 可能會造成問題。"
+"</p></body></html>"
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkUseTextureBuffer)
+#: libs/ui/forms/wdgdisplaysettings.ui:76
+#, kde-format
+msgid "Use texture buffer"
+msgstr "啟用紋理緩衝區"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbFilterMode)
+#: libs/ui/forms/wdgdisplaysettings.ui:146
+#, kde-format
+msgid "Bilinear Filtering"
+msgstr "雙線性"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbFilterMode)
+#: libs/ui/forms/wdgdisplaysettings.ui:151
+#, kde-format
+msgid "Trilinear Filtering"
+msgstr "三線性"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbFilterMode)
+#: libs/ui/forms/wdgdisplaysettings.ui:156
+#, kde-format
+msgid "High Quality Filtering"
+msgstr "高品質"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: libs/ui/forms/wdgdisplaysettings.ui:170
+#, kde-format
+msgid "Scaling Mode:"
+msgstr "檢視縮放演算法："
+
+#. i18n: ectx: property (text), widget (QLabel, lblPreferredRenderer)
+#: libs/ui/forms/wdgdisplaysettings.ui:186
+#, kde-format
+msgid "Preferred Renderer (needs restart):"
+msgstr "首選繪製器 (需要重啟程式)："
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: libs/ui/forms/wdgdisplaysettings.ui:203
+#, kde-format
+msgid "Current Renderer:"
+msgstr "目前繪製器："
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, chkLargePixmapCache)
+#: libs/ui/forms/wdgdisplaysettings.ui:232
+#, kde-format
+msgid ""
+"<html><head/><body><p>This should be enabled if you see any artifacts while "
+"using assistants.</p></body></html>"
+msgstr ""
+"<html><head/><body><p>如使用輔助尺時出現畫布繪製問題 (例如黑色方塊)，應啟用此"
+"選項。</p></body></html>"
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkLargePixmapCache)
+#: libs/ui/forms/wdgdisplaysettings.ui:235
+#, kde-format
+msgid "Use large pixmap cache"
+msgstr "使用加大 pixmap 影像快取"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabHDR)
+#: libs/ui/forms/wdgdisplaysettings.ui:249
+#, kde-format
+msgid "HDR Settings"
+msgstr "HDR 設定"
+
+#. i18n: ectx: property (text), widget (QLabel, lblCurrentDisplayFormat)
+#: libs/ui/forms/wdgdisplaysettings.ui:255
+#, kde-format
+msgid "Current Display Format"
+msgstr "目前顯示格式"
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: libs/ui/forms/wdgdisplaysettings.ui:262
+#, kde-format
+msgid "Display Format:"
+msgstr "顯示格式："
+
+#. i18n: ectx: property (text), widget (QLabel, lblCurrentRootSurfaceFormat)
+#: libs/ui/forms/wdgdisplaysettings.ui:269
+#, kde-format
+msgid "Current Surface Value"
+msgstr "目前表面參數"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: libs/ui/forms/wdgdisplaysettings.ui:276
+#, kde-format
+msgid "Current Output Format:"
+msgstr "目前輸出格式："
+
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: libs/ui/forms/wdgdisplaysettings.ui:286
+#, kde-format
+msgid "Preferred Output Format:"
+msgstr "首選輸出格式："
+
+#. i18n: ectx: property (text), widget (QLabel, lblHDRWarning)
+#: libs/ui/forms/wdgdisplaysettings.ui:315
+#, kde-format
+msgid "HDR Warning.................................."
+msgstr "HDR 警告.................................."
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_3)
+#: libs/ui/forms/wdgdisplaysettings.ui:339
+#, kde-format
+msgid "Canvas Decorations"
+msgstr "畫布輔助"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: libs/ui/forms/wdgdisplaysettings.ui:351
+#, kde-format
+msgid "Transparency Checkerboard:"
+msgstr "透明度棋盤色彩："
+
+#. i18n: ectx: property (text), widget (QLabel, lblCheckSize)
+#. i18n: ectx: property (text), widget (QLabel, brushSizeLabel)
+#. i18n: ectx: property (text), widget (QLabel, lblSize)
+#. i18n: ectx: property (text), widget (QLabel, labelSize)
+#: libs/ui/forms/wdgdisplaysettings.ui:382 libs/ui/kis_paintop_box.cc:254
+#: libs/ui/kis_paintop_box.cc:260
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:414
+#: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:185
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:2007
+#, kde-format
+msgid "Size:"
+msgstr "大小："
+
+#. i18n: ectx: property (text), widget (QLabel, lblCanvasBorderColor)
+#: libs/ui/forms/wdgdisplaysettings.ui:418
+#, kde-format
+msgid "Canvas Border Color:"
+msgstr "畫布外周色彩："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: libs/ui/forms/wdgdisplaysettings.ui:475
+#, kde-format
+msgid "Selection Overlay:"
+msgstr "選取區域遮罩色彩："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: ectx: property (text), widget (QLabel, opacityLbl)
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#. i18n: ectx: property (text), widget (QLabel, opacityLabel)
+#: libs/ui/forms/wdgdisplaysettings.ui:522 libs/ui/kis_paintop_box.cc:252
+#: libs/ui/kis_paintop_box.cc:258
+#: plugins/dockers/layerdocker/WdgLayerBox.ui:107
+#: plugins/filters/noisefilter/wdgnoiseoptions.ui:56
+#: plugins/filters/randompickfilter/wdgrandompickoptions.ui:57
+#: plugins/paintops/mypaint/wdgmypaintoptions.ui:126
+#, kde-format
+msgid "Opacity:"
+msgstr "不透明度："
+
+#. i18n: ectx: property (text), widget (QLabel, lblCanvasBorderColor_2)
+#: libs/ui/forms/wdgdisplaysettings.ui:551
+#, kde-format
+msgid "Pixel Grid:"
+msgstr "像素格線："
+
+#. i18n: ectx: property (text), widget (QLabel, gridThresholdLabel)
+#: libs/ui/forms/wdgdisplaysettings.ui:598
+#, kde-format
+msgid "Start showing at:"
+msgstr "起始顯示比例："
+
+#. i18n: ectx: attribute (title), widget (QWidget, Miscellaneous)
+#. i18n: ectx: attribute (title), widget (QWidget, tab_4)
+#: libs/ui/forms/wdgdisplaysettings.ui:648
+#: libs/ui/forms/wdggeneralsettings.ui:1003
+#, kde-format
+msgid "Miscellaneous"
+msgstr "其他"
+
+#. i18n: ectx: property (text), widget (QCheckBox, hideScrollbars)
+#: libs/ui/forms/wdgdisplaysettings.ui:667
+#, kde-format
+msgid "Hide Canvas Scrollbars"
+msgstr "隱藏畫布捲動軸"
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkCurveAntialiasing)
+#: libs/ui/forms/wdgdisplaysettings.ui:677
+#, kde-format
+msgid "Enable curve anti-aliasing"
+msgstr "啟用曲線反鋸齒"
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkHidePopups)
+#: libs/ui/forms/wdgdisplaysettings.ui:684
+#, kde-format
+msgid "Hide layer thumbnail popup"
+msgstr "隱藏圖層浮動縮圖"
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkChannelsAsColor)
+#: libs/ui/forms/wdgdisplaysettings.ui:691
+#, kde-format
+msgid "Color channels in color"
+msgstr "顯示單一色彩通道時為其著色"
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkSelectionOutlineAntialiasing)
+#: libs/ui/forms/wdgdisplaysettings.ui:701
+#, kde-format
+msgid "Enable selection outline anti-aliasing"
+msgstr "啟用選取區域輪廓反鋸齒"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, chkMoving)
+#: libs/ui/forms/wdgdisplaysettings.ui:708
+#, kde-format
+msgid "If checked, the checkers will move when scrolling the canvas."
+msgstr "勾選後棋盤格背景將隨畫布捲動。"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, chkMoving)
+#: libs/ui/forms/wdgdisplaysettings.ui:711
+#, kde-format
+msgid ""
+"Determines whether the checks will stay put or whether they will scroll "
+"together with the canvas"
+msgstr "控制棋盤格背景應始終保持靜止還是隨畫布捲動"
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkMoving)
+#: libs/ui/forms/wdgdisplaysettings.ui:714
+#, kde-format
+msgid "&Move checkers when scrolling"
+msgstr "捲動時移動棋盤格背景(&M)"
+
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: libs/ui/forms/wdgdlgfilelayer.ui:35
 #, kde-format
@@ -24565,12 +24820,6 @@ msgstr "儲存前裁剪檔案"
 #, kde-format
 msgid "Trim frames when importing animations"
 msgstr "匯入動畫時裁剪影格"
-
-#. i18n: ectx: attribute (title), widget (QWidget, Miscellaneous)
-#: libs/ui/forms/wdggeneralsettings.ui:1003
-#, kde-format
-msgid "Miscellaneous"
-msgstr "其他"
 
 #. i18n: ectx: property (text), widget (QLabel, label_12)
 #: libs/ui/forms/wdggeneralsettings.ui:1060
@@ -28375,35 +28624,12 @@ msgstr "編輯筆刷選項"
 msgid "Choose brush preset"
 msgstr "選擇筆刷預設"
 
-#. i18n: ectx: property (text), widget (QLabel, opacityLbl)
-#. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#. i18n: ectx: property (text), widget (QLabel, opacityLabel)
-#: libs/ui/kis_paintop_box.cc:252 libs/ui/kis_paintop_box.cc:258
-#: plugins/dockers/layerdocker/WdgLayerBox.ui:107
-#: plugins/filters/noisefilter/wdgnoiseoptions.ui:56
-#: plugins/filters/randompickfilter/wdgrandompickoptions.ui:57
-#: plugins/paintops/mypaint/wdgmypaintoptions.ui:126
-#, kde-format
-msgid "Opacity:"
-msgstr "不透明度："
-
 #. i18n: ectx: property (text), widget (QLabel, lblFlow)
 #: libs/ui/kis_paintop_box.cc:253 libs/ui/kis_paintop_box.cc:259
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:1985
 #, kde-format
 msgid "Flow:"
 msgstr "流量："
-
-#. i18n: ectx: property (text), widget (QLabel, brushSizeLabel)
-#. i18n: ectx: property (text), widget (QLabel, lblSize)
-#. i18n: ectx: property (text), widget (QLabel, labelSize)
-#: libs/ui/kis_paintop_box.cc:254 libs/ui/kis_paintop_box.cc:260
-#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:414
-#: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:185
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:2007
-#, kde-format
-msgid "Size:"
-msgstr "大小："
 
 #: libs/ui/kis_paintop_box.cc:255 libs/ui/kis_paintop_box.cc:261
 #, kde-format
@@ -58496,148 +58722,8 @@ msgid "Reference Images Tool"
 msgstr "參考圖工具"
 
 #, kde-format
-#~ msgid "Canvas Acceleration"
-#~ msgstr "畫布加速"
-
-#, kde-format
-#~ msgid "Canvas &Graphics Acceleration"
-#~ msgstr "畫布圖形加速(&G)"
-
-#, kde-format
-#~ msgid ""
-#~ "<html><head/><body><p>Use Texture Buffering. This can be faster on some "
-#~ "GPU/Driver combinations (like Intel) or broken on some others (like AMD/"
-#~ "Radeon).</p></body></html>"
-#~ msgstr ""
-#~ "<html><head/><body><p>啟用紋理緩衝區。在某些 GPU/驅動程式組合下面速度更快 "
-#~ "(如 Intel 核芯顯示卡)，但在別的情況下 (如 AMD/Radeon 顯示卡) 可能會造成問"
-#~ "題。</p></body></html>"
-
-#, kde-format
-#~ msgid "Use texture buffer"
-#~ msgstr "啟用紋理緩衝區"
-
-#, kde-format
-#~ msgid "Bilinear Filtering"
-#~ msgstr "雙線性"
-
-#, kde-format
-#~ msgid "Trilinear Filtering"
-#~ msgstr "三線性"
-
-#, kde-format
-#~ msgid "High Quality Filtering"
-#~ msgstr "高品質"
-
-#, kde-format
-#~ msgid "Scaling Mode:"
-#~ msgstr "檢視縮放演算法："
-
-#, kde-format
-#~ msgid "Preferred Renderer (needs restart):"
-#~ msgstr "首選繪製器 (需要重啟程式)："
-
-#, kde-format
-#~ msgid "Current Renderer:"
-#~ msgstr "目前繪製器："
-
-#, kde-format
-#~ msgid ""
-#~ "<html><head/><body><p>This should be enabled if you see any artifacts "
-#~ "while using assistants.</p></body></html>"
-#~ msgstr ""
-#~ "<html><head/><body><p>如使用輔助尺時出現畫布繪製問題 (例如黑色方塊)，應啟"
-#~ "用此選項。</p></body></html>"
-
-#, kde-format
-#~ msgid "Use large pixmap cache"
-#~ msgstr "使用加大 pixmap 影像快取"
-
-#, kde-format
-#~ msgid "HDR Settings"
-#~ msgstr "HDR 設定"
-
-#, kde-format
-#~ msgid "Current Display Format"
-#~ msgstr "目前顯示格式"
-
-#, kde-format
-#~ msgid "Display Format:"
-#~ msgstr "顯示格式："
-
-#, kde-format
-#~ msgid "Current Surface Value"
-#~ msgstr "目前表面參數"
-
-#, kde-format
-#~ msgid "Current Output Format:"
-#~ msgstr "目前輸出格式："
-
-#, kde-format
-#~ msgid "Preferred Output Format:"
-#~ msgstr "首選輸出格式："
-
-#, kde-format
-#~ msgid "HDR Warning.................................."
-#~ msgstr "HDR 警告.................................."
-
-#, kde-format
 #~ msgid "Grid Settings"
 #~ msgstr "格線設定"
-
-#, kde-format
-#~ msgid "Transparency Checkerboard:"
-#~ msgstr "透明度棋盤色彩："
-
-#, kde-format
-#~ msgid "Canvas Border Color:"
-#~ msgstr "畫布外周色彩："
-
-#, kde-format
-#~ msgid "Selection Overlay:"
-#~ msgstr "選取區域遮罩色彩："
-
-#, kde-format
-#~ msgid "Pixel Grid:"
-#~ msgstr "像素格線："
-
-#, kde-format
-#~ msgid "Start showing at:"
-#~ msgstr "起始顯示比例："
-
-#, kde-format
-#~ msgid "Hide Canvas Scrollbars"
-#~ msgstr "隱藏畫布捲動軸"
-
-#, kde-format
-#~ msgid "Enable curve anti-aliasing"
-#~ msgstr "啟用曲線反鋸齒"
-
-#, kde-format
-#~ msgid "Hide layer thumbnail popup"
-#~ msgstr "隱藏圖層浮動縮圖"
-
-#, kde-format
-#~ msgid "Color channels in color"
-#~ msgstr "顯示單一色彩通道時為其著色"
-
-#, kde-format
-#~ msgid "Enable selection outline anti-aliasing"
-#~ msgstr "啟用選取區域輪廓反鋸齒"
-
-#, kde-format
-#~ msgid "If checked, the checkers will move when scrolling the canvas."
-#~ msgstr "勾選後棋盤格背景將隨畫布捲動。"
-
-#, kde-format
-#~ msgid ""
-#~ "Determines whether the checks will stay put or whether they will scroll "
-#~ "together with the canvas"
-#~ msgstr "控制棋盤格背景應始終保持靜止還是隨畫布捲動"
-
-#, kde-format
-#~ msgid "&Move checkers when scrolling"
-#~ msgstr "捲動時移動棋盤格背景(&M)"
 
 #, kde-format
 #~ msgid "Enable Smooth Zooming"
