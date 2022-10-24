@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-10-24 00:46+0000\n"
-"PO-Revision-Date: 2022-10-23 09:21+0000\n"
+"PO-Revision-Date: 2022-10-24 11:32+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -24115,10 +24115,9 @@ msgstr "HDR 警告.................................."
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_3)
 #: libs/ui/forms/wdgdisplaysettings.ui:339
-#, fuzzy, kde-format
-#| msgid "Canvas Acceleration"
+#, kde-format
 msgid "Canvas Decorations"
-msgstr "畫布加速"
+msgstr "畫布輔助"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: libs/ui/forms/wdgdisplaysettings.ui:351
