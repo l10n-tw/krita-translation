@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-12 00:45+0000\n"
+"POT-Creation-Date: 2022-11-15 00:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -16090,7 +16090,7 @@ msgid "Cannot save %1 to html"
 msgstr ""
 
 #: libs/flake/KoMarkerCollection.cpp:67 libs/flake/resources/KoSvgSymbolCollectionResource.cpp:123
-#: libs/ui/flake/kis_shape_layer.cc:522
+#: libs/ui/flake/kis_shape_layer.cc:520
 #, kde-format
 msgid ""
 "Parsing error in the main document at line %1, column %2\n"
@@ -23100,12 +23100,12 @@ msgctxt "(qtundo-format)"
 msgid "Clear Vector Selection"
 msgstr ""
 
-#: libs/ui/flake/KisReferenceImagesLayer.cpp:23
+#: libs/ui/flake/KisReferenceImagesLayer.cpp:24
 msgctxt "(qtundo-format)"
 msgid "Add reference image"
 msgstr ""
 
-#: libs/ui/flake/KisReferenceImagesLayer.cpp:126
+#: libs/ui/flake/KisReferenceImagesLayer.cpp:134
 #, kde-format
 msgid "Reference images"
 msgstr ""
