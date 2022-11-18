@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-15 00:44+0000\n"
+"POT-Creation-Date: 2022-11-18 00:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -17184,7 +17184,7 @@ msgctxt "(qtundo-format)"
 msgid "Convert to a Paint Layer"
 msgstr ""
 
-#: libs/image/kis_processing_visitor.cpp:22
+#: libs/image/kis_processing_visitor.cpp:23
 #, kde-format
 msgid "Processing"
 msgstr ""
@@ -17479,22 +17479,22 @@ msgstr ""
 msgid "Satin (style)"
 msgstr ""
 
-#: libs/image/lazybrush/kis_colorize_mask.cpp:944
+#: libs/image/lazybrush/kis_colorize_mask.cpp:945
 msgctxt "(qtundo-format)"
 msgid "Change Key Stroke Color"
 msgstr ""
 
-#: libs/image/lazybrush/kis_colorize_mask.cpp:971
+#: libs/image/lazybrush/kis_colorize_mask.cpp:972
 msgctxt "(qtundo-format)"
 msgid "Remove Key Stroke"
 msgstr ""
 
-#: libs/image/lazybrush/kis_colorize_stroke_strategy.cpp:73
+#: libs/image/lazybrush/kis_colorize_stroke_strategy.cpp:74
 msgctxt "(qtundo-format)"
 msgid "Colorize"
 msgstr ""
 
-#: libs/image/lazybrush/kis_colorize_stroke_strategy.cpp:73
+#: libs/image/lazybrush/kis_colorize_stroke_strategy.cpp:74
 msgctxt "(qtundo-format)"
 msgid "Prefilter Colorize Mask"
 msgstr ""
@@ -37245,7 +37245,7 @@ msgstr ""
 #: plugins/dockers/layerdocker/LayerBox.cpp:368
 #, kde-format
 msgctxt "@item:inmenu Layers Docker settings, combobox"
-msgid "Subtitle Style"
+msgid "Blending Info Style"
 msgstr ""
 
 #: plugins/dockers/layerdocker/LayerBox.cpp:370
@@ -37260,32 +37260,32 @@ msgstr ""
 
 #: plugins/dockers/layerdocker/LayerBox.cpp:375
 #, kde-format
-msgctxt "@item:inlistbox Layer Docker subtitle style"
+msgctxt "@item:inlistbox Layer Docker blending info style"
 msgid "None"
 msgstr ""
 
 #: plugins/dockers/layerdocker/LayerBox.cpp:376
 #, kde-format
-msgctxt "@item:inlistbox Layer Docker subtitle style"
+msgctxt "@item:inlistbox Layer Docker blending info style"
 msgid "Simple"
 msgstr ""
 
 #: plugins/dockers/layerdocker/LayerBox.cpp:377
 #, kde-format
-msgctxt "@item:inlistbox Layer Docker subtitle style"
+msgctxt "@item:inlistbox Layer Docker blending info style"
 msgid "Balanced"
 msgstr ""
 
 #: plugins/dockers/layerdocker/LayerBox.cpp:378
 #, kde-format
-msgctxt "@item:inlistbox Layer Docker subtitle style"
+msgctxt "@item:inlistbox Layer Docker blending info style"
 msgid "Detailed"
 msgstr ""
 
 #: plugins/dockers/layerdocker/LayerBox.cpp:391
 #, kde-format
 msgctxt "@item:tooltip"
-msgid "Subtitle text opacity"
+msgid "Blending info text opacity"
 msgstr ""
 
 #: plugins/dockers/layerdocker/LayerBox.cpp:409
@@ -37298,7 +37298,7 @@ msgstr ""
 #, kde-format
 msgctxt "@item:tooltip"
 msgid ""
-"If enabled, show subtitles beside layer names.\n"
+"If enabled, show blending info beside layer names.\n"
 "If disabled, show below layer names (when enough space)."
 msgstr ""
 
