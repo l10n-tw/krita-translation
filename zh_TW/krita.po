@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-11-19 00:43+0000\n"
-"PO-Revision-Date: 2022-10-24 11:32+0000\n"
+"PO-Revision-Date: 2022-11-22 18:29+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -13630,9 +13630,7 @@ msgstr "全螢幕模式"
 #. i18n: context: text @ Action (view_detached_canvas), Actions (View), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (view_detached_canvas), Actions (View), ActionCollection (Menu)
 #: krita/kritamenu.action:640 krita/kritamenu.action:643
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Detach canvas"
+#, kde-format
 msgctxt "action"
 msgid "Detach Canvas"
 msgstr "在獨立視窗顯示畫布"
@@ -13794,19 +13792,17 @@ msgstr "以畫布為中心鏡像顯示"
 
 #. i18n: context: text @ Action (zoom_to_100pct), Actions (View), ActionCollection (Menu)
 #: krita/kritamenu.action:762
-#, fuzzy, no-c-format, kde-format
-#| msgid "Zoom to 100%"
+#, kde-format, no-c-format
 msgctxt "action"
 msgid "&Zoom to 100%"
-msgstr "縮放至 100%"
+msgstr "縮放至 100%(&Z)"
 
 #. i18n: context: toolTip @ Action (zoom_to_100pct), Actions (View), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (zoom_to_100pct), Actions (View), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (zoom_to_100pct), Actions (View), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (zoom_to_100pct), Actions (View), ActionCollection (Menu)
 #: krita/kritamenu.action:764 krita/kritamenu.action:765
-#, fuzzy, no-c-format, kde-format
-#| msgid "Zoom to 100%"
+#, kde-format, no-c-format
 msgctxt "action"
 msgid "Zoom to 100%"
 msgstr "縮放至 100%"
@@ -13848,7 +13844,7 @@ msgstr "縮小"
 #| msgid "Fit to Page"
 msgctxt "action"
 msgid "Fit to View"
-msgstr "適合頁面大小"
+msgstr "適合檢視大小"
 
 #. i18n: context: toolTip @ Action (zoom_to_fit), Actions (View), ActionCollection (Menu)
 #: krita/kritamenu.action:800
@@ -13856,7 +13852,7 @@ msgstr "適合頁面大小"
 #| msgid "Canvas Size"
 msgctxt "action"
 msgid "Fit Canvas to View"
-msgstr "畫布大小"
+msgstr "縮放畫布至符合檢視"
 
 #. i18n: context: text @ Action (zoom_to_fit_width), Actions (View), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (zoom_to_fit_width), Actions (View), ActionCollection (Menu)
@@ -13867,7 +13863,7 @@ msgstr "畫布大小"
 #| msgid "Fit to Width"
 msgctxt "action"
 msgid "Fit to View Width"
-msgstr "適合寬度"
+msgstr "適合檢視寬度"
 
 #. i18n: context: toolTip @ Action (zoom_to_fit_width), Actions (View), ActionCollection (Menu)
 #: krita/kritamenu.action:810
@@ -13875,7 +13871,7 @@ msgstr "適合寬度"
 #| msgid "Fit to Width"
 msgctxt "action"
 msgid "Fit Canvas to View Width"
-msgstr "適合寬度"
+msgstr "縮放畫布至符合檢視寬度"
 
 #. i18n: context: text @ Action (zoom_to_fit_height), Actions (View), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (zoom_to_fit_height), Actions (View), ActionCollection (Menu)
@@ -13886,7 +13882,7 @@ msgstr "適合寬度"
 #| msgid "Fit to Height"
 msgctxt "action"
 msgid "Fit to View Height"
-msgstr "適合高度"
+msgstr "適合檢視高度"
 
 #. i18n: context: toolTip @ Action (zoom_to_fit_height), Actions (View), ActionCollection (Menu)
 #: krita/kritamenu.action:820
@@ -13894,7 +13890,7 @@ msgstr "適合高度"
 #| msgid "Fit to Height"
 msgctxt "action"
 msgid "Fit Canvas to View Height"
-msgstr "適合高度"
+msgstr "縮放畫布至符合檢視高度"
 
 #. i18n: context: text @ Action (toggle_zoom_to_fit), Actions (View), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (toggle_zoom_to_fit), Actions (View), ActionCollection (Menu)
@@ -13909,7 +13905,7 @@ msgstr "適合高度"
 #| msgid "Toggle Zoom Fit to Page"
 msgctxt "action"
 msgid "Toggle Fit to View"
-msgstr "切換縮放適合頁面大小"
+msgstr "切換縮放適合檢視大小"
 
 #. i18n: context: text @ Action (rotate_canvas_right), Actions (View), ActionCollection (Menu)
 #: krita/kritamenu.action:838
