@@ -58860,132 +58860,104 @@ msgctxt "action"
 msgid "Reference Images Tool"
 msgstr "參考圖工具"
 
-#, kde-format
 #~ msgid "&Canvas"
 #~ msgstr "畫布(&C)"
 
-#, kde-format
 #~ msgctxt "action"
 #~ msgid "&Reset Zoom"
 #~ msgstr "重設縮放(&R)"
 
-#, kde-format
 #~ msgctxt "action"
 #~ msgid "Reset Zoom"
 #~ msgstr "重設縮放"
 
-#, kde-format
 #~ msgctxt "action"
 #~ msgid "Zoom Fit to Page"
 #~ msgstr "縮放至適合頁面大小"
 
-#, kde-format
 #~ msgctxt "action"
 #~ msgid "Zoom Fit to Width"
 #~ msgstr "縮放至適合寬度"
 
-#, kde-format
 #~ msgctxt "action"
 #~ msgid "Zoom Fit to Page Width"
 #~ msgstr "縮放至適合頁寬"
 
-#, kde-format
 #~ msgctxt "action"
 #~ msgid "Zoom Fit to Height"
 #~ msgstr "縮放至適合高度"
 
-#, kde-format
 #~ msgctxt "action"
 #~ msgid "Zoom Fit to Page Height"
 #~ msgstr "縮放至適合頁高"
 
-#, kde-format
 #~ msgid "Duplicate current profile"
 #~ msgstr "複製目前設定"
 
-#, kde-format
 #~ msgid "Reset Zoom to 100%"
 #~ msgstr "重設縮放為 100%"
 
-#, kde-format
 #~ msgid "Fit Page"
 #~ msgstr "適合頁面大小"
 
-#, kde-format
 #~ msgctxt "@item:inmenu Layers Docker settings, combobox"
 #~ msgid "Subtitle Style"
 #~ msgstr "副標題樣式"
 
-#, kde-format
 #~ msgctxt "@item:inlistbox Layer Docker subtitle style"
 #~ msgid "None"
 #~ msgstr "無"
 
-#, kde-format
 #~ msgctxt "@item:inlistbox Layer Docker subtitle style"
 #~ msgid "Simple"
 #~ msgstr "簡單"
 
-#, kde-format
 #~ msgctxt "JPEG-XL errors"
 #~ msgid "JPEG-XL encoded profile not implemented"
 #~ msgstr "未支援 JPEG-XL 內嵌碥碼的色彩特性"
 
-#, kde-format
 #~ msgid "Grid Settings"
 #~ msgstr "格線設定"
 
-#, kde-format
 #~ msgid "Enable Smooth Zooming"
 #~ msgstr "啟用平滑縮放"
 
-#, kde-format
 #~ msgid ""
 #~ "Grow (positive values) or shrink (negative values) the selection by the "
 #~ "set amount"
 #~ msgstr "按數值擴張或收縮選取區域 (正數為擴張，負數為收縮)"
 
-#, kde-format
 #~ msgid "Make the selection using the active layer"
 #~ msgstr "以使用中圖層製成選取區域"
 
-#, kde-format
 #~ msgid "Make the selection using a merged copy of all layers"
 #~ msgstr "以全部圖層合併的影像製成選取區域"
 
-#, kde-format
 #~ msgid ""
 #~ "Make the selection using a merged copy of the selected color-labeled "
 #~ "layers"
 #~ msgstr "按所選色彩標籤的圖層合併的影像製成選取區域"
 
-#, kde-format
 #~ msgid "The added duration for showing the last frame."
 #~ msgstr "保持顯示最後一個影格的額外時長。"
 
-#, kde-format
 #~ msgid "Current selection"
 #~ msgstr "目前選取區域"
 
-#, kde-format
 #~ msgid "Contiguous region obtained from the layers"
 #~ msgstr "從圖層檢取連續區域"
 
-#, kde-format
 #~ msgid "All the regions similar to the pixel you clicked on"
 #~ msgstr "所有與所點選像素相似的區域"
 
-#, kde-format
 #~ msgid "Select pixels similar to the one you clicked on"
 #~ msgstr "選取與所點選像素相似的像素"
 
-#, kde-format
 #~ msgid ""
 #~ "Set how far the region should extend from the selected pixel in terms of "
 #~ "color similarity"
 #~ msgstr "設定區域根據色彩相似度從所選像素擴張的程度"
 
-#, kde-format
 #~ msgid ""
 #~ "Set how far the fully opaque portion of the region should extend.\n"
 #~ "0% will make opaque only the pixels that are exactly equal to the "
@@ -58996,44 +58968,36 @@ msgstr "參考圖工具"
 #~ "0% 表示只有與所選像素完全相同數值的像素才會填上不透明色。\n"
 #~ "100% 表示一直到區域邊界的所有像素均會填上不透明色。"
 
-#, kde-format
 #~ msgid ""
 #~ "Grow (positive values) or shrink (negative values) the region by the set "
 #~ "amount"
 #~ msgstr "按數值擴張或收縮區域 (正數為擴張，負數為收縮)"
 
-#, kde-format
 #~ msgid ""
 #~ "Obtain the region using a merged copy of the selected color-labeled layers"
 #~ msgstr "按所選色彩標籤的圖層合併的影像檢取區域"
 
-#, kde-format
 #~ msgctxt "The 'what to fill' section label in fill tool options"
 #~ msgid "What to fill"
 #~ msgstr "填充區域"
 
-#, kde-format
 #~ msgctxt "The 'fill with' section label in fill tool options"
 #~ msgid "Fill with"
 #~ msgstr "填充內容"
 
-#, kde-format
 #~ msgctxt "The 'region extent' section label in fill tool options"
 #~ msgid "Region extent"
 #~ msgstr "區域範圍"
 
-#, kde-format
 #~ msgctxt "The 'multiple fill' section label in fill tool options"
 #~ msgid "Multiple fill"
 #~ msgstr "多重填充"
 
-#, kde-format
 #~ msgid ""
 #~ "Set how far the selection should extend from the selected pixel in terms "
 #~ "of color similarity"
 #~ msgstr "設定選取區域根據色彩相似度從所選像素擴張的程度"
 
-#, kde-format
 #~ msgid ""
 #~ "Set how far the fully opaque portion of the selection should extend.\n"
 #~ "0% will make the selection opaque only where the pixels are exactly equal "
@@ -59044,40 +59008,32 @@ msgstr "參考圖工具"
 #~ "0% 表示只有與所選像素完全相同數值的像素才會作完全不透明選取。\n"
 #~ "100% 表示一直到區域邊界的所有像素均會作完全不透明選取。"
 
-#, kde-format
 #~ msgid "Set how far the selection should extend in terms of color similarity"
 #~ msgstr "設定選取區域根據色彩相似度擴張的程度"
 
-#, kde-format
 #~ msgid "Check this option to fill all the regions except the selected ones"
 #~ msgstr "核取此選項以填充除已選取區域外的所有區域"
 
-#, kde-format
 #~ msgctxt "The 'what to fill' section label in enclose and fill tool options"
 #~ msgid "What to fill"
 #~ msgstr "填充區域"
 
-#, kde-format
 #~ msgctxt "The 'fill with' section label in enclose and fill tool options"
 #~ msgid "Fill with"
 #~ msgstr "填充內容"
 
-#, kde-format
 #~ msgctxt "The 'region extent' section label in enclose and fill tool options"
 #~ msgid "Region extent"
 #~ msgstr "區域範圍"
 
-#, kde-format
 #~ msgctxt "Region selection method in enclose and fill tool"
 #~ msgid "All regions"
 #~ msgstr "所有區域"
 
-#, kde-format
 #~ msgctxt "Region selection method in enclose and fill tool"
 #~ msgid "All regions except the transparent ones"
 #~ msgstr "除透明以外的所有區域"
 
-#, kde-format
 #~ msgctxt "Region selection method in enclose and fill tool"
 #~ msgid "All regions except those of a specific color or transparent"
 #~ msgstr "除特定色彩或透明以外的所有區域"
