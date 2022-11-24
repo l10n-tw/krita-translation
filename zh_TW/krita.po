@@ -46238,8 +46238,9 @@ msgctxt "@tooltip"
 msgid ""
 "The image will be stored without conversion, the ICC profile will be "
 "converted to CICP or embedded if it was not possible."
-msgstr "影像會不作色彩轉換而保存。ICC 色彩特性會轉換為 "
-"CICP，或者在不可能這樣做的時候將其嵌入。"
+msgstr ""
+"影像會不作色彩轉換而保存。ICC 色彩特性會轉換為 CICP，或者在不可能這樣做的時候"
+"將其嵌入。"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, haveAnimation)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:37
@@ -46387,8 +46388,8 @@ msgid ""
 "Applications like Google Chrome expect HDR images to store their color "
 "profile as CICP values. You can adjust the ICC profile conversion below."
 msgstr ""
-"某些應用程式，例如 Google Chrome，預期 HDR 影像將色彩特性儲存作 CICP 數值。"
-"您可以在下方調整 ICC 色彩特性的轉換方式。"
+"某些應用程式，例如 Google Chrome，預期 HDR 影像將色彩特性儲存作 CICP 數值。您"
+"可以在下方調整 ICC 色彩特性的轉換方式。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblResampling)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:370
