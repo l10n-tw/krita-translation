@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-22 00:43+0000\n"
+"POT-Creation-Date: 2022-11-24 00:43+0000\n"
 "PO-Revision-Date: 2022-11-22 18:29+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
@@ -16711,7 +16711,7 @@ msgid "Set Image Resolution"
 msgstr "設定影像解析度"
 
 #: libs/image/commands_new/kis_move_command_common.h:28
-#: libs/ui/tool/strokes/move_stroke_strategy.cpp:221
+#: libs/ui/tool/strokes/move_stroke_strategy.cpp:224
 msgctxt "(qtundo-format)"
 msgid "Move"
 msgstr "移動"
@@ -34271,7 +34271,7 @@ msgstr "無法寫入調色板檔案 %1。它可能是唯讀檔案。 "
 
 #. i18n: ectx: property (text), widget (QLabel, paletteLabel)
 #: libs/widgets/KoEditColorSetDialog.cpp:202
-#: plugins/dockers/palettedocker/palettedocker_dock.cpp:57
+#: plugins/dockers/palettedocker/palettedocker_dock.cpp:58
 #: plugins/filters/palettize/palettize.ui:39
 #, kde-format
 msgid "Palette"
@@ -38432,51 +38432,58 @@ msgctxt "Make the controls in the overview docker auto-hide or always visible"
 msgid "Pin navigation controls"
 msgstr "固定瀏覽控制項"
 
-#: plugins/dockers/palettedocker/palettedocker_dock.cpp:66
+#: plugins/dockers/palettedocker/palettedocker_dock.cpp:67
 #, kde-format
 msgid "Add a new color swatch"
 msgstr "新增色塊"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, bnRemove)
-#: plugins/dockers/palettedocker/palettedocker_dock.cpp:67
+#: plugins/dockers/palettedocker/palettedocker_dock.cpp:68
 #: plugins/dockers/palettedocker/wdgpalettedock.ui:121
 #, kde-format
 msgid "Remove swatch or group"
 msgstr "移除色塊或群組"
 
-#: plugins/dockers/palettedocker/palettedocker_dock.cpp:68
+#: plugins/dockers/palettedocker/palettedocker_dock.cpp:69
 #, kde-format
 msgid "Edit swatch or group"
 msgstr "編輯色塊或群組"
 
-#: plugins/dockers/palettedocker/palettedocker_dock.cpp:69
+#: plugins/dockers/palettedocker/palettedocker_dock.cpp:70
 #, kde-format
 msgid "Edit current palette"
 msgstr "移除目前調色板"
 
-#: plugins/dockers/palettedocker/palettedocker_dock.cpp:70
+#: plugins/dockers/palettedocker/palettedocker_dock.cpp:71
 #, kde-format
 msgid "Save current palette"
 msgstr "儲存目前調色板"
 
-#: plugins/dockers/palettedocker/palettedocker_dock.cpp:123
+#: plugins/dockers/palettedocker/palettedocker_dock.cpp:124
 #, kde-format
 msgid "Load a palette"
 msgstr "載入調色板"
 
-#: plugins/dockers/palettedocker/palettedocker_dock.cpp:216
+#: plugins/dockers/palettedocker/palettedocker_dock.cpp:217
 #, kde-format
 msgid "Export Palette"
 msgstr "匯出調色板"
 
-#: plugins/dockers/palettedocker/palettedocker_dock.cpp:362
+#: plugins/dockers/palettedocker/palettedocker_dock.cpp:230
+#, fuzzy, kde-format
+#| msgid "Export Successful"
+msgctxt "Floating message about exporting successful"
+msgid "Palette exported successfully"
+msgstr "匯出成功"
+
+#: plugins/dockers/palettedocker/palettedocker_dock.cpp:372
 #, kde-format
 msgctxt "@tooltip"
 msgid ""
 "Save palette explicitly, will also happen automatically on exiting Krita."
 msgstr "手動儲存調色板。在關閉 Krita 時調色板也會自動儲存。"
 
-#: plugins/dockers/palettedocker/palettedocker_dock.cpp:364
+#: plugins/dockers/palettedocker/palettedocker_dock.cpp:374
 #, kde-format
 msgctxt "@tooltip"
 msgid "Saving for document palettes is done by saving the document."
@@ -55446,13 +55453,13 @@ msgstr ""
 msgid "Measure Tool"
 msgstr "測量工具"
 
-#: plugins/tools/basictools/kis_tool_move.cc:281
+#: plugins/tools/basictools/kis_tool_move.cc:284
 #, kde-format
 msgctxt "floating message in move tool"
 msgid "X: %1 px, Y: %2 px"
 msgstr "X：%1 px， Y：%2 px"
 
-#: plugins/tools/basictools/kis_tool_move.cc:329
+#: plugins/tools/basictools/kis_tool_move.cc:332
 #, kde-format
 msgctxt "floating message in move tool"
 msgid "Selected area has no pixels"
@@ -55566,7 +55573,7 @@ msgctxt "action"
 msgid "Freehand Path Tool"
 msgstr "手繪路徑工具"
 
-#: plugins/tools/basictools/strokes/move_selection_stroke_strategy.cpp:24
+#: plugins/tools/basictools/strokes/move_selection_stroke_strategy.cpp:29
 msgctxt "(qtundo-format)"
 msgid "Move Selection"
 msgstr "移動選取區域"
@@ -58282,8 +58289,8 @@ msgctxt "action"
 msgid "Transform a layer or a selection"
 msgstr "對圖層或選取區域進行變形"
 
-#: plugins/tools/tool_transform2/strokes/inplace_transform_stroke_strategy.cpp:140
-#: plugins/tools/tool_transform2/strokes/transform_stroke_strategy.cpp:56
+#: plugins/tools/tool_transform2/strokes/inplace_transform_stroke_strategy.cpp:143
+#: plugins/tools/tool_transform2/strokes/transform_stroke_strategy.cpp:58
 msgctxt "(qtundo-format)"
 msgid "Transform"
 msgstr "變形"
