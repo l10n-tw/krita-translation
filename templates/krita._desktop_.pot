@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop files\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-01-02 01:17+0000\n"
+"POT-Creation-Date: 2023-01-04 00:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -121,7 +121,7 @@ msgctxt "Name"
 msgid "waffle-iron grid"
 msgstr ""
 
-#: krita/data/templates/comics/a4_waffle_grid.desktop:43
+#: krita/data/templates/comics/a4_waffle_grid.desktop:44
 msgctxt "Comment"
 msgid "300 dpi, A4 waffle-iron grid comic page with ink and color layers"
 msgstr ""
@@ -453,7 +453,7 @@ msgctxt "Name"
 msgid "Mixer Slider docker"
 msgstr ""
 
-#: plugins/python/mixer_slider_docker/kritapykrita_mixer_slider_docker.desktop:35
+#: plugins/python/mixer_slider_docker/kritapykrita_mixer_slider_docker.desktop:36
 msgctxt "Comment"
 msgid "A color slider."
 msgstr ""
@@ -463,7 +463,7 @@ msgctxt "Name"
 msgid "Palette docker"
 msgstr ""
 
-#: plugins/python/palette_docker/kritapykrita_palette_docker.desktop:41
+#: plugins/python/palette_docker/kritapykrita_palette_docker.desktop:42
 msgctxt "Comment"
 msgid "A Python-based docker to edit color palettes."
 msgstr ""
@@ -473,7 +473,7 @@ msgctxt "Name"
 msgid "Krita Photobash Images"
 msgstr ""
 
-#: plugins/python/photobash_images/kritapykrita_photobash_images.desktop:35
+#: plugins/python/photobash_images/kritapykrita_photobash_images.desktop:36
 msgctxt "Comment"
 msgid ""
 "A plugin to fetch images from a specified folder. Very useful for "
