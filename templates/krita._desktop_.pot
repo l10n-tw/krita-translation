@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop files\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-01-04 00:59+0000\n"
+"POT-Creation-Date: 2023-01-06 00:57+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -131,7 +131,7 @@ msgctxt "Name"
 msgid "European BD template"
 msgstr ""
 
-#: krita/data/templates/comics/BD-EuroTemplate.desktop:46
+#: krita/data/templates/comics/BD-EuroTemplate.desktop:47
 msgctxt "Comment"
 msgid "template for European BD-style comics"
 msgstr ""
@@ -298,13 +298,13 @@ msgid "Texture 8k 8bit srgb"
 msgstr ""
 
 #: krita/org.kde.krita.desktop:2 plugins/impex/brush/krita_brush.desktop:2
-#: plugins/impex/csv/krita_csv.desktop:2 plugins/impex/exr/krita_exr.desktop:58
+#: plugins/impex/csv/krita_csv.desktop:2 plugins/impex/exr/krita_exr.desktop:59
 #: plugins/impex/gif/krita_gif.desktop:2
-#: plugins/impex/heif/krita_heif.desktop:58
+#: plugins/impex/heif/krita_heif.desktop:59
 #: plugins/impex/heightmap/krita_heightmap.desktop:7
-#: plugins/impex/jp2/krita_jp2.desktop:55
+#: plugins/impex/jp2/krita_jp2.desktop:56
 #: plugins/impex/jpeg/krita_jpeg.desktop:6
-#: plugins/impex/jxl/krita_jxl.desktop:58 plugins/impex/kra/krita_kra.desktop:7
+#: plugins/impex/jxl/krita_jxl.desktop:59 plugins/impex/kra/krita_kra.desktop:7
 #: plugins/impex/krz/krita_krz.desktop:7 plugins/impex/ora/krita_ora.desktop:7
 #: plugins/impex/pdf/krita_pdf.desktop:6 plugins/impex/png/krita_png.desktop:2
 #: plugins/impex/psd/krita_psd.desktop:6
@@ -443,7 +443,7 @@ msgctxt "Name"
 msgid "Last Documents Docker"
 msgstr ""
 
-#: plugins/python/lastdocumentsdocker/kritapykrita_lastdocumentsdocker.desktop:40
+#: plugins/python/lastdocumentsdocker/kritapykrita_lastdocumentsdocker.desktop:41
 msgctxt "Comment"
 msgid "A Python-based docker for show thumbnails to last ten documents"
 msgstr ""
@@ -495,7 +495,7 @@ msgctxt "Name"
 msgid "Quick Settings Docker"
 msgstr ""
 
-#: plugins/python/quick_settings_docker/kritapykrita_quick_settings_docker.desktop:40
+#: plugins/python/quick_settings_docker/kritapykrita_quick_settings_docker.desktop:41
 msgctxt "Comment"
 msgid "A Python-based docker for quickly changing brush size and opacity."
 msgstr ""
@@ -505,7 +505,7 @@ msgctxt "Name"
 msgid "Script Docker"
 msgstr ""
 
-#: plugins/python/scriptdocker/kritapykrita_scriptdocker.desktop:39
+#: plugins/python/scriptdocker/kritapykrita_scriptdocker.desktop:40
 msgctxt "Comment"
 msgid "A Python-based docker for create actions and point to Python scripts"
 msgstr ""
@@ -525,7 +525,7 @@ msgctxt "Name"
 msgid "Selections Bag Docker"
 msgstr ""
 
-#: plugins/python/selectionsbagdocker/kritapykrita_selectionsbagdocker.desktop:36
+#: plugins/python/selectionsbagdocker/kritapykrita_selectionsbagdocker.desktop:37
 msgctxt "Comment"
 msgid "A docker that allow to store a list of selections"
 msgstr ""
