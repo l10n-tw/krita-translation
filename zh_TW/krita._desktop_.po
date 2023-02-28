@@ -22,7 +22,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_koffice\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-21 00:55+0000\n"
+"POT-Creation-Date: 2023-02-07 01:07+0000\n"
 "PO-Revision-Date: 2021-10-23 11:25+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
@@ -49,7 +49,7 @@ msgctxt "Name"
 msgid "Erasers"
 msgstr "橡皮擦"
 
-#: krita/data/paintoppresets/Erasers.tag:34
+#: krita/data/paintoppresets/Erasers.tag:36
 msgctxt "Comment"
 msgid "Eraser Brush Presets"
 msgstr "擦除用筆刷預設"
@@ -59,7 +59,7 @@ msgctxt "Name"
 msgid "★ My Favorites"
 msgstr "★ 最愛"
 
-#: krita/data/paintoppresets/Favorites.tag:35
+#: krita/data/paintoppresets/Favorites.tag:37
 msgctxt "Comment"
 msgid "Your favorite brush presets"
 msgstr "您最常用的筆刷預設"
@@ -69,7 +69,7 @@ msgctxt "Name"
 msgid "FX"
 msgstr "特效"
 
-#: krita/data/paintoppresets/FX.tag:36
+#: krita/data/paintoppresets/FX.tag:38
 msgctxt "Comment"
 msgid "Special Effects.kpp"
 msgstr "Special Effects.kpp"
@@ -79,7 +79,7 @@ msgctxt "Name"
 msgid "Ink"
 msgstr "上墨"
 
-#: krita/data/paintoppresets/Ink.tag:36
+#: krita/data/paintoppresets/Ink.tag:38
 msgctxt "Comment"
 msgid "Inking Brush Presets"
 msgstr "上墨用筆刷預設"
@@ -89,7 +89,7 @@ msgctxt "Name"
 msgid "Paint"
 msgstr "塗繪"
 
-#: krita/data/paintoppresets/Paint.tag:36
+#: krita/data/paintoppresets/Paint.tag:38
 msgctxt "Comment"
 msgid "Paint Brushes"
 msgstr "塗繪筆刷"
@@ -99,7 +99,7 @@ msgctxt "Name"
 msgid "Pixel Art"
 msgstr "像素畫"
 
-#: krita/data/paintoppresets/Pixel_Art.tag:34
+#: krita/data/paintoppresets/Pixel_Art.tag:36
 msgctxt "Comment"
 msgid "Presets for working with individual pixels"
 msgstr "對個別像素操作的筆刷預設"
@@ -109,7 +109,7 @@ msgctxt "Name"
 msgid "Sketch"
 msgstr "草圖"
 
-#: krita/data/paintoppresets/Sketch.tag:36
+#: krita/data/paintoppresets/Sketch.tag:38
 msgctxt "Comment"
 msgid "Sketching brush presets"
 msgstr "草圖用筆刷預設"
@@ -119,7 +119,7 @@ msgctxt "Name"
 msgid "Textures"
 msgstr "紋理"
 
-#: krita/data/paintoppresets/Textures.tag:37
+#: krita/data/paintoppresets/Textures.tag:39
 msgctxt "Comment"
 msgid "Textured Brush Presets"
 msgstr "帶紋理的筆刷預設"
@@ -144,7 +144,7 @@ msgctxt "Name"
 msgid "waffle-iron grid"
 msgstr "華夫餅/窩夫烤盤格線"
 
-#: krita/data/templates/comics/a4_waffle_grid.desktop:43
+#: krita/data/templates/comics/a4_waffle_grid.desktop:45
 msgctxt "Comment"
 msgid "300 dpi, A4 waffle-iron grid comic page with ink and color layers"
 msgstr "300 dpi，A4 大小的華夫餅/窩夫烤盤鐵模狀的格線，有墨水線稿與顏色圖層"
@@ -154,7 +154,7 @@ msgctxt "Name"
 msgid "European BD template"
 msgstr "歐洲風漫畫範本"
 
-#: krita/data/templates/comics/BD-EuroTemplate.desktop:46
+#: krita/data/templates/comics/BD-EuroTemplate.desktop:48
 msgctxt "Comment"
 msgid "template for European BD-style comics"
 msgstr "歐洲 BD (bande dessinée) 風格的連環漫畫範本"
@@ -164,7 +164,7 @@ msgctxt "Name"
 msgid "US-style comics template"
 msgstr "美式漫畫範本"
 
-#: krita/data/templates/comics/Comics-USTemplate.desktop:47
+#: krita/data/templates/comics/Comics-USTemplate.desktop:48
 msgctxt "Comment"
 msgid "template for US-style comics"
 msgstr "美式風格的連環漫畫範本"
@@ -179,7 +179,7 @@ msgctxt "Name"
 msgid "Manga template"
 msgstr "日本漫畫範本"
 
-#: krita/data/templates/comics/Manga-JpTemplate.desktop:49
+#: krita/data/templates/comics/Manga-JpTemplate.desktop:50
 msgctxt "Comment"
 msgid "template for Japanese Manga-style comics"
 msgstr "日本漫畫 (manga) 風格的連環漫畫範本"
@@ -321,13 +321,13 @@ msgid "Texture 8k 8bit srgb"
 msgstr "紋理 8k 8位元 srgb"
 
 #: krita/org.kde.krita.desktop:2 plugins/impex/brush/krita_brush.desktop:2
-#: plugins/impex/csv/krita_csv.desktop:2 plugins/impex/exr/krita_exr.desktop:58
+#: plugins/impex/csv/krita_csv.desktop:2 plugins/impex/exr/krita_exr.desktop:59
 #: plugins/impex/gif/krita_gif.desktop:2
-#: plugins/impex/heif/krita_heif.desktop:58
+#: plugins/impex/heif/krita_heif.desktop:59
 #: plugins/impex/heightmap/krita_heightmap.desktop:7
-#: plugins/impex/jp2/krita_jp2.desktop:55
+#: plugins/impex/jp2/krita_jp2.desktop:56
 #: plugins/impex/jpeg/krita_jpeg.desktop:6
-#: plugins/impex/jxl/krita_jxl.desktop:58 plugins/impex/kra/krita_kra.desktop:7
+#: plugins/impex/jxl/krita_jxl.desktop:59 plugins/impex/kra/krita_kra.desktop:7
 #: plugins/impex/krz/krita_krz.desktop:7 plugins/impex/ora/krita_ora.desktop:7
 #: plugins/impex/pdf/krita_pdf.desktop:6 plugins/impex/png/krita_png.desktop:2
 #: plugins/impex/psd/krita_psd.desktop:6
@@ -347,7 +347,7 @@ msgctxt "GenericName"
 msgid "Digital Painting"
 msgstr "數位繪畫"
 
-#: krita/org.kde.krita.desktop:113
+#: krita/org.kde.krita.desktop:114
 msgctxt "Comment"
 msgid "Digital Painting"
 msgstr "數位繪畫"
@@ -364,7 +364,7 @@ msgctxt "Name"
 msgid "Assign Profile to Image"
 msgstr "為影像指定色彩特性檔案"
 
-#: plugins/python/assignprofiledialog/kritapykrita_assignprofiledialog.desktop:43
+#: plugins/python/assignprofiledialog/kritapykrita_assignprofiledialog.desktop:44
 msgctxt "Comment"
 msgid "Assign a profile to an image without converting it."
 msgstr "將色彩特性檔案指定給圖像，而不進行轉換。"
@@ -374,7 +374,7 @@ msgctxt "Name"
 msgid "Batch Exporter"
 msgstr "批次匯出工具"
 
-#: plugins/python/batch_exporter/kritapykrita_batch_exporter.desktop:38
+#: plugins/python/batch_exporter/kritapykrita_batch_exporter.desktop:40
 msgctxt "Comment"
 msgid ""
 "Smart export tool that uses layer names to scale and (re-)export art assets "
@@ -386,7 +386,7 @@ msgctxt "Name"
 msgid "Channels to layers"
 msgstr "色彩通道轉換為圖層"
 
-#: plugins/python/channels2layers/kritapykrita_channels2layers.desktop:40
+#: plugins/python/channels2layers/kritapykrita_channels2layers.desktop:42
 msgctxt "Comment"
 msgid "Extract channels as color layers"
 msgstr "將色彩通道擷取為色彩圖層"
@@ -396,7 +396,7 @@ msgctxt "Name"
 msgid "Color Space"
 msgstr "色彩空間"
 
-#: plugins/python/colorspace/kritapykrita_colorspace.desktop:44
+#: plugins/python/colorspace/kritapykrita_colorspace.desktop:45
 msgctxt "Comment"
 msgid "Plugin to change color space to selected documents"
 msgstr "用於變更色彩空間為選定檔案的外掛程式"
@@ -406,7 +406,7 @@ msgctxt "Name"
 msgid "Comics Project Management Tools"
 msgstr "漫畫專案管理工具"
 
-#: plugins/python/comics_project_management_tools/kritapykrita_comics_project_management_tools.desktop:42
+#: plugins/python/comics_project_management_tools/kritapykrita_comics_project_management_tools.desktop:43
 msgctxt "Comment"
 msgid "Tools for managing comics."
 msgstr "管理漫畫的工具。"
@@ -416,7 +416,7 @@ msgctxt "Name"
 msgid "Document Tools"
 msgstr "檔案工具"
 
-#: plugins/python/documenttools/kritapykrita_documenttools.desktop:42
+#: plugins/python/documenttools/kritapykrita_documenttools.desktop:43
 msgctxt "Comment"
 msgid "Plugin to manipulate properties of selected documents"
 msgstr "用於修改所選檔案屬性的外掛程式"
@@ -426,7 +426,7 @@ msgctxt "Name"
 msgid "Export Layers"
 msgstr "匯出圖層"
 
-#: plugins/python/exportlayers/kritapykrita_exportlayers.desktop:42
+#: plugins/python/exportlayers/kritapykrita_exportlayers.desktop:43
 msgctxt "Comment"
 msgid "Plugin to export layers from a document"
 msgstr "用於從檔案匯出圖層的外掛程式"
@@ -436,7 +436,7 @@ msgctxt "Name"
 msgid "Filter Manager"
 msgstr "濾鏡管理器"
 
-#: plugins/python/filtermanager/kritapykrita_filtermanager.desktop:42
+#: plugins/python/filtermanager/kritapykrita_filtermanager.desktop:43
 msgctxt "Comment"
 msgid "Plugin to filters management"
 msgstr "用於管理濾鏡的外掛程式"
@@ -446,7 +446,7 @@ msgctxt "Name"
 msgid "Highpass Filter"
 msgstr "高通濾鏡"
 
-#: plugins/python/highpass/kritapykrita_highpass.desktop:39
+#: plugins/python/highpass/kritapykrita_highpass.desktop:40
 msgctxt "Comment"
 msgid "Highpass Filter, based on http://registry.gimp.org/node/7385"
 msgstr "高通濾鏡，基於 http://registry.gimp.org/node/7385"
@@ -456,7 +456,7 @@ msgctxt "Name"
 msgid "Krita Script Starter"
 msgstr "Krita 指令稿起步助手"
 
-#: plugins/python/krita_script_starter/kritapykrita_krita_script_starter.desktop:39
+#: plugins/python/krita_script_starter/kritapykrita_krita_script_starter.desktop:41
 msgctxt "Comment"
 msgid "Create the metadata and file structure for a new Krita script"
 msgstr "為新的 Krita 指令稿建立中繼資料和檔案建構體"
@@ -466,7 +466,7 @@ msgctxt "Name"
 msgid "Last Documents Docker"
 msgstr "「最近使用檔案」面板"
 
-#: plugins/python/lastdocumentsdocker/kritapykrita_lastdocumentsdocker.desktop:40
+#: plugins/python/lastdocumentsdocker/kritapykrita_lastdocumentsdocker.desktop:42
 msgctxt "Comment"
 msgid "A Python-based docker for show thumbnails to last ten documents"
 msgstr "基於 Python 的面板，用於顯示最近 10 個檔案的縮圖"
@@ -476,7 +476,7 @@ msgctxt "Name"
 msgid "Mixer Slider docker"
 msgstr "混色滑動條工具面板"
 
-#: plugins/python/mixer_slider_docker/kritapykrita_mixer_slider_docker.desktop:34
+#: plugins/python/mixer_slider_docker/kritapykrita_mixer_slider_docker.desktop:37
 msgctxt "Comment"
 msgid "A color slider."
 msgstr "色彩滑動條。"
@@ -486,7 +486,7 @@ msgctxt "Name"
 msgid "Palette docker"
 msgstr "「調色板」面板"
 
-#: plugins/python/palette_docker/kritapykrita_palette_docker.desktop:41
+#: plugins/python/palette_docker/kritapykrita_palette_docker.desktop:43
 msgctxt "Comment"
 msgid "A Python-based docker to edit color palettes."
 msgstr "基於 Python 的面板，用於編輯調色板。"
@@ -496,7 +496,7 @@ msgctxt "Name"
 msgid "Krita Photobash Images"
 msgstr "Krita Photobash 影像"
 
-#: plugins/python/photobash_images/kritapykrita_photobash_images.desktop:34
+#: plugins/python/photobash_images/kritapykrita_photobash_images.desktop:37
 msgctxt "Comment"
 msgid ""
 "A plugin to fetch images from a specified folder. Very useful for "
@@ -509,7 +509,7 @@ msgctxt "Name"
 msgid "Python Plugin Importer"
 msgstr "Python 外掛程式匯入工具"
 
-#: plugins/python/plugin_importer/kritapykrita_plugin_importer.desktop:38
+#: plugins/python/plugin_importer/kritapykrita_plugin_importer.desktop:40
 msgctxt "Comment"
 msgid "Imports Python plugins from zip files."
 msgstr "從 ZIP 檔案匯入 Python 外掛程式。"
@@ -519,7 +519,7 @@ msgctxt "Name"
 msgid "Quick Settings Docker"
 msgstr "「快速設定」面板"
 
-#: plugins/python/quick_settings_docker/kritapykrita_quick_settings_docker.desktop:40
+#: plugins/python/quick_settings_docker/kritapykrita_quick_settings_docker.desktop:42
 msgctxt "Comment"
 msgid "A Python-based docker for quickly changing brush size and opacity."
 msgstr "基於 Python 的面板，用於快速變更筆刷尺寸和不透明度。"
@@ -529,7 +529,7 @@ msgctxt "Name"
 msgid "Script Docker"
 msgstr "「指令稿」面板"
 
-#: plugins/python/scriptdocker/kritapykrita_scriptdocker.desktop:39
+#: plugins/python/scriptdocker/kritapykrita_scriptdocker.desktop:41
 msgctxt "Comment"
 msgid "A Python-based docker for create actions and point to Python scripts"
 msgstr "基於 Python 的面板，用於建立動作並指向 Python 指令稿"
@@ -539,7 +539,7 @@ msgctxt "Name"
 msgid "Scripter"
 msgstr "指令稿執行器"
 
-#: plugins/python/scripter/kritapykrita_scripter.desktop:40
+#: plugins/python/scripter/kritapykrita_scripter.desktop:41
 msgctxt "Comment"
 msgid "Plugin to execute ad-hoc Python code"
 msgstr "可直接執行 Python 指令的外掛程式"
@@ -549,7 +549,7 @@ msgctxt "Name"
 msgid "Selections Bag Docker"
 msgstr "「選取區域收藏」面板"
 
-#: plugins/python/selectionsbagdocker/kritapykrita_selectionsbagdocker.desktop:36
+#: plugins/python/selectionsbagdocker/kritapykrita_selectionsbagdocker.desktop:38
 msgctxt "Comment"
 msgid "A docker that allow to store a list of selections"
 msgstr "允許儲存多個選取區域的面板"
@@ -559,7 +559,7 @@ msgctxt "Name"
 msgid "Ten Brushes"
 msgstr "十大筆刷"
 
-#: plugins/python/tenbrushes/kritapykrita_tenbrushes.desktop:42
+#: plugins/python/tenbrushes/kritapykrita_tenbrushes.desktop:43
 msgctxt "Comment"
 msgid "Assign a brush preset to any of ten configurable shortcuts."
 msgstr "為十個快捷鍵指定可切換的筆刷預設。"
@@ -569,7 +569,7 @@ msgctxt "Name"
 msgid "Ten Scripts"
 msgstr "十大指令稿"
 
-#: plugins/python/tenscripts/kritapykrita_tenscripts.desktop:41
+#: plugins/python/tenscripts/kritapykrita_tenscripts.desktop:43
 msgctxt "Comment"
 msgid "Assign a Python script to any of ten configurable shortcuts."
 msgstr "為十個快捷鍵指定可執行的 Python 指令稿。"
