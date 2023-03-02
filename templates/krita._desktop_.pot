@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop files\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-07 01:07+0000\n"
+"POT-Creation-Date: 2023-03-02 01:29+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -16,7 +16,7 @@ msgctxt "Name"
 msgid "Digital"
 msgstr ""
 
-#: krita/data/paintoppresets/Digital.tag:45
+#: krita/data/paintoppresets/Digital.tag:46
 msgctxt "Comment"
 msgid "Brush presets with a digital look and feel."
 msgstr ""
@@ -26,7 +26,7 @@ msgctxt "Name"
 msgid "Erasers"
 msgstr ""
 
-#: krita/data/paintoppresets/Erasers.tag:36
+#: krita/data/paintoppresets/Erasers.tag:37
 msgctxt "Comment"
 msgid "Eraser Brush Presets"
 msgstr ""
@@ -36,7 +36,7 @@ msgctxt "Name"
 msgid "★ My Favorites"
 msgstr ""
 
-#: krita/data/paintoppresets/Favorites.tag:37
+#: krita/data/paintoppresets/Favorites.tag:38
 msgctxt "Comment"
 msgid "Your favorite brush presets"
 msgstr ""
@@ -46,7 +46,7 @@ msgctxt "Name"
 msgid "FX"
 msgstr ""
 
-#: krita/data/paintoppresets/FX.tag:38
+#: krita/data/paintoppresets/FX.tag:39
 msgctxt "Comment"
 msgid "Special Effects.kpp"
 msgstr ""
@@ -56,7 +56,7 @@ msgctxt "Name"
 msgid "Ink"
 msgstr ""
 
-#: krita/data/paintoppresets/Ink.tag:38
+#: krita/data/paintoppresets/Ink.tag:39
 msgctxt "Comment"
 msgid "Inking Brush Presets"
 msgstr ""
@@ -66,7 +66,7 @@ msgctxt "Name"
 msgid "Paint"
 msgstr ""
 
-#: krita/data/paintoppresets/Paint.tag:38
+#: krita/data/paintoppresets/Paint.tag:39
 msgctxt "Comment"
 msgid "Paint Brushes"
 msgstr ""
@@ -76,7 +76,7 @@ msgctxt "Name"
 msgid "Pixel Art"
 msgstr ""
 
-#: krita/data/paintoppresets/Pixel_Art.tag:36
+#: krita/data/paintoppresets/Pixel_Art.tag:37
 msgctxt "Comment"
 msgid "Presets for working with individual pixels"
 msgstr ""
@@ -86,7 +86,7 @@ msgctxt "Name"
 msgid "Sketch"
 msgstr ""
 
-#: krita/data/paintoppresets/Sketch.tag:38
+#: krita/data/paintoppresets/Sketch.tag:39
 msgctxt "Comment"
 msgid "Sketching brush presets"
 msgstr ""
@@ -96,7 +96,7 @@ msgctxt "Name"
 msgid "Textures"
 msgstr ""
 
-#: krita/data/paintoppresets/Textures.tag:39
+#: krita/data/paintoppresets/Textures.tag:40
 msgctxt "Comment"
 msgid "Textured Brush Presets"
 msgstr ""
@@ -403,7 +403,7 @@ msgctxt "Name"
 msgid "Export Layers"
 msgstr ""
 
-#: plugins/python/exportlayers/kritapykrita_exportlayers.desktop:43
+#: plugins/python/exportlayers/kritapykrita_exportlayers.desktop:44
 msgctxt "Comment"
 msgid "Plugin to export layers from a document"
 msgstr ""
@@ -413,7 +413,7 @@ msgctxt "Name"
 msgid "Filter Manager"
 msgstr ""
 
-#: plugins/python/filtermanager/kritapykrita_filtermanager.desktop:43
+#: plugins/python/filtermanager/kritapykrita_filtermanager.desktop:44
 msgctxt "Comment"
 msgid "Plugin to filters management"
 msgstr ""
@@ -433,7 +433,7 @@ msgctxt "Name"
 msgid "Krita Script Starter"
 msgstr ""
 
-#: plugins/python/krita_script_starter/kritapykrita_krita_script_starter.desktop:41
+#: plugins/python/krita_script_starter/kritapykrita_krita_script_starter.desktop:42
 msgctxt "Comment"
 msgid "Create the metadata and file structure for a new Krita script"
 msgstr ""
@@ -473,7 +473,7 @@ msgctxt "Name"
 msgid "Krita Photobash Images"
 msgstr ""
 
-#: plugins/python/photobash_images/kritapykrita_photobash_images.desktop:37
+#: plugins/python/photobash_images/kritapykrita_photobash_images.desktop:38
 msgctxt "Comment"
 msgid ""
 "A plugin to fetch images from a specified folder. Very useful for "
@@ -515,7 +515,7 @@ msgctxt "Name"
 msgid "Scripter"
 msgstr ""
 
-#: plugins/python/scripter/kritapykrita_scripter.desktop:41
+#: plugins/python/scripter/kritapykrita_scripter.desktop:42
 msgctxt "Comment"
 msgid "Plugin to execute ad-hoc Python code"
 msgstr ""
@@ -535,7 +535,7 @@ msgctxt "Name"
 msgid "Ten Brushes"
 msgstr ""
 
-#: plugins/python/tenbrushes/kritapykrita_tenbrushes.desktop:43
+#: plugins/python/tenbrushes/kritapykrita_tenbrushes.desktop:44
 msgctxt "Comment"
 msgid "Assign a brush preset to any of ten configurable shortcuts."
 msgstr ""
@@ -545,7 +545,7 @@ msgctxt "Name"
 msgid "Ten Scripts"
 msgstr ""
 
-#: plugins/python/tenscripts/kritapykrita_tenscripts.desktop:43
+#: plugins/python/tenscripts/kritapykrita_tenscripts.desktop:44
 msgctxt "Comment"
 msgid "Assign a Python script to any of ten configurable shortcuts."
 msgstr ""
