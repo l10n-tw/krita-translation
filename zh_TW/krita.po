@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-04-21 00:46+0000\n"
-"PO-Revision-Date: 2023-04-21 08:50+0000\n"
+"PO-Revision-Date: 2023-04-21 10:43+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -8387,23 +8387,23 @@ msgstr "取樣螢幕色彩"
 
 #. i18n: context: text @ Action (sample_screen_color_real_canvas), Actions (General), ActionCollection (Krita)
 #: krita/krita.action:301
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "action"
 msgid "&Sample Screen Color (Sample Real Canvas)"
 msgstr "取樣螢幕色彩 (取樣畫布實際色彩)(&S)"
 
 #. i18n: context: toolTip @ Action (sample_screen_color_real_canvas), Actions (General), ActionCollection (Krita)
 #: krita/krita.action:303
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "action"
 msgid ""
 "Sample a color from the screen while sampling a real color from the canvas "
 "if the cursor is over it"
-msgstr "從螢幕上取樣色彩，如游標在畫布上則取樣畫布實際色彩"
+msgstr "從螢幕上取樣色彩，如游標在畫布上則取樣畫布上的實際色彩"
 
 #. i18n: context: iconText @ Action (sample_screen_color_real_canvas), Actions (General), ActionCollection (Krita)
 #: krita/krita.action:304
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "action"
 msgid "Sample Screen Color (Sample Real Canvas)"
 msgstr "取樣螢幕色彩 (取樣畫布實際色彩)"
@@ -8690,8 +8690,7 @@ msgstr "設定擦除模式"
 #. i18n: context: toolTip @ Action (eraser_preset_action), Actions (Painting), ActionCollection (Krita)
 #. i18n: context: iconText @ Action (eraser_preset_action), Actions (Painting), ActionCollection (Krita)
 #: krita/krita.action:526 krita/krita.action:528 krita/krita.action:529
-#, fuzzy, kde-format
-#| msgid "Toggle Eraser"
+#, kde-format
 msgctxt "action"
 msgid "Toggle eraser preset"
 msgstr "切換橡皮刷預設"
@@ -19534,9 +19533,9 @@ msgstr "大縮圖"
 
 #: libs/resources/KisResourceModel.cpp:152
 #: libs/resources/KisTagResourceModel.cpp:654
-#, fuzzy, kde-format
+#, kde-format
 msgid "Dirty"
-msgstr "已修改"
+msgstr "含未儲存更動"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: attribute (title), widget (QWidget, metadata)
@@ -20318,17 +20317,15 @@ msgstr "FFmpeg 版本："
 msgid ""
 "The FFmpeg that you've given us appears to be compressed. Please try to "
 "extract FFmpeg from the archive first."
-msgstr "指定的 FFmpeg 似乎是未經解壓縮的壓縮檔。請先將這個檔案解壓縮。"
+msgstr "指定的 FFmpeg 似乎是未經解壓縮的壓縮檔。請先將 FFmpeg "
+"從這個壓縮檔解壓縮出來。"
 
 #: libs/ui/animation/KisDlgAnimationRenderer.cpp:676
-#, fuzzy, kde-format
-#| msgid ""
-#| "The location of FFmpeg is invalid. Please select the correct location of "
-#| "the FFmpeg executable on your system."
+#, kde-format
 msgid ""
 "The FFmpeg that you've given us appears to be invalid. Please select the "
 "correct location of an FFmpeg executable on your system."
-msgstr "指定的 FFmpeg 的位置無效。請在系統中選擇 FFmpeg 可執行檔案的正確位置。"
+msgstr "指定的 FFmpeg 似乎無效。請選擇 FFmpeg 可執行檔案的正確位置。"
 
 #: libs/ui/animation/KisDlgAnimationRenderer.cpp:688
 #, kde-format
@@ -22705,10 +22702,10 @@ msgid "You will need to Restart Krita for the changes to take an effect."
 msgstr "必須重新啟動 Krita 才能使這些變更生效。"
 
 #: libs/ui/dialogs/kis_dlg_preferences.cc:453
-#, fuzzy, kde-format
+#, kde-format
 msgid ""
 "Saving at a Location picked from the File Picker may slow down the startup!"
-msgstr "儲存檔案至經檔案選擇器選取的位置可能會使程式啟動變得緩慢！"
+msgstr "如將檔案儲存至一個經檔案選擇器選取的位置，可能會使程式啟動變得緩慢！"
 
 #: libs/ui/dialogs/kis_dlg_preferences.cc:485
 #, kde-format
@@ -23091,17 +23088,17 @@ msgid "Change Clone Layers"
 msgstr "變更再製圖層"
 
 #: libs/ui/dialogs/KisDlgConfigureCumulativeUndo.cpp:55
-#, kde-format
+#, fuzzy, kde-format
 msgctxt "@info:tooltip"
 msgid ""
 "The amount of time during which the strokes will be kept unmerged. When a "
 "stroke becomes old enough, Krita will try to merge it"
-msgstr ""
+msgstr "筆畫維持不被合併的時長。當筆畫存留時間到達時限，Krita 會嘗試將其合併。"
 
 #: libs/ui/dialogs/KisDlgConfigureCumulativeUndo.cpp:60
-#, kde-format
+#, fuzzy, kde-format
 msgid "Wait before merging strokes:"
-msgstr ""
+msgstr "筆畫合併前等候時間："
 
 #: libs/ui/dialogs/KisDlgConfigureCumulativeUndo.cpp:67
 #, fuzzy, kde-format
@@ -23111,43 +23108,44 @@ msgctxt "@info:tooltip"
 msgid ""
 "The number of last strokes that Krita will not merge (even if they are old "
 "enough)"
-msgstr "每一組筆畫達到此數值後，Krita 會把後來的筆畫拆開為另一組"
+msgstr "Krita 不會合併的最近筆畫數目 (即使存留時間已到達時限)"
 
 #: libs/ui/dialogs/KisDlgConfigureCumulativeUndo.cpp:70
-#, kde-format
+#, fuzzy, kde-format
 msgid "Exclude last strokes from merge:"
-msgstr ""
+msgstr "排除合併最近筆畫："
 
 #: libs/ui/dialogs/KisDlgConfigureCumulativeUndo.cpp:77
-#, kde-format
+#, fuzzy, kde-format
 msgctxt "@info:tooltip"
 msgid ""
 "If two strokes have short time interval (delay) between each other, then "
 "they will be considered as belonging to the same group and merged"
-msgstr ""
+msgstr "如兩道筆畫之間的時間間隔較短，這兩道筆畫將被視為同一組筆畫而合併"
 
 #: libs/ui/dialogs/KisDlgConfigureCumulativeUndo.cpp:82
-#, kde-format
+#, fuzzy, kde-format
 msgid "Max interval of grouped strokes:"
-msgstr ""
+msgstr "筆畫組最大時間間隔："
 
 #: libs/ui/dialogs/KisDlgConfigureCumulativeUndo.cpp:89
-#, kde-format
+#, fuzzy, kde-format
 msgctxt "@info:tooltip"
 msgid ""
 "Maximum allowed duration of the group after the merge. If the group is going "
 "to be longer than this limit in the result of the merge, this merge will not "
 "happen."
-msgstr ""
+msgstr "容許合併筆畫組的最大時長。如筆畫組於合併後的總時長將大於此限制，這些筆畫則不"
+"會被合併。"
 
 #: libs/ui/dialogs/KisDlgConfigureCumulativeUndo.cpp:94
 #, fuzzy, kde-format
 #| msgid "Video duration:"
 msgid "Max group duration:"
-msgstr "影片長度："
+msgstr "筆畫組最大時長："
 
 #: libs/ui/dialogs/KisDlgConfigureCumulativeUndo.cpp:101
-#, kde-format
+#, fuzzy, kde-format
 msgid ""
 "Cumulative Undo allows Krita to merge undo actions and make undo history "
 "cleaner. Krita will still keep a few latest actions unmerged according to "
@@ -23157,6 +23155,11 @@ msgid ""
 "try  to merge this action into a group. The groups are formed using \"Max "
 "group strokes delay\" and \"Max group duration\" options."
 msgstr ""
+"合併復原容許 Krita 將復原動作合併以令復原記錄更清晰。Krita 會根據「筆畫合併前"
+"等候時間」和「排除合併最近筆畫」選項保留最近數項復原動作不被合併。每當有復原"
+"動作變得過時而又未被「排除合併最近筆畫」選項排除，Krita 便會嘗試將此動作合併"
+"至一個筆畫組。這些筆畫組會根據「筆畫組最大時間間隔」和「筆畫組最大時長」選項"
+"分組。"
 
 #: libs/ui/dialogs/KisDlgCustomTabletResolution.cpp:52
 #, kde-format
@@ -25395,7 +25398,7 @@ msgstr "在貼上圖層後加上「(已貼上)」後綴"
 #, fuzzy, kde-format
 #| msgid "Enable Cumulative Undo"
 msgid "Use cumulative undo"
-msgstr "啟用合併復原"
+msgstr "使用合併復原"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnAdvancedCumulativeUndo)
 #: libs/ui/forms/wdggeneralsettings.ui:1490
@@ -27981,10 +27984,9 @@ msgid "Select Layer"
 msgstr "選取圖層"
 
 #: libs/ui/input/kis_select_layer_action.cpp:117
-#, fuzzy, kde-format
-#| msgid "Selects a layer under cursor position"
+#, kde-format
 msgid "Select layers under the cursor position"
-msgstr "選取游標之下的圖層"
+msgstr "選取游標位置之下的圖層"
 
 #: libs/ui/input/kis_select_layer_action.cpp:120
 #, kde-format
@@ -33273,22 +33275,15 @@ msgstr ""
 "框。"
 
 #: libs/ui/widgets/kis_custom_image_widget.cc:535
-#, fuzzy, kde-format
-#| msgctxt ""
-#| "arg1: width. arg2: height. arg3: colorspace name. arg4: size of a channel "
-#| "in bits. arg5: image size"
-#| msgid ""
-#| "This document will be %1 pixels by %2 pixels in %3, which means the pixel "
-#| "size is %4 bit. A single paint layer will thus take up %5 of RAM."
+#, kde-format
 msgctxt ""
 "arg1: width. arg2: height. arg3: colorspace name. arg4: size of a channel in "
 "bits. arg5: image size"
 msgid ""
 "This document will be %1 pixels by %2 pixels in %3. The pixel size is %4 "
 "bit. A single paint layer will use %5 of RAM."
-msgstr ""
-"此檔案的大小為 %1 x %2 像素，色彩空間為 %3 ，像素大小為 %4 位元 。每個顏料圖"
-"層將佔用 %5 記憶體。"
+msgstr "此檔案的大小為 %1 x %2 像素，色彩空間為 %3 ，像素大小為 %4 位元 。"
+"每個顏料圖層將佔用 %5 記憶體。"
 
 #: libs/ui/widgets/kis_filter_selector_widget.cc:157
 #, kde-format
@@ -39950,7 +39945,7 @@ msgstr "圖層/遮罩"
 #| msgctxt "(qtundo-format)"
 #| msgid "Convert Projection Color Space"
 msgid "Proof Colors to Painting Color Space"
-msgstr "校樣色彩轉換至繪畫色彩空間"
+msgstr "校樣色彩至繪畫色彩空間"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tabPopups)
 #: plugins/dockers/widegamutcolorselector/WdgWGSelectorSettings.ui:194
@@ -40059,14 +40054,13 @@ msgstr "色塊上限："
 #, fuzzy, kde-format
 #| msgid "Update Selector When:"
 msgid "Update Base Color When:"
-msgstr "在以下情況更新選色器的色彩："
+msgstr "在以下情況更新基礎色彩："
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkShadeSelUpdateExternal)
 #: plugins/dockers/widegamutcolorselector/WdgWGSelectorSettings.ui:421
-#, fuzzy, kde-format
-#| msgid "Color channels in color"
+#, kde-format
 msgid "Color changes externally"
-msgstr "顯示單一色彩通道時為其著色"
+msgstr "經其他工具改變色彩時"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkShadeSelUpdateOnRightClick)
 #: plugins/dockers/widegamutcolorselector/WdgWGSelectorSettings.ui:428
@@ -40076,8 +40070,7 @@ msgstr "右鍵點選光影調色器時"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkShadeSelUpdateInteraction)
 #: plugins/dockers/widegamutcolorselector/WdgWGSelectorSettings.ui:435
-#, fuzzy, kde-format
-#| msgid "Iterations"
+#, kde-format
 msgid "Interaction ends"
 msgstr "停止互動時"
 
@@ -40214,7 +40207,7 @@ msgctxt "action"
 msgid ""
 "Increase value, lightness, intensity or luma of the selected color, "
 "depending on selected color model"
-msgstr ""
+msgstr "根據所選的色彩模型，上調所選色彩的明度、亮度、強度或光度"
 
 #. i18n: context: text @ Action (wgcs_darken_color), Actions (Krita), ActionCollection (Krita)
 #. i18n: context: iconText @ Action (wgcs_darken_color), Actions (Krita), ActionCollection (Krita)
@@ -40234,7 +40227,7 @@ msgctxt "action"
 msgid ""
 "Decreases value, lightness, intensity or luma of the selected color, "
 "depending on selected color model"
-msgstr ""
+msgstr "根據所選的色彩模型，下調所選色彩的明度、亮度、強度或光度"
 
 #. i18n: context: text @ Action (wgcs_increase_saturation), Actions (Krita), ActionCollection (Krita)
 #. i18n: context: iconText @ Action (wgcs_increase_saturation), Actions (Krita), ActionCollection (Krita)
@@ -40252,7 +40245,7 @@ msgstr "提高色彩飽和度"
 #, kde-format
 msgctxt "action"
 msgid "Increase saturation of the selected color"
-msgstr ""
+msgstr "上調所選色彩的飽和度"
 
 #. i18n: context: text @ Action (wgcs_decrease_saturation), Actions (Krita), ActionCollection (Krita)
 #. i18n: context: iconText @ Action (wgcs_decrease_saturation), Actions (Krita), ActionCollection (Krita)
@@ -40270,7 +40263,7 @@ msgstr "降低色彩飽和度"
 #, kde-format
 msgctxt "action"
 msgid "Decrease saturation of the selected color"
-msgstr ""
+msgstr "下調所選色彩的飽和度"
 
 #. i18n: context: text @ Action (wgcs_shift_hue_clockwise), Actions (Krita), ActionCollection (Krita)
 #. i18n: context: iconText @ Action (wgcs_shift_hue_clockwise), Actions (Krita), ActionCollection (Krita)
@@ -40285,12 +40278,10 @@ msgstr "順時針旋轉色相"
 
 #. i18n: context: toolTip @ Action (wgcs_shift_hue_clockwise), Actions (Krita), ActionCollection (Krita)
 #: plugins/dockers/widegamutcolorselector/WGColorSelector.action:89
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Shift brush color hue clockwise"
+#, kde-format
 msgctxt "action"
 msgid "Shift hue of the selected color clockwise"
-msgstr "順時針旋轉筆刷色相"
+msgstr "順時針旋轉所選色彩的色相"
 
 #. i18n: context: text @ Action (wgcs_shift_hue_counterclockwise), Actions (Krita), ActionCollection (Krita)
 #. i18n: context: iconText @ Action (wgcs_shift_hue_counterclockwise), Actions (Krita), ActionCollection (Krita)
@@ -40305,12 +40296,10 @@ msgstr "逆時針旋轉色相"
 
 #. i18n: context: toolTip @ Action (wgcs_shift_hue_counterclockwise), Actions (Krita), ActionCollection (Krita)
 #: plugins/dockers/widegamutcolorselector/WGColorSelector.action:99
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Shift brush color hue counter-clockwise"
+#, kde-format
 msgctxt "action"
 msgid "Shift hue of the selected color counter-clockwise"
-msgstr "逆時針旋轉筆刷色相"
+msgstr "逆時針旋轉所選色彩的色相"
 
 #: plugins/dockers/widegamutcolorselector/WGColorSelectorDock.cpp:48
 #, kde-format
@@ -52572,7 +52561,7 @@ msgstr "塗抹長度乘數"
 #| "Smudge_rake.kpp"
 #| msgid "Smudge rake"
 msgid "Smudge Bucket"
-msgstr "塗抹桶"
+msgstr "塗抹色桶"
 
 #: plugins/paintops/mypaint/MyPaintStandardOptionData.h:368
 #, kde-format
@@ -55880,9 +55869,9 @@ msgstr "設定圖案的旋轉角度"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:612
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:512
-#, kde-format
+#, fuzzy, kde-format
 msgid "Set custom blending options instead of using the brush ones"
-msgstr ""
+msgstr "設定自訂混色模式以代替筆刷設定"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:613
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:513
