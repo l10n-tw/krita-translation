@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-05-16 00:44+0000\n"
-"PO-Revision-Date: 2023-04-21 10:43+0000\n"
+"PO-Revision-Date: 2023-05-16 09:54+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -20309,22 +20309,15 @@ msgstr "未有提供有效的 FFmpeg 執行檔……"
 #, kde-format
 msgctxt "ffmpeg warning checks"
 msgid "FFmpeg must be at least version 4.2+ for GIF transparency to work"
-msgstr ""
+msgstr "FFmpeg 必須為版本 4.2 或以上才能支援透明 GIF 功能"
 
 #: libs/ui/animation/KisDlgAnimationRenderer.cpp:470
-#, fuzzy, kde-format
-#| msgid ""
-#| "<html><head/><body><p><span style=\" font-weight:600;\">Warning:</span> "
-#| "animated gif images cannot have a framerate higher than 50. The framerate "
-#| "will be reduced to 50 frames per second.</p></body></html>"
+#, kde-format
 msgctxt "ffmpeg warning checks"
 msgid ""
 "Animated GIF images cannot have a framerate higher than 50. The framerate "
 "will be reduced to 50 frames per second"
-msgstr ""
-"<html><head/><body><p><span style=\" font-weight:600;\">警告：</span>GIF 動畫"
-"影像的影格速率不能超過 50，因此影格速率將被降低到每秒 50 影格。</p></body></"
-"html>"
+msgstr "動畫 GIF 影像的影格速率不能超過 50，因此影格速率將被降低到每秒 50 影格"
 
 #: libs/ui/animation/KisDlgAnimationRenderer.cpp:477
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1806
@@ -20333,13 +20326,11 @@ msgid "Warning(s):"
 msgstr "警告："
 
 #: libs/ui/animation/KisDlgAnimationRenderer.cpp:692
-#, fuzzy, kde-format
+#, kde-format
 msgid ""
 "The FFmpeg that you've given us appears to be compressed. Please try to "
 "extract FFmpeg from the archive first."
-msgstr ""
-"指定的 FFmpeg 似乎是未經解壓縮的壓縮檔。請先將 FFmpeg 從這個壓縮檔解壓縮出"
-"來。"
+msgstr "指定的 FFmpeg 似乎是壓縮檔。請先將 FFmpeg 從這個壓縮檔解壓縮出來。"
 
 #: libs/ui/animation/KisDlgAnimationRenderer.cpp:706
 #, kde-format
@@ -20504,16 +20495,12 @@ msgstr ""
 "em></font>"
 
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:487
-#, fuzzy, kde-format
-#| msgctxt "part of warning in video importer."
-#| msgid ""
-#| "WARNING, you are trying to import %1 frames, the maximum amount you can "
-#| "import is %2."
+#, kde-format
 msgctxt "part of warning in video importer."
 msgid ""
 "<b>Warning:</b> you are trying to import %1 frames, the maximum amount you "
 "can import is %2."
-msgstr "警告：您正嘗試匯入 %1 個影格。您最多能夠匯入 %2 個影格。"
+msgstr "<b>警告：</b>您正嘗試匯入 %1 個影格。您最多能夠匯入 %2 個影格。"
 
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:494
 #, kde-format
@@ -20537,16 +20524,12 @@ msgid ""
 msgstr "這會耗用系統超過一半的可用記憶體，將會令編輯變得困難。"
 
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:516
-#, fuzzy, kde-format
-#| msgctxt "part of warning in video importer."
-#| msgid ""
-#| "Krita does not support the video transfer curve (%1), it will be loaded "
-#| "as linear"
+#, kde-format
 msgctxt "part of warning in video importer."
 msgid ""
 "Krita does not support the video transfer curve (%1), it will be loaded as "
 "linear."
-msgstr "Krita 不支援此影像轉移曲線 (%1)，將會以線性載入"
+msgstr "Krita 不支援此影片的轉移曲線 (%1)。影片檔將會以線性色彩載入。"
 
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:549
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:551
@@ -20624,14 +20607,13 @@ msgstr "正在建立目標 %1 檔案：%2 個影格 (共 %3 個)。"
 #: libs/ui/animation/video_export_options_dialog.ui:13
 #, kde-format
 msgid "Codec:"
-msgstr ""
+msgstr "編解碼器："
 
 #. i18n: ectx: property (title), widget (QGroupBox, wdgCodecOptions)
 #: libs/ui/animation/video_export_options_dialog.ui:23
-#, fuzzy, kde-format
-#| msgid "No options"
+#, kde-format
 msgid "Codec options"
-msgstr "無選項"
+msgstr "編解碼器選項"
 
 #. i18n: ectx: property (text), widget (QLabel, lblOpenH264bitrate)
 #. i18n: ectx: property (text), widget (QLabel, label_3)
@@ -20697,10 +20679,9 @@ msgstr "HDR 中繼資料…"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: libs/ui/animation/video_export_options_dialog.ui:249
-#, fuzzy, kde-format
-#| msgid "Bitrate (MBit/s)"
+#, kde-format
 msgid "Bitrate (MBit/s):"
-msgstr "位元率 (MBit/s)"
+msgstr "位元率 (MBit/s)："
 
 #. i18n: ectx: property (text), widget (QCheckBox, vp9Lossless)
 #. i18n: ectx: property (text), widget (QCheckBox, webpLossless)
@@ -20728,10 +20709,9 @@ msgstr "透明度差別 (transdiff)"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: libs/ui/animation/video_export_options_dialog.ui:300
-#, fuzzy, kde-format
-#| msgid "Auto-generate 8bit Palette"
+#, kde-format
 msgid "Auto-generate 8bit Palette:"
-msgstr "自動產生 8 位元調色板"
+msgstr "自動產生 8 位元調色板："
 
 #. i18n: ectx: property (text), widget (QLabel, lblPaletteuseDitherGIF)
 #. i18n: ectx: property (text), widget (QLabel, labelDither)
@@ -20809,21 +20789,17 @@ msgstr "影像品質："
 
 #. i18n: ectx: property (title), widget (QGroupBox, chkCustomLine)
 #: libs/ui/animation/video_export_options_dialog.ui:457
-#, fuzzy, kde-format
-#| msgid "Custom Options:"
+#, kde-format
 msgid "Custom options"
-msgstr "自訂設定："
+msgstr "自訂設定"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, txtCustomLine)
 #: libs/ui/animation/video_export_options_dialog.ui:466
-#, fuzzy, kde-format
-#| msgid ""
-#| "Add any ffmpeg filtering options here. It will be put between source and "
-#| "destination streams of the ffmpeg"
+#, kde-format
 msgid ""
 "Add any FFmpeg filtering options here. It will be put between source and "
 "destination streams of the FFmpeg instance"
-msgstr "加在這裡的 FFmpeg 過濾選項，將被插入到源資料流和 FFmpeg 的目標流之間"
+msgstr "加在這裡的 FFmpeg 過濾選項，將被加插到 FFmpeg 實體的源資料流與目標流之間"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnResetCustomLine)
 #. i18n: ectx: property (text), widget (QPushButton, resetOriginButton)
@@ -21409,10 +21385,9 @@ msgstr "一般"
 
 #. i18n: ectx: property (text), widget (QLabel, fileLocationLabel)
 #: libs/ui/animation/VideoImportDialog.ui:40
-#, fuzzy, kde-format
-#| msgid "Video FPS:"
+#, kde-format
 msgid "Video file:"
-msgstr "影片 FPS："
+msgstr "影片檔案："
 
 #. i18n: ectx: property (text), widget (QLabel, thumbnailImageHolder)
 #: libs/ui/animation/VideoImportDialog.ui:77
@@ -21641,24 +21616,21 @@ msgstr "縮放過濾："
 
 #. i18n: ectx: property (title), widget (QGroupBox, optionsFFMpegGroup)
 #: libs/ui/animation/VideoImportDialog.ui:601
-#, fuzzy, kde-format
-#| msgid "FFmpeg:"
+#, kde-format
 msgid "FFmpeg"
-msgstr "FFmpeg："
+msgstr "FFmpeg"
 
 #. i18n: ectx: property (text), widget (QLabel, ffmpegLocationLabel)
 #: libs/ui/animation/VideoImportDialog.ui:607
-#, fuzzy, kde-format
-#| msgid "FFMpeg Path:"
+#, kde-format
 msgid "FFmpeg path:"
 msgstr "FFmpeg 路徑："
 
 #. i18n: ectx: property (text), widget (QLabel, ffprobeLocationLabel)
 #: libs/ui/animation/VideoImportDialog.ui:634
-#, fuzzy, kde-format
-#| msgid "FFProbe Path:"
+#, kde-format
 msgid "FFprobe path:"
-msgstr "ffprobe 路徑："
+msgstr "FFprobe 路徑："
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgAnimationRenderer)
 #: libs/ui/animation/wdg_animationrenderer.ui:10
@@ -21680,17 +21652,15 @@ msgstr "末影格："
 
 #. i18n: ectx: property (title), widget (QGroupBox, shouldExportOnlyImageSequence)
 #: libs/ui/animation/wdg_animationrenderer.ui:49
-#, fuzzy, kde-format
-#| msgid "Export Images"
+#, kde-format
 msgid "Export as image sequence"
-msgstr "匯出影像"
+msgstr "匯出為影像序列"
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
 #: libs/ui/animation/wdg_animationrenderer.ui:58
-#, fuzzy, kde-format
-#| msgid "Fi&le format:"
+#, kde-format
 msgid "File format:"
-msgstr "檔案格式(&L)："
+msgstr "檔案格式："
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, cmbMimetype)
 #: libs/ui/animation/wdg_animationrenderer.ui:67
@@ -21738,10 +21708,9 @@ msgstr "只輸出不重複的影格"
 
 #. i18n: ectx: property (title), widget (QGroupBox, shouldExportOnlyVideo)
 #: libs/ui/animation/wdg_animationrenderer.ui:134
-#, fuzzy, kde-format
-#| msgid "Export size:"
+#, kde-format
 msgid "Export as video"
-msgstr "匯出大小："
+msgstr "匯出為影片"
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #. i18n: ectx: property (text), widget (QLabel, labelResolution)
@@ -21753,8 +21722,7 @@ msgstr "繪製為："
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, bnRenderOptions)
 #: libs/ui/animation/wdg_animationrenderer.ui:210
-#, fuzzy, kde-format
-#| msgid "Select the ffmpeg render options."
+#, kde-format
 msgid "Select the FFmpeg render options."
 msgstr "選擇 FFmpeg 繪製選項。"
 
@@ -21774,15 +21742,13 @@ msgstr "包含音訊"
 
 #. i18n: ectx: property (text), widget (QLabel, label_9)
 #: libs/ui/animation/wdg_animationrenderer.ui:239
-#, fuzzy, kde-format
-#| msgid "Image location:"
+#, kde-format
 msgid "FFmpeg location:"
 msgstr "影像位置："
 
 #. i18n: ectx: property (text), widget (QLabel, label_10)
 #: libs/ui/animation/wdg_animationrenderer.ui:249
-#, fuzzy, kde-format
-#| msgid "FFmpeg Version: "
+#, kde-format
 msgid "FFmpeg version:"
 msgstr "FFmpeg 版本："
 
@@ -23079,35 +23045,33 @@ msgid "Change Clone Layers"
 msgstr "變更再製圖層"
 
 #: libs/ui/dialogs/KisDlgConfigureCumulativeUndo.cpp:55
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@info:tooltip"
 msgid ""
 "The amount of time during which the strokes will be kept unmerged. When a "
 "stroke becomes old enough, Krita will try to merge it"
-msgstr "筆畫維持不被合併的時長。當筆畫存留時間到達時限，Krita 會嘗試將其合併。"
+msgstr "筆畫維持不被合併的時長。當筆畫存留時間到達時限，Krita 會嘗試將其合併"
 
 #: libs/ui/dialogs/KisDlgConfigureCumulativeUndo.cpp:60
-#, fuzzy, kde-format
+#, kde-format
 msgid "Wait before merging strokes:"
 msgstr "筆畫合併前等候時間："
 
 #: libs/ui/dialogs/KisDlgConfigureCumulativeUndo.cpp:67
-#, fuzzy, kde-format
-#| msgctxt "@info:tooltip"
-#| msgid "The number of last strokes which Krita should store separately"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid ""
 "The number of last strokes that Krita will not merge (even if they are old "
 "enough)"
-msgstr "Krita 不會合併的最近筆畫數目 (即使存留時間已到達時限)"
+msgstr "Krita 保留不合併的最近筆畫數目 (即使存留時間已到達時限)"
 
 #: libs/ui/dialogs/KisDlgConfigureCumulativeUndo.cpp:70
-#, fuzzy, kde-format
+#, kde-format
 msgid "Exclude last strokes from merge:"
-msgstr "排除合併最近筆畫："
+msgstr "排除合併最近筆畫數："
 
 #: libs/ui/dialogs/KisDlgConfigureCumulativeUndo.cpp:77
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@info:tooltip"
 msgid ""
 "If two strokes have short time interval (delay) between each other, then "
@@ -23115,29 +23079,27 @@ msgid ""
 msgstr "如兩道筆畫之間的時間間隔較短，這兩道筆畫將被視為同一組筆畫而合併"
 
 #: libs/ui/dialogs/KisDlgConfigureCumulativeUndo.cpp:82
-#, fuzzy, kde-format
+#, kde-format
 msgid "Max interval of grouped strokes:"
 msgstr "筆畫組最大時間間隔："
 
 #: libs/ui/dialogs/KisDlgConfigureCumulativeUndo.cpp:89
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@info:tooltip"
 msgid ""
 "Maximum allowed duration of the group after the merge. If the group is going "
 "to be longer than this limit in the result of the merge, this merge will not "
 "happen."
-msgstr ""
-"容許合併筆畫組的最大時長。如筆畫組於合併後的總時長將大於此限制，這些筆畫則不"
+msgstr "容許合併筆畫組的最大時長。如筆畫組於合併後的總時長將大於此限制，這些筆畫則不"
 "會被合併。"
 
 #: libs/ui/dialogs/KisDlgConfigureCumulativeUndo.cpp:94
-#, fuzzy, kde-format
-#| msgid "Video duration:"
+#, kde-format
 msgid "Max group duration:"
 msgstr "筆畫組最大時長："
 
 #: libs/ui/dialogs/KisDlgConfigureCumulativeUndo.cpp:101
-#, fuzzy, kde-format
+#, kde-format
 msgid ""
 "Cumulative Undo allows Krita to merge undo actions and make undo history "
 "cleaner. Krita will still keep a few latest actions unmerged according to "
@@ -23149,9 +23111,9 @@ msgid ""
 msgstr ""
 "合併復原容許 Krita 將復原動作合併以令復原記錄更清晰。Krita 會根據「筆畫合併前"
 "等候時間」和「排除合併最近筆畫」選項保留最近數項復原動作不被合併。每當有復原"
-"動作變得過時而又未被「排除合併最近筆畫」選項排除，Krita 便會嘗試將此動作合併"
-"至一個筆畫組。這些筆畫組會根據「筆畫組最大時間間隔」和「筆畫組最大時長」選項"
-"分組。"
+"動作變得過時而又未被「排除合併最近筆畫數」選項排除，Krita 便會嘗試將此動作合"
+"併至一個筆畫組。這些筆畫組會根據「筆畫組最大時間間隔」和「筆畫組最大時長」選"
+"項分組。"
 
 #: libs/ui/dialogs/KisDlgCustomTabletResolution.cpp:52
 #, kde-format
@@ -25022,24 +24984,21 @@ msgstr "啟用拖曳捲動時，隱藏工具面板的捲動軸"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbCmykBlendingMode)
 #: libs/ui/forms/wdggeneralsettings.ui:834
-#, fuzzy, kde-format
-#| msgid "Creamy (Krita 4.2+)"
+#, kde-format
 msgid "Subtractive (Krita 5.2+)"
-msgstr "軟滑 (Krita 4.2 以及之後版本)"
+msgstr "減色法 (Krita 5.2 以及之後版本)"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbCmykBlendingMode)
 #: libs/ui/forms/wdggeneralsettings.ui:839
-#, fuzzy, kde-format
-#| msgid "Hard (Krita 4.1 and earlier versions)"
+#, kde-format
 msgid "Additive (Krita 5.1 and earlier versions)"
-msgstr "堅硬 (Krita 4.1 以及之前版本)"
+msgstr "加色法 (Krita 5.1 以及之前版本)"
 
 #. i18n: ectx: property (text), widget (QLabel, lblCmykBlendingMode)
 #: libs/ui/forms/wdggeneralsettings.ui:847
-#, fuzzy, kde-format
-#| msgid "Brush Flow Mode (needs restart):"
+#, kde-format
 msgid "CMYK blending mode (needs restart):"
-msgstr "筆刷流量模式 (需要重啟程式)："
+msgstr "CMYK 混色模式 (需要重啟程式)："
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
 #: libs/ui/forms/wdggeneralsettings.ui:855
@@ -25408,8 +25367,7 @@ msgstr "在貼上圖層後加上「(已貼上)」後綴"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkCumulativeUndo)
 #: libs/ui/forms/wdggeneralsettings.ui:1491
-#, fuzzy, kde-format
-#| msgid "Enable Cumulative Undo"
+#, kde-format
 msgid "Use cumulative undo"
 msgstr "使用合併復原"
 
@@ -30200,11 +30158,9 @@ msgid "Also save your image as a Krita file."
 msgstr "請將影像另存為 Krita 格式檔案。"
 
 #: libs/ui/KisLayerThumbnailCache.cpp:30
-#, fuzzy
-#| msgid "Hide layer thumbnail popup"
 msgctxt "(qtundo-format)"
 msgid "Update layer thumbnails"
-msgstr "隱藏圖層浮動縮圖"
+msgstr "更新圖層縮圖"
 
 #: libs/ui/KisMainWindow.cpp:184
 #, kde-format
@@ -39940,9 +39896,7 @@ msgstr "圖層/遮罩"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkProofColors)
 #: plugins/dockers/widegamutcolorselector/WdgWGSelectorSettings.ui:184
-#, fuzzy, kde-format
-#| msgctxt "(qtundo-format)"
-#| msgid "Convert Projection Color Space"
+#, kde-format
 msgid "Proof Colors to Painting Color Space"
 msgstr "校樣色彩至繪畫色彩空間"
 
@@ -40005,7 +39959,7 @@ msgstr "垂直(&V)"
 #, fuzzy, kde-format
 #| msgid "Orientation"
 msgid "Along Orientation"
-msgstr "方向"
+msgstr "依照方向"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cbPopupScrolling)
 #. i18n: ectx: property (text), item, widget (QComboBox, cbScrolling)
@@ -40016,7 +39970,7 @@ msgstr "方向"
 #, fuzzy, kde-format
 #| msgid "Vertically"
 msgid "Laterally"
-msgstr "垂直"
+msgstr "側向"
 
 #. i18n: ectx: property (text), widget (QLabel, label_16)
 #. i18n: ectx: property (text), widget (QLabel, label_12)
@@ -40050,8 +40004,7 @@ msgstr "色塊上限："
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: plugins/dockers/widegamutcolorselector/WdgWGSelectorSettings.ui:414
-#, fuzzy, kde-format
-#| msgid "Update Selector When:"
+#, kde-format
 msgid "Update Base Color When:"
 msgstr "在以下情況更新基礎色彩："
 
@@ -47737,12 +47690,16 @@ msgid "Failure loading layer %1 of type: %2."
 msgstr "載入類型為：%2 的圖層 %1 時出錯。"
 
 #: plugins/impex/libkra/kis_kra_loader.cpp:927
-#, kde-format
+#, fuzzy, kde-format
 msgid ""
 "Layer %1 has blending mode \"%2\" that has changed its behavior for CMYK "
 "color in Krita 5.2. Please check the result and consider enabling legacy "
 "support in Preferences->General->Tools->CMYK blending mode"
 msgstr ""
+"圖層「%1」使用的「%2」混色模式，由 Krita 5.2 版本起改變了在 CMYK "
+"色彩模型下的行為。請檢查影像效果，並考慮在設定中將「CMYK "
+"混色模式」選項更改為「加色法」以保持與舊版相容 (設定 Krita→一般→工具→CMYK "
+"混色模式)"
 
 #: plugins/impex/libkra/kis_kra_loader.cpp:1038
 #, kde-format
@@ -52562,11 +52519,7 @@ msgid "Smudge Length Multiplier"
 msgstr "塗抹長度乘數"
 
 #: plugins/paintops/mypaint/MyPaintStandardOptionData.h:359
-#, fuzzy, kde-format
-#| msgctxt ""
-#| "./krita/data/bundles/Krita_3_Default_Resources.bundle:paintoppresets/"
-#| "Smudge_rake.kpp"
-#| msgid "Smudge rake"
+#, kde-format
 msgid "Smudge Bucket"
 msgstr "塗抹色桶"
 
@@ -55876,9 +55829,9 @@ msgstr "設定圖案的旋轉角度"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:612
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:512
-#, fuzzy, kde-format
+#, kde-format
 msgid "Set custom blending options instead of using the brush ones"
-msgstr "設定自訂混色模式以代替筆刷設定"
+msgstr "設定自訂混色模式選項以代替筆刷設定"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:613
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:513
