@@ -59489,11 +59489,9 @@ msgctxt "action"
 msgid "Reference Images Tool"
 msgstr "參考圖工具"
 
-#, kde-format
 #~ msgid "Choose a video file"
 #~ msgstr "選擇影片檔案"
 
-#, kde-format
 #~ msgid ""
 #~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
 #~ "REC-html40/strict.dtd\">\n"
@@ -59531,39 +59529,30 @@ msgstr "參考圖工具"
 #~ "span></a><span style=\" font-size:16pt; font-weight:400; color:#ff692e;\">"
 #~ "作為替代方案吧！</span></p></body></html>"
 
-#, kde-format
 #~ msgid "FFMpeg"
 #~ msgstr "FFmpeg"
 
-#, kde-format
 #~ msgid "Export:"
 #~ msgstr "匯出："
 
-#, kde-format
 #~ msgid "Image Se&quence"
 #~ msgstr "影像序列(&Q)"
 
-#, kde-format
 #~ msgid "&Video"
 #~ msgstr "影片(&V)"
 
-#, kde-format
 #~ msgid "Video Options"
 #~ msgstr "影片選項"
 
-#, kde-format
 #~ msgid "FF&Mpeg: "
 #~ msgstr "FF&mpeg："
 
-#, kde-format
 #~ msgid "Video Location:"
 #~ msgstr "影片位置："
 
-#, kde-format
 #~ msgid "FFMpeg Version: None"
 #~ msgstr "FFmpeg 版本：無"
 
-#, kde-format
 #~ msgid ""
 #~ "<html><head/><body><p><span style=\" font-weight:600;\">Warning:</span> "
 #~ "FFMpeg must be at least version 4.2+ for gif transparency to work</p></"
@@ -59572,107 +59561,85 @@ msgstr "參考圖工具"
 #~ "<html><head/><body><p><span style=\" font-weight:600;\">警告：</"
 #~ "span>FFmpeg 版本必須為 4.2 或以上才能支援 GIF 透明度</p></body></html>"
 
-#, kde-format
 #~ msgid "Image Sequence Options"
 #~ msgstr "影像序列選項"
 
-#, fuzzy, kde-format
+#, fuzzy
 #~| msgctxt "suffix for \"seconds\""
 #~| msgid " sec"
 #~ msgid " sec"
 #~ msgstr " 秒"
 
-#, kde-format
 #~ msgid "Select Layer Mode"
 #~ msgstr "選取圖層模式"
 
-#, kde-format
 #~ msgid "Select Multiple Layer Mode"
 #~ msgstr "選取多個圖層模式"
 
-#, kde-format
 #~ msgid "Start merging time"
 #~ msgstr "合併起始時間"
 
-#, kde-format
 #~ msgctxt "@info:tooltip"
 #~ msgid "The amount of time after a merged stroke before merging again"
 #~ msgstr "每一組筆畫被合併為一組前必須經過的最小時間"
 
-#, kde-format
 #~ msgid "Group time"
 #~ msgstr "合併間隔時間"
 
-#, kde-format
 #~ msgctxt "@info:tooltip"
 #~ msgid ""
 #~ "The amount of time every stroke should be apart from its previous stroke "
 #~ "to be classified in one group"
 #~ msgstr "前後兩筆被合併為同一組的最大間隔時間"
 
-#, kde-format
 #~ msgid "Split Strokes"
 #~ msgstr "每組筆畫數目"
 
-#, kde-format
 #~ msgid "Color Rate"
 #~ msgstr "色彩量"
 
-#, kde-format
 #~ msgctxt "PaintOp instant preview limitation"
 #~ msgid "Displacement Option"
 #~ msgstr "位移選項"
 
-#, kde-format
 #~ msgctxt "PaintOp instant preview limitation"
 #~ msgid "Source -> Total Random"
 #~ msgstr "來源 -> 筆畫隨機"
 
-#, kde-format
 #~ msgctxt "PaintOp instant preview limitation"
 #~ msgid "Source -> Pattern"
 #~ msgstr "來源 -> 圖案"
 
-#, kde-format
 #~ msgctxt "PaintOp instant preview limitation"
 #~ msgid "Source -> Pattern Locked"
 #~ msgstr "來源 -> 筆尖鎖定圖案"
 
-#, kde-format
 #~ msgid "0 px"
 #~ msgstr "0 px"
 
-#, kde-format
 #~ msgid "0 s"
 #~ msgstr "0 s"
 
-#, kde-format
 #~ msgid "1000"
 #~ msgstr "1000"
 
-#, kde-format
 #~ msgid "30 px"
 #~ msgstr "30 px"
 
-#, kde-format
 #~ msgid "3 s"
 #~ msgstr "3 s"
 
-#, kde-format
 #~ msgid "%1 s"
 #~ msgstr "%1 s"
 
-#, kde-format
 #~ msgctxt "option name"
 #~ msgid "Filter"
 #~ msgstr "濾鏡"
 
-#, kde-format
 #~ msgctxt "PaintOp instant preview limitation"
 #~ msgid "\"%1\" does not support scaled preview (non-linear filter)"
 #~ msgstr "「%1」不支援縮放預覽 (非線性過濾)"
 
-#, kde-format
 #~ msgctxt "@info:tooltip"
 #~ msgid ""
 #~ "Luminosity value of the brush that will not change the painting color. "
@@ -59682,24 +59649,20 @@ msgstr "參考圖工具"
 #~ "不影刷色彩的筆尖光度數值。所有比中性點暗的像素將繪出較暗的色彩，而比中性點"
 #~ "亮的像素則將繪出較亮的色彩。"
 
-#, kde-format
 #~ msgctxt "@info:tooltip"
 #~ msgid "Brightness correction for the brush"
 #~ msgstr "校正筆刷亮度"
 
-#, kde-format
 #~ msgctxt "@info:tooltip"
 #~ msgid "Contrast correction for the brush"
 #~ msgstr "校正比刷的對比度"
 
-#, kde-format
 #~ msgctxt "@info:tooltip"
 #~ msgid ""
 #~ "The selected brush tip does not have color channels. The brush will work "
 #~ "in \"Mask\" mode."
 #~ msgstr "選取的筆尖沒有色彩通道。筆刷將以「遮罩」模式運作。"
 
-#, kde-format
 #~ msgctxt "@info:tooltip"
 #~ msgid ""
 #~ "The selected brush engine does not support \"Color\" or \"Lightness\" "
@@ -59707,7 +59670,6 @@ msgstr "參考圖工具"
 #~ msgstr ""
 #~ "所選的筆刷引擎不支援「色彩」或「亮度」模式。筆刷將會以「遮罩」模式運作。"
 
-#, kde-format
 #~ msgctxt "@info:tooltip"
 #~ msgid ""
 #~ "Brush average: %1\n"
@@ -59716,23 +59678,18 @@ msgstr "參考圖工具"
 #~ "筆刷平均：%1\n"
 #~ "調整後平均：%2"
 
-#, kde-format
 #~ msgid "Mirrored"
 #~ msgstr "鏡像"
 
-#, kde-format
 #~ msgid "Not mirrored"
 #~ msgstr "非鏡像"
 
-#, kde-format
 #~ msgid "Align the brush preview outline to the pixel grid"
 #~ msgstr "將筆刷預覧對齊到像素格線"
 
-#, kde-format
 #~ msgid " s"
 #~ msgstr " s"
 
-#, kde-format
 #~ msgid ""
 #~ "<b>Krita can't find FFmpeg!</b><br>             <i>Krita depends on "
 #~ "another free program called FFmpeg to turn frame-by-frame animations into "
@@ -59748,11 +59705,9 @@ msgstr "參考圖工具"
 #~ "href=\"https://docs.krita.org/en/reference_manual/render_animation."
 #~ "html#setting-up-krita-for-exporting-animations\">請造訪使用者手冊。</a>"
 
-#, kde-format
 #~ msgid "Please extract ffmpeg from the archive first."
 #~ msgstr "請先從壓縮檔中解壓縮 FFmpeg。"
 
-#, kde-format
 #~ msgid ""
 #~ "This is a source code archive. Please download the application archive "
 #~ "('Windows Builds'), unpack it and then provide the path to the extracted "
@@ -59761,77 +59716,60 @@ msgstr "參考圖工具"
 #~ "此為原始碼封裝。請下載應用程式壓縮檔 ('Windows 組建')，將其壓縮檔後提供已"
 #~ "解壓縮的 FFmpeg 檔案的路徑。"
 
-#, kde-format
 #~ msgid "This is a source code archive. Please install ffmpeg instead."
 #~ msgstr "此為原始碼封裝。請改為安裝 FFmpeg。"
 
-#, kde-format
 #~ msgctxt "Heading for the list of Krita authors/developers"
 #~ msgid "Authors"
 #~ msgstr "開發者"
 
-#, kde-format
 #~ msgid "HDR Warning.................................."
 #~ msgstr "HDR 警告.................................."
 
-#, kde-format
 #~ msgid ""
 #~ "<b>Note: Krita will need to be restarted for changes to take effect</b>"
 #~ msgstr "<b>提示：變更下述設定後必須重新啟動程式才能生效</b>"
 
-#, kde-format
 #~ msgid "Unexpected error. Please contact developers."
 #~ msgstr "意外錯誤。請聯絡開發人員。"
 
-#, kde-format
 #~ msgctxt "Fetching remote image"
 #~ msgid "Do you want to download the image at %1?"
 #~ msgstr "要下載位於「%1」的影像嗎？"
 
-#, kde-format
 #~ msgid "Colu&mns:"
 #~ msgstr "列數(&M)："
 
-#, kde-format
 #~ msgid "&Rows:"
 #~ msgstr "行數(&R)："
 
-#, kde-format
 #~ msgid "HSV Sliders to Show"
 #~ msgstr "要顯示的 HSV 滑動條"
 
-#, kde-format
 #~ msgid "HSL Sliders to Show"
 #~ msgstr "要顯示的 HSL 滑動條"
 
-#, kde-format
 #~ msgid "HSI Sliders to Show"
 #~ msgstr "要顯示的 HSI 滑動條"
 
-#, kde-format
 #~ msgid "HSY' Sliders to Show"
 #~ msgstr "要顯示的 HSY' 滑動條"
 
-#, kde-format
 #~ msgctxt "action"
 #~ msgid "&Painter's Tools"
 #~ msgstr "繪畫工具(&P)"
 
-#, kde-format
 #~ msgctxt "action"
 #~ msgid "Painter's Tools"
 #~ msgstr "繪畫工具"
 
-#, kde-format
 #~ msgctxt "action"
 #~ msgid "Brush composite"
 #~ msgstr "筆刷分量"
 
-#, kde-format
 #~ msgid "&Description:"
 #~ msgstr "描述(&D)："
 
-#, kde-format
 #~ msgid ""
 #~ "Could not save %1.\n"
 #~ "Reason: %2"
@@ -59839,7 +59777,6 @@ msgstr "參考圖工具"
 #~ "無法儲存 %1。\n"
 #~ "原因：%2"
 
-#, kde-format
 #~ msgid ""
 #~ "Could not open %2.\n"
 #~ "Reason: %1"
