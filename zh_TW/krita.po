@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-06-20 00:47+0000\n"
-"PO-Revision-Date: 2023-05-20 13:57+0000\n"
+"PO-Revision-Date: 2023-06-22 09:25+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -17738,16 +17738,12 @@ msgid "Transparency Mask"
 msgstr "透明度遮罩"
 
 #: libs/impex/LayerOpacityCheck.h:109
-#, fuzzy, kde-format
-#| msgctxt "image conversion warning"
-#| msgid ""
-#| "Your image contains layers with a color model that is different from the "
-#| "image. The layers will be converted."
+#, kde-format
 msgctxt "image conversion warning"
 msgid ""
 "Your image contains layers with a partial opacity. The layers will be "
 "exported at full opacity."
-msgstr "此影像含有色彩模式與其不統一的圖層。這些圖層將被轉換以適應影像。"
+msgstr "此影像含有部分透明的圖層。這些圖層將會匯出為完全不透明的圖層。"
 
 #: libs/impex/MultiLayerCheck.h:24
 #, kde-format
@@ -22762,22 +22758,19 @@ msgstr "以數位板驅動程式提供的筆跡時間戳記來計算筆刷速度
 #. and it will be substituted by the number. The text before will be
 #. used as the prefix and the text after as the suffix
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1318
-#, fuzzy, kde-format
-#| msgid "Maximum brush size:"
+#, kde-format
 msgid "Maximum brush speed: {n} px/ms"
 msgid_plural "Maximum brush speed: {n} px/ms"
-msgstr[0] "筆刷最大大小："
+msgstr[0] "筆刷最高速度：每微秒 {n} 個像素"
 
 #. i18n: This is meant to be used in a spinbox so keep the {n} in the text
 #. and it will be substituted by the number. The text before will be
 #. used as the prefix and the text after as the suffix
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1327
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Brush Smoothing: Disabled"
+#, kde-format
 msgid "Brush speed smoothing: {n} sample"
 msgid_plural "Brush speed smoothing: {n} samples"
-msgstr[0] "筆刷平滑：停用"
+msgstr[0] "筆刷速度值平滑化：{n} 個取樣值"
 
 #. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, intSwapSize)
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1424
@@ -30292,11 +30285,9 @@ msgid "Also save your image as a Krita file."
 msgstr "請將影像另存為 Krita 格式檔案。"
 
 #: libs/ui/KisImportExportUtils.cpp:48
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Convert Image Color Space"
+#, kde-format
 msgid "Convert image color space on import"
-msgstr "轉換影像色彩空間"
+msgstr "於匯入時轉換影像色彩空間"
 
 #: libs/ui/KisImportExportUtils.cpp:51
 #, kde-format
@@ -30304,7 +30295,8 @@ msgctxt "the argument is the ICC profile name"
 msgid ""
 "The image has a profile attached that Krita cannot edit images in (\"%1\"), "
 "please select a space to convert to for editing: \n"
-msgstr ""
+msgstr "此影像附有 Krita 不能使用作影像編輯用途的色彩特性檔案 "
+"(「%1」)。請選取一個色彩空間來轉換影像以便編輯：\n"
 
 #: libs/ui/KisLayerThumbnailCache.cpp:30
 msgctxt "(qtundo-format)"
@@ -46760,7 +46752,7 @@ msgstr "使用作者檔案資料簽名"
 msgctxt "JPEG-XL errors"
 msgid ""
 "Detected JPEG-XL image with spot color channels, importing flattened image."
-msgstr ""
+msgstr "偵測到含專色 (spot color) 通道的 JPEG-XL 影像，將匯入已平整的影像。"
 
 #: plugins/impex/jxl/JPEGXLImport.cpp:637
 #: plugins/impex/jxl/JPEGXLImport.cpp:647
@@ -46777,13 +46769,13 @@ msgctxt "JPEG-XL errors"
 msgid ""
 "Detected multi layer JPEG-XL image with unsupported blending mode, importing "
 "flattened image."
-msgstr ""
+msgstr "偵測到此多圖層 JPEG-XL 影像含有未支援的混色模式，將匯入已平整的影像。"
 
 #: plugins/impex/jxl/JPEGXLImport.cpp:828
 #, kde-format
 msgctxt "JPEG-XL"
 msgid "Invalid JPEG-XL layer name length"
-msgstr ""
+msgstr "無效的 JPEG-XL 圖層名稱長度"
 
 #: plugins/impex/jxl/JPEGXLImport.cpp:887
 #, kde-format
@@ -47195,24 +47187,21 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, flattenLayers)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:233
-#, fuzzy, kde-format
-#| msgid ""
-#| "<html><head/><body><p><span style=\" font-weight:600;\">Note:</span> you "
-#| "need to restart Krita to enable or disable plugins.</p></body></html>"
+#, kde-format
 msgid ""
 "<html><head/><body><p><span style=\" font-weight:600;\">Note:</span> "
 "Animated exports are <span style=\" font-weight:600;\">always</span> "
 "flattened regardless of this setting.</p></body></html>"
 msgstr ""
-"<html><head/><body><p><span style=\" font-weight:600;\">註：</span>您需要重新"
-"啟動 Krita 才能啟用或停用外掛程式。</p></body></html>"
+"<html><head/><body><p><span style=\" font-weight:600;\""
+">註：</span>匯出動畫時將忽略此選項，影像<span style=\" font-weight:600;\""
+">必定</span>會被平整化。</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, flattenLayers)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:236
-#, fuzzy, kde-format
-#| msgid "Flatten the &image"
+#, kde-format
 msgid "Flatten the image"
-msgstr "平整影像(&I)"
+msgstr "平整影像"
 
 #. i18n: ectx: property (text), widget (QLabel, explanationLabel)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:253
