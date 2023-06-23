@@ -59562,33 +59562,27 @@ msgctxt "action"
 msgid "Reference Images Tool"
 msgstr "參考圖工具"
 
-#, kde-format
 #~ msgctxt "paletegen status mode option name"
 #~ msgid "Difference"
 #~ msgstr "差別"
 
-#, kde-format
 #~ msgctxt "paleteuse dither option name"
 #~ msgid "none"
 #~ msgstr "none"
 
-#, kde-format
 #~ msgctxt "paleteuse diff mode option name"
 #~ msgid "none"
 #~ msgstr "none"
 
-#, kde-format
 #~ msgctxt "Resize intepolation method list label"
 #~ msgid "&Filter:"
 #~ msgstr "縮放過濾(&F)："
 
-#, kde-format
 #~ msgctxt "JPEG-XL errors"
 #~ msgid ""
 #~ "JPEG-XL image is animated, but cannot retrieve animation frame header."
 #~ msgstr "JPEG-XL 影像為動畫，但未能讀取動畫影格標頭資料。"
 
-#, kde-format
 #~ msgctxt "floating on-canvas message"
 #~ msgid ""
 #~ "Cannot open audio: \"%1\"\n"
@@ -59597,21 +59591,17 @@ msgstr "參考圖工具"
 #~ "無法開啟音訊：「%1」\n"
 #~ "錯誤：%2"
 
-#, kde-format
 #~ msgid "Edit Audio:"
 #~ msgstr "編輯音訊："
 
-#, kde-format
 #~ msgctxt "@item:inmenu"
 #~ msgid "Audio playback is not supported in this build!"
 #~ msgstr "此 Krita 編譯版本不支援音訊播放！"
 
-#, kde-format
 #~ msgctxt "@item:inmenu"
 #~ msgid "Open audio..."
 #~ msgstr "開啟音訊…"
 
-#, kde-format
 #~ msgctxt "@item:inmenu"
 #~ msgid "Change audio (%1)..."
 #~ msgstr "變更音訊 (%1)…"
