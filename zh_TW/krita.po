@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-06-23 00:45+0000\n"
+"POT-Creation-Date: 2023-06-24 00:47+0000\n"
 "PO-Revision-Date: 2023-06-23 09:23+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
@@ -17329,12 +17329,12 @@ msgctxt "(qtundo-format)"
 msgid "Invert Selection"
 msgstr "反轉選取"
 
-#: libs/image/kis_selection_filters.cpp:904
+#: libs/image/kis_selection_filters.cpp:930
 msgctxt "(qtundo-format)"
 msgid "Anti-Alias Selection"
 msgstr "反鋸齒化選取區域"
 
-#: libs/image/kis_selection_filters.cpp:1169
+#: libs/image/kis_selection_filters.cpp:1195
 msgctxt "(qtundo-format)"
 msgid "Grow Selection Until Darkest Pixel"
 msgstr "擴大選取區域至最暗的像素"
@@ -19551,7 +19551,7 @@ msgstr "含未儲存更動"
 #: libs/ui/animation/VideoImportDialog.ui:149
 #: plugins/dockers/logdocker/LogDockerDock.cpp:187
 #: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:262
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:857
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:860
 #: plugins/impex/webp/kis_wdg_options_webp.ui:791
 #, kde-format
 msgid "Metadata"
@@ -19726,9 +19726,9 @@ msgstr "縮圖"
 #: libs/resources/KisTagModel.cpp:126 libs/resources/KisTagModel.cpp:305
 #: libs/ui/widgets/kis_paintop_presets_editor.cpp:613
 #: plugins/assistants/Assistants/AssistantsToolOptions.ui:325
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:661
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:713
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:812
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:664
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:716
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:815
 #: plugins/tools/defaulttool/referenceimagestool/WdgToolOptions.ui:220
 #, kde-format
 msgid "All"
@@ -21346,7 +21346,7 @@ msgstr "最小光度："
 #: libs/ui/animation/VideoHDRMetadataOptionsDialog.ui:300
 #: libs/ui/animation/VideoHDRMetadataOptionsDialog.ui:317
 #: plugins/impex/heif/WdgHeifExport.ui:116
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:315
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:318
 #, kde-format
 msgid " cd/m²"
 msgstr " cd/m²"
@@ -21511,7 +21511,7 @@ msgstr "時長："
 #. i18n: ectx: attribute (title), widget (QWidget, advanced)
 #: libs/ui/animation/VideoImportDialog.ui:512
 #: libs/ui/forms/wdgperformancesettings.ui:251
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:332
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:335
 #: plugins/impex/webp/kis_wdg_options_webp.ui:147
 #, kde-format
 msgid "Advanced"
@@ -22209,7 +22209,7 @@ msgstr "套用 HLG OOTF (光學轉移函數)"
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:176
 #: plugins/dockers/artisticcolorselector/forms/wdgARCSSettings.ui:225
 #: plugins/dockers/lut/wdglut.ui:270 plugins/impex/heif/WdgHeifExport.ui:89
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:288
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:291
 #, kde-format
 msgid "Gamma:"
 msgstr "Gamma："
@@ -22232,7 +22232,7 @@ msgstr ""
 #: libs/ui/dialogs/kis_dlg_hlg_import.ui:57
 #: plugins/generators/screentone/KisScreentoneConfigWidget.ui:767
 #: plugins/impex/heif/WdgHeifExport.ui:106
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:305
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:308
 #: plugins/paintops/libpaintop/forms/wdgtexturechooser.ui:128
 #, kde-format
 msgid "Brightness:"
@@ -22346,9 +22346,9 @@ msgstr "圖層屬性"
 #: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:48
 #: plugins/impex/jpeg/kis_jpeg_export.cc:217
 #: plugins/impex/jpeg/kis_jpeg_export.cc:219
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:635
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:687
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:834
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:638
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:690
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:837
 #: plugins/impex/tiff/kis_wdg_options_tiff.ui:277
 #: plugins/impex/webp/kis_wdg_options_webp.ui:82
 #: plugins/impex/webp/kis_wdg_options_webp.ui:305
@@ -23552,22 +23552,22 @@ msgstr ""
 msgid ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
 "REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
-"css\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body>\n"
 "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\">Krita is an open source "
 "and community-driven tool for digital artists everywhere.<br />Progress is "
-"made possible thanks to ongoing support from our community of <a "
-"href=\"https://docs.krita.org/en/contributors_manual.html\">contributors</"
-"a>, sponsors, and <a href=\"https://fund.krita.org/\">development fund </"
+"made possible thanks to ongoing support from our community of <a href="
+"\"https://docs.krita.org/en/contributors_manual.html\">contributors</a>, "
+"sponsors, and <a href=\"https://fund.krita.org/\">development fund </"
 "a>members.</p></body></html>"
 msgstr ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
 "REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
-"css\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body>\n"
 "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
@@ -23781,10 +23781,10 @@ msgstr "關於"
 
 #. i18n: ectx: attribute (title), widget (QWidget, authorsTab)
 #: libs/ui/forms/wdgaboutapplication.ui:35
-#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:366
 #, kde-format
+msgctxt "Heading for the list of Krita authors/developers"
 msgid "Authors"
-msgstr "作者"
+msgstr "開發者"
 
 #. i18n: ectx: attribute (title), widget (QWidget, translatorsTab)
 #: libs/ui/forms/wdgaboutapplication.ui:49
@@ -24164,11 +24164,11 @@ msgstr "色彩空間瀏覽器"
 #: libs/ui/forms/wdgcolorspaceselectoradvanced.ui:27
 #, kde-format
 msgid ""
-"<html><head/><body><p><a href=\"https://en.wikipedia.org/wiki/"
-"Color_space\"><span style=\" font-weight:600; text-decoration: underline; "
-"color:#006e28;\">Color Spaces</span></a>  determine how colors are encoded "
-"in your files. Different color spaces have different properties and are used "
-"for different purposes.</p></body></html>"
+"<html><head/><body><p><a href=\"https://en.wikipedia.org/wiki/Color_space"
+"\"><span style=\" font-weight:600; text-decoration: underline; color:#006e28;"
+"\">Color Spaces</span></a>  determine how colors are encoded in your files. "
+"Different color spaces have different properties and are used for different "
+"purposes.</p></body></html>"
 msgstr ""
 "<html><head/><body><p><a href=\"https://zh.wikipedia.org/wiki/色彩空間"
 "\"><span style=\" font-weight:600; text-decoration: underline; color:#006e28;"
@@ -27911,8 +27911,8 @@ msgstr "修改工具主要設定"
 #: libs/ui/input/kis_change_primary_setting_action.cpp:23
 #, kde-format
 msgid ""
-"The <i>Change Primary Setting</i> action changes a tool's \"Primary "
-"Setting\", for example the brush size for the brush tool."
+"The <i>Change Primary Setting</i> action changes a tool's \"Primary Setting"
+"\", for example the brush size for the brush tool."
 msgstr ""
 "<b>修改工具主要設定</b>操作用於改變某個工具的主要選項，例如筆刷工具的筆刷大"
 "小。"
@@ -29300,11 +29300,11 @@ msgid ""
 "org/support-us/\"><span style=\" text-decoration: underline; color:%1;"
 "\">Support Krita's Development!</span></a></p><p><a href=\"https://docs."
 "krita.org/en/user_manual/getting_started.html\"><span style=\" text-"
-"decoration: underline; color:%1;\">Getting Started</span></a></p><p><a "
-"href=\"https://docs.krita.org/\"><span style=\" text-decoration: underline; "
-"color:%1;\">Manual</span></a></p><p><a href=\"https://krita.org/\"><span "
-"style=\" text-decoration: underline; color:%1;\">Krita Website</span></a></"
-"p></td><td><p><span style=\" color:%1;\"><b>Coding Krita</b></span></p><p><a "
+"decoration: underline; color:%1;\">Getting Started</span></a></p><p><a href="
+"\"https://docs.krita.org/\"><span style=\" text-decoration: underline; color:"
+"%1;\">Manual</span></a></p><p><a href=\"https://krita.org/\"><span style=\" "
+"text-decoration: underline; color:%1;\">Krita Website</span></a></p></"
+"td><td><p><span style=\" color:%1;\"><b>Coding Krita</b></span></p><p><a "
 "href=\"https://krita-artists.org\"><span style=\" text-decoration: "
 "underline; color:%1;\">User Community</span></a></p><p><a href=\"https://"
 "invent.kde.org/graphics/krita\"><span style=\" text-decoration: underline; "
@@ -30832,17 +30832,17 @@ msgstr "使用此範本"
 msgid "You cannot drag and drop colors on the selected layer type."
 msgstr "不能將色塊拖放到選定的圖層類型上。"
 
-#: libs/ui/KisView.cpp:767 libs/ui/tool/kis_tool.cc:673
+#: libs/ui/KisView.cpp:767 libs/ui/tool/kis_tool.cc:678
 #, kde-format
 msgid "Layer is locked and invisible."
 msgstr "圖層已鎖定且不可見。"
 
-#: libs/ui/KisView.cpp:769 libs/ui/tool/kis_tool.cc:675
+#: libs/ui/KisView.cpp:769 libs/ui/tool/kis_tool.cc:680
 #, kde-format
 msgid "Layer is locked."
 msgstr "圖層已鎖定。"
 
-#: libs/ui/KisView.cpp:771 libs/ui/tool/kis_tool.cc:677
+#: libs/ui/KisView.cpp:771 libs/ui/tool/kis_tool.cc:682
 #, kde-format
 msgid "Layer is invisible."
 msgstr "圖層不可見。"
@@ -31580,7 +31580,7 @@ msgstr "圖層挖空陰影(&U)"
 #: libs/ui/layerstyles/wdgdropshadow.ui:50
 #: libs/ui/layerstyles/wdgInnerGlow.ui:279
 #: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:75
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:65
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:68
 #: plugins/impex/tiff/kis_wdg_options_tiff.ui:236
 #: plugins/impex/webp/kis_wdg_options_webp.ui:71
 #, kde-format
@@ -32054,34 +32054,34 @@ msgstr "選取動作"
 msgid "Transform"
 msgstr "變形"
 
-#: libs/ui/tool/kis_tool.cc:575
+#: libs/ui/tool/kis_tool.cc:580
 #, kde-format
 msgid "No options"
 msgstr "無選項"
 
-#: libs/ui/tool/kis_tool.cc:679
+#: libs/ui/tool/kis_tool.cc:684
 #, kde-format
 msgid "Layer can be painted in Wash Mode only."
 msgstr "此圖層只能在沖刷模式下進行繪製。"
 
-#: libs/ui/tool/kis_tool.cc:681
+#: libs/ui/tool/kis_tool.cc:686
 #, kde-format
 msgid "Group not editable."
 msgstr "群組圖層不可編輯。"
 
-#: libs/ui/tool/kis_tool.cc:696
+#: libs/ui/tool/kis_tool.cc:701
 #, kde-format
 msgid "Local selection is locked."
 msgstr "局部選取區域已鎖定。"
 
-#: libs/ui/tool/kis_tool_freehand.cc:207
+#: libs/ui/tool/kis_tool_freehand.cc:212
 #, kde-format
 msgid ""
 "The brush tool cannot paint on this layer.  Please select a paint layer or "
 "mask."
 msgstr "筆刷工具無法在此圖層繪畫，請選取一個顏料圖層或者遮罩圖層。"
 
-#: libs/ui/tool/kis_tool_freehand.cc:212
+#: libs/ui/tool/kis_tool_freehand.cc:217
 #: libs/ui/tool/kis_tool_polyline_base.cpp:119
 #: libs/ui/tool/kis_tool_rectangle_base.cpp:164
 #: libs/ui/tool/KisToolOutlineBase.cpp:167
@@ -32957,8 +32957,8 @@ msgid ""
 "<p><b>Extra notes on profiles by Elle Stone:</b></p><p><i>Krita comes with a "
 "number of high quality profiles created by <a href=\"https://"
 "ninedegreesbelow.com\">Elle Stone</a>. This is a summary. Please check <a "
-"href=\"https://ninedegreesbelow.com/photography/lcms-make-icc-profiles."
-"html\">the full documentation</a> as well.</i></p>"
+"href=\"https://ninedegreesbelow.com/photography/lcms-make-icc-profiles.html"
+"\">the full documentation</a> as well.</i></p>"
 msgstr ""
 "<p><b>Elle Stone 色彩特性檔案說明：</b></p><p><b>Krita 內建了一系列由 <a "
 "href=\"https://ninedegreesbelow.com\">Elle Stone</a> 製作的高品質色彩特性檔"
@@ -33038,10 +33038,10 @@ msgstr ""
 "可以容納現實世界的一切真實色彩。兩者的不同之處在於 AllColorsRGB 使用 D50 白點"
 "且具備稍寬的色域來容納那些在色域邊緣上被普通人認作非真實的色彩。</p><p>和 "
 "ACES 色域一樣， AllColorsRGB 包含有大量概念色 (imaginary colors) 。如需了解概"
-"念色，可閱讀<a href=\"https://ninedegreesbelow.com/photography/xyz-rgb."
-"html\">《Painless Programmer's Guide to XYZ, RGB, ICC, xyY, and TRCs》</a>。"
-"</p><p>除非必須確保色彩空間包含一切真實色彩，否則不應使用此特性檔案來進行影像"
-"編輯。</p>"
+"念色，可閱讀<a href=\"https://ninedegreesbelow.com/photography/xyz-rgb.html"
+"\">《Painless Programmer's Guide to XYZ, RGB, ICC, xyY, and TRCs》</a>。</"
+"p><p>除非必須確保色彩空間包含一切真實色彩，否則不應使用此特性檔案來進行影像編"
+"輯。</p>"
 
 #: libs/ui/widgets/kis_advanced_color_space_selector.cc:565
 #, kde-format
@@ -33465,8 +33465,8 @@ msgid ""
 "<p>Instant Preview may look different from the final result. In case of "
 "troubles try disabling the following options:<ul>%1</ul></p>"
 msgstr ""
-"<p>即時預覽的顯示效果可能與最終結果有所差異。如果遇到問題可停用下列選項："
-"<ul>%1</ul></p>"
+"<p>即時預覽的顯示效果可能與最終結果有所差異。如果遇到問題可停用下列選項：<ul>"
+"%1</ul></p>"
 
 #: libs/ui/widgets/kis_lod_availability_widget.cpp:162
 #, kde-format
@@ -34030,9 +34030,9 @@ msgid ""
 msgstr ""
 "<html><body><p><b>警告：</b> 此影像在變更色彩特性檔案後外觀會出現變化。這是因"
 "為此影像含有：<ul><li>多於一個圖層</li><li>一個或以上含有透明像素的圖層</"
-"li><li>使用「正常」(\"Normal\") 以外混色模式的圖層</li></ul></p><p><a "
-"href=\"https://docs.krita.org/en/general_concepts/colors/"
-"color_managed_workflow.html\">詳細資料</a></p></body></html>"
+"li><li>使用「正常」(\"Normal\") 以外混色模式的圖層</li></ul></p><p><a href="
+"\"https://docs.krita.org/en/general_concepts/colors/color_managed_workflow."
+"html\">詳細資料</a></p></body></html>"
 
 #: libs/ui/widgets/KoDualColorButton.cpp:426
 #, kde-format
@@ -35467,14 +35467,14 @@ msgstr "<html><font size=\"5\">KDE 桌面環境 - 一切自由</font></html>"
 #, kde-format
 msgid ""
 "<html><b>KDE</b> is a world-wide network of software engineers, artists, "
-"writers, translators and facilitators who are committed to <a "
-"href=\"%1\">Free Software</a> development. This community has created "
-"hundreds of Free Software applications as part of the KDE frameworks, "
-"workspaces and applications.<br /><br />KDE is a cooperative enterprise in "
-"which no single entity controls the efforts or products of KDE to the "
-"exclusion of others. Everyone is welcome to join and contribute to KDE, "
-"including you.<br /><br />Visit <a href=\"%2\">%2</a> for more information "
-"about the KDE community and the software we produce.</html>"
+"writers, translators and facilitators who are committed to <a href="
+"\"%1\">Free Software</a> development. This community has created hundreds of "
+"Free Software applications as part of the KDE frameworks, workspaces and "
+"applications.<br /><br />KDE is a cooperative enterprise in which no single "
+"entity controls the efforts or products of KDE to the exclusion of others. "
+"Everyone is welcome to join and contribute to KDE, including you.<br /><br /"
+">Visit <a href=\"%2\">%2</a> for more information about the KDE community "
+"and the software we produce.</html>"
 msgstr ""
 "<html><b>KDE</b> 是一個由眾多軟體工程師、藝術作業者、文字作業者、翻譯人員和其"
 "他有志於<a href=\"%1\">自由軟體</a>事業的人們組成的世界性社群網路。我們的社群"
@@ -35617,8 +35617,8 @@ msgid ""
 msgstr ""
 "<qt><p>回報問題前，請先閱讀<b><a href=\"https://docs.krita.org/en/"
 "untranslatable_pages/reporting_bugs.html\">這篇指南</a></b>！</p><p>要回報錯"
-"誤報告，請按下方的按鈕。這會開啟一個網址是 <a href=\"https://bugs.kde."
-"org\">https://bugs.kde.org</a> 的瀏覽器視窗，這裡您能看到能讓您填寫的表單。</"
+"誤報告，請按下方的按鈕。這會開啟一個網址是 <a href=\"https://bugs.kde.org"
+"\">https://bugs.kde.org</a> 的瀏覽器視窗，這裡您能看到能讓您填寫的表單。</"
 "p><p><b>請把下面的資訊貼到錯誤報告中！</b></p></qt>"
 
 #: libs/widgetutils/xmlgui/kbugreport.cpp:207
@@ -41819,7 +41819,7 @@ msgstr "都柏林核心"
 #. i18n: ectx: property (text), widget (QCheckBox, exif)
 #: plugins/extensions/metadataeditor/kis_meta_data_editor.cc:162
 #: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:274
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:880
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:883
 #: plugins/impex/webp/kis_wdg_options_webp.ui:812
 #: plugins/metadata/exif/kis_exif_io.h:28
 #, kde-format
@@ -46334,7 +46334,7 @@ msgstr "色度："
 #. i18n: ectx: property (title), widget (QGroupBox, conversionSettings)
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
 #: plugins/impex/heif/WdgHeifExport.ui:57
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:247
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:250
 #, kde-format
 msgid "Conversion settings"
 msgstr "轉換設定"
@@ -46352,14 +46352,14 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, spaceLabel)
 #: plugins/impex/heif/WdgHeifExport.ui:79
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:266
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:269
 #, kde-format
 msgid "Space:"
 msgstr "轉換空間："
 
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, spnGamma)
 #: plugins/impex/heif/WdgHeifExport.ui:96
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:295
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:298
 #, kde-format
 msgid ""
 "<html><head/><body><p>Display gamma. By default this is 1.2 for converting "
@@ -46370,7 +46370,7 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, spnNits)
 #: plugins/impex/heif/WdgHeifExport.ui:113
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:312
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:315
 #, kde-format
 msgid ""
 "<html><head/><body><p>The display brightness in nits. By default this is set "
@@ -46382,7 +46382,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkHLGOOTF)
 #. i18n: ectx: property (toolTip), widget (QGroupBox, chkHLGOOTF)
 #: plugins/impex/heif/WdgHeifExport.ui:129
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:276
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:279
 #, kde-format
 msgid ""
 "<html><head/><body><p>Hybrid Log Gamma needs an extra conversion step in "
@@ -46397,7 +46397,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, chkHLGOOTF)
 #. i18n: ectx: property (title), widget (QGroupBox, chkHLGOOTF)
 #: plugins/impex/heif/WdgHeifExport.ui:132
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:279
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:282
 #, kde-format
 msgid "Apply reverse Hybrid Log Gamma OOTF"
 msgstr "套用反向 Hybrid Log Gamma 光學轉移函數 (OOTF)"
@@ -46692,7 +46692,7 @@ msgstr "最佳化"
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:268
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:874
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:877
 #: plugins/impex/webp/kis_wdg_options_webp.ui:806
 #, kde-format
 msgid "Formats:"
@@ -46700,14 +46700,14 @@ msgstr "格式："
 
 #. i18n: ectx: property (text), widget (QCheckBox, iptc)
 #: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:284
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:887
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:890
 #, kde-format
 msgid "IPTC"
 msgstr "IPTC"
 
 #. i18n: ectx: property (text), widget (QCheckBox, xmp)
 #: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:294
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:894
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:897
 #: plugins/impex/webp/kis_wdg_options_webp.ui:819
 #: plugins/metadata/xmp/kis_xmp_io.h:26
 #, kde-format
@@ -46727,7 +46727,7 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, chkMetadata)
 #. i18n: ectx: property (text), widget (QCheckBox, chkMetaData)
 #: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:336
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:863
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:866
 #: plugins/impex/webp/kis_wdg_options_webp.ui:797
 #, kde-format
 msgid "Store Document Metadata"
@@ -46752,7 +46752,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkAuthor)
 #: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:358
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:918
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:921
 #, kde-format
 msgid "Sign with Author Profile Data"
 msgstr "使用作者檔案資料簽名"
@@ -46846,10 +46846,10 @@ msgstr "8×8 下降取樣"
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:100
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:108
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:128
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:460
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:654
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:706
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:822
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:463
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:657
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:709
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:825
 #, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "Default (encoder chooses)"
@@ -47076,14 +47076,21 @@ msgstr "以動畫 JPEG-XL 儲存"
 msgid "Encoding options"
 msgstr "編碼選項"
 
-#. i18n: ectx: property (title), widget (QGroupBox, lossyEncoding)
+#. i18n: ectx: property (toolTip), widget (QGroupBox, lossyEncoding)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:56
+#, fuzzy, kde-format
+#| msgid "If this is not enabled, only the first frame will be saved."
+msgid "If this is not enabled, the image will be saved losslessly."
+msgstr "如不啟用此選項，則只會儲存首個影格。"
+
+#. i18n: ectx: property (title), widget (QGroupBox, lossyEncoding)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:59
 #, kde-format
 msgid "Lossy encoding"
 msgstr "有損壓縮編碼"
 
 #. i18n: ectx: property (text), widget (QLabel, lblHighQual)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:74
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:77
 #: plugins/paintops/libpaintop/KisDynamicSensorFactoryRegistry.cpp:24
 #: plugins/paintops/libpaintop/KisDynamicSensorFactoryRegistry.cpp:27
 #, kde-format
@@ -47091,7 +47098,7 @@ msgid "High"
 msgstr "高"
 
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, lossyQuality)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:88
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:91
 #, kde-format
 msgid ""
 "Set the lossy quality of JPEG-XL export.\n"
@@ -47101,7 +47108,7 @@ msgstr ""
 "預設為 90 (視覺上無失真)。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblLowQual)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:104
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:107
 #: plugins/paintops/libpaintop/KisDynamicSensorFactoryRegistry.cpp:24
 #: plugins/paintops/libpaintop/KisDynamicSensorFactoryRegistry.cpp:27
 #, kde-format
@@ -47109,7 +47116,7 @@ msgid "Low"
 msgstr "低"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, forceModular)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:115
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:118
 #, kde-format
 msgid ""
 "Use modular encoding instead of default VarDCT for lossy compression\n"
@@ -47121,34 +47128,34 @@ msgstr ""
 "預設為停用。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, forceModular)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:118
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:121
 #, kde-format
 msgid "Use modular mode"
 msgstr "使用模組化編碼模式"
 
 #. i18n: ectx: property (text), widget (QLabel, lblTradeoff)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:128
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:131
 #: plugins/impex/webp/kis_wdg_options_webp.ui:95
 #, kde-format
 msgid "Tradeoff"
 msgstr "平衡取捨"
 
 #. i18n: ectx: property (text), widget (QLabel, lblFaster)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:137
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:140
 #: plugins/impex/webp/kis_wdg_options_webp.ui:104
 #, kde-format
 msgid "Faster"
 msgstr "較快"
 
 #. i18n: ectx: property (text), widget (QLabel, lblSlowerBetter)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:144
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:147
 #: plugins/impex/webp/kis_wdg_options_webp.ui:111
 #, kde-format
 msgid "Slower/Better"
 msgstr "較慢/較佳"
 
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, effort)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:156
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:159
 #, kde-format
 msgid ""
 "Sets encoder effort/speed level without affecting decoding speed.\n"
@@ -47164,25 +47171,25 @@ msgstr ""
 "預設為松鼠 squirrel (7)。"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:174
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:177
 #, kde-format
 msgid "Decoding speed"
 msgstr "解碼速度"
 
 #. i18n: ectx: property (text), widget (QLabel, lblSlowest)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:183
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:186
 #, kde-format
 msgid "Slowest/Best quality"
 msgstr "最慢/最高畫質"
 
 #. i18n: ectx: property (text), widget (QLabel, lblSlowerBetter2)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:190
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:193
 #, kde-format
 msgid "Fastest/Slight quality loss"
 msgstr "最快/稍微畫質下降"
 
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, decodingSpeed)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:202
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:205
 #, kde-format
 msgid ""
 "Sets the decoding speed tier for the provided options.\n"
@@ -47196,25 +47203,23 @@ msgstr ""
 "預設為 0。"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, flattenLayers)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:233
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:236
 #, kde-format
 msgid ""
-"<html><head/><body><p><span style=\" font-weight:600;\">Note:</span> "
-"Animated exports are <span style=\" font-weight:600;\">always</span> "
-"flattened regardless of this setting.</p></body></html>"
+"<html><head/><body><p>If this is not enabled, the layers will be rasterized "
+"and saved. However, animated exports are always flattened regardless of this "
+"setting.</p><p>It is advised to leave this option checked for web delivery "
+"and general compatibility with other applications.</p></body></html>"
 msgstr ""
-"<html><head/><body><p><span style=\" font-weight:600;\">註：</span>匯出動畫時"
-"將忽略此選項，影像<span style=\" font-weight:600;\">必定</span>會被平整化。</"
-"p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, flattenLayers)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:236
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:239
 #, kde-format
 msgid "Flatten the image"
 msgstr "平整影像"
 
 #. i18n: ectx: property (text), widget (QLabel, explanationLabel)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:253
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:256
 #, kde-format
 msgid ""
 "Applications like Google Chrome expect HDR images to store their color "
@@ -47224,20 +47229,20 @@ msgstr ""
 "可以在下方調整 ICC 色彩特性的轉換方式。"
 
 #. i18n: ectx: attribute (title), widget (QWidget, encoderParameters)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:342
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:345
 #, kde-format
 msgid "Encoder parameters"
 msgstr "編碼器參數"
 
 #. i18n: ectx: property (text), widget (QLabel, lblResampling)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:348
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:351
 #, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "Color channel resampling"
 msgstr "色彩通道重新取樣"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, resampling)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:355
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:358
 #, kde-format
 msgid ""
 "Sets resampling option. If enabled, the image's color channels are "
@@ -47248,13 +47253,13 @@ msgstr ""
 "升取樣至原來的大小。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblAlphaResampling)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:362
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:365
 #, kde-format
 msgid "Alpha channel resampling"
 msgstr "Alpha 通道重新取樣"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, extraChannelResampling)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:369
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:372
 #, kde-format
 msgid ""
 "Sets resampling option. If enabled, the image's alpha channel is downsampled "
@@ -47264,14 +47269,14 @@ msgstr ""
 "在解碼時再上升取樣至原來的大小。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblPhotonNoise)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:376
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:379
 #, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "Photon noise"
 msgstr "光子雜訊"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, photonNoise)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:391
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:394
 #, kde-format
 msgid ""
 "Adds noise to the image emulating photographic film noise, the higher the "
@@ -47285,45 +47290,45 @@ msgstr ""
 "預設值為 0。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblDots)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:401
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:404
 #, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "Generate dots"
 msgstr "產生斑點 (dots)"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, dots)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:408
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:411
 #, kde-format
 msgid "Enables or disables dots generation."
 msgstr "啟用或停用斑點 (dots) 的產生。"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:415
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:418
 #, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "Generate patches"
 msgstr "產生圖案區塊 (patches)"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, patches)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:422
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:425
 #, kde-format
 msgid "Enables or disables patches generation."
 msgstr "啟用或停用圖案區塊 (patches) 的產生。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblEpf)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:429
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:432
 #, kde-format
 msgid "Edge preserving filter"
 msgstr "邊緣保留過濾"
 
 #. i18n: ectx: property (text), widget (QLabel, lblMax)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:450
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:453
 #, kde-format
 msgid "Maximum strength"
 msgstr "最大強度"
 
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, epf)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:467
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:470
 #, kde-format
 msgid ""
 "Edge preserving filter level, -1 to 3. Use -1 for the default (encoder "
@@ -47333,39 +47338,39 @@ msgstr ""
 "度。"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, gaborish)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:482
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:485
 #, kde-format
 msgid "Enables or disables the gaborish filter."
 msgstr "啟用或停用「類 Garbor」(Garborish) 過濾器。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblGaborishFilter)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:489
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:492
 #, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "Gaborish filter"
 msgstr "Gaborish 過濾"
 
 #. i18n: ectx: property (text), widget (QLabel, lbModularEncoding)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:496
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:499
 #, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "Modular encoding"
 msgstr "模組化編碼"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, modular)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:503
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:506
 #, kde-format
 msgid "Enables modular encoding."
 msgstr "啟用模組化編碼。"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, keepInvisible)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:510
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:513
 #, kde-format
 msgid "Enables or disables preserving color of invisible pixels."
 msgstr "啟用或停用保留不可見像素的色彩值。"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, groupOrder)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:517
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:520
 #, kde-format
 msgid ""
 "Determines the order in which 256x256 regions are stored in the codestream "
@@ -47373,41 +47378,41 @@ msgid ""
 msgstr "決定在編碼流中存放各 256×256 區塊的排列順序，以支援漸進式算繪。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblKeepInvisible)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:527
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:530
 #, kde-format
 msgid "Keep color of invisible pixels"
 msgstr "保留不可見像素的色彩值"
 
 #. i18n: ectx: property (text), widget (QLabel, lblGroupOrder)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:534
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:537
 #, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "Group order"
 msgstr "群組順序"
 
 #. i18n: ectx: property (text), widget (QLabel, lblJPEGReconCFL)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:541
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:544
 #, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "Chroma-from-luma"
 msgstr "由光度產生色調 (Chroma-from-luma)"
 
 #. i18n: ectx: attribute (title), widget (QWidget, varDCTParameters)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:549
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:552
 #, kde-format
 msgid "VarDCT parameters"
 msgstr "VarDCT 參數"
 
 #. i18n: ectx: property (text), widget (QLabel, lblProgressiveAC)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:555
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:558
 #, kde-format
 msgid "Spectral progression"
 msgstr "波譜進展模式"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, progressiveAC)
 #. i18n: ectx: property (toolTip), widget (QComboBox, qProgressiveAC)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:562
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:579
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:565
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:582
 #, kde-format
 msgid ""
 "Set the progressive mode for the AC coefficients of VarDCT, using spectral "
@@ -47415,49 +47420,49 @@ msgid ""
 msgstr "設定 VarDCT 中 AC 係數的漸進模式，根據 DCT 係數的波譜進展。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblQProgressiveAC)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:572
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:575
 #, kde-format
 msgid "Quantization"
 msgstr "量化"
 
 #. i18n: ectx: property (text), widget (QLabel, lblProgressiveDC)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:586
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:589
 #, kde-format
 msgid "Low resolution DC"
 msgstr "低解析度 DC"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, progressiveDC)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:593
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:596
 #, kde-format
 msgid "Set the progressive mode using lower-resolution DC images for VarDCT."
 msgstr "設定以 VarDCT 的較低解析度 DC 影像作漸進模式。"
 
 #. i18n: ectx: attribute (title), widget (QWidget, modularEncodingParameters)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:601
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:604
 #, kde-format
 msgid "Modular parameters"
 msgstr "模組參數"
 
 #. i18n: ectx: property (text), widget (QLabel, lblResponsive)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:607
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:610
 #, kde-format
 msgid "Progressive encoding"
 msgstr "漸進式編碼"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, responsive)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:614
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:617
 #, kde-format
 msgid "Enables or disables progressive encoding for modular mode."
 msgstr "啟用或停用適用於模組化編碼模式的漸進式編碼。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblChannelColorsGlobalPercent)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:621
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:624
 #, kde-format
 msgid "Global channel palette range"
 msgstr "全域通道調色板範圍"
 
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, channelColorsGlobalPercent)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:632
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:635
 #, kde-format
 msgid ""
 "Use Global channel palette if the amount of colors is smaller than this "
@@ -47470,13 +47475,13 @@ msgstr ""
 "適用於模組化編碼。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblChannelColorsGroupPercent)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:673
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:676
 #, kde-format
 msgid "Local channel palette range"
 msgstr "每通道調色板範圍"
 
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, channelColorsGroupPercent)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:684
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:687
 #, kde-format
 msgid ""
 "Use Local (per-group) channel palette if the amount of colors is smaller "
@@ -47489,13 +47494,13 @@ msgstr ""
 "適用於模組化編碼。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblPaletteColors)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:725
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:728
 #, kde-format
 msgid "Use color palette for ... colors or less"
 msgstr "色彩數目低於指定值時使用調色板"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, paletteColors)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:739
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:742
 #, kde-format
 msgid ""
 "Use color palette if amount of colors is smaller than or equal to this "
@@ -47506,52 +47511,52 @@ msgstr ""
 "適用於模組化編碼。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblLossyPalette)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:761
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:764
 #, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "Delta palette"
 msgstr "差值調色板"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, lossyPalette)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:768
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:771
 #, kde-format
 msgid "Enables or disables delta palette. Used in modular mode."
 msgstr "啟用或停用差值調色板 (delta palette)。適用於模組化編碼。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblModularGroupSize)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:775
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:778
 #, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "Group size"
 msgstr "群組大小"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, modularGroupSize)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:782
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:785
 #, kde-format
 msgid "Group size for modular encoding."
 msgstr "模組化編碼使用的群組大小。"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, modularPredictor)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:789
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:792
 #, kde-format
 msgid "Predictor for modular encoding."
 msgstr "模組化編碼使用的預測機制。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblModularPredictor)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:796
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:799
 #, kde-format
 msgctxt "JPEG-XL encoder options"
 msgid "Predictor"
 msgstr "預測機制"
 
 #. i18n: ectx: property (text), widget (QLabel, lblModularMATreeLearningPercent)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:803
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:806
 #, kde-format
 msgid "Pixels for MA tree learning"
 msgstr "供 MA 樹學習用的像素"
 
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, modularMATreeLearningPercent)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:831
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:834
 #, kde-format
 msgid ""
 "Fraction of pixels used to learn MA trees as a percentage.\n"
@@ -47563,7 +47568,7 @@ msgstr ""
 "數值愈大，則編碼器的記憶體使用量愈高。"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:904
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:907
 #, kde-format
 msgctxt "JPEG-XL metadata options"
 msgid "Filters:"
@@ -50330,9 +50335,9 @@ msgstr "仿製全部可見圖層"
 #, kde-format
 msgid ""
 "<html><head/><body><p><span style=\" font-weight:600;\">Clone Brush:</span></"
-"p><p>Select the source point from the current layer with Ctrl-click. Use "
-"Ctrl+Alt-click to select a source from the previously picked layer.</p></"
-"body></html>"
+"p><p>Select the source point from the current layer with Ctrl-click. Use Ctrl"
+"+Alt-click to select a source from the previously picked layer.</p></body></"
+"html>"
 msgstr ""
 "<html><head/><body><p><span style=\" font-weight:600;\">仿製筆刷：</span></"
 "p><p>Ctrl + 點擊可在目前選定的圖層上取樣。Ctrl + Alt + 點擊則會從上一次選定的"
@@ -54102,6 +54107,10 @@ msgstr ""
 msgid "Role"
 msgstr "職責"
 
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:366
+msgid "Authors"
+msgstr "作者"
+
 #: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:373
 msgid ""
 "The name of the company, group or person who is responsible for the final "
@@ -56106,12 +56115,12 @@ msgstr "長度：%1 px"
 #: plugins/tools/basictools/kis_tool_line.cc:451
 #, kde-format
 msgid ""
-"Alt+Drag will move the origin of the currently displayed line around, "
-"Shift+Drag will force you to draw straight lines"
+"Alt+Drag will move the origin of the currently displayed line around, Shift"
+"+Drag will force you to draw straight lines"
 msgstr ""
 "Alt + 拖曳可移動目前顯示線條的基點，Shift + 拖曳將強制在特殊角度上繪製直線"
 
-#: plugins/tools/basictools/kis_tool_line.h:113
+#: plugins/tools/basictools/kis_tool_line.h:115
 #, kde-format
 msgid "Line Tool"
 msgstr "直線工具"
@@ -59562,6 +59571,16 @@ msgctxt "action"
 msgid "Reference Images Tool"
 msgstr "參考圖工具"
 
+#, kde-format
+#~ msgid ""
+#~ "<html><head/><body><p><span style=\" font-weight:600;\">Note:</span> "
+#~ "Animated exports are <span style=\" font-weight:600;\">always</span> "
+#~ "flattened regardless of this setting.</p></body></html>"
+#~ msgstr ""
+#~ "<html><head/><body><p><span style=\" font-weight:600;\">註：</span>匯出動"
+#~ "畫時將忽略此選項，影像<span style=\" font-weight:600;\">必定</span>會被平"
+#~ "整化。</p></body></html>"
+
 #~ msgctxt "paletegen status mode option name"
 #~ msgid "Difference"
 #~ msgstr "差別"
@@ -59612,26 +59631,26 @@ msgstr "參考圖工具"
 #~ msgid ""
 #~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
 #~ "REC-html40/strict.dtd\">\n"
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><meta "
-#~ "charset=\"utf-8\" /><style type=\"text/css\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset="
+#~ "\"utf-8\" /><style type=\"text/css\">\n"
 #~ "p, li { white-space: pre-wrap; }\n"
 #~ "</style></head><body style=\" font-family:'Noto Sans'; font-size:10pt; "
 #~ "font-weight:500; font-style:normal;\">\n"
 #~ "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
 #~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
-#~ "size:16pt; font-weight:600; color:#ff692e;\">WARNING: </span><span "
-#~ "style=\" font-size:16pt; font-weight:400; color:#ff692e;\">This video "
-#~ "contains more than 100 frames. Loading too many frames can overload your "
-#~ "computer. Use a</span><span style=\" font-size:16pt; font-weight:400; "
-#~ "color:#ff1500;\"> </span><a href=\"https://kdenlive.org\"><span style=\" "
-#~ "font-size:16pt; font-weight:400; text-decoration: underline; color:"
-#~ "#2980b9;\">video editor </span></a><span style=\" font-size:16pt; font-"
+#~ "size:16pt; font-weight:600; color:#ff692e;\">WARNING: </span><span style="
+#~ "\" font-size:16pt; font-weight:400; color:#ff692e;\">This video contains "
+#~ "more than 100 frames. Loading too many frames can overload your computer. "
+#~ "Use a</span><span style=\" font-size:16pt; font-weight:400; color:#ff1500;"
+#~ "\"> </span><a href=\"https://kdenlive.org\"><span style=\" font-"
+#~ "size:16pt; font-weight:400; text-decoration: underline; color:#2980b9;"
+#~ "\">video editor </span></a><span style=\" font-size:16pt; font-"
 #~ "weight:400; color:#ff692e;\">instead!</span></p></body></html>"
 #~ msgstr ""
 #~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
 #~ "REC-html40/strict.dtd\">\n"
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><meta "
-#~ "charset=\"utf-8\" /><style type=\"text/css\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset="
+#~ "\"utf-8\" /><style type=\"text/css\">\n"
 #~ "p, li { white-space: pre-wrap; }\n"
 #~ "</style></head><body style=\" font-family:'Noto Sans'; font-size:10pt; "
 #~ "font-weight:500; font-style:normal;\">\n"
@@ -59640,11 +59659,11 @@ msgstr "參考圖工具"
 #~ "size:16pt; font-weight:600; color:#ff692e;\">警告：</span><span style=\" "
 #~ "font-size:16pt; font-weight:400; color:#ff692e;\">此影片含多於 100 個影"
 #~ "格。載入過多影格可能會令系統超出負荷。請使用一套</span><span style=\" "
-#~ "font-size:16pt; font-weight:400; color:#ff1500;\"></span><a "
-#~ "href=\"https://kdenlive.org\"><span style=\" font-size:16pt; font-"
-#~ "weight:400; text-decoration: underline; color:#2980b9;\">影片編輯軟體</"
-#~ "span></a><span style=\" font-size:16pt; font-weight:400; color:#ff692e;\">"
-#~ "作為替代方案吧！</span></p></body></html>"
+#~ "font-size:16pt; font-weight:400; color:#ff1500;\"></span><a href="
+#~ "\"https://kdenlive.org\"><span style=\" font-size:16pt; font-weight:400; "
+#~ "text-decoration: underline; color:#2980b9;\">影片編輯軟體</span></a><span "
+#~ "style=\" font-size:16pt; font-weight:400; color:#ff692e;\">作為替代方案"
+#~ "吧！</span></p></body></html>"
 
 #~ msgid "FFMpeg"
 #~ msgstr "FFmpeg"
@@ -59835,10 +59854,6 @@ msgstr "參考圖工具"
 
 #~ msgid "This is a source code archive. Please install ffmpeg instead."
 #~ msgstr "此為原始碼封裝。請改為安裝 FFmpeg。"
-
-#~ msgctxt "Heading for the list of Krita authors/developers"
-#~ msgid "Authors"
-#~ msgstr "開發者"
 
 #~ msgid "HDR Warning.................................."
 #~ msgstr "HDR 警告.................................."
