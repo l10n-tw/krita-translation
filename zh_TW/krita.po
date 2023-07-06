@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-07-06 00:54+0000\n"
-"PO-Revision-Date: 2023-06-24 07:42+0000\n"
+"PO-Revision-Date: 2023-07-07 11:55+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -57868,7 +57868,7 @@ msgstr "半粗體"
 #, kde-format
 msgctxt "action"
 msgid "Black"
-msgstr "粗體"
+msgstr "超粗體"
 
 #. i18n: context: iconText @ Action (svg_weight_light), Actions (Text Tool), ActionCollection (SVG Tools)
 #. i18n: context: toolTip @ Action (svg_weight_light), Actions (Text Tool), ActionCollection (SVG Tools)
@@ -57882,7 +57882,7 @@ msgstr "粗體"
 #, kde-format
 msgctxt "action"
 msgid "Light"
-msgstr "細體"
+msgstr "幼體"
 
 #. i18n: context: iconText @ Action (svg_line_height), Actions (Text Tool), ActionCollection (SVG Tools)
 #. i18n: context: text @ Action (svg_line_height), Actions (Text Tool), ActionCollection (SVG Tools)
