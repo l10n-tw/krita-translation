@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-07-20 00:46+0000\n"
-"PO-Revision-Date: 2023-07-07 11:55+0000\n"
+"PO-Revision-Date: 2023-07-21 14:46+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.14.2\n"
+"X-Generator: Weblate 4.18.2\n"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
@@ -23027,10 +23027,9 @@ msgstr ""
 "繪製已取消。"
 
 #: libs/ui/dialogs/KisAsyncAnimationRenderDialogBase.cpp:156
-#, fuzzy, kde-format
-#| msgid "Waiting for image operation to complete..."
+#, kde-format
 msgid "Wait for existing frame generation process to complete..."
-msgstr "正在等待影像操作完成……"
+msgstr "等待完成進行中的影格生成程序……"
 
 #: libs/ui/dialogs/KisAsyncAnimationRenderDialogBase.cpp:348
 #, kde-format
