@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-07-20 00:46+0000\n"
-"PO-Revision-Date: 2023-07-21 14:46+0000\n"
+"PO-Revision-Date: 2023-07-24 10:52+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -38239,7 +38239,7 @@ msgstr "色階分佈圖"
 #: plugins/dockers/historydocker/HistoryDock.cpp:23
 #, kde-format
 msgid "Undo History"
-msgstr "歷史記錄"
+msgstr "復原歷史記錄"
 
 #: plugins/dockers/layerdocker/LayerBox.cpp:160
 #: plugins/python/comics_project_management_tools/comics_export_dialog.py:249
