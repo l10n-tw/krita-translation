@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-07-20 00:46+0000\n"
+"POT-Creation-Date: 2023-07-22 00:47+0000\n"
 "PO-Revision-Date: 2023-07-24 10:52+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
@@ -19302,7 +19302,7 @@ msgstr "本機資源"
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:768
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:352
 #: libs/ui/dialogs/kis_dlg_preferences.cc:905
-#: libs/ui/input/kis_tablet_debugger.cpp:96 libs/ui/kis_clipboard.cc:714
+#: libs/ui/input/kis_tablet_debugger.cpp:96 libs/ui/kis_clipboard.cc:720
 #: libs/ui/kis_custom_pattern.cc:131 libs/ui/kis_filter_manager.cc:234
 #: libs/ui/kis_filter_manager.cc:243 libs/ui/kis_layer_manager.cc:317
 #: libs/ui/kis_layer_manager.cc:969 libs/ui/kis_node_manager.cpp:1218
@@ -28627,7 +28627,7 @@ msgctxt "(qtundo-format)"
 msgid "Change File Layer"
 msgstr "變更檔案圖層"
 
-#: libs/ui/kis_clipboard.cc:715 libs/ui/KisView.cpp:690
+#: libs/ui/kis_clipboard.cc:721 libs/ui/KisView.cpp:690
 #, kde-format
 msgid ""
 "Could not open %2.\n"
@@ -43479,7 +43479,7 @@ msgstr "色彩平衡(&C)…"
 msgid "Color Balance"
 msgstr "色彩平衡"
 
-#: plugins/filters/colorsfilters/kis_cross_channel_filter.cpp:230
+#: plugins/filters/colorsfilters/kis_cross_channel_filter.cpp:231
 #, kde-format
 msgid "&Cross-channel adjustment curves..."
 msgstr "跨通道色彩調整曲線(&C)…"
@@ -51513,7 +51513,7 @@ msgid "Auto Spacing"
 msgstr "自動間距"
 
 #: plugins/paintops/libpaintop/kis_brush_option_widget.cpp:52
-#: plugins/paintops/libpaintop/KisMaskingBrushOption.cpp:209
+#: plugins/paintops/libpaintop/KisMaskingBrushOption.cpp:210
 #, kde-format
 msgid "Brush Tip"
 msgstr "筆尖"
@@ -51982,7 +51982,7 @@ msgid ""
 "value has been cropped to %2 pixels."
 msgstr "警告：遮罩筆刷的相依大小變得過大 (%1 像素)。該值已被限制為 %2 像素。"
 
-#: plugins/paintops/libpaintop/KisMaskingBrushOption.cpp:178
+#: plugins/paintops/libpaintop/KisMaskingBrushOption.cpp:179
 #, kde-format
 msgid "Blending Mode:"
 msgstr "混色模式："
