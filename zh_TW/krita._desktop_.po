@@ -22,7 +22,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_koffice\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-03-02 01:29+0000\n"
+"POT-Creation-Date: 2023-07-27 00:53+0000\n"
 "PO-Revision-Date: 2021-10-23 11:25+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
@@ -333,6 +333,7 @@ msgstr "紋理 8k 8位元 srgb"
 #: plugins/impex/psd/krita_psd.desktop:6
 #: plugins/impex/qimageio/krita_qimageio.desktop:2
 #: plugins/impex/raw/krita_raw.desktop:2
+#: plugins/impex/rgbe/krita_rgbe.desktop:2
 #: plugins/impex/spriter/krita_spriter.desktop:2
 #: plugins/impex/svg/krita_svg.desktop:2 plugins/impex/tga/krita_tga.desktop:2
 #: plugins/impex/tiff/krita_tiff.desktop:6
