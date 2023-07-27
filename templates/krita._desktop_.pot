@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop files\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-03-02 01:29+0000\n"
+"POT-Creation-Date: 2023-07-27 00:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -310,6 +310,7 @@ msgstr ""
 #: plugins/impex/psd/krita_psd.desktop:6
 #: plugins/impex/qimageio/krita_qimageio.desktop:2
 #: plugins/impex/raw/krita_raw.desktop:2
+#: plugins/impex/rgbe/krita_rgbe.desktop:2
 #: plugins/impex/spriter/krita_spriter.desktop:2
 #: plugins/impex/svg/krita_svg.desktop:2 plugins/impex/tga/krita_tga.desktop:2
 #: plugins/impex/tiff/krita_tiff.desktop:6
