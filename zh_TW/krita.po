@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-08-01 00:43+0000\n"
-"PO-Revision-Date: 2023-08-01 13:22+0000\n"
+"PO-Revision-Date: 2023-08-01 13:34+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -49433,7 +49433,7 @@ msgstr "無法載入經 YCbCr 色度採樣並以 JPEG 壓縮的檔案。"
 #, kde-format
 msgctxt "@title:window"
 msgid "TIFF image with PSD data"
-msgstr "含 PSD 資料的 TIFF影像"
+msgstr "含 PSD 資料的 TIFF 影像"
 
 #: plugins/impex/tiff/kis_tiff_import.cc:1579
 #, kde-format
@@ -49441,7 +49441,8 @@ msgctxt "the choice for the user on loading a TIFF file"
 msgid ""
 "The TIFF image contains valid PSD data embedded. Would you like to use PSD "
 "data instead of normal TIFF data?"
-msgstr "該 TIFF 影像含有嵌入的 PSD 資料。您希望使用 PSD 資料代替正常的 TIFF 資料嗎？"
+msgstr ""
+"該 TIFF 影像含有嵌入的 PSD 資料。您希望使用 PSD 資料代替正常的 TIFF 資料嗎？"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, KisWdgOptionsTIFF)
 #. i18n: ectx: property (title), widget (QGroupBox, tiffOptions)
