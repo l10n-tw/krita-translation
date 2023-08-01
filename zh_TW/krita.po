@@ -49441,7 +49441,8 @@ msgctxt "the choice for the user on loading a TIFF file"
 msgid ""
 "The TIFF image contains valid PSD data embedded. Would you like to use PSD "
 "data instead of normal TIFF data?"
-msgstr "該 TIFF 影像含有嵌入的 PSD 資料。您希望使用 PSD 資料代替正常的 TIFF 資料嗎？"
+msgstr ""
+"該 TIFF 影像含有嵌入的 PSD 資料。您希望使用 PSD 資料代替正常的 TIFF 資料嗎？"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, KisWdgOptionsTIFF)
 #. i18n: ectx: property (title), widget (QGroupBox, tiffOptions)
