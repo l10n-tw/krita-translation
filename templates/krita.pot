@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-09-05 00:43+0000\n"
+"POT-Creation-Date: 2023-09-07 00:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -56970,12 +56970,6 @@ msgstr ""
 #: plugins/tools/svgtexttool/WdgSvgTextOptionWidget.ui:102
 #, kde-format
 msgid "Edit SVG Source"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, chkDbgLineBox)
-#: plugins/tools/svgtexttool/WdgSvgTextOptionWidget.ui:132
-#, kde-format
-msgid "Show line boxes"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
