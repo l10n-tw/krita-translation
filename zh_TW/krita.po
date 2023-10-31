@@ -29041,7 +29041,8 @@ msgctxt ""
 msgid ""
 "Non-animated layer is merged into the current frame. To merge it into the "
 "whole clip, create at least one frame"
-msgstr "非動畫圖層已合併到目前影格。如要合併到動畫中所有影格，請先建立最少一張影格。"
+msgstr ""
+"非動畫圖層已合併到目前影格。如要合併到動畫中所有影格，請先建立最少一張影格。"
 
 #: libs/ui/kis_layer_manager.cc:930
 #, kde-format
@@ -58362,8 +58363,9 @@ msgctxt "action"
 msgid ""
 "Use legacy hard-wrapping mode (same as Krita 5.1 and earlier). Each lines "
 "are explicitly positioned, but the line height may be slightly inaccurate."
-msgstr "使用與舊版 (Krita 5.1 或較舊版本) "
-"相容的手動換行格式。此模式為每行文字設定固定位置，而行高或會出現細微誤差。"
+msgstr ""
+"使用與舊版 (Krita 5.1 或較舊版本) 相容的手動換行格式。此模式為每行文字設定固"
+"定位置，而行高或會出現細微誤差。"
 
 #. i18n: context: iconText @ Action (svg_text_wrapping_css_pre), Actions (Text Tool), ActionCollection (SVG Tools)
 #. i18n: context: text @ Action (svg_text_wrapping_css_pre), Actions (Text Tool), ActionCollection (SVG Tools)
