@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-11-01 00:40+0000\n"
-"PO-Revision-Date: 2023-11-02 09:21+0000\n"
+"PO-Revision-Date: 2023-11-04 09:42+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -12344,7 +12344,7 @@ msgstr "切變圖層"
 #, kde-format
 msgctxt "action"
 msgid "Mirror All Layers Hori&zontally"
-msgstr "水平鏡像所有圖層(&Z)"
+msgstr "水平翻轉所有圖層(&Z)"
 
 #. i18n: context: toolTip @ Action (mirrorAllNodesX), Actions (Layers), ActionCollection (Krita)
 #. i18n: context: iconText @ Action (mirrorAllNodesX), Actions (Layers), ActionCollection (Krita)
@@ -12354,14 +12354,14 @@ msgstr "水平鏡像所有圖層(&Z)"
 #, kde-format
 msgctxt "action"
 msgid "Mirror All Layers Horizontally"
-msgstr "水平鏡像所有圖層"
+msgstr "水平翻轉所有圖層"
 
 #. i18n: context: text @ Action (mirrorAllNodesY), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:3314
 #, kde-format
 msgctxt "action"
 msgid "Mirror All Layers &Vertically"
-msgstr "垂直鏡像所有圖層(&V)"
+msgstr "垂直翻轉所有圖層(&V)"
 
 #. i18n: context: toolTip @ Action (mirrorAllNodesY), Actions (Layers), ActionCollection (Krita)
 #. i18n: context: iconText @ Action (mirrorAllNodesY), Actions (Layers), ActionCollection (Krita)
@@ -12371,7 +12371,7 @@ msgstr "垂直鏡像所有圖層(&V)"
 #, kde-format
 msgctxt "action"
 msgid "Mirror All Layers Vertically"
-msgstr "垂直鏡像所有圖層"
+msgstr "垂直翻轉所有圖層"
 
 #. i18n: context: text @ Action (rotateAllLayers), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:3326
@@ -14701,7 +14701,7 @@ msgstr "水平翻轉影像(&M)"
 #, kde-format
 msgctxt "action"
 msgid "Mirror Image Horizontally"
-msgstr "水平鏡像影像"
+msgstr "水平翻轉影像"
 
 #. i18n: context: text @ Action (mirrorImageVertical), Actions (Image), ActionCollection (Menu)
 #: krita/kritamenu.action:1293
@@ -14718,7 +14718,7 @@ msgstr "垂直翻轉影像(&V)"
 #, kde-format
 msgctxt "action"
 msgid "Mirror Image Vertically"
-msgstr "垂直鏡像影像"
+msgstr "垂直翻轉影像"
 
 #. i18n: context: text @ Action (imagesize), Actions (Image), ActionCollection (Menu)
 #: krita/kritamenu.action:1305
@@ -29191,12 +29191,12 @@ msgstr[0] "垂直翻轉 %1 個圖層"
 #: libs/ui/kis_node_manager.cpp:1063
 msgctxt "(qtundo-format)"
 msgid "Mirror All Layers Horizontally"
-msgstr "水平鏡像所有圖層"
+msgstr "水平翻轉所有圖層"
 
 #: libs/ui/kis_node_manager.cpp:1070
 msgctxt "(qtundo-format)"
 msgid "Mirror All Layers Vertically"
-msgstr "垂直鏡像所有圖層"
+msgstr "垂直翻轉所有圖層"
 
 #: libs/ui/kis_node_manager.cpp:1202
 #, kde-format
