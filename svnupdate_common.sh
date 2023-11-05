@@ -46,6 +46,11 @@ checkout() {
         echo "Execution failed: failed to svn_checkout"
         exit 1
     fi
+
+    if [[ -z $(ls -A "./$svn_repo") ]]; then
+        echo "Error: Checkout result is empty"
+        exit 2
+    fi
 }
 
 # Register cleanup function after completing all actions
