@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-11-25 00:40+0000\n"
-"PO-Revision-Date: 2023-11-15 08:21+0000\n"
+"PO-Revision-Date: 2023-11-25 10:03+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -15779,12 +15779,10 @@ msgstr "筆刷選項滑動條 4"
 #. i18n: context: iconText @ Action (brushslider5), Actions (BrushesAndStuff), ActionCollection (Menu)
 #: krita/kritamenu.action:2031 krita/kritamenu.action:2033
 #: krita/kritamenu.action:2034
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Brush option slider 1"
+#, kde-format
 msgctxt "action"
 msgid "Brush option slider 5"
-msgstr "筆刷選項滑動條 1"
+msgstr "筆刷選項滑動條 5"
 
 #. i18n: context: text @ Action (mirror_actions), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. i18n: context: toolTip @ Action (mirror_actions), Actions (BrushesAndStuff), ActionCollection (Menu)
@@ -16176,12 +16174,9 @@ msgid "Move shapes"
 msgstr "移動形狀"
 
 #: libs/flake/commands/KoShapePaintOrderCommand.cpp:44
-#, fuzzy
-#| msgctxt "(qtundo-format)"
-#| msgid "Set point type"
 msgctxt "(qtundo-format)"
 msgid "Set paint order"
-msgstr "設定點類型"
+msgstr "設定繪製順序"
 
 #: libs/flake/commands/KoShapeRenameCommand.cpp:28
 msgctxt "(qtundo-format)"
@@ -24494,10 +24489,9 @@ msgstr "檢視縮放演算法："
 
 #. i18n: ectx: property (text), widget (QLabel, lblAssistantsDrawMode)
 #: libs/ui/forms/wdgdisplaysettings.ui:155
-#, fuzzy, kde-format
-#| msgid "Assistant Tool"
+#, kde-format
 msgid "Assistants Mode:"
-msgstr "輔助尺工具"
+msgstr "輔助尺模式："
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, cmbAssistantsDrawMode)
 #: libs/ui/forms/wdgdisplaysettings.ui:172
@@ -24508,26 +24502,26 @@ msgid ""
 "              </p><p>Changing the pixmap cache size requires a restart.</p></"
 "body></html>"
 msgstr ""
+"<html><head/><body><p>此選項可用作排除輔助尺繪製的效能或顯示問題。</p><p>變更"
+"點陣圖形快取尺寸需要重啟程式。</p></body></html>"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbAssistantsDrawMode)
 #: libs/ui/forms/wdgdisplaysettings.ui:179
 #, kde-format
 msgid "Direct (Recommended)"
-msgstr ""
+msgstr "直接 (建議使用)"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbAssistantsDrawMode)
 #: libs/ui/forms/wdgdisplaysettings.ui:184
-#, fuzzy, kde-format
-#| msgid "Animation Cache"
+#, kde-format
 msgid "Pixmap Cache"
-msgstr "動畫快取"
+msgstr "點陣圖形快取"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbAssistantsDrawMode)
 #: libs/ui/forms/wdgdisplaysettings.ui:189
-#, fuzzy, kde-format
-#| msgid "Use large pixmap cache"
+#, kde-format
 msgid "Large Pixmap Cache"
-msgstr "使用加大 pixmap 影像快取"
+msgstr "加大尺寸點陣圖形快取"
 
 #. i18n: ectx: property (text), widget (QLabel, lblPreferredRenderer)
 #: libs/ui/forms/wdgdisplaysettings.ui:203
@@ -56250,14 +56244,12 @@ msgid "Flood Fill"
 msgstr "浸漫填充"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:542
-#, fuzzy, kde-format
-#| msgctxt "The pattern 'scale' spinbox prefix in fill tool options"
-#| msgid "Scale: "
+#, kde-format
 msgctxt ""
 "The pattern 'scale' spinbox in fill tool options; {n} is the number value, % "
 "is the percent sign"
 msgid "Scale: {n}%"
-msgstr "縮放："
+msgstr "縮放：{n}%"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:546
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:452
@@ -56272,14 +56264,12 @@ msgid "Threshold: "
 msgstr "閾值："
 
 #: plugins/tools/basictools/kis_tool_fill.cc:568
-#, fuzzy, kde-format
-#| msgctxt "The 'spread' spinbox prefix in fill tool options"
-#| msgid "Spread: "
+#, kde-format
 msgctxt ""
 "The 'spread' spinbox in fill tool options; {n} is the number value, % is the "
 "percent sign"
 msgid "Spread: {n}%"
-msgstr "擴散幅度："
+msgstr "擴散幅度：{n}%"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:572
 #, kde-format
@@ -57114,47 +57104,44 @@ msgstr "形狀選取工具"
 #: plugins/tools/defaulttool/defaulttool/DefaultToolGeometryWidget.cpp:109
 #, kde-format
 msgid "Fill, Stroke, Markers"
-msgstr ""
+msgstr "填充→描邊→標記"
 
 #: plugins/tools/defaulttool/defaulttool/DefaultToolGeometryWidget.cpp:110
 #, kde-format
 msgid "Fill, Markers, Stroke"
-msgstr ""
+msgstr "填充→標記→描邊"
 
 #: plugins/tools/defaulttool/defaulttool/DefaultToolGeometryWidget.cpp:111
 #, kde-format
 msgid "Stroke, Fill, Markers"
-msgstr ""
+msgstr "描邊→填充→標記"
 
 #: plugins/tools/defaulttool/defaulttool/DefaultToolGeometryWidget.cpp:112
 #, kde-format
 msgid "Stroke, Markers, Fill"
-msgstr ""
+msgstr "描邊→標記→填充"
 
 #: plugins/tools/defaulttool/defaulttool/DefaultToolGeometryWidget.cpp:113
 #, kde-format
 msgid "Markers, Fill, Stroke"
-msgstr ""
+msgstr "標記→填充→描邊"
 
 #: plugins/tools/defaulttool/defaulttool/DefaultToolGeometryWidget.cpp:114
 #, kde-format
 msgid "Markers, Stroke, Fill"
-msgstr ""
+msgstr "標記→描邊→填充"
 
 #: plugins/tools/defaulttool/defaulttool/DefaultToolGeometryWidget.cpp:121
-#, fuzzy, kde-format
-#| msgctxt "{n} is the number value, % is the percent sign"
-#| msgid "Opacity: {n}%"
+#, kde-format
 msgctxt "{n} is the number value, % is the percent sign"
 msgid "Opacity: {n}"
-msgstr "不透明度：{n}%"
+msgstr "不透明度：{n}"
 
 #: plugins/tools/defaulttool/defaulttool/DefaultToolGeometryWidget.cpp:122
-#, fuzzy, kde-format
-#| msgid "Opacity [*varies*]: "
+#, kde-format
 msgctxt "{n} is the number value, % is the percent sign"
 msgid "Opacity [*varies*]: {n}"
-msgstr "透明度 [*變化*]："
+msgstr "不透明度 [*含不同值*]：{n}"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkAnchorLock)
 #: plugins/tools/defaulttool/defaulttool/DefaultToolGeometryWidget.ui:195
@@ -57294,11 +57281,10 @@ msgid "Reference Images Tool"
 msgstr "參考圖工具"
 
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImagesWidget.cpp:47
-#, fuzzy, kde-format
-#| msgid "Opacity [*varies*]: "
+#, kde-format
 msgctxt "{n} is the number value, % is the percent sign"
 msgid "Opacity [*varies*]: {n}%"
-msgstr "透明度 [*變化*]："
+msgstr "不透明度 [*含不同值*]：{n}%"
 
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImagesWidget.cpp:54
 #, kde-format
@@ -57307,12 +57293,10 @@ msgid "Saturation: {n}%"
 msgstr "飽和度：{n}%"
 
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImagesWidget.cpp:55
-#, fuzzy, kde-format
-#| msgctxt "{n} is the number value, % is the percent sign"
-#| msgid "Saturation: {n}%"
+#, kde-format
 msgctxt "{n} is the number value, % is the percent sign"
 msgid "Saturation [*varies*]: {n}%"
-msgstr "飽和度：{n}%"
+msgstr "飽和度 [*含不同值*]：{n}%"
 
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImagesWidget.cpp:64
 #, kde-format
@@ -57569,14 +57553,12 @@ msgid "Threshold: "
 msgstr "閾值："
 
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:378
-#, fuzzy, kde-format
-#| msgctxt "The 'spread' spinbox prefix in fill tool options"
-#| msgid "Spread: "
+#, kde-format
 msgctxt ""
 "The 'spread' spinbox in contiguous selection tool options; {n} is the number "
 "value, % is the percent sign"
 msgid "Spread: {n}%"
-msgstr "擴散幅度："
+msgstr "擴散幅度：{n}%"
 
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:382
 #, kde-format
@@ -57727,14 +57709,12 @@ msgid "Threshold: "
 msgstr "閾值："
 
 #: plugins/tools/selectiontools/kis_tool_select_similar.cc:246
-#, fuzzy, kde-format
-#| msgctxt "The 'spread' spinbox prefix in fill tool options"
-#| msgid "Spread: "
+#, kde-format
 msgctxt ""
 "The 'spread' spinbox in similar color selection tool options; {n} is the "
 "number value, % is the percent sign"
 msgid "Spread: {n}%"
-msgstr "擴散幅度："
+msgstr "擴散幅度：{n}%"
 
 #: plugins/tools/selectiontools/kis_tool_select_similar.cc:261
 #, kde-format
@@ -58605,35 +58585,31 @@ msgstr "將文字錨定到右側。"
 #: plugins/tools/svgtexttool/WdgSvgTextOptionWidget.ui:131
 #, kde-format
 msgid "Text flows horizontal, top to bottom."
-msgstr ""
+msgstr "橫式書寫文字，由上至下排列。"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, modeVerticalRl)
 #: plugins/tools/svgtexttool/WdgSvgTextOptionWidget.ui:157
 #, kde-format
 msgid "Text flows vertical, right to left."
-msgstr ""
+msgstr "直式書寫文字，由右至左排行。"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, modeVerticalLr)
 #: plugins/tools/svgtexttool/WdgSvgTextOptionWidget.ui:183
 #, kde-format
 msgid "Text flows vertical, left to right."
-msgstr ""
+msgstr "直式書寫文字，由左至右排行。"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, directionLtr)
 #: plugins/tools/svgtexttool/WdgSvgTextOptionWidget.ui:216
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Left Edge Detection"
+#, kde-format
 msgid "Left to right text direction."
-msgstr "左邊緣檢測"
+msgstr "左至右書寫方向。"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, directionRtl)
 #: plugins/tools/svgtexttool/WdgSvgTextOptionWidget.ui:242
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Right Edge Detection"
+#, kde-format
 msgid "Right to left text direction."
-msgstr "右邊緣檢測"
+msgstr "右至左書寫方向。"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnEditSvg)
 #: plugins/tools/svgtexttool/WdgSvgTextOptionWidget.ui:286
@@ -58941,14 +58917,12 @@ msgid "Include contour regions"
 msgstr "包含輪廓區域"
 
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:448
-#, fuzzy, kde-format
-#| msgctxt "The pattern 'scale' spinbox prefix in fill tool options"
-#| msgid "Scale: "
+#, kde-format
 msgctxt ""
 "The pattern 'scale' spinbox in enclose and fill tool options; {n} is the "
 "number value, % is the percent sign"
 msgid "Scale: {n}%"
-msgstr "縮放："
+msgstr "縮放：{n}%"
 
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:460
 #, kde-format
@@ -58957,14 +58931,12 @@ msgid "Threshold: "
 msgstr "閾值："
 
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:466
-#, fuzzy, kde-format
-#| msgctxt "The 'spread' spinbox prefix in fill tool options"
-#| msgid "Spread: "
+#, kde-format
 msgctxt ""
 "The 'spread' spinbox in enclose and fill tool options; {n} is the number "
 "value, % is the percent sign"
 msgid "Spread: {n}%"
-msgstr "擴散幅度："
+msgstr "擴散幅度：{n}%"
 
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:471
 #, kde-format
