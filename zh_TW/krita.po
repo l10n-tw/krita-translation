@@ -4,7 +4,7 @@
 #
 # [Crowdin] Guo Yunhe (guoyunhe), 2019.
 # pan93412 <pan93412@gmail.com>, 2019, 2020, 2021.
-# Alvin Wong <alvin@alvinhc.com>, 2020, 2021, 2022, 2023.
+# Alvin Wong <alvin@alvinhc.com>, 2020, 2021, 2022, 2023, 2024.
 # BiseChen <bise.chen@gmail.com>, 2021.
 # Yi-Jyun Pan <pan93412@gmail.com>, 2022.
 msgid ""
@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-12-28 00:40+0000\n"
-"PO-Revision-Date: 2023-12-26 13:21+0000\n"
+"PO-Revision-Date: 2024-01-11 17:29+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
 "krita/zh_Hant/>\n"
@@ -37816,12 +37816,12 @@ msgstr "真實 FPS：%1"
 #: plugins/dockers/animation/KisAnimTimelineDocker.cpp:536
 #, kde-format
 msgid "Frames dropped:\t%1%"
-msgstr "拋棄的影格：%1%"
+msgstr "已省略影格：%1%"
 
 #: plugins/dockers/animation/KisAnimTimelineFramesModel.cpp:695
 #, kde-format
 msgid "Dropped frames are not available in this Krita instance"
-msgstr "此 Krita 實體不支援拋棄的影格"
+msgstr "此 Krita 實體不支援省略影格"
 
 #: plugins/dockers/animation/KisAnimTimelineFramesModel.cpp:876
 #, kde-format
