@@ -22,7 +22,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_koffice\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-08 00:49+0000\n"
+"POT-Creation-Date: 2024-08-24 01:52+0000\n"
 "PO-Revision-Date: 2021-10-23 11:25+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
@@ -180,9 +180,21 @@ msgid "Manga template"
 msgstr "日本漫畫範本"
 
 #: krita/data/templates/comics/Manga-JpTemplate.desktop:50
+#: krita/data/templates/comics/Tsukirino.desktop:23
+#: krita/data/templates/comics/TsukirinoF.desktop:23
 msgctxt "Comment"
 msgid "template for Japanese Manga-style comics"
 msgstr "日本漫畫 (manga) 風格的連環漫畫範本"
+
+#: krita/data/templates/comics/Tsukirino.desktop:5
+msgctxt "Name"
+msgid "Tsukirino"
+msgstr ""
+
+#: krita/data/templates/comics/TsukirinoF.desktop:5
+msgctxt "Name"
+msgid "TsukirinoF"
+msgstr ""
 
 #: krita/data/templates/design/Designcinema16_10_2484x1200_96dpiRGB_8bit_.desktop:3
 msgctxt "Name"
@@ -365,7 +377,7 @@ msgctxt "Name"
 msgid "Assign Profile to Image"
 msgstr "為影像指定色彩特性檔案"
 
-#: plugins/python/assignprofiledialog/kritapykrita_assignprofiledialog.desktop:44
+#: plugins/python/assignprofiledialog/kritapykrita_assignprofiledialog.desktop:45
 msgctxt "Comment"
 msgid "Assign a profile to an image without converting it."
 msgstr "將色彩特性檔案指定給圖像，而不進行轉換。"
@@ -375,7 +387,7 @@ msgctxt "Name"
 msgid "Batch Exporter"
 msgstr "批次匯出工具"
 
-#: plugins/python/batch_exporter/kritapykrita_batch_exporter.desktop:41
+#: plugins/python/batch_exporter/kritapykrita_batch_exporter.desktop:42
 msgctxt "Comment"
 msgid ""
 "Smart export tool that uses layer names to scale and (re-)export art assets "
@@ -387,7 +399,7 @@ msgctxt "Name"
 msgid "Channels to layers"
 msgstr "色彩通道轉換為圖層"
 
-#: plugins/python/channels2layers/kritapykrita_channels2layers.desktop:43
+#: plugins/python/channels2layers/kritapykrita_channels2layers.desktop:44
 msgctxt "Comment"
 msgid "Extract channels as color layers"
 msgstr "將色彩通道擷取為色彩圖層"
@@ -397,7 +409,7 @@ msgctxt "Name"
 msgid "Color Space"
 msgstr "色彩空間"
 
-#: plugins/python/colorspace/kritapykrita_colorspace.desktop:45
+#: plugins/python/colorspace/kritapykrita_colorspace.desktop:46
 msgctxt "Comment"
 msgid "Plugin to change color space to selected documents"
 msgstr "用於變更色彩空間為選定檔案的外掛程式"
@@ -407,7 +419,7 @@ msgctxt "Name"
 msgid "Comics Project Management Tools"
 msgstr "漫畫專案管理工具"
 
-#: plugins/python/comics_project_management_tools/kritapykrita_comics_project_management_tools.desktop:43
+#: plugins/python/comics_project_management_tools/kritapykrita_comics_project_management_tools.desktop:44
 msgctxt "Comment"
 msgid "Tools for managing comics."
 msgstr "管理漫畫的工具。"
@@ -417,7 +429,7 @@ msgctxt "Name"
 msgid "Document Tools"
 msgstr "檔案工具"
 
-#: plugins/python/documenttools/kritapykrita_documenttools.desktop:43
+#: plugins/python/documenttools/kritapykrita_documenttools.desktop:44
 msgctxt "Comment"
 msgid "Plugin to manipulate properties of selected documents"
 msgstr "用於修改所選檔案屬性的外掛程式"
@@ -447,7 +459,7 @@ msgctxt "Name"
 msgid "Highpass Filter"
 msgstr "高通濾鏡"
 
-#: plugins/python/highpass/kritapykrita_highpass.desktop:40
+#: plugins/python/highpass/kritapykrita_highpass.desktop:41
 msgctxt "Comment"
 msgid "Highpass Filter, based on http://registry.gimp.org/node/7385"
 msgstr "高通濾鏡，基於 http://registry.gimp.org/node/7385"
@@ -467,7 +479,7 @@ msgctxt "Name"
 msgid "Last Documents Docker"
 msgstr "「最近使用檔案」面板"
 
-#: plugins/python/lastdocumentsdocker/kritapykrita_lastdocumentsdocker.desktop:42
+#: plugins/python/lastdocumentsdocker/kritapykrita_lastdocumentsdocker.desktop:43
 msgctxt "Comment"
 msgid "A Python-based docker for show thumbnails to last ten documents"
 msgstr "基於 Python 的面板，用於顯示最近 10 個檔案的縮圖"
@@ -477,7 +489,7 @@ msgctxt "Name"
 msgid "Mixer Slider docker"
 msgstr "混色滑動條工具面板"
 
-#: plugins/python/mixer_slider_docker/kritapykrita_mixer_slider_docker.desktop:38
+#: plugins/python/mixer_slider_docker/kritapykrita_mixer_slider_docker.desktop:39
 msgctxt "Comment"
 msgid "A color slider."
 msgstr "色彩滑動條。"
@@ -487,7 +499,7 @@ msgctxt "Name"
 msgid "Palette docker"
 msgstr "「調色板」面板"
 
-#: plugins/python/palette_docker/kritapykrita_palette_docker.desktop:43
+#: plugins/python/palette_docker/kritapykrita_palette_docker.desktop:44
 msgctxt "Comment"
 msgid "A Python-based docker to edit color palettes."
 msgstr "基於 Python 的面板，用於編輯調色板。"
@@ -510,7 +522,7 @@ msgctxt "Name"
 msgid "Python Plugin Importer"
 msgstr "Python 外掛程式匯入工具"
 
-#: plugins/python/plugin_importer/kritapykrita_plugin_importer.desktop:40
+#: plugins/python/plugin_importer/kritapykrita_plugin_importer.desktop:41
 msgctxt "Comment"
 msgid "Imports Python plugins from zip files."
 msgstr "從 ZIP 檔案匯入 Python 外掛程式。"
@@ -520,7 +532,7 @@ msgctxt "Name"
 msgid "Quick Settings Docker"
 msgstr "「快速設定」面板"
 
-#: plugins/python/quick_settings_docker/kritapykrita_quick_settings_docker.desktop:42
+#: plugins/python/quick_settings_docker/kritapykrita_quick_settings_docker.desktop:43
 msgctxt "Comment"
 msgid "A Python-based docker for quickly changing brush size and opacity."
 msgstr "基於 Python 的面板，用於快速變更筆刷尺寸和不透明度。"
@@ -530,7 +542,7 @@ msgctxt "Name"
 msgid "Script Docker"
 msgstr "「指令稿」面板"
 
-#: plugins/python/scriptdocker/kritapykrita_scriptdocker.desktop:41
+#: plugins/python/scriptdocker/kritapykrita_scriptdocker.desktop:42
 msgctxt "Comment"
 msgid "A Python-based docker for create actions and point to Python scripts"
 msgstr "基於 Python 的面板，用於建立動作並指向 Python 指令稿"
@@ -550,7 +562,7 @@ msgctxt "Name"
 msgid "Selections Bag Docker"
 msgstr "「選取區域收藏」面板"
 
-#: plugins/python/selectionsbagdocker/kritapykrita_selectionsbagdocker.desktop:38
+#: plugins/python/selectionsbagdocker/kritapykrita_selectionsbagdocker.desktop:39
 msgctxt "Comment"
 msgid "A docker that allow to store a list of selections"
 msgstr "允許儲存多個選取區域的面板"
@@ -574,6 +586,21 @@ msgstr "十大指令稿"
 msgctxt "Comment"
 msgid "Assign a Python script to any of ten configurable shortcuts."
 msgstr "為十個快捷鍵指定可執行的 Python 指令稿。"
+
+#: plugins/python/workflow_buttons/kritapykrita_workflow_buttons.desktop:7
+msgctxt "Name"
+msgid "Workflow Buttons"
+msgstr ""
+
+#: plugins/python/workflow_buttons/kritapykrita_workflow_buttons.desktop:17
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "A Python-based docker for create actions and point to Python scripts"
+msgctxt "Comment"
+msgid ""
+"A Python-based docker to create multi-action buttons to improve your "
+"workflow."
+msgstr "基於 Python 的面板，用於建立動作並指向 Python 指令稿"
 
 #~ msgctxt "Name"
 #~ msgid "Hello World"
