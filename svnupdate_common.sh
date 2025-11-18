@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 
 declare -A svn_repositories=(
-    ["templates"]="svn://anonsvn.kde.org/home/kde/trunk/l10n-kf5/templates/messages/krita"
     ["zh_TW"]="svn://anonsvn.kde.org/home/kde/trunk/l10n-kf5/zh_TW/messages/krita"
 )
 
