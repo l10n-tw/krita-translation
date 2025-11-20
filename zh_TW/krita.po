@@ -4,7 +4,7 @@
 #
 # [Crowdin] Guo Yunhe (guoyunhe), 2019.
 # pan93412 <pan93412@gmail.com>, 2019, 2020, 2021.
-# Alvin Wong <alvin@alvinhc.com>, 2020, 2021, 2022, 2023.
+# Alvin Wong <alvin@alvinhc.com>, 2020, 2021, 2022, 2023, 2025.
 # BiseChen <bise.chen@gmail.com>, 2021.
 # Yi-Jyun Pan <pan93412@gmail.com>, 2022.
 # SPDX-FileCopyrightText: 2025 Kisaragi Hiu <mail@kisaragi-hiu.com>
@@ -12,16 +12,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-18 02:40+0000\n"
-"PO-Revision-Date: 2025-11-17 18:44+0900\n"
-"Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
-"Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
+"POT-Creation-Date: 2025-11-19 01:58+0000\n"
+"PO-Revision-Date: 2025-11-19 08:30+0000\n"
+"Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
+"Language-Team: Chinese (Traditional Han script) <https://weblate.slat.org/"
+"projects/krita/krita/zh_Hant/>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 25.11.70\n"
+"X-Generator: Weblate 5.13.2\n"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
@@ -1029,16 +1030,16 @@ msgstr "3 筆刷"
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/3_dotted-flat."
-"png"
+"./krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/3_dotted-"
+"flat.png"
 msgid "3 dotted-flat"
 msgstr "3 斑點扁平"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/3_flat-brush."
-"png"
+"./krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/3_flat-"
+"brush.png"
 msgid "3 flat-brush"
 msgstr "3 扁平筆刷"
 
@@ -1103,16 +1104,16 @@ msgstr "鎖鏈"
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/A_Nice_sketch."
-"gbr"
+"./krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/"
+"A_Nice_sketch.gbr"
 msgid "A_Nice Sketch"
 msgstr "微妙草圖"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/A_Nice_sketch2."
-"gbr"
+"./krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/"
+"A_Nice_sketch2.gbr"
 msgid "A_Nice Sketch2"
 msgstr "微妙草圖 2"
 
@@ -1184,8 +1185,8 @@ msgstr "蠟筆"
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/A_dirty-spot."
-"gbr"
+"./krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/A_dirty-"
+"spot.gbr"
 msgid "A_dirty-spot"
 msgstr "污漬"
 
@@ -1200,8 +1201,8 @@ msgstr "被侵蝕圓圈"
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/A_lucky_star."
-"gbr"
+"./krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/"
+"A_lucky_star.gbr"
 msgid "A-5 Lucky-star"
 msgstr "幸運星"
 
@@ -1231,8 +1232,8 @@ msgstr "隨意植物 3"
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/A_reptile-skin."
-"gbr"
+"./krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/A_reptile-"
+"skin.gbr"
 msgid "A_reptile-skin"
 msgstr "爬行動物皮膚"
 
@@ -1274,8 +1275,8 @@ msgstr "潑濺 1"
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/A_starfield2."
-"gbr"
+"./krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/"
+"A_starfield2.gbr"
 msgid "A_starfield2"
 msgstr "星群 2"
 
@@ -1289,8 +1290,8 @@ msgstr "雲塊 1"
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/C_Dirty_Spot."
-"gbr"
+"./krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/"
+"C_Dirty_Spot.gbr"
 msgid "C_Dirty_Spot"
 msgstr "污漬"
 
@@ -1304,8 +1305,8 @@ msgstr "粉塵"
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/D_Normal_dust."
-"gbr"
+"./krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/"
+"D_Normal_dust.gbr"
 msgid "D_Normal dust"
 msgstr "普通粉塵"
 
@@ -1504,8 +1505,8 @@ msgstr "油彩 1 GP"
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/O_Oils_Softer."
-"gbr"
+"./krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/"
+"O_Oils_Softer.gbr"
 msgid "O_Oils Softer"
 msgstr "油彩 - 更柔和"
 
@@ -1540,8 +1541,8 @@ msgstr "耙子 4"
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/R_Rake_small."
-"gbr"
+"./krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/"
+"R_Rake_small.gbr"
 msgid "R_Rake_small"
 msgstr "耙子 - 細小"
 
@@ -1570,24 +1571,24 @@ msgstr "塗抹起司"
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/Sc_Scratches."
-"gbr"
+"./krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/"
+"Sc_Scratches.gbr"
 msgid "Sc_Scratches"
 msgstr "抓痕"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/Sc_Scratches_2."
-"gbr"
+"./krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/"
+"Sc_Scratches_2.gbr"
 msgid "Sc_Scratches2"
 msgstr "抓痕"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/Sc_Scratches_3."
-"gbr"
+"./krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/"
+"Sc_Scratches_3.gbr"
 msgid "Sc_Scratches3"
 msgstr "抓痕"
 
@@ -1695,8 +1696,8 @@ msgstr "像素 4x4 圓角"
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/Z_Pixel_Cross."
-"gbr"
+"./krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/"
+"Z_Pixel_Cross.gbr"
 msgid "Z_Pixel Cross"
 msgstr "像素十字"
 
@@ -2492,8 +2493,8 @@ msgstr "形狀 - 平滑"
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_3_Default_Resources.bundle:paintoppresets/Sketch."
-"kpp"
+"./krita/data/bundles/Krita_3_Default_Resources.bundle:paintoppresets/"
+"Sketch.kpp"
 msgid "Sketch"
 msgstr "草圖"
 
@@ -2804,40 +2805,40 @@ msgstr "墨水 - 精準 03"
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_3_Default_Resources.bundle:paintoppresets/pixel1."
-"kpp"
+"./krita/data/bundles/Krita_3_Default_Resources.bundle:paintoppresets/"
+"pixel1.kpp"
 msgid "pixel1"
 msgstr "像素 1"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_3_Default_Resources.bundle:workspaces/Animation."
-"kws"
+"./krita/data/bundles/Krita_3_Default_Resources.bundle:workspaces/"
+"Animation.kws"
 msgid "Animation"
 msgstr "動畫"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_3_Default_Resources.bundle:workspaces/Big_Paint."
-"kws"
+"./krita/data/bundles/Krita_3_Default_Resources.bundle:workspaces/"
+"Big_Paint.kws"
 msgid "Big Paint"
 msgstr "大繪畫空間"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_3_Default_Resources.bundle:workspaces/Big_Paint_2."
-"kws"
+"./krita/data/bundles/Krita_3_Default_Resources.bundle:workspaces/"
+"Big_Paint_2.kws"
 msgid "Big Paint 2"
 msgstr "大繪畫空間 2"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_3_Default_Resources.bundle:workspaces/Big_Vector."
-"kws"
+"./krita/data/bundles/Krita_3_Default_Resources.bundle:workspaces/"
+"Big_Vector.kws"
 msgid "Big Vector"
 msgstr "大向量空間"
 
@@ -2866,8 +2867,8 @@ msgstr "細向量空間"
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_3_Default_Resources.bundle:workspaces/VFX_Paint."
-"kws"
+"./krita/data/bundles/Krita_3_Default_Resources.bundle:workspaces/"
+"VFX_Paint.kws"
 msgid "VFX Paint"
 msgstr "VFX 繪畫"
 
@@ -2889,8 +2890,8 @@ msgstr "02 粗糙畫布"
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_3_Default_Resources.bundle:"
-"patterns/02b_WoofTissue.png"
+"./krita/data/bundles/Krita_3_Default_Resources.bundle:patterns/"
+"02b_WoofTissue.png"
 msgid "02b WoofTissue"
 msgstr "平紋梭織"
 
@@ -2921,16 +2922,16 @@ msgstr "05 紙張 - 粗縐布"
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_3_Default_Resources.bundle:patterns/06_hard-grain."
-"png"
+"./krita/data/bundles/Krita_3_Default_Resources.bundle:patterns/06_hard-"
+"grain.png"
 msgid "06 hard-grain"
 msgstr "06 硬粒"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_3_Default_Resources.bundle:patterns/07_big-grain."
-"png"
+"./krita/data/bundles/Krita_3_Default_Resources.bundle:patterns/07_big-"
+"grain.png"
 msgid "07 big-grain"
 msgstr "07 大粒"
 
@@ -2945,8 +2946,8 @@ msgstr "08 凹凸浮雕"
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_3_Default_Resources.bundle:"
-"patterns/09_drawed_crosshatched.png"
+"./krita/data/bundles/Krita_3_Default_Resources.bundle:patterns/"
+"09_drawed_crosshatched.png"
 msgid "09 drawed crosshatched"
 msgstr "09 手繪交錯排線"
 
@@ -2961,32 +2962,32 @@ msgstr "09b 手繪交錯線條"
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_3_Default_Resources.bundle:"
-"patterns/10_drawed_dotted.png"
+"./krita/data/bundles/Krita_3_Default_Resources.bundle:patterns/"
+"10_drawed_dotted.png"
 msgid "10 drawed dotted"
 msgstr "10 手繪斑點"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_3_Default_Resources.bundle:"
-"patterns/11_drawed_furry.png"
+"./krita/data/bundles/Krita_3_Default_Resources.bundle:patterns/"
+"11_drawed_furry.png"
 msgid "11 drawed furry"
 msgstr "11 手繪毛毛"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_3_Default_Resources.bundle:"
-"patterns/12_drawed_vertical.png"
+"./krita/data/bundles/Krita_3_Default_Resources.bundle:patterns/"
+"12_drawed_vertical.png"
 msgid "12 drawed vertical"
 msgstr "12 手繪垂直線"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_3_Default_Resources.bundle:"
-"patterns/13_drawed_swirl.png"
+"./krita/data/bundles/Krita_3_Default_Resources.bundle:patterns/"
+"13_drawed_swirl.png"
 msgid "13 drawed swirl"
 msgstr "13 手繪漩渦"
 
@@ -3033,8 +3034,8 @@ msgstr "18 紋理 - 樹皮石"
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_3_Default_Resources.bundle:patterns/18b_WaveFlex."
-"png"
+"./krita/data/bundles/Krita_3_Default_Resources.bundle:patterns/"
+"18b_WaveFlex.png"
 msgid "18b WaveFlex"
 msgstr "波紋"
 
@@ -3105,8 +3106,8 @@ msgstr "26 筆刷痕跡"
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_3_Default_Resources.bundle:patterns/Canvas_Hard."
-"pat"
+"./krita/data/bundles/Krita_3_Default_Resources.bundle:patterns/"
+"Canvas_Hard.pat"
 msgid "Canvas 01"
 msgstr "畫布 01"
 
@@ -3237,8 +3238,8 @@ msgstr "高解析度粉彩紙 02"
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_3_Default_Resources.bundle:patterns/HR_Wall_Paper."
-"pat"
+"./krita/data/bundles/Krita_3_Default_Resources.bundle:patterns/"
+"HR_Wall_Paper.pat"
 msgid "HR Wall Paper"
 msgstr "高解析度牆紙"
 
@@ -3472,8 +3473,8 @@ msgstr "花崗岩 1b"
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_3_Default_Resources.bundle:patterns/hexacolBW__2."
-"pat"
+"./krita/data/bundles/Krita_3_Default_Resources.bundle:patterns/"
+"hexacolBW__2.pat"
 msgid "Hexacol BW By Tarkan"
 msgstr "Tarkan 的黑白六邊形"
 
@@ -3488,8 +3489,8 @@ msgstr "怪物雪人"
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_4_Default_Resources.bundle:brushes/bokey_circle."
-"gbr"
+"./krita/data/bundles/Krita_4_Default_Resources.bundle:brushes/"
+"bokey_circle.gbr"
 msgid "U Circle shape 5"
 msgstr "圓圈形狀 5"
 
@@ -3566,8 +3567,8 @@ msgstr "粉筆硬圓"
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_4_Default_Resources.bundle:brushes/chalk_sparse."
-"png"
+"./krita/data/bundles/Krita_4_Default_Resources.bundle:brushes/"
+"chalk_sparse.png"
 msgid "chalk sparse"
 msgstr "粉筆稀疏"
 
@@ -3582,16 +3583,16 @@ msgstr "斜平頭稠密塗抹"
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_4_Default_Resources.bundle:brushes/chisel_eroded."
-"png"
+"./krita/data/bundles/Krita_4_Default_Resources.bundle:brushes/"
+"chisel_eroded.png"
 msgid "chisel eroded"
 msgstr "被侵蝕斜平頭"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_4_Default_Resources.bundle:brushes/chisel_knife."
-"gbr"
+"./krita/data/bundles/Krita_4_Default_Resources.bundle:brushes/"
+"chisel_knife.gbr"
 msgid "chisel_knife"
 msgstr "斜平頭刀"
 
@@ -3605,8 +3606,8 @@ msgstr "柔和斜平頭"
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_4_Default_Resources.bundle:brushes/chisel_streaks."
-"png"
+"./krita/data/bundles/Krita_4_Default_Resources.bundle:brushes/"
+"chisel_streaks.png"
 msgid "chisel streaks"
 msgstr "斜平頭條痕"
 
@@ -3713,8 +3714,8 @@ msgstr "隨機粒子"
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_4_Default_Resources.bundle:brushes/random-debris."
-"gbr"
+"./krita/data/bundles/Krita_4_Default_Resources.bundle:brushes/random-"
+"debris.gbr"
 msgid "flat-tip-dirty"
 msgstr "平頭筆尖污漬"
 
@@ -3770,8 +3771,8 @@ msgstr "尖刺稠團"
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_4_Default_Resources.bundle:brushes/spike_eroded."
-"png"
+"./krita/data/bundles/Krita_4_Default_Resources.bundle:brushes/"
+"spike_eroded.png"
 msgid "spike eroded"
 msgstr "被侵蝕尖刺"
 
@@ -3792,16 +3793,16 @@ msgstr "潑濺"
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_4_Default_Resources.bundle:brushes/square_eroded."
-"png"
+"./krita/data/bundles/Krita_4_Default_Resources.bundle:brushes/"
+"square_eroded.png"
 msgid "square eroded"
 msgstr "被侵蝕方塊"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_4_Default_Resources.bundle:brushes/square_rough."
-"png"
+"./krita/data/bundles/Krita_4_Default_Resources.bundle:brushes/"
+"square_rough.png"
 msgid "square rough"
 msgstr "粗糙方塊"
 
@@ -4905,8 +4906,8 @@ msgstr "02 粗糙畫布"
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_4_Default_Resources.bundle:"
-"patterns/02b_WoofTissue.png"
+"./krita/data/bundles/Krita_4_Default_Resources.bundle:patterns/"
+"02b_WoofTissue.png"
 msgid "02b WoofTissue"
 msgstr "平紋梭織"
 
@@ -4937,8 +4938,8 @@ msgstr "05 紙張 - 粗縐布"
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_4_Default_Resources.bundle:patterns/06_hard-grain."
-"png"
+"./krita/data/bundles/Krita_4_Default_Resources.bundle:patterns/06_hard-"
+"grain.png"
 msgid "06 hard-grain"
 msgstr "06 硬粒"
 
@@ -4953,8 +4954,8 @@ msgstr "08 凹凸浮雕"
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_4_Default_Resources.bundle:"
-"patterns/09_drawed_crosshatched.png"
+"./krita/data/bundles/Krita_4_Default_Resources.bundle:patterns/"
+"09_drawed_crosshatched.png"
 msgid "09 drawed crosshatched"
 msgstr "09 手繪交錯排線"
 
@@ -4969,32 +4970,32 @@ msgstr "09b 手繪交錯線條"
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_4_Default_Resources.bundle:"
-"patterns/10_drawed_dotted.png"
+"./krita/data/bundles/Krita_4_Default_Resources.bundle:patterns/"
+"10_drawed_dotted.png"
 msgid "10 drawed dotted"
 msgstr "10 手繪斑點"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_4_Default_Resources.bundle:"
-"patterns/11_drawed_furry.png"
+"./krita/data/bundles/Krita_4_Default_Resources.bundle:patterns/"
+"11_drawed_furry.png"
 msgid "11 drawed furry"
 msgstr "11 手繪毛毛"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_4_Default_Resources.bundle:"
-"patterns/12_drawed_vertical.png"
+"./krita/data/bundles/Krita_4_Default_Resources.bundle:patterns/"
+"12_drawed_vertical.png"
 msgid "12 drawed vertical"
 msgstr "12 手繪垂直線"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_4_Default_Resources.bundle:"
-"patterns/13_drawed_swirl.png"
+"./krita/data/bundles/Krita_4_Default_Resources.bundle:patterns/"
+"13_drawed_swirl.png"
 msgid "13 drawed swirl"
 msgstr "13 手繪漩渦"
 
@@ -5041,8 +5042,8 @@ msgstr "18 紋理 - 樹皮石"
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_4_Default_Resources.bundle:patterns/18b_WaveFlex."
-"png"
+"./krita/data/bundles/Krita_4_Default_Resources.bundle:patterns/"
+"18b_WaveFlex.png"
 msgid "18b WaveFlex"
 msgstr "波紋"
 
@@ -5237,8 +5238,8 @@ msgstr "網格 05"
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_4_Default_Resources.bundle:patterns/hexacolBW__2."
-"pat"
+"./krita/data/bundles/Krita_4_Default_Resources.bundle:patterns/"
+"hexacolBW__2.pat"
 msgid "Hexacol BW By Tarkan"
 msgstr "Tarkan 的黑白六邊形"
 
@@ -5253,8 +5254,8 @@ msgstr "高解析度粉彩紙 02"
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_4_Default_Resources.bundle:patterns/HR_Wall_Paper."
-"pat"
+"./krita/data/bundles/Krita_4_Default_Resources.bundle:patterns/"
+"HR_Wall_Paper.pat"
 msgid "HR Wall Paper"
 msgstr "高解析度牆紙"
 
@@ -5310,8 +5311,8 @@ msgstr "圖案 06"
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_4_Default_Resources.bundle:patterns/Rough_Paper."
-"png"
+"./krita/data/bundles/Krita_4_Default_Resources.bundle:patterns/"
+"Rough_Paper.png"
 msgid "Rough Paper"
 msgstr "粗糙紙張"
 
@@ -5403,8 +5404,8 @@ msgstr "方格 10"
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_4_Default_Resources.bundle:patterns/Stars_Sized."
-"png"
+"./krita/data/bundles/Krita_4_Default_Resources.bundle:patterns/"
+"Stars_Sized.png"
 msgid "Stars Sized"
 msgstr "大細星星"
 
@@ -5809,8 +5810,8 @@ msgstr "RGBA 動畫 01"
 #. i18n: 'a)', 'b)' etc. in resource names are used to keep resources in a specific order when Krita sorts them alphabetically. The order will be kept only using the original/untranslated names
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/RGBA_brushes.bundle:paintoppresets/m)_RGBA_01_Thick-dry."
-"kpp"
+"./krita/data/bundles/RGBA_brushes.bundle:paintoppresets/m)_RGBA_01_Thick-"
+"dry.kpp"
 msgid "m) RGBA 01 Thick-dry"
 msgstr "RGBA 01 - 厚、乾"
 
@@ -5835,8 +5836,8 @@ msgstr "RGBA 03 - 耙子"
 #. i18n: 'a)', 'b)' etc. in resource names are used to keep resources in a specific order when Krita sorts them alphabetically. The order will be kept only using the original/untranslated names
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/RGBA_brushes.bundle:paintoppresets/m)_RGBA_04_Impasto."
-"kpp"
+"./krita/data/bundles/RGBA_brushes.bundle:paintoppresets/"
+"m)_RGBA_04_Impasto.kpp"
 msgid "m) RGBA 04 Impasto"
 msgstr "RGBA 04 - 傳統厚塗"
 
@@ -5898,8 +5899,8 @@ msgstr "竹枝"
 #: krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/A_dirty-brush.gih:1
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/A_dirty-brush."
-"gih"
+"./krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/A_dirty-"
+"brush.gih"
 msgid "A - 2 Dirty Brush2"
 msgstr "污漬筆刷 2"
 
@@ -5979,8 +5980,8 @@ msgstr "被侵蝕油畫刀、動畫"
 #: krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/A_fairy-dust.gih:1
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/A_fairy-dust."
-"gih"
+"./krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/A_fairy-"
+"dust.gih"
 msgid "A-4 Fairy Dust"
 msgstr "仙子魔法粉塵"
 
@@ -6020,8 +6021,8 @@ msgstr "毛髮"
 #: krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/A_grass-floor.gih:1
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/A_grass-floor."
-"gih"
+"./krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/A_grass-"
+"floor.gih"
 msgid "A-4 Grass-Floor"
 msgstr "草地"
 
@@ -6130,8 +6131,8 @@ msgstr "星群 - 強烈"
 #: krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/A_wall-texture.gih:1
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/A_wall-texture."
-"gih"
+"./krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/A_wall-"
+"texture.gih"
 msgid "A-4 Wall"
 msgstr "磚牆"
 
@@ -6148,8 +6149,8 @@ msgstr "塵埃粒子"
 #: krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/Flat_textured1.gih:1
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/Flat_textured1."
-"gih"
+"./krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/"
+"Flat_textured1.gih"
 msgid "Flat_textured1"
 msgstr "平淡紋理 1"
 
@@ -6157,8 +6158,8 @@ msgstr "平淡紋理 1"
 #: krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/Flat_textured2.gih:1
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/Flat_textured2."
-"gih"
+"./krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/"
+"Flat_textured2.gih"
 msgid "Flat_textured2"
 msgstr "平淡紋理 2"
 
@@ -6296,8 +6297,8 @@ msgstr "真實鉛筆 16x16"
 #: krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/Rect_textured1.gih:1
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/Rect_textured1."
-"gih"
+"./krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/"
+"Rect_textured1.gih"
 msgid "Rect_textured1"
 msgstr "紋理方塊 1"
 
@@ -6305,8 +6306,8 @@ msgstr "紋理方塊 1"
 #: krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/Rect_textured2.gih:1
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/Rect_textured2."
-"gih"
+"./krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/"
+"Rect_textured2.gih"
 msgid "Rect_textured2"
 msgstr "紋理方塊 2"
 
@@ -6314,8 +6315,8 @@ msgstr "紋理方塊 2"
 #: krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/Rect_textured3.gih:1
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/Rect_textured3."
-"gih"
+"./krita/data/bundles/Krita_3_Default_Resources.bundle:brushes/"
+"Rect_textured3.gih"
 msgid "Rect_textured3"
 msgstr "紋理方塊 3"
 
@@ -6490,8 +6491,8 @@ msgstr "GPS 眼珠 (藍色)"
 #: krita/data/bundles/Krita_3_Default_Resources.bundle:gradients/GPS-FG-Glare.ggr:2
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_3_Default_Resources.bundle:gradients/GPS-FG-Glare."
-"ggr"
+"./krita/data/bundles/Krita_3_Default_Resources.bundle:gradients/GPS-FG-"
+"Glare.ggr"
 msgid "GPS FG Glare"
 msgstr "GPS 前景眩光"
 
@@ -6658,8 +6659,8 @@ msgstr "麥克筆色彩"
 #: krita/data/bundles/Krita_3_Default_Resources.bundle:palettes/pixelart-16.gpl:2
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_3_Default_Resources.bundle:palettes/pixelart-16."
-"gpl"
+"./krita/data/bundles/Krita_3_Default_Resources.bundle:palettes/"
+"pixelart-16.gpl"
 msgid "PixelArt 16"
 msgstr "像素畫 16 色"
 
@@ -6667,8 +6668,8 @@ msgstr "像素畫 16 色"
 #: krita/data/bundles/Krita_3_Default_Resources.bundle:palettes/pixelart-32.gpl:2
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_3_Default_Resources.bundle:palettes/pixelart-32."
-"gpl"
+"./krita/data/bundles/Krita_3_Default_Resources.bundle:palettes/"
+"pixelart-32.gpl"
 msgid "PixelArt 32"
 msgstr "像素畫 32 色"
 
@@ -6683,8 +6684,8 @@ msgstr "Photoshop"
 #: krita/data/bundles/Krita_3_Default_Resources.bundle:palettes/swatch-cmyk.gpl:2
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_3_Default_Resources.bundle:palettes/swatch-cmyk."
-"gpl"
+"./krita/data/bundles/Krita_3_Default_Resources.bundle:palettes/swatch-"
+"cmyk.gpl"
 msgid "Swatch CMYK"
 msgstr "CMYK 樣本色"
 
@@ -6751,8 +6752,8 @@ msgstr "毛刷圓形隨機"
 #: krita/data/bundles/Krita_4_Default_Resources.bundle:brushes/chalk_chisel.gih:1
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_4_Default_Resources.bundle:brushes/chalk_chisel."
-"gih"
+"./krita/data/bundles/Krita_4_Default_Resources.bundle:brushes/"
+"chalk_chisel.gih"
 msgid "Chalk Chisel"
 msgstr "斜平頭粉筆"
 
@@ -6812,8 +6813,8 @@ msgstr "森林"
 #: krita/data/bundles/Krita_4_Default_Resources.bundle:brushes/graphite_grain.gih:1
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_4_Default_Resources.bundle:brushes/graphite_grain."
-"gih"
+"./krita/data/bundles/Krita_4_Default_Resources.bundle:brushes/"
+"graphite_grain.gih"
 msgid "Graphite Grain"
 msgstr "石墨顆粒"
 
@@ -6871,8 +6872,8 @@ msgstr "石墨黑草"
 #: krita/data/bundles/Krita_4_Default_Resources.bundle:brushes/paint_splats.gih:1
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_4_Default_Resources.bundle:brushes/paint_splats."
-"gih"
+"./krita/data/bundles/Krita_4_Default_Resources.bundle:brushes/"
+"paint_splats.gih"
 msgid "Paint Splats"
 msgstr "顏料潑濺"
 
@@ -6880,8 +6881,8 @@ msgstr "顏料潑濺"
 #: krita/data/bundles/Krita_4_Default_Resources.bundle:brushes/random-vegetal.gih:1
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_4_Default_Resources.bundle:brushes/random-vegetal."
-"gih"
+"./krita/data/bundles/Krita_4_Default_Resources.bundle:brushes/random-"
+"vegetal.gih"
 msgid "A-4 random vegetal2"
 msgstr "隨意植物 2"
 
@@ -6905,8 +6906,8 @@ msgstr "凹岩石"
 #: krita/data/bundles/Krita_4_Default_Resources.bundle:brushes/rock_scraped.gih:1
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_4_Default_Resources.bundle:brushes/rock_scraped."
-"gih"
+"./krita/data/bundles/Krita_4_Default_Resources.bundle:brushes/"
+"rock_scraped.gih"
 msgid "rock_scraped"
 msgstr "刮痕岩石"
 
@@ -6958,8 +6959,8 @@ msgstr "雪"
 #: krita/data/bundles/Krita_4_Default_Resources.bundle:brushes/splats_large.gih:1
 #, kde-format
 msgctxt ""
-"./krita/data/bundles/Krita_4_Default_Resources.bundle:brushes/splats_large."
-"gih"
+"./krita/data/bundles/Krita_4_Default_Resources.bundle:brushes/"
+"splats_large.gih"
 msgid "S_Splats 2"
 msgstr "潑濺 2"
 
@@ -7937,12 +7938,10 @@ msgstr "在該點處斷開"
 #. i18n: context: text @ Action (path-break-selection), Actions (Path Tool), ActionCollection (Tools)
 #: krita/data/actions/PathTool.action:56 krita/data/actions/PathTool.action:58
 #: krita/data/actions/PathTool.action:63
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Break at segment"
+#, kde-format
 msgctxt "action"
 msgid "Break at selection"
-msgstr "在線段處斷開"
+msgstr "在選取處斷開"
 
 #. i18n: context: iconText @ Action (pathpoint-line), Actions (Path Tool), ActionCollection (Tools)
 #. i18n: context: toolTip @ Action (pathpoint-line), Actions (Path Tool), ActionCollection (Tools)
@@ -8322,12 +8321,10 @@ msgstr "顯示用於錯誤報告的系統資訊。"
 
 #. i18n: context: text @ Action (color_management_report), Actions (General), ActionCollection (Krita)
 #: krita/krita.action:187
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Document Information"
+#, kde-format
 msgctxt "action"
 msgid "Show color management information"
-msgstr "檔案資訊"
+msgstr "顯示色彩管理資訊"
 
 #. i18n: context: toolTip @ Action (color_management_report), Actions (General), ActionCollection (Krita)
 #: krita/krita.action:189
@@ -25415,11 +25412,11 @@ msgstr ""
 "用此選項時，GIF 影像將可用 256 種色彩以提供較高畫質。</p><p><span style=\" "
 "font-style:italic;\">提示一：如希望正常使用透明度，您需要確定影像輸出透明度已"
 "啟用，並且 FFmpeg 版本為 4.2 或以上。如果您的 GIF 輸出有畫面撕裂的跡象，強烈"
-"建議使用 FFmpeg 版本 4.4 或以上。</span></p><p><span style=\" font-style:"
-"italic;\">提示二：GIF 影像格式只支援 100% 或 0% 的透明度值，並</span><span "
-"style=\" font-style:italic; text-decoration: underline;\">不</span><span "
-"style=\" font-style:italic;\">支援半透明效果。如果您需要半透明效果，請考慮使"
-"用 APNG 或 WEBP 圖像格式。</span><br/></p></body></html>"
+"建議使用 FFmpeg 版本 4.4 或以上。</span></p><p><span style=\" font-"
+"style:italic;\">提示二：GIF 影像格式只支援 100% 或 0% 的透明度值，並</"
+"span><span style=\" font-style:italic; text-decoration: underline;\">不</"
+"span><span style=\" font-style:italic;\">支援半透明效果。如果您需要半透明效"
+"果，請考慮使用 APNG 或 WEBP 圖像格式。</span><br/></p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, gifReserveTransparent)
 #: libs/ui/animation/video_export_options_dialog.ui:350
@@ -26644,8 +26641,8 @@ msgstr "<html><head/><body><h1 align=\"center\">翻譯者</h1><p>"
 msgid ""
 "<p>KDE is translated into many languages thanks to the work of the "
 "translation teams all over the world.</p><p>For more information on KDE "
-"internationalization visit <a href=\"http://l10n.kde.org\">http://l10n.kde."
-"org</a></p>"
+"internationalization visit <a href=\"http://l10n.kde.org\">http://"
+"l10n.kde.org</a></p>"
 msgstr ""
 "<p>KDE 能被翻譯為多種語言，全靠來自世界各地的翻譯團隊協助。</p><p>如希望了解"
 "更多有關 KDE 國際化的資訊，可以瀏覽 <a href=\"http://l10n.kde.org\">http://"
@@ -26654,16 +26651,16 @@ msgstr ""
 #: libs/ui/dialogs/kis_about_application.cpp:92
 #, kde-format
 msgid ""
-"<html><head/><body><h1 align=\"center\">Development Fund</h1><p align="
-"\"center\"> <a href=\"https://intel.com\"><img src=\":/intel.png\"></a> <h2 "
-"align=\"center\">One Time Sponsors</h2><p align=\"center\"> <a href="
-"\"https://www.unrealengine.com/en-US/megagrants\"><img src=\":/epic.png\"></"
-"a> <p align=\"center\"> <a href=\"http://brokenrul.es/\"><img src=\":/"
-"broken_rules.png\"></a> <p align=\"center\"> <a href=\"https://game-chuck."
-"com/\"><img src=\":/gamechuck.png\"></a> <p align=\"center\"> <a href="
-"\"https://www.fosshub.com/Krita.html\"><img src=\":/fosshub.png\"></a> <p "
-"align=\"center\"> <a href=\"http://www.asifa-hollywood.org/\"><img src=\":/"
-"asifa.png\"></a> </body></html>"
+"<html><head/><body><h1 align=\"center\">Development Fund</h1><p "
+"align=\"center\"> <a href=\"https://intel.com\"><img src=\":/intel.png\"></"
+"a> <h2 align=\"center\">One Time Sponsors</h2><p align=\"center\"> <a "
+"href=\"https://www.unrealengine.com/en-US/megagrants\"><img src=\":/"
+"epic.png\"></a> <p align=\"center\"> <a href=\"http://brokenrul.es/\"><img "
+"src=\":/broken_rules.png\"></a> <p align=\"center\"> <a href=\"https://game-"
+"chuck.com/\"><img src=\":/gamechuck.png\"></a> <p align=\"center\"> <a "
+"href=\"https://www.fosshub.com/Krita.html\"><img src=\":/fosshub.png\"></a> "
+"<p align=\"center\"> <a href=\"http://www.asifa-hollywood.org/\"><img "
+"src=\":/asifa.png\"></a> </body></html>"
 msgstr ""
 
 #: libs/ui/dialogs/kis_about_application.cpp:104
@@ -27322,8 +27319,9 @@ msgid ""
 "p><p>If color management is disabled, Krita will render the canvas into the "
 "surface of the main window, which is considered sRGB. It will cause two "
 "limitations:<ol>    <li>the color gamut will be limited to sRGB</li>    "
-"<li>color proofing mode will be limited to \"use global display settings"
-"\",         i.e. paper white proofing will become impossible</li></ol></p>"
+"<li>color proofing mode will be limited to \"use global display "
+"settings\",         i.e. paper white proofing will become impossible</li></"
+"ol></p>"
 msgstr ""
 
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1223
@@ -28336,29 +28334,30 @@ msgstr ""
 #| "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
 #| "right:0px; -qt-block-indent:0; text-indent:0px;\">Krita is an open source "
 #| "and community-driven tool for digital artists everywhere.<br />Progress "
-#| "is made possible thanks to ongoing support from our community of <a href="
-#| "\"https://docs.krita.org/en/contributors_manual.html\">contributors</a>, "
-#| "sponsors, and <a href=\"https://fund.krita.org/\">development fund </"
+#| "is made possible thanks to ongoing support from our community of <a "
+#| "href=\"https://docs.krita.org/en/contributors_manual.html\">contributors</"
+#| "a>, sponsors, and <a href=\"https://fund.krita.org/\">development fund </"
 #| "a>members.</p></body></html>"
 msgid ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
 "REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
-"\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+"css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body>\n"
 "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\">Krita is an open source "
 "and community-driven tool for digital artists everywhere.<br />Progress is "
-"made possible thanks to ongoing support from our community of <a href="
-"\"https://docs.krita.org/en/contributors_manual.html\">contributors</a>, <a "
-"href=\"https://krita.org/en/sponsors/\">sponsors</a>, and <a href=\"https://"
-"fund.krita.org/\">development fund</a> members.</p></body></html>"
+"made possible thanks to ongoing support from our community of <a "
+"href=\"https://docs.krita.org/en/contributors_manual.html\">contributors</"
+"a>, <a href=\"https://krita.org/en/sponsors/\">sponsors</a>, and <a "
+"href=\"https://fund.krita.org/\">development fund</a> members.</p></body></"
+"html>"
 msgstr ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
 "REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
-"\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+"css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body>\n"
 "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
@@ -28918,16 +28917,16 @@ msgstr "色彩空間瀏覽器"
 #: libs/ui/forms/wdgcolorspaceselectoradvanced.ui:27
 #, kde-format
 msgid ""
-"<html><head/><body><p><a href=\"https://en.wikipedia.org/wiki/Color_space"
-"\"><span style=\" font-weight:600; text-decoration: underline; color:#006e28;"
-"\">Color Spaces</span></a>  determine how colors are encoded in your files. "
-"Different color spaces have different properties and are used for different "
-"purposes.</p></body></html>"
+"<html><head/><body><p><a href=\"https://en.wikipedia.org/wiki/"
+"Color_space\"><span style=\" font-weight:600; text-decoration: underline; "
+"color:#006e28;\">Color Spaces</span></a>  determine how colors are encoded "
+"in your files. Different color spaces have different properties and are used "
+"for different purposes.</p></body></html>"
 msgstr ""
 "<html><head/><body><p><a href=\"https://zh.wikipedia.org/wiki/色彩空間"
-"\"><span style=\" font-weight:600; text-decoration: underline; color:#006e28;"
-"\">色彩空間</span></a>用於控制檔案色彩的編碼方式。每種色彩空間特性各異，適應"
-"於不同的用途。</p></body></html>"
+"\"><span style=\" font-weight:600; text-decoration: underline; "
+"color:#006e28;\">色彩空間</span></a>用於控制檔案色彩的編碼方式。每種色彩空間"
+"特性各異，適應於不同的用途。</p></body></html>"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: libs/ui/forms/wdgcolorspaceselectoradvanced.ui:51
@@ -29421,7 +29420,7 @@ msgstr "覆蓋不透明度："
 #. i18n: ectx: attribute (title), widget (QWidget, Miscellaneous)
 #. i18n: ectx: attribute (title), widget (QWidget, tab_4)
 #: libs/ui/forms/wdgdisplaysettings.ui:513
-#: libs/ui/forms/wdggeneralsettings.ui:1188
+#: libs/ui/forms/wdggeneralsettings.ui:1194
 #, kde-format
 msgid "Miscellaneous"
 msgstr "其他"
@@ -29774,8 +29773,8 @@ msgid ""
 "weight:600;\">very</span> large files: larger than 4 GiB on disk.</p></"
 "body></html>"
 msgstr ""
-"<html><head/><body><p>此選項只應用於儲存體積<span style=\" font-weight:600;"
-"\">非常</span> 大的檔案——大於 4 GiB。</p></body></html>"
+"<html><head/><body><p>此選項只應用於儲存體積<span style=\" font-"
+"weight:600;\">非常</span> 大的檔案——大於 4 GiB。</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkZip64)
 #: libs/ui/forms/wdggeneralsettings.ui:190
@@ -29968,7 +29967,7 @@ msgstr "啟用非整數縮放比例"
 #. i18n: ectx: property (text), widget (QLabel, label_16)
 #. i18n: ectx: property (text), widget (QLabel, label_14)
 #: libs/ui/forms/wdggeneralsettings.ui:598
-#: libs/ui/forms/wdggeneralsettings.ui:1632
+#: libs/ui/forms/wdggeneralsettings.ui:1638
 #, kde-format
 msgid "(needs restart)"
 msgstr "(需要重啟程式)"
@@ -30000,131 +29999,141 @@ msgstr "在繪畫時…"
 #. i18n: ectx: property (text), widget (QCheckBox, m_showOutlinePainting)
 #. i18n: ectx: property (text), widget (QCheckBox, m_showEraserOutlinePainting)
 #: libs/ui/forms/wdggeneralsettings.ui:711
-#: libs/ui/forms/wdggeneralsettings.ui:817
+#: libs/ui/forms/wdggeneralsettings.ui:820
 #, kde-format
 msgid "Show outline"
 msgstr "顯示輪廓"
 
+#. i18n: ectx: property (toolTip), widget (QCheckBox, m_changeBrushOutline)
+#. i18n: ectx: property (toolTip), widget (QCheckBox, m_changeEraserBrushOutline)
+#: libs/ui/forms/wdggeneralsettings.ui:718
+#: libs/ui/forms/wdggeneralsettings.ui:827
+#, kde-format
+msgid ""
+"Dynamically adjust outline to match the effective size of the brush. (For "
+"example, as brush size changes due to pen pressure.)"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QCheckBox, m_changeBrushOutline)
 #. i18n: ectx: property (text), widget (QCheckBox, m_changeEraserBrushOutline)
-#: libs/ui/forms/wdggeneralsettings.ui:718
-#: libs/ui/forms/wdggeneralsettings.ui:824
+#: libs/ui/forms/wdggeneralsettings.ui:721
+#: libs/ui/forms/wdggeneralsettings.ui:830
 #, kde-format
 msgid "Use effective outline size"
 msgstr "使用有效輪廓大小"
 
 #. i18n: ectx: property (title), widget (QGroupBox, m_chkSeparateEraserCursor)
-#: libs/ui/forms/wdggeneralsettings.ui:731
+#: libs/ui/forms/wdggeneralsettings.ui:734
 #, kde-format
 msgid "Use separate settings for eraser"
 msgstr "為橡皮擦選用個別設定"
 
 #. i18n: ectx: property (text), widget (QLabel, label_19)
-#: libs/ui/forms/wdggeneralsettings.ui:752
+#: libs/ui/forms/wdggeneralsettings.ui:755
 #, kde-format
 msgid "Eraser Cursor Icon:"
 msgstr "橡皮擦游標圖示："
 
 #. i18n: ectx: property (text), widget (QLabel, label_20)
-#: libs/ui/forms/wdggeneralsettings.ui:765
+#: libs/ui/forms/wdggeneralsettings.ui:768
 #, kde-format
 msgid "Eraser Outline Shape:"
 msgstr "橡皮擦輪廓形狀："
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_6)
-#: libs/ui/forms/wdggeneralsettings.ui:802
+#: libs/ui/forms/wdggeneralsettings.ui:805
 #, kde-format
 msgid "While painting with an eraser..."
 msgstr "在使用橡皮擦時…"
 
 #. i18n: ectx: property (text), widget (QLabel, label_21)
-#: libs/ui/forms/wdggeneralsettings.ui:837
+#: libs/ui/forms/wdggeneralsettings.ui:843
 #, kde-format
 msgid "Eraser Outline Color:"
 msgstr "橡皮擦輪廓色彩："
 
 #. i18n: ectx: property (text), widget (QLabel, label_11)
-#: libs/ui/forms/wdggeneralsettings.ui:873
+#: libs/ui/forms/wdggeneralsettings.ui:879
 #, kde-format
 msgid "Brush Outline Color:"
 msgstr "筆刷輪廓色彩："
 
 #. i18n: ectx: attribute (title), widget (QWidget, Tools)
-#: libs/ui/forms/wdggeneralsettings.ui:894
+#: libs/ui/forms/wdggeneralsettings.ui:900
 #: plugins/dockers/logdocker/LogDockerDock.cpp:139
 #, kde-format
 msgid "Tools"
 msgstr "工具"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
-#: libs/ui/forms/wdggeneralsettings.ui:900
+#: libs/ui/forms/wdggeneralsettings.ui:906
 #, kde-format
 msgid "Tool Options Location (needs restart)"
 msgstr "工具選項位置 (需要重啟程式)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, m_radioToolOptionsInDocker)
-#: libs/ui/forms/wdggeneralsettings.ui:906
+#: libs/ui/forms/wdggeneralsettings.ui:912
 #, kde-format
 msgid "In Doc&ker"
 msgstr "在工具面板中(&K)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, m_radioToolOptionsInToolbar)
-#: libs/ui/forms/wdggeneralsettings.ui:913
+#: libs/ui/forms/wdggeneralsettings.ui:919
 #, kde-format
 msgid "I&n Toolbar"
 msgstr "在工具列內(&N)"
 
 #. i18n: ectx: property (text), widget (QLabel, lblFlowMode)
-#: libs/ui/forms/wdggeneralsettings.ui:926
+#: libs/ui/forms/wdggeneralsettings.ui:932
 #, kde-format
 msgid "Brush Flow Mode (needs restart):"
 msgstr "筆刷流量模式 (需要重啟程式)："
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbFlowMode)
-#: libs/ui/forms/wdggeneralsettings.ui:934
+#: libs/ui/forms/wdggeneralsettings.ui:940
 #, kde-format
 msgid "Creamy (Krita 4.2+)"
 msgstr "軟滑 (Krita 4.2 以及之後版本)"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbFlowMode)
-#: libs/ui/forms/wdggeneralsettings.ui:939
+#: libs/ui/forms/wdggeneralsettings.ui:945
 #, kde-format
 msgid "Hard (Krita 4.1 and earlier versions)"
 msgstr "堅硬 (Krita 4.1 以及之前版本)"
 
 #. i18n: ectx: property (text), widget (QLabel, lblCmykBlendingMode)
-#: libs/ui/forms/wdggeneralsettings.ui:947
+#: libs/ui/forms/wdggeneralsettings.ui:953
 #, kde-format
 msgid "CMYK blending mode (needs restart):"
 msgstr "CMYK 混色模式 (需要重啟程式)："
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbCmykBlendingMode)
-#: libs/ui/forms/wdggeneralsettings.ui:955
+#: libs/ui/forms/wdggeneralsettings.ui:961
 #, kde-format
 msgid "Subtractive (Krita 5.2+)"
 msgstr "減色法 (Krita 5.2 以及之後版本)"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbCmykBlendingMode)
-#: libs/ui/forms/wdggeneralsettings.ui:960
+#: libs/ui/forms/wdggeneralsettings.ui:966
 #, kde-format
 msgid "Additive (Krita 5.1 and earlier versions)"
 msgstr "加色法 (Krita 5.1 以及之前版本)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkSwitchSelectionCtrlAlt)
-#: libs/ui/forms/wdggeneralsettings.ui:968
+#: libs/ui/forms/wdggeneralsettings.ui:974
 #, kde-format
 msgid "Switch Control/Alt Selection Modifiers"
 msgstr "在使用選取區域工具時交換 Ctrl 與 Alt 組合鍵的作用"
 
 #. i18n: ectx: property (text), widget (QLabel, lblTouchPainting)
-#: libs/ui/forms/wdggeneralsettings.ui:975
+#: libs/ui/forms/wdggeneralsettings.ui:981
 #, fuzzy, kde-format
 #| msgid "Enable Touch Painting"
 msgid "Touch Painting:"
 msgstr "啟用以手指在觸控螢幕上繪畫"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkTouchPressureSensitivity)
-#: libs/ui/forms/wdggeneralsettings.ui:982
+#: libs/ui/forms/wdggeneralsettings.ui:988
 #, kde-format
 msgid ""
 "Enable reading of pressure state for touch events. This data may be broken "
@@ -30133,38 +30142,38 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkTouchPressureSensitivity)
-#: libs/ui/forms/wdggeneralsettings.ui:985
+#: libs/ui/forms/wdggeneralsettings.ui:991
 #, kde-format
 msgid "Enable Touch Pressure Sensitivity (may be broken)"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkEnableTransformToolAfterPaste)
-#: libs/ui/forms/wdggeneralsettings.ui:992
+#: libs/ui/forms/wdggeneralsettings.ui:998
 #, kde-format
 msgid "Activate transform tool after pasting"
 msgstr "在貼上後自動切換到變形工具"
 
 #. i18n: ectx: property (text), widget (QLabel, lblZoomSteps)
-#: libs/ui/forms/wdggeneralsettings.ui:999
+#: libs/ui/forms/wdggeneralsettings.ui:1005
 #, kde-format
 msgid "Zoom steps between powers of 2"
 msgstr "縮放階級在 2 的次方數之間的分級數目"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkZoomHorizontally)
-#: libs/ui/forms/wdggeneralsettings.ui:1016
+#: libs/ui/forms/wdggeneralsettings.ui:1022
 #, kde-format
 msgid "Use horizontal axis for Canvas Zoom Action"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblSelectionActionBar)
-#: libs/ui/forms/wdggeneralsettings.ui:1036
+#: libs/ui/forms/wdggeneralsettings.ui:1042
 #, fuzzy, kde-format
 #| msgid "Selection Actions"
 msgid "Selection Actions Bar"
 msgstr "選取動作"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkEnableSelectionActionBar)
-#: libs/ui/forms/wdggeneralsettings.ui:1043
+#: libs/ui/forms/wdggeneralsettings.ui:1049
 #, kde-format
 msgid ""
 "When enabled, any selections will produce a small floating panel of useful "
@@ -30172,27 +30181,27 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkEnableSelectionActionBar)
-#: libs/ui/forms/wdggeneralsettings.ui:1046
+#: libs/ui/forms/wdggeneralsettings.ui:1052
 #, fuzzy, kde-format
 #| msgid "Selection Actions"
 msgid "Enable Selection Actions Bar"
 msgstr "選取動作"
 
 #. i18n: ectx: attribute (title), widget (QWidget, Animation)
-#: libs/ui/forms/wdggeneralsettings.ui:1060
+#: libs/ui/forms/wdggeneralsettings.ui:1066
 #, kde-format
 msgid "Animation"
 msgstr "動畫"
 
 #. i18n: ectx: property (title), widget (QGroupBox, grpAnimation)
-#: libs/ui/forms/wdggeneralsettings.ui:1066
+#: libs/ui/forms/wdggeneralsettings.ui:1072
 #, fuzzy, kde-format
 #| msgid "Animation settings menu"
 msgid "Animation Settings"
 msgstr "動畫設定選單"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, m_chkAutoPin)
-#: libs/ui/forms/wdggeneralsettings.ui:1072
+#: libs/ui/forms/wdggeneralsettings.ui:1078
 #, kde-format
 msgid ""
 "When this option is checked newly created layers will be automatically "
@@ -30202,13 +30211,13 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkAutoPin)
-#: libs/ui/forms/wdggeneralsettings.ui:1075
+#: libs/ui/forms/wdggeneralsettings.ui:1081
 #, kde-format
 msgid "Automatically pin new layers to timeline"
 msgstr "自動釘選新圖層至時間軸"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, m_chkAdaptivePlaybackRange)
-#: libs/ui/forms/wdggeneralsettings.ui:1082
+#: libs/ui/forms/wdggeneralsettings.ui:1088
 #, kde-format
 msgid ""
 "When checked, this option automatically adjusts the document's \"start\" and "
@@ -30218,14 +30227,14 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkAdaptivePlaybackRange)
-#: libs/ui/forms/wdggeneralsettings.ui:1085
+#: libs/ui/forms/wdggeneralsettings.ui:1091
 #, fuzzy, kde-format
 #| msgid "Adapt playback range to keyframes"
 msgid "Automatically adapt playback range to keyframes"
 msgstr "將重播範圍調整至關鍵影格"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, m_chkAutoZoom)
-#: libs/ui/forms/wdggeneralsettings.ui:1092
+#: libs/ui/forms/wdggeneralsettings.ui:1098
 #, kde-format
 msgid ""
 "When checked, this option will automatically scale the Animation Timeline "
@@ -30235,83 +30244,83 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkAutoZoom)
-#: libs/ui/forms/wdggeneralsettings.ui:1095
+#: libs/ui/forms/wdggeneralsettings.ui:1101
 #, kde-format
 msgid "Automatically zoom timeline to fit playback range"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, Resources)
 #. i18n: ectx: attribute (title), widget (QWidget, tabResources)
-#: libs/ui/forms/wdggeneralsettings.ui:1132
+#: libs/ui/forms/wdggeneralsettings.ui:1138
 #: plugins/extensions/dbexplorer/WdgDbExplorer.ui:37
 #, kde-format
 msgid "Resources"
 msgstr "資源"
 
 #. i18n: ectx: property (text), widget (QLabel, label_15)
-#: libs/ui/forms/wdggeneralsettings.ui:1138
+#: libs/ui/forms/wdggeneralsettings.ui:1144
 #, kde-format
 msgid "Resource Folder:"
 msgstr "資源目錄："
 
 #. i18n: ectx: property (text), widget (QLabel, label_12)
-#: libs/ui/forms/wdggeneralsettings.ui:1242
+#: libs/ui/forms/wdggeneralsettings.ui:1248
 #, kde-format
 msgid "When Krita starts:"
 msgstr "當 Krita 啟動時："
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkSaveSessionOnQuit)
-#: libs/ui/forms/wdggeneralsettings.ui:1259
+#: libs/ui/forms/wdggeneralsettings.ui:1265
 #, kde-format
 msgid "Save session when Krita closes"
 msgstr "關閉 Krita 時儲存工作階段"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkConvertOnImport)
-#: libs/ui/forms/wdggeneralsettings.ui:1266
+#: libs/ui/forms/wdggeneralsettings.ui:1272
 #, kde-format
 msgid "On importing images as layers, convert to the image colorspace"
 msgstr "匯入影像為圖層時，將其轉換成目標影像的色彩空間"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label)
 #. i18n: ectx: property (toolTip), widget (KisIntParseSpinBox, m_undoStackSize)
-#: libs/ui/forms/wdggeneralsettings.ui:1279
-#: libs/ui/forms/wdggeneralsettings.ui:1289
+#: libs/ui/forms/wdggeneralsettings.ui:1285
+#: libs/ui/forms/wdggeneralsettings.ui:1295
 #, kde-format
 msgid "Only applies to new or newly opened images."
 msgstr "僅套用於新建立或者新開啟的影像。"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: libs/ui/forms/wdggeneralsettings.ui:1282
+#: libs/ui/forms/wdggeneralsettings.ui:1288
 #, kde-format
 msgid "Undo stack size:"
 msgstr "復原次數上限："
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkCumulativeUndo)
-#: libs/ui/forms/wdggeneralsettings.ui:1310
+#: libs/ui/forms/wdggeneralsettings.ui:1316
 #, kde-format
 msgid "Use cumulative undo"
 msgstr "使用合併復原"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnAdvancedCumulativeUndo)
-#: libs/ui/forms/wdggeneralsettings.ui:1330
+#: libs/ui/forms/wdggeneralsettings.ui:1336
 #, kde-format
 msgid "Advanced..."
 msgstr "進階…"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkShowRootLayer)
-#: libs/ui/forms/wdggeneralsettings.ui:1339
+#: libs/ui/forms/wdggeneralsettings.ui:1345
 #, kde-format
 msgid "Show root layer"
 msgstr "顯示根圖層"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkUsageLogging)
-#: libs/ui/forms/wdggeneralsettings.ui:1346
+#: libs/ui/forms/wdggeneralsettings.ui:1352
 #, kde-format
 msgid "Enable Logging for bug reports"
 msgstr "啟用供錯誤報告用的紀錄"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, m_chkNativeFileDialog)
-#: libs/ui/forms/wdggeneralsettings.ui:1377
+#: libs/ui/forms/wdggeneralsettings.ui:1383
 #, kde-format
 msgid ""
 "Warning: if you enable this setting and the file dialogs do weird stuff, do "
@@ -30320,50 +30329,50 @@ msgstr ""
 "警告：如果啟用此選項後開啟/儲存檔案對話框不能正常運作，請勿為此提交錯誤報告。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkNativeFileDialog)
-#: libs/ui/forms/wdggeneralsettings.ui:1380
+#: libs/ui/forms/wdggeneralsettings.ui:1386
 #, kde-format
 msgid "Enable native file dialogs"
 msgstr "使用系統原生開啟/儲存檔案對話框"
 
 #. i18n: ectx: property (text), widget (QLabel, label_18)
-#: libs/ui/forms/wdggeneralsettings.ui:1403
+#: libs/ui/forms/wdggeneralsettings.ui:1409
 #, kde-format
 msgid "(Warning: may not work correctly on some systems)"
 msgstr "(警告：在某些系統上可能會出錯)"
 
 #. i18n: ectx: property (text), widget (QLabel, label_9)
-#: libs/ui/forms/wdggeneralsettings.ui:1413
+#: libs/ui/forms/wdggeneralsettings.ui:1419
 #, kde-format
 msgid "Maximum brush size:"
 msgstr "筆刷最大大小："
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, intMaxBrushSize)
-#: libs/ui/forms/wdggeneralsettings.ui:1441
+#: libs/ui/forms/wdggeneralsettings.ui:1447
 #, kde-format
 msgid "The maximum diameter of a brush in pixels."
 msgstr "筆刷的最大直徑，以像素為單位。"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, intMaxBrushSize)
-#: libs/ui/forms/wdggeneralsettings.ui:1444
+#: libs/ui/forms/wdggeneralsettings.ui:1450
 #, kde-format
 msgctxt "pixel"
 msgid "px"
 msgstr "px"
 
 #. i18n: ectx: property (text), widget (QLabel, label_10)
-#: libs/ui/forms/wdggeneralsettings.ui:1479
+#: libs/ui/forms/wdggeneralsettings.ui:1485
 #, kde-format
 msgid "(Needs restart)"
 msgstr "(需要重啟程式)"
 
 #. i18n: ectx: property (title), widget (QGroupBox, chkForcedFontDPI)
-#: libs/ui/forms/wdggeneralsettings.ui:1489
+#: libs/ui/forms/wdggeneralsettings.ui:1495
 #, kde-format
 msgid "Font DPI Workaround"
 msgstr "字型 DPI 應急修正方法"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_17)
-#: libs/ui/forms/wdggeneralsettings.ui:1504
+#: libs/ui/forms/wdggeneralsettings.ui:1510
 #, kde-format
 msgid ""
 "In some Krita versions before 5.0 text size could be dependent on the "
@@ -30391,7 +30400,7 @@ msgstr ""
 "檔案以 Krita 5.0 儲存後，將無需再次作出轉換。"
 
 #. i18n: ectx: property (text), widget (QLabel, label_17)
-#: libs/ui/forms/wdggeneralsettings.ui:1507
+#: libs/ui/forms/wdggeneralsettings.ui:1513
 #: plugins/python/comics_project_management_tools/comics_export_dialog.py:71
 #: plugins/python/comics_project_management_tools/comics_template_dialog.py:183
 #, kde-format
@@ -30399,7 +30408,7 @@ msgid "DPI:"
 msgstr "DPI："
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, intForcedFontDPI)
-#: libs/ui/forms/wdggeneralsettings.ui:1516
+#: libs/ui/forms/wdggeneralsettings.ui:1522
 #, kde-format
 msgid ""
 "In some versions of Krita before 4.4.3 text size could be dependent on the "
@@ -30417,70 +30426,70 @@ msgstr ""
 "用此 DPI 解析度作文字顯示。"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_51)
-#: libs/ui/forms/wdggeneralsettings.ui:1529
+#: libs/ui/forms/wdggeneralsettings.ui:1535
 #, fuzzy, kde-format
 #| msgid "Automatic layer suffixes"
 msgid "Automatic layer naming"
 msgstr "自動附加圖層名後綴"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkRenameMergedLayers)
-#: libs/ui/forms/wdggeneralsettings.ui:1535
+#: libs/ui/forms/wdggeneralsettings.ui:1541
 #, fuzzy, kde-format
 #| msgid "Add \"Merged\" to merged group layers"
 msgid "Append \"Merged\" to merged group layers"
 msgstr "在合併群組圖層後加上「已合併」後綴"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkRenamePastedLayers)
-#: libs/ui/forms/wdggeneralsettings.ui:1542
+#: libs/ui/forms/wdggeneralsettings.ui:1548
 #, fuzzy, kde-format
 #| msgid "Add \"(pasted)\" to pasted layers"
 msgid "Append \"(pasted)\" to pasted layers"
 msgstr "在貼上圖層後加上「(已貼上)」後綴"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkRenameDuplicatedLayers)
-#: libs/ui/forms/wdggeneralsettings.ui:1549
+#: libs/ui/forms/wdggeneralsettings.ui:1555
 #, fuzzy, kde-format
 #| msgid "Add \"(pasted)\" to pasted layers"
 msgid "Prepend \"Copy of\" to duplicated layers"
 msgstr "在貼上圖層後加上「(已貼上)」後綴"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkEnableLongPress)
-#: libs/ui/forms/wdggeneralsettings.ui:1559
+#: libs/ui/forms/wdggeneralsettings.ui:1565
 #, kde-format
 msgid "Long-press to open context menus"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, m_groupBoxKineticScrollingSettings)
-#: libs/ui/forms/wdggeneralsettings.ui:1566
+#: libs/ui/forms/wdggeneralsettings.ui:1572
 #, kde-format
 msgid "Kinetic Scrolling (needs restart)"
 msgstr "拖曳捲動 (需要重啟程式)"
 
 #. i18n: ectx: property (text), widget (QLabel, labelKineticScrollingSensitivity)
-#: libs/ui/forms/wdggeneralsettings.ui:1581
+#: libs/ui/forms/wdggeneralsettings.ui:1587
 #, kde-format
 msgid "Sensitivity:"
 msgstr "靈敏度："
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkKineticScrollingHideScrollbars)
-#: libs/ui/forms/wdggeneralsettings.ui:1606
+#: libs/ui/forms/wdggeneralsettings.ui:1612
 #, kde-format
 msgid "Hide docker scrollbars if kinetic scrolling is enabled"
 msgstr "啟用拖曳捲動時，隱藏工具面板的捲動軸"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkIgnoreHighFunctionKeys)
-#: libs/ui/forms/wdggeneralsettings.ui:1658
+#: libs/ui/forms/wdggeneralsettings.ui:1664
 #, kde-format
 msgid ""
-"Some applications may emulate presses of function keys with high numbers (e."
-"g. F22) to bring themselves to the foreground. This may break Krita's "
+"Some applications may emulate presses of function keys with high numbers "
+"(e.g. F22) to bring themselves to the foreground. This may break Krita's "
 "shortcuts and actions system. If you have a keyboard with F13 or higher "
 "function keys, and you wish to use them, try disabling this option, but take "
 "this potential problem into account."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkIgnoreHighFunctionKeys)
-#: libs/ui/forms/wdggeneralsettings.ui:1661
+#: libs/ui/forms/wdggeneralsettings.ui:1667
 #, kde-format
 msgid "Ignore high function keys (F13-F24)"
 msgstr ""
@@ -31707,8 +31716,8 @@ msgstr "限制快取影格大小："
 #, kde-format
 msgid ""
 "<html><head/><body><p>Size limit after which the frames will be scaled down</"
-"p><p><span style=\" font-weight:600;\">Recommended value:</span> 2500&nbsp;"
-"px</p></body></html>"
+"p><p><span style=\" font-weight:600;\">Recommended value:</span> "
+"2500&nbsp;px</p></body></html>"
 msgstr ""
 "<html><head/><body><p>超出該大小的影格會被縮小</p><p><span style=\" font-"
 "weight:600;\">建議值：</span>2500&nbsp;px</p></body></html>"
@@ -32960,8 +32969,8 @@ msgstr "修改工具主要設定"
 #: libs/ui/input/kis_change_primary_setting_action.cpp:26
 #, kde-format
 msgid ""
-"The <i>Change Primary Setting</i> action changes a tool's \"Primary Setting"
-"\", for example the brush size for the brush tool."
+"The <i>Change Primary Setting</i> action changes a tool's \"Primary "
+"Setting\", for example the brush size for the brush tool."
 msgstr ""
 "<b>修改工具主要設定</b>操作用於改變某個工具的主要選項，例如筆刷工具的筆刷大"
 "小。"
@@ -34566,9 +34575,9 @@ msgstr ""
 #, fuzzy, kde-format
 #| msgid ""
 #| "<html><head/><body><p>If you want to learn how to write Krita scripts, "
-#| "check out the <a href=\"https://scripting.krita.org/lessons/introduction"
-#| "\"><span style=\" text-decoration: underline; color:#2980b9;\">Krita "
-#| "Scripting School</span></a>!</p></body></html>"
+#| "check out the <a href=\"https://scripting.krita.org/lessons/"
+#| "introduction\"><span style=\" text-decoration: underline; "
+#| "color:#2980b9;\">Krita Scripting School</span></a>!</p></body></html>"
 msgid ""
 "<p><a href=\"https://krita.org/support-us/\"><span style=\" text-decoration: "
 "underline; color:%1;\">Support Krita's Development!</span></a></p>"
@@ -34582,9 +34591,9 @@ msgstr ""
 #, fuzzy, kde-format
 #| msgid ""
 #| "<html><head/><body><p>If you want to learn how to write Krita scripts, "
-#| "check out the <a href=\"https://scripting.krita.org/lessons/introduction"
-#| "\"><span style=\" text-decoration: underline; color:#2980b9;\">Krita "
-#| "Scripting School</span></a>!</p></body></html>"
+#| "check out the <a href=\"https://scripting.krita.org/lessons/"
+#| "introduction\"><span style=\" text-decoration: underline; "
+#| "color:#2980b9;\">Krita Scripting School</span></a>!</p></body></html>"
 msgid ""
 "<p><a href=\"https://krita.org/\"><span style=\" text-decoration: underline; "
 "color:%1;\">Krita Website</span></a></p>"
@@ -34598,13 +34607,13 @@ msgstr ""
 #, fuzzy, kde-format
 #| msgid ""
 #| "<html><head/><body><p>If you want to learn how to write Krita scripts, "
-#| "check out the <a href=\"https://scripting.krita.org/lessons/introduction"
-#| "\"><span style=\" text-decoration: underline; color:#2980b9;\">Krita "
-#| "Scripting School</span></a>!</p></body></html>"
+#| "check out the <a href=\"https://scripting.krita.org/lessons/"
+#| "introduction\"><span style=\" text-decoration: underline; "
+#| "color:#2980b9;\">Krita Scripting School</span></a>!</p></body></html>"
 msgid ""
-"<p><a href=\"https://docs.krita.org/en/user_manual/getting_started.html"
-"\"><span style=\" text-decoration: underline; color:%1;\">Getting Started</"
-"span></a></p>"
+"<p><a href=\"https://docs.krita.org/en/user_manual/"
+"getting_started.html\"><span style=\" text-decoration: underline; color:"
+"%1;\">Getting Started</span></a></p>"
 msgstr ""
 "<html><head/><body><p>如希望學習編寫 Krita 指令稿，可瀏覧 <a href=\"https://"
 "scripting.krita.org/lessons/introduction\"><span style=\" text-decoration: "
@@ -34615,9 +34624,9 @@ msgstr ""
 #, fuzzy, kde-format
 #| msgid ""
 #| "<html><head/><body><p>If you want to learn how to write Krita scripts, "
-#| "check out the <a href=\"https://scripting.krita.org/lessons/introduction"
-#| "\"><span style=\" text-decoration: underline; color:#2980b9;\">Krita "
-#| "Scripting School</span></a>!</p></body></html>"
+#| "check out the <a href=\"https://scripting.krita.org/lessons/"
+#| "introduction\"><span style=\" text-decoration: underline; "
+#| "color:#2980b9;\">Krita Scripting School</span></a>!</p></body></html>"
 msgid ""
 "<p><a href=\"https://docs.krita.org/\"><span style=\" text-decoration: "
 "underline; color:%1;\">Manual</span></a></p>"
@@ -34641,9 +34650,9 @@ msgstr ""
 #, fuzzy, kde-format
 #| msgid ""
 #| "<html><head/><body><p>If you want to learn how to write Krita scripts, "
-#| "check out the <a href=\"https://scripting.krita.org/lessons/introduction"
-#| "\"><span style=\" text-decoration: underline; color:#2980b9;\">Krita "
-#| "Scripting School</span></a>!</p></body></html>"
+#| "check out the <a href=\"https://scripting.krita.org/lessons/"
+#| "introduction\"><span style=\" text-decoration: underline; "
+#| "color:#2980b9;\">Krita Scripting School</span></a>!</p></body></html>"
 msgid ""
 "<p><a href=\"https://krita-artists.org\"><span style=\" text-decoration: "
 "underline; color:%1;\">User Community</span></a></p>"
@@ -34657,9 +34666,9 @@ msgstr ""
 #, fuzzy, kde-format
 #| msgid ""
 #| "<html><head/><body><p>If you want to learn how to write Krita scripts, "
-#| "check out the <a href=\"https://scripting.krita.org/lessons/introduction"
-#| "\"><span style=\" text-decoration: underline; color:#2980b9;\">Krita "
-#| "Scripting School</span></a>!</p></body></html>"
+#| "check out the <a href=\"https://scripting.krita.org/lessons/"
+#| "introduction\"><span style=\" text-decoration: underline; "
+#| "color:#2980b9;\">Krita Scripting School</span></a>!</p></body></html>"
 msgid ""
 "<p><a href=\"https://invent.kde.org/graphics/krita\"><span style=\" text-"
 "decoration: underline; color:%1;\">Source Code</span></a></p>"
@@ -34673,9 +34682,9 @@ msgstr ""
 #, fuzzy, kde-format
 #| msgid ""
 #| "<html><head/><body><p>If you want to learn how to write Krita scripts, "
-#| "check out the <a href=\"https://scripting.krita.org/lessons/introduction"
-#| "\"><span style=\" text-decoration: underline; color:#2980b9;\">Krita "
-#| "Scripting School</span></a>!</p></body></html>"
+#| "check out the <a href=\"https://scripting.krita.org/lessons/"
+#| "introduction\"><span style=\" text-decoration: underline; "
+#| "color:#2980b9;\">Krita Scripting School</span></a>!</p></body></html>"
 msgid ""
 "<p><a href=\"https://api.kde.org/krita/html/classKrita.html\"><span style=\" "
 "text-decoration: underline; color:%1;\">Scripting API</span></a></p>"
@@ -34689,12 +34698,13 @@ msgstr ""
 #, fuzzy, kde-format
 #| msgid ""
 #| "<html><head/><body><p>If you want to learn how to write Krita scripts, "
-#| "check out the <a href=\"https://scripting.krita.org/lessons/introduction"
-#| "\"><span style=\" text-decoration: underline; color:#2980b9;\">Krita "
-#| "Scripting School</span></a>!</p></body></html>"
+#| "check out the <a href=\"https://scripting.krita.org/lessons/"
+#| "introduction\"><span style=\" text-decoration: underline; "
+#| "color:#2980b9;\">Krita Scripting School</span></a>!</p></body></html>"
 msgid ""
-"<p><a href=\"https://scripting.krita.org/lessons/introduction\"><span style="
-"\" text-decoration: underline; color:%1;\">Scripting School</span></a></p>"
+"<p><a href=\"https://scripting.krita.org/lessons/introduction\"><span "
+"style=\" text-decoration: underline; color:%1;\">Scripting School</span></"
+"a></p>"
 msgstr ""
 "<html><head/><body><p>如希望學習編寫 Krita 指令稿，可瀏覧 <a href=\"https://"
 "scripting.krita.org/lessons/introduction\"><span style=\" text-decoration: "
@@ -37656,8 +37666,8 @@ msgstr ""
 #: libs/ui/wdgsplash.ui:439
 #, kde-format
 msgid ""
-"<html><head/><body><p align=\"left\"><span style=\" font-weight:600;"
-"\">Links</span></p></body></html>"
+"<html><head/><body><p align=\"left\"><span style=\" font-"
+"weight:600;\">Links</span></p></body></html>"
 msgstr ""
 "<html><head/><body><p align=\"left\"><span style=\" font-weight:600;\">網頁連"
 "結</span></p></body></html>"
@@ -37666,8 +37676,8 @@ msgstr ""
 #: libs/ui/wdgsplash.ui:493
 #, kde-format
 msgid ""
-"<html><head/><body><p align=\"left\"><span style=\" font-weight:600;"
-"\">Recent files</span></p></body></html>"
+"<html><head/><body><p align=\"left\"><span style=\" font-"
+"weight:600;\">Recent files</span></p></body></html>"
 msgstr ""
 "<html><head/><body><p align=\"left\"><span style=\" font-weight:600;\">最近檔"
 "案</span></p></body></html>"
@@ -38382,8 +38392,8 @@ msgid ""
 "<p><b>Extra notes on profiles by Elle Stone:</b></p><p><i>Krita comes with a "
 "number of high quality profiles created by <a href=\"https://"
 "ninedegreesbelow.com\">Elle Stone</a>. This is a summary. Please check <a "
-"href=\"https://ninedegreesbelow.com/photography/lcms-make-icc-profiles.html"
-"\">the full documentation</a> as well.</i></p>"
+"href=\"https://ninedegreesbelow.com/photography/lcms-make-icc-"
+"profiles.html\">the full documentation</a> as well.</i></p>"
 msgstr ""
 "<p><b>Elle Stone 色彩特性檔案說明：</b></p><p><b>Krita 內建了一系列由 <a "
 "href=\"https://ninedegreesbelow.com\">Elle Stone</a> 製作的高品質色彩特性檔"
@@ -38422,17 +38432,17 @@ msgstr ""
 #, kde-format
 msgctxt "From Elle's notes."
 msgid ""
-"<p>To avoid possible copyright infringement issues, I used "
-"'ClayRGB' (following ArgyllCMS) as the base name for these profiles. As used "
-"below, 'Compatible with Adobe RGB 1998' is terminology suggested in the "
-"preamble to the AdobeRGB 1998 color space specifications.</p><p>The Adobe "
-"RGB 1998 color gamut covers a higher percentage of real-world cyans, greens, "
-"and yellow-greens than sRGB, but still doesn't include all printable cyans, "
-"greens, yellow-greens, especially when printing using today's high-end, "
-"wider gamut, ink jet printers. BetaRGB (not included in the profile pack) "
-"and Rec.2020 are better matches for the color gamuts of today's wide gamut "
-"printers.</p><p>The Adobe RGB 1998 color gamut is a reasonable approximation "
-"to some of today's high-end wide gamut monitors.</p>"
+"<p>To avoid possible copyright infringement issues, I used 'ClayRGB' "
+"(following ArgyllCMS) as the base name for these profiles. As used below, "
+"'Compatible with Adobe RGB 1998' is terminology suggested in the preamble to "
+"the AdobeRGB 1998 color space specifications.</p><p>The Adobe RGB 1998 color "
+"gamut covers a higher percentage of real-world cyans, greens, and yellow-"
+"greens than sRGB, but still doesn't include all printable cyans, greens, "
+"yellow-greens, especially when printing using today's high-end, wider gamut, "
+"ink jet printers. BetaRGB (not included in the profile pack) and Rec.2020 "
+"are better matches for the color gamuts of today's wide gamut printers.</"
+"p><p>The Adobe RGB 1998 color gamut is a reasonable approximation to some of "
+"today's high-end wide gamut monitors.</p>"
 msgstr ""
 "<p>為避免潛在的侵權風險，此特性檔案庫參考 ArgyllCMS 的做法用 ClayRGB 來命名此"
 "色彩空間。\"相容 Adobe RGB 1998\" 用於表述某個色彩特性檔案與 Adobe RGB 1998色"
@@ -38463,10 +38473,10 @@ msgstr ""
 "可以容納現實世界的一切真實色彩。兩者的不同之處在於 AllColorsRGB 使用 D50 白點"
 "且具備稍寬的色域來容納那些在色域邊緣上被普通人認作非真實的色彩。</p><p>和 "
 "ACES 色域一樣， AllColorsRGB 包含有大量概念色 (imaginary colors) 。如需了解概"
-"念色，可閱讀<a href=\"https://ninedegreesbelow.com/photography/xyz-rgb.html"
-"\">《Painless Programmer's Guide to XYZ, RGB, ICC, xyY, and TRCs》</a>。</"
-"p><p>除非必須確保色彩空間包含一切真實色彩，否則不應使用此特性檔案來進行影像編"
-"輯。</p>"
+"念色，可閱讀<a href=\"https://ninedegreesbelow.com/photography/xyz-"
+"rgb.html\">《Painless Programmer's Guide to XYZ, RGB, ICC, xyY, and TRCs》</"
+"a>。</p><p>除非必須確保色彩空間包含一切真實色彩，否則不應使用此特性檔案來進行"
+"影像編輯。</p>"
 
 #: libs/ui/widgets/kis_advanced_color_space_selector.cc:565
 #, kde-format
@@ -38505,12 +38515,12 @@ msgstr ""
 #, kde-format
 msgctxt "From Elle's notes."
 msgid ""
-"<p>To avoid possible copyright infringement issues, I used "
-"'LargeRGB' (following RawTherapee) as the base name for these profiles."
-"<p>Kodak designed the RIMM/ROMM (ProPhotoRGB) color gamut to include all "
-"printable and most real world colors. It includes some imaginary colors and "
-"excludes some of the real world blues and violet blues that can be captured "
-"by digital cameras. It also excludes some very saturated 'camera-captured' "
+"<p>To avoid possible copyright infringement issues, I used 'LargeRGB' "
+"(following RawTherapee) as the base name for these profiles.<p>Kodak "
+"designed the RIMM/ROMM (ProPhotoRGB) color gamut to include all printable "
+"and most real world colors. It includes some imaginary colors and excludes "
+"some of the real world blues and violet blues that can be captured by "
+"digital cameras. It also excludes some very saturated 'camera-captured' "
 "yellows as interpreted by some (and probably many) camera matrix input "
 "profiles.</p><p>The ProPhotoRGB primaries are hard-coded into Adobe products "
 "such as Lightroom and the Dng-DCP camera 'profiles'. However, other than "
@@ -38890,8 +38900,8 @@ msgid ""
 "<p>Instant Preview may look different from the final result. In case of "
 "troubles try disabling the following options:<ul>%1</ul></p>"
 msgstr ""
-"<p>即時預覽的顯示效果可能與最終結果有所差異。如果遇到問題可停用下列選項：<ul>"
-"%1</ul></p>"
+"<p>即時預覽的顯示效果可能與最終結果有所差異。如果遇到問題可停用下列選項："
+"<ul>%1</ul></p>"
 
 #: libs/ui/widgets/kis_lod_availability_widget.cpp:162
 #, kde-format
@@ -39492,15 +39502,15 @@ msgid ""
 "<html><body><p><b>WARNING:</b> the image will look different after changing "
 "the color profile because it contains either:<ul><li>more than one layer</"
 "li><li>one or more layers with transparent pixels</li><li>layers with "
-"blending modes other than \"Normal\"</li></ul></p><p><a href=\"https://docs."
-"krita.org/en/general_concepts/colors/color_managed_workflow.html\">More "
+"blending modes other than \"Normal\"</li></ul></p><p><a href=\"https://"
+"docs.krita.org/en/general_concepts/colors/color_managed_workflow.html\">More "
 "information</a></p></body></html>"
 msgstr ""
 "<html><body><p><b>警告：</b> 此影像在變更色彩特性檔案後外觀會出現變化。這是因"
 "為此影像含有：<ul><li>多於一個圖層</li><li>一個或以上含有透明像素的圖層</"
-"li><li>使用「正常」(\"Normal\") 以外混色模式的圖層</li></ul></p><p><a href="
-"\"https://docs.krita.org/en/general_concepts/colors/color_managed_workflow."
-"html\">詳細資料</a></p></body></html>"
+"li><li>使用「正常」(\"Normal\") 以外混色模式的圖層</li></ul></p><p><a "
+"href=\"https://docs.krita.org/en/general_concepts/colors/"
+"color_managed_workflow.html\">詳細資料</a></p></body></html>"
 
 #: libs/ui/widgets/KoDualColorButton.cpp:426
 #, kde-format
@@ -40046,10 +40056,11 @@ msgctxt ""
 "This is a list of suggestions for positions an artist can take, comma-"
 "separated"
 msgid ""
-"Adapter,Animator,Artist,Art Director,Author,Assistant,Editor,Background,"
-"Cartoonist,Colorist,Concept Artist,Corrector,Cover Artist,Creator,Designer,"
-"Inker,Letterer,Matte Painter,Painter,Penciller,Proofreader,Pixel Artist,"
-"Redliner,Sprite Artist,Typographer,Texture Artist,Translator,Writer,Other"
+"Adapter,Animator,Artist,Art "
+"Director,Author,Assistant,Editor,Background,Cartoonist,Colorist,Concept "
+"Artist,Corrector,Cover Artist,Creator,Designer,Inker,Letterer,Matte "
+"Painter,Painter,Penciller,Proofreader,Pixel Artist,Redliner,Sprite "
+"Artist,Typographer,Texture Artist,Translator,Writer,Other"
 msgstr ""
 "編輯,背景,背景畫師,比對員,草圖畫師,創作者,動畫師(日本),動畫師(歐美),對稿員,翻"
 "譯員,封面畫師,概念畫師,勾線畫師,畫師,校對員,排版設計師,排字員,上色畫師,設計"
@@ -40529,14 +40540,14 @@ msgstr "<html><font size=\"5\">KDE 桌面環境 - 一切自由</font></html>"
 #, kde-format
 msgid ""
 "<html><b>KDE</b> is a world-wide network of software engineers, artists, "
-"writers, translators and facilitators who are committed to <a href="
-"\"%1\">Free Software</a> development. This community has created hundreds of "
-"Free Software applications as part of the KDE frameworks, workspaces and "
-"applications.<br /><br />KDE is a cooperative enterprise in which no single "
-"entity controls the efforts or products of KDE to the exclusion of others. "
-"Everyone is welcome to join and contribute to KDE, including you.<br /><br /"
-">Visit <a href=\"%2\">%2</a> for more information about the KDE community "
-"and the software we produce.</html>"
+"writers, translators and facilitators who are committed to <a "
+"href=\"%1\">Free Software</a> development. This community has created "
+"hundreds of Free Software applications as part of the KDE frameworks, "
+"workspaces and applications.<br /><br />KDE is a cooperative enterprise in "
+"which no single entity controls the efforts or products of KDE to the "
+"exclusion of others. Everyone is welcome to join and contribute to KDE, "
+"including you.<br /><br />Visit <a href=\"%2\">%2</a> for more information "
+"about the KDE community and the software we produce.</html>"
 msgstr ""
 "<html><b>KDE</b> 是一個由眾多軟體工程師、藝術作業者、文字作業者、翻譯人員和其"
 "他有志於<a href=\"%1\">自由軟體</a>事業的人們組成的世界性社群網路。我們的社群"
@@ -40681,9 +40692,9 @@ msgid ""
 msgstr ""
 "<qt><p>回報問題前，請先閱讀<b><a href=\"https://docs.krita.org/en/"
 "untranslatable_pages/reporting_bugs.html\">這篇指南</a></b>！</p><p>要回報錯"
-"誤報告，請按下方的按鈕。這會開啟一個網址是 <a href=\"https://bugs.kde.org"
-"\">https://bugs.kde.org</a> 的瀏覽器視窗，這裡您能看到能讓您填寫的表單。</"
-"p><p><b>請把下面的資訊貼到錯誤報告中！</b></p></qt>"
+"誤報告，請按下方的按鈕。這會開啟一個網址是 <a href=\"https://"
+"bugs.kde.org\">https://bugs.kde.org</a> 的瀏覽器視窗，這裡您能看到能讓您填寫"
+"的表單。</p><p><b>請把下面的資訊貼到錯誤報告中！</b></p></qt>"
 
 #: libs/widgetutils/xmlgui/kbugreport.cpp:207
 #, kde-format
@@ -55062,8 +55073,8 @@ msgstr "較慢/較佳"
 #, kde-format
 msgid ""
 "Sets encoder effort/speed level without affecting decoding speed.\n"
-"Valid values are, from faster to slower speed: 1:lightning 2:thunder 3:"
-"falcon 4:cheetah 5:hare 6:wombat 7:squirrel 8:kitten 9:tortoise.\n"
+"Valid values are, from faster to slower speed: 1:lightning 2:thunder "
+"3:falcon 4:cheetah 5:hare 6:wombat 7:squirrel 8:kitten 9:tortoise.\n"
 "Default: squirrel (7)."
 msgstr ""
 "設定在不影響解碼速度的前提下，編碼時運算力與速度之間的平衡取捨。\n"
@@ -58537,9 +58548,9 @@ msgstr "仿製全部可見圖層"
 #, kde-format
 msgid ""
 "<html><head/><body><p><span style=\" font-weight:600;\">Clone Brush:</span></"
-"p><p>Select the source point from the current layer with Ctrl-click. Use Ctrl"
-"+Alt-click to select a source from the previously picked layer.</p></body></"
-"html>"
+"p><p>Select the source point from the current layer with Ctrl-click. Use "
+"Ctrl+Alt-click to select a source from the previously picked layer.</p></"
+"body></html>"
 msgstr ""
 "<html><head/><body><p><span style=\" font-weight:600;\">仿製筆刷：</span></"
 "p><p>Ctrl + 點擊可在目前選定的圖層上取樣。Ctrl + Alt + 點擊則會從上一次選定的"
@@ -64229,10 +64240,8 @@ msgid "Color info: "
 msgstr "色彩引擎："
 
 #: plugins/python/workflow_buttons/buttons_settings_dialog.py:582
-#, fuzzy
-#| msgid "Python files (*.py)"
 msgid "Script files "
-msgstr "Python 檔案 (*.py)"
+msgstr "指令稿檔案 "
 
 #: plugins/python/workflow_buttons/workflow_buttons.py:26
 #, fuzzy
@@ -64765,8 +64774,8 @@ msgstr "長度：%1 px"
 #: plugins/tools/basictools/kis_tool_line.cc:464
 #, kde-format
 msgid ""
-"Alt+Drag will move the origin of the currently displayed line around, Shift"
-"+Drag will force you to draw straight lines"
+"Alt+Drag will move the origin of the currently displayed line around, "
+"Shift+Drag will force you to draw straight lines"
 msgstr ""
 "Alt + 拖曳可移動目前顯示線條的基點，Shift + 拖曳將強制在特殊角度上繪製直線"
 
@@ -69529,45 +69538,46 @@ msgstr ""
 #~ msgstr "--- 分隔符 ---"
 
 #~ msgid ""
-#~ "<html><head/><body><table width=\"100%\" cellpadding="
-#~ "\"30\"><tr><td><p><span style=\" color:%1;\"><b>Using Krita</b></span></"
-#~ "p><p><a href=\"https://krita.org/support-us/\"><span style=\" text-"
-#~ "decoration: underline; color:%1;\">Support Krita's Development!</span></"
-#~ "a></p><p><a href=\"https://docs.krita.org/en/user_manual/getting_started."
-#~ "html\"><span style=\" text-decoration: underline; color:%1;\">Getting "
-#~ "Started</span></a></p><p><a href=\"https://docs.krita.org/\"><span style="
-#~ "\" text-decoration: underline; color:%1;\">Manual</span></a></p><p><a "
-#~ "href=\"https://krita.org/\"><span style=\" text-decoration: underline; "
-#~ "color:%1;\">Krita Website</span></a></p></td><td><p><span style=\" color:"
-#~ "%1;\"><b>Coding Krita</b></span></p><p><a href=\"https://krita-artists.org"
-#~ "\"><span style=\" text-decoration: underline; color:%1;\">User Community</"
-#~ "span></a></p><p><a href=\"https://invent.kde.org/graphics/krita\"><span "
-#~ "style=\" text-decoration: underline; color:%1;\">Source Code</span></a></"
-#~ "p><p><a href=\"https://api.kde.org/krita/html/classKrita.html\"><span "
-#~ "style=\" text-decoration: underline; color:%1;\">Scripting API</span></"
-#~ "a></p><p><a href=\"https://scripting.krita.org/lessons/introduction"
-#~ "\"><span style=\" text-decoration: underline; color:%1;\">Scripting "
-#~ "School</span></a></p></td></table></body></html>"
-#~ msgstr ""
-#~ "<html><head/><body><table width=\"100%\" cellpadding="
-#~ "\"30\"><tr><td><p><span style=\" color:%1;\"><b>使用 Krita</b></span></"
-#~ "p><p><a href=\"https://krita.org/support-us/\"><span style=\" text-"
-#~ "decoration: underline; color:%1;\">資助 Krita 發展！</span></a></p><p><a "
-#~ "href=\"https://docs.krita.org/en/user_manual/getting_started.html\"><span "
-#~ "style=\" text-decoration: underline; color:%1;\">新手入門</span></a></"
-#~ "p><p><a href=\"https://docs.krita.org/\"><span style=\" text-decoration: "
-#~ "underline; color:%1;\">使用者手冊</span></a></p><p><a href=\"https://"
-#~ "krita.org/\"><span style=\" text-decoration: underline; color:%1;\">Krita "
-#~ "網站</span></a></p></td><td><p><span style=\" color:%1;\"><b>Krita "
-#~ "Coding</b></span></p><p><a href=\"https://krita-artists.org\"><span style="
-#~ "\" text-decoration: underline; color:%1;\">使用者社群</span></a></p><p><a "
-#~ "href=\"https://invent.kde.org/graphics/krita\"><span style=\" text-"
-#~ "decoration: underline; color:%1;\">原始碼</span></a></p><p><a href="
-#~ "\"https://api.kde.org/krita/html/classKrita\"><span style=\" text-"
-#~ "decoration: underline; color:%1;\">指令稿 API</span></a></p><p><a href="
-#~ "\"https://scripting.krita.org/lessons/introduction\"><span style=\" text-"
-#~ "decoration: underline; color:%1;\">指令稿學園</span></a></p></td></"
+#~ "<html><head/><body><table width=\"100%\" "
+#~ "cellpadding=\"30\"><tr><td><p><span style=\" color:%1;\"><b>Using Krita</"
+#~ "b></span></p><p><a href=\"https://krita.org/support-us/\"><span style=\" "
+#~ "text-decoration: underline; color:%1;\">Support Krita's Development!</"
+#~ "span></a></p><p><a href=\"https://docs.krita.org/en/user_manual/"
+#~ "getting_started.html\"><span style=\" text-decoration: underline; color:"
+#~ "%1;\">Getting Started</span></a></p><p><a href=\"https://docs.krita.org/"
+#~ "\"><span style=\" text-decoration: underline; color:%1;\">Manual</span></"
+#~ "a></p><p><a href=\"https://krita.org/\"><span style=\" text-decoration: "
+#~ "underline; color:%1;\">Krita Website</span></a></p></td><td><p><span "
+#~ "style=\" color:%1;\"><b>Coding Krita</b></span></p><p><a href=\"https://"
+#~ "krita-artists.org\"><span style=\" text-decoration: underline; color:"
+#~ "%1;\">User Community</span></a></p><p><a href=\"https://invent.kde.org/"
+#~ "graphics/krita\"><span style=\" text-decoration: underline; color:"
+#~ "%1;\">Source Code</span></a></p><p><a href=\"https://api.kde.org/krita/"
+#~ "html/classKrita.html\"><span style=\" text-decoration: underline; color:"
+#~ "%1;\">Scripting API</span></a></p><p><a href=\"https://"
+#~ "scripting.krita.org/lessons/introduction\"><span style=\" text-"
+#~ "decoration: underline; color:%1;\">Scripting School</span></a></p></td></"
 #~ "table></body></html>"
+#~ msgstr ""
+#~ "<html><head/><body><table width=\"100%\" "
+#~ "cellpadding=\"30\"><tr><td><p><span style=\" color:%1;\"><b>使用 Krita</"
+#~ "b></span></p><p><a href=\"https://krita.org/support-us/\"><span style=\" "
+#~ "text-decoration: underline; color:%1;\">資助 Krita 發展！</span></a></"
+#~ "p><p><a href=\"https://docs.krita.org/en/user_manual/"
+#~ "getting_started.html\"><span style=\" text-decoration: underline; color:"
+#~ "%1;\">新手入門</span></a></p><p><a href=\"https://docs.krita.org/\"><span "
+#~ "style=\" text-decoration: underline; color:%1;\">使用者手冊</span></a></"
+#~ "p><p><a href=\"https://krita.org/\"><span style=\" text-decoration: "
+#~ "underline; color:%1;\">Krita 網站</span></a></p></td><td><p><span "
+#~ "style=\" color:%1;\"><b>Krita Coding</b></span></p><p><a href=\"https://"
+#~ "krita-artists.org\"><span style=\" text-decoration: underline; color:"
+#~ "%1;\">使用者社群</span></a></p><p><a href=\"https://invent.kde.org/"
+#~ "graphics/krita\"><span style=\" text-decoration: underline; color:%1;\">原"
+#~ "始碼</span></a></p><p><a href=\"https://api.kde.org/krita/html/"
+#~ "classKrita\"><span style=\" text-decoration: underline; color:%1;\">指令"
+#~ "稿 API</span></a></p><p><a href=\"https://scripting.krita.org/lessons/"
+#~ "introduction\"><span style=\" text-decoration: underline; color:%1;\">指令"
+#~ "稿學園</span></a></p></td></table></body></html>"
 
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Convert to an animated layer"
