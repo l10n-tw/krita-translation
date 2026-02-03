@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-11-17 09:00+0000\n"
+"POT-Creation-Date: 2026-02-03 00:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -45,51 +45,51 @@ msgid "Have fun painting with the advanced brush engines, amazing filters and ma
 msgstr ""
 
 #. (itstool) path: screenshot/caption
-#: org.kde.krita.appdata.xml:27
+#: org.kde.krita.appdata.xml:28
 msgid "Krita is a full-featured digital painting studio"
 msgstr ""
 
 #. (itstool) path: screenshot/caption
-#: org.kde.krita.appdata.xml:31
+#: org.kde.krita.appdata.xml:32
 msgid "The startup window now also gives you the latest news about Krita"
 msgstr ""
 
 #. (itstool) path: screenshot/caption
-#: org.kde.krita.appdata.xml:35
+#: org.kde.krita.appdata.xml:36
 msgid "There are over ten immensely powerful brush engines"
 msgstr ""
 
 #. (itstool) path: screenshot/caption
-#: org.kde.krita.appdata.xml:39
+#: org.kde.krita.appdata.xml:40
 msgid "Into animation? Krita provides everything you need for traditional, hand-drawn animation"
 msgstr ""
 
 #. (itstool) path: screenshot/caption
-#: org.kde.krita.appdata.xml:43
+#: org.kde.krita.appdata.xml:44
 msgid "If you're new to digital painting, there's an extensive, up-to-date manual"
 msgstr ""
 
 #. (itstool) path: screenshot/caption
-#: org.kde.krita.appdata.xml:47
+#: org.kde.krita.appdata.xml:48
 msgid "Krita offers powerful filters"
 msgstr ""
 
 #. (itstool) path: screenshot/caption
-#: org.kde.krita.appdata.xml:51
+#: org.kde.krita.appdata.xml:52
 msgid "And, there is integration with G'Mic, too, which adds hundreds of filters more"
 msgstr ""
 
 #. (itstool) path: screenshot/caption
-#: org.kde.krita.appdata.xml:55
+#: org.kde.krita.appdata.xml:56
 msgid "Join our Youtube channel!"
 msgstr ""
 
 #. (itstool) path: caption/a
-#: org.kde.krita.appdata.xml:59
+#: org.kde.krita.appdata.xml:60
 msgid "Krita Artists community"
 msgstr ""
 
 #. (itstool) path: screenshot/caption
-#: org.kde.krita.appdata.xml:59
+#: org.kde.krita.appdata.xml:60
 msgid "Or the active <_:a-1/>"
 msgstr ""
