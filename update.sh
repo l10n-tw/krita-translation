@@ -26,8 +26,11 @@ git_checkout() {
     git init "$path"
     pushd "$path"
     git remote add origin https://invent.kde.org/localization/l10n-templates.git
+    git sparse-checkout init
     git sparse-checkout set "$sparse_dir"
-    git fetch --depth=1 origin master
+    #git fetch --depth=1 origin master
+    #git fetch --filter=object:type=commit origin master
+    git fetch --filter=blob:none origin master
     git checkout origin/master
     popd
 
@@ -41,7 +44,7 @@ checkout() {
 
     if git_checkout "$template_path"; then
         local GIT_COMMIT
-        if [[ -n $revision_file ]] && GIT_COMMIT=$(git -C "$git_checkout_result" rev-parse HEAD); then
+        if [[ -n $revision_file ]] && GIT_COMMIT=$(git -C "$git_checkout_result" rev-list -1 HEAD -- "$template_path"); then
             echo -n "$GIT_COMMIT" > "$revision_file"
         fi
         mkdir "./templates"
