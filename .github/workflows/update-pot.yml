@@ -37,7 +37,7 @@ jobs:
           if [[ -f "templates.GIT_COMMIT" ]]; then
             REV_TEXT=" $(<templates.GIT_COMMIT)"
             REV_TEXT=${REV_TEXT:0:8}
-            REV_TEXT="$REV_TEXT\n\nhttps://invent.kde.org/localization/l10n-templates/-/commit/$(<templates.GIT_COMMIT)"
+            REV_TEXT="$REV_TEXT"$'\n\n'"https://invent.kde.org/localization/l10n-templates/-/commit/$(<templates.GIT_COMMIT)"
           fi
           git commit -m "templates: update POT source$REV_TEXT"
 
