@@ -91,7 +91,7 @@ trap 'echo "WARNING: tmpdir '"'$tmpdir'"' not deleted!"' EXIT
 
 # SVN checkout and prepare for commit.
 svn_stage_dir="$tmpdir/__svn_stage"
-svn checkout "svn+ssh://svn@svn.kde.org/home/kde/trunk/l10n-kf5/$language/messages/$kde_i18n_package" "$svn_stage_dir"
+svn checkout "svn+ssh://svn@svn.kde.org/home/kde/trunk/l10n-kf6/$language/messages/$kde_i18n_package" "$svn_stage_dir"
 rm -v "$svn_stage_dir/"*.po
 cp -v "$git_stage_dir/$language/"*.po "$svn_stage_dir/"
 

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 declare -A svn_repositories=(
-    ["zh_TW"]="svn://anonsvn.kde.org/home/kde/trunk/l10n-kf5/zh_TW/messages/krita"
+    ["zh_TW"]="svn://anonsvn.kde.org/home/kde/trunk/l10n-kf6/zh_TW/messages/krita"
 )
 
 tmpdir="$(mktemp -d)";

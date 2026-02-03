@@ -60,7 +60,7 @@ checkout() {
 
 
 
-checkout "trunk5/messages/krita"
+checkout "trunk6/messages/krita"
 
 if [[ -f "templates.SVN_REVISION" ]]; then
     rm "templates.SVN_REVISION"
