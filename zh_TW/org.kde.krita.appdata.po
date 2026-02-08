@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: org.kde.krita.appdata\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-17 09:00+0000\n"
+"POT-Creation-Date: 2026-02-04 00:42+0000\n"
 "PO-Revision-Date: 2021-12-25 08:37+0000\n"
 "Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.slat.org/projects/krita/"
@@ -16,28 +16,23 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.8.1\n"
 
-#. (itstool) path: component/developer_name
-#: org.kde.krita.appdata.xml:7
-msgid "Krita Foundation"
-msgstr "Krita 基金會"
-
 #. (itstool) path: component/name
-#: org.kde.krita.appdata.xml:9
+#: org.kde.krita.appdata.xml:11
 msgid "Krita"
 msgstr "Krita"
 
 #. (itstool) path: component/summary
-#: org.kde.krita.appdata.xml:10
+#: org.kde.krita.appdata.xml:12
 msgid "Digital Painting, Creative Freedom"
 msgstr "數位繪圖，自由創作"
 
 #. (itstool) path: description/p
-#: org.kde.krita.appdata.xml:12
+#: org.kde.krita.appdata.xml:14
 msgid "Krita is the full-featured digital art studio."
 msgstr "Krita 是全功能的數位藝術工作室。"
 
 #. (itstool) path: description/p
-#: org.kde.krita.appdata.xml:13
+#: org.kde.krita.appdata.xml:15
 msgid ""
 "It is perfect for sketching and painting, and presents an end–to–end "
 "solution for creating digital painting files from scratch by masters."
@@ -46,7 +41,7 @@ msgstr ""
 "案。"
 
 #. (itstool) path: description/p
-#: org.kde.krita.appdata.xml:14
+#: org.kde.krita.appdata.xml:16
 msgid ""
 "Krita is a great choice for creating concept art, comics, textures for "
 "rendering and matte paintings. Krita supports many colorspaces like RGB and "
@@ -58,7 +53,7 @@ msgstr ""
 "空間。"
 
 #. (itstool) path: description/p
-#: org.kde.krita.appdata.xml:18
+#: org.kde.krita.appdata.xml:20
 msgid ""
 "Have fun painting with the advanced brush engines, amazing filters and many "
 "handy features that make Krita enormously productive."
@@ -67,59 +62,62 @@ msgstr ""
 "的生產力。"
 
 #. (itstool) path: screenshot/caption
-#: org.kde.krita.appdata.xml:27
+#: org.kde.krita.appdata.xml:30
 msgid "Krita is a full-featured digital painting studio"
 msgstr "Krita 是全功能的數位繪圖工作室"
 
 #. (itstool) path: screenshot/caption
-#: org.kde.krita.appdata.xml:31
+#: org.kde.krita.appdata.xml:34
 msgid "The startup window now also gives you the latest news about Krita"
 msgstr "開始視窗也提供給您關於 Krita 的最新消息"
 
 #. (itstool) path: screenshot/caption
-#: org.kde.krita.appdata.xml:35
+#: org.kde.krita.appdata.xml:38
 msgid "There are over ten immensely powerful brush engines"
 msgstr "有超過十款功能非常強大的筆刷引擎"
 
 #. (itstool) path: screenshot/caption
-#: org.kde.krita.appdata.xml:39
+#: org.kde.krita.appdata.xml:42
 msgid ""
 "Into animation? Krita provides everything you need for traditional, hand-"
 "drawn animation"
 msgstr "想做動畫？Krita 提供您在傳統、手繪動畫所需的任何東西"
 
 #. (itstool) path: screenshot/caption
-#: org.kde.krita.appdata.xml:43
+#: org.kde.krita.appdata.xml:46
 msgid ""
 "If you're new to digital painting, there's an extensive, up-to-date manual"
 msgstr "如果您是數位繪圖的新手，我們提供廣範而且不斷更新的說明手冊"
 
 #. (itstool) path: screenshot/caption
-#: org.kde.krita.appdata.xml:47
+#: org.kde.krita.appdata.xml:50
 msgid "Krita offers powerful filters"
 msgstr "Krita 提供強大的濾鏡效果"
 
 #. (itstool) path: screenshot/caption
-#: org.kde.krita.appdata.xml:51
+#: org.kde.krita.appdata.xml:54
 msgid ""
 "And, there is integration with G'Mic, too, which adds hundreds of filters "
 "more"
 msgstr "而且也整合了 G'Mic，額外提供了過百款濾鏡"
 
 #. (itstool) path: screenshot/caption
-#: org.kde.krita.appdata.xml:55
+#: org.kde.krita.appdata.xml:58
 msgid "Join our Youtube channel!"
 msgstr "來關注我們的 Youtube 頻道吧！"
 
 #. (itstool) path: caption/a
-#: org.kde.krita.appdata.xml:59
+#: org.kde.krita.appdata.xml:62
 msgid "Krita Artists community"
 msgstr "Krita Artists 社群討論區"
 
 #. (itstool) path: screenshot/caption
-#: org.kde.krita.appdata.xml:59
+#: org.kde.krita.appdata.xml:62
 msgid "Or the active <_:a-1/>"
 msgstr "或者生氣勃勃的 <_:a-1/>"
+
+#~ msgid "Krita Foundation"
+#~ msgstr "Krita 基金會"
 
 #~ msgid "Create and use gamut masks to give your images a coherent feel"
 #~ msgstr "建立和使用色域遮罩，使得您的影像看上去感覺有條有紊"
