@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-02-04 00:42+0000\n"
+"POT-Creation-Date: 2026-02-14 00:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -87,4 +87,24 @@ msgstr ""
 #. (itstool) path: screenshot/caption
 #: org.kde.krita.appdata.xml:62
 msgid "Or the active <_:a-1/>"
+msgstr ""
+
+#. (itstool) path: release/description
+#: org.kde.krita.appdata.xml:84
+msgid "A bug fix release with a number of crash fixes and workarounds to improve use with the Xiaomi Pad"
+msgstr ""
+
+#. (itstool) path: description/p
+#: org.kde.krita.appdata.xml:163
+msgid "Only a little later than we had planned, this is the next feature release of Krita! With a whole slew of new fill layer types, including the really versatile SeExpr based scriptable fill layer type, exciting new options for Krita’s brushes like the gradient map mode for brushes, lightness and gradient modes for brush textures, support for dynamic use of colors in gradients, webm export for animations, new scripting features — and of course, hundreds of bug fixes that make this version of Krita better than ever. Especially exciting are all the fixes we made for Krita on ChromeOS and Android!"
+msgstr ""
+
+#. (itstool) path: description/p
+#: org.kde.krita.appdata.xml:168
+msgid "Three months after the release of Krita 4.2.9, we’ve got a major new feature release for you: Krita 4.3.0! We’ve spent the past year not just fixing bugs, even though we fixed over a thousand issues, but have also been busy adding cool new stuff to play with."
+msgstr ""
+
+#. (itstool) path: description/p
+#: org.kde.krita.appdata.xml:169
+msgid "There’s a whole new set of brush presets that evoke watercolor painting. There’s a color mode in the gradient map filter and a brand new palletize filter and a high pass filter. The scripting API has been extended. It’s now possible to adjust the opacity and lightness on colored brush tips separately. You can now create animated brush tips that select brush along multiple dimensions. We’ve made it possible to put the canvas area in a window of its own, so on a multi monitor setup, you can have all the controls on one monitor, and your images on the other. The color selector has had a big update. There’s a new snapshot docker that stores states of your image, and you can switch between those. There’s a brand new magnetic selection tool. Gradients can now be painting as spirals."
 msgstr ""
