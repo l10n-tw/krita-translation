@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop files\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-22 02:05+0000\n"
+"POT-Creation-Date: 2026-02-26 00:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -76,7 +76,7 @@ msgctxt "Name"
 msgid "Pixel Art"
 msgstr ""
 
-#: krita/data/paintoppresets/Pixel_Art.tag:39
+#: krita/data/paintoppresets/Pixel_Art.tag:40
 msgctxt "Comment"
 msgid "Presets for working with individual pixels"
 msgstr ""
@@ -121,7 +121,7 @@ msgctxt "Name"
 msgid "waffle-iron grid"
 msgstr ""
 
-#: krita/data/templates/comics/a4_waffle_grid.desktop:46
+#: krita/data/templates/comics/a4_waffle_grid.desktop:47
 msgctxt "Comment"
 msgid "300 dpi, A4 waffle-iron grid comic page with ink and color layers"
 msgstr ""
@@ -131,7 +131,7 @@ msgctxt "Name"
 msgid "European BD template"
 msgstr ""
 
-#: krita/data/templates/comics/BD-EuroTemplate.desktop:49
+#: krita/data/templates/comics/BD-EuroTemplate.desktop:50
 msgctxt "Comment"
 msgid "template for European BD-style comics"
 msgstr ""
@@ -157,8 +157,8 @@ msgid "Manga template"
 msgstr ""
 
 #: krita/data/templates/comics/Manga-JpTemplate.desktop:50
-#: krita/data/templates/comics/Tsukirino.desktop:28
-#: krita/data/templates/comics/TsukirinoF.desktop:28
+#: krita/data/templates/comics/Tsukirino.desktop:29
+#: krita/data/templates/comics/TsukirinoF.desktop:29
 msgctxt "Comment"
 msgid "template for Japanese Manga-style comics"
 msgstr ""
@@ -310,13 +310,13 @@ msgid "Texture 8k 8bit srgb"
 msgstr ""
 
 #: krita/org.kde.krita.desktop:2 plugins/impex/brush/krita_brush.desktop:2
-#: plugins/impex/csv/krita_csv.desktop:2 plugins/impex/exr/krita_exr.desktop:58
+#: plugins/impex/csv/krita_csv.desktop:2 plugins/impex/exr/krita_exr.desktop:59
 #: plugins/impex/gif/krita_gif.desktop:2
-#: plugins/impex/heif/krita_heif.desktop:58
+#: plugins/impex/heif/krita_heif.desktop:59
 #: plugins/impex/heightmap/krita_heightmap.desktop:7
-#: plugins/impex/jp2/krita_jp2.desktop:55
+#: plugins/impex/jp2/krita_jp2.desktop:56
 #: plugins/impex/jpeg/krita_jpeg.desktop:6
-#: plugins/impex/jxl/krita_jxl.desktop:58 plugins/impex/kra/krita_kra.desktop:7
+#: plugins/impex/jxl/krita_jxl.desktop:59 plugins/impex/kra/krita_kra.desktop:7
 #: plugins/impex/krz/krita_krz.desktop:7 plugins/impex/ora/krita_ora.desktop:7
 #: plugins/impex/pdf/krita_pdf.desktop:6 plugins/impex/png/krita_png.desktop:2
 #: plugins/impex/psd/krita_psd.desktop:6
@@ -456,7 +456,7 @@ msgctxt "Name"
 msgid "Last Documents Docker"
 msgstr ""
 
-#: plugins/python/lastdocumentsdocker/kritapykrita_lastdocumentsdocker.desktop:43
+#: plugins/python/lastdocumentsdocker/kritapykrita_lastdocumentsdocker.desktop:44
 msgctxt "Comment"
 msgid "A Python-based docker for show thumbnails to last ten documents"
 msgstr ""
@@ -466,7 +466,7 @@ msgctxt "Name"
 msgid "Mixer Slider docker"
 msgstr ""
 
-#: plugins/python/mixer_slider_docker/kritapykrita_mixer_slider_docker.desktop:40
+#: plugins/python/mixer_slider_docker/kritapykrita_mixer_slider_docker.desktop:41
 msgctxt "Comment"
 msgid "A color slider."
 msgstr ""
@@ -476,7 +476,7 @@ msgctxt "Name"
 msgid "Mutator"
 msgstr ""
 
-#: plugins/python/mutator/kritapykrita_mutator.desktop:25
+#: plugins/python/mutator/kritapykrita_mutator.desktop:26
 msgctxt "Comment"
 msgid "Manually mutate your brush and color settings to add variation."
 msgstr ""
@@ -496,7 +496,7 @@ msgctxt "Name"
 msgid "Krita Photobash Images"
 msgstr ""
 
-#: plugins/python/photobash_images/kritapykrita_photobash_images.desktop:40
+#: plugins/python/photobash_images/kritapykrita_photobash_images.desktop:41
 msgctxt "Comment"
 msgid ""
 "A plugin to fetch images from a specified folder. Very useful for "
@@ -538,7 +538,7 @@ msgctxt "Name"
 msgid "Scripter"
 msgstr ""
 
-#: plugins/python/scripter/kritapykrita_scripter.desktop:43
+#: plugins/python/scripter/kritapykrita_scripter.desktop:44
 msgctxt "Comment"
 msgid "Plugin to execute ad-hoc Python code"
 msgstr ""
@@ -548,7 +548,7 @@ msgctxt "Name"
 msgid "Selections Bag Docker"
 msgstr ""
 
-#: plugins/python/selectionsbagdocker/kritapykrita_selectionsbagdocker.desktop:40
+#: plugins/python/selectionsbagdocker/kritapykrita_selectionsbagdocker.desktop:41
 msgctxt "Comment"
 msgid "A docker that allow to store a list of selections"
 msgstr ""
@@ -568,7 +568,7 @@ msgctxt "Name"
 msgid "Ten Scripts"
 msgstr ""
 
-#: plugins/python/tenscripts/kritapykrita_tenscripts.desktop:43
+#: plugins/python/tenscripts/kritapykrita_tenscripts.desktop:44
 msgctxt "Comment"
 msgid "Assign a Python script to any of ten configurable shortcuts."
 msgstr ""
@@ -578,7 +578,7 @@ msgctxt "Name"
 msgid "Workflow Buttons"
 msgstr ""
 
-#: plugins/python/workflow_buttons/kritapykrita_workflow_buttons.desktop:28
+#: plugins/python/workflow_buttons/kritapykrita_workflow_buttons.desktop:29
 msgctxt "Comment"
 msgid ""
 "A Python-based docker to create multi-action buttons to improve your "
