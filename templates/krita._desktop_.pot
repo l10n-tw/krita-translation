@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop files\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-26 00:52+0000\n"
+"POT-Creation-Date: 2026-04-05 00:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -157,8 +157,8 @@ msgid "Manga template"
 msgstr ""
 
 #: krita/data/templates/comics/Manga-JpTemplate.desktop:50
-#: krita/data/templates/comics/Tsukirino.desktop:29
-#: krita/data/templates/comics/TsukirinoF.desktop:29
+#: krita/data/templates/comics/Tsukirino.desktop:30
+#: krita/data/templates/comics/TsukirinoF.desktop:30
 msgctxt "Comment"
 msgid "template for Japanese Manga-style comics"
 msgstr ""
@@ -476,7 +476,7 @@ msgctxt "Name"
 msgid "Mutator"
 msgstr ""
 
-#: plugins/python/mutator/kritapykrita_mutator.desktop:26
+#: plugins/python/mutator/kritapykrita_mutator.desktop:27
 msgctxt "Comment"
 msgid "Manually mutate your brush and color settings to add variation."
 msgstr ""
@@ -578,7 +578,7 @@ msgctxt "Name"
 msgid "Workflow Buttons"
 msgstr ""
 
-#: plugins/python/workflow_buttons/kritapykrita_workflow_buttons.desktop:29
+#: plugins/python/workflow_buttons/kritapykrita_workflow_buttons.desktop:30
 msgctxt "Comment"
 msgid ""
 "A Python-based docker to create multi-action buttons to improve your "
