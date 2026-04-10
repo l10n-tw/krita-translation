@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop files\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-05 00:52+0000\n"
+"POT-Creation-Date: 2026-04-10 01:02+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -26,7 +26,7 @@ msgctxt "Name"
 msgid "Erasers"
 msgstr ""
 
-#: krita/data/paintoppresets/Erasers.tag:40
+#: krita/data/paintoppresets/Erasers.tag:41
 msgctxt "Comment"
 msgid "Eraser Brush Presets"
 msgstr ""
@@ -36,7 +36,7 @@ msgctxt "Name"
 msgid "★ My Favorites"
 msgstr ""
 
-#: krita/data/paintoppresets/Favorites.tag:40
+#: krita/data/paintoppresets/Favorites.tag:41
 msgctxt "Comment"
 msgid "Your favorite brush presets"
 msgstr ""
@@ -76,7 +76,7 @@ msgctxt "Name"
 msgid "Pixel Art"
 msgstr ""
 
-#: krita/data/paintoppresets/Pixel_Art.tag:40
+#: krita/data/paintoppresets/Pixel_Art.tag:41
 msgctxt "Comment"
 msgid "Presets for working with individual pixels"
 msgstr ""
@@ -157,8 +157,8 @@ msgid "Manga template"
 msgstr ""
 
 #: krita/data/templates/comics/Manga-JpTemplate.desktop:50
-#: krita/data/templates/comics/Tsukirino.desktop:30
-#: krita/data/templates/comics/TsukirinoF.desktop:30
+#: krita/data/templates/comics/Tsukirino.desktop:31
+#: krita/data/templates/comics/TsukirinoF.desktop:31
 msgctxt "Comment"
 msgid "template for Japanese Manga-style comics"
 msgstr ""
@@ -364,7 +364,7 @@ msgctxt "Name"
 msgid "Batch Exporter"
 msgstr ""
 
-#: plugins/python/batch_exporter/kritapykrita_batch_exporter.desktop:43
+#: plugins/python/batch_exporter/kritapykrita_batch_exporter.desktop:44
 msgctxt "Comment"
 msgid ""
 "Smart export tool that uses layer names to scale and (re-)export art assets "
@@ -476,7 +476,7 @@ msgctxt "Name"
 msgid "Mutator"
 msgstr ""
 
-#: plugins/python/mutator/kritapykrita_mutator.desktop:27
+#: plugins/python/mutator/kritapykrita_mutator.desktop:28
 msgctxt "Comment"
 msgid "Manually mutate your brush and color settings to add variation."
 msgstr ""
@@ -496,7 +496,7 @@ msgctxt "Name"
 msgid "Krita Photobash Images"
 msgstr ""
 
-#: plugins/python/photobash_images/kritapykrita_photobash_images.desktop:41
+#: plugins/python/photobash_images/kritapykrita_photobash_images.desktop:42
 msgctxt "Comment"
 msgid ""
 "A plugin to fetch images from a specified folder. Very useful for "
@@ -578,7 +578,7 @@ msgctxt "Name"
 msgid "Workflow Buttons"
 msgstr ""
 
-#: plugins/python/workflow_buttons/kritapykrita_workflow_buttons.desktop:30
+#: plugins/python/workflow_buttons/kritapykrita_workflow_buttons.desktop:31
 msgctxt "Comment"
 msgid ""
 "A Python-based docker to create multi-action buttons to improve your "
