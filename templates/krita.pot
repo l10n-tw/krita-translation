@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-07-16 00:41+0000\n"
+"POT-Creation-Date: 2026-07-17 00:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -41124,112 +41124,112 @@ msgstr ""
 msgid "Cr"
 msgstr ""
 
-#: plugins/color/lcms2engine/IccColorSpaceEngine.cpp:152
+#: plugins/color/lcms2engine/IccColorSpaceEngine.cpp:151
 #, kde-format
 msgid "ICC Engine"
 msgstr ""
 
-#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:156
+#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:154
 #, kde-format
 msgid "L*a*b*/8 Histogram"
 msgstr ""
 
-#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:160
+#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:158
 #, kde-format
 msgid "L*a*b*/16 Histogram"
 msgstr ""
 
-#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:164
+#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:162
 #, kde-format
 msgid "L*a*b*/32 Histogram"
 msgstr ""
 
-#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:195
+#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:200
 #, kde-format
 msgid "RGBA/8 Histogram"
 msgstr ""
 
-#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:199
+#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:204
 #, kde-format
 msgid "RGBA/16 Histogram"
 msgstr ""
 
-#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:205
+#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:210
 #, kde-format
 msgid "RGBA/F16 Histogram"
 msgstr ""
 
-#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:211
+#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:216
 #, kde-format
 msgid "RGBA/F32 Histogram"
 msgstr ""
 
-#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:232
+#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:237
 #, kde-format
 msgid "GRAY/8 Histogram"
 msgstr ""
 
-#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:236
+#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:241
 #, kde-format
 msgid "GRAY/16 Histogram"
 msgstr ""
 
-#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:241
+#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:246
 #, kde-format
 msgid "GRAYF/F16 Histogram"
 msgstr ""
 
-#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:247
+#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:252
 #, kde-format
 msgid "GRAY/F32 float Histogram"
 msgstr ""
 
-#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:257
+#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:262
 #, kde-format
 msgid "CMYK/8 Histogram"
 msgstr ""
 
-#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:261
+#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:266
 #, kde-format
 msgid "CMYK/16 Histogram"
 msgstr ""
 
-#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:265
+#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:270
 #, kde-format
 msgid "CMYK/F32 Histogram"
 msgstr ""
 
-#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:283
+#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:288
 #, kde-format
 msgid "XYZ/8 Histogram"
 msgstr ""
 
-#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:287
+#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:292
 #, kde-format
 msgid "XYZ/16 Histogram"
 msgstr ""
 
-#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:293
+#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:298
 #, kde-format
 msgid "XYZ/F16 Histogram"
 msgstr ""
 
-#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:299
+#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:304
 #, kde-format
 msgid "XYZF32 Histogram"
 msgstr ""
 
-#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:312
+#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:317
 #, kde-format
 msgid "YCbCr/8 Histogram"
 msgstr ""
 
-#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:316
+#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:321
 #, kde-format
 msgid "YCbCr/16 Histogram"
 msgstr ""
 
-#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:320
+#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:325
 #, kde-format
 msgid "YCbCr/F32 Histogram"
 msgstr ""
@@ -53831,7 +53831,7 @@ msgctxt "JPEG-XL"
 msgid "Invalid JPEG-XL layer name length"
 msgstr ""
 
-#: plugins/impex/jxl/JPEGXLImport.cpp:929
+#: plugins/impex/jxl/JPEGXLImport.cpp:931
 #, kde-format
 msgctxt "JPEG-XL errors"
 msgid "The animation declares a frame rate of more than 240 FPS."
