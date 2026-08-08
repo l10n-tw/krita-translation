@@ -1,0 +1,189 @@
+# Translations template for PROJECT.
+# Copyright (C) 2026 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-08-08 00:42+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+msgctxt "remote_action_click"
+msgid "Press"
+msgstr ""
+
+msgctxt "remote_action_doubleclick"
+msgid "Double Press"
+msgstr ""
+
+msgctxt "remote_action_swipeup"
+msgid "Swipe Up"
+msgstr ""
+
+msgctxt "remote_action_swipedown"
+msgid "Swipe Down"
+msgstr ""
+
+msgctxt "remote_action_swipeleft"
+msgid "Swipe Left"
+msgstr ""
+
+msgctxt "remote_action_swiperight"
+msgid "Swipe Right"
+msgstr ""
+
+msgctxt "remote_action_circlecw"
+msgid "Circle Clockwise"
+msgstr ""
+
+msgctxt "remote_action_circleccw"
+msgid "Circle Counter-Clockwise"
+msgstr ""
+
+msgctxt "something_wrong"
+msgid "Something went wrong..."
+msgstr ""
+
+msgctxt "cancelled"
+msgid "Cancelled"
+msgstr ""
+
+msgctxt "save_notification_text"
+msgid "Saving Document"
+msgstr ""
+
+msgctxt "cancel_save_notification"
+msgid "Cancel"
+msgstr ""
+
+msgctxt "donation_dialog_loading"
+msgid "Krita is loading…"
+msgstr ""
+
+msgctxt "donation_dialog_loaded"
+msgid "Krita is ready!"
+msgstr ""
+
+msgctxt "donation_dialog_button_back"
+msgid "Back"
+msgstr ""
+
+msgctxt "donation_dialog_button_close"
+msgid "Close"
+msgstr ""
+
+msgctxt "donation_dialog_header_support"
+msgid "Support Krita"
+msgstr ""
+
+msgctxt "donation_dialog_header_button"
+msgid "♥︎ Show Supporter Options"
+msgstr ""
+
+msgctxt "donation_dialog_supporter_text"
+msgid ""
+"Thank you for supporting Krita! Your contribution helps to keep its "
+"continued development going."
+msgstr ""
+
+msgctxt "product_donations_description"
+msgid ""
+"&lt;h2&gt;Donations&lt;/h2&gt;&lt;p&gt;Help Krita's continued development"
+" with a direct donation through PayPal, via credit or debit card and many"
+" other payment methods.&lt;/p&gt;"
+msgstr ""
+
+msgctxt "product_donations_button"
+msgid "Donate"
+msgstr ""
+
+msgctxt "product_development_fund_description"
+msgid ""
+"&lt;h2&gt;Development Fund&lt;/h2&gt;&lt;p&gt;Join Krita's development "
+"fund and help its continued development with a monthly contribution. "
+"Different tiers with benefits are available.&lt;/p&gt;"
+msgstr ""
+
+msgctxt "product_development_fund_button"
+msgid "Join the Fund"
+msgstr ""
+
+msgctxt "product_button_subscribe"
+msgid "Subscribe"
+msgstr ""
+
+#, c-format
+msgctxt "product_button_subscribe_for_month"
+msgid "Subscribe for %s/month"
+msgstr ""
+
+msgctxt "product_button_buy"
+msgid "Buy"
+msgstr ""
+
+#, c-format
+msgctxt "product_button_buy_for"
+msgid "Buy for %s"
+msgstr ""
+
+msgctxt "product_supporter_badge_title"
+msgid "Supporter Badge"
+msgstr ""
+
+msgctxt "product_supporter_badge_description"
+msgid "&lt;p&gt;A badge for early supporters of Krita on Android.&lt;/p&gt;"
+msgstr ""
+
+msgctxt "product_subscription_title"
+msgid "Supporter Subscription"
+msgstr ""
+
+#, c-format
+msgctxt "product_subscription_description"
+msgid ""
+"&lt;p&gt;Support Krita's development with a monthly contribution. While "
+"subscribed, you get access to &lt;strong&gt;all&lt;/strong&gt; supporter "
+"benefits as they are released. You currently receive %1$d resource "
+"bundles together containing over %2$d brushes, including the paid Digital"
+" Atelier bundle, with more planned in the future.&lt;/p&gt;"
+msgstr ""
+
+msgctxt "product_onetime_title"
+msgid "Krita 5.3 Supporter Pack"
+msgstr ""
+
+#, c-format
+msgctxt "product_onetime_description"
+msgid ""
+"&lt;p&gt;In this pack you will receive %1$d resource bundles together "
+"containing over %2$d brushes, including the paid Digital Atelier bundle. "
+"This is a &lt;strong&gt;one-time purchase&lt;/strong&gt;, you won't be "
+"entered into a subscription.&lt;/p&gt;"
+msgstr ""
+
+msgctxt "show_this_dialog_when_krita_starts"
+msgid "Show this dialog when Krita starts"
+msgstr ""
+
+msgctxt "ok"
+msgid "OK"
+msgstr ""
+
+#, c-format
+msgctxt "interface_scale_default"
+msgid "Interface scale: %d%% (default)"
+msgstr ""
+
+#, c-format
+msgctxt "interface_scale"
+msgid "Interface scale: %d%%"
+msgstr ""
