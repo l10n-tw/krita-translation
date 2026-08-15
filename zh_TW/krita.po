@@ -7,14 +7,14 @@
 # Alvin Wong <alvin@alvinhc.com>, 2020, 2021, 2022, 2023, 2025.
 # BiseChen <bise.chen@gmail.com>, 2021.
 # Yi-Jyun Pan <pan93412@gmail.com>, 2022.
-# SPDX-FileCopyrightText: 2025 Kisaragi Hiu <mail@kisaragi-hiu.com>
+# SPDX-FileCopyrightText: 2025 Kisaragi Hiu <mail@kisaragi-hiu.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-02-04 00:42+0000\n"
-"PO-Revision-Date: 2025-11-19 08:30+0000\n"
-"Last-Translator: Alvin Wong <alvin@alvinhc.com>\n"
+"PO-Revision-Date: 2026-08-15 11:43+0000\n"
+"Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://weblate.slat.org/"
 "projects/krita/krita/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.13.2\n"
+"X-Generator: Weblate 2026.8\n"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
@@ -18977,8 +18977,7 @@ msgid "CJK Unified Ideographs Extension H"
 msgstr ""
 
 #: libs/flake/text/data/KoUnicodeBlockData.cpp:355
-#, fuzzy, kde-format
-#| msgid "Tags"
+#, kde-format
 msgctxt "@title"
 msgid "Tags"
 msgstr "標籤"
