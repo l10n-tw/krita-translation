@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop files\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-23 01:05+0000\n"
+"POT-Creation-Date: 2026-11-05 01:05+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -121,7 +121,7 @@ msgctxt "Name"
 msgid "waffle-iron grid"
 msgstr ""
 
-#: krita/data/templates/comics/a4_waffle_grid.desktop:50
+#: krita/data/templates/comics/a4_waffle_grid.desktop:49
 msgctxt "Comment"
 msgid "300 dpi, A4 waffle-iron grid comic page with ink and color layers"
 msgstr ""
@@ -375,7 +375,7 @@ msgctxt "Name"
 msgid "Channels to layers"
 msgstr ""
 
-#: plugins/python/channels2layers/kritapykrita_channels2layers.desktop:47
+#: plugins/python/channels2layers/kritapykrita_channels2layers.desktop:46
 msgctxt "Comment"
 msgid "Extract channels as color layers"
 msgstr ""
@@ -495,7 +495,7 @@ msgctxt "Name"
 msgid "Krita Photobash Images"
 msgstr ""
 
-#: plugins/python/photobash_images/kritapykrita_photobash_images.desktop:44
+#: plugins/python/photobash_images/kritapykrita_photobash_images.desktop:43
 msgctxt "Comment"
 msgid ""
 "A plugin to fetch images from a specified folder. Very useful for "
@@ -507,7 +507,7 @@ msgctxt "Name"
 msgid "Python Plugin Importer"
 msgstr ""
 
-#: plugins/python/plugin_importer/kritapykrita_plugin_importer.desktop:46
+#: plugins/python/plugin_importer/kritapykrita_plugin_importer.desktop:45
 msgctxt "Comment"
 msgid "Imports Python plugins from zip files."
 msgstr ""
