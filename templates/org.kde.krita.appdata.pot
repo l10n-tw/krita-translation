@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-09-18 00:43+0000\n"
+"POT-Creation-Date: 2026-11-06 00:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -79,14 +79,9 @@ msgstr ""
 msgid "Join our Youtube channel!"
 msgstr ""
 
-#. (itstool) path: caption/a
-#: org.kde.krita.appdata.xml:62
-msgid "Krita Artists community"
-msgstr ""
-
 #. (itstool) path: screenshot/caption
 #: org.kde.krita.appdata.xml:62
-msgid "Or the active <_:a-1/>"
+msgid "Or the active"
 msgstr ""
 
 #. (itstool) path: description/p
